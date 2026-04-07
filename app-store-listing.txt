@@ -1,0 +1,166 @@
+================================================================================
+MYREPS - APP STORE LISTING
+================================================================================
+
+1. APP NAME (30 char max)
+-------------------------
+MyReps
+
+Character count: 6
+
+
+2. SUBTITLE (30 char max)
+-------------------------
+Know Your Representatives
+
+Character count: 25
+
+
+3. DESCRIPTION (4000 char max)
+------------------------------
+Do you know who represents you? From your local city council to the U.S. Senate, MyReps puts every elected official at your fingertips — along with the tools you need to hold them accountable.
+
+MyReps is the civic engagement app built for Americans who take their constitutional rights seriously. Whether you're preparing for Election Day, tracking how your representatives vote on the issues that matter most, or looking up who represents your district, MyReps makes it simple.
+
+FIND YOUR REPRESENTATIVES
+Enter your address and instantly see every elected official who represents you — federal, state, and local. View their contact information, office addresses, committee assignments, and more. Works for all 50 states.
+
+CONSTITUTIONAL ALIGNMENT SCORECARD
+How does your representative measure up? Our exclusive scorecard grades every legislator (A through F) on six core constitutional issues:
+- Pro-Life
+- Traditional Marriage
+- Religious Liberty
+- Second Amendment
+- Limited Government
+- Fiscal Responsibility
+
+INTERACTIVE DISTRICT MAPS
+Explore your congressional and state legislative districts with full interactive maps. See exactly where district boundaries fall and who represents each area.
+
+CONTACT YOUR REPRESENTATIVES
+Make your voice heard. Call, email, or write letters to your representatives directly from the app. Advocacy has never been easier.
+
+ELECTION CENTER
+Stay informed with upcoming election dates, candidate information, and polling locations. Add election dates directly to your calendar so you never miss a vote.
+
+MY BALLOT PLANNER
+Research candidates and plan your vote before Election Day. Walk into the polling place confident and prepared with your personalized ballot plan.
+
+COMMUNITY PULSE
+See how other engaged citizens in your area are planning to vote. Get a pulse on community sentiment and stay connected with like-minded voters.
+
+VOTER REGISTRATION
+Check your voter registration status instantly. MyReps provides direct links to your state's official registration portal for all 50 states. No excuses — make sure you're registered.
+
+CAMPAIGN FINANCE
+Follow the money. View campaign finance data sourced directly from the Federal Election Commission (FEC) so you know who funds your representatives.
+
+FOUNDING DOCUMENTS LIBRARY
+Carry the Constitution, Bill of Rights, all 27 Amendments, and timeless quotes from the Founding Fathers in your pocket. The principles that built this nation, always accessible.
+
+BUILT FOR YOUR LIFESTYLE
+- Dark Mode for comfortable reading day or night
+- Offline Support so you have access even without a connection
+- Cloud Sync keeps your profile and preferences across all your devices
+- Clean, intuitive design that makes civic engagement effortless
+
+MyReps was built with a heart for Michigan but works nationwide. Whether you live in Detroit or Dallas, rural Montana or downtown Miami, you deserve to know who represents you and how they're voting.
+
+Your representatives work for you. It's time to start holding them accountable. Download MyReps today and become the informed, engaged citizen our republic needs.
+
+
+4. KEYWORDS (100 char max, comma-separated)
+--------------------------------------------
+representatives,voter,election,congress,scorecard,ballot,district,civic,conservative,constitution
+
+Character count: 98
+
+
+5. CATEGORIES
+-------------
+Primary:   Reference
+Secondary: News
+
+
+6. AGE RATING
+-------------
+4+
+
+No objectionable content. App provides factual civic and government information.
+
+
+7. WHAT'S NEW (v1.0)
+---------------------
+Welcome to MyReps! This is our initial release. Here's what's inside:
+
+- Look up your federal, state, and local representatives by address
+- Constitutional Alignment Scorecard with A-F grades on 6 key issues
+- Interactive congressional and state legislative district maps
+- Election dates with calendar integration
+- My Ballot planner to prepare your vote ahead of time
+- Community Pulse to see how others plan to vote
+- Voter registration status check for all 50 states
+- Contact your reps: call, email, or write letters
+- FEC campaign finance data
+- Founding documents, amendments, and Founding Fathers' quotes
+- Dark mode and offline support
+- Profile with cloud sync across devices
+
+We'd love your feedback! Leave a review or reach out through the app.
+
+
+8. PROMOTIONAL TEXT (170 char max)
+----------------------------------
+Election season is here. Know your representatives, check their constitutional scorecard, plan your ballot, and make your voice heard. Download MyReps today.
+
+Character count: 157
+
+
+9. PRIVACY POLICY URL
+---------------------
+[PLACEHOLDER - REQUIRED BEFORE SUBMISSION]
+
+You must provide a valid privacy policy URL before submitting to App Store Review.
+Suggested URL: https://myrepsapp.com/privacy
+or host on your app's domain/landing page.
+
+Note: Your privacy policy should disclose:
+- Data collected (address for rep lookup, profile info, voting preferences)
+- GoHighLevel CRM integration and any data shared with it
+- Cloud sync data storage
+- Community Pulse anonymized/aggregated data usage
+- Any analytics or third-party SDKs
+
+
+10. SUPPORT URL
+---------------
+[PLACEHOLDER - REQUIRED BEFORE SUBMISSION]
+
+Suggested URL: https://myrepsapp.com/support
+or an email address like: support@myrepsapp.com
+
+
+================================================================================
+NOTES FOR SUBMISSION
+================================================================================
+
+- Screenshots required: 6.7" (iPhone 15 Pro Max) and 6.5" (iPhone 11 Pro Max)
+  minimum. iPad screenshots recommended. Suggested screens to capture:
+  1. Representative lookup results
+  2. Constitutional Alignment Scorecard
+  3. Interactive district map
+  4. Election center / My Ballot
+  5. Founding documents library
+  6. Community Pulse
+
+- App Preview Video (optional but recommended): 15-30 second demo showing
+  address entry, rep results, scorecard, and map interaction.
+
+- You will need to fill out the App Privacy section in App Store Connect
+  detailing data collection (location, contacts, identifiers, usage data, etc.)
+
+- The GoHighLevel CRM integration should be disclosed if any user data is
+  transmitted to external services.
+
+- Consider adding an App Store Connect "App Clip" or "In-App Events" for
+  election season promotion.

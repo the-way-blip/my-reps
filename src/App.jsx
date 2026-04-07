@@ -15,6 +15,8 @@ const BallotView = React.lazy(() => import('./pages/BallotView'))
 const CommunityView = React.lazy(() => import('./pages/CommunityView'))
 const SettingsView = React.lazy(() => import('./pages/SettingsView'))
 const ProfileView = React.lazy(() => import('./pages/ProfileView'))
+const PrivacyView = React.lazy(() => import('./pages/PrivacyView'))
+const TermsView = React.lazy(() => import('./pages/TermsView'))
 
 const LazyFallback = (
   <div className="loader"><div className="spinner" /></div>
@@ -39,6 +41,8 @@ export default function App() {
               <Route path="community" element={<CommunityView />} />
               <Route path="settings" element={<SettingsView />} />
               <Route path="profile" element={<ProfileView />} />
+              <Route path="privacy" element={<PrivacyView />} />
+              <Route path="terms" element={<TermsView />} />
               <Route path="documents" element={<Navigate to="/founding" replace />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Route>
