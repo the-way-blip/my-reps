@@ -1,4 +1,7 @@
 {
+  "buildCommand": "npm run build",
+  "installCommand": "npm install --legacy-peer-deps",
+  "framework": "vite",
   "rewrites": [
     { "source": "/api/census/:path*", "destination": "/api/census/[...path]" },
     { "source": "/api/congress/:path*", "destination": "/api/congress/[...path]" },
