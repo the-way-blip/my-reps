@@ -1,0 +1,22 @@
+{
+  "appId": "com.myreps.app",
+  "appName": "MyReps",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "ios": {
+    "contentInset": "automatic",
+    "preferredContentMode": "mobile",
+    "backgroundColor": "#0b1221"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "backgroundColor": "#0b1221",
+      "showSpinner": false,
+      "androidSpinnerStyle": "small",
+      "spinnerColor": "#c5a44e"
+    }
+  }
+}
