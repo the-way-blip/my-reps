@@ -1,0 +1,59 @@
+.offline-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px 16px;
+  background: #fbbf24;
+  color: #78350f;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offline-banner-text {
+  text-align: center;
+}
+
+.offline-banner-dismiss {
+  background: none;
+  border: none;
+  color: #78350f;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+
+.offline-banner-dismiss:hover {
+  opacity: 1;
+}
+
+/* Dark mode */
+[data-theme="dark"] .offline-banner {
+  background: #92400e;
+  color: #fef3c7;
+}
+
+[data-theme="dark"] .offline-banner-dismiss {
+  color: #fef3c7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .offline-banner {
+    background: #92400e;
+    color: #fef3c7;
+  }
+
+  :root:not([data-theme="light"]) .offline-banner-dismiss {
+    color: #fef3c7;
+  }
+}
