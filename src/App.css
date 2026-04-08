@@ -7435,3 +7435,73 @@ button.election-card {
     width: 100%;
   }
 }
+
+/* ── Committee Assignments ── */
+.committee-section {
+  padding-bottom: 1rem;
+}
+
+.committee-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.committee-item {
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  background: var(--card-bg, #f8f9fa);
+  border: 1px solid var(--border);
+}
+
+.committee-name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.committee-name {
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: var(--text);
+}
+
+.committee-role {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: var(--accent, #2563eb);
+  color: #fff;
+  white-space: nowrap;
+}
+
+.committee-subcommittees {
+  list-style: none;
+  padding: 0;
+  margin: 0.4rem 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.committee-subcommittees li {
+  font-size: 0.8rem;
+  color: var(--muted);
+  position: relative;
+  padding-left: 0.85rem;
+}
+
+.committee-subcommittees li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}

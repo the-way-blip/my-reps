@@ -35,19 +35,19 @@ const STATE_EXECUTIVE = {
     { name: 'Garlin Gilchrist II', title: 'Lt. Governor', party: 'Democratic', photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/8R4A9159_%2853359280492%29_%28Garlin_Gilchrist%29.jpg/220px-8R4A9159_%2853359280492%29_%28Garlin_Gilchrist%29.jpg', source: 'executive' },
     { name: 'Dana Nessel', title: 'Attorney General', party: 'Democratic', photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Dana_Nessel_Michigan_Is_Preparing_for_%27Every_Scenario%27_on_Election_Day_THE_CIRCUS_SHOWTIME_0-25_screenshot_%28cropped%29.jpg/220px-Dana_Nessel_Michigan_Is_Preparing_for_%27Every_Scenario%27_on_Election_Day_THE_CIRCUS_SHOWTIME_0-25_screenshot_%28cropped%29.jpg', source: 'executive' },
     { name: 'Jocelyn Benson', title: 'Secretary of State', party: 'Democratic', photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/SOS_Jocelyn_Benson_web.jpg/220px-SOS_Jocelyn_Benson_web.jpg', source: 'executive' },
-    { name: 'Rachael Eubanks', title: 'State Treasurer', party: 'Democratic', photoUrl: null, source: 'executive' },
+    { name: 'Rachael Eubanks', title: 'State Treasurer', party: 'Democratic', photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/National_Association_of_State_Treasurers_Conference_-_54597413425_%28cropped%29.jpg/220px-National_Association_of_State_Treasurers_Conference_-_54597413425_%28cropped%29.jpg', source: 'executive' },
   ],
 }
 
 const STATE_JUDICIARY = {
   Michigan: [
-    { name: 'Megan Cavanagh', title: 'Chief Justice', party: 'Democratic', photoUrl: null, source: 'judiciary' },
+    { name: 'Megan Cavanagh', title: 'Chief Justice', party: 'Democratic', photoUrl: 'https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/cavanagh_headshot_2.jpg', source: 'judiciary' },
     { name: 'Richard Bernstein', title: 'Justice', party: 'Democratic', photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Justice_Richard_Bernstein_in_Shanghai_02_%28cropped%29.jpg/220px-Justice_Richard_Bernstein_in_Shanghai_02_%28cropped%29.jpg', source: 'judiciary' },
-    { name: 'Elizabeth Welch', title: 'Justice', party: 'Democratic', photoUrl: null, source: 'judiciary' },
+    { name: 'Elizabeth Welch', title: 'Justice', party: 'Democratic', photoUrl: 'https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ElizabethWelch1.png', source: 'judiciary' },
     { name: 'Kyra Harris Bolden', title: 'Justice', party: 'Democratic', photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Kyra_Harris_Bolden_%2852956402853%29_%281%29.jpg/220px-Kyra_Harris_Bolden_%2852956402853%29_%281%29.jpg', source: 'judiciary' },
-    { name: 'Kimberly Thomas', title: 'Justice', party: 'Democratic', photoUrl: null, source: 'judiciary' },
-    { name: 'Brian Zahra', title: 'Justice', party: 'Republican', photoUrl: null, source: 'judiciary' },
-    { name: 'Andrew Fink', title: 'Justice', party: 'Republican', photoUrl: null, source: 'judiciary' },
+    { name: 'Kimberly Thomas', title: 'Justice', party: 'Democratic', photoUrl: 'https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/KimberlyThomasMI24.png', source: 'judiciary' },
+    { name: 'Brian Zahra', title: 'Justice', party: 'Republican', photoUrl: 'https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/BZahraMI.jpg', source: 'judiciary' },
+    { name: 'Andrew Fink', title: 'Justice', party: 'Republican', photoUrl: 'https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/AndrewFink1.jpg', source: 'judiciary' },
   ],
 }
 

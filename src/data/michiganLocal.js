@@ -505,33 +505,6 @@ export const MI_COUNTY_OFFICIALS = {
     ],
   },
 
-  Delta: {
-    name: 'Delta County',
-    website: 'https://deltacountymi.gov',
-    phone: '906-789-5100',
-    officials: [
-      { name: 'John Malnar', title: 'Commissioner (District 1)', party: null, district: 1 },
-      { name: 'Patrick Johnson', title: 'Commissioner (District 2)', party: null, district: 2 },
-      { name: 'Christine Williams', title: 'Commissioner (District 3)', party: null, district: 3 },
-      { name: 'Kelli vanGinhoven', title: 'Commissioner (District 4)', party: null, district: 4 },
-      { name: 'Matthew Jensen', title: 'Commissioner (District 5)', party: null, district: 5 },
-    ],
-  },
-
-  Dickinson: {
-    name: 'Dickinson County',
-    website: 'https://www.dickinsoncountymi.gov',
-    phone: '906-774-0988',
-    officials: [
-      { name: 'Brian Bousley', title: 'Controller/Administrator', party: null },
-      { name: 'Joe Stevens', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
-      { name: 'Kevin Sullivan', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
-      { name: 'Dan Harrington', title: 'Board Chair (District 3)', party: 'Republican', district: 3 },
-      { name: 'Peter Swanson', title: 'Vice Chair (District 4)', party: 'Republican', district: 4 },
-      { name: 'Victoria Jakel', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
-    ],
-  },
-
   'St. Clair': {
     name: 'St. Clair County',
     website: 'https://www.stclaircounty.org',
@@ -1383,25 +1356,6 @@ export const MI_COUNTY_OFFICIALS = {
     ],
   },
 
-  Alpena: {
-    name: 'Alpena County',
-    website: 'https://www.alpenacounty.org',
-    officials: [
-      { name: 'John Kozlowski', title: 'Commissioner, District 8 (Chairman)', party: 'Republican', district: 8 },
-      { name: 'Bill Peterson', title: 'Commissioner, District 4 (Vice Chairman)', party: 'Republican', district: 4 },
-      { name: 'William LaHaie', title: 'Commissioner, District 1', party: 'Republican', district: 1 },
-      { name: 'Dan Ludlow', title: 'Commissioner, District 2', party: 'Democratic', district: 2 },
-      { name: 'Lucille Bray', title: 'Commissioner, District 3', party: 'Independent', district: 3 },
-      { name: 'Brenda Fournier', title: 'Commissioner, District 5', party: 'Republican', district: 5 },
-      { name: 'Todd Britton', title: 'Commissioner, District 6', party: 'Republican', district: 6 },
-      { name: 'Travis Konarzewski', title: 'Commissioner, District 7', party: 'Republican', district: 7 },
-      { name: 'Keri Bertrand', title: 'County Clerk', party: 'Republican' },
-      { name: 'Cindy Cebula', title: 'County Treasurer', party: 'Republican' },
-      { name: 'Erik Smith', title: 'Sheriff', party: 'Republican' },
-      { name: 'Cynthia M. Muszynski', title: 'Prosecuting Attorney', party: 'Republican' },
-    ],
-  },
-
   Chippewa: {
     name: 'Chippewa County',
     website: 'https://www.chippewacountymi.gov',
@@ -1420,20 +1374,6 @@ export const MI_COUNTY_OFFICIALS = {
     ],
   },
 
-  Cheboygan: {
-    name: 'Cheboygan County',
-    website: 'https://www.cheboygancounty.net',
-    officials: [
-      { name: 'Jeff Ostman', title: 'Commissioner, District 1', party: 'Republican', district: 1 },
-      { name: 'Richard Sangster', title: 'Commissioner, District 2', party: 'Republican', district: 2 },
-      { name: 'Michael Newman', title: 'Commissioner, District 3', party: 'Republican', district: 3 },
-      { name: 'Thomas E. Eustice', title: 'Commissioner, District 4', party: 'Republican', district: 4 },
-      { name: 'Dale Clarmont', title: 'Commissioner, District 5', party: 'Republican', district: 5 },
-      { name: 'John B. Wallace', title: 'Commissioner, District 6', party: 'Republican', district: 6 },
-      { name: 'Steve Warfield', title: 'Commissioner, District 7', party: 'Republican', district: 7 },
-    ],
-  },
-
   Clare: {
     name: 'Clare County',
     website: 'https://www.clareco.net',
@@ -1448,40 +1388,6 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Jeff Haskell', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
       { name: 'Carl Littlefield', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
       { name: 'Samantha Pung', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
-    ],
-  },
-
-  Otsego: {
-    name: 'Otsego County',
-    website: 'https://www.otsegocountymi.gov',
-    officials: [
-      { name: 'Brett McVannel', title: 'Commissioner, District 4 (Chairperson)', party: 'Republican', district: 4 },
-      { name: 'Dana Wingo', title: 'Commissioner, District 8 (Vice Chairperson)', party: 'Republican', district: 8 },
-      { name: 'Terra Deming', title: 'Commissioner, District 1', party: 'Republican', district: 1 },
-      { name: 'Henry Mason', title: 'Commissioner, District 2', party: 'Republican', district: 2 },
-      { name: 'Jonathan Turnbull', title: 'Commissioner, District 3', party: 'Republican', district: 3 },
-      { name: 'Jason Clement', title: 'Commissioner, District 5', party: 'Republican', district: 5 },
-      { name: 'Christi Sortor', title: 'Commissioner, District 6', party: 'Republican', district: 6 },
-      { name: 'Neil Drzewiecki', title: 'Commissioner, District 7', party: 'Republican', district: 7 },
-      { name: 'Rob Weaver', title: 'Commissioner, District 9', party: 'Republican', district: 9 },
-      { name: 'Kathy Gardner', title: 'County Clerk / Register of Deeds', party: null },
-      { name: 'Allen Ruffles', title: 'County Treasurer', party: null },
-      { name: 'Matthew Nowicki', title: 'Sheriff', party: null },
-      { name: 'Michael A. Rola', title: 'Prosecuting Attorney', party: null },
-    ],
-  },
-
-  'Presque Isle': {
-    name: 'Presque Isle County',
-    website: 'https://presqueislecounty.org',
-    officials: [
-      { name: 'Clifford Tollini', title: 'Commissioner, District 1 (Chairman)', party: 'Republican', district: 1 },
-      { name: 'Robert Brietzke', title: 'Commissioner, District 2', party: 'Republican', district: 2 },
-      { name: 'Robin Hughes', title: 'Commissioner, District 3', party: 'Independent', district: 3 },
-      { name: 'Joseph Libby', title: 'Commissioner, District 4 (Vice Chairman)', party: 'Republican', district: 4 },
-      { name: 'Robert Crook', title: 'Commissioner, District 5', party: 'Republican', district: 5 },
-      { name: 'Darrin Darga', title: 'County Clerk', party: null },
-      { name: 'Valerie Sue Peacock', title: 'County Treasurer', party: null },
     ],
   },
 

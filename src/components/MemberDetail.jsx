@@ -6,6 +6,7 @@ import ShareButton from './ui/ShareButton'
 import ScorecardShare from './ui/ScorecardShare'
 import { IDEOLOGY_SCORES } from '../data/ideologyScores'
 import { REP_ALIGNMENT, SCORECARD_ISSUES, gradeColor } from '../data/foundingValues'
+import { COMMITTEE_ASSIGNMENTS } from '../data/committeeAssignments'
 import FreshnessIndicator from './ui/FreshnessIndicator'
 
 const PHOTO_FALLBACK = id =>
@@ -476,6 +477,32 @@ export default function MemberDetail({ member, onClose }) {
                 )}
               </div>
             )}
+          </div>
+        )}
+
+        {/* Committee Assignments — only for federal legislators */}
+        {!stateLevel && !isCivic && !isBranch && COMMITTEE_ASSIGNMENTS[member.bioguideId] && (
+          <div className="detail-section committee-section">
+            <h3 className="section-title">Committee Assignments</h3>
+            <ul className="committee-list">
+              {COMMITTEE_ASSIGNMENTS[member.bioguideId].committees.map((c, i) => (
+                <li key={i} className="committee-item">
+                  <div className="committee-name-row">
+                    <span className="committee-name">{c.name}</span>
+                    {c.role !== 'Member' && (
+                      <span className="committee-role">{c.role}</span>
+                    )}
+                  </div>
+                  {c.subcommittees.length > 0 && (
+                    <ul className="committee-subcommittees">
+                      {c.subcommittees.map((sub, j) => (
+                        <li key={j}>{sub}</li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
           </div>
         )}
 

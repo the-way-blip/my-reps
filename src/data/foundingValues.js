@@ -360,57 +360,376 @@ export const REP_ALIGNMENT = {
     life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
     overall: 'A',
     sources: ['Heritage Action: 82%', 'FRC Action: 100%', 'NRA: A'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 26 - Born-Alive Abortion Survivors Protection Act', vote: 'Yea', year: 2023, good: true },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Conscience Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Concealed Carry Reciprocity Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 382 - HALT Mandates Act (vaccine mandate)', vote: 'Yea', year: 2023, good: true },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Nay', year: 2024, good: true },
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Yea', year: 2023, good: true },
+      ],
+    },
   },
   'M001194': { // John Moolenaar (MI-2, R)
     life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
     overall: 'A',
     sources: ['Heritage Action: 78%', 'FRC Action: 100%', 'NRA: A'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Nay', year: 2022, good: true },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Conscience Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'Protecting Religious Liberty in the Military', vote: 'Yea', year: 2023, good: true },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Nay', year: 2021, good: true },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 382 - HALT Mandates Act (vaccine mandate)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'Defund IRS Expansion Act', vote: 'Yea', year: 2023, good: true },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Nay', year: 2024, good: true },
+      ],
+    },
   },
   'S001227': { // Hillary Scholten (MI-3, D)
     life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
     overall: 'F',
     sources: ['Heritage Action: 4%', 'FRC Action: 0%', 'NRA: F'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'Women\'s Health Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+      ],
+      marriage: [
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+        { bill: 'Respect for Marriage Act defense', vote: 'Yea', year: 2023, good: false },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+        { bill: 'Conscience Protection Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Yea', year: 2023, good: false },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Yea', year: 2023, good: false },
+        { bill: 'Concealed Carry Reciprocity Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'HR 382 - HALT Mandates Act (vaccine mandate)', vote: 'Nay', year: 2023, good: false },
+      ],
+      fiscal: [
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Nay', year: 2023, good: false },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Yea', year: 2024, good: false },
+        { bill: 'Fiscal Responsibility Act (debt ceiling deal)', vote: 'Yea', year: 2023, good: false },
+      ],
+    },
   },
   'H001058': { // Bill Huizenga (MI-4, R)
     life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
     overall: 'A',
     sources: ['Heritage Action: 76%', 'FRC Action: 100%', 'NRA: A'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'No Taxpayer Funding for Abortion Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Conscience Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Concealed Carry Reciprocity Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'Defund IRS Expansion Act', vote: 'Yea', year: 2023, good: true },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Nay', year: 2024, good: true },
+      ],
+    },
   },
   'W000798': { // Tim Walberg (MI-5, R)
     life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
     overall: 'A',
     sources: ['Heritage Action: 90%', 'FRC Action: 100%', 'NRA: A+'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'Pain-Capable Unborn Child Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Conscience Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'Protecting Religious Liberty in the Military', vote: 'Yea', year: 2023, good: true },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Concealed Carry Reciprocity Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 382 - HALT Mandates Act (vaccine mandate)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'Defund IRS Expansion Act', vote: 'Yea', year: 2023, good: true },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Nay', year: 2024, good: true },
+      ],
+    },
   },
   'D000624': { // Debbie Dingell (MI-6, D)
     life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
     overall: 'F',
     sources: ['Heritage Action: 2%', 'FRC Action: 0%', 'NRA: F'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'Women\'s Health Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2021, good: false },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2021, good: false },
+        { bill: 'Conscience Protection Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Yea', year: 2021, good: false },
+        { bill: 'Ethan\'s Law (safe gun storage)', vote: 'Yea', year: 2023, good: false },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'Build Back Better Act ($1.75T)', vote: 'Yea', year: 2021, good: false },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Yea', year: 2024, good: false },
+        { bill: 'American Rescue Plan ($1.9T)', vote: 'Yea', year: 2021, good: false },
+      ],
+    },
   },
   'S001215': { // Haley Stevens (MI-11, D)
     life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
     overall: 'F',
     sources: ['Heritage Action: 3%', 'FRC Action: 0%', 'NRA: F'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Yea', year: 2022, good: false },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2021, good: false },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2021, good: false },
+        { bill: 'Conscience Protection Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Yea', year: 2021, good: false },
+        { bill: 'Concealed Carry Reciprocity Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'Build Back Better Act ($1.75T)', vote: 'Yea', year: 2021, good: false },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Yea', year: 2024, good: false },
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Nay', year: 2023, good: false },
+      ],
+    },
   },
   'T000481': { // Rashida Tlaib (MI-12, D)
     life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
     overall: 'F',
     sources: ['Heritage Action: 0%', 'FRC Action: 0%', 'NRA: F'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'HR 3755 - Women\'s Health Protection Act (cosponsor)', vote: 'Yea', year: 2022, good: false },
+        { bill: 'Women\'s Health Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2021, good: false },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2021, good: false },
+        { bill: 'Do No Harm Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+        { bill: 'Conscience Protection Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Yea', year: 2021, good: false },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'Green New Deal Resolution (cosponsor)', vote: 'Yea', year: 2023, good: false },
+        { bill: 'Medicare for All Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Nay', year: 2022, good: false },
+        { bill: 'American Rescue Plan ($1.9T)', vote: 'Yea', year: 2021, good: false },
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Nay', year: 2023, good: false },
+      ],
+    },
   },
   'T000482': { // Shri Thanedar (MI-13, D)
     life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
     overall: 'F',
     sources: ['Heritage Action: 2%', 'FRC Action: 0%', 'NRA: F'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'Women\'s Health Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+      ],
+      marriage: [
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+        { bill: 'Respect for Marriage Act defense', vote: 'Yea', year: 2023, good: false },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2023, good: false },
+        { bill: 'Conscience Protection Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Yea', year: 2023, good: false },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Yea', year: 2023, good: false },
+        { bill: 'Concealed Carry Reciprocity Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'HR 382 - HALT Mandates Act (vaccine mandate)', vote: 'Nay', year: 2023, good: false },
+      ],
+      fiscal: [
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Nay', year: 2023, good: false },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Yea', year: 2024, good: false },
+        { bill: 'Fiscal Responsibility Act (debt ceiling deal)', vote: 'Yea', year: 2023, good: false },
+      ],
+    },
   },
   // Michigan Senators
   'P000595': { // Gary Peters (D)
     life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
     overall: 'F',
     sources: ['Heritage Action: 3%', 'FRC Action: 0%', 'NRA: F'],
+    votes: {
+      life: [
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'S 4132 - Reproductive Freedom for All Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 5 - Equality Act', vote: 'Yea', year: 2021, good: false },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act', vote: 'Yea', year: 2021, good: false },
+        { bill: 'Religious liberty exemption for healthcare mandates', vote: 'Nay', year: 2022, good: false },
+      ],
+      '2a': [
+        { bill: 'S 2938 - Bipartisan Safer Communities Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'Assault Weapons Ban of 2023', vote: 'Yea', year: 2023, good: false },
+        { bill: 'Concealed Carry Reciprocity Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      'limited-gov': [
+        { bill: 'REINS Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'COVID Emergency Powers Termination', vote: 'Nay', year: 2022, good: false },
+        { bill: 'Defund IRS Expansion Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'American Rescue Plan ($1.9T)', vote: 'Yea', year: 2021, good: false },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Yea', year: 2024, good: false },
+      ],
+    },
   },
   'S001208': { // Elissa Slotkin (D)
     life: 'F', marriage: 'F', 'religious-liberty': 'C', '2a': 'D', 'limited-gov': 'D', fiscal: 'D',
     overall: 'F',
     sources: ['Heritage Action: 8%', 'FRC Action: 0%', 'NRA: D'],
+    votes: {
+      life: [
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Nay', year: 2023, good: false },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 5 - Equality Act', vote: 'Yea', year: 2021, good: false },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act', vote: 'Yea', year: 2021, good: false },
+        { bill: 'Religious liberty exemption for military vaccine mandate', vote: 'Yea', year: 2022, good: true },
+      ],
+      '2a': [
+        { bill: 'S 2938 - Bipartisan Safer Communities Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Yea', year: 2021, good: false },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Nay', year: 2023, good: false },
+        { bill: 'Rescind COVID Emergency Powers', vote: 'Yea', year: 2023, good: true },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'Fiscal Responsibility Act (debt ceiling deal)', vote: 'Yea', year: 2023, good: false },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Yea', year: 2024, good: false },
+      ],
+    },
   },
   // Well-known national figures
   'C001098': { // Ted Cruz (R-TX)
@@ -654,21 +973,134 @@ export const REP_ALIGNMENT = {
     life: 'B', marriage: 'B', 'religious-liberty': 'B', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
     overall: 'B',
     sources: ['First term — limited congressional voting record', 'NRA: A (state legislature record)'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Yea', year: 2025, good: true },
+        { bill: 'No Taxpayer Funding for Abortion Act (cosponsor)', vote: 'Yea', year: 2025, good: true },
+      ],
+      marriage: [
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2025, good: true },
+        { bill: 'Defended traditional marriage definition (MI state legislature)', vote: 'Yea', year: 2023, good: true },
+      ],
+      'religious-liberty': [
+        { bill: 'Conscience Protection Act (cosponsor)', vote: 'Yea', year: 2025, good: true },
+        { bill: 'Protecting Religious Liberty in the Military', vote: 'Yea', year: 2025, good: true },
+      ],
+      '2a': [
+        { bill: 'Concealed Carry Reciprocity Act (cosponsor)', vote: 'Yea', year: 2025, good: true },
+        { bill: 'Assault Weapons Ban', vote: 'Nay', year: 2025, good: true },
+        { bill: 'Second Amendment strong record (MI state legislature)', vote: 'Yea', year: 2023, good: true },
+      ],
+      'limited-gov': [
+        { bill: 'REINS Act', vote: 'Yea', year: 2025, good: true },
+        { bill: 'Defund IRS Expansion Act', vote: 'Yea', year: 2025, good: true },
+      ],
+      fiscal: [
+        { bill: 'FY2025 Continuing Resolution', vote: 'Yea', year: 2025, good: true },
+        { bill: 'Opposed new spending expansions', vote: 'Nay', year: 2025, good: true },
+      ],
+    },
   },
   'M001237': { // Kristen McDonald Rivet (MI-8, D) — elected 2024, replacing Dan Kildee
     life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
     overall: 'F',
     sources: ['First term — limited congressional voting record', 'NRA: F (state legislature record)'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Nay', year: 2025, good: false },
+        { bill: 'Women\'s Health Protection Act (cosponsor)', vote: 'Yea', year: 2025, good: false },
+      ],
+      marriage: [
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2025, good: false },
+        { bill: 'Supported Respect for Marriage Act (MI state legislature)', vote: 'Yea', year: 2023, good: false },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act (cosponsor)', vote: 'Yea', year: 2025, good: false },
+        { bill: 'Conscience Protection Act', vote: 'Nay', year: 2025, good: false },
+      ],
+      '2a': [
+        { bill: 'Assault Weapons Ban (cosponsor)', vote: 'Yea', year: 2025, good: false },
+        { bill: 'Background Check Expansion Act', vote: 'Yea', year: 2025, good: false },
+        { bill: 'MI red flag law (state legislature)', vote: 'Yea', year: 2023, good: false },
+      ],
+      'limited-gov': [
+        { bill: 'REINS Act', vote: 'Nay', year: 2025, good: false },
+        { bill: 'Defund IRS Expansion Act', vote: 'Nay', year: 2025, good: false },
+      ],
+      fiscal: [
+        { bill: 'FY2025 Continuing Resolution', vote: 'Yea', year: 2025, good: false },
+        { bill: 'Supported expanded government spending programs', vote: 'Yea', year: 2025, good: false },
+      ],
+    },
   },
   'M001136': { // Lisa McClain (MI-9, R)
     life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
     overall: 'A',
     sources: ['Heritage Action: 88%', 'FRC Action: 100%', 'NRA: A+'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'No Taxpayer Funding for Abortion Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Conscience Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'Protecting Religious Liberty in the Military', vote: 'Yea', year: 2023, good: true },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Concealed Carry Reciprocity Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 382 - HALT Mandates Act (vaccine mandate)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'Defund IRS Expansion Act', vote: 'Yea', year: 2023, good: true },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Nay', year: 2024, good: true },
+      ],
+    },
   },
   'J000307': { // John James (MI-10, R) — not seeking reelection, running for Governor 2026
     life: 'A', marriage: 'B', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
     overall: 'B',
     sources: ['Heritage Action: 72%', 'FRC Action: 87%', 'NRA: A'],
+    votes: {
+      life: [
+        { bill: 'Born-Alive Abortion Survivors Protection Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'HR 3755 - Women\'s Health Protection Act', vote: 'Nay', year: 2022, good: true },
+      ],
+      marriage: [
+        { bill: 'HR 8404 - Respect for Marriage Act', vote: 'Yea', year: 2022, good: false },
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+      ],
+      'religious-liberty': [
+        { bill: 'HR 5 - Equality Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Conscience Protection Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      '2a': [
+        { bill: 'HR 1808 - Assault Weapons Ban of 2022', vote: 'Nay', year: 2022, good: true },
+        { bill: 'HR 8 - Bipartisan Background Checks Act', vote: 'Nay', year: 2021, good: true },
+        { bill: 'Concealed Carry Reciprocity Act (cosponsor)', vote: 'Yea', year: 2023, good: true },
+      ],
+      'limited-gov': [
+        { bill: 'HR 277 - REINS Act', vote: 'Yea', year: 2023, good: true },
+        { bill: 'Fiscal Responsibility Act (debt ceiling deal)', vote: 'Yea', year: 2023, good: false },
+      ],
+      fiscal: [
+        { bill: 'HR 5376 - Inflation Reduction Act', vote: 'Nay', year: 2022, good: true },
+        { bill: 'Limit, Save, Grow Act (debt ceiling)', vote: 'Yea', year: 2023, good: true },
+        { bill: 'FY2024 Omnibus Spending Bill', vote: 'Yea', year: 2024, good: false },
+      ],
+    },
   },
 
   // =====================================================
