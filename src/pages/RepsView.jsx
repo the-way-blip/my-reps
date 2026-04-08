@@ -35,6 +35,7 @@ const STATE_EXECUTIVE = {
     { name: 'Garlin Gilchrist II', title: 'Lt. Governor', party: 'Democratic', photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/8R4A9159_%2853359280492%29_%28Garlin_Gilchrist%29.jpg/220px-8R4A9159_%2853359280492%29_%28Garlin_Gilchrist%29.jpg', source: 'executive' },
     { name: 'Dana Nessel', title: 'Attorney General', party: 'Democratic', photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Dana_Nessel_Michigan_Is_Preparing_for_%27Every_Scenario%27_on_Election_Day_THE_CIRCUS_SHOWTIME_0-25_screenshot_%28cropped%29.jpg/220px-Dana_Nessel_Michigan_Is_Preparing_for_%27Every_Scenario%27_on_Election_Day_THE_CIRCUS_SHOWTIME_0-25_screenshot_%28cropped%29.jpg', source: 'executive' },
     { name: 'Jocelyn Benson', title: 'Secretary of State', party: 'Democratic', photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/SOS_Jocelyn_Benson_web.jpg/220px-SOS_Jocelyn_Benson_web.jpg', source: 'executive' },
+    { name: 'Rachael Eubanks', title: 'State Treasurer', party: 'Democratic', photoUrl: null, source: 'executive' },
   ],
 }
 

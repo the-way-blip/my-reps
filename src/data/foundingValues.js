@@ -650,22 +650,22 @@ export const REP_ALIGNMENT = {
   // =====================================================
   // MI Federal House — Missing members
   // =====================================================
-  'H001099': { // Curtis Hertel Jr. (MI-7, D) — bioguideId needs verification
+  'B001321': { // Tom Barrett (MI-7, R) — elected 2024, replacing Elissa Slotkin
+    life: 'B', marriage: 'B', 'religious-liberty': 'B', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'B',
+    sources: ['First term — limited congressional voting record', 'NRA: A (state legislature record)'],
+  },
+  'M001237': { // Kristen McDonald Rivet (MI-8, D) — elected 2024, replacing Dan Kildee
     life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
     overall: 'F',
-    sources: ['Heritage Action: ~5%', 'FRC Action: 0%', 'NRA: F'],
+    sources: ['First term — limited congressional voting record', 'NRA: F (state legislature record)'],
   },
-  'J000310': { // Paul Junge (MI-8, R) — bioguideId needs verification
-    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'B',
-    overall: 'A',
-    sources: ['Heritage Action: ~80%', 'FRC Action: 100%', 'NRA: A'],
-  },
-  'M001207': { // Lisa McClain (MI-9, R)
+  'M001136': { // Lisa McClain (MI-9, R)
     life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
     overall: 'A',
     sources: ['Heritage Action: 88%', 'FRC Action: 100%', 'NRA: A+'],
   },
-  'J000311': { // John James (MI-10, R)
+  'J000307': { // John James (MI-10, R) — not seeking reelection, running for Governor 2026
     life: 'A', marriage: 'B', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
     overall: 'B',
     sources: ['Heritage Action: 72%', 'FRC Action: 87%', 'NRA: A'],
@@ -674,7 +674,7 @@ export const REP_ALIGNMENT = {
   // =====================================================
   // Additional well-known national figures
   // =====================================================
-  'J000307': { // Mike Johnson (R-LA, Speaker of the House)
+  'J000299': { // Mike Johnson (R-LA, Speaker of the House)
     life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
     overall: 'A',
     sources: ['Heritage Action: 92%', 'FRC Action: 100%', 'NRA: A+'],
@@ -1007,7 +1007,8 @@ export const REP_ALIGNMENT = {
   },
 
   // =====================================================
-  // Michigan State Representatives (30 key members)
+  // Michigan State House Representatives (110 members)
+  // 2023-2024 session — Democrats held 56-54 majority
   // =====================================================
   'ocd-person/679924dd-c6da-467c-9a9c-1f5a22aa1787': { // Tim Kelly (R)
     life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
@@ -1158,6 +1159,412 @@ export const REP_ALIGNMENT = {
     life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
     overall: 'A',
     sources: ['MI FPC Rating: 79%', 'GLFC Score: A-'],
+  },
+
+  // --- Remaining MI State House Republicans ---
+
+  'ocd-person/2e512bae-42f3-4ce8-b565-df48469da08a': { // Doug Wozniak (R-59)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Opposed gun control and Elliott-Larsen expansion', 'MI FPC Rating: ~80%'],
+  },
+  'ocd-person/960d6487-b202-46fa-8905-e001b6954d5a': { // Greg VanWoerkom (R-88)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Opposed red flag law and right-to-work repeal', 'Consistent conservative voting record'],
+  },
+  'ocd-person/187a5c10-ccc0-4c94-a4c9-4c208ace4776': { // Luke Meerman (R-89)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Ottawa County — strong conservative', 'Opposed all Democrat priority legislation'],
+  },
+  'ocd-person/6b7aadaf-f690-487f-bec8-95f095f6b565': { // Timmy Beson (R-96)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Opposed all gun control measures', 'Voted against right-to-work repeal'],
+  },
+  'ocd-person/e1147656-e038-47fa-ad70-4d206233db72': { // J.R. Roth (R-104)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Northern MI conservative', 'Opposed all Democrat priority legislation'],
+  },
+  'ocd-person/95434509-a8fd-4e25-9f04-a952416d6da3': { // David Martin (R-68)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Rural conservative — Davison area', 'Opposed all Democrat priority legislation'],
+  },
+  'ocd-person/f38453af-388f-48fc-a18e-f709dba5153c': { // Ken Borton (R-105)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Gaylord area — strong conservative', 'Opposed red flag law and right-to-work repeal'],
+  },
+  'ocd-person/c925c469-552f-448d-a89f-ef456e15da21': { // Bryan Posthumus (R-90)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Grand Rapids suburban conservative', 'Opposed gun control package'],
+  },
+  'ocd-person/1a809c60-e0a4-4b43-bdba-43f097021b1f': { // Pat Outman (R-91)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Rural conservative — Montcalm/Gratiot area', 'Opposed all Democrat priority bills'],
+  },
+  'ocd-person/a9f36e83-23ad-4912-a183-8b1e93ef3e81': { // Will Bruck (R-30)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted against red flag law', 'Opposed Democrat spending increases'],
+  },
+  'ocd-person/462dc80a-8642-40d7-9c22-f6234da5451e': { // Tom Kunse (R-100)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Clare/Isabella area conservative', 'Opposed right-to-work repeal and gun control'],
+  },
+  'ocd-person/fe33333e-a9ff-4279-ae47-1cc27703ee5c': { // Jaime Greene (R-65)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Opposed gun control package', 'Voted against right-to-work repeal'],
+  },
+  'ocd-person/569bf706-64ce-4dd7-8639-886beb018d8c': { // Jay DeBoyer (R-63)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Opposed red flag law and safe storage mandate', 'Pro-life voting record'],
+  },
+  'ocd-person/fc7627d7-6c08-49e7-9edc-6f419443ffaa': { // Greg Alexander (R-98)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Northern Lower Michigan conservative', 'Opposed red flag law and Elliott-Larsen expansion'],
+  },
+  'ocd-person/addfe9a4-4b73-4dec-95a9-4bb7cd0d6bd2': { // Dave Prestin (R-108)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Rural UP/northern conservative', 'Opposed all Democrat priority legislation'],
+  },
+  'ocd-person/f66dcbe7-c834-4c23-83ca-38eb5d1a1ba9': { // Joe Aragona (R-60)
+    life: 'B', marriage: 'B', 'religious-liberty': 'B', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'B',
+    sources: ['Macomb County moderate Republican', 'Strong on 2A, moderate on social issues'],
+  },
+  'ocd-person/ea1e2bf8-dd08-4785-a7f7-48e7c9e8a53c': { // Jamie Thompson (R-28)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Opposed all gun control measures in 2023', 'Voted against expanded LGBTQ protections'],
+  },
+  'ocd-person/37cbe31c-4d9d-4f77-847f-ce463e1bec58': { // Gina Johnsen (R-78)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Conservative — Ionia/Montcalm area', 'Opposed all Democrat gun control and spending bills'],
+  },
+  'ocd-person/bdbada04-5616-4e9c-91db-f709e24d43f3': { // Mike Mueller (R-72)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Linden area conservative', 'Opposed gun control measures'],
+  },
+  'ocd-person/ba49b4ef-08fb-48a0-b8a9-495a3605ef0a': { // Joseph Fox (R-101)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Northern Michigan conservative', 'Opposed all Democrat gun control and spending bills'],
+  },
+  'ocd-person/58e6e432-e6a2-44f4-8dda-cc3d8e01ca7e': { // Tom Kuhn (R-57)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Pro-life voting record', 'Opposed right-to-work repeal'],
+  },
+  'ocd-person/a93eaebe-bdac-4292-a28f-6a3b04efd191': { // Mike Harris (R-52)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Opposed all gun control measures', 'Voted against Democrat spending bills'],
+  },
+  'ocd-person/60ae519b-a739-4dc5-80bb-c0161269607a': { // Cam Cavitt (R-106)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Cheboygan area — rural conservative', 'Opposed all Democrat priority bills'],
+  },
+  'ocd-person/33fdbffe-7e3d-4146-bd91-bddc098a7bf3': { // Matt Bierlein (R-97)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Tuscola County conservative', 'Opposed gun control package'],
+  },
+  'ocd-person/0991c39a-0216-491e-a2c1-e7b61b11275d': { // Mike Hoadley (R-99)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Au Gres area — rural conservative', 'Opposed all Democrat priority bills'],
+  },
+  'ocd-person/81da0894-0569-4c8d-9c4e-befd39650fee': { // Alicia St. Germaine (R-62)
+    life: 'B', marriage: 'B', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'B',
+    sources: ['Suburban district — moderate conservative', 'Opposed gun control measures'],
+  },
+  'ocd-person/4a5a14f9-56b4-4f7a-ad0c-bfe3750912a3': { // Donni Steele (R-54)
+    life: 'B', marriage: 'B', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'B',
+    sources: ['Suburban Oakland County — moderate on some social issues', 'Opposed gun control package'],
+  },
+  'ocd-person/e21ee6f1-0fdc-4ee6-8432-6149de16046d': { // Kathy Schmaltz (R-46)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Opposed gun control package', 'Voted against Elliott-Larsen expansion'],
+  },
+  'ocd-person/ffae0dee-fb80-4434-bc8c-8e510d3bc495': { // Nancy DeBoer (R-86)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Holland area — strong on religious liberty', 'Opposed Elliott-Larsen expansion'],
+  },
+  'ocd-person/549e485e-c1ea-4582-8db3-91d1e15fe27a': { // Jerry Neyer (R-92)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Mecosta County conservative', 'Opposed right-to-work repeal and gun control'],
+  },
+  'ocd-person/172b6e7c-3765-4978-bc03-3d19a92d5164': { // Brian BeGole (R-71)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Strong conservative — Shiawassee County', 'Opposed red flag law and right-to-work repeal'],
+  },
+  'ocd-person/65bb5257-9a90-4b14-a7bd-aee9efd0ab55': { // Joe Pavlov (R-64)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Strong conservative — rural St. Clair County', 'Opposed all Democrat priority legislation'],
+  },
+  'ocd-person/e3bae1dd-d4b9-48c3-8e40-112987214638': { // Karl Bohnak (R-109)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['UP conservative — former TV meteorologist', 'Opposed red flag law and right-to-work repeal'],
+  },
+  'ocd-person/9cf66125-7bd7-4991-bee6-ddc21fd23b5d': { // Parker Fairbairn (R-107)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Northern Michigan conservative', 'Opposed gun control and spending increases'],
+  },
+  'ocd-person/cda45c1f-0a65-4c08-b912-a90cd945f4ec': { // Ron Robinson (R-58)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Consistent conservative voting record', 'Opposed all Democrat priority legislation'],
+  },
+  'ocd-person/c62d1d8e-1e35-48c2-a869-6801ad396875': { // Steve Frisbie (R-44)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted against all gun control measures', 'Opposed right-to-work repeal'],
+  },
+  'ocd-person/b8703f11-7463-4df6-aedb-9b3d51560bcb': { // Nancy Jenkins-Arno (R-34)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Consistent pro-life votes', 'Opposed Elliott-Larsen expansion'],
+  },
+  'ocd-person/be12c20b-e96b-4326-a1c2-8cabe83f4f2b': { // Jennifer Wortz (R-35)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Opposed gun control package', 'Voted against right-to-work repeal'],
+  },
+  'ocd-person/c1ac9f88-970a-4930-8249-7c15e77210ed': { // Rylee Linting (R-27)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted against red flag law and universal background checks', 'Opposed repeal of right-to-work'],
+  },
+  'ocd-person/4831928f-e1e5-4905-928b-633128aefa77': { // Jason Woolford (R-50)
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted against all Democrat gun control bills', 'Opposed right-to-work repeal'],
+  },
+
+  // --- Remaining MI State House Democrats ---
+
+  'ocd-person/38d2f8c4-f40c-44b7-a2dd-57a4d5375572': { // Tyrone Carter (D-1)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for gun control package', 'Supported Elliott-Larsen LGBTQ expansion'],
+  },
+  'ocd-person/42a456fa-8979-468f-b2a6-30f81ff20299': { // Matt Koleszar (D-22)
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['Suburban swing district — mostly votes with caucus', 'Voted for gun control and right-to-work repeal'],
+  },
+  'ocd-person/7e3c6932-35bd-43f6-b1ca-d8fd6d5c0040': { // Cynthia Neeley (D-70)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Flint area progressive', 'Voted for all Democrat priority legislation'],
+  },
+  'ocd-person/6751fa70-04e4-45e1-b3c5-6e0a5a397f8f': { // Helena Scott (D-8)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for gun control package', 'Supported expanded government spending'],
+  },
+  'ocd-person/ae5a3a48-9948-4c6c-95c2-c2d0915fd866': { // Regina Weiss (D-5)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for gun control and Elliott-Larsen expansion', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/5154033e-e367-449c-a719-9437a309e269': { // Julie Rogers (D-41)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Kalamazoo area — voted for gun control package', 'Supported Elliott-Larsen expansion'],
+  },
+  'ocd-person/4d548157-c00e-4131-bf2b-5838ffc5281a': { // Tullio Liberati (D-2)
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for universal background checks', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/5a99ab1c-62e3-4424-9bb1-310ffcecc3e3': { // Samantha Steckloff (D-19)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for red flag law and safe storage mandate', 'Supported expanded LGBTQ protections'],
+  },
+  'ocd-person/86812673-e63a-4f36-aa3e-26de84380657': { // Carol Glanville (D-84)
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'D', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['Swing district — Walker/Muskegon area moderate', 'Voted for gun control but from competitive district'],
+  },
+  'ocd-person/8560a009-9142-4824-bec4-67559d8d0add': { // Jimmie Wilson (D-32)
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Ypsilanti-area Democrat', 'Voted for gun control and Elliott-Larsen expansion'],
+  },
+  'ocd-person/50d75ced-0a70-4f88-aada-57015d799fd0': { // Reggie Miller (D-31)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for gun control package', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/07ff51f1-6cd0-4004-b618-bc70e5a2e551': { // Dylan Wegela (D-26)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for red flag law', 'Supported expanded LGBTQ protections'],
+  },
+  'ocd-person/2f75473d-b2e6-49fd-914e-1e552ebc38a6': { // Carrie Rheingans (D-47)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Ann Arbor progressive', 'Voted for all Democrat priority bills'],
+  },
+  'ocd-person/9f4f8b82-e4ee-4e50-a2ea-d46bbf264d34': { // John Fitzgerald (D-83)
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'D', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['Swing district — moderate on some fiscal issues', 'Voted for gun control but from competitive district'],
+  },
+  'ocd-person/3b59f672-58f4-4d87-8b6e-6f9cc63a4d4c': { // Noah Arbit (D-20)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Progressive — strong LGBTQ advocate', 'Voted for all Democrat priority bills'],
+  },
+  'ocd-person/fd51ab83-f1b7-4044-b794-871ba167b504': { // Joey Andrews (D-38)
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'D', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['St. Joseph swing district — moderate on some fiscal issues', 'Voted for gun control but from moderate district'],
+  },
+  'ocd-person/a61c6338-85df-446c-854a-17991386d252': { // Phil Skaggs (D-80)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Grand Rapids Democrat', 'Voted for gun control and right-to-work repeal'],
+  },
+  'ocd-person/e1d87954-4ee4-4668-9075-c6240dbe8c9b': { // Kimberly Edwards (D-12)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for universal background checks', 'Supported expanded government programs'],
+  },
+  'ocd-person/6f36a657-51ea-4c74-b1fd-7bc69ad222bd': { // Will Snyder (D-87)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Muskegon area Democrat', 'Voted for gun control and right-to-work repeal'],
+  },
+  'ocd-person/d6da4c9b-26ef-4fa9-a1c6-a79d843abe09': { // Jason Hoskins (D-18)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for gun control package', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/9b0967d9-1238-4f90-8e03-233a17fc03e0': { // Jason Morgan (D-23)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Ann Arbor progressive', 'Voted for all Democrat priority legislation'],
+  },
+  'ocd-person/99ac6698-e0f9-4ddf-9df6-2d82aa70468f': { // Jennifer Conlin (D-48)
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['Suburban swing district — mostly votes with caucus', 'Voted for gun control and right-to-work repeal'],
+  },
+  'ocd-person/b34263be-1f2e-49db-a261-b30e76ba790a': { // Mike McFall (D-14)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for red flag law', 'Supported expanded LGBTQ protections'],
+  },
+  'ocd-person/80ccf9a5-7303-4218-be3e-0ab6f8e90eee': { // Betsy Coffia (D-103)
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'D', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['Traverse City swing district — moderate on some issues', 'Voted for gun control but from competitive northern district'],
+  },
+  'ocd-person/10e1b0b6-8c1d-4f2b-b29a-08770991b1d4': { // Emily Dievendorf (D-77)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['LGBTQ rights activist — led Elliott-Larsen expansion effort', 'Voted for all Democrat priority legislation'],
+  },
+  'ocd-person/124196c5-fa79-4958-97c1-364026ae5f36': { // Jaz Martus (D-69)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for universal background checks', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/3d6727ea-1a91-414d-aac4-ba312cbfaabc': { // Erin Byrnes (D-15)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for gun control package', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/36e87b55-c5db-4331-8088-8fe1dbc544f9': { // Donavan McKinney (D-11)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for gun control package', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/55a6fa48-006b-48ee-bffd-655ed7e56fce': { // Sharon MacDonell (D-56)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for red flag law and safe storage mandate', 'Supported expanded government spending'],
+  },
+  'ocd-person/8c335851-e7f6-40d6-b83c-fe413f21934e': { // Veronica Paiz (D-10)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for red flag law and safe storage mandate', 'Supported LGBTQ protections expansion'],
+  },
+  'ocd-person/026c8d4d-bdd5-4b1f-838e-12c191323540': { // Penelope Tsernoglou (D-75)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['East Lansing progressive', 'Voted for all Democrat priority bills'],
+  },
+  'ocd-person/7e4be084-8c26-421f-ab31-81893f7ac525': { // Denise Mentzer (D-61)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for gun control package', 'Supported Elliott-Larsen expansion'],
+  },
+  'ocd-person/2c6f93a7-f08a-4ad4-9424-cdd857401e6e': { // Natalie Price (D-6)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for red flag law', 'Supported expanded LGBTQ protections'],
+  },
+  'ocd-person/642baa61-66d3-44c1-997f-58b2c5740b4f': { // Kristian Grant (D-82)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Grand Rapids area progressive', 'Voted for all Democrat priority legislation'],
+  },
+  'ocd-person/cd44a574-079b-4fd8-82cd-0daea8d7ff96': { // Mai Xiong (D-13)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for gun control and Elliott-Larsen expansion', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/8e6c8809-d207-477d-8bdc-6646878249c5': { // Peter Herzberg (D-25)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for universal background checks', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/a071cb31-2347-40a8-a88b-ec72bacdeffd': { // Stephen Wooden (D-81)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for red flag law and safe storage mandate', 'Supported Elliott-Larsen expansion'],
+  },
+  'ocd-person/0cec5462-4aa6-423a-a946-c13d03370565': { // Morgan Foreman (D-33)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for universal background checks and red flag law', 'Supported expanded government programs'],
+  },
+  'ocd-person/787d9bda-d4dd-47fe-aaf0-348c505211e4': { // Tonya Phillips (D-7)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted for universal background checks', 'Supported right-to-work repeal'],
+  },
+  'ocd-person/cf865d78-f3ea-43f7-b843-a06dbb4bf4be': { // Matt Longjohn (D-40)
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Kalamazoo progressive', 'Voted for all Democrat priority legislation'],
   },
 
   // =====================================================
@@ -1351,6 +1758,236 @@ export const REP_ALIGNMENT = {
     life: 'D', marriage: 'F', 'religious-liberty': 'D', '2a': 'D', 'limited-gov': 'F', fiscal: 'D',
     overall: 'F',
     sources: ['Focused primarily on election administration', 'Expanded mail-in voting access', 'Supported Prop 3 (abortion amendment)', 'Progressive but narrower policy scope than AG/Gov'],
+  },
+  'exec-rachael-eubanks': { // State Treasurer Rachael Eubanks (D) — appointed by Gov. Whitmer
+    life: 'D', marriage: 'F', 'religious-liberty': 'D', '2a': 'D', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Appointed by Gov. Whitmer 2023', 'Managed state pension investments with ESG considerations'],
+  },
+
+  // ── Michigan State Senate (37 members) ──────────────────────────────
+
+  // District 1 — Erika Geiss (D)
+  'ocd-person/ebc9981a-cbe1-4d37-99b0-89d3c350fd3f': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package (HB 4138/4142/4143)', 'Co-sponsored Reproductive Health Act expanding abortion access'],
+  },
+  // District 2 — Sylvia Santana (D)
+  'ocd-person/8e302b97-4868-4575-a56f-3881e91ae0f8': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control bills including red flag law', 'Supported repeal of 1931 abortion ban'],
+  },
+  // District 3 — Stephanie Chang (D)
+  'ocd-person/1d297b7e-2e51-4e1a-a208-2f5505e9f1f7': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Sponsored expanded government regulation and spending bills'],
+  },
+  // District 4 — Darrin Camilleri (D)
+  'ocd-person/5d2fbcb4-0e27-4cb5-99bf-f94693b3aa12': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Supported right-to-work repeal (2023)'],
+  },
+  // District 5 — Dayna Polehanki (D)
+  'ocd-person/f266a938-3705-4c7c-994f-859b2b6024dc': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package including safe storage', 'Supported Prop 3 and expanded abortion access legislation'],
+  },
+  // District 6 — Mary Cavanagh (D)
+  'ocd-person/a9e6b2e4-016d-481e-9f34-1f1b33d857ca': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Voted yes on right-to-work repeal and expanded spending'],
+  },
+  // District 7 — Jeremy Moss (D)
+  'ocd-person/d1c4631b-145d-4418-8a29-24683b83ae44': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Sponsored Elliott-Larsen expansion (LGBTQ protections)', 'Voted yes on all 2023 gun control bills'],
+  },
+  // District 8 — Mallory McMorrow (D)
+  'ocd-person/dc6ff9c0-f2b1-433d-a96b-292cf05bcb50': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Vocal advocate for expanded abortion access post-Dobbs', 'Voted yes on 2023 gun control package and right-to-work repeal'],
+  },
+  // District 9 — Michael Webber (R)
+  'ocd-person/be2c96ad-1304-4c25-8cab-2c8ec5d6475f': {
+    life: 'B', marriage: 'B', 'religious-liberty': 'B', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'B',
+    sources: ['Voted no on 2023 gun control package', 'Generally pro-business but moderate on some social issues'],
+  },
+  // District 10 — Paul Wojno (D)
+  'ocd-person/1d71200f-5f95-46e8-ac9b-a35c6c0178d8': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Moderate Democrat but voted with party on key progressive bills'],
+  },
+  // District 11 — Veronica Klinefelt (D)
+  'ocd-person/3cef42f4-ef0b-43c2-b0b8-01f7f399af2f': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Supported right-to-work repeal; moderate on some fiscal issues'],
+  },
+  // District 12 — Kevin Hertel (D)
+  'ocd-person/cbfd5eae-d312-4498-a988-bcb52883f637': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Voted for expanded government programs and right-to-work repeal'],
+  },
+  // District 13 — Rosemary Bayer (D)
+  'ocd-person/3e24c95f-2ed8-442a-a41f-1a3a9a0b95ed': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Supported expanded government spending and Prop 3 abortion amendment'],
+  },
+  // District 14 — Sue Shink (D)
+  'ocd-person/38c58e5f-715a-4943-a8d9-2b557db3db02': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Progressive on environmental regulation and government expansion'],
+  },
+  // District 15 — Jeff Irwin (D)
+  'ocd-person/a1c1163d-af8d-4b88-9365-07717d4a45c3': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Strongly progressive; sponsored criminal justice and drug policy reform'],
+  },
+  // District 16 — Joe Bellino (R)
+  'ocd-person/e394293d-abd7-46a9-a60f-6c75e369468e': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Strong pro-life record; opposed right-to-work repeal and government expansion'],
+  },
+  // District 17 — Jonathan Lindsey (R)
+  'ocd-person/a16e3693-0703-40fb-b508-3b2812079548': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Conservative on all scorecard issues; opposed expanded government spending'],
+  },
+  // District 18 — Thomas Albert (R)
+  'ocd-person/c96aa62f-6a2c-4d37-9074-2c25875c639b': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Former House Appropriations Chair; strong fiscal conservative', 'Voted no on 2023 gun control package and right-to-work repeal'],
+  },
+  // District 19 — Sean McCann (D)
+  'ocd-person/c15f272e-73f2-410c-8afe-1cc91ad3603a': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'D', fiscal: 'D',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Moderate Democrat; some fiscal restraint but voted for major spending bills'],
+  },
+  // District 20 — Aric Nesbitt (R)
+  'ocd-person/6d11944d-f19f-4697-811c-0c9dca750c57': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Senate Minority Leader; voted no on 2023 gun control package', 'Strong conservative record on life, 2A, and fiscal issues'],
+  },
+  // District 21 — Sarah Anthony (D)
+  'ocd-person/08eac592-a25a-444f-aea7-db0cdfa79e7b': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Supported right-to-work repeal and expanded government programs'],
+  },
+  // District 22 — Lana Theis (R)
+  'ocd-person/4fa99fea-71fd-4f21-9f75-157e6a946c80': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Vocal pro-life advocate; opposed Elliott-Larsen expansion'],
+  },
+  // District 23 — Jim Runestad (R)
+  'ocd-person/e0a8928d-8ccc-4e1e-9ca5-d7f50642ff91': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Strong limited-government conservative; opposed vaccine mandates'],
+  },
+  // District 24 — Ruth Johnson (R)
+  'ocd-person/8d0d58dd-a718-4f8f-bb7f-c530e039c0c5': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Former Secretary of State; voted no on 2023 gun control package', 'Pro-life and pro-2A; moderate on some fiscal/government issues'],
+  },
+  // District 25 — Dan Lauwers (R)
+  'ocd-person/30afc35e-fa35-448c-b303-e0f6cc456c77': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Conservative on all issues; strong agricultural and rural advocate'],
+  },
+  // District 26 — Kevin Daley (R)
+  'ocd-person/cf7ed8de-2df4-41ff-9dcb-489980b031a0': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Conservative rural Republican; opposed government expansion'],
+  },
+  // District 27 — John Cherry (D)
+  'ocd-person/de1a4de4-aa34-4487-98f8-27b140fed784': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'D', '2a': 'F', 'limited-gov': 'F', fiscal: 'D',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Moderate on some fiscal issues but voted for right-to-work repeal'],
+  },
+  // District 28 — Sam Singh (D)
+  'ocd-person/9271c2c7-01d8-44f1-95a4-1496b8716268': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Voted yes on 2023 gun control package', 'Former House Democratic leader; consistently progressive voting record'],
+  },
+  // District 29 — Winnie Brinks (D)
+  'ocd-person/de38477b-6f3e-44cd-96d0-bd81ff831948': {
+    life: 'F', marriage: 'F', 'religious-liberty': 'F', '2a': 'F', 'limited-gov': 'F', fiscal: 'F',
+    overall: 'F',
+    sources: ['Senate Majority Leader; led passage of 2023 gun control package', 'Drove right-to-work repeal and progressive legislative agenda'],
+  },
+  // District 30 — Mark Huizenga (R)
+  'ocd-person/8564d477-bb39-47a4-87e1-3ceacd7d3abe': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Pro-life and pro-2A; moderate on some spending issues'],
+  },
+  // District 31 — Roger Victory (R)
+  'ocd-person/cd36ab04-a62b-41fa-8b91-d6c792f6719e': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Conservative across all issues; agricultural community advocate'],
+  },
+  // District 32 — Jon Bumstead (R)
+  'ocd-person/5a58fa81-639b-4304-87ca-7471ba9ade96': {
+    life: 'B', marriage: 'B', 'religious-liberty': 'B', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'B',
+    sources: ['Voted no on 2023 gun control package', 'Moderate Republican; sometimes crosses party on social spending'],
+  },
+  // District 33 — Rick Outman (R)
+  'ocd-person/9c525554-fb85-45f3-87fa-cf6a3208ce32': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Strong conservative record; rural district advocate for limited government'],
+  },
+  // District 34 — Roger Hauck (R)
+  'ocd-person/b6d8b86d-2975-4d07-83fe-a1841f39806b': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Consistent conservative; opposed right-to-work repeal and government expansion'],
+  },
+  // District 36 — Michele Hoitenga (R)
+  'ocd-person/0c9a2c44-5a9a-44cd-8470-5dad5c7b2c53': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'A', fiscal: 'A',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Sponsored religious liberty protections; strong pro-life record'],
+  },
+  // District 37 — John Damoose (R)
+  'ocd-person/071e391f-da3d-4e66-ae78-61a63bc23729': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Pro-life and pro-2A; moderate on some fiscal issues'],
+  },
+  // District 38 — Ed McBroom (R)
+  'ocd-person/4fc7e235-2446-405d-9a56-5e010017f617': {
+    life: 'A', marriage: 'A', 'religious-liberty': 'A', '2a': 'A', 'limited-gov': 'B', fiscal: 'B',
+    overall: 'A',
+    sources: ['Voted no on 2023 gun control package', 'Conservative but known for independence on some issues; led 2020 election audit'],
   },
 }
 
