@@ -3514,6 +3514,347 @@ export const MI_CITY_OFFICIALS = {
       { name: 'Robert Stewart', title: 'Council Member', party: null },
     ],
   },
+
+  /* ── Wayne County cities (Downriver + western Wayne) ── */
+
+  Wyandotte: {
+    name: 'City of Wyandotte',
+    website: 'https://www.wyandotte.net',
+    phone: '734-324-4500',
+    officials: [
+      { name: 'Robert DeSana', title: 'Mayor', party: null },
+      { name: 'Robert Alderman', title: 'Council Member', party: null },
+      { name: 'Sheri Sutherby Fricke', title: 'Council Member', party: null },
+      { name: 'Christopher Calvin', title: 'Council Member', party: null },
+      { name: 'Don Schultz', title: 'Council Member', party: null },
+      { name: 'Todd Browning', title: 'Council Member', party: null },
+      { name: 'James DeSana', title: 'Council Member', party: null },
+      { name: 'Ted Galeski', title: 'Council Member', party: null },
+    ],
+  },
+
+  Romulus: {
+    name: 'City of Romulus',
+    website: 'https://www.romulusgov.com',
+    phone: '734-942-7540',
+    officials: [
+      { name: 'Robert McCraight', title: 'Mayor', party: 'Democratic' },
+      { name: 'John Barden', title: 'Mayor Pro Tem / Council Member', party: null },
+      { name: 'Tina Talley', title: 'Council Member', party: null },
+      { name: 'Eva Webb', title: 'Council Member', party: null },
+      { name: 'Virginia Williams', title: 'Council Member', party: null },
+      { name: 'Linda Choate', title: 'Council Member', party: null },
+      { name: 'Celeste Roscoe', title: 'Council Member', party: null },
+    ],
+  },
+
+  Hamtramck: {
+    name: 'City of Hamtramck',
+    website: 'https://www.hamtramckcity.com',
+    phone: '313-876-7700',
+    officials: [
+      { name: 'Amer Ghalib', title: 'Mayor', party: null, notes: 'First Yemeni-American mayor in the U.S.' },
+      { name: 'Mohammed Hassan', title: 'Council Member', party: null },
+      { name: 'Khalil Refai', title: 'Council Member', party: null },
+      { name: 'Adam Albarmaki', title: 'Council Member', party: null },
+      { name: 'Muhtasin Sadman', title: 'Council Member', party: null },
+      { name: 'Lynn Blasey', title: 'Council Member', party: null },
+      { name: 'Muhith Mahmood', title: 'Council Member', party: null },
+    ],
+  },
+
+  Inkster: {
+    name: 'City of Inkster',
+    website: 'https://www.cityofinkster.com',
+    phone: '313-563-9770',
+    officials: [
+      { name: 'Patrick Wimberley', title: 'Mayor', party: null },
+      { name: 'Felicia Rutledge', title: 'Mayor Pro Tem', party: null },
+      { name: 'Steven Chisholm', title: 'Council Member', party: null },
+      { name: 'Jewell Jones', title: 'Council Member', party: null },
+      { name: 'Kim Phillips-Knight', title: 'Council Member', party: null },
+      { name: 'Stuart Lacy', title: 'Council Member', party: null },
+      { name: 'Marcus Hendricks', title: 'Council Member', party: null },
+    ],
+  },
+
+  'Allen Park': {
+    name: 'City of Allen Park',
+    website: 'https://www.cityofallenpark.org',
+    phone: '313-928-1400',
+    officials: [
+      { name: 'Gail McLeod', title: 'Mayor', party: null },
+      { name: 'Tina Gaworecki', title: 'Mayor Pro Tem / Council Member', party: null },
+      { name: 'Bob Keenan', title: 'Council Member', party: null },
+      { name: 'Larry Templin', title: 'Council Member', party: null },
+      { name: 'Harry Sisko', title: 'Council Member', party: null },
+      { name: 'Mike Mizzi', title: 'Council Member', party: null },
+      { name: 'Karen Kershaw', title: 'Council Member', party: null },
+    ],
+  },
+
+  Southgate: {
+    name: 'City of Southgate',
+    website: 'https://www.southgatemi.gov',
+    phone: '734-258-3000',
+    officials: [
+      { name: 'Joseph Kuspa', title: 'Mayor', party: null },
+      { name: 'Karen George', title: 'Mayor Pro Tem', party: null },
+      { name: 'Bill Colovos', title: 'Council Member', party: null },
+      { name: 'Phillip Rauch', title: 'Council Member', party: null },
+      { name: 'Patricia Ganzberger', title: 'Council Member', party: null },
+      { name: 'Dale Zamecki', title: 'Council Member', party: null },
+      { name: 'Christopher Rollet', title: 'Council Member', party: null },
+    ],
+  },
+
+  Trenton: {
+    name: 'City of Trenton',
+    website: 'https://www.trentonmi.org',
+    phone: '734-675-6500',
+    officials: [
+      { name: 'Steven Rzeppa', title: 'Mayor', party: null },
+      { name: 'Wendy Pate', title: 'Mayor Pro Tem', party: null },
+      { name: 'Pat Lewis', title: 'Council Member', party: null },
+      { name: 'Bonnie Mauer', title: 'Council Member', party: null },
+      { name: 'Bill LeFevre', title: 'Council Member', party: null },
+      { name: 'Ed Bourassa', title: 'Council Member', party: null },
+    ],
+  },
+
+  'Garden City': {
+    name: 'City of Garden City',
+    website: 'https://www.gardencitymi.org',
+    phone: '734-525-8800',
+    officials: [
+      { name: 'Brian Earle', title: 'Mayor', party: null },
+      { name: 'Patricia Squires', title: 'Mayor Pro Tem', party: null },
+      { name: 'Mark Jacobs', title: 'Council Member', party: null },
+      { name: 'Mike Powers', title: 'Council Member', party: null },
+      { name: 'Russell Walker', title: 'Council Member', party: null },
+      { name: 'Jaylee Lynch', title: 'Council Member', party: null },
+      { name: 'Margo Arnoske', title: 'Council Member', party: null },
+    ],
+  },
+
+  Plymouth: {
+    name: 'City of Plymouth',
+    website: 'https://www.plymouthmi.gov',
+    phone: '734-453-1234',
+    officials: [
+      { name: 'Nick Moroz', title: 'Mayor', party: null },
+      { name: 'Suzi Deal', title: 'Mayor Pro Tem', party: null },
+      { name: "Kelly O'Donnell", title: 'Commissioner', party: null },
+      { name: 'Linda Filipczak', title: 'Commissioner', party: null },
+      { name: 'Tony Bruscato', title: 'Commissioner', party: null },
+      { name: 'Alanna Maguire', title: 'Commissioner', party: null },
+      { name: 'Jennifer Kehoe', title: 'Commissioner', party: null },
+    ],
+  },
+
+  Northville: {
+    name: 'City of Northville',
+    website: 'https://www.ci.northville.mi.us',
+    phone: '248-349-1300',
+    officials: [
+      { name: 'Brian Turnbull', title: 'Mayor', party: null },
+      { name: 'Barbara Moroski-Browne', title: 'Mayor Pro Tem', party: null },
+      { name: 'John Carter', title: 'Council Member', party: null },
+      { name: 'Andrew Krenz', title: 'Council Member', party: null },
+      { name: 'Patrick Giesa', title: 'Council Member', party: null },
+    ],
+  },
+
+  /* ── Oakland County cities ── */
+
+  Birmingham: {
+    name: 'City of Birmingham',
+    website: 'https://www.bhamgov.org',
+    phone: '248-530-1800',
+    officials: [
+      { name: 'Elaine McLain', title: 'Mayor', party: null },
+      { name: 'Katie Schafer', title: 'Mayor Pro Tem', party: null },
+      { name: 'Brad Host', title: 'Commissioner', party: null },
+      { name: 'Andrew Haig', title: 'Commissioner', party: null },
+      { name: 'Anthony Long', title: 'Commissioner', party: null },
+      { name: 'David Bloom', title: 'Commissioner', party: null },
+      { name: 'Clinton Baller', title: 'Commissioner', party: null },
+    ],
+  },
+
+  Ferndale: {
+    name: 'City of Ferndale',
+    website: 'https://www.ferndalemi.gov',
+    phone: '248-546-2525',
+    officials: [
+      { name: 'Raylon Leaks-May', title: 'Mayor', party: 'Democratic' },
+      { name: 'Donni Steele', title: 'Mayor Pro Tem', party: null },
+      { name: 'Laura Mitchell', title: 'Council Member', party: null },
+      { name: 'Kat Bruner James', title: 'Council Member', party: null },
+      { name: 'Greg Pawlica', title: 'Council Member', party: null },
+    ],
+  },
+
+  'Oak Park': {
+    name: 'City of Oak Park',
+    website: 'https://www.oakparkmi.gov',
+    phone: '248-691-7400',
+    officials: [
+      { name: 'Marian McClellan', title: 'Mayor', party: null },
+      { name: 'Carolyn Burns', title: 'Mayor Pro Tem', party: null },
+      { name: 'Solomon Radner', title: 'Council Member', party: null },
+      { name: 'Regina Weiss', title: 'Council Member', party: null },
+      { name: 'Erika Carter', title: 'Council Member', party: null },
+    ],
+  },
+
+  'Madison Heights': {
+    name: 'City of Madison Heights',
+    website: 'https://www.madison-heights.org',
+    phone: '248-583-0826',
+    officials: [
+      { name: 'Roslyn Grafstein', title: 'Mayor', party: null },
+      { name: 'Mark Bliss', title: 'Mayor Pro Tem', party: null },
+      { name: 'Quinn Wright', title: 'Council Member', party: null },
+      { name: 'Robert Corbett', title: 'Council Member', party: null },
+      { name: 'David Soltis', title: 'Council Member', party: null },
+      { name: 'Sean Fleming', title: 'Council Member', party: null },
+      { name: 'Emily Rohrbach', title: 'Council Member', party: null },
+    ],
+  },
+
+  'Hazel Park': {
+    name: 'City of Hazel Park',
+    website: 'https://www.hazelpark.org',
+    phone: '248-547-3000',
+    officials: [
+      { name: 'Mike Webb', title: 'Mayor', party: null },
+      { name: 'Luke Londo', title: 'Mayor Pro Tem', party: null },
+      { name: 'Andy LeCureaux', title: 'Council Member', party: null },
+      { name: 'Andy Beras', title: 'Council Member', party: null },
+      { name: 'Alissa Sullivan', title: 'Council Member', party: null },
+    ],
+  },
+
+  Berkley: {
+    name: 'City of Berkley',
+    website: 'https://www.berkleymich.org',
+    phone: '248-658-3300',
+    officials: [
+      { name: 'Daniel Terbrack', title: 'Mayor', party: null },
+      { name: 'Natalie Price', title: 'Mayor Pro Tem', party: null },
+      { name: 'Dennis Hennen', title: 'Council Member', party: null },
+      { name: 'Jack Blanchard', title: 'Council Member', party: null },
+      { name: 'Ross Gavin', title: 'Council Member', party: null },
+      { name: 'Bridget Dean', title: 'Council Member', party: null },
+      { name: 'Rebecca Levin', title: 'Council Member', party: null },
+    ],
+  },
+
+  'Auburn Hills': {
+    name: 'City of Auburn Hills',
+    website: 'https://www.auburnhills.org',
+    phone: '248-370-9402',
+    officials: [
+      { name: 'Kevin McDaniel', title: 'Mayor', party: null },
+      { name: 'Brian Marzolf', title: 'Mayor Pro Tem', party: null },
+      { name: 'Henry Knight', title: 'Council Member', party: null },
+      { name: 'Veronica Whitehead', title: 'Council Member', party: null },
+      { name: 'Tim Burke', title: 'Council Member', party: null },
+      { name: 'Bob Kittle', title: 'Council Member', party: null },
+      { name: 'Sue Casey', title: 'Council Member', party: null },
+    ],
+  },
+
+  'Walled Lake': {
+    name: 'City of Walled Lake',
+    website: 'https://www.walledlake.com',
+    phone: '248-624-4847',
+    officials: [
+      { name: 'Linda S. Ackley', title: 'Mayor', party: null },
+      { name: 'Bill Roberts', title: 'Mayor Pro Tem', party: null },
+      { name: 'Eric Stempien', title: 'Council Member', party: null },
+      { name: 'Casey Ambrose', title: 'Council Member', party: null },
+      { name: 'Tim Beauchamp', title: 'Council Member', party: null },
+      { name: 'Susan Pawlowski', title: 'Council Member', party: null },
+      { name: 'David Adams', title: 'Council Member', party: null },
+    ],
+  },
+
+  /* ── Macomb County cities ── */
+
+  'Mount Clemens': {
+    name: 'City of Mount Clemens',
+    website: 'https://www.cityofmountclemens.com',
+    phone: '586-469-6818',
+    officials: [
+      { name: 'Laura Kropp', title: 'Mayor', party: null },
+      { name: 'Ronald Campbell', title: 'Commissioner', party: null },
+      { name: 'Erik Rick', title: 'Commissioner', party: null },
+      { name: 'Denise Mentzer', title: 'Commissioner', party: null },
+      { name: 'Karyn Sherry', title: 'Commissioner', party: null },
+      { name: 'Linus Nicholas', title: 'Commissioner', party: null },
+      { name: 'Patricia Owens', title: 'Commissioner', party: null },
+    ],
+  },
+
+  Eastpointe: {
+    name: 'City of Eastpointe',
+    website: 'https://www.eastpointecity.org',
+    phone: '586-445-5000',
+    officials: [
+      { name: 'Michael Klinefelt', title: 'Mayor', party: null },
+      { name: 'Cardi DeMonaco Jr.', title: 'Mayor Pro Tem', party: null },
+      { name: 'Margaret Podsiadlik', title: 'Council Member', party: null },
+      { name: 'Rob Baker', title: 'Council Member', party: null },
+      { name: 'Harvey Curley', title: 'Council Member', party: null },
+    ],
+  },
+
+  Fraser: {
+    name: 'City of Fraser',
+    website: 'https://www.micityoffraser.com',
+    phone: '586-293-3100',
+    officials: [
+      { name: 'Michael Lesich', title: 'Mayor', party: null },
+      { name: 'Kathy Blanke', title: 'Mayor Pro Tem', party: null },
+      { name: 'Patrice Schornak', title: 'Council Member', party: null },
+      { name: 'Suzanne Kalka', title: 'Council Member', party: null },
+      { name: 'Amy Baranski', title: 'Council Member', party: null },
+      { name: 'David Winowiecki', title: 'Council Member', party: null },
+    ],
+  },
+
+  'Center Line': {
+    name: 'City of Center Line',
+    website: 'https://www.centerline.gov',
+    phone: '586-757-6800',
+    officials: [
+      { name: 'Robert Binson', title: 'Mayor', party: null },
+      { name: 'Margie Manor', title: 'Mayor Pro Tem', party: null },
+      { name: 'Lisa Cipriano', title: 'Council Member', party: null },
+      { name: 'Brian Watt', title: 'Council Member', party: null },
+      { name: 'Tonya Allen', title: 'Council Member', party: null },
+    ],
+  },
+
+  /* ── Genesee County (Flint metro) ── */
+
+  Burton: {
+    name: 'City of Burton',
+    website: 'https://www.burtonmi.com',
+    phone: '810-743-1500',
+    officials: [
+      { name: 'Duane Haskins', title: 'Mayor', party: 'Republican' },
+      { name: 'Steven Heffner', title: 'Council President (Ward 1)', party: null, ward: 1 },
+      { name: 'Vaughn Smith', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Tom Martinbianco', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Greg Hull', title: 'Council Member (Ward 4)', party: null, ward: 4 },
+      { name: "Dennis O'Keefe", title: 'Council Member (Ward 5)', party: null, ward: 5 },
+      { name: 'Bryan Sano', title: 'Council Member (Ward 6)', party: null, ward: 6 },
+      { name: 'Tina Conley', title: 'Council Member (Ward 7)', party: null, ward: 7 },
+    ],
+  },
 }
 
 /* ── Township officials ── */

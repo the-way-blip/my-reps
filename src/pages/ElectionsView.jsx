@@ -11,6 +11,13 @@ import {
   getStateElectionUrl,
   MI_ELECTIONS,
 } from '../data/electionData'
+import {
+  MI_2026_GOVERNOR,
+  MI_2026_SENATE,
+  MI_2026_US_HOUSE,
+  MI_2026_STATEWIDE,
+  MI_2026_SUPREME_COURT,
+} from '../data/mi2026Races'
 import { REGISTRATION_LINKS } from '../data/registrationLinks'
 import {
   requestNotificationPermission,
@@ -222,38 +229,130 @@ function ElectionCard({ election, onSelect, featured }) {
   const isGeneral = election.type === 'general'
   const hasDownloadableDate = !!(election.date || election.electionDay)
   const isPast = isElectionPast(election)
+  const [expanded, setExpanded] = useState(false)
+  const hasDetail = (election.keyRaces?.length > 0) || (election.proposals?.length > 0)
   return (
-    <button
+    <div
       className={`election-card ${isGeneral ? 'election-card-general' : ''} ${featured ? 'election-card-featured' : ''}`}
-      onClick={onSelect ? () => onSelect(election) : undefined}
-      type="button"
-      style={{ cursor: onSelect ? 'pointer' : 'default', textAlign: 'left', width: '100%' }}
+      style={{ width: '100%' }}
     >
-      <div className="election-card-header">
-        <span className={`election-type-badge ${election.type}`}>
-          {election.type === 'general' ? 'General' : election.type === 'primary' ? 'Primary' : 'Election'}
-        </span>
-        <span className="election-date">{election.date || election.dateRange || election.electionDay}</span>
-      </div>
-      <h3 className="election-card-title">{election.name}</h3>
-      {election.description && <p className="election-card-desc">{election.description}</p>}
-      {election.registrationDeadline && (
-        <p className="election-deadline">
-          <strong>Registration deadline:</strong> {election.registrationDeadline}
-        </p>
-      )}
-      {election.offices && (
-        <div className="election-offices">
-          <strong>On the ballot:</strong>
-          <ul>
-            {election.offices.map((office, i) => (
-              <li key={i}>{office}</li>
-            ))}
-          </ul>
+      <button
+        type="button"
+        onClick={onSelect ? () => onSelect(election) : undefined}
+        style={{
+          all: 'unset',
+          cursor: onSelect ? 'pointer' : 'default',
+          textAlign: 'left',
+          width: '100%',
+          display: 'block',
+        }}
+      >
+        <div className="election-card-header">
+          <span className={`election-type-badge ${election.type}`}>
+            {election.type === 'general' ? 'General' : election.type === 'primary' ? 'Primary' : 'Election'}
+          </span>
+          <span className="election-date">{election.date || election.dateRange || election.electionDay}</span>
+        </div>
+        <h3 className="election-card-title">{election.name}</h3>
+        {election.description && <p className="election-card-desc">{election.description}</p>}
+        {election.registrationDeadline && (
+          <p className="election-deadline">
+            <strong>Registration deadline:</strong> {election.registrationDeadline}
+          </p>
+        )}
+        {election.offices && (
+          <div className="election-offices">
+            <strong>On the ballot:</strong>
+            <ul>
+              {election.offices.map((office, i) => (
+                <li key={i}>{office}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {election.note && <p className="election-note">{election.note}</p>}
+      </button>
+
+      {hasDetail && (
+        <div style={{ marginTop: '0.75rem' }}>
+          <button
+            type="button"
+            onClick={() => setExpanded(e => !e)}
+            className="election-expand-btn"
+            style={{
+              background: 'transparent',
+              border: '1px solid var(--border, rgba(0,0,0,0.15))',
+              borderRadius: '6px',
+              padding: '0.4rem 0.8rem',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+              color: 'var(--text)',
+            }}
+          >
+            {expanded ? '▾' : '▸'} {expanded ? 'Hide' : 'Show'} key races &amp; proposals
+            {!expanded && (election.keyRaces?.length || election.proposals?.length) ? (
+              <span style={{ opacity: 0.7, marginLeft: '0.4rem' }}>
+                ({(election.keyRaces?.length || 0) + (election.proposals?.length || 0)})
+              </span>
+            ) : null}
+          </button>
+
+          {expanded && (
+            <div style={{ marginTop: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+              {election.keyRaces?.length > 0 && (
+                <div>
+                  <strong style={{ fontSize: '0.9rem' }}>Key races</strong>
+                  <div style={{ marginTop: '0.4rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+                    {election.keyRaces.map((race, i) => (
+                      <div key={i} style={{ padding: '0.6rem 0.75rem', background: 'var(--bg-subtle, rgba(0,0,0,0.04))', borderRadius: '6px' }}>
+                        <div style={{ fontWeight: 600, fontSize: '0.88rem' }}>{race.office}</div>
+                        {race.note && (
+                          <div style={{ fontSize: '0.82rem', opacity: 0.85, marginTop: '0.2rem' }}>{race.note}</div>
+                        )}
+                        {race.details && (
+                          <div style={{ fontSize: '0.82rem', opacity: 0.85, marginTop: '0.2rem' }}>{race.details}</div>
+                        )}
+                        {race.candidates?.length > 0 && (
+                          <div style={{ fontSize: '0.82rem', marginTop: '0.3rem' }}>
+                            <span style={{ opacity: 0.7 }}>Candidates: </span>
+                            {race.candidates.join(', ')}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {election.proposals?.length > 0 && (
+                <div>
+                  <strong style={{ fontSize: '0.9rem' }}>Ballot proposals</strong>
+                  <div style={{ marginTop: '0.4rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+                    {election.proposals.map((prop, i) => (
+                      <div key={i} style={{ padding: '0.6rem 0.75rem', background: 'var(--bg-subtle, rgba(0,0,0,0.04))', borderRadius: '6px' }}>
+                        <div style={{ fontWeight: 600, fontSize: '0.88rem' }}>{prop.name}</div>
+                        {prop.type && (
+                          <div style={{ fontSize: '0.72rem', opacity: 0.7, textTransform: 'uppercase', letterSpacing: '0.5px', marginTop: '0.2rem' }}>
+                            {prop.type}
+                          </div>
+                        )}
+                        {prop.description && (
+                          <div style={{ fontSize: '0.82rem', marginTop: '0.3rem' }}>{prop.description}</div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       )}
-      {election.note && <p className="election-note">{election.note}</p>}
-      {onSelect === undefined && <p className="election-note" style={{ marginTop: '0.5rem', opacity: 0.7 }}>Enter your address above to see your ballot</p>}
+
+      {onSelect === undefined && (
+        <p className="election-note" style={{ marginTop: '0.5rem', opacity: 0.7 }}>
+          Enter your address above to see your ballot
+        </p>
+      )}
       <div className="election-card-actions">
         {hasDownloadableDate && (
           <span
@@ -279,7 +378,198 @@ function ElectionCard({ election, onSelect, featured }) {
         )}
         {!isPast && <RemindButton election={election} />}
       </div>
-    </button>
+    </div>
+  )
+}
+
+/* ── 2026 Race detail cards (Michigan) ── */
+
+function getRatingColor(rating) {
+  if (!rating) return null
+  if (rating.includes('Toss-up')) return '#9C6BFF'
+  if (rating.startsWith('Lean D') || rating.startsWith('Likely D') || rating.startsWith('Safe D')) return '#3B82F6'
+  if (rating.startsWith('Lean R') || rating.startsWith('Likely R') || rating.startsWith('Safe R')) return '#EF4444'
+  return null
+}
+
+function CandidateRow({ candidate, party }) {
+  const partyAbbrev = party === 'democratic' ? 'D' : party === 'republican' ? 'R' : party === 'independent' ? 'I' : null
+  const partyColor = party === 'democratic' ? '#3B82F6' : party === 'republican' ? '#EF4444' : party === 'independent' ? '#9CA3AF' : null
+  return (
+    <div style={{ padding: '0.6rem 0', borderBottom: '1px solid var(--border, rgba(0,0,0,0.08))' }}>
+      <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', flexWrap: 'wrap' }}>
+        <span style={{ fontWeight: 600, fontSize: '0.92rem' }}>{candidate.name}</span>
+        {partyAbbrev && (
+          <span style={{ fontSize: '0.72rem', fontWeight: 700, color: partyColor, padding: '0.1rem 0.4rem', border: `1px solid ${partyColor}`, borderRadius: '3px' }}>
+            {partyAbbrev}
+          </span>
+        )}
+        {candidate.status === 'frontrunner' && (
+          <span style={{ fontSize: '0.7rem', background: '#FCD34D', color: '#78350F', padding: '0.1rem 0.4rem', borderRadius: '3px', fontWeight: 600 }}>
+            FRONTRUNNER
+          </span>
+        )}
+        {candidate.status === 'minor' && (
+          <span style={{ fontSize: '0.7rem', opacity: 0.6 }}>minor candidate</span>
+        )}
+      </div>
+      {candidate.currentRole && (
+        <div style={{ fontSize: '0.82rem', opacity: 0.85, marginTop: '0.2rem' }}>{candidate.currentRole}</div>
+      )}
+      {candidate.keyIssues?.length > 0 && (
+        <div style={{ fontSize: '0.78rem', opacity: 0.8, marginTop: '0.25rem' }}>
+          <span style={{ opacity: 0.7 }}>Key issues: </span>
+          {candidate.keyIssues.join(' · ')}
+        </div>
+      )}
+      {candidate.notes && (
+        <div style={{ fontSize: '0.78rem', opacity: 0.75, marginTop: '0.25rem', fontStyle: 'italic' }}>{candidate.notes}</div>
+      )}
+      {candidate.website && (
+        <a
+          href={candidate.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ fontSize: '0.78rem', marginTop: '0.3rem', display: 'inline-block', textDecoration: 'underline' }}
+        >
+          Campaign site &rarr;
+        </a>
+      )}
+    </div>
+  )
+}
+
+function RaceCard({ race, title }) {
+  const ratingColor = getRatingColor(race.cookRating)
+  return (
+    <div className="election-card" style={{ width: '100%' }}>
+      <div className="election-card-header">
+        <span className="election-type-badge general">{title || race.office}</span>
+        {race.cookRating && (
+          <span style={{ fontSize: '0.72rem', fontWeight: 700, color: ratingColor || 'inherit', padding: '0.15rem 0.5rem', border: `1px solid ${ratingColor || 'var(--border)'}`, borderRadius: '4px' }}>
+            {race.cookRating}
+          </span>
+        )}
+      </div>
+      <h3 className="election-card-title">{race.office}</h3>
+      {race.description && <p className="election-card-desc">{race.description}</p>}
+      {race.incumbent && (
+        <p className="election-note">
+          <strong>Incumbent:</strong> {race.incumbent}
+          {race.incumbentStatus === 'term-limited' && ' (term-limited)'}
+          {race.incumbentStatus === 'retiring' && ' (retiring)'}
+          {race.incumbentStatus === 'open' && ' (open seat)'}
+        </p>
+      )}
+      {race.candidates?.democratic?.length > 0 && (
+        <div style={{ marginTop: '0.8rem' }}>
+          <div style={{ fontWeight: 700, fontSize: '0.82rem', color: '#3B82F6', marginBottom: '0.3rem' }}>
+            DEMOCRATIC PRIMARY ({race.candidates.democratic.length})
+          </div>
+          {race.candidates.democratic.map((c, i) => (
+            <CandidateRow key={i} candidate={c} party="democratic" />
+          ))}
+        </div>
+      )}
+      {race.candidates?.republican?.length > 0 && (
+        <div style={{ marginTop: '0.8rem' }}>
+          <div style={{ fontWeight: 700, fontSize: '0.82rem', color: '#EF4444', marginBottom: '0.3rem' }}>
+            REPUBLICAN PRIMARY ({race.candidates.republican.length})
+          </div>
+          {race.candidates.republican.map((c, i) => (
+            <CandidateRow key={i} candidate={c} party="republican" />
+          ))}
+        </div>
+      )}
+      {race.candidates?.independent?.length > 0 && (
+        <div style={{ marginTop: '0.8rem' }}>
+          <div style={{ fontWeight: 700, fontSize: '0.82rem', color: '#9CA3AF', marginBottom: '0.3rem' }}>
+            INDEPENDENT ({race.candidates.independent.length})
+          </div>
+          {race.candidates.independent.map((c, i) => (
+            <CandidateRow key={i} candidate={c} party="independent" />
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
+function USHouseDistrictCard({ district }) {
+  const ratingColor = getRatingColor(district.cookRating)
+  const allCandidates = district.candidates || [
+    ...(district.incumbent ? [{ ...district.incumbent, isIncumbent: true }] : []),
+    ...(district.challengers || []),
+  ]
+  return (
+    <div className="election-card" style={{ width: '100%' }}>
+      <div className="election-card-header">
+        <span className="election-type-badge general">U.S. House</span>
+        {district.cookRating && (
+          <span style={{ fontSize: '0.72rem', fontWeight: 700, color: ratingColor || 'inherit', padding: '0.15rem 0.5rem', border: `1px solid ${ratingColor || 'var(--border)'}`, borderRadius: '4px' }}>
+            {district.cookRating}
+          </span>
+        )}
+      </div>
+      <h3 className="election-card-title">{district.district}</h3>
+      {district.description && <p className="election-card-desc">{district.description}</p>}
+      {district.incumbentName && (
+        <p className="election-note"><strong>Open seat:</strong> {district.incumbentName}</p>
+      )}
+      <div style={{ marginTop: '0.6rem' }}>
+        {allCandidates.map((c, i) => {
+          const partyKey = c.party?.toLowerCase().startsWith('d') ? 'democratic' : c.party?.toLowerCase().startsWith('r') ? 'republican' : null
+          return (
+            <CandidateRow
+              key={i}
+              candidate={{
+                name: c.name,
+                website: c.website,
+                currentRole: c.isIncumbent
+                  ? `Incumbent since ${c.since || '?'}${c.notes ? ` — ${c.notes}` : ''}`
+                  : c.notes,
+                status: c.isIncumbent ? 'frontrunner' : undefined,
+              }}
+              party={partyKey}
+            />
+          )
+        })}
+        {allCandidates.length === 0 && (
+          <p className="election-card-desc">No major challengers announced yet.</p>
+        )}
+      </div>
+    </div>
+  )
+}
+
+function SupremeCourtCard({ data }) {
+  return (
+    <div className="election-card" style={{ width: '100%' }}>
+      <div className="election-card-header">
+        <span className="election-type-badge general">Judicial</span>
+        <span className="election-date">2 seats up</span>
+      </div>
+      <h3 className="election-card-title">{data.office}</h3>
+      <p className="election-card-desc">{data.description}</p>
+      {data.seats.map((seat, i) => (
+        <div key={i} style={{ marginTop: '0.8rem', padding: '0.6rem', background: 'var(--bg-subtle, rgba(0,0,0,0.04))', borderRadius: '6px' }}>
+          <div style={{ fontWeight: 600, fontSize: '0.88rem' }}>{seat.seat}</div>
+          {seat.incumbent && (
+            <CandidateRow
+              candidate={{
+                name: seat.incumbent.name,
+                currentRole: `${seat.incumbent.currentRole}${seat.incumbent.notes ? ' — ' + seat.incumbent.notes : ''}`,
+                status: 'frontrunner',
+              }}
+              party={seat.incumbent.nominatedBy === 'Democratic' ? 'democratic' : seat.incumbent.nominatedBy === 'Republican' ? 'republican' : null}
+            />
+          )}
+          {seat.challengers && (
+            <div style={{ fontSize: '0.82rem', marginTop: '0.4rem', opacity: 0.8 }}>{seat.challengers}</div>
+          )}
+        </div>
+      ))}
+    </div>
   )
 }
 
@@ -445,9 +735,13 @@ export default function ElectionsView() {
   const hasBallot = userAddress && voterInfo && selectedElection
   const hasPolling = pollingLocations.length > 0 || earlyVoteSites.length > 0 || dropOffLocations.length > 0
 
+  const isMI = stateCode === 'MI'
+  const mi2026RaceCount = isMI ? (1 + 1 + MI_2026_US_HOUSE.length + MI_2026_STATEWIDE.length + 1) : 0
+
   const tabs = [
     { id: 'elections', label: 'Elections', count: realElections.length + stateElections.length },
     ...(hasBallot ? [{ id: 'ballot', label: 'My Ballot', count: (voterInfo.contests?.length || 0) }] : []),
+    ...(isMI ? [{ id: 'races2026', label: '2026 Races', count: mi2026RaceCount }] : []),
     { id: 'register', label: 'Register' },
     ...(stateResource?.votingInfo ? [{ id: 'how-to', label: 'How to Vote' }] : []),
     { id: 'resources', label: 'Resources' },
@@ -596,6 +890,50 @@ export default function ElectionsView() {
                   ))}
                 </div>
               </section>
+            )}
+          </>
+        )}
+
+        {/* ── 2026 Races tab (Michigan) ── */}
+        {activeTab === 'races2026' && isMI && (
+          <>
+            <section className="elections-section">
+              <h3 className="section-heading">Statewide Races</h3>
+              <p className="detail-meta" style={{ marginBottom: '1rem' }}>
+                Primary: August 4, 2026 &middot; General: November 3, 2026
+              </p>
+              <div className="elections-grid">
+                <RaceCard race={MI_2026_GOVERNOR} title="Governor" />
+                <RaceCard race={MI_2026_SENATE} title="U.S. Senate" />
+                {MI_2026_STATEWIDE.map((race, i) => (
+                  <RaceCard key={i} race={race} />
+                ))}
+                <SupremeCourtCard data={MI_2026_SUPREME_COURT} />
+              </div>
+            </section>
+
+            <section className="elections-section">
+              <h3 className="section-heading">
+                U.S. House — All 13 Districts
+                <span className="my-reps-group-count">{MI_2026_US_HOUSE.length}</span>
+              </h3>
+              <p className="detail-meta" style={{ marginBottom: '1rem' }}>
+                Toss-up districts (MI-7, MI-8) are top national targets. MI-10 is an open seat (John James running for Governor).
+              </p>
+              <div className="elections-grid">
+                {MI_2026_US_HOUSE.map((district, i) => (
+                  <USHouseDistrictCard key={i} district={district} />
+                ))}
+              </div>
+            </section>
+
+            {selectedState && (
+              <div className="page-share">
+                <ShareButton
+                  title="Michigan 2026 Races"
+                  text="See the 2026 candidates running in Michigan on MyReps"
+                />
+              </div>
             )}
           </>
         )}
