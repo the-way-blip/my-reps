@@ -1160,89 +1160,117 @@ export const STATE_HOUSE_RACES = {
   },
 }
 
-// ── County-Level Offices on the Primary Ballot ──────────────────
-// Michigan partisan county offices appear on the August primary
-// These are the offices voters will see; candidates vary by county
+// ── County & Township Office Cycles ─────────────────────────────
+// Michigan county row officers (Sheriff, Prosecutor, Clerk, Treasurer, Drain
+// Commissioner, Register of Deeds) and county commissioners are elected on
+// 4-year presidential-year cycles: 2024, 2028, etc. (MCL 168.200, MCL 46.410)
+// Township officers (Supervisor, Clerk, Treasurer, Trustees) are also on
+// presidential-year 4-year cycles: 2024, 2028, etc. (MCL 168.362)
+//
+// Therefore: County and township offices are NOT on the 2026 ballot.
+// They were last elected in 2024 and will next be elected in 2028.
+//
+// What IS on the 2026 local ballot:
+// - Judicial races (nonpartisan, if > 2x candidates per seat)
+// - Some county executive races (Macomb, Wayne — but NOT Oakland)
+// - Ballot proposals / millages
+// - Community college trustee races (nonpartisan, if contested)
 
-export const COUNTY_BALLOT_OFFICES = [
-  { id: 'sheriff', office: 'Sheriff', partisan: true, term: 4, seats: 1,
-    description: 'Chief law enforcement officer of the county. Manages the county jail, serves court orders, and oversees deputies.' },
-  { id: 'prosecutor', office: 'Prosecuting Attorney', partisan: true, term: 4, seats: 1,
-    description: 'Chief legal officer of the county. Decides which criminal cases to prosecute and represents the county in court.' },
-  { id: 'clerk', office: 'Clerk / Register of Deeds', partisan: true, term: 4, seats: 1,
-    description: 'Manages county records, elections, vital records (birth/death certificates), and property deed recordings.' },
-  { id: 'treasurer', office: 'Treasurer', partisan: true, term: 4, seats: 1,
-    description: 'Manages county finances, collects property taxes, and oversees county investments.' },
-  { id: 'drain', office: 'Drain Commissioner', partisan: true, term: 4, seats: 1,
-    description: 'Manages county drainage infrastructure, stormwater, and flood prevention. Some counties title this "Water Resources Commissioner."' },
-  { id: 'commissioner', office: 'Commissioner', partisan: true, term: 2, seats: 1,
-    description: 'Your representative on the county board. Sets county budget, policies, and approves county contracts. Districts vary by county.' },
-]
+// County executive races — only certain counties have these, on varying cycles
+export const COUNTY_EXECUTIVE_RACES_2026 = {
+  Macomb: {
+    office: 'County Executive',
+    partisan: true,
+    candidates: {
+      republican: [
+        { name: 'Mark Hackel', description: 'Incumbent County Executive', status: 'incumbent', grade: 'B' },
+      ],
+      democratic: [],
+    },
+  },
+  Wayne: {
+    office: 'County Executive',
+    partisan: true,
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Warren Evans', description: 'Incumbent County Executive', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+}
 
-// Township offices are also on the August primary ballot in Michigan
-export const TOWNSHIP_BALLOT_OFFICES = [
-  { id: 'twp-supervisor', office: 'Township Supervisor', partisan: true, term: 4, seats: 1,
-    description: 'Chief executive of the township. Chairs the township board, oversees assessments, and represents the township.' },
-  { id: 'twp-clerk', office: 'Township Clerk', partisan: true, term: 4, seats: 1,
-    description: 'Manages township records, elections, and meeting minutes. Deputy to the supervisor.' },
-  { id: 'twp-treasurer', office: 'Township Treasurer', partisan: true, term: 4, seats: 1,
-    description: 'Manages township finances, collects property taxes, and handles township banking.' },
-  { id: 'twp-trustees', office: 'Township Trustees', partisan: true, term: 4, seats: 4,
-    description: 'Members of the township board who vote on local ordinances, budgets, and policy. Four trustees are elected.' },
-]
+// Judicial races potentially on the August 2026 ballot (nonpartisan)
+// These appear on the nonpartisan section — voters can vote regardless of party column
+export const JUDICIAL_RACES_2026 = {
+  // Oakland County judicial seats up in 2026 (6-year staggered terms)
+  Oakland: [
+    { id: 'oakland-circuit-1', office: 'Oakland County Circuit Court', seats: 1, type: 'nonpartisan',
+      description: 'Circuit court judges hear major civil and criminal cases. Nonpartisan — all voters can vote in this race.' },
+    { id: 'oakland-probate-1', office: 'Oakland County Probate Court', seats: 1, type: 'nonpartisan',
+      description: 'Probate court handles estates, guardianships, and mental health commitments. Nonpartisan.' },
+  ],
+  Macomb: [
+    { id: 'macomb-circuit-1', office: 'Macomb County Circuit Court', seats: 1, type: 'nonpartisan',
+      description: 'Circuit court judges hear major civil and criminal cases. Nonpartisan.' },
+  ],
+  Kent: [
+    { id: 'kent-circuit-1', office: 'Kent County Circuit Court', seats: 1, type: 'nonpartisan',
+      description: 'Circuit court judges hear major civil and criminal cases. Nonpartisan.' },
+  ],
+}
 
-// Village offices — typically on the November ballot or village elections, NOT August primary
-// City offices — some cities have August primaries, but many use odd-year elections
-// School board — typically November ballot, nonpartisan
+// NOTE: County row officers (Sheriff, Prosecutor, Clerk, Treasurer, Drain Commissioner)
+// and County Commissioners were all elected in 2024 for 4-year terms.
+// They are NOT on the 2026 ballot. Next election: 2028.
+// Township officers are similarly on presidential-year cycles (2024, 2028).
+// City offices are mostly on odd-year cycles. Village offices are November-only.
+// School board races are November-only, nonpartisan.
 
 // ── Helper: Get local ballot races based on geography ──
+// In 2026, most county/township offices are NOT on the ballot (4-year
+// presidential cycle, last elected 2024, next 2028). What IS on the
+// 2026 local ballot: county executive (select counties), judicial races,
+// and ballot proposals.
 
 export function getLocalBallotRaces(party, geo) {
   if (!geo || !party) return []
   const partyKey = party === 'republican' ? 'republican' : 'democratic'
   const races = []
 
-  // County-level offices
-  if (geo.county) {
-    const countyName = geo.county.replace(/ County$/i, '')
+  if (!geo.county) return races
+  const countyName = geo.county.replace(/ County$/i, '')
 
-    COUNTY_BALLOT_OFFICES.forEach(office => {
+  // County Executive (only certain counties have this in 2026)
+  const execRace = COUNTY_EXECUTIVE_RACES_2026[countyName]
+  if (execRace) {
+    races.push({
+      id: `county-exec-${countyName}`,
+      office: `${countyName} County Executive`,
+      level: 'County',
+      description: 'Chief executive of the county government. Sets budget priorities, manages county departments, and represents the county.',
+      candidates: execRace.candidates[partyKey] || [],
+      type: 'partisan',
+      allowWrite: true,
+      localOffice: true,
+    })
+  }
+
+  // Judicial races (nonpartisan section — these appear regardless of party column)
+  const judicialRaces = JUDICIAL_RACES_2026[countyName]
+  if (judicialRaces && judicialRaces.length > 0) {
+    judicialRaces.forEach(race => {
       races.push({
-        id: `county-${office.id}-${countyName}`,
-        office: `${countyName} County ${office.office}`,
-        level: 'County',
-        description: office.description,
-        candidates: [],
-        type: 'partisan',
+        id: race.id,
+        office: race.office,
+        level: 'Judicial',
+        description: race.description,
+        candidates: [], // Judicial candidates aren't in party columns
+        type: 'nonpartisan',
         allowWrite: true,
         localOffice: true,
       })
     })
-  }
-
-  // Township offices (only if user is in a township, not a city)
-  if (geo.countySubdivision) {
-    const subName = geo.countySubdivision
-    // Check if it's a township (name contains "township" or is in unincorporated area)
-    const isTownship = /township|twp/i.test(subName) ||
-      (!geo.place && !subName.match(/^(Detroit|Grand Rapids|Lansing|Ann Arbor|Flint|Warren|Sterling Heights|Kalamazoo|Wyoming|Dearborn|Livonia|Troy|Farmington Hills|Southfield|Pontiac|Saginaw|Muskegon|Battle Creek|Bay City|Midland|Holland|Jackson|Portage|East Lansing|Novi|Rochester Hills|Royal Oak)/i))
-
-    if (isTownship) {
-      const twpName = subName.replace(/ township$/i, '')
-      TOWNSHIP_BALLOT_OFFICES.forEach(office => {
-        races.push({
-          id: `twp-${office.id}-${twpName}`,
-          office: `${twpName} Twp ${office.office.replace('Township ', '')}`,
-          level: 'Township',
-          description: office.description,
-          seats: office.seats,
-          candidates: [],
-          type: 'partisan',
-          allowWrite: true,
-          localOffice: true,
-        })
-      })
-    }
   }
 
   return races
