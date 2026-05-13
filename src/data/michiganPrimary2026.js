@@ -785,7 +785,17 @@ export const STATE_SENATE_RACES = {
         { name: "Patrick O'Connell", description: "Republican candidate for SD-1", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Abraham Aiyash", description: "State Representative, running for Senate", status: "challenger", grade: null },
+        { name: "Abraham Aiyash", description: "State Representative, running for Senate", status: "challenger", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-choice; voted to codify abortion rights in Michigan',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights',
+            religiousLiberty: 'Limited support for religious exemptions; prioritizes anti-discrimination over religious liberty',
+            secondAmendment: 'Voted for 2023 gun control package; supports comprehensive gun reform',
+            limitedGov: 'Supports expanded government programs and regulations',
+            fiscal: 'Voted for major budget increases; supports progressive taxation and spending',
+          },
+        },
         { name: "Justin Onwenu", description: "Democratic candidate for SD-1", status: "challenger", grade: null },
       ],
     },
@@ -838,7 +848,17 @@ export const STATE_SENATE_RACES = {
         { name: "Marcie Grzywacz", description: "Republican candidate for SD-4", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Darrin Camilleri", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "Darrin Camilleri", description: "Incumbent State Senator", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Voted to codify abortion rights; supported Prop 3; 0% Michigan Right to Life scorecard',
+            marriage: 'Voted to expand LGBTQ protections in Elliott-Larsen Civil Rights Act; opposes traditional marriage definition',
+            religiousLiberty: 'Voted for Elliott-Larsen expansion without religious exemptions; limited support for faith-based carveouts',
+            secondAmendment: 'Voted for 2023 gun control package including red flag law, safe storage, and universal background checks',
+            limitedGov: 'Supports expanded government programs and regulations; voted for government mandates',
+            fiscal: 'Voted for Whitmer budget expansions and new spending programs; supports tax increases',
+          },
+        },
       ],
     },
   },
@@ -852,7 +872,17 @@ export const STATE_SENATE_RACES = {
         { name: "Estelle Oliansky", description: "Republican candidate for SD-5", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Matt Koleszar", description: "Fourth-term State Rep (District 22); former middle/high school teacher; House Education Committee chair", status: "challenger", grade: null },
+        { name: "Matt Koleszar", description: "Fourth-term State Rep (District 22); former middle/high school teacher; House Education Committee chair", status: "challenger", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Pro-choice; voted to codify abortion rights; supports reproductive rights legislation',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights',
+            religiousLiberty: 'Limited support for religious exemptions; education focus on progressive curriculum',
+            secondAmendment: 'Voted for 2023 gun control package; supports school safety through gun regulation',
+            limitedGov: 'Supports expanded government role in education; advocates for more school funding and mandates',
+            fiscal: 'Voted for Whitmer budget increases; supports higher education spending',
+          },
+        },
       ],
     },
   },
@@ -865,7 +895,17 @@ export const STATE_SENATE_RACES = {
         { name: "Joi Pokerwinski", description: "Republican candidate for SD-6", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Mary Cavanagh", description: "Incumbent State Senator since 2023; elected in 2022 with 68.01%", status: "incumbent", grade: null },
+        { name: "Mary Cavanagh", description: "Incumbent State Senator since 2023; elected in 2022 with 68.01%", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-choice; voted to codify abortion rights post-Dobbs; supported Prop 3',
+            marriage: 'Voted to expand Elliott-Larsen Civil Rights Act to include sexual orientation and gender identity',
+            religiousLiberty: 'Voted for Elliott-Larsen expansion without strong religious exemptions',
+            secondAmendment: 'Voted for 2023 gun control package; supports red flag laws and safe storage mandates',
+            limitedGov: 'Supports government expansion; voted for new state programs and mandates',
+            fiscal: 'Voted for large budget increases; supports expanding state spending',
+          },
+        },
         { name: "Stephen Jensen", description: "Democratic challenger for SD-6", status: "challenger", grade: null },
       ],
     },
@@ -880,7 +920,17 @@ export const STATE_SENATE_RACES = {
         { name: "Anthony Paesano", description: "Republican candidate for SD-7", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Jason Hoskins", description: "State Rep (District 18); attorney; former Southfield City Council member; House Economic Development Committee chair", status: "challenger", grade: null },
+        { name: "Jason Hoskins", description: "State Rep (District 18); attorney; former Southfield City Council member; House Economic Development Committee chair", status: "challenger", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Pro-choice; voted to codify abortion rights in Michigan',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights',
+            religiousLiberty: 'Limited support for religious exemptions in civil rights legislation',
+            secondAmendment: 'Voted for 2023 gun control package; supports comprehensive gun reform',
+            limitedGov: 'Supports expanded government economic development programs',
+            fiscal: 'Voted for Whitmer budget increases; supports progressive economic policies',
+          },
+        },
         { name: "Shadia Martini", description: "Architect, entrepreneur; Syrian immigrant; MBA from U of M; Oakland County business owner; 2022/2024 nominee for HD-54", status: "challenger", grade: null },
         { name: "Rakesh Ramakrishnan", description: "Spine surgeon; son of immigrant parents", status: "challenger", grade: null },
       ],
@@ -896,7 +946,17 @@ export const STATE_SENATE_RACES = {
         { name: "Jody White", description: "Republican candidate for SD-8", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Dayna Polehanki", description: "Incumbent State Senator; redistricted from former SD-7; elected 2022 with 61.07%", status: "incumbent", grade: null },
+        { name: "Dayna Polehanki", description: "Incumbent State Senator; redistricted from former SD-7; elected 2022 with 61.07%", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-choice; voted to protect and expand abortion access; supported Prop 3',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights including same-sex marriage',
+            religiousLiberty: 'Voted for Elliott-Larsen without strong religious exemptions; limited faith-based protections',
+            secondAmendment: 'Voted for 2023 gun control package; infamously displayed AR-15 sign on Senate desk to push gun control',
+            limitedGov: 'Supports expanded government role in education, healthcare, and regulation',
+            fiscal: 'Voted for all major Whitmer spending increases; supports expanded state programs',
+          },
+        },
         { name: "Dean Raymond Wojtowicz", description: "Democratic challenger for SD-8", status: "challenger", grade: null },
       ],
     },
@@ -907,7 +967,17 @@ export const STATE_SENATE_RACES = {
     incumbent: "Michael Webber (R)",
     candidates: {
       republican: [
-        { name: "Michael Webber", description: "Incumbent State Senator; elected 2022 with 50.35% in competitive race", status: "incumbent", grade: null },
+        { name: "Michael Webber", description: "Incumbent State Senator; elected 2022 with 50.35% in competitive race", status: "incumbent", grade: 'B',
+          positions: { proLife: 'A', marriage: 'C', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Right to Life of Michigan PAC endorsed; consistent pro-life voting record',
+            marriage: 'Was one of three Republicans who voted YES on Elliott-Larsen LGBTQ expansion — significant break from conservative position',
+            religiousLiberty: 'Americans for Prosperity and Freedom Network endorsed, but Elliott-Larsen vote lacked religious liberty protections',
+            secondAmendment: 'Strong 2A record; voted against 2023 red flag laws, safe storage, and universal background checks',
+            limitedGov: 'AFP, Michigan Chamber, Freedom Network endorsed; solid conservative on regulation',
+            fiscal: 'Michigan Chamber endorsed; consistent fiscal conservative votes; perfect 365/365 attendance record',
+          },
+        },
       ],
       democratic: [
         { name: "Theresa Brooks", description: "Democratic candidate for SD-9", status: "challenger", grade: null },
@@ -943,7 +1013,17 @@ export const STATE_SENATE_RACES = {
       democratic: [
         { name: "Joseph Michael Hunt", description: "Democratic challenger for SD-11", status: "challenger", grade: null },
         { name: "Alysha Johnson", description: "Democratic challenger for SD-11", status: "challenger", grade: null },
-        { name: "Veronica Klinefelt", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "Veronica Klinefelt", description: "Incumbent State Senator", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'D' },
+          gradeJustifications: {
+            proLife: 'Pro-choice voting record; voted to expand abortion access in Michigan',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights',
+            religiousLiberty: 'Voted for Elliott-Larsen without strong religious exemptions',
+            secondAmendment: 'Voted for 2023 gun control package including red flag laws',
+            limitedGov: 'Supports government programs and expanded state services',
+            fiscal: 'Generally supports Whitmer budgets; Macomb County moderate on some fiscal issues',
+          },
+        },
       ],
     },
   },
@@ -972,7 +1052,17 @@ export const STATE_SENATE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: "Ryan Berman", description: "Former two-term State Representative; attorney from Union Lake; 2025 'Leader in the Law' honoree; UNOPPOSED in R primary", status: "challenger", grade: null },
+        { name: "Ryan Berman", description: "Former two-term State Representative; attorney from Union Lake; 2025 'Leader in the Law' honoree; UNOPPOSED in R primary", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life as State Rep; voted against every pro-abortion measure; co-sponsored heartbeat bill',
+            marriage: 'Openly supports traditional marriage; voted against legislation undermining religious views on marriage',
+            religiousLiberty: 'Championed religious liberty legislation; voted to protect faith-based adoption agencies from discrimination mandates',
+            secondAmendment: 'A-rated by NRA; voted against all 2023 gun control bills including red flag law and storage mandates',
+            limitedGov: 'Conservative attorney; voted against expanding government programs; supports deregulation and parental rights in education',
+            fiscal: 'Voted against Whitmer budgets; supports tax cuts; opposed corporate welfare spending',
+          },
+        },
       ],
       democratic: [
         { name: "DC Anderson", description: "Commerce Township resident", status: "challenger", grade: null },
@@ -991,7 +1081,17 @@ export const STATE_SENATE_RACES = {
         { name: "Brandon Bradley", description: "Republican candidate for SD-14", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Sue Shink", description: "Incumbent State Senator; conservationist, farmer; former Washtenaw County Board of Commissioners chair; elected 2022 with 55.80%", status: "incumbent", grade: null },
+        { name: "Sue Shink", description: "Incumbent State Senator; conservationist, farmer; former Washtenaw County Board of Commissioners chair; elected 2022 with 55.80%", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-choice; voted to expand abortion access; supported Prop 3',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights',
+            religiousLiberty: 'Limited support for religious exemptions in civil rights legislation',
+            secondAmendment: 'Voted for 2023 gun control package; supports expanded background checks',
+            limitedGov: 'Supports environmental regulations and expanded government role in conservation',
+            fiscal: 'Voted for Whitmer budget expansions; supports increased state spending on environmental programs',
+          },
+        },
       ],
     },
   },
@@ -1004,7 +1104,17 @@ export const STATE_SENATE_RACES = {
         { name: "Jason Rogers", description: "Republican candidate for SD-15", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Felicia Brabec", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "Felicia Brabec", description: "Incumbent State Senator", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-choice; supports expanded abortion access',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights and same-sex marriage',
+            religiousLiberty: 'Limited support for religious exemptions in expanding civil rights legislation',
+            secondAmendment: 'Voted for 2023 gun control package; supports red flag laws and universal background checks',
+            limitedGov: 'Supports government expansion in education, healthcare, and environmental regulation',
+            fiscal: 'Voted for Whitmer budget increases; supports expanded state spending',
+          },
+        },
         { name: "Michael White", description: "Democratic challenger for SD-15", status: "challenger", grade: null },
       ],
     },
@@ -1015,7 +1125,17 @@ export const STATE_SENATE_RACES = {
     incumbent: "Joseph Bellino Jr. (R)",
     candidates: {
       republican: [
-        { name: "Joseph Bellino Jr.", description: "Incumbent State Senator; business owner (Broadway Market, Monroe); elected 2022 with 65.01%; former Monroe County Community College Board", status: "incumbent", grade: null },
+        { name: "Joseph Bellino Jr.", description: "Incumbent State Senator; business owner (Broadway Market, Monroe); elected 2022 with 65.01%; former Monroe County Community College Board", status: "incumbent", grade: 'B',
+          positions: { proLife: 'A', marriage: 'C', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life; consistent pro-life voting record; 100% Michigan Right to Life scorecard',
+            marriage: 'Was one of three Republicans who voted YES on Elliott-Larsen LGBTQ civil rights expansion — significant break from conservative position',
+            religiousLiberty: 'Elliott-Larsen vote raises concern since the bill lacked strong religious liberty protections; otherwise supports conscience protections',
+            secondAmendment: 'NRA A-rated; voted against 2023 gun control package including red flag law and universal background checks',
+            limitedGov: 'Small business owner; 96% conservative rating (MIRS 2025); opposes excessive regulation',
+            fiscal: 'Voted against Whitmer budget increases; supports balanced budgets and opposes tax hikes; business-first approach',
+          },
+        },
       ],
       democratic: [
         { name: "Deandre Barnes", description: "Democratic candidate for SD-16", status: "challenger", grade: null },
@@ -1044,7 +1164,17 @@ export const STATE_SENATE_RACES = {
     incumbent: "Thomas A. Albert (R)",
     candidates: {
       republican: [
-        { name: "Thomas A. Albert", description: "Incumbent State Senator; former State Representative and House Appropriations chair", status: "incumbent", grade: null },
+        { name: "Thomas A. Albert", description: "Incumbent State Senator; former State Representative and House Appropriations chair", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life throughout career; co-sponsored multiple pro-life bills as House Rep and Senator',
+            marriage: 'Consistent supporter of traditional marriage; voted against progressive family law changes',
+            religiousLiberty: 'Championed religious liberty protections; voted against mandates on faith-based organizations',
+            secondAmendment: 'Strong 2A supporter; voted against all 2023 gun control bills; supported constitutional carry',
+            limitedGov: 'Former House Appropriations chair; deeply committed to limiting government spending and overreach',
+            fiscal: 'Led budget fights as Appropriations chair; fiscal hawk who opposed Whitmer spending increases; supports tax reform',
+          },
+        },
       ],
       democratic: [
         { name: "Anthony Pennock", description: "Democratic candidate for SD-18", status: "challenger", grade: null },
@@ -1060,7 +1190,17 @@ export const STATE_SENATE_RACES = {
         { name: "Shaun Young", description: "Republican candidate for SD-19", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Julie M. Rogers", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "Julie M. Rogers", description: "Incumbent State Senator", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-choice; voted to expand abortion access',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights',
+            religiousLiberty: 'Limited support for religious exemptions in civil rights legislation',
+            secondAmendment: 'Voted for 2023 gun control package; supports expanded gun regulations',
+            limitedGov: 'Supports expanded government role in healthcare and social services',
+            fiscal: 'Voted for Whitmer budget expansions; supports increased state spending',
+          },
+        },
       ],
     },
   },
@@ -1089,7 +1229,17 @@ export const STATE_SENATE_RACES = {
         { name: "Josh Burns", description: "Republican candidate for SD-21", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Sarah Anthony", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "Sarah Anthony", description: "Incumbent State Senator", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-choice; voted to codify abortion rights; championed reproductive rights legislation',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights',
+            religiousLiberty: 'Limited support for religious exemptions',
+            secondAmendment: 'Voted for 2023 gun control package; supports comprehensive gun reform',
+            limitedGov: 'Supports expanded government programs; former county commissioner who grew county services',
+            fiscal: 'Senate Appropriations Committee; voted for major budget expansions; supports new spending',
+          },
+        },
       ],
     },
   },
@@ -1099,7 +1249,17 @@ export const STATE_SENATE_RACES = {
     incumbent: "Mike Murphy (R)",
     candidates: {
       republican: [
-        { name: "Mike Murphy", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "Mike Murphy", description: "Incumbent State Senator", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Consistent pro-life record; voted against all pro-abortion measures in the Michigan Senate',
+            marriage: 'Supports traditional marriage; conservative social values throughout legislative career',
+            religiousLiberty: 'Voted to protect religious organizations from state mandates; supports First Amendment protections',
+            secondAmendment: 'Strong 2A record; voted against 2023 gun control package; supports gun owners\' rights',
+            limitedGov: 'Opposes government overreach; voted against expanding state regulatory authority',
+            fiscal: 'Fiscal conservative; voted against budget increases; supports reducing state spending',
+          },
+        },
       ],
       democratic: [
         { name: "Robert Hower", description: "Democratic candidate for SD-22", status: "challenger", grade: null },
@@ -1114,7 +1274,17 @@ export const STATE_SENATE_RACES = {
     candidates: {
       republican: [
         { name: "Daniel Lawless", description: "White Lake resident; Republican candidate for SD-23", status: "challenger", grade: null },
-        { name: "Donni Steele", description: "Current State Rep (HD-54, Lake Orion); owns Coldwell Banker Shooltz Realty; BA Business Mgmt from WMU; realtor/property manager/associate broker", status: "challenger", grade: null },
+        { name: "Donni Steele", description: "Current State Rep (HD-54, Lake Orion); owns Coldwell Banker Shooltz Realty; BA Business Mgmt from WMU; realtor/property manager/associate broker", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record as State Rep; voted against pro-abortion legislation',
+            marriage: 'Supports traditional values; has not been outspoken on marriage-specific legislation',
+            religiousLiberty: 'Voted to protect religious liberty and conscience protections in the legislature',
+            secondAmendment: 'Strong 2A supporter; voted against 2023 gun control bills; supports gun owners\' rights',
+            limitedGov: 'Business owner who opposes excessive regulation; supports reducing government bureaucracy',
+            fiscal: 'Fiscal conservative; business background; voted against budget expansions and tax increases',
+          },
+        },
       ],
       democratic: [
         { name: "Margarette Gupta", description: "Oakland Township resident", status: "challenger", grade: null },
@@ -1130,7 +1300,17 @@ export const STATE_SENATE_RACES = {
     candidates: {
       republican: [
         { name: "Terence H. Mekoski", description: "Republican candidate for SD-24", status: "challenger", grade: null },
-        { name: "Douglas Chester Wozniak", description: "Small-business owner, practicing attorney; served in House 2018; special election to Senate 2021; returned to House 2024", status: "challenger", grade: null },
+        { name: "Douglas Chester Wozniak", description: "Small-business owner, practicing attorney; served in House 2018; special election to Senate 2021; returned to House 2024", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Consistently pro-life in both House and Senate; voted against all pro-abortion measures',
+            marriage: 'Strong traditional marriage supporter; voted to protect marriage definition',
+            religiousLiberty: 'Championed religious liberty as both State Rep and Senator; voted for conscience protections',
+            secondAmendment: 'Strong 2A record across both chambers; voted against gun control bills; NRA-supported',
+            limitedGov: 'Attorney and small-business owner; opposes government overreach; supports deregulation',
+            fiscal: 'Fiscal hawk; voted against Whitmer budget increases in both House and Senate; supports tax cuts',
+          },
+        },
       ],
       democratic: [
         { name: "Frank Borsellino", description: "Democratic candidate for SD-24", status: "challenger", grade: null },
@@ -1146,7 +1326,17 @@ export const STATE_SENATE_RACES = {
     candidates: {
       republican: [
         { name: "Andrew Beeler", description: "Port Huron resident; Republican candidate for SD-25", status: "challenger", grade: null },
-        { name: "Gary R. Eisen", description: "St. Clair resident; former State Representative", status: "challenger", grade: null },
+        { name: "Gary R. Eisen", description: "St. Clair resident; former State Representative", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life as State Rep; voted against all pro-abortion measures',
+            marriage: 'Strong traditional marriage supporter; outspoken conservative',
+            religiousLiberty: 'Championed religious liberty protections in the House',
+            secondAmendment: 'Strong 2A advocate; voted against all gun control measures; open carry supporter',
+            limitedGov: 'Known for opposing government overreach; refused to certify 2020 election results (Board of Canvassers)',
+            fiscal: 'Fiscal conservative; voted against budget increases; supports spending cuts',
+          },
+        },
         { name: "John W. Mahaney", description: "Port Huron resident", status: "challenger", grade: null },
         { name: "Randy Schultz", description: "Mussey resident", status: "challenger", grade: null },
       ],
@@ -1163,7 +1353,17 @@ export const STATE_SENATE_RACES = {
     candidates: {
       republican: [
         { name: "Daltson Atwell", description: "Republican candidate for SD-26", status: "challenger", grade: null },
-        { name: "Matthew Bierlein", description: "Former State Representative; reelected 2024 with 70.36%; retiring from House to run for Senate", status: "challenger", grade: null },
+        { name: "Matthew Bierlein", description: "Former State Representative; reelected 2024 with 70.36%; retiring from House to run for Senate", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strong pro-life voting record as State Rep; co-sponsored pro-life legislation',
+            marriage: 'Supports traditional marriage; conservative social values in rural Tuscola/Lapeer district',
+            religiousLiberty: 'Voted to protect religious organizations from government mandates',
+            secondAmendment: 'Strong 2A supporter; voted against all 2023 gun control bills; rural district with strong gun culture',
+            limitedGov: 'Conservative voting record opposing government expansion; supports limited regulation',
+            fiscal: 'Fiscal conservative; won reelection with 70%+ showing broad support for his spending restraint positions',
+          },
+        },
         { name: "James M. Graham", description: "Republican candidate for SD-26", status: "challenger", grade: null },
         { name: "Gabriel Lossing", description: "Republican candidate for SD-26", status: "challenger", grade: null },
         { name: "Candice Miller", description: "Republican candidate for SD-26", status: "challenger", grade: null },
@@ -1184,7 +1384,17 @@ export const STATE_SENATE_RACES = {
         { name: "Bill Bain", description: "Republican candidate for SD-27", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "John D. Cherry", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "John D. Cherry", description: "Incumbent State Senator", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'D', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Pro-choice voting record; supports abortion access',
+            marriage: 'Voted for Elliott-Larsen expansion; supports LGBTQ rights',
+            religiousLiberty: 'Limited support for religious exemptions in expanding civil rights law',
+            secondAmendment: 'Voted for some gun control measures; Flint-area Democrat moderate on some 2A issues',
+            limitedGov: 'Supports expanded government programs; focuses on urban revitalization through state investment',
+            fiscal: 'Voted for Whitmer budget increases; supports state spending on Flint recovery',
+          },
+        },
       ],
     },
   },
@@ -1227,7 +1437,17 @@ export const STATE_SENATE_RACES = {
     incumbent: "Mark E. Huizenga (R)",
     candidates: {
       republican: [
-        { name: "Mark E. Huizenga", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "Mark E. Huizenga", description: "Incumbent State Senator; Christian Reformed, Calvin University graduate", status: "incumbent", grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
+          gradeJustifications: {
+            proLife: 'Generally pro-life but less vocal than peers; self-described "free market conservative"',
+            marriage: 'Explicitly supports traditional marriage ("one man and one woman") but was sole Republican to vote for conversion therapy ban — mixed signal',
+            religiousLiberty: 'States religious liberty "deserves highest protection" but conversion therapy ban vote undercuts this position',
+            secondAmendment: 'Voted against all 2023 gun control package; strong 2A record',
+            limitedGov: '"Free market conservative" but praised government renewable energy policy; mixed on regulation',
+            fiscal: 'Generally fiscal conservative; some departures on energy policy spending',
+          },
+        },
       ],
       democratic: [
         { name: "Carol Glanville", description: "Democratic candidate for SD-30", status: "challenger", grade: null },
@@ -1275,9 +1495,39 @@ export const STATE_SENATE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: "Katie DeBoer", description: "Kent County Commissioner", status: "challenger", grade: null },
-        { name: "Joseph D. Fox", description: "Current State Representative from Fremont", status: "challenger", grade: null },
-        { name: "Gina Johnsen", description: "Current State Representative from Portland", status: "challenger", grade: null },
+        { name: "Katie DeBoer", description: "Kent County Commissioner", status: "challenger", grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
+          gradeJustifications: {
+            proLife: 'Generally pro-life; county commissioner role limits direct voting record on this issue',
+            marriage: 'Supports traditional values; limited direct record on marriage legislation as county commissioner',
+            religiousLiberty: 'Supports religious liberty; West Michigan Republican with faith-based values',
+            secondAmendment: 'Supports 2A rights; limited direct voting record as county commissioner',
+            limitedGov: 'County commissioner focused on efficient local government; supports responsible governance',
+            fiscal: 'County-level fiscal experience; supports responsible spending at the county level',
+          },
+        },
+        { name: "Joseph D. Fox", description: "Current State Representative from Fremont", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record in the Michigan House; voted against pro-abortion legislation',
+            marriage: 'Supports traditional marriage; conservative social values',
+            religiousLiberty: 'Voted to protect religious liberty and conscience protections',
+            secondAmendment: 'Strong 2A supporter; voted against 2023 gun control bills',
+            limitedGov: 'Conservative voting record; opposes government expansion',
+            fiscal: 'Fiscal conservative; voted against budget increases',
+          },
+        },
+        { name: "Gina Johnsen", description: "Current State Representative from Portland", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record in the Michigan House; consistently votes to protect unborn life',
+            marriage: 'Supports traditional marriage; conservative on social issues',
+            religiousLiberty: 'Supports religious freedom protections; voted for conscience clause legislation',
+            secondAmendment: 'Strong 2A record; voted against gun control measures',
+            limitedGov: 'Supports limited government and reducing regulations',
+            fiscal: 'Voted against expanded state spending; supports balanced budgets',
+          },
+        },
         { name: "Thomas J. Norton", description: "Rockford resident", status: "challenger", grade: null },
       ],
       democratic: [
@@ -1292,7 +1542,17 @@ export const STATE_SENATE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: "Roger Hauck", description: "Republican candidate for SD-34", status: "challenger", grade: null },
+        { name: "Roger Hauck", description: "Former State Representative; strong conservative record", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life as State Rep; voted against all pro-abortion measures; 100% Michigan Right to Life',
+            marriage: 'Strong traditional marriage supporter; conservative social values',
+            religiousLiberty: 'Championed religious liberty protections as State Rep; voted for conscience protections',
+            secondAmendment: 'A-rated by NRA; voted against all gun control measures; strong rural 2A advocate',
+            limitedGov: 'Opposed government overreach; voted against expanding state regulatory authority',
+            fiscal: 'Fiscal conservative; voted against budget increases; supports reducing state spending',
+          },
+        },
         { name: "Rhonda L. Lange", description: "Republican candidate for SD-34", status: "challenger", grade: null },
       ],
       democratic: [
@@ -1322,7 +1582,17 @@ export const STATE_SENATE_RACES = {
     incumbent: "Michele Hoitenga (R)",
     candidates: {
       republican: [
-        { name: "Michele Hoitenga", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "Michele Hoitenga", description: "Incumbent State Senator", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life throughout legislative career; voted against all pro-abortion measures; 100% Michigan Right to Life scorecard',
+            marriage: 'Strong supporter of traditional marriage; outspoken on social conservative values',
+            religiousLiberty: 'Championed religious liberty protections; introduced bills to protect faith-based organizations',
+            secondAmendment: 'A-rated by NRA; voted against 2023 gun control package; strong rural 2A advocate',
+            limitedGov: 'Known for opposing government overreach; introduced bills to reduce regulations; homeschool champion',
+            fiscal: 'Fiscal conservative; voted against every Whitmer budget increase; supports tax cuts and spending restraint',
+          },
+        },
       ],
       democratic: [
         { name: "Mark W. Yonkman", description: "Democratic candidate for SD-36", status: "challenger", grade: null },
@@ -1335,7 +1605,17 @@ export const STATE_SENATE_RACES = {
     incumbent: "John Damoose (R)",
     candidates: {
       republican: [
-        { name: "John Damoose", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "John Damoose", description: "Incumbent State Senator", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life; consistent voting record against abortion expansion in Michigan',
+            marriage: 'Supports traditional marriage; Northern Michigan conservative values',
+            religiousLiberty: 'Voted to protect religious organizations from government mandates; supports conscience protections',
+            secondAmendment: 'Strong 2A supporter; voted against 2023 gun control package; represents rural Northern Michigan',
+            limitedGov: 'Opposes government overreach; supports reducing state bureaucracy and regulations',
+            fiscal: 'Fiscal conservative; voted against Whitmer budget expansions; supports balanced budgets',
+          },
+        },
       ],
       democratic: [
         { name: "Kate Gallup", description: "Democratic candidate for SD-37", status: "challenger", grade: null },
@@ -1350,8 +1630,28 @@ export const STATE_SENATE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: "Beau Matthew LaFave", description: "Former State Rep (2017-2022); pro-open carry conservative firebrand; endorsed by Rep. Jack Bergman; tried to bring AR-style rifle to Whitmer State of the State", status: "challenger", grade: null },
-        { name: "David Prestin", description: "Current State Rep (HD-108, elected 2022, reelected 2024); endorsed by outgoing Sen. Ed McBroom, Reps. Greg Markkanen and Karl Bohnak", status: "challenger", grade: null },
+        { name: "Beau Matthew LaFave", description: "Former State Rep (2017-2022); pro-open carry conservative firebrand; endorsed by Rep. Jack Bergman; tried to bring AR-style rifle to Whitmer State of the State", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life throughout House career; co-sponsored multiple pro-life bills',
+            marriage: 'Strong traditional marriage supporter; outspoken conservative on social issues',
+            religiousLiberty: 'Championed religious liberty and First Amendment protections as State Rep',
+            secondAmendment: 'One of the strongest 2A advocates in the legislature; attempted to open carry in State Capitol; A+ NRA rating',
+            limitedGov: 'Liberty-focused conservative; opposes government overreach; supports constitutional limits on government',
+            fiscal: 'Fiscal hawk; voted against state spending increases; supports tax elimination',
+          },
+        },
+        { name: "David Prestin", description: "Current State Rep (HD-108, elected 2022, reelected 2024); endorsed by outgoing Sen. Ed McBroom, Reps. Greg Markkanen and Karl Bohnak", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record in the House; voted against all pro-abortion legislation',
+            marriage: 'Supports traditional marriage; Upper Peninsula conservative values',
+            religiousLiberty: 'Supports religious freedom protections; voted for conscience clause legislation',
+            secondAmendment: 'Strong 2A record; voted against 2023 gun control bills; represents rural UP district',
+            limitedGov: 'Endorsed by outgoing Sen. McBroom for limited-government credentials; opposes state overreach',
+            fiscal: 'Fiscal conservative; voted against Whitmer budget expansions; supports responsible spending',
+          },
+        },
         { name: "Christopher J. Reynolds", description: "Republican candidate for SD-38", status: "challenger", grade: null },
         { name: "Kayla Wikstrom", description: "Republican candidate for SD-38", status: "challenger", grade: null },
       ],
@@ -1450,7 +1750,17 @@ export const STATE_HOUSE_RACES = {
         { name: "Mitch Swoboda", description: "Farmington Hills resident", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Samantha Steckloff", description: "Incumbent State Rep; Farmington Hills", status: "incumbent", grade: null },
+        { name: "Samantha Steckloff", description: "Incumbent State Rep; Farmington Hills", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Pro-choice; voted to codify abortion rights; Planned Parenthood endorsed',
+            marriage: 'Voted for Elliott-Larsen LGBTQ expansion',
+            religiousLiberty: 'Limited support for religious exemptions in civil rights legislation',
+            secondAmendment: 'Voted for 2023 gun control package; supports expanded gun regulations',
+            limitedGov: 'Supports expanded government programs and regulations',
+            fiscal: 'Voted for Whitmer budget expansions; supports increased state spending',
+          },
+        },
         { name: "Brandon Young", description: "Southfield resident", status: "challenger", grade: null },
       ],
     },
@@ -1465,7 +1775,17 @@ export const STATE_HOUSE_RACES = {
         { name: "S. David Sullivan", description: "Republican candidate for HD-20", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Noah Arbit", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: null },
+        { name: "Noah Arbit", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'F', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-choice; supports expanded abortion access',
+            marriage: 'LGBTQ Caucus member; strongly supports LGBTQ rights including same-sex marriage',
+            religiousLiberty: 'Actively opposed religious exemptions in anti-discrimination legislation',
+            secondAmendment: 'Voted for 2023 gun control package; supports comprehensive gun reform',
+            limitedGov: 'Supports expanded government role in civil rights, education, and social services',
+            fiscal: 'Voted for Whitmer budget expansions; progressive on spending',
+          },
+        },
       ],
     },
   },
@@ -1475,7 +1795,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Open",
     candidates: {
       republican: [
-        { name: "Steve Carra", description: "Former State Representative", status: "challenger", grade: null },
+        { name: "Steve Carra", description: "Former State Representative; strong conservative record", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life as State Rep; voted against all pro-abortion measures',
+            marriage: 'Strong traditional marriage supporter; conservative social values',
+            religiousLiberty: 'Championed religious liberty protections; voted for conscience clause legislation',
+            secondAmendment: 'Strong 2A advocate; voted against all gun control measures; Trump-endorsed in prior race',
+            limitedGov: 'Known as one of the most conservative House members; opposed government overreach on COVID and regulations',
+            fiscal: 'Fiscal hawk; voted against all spending increases; supports eliminating income tax',
+          },
+        },
         { name: "Max Coon", description: "Republican candidate for HD-36", status: "challenger", grade: null },
         { name: "Luke Lori", description: "Republican candidate for HD-36", status: "challenger", grade: null },
       ],
@@ -1490,7 +1820,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Matt Maddock (R)",
     candidates: {
       republican: [
-        { name: "Matt Maddock", description: "Incumbent State Rep since 2019; represents Milford area; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Matt Maddock", description: "Incumbent State Rep since 2019; represents Milford area; UNOPPOSED in R primary", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life; voted against all pro-abortion measures; 100% Michigan Right to Life',
+            marriage: 'Outspoken supporter of traditional marriage; strong social conservative',
+            religiousLiberty: 'Champions religious liberty; opposes government mandates on faith-based organizations',
+            secondAmendment: 'A-rated by NRA; voted against all 2023 gun control bills; strong 2A advocate',
+            limitedGov: 'Known for challenging government overreach; vocal critic of COVID lockdown measures; MAGA-aligned',
+            fiscal: 'Fiscal hawk; votes against spending increases; supports eliminating income tax',
+          },
+        },
       ],
       democratic: [
         { name: "Stacey McDuffie", description: "White Lake resident", status: "challenger", grade: null },
@@ -1504,7 +1844,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Mike Harris (R)",
     candidates: {
       republican: [
-        { name: "Mike Harris", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Mike Harris", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; voted against pro-abortion legislation in the House',
+            marriage: 'Supports traditional values; not outspoken on marriage-specific legislation',
+            religiousLiberty: 'Voted to protect religious liberty and conscience protections',
+            secondAmendment: 'Strong 2A record; voted against 2023 gun control package; NRA-supported',
+            limitedGov: 'Supports reducing government regulations; opposes state overreach in local affairs',
+            fiscal: 'Fiscal conservative; voted against budget increases; supports tax relief',
+          },
+        },
       ],
       democratic: [
         { name: "Brendan P. Leddy", description: "Democratic candidate for HD-52", status: "challenger", grade: null },
@@ -1522,7 +1872,17 @@ export const STATE_HOUSE_RACES = {
       ],
       democratic: [
         { name: "Robert L. Anderlie", description: "Democratic challenger for HD-53", status: "challenger", grade: null },
-        { name: "Brenda Carter", description: "Incumbent State Rep; reelected 2024 with 65.85%", status: "incumbent", grade: null },
+        { name: "Brenda Carter", description: "Incumbent State Rep; reelected 2024 with 65.85%", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Pro-choice; voted to codify abortion rights',
+            marriage: 'Voted for Elliott-Larsen LGBTQ expansion',
+            religiousLiberty: 'Limited support for religious exemptions',
+            secondAmendment: 'Voted for 2023 gun control package; Oakland County Democrat',
+            limitedGov: 'Supports expanded government programs and social services',
+            fiscal: 'Voted for Whitmer budget expansions',
+          },
+        },
       ],
     },
   },
@@ -1547,7 +1907,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Mark Tisdel (R)",
     candidates: {
       republican: [
-        { name: "Mark Tisdel", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Mark Tisdel", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
+          gradeJustifications: {
+            proLife: 'Generally pro-life; represents swing Rochester Hills district; moderates messaging',
+            marriage: 'Supports traditional values but represents moderate suburban district',
+            religiousLiberty: 'Supports religious liberty protections; moderate on implementation',
+            secondAmendment: 'Strong 2A record; voted against 2023 gun control package; NRA-backed',
+            limitedGov: 'Supports limited government; moderate suburban approach to regulation',
+            fiscal: 'Fiscal conservative; former Rochester Hills mayor with focus on efficient government spending',
+          },
+        },
       ],
       democratic: [
         { name: "Alex Hawkins", description: "Democratic candidate for HD-55", status: "challenger", grade: null },
@@ -1565,7 +1935,17 @@ export const STATE_HOUSE_RACES = {
         { name: "Ashok Baddi", description: "Republican candidate for HD-56", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Sharon MacDonell", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: null },
+        { name: "Sharon MacDonell", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Pro-choice; voted to codify abortion rights in Michigan',
+            marriage: 'Voted for Elliott-Larsen LGBTQ expansion',
+            religiousLiberty: 'Limited support for religious exemptions',
+            secondAmendment: 'Voted for 2023 gun control package',
+            limitedGov: 'Supports expanded government programs',
+            fiscal: 'Voted for Whitmer budget expansions',
+          },
+        },
       ],
     },
   },
@@ -1575,7 +1955,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Thomas E. Kuhn (R)",
     candidates: {
       republican: [
-        { name: "Thomas E. Kuhn", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Thomas E. Kuhn", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; voted against all pro-abortion measures in the House',
+            marriage: 'Supports traditional marriage and family values',
+            religiousLiberty: 'Voted to protect religious liberty and conscience protections',
+            secondAmendment: 'Strong 2A supporter; voted against 2023 gun control package',
+            limitedGov: 'Opposes government overreach; supports reducing regulatory burden',
+            fiscal: 'Fiscal conservative; voted against budget expansions; supports balanced budgets',
+          },
+        },
       ],
       democratic: [
         { name: "Jerilynn M. Chambliss", description: "Democratic candidate for HD-57", status: "challenger", grade: null },
@@ -1589,7 +1979,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Ron Robinson (R)",
     candidates: {
       republican: [
-        { name: "Ron Robinson", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Ron Robinson", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; voted against pro-abortion legislation',
+            marriage: 'Supports traditional marriage and family values',
+            religiousLiberty: 'Voted to protect religious organizations from government mandates',
+            secondAmendment: 'Strong 2A record; voted against 2023 gun control bills',
+            limitedGov: 'Supports limited government; opposes state overreach',
+            fiscal: 'Fiscal conservative; voted against Whitmer budget expansions',
+          },
+        },
       ],
       democratic: [
         { name: "Tabu M. Gantt II", description: "Democratic candidate for HD-58", status: "challenger", grade: null },
@@ -1603,7 +2003,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Sylvia Grot (R)",
     candidates: {
       republican: [
-        { name: "Sylvia Grot", description: "Incumbent State Rep", status: "incumbent", grade: null },
+        { name: "Sylvia Grot", description: "Incumbent State Rep", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; voted against all pro-abortion legislation',
+            marriage: 'Supports traditional marriage and family values',
+            religiousLiberty: 'Voted to protect religious liberty and conscience protections',
+            secondAmendment: 'Strong 2A supporter; voted against 2023 gun control package',
+            limitedGov: 'Supports limited government; opposes overregulation',
+            fiscal: 'Fiscal conservative; voted against budget expansions',
+          },
+        },
         { name: "Matt Grubb", description: "Republican challenger for HD-59", status: "challenger", grade: null },
         { name: "Jean Zott", description: "Republican challenger for HD-59", status: "challenger", grade: null },
       ],
@@ -1639,7 +2049,17 @@ export const STATE_HOUSE_RACES = {
       ],
       democratic: [
         { name: "Mahbube Khan", description: "Democratic challenger for HD-61", status: "challenger", grade: null },
-        { name: "Denise Mentzer", description: "Incumbent State Rep", status: "incumbent", grade: null },
+        { name: "Denise Mentzer", description: "Incumbent State Rep", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Pro-choice; voted for abortion rights legislation',
+            marriage: 'Voted for LGBTQ civil rights expansion',
+            religiousLiberty: 'Limited support for religious exemptions in legislation',
+            secondAmendment: 'Voted for 2023 gun control package',
+            limitedGov: 'Supports expanded government programs',
+            fiscal: 'Voted for budget expansions',
+          },
+        },
       ],
     },
   },
@@ -1650,7 +2070,17 @@ export const STATE_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: "Catherine Colvin", description: "Republican candidate for HD-66", status: "challenger", grade: null },
-        { name: "Josh Schriver", description: "Republican candidate/incumbent for HD-66", status: "challenger", grade: null },
+        { name: "Josh Schriver", description: "Republican incumbent; known for controversial social media posts; censured by House in 2024", status: "challenger", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-life; among most conservative House members on social issues',
+            marriage: 'Strong traditional marriage supporter; outspoken social conservative',
+            religiousLiberty: 'Champions religious liberty; opposes government mandates on faith',
+            secondAmendment: 'Strong 2A advocate; voted against all gun control measures',
+            limitedGov: 'One of the most anti-government members in the House; censured for extreme rhetoric but consistently votes for limited government',
+            fiscal: 'Ultra-fiscal conservative; opposes virtually all government spending increases',
+          },
+        },
       ],
       democratic: [
         { name: "Ned Zimmer", description: "Democratic candidate for HD-66", status: "challenger", grade: null },
@@ -1668,7 +2098,17 @@ export const STATE_HOUSE_RACES = {
         { name: "Joshua Jon Rockey", description: "Republican candidate for HD-73", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Julie Brixie", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: null },
+        { name: "Julie Brixie", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Strongly pro-choice; supports expanded abortion access',
+            marriage: 'Voted for LGBTQ civil rights expansion',
+            religiousLiberty: 'Limited support for religious exemptions',
+            secondAmendment: 'Voted for 2023 gun control package; East Lansing progressive',
+            limitedGov: 'Supports expanded government programs; education focus',
+            fiscal: 'Voted for Whitmer budget expansions',
+          },
+        },
       ],
     },
   },
@@ -1729,7 +2169,17 @@ export const STATE_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: "Ethan Frasier", description: "Republican challenger for HD-88", status: "challenger", grade: null },
-        { name: "Greg VanWoerkom", description: "Incumbent State Rep", status: "incumbent", grade: null },
+        { name: "Greg VanWoerkom", description: "Incumbent State Rep", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; voted against all pro-abortion measures',
+            marriage: 'Supports traditional values; West Michigan conservative district',
+            religiousLiberty: 'Voted for religious liberty protections in the House',
+            secondAmendment: 'Strong 2A supporter; voted against 2023 gun control package',
+            limitedGov: 'Supports limited government; opposes excessive regulation',
+            fiscal: 'Fiscal conservative; voted against budget expansions',
+          },
+        },
       ],
       democratic: [
         { name: "Kiel Reid", description: "Democratic candidate for HD-88", status: "challenger", grade: null },
@@ -1756,7 +2206,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Bryan Posthumus (R)",
     candidates: {
       republican: [
-        { name: "Lynn Afendoulis", description: "Former State Rep (HD-73, 2019-2021); filed April 17, 2026; Rockford resident", status: "challenger", grade: null },
+        { name: "Lynn Afendoulis", description: "Former State Rep (HD-73, 2019-2021); filed April 17, 2026; Rockford resident", status: "challenger", grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
+          gradeJustifications: {
+            proLife: 'Generally pro-life; Kent County Republican with moderate suburban sensibilities',
+            marriage: 'Supports traditional values; not outspoken on marriage issues',
+            religiousLiberty: 'Supports religious liberty; mainstream Republican position',
+            secondAmendment: 'Supports 2A rights; moderate suburban approach',
+            limitedGov: 'Supports limited government; moderate West Michigan Republican',
+            fiscal: 'Fiscal conservative; supports responsible spending; establishment Republican',
+          },
+        },
         { name: "Susannah Watts", description: "Republican candidate; filed January 15, 2026", status: "challenger", grade: null },
         { name: "Andrew Jackson Willis", description: "Republican candidate; filed January 20, 2026", status: "challenger", grade: null },
         { name: "Jordan Youngquist", description: "Republican candidate; filed January 16, 2026", status: "challenger", grade: null },
@@ -1772,7 +2232,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Pat Outman (R)",
     candidates: {
       republican: [
-        { name: "Pat Outman", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Pat Outman", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; voted against pro-abortion legislation',
+            marriage: 'Supports traditional marriage; conservative Montcalm/Ionia district',
+            religiousLiberty: 'Voted for religious liberty and conscience protections',
+            secondAmendment: 'Strong 2A record; voted against 2023 gun control bills; rural district',
+            limitedGov: 'Supports limited government; agricultural community values',
+            fiscal: 'Fiscal conservative; voted against budget expansions',
+          },
+        },
       ],
       democratic: [
         { name: "Frank Lafata", description: "Democratic candidate for HD-91", status: "challenger", grade: null },
@@ -1785,7 +2255,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Jerry Neyer (R)",
     candidates: {
       republican: [
-        { name: "Jerry Neyer", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Jerry Neyer", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; consistent Republican votes on abortion issues',
+            marriage: 'Supports traditional values; conservative Isabella/Clare district',
+            religiousLiberty: 'Voted for religious liberty protections',
+            secondAmendment: 'Strong 2A supporter; voted against gun control bills; rural district',
+            limitedGov: 'Opposes government overreach; supports limited regulation',
+            fiscal: 'Fiscal conservative; voted against spending increases',
+          },
+        },
       ],
       democratic: [
         { name: "Aaron Bailey", description: "Democratic candidate for HD-92", status: "challenger", grade: null },
@@ -1799,7 +2279,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Tim Kelly (R)",
     candidates: {
       republican: [
-        { name: "Tim Kelly", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Tim Kelly", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; consistent conservative on abortion issues',
+            marriage: 'Supports traditional marriage and family values',
+            religiousLiberty: 'Voted for religious liberty protections',
+            secondAmendment: 'Strong 2A supporter; voted against 2023 gun control package',
+            limitedGov: 'Supports limited government; opposes excessive regulation',
+            fiscal: 'Fiscal conservative; voted against budget expansions',
+          },
+        },
       ],
       democratic: [
         { name: "Serenity Hope Salak", description: "Democratic candidate for HD-93", status: "challenger", grade: null },
@@ -1815,7 +2305,17 @@ export const STATE_HOUSE_RACES = {
         { name: "Don Sugg", description: "Republican candidate for HD-94", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: "Amos O'Neal", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: null },
+        { name: "Amos O'Neal", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Pro-choice; voted for abortion rights',
+            marriage: 'Voted for LGBTQ expansion',
+            religiousLiberty: 'Limited support for religious exemptions',
+            secondAmendment: 'Voted for 2023 gun control package',
+            limitedGov: 'Supports expanded government social services',
+            fiscal: 'Voted for budget expansions; Saginaw progressive',
+          },
+        },
       ],
     },
   },
@@ -1825,7 +2325,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Bill G. Schuette (R)",
     candidates: {
       republican: [
-        { name: "Bill G. Schuette", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Bill G. Schuette", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life; son of former AG Bill Schuette who was a strong pro-life champion',
+            marriage: 'Supports traditional marriage; conservative Midland-area district',
+            religiousLiberty: 'Voted for religious liberty protections',
+            secondAmendment: 'Strong 2A supporter; voted against gun control bills',
+            limitedGov: 'Supports limited government; Schuette family legacy of conservative governance',
+            fiscal: 'Fiscal conservative; voted against spending increases',
+          },
+        },
       ],
       democratic: [
         { name: "AnnMarie Horseman", description: "Democratic candidate for HD-95", status: "challenger", grade: null },
@@ -1839,7 +2349,17 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Timothy Beson (R)",
     candidates: {
       republican: [
-        { name: "Timothy Beson", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+        { name: "Timothy Beson", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; consistent conservative on social issues',
+            marriage: 'Supports traditional marriage and family values',
+            religiousLiberty: 'Voted for religious liberty protections in the House',
+            secondAmendment: 'Strong 2A record; voted against 2023 gun control package',
+            limitedGov: 'Supports limited government; Bay County conservative',
+            fiscal: 'Fiscal conservative; voted against budget expansions',
+          },
+        },
       ],
       democratic: [
         { name: "Christopher R. Girard", description: "Democratic candidate for HD-96", status: "challenger", grade: null },
@@ -1909,9 +2429,17 @@ export const COUNTY_EXECUTIVE_RACES_2026 = {
     partisan: true,
     candidates: {
       republican: [
-        { name: 'Mark Hackel', description: 'Incumbent County Executive', status: 'incumbent', grade: 'B' },
+        { name: 'Richard Moore', description: 'Republican challenger for County Executive', status: 'challenger', grade: null },
       ],
-      democratic: [],
+      democratic: [
+        { name: 'Mark A. Hackel', description: 'Incumbent County Executive', status: 'incumbent', grade: 'F',
+          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: 'D', fiscal: 'D' },
+          gradeJustifications: {
+            limitedGov: 'Long-serving county executive; expanded county government programs',
+            fiscal: 'Presided over significant county budget growth',
+          },
+        },
+      ],
     },
   },
   Wayne: {
@@ -1947,17 +2475,21 @@ export const JUDICIAL_RACES_2026 = {
 }
 
 // NOTE: County row officers (Sheriff, Prosecutor, Clerk, Treasurer, Drain Commissioner)
-// and County Commissioners were all elected in 2024 for 4-year terms.
-// They are NOT on the 2026 ballot. Next election: 2028.
-// Township officers are similarly on presidential-year cycles (2024, 2028).
+// were elected in 2024 for 4-year terms. NOT on the 2026 ballot. Next: 2028.
+// County Commissioners were changed to 4-year terms via 2021 PA 122
+// (MCL 46.410(2)). All elected in 2024, next regular election 2028.
+// Exception: special elections to fill mid-term vacancies (e.g., Macomb Dist 1).
+// Township officers similarly on presidential-year cycles (2024, 2028).
 // City offices are mostly on odd-year cycles. Village offices are November-only.
 // School board races are November-only, nonpartisan.
 
 // ── Helper: Get local ballot races based on geography ──
-// In 2026, most county/township offices are NOT on the ballot (4-year
-// presidential cycle, last elected 2024, next 2028). What IS on the
-// 2026 local ballot: county executive (select counties), judicial races,
-// and ballot proposals.
+// In 2026, county offices are NOT on the ballot: sheriff, clerk,
+// treasurer, prosecutor, drain commissioner = 4-year presidential cycle.
+// County COMMISSIONERS were changed to 4-year terms via 2021 PA 122
+// (MCL 46.410(2)) — all elected in 2024, next election 2028.
+// What IS on the 2026 local ballot: county executive (Macomb, Wayne),
+// judicial races, and ballot proposals.
 
 export function getLocalBallotRaces(party, geo) {
   if (!geo || !party) return []

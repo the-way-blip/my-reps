@@ -851,7 +851,7 @@ export default function BallotView() {
                 <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
               </svg>
               <span>
-                County offices (Sheriff, Prosecutor, Clerk, Treasurer, Commissioners) and township offices were elected in 2024 and are <strong>not on the 2026 ballot</strong>. Next election for these offices: 2028.
+                County offices (Sheriff, Prosecutor, Clerk, Treasurer, Commissioners) and township offices were elected in 2024 for 4-year terms and are <strong>not on the 2026 ballot</strong>. Next election for these offices: 2028.
               </span>
             </div>
           )}
