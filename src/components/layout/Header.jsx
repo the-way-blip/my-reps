@@ -8,8 +8,8 @@ function useTheme() {
   const [dark, setDark] = useState(() => {
     const saved = localStorage.getItem('myreps_theme')
     if (saved === 'dark' || saved === 'light') return saved === 'dark'
-    // No saved preference — fall back to system preference
-    return window.matchMedia?.('(prefers-color-scheme: dark)').matches ?? false
+    // No saved preference — default to light mode
+    return false
   })
 
   useEffect(() => {

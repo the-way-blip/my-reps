@@ -14975,8 +14975,20 @@ export async function getMichiganLocalOfficials(geo) {
     }
   }
 
-  // Check county subdivision for village officials
-  const village = (geo.countySubdivision && MI_VILLAGE_OFFICIALS[geo.countySubdivision]) || null
+  // Check county subdivision for village officials (check both datasets)
+  let village = null
+  if (geo.countySubdivision) {
+    village = MI_VILLAGE_OFFICIALS[geo.countySubdivision] || null
+    // If not found in primary data, try the extended village dataset
+    if (!village) {
+      try {
+        const { MI_VILLAGE_OFFICIALS_NEW } = await import('./villageData_new')
+        village = MI_VILLAGE_OFFICIALS_NEW[geo.countySubdivision] || null
+      } catch {
+        // Extended village data not available
+      }
+    }
+  }
 
   const schoolBoard = (geo.schoolDistrict && MI_SCHOOL_BOARDS[geo.schoolDistrict]) || null
 

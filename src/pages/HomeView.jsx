@@ -311,11 +311,32 @@ export default function HomeView() {
   const [pollingData, setPollingData] = useState(null)
   const [showDashboard, setShowDashboard] = useState(!!userAddress)
 
-  // Count total reps
+  // Count total reps — only YOUR representatives, not all Michigan legislators
   const repsCount = useMemo(() => {
-    let count = (senators?.length || 0) + (reps?.length || 0) +
-      (stateSenators?.length || 0) + (stateReps?.length || 0)
-    // Count civic reps
+    let count = 0
+
+    // 2 US Senators (both represent all of Michigan)
+    count += (senators?.length || 0)
+
+    // 1 US House member for your congressional district
+    if (userDistricts?.congressional != null) {
+      const myRep = reps?.find(r => r.district === userDistricts.congressional)
+      count += myRep ? 1 : 0
+    }
+
+    // 1 State Senator for your state senate district
+    if (userDistricts?.stateSenate != null) {
+      const mySen = stateSenators?.find(s => s.district === userDistricts.stateSenate || String(s.district) === String(userDistricts.stateSenate))
+      count += mySen ? 1 : 0
+    }
+
+    // 1 State House rep for your state house district
+    if (userDistricts?.stateHouse != null) {
+      const myHouseRep = stateReps?.find(r => r.district === userDistricts.stateHouse || String(r.district) === String(userDistricts.stateHouse))
+      count += myHouseRep ? 1 : 0
+    }
+
+    // Local civic officials (county, city, township, village, school board)
     if (civicReps) {
       for (const section of ['county', 'city', 'township', 'village', 'schoolBoard']) {
         const data = civicReps[section]
@@ -325,7 +346,7 @@ export default function HomeView() {
       }
     }
     return count
-  }, [senators, reps, stateSenators, stateReps, civicReps])
+  }, [senators, reps, stateSenators, stateReps, civicReps, userDistricts])
 
   // If we already have an address, show dashboard
   useEffect(() => {
