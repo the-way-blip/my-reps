@@ -146,8 +146,32 @@ function PartyStep({ onSelect, address }) {
 
 // ── Grade Badge ──
 
-function GradeBadge({ grade, size = 'sm', onClick }) {
-  if (!grade) return null
+function GradeBadge({ grade, size = 'sm', onClick, showUnrated = false }) {
+  if (!grade && !showUnrated) return null
+  if (!grade && showUnrated) {
+    const sizes = {
+      sm: { width: '1.35rem', height: '1.35rem', fontSize: '0.5rem' },
+      md: { width: '1.8rem', height: '1.8rem', fontSize: '0.6rem' },
+      lg: { width: '2.4rem', height: '2.4rem', fontSize: '0.75rem' },
+    }
+    const s = sizes[size] || sizes.sm
+    return (
+      <span
+        className="grade-badge grade-badge-unrated"
+        style={{
+          background: '#6b7280',
+          width: s.width,
+          height: s.height,
+          fontSize: s.fontSize,
+          opacity: 0.7,
+        }}
+        onClick={onClick}
+        title="Not Rated — no public information found"
+      >
+        N/R
+      </span>
+    )
+  }
   const color = getGradeColor(grade)
   const sizes = {
     sm: { width: '1.35rem', height: '1.35rem', fontSize: '0.65rem' },
@@ -208,7 +232,7 @@ function CandidateDetailModal({ candidate, onClose }) {
         <div className="candidate-modal-header">
           <div className="candidate-modal-name-row">
             <h3 className="candidate-modal-name">{candidate.name}</h3>
-            <GradeBadge grade={candidate.grade} size="lg" />
+            <GradeBadge grade={candidate.grade} size="lg" showUnrated={!candidate.grade} />
           </div>
           {candidate.description && (
             <p className="candidate-modal-role">{candidate.description}</p>
@@ -223,6 +247,23 @@ function CandidateDetailModal({ candidate, onClose }) {
           <div className="candidate-modal-section">
             <h4 className="candidate-modal-section-title">About</h4>
             <p className="candidate-modal-bio">{candidate.bio}</p>
+          </div>
+        )}
+
+        {/* No Data Notice for unrated candidates */}
+        {!candidate.grade && !candidate.positions && (
+          <div className="candidate-modal-section">
+            <div className="candidate-no-data-notice">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="20" height="20" style={{ flexShrink: 0 }}>
+                <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
+              </svg>
+              <div>
+                <strong>Not Rated</strong> — No public information was found for this candidate.
+                We searched voting records, endorsements, questionnaire responses, campaign websites, public statements,
+                social media, signed pledges, professional background, endorsements received, and prior campaigns.
+                If you have information about this candidate, please contact us.
+              </div>
+            </div>
           </div>
         )}
 
@@ -462,7 +503,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
         <div className="ballot-candidates">
           {race.candidates.map((c, i) => {
             const isSelected = choice?.name === c.name
-            const hasDetail = c.bio || c.positions || c.website || c.keyPositions
+            const hasDetail = c.bio || c.positions || c.website || c.keyPositions || !c.grade
             return (
               <div key={i} className={`ballot-candidate-row ${isSelected ? 'ballot-candidate-selected' : ''}`}>
                 <button
@@ -485,7 +526,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                   <span className="ballot-candidate-info">
                     <span className="ballot-candidate-name">
                       {c.name}
-                      <GradeBadge grade={c.grade} size="sm" />
+                      <GradeBadge grade={c.grade} size="sm" showUnrated={!c.grade} />
                       {c.status === 'incumbent' && <span className="ballot-incumbent-tag">Incumbent</span>}
                     </span>
                     {c.description && <span className="ballot-candidate-desc">{c.description}</span>}

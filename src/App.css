@@ -6112,6 +6112,26 @@ button.election-card {
   color: var(--text-muted);
   font-style: italic;
 }
+
+/* Not Rated notice */
+.candidate-no-data-notice {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  padding: 0.75rem;
+  background: rgba(107, 114, 128, 0.08);
+  border: 1px solid rgba(107, 114, 128, 0.2);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+.candidate-no-data-notice strong {
+  color: var(--text);
+}
+.grade-badge-unrated {
+  letter-spacing: -0.02em;
+}
 .candidate-scorecard-justification {
   margin: 0.3rem 0 0 1.9rem;
   font-size: 0.7rem;
