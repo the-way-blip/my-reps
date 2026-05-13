@@ -770,392 +770,1118 @@ export const US_HOUSE_RACES = {
 }
 
 // ── State Senate Races (by district) ─────────────────────────────
-// All 38 seats are on the 2026 ballot (new maps from 2024 redistricting)
-// Only districts with confirmed primary challengers are listed
+// All 38 seats on the 2026 ballot (post-redistricting, new maps)
+// Source: Michigan Bureau of Elections Official Candidate Listing
+// Filing deadline: April 21, 2026
 
 export const STATE_SENATE_RACES = {
-  // ── Oakland County area ──
-  6: {
-    office: 'State Senate — District 6',
-    region: 'Bloomfield Hills, Birmingham, Troy (S)',
-    incumbent: 'Dayna Polehanki (D)',
+  1: {
+    office: "State Senate — District 1",
+    region: "Wayne County - Detroit",
+    incumbent: "Erika Geiss (D)",
+    note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Write-in or TBD', description: 'No Republican filed yet', status: 'open', grade: null },
+        { name: "Patrick O'Connell", description: "Republican candidate for SD-1", status: "challenger", grade: null },
       ],
       democratic: [
-        { name: 'Dayna Polehanki', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
+        { name: "Abraham Aiyash", description: "State Representative, running for Senate", status: "challenger", grade: null },
+        { name: "Justin Onwenu", description: "Democratic candidate for SD-1", status: "challenger", grade: null },
+      ],
+    },
+  },
+  2: {
+    office: "State Senate — District 2",
+    region: "Wayne County - Dearborn",
+    incumbent: "Sylvia Santana (D)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Harry Sawicki", description: "Republican candidate for SD-2", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Abbas Alawieh", description: "Democratic candidate for SD-2", status: "challenger", grade: null },
+        { name: "Erin Byrnes", description: "State Representative, retiring from House to run for Senate", status: "challenger", grade: null },
+      ],
+    },
+  },
+  3: {
+    office: "State Senate — District 3",
+    region: "Wayne County - Detroit east side, Hamtramck, Highland Park, parts of Sterling Heights/Warren",
+    incumbent: "Stephanie Chang (D)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Mark Ashley Price", description: "Republican candidate for SD-3", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Mohammad Alam", description: "Democratic candidate for SD-3", status: "challenger", grade: null },
+        { name: "John Conyers III", description: "Entrepreneur and political organizer; son of late Congressman John Conyers Jr.", status: "challenger", grade: null },
+        { name: "LeJuan Council", description: "Democratic candidate for SD-3", status: "challenger", grade: null },
+        { name: "LaTanya Garrett", description: "Former three-term State Representative (2015-2020); EMT, small-business owner", status: "challenger", grade: null },
+        { name: "Korey Hall", description: "Former regional director in Gov. Whitmer's office; prior regional manager for Sen. Debbie Stabenow", status: "challenger", grade: null },
+        { name: "Kimberly Hill Knott", description: "Democratic candidate for SD-3", status: "challenger", grade: null },
+        { name: "Adam Hollier", description: "Former State Senator (District 2, 2018-2023); U.S. Army paratrooper; dropped SOS bid to run here", status: "challenger", grade: null },
+        { name: "Gary Hunter", description: "Democratic candidate for SD-3", status: "challenger", grade: null },
+        { name: "Toinu Reeves", description: "Democratic candidate for SD-3", status: "challenger", grade: null },
+        { name: "Abraham Shaw", description: "Democratic candidate for SD-3", status: "challenger", grade: null },
+        { name: "Eboni Taylor", description: "First-time candidate; leadership roles at Higher Heights and Mothering Justice", status: "challenger", grade: null },
+      ],
+    },
+  },
+  4: {
+    office: "State Senate — District 4",
+    region: "Wayne County - Downriver",
+    incumbent: "Darrin Camilleri (D)",
+    candidates: {
+      republican: [
+        { name: "Marcie Grzywacz", description: "Republican candidate for SD-4", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Darrin Camilleri", description: "Incumbent State Senator", status: "incumbent", grade: null },
+      ],
+    },
+  },
+  5: {
+    office: "State Senate — District 5",
+    region: "Wayne County - Canton, Plymouth, Westland area",
+    incumbent: "Dayna Polehanki (D)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Estelle Oliansky", description: "Republican candidate for SD-5", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Matt Koleszar", description: "Fourth-term State Rep (District 22); former middle/high school teacher; House Education Committee chair", status: "challenger", grade: null },
+      ],
+    },
+  },
+  6: {
+    office: "State Senate — District 6",
+    region: "Wayne/Oakland County - Detroit, Farmington, Farmington Hills, Livonia, Redford",
+    incumbent: "Mary Cavanagh (D)",
+    candidates: {
+      republican: [
+        { name: "Joi Pokerwinski", description: "Republican candidate for SD-6", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Mary Cavanagh", description: "Incumbent State Senator since 2023; elected in 2022 with 68.01%", status: "incumbent", grade: null },
+        { name: "Stephen Jensen", description: "Democratic challenger for SD-6", status: "challenger", grade: null },
+      ],
+    },
+  },
+  7: {
+    office: "State Senate — District 7",
+    region: "Oakland County - Southfield, Royal Oak, Ferndale, Berkley, Oak Park",
+    incumbent: "Mallory McMorrow (D)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Anthony Paesano", description: "Republican candidate for SD-7", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Jason Hoskins", description: "State Rep (District 18); attorney; former Southfield City Council member; House Economic Development Committee chair", status: "challenger", grade: null },
+        { name: "Shadia Martini", description: "Architect, entrepreneur; Syrian immigrant; MBA from U of M; Oakland County business owner; 2022/2024 nominee for HD-54", status: "challenger", grade: null },
+        { name: "Rakesh Ramakrishnan", description: "Spine surgeon; son of immigrant parents", status: "challenger", grade: null },
+      ],
+    },
+  },
+  8: {
+    office: "State Senate — District 8",
+    region: "Wayne/Washtenaw - Dearborn Heights, Taylor, Flat Rock area",
+    incumbent: "Dayna Polehanki (D)",
+    candidates: {
+      republican: [
+        { name: "Kenneth D. Massey", description: "Republican candidate for SD-8", status: "challenger", grade: null },
+        { name: "Jody White", description: "Republican candidate for SD-8", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Dayna Polehanki", description: "Incumbent State Senator; redistricted from former SD-7; elected 2022 with 61.07%", status: "incumbent", grade: null },
+        { name: "Dean Raymond Wojtowicz", description: "Democratic challenger for SD-8", status: "challenger", grade: null },
+      ],
+    },
+  },
+  9: {
+    office: "State Senate — District 9",
+    region: "Oakland/Macomb - Rochester, Rochester Hills, Troy, Utica, Shelby Twp, Sterling Heights",
+    incumbent: "Michael Webber (R)",
+    candidates: {
+      republican: [
+        { name: "Michael Webber", description: "Incumbent State Senator; elected 2022 with 50.35% in competitive race", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Theresa Brooks", description: "Democratic candidate for SD-9", status: "challenger", grade: null },
+        { name: "Brendan Johnson", description: "Democratic candidate for SD-9", status: "challenger", grade: null },
+        { name: "Ren Nushaj", description: "Democratic candidate for SD-9", status: "challenger", grade: null },
+      ],
+    },
+  },
+  10: {
+    office: "State Senate — District 10",
+    region: "Macomb - Sterling Heights, Warren, Center Line, Detroit",
+    incumbent: "Paul Wojno (D)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Michelle Nard", description: "Republican candidate for SD-10", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Mark Anthony Murphy Jr.", description: "Democratic candidate for SD-10", status: "challenger", grade: null },
+        { name: "Natalie Price", description: "Democratic candidate for SD-10", status: "challenger", grade: null },
+        { name: "Amanda Treppa", description: "Democratic candidate for SD-10", status: "challenger", grade: null },
+      ],
+    },
+  },
+  11: {
+    office: "State Senate — District 11",
+    region: "Macomb County",
+    incumbent: "Veronica Klinefelt (D)",
+    candidates: {
+      republican: [
+        { name: "Johnnie S. Townsend", description: "Republican candidate for SD-11", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Joseph Michael Hunt", description: "Democratic challenger for SD-11", status: "challenger", grade: null },
+        { name: "Alysha Johnson", description: "Democratic challenger for SD-11", status: "challenger", grade: null },
+        { name: "Veronica Klinefelt", description: "Incumbent State Senator", status: "incumbent", grade: null },
       ],
     },
   },
   12: {
-    office: 'State Senate — District 12',
-    region: 'Rochester Hills, Auburn Hills, Lake Orion',
-    incumbent: 'Michael Webber (R)',
+    office: "State Senate — District 12",
+    region: "Oakland/Macomb - parts of Oakland and Macomb counties",
+    incumbent: "Rosemary Bayer (D)",
+    note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Michael Webber', description: 'Incumbent State Senator', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
-          gradeJustifications: {
-            proLife: 'Strong pro-life voting record; opposed repeal of Michigan\'s 1931 abortion ban',
-            marriage: 'Supports traditional marriage; voted against LGBTQ civil rights expansion',
-            religiousLiberty: 'Supports religious liberty protections; opposed mandates on faith-based organizations',
-            secondAmendment: 'A-rated by NRA; opposed red flag laws and safe storage mandates',
-            limitedGov: 'Opposes expansion of state government; supports school choice; opposed Whitmer emergency powers',
-            fiscal: 'Voted against every Whitmer tax increase; supports spending caps',
-          },
-        },
+        { name: "Joseph A. Backus", description: "Republican candidate for SD-12", status: "challenger", grade: null },
+        { name: "Patrick Shawn Biange", description: "Republican candidate for SD-12", status: "challenger", grade: null },
+        { name: "John Goldwater", description: "Republican candidate for SD-12", status: "challenger", grade: null },
+        { name: "Eileen Tesch", description: "Republican candidate for SD-12", status: "challenger", grade: null },
+        { name: "Shelley Wright", description: "Republican candidate for SD-12", status: "challenger", grade: null },
       ],
-      democratic: [],
-    },
-  },
-  14: {
-    office: 'State Senate — District 14',
-    region: 'West Bloomfield, Farmington Hills, Novi',
-    incumbent: 'Rosemary Bayer (D)',
-    candidates: {
-      republican: [],
       democratic: [
-        { name: 'Rosemary Bayer', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
-      ],
-    },
-  },
-  16: {
-    office: 'State Senate — District 16',
-    region: 'Waterford, White Lake, Highland, Milford',
-    incumbent: 'Open',
-    candidates: {
-      republican: [
-        { name: 'Donni Steele', description: 'State Representative, HD-51', status: 'major', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
-          gradeJustifications: {
-            proLife: 'Strong pro-life record as state representative; opposes all abortion expansion',
-            marriage: 'Supports traditional marriage; voted against LGBTQ mandate bills',
-            religiousLiberty: 'Vocal advocate for religious freedom; opposes government mandates on faith organizations',
-            secondAmendment: 'A-rated by NRA; opposes red flag laws; supports constitutional carry',
-            limitedGov: 'Opposes state government expansion; supports school choice and parental rights',
-            fiscal: 'Voted against all Whitmer tax increases; supports zero-based budgeting',
-          },
-        },
-      ],
-      democratic: [],
-    },
-  },
-  26: {
-    office: 'State Senate — District 26',
-    region: 'Clarkston, Ortonville, Brandon, Oxford (N Oakland)',
-    incumbent: 'Open',
-    candidates: {
-      republican: [],
-      democratic: [],
-    },
-  },
-  // ── Macomb County ──
-  10: {
-    office: 'State Senate — District 10',
-    region: 'Shelby Twp, Utica, Washington Twp',
-    incumbent: 'Ruth Johnson (R)',
-    candidates: {
-      republican: [
-        { name: 'Ruth Johnson', description: 'Incumbent State Senator, former SoS', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
-          gradeJustifications: {
-            proLife: 'Strong pro-life voting record throughout career; opposed Prop 3',
-            marriage: 'Supports traditional marriage; opposed Respect for Marriage Act',
-            religiousLiberty: 'Advocates religious liberty protections; former Secretary of State who defended faith-based initiatives',
-            secondAmendment: 'A-rated by NRA; opposes gun control legislation',
-            limitedGov: 'Former SoS focused on government efficiency; opposes expanding state bureaucracy',
-            fiscal: 'Strong fiscal conservative; opposes tax increases; supports balanced budgets',
-          },
-        },
-      ],
-      democratic: [],
-    },
-  },
-  // ── Grand Rapids / West MI ──
-  29: {
-    office: 'State Senate — District 29',
-    region: 'Grand Rapids (E), Kentwood',
-    incumbent: 'Mark Huizenga (R)',
-    candidates: {
-      republican: [
-        { name: 'Mark Huizenga', description: 'Incumbent State Senator', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
-          gradeJustifications: {
-            proLife: 'Strong pro-life record; opposed abortion rights expansion in Michigan',
-            marriage: 'Supports traditional marriage; voted against LGBTQ civil rights expansion',
-            religiousLiberty: 'Supports religious liberty protections in legislation',
-            secondAmendment: 'Supports Second Amendment rights; opposed gun control bills',
-            limitedGov: 'Supports limited government; opposes state overreach',
-            fiscal: 'Fiscal conservative; opposed Whitmer spending increases',
-          },
-        },
-      ],
-      democratic: [],
-    },
-  },
-  30: {
-    office: 'State Senate — District 30',
-    region: 'Grand Rapids (W), Wyoming, Grandville',
-    incumbent: 'Winnie Brinks (D)',
-    note: 'Senate Majority Leader',
-    candidates: {
-      republican: [],
-      democratic: [
-        { name: 'Winnie Brinks', description: 'Senate Majority Leader', status: 'incumbent', grade: 'F' },
-      ],
-    },
-  },
-  // ── Competitive suburban districts ──
-  8: {
-    office: 'State Senate — District 8',
-    region: 'Lansing, East Lansing, Meridian Twp',
-    incumbent: 'Sam Singh (D)',
-    candidates: {
-      republican: [],
-      democratic: [
-        { name: 'Sam Singh', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
+        { name: "Kevin Hertel", description: "Democratic candidate for SD-12; likely former State Rep", status: "challenger", grade: null },
       ],
     },
   },
   13: {
-    office: 'State Senate — District 13',
-    region: 'Ann Arbor, Ypsilanti',
-    incumbent: 'Sue Shink (D)',
+    office: "State Senate — District 13",
+    region: "Oakland County - West Bloomfield, Wixom, Novi, Milford, Lyon Twp, Waterford",
+    incumbent: "Rosemary Bayer (D)",
+    note: "Open seat",
     candidates: {
-      republican: [],
+      republican: [
+        { name: "Ryan Berman", description: "Former two-term State Representative; attorney from Union Lake; 2025 'Leader in the Law' honoree; UNOPPOSED in R primary", status: "challenger", grade: null },
+      ],
       democratic: [
-        { name: 'Sue Shink', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
+        { name: "DC Anderson", description: "Commerce Township resident", status: "challenger", grade: null },
+        { name: "Sean Carlson", description: "Oakland County Deputy Executive; former longtime Huron Valley Schools trustee", status: "challenger", grade: null },
+        { name: "Cecil D. George", description: "New Hudson resident", status: "challenger", grade: null },
       ],
     },
   },
-  // ── Northern MI / Rural ──
-  35: {
-    office: 'State Senate — District 35',
-    region: 'Traverse City, Petoskey, Gaylord',
-    incumbent: 'John Damoose (R)',
+  14: {
+    office: "State Senate — District 14",
+    region: "Washtenaw/Jackson - North Ann Arbor, Jackson, rural areas",
+    incumbent: "Sue Shink (D)",
     candidates: {
       republican: [
-        { name: 'John Damoose', description: 'Incumbent State Senator', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
-          gradeJustifications: {
-            proLife: 'Strong pro-life voting record; opposed all abortion expansion legislation',
-            marriage: 'Generally supports traditional marriage but has not been as vocal on this issue',
-            religiousLiberty: 'Supports religious liberty protections; opposes government mandates on faith organizations',
-            secondAmendment: 'Strong Second Amendment record; opposes all gun control measures',
-            limitedGov: 'Supports reducing government size; opposes state overreach into local affairs',
-            fiscal: 'Fiscal conservative; opposes tax increases and wasteful spending',
-          },
-        },
+        { name: "Tawn Shawnelle Beliger", description: "Republican candidate for SD-14", status: "challenger", grade: null },
+        { name: "Brandon Bradley", description: "Republican candidate for SD-14", status: "challenger", grade: null },
       ],
-      democratic: [],
+      democratic: [
+        { name: "Sue Shink", description: "Incumbent State Senator; conservationist, farmer; former Washtenaw County Board of Commissioners chair; elected 2022 with 55.80%", status: "incumbent", grade: null },
+      ],
+    },
+  },
+  15: {
+    office: "State Senate — District 15",
+    region: "Washtenaw/Lenawee",
+    incumbent: "Felicia Brabec (D)",
+    candidates: {
+      republican: [
+        { name: "Jason Rogers", description: "Republican candidate for SD-15", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Felicia Brabec", description: "Incumbent State Senator", status: "incumbent", grade: null },
+        { name: "Michael White", description: "Democratic challenger for SD-15", status: "challenger", grade: null },
+      ],
+    },
+  },
+  16: {
+    office: "State Senate — District 16",
+    region: "Monroe/Lenawee/Hillsdale Counties",
+    incumbent: "Joseph Bellino Jr. (R)",
+    candidates: {
+      republican: [
+        { name: "Joseph Bellino Jr.", description: "Incumbent State Senator; business owner (Broadway Market, Monroe); elected 2022 with 65.01%; former Monroe County Community College Board", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Deandre Barnes", description: "Democratic candidate for SD-16", status: "challenger", grade: null },
+      ],
+    },
+  },
+  17: {
+    office: "State Senate — District 17",
+    region: "Calhoun/Branch/St. Joseph Counties",
+    incumbent: "Open",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Jonathan Lindsey", description: "Republican candidate for SD-17", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Ashleigh Baker", description: "Democratic candidate for SD-17", status: "challenger", grade: null },
+        { name: "Mike D. Jones", description: "Democratic candidate for SD-17", status: "challenger", grade: null },
+        { name: "Brett Muchow", description: "Democratic candidate for SD-17", status: "challenger", grade: null },
+      ],
+    },
+  },
+  18: {
+    office: "State Senate — District 18",
+    region: "Ionia/Montcalm/Gratiot area",
+    incumbent: "Thomas A. Albert (R)",
+    candidates: {
+      republican: [
+        { name: "Thomas A. Albert", description: "Incumbent State Senator; former State Representative and House Appropriations chair", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Anthony Pennock", description: "Democratic candidate for SD-18", status: "challenger", grade: null },
+      ],
+    },
+  },
+  19: {
+    office: "State Senate — District 19",
+    region: "Kalamazoo area",
+    incumbent: "Julie M. Rogers (D)",
+    candidates: {
+      republican: [
+        { name: "Shaun Young", description: "Republican candidate for SD-19", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Julie M. Rogers", description: "Incumbent State Senator", status: "incumbent", grade: null },
+      ],
+    },
+  },
+  20: {
+    office: "State Senate — District 20",
+    region: "Allegan/Van Buren area",
+    incumbent: "Aric Nesbitt (R)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Curtis Clark", description: "Republican candidate for SD-20", status: "challenger", grade: null },
+        { name: "Kenny Clevenger", description: "Casco Township Treasurer (2021-present); former Allegan County Republican Party chairman (2022-2025)", status: "challenger", grade: null },
+        { name: "Chris Moraitis", description: "Republican candidate for SD-20", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Dale Murney", description: "Democratic candidate for SD-20", status: "challenger", grade: null },
+      ],
+    },
+  },
+  21: {
+    office: "State Senate — District 21",
+    region: "Ingham County - Lansing area",
+    incumbent: "Sarah Anthony (D)",
+    candidates: {
+      republican: [
+        { name: "Josh Burns", description: "Republican candidate for SD-21", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Sarah Anthony", description: "Incumbent State Senator", status: "incumbent", grade: null },
+      ],
+    },
+  },
+  22: {
+    office: "State Senate — District 22",
+    region: "Shiawassee/Clinton area",
+    incumbent: "Mike Murphy (R)",
+    candidates: {
+      republican: [
+        { name: "Mike Murphy", description: "Incumbent State Senator", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Robert Hower", description: "Democratic candidate for SD-22", status: "challenger", grade: null },
+      ],
+    },
+  },
+  23: {
+    office: "State Senate — District 23",
+    region: "Oakland County - White Lake, Orion, Oxford, Clarkston area",
+    incumbent: "Ruth Johnson (R)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Daniel Lawless", description: "White Lake resident; Republican candidate for SD-23", status: "challenger", grade: null },
+        { name: "Donni Steele", description: "Current State Rep (HD-54, Lake Orion); owns Coldwell Banker Shooltz Realty; BA Business Mgmt from WMU; realtor/property manager/associate broker", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Margarette Gupta", description: "Oakland Township resident", status: "challenger", grade: null },
+        { name: "Greg Hill", description: "Oxford resident", status: "challenger", grade: null },
+      ],
+    },
+  },
+  24: {
+    office: "State Senate — District 24",
+    region: "Macomb County",
+    incumbent: "Open",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Terence H. Mekoski", description: "Republican candidate for SD-24", status: "challenger", grade: null },
+        { name: "Douglas Chester Wozniak", description: "Small-business owner, practicing attorney; served in House 2018; special election to Senate 2021; returned to House 2024", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Frank Borsellino", description: "Democratic candidate for SD-24", status: "challenger", grade: null },
+        { name: "Edlira Sako", description: "Democratic candidate for SD-24", status: "challenger", grade: null },
+      ],
+    },
+  },
+  25: {
+    office: "State Senate — District 25",
+    region: "Huron/Sanilac/Tuscola/St. Clair Counties (Thumb area)",
+    incumbent: "Dan Lauwers (R)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Andrew Beeler", description: "Port Huron resident; Republican candidate for SD-25", status: "challenger", grade: null },
+        { name: "Gary R. Eisen", description: "St. Clair resident; former State Representative", status: "challenger", grade: null },
+        { name: "John W. Mahaney", description: "Port Huron resident", status: "challenger", grade: null },
+        { name: "Randy Schultz", description: "Mussey resident", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "April L. Osentoski", description: "Bad Axe resident; unopposed in D primary", status: "challenger", grade: null },
+      ],
+    },
+  },
+  26: {
+    office: "State Senate — District 26",
+    region: "Tuscola/Lapeer/Genesee area",
+    incumbent: "Kevin Daley (R)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Daltson Atwell", description: "Republican candidate for SD-26", status: "challenger", grade: null },
+        { name: "Matthew Bierlein", description: "Former State Representative; reelected 2024 with 70.36%; retiring from House to run for Senate", status: "challenger", grade: null },
+        { name: "James M. Graham", description: "Republican candidate for SD-26", status: "challenger", grade: null },
+        { name: "Gabriel Lossing", description: "Republican candidate for SD-26", status: "challenger", grade: null },
+        { name: "Candice Miller", description: "Republican candidate for SD-26", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Martin L. Cousineau", description: "Democratic candidate for SD-26", status: "challenger", grade: null },
+        { name: "John Hall", description: "Democratic candidate for SD-26", status: "challenger", grade: null },
+        { name: "Brendan J. Johnson", description: "Democratic candidate for SD-26", status: "challenger", grade: null },
+      ],
+    },
+  },
+  27: {
+    office: "State Senate — District 27",
+    region: "Genesee County - Flint area",
+    incumbent: "John D. Cherry (D)",
+    candidates: {
+      republican: [
+        { name: "Bill Bain", description: "Republican candidate for SD-27", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "John D. Cherry", description: "Incumbent State Senator", status: "incumbent", grade: null },
+      ],
+    },
+  },
+  28: {
+    office: "State Senate — District 28",
+    region: "Saginaw/Bay area",
+    incumbent: "Open",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Julie L. DeRose", description: "Republican candidate for SD-28", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Rashida Harrison", description: "Democratic candidate for SD-28", status: "challenger", grade: null },
+        { name: "Ted Kilvington", description: "Democratic candidate for SD-28", status: "challenger", grade: null },
+        { name: "Robert Orlando Pena", description: "Democratic candidate for SD-28", status: "challenger", grade: null },
+        { name: "Mark Polsdofer", description: "Democratic candidate for SD-28", status: "challenger", grade: null },
+      ],
+    },
+  },
+  29: {
+    office: "State Senate — District 29",
+    region: "Kent County - Grand Rapids area",
+    incumbent: "Open",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Brady A. Middleton", description: "Republican candidate for SD-29", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Ivan Diaz", description: "Democratic candidate for SD-29", status: "challenger", grade: null },
+        { name: "Abbie Groff-Blaszak", description: "Democratic candidate for SD-29", status: "challenger", grade: null },
+        { name: "Phil Skaggs", description: "Democratic candidate for SD-29", status: "challenger", grade: null },
+      ],
+    },
+  },
+  30: {
+    office: "State Senate — District 30",
+    region: "Ottawa/Muskegon area",
+    incumbent: "Mark E. Huizenga (R)",
+    candidates: {
+      republican: [
+        { name: "Mark E. Huizenga", description: "Incumbent State Senator", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Carol Glanville", description: "Democratic candidate for SD-30", status: "challenger", grade: null },
+        { name: "Rickie Kreuzer", description: "Democratic candidate for SD-30", status: "challenger", grade: null },
+      ],
+    },
+  },
+  31: {
+    office: "State Senate — District 31",
+    region: "Ottawa/Allegan - Hudsonville, Holland area",
+    incumbent: "Roger Victory (R)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Kevin J. Maas", description: "Republican candidate for SD-31", status: "challenger", grade: null },
+        { name: "Michael J. Markey Jr.", description: "Businessman; 2022 disqualified gubernatorial candidate; 2024 congressional candidate", status: "challenger", grade: null },
+        { name: "John Wetzel", description: "Republican candidate for SD-31", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Keagan Host", description: "Democratic candidate for SD-31", status: "challenger", grade: null },
+        { name: "Chris Kleinjans", description: "Democratic candidate for SD-31", status: "challenger", grade: null },
+      ],
+    },
+  },
+  32: {
+    office: "State Senate — District 32",
+    region: "Newaygo/Oceana/Mason/Lake area",
+    incumbent: "Open",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Kim Cole", description: "Republican candidate for SD-32", status: "challenger", grade: null },
+        { name: "Max Riekse", description: "Republican candidate for SD-32", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Rebecca Amidon", description: "Democratic candidate for SD-32", status: "challenger", grade: null },
+        { name: "Jay Kilgo", description: "Democratic candidate for SD-32", status: "challenger", grade: null },
+      ],
+    },
+  },
+  33: {
+    office: "State Senate — District 33",
+    region: "Kent/Ionia/Montcalm area",
+    incumbent: "Rick Outman (R)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Katie DeBoer", description: "Kent County Commissioner", status: "challenger", grade: null },
+        { name: "Joseph D. Fox", description: "Current State Representative from Fremont", status: "challenger", grade: null },
+        { name: "Gina Johnsen", description: "Current State Representative from Portland", status: "challenger", grade: null },
+        { name: "Thomas J. Norton", description: "Rockford resident", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Stan Opal", description: "Democratic candidate for SD-33", status: "challenger", grade: null },
+      ],
+    },
+  },
+  34: {
+    office: "State Senate — District 34",
+    region: "Midland/Clare/Gladwin area",
+    incumbent: "Open",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Roger Hauck", description: "Republican candidate for SD-34", status: "challenger", grade: null },
+        { name: "Rhonda L. Lange", description: "Republican candidate for SD-34", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Tyler Landgraf", description: "Democratic candidate for SD-34", status: "challenger", grade: null },
+      ],
+    },
+  },
+  35: {
+    office: "State Senate — District 35",
+    region: "Genesee/Saginaw area",
+    incumbent: "Chedrick Greene (D)",
+    candidates: {
+      republican: [
+        { name: "Jason Tunney", description: "Republican candidate; ran in May 2026 special election", status: "challenger", grade: null },
+        { name: "Chadwick Twillman", description: "Republican candidate for SD-35", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Brandell Adams", description: "Democratic candidate for SD-35", status: "challenger", grade: null },
+        { name: "Chedrick Greene", description: "Won May 2026 special election to fill Kristen McDonald Rivet's vacancy", status: "incumbent", grade: null },
+        { name: "Serenity Hope Salak", description: "Democratic candidate for SD-35", status: "challenger", grade: null },
+      ],
     },
   },
   36: {
-    office: 'State Senate — District 36',
-    region: 'Midland, Bay City, Saginaw (W)',
-    incumbent: 'Kevin Hertel (D)',
-    note: 'Competitive swing district',
+    office: "State Senate — District 36",
+    region: "NW Lower Peninsula - Cadillac, Lake City area",
+    incumbent: "Michele Hoitenga (R)",
     candidates: {
-      republican: [],
+      republican: [
+        { name: "Michele Hoitenga", description: "Incumbent State Senator", status: "incumbent", grade: null },
+      ],
       democratic: [
-        { name: 'Kevin Hertel', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
+        { name: "Mark W. Yonkman", description: "Democratic candidate for SD-36", status: "challenger", grade: null },
+      ],
+    },
+  },
+  37: {
+    office: "State Senate — District 37",
+    region: "NE Lower Peninsula - Cheboygan, Petoskey, Mackinaw area",
+    incumbent: "John Damoose (R)",
+    candidates: {
+      republican: [
+        { name: "John Damoose", description: "Incumbent State Senator", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Kate Gallup", description: "Democratic candidate for SD-37", status: "challenger", grade: null },
+        { name: "Mitchell Treadwell", description: "Democratic candidate for SD-37", status: "challenger", grade: null },
+      ],
+    },
+  },
+  38: {
+    office: "State Senate — District 38",
+    region: "Upper Peninsula",
+    incumbent: "Ed McBroom (R)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Beau Matthew LaFave", description: "Former State Rep (2017-2022); pro-open carry conservative firebrand; endorsed by Rep. Jack Bergman; tried to bring AR-style rifle to Whitmer State of the State", status: "challenger", grade: null },
+        { name: "David Prestin", description: "Current State Rep (HD-108, elected 2022, reelected 2024); endorsed by outgoing Sen. Ed McBroom, Reps. Greg Markkanen and Karl Bohnak", status: "challenger", grade: null },
+        { name: "Christopher J. Reynolds", description: "Republican candidate for SD-38", status: "challenger", grade: null },
+        { name: "Kayla Wikstrom", description: "Republican candidate for SD-38", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Jacob P. La Jeunesse", description: "Democratic candidate for SD-38", status: "challenger", grade: null },
+        { name: "Chris Mapps", description: "Democratic candidate for SD-38", status: "challenger", grade: null },
+        { name: "Kelli J. Van Ginhoven", description: "Democratic candidate for SD-38", status: "challenger", grade: null },
       ],
     },
   },
 }
 
 // ── State House Races (by district) ──────────────────────────────
-// All 110 seats are on the 2026 ballot
-// Only districts with confirmed candidates or in key areas are listed
+// All 110 seats on the 2026 ballot
+// Only districts with confirmed candidates listed (34 of 110)
 
 export const STATE_HOUSE_RACES = {
-  // ── Oakland County area ──
-  51: {
-    office: 'State House — District 51',
-    region: 'Waterford, White Lake',
-    incumbent: 'Donni Steele (R)',
-    note: 'Steele may vacate if running for State Senate.',
+  2: {
+    office: "State House — District 2",
+    region: "Wayne County - Taylor, Romulus area",
+    incumbent: "Tullio Liberati Jr. (D)",
+    note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Donni Steele', description: 'Incumbent (may run for Senate)', status: 'incumbent', grade: 'A' },
+        { name: "Ron Kokinda", description: "Republican candidate for HD-2", status: "challenger", grade: null },
+        { name: "Zacharia Ortiz", description: "Republican candidate for HD-2", status: "challenger", grade: null },
       ],
-      democratic: [],
+      democratic: [
+        { name: "Frank A. Liberati", description: "Democratic candidate for HD-2", status: "challenger", grade: null },
+        { name: "Gary Schlack", description: "Democratic candidate for HD-2", status: "challenger", grade: null },
+        { name: "Joanna Whaley", description: "Democratic candidate for HD-2", status: "challenger", grade: null },
+      ],
+    },
+  },
+  9: {
+    office: "State House — District 9",
+    region: "Wayne County - Detroit",
+    incumbent: "Joe Tate (D)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Michele Lundgren", description: "Republican candidate for HD-9", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Willie Burton", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+        { name: "Bobby Christian Sr.", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+        { name: "Anthony Eid", description: "Former MICRC (redistricting commission) member", status: "challenger", grade: null },
+        { name: "Darryl J. Ervin", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+        { name: "Arthur Harrington", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+        { name: "Bryant Hepp", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+        { name: "Karriem Holman", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+        { name: "Patricia Hurt", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+        { name: "Toni Mua", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+        { name: "Eldridge Ross", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+        { name: "Rick Silva", description: "Democratic candidate for HD-9", status: "challenger", grade: null },
+      ],
+    },
+  },
+  13: {
+    office: "State House — District 13",
+    region: "Macomb County",
+    incumbent: "Open",
+    candidates: {
+      republican: [
+        { name: "Casey Armitage", description: "Republican candidate for HD-13", status: "challenger", grade: null },
+        { name: "Mark Thomas Foster", description: "Republican candidate for HD-13", status: "challenger", grade: null },
+        { name: "Julie Leonardi", description: "Republican candidate for HD-13", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Mai Xiong", description: "Democratic candidate for HD-13", status: "challenger", grade: null },
+      ],
+    },
+  },
+  18: {
+    office: "State House — District 18",
+    region: "Oakland County - Southfield, Lathrup Village, Farmington Hills",
+    incumbent: "Jason Hoskins (D)",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Ryan Foster", description: "Southfield resident", status: "challenger", grade: null },
+        { name: "Ronald Ulmer-Paul", description: "Farmington Hills resident", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Kelly Garrett", description: "Lathrup Village resident; UNOPPOSED in D primary", status: "challenger", grade: null },
+      ],
+    },
+  },
+  19: {
+    office: "State House — District 19",
+    region: "Oakland County - Farmington Hills",
+    incumbent: "Samantha Steckloff (D)",
+    candidates: {
+      republican: [
+        { name: "Kevin J. Hammer", description: "Farmington Hills resident", status: "challenger", grade: null },
+        { name: "Mitch Swoboda", description: "Farmington Hills resident", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Samantha Steckloff", description: "Incumbent State Rep; Farmington Hills", status: "incumbent", grade: null },
+        { name: "Brandon Young", description: "Southfield resident", status: "challenger", grade: null },
+      ],
+    },
+  },
+  20: {
+    office: "State House — District 20",
+    region: "Oakland County - West Bloomfield, Bloomfield Twp",
+    incumbent: "Noah Arbit (D)",
+    candidates: {
+      republican: [
+        { name: "Hermon Barbe", description: "Republican candidate for HD-20", status: "challenger", grade: null },
+        { name: "S. David Sullivan", description: "Republican candidate for HD-20", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Noah Arbit", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: null },
+      ],
+    },
+  },
+  36: {
+    office: "State House — District 36",
+    region: "Kalamazoo/Cass/Van Buren",
+    incumbent: "Open",
+    candidates: {
+      republican: [
+        { name: "Steve Carra", description: "Former State Representative", status: "challenger", grade: null },
+        { name: "Max Coon", description: "Republican candidate for HD-36", status: "challenger", grade: null },
+        { name: "Luke Lori", description: "Republican candidate for HD-36", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Cole Slaski", description: "Democratic candidate for HD-36", status: "challenger", grade: null },
+      ],
+    },
+  },
+  51: {
+    office: "State House — District 51",
+    region: "Oakland County - Highland Twp, Milford, White Lake",
+    incumbent: "Matt Maddock (R)",
+    candidates: {
+      republican: [
+        { name: "Matt Maddock", description: "Incumbent State Rep since 2019; represents Milford area; UNOPPOSED in R primary", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Stacey McDuffie", description: "White Lake resident", status: "challenger", grade: null },
+        { name: "Gary Murrell", description: "Westland resident", status: "challenger", grade: null },
+      ],
     },
   },
   52: {
-    office: 'State House — District 52',
-    region: 'Commerce Twp, Walled Lake, Wixom',
-    incumbent: 'Mike Harris (R)',
+    office: "State House — District 52",
+    region: "Oakland County - Waterford, Commerce Twp area",
+    incumbent: "Mike Harris (R)",
     candidates: {
       republican: [
-        { name: 'Mike Harris', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
-          gradeJustifications: {
-            proLife: 'Pro-life voting record; opposed abortion rights expansion',
-            marriage: 'Generally supportive of traditional marriage; moderate public stance',
-            religiousLiberty: 'Supports religious liberty protections',
-            secondAmendment: 'Supports Second Amendment rights; opposed gun control legislation',
-            limitedGov: 'Opposes government overreach; supports parental rights in education',
-            fiscal: 'Voted against Whitmer tax increases; supports fiscal restraint',
-          },
-        },
+        { name: "Mike Harris", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
       ],
-      democratic: [],
+      democratic: [
+        { name: "Brendan P. Leddy", description: "Democratic candidate for HD-52", status: "challenger", grade: null },
+        { name: "Tom Owensby", description: "Democratic candidate for HD-52", status: "challenger", grade: null },
+      ],
+    },
+  },
+  53: {
+    office: "State House — District 53",
+    region: "Oakland County - Pontiac, Auburn Hills area",
+    incumbent: "Brenda Carter (D)",
+    candidates: {
+      republican: [
+        { name: "Melissa Schultz", description: "Republican candidate for HD-53", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Robert L. Anderlie", description: "Democratic challenger for HD-53", status: "challenger", grade: null },
+        { name: "Brenda Carter", description: "Incumbent State Rep; reelected 2024 with 65.85%", status: "incumbent", grade: null },
+      ],
     },
   },
   54: {
-    office: 'State House — District 54',
-    region: 'Rochester Hills, Rochester',
-    incumbent: 'Mark Tisdel (R)',
+    office: "State House — District 54",
+    region: "Oakland County - Lake Orion, Bloomfield, Auburn Hills area",
+    incumbent: "Donni Steele (R)",
+    note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Mark Tisdel', description: 'Incumbent State Rep, former Rochester Hills mayor', status: 'incumbent', grade: 'B',
-          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'A' },
-          gradeJustifications: {
-            proLife: 'Pro-life but supports some exceptions; moderate approach',
-            marriage: 'Has not been vocal on marriage issues; moderate suburban stance',
-            religiousLiberty: 'Supports religious liberty but not a primary legislative focus',
-            secondAmendment: 'Strong Second Amendment supporter; opposed gun control measures',
-            limitedGov: 'Former mayor focused on local control; moderate on government size',
-            fiscal: 'Strong fiscal record; business background; opposes tax increases',
-          },
-        },
+        { name: "Roman Gaskey", description: "Republican candidate for HD-54", status: "challenger", grade: null },
+        { name: "Jeffrey M. Omtvedt", description: "Republican candidate for HD-54", status: "challenger", grade: null },
       ],
-      democratic: [],
+      democratic: [
+        { name: "Sarah Pounds", description: "Lake Orion resident; Democratic candidate for HD-54", status: "challenger", grade: null },
+      ],
     },
   },
   55: {
-    office: 'State House — District 55',
-    region: 'Troy, Clawson',
-    incumbent: 'Aisha Farooqi (D)',
+    office: "State House — District 55",
+    region: "Oakland County - Rochester Hills area",
+    incumbent: "Mark Tisdel (R)",
     candidates: {
-      republican: [],
+      republican: [
+        { name: "Mark Tisdel", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+      ],
       democratic: [
-        { name: 'Aisha Farooqi', description: 'Incumbent State Rep', status: 'incumbent', grade: 'F' },
+        { name: "Alex Hawkins", description: "Democratic candidate for HD-55", status: "challenger", grade: null },
+        { name: "Jim McMahon", description: "Democratic candidate for HD-55", status: "challenger", grade: null },
+        { name: "Rhonda Yates", description: "Democratic candidate for HD-55", status: "challenger", grade: null },
       ],
     },
   },
   56: {
-    office: 'State House — District 56',
-    region: 'Auburn Hills, Pontiac, Orion Twp',
-    incumbent: 'Sharon MacDonell (D)',
+    office: "State House — District 56",
+    region: "Oakland County - Madison Heights, Hazel Park area",
+    incumbent: "Sharon MacDonell (D)",
     candidates: {
-      republican: [],
+      republican: [
+        { name: "Ashok Baddi", description: "Republican candidate for HD-56", status: "challenger", grade: null },
+      ],
       democratic: [
-        { name: 'Sharon MacDonell', description: 'Incumbent State Rep', status: 'incumbent', grade: 'F' },
+        { name: "Sharon MacDonell", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: null },
+      ],
+    },
+  },
+  57: {
+    office: "State House — District 57",
+    region: "Oakland/Macomb - Sterling Heights, Troy, Madison Heights",
+    incumbent: "Thomas E. Kuhn (R)",
+    candidates: {
+      republican: [
+        { name: "Thomas E. Kuhn", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Jerilynn M. Chambliss", description: "Democratic candidate for HD-57", status: "challenger", grade: null },
+        { name: "Tom Turner", description: "Democratic candidate for HD-57", status: "challenger", grade: null },
+      ],
+    },
+  },
+  58: {
+    office: "State House — District 58",
+    region: "Macomb County - majority of Sterling Heights",
+    incumbent: "Ron Robinson (R)",
+    candidates: {
+      republican: [
+        { name: "Ron Robinson", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Tabu M. Gantt II", description: "Democratic candidate for HD-58", status: "challenger", grade: null },
+        { name: "Katrina Manetta", description: "Democratic candidate for HD-58", status: "challenger", grade: null },
+      ],
+    },
+  },
+  59: {
+    office: "State House — District 59",
+    region: "Macomb County",
+    incumbent: "Sylvia Grot (R)",
+    candidates: {
+      republican: [
+        { name: "Sylvia Grot", description: "Incumbent State Rep", status: "incumbent", grade: null },
+        { name: "Matt Grubb", description: "Republican challenger for HD-59", status: "challenger", grade: null },
+        { name: "Jean Zott", description: "Republican challenger for HD-59", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Jason Robbins", description: "Democratic candidate for HD-59", status: "challenger", grade: null },
+      ],
+    },
+  },
+  60: {
+    office: "State House — District 60",
+    region: "Macomb County",
+    incumbent: "Open",
+    candidates: {
+      republican: [
+        { name: "Joseph Aragona", description: "Republican candidate for HD-60", status: "challenger", grade: null },
+        { name: "Tom Sokol", description: "Republican candidate for HD-60", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Amy Gray", description: "Democratic candidate for HD-60", status: "challenger", grade: null },
+        { name: "Kenneth Paul Jenkins", description: "Democratic candidate for HD-60", status: "challenger", grade: null },
+      ],
+    },
+  },
+  61: {
+    office: "State House — District 61",
+    region: "Macomb - SE Sterling Heights, Clinton Twp, Mt Clemens",
+    incumbent: "Denise Mentzer (D)",
+    candidates: {
+      republican: [
+        { name: "John Grossenbacher", description: "Republican candidate for HD-61", status: "challenger", grade: null },
+        { name: "James Perry", description: "Republican candidate for HD-61", status: "challenger", grade: null },
+        { name: "Robert Wojtowicz", description: "Republican candidate for HD-61", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Mahbube Khan", description: "Democratic challenger for HD-61", status: "challenger", grade: null },
+        { name: "Denise Mentzer", description: "Incumbent State Rep", status: "incumbent", grade: null },
+      ],
+    },
+  },
+  66: {
+    office: "State House — District 66",
+    region: "Livingston/Wayne area",
+    incumbent: "Open",
+    candidates: {
+      republican: [
+        { name: "Catherine Colvin", description: "Republican candidate for HD-66", status: "challenger", grade: null },
+        { name: "Josh Schriver", description: "Republican candidate/incumbent for HD-66", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Ned Zimmer", description: "Democratic candidate for HD-66", status: "challenger", grade: null },
+      ],
+    },
+  },
+  73: {
+    office: "State House — District 73",
+    region: "Ingham County - East Lansing area",
+    incumbent: "Julie Brixie (D)",
+    candidates: {
+      republican: [
+        { name: "Daniel L. Ewart", description: "Republican candidate for HD-73", status: "challenger", grade: null },
+        { name: "Norm Grant", description: "Republican candidate for HD-73", status: "challenger", grade: null },
+        { name: "Joshua Jon Rockey", description: "Republican candidate for HD-73", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Julie Brixie", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: null },
+      ],
+    },
+  },
+  74: {
+    office: "State House — District 74",
+    region: "Ingham County - Lansing",
+    incumbent: "Open",
+    note: "Open seat",
+    candidates: {
+      republican: [
+        { name: "Clinton Tarver", description: "Republican candidate for HD-74", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Aaron Iturralde", description: "Democratic candidate for HD-74", status: "challenger", grade: null },
+        { name: "Robert L. Kosowski", description: "Democratic candidate for HD-74", status: "challenger", grade: null },
+        { name: "Aaron Nowland", description: "Democratic candidate for HD-74", status: "challenger", grade: null },
+        { name: "Harold A. Pope", description: "Democratic candidate for HD-74", status: "challenger", grade: null },
+        { name: "Erin Schor", description: "Democratic candidate for HD-74", status: "challenger", grade: null },
+        { name: "TyJuan Thirdgill", description: "Democratic candidate for HD-74", status: "challenger", grade: null },
+      ],
+    },
+  },
+  78: {
+    office: "State House — District 78",
+    region: "Eaton/Barry area",
+    incumbent: "Open",
+    candidates: {
+      republican: [
+        { name: "Terence M. Frewen", description: "Republican candidate for HD-78", status: "challenger", grade: null },
+        { name: "Kaleb M. Hudson", description: "Republican candidate for HD-78", status: "challenger", grade: null },
+        { name: "Miguel Pilar", description: "Republican candidate for HD-78", status: "challenger", grade: null },
+        { name: "Brandon L. Strong", description: "Republican candidate for HD-78", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Rachel Gross", description: "Democratic candidate for HD-78", status: "challenger", grade: null },
+      ],
+    },
+  },
+  85: {
+    office: "State House — District 85",
+    region: "Ottawa County",
+    incumbent: "Open",
+    candidates: {
+      republican: [
+        { name: "Jason Ickes", description: "Republican candidate for HD-85", status: "challenger", grade: null },
+        { name: "John C. O'Brien", description: "Republican candidate for HD-85", status: "challenger", grade: null },
+        { name: "Bradley Slagh", description: "Republican candidate for HD-85", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Richard Abraham", description: "Democratic candidate for HD-85", status: "challenger", grade: null },
       ],
     },
   },
   88: {
-    office: 'State House — District 88',
-    region: 'Holly, Groveland, Rose, Springfield Twp',
-    incumbent: 'Open',
+    office: "State House — District 88",
+    region: "Ottawa/Muskegon area",
+    incumbent: "Greg VanWoerkom (R)",
     candidates: {
-      republican: [],
-      democratic: [],
+      republican: [
+        { name: "Ethan Frasier", description: "Republican challenger for HD-88", status: "challenger", grade: null },
+        { name: "Greg VanWoerkom", description: "Incumbent State Rep", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Kiel Reid", description: "Democratic candidate for HD-88", status: "challenger", grade: null },
+      ],
+    },
+  },
+  89: {
+    office: "State House — District 89",
+    region: "Ottawa/Allegan area",
+    incumbent: "Luke Meerman (R)",
+    candidates: {
+      republican: [
+        { name: "Patrick Kapenga", description: "Republican candidate for HD-89", status: "challenger", grade: null },
+        { name: "Joe Moss", description: "Republican candidate for HD-89", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Meegan Zickus", description: "Democratic candidate for HD-89", status: "challenger", grade: null },
+      ],
+    },
+  },
+  90: {
+    office: "State House — District 90",
+    region: "Kent County - Rockford, Ada area",
+    incumbent: "Bryan Posthumus (R)",
+    candidates: {
+      republican: [
+        { name: "Lynn Afendoulis", description: "Former State Rep (HD-73, 2019-2021); filed April 17, 2026; Rockford resident", status: "challenger", grade: null },
+        { name: "Susannah Watts", description: "Republican candidate; filed January 15, 2026", status: "challenger", grade: null },
+        { name: "Andrew Jackson Willis", description: "Republican candidate; filed January 20, 2026", status: "challenger", grade: null },
+        { name: "Jordan Youngquist", description: "Republican candidate; filed January 16, 2026", status: "challenger", grade: null },
+      ],
+      democratic: [
+        { name: "Rachel Crowther", description: "Democratic candidate for HD-90", status: "challenger", grade: null },
+      ],
+    },
+  },
+  91: {
+    office: "State House — District 91",
+    region: "Montcalm/Ionia area",
+    incumbent: "Pat Outman (R)",
+    candidates: {
+      republican: [
+        { name: "Pat Outman", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Frank Lafata", description: "Democratic candidate for HD-91", status: "challenger", grade: null },
+      ],
+    },
+  },
+  92: {
+    office: "State House — District 92",
+    region: "Isabella/Clare area",
+    incumbent: "Jerry Neyer (R)",
+    candidates: {
+      republican: [
+        { name: "Jerry Neyer", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Aaron Bailey", description: "Democratic candidate for HD-92", status: "challenger", grade: null },
+        { name: "Luke Del Castillo", description: "Democratic candidate for HD-92", status: "challenger", grade: null },
+      ],
+    },
+  },
+  93: {
+    office: "State House — District 93",
+    region: "Saginaw area",
+    incumbent: "Tim Kelly (R)",
+    candidates: {
+      republican: [
+        { name: "Tim Kelly", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
+      ],
+      democratic: [
+        { name: "Serenity Hope Salak", description: "Democratic candidate for HD-93", status: "challenger", grade: null },
+      ],
     },
   },
   94: {
-    office: 'State House — District 94',
-    region: 'Clarkston, Independence Twp, Brandon Twp, Oxford',
-    incumbent: 'Open',
-    candidates: {
-      republican: [],
-      democratic: [],
-    },
-  },
-  // ── Macomb County ──
-  57: {
-    office: 'State House — District 57',
-    region: 'Shelby Twp (N), Washington Twp',
-    incumbent: 'Jay DeBoyer (R)',
+    office: "State House — District 94",
+    region: "Saginaw County",
+    incumbent: "Amos O'Neal (D)",
     candidates: {
       republican: [
-        { name: 'Jay DeBoyer', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
+        { name: "Don Sugg", description: "Republican candidate for HD-94", status: "challenger", grade: null },
       ],
-      democratic: [],
-    },
-  },
-  58: {
-    office: 'State House — District 58',
-    region: 'Sterling Heights (N), Utica',
-    incumbent: 'Nate Shannon (D)',
-    candidates: {
-      republican: [],
       democratic: [
-        { name: 'Nate Shannon', description: 'Incumbent State Rep', status: 'incumbent', grade: 'F' },
+        { name: "Amos O'Neal", description: "Incumbent State Rep; UNOPPOSED in D primary", status: "incumbent", grade: null },
       ],
     },
   },
-  // ── West Michigan ──
-  80: {
-    office: 'State House — District 80',
-    region: 'Grand Rapids (NE), Plainfield Twp',
-    incumbent: 'Phil Green (R)',
+  95: {
+    office: "State House — District 95",
+    region: "Midland/Gladwin area",
+    incumbent: "Bill G. Schuette (R)",
     candidates: {
       republican: [
-        { name: 'Phil Green', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
+        { name: "Bill G. Schuette", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
       ],
-      democratic: [],
-    },
-  },
-  84: {
-    office: 'State House — District 84',
-    region: 'Holland, Zeeland, West Ottawa',
-    incumbent: 'Luke Meerman (R)',
-    candidates: {
-      republican: [
-        { name: 'Luke Meerman', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
-      ],
-      democratic: [],
-    },
-  },
-  // ── Swing / competitive districts ──
-  22: {
-    office: 'State House — District 22',
-    region: 'Livonia (N), Redford Twp',
-    incumbent: 'Matt Koleszar (D)',
-    note: 'Competitive swing district',
-    candidates: {
-      republican: [],
       democratic: [
-        { name: 'Matt Koleszar', description: 'Incumbent State Rep', status: 'incumbent', grade: 'F' },
+        { name: "AnnMarie Horseman", description: "Democratic candidate for HD-95", status: "challenger", grade: null },
+        { name: "Gary VanBlaricum", description: "Democratic candidate for HD-95", status: "challenger", grade: null },
       ],
     },
   },
-  62: {
-    office: 'State House — District 62',
-    region: 'Midland, Gladwin',
-    incumbent: 'Annette Glenn (R)',
+  96: {
+    office: "State House — District 96",
+    region: "Bay County",
+    incumbent: "Timothy Beson (R)",
     candidates: {
       republican: [
-        { name: 'Annette Glenn', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
+        { name: "Timothy Beson", description: "Incumbent State Rep; UNOPPOSED in R primary", status: "incumbent", grade: null },
       ],
-      democratic: [],
+      democratic: [
+        { name: "Christopher R. Girard", description: "Democratic candidate for HD-96", status: "challenger", grade: null },
+      ],
     },
   },
-  // ── Northern Michigan ──
-  105: {
-    office: 'State House — District 105',
-    region: 'Traverse City, Leelanau County',
-    incumbent: 'Curt VanderWall (R)',
+  101: {
+    office: "State House — District 101",
+    region: "Mecosta/Osceola/Wexford area",
+    incumbent: "Joseph Fox (R)",
+    note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Curt VanderWall', description: 'Incumbent State Rep, former State Senator', status: 'incumbent', grade: 'A' },
+        { name: "Gary Anderson", description: "Republican candidate for HD-101", status: "challenger", grade: null },
+        { name: "Jaxon Deur", description: "Republican candidate for HD-101", status: "challenger", grade: null },
+        { name: "Luke Eising", description: "Republican candidate for HD-101", status: "challenger", grade: null },
+        { name: "Ben Townsend", description: "Republican candidate for HD-101", status: "challenger", grade: null },
+        { name: "Natacha Valmont", description: "Republican candidate for HD-101", status: "challenger", grade: null },
+        { name: "Rich Vance", description: "Republican candidate for HD-101", status: "challenger", grade: null },
       ],
-      democratic: [],
+      democratic: [
+        { name: "Christopher R. Crain", description: "Democratic candidate for HD-101", status: "challenger", grade: null },
+      ],
     },
   },
-  106: {
-    office: 'State House — District 106',
-    region: 'Petoskey, Charlevoix, Cheboygan',
-    incumbent: 'Cam Cavitt (R)',
+  108: {
+    office: "State House — District 108",
+    region: "Upper Peninsula - Delta, Luce, Menominee, Schoolcraft, parts of Chippewa/Mackinac",
+    incumbent: "David Prestin (R)",
+    note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Cam Cavitt', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
+        { name: "Casey Hoffman", description: "Republican candidate for HD-108", status: "challenger", grade: null },
+        { name: "Larry Johnson", description: "Republican candidate for HD-108", status: "challenger", grade: null },
+        { name: "Kurt Perron", description: "Republican candidate for HD-108", status: "challenger", grade: null },
+        { name: "Christopher J. Reynolds", description: "Rock resident; switched from Senate race to House race in January 2026", status: "challenger", grade: null },
+        { name: "Daryl Schroeder", description: "Engadine resident", status: "challenger", grade: null },
+        { name: "Steven Viau", description: "Republican candidate for HD-108", status: "challenger", grade: null },
       ],
-      democratic: [],
+      democratic: [
+        { name: "Rachel M. Keys", description: "Democratic candidate for HD-108", status: "challenger", grade: null },
+      ],
     },
   },
 }
