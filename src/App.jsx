@@ -32,14 +32,15 @@ export default function App() {
         <Suspense fallback={LazyFallback}>
           <Routes>
             <Route element={<AppLayout />}>
-              <Route index element={<HomeView />} />
+              <Route index element={<BallotView />} />
+              <Route path="ballot" element={<BallotView />} />
+              <Route path="home" element={<HomeView />} />
               <Route path="explore" element={<RepsView />} />
               <Route path="my-reps" element={<MyRepsView />} />
               <Route path="elections" element={<ElectionsView />} />
               <Route path="register" element={<Navigate to="/elections" replace />} />
               <Route path="founding" element={<FoundingView />} />
               <Route path="analytics" element={<AnalyticsView />} />
-              <Route path="ballot" element={<BallotView />} />
               <Route path="community" element={<CommunityView />} />
               <Route path="settings" element={<SettingsView />} />
               <Route path="profile" element={<ProfileView />} />

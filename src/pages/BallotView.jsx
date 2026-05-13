@@ -18,6 +18,7 @@ import {
 } from '../data/michiganPrimary2026'
 import generateBallotPDF from '../utils/generateBallotPDF'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
+import { getVoterInfo } from '../services/googleCivicApi'
 
 const STORAGE_KEY = 'myreps-ballot-plan-2026'
 
@@ -610,6 +611,8 @@ export default function BallotView() {
   const [choices, setChoices] = useState({})
   const [cloudStatus, setCloudStatus] = useState('idle')
   const [detailCandidate, setDetailCandidate] = useState(null)
+  const [pollingData, setPollingData] = useState(null)
+  const [pollingLoading, setPollingLoading] = useState(false)
   const cloudTimerRef = useRef(null)
 
   // Load saved ballot
@@ -634,6 +637,18 @@ export default function BallotView() {
       setStep('party')
     }
   }, [userAddress])
+
+  // Fetch polling place data when address is set and ballot is showing
+  useEffect(() => {
+    if (!address || step !== 'ballot') return
+    let cancelled = false
+    setPollingLoading(true)
+    getVoterInfo(address)
+      .then(data => { if (!cancelled) setPollingData(data) })
+      .catch(() => { if (!cancelled) setPollingData(null) })
+      .finally(() => { if (!cancelled) setPollingLoading(false) })
+    return () => { cancelled = true }
+  }, [address, step])
 
   // Get ballot races based on party and districts
   const races = useMemo(() => {
@@ -992,6 +1007,159 @@ export default function BallotView() {
                 View your official sample ballot on Michigan.gov
               </a>
             </p>
+          </div>
+
+          {/* ── Polling Place Section ── */}
+          <section className="ballot-section ballot-section-polling">
+            <h3 className="ballot-section-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Where to Vote
+            </h3>
+
+            {pollingLoading && (
+              <div className="ballot-polling-loading">Loading polling place information...</div>
+            )}
+
+            {!pollingLoading && pollingData && pollingData.pollingLocations?.length > 0 && (
+              <div className="ballot-polling-cards">
+                {pollingData.pollingLocations.map((loc, i) => (
+                  <div key={`poll-${i}`} className="ballot-polling-card">
+                    <h4 className="ballot-polling-card-title">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                      </svg>
+                      {loc.name || 'Polling Location'}
+                    </h4>
+                    {loc.address && <p className="ballot-polling-address">{loc.address}</p>}
+                    {loc.hours && <p className="ballot-polling-hours">Hours: {loc.hours}</p>}
+                    {loc.address && (
+                      <a
+                        href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(loc.address)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ballot-polling-map-link"
+                      >
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                          <polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
+                        Open in Maps
+                      </a>
+                    )}
+                  </div>
+                ))}
+
+                {pollingData.earlyVoteSites?.length > 0 && (
+                  <div className="ballot-polling-card ballot-polling-card-early">
+                    <h4 className="ballot-polling-card-title">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+                        <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+                      </svg>
+                      Early Voting Site
+                    </h4>
+                    <p className="ballot-polling-address">{pollingData.earlyVoteSites[0].name}</p>
+                    {pollingData.earlyVoteSites[0].address && (
+                      <p className="ballot-polling-address">{pollingData.earlyVoteSites[0].address}</p>
+                    )}
+                    {pollingData.earlyVoteSites[0].hours && (
+                      <p className="ballot-polling-hours">Hours: {pollingData.earlyVoteSites[0].hours}</p>
+                    )}
+                  </div>
+                )}
+
+                {pollingData.dropOffLocations?.length > 0 && (
+                  <div className="ballot-polling-card ballot-polling-card-dropoff">
+                    <h4 className="ballot-polling-card-title">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+                        <rect x="2" y="7" width="20" height="14" rx="2" /><path d="M16 7V5a4 4 0 0 0-8 0v2" />
+                      </svg>
+                      Ballot Drop-off Location
+                    </h4>
+                    <p className="ballot-polling-address">{pollingData.dropOffLocations[0].name}</p>
+                    {pollingData.dropOffLocations[0].address && (
+                      <p className="ballot-polling-address">{pollingData.dropOffLocations[0].address}</p>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {!pollingLoading && (!pollingData || !pollingData.pollingLocations?.length) && (
+              <div className="ballot-polling-unavailable">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="20" height="20">
+                  <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
+                </svg>
+                <div>
+                  <p>Polling places are typically published 4-6 weeks before an election.</p>
+                  <a
+                    href="https://mvic.sos.state.mi.us/Voter/Index"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ballot-polling-sos-link"
+                  >
+                    Check the Michigan Secretary of State voter lookup for updates
+                  </a>
+                </div>
+              </div>
+            )}
+          </section>
+
+          {/* ── Voter Resources Section ── */}
+          <section className="ballot-section ballot-section-resources">
+            <h3 className="ballot-section-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+              Voter Resources
+            </h3>
+            <div className="ballot-resources-grid">
+              <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+                <span className="ballot-resource-label">Check Registration</span>
+              </a>
+              <a href="https://mvic.sos.state.mi.us/RegisterVoter" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="8.5" cy="7" r="4" /><line x1="20" y1="8" x2="20" y2="14" /><line x1="23" y1="11" x2="17" y2="11" />
+                </svg>
+                <span className="ballot-resource-label">Register to Vote</span>
+              </a>
+              <a href="https://mvic.sos.state.mi.us/AVApplication/Index" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
+                  <rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+                <span className="ballot-resource-label">Request Absentee Ballot</span>
+              </a>
+              <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" />
+                </svg>
+                <span className="ballot-resource-label">Official Sample Ballot</span>
+              </a>
+            </div>
+          </section>
+
+          {/* ── Grade Tip Submission ── */}
+          <div className="ballot-grade-tip">
+            <h4 className="ballot-grade-tip-title">Know something about a candidate?</h4>
+            <p className="ballot-grade-tip-desc">
+              Our grades are based on public records. If you have documented information about a candidate's positions, help us improve our data.
+            </p>
+            <a
+              href="mailto:dillon@branddesignco.com?subject=MyReps Grade Tip&body=Candidate name:%0AOffice/District:%0AInformation:%0ASource/Link:"
+              className="ballot-grade-tip-link"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
+                <rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              Submit a Tip
+            </a>
           </div>
         </>
       )}

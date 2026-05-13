@@ -1731,6 +1731,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.nav-badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: var(--accent-gold, #d4a017);
+  color: #000;
+  font-size: 0.55rem;
+  font-weight: 700;
+  min-width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  border-radius: 999px;
+  text-align: center;
+  padding: 0 3px;
+  pointer-events: none;
 }
 
 /* ── Page layout ── */
@@ -5913,6 +5931,139 @@ button.election-card {
 .ballot-mvic-link {
   color: var(--accent-gold);
   text-decoration: underline;
+}
+
+/* ── Polling Place Section ── */
+.ballot-section-polling {
+  margin-top: 2rem;
+}
+.ballot-polling-loading {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+.ballot-polling-cards {
+  display: grid;
+  gap: 0.75rem;
+}
+.ballot-polling-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.ballot-polling-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+.ballot-polling-address {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 0.15rem 0;
+}
+.ballot-polling-hours {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin: 0.15rem 0;
+}
+.ballot-polling-map-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  color: var(--accent-gold);
+  margin-top: 0.4rem;
+}
+.ballot-polling-unavailable {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.ballot-polling-unavailable p { margin: 0 0 0.4rem; }
+.ballot-polling-sos-link {
+  color: var(--accent-gold);
+  font-size: 0.75rem;
+}
+
+/* ── Voter Resources Grid ── */
+.ballot-section-resources {
+  margin-top: 1.5rem;
+}
+.ballot-resources-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+.ballot-resource-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.25rem 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.15s, transform 0.15s;
+}
+.ballot-resource-card:hover {
+  border-color: var(--accent-gold);
+  transform: translateY(-1px);
+}
+.ballot-resource-card svg {
+  color: var(--accent-gold);
+}
+.ballot-resource-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* ── Grade Tip ── */
+.ballot-grade-tip {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+.ballot-grade-tip-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  color: var(--text-muted);
+}
+.ballot-grade-tip-desc {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+}
+.ballot-grade-tip-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.7rem;
+  color: var(--accent-gold);
+  text-decoration: none;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s;
+}
+.ballot-grade-tip-link:hover {
+  border-color: var(--accent-gold);
 }
 
 /* Cloud status */
