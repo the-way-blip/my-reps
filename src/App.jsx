@@ -6,6 +6,7 @@ import AppLayout from './components/layout/AppLayout'
 import ErrorBoundary from './components/ui/ErrorBoundary'
 import './App.css'
 
+const HomeView = React.lazy(() => import('./pages/HomeView'))
 const RepsView = React.lazy(() => import('./pages/RepsView'))
 const MyRepsView = React.lazy(() => import('./pages/MyRepsView'))
 const ElectionsView = React.lazy(() => import('./pages/ElectionsView'))
@@ -31,7 +32,8 @@ export default function App() {
         <Suspense fallback={LazyFallback}>
           <Routes>
             <Route element={<AppLayout />}>
-              <Route index element={<RepsView />} />
+              <Route index element={<HomeView />} />
+              <Route path="explore" element={<RepsView />} />
               <Route path="my-reps" element={<MyRepsView />} />
               <Route path="elections" element={<ElectionsView />} />
               <Route path="register" element={<Navigate to="/elections" replace />} />

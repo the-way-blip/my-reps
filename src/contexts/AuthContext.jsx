@@ -3,12 +3,19 @@ import { supabase } from '../lib/supabase'
 
 const AuthContext = createContext(null)
 
+const SUPABASE_NOT_CONFIGURED = 'Supabase is not configured. Authentication is unavailable.'
+
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null)
   const [session, setSession] = useState(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    if (!supabase) {
+      setLoading(false)
+      return
+    }
+
     // Get initial session
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session)
@@ -29,6 +36,7 @@ export function AuthProvider({ children }) {
   }, [])
 
   const signUp = useCallback(async (email, password, metadata = {}) => {
+    if (!supabase) throw new Error(SUPABASE_NOT_CONFIGURED)
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
@@ -44,6 +52,7 @@ export function AuthProvider({ children }) {
   }, [])
 
   const signIn = useCallback(async (email, password) => {
+    if (!supabase) throw new Error(SUPABASE_NOT_CONFIGURED)
     const { data, error } = await supabase.auth.signInWithPassword({
       email,
       password,
@@ -53,6 +62,7 @@ export function AuthProvider({ children }) {
   }, [])
 
   const signInWithGoogle = useCallback(async () => {
+    if (!supabase) throw new Error(SUPABASE_NOT_CONFIGURED)
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
@@ -64,6 +74,7 @@ export function AuthProvider({ children }) {
   }, [])
 
   const signInWithPhone = useCallback(async (phone) => {
+    if (!supabase) throw new Error(SUPABASE_NOT_CONFIGURED)
     const { data, error } = await supabase.auth.signInWithOtp({
       phone,
     })
@@ -72,6 +83,7 @@ export function AuthProvider({ children }) {
   }, [])
 
   const verifyOtp = useCallback(async (phone, token) => {
+    if (!supabase) throw new Error(SUPABASE_NOT_CONFIGURED)
     const { data, error } = await supabase.auth.verifyOtp({
       phone,
       token,
@@ -82,11 +94,13 @@ export function AuthProvider({ children }) {
   }, [])
 
   const signOut = useCallback(async () => {
+    if (!supabase) throw new Error(SUPABASE_NOT_CONFIGURED)
     const { error } = await supabase.auth.signOut()
     if (error) throw error
   }, [])
 
   const resetPassword = useCallback(async (email) => {
+    if (!supabase) throw new Error(SUPABASE_NOT_CONFIGURED)
     const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
       redirectTo: `${window.location.origin}/settings`,
     })
@@ -105,6 +119,7 @@ export function AuthProvider({ children }) {
     verifyOtp,
     signOut,
     resetPassword,
+    isSupabaseConfigured: !!supabase,
   }
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>

@@ -2,86 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import SearchBar from '../SearchBar'
 import { useApp } from '../../contexts/AppContext'
 import { useAuth } from '../../contexts/AuthContext'
-import { STATES } from '../../data/states'
 import AuthModal from '../auth/AuthModal'
-
-function StateDropdown({ selectedState, onSelectState }) {
-  const [open, setOpen] = useState(false)
-  const [filter, setFilter] = useState('')
-  const wrapRef = useRef(null)
-  const inputRef = useRef(null)
-
-  const filtered = filter
-    ? STATES.filter(s =>
-        s.name.toLowerCase().includes(filter.toLowerCase()) ||
-        s.code.toLowerCase().includes(filter.toLowerCase())
-      )
-    : STATES
-
-  useEffect(() => {
-    function onClickOutside(e) {
-      if (wrapRef.current && !wrapRef.current.contains(e.target)) setOpen(false)
-    }
-    document.addEventListener('mousedown', onClickOutside)
-    return () => document.removeEventListener('mousedown', onClickOutside)
-  }, [])
-
-  function handleSelect(state) {
-    onSelectState(state)
-    setOpen(false)
-    setFilter('')
-  }
-
-  return (
-    <div className="state-dropdown-wrap" ref={wrapRef}>
-      <button
-        className="state-dropdown"
-        onClick={() => { setOpen(o => !o); setTimeout(() => inputRef.current?.focus(), 50) }}
-        type="button"
-        aria-haspopup="listbox"
-        aria-expanded={open}
-        aria-label={selectedState?.name ? `Selected state: ${selectedState.name}. Change state` : 'Select a state'}
-      >
-        {selectedState?.name || 'Select state...'}
-        <span className="state-dropdown-arrow" aria-hidden="true">{open ? '\u25B2' : '\u25BC'}</span>
-      </button>
-      {open && (
-        <div className="state-dropdown-menu" role="dialog" aria-label="Select a state">
-          <input
-            ref={inputRef}
-            type="text"
-            className="state-dropdown-search"
-            placeholder="Search states..."
-            aria-label="Search states by name or abbreviation"
-            value={filter}
-            onChange={e => setFilter(e.target.value)}
-            onKeyDown={e => {
-              if (e.key === 'Escape') { setOpen(false); setFilter('') }
-              if (e.key === 'Enter' && filtered.length === 1) handleSelect(filtered[0])
-            }}
-          />
-          <ul className="state-dropdown-list" role="listbox" aria-label="States">
-            {filtered.map(s => (
-              <li key={s.code} role="option" aria-selected={s.code === selectedState?.code}>
-                <button
-                  className={`state-dropdown-item${s.code === selectedState?.code ? ' active' : ''}`}
-                  onClick={() => handleSelect(s)}
-                  type="button"
-                >
-                  {s.name}
-                  <span className="state-dropdown-code">{s.code}</span>
-                </button>
-              </li>
-            ))}
-            {filtered.length === 0 && (
-              <li className="state-dropdown-empty" role="option" aria-selected={false}>No states match "{filter}"</li>
-            )}
-          </ul>
-        </div>
-      )}
-    </div>
-  )
-}
 
 function useTheme() {
   const [dark, setDark] = useState(() => {
@@ -168,8 +89,8 @@ export default function Header() {
           </svg>
         </span>
         <div>
-          <h1 className="header-title">MyReps</h1>
-          <p className="header-sub">Know your government</p>
+          <h1 className="header-title">MyReps <span className="header-state-badge">Michigan</span></h1>
+          <p className="header-sub">Know your Michigan representatives</p>
         </div>
       </div>
 
@@ -184,8 +105,6 @@ export default function Header() {
         onSelectDistrict={handleSearchDistrict}
         onSetAddress={setUserAddress}
       />
-
-      <StateDropdown selectedState={selectedState} onSelectState={handleSearchState} />
 
       <button
         className="theme-toggle"

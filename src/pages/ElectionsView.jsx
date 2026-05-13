@@ -28,47 +28,113 @@ import {
   isElectionPast,
 } from '../utils/reminders'
 
-function generateIcsContent(election) {
+function parseElectionDate(election) {
   const dateStr = election.date || election.electionDay || election.dateRange
   if (!dateStr) return null
-
-  // Parse date string like "November 3, 2026" or "2026-11-03" into YYYYMMDD
   const parsed = new Date(dateStr)
   if (isNaN(parsed.getTime())) return null
+  return parsed
+}
 
+function formatIcsDate(date) {
   const pad = (n) => String(n).padStart(2, '0')
-  const startDate = `${parsed.getFullYear()}${pad(parsed.getMonth() + 1)}${pad(parsed.getDate())}`
+  return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}`
+}
+
+function generateIcsContent(election) {
+  const parsed = parseElectionDate(election)
+  if (!parsed) return null
+  const startDate = formatIcsDate(parsed)
   const nextDay = new Date(parsed)
   nextDay.setDate(nextDay.getDate() + 1)
-  const endDate = `${nextDay.getFullYear()}${pad(nextDay.getMonth() + 1)}${pad(nextDay.getDate())}`
+  const endDate = formatIcsDate(nextDay)
+
+  const desc = election.registrationDeadline
+    ? `Remember to vote!\\nRegistration deadline: ${election.registrationDeadline}\\nEarly voting: ${election.earlyVotingStart || 'Check your state'}\\n\\nFind your polling location at MyReps.`
+    : 'Remember to vote! Find your polling location at MyReps.'
 
   return [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
     'PRODID:-//MyReps//EN',
+    'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH',
     'BEGIN:VEVENT',
     `DTSTART;VALUE=DATE:${startDate}`,
     `DTEND;VALUE=DATE:${endDate}`,
     `SUMMARY:${election.name}`,
-    'DESCRIPTION:Remember to vote! Find your polling location at MyReps.',
-    'URL:https://www.vote.org/polling-place-locator/',
+    `DESCRIPTION:${desc}`,
+    'URL:https://mvic.sos.state.mi.us/Voter/Index',
+    'BEGIN:VALARM',
+    'TRIGGER:-P1D',
+    'ACTION:DISPLAY',
+    `DESCRIPTION:Tomorrow is ${election.name}! Make sure you're ready to vote.`,
+    'END:VALARM',
+    'BEGIN:VALARM',
+    'TRIGGER:-P7D',
+    `ACTION:DISPLAY`,
+    `DESCRIPTION:${election.name} is in one week. Check your polling location and ballot.`,
+    'END:VALARM',
     'END:VEVENT',
     'END:VCALENDAR',
   ].join('\r\n')
 }
 
-function downloadIcs(election) {
+function getGoogleCalendarUrl(election) {
+  const parsed = parseElectionDate(election)
+  if (!parsed) return null
+  const startDate = formatIcsDate(parsed)
+  const nextDay = new Date(parsed)
+  nextDay.setDate(nextDay.getDate() + 1)
+  const endDate = formatIcsDate(nextDay)
+  const details = election.registrationDeadline
+    ? `Registration deadline: ${election.registrationDeadline}\nEarly voting: ${election.earlyVotingStart || 'Check your state'}\n\nFind your polling location at https://mvic.sos.state.mi.us/Voter/Index`
+    : 'Find your polling location at https://mvic.sos.state.mi.us/Voter/Index'
+  const params = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: election.name,
+    dates: `${startDate}/${endDate}`,
+    details,
+    sf: 'true',
+  })
+  return `https://calendar.google.com/calendar/render?${params.toString()}`
+}
+
+function addToCalendar(election) {
+  // Detect platform for best experience
+  const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent)
+  const isAndroid = /Android/.test(navigator.userAgent)
+  const isCapacitor = !!window.Capacitor
+
+  // On native Capacitor, try the .ics approach (iOS opens in Calendar app natively)
+  // On mobile web, .ics works well on iOS, Google Calendar link on Android
+  if (isAndroid && !isCapacitor) {
+    const url = getGoogleCalendarUrl(election)
+    if (url) {
+      window.open(url, '_blank')
+      return
+    }
+  }
+
+  // Default: download .ics file (works great on iOS, macOS, Outlook, etc.)
   const icsContent = generateIcsContent(election)
   if (!icsContent) return
   const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' })
   const url = URL.createObjectURL(blob)
-  const a = document.createElement('a')
-  a.href = url
-  a.download = `${election.name.replace(/[^a-zA-Z0-9]/g, '_')}.ics`
-  document.body.appendChild(a)
-  a.click()
-  document.body.removeChild(a)
-  URL.revokeObjectURL(url)
+
+  if (isIOS || isCapacitor) {
+    // On iOS, opening the blob URL directly triggers the Calendar app
+    window.open(url)
+  } else {
+    // Desktop: download the .ics file
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `${election.name.replace(/[^a-zA-Z0-9]/g, '_')}.ics`
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+  }
+  setTimeout(() => URL.revokeObjectURL(url), 5000)
 }
 
 function CalendarIcon() {
@@ -362,13 +428,13 @@ function ElectionCard({ election, onSelect, featured }) {
             title="Add to Calendar"
             onClick={(e) => {
               e.stopPropagation()
-              downloadIcs(election)
+              addToCalendar(election)
             }}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
                 e.stopPropagation()
                 e.preventDefault()
-                downloadIcs(election)
+                addToCalendar(election)
               }
             }}
           >

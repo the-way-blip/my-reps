@@ -160,7 +160,7 @@ export const MI_ELECTIONS = [
       {
         office: 'Governor (R Primary)',
         note: 'Whitmer is term-limited. Open seat.',
-        candidates: ['Rep. John James', 'Sen. Aric Nesbitt', 'Tom Leonard', 'Mike Cox', 'Anthony Hudson'],
+        candidates: ['Rep. John James', 'Perry Johnson', 'Sen. Aric Nesbitt', 'Mike Cox', 'Evan Space'],
       },
       {
         office: 'Governor (D Primary)',
@@ -175,20 +175,20 @@ export const MI_ELECTIONS = [
       {
         office: 'U.S. Senate (R Primary)',
         note: 'Gary Peters retiring. Open seat.',
-        candidates: ['Mike Rogers (former U.S. Rep.)'],
+        candidates: ['Mike Rogers (former U.S. Rep.)', 'Bernadette Smith'],
       },
       {
         office: 'U.S. Senate (D Primary)',
-        note: 'Gary Peters retiring. Open seat.',
-        candidates: ['Rep. Haley Stevens', 'Sen. Mallory McMorrow', 'Rep. Joe Tate', 'Abdul El-Sayed'],
+        note: 'Gary Peters retiring. Open seat. Highly competitive.',
+        candidates: ['Rep. Haley Stevens', 'Sen. Mallory McMorrow', 'Abdul El-Sayed', 'Rachel Howard'],
       },
       {
-        office: 'Secretary of State',
-        note: 'Open — Jocelyn Benson running for Governor.',
+        office: 'Secretary of State (Convention-nominated)',
+        note: 'Anthony Forlini (R) vs. Garlin Gilchrist II (D) — November only.',
       },
       {
-        office: 'Attorney General',
-        note: 'Open — Dana Nessel is term-limited.',
+        office: 'Attorney General (Convention-nominated)',
+        note: 'Doug Lloyd (R) vs. Eli Savit (D) — November only.',
       },
       {
         office: 'U.S. House — all 13 districts',

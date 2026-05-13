@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useAuth } from '../../contexts/AuthContext'
-import { STATES } from '../../data/states'
 
 const VIEWS = { SIGN_IN: 'signin', SIGN_UP: 'signup', PHONE: 'phone', FORGOT: 'forgot' }
 
@@ -24,7 +23,7 @@ function PhoneIcon() {
 }
 
 export default function AuthModal({ open, onClose }) {
-  const { signIn, signUp, signInWithGoogle, signInWithPhone, verifyOtp, resetPassword } = useAuth()
+  const { signIn, signUp, signInWithGoogle, signInWithPhone, verifyOtp, resetPassword, isSupabaseConfigured } = useAuth()
   const [view, setView] = useState(VIEWS.SIGN_IN)
   const [error, setError] = useState('')
   const [success, setSuccess] = useState('')
@@ -36,7 +35,6 @@ export default function AuthModal({ open, onClose }) {
   const [password, setPassword] = useState('')
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
-  const [state, setState] = useState('')
   const [agreedTerms, setAgreedTerms] = useState(false)
 
   // Phone OTP
@@ -53,7 +51,6 @@ export default function AuthModal({ open, onClose }) {
       setPassword('')
       setName('')
       setPhone('')
-      setState('')
       setAgreedTerms(false)
       setOtpSent(false)
       setOtpCode('')
@@ -206,6 +203,12 @@ export default function AuthModal({ open, onClose }) {
           </svg>
         </button>
 
+        {!isSupabaseConfigured && (
+          <div className="auth-error" style={{ marginBottom: '1rem' }}>
+            Authentication is not available right now. Please try again later.
+          </div>
+        )}
+
         {/* Tabs — only show for sign in / sign up */}
         {(isSignIn || isSignUp) && (
           <div className="auth-tabs">
@@ -346,19 +349,6 @@ export default function AuthModal({ open, onClose }) {
                 autoComplete="new-password"
                 placeholder="At least 6 characters"
               />
-            </label>
-            <label className="auth-label">
-              State
-              <select
-                className="auth-input auth-select"
-                value={state}
-                onChange={(e) => setState(e.target.value)}
-              >
-                <option value="">Select your state (optional)</option>
-                {STATES.map((s) => (
-                  <option key={s.code} value={s.code}>{s.name}</option>
-                ))}
-              </select>
             </label>
             <label className="auth-checkbox-label">
               <input

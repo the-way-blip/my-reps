@@ -6,6 +6,7 @@ import { geocodeToDistrict } from '../services/districtService'
 import { STATE_BY_CODE } from '../data/states'
 import { MI_STATEWIDE_OFFICIALS } from '../data/michiganLocalLoader'
 import FounderQuoteBanner from '../components/ui/FounderQuoteBanner'
+import AddressAutocomplete from '../components/ui/AddressAutocomplete'
 
 const CONGRESS_PHOTO = id =>
   `https://unitedstates.github.io/images/congress/225x275/${id}.jpg`
@@ -364,13 +365,20 @@ export default function MyRepsView() {
             Enter your address to see all of your elected officials — from Congress to your state legislature.
           </p>
           <form className="myreps-address-form" onSubmit={handleSubmit}>
-            <input
-              type="text"
-              className="myreps-address-input"
-              placeholder="Enter your full address (e.g., 123 Main St, Detroit, MI 48201)"
-              aria-label="Enter your full street address"
+            <AddressAutocomplete
               value={addressInput}
-              onChange={e => { setAddressInput(e.target.value); setAddressError(null) }}
+              onChange={(val) => { setAddressInput(val); setAddressError(null) }}
+              onSelect={(suggestion) => {
+                setAddressInput(suggestion.display)
+                // Auto-submit on selection
+                setAddressError(null)
+                setTimeout(() => {
+                  const form = document.querySelector('.myreps-address-form')
+                  if (form) form.requestSubmit()
+                }, 50)
+              }}
+              placeholder="Enter your Michigan address..."
+              className="myreps-address-input"
             />
             <button type="submit" className="myreps-address-btn" disabled={submitting}>
               {submitting ? 'Looking up...' : 'Find My Reps'}

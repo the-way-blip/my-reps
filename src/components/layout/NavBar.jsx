@@ -2,9 +2,9 @@ import { NavLink } from 'react-router-dom'
 import { openOnboarding } from '../ui/Onboarding'
 
 const icons = {
-  explore: (
+  home: (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
+      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><polyline points="9 22 9 12 15 12 15 22" />
     </svg>
   ),
   reps: (
@@ -25,7 +25,7 @@ const icons = {
 }
 
 const NAV_ITEMS = [
-  { to: '/', label: 'Explore', icon: icons.explore },
+  { to: '/', label: 'Home', icon: icons.home },
   { to: '/my-reps', label: 'My Reps', icon: icons.reps },
   { to: '/elections', label: 'Elections', icon: icons.elections },
   { to: '/founding', label: 'Founding', icon: icons.founding },

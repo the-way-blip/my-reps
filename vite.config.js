@@ -9,9 +9,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'MyReps - Know Your Representatives',
-        short_name: 'MyReps',
-        description: 'Find and track your elected officials at every level of government',
+        name: 'MyReps Michigan — Know Your Representatives',
+        short_name: 'MyReps MI',
+        description: 'Your guide to Michigan representatives, elections, and ballot planning',
         theme_color: '#0b1221',
         background_color: '#0b1221',
         display: 'standalone',

@@ -21,7 +21,8 @@ function loadSavedLocation() {
 
 export function AppProvider({ children }) {
   const saved = loadSavedLocation()
-  const [selectedState, setSelectedState] = useState(saved?.state || STATE_BY_CODE['MI'])
+  // Michigan-only app — always locked to MI
+  const [selectedState, setSelectedState] = useState(STATE_BY_CODE['MI'])
   const [activeTab, setActiveTab] = useState('senate')
   const [senators, setSenators] = useState([])
   const [reps, setReps] = useState([])
@@ -161,16 +162,16 @@ export function AppProvider({ children }) {
     }
   }, [selectedState, userAddress, userDistricts, localGeo])
 
-  const selectState = useCallback((state) => {
-    setSelectedState(state)
+  // Michigan-only — state selection is locked
+  const selectState = useCallback(() => {
+    setSelectedState(STATE_BY_CODE['MI'])
     setActiveTab('senate')
   }, [])
 
   const clearState = useCallback(() => {
-    setSelectedState(null)
+    // Don't null the state — always stay on Michigan
     setHighlightDistrict(null)
     setSelectedMember(null)
-    localStorage.removeItem(STORAGE_KEY)
   }, [])
 
   const handleDistrictClick = useCallback((districtNum, rep) => {
@@ -179,13 +180,15 @@ export function AppProvider({ children }) {
     if (rep) setSelectedMember(rep)
   }, [])
 
-  const handleSearchState = useCallback((state) => {
-    setSelectedState(state)
+  // Michigan-only — ignore state changes from search
+  const handleSearchState = useCallback(() => {
+    setSelectedState(STATE_BY_CODE['MI'])
     setActiveTab('senate')
   }, [])
 
   const handleSearchMember = useCallback((state, member) => {
-    setSelectedState(state)
+    // Always stay on Michigan
+    setSelectedState(STATE_BY_CODE['MI'])
     if (member.district != null) {
       setActiveTab('house')
       setHighlightDistrict(member.district)
@@ -196,7 +199,8 @@ export function AppProvider({ children }) {
   }, [])
 
   const handleSearchDistrict = useCallback((state, districtNum, matchedAddress, geoResult) => {
-    setSelectedState(state)
+    // Always stay on Michigan
+    setSelectedState(STATE_BY_CODE['MI'])
     setActiveTab('house')
     setHighlightDistrict(districtNum)
     // Store full district info if available

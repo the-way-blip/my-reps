@@ -34,7 +34,7 @@ export default function CommunityView() {
   usePageTitle('Community Pulse', 'See how MyReps users are planning to vote')
 
   const { selectedState } = useApp()
-  const [filterState, setFilterState] = useState(selectedState || '')
+  const [filterState, setFilterState] = useState(selectedState?.code || '')
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
 
