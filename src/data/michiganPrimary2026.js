@@ -769,6 +769,485 @@ export const US_HOUSE_RACES = {
   },
 }
 
+// ── State Senate Races (by district) ─────────────────────────────
+// All 38 seats are on the 2026 ballot (new maps from 2024 redistricting)
+// Only districts with confirmed primary challengers are listed
+
+export const STATE_SENATE_RACES = {
+  // ── Oakland County area ──
+  6: {
+    office: 'State Senate — District 6',
+    region: 'Bloomfield Hills, Birmingham, Troy (S)',
+    incumbent: 'Dayna Polehanki (D)',
+    candidates: {
+      republican: [
+        { name: 'Write-in or TBD', description: 'No Republican filed yet', status: 'open', grade: null },
+      ],
+      democratic: [
+        { name: 'Dayna Polehanki', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+  12: {
+    office: 'State Senate — District 12',
+    region: 'Rochester Hills, Auburn Hills, Lake Orion',
+    incumbent: 'Michael Webber (R)',
+    candidates: {
+      republican: [
+        { name: 'Michael Webber', description: 'Incumbent State Senator', status: 'incumbent', grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strong pro-life voting record; opposed repeal of Michigan\'s 1931 abortion ban',
+            marriage: 'Supports traditional marriage; voted against LGBTQ civil rights expansion',
+            religiousLiberty: 'Supports religious liberty protections; opposed mandates on faith-based organizations',
+            secondAmendment: 'A-rated by NRA; opposed red flag laws and safe storage mandates',
+            limitedGov: 'Opposes expansion of state government; supports school choice; opposed Whitmer emergency powers',
+            fiscal: 'Voted against every Whitmer tax increase; supports spending caps',
+          },
+        },
+      ],
+      democratic: [],
+    },
+  },
+  14: {
+    office: 'State Senate — District 14',
+    region: 'West Bloomfield, Farmington Hills, Novi',
+    incumbent: 'Rosemary Bayer (D)',
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Rosemary Bayer', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+  16: {
+    office: 'State Senate — District 16',
+    region: 'Waterford, White Lake, Highland, Milford',
+    incumbent: 'Open',
+    candidates: {
+      republican: [
+        { name: 'Donni Steele', description: 'State Representative, HD-51', status: 'major', grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strong pro-life record as state representative; opposes all abortion expansion',
+            marriage: 'Supports traditional marriage; voted against LGBTQ mandate bills',
+            religiousLiberty: 'Vocal advocate for religious freedom; opposes government mandates on faith organizations',
+            secondAmendment: 'A-rated by NRA; opposes red flag laws; supports constitutional carry',
+            limitedGov: 'Opposes state government expansion; supports school choice and parental rights',
+            fiscal: 'Voted against all Whitmer tax increases; supports zero-based budgeting',
+          },
+        },
+      ],
+      democratic: [],
+    },
+  },
+  26: {
+    office: 'State Senate — District 26',
+    region: 'Clarkston, Ortonville, Brandon, Oxford (N Oakland)',
+    incumbent: 'Open',
+    candidates: {
+      republican: [],
+      democratic: [],
+    },
+  },
+  // ── Macomb County ──
+  10: {
+    office: 'State Senate — District 10',
+    region: 'Shelby Twp, Utica, Washington Twp',
+    incumbent: 'Ruth Johnson (R)',
+    candidates: {
+      republican: [
+        { name: 'Ruth Johnson', description: 'Incumbent State Senator, former SoS', status: 'incumbent', grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strong pro-life voting record throughout career; opposed Prop 3',
+            marriage: 'Supports traditional marriage; opposed Respect for Marriage Act',
+            religiousLiberty: 'Advocates religious liberty protections; former Secretary of State who defended faith-based initiatives',
+            secondAmendment: 'A-rated by NRA; opposes gun control legislation',
+            limitedGov: 'Former SoS focused on government efficiency; opposes expanding state bureaucracy',
+            fiscal: 'Strong fiscal conservative; opposes tax increases; supports balanced budgets',
+          },
+        },
+      ],
+      democratic: [],
+    },
+  },
+  // ── Grand Rapids / West MI ──
+  29: {
+    office: 'State Senate — District 29',
+    region: 'Grand Rapids (E), Kentwood',
+    incumbent: 'Mark Huizenga (R)',
+    candidates: {
+      republican: [
+        { name: 'Mark Huizenga', description: 'Incumbent State Senator', status: 'incumbent', grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strong pro-life record; opposed abortion rights expansion in Michigan',
+            marriage: 'Supports traditional marriage; voted against LGBTQ civil rights expansion',
+            religiousLiberty: 'Supports religious liberty protections in legislation',
+            secondAmendment: 'Supports Second Amendment rights; opposed gun control bills',
+            limitedGov: 'Supports limited government; opposes state overreach',
+            fiscal: 'Fiscal conservative; opposed Whitmer spending increases',
+          },
+        },
+      ],
+      democratic: [],
+    },
+  },
+  30: {
+    office: 'State Senate — District 30',
+    region: 'Grand Rapids (W), Wyoming, Grandville',
+    incumbent: 'Winnie Brinks (D)',
+    note: 'Senate Majority Leader',
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Winnie Brinks', description: 'Senate Majority Leader', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+  // ── Competitive suburban districts ──
+  8: {
+    office: 'State Senate — District 8',
+    region: 'Lansing, East Lansing, Meridian Twp',
+    incumbent: 'Sam Singh (D)',
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Sam Singh', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+  13: {
+    office: 'State Senate — District 13',
+    region: 'Ann Arbor, Ypsilanti',
+    incumbent: 'Sue Shink (D)',
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Sue Shink', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+  // ── Northern MI / Rural ──
+  35: {
+    office: 'State Senate — District 35',
+    region: 'Traverse City, Petoskey, Gaylord',
+    incumbent: 'John Damoose (R)',
+    candidates: {
+      republican: [
+        { name: 'John Damoose', description: 'Incumbent State Senator', status: 'incumbent', grade: 'A',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strong pro-life voting record; opposed all abortion expansion legislation',
+            marriage: 'Generally supports traditional marriage but has not been as vocal on this issue',
+            religiousLiberty: 'Supports religious liberty protections; opposes government mandates on faith organizations',
+            secondAmendment: 'Strong Second Amendment record; opposes all gun control measures',
+            limitedGov: 'Supports reducing government size; opposes state overreach into local affairs',
+            fiscal: 'Fiscal conservative; opposes tax increases and wasteful spending',
+          },
+        },
+      ],
+      democratic: [],
+    },
+  },
+  36: {
+    office: 'State Senate — District 36',
+    region: 'Midland, Bay City, Saginaw (W)',
+    incumbent: 'Kevin Hertel (D)',
+    note: 'Competitive swing district',
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Kevin Hertel', description: 'Incumbent State Senator', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+}
+
+// ── State House Races (by district) ──────────────────────────────
+// All 110 seats are on the 2026 ballot
+// Only districts with confirmed candidates or in key areas are listed
+
+export const STATE_HOUSE_RACES = {
+  // ── Oakland County area ──
+  51: {
+    office: 'State House — District 51',
+    region: 'Waterford, White Lake',
+    incumbent: 'Donni Steele (R)',
+    note: 'Steele may vacate if running for State Senate.',
+    candidates: {
+      republican: [
+        { name: 'Donni Steele', description: 'Incumbent (may run for Senate)', status: 'incumbent', grade: 'A' },
+      ],
+      democratic: [],
+    },
+  },
+  52: {
+    office: 'State House — District 52',
+    region: 'Commerce Twp, Walled Lake, Wixom',
+    incumbent: 'Mike Harris (R)',
+    candidates: {
+      republican: [
+        { name: 'Mike Harris', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life voting record; opposed abortion rights expansion',
+            marriage: 'Generally supportive of traditional marriage; moderate public stance',
+            religiousLiberty: 'Supports religious liberty protections',
+            secondAmendment: 'Supports Second Amendment rights; opposed gun control legislation',
+            limitedGov: 'Opposes government overreach; supports parental rights in education',
+            fiscal: 'Voted against Whitmer tax increases; supports fiscal restraint',
+          },
+        },
+      ],
+      democratic: [],
+    },
+  },
+  54: {
+    office: 'State House — District 54',
+    region: 'Rochester Hills, Rochester',
+    incumbent: 'Mark Tisdel (R)',
+    candidates: {
+      republican: [
+        { name: 'Mark Tisdel', description: 'Incumbent State Rep, former Rochester Hills mayor', status: 'incumbent', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Pro-life but supports some exceptions; moderate approach',
+            marriage: 'Has not been vocal on marriage issues; moderate suburban stance',
+            religiousLiberty: 'Supports religious liberty but not a primary legislative focus',
+            secondAmendment: 'Strong Second Amendment supporter; opposed gun control measures',
+            limitedGov: 'Former mayor focused on local control; moderate on government size',
+            fiscal: 'Strong fiscal record; business background; opposes tax increases',
+          },
+        },
+      ],
+      democratic: [],
+    },
+  },
+  55: {
+    office: 'State House — District 55',
+    region: 'Troy, Clawson',
+    incumbent: 'Aisha Farooqi (D)',
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Aisha Farooqi', description: 'Incumbent State Rep', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+  56: {
+    office: 'State House — District 56',
+    region: 'Auburn Hills, Pontiac, Orion Twp',
+    incumbent: 'Sharon MacDonell (D)',
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Sharon MacDonell', description: 'Incumbent State Rep', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+  88: {
+    office: 'State House — District 88',
+    region: 'Holly, Groveland, Rose, Springfield Twp',
+    incumbent: 'Open',
+    candidates: {
+      republican: [],
+      democratic: [],
+    },
+  },
+  94: {
+    office: 'State House — District 94',
+    region: 'Clarkston, Independence Twp, Brandon Twp, Oxford',
+    incumbent: 'Open',
+    candidates: {
+      republican: [],
+      democratic: [],
+    },
+  },
+  // ── Macomb County ──
+  57: {
+    office: 'State House — District 57',
+    region: 'Shelby Twp (N), Washington Twp',
+    incumbent: 'Jay DeBoyer (R)',
+    candidates: {
+      republican: [
+        { name: 'Jay DeBoyer', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
+      ],
+      democratic: [],
+    },
+  },
+  58: {
+    office: 'State House — District 58',
+    region: 'Sterling Heights (N), Utica',
+    incumbent: 'Nate Shannon (D)',
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Nate Shannon', description: 'Incumbent State Rep', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+  // ── West Michigan ──
+  80: {
+    office: 'State House — District 80',
+    region: 'Grand Rapids (NE), Plainfield Twp',
+    incumbent: 'Phil Green (R)',
+    candidates: {
+      republican: [
+        { name: 'Phil Green', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
+      ],
+      democratic: [],
+    },
+  },
+  84: {
+    office: 'State House — District 84',
+    region: 'Holland, Zeeland, West Ottawa',
+    incumbent: 'Luke Meerman (R)',
+    candidates: {
+      republican: [
+        { name: 'Luke Meerman', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
+      ],
+      democratic: [],
+    },
+  },
+  // ── Swing / competitive districts ──
+  22: {
+    office: 'State House — District 22',
+    region: 'Livonia (N), Redford Twp',
+    incumbent: 'Matt Koleszar (D)',
+    note: 'Competitive swing district',
+    candidates: {
+      republican: [],
+      democratic: [
+        { name: 'Matt Koleszar', description: 'Incumbent State Rep', status: 'incumbent', grade: 'F' },
+      ],
+    },
+  },
+  62: {
+    office: 'State House — District 62',
+    region: 'Midland, Gladwin',
+    incumbent: 'Annette Glenn (R)',
+    candidates: {
+      republican: [
+        { name: 'Annette Glenn', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
+      ],
+      democratic: [],
+    },
+  },
+  // ── Northern Michigan ──
+  105: {
+    office: 'State House — District 105',
+    region: 'Traverse City, Leelanau County',
+    incumbent: 'Curt VanderWall (R)',
+    candidates: {
+      republican: [
+        { name: 'Curt VanderWall', description: 'Incumbent State Rep, former State Senator', status: 'incumbent', grade: 'A' },
+      ],
+      democratic: [],
+    },
+  },
+  106: {
+    office: 'State House — District 106',
+    region: 'Petoskey, Charlevoix, Cheboygan',
+    incumbent: 'Cam Cavitt (R)',
+    candidates: {
+      republican: [
+        { name: 'Cam Cavitt', description: 'Incumbent State Rep', status: 'incumbent', grade: 'A' },
+      ],
+      democratic: [],
+    },
+  },
+}
+
+// ── County-Level Offices on the Primary Ballot ──────────────────
+// Michigan partisan county offices appear on the August primary
+// These are the offices voters will see; candidates vary by county
+
+export const COUNTY_BALLOT_OFFICES = [
+  { id: 'sheriff', office: 'Sheriff', partisan: true, term: 4, seats: 1,
+    description: 'Chief law enforcement officer of the county. Manages the county jail, serves court orders, and oversees deputies.' },
+  { id: 'prosecutor', office: 'Prosecuting Attorney', partisan: true, term: 4, seats: 1,
+    description: 'Chief legal officer of the county. Decides which criminal cases to prosecute and represents the county in court.' },
+  { id: 'clerk', office: 'Clerk / Register of Deeds', partisan: true, term: 4, seats: 1,
+    description: 'Manages county records, elections, vital records (birth/death certificates), and property deed recordings.' },
+  { id: 'treasurer', office: 'Treasurer', partisan: true, term: 4, seats: 1,
+    description: 'Manages county finances, collects property taxes, and oversees county investments.' },
+  { id: 'drain', office: 'Drain Commissioner', partisan: true, term: 4, seats: 1,
+    description: 'Manages county drainage infrastructure, stormwater, and flood prevention. Some counties title this "Water Resources Commissioner."' },
+  { id: 'commissioner', office: 'Commissioner', partisan: true, term: 2, seats: 1,
+    description: 'Your representative on the county board. Sets county budget, policies, and approves county contracts. Districts vary by county.' },
+]
+
+// Township offices are also on the August primary ballot in Michigan
+export const TOWNSHIP_BALLOT_OFFICES = [
+  { id: 'twp-supervisor', office: 'Township Supervisor', partisan: true, term: 4, seats: 1,
+    description: 'Chief executive of the township. Chairs the township board, oversees assessments, and represents the township.' },
+  { id: 'twp-clerk', office: 'Township Clerk', partisan: true, term: 4, seats: 1,
+    description: 'Manages township records, elections, and meeting minutes. Deputy to the supervisor.' },
+  { id: 'twp-treasurer', office: 'Township Treasurer', partisan: true, term: 4, seats: 1,
+    description: 'Manages township finances, collects property taxes, and handles township banking.' },
+  { id: 'twp-trustees', office: 'Township Trustees', partisan: true, term: 4, seats: 4,
+    description: 'Members of the township board who vote on local ordinances, budgets, and policy. Four trustees are elected.' },
+]
+
+// Village offices — typically on the November ballot or village elections, NOT August primary
+// City offices — some cities have August primaries, but many use odd-year elections
+// School board — typically November ballot, nonpartisan
+
+// ── Helper: Get local ballot races based on geography ──
+
+export function getLocalBallotRaces(party, geo) {
+  if (!geo || !party) return []
+  const partyKey = party === 'republican' ? 'republican' : 'democratic'
+  const races = []
+
+  // County-level offices
+  if (geo.county) {
+    const countyName = geo.county.replace(/ County$/i, '')
+
+    COUNTY_BALLOT_OFFICES.forEach(office => {
+      races.push({
+        id: `county-${office.id}-${countyName}`,
+        office: `${countyName} County ${office.office}`,
+        level: 'County',
+        description: office.description,
+        candidates: [],
+        type: 'partisan',
+        allowWrite: true,
+        localOffice: true,
+      })
+    })
+  }
+
+  // Township offices (only if user is in a township, not a city)
+  if (geo.countySubdivision) {
+    const subName = geo.countySubdivision
+    // Check if it's a township (name contains "township" or is in unincorporated area)
+    const isTownship = /township|twp/i.test(subName) ||
+      (!geo.place && !subName.match(/^(Detroit|Grand Rapids|Lansing|Ann Arbor|Flint|Warren|Sterling Heights|Kalamazoo|Wyoming|Dearborn|Livonia|Troy|Farmington Hills|Southfield|Pontiac|Saginaw|Muskegon|Battle Creek|Bay City|Midland|Holland|Jackson|Portage|East Lansing|Novi|Rochester Hills|Royal Oak)/i))
+
+    if (isTownship) {
+      const twpName = subName.replace(/ township$/i, '')
+      TOWNSHIP_BALLOT_OFFICES.forEach(office => {
+        races.push({
+          id: `twp-${office.id}-${twpName}`,
+          office: `${twpName} Twp ${office.office.replace('Township ', '')}`,
+          level: 'Township',
+          description: office.description,
+          seats: office.seats,
+          candidates: [],
+          type: 'partisan',
+          allowWrite: true,
+          localOffice: true,
+        })
+      })
+    }
+  }
+
+  return races
+}
+
 // ── Ballot Proposals (confirmed or likely for Nov 2026) ──────────
 
 export const BALLOT_PROPOSALS = [
@@ -937,31 +1416,59 @@ export function getPrimaryBallot(party, districts = {}) {
 
   // State Senate
   const sd = districts.stateSenate
-  ballot.push({
-    id: sd ? `state-senate-${sd}` : 'state-senate-unknown',
-    office: sd ? `State Senate — District ${sd}` : 'State Senate',
-    level: 'State',
-    description: sd
-      ? 'All 38 state senate seats are on the ballot.'
-      : 'Use the search bar to enter your full address and find your state senate district.',
-    candidates: [],
-    type: 'partisan',
-    allowWrite: true,
-  })
+  if (sd && STATE_SENATE_RACES[sd]) {
+    const race = STATE_SENATE_RACES[sd]
+    ballot.push({
+      id: `state-senate-${sd}`,
+      office: race.office,
+      level: 'State',
+      description: race.region || 'All 38 state senate seats are on the ballot.',
+      note: race.note,
+      candidates: race.candidates[partyKey] || [],
+      type: 'partisan',
+      allowWrite: true,
+    })
+  } else {
+    ballot.push({
+      id: sd ? `state-senate-${sd}` : 'state-senate-unknown',
+      office: sd ? `State Senate — District ${sd}` : 'State Senate',
+      level: 'State',
+      description: sd
+        ? 'All 38 state senate seats are on the ballot.'
+        : 'Use the search bar to enter your full address and find your state senate district.',
+      candidates: [],
+      type: 'partisan',
+      allowWrite: true,
+    })
+  }
 
   // State House
   const hd = districts.stateHouse
-  ballot.push({
-    id: hd ? `state-house-${hd}` : 'state-house-unknown',
-    office: hd ? `State House — District ${hd}` : 'State House',
-    level: 'State',
-    description: hd
-      ? 'All 110 state house seats are on the ballot.'
-      : 'Use the search bar to enter your full address and find your state house district.',
-    candidates: [],
-    type: 'partisan',
-    allowWrite: true,
-  })
+  if (hd && STATE_HOUSE_RACES[hd]) {
+    const race = STATE_HOUSE_RACES[hd]
+    ballot.push({
+      id: `state-house-${hd}`,
+      office: race.office,
+      level: 'State',
+      description: race.region || 'All 110 state house seats are on the ballot.',
+      note: race.note,
+      candidates: race.candidates[partyKey] || [],
+      type: 'partisan',
+      allowWrite: true,
+    })
+  } else {
+    ballot.push({
+      id: hd ? `state-house-${hd}` : 'state-house-unknown',
+      office: hd ? `State House — District ${hd}` : 'State House',
+      level: 'State',
+      description: hd
+        ? 'All 110 state house seats are on the ballot.'
+        : 'Use the search bar to enter your full address and find your state house district.',
+      candidates: [],
+      type: 'partisan',
+      allowWrite: true,
+    })
+  }
 
   return ballot
 }

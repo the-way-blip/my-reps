@@ -13,6 +13,7 @@ import {
   CONVENTION_NOMINEES,
   BALLOT_PROPOSALS,
   getPrimaryBallot,
+  getLocalBallotRaces,
   getGradeColor,
 } from '../data/michiganPrimary2026'
 import generateBallotPDF from '../utils/generateBallotPDF'
@@ -559,7 +560,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
 export default function BallotView() {
   usePageTitle('My Ballot Plan', 'Plan your ballot for the Michigan August 2026 primary')
 
-  const { selectedState, userAddress, userDistricts, setUserAddress, handleSearchDistrict } = useApp()
+  const { selectedState, userAddress, userDistricts, localGeo, setUserAddress, handleSearchDistrict } = useApp()
   const { user, syncBallot, ballotPlan, loading: profileLoading } = useProfile()
 
   const [step, setStep] = useState('address') // 'address' | 'party' | 'ballot' | 'review'
@@ -598,6 +599,12 @@ export default function BallotView() {
     if (!party) return []
     return getPrimaryBallot(party, userDistricts || {})
   }, [party, userDistricts])
+
+  // Get local ballot races (county, township) based on geography
+  const localRaces = useMemo(() => {
+    if (!party || !localGeo) return []
+    return getLocalBallotRaces(party, localGeo)
+  }, [party, localGeo])
 
   // Save
   const persist = useCallback((c, p, addr) => {
@@ -655,17 +662,18 @@ export default function BallotView() {
   }
 
   // Summary stats
+  const allRaces = useMemo(() => [...races, ...localRaces], [races, localRaces])
   const decidedCount = Object.keys(choices).filter(k => choices[k]?.name).length
-  const totalRaces = races.length
+  const totalRaces = allRaces.length
 
   // Build shareable summary
   const summaryText = useMemo(() => {
-    if (!party || races.length === 0) return ''
+    if (!party || allRaces.length === 0) return ''
     const lines = [
       `My Ballot Plan — Michigan ${party === 'republican' ? 'Republican' : 'Democratic'} Primary`,
       `August 4, 2026\n`,
     ]
-    races.forEach(race => {
+    allRaces.forEach(race => {
       const c = choices[race.id]
       if (c?.name) {
         lines.push(`${race.office}: ${c.name}`)
@@ -673,7 +681,7 @@ export default function BallotView() {
     })
     lines.push('\nCreated with MyReps — myrepsapp.com')
     return lines.join('\n')
-  }, [party, races, choices])
+  }, [party, allRaces, choices])
 
   // Countdown to primary
   const daysUntil = useMemo(() => {
@@ -806,6 +814,34 @@ export default function BallotView() {
               ))}
             </div>
           </section>
+
+          {/* Local Races (County, Township) */}
+          {localRaces.length > 0 && (
+            <section className="ballot-section ballot-section-local">
+              <h3 className="ballot-section-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18">
+                  <path d="M3 21V7l9-4 9 4v14" /><path d="M9 21V11h6v10" /><path d="M3 7h18" />
+                </svg>
+                Local &amp; County Races
+              </h3>
+              <p className="ballot-local-note">
+                These partisan local offices also appear on your August primary ballot.
+                Candidate filings vary by jurisdiction — use the write-in option to note candidates you&rsquo;ve researched.
+              </p>
+              <div className="ballot-races">
+                {localRaces.map(race => (
+                  <RaceCard
+                    key={race.id}
+                    race={race}
+                    choice={choices[race.id]}
+                    onSelect={selectCandidate}
+                    onWriteIn={writeInCandidate}
+                    onCandidateDetail={setDetailCandidate}
+                  />
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* November preview (convention nominees) */}
           <section className="ballot-section ballot-section-november">
