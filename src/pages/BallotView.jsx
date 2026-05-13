@@ -232,17 +232,23 @@ function CandidateDetailModal({ candidate, onClose }) {
             <div className="candidate-scorecard">
               {Object.entries(ISSUE_LABELS).map(([key, { label, icon }]) => {
                 const issueGrade = candidate.positions[key]
+                const justification = candidate.gradeJustifications?.[key]
                 return (
-                  <div key={key} className="candidate-scorecard-row">
-                    <span className="candidate-scorecard-icon">{icon}</span>
-                    <span className="candidate-scorecard-label">{label}</span>
-                    <span className="candidate-scorecard-grade">
-                      {issueGrade ? (
-                        <GradeBadge grade={issueGrade} size="sm" />
-                      ) : (
-                        <span className="candidate-scorecard-na">N/A</span>
-                      )}
-                    </span>
+                  <div key={key} className={`candidate-scorecard-row ${justification ? 'has-justification' : ''}`}>
+                    <div className="candidate-scorecard-row-top">
+                      <span className="candidate-scorecard-icon">{icon}</span>
+                      <span className="candidate-scorecard-label">{label}</span>
+                      <span className="candidate-scorecard-grade">
+                        {issueGrade ? (
+                          <GradeBadge grade={issueGrade} size="sm" />
+                        ) : (
+                          <span className="candidate-scorecard-na">N/A</span>
+                        )}
+                      </span>
+                    </div>
+                    {justification && (
+                      <p className="candidate-scorecard-justification">{justification}</p>
+                    )}
                   </div>
                 )
               })}
@@ -867,14 +873,7 @@ export default function BallotView() {
               title="My Ballot Plan"
               text={summaryText}
               className="ballot-share-btn"
-            >
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18">
-                <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
-                <polyline points="16 6 12 2 8 6" />
-                <line x1="12" y1="2" x2="12" y2="15" />
-              </svg>
-              Share Ballot Plan
-            </ShareButton>
+            />
             <button
               className="ballot-share-btn ballot-pdf-btn"
               onClick={() => generateBallotPDF({ party, races, choices, address })}

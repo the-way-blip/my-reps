@@ -57,6 +57,14 @@ export const STATEWIDE_RACES = [
             'A-rated by NRA, endorsed by Michigan gun rights groups',
             'Supports balanced budget amendment',
           ],
+          gradeJustifications: {
+            proLife: 'Co-sponsored Born-Alive Abortion Survivors Protection Act; voted against codifying Roe v. Wade; 100% SBA Pro-Life America scorecard',
+            marriage: 'Supports traditional marriage; has not actively introduced legislation on this issue',
+            religiousLiberty: 'Co-sponsored First Amendment Defense Act; voted to protect religious organizations from government mandates',
+            secondAmendment: 'A-rated by NRA; voted to defund ATF pistol brace rule enforcement; supports constitutional carry',
+            limitedGov: 'Supports balanced budget amendment; voted against expanding federal agencies; opposes vaccine mandates',
+            fiscal: 'Voted against omnibus spending bills; supports balanced budget amendment; opposes tax increases',
+          },
         },
         {
           name: 'Perry Johnson',
@@ -82,6 +90,13 @@ export const STATEWIDE_RACES = [
             'Opposes state income tax increases',
             'Supports Second Amendment rights',
           ],
+          gradeJustifications: {
+            proLife: 'Personally pro-life; supports exceptions for rape, incest, and life of mother — less absolute position',
+            religiousLiberty: 'Supports religious freedom but has not made it a centerpiece of his campaign',
+            secondAmendment: 'Supports Second Amendment rights but has not taken strong public stances on specific gun legislation',
+            limitedGov: 'Strong record: pledges to cut state bureaucracy by 20%; opposes regulatory overreach; supports school choice',
+            fiscal: 'Business background focused on eliminating waste; pledges no new taxes; supports spending audits',
+          },
         },
         {
           name: 'Aric Nesbitt',
@@ -109,6 +124,14 @@ export const STATEWIDE_RACES = [
             'Authored Right to Work defense legislation',
             'A+ NRA rating throughout legislative career',
           ],
+          gradeJustifications: {
+            proLife: 'Led Senate opposition to repealing Michigan\'s 1931 abortion ban; opposed Prop 3 abortion amendment; 100% Right to Life of Michigan voting record',
+            marriage: 'Voted against Respect for Marriage Act at state level; publicly supports traditional marriage definition; co-sponsored marriage protection resolutions',
+            religiousLiberty: 'Authored legislation protecting religious organizations from state mandates; opposed bills compelling speech or participation in events violating faith',
+            secondAmendment: 'A+ NRA rating; opposed red flag laws; voted against every gun control bill in the Michigan Senate; supports constitutional carry',
+            limitedGov: 'Led fight against Whitmer emergency powers; authored Right to Work defense legislation; opposes state vaccine mandates; supports school choice',
+            fiscal: 'Voted against every Whitmer tax increase; authored state spending cap proposals; supports zero-based budgeting; opposes corporate welfare',
+          },
         },
         {
           name: 'Mike Cox',
@@ -134,6 +157,14 @@ export const STATEWIDE_RACES = [
             'Strong law enforcement record as AG',
             'Supports constitutional carry',
           ],
+          gradeJustifications: {
+            proLife: 'Defended Michigan\'s abortion ban as AG; issued pro-life legal opinions; publicly pro-life throughout career',
+            marriage: 'Defended Michigan\'s constitutional marriage amendment in federal court as AG; strongly supports traditional marriage',
+            religiousLiberty: 'Issued AG opinions protecting religious expression in public life; defended faith-based organizations\' right to operate according to beliefs',
+            secondAmendment: 'Supports constitutional carry; A-rated by NRA; issued AG opinions supporting broad Second Amendment interpretation',
+            limitedGov: 'Joined multistate lawsuit against Obamacare; supports reducing state regulatory burden; opposes expansion of government agencies',
+            fiscal: 'Supports tax cuts but did not strongly oppose all spending during AG tenure; mixed record on fiscal restraint compared to legislative candidates',
+          },
         },
         {
           name: 'Evan Space',
@@ -151,6 +182,10 @@ export const STATEWIDE_RACES = [
             fiscal: null,
           },
           bio: 'Third-time gubernatorial candidate. Military veteran running on grassroots platform.',
+          gradeJustifications: {
+            secondAmendment: 'Strong Second Amendment advocate; supports constitutional carry and opposes all gun restrictions',
+            limitedGov: 'Supports reducing government overreach but limited legislative track record to verify positions',
+          },
         },
       ],
       democratic: [
@@ -178,6 +213,14 @@ export const STATEWIDE_RACES = [
             'Supports Prop 3 abortion rights amendment',
             'Expanded mail-in and early voting as SoS',
           ],
+          gradeJustifications: {
+            proLife: 'Supports unrestricted abortion access; championed Prop 3 codifying abortion rights in Michigan constitution; opposes any restrictions',
+            marriage: 'Supports same-sex marriage; backed Michigan LGBTQ civil rights expansion; opposes traditional marriage definition',
+            religiousLiberty: 'Supports anti-discrimination laws that override religious exemptions; has not actively targeted religious organizations but opposes broad religious liberty carve-outs',
+            secondAmendment: 'Supports red flag laws, universal background checks, and assault weapons restrictions; endorsed by gun control organizations',
+            limitedGov: 'Expanded SoS office powers; supports expanded government programs including universal pre-K and Medicaid expansion; opposes school choice',
+            fiscal: 'Supports increased government spending on social programs; backed Whitmer tax increases; opposes spending caps',
+          },
         },
         {
           name: 'Chris Swanson',
@@ -199,6 +242,14 @@ export const STATEWIDE_RACES = [
             fiscal: 'D',
           },
           bio: 'Genesee County Sheriff known for "walking with protesters" during 2020 George Floyd protests. Law enforcement career spanning 30+ years. Union-backed candidate.',
+          gradeJustifications: {
+            proLife: 'Has not taken strong pro-life positions; supports abortion access with some limits; no clear record on late-term restrictions',
+            marriage: 'Supports same-sex marriage; aligned with Democratic party platform on LGBTQ issues',
+            religiousLiberty: 'Has not actively opposed religious liberty; as sheriff, maintained neutral stance on faith-based issues — mixed signals',
+            secondAmendment: 'Law enforcement background gives moderate Second Amendment perspective; supports some restrictions but not outright bans; opposes constitutional carry',
+            limitedGov: 'Supports expanded government programs; backed by 12+ unions; supports increased regulation and government spending',
+            fiscal: 'Union-backed candidate supporting increased public employee benefits and government spending; opposes spending cuts to public services',
+          },
         },
         {
           name: 'Kevin Hogan',
@@ -255,6 +306,14 @@ export const STATEWIDE_RACES = [
             'A-rated by NRA during congressional tenure',
             'Endorsed by NRSC and most major Republican organizations',
           ],
+          gradeJustifications: {
+            proLife: 'Voted pro-life during House tenure but supported exceptions; not as strong as some conservatives on abortion restrictions',
+            marriage: 'Supported traditional marriage during House tenure but has not made it a campaign priority in 2026 race',
+            religiousLiberty: 'Supported religious liberty legislation in Congress but focused primarily on national security issues',
+            secondAmendment: 'A-rated by NRA; strong Second Amendment voting record in Congress; opposes assault weapons ban',
+            limitedGov: 'Supported FISA and intelligence programs which expand government surveillance — concerns from limited-government conservatives; otherwise moderate on government size',
+            fiscal: 'Mixed record: voted for some spending bills while in Congress; endorsed by establishment Republicans who are not always fiscally conservative',
+          },
         },
         {
           name: 'Bernadette Smith',
@@ -290,6 +349,14 @@ export const STATEWIDE_RACES = [
             'Supports assault weapons ban',
             'Supports codifying Roe v. Wade',
           ],
+          gradeJustifications: {
+            proLife: 'Co-sponsored Women\'s Health Protection Act codifying Roe; 100% NARAL Pro-Choice rating; opposes all abortion restrictions',
+            marriage: 'Co-sponsored Equality Act expanding LGBTQ protections; supports same-sex marriage; opposes religious exemptions on marriage',
+            religiousLiberty: 'Equality Act she co-sponsored would limit religious exemptions under RFRA; does not prioritize religious liberty protections',
+            secondAmendment: 'Supports assault weapons ban, universal background checks, red flag laws; F-rated by NRA; co-sponsored gun control legislation',
+            limitedGov: 'Voted for Inflation Reduction Act expanding government; supports expanded federal role in healthcare, education, and climate',
+            fiscal: 'Voted for trillions in new federal spending; supports higher taxes on corporations and high earners; opposes spending cuts',
+          },
         },
         {
           name: 'Mallory McMorrow',
@@ -318,6 +385,14 @@ export const STATEWIDE_RACES = [
             'Supports gun safety legislation',
             'Voted for Prop 3 abortion rights codification bills',
           ],
+          gradeJustifications: {
+            proLife: 'Voted for Prop 3 abortion rights codification; supports unrestricted abortion access; opposes any gestational limits',
+            marriage: 'Voted for Michigan LGBTQ civil rights expansion; viral floor speech defending LGBTQ rights; opposes traditional marriage definition',
+            religiousLiberty: 'Supported bills limiting religious exemptions in anti-discrimination law; does not prioritize religious liberty concerns',
+            secondAmendment: 'Supports gun safety legislation including red flag laws and expanded background checks; opposes constitutional carry',
+            limitedGov: 'Supports expanded government programs; voted for increased state spending; opposes school choice and voucher programs',
+            fiscal: 'Voted for Whitmer budget increases; supports higher taxes on corporations; opposes spending restraint measures',
+          },
         },
         {
           name: 'Abdul El-Sayed',
@@ -346,6 +421,14 @@ export const STATEWIDE_RACES = [
             'Supports Green New Deal',
             'Supports abolishing the filibuster',
           ],
+          gradeJustifications: {
+            proLife: 'Supports unrestricted abortion access; opposes all abortion restrictions including late-term; endorsed by pro-choice organizations',
+            marriage: 'Supports same-sex marriage and full LGBTQ equality; opposes traditional marriage definition; endorsed by LGBTQ advocacy groups',
+            religiousLiberty: 'Supports anti-discrimination laws without religious exemptions; would limit religious liberty carve-outs in public accommodation',
+            secondAmendment: 'Supports assault weapons ban, mandatory buybacks, and comprehensive gun control; one of the most anti-Second Amendment candidates',
+            limitedGov: 'Supports Medicare for All (single-payer), Green New Deal, and massive expansion of federal government; opposes school choice',
+            fiscal: 'Supports trillions in new spending; backs abolishing the filibuster to pass spending bills; supports wealth tax and dramatically higher taxes',
+          },
         },
         {
           name: 'Rachel Howard',
@@ -377,7 +460,21 @@ export const US_HOUSE_RACES = {
     incumbent: 'Jack Bergman (R)',
     candidates: {
       republican: [
-        { name: 'Jack Bergman', description: 'Incumbent, retired Lt. General', status: 'incumbent', grade: 'A' },
+        {
+          name: 'Jack Bergman',
+          description: 'Incumbent, retired Lt. General',
+          status: 'incumbent',
+          grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Co-sponsored Born-Alive Act and Pain-Capable Unborn Child Protection Act; 100% National Right to Life voting record',
+            marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
+            religiousLiberty: 'Co-sponsored First Amendment Defense Act; supports religious freedom protections',
+            secondAmendment: 'A-rated by NRA; opposes all gun control legislation; supports national concealed carry reciprocity',
+            limitedGov: 'Military background; supports reducing federal bureaucracy; opposes vaccine mandates and federal overreach',
+            fiscal: 'Voted against omnibus spending bills; supports balanced budget amendment; opposes new taxes',
+          },
+        },
       ],
       democratic: [],
     },
@@ -388,7 +485,21 @@ export const US_HOUSE_RACES = {
     incumbent: 'John Moolenaar (R)',
     candidates: {
       republican: [
-        { name: 'John Moolenaar', description: 'Incumbent', status: 'incumbent', grade: 'A' },
+        {
+          name: 'John Moolenaar',
+          description: 'Incumbent',
+          status: 'incumbent',
+          grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strong pro-life voting record; co-sponsored multiple pro-life bills; 100% SBA Pro-Life scorecard',
+            marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
+            religiousLiberty: 'Supports broad religious liberty protections; co-sponsored RFRA strengthening legislation',
+            secondAmendment: 'A-rated by NRA; opposes gun control measures; supports Second Amendment rights',
+            limitedGov: 'Supports reducing federal regulations; opposes expansion of federal agencies',
+            fiscal: 'Fiscal conservative voting record; supports balanced budget; opposes wasteful spending',
+          },
+        },
       ],
       democratic: [],
     },
@@ -400,7 +511,21 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [],
       democratic: [
-        { name: 'Hillary Scholten', description: 'Incumbent', status: 'incumbent', grade: 'F' },
+        {
+          name: 'Hillary Scholten',
+          description: 'Incumbent',
+          status: 'incumbent',
+          grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Supports unrestricted abortion access; voted against Born-Alive Act; 0% National Right to Life scorecard',
+            marriage: 'Supports same-sex marriage and Equality Act; opposes traditional marriage definition',
+            religiousLiberty: 'Has expressed personal faith but votes to limit religious exemptions in anti-discrimination law',
+            secondAmendment: 'Supports assault weapons ban and red flag laws; F-rated by NRA',
+            limitedGov: 'Supports expanded federal programs; voted for increased government spending and regulation',
+            fiscal: 'Voted for major spending bills; supports higher taxes and expanded government programs',
+          },
+        },
       ],
     },
   },
@@ -410,7 +535,21 @@ export const US_HOUSE_RACES = {
     incumbent: 'Bill Huizenga (R)',
     candidates: {
       republican: [
-        { name: 'Bill Huizenga', description: 'Incumbent', status: 'incumbent', grade: 'A' },
+        {
+          name: 'Bill Huizenga',
+          description: 'Incumbent',
+          status: 'incumbent',
+          grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strong pro-life record; 100% National Right to Life scorecard; co-sponsored pro-life legislation',
+            marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
+            religiousLiberty: 'Strong religious liberty record; supports RFRA protections; opposes government mandates on religious organizations',
+            secondAmendment: 'A-rated by NRA; strong Second Amendment defender; opposes all gun control legislation',
+            limitedGov: 'Supports reducing government size and regulation; Financial Services Committee member focused on deregulation',
+            fiscal: 'Fiscal conservative; opposes omnibus spending; supports balanced budget amendment',
+          },
+        },
       ],
       democratic: [],
     },
@@ -421,7 +560,21 @@ export const US_HOUSE_RACES = {
     incumbent: 'Tim Walberg (R)',
     candidates: {
       republican: [
-        { name: 'Tim Walberg', description: 'Incumbent', status: 'incumbent', grade: 'A' },
+        {
+          name: 'Tim Walberg',
+          description: 'Incumbent',
+          status: 'incumbent',
+          grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Former pastor; 100% pro-life voting record; co-sponsored Heartbeat Protection Act and Born-Alive Act',
+            marriage: 'Strongly supports traditional marriage; voted against Respect for Marriage Act; former pastor',
+            religiousLiberty: 'Strong advocate; co-sponsored First Amendment Defense Act; ordained minister',
+            secondAmendment: 'A-rated by NRA; opposes all gun control; supports constitutional carry',
+            limitedGov: 'Founding member of House Freedom Caucus; opposes federal overreach; supports school choice',
+            fiscal: 'One of the most fiscally conservative House members; opposes all spending increases; supports balanced budget',
+          },
+        },
       ],
       democratic: [],
     },
@@ -433,7 +586,21 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [],
       democratic: [
-        { name: 'Debbie Dingell', description: 'Incumbent', status: 'incumbent', grade: 'F' },
+        {
+          name: 'Debbie Dingell',
+          description: 'Incumbent',
+          status: 'incumbent',
+          grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Supports unrestricted abortion access; co-sponsored Women\'s Health Protection Act; 0% Right to Life scorecard',
+            marriage: 'Co-sponsored Equality Act; supports same-sex marriage; opposes traditional marriage definition',
+            religiousLiberty: 'Votes to limit religious exemptions in anti-discrimination law; does not prioritize religious liberty',
+            secondAmendment: 'Leading gun control advocate in Congress; supports assault weapons ban, red flag laws, universal background checks',
+            limitedGov: 'Supports expanded federal programs; backs major government expansion in healthcare and climate',
+            fiscal: 'Votes for all major spending bills; supports higher taxes; opposes spending restraint',
+          },
+        },
       ],
     },
   },
@@ -444,7 +611,21 @@ export const US_HOUSE_RACES = {
     note: 'Competitive swing district. Top Democratic target.',
     candidates: {
       republican: [
-        { name: 'Tom Barrett', description: 'Incumbent, former State Senator', status: 'incumbent', grade: 'A' },
+        {
+          name: 'Tom Barrett',
+          description: 'Incumbent, former State Senator',
+          status: 'incumbent',
+          grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: 'Strong pro-life record in both state senate and Congress; opposes all abortion except to save mother\'s life',
+            marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
+            religiousLiberty: 'Supports religious freedom protections; opposes government mandates violating religious conscience',
+            secondAmendment: 'A-rated by NRA; Army veteran; strong Second Amendment record in both state and federal office',
+            limitedGov: 'Opposes federal overreach; supports reducing regulations; Army veteran focused on limited government',
+            fiscal: 'Fiscal conservative; opposes wasteful spending; supports balanced budget amendment',
+          },
+        },
       ],
       democratic: [],
     },
@@ -457,7 +638,21 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [],
       democratic: [
-        { name: 'Kristen McDonald Rivet', description: 'Incumbent', status: 'incumbent', grade: 'F' },
+        {
+          name: 'Kristen McDonald Rivet',
+          description: 'Incumbent',
+          status: 'incumbent',
+          grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Supports abortion rights; voted for Prop 3 codification in state senate before winning House seat',
+            marriage: 'Supports same-sex marriage; voted for Michigan LGBTQ civil rights expansion as state senator',
+            religiousLiberty: 'Votes to limit religious exemptions; does not prioritize religious liberty in legislation',
+            secondAmendment: 'Supports gun control legislation including red flag laws and universal background checks',
+            limitedGov: 'Supports expanded government programs and regulation; former state senator who voted for Whitmer agenda',
+            fiscal: 'Supported Whitmer tax increases as state senator; votes for expanded spending as congresswoman',
+          },
+        },
       ],
     },
   },
@@ -467,7 +662,21 @@ export const US_HOUSE_RACES = {
     incumbent: 'Lisa McClain (R)',
     candidates: {
       republican: [
-        { name: 'Lisa McClain', description: 'Incumbent', status: 'incumbent', grade: 'A' },
+        {
+          name: 'Lisa McClain',
+          description: 'Incumbent',
+          status: 'incumbent',
+          grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          gradeJustifications: {
+            proLife: '100% pro-life voting record; co-sponsored multiple pro-life bills; endorsed by Right to Life of Michigan',
+            marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
+            religiousLiberty: 'Strong religious liberty advocate; supports RFRA protections for faith-based organizations',
+            secondAmendment: 'A-rated by NRA; opposes all gun control; supports Second Amendment rights',
+            limitedGov: 'House Republican Conference Vice Chair; supports reducing government size and overreach',
+            fiscal: 'Fiscal conservative; opposes wasteful spending and new taxes; supports balanced budget',
+          },
+        },
       ],
       democratic: [],
     },
@@ -490,7 +699,21 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [],
       democratic: [
-        { name: 'Haley Stevens', description: 'Incumbent (also running for U.S. Senate)', status: 'incumbent', grade: 'F' },
+        {
+          name: 'Haley Stevens',
+          description: 'Incumbent (also running for U.S. Senate)',
+          status: 'incumbent',
+          grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Co-sponsored Women\'s Health Protection Act; 100% NARAL scorecard; opposes all abortion restrictions',
+            marriage: 'Co-sponsored Equality Act; supports same-sex marriage',
+            religiousLiberty: 'Equality Act she co-sponsored limits religious exemptions under RFRA',
+            secondAmendment: 'Supports assault weapons ban and red flag laws; F-rated by NRA',
+            limitedGov: 'Supports expanded federal role in manufacturing, education, and climate',
+            fiscal: 'Voted for trillions in new spending; supports higher taxes on corporations',
+          },
+        },
       ],
     },
   },
@@ -501,7 +724,21 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [],
       democratic: [
-        { name: 'Rashida Tlaib', description: 'Incumbent', status: 'incumbent', grade: 'F' },
+        {
+          name: 'Rashida Tlaib',
+          description: 'Incumbent',
+          status: 'incumbent',
+          grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'F', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Supports unrestricted abortion access; co-sponsored bills removing all abortion restrictions',
+            marriage: 'Co-sponsored Equality Act; strong supporter of LGBTQ rights; opposes traditional marriage definition',
+            religiousLiberty: 'Actively opposes religious exemptions in anti-discrimination law; supports bills limiting religious liberty protections',
+            secondAmendment: 'Supports comprehensive gun bans; co-sponsored assault weapons ban; one of the most anti-gun members of Congress',
+            limitedGov: 'Democratic Socialist; supports massive government expansion including Green New Deal and Medicare for All',
+            fiscal: 'Supports trillions in new spending; backs wealth tax; one of the most fiscally liberal members of Congress',
+          },
+        },
       ],
     },
   },
@@ -512,7 +749,21 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [],
       democratic: [
-        { name: 'Shri Thanedar', description: 'Incumbent', status: 'incumbent', grade: 'F' },
+        {
+          name: 'Shri Thanedar',
+          description: 'Incumbent',
+          status: 'incumbent',
+          grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
+          gradeJustifications: {
+            proLife: 'Supports abortion rights; opposes restrictions on abortion access',
+            marriage: 'Supports same-sex marriage; backs LGBTQ rights legislation',
+            religiousLiberty: 'Has not actively targeted religious liberty but votes for bills limiting religious exemptions',
+            secondAmendment: 'Supports gun control including assault weapons ban and red flag laws',
+            limitedGov: 'Supports expanded government programs and federal involvement in housing and healthcare',
+            fiscal: 'Votes for major spending bills; supports higher taxes on wealthy; formerly a self-described Democratic Socialist',
+          },
+        },
       ],
     },
   },
