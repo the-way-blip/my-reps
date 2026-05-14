@@ -22,7 +22,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { email, name, phone, source } = req.body
+    const { email, name, phone, state, zipCode, source } = req.body
 
     if (!email) {
       return res.status(400).json({ error: 'Email is required' })
@@ -38,11 +38,15 @@ export default async function handler(req, res) {
       firstName,
       lastName,
       phone: phone || '',
+      state: state || '',
+      postalCode: zipCode || '',
       source: source || 'MyReps Michigan',
       tags: ['myreps-signup', 'michigan-voter'],
       customField: {
         signup_date: new Date().toISOString(),
         platform: 'myrepsmichigan.com',
+        state: state || '',
+        zip_code: zipCode || '',
       },
     }
 

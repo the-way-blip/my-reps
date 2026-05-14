@@ -5,19 +5,18 @@ const STORAGE_KEY = 'myreps-onboarding-complete'
 const STEPS = [
   {
     id: 'welcome',
-    title: 'Welcome to MyReps!',
-    content: 'Your guide to representatives, elections, and civic engagement. Let\'s get you set up.',
+    title: 'Build Your Ballot',
+    content: 'Walk into the voting booth prepared. We\'ll help you research every race on your ballot and build a personalized plan before election day.',
     icon: (
       <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
-        <line x1="4" y1="22" x2="4" y2="15" />
+        <path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
       </svg>
     ),
   },
   {
-    id: 'location',
-    title: 'Set Your Location',
-    content: 'Select your state to see your representatives. You can also enter your full address later to find your exact district and local officials.',
+    id: 'address',
+    title: 'Enter Your Address',
+    content: 'Type in your Michigan address to see the exact races and candidates that will be on your primary ballot — from Governor down to your local school board.',
     icon: (
       <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
@@ -26,52 +25,19 @@ const STEPS = [
     ),
   },
   {
-    id: 'features',
-    title: 'Explore Features',
-    content: null, // Custom render below
-    features: [
-      {
-        label: 'Explore',
-        desc: 'Search and browse all federal and state representatives.',
-        icon: (
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
-          </svg>
-        ),
-      },
-      {
-        label: 'My Reps',
-        desc: 'See all your elected officials in one place.',
-        icon: (
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M3 21V7l9-4 9 4v14" /><path d="M9 21V11h6v10" /><path d="M3 7h18" />
-          </svg>
-        ),
-      },
-      {
-        label: 'Elections',
-        desc: 'Upcoming elections, your ballot, and voter registration.',
-        icon: (
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
-          </svg>
-        ),
-      },
-      {
-        label: 'Founding',
-        desc: 'America\'s founding principles and constitutional values.',
-        icon: (
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" /><line x1="4" y1="22" x2="4" y2="15" />
-          </svg>
-        ),
-      },
-    ],
+    id: 'choose',
+    title: 'Pick Your Candidates',
+    content: 'Review candidates in each race, see their values alignment scores, and select who you want to vote for. Your choices are saved automatically.',
+    icon: (
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
+      </svg>
+    ),
   },
   {
     id: 'scorecard',
     title: 'Values Scorecard',
-    content: 'We score representatives on Constitutional alignment across 6 key issues. Each representative receives a letter grade from A to F based on their voting record and public positions.',
+    content: 'Each candidate is graded on Constitutional and Christian values alignment. Use these scores to make informed decisions at the ballot box.',
     icon: (
       <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
@@ -82,8 +48,8 @@ const STEPS = [
   },
   {
     id: 'ready',
-    title: 'You\'re All Set!',
-    content: 'Start exploring your representatives, check upcoming elections, and stay informed on the issues that matter.',
+    title: 'You\'re Ready to Vote!',
+    content: 'Take your completed ballot plan to the polls on election day. Sign up for an account to save your plan and get election reminders.',
     icon: (
       <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--grade-a)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />

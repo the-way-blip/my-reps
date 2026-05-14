@@ -8093,6 +8093,19 @@ button.election-card {
   font-size: 0.75rem;
   margin-top: 0.25rem;
 }
+.auth-row {
+  display: flex;
+  gap: 0.75rem;
+}
+.auth-label-half {
+  flex: 1;
+  min-width: 0;
+}
+.auth-input select,
+select.auth-input {
+  appearance: auto;
+  cursor: pointer;
+}
 .auth-success {
   background: #f0fdf4;
   border: 1px solid #bbf7d0;

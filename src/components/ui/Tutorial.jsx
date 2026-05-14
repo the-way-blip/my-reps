@@ -4,39 +4,27 @@ const STORAGE_KEY = 'myreps_tutorial_done'
 
 const STEPS = [
   {
-    target: '.search-input',
-    title: 'Find Your Representatives',
-    text: 'Type your address, city, or state to discover who represents you — and how they align with constitutional and Christian values.',
+    target: '.ballot-address-input, .address-autocomplete input, input[placeholder*="address"]',
+    title: 'Enter Your Address',
+    text: 'Type your Michigan address here to find all the races and candidates on your primary ballot.',
     position: 'bottom',
   },
   {
-    target: '.state-dropdown',
-    title: 'Select Your State',
-    text: 'Choose your state to explore federal and state legislators, view the map, and see their alignment scores.',
+    target: '.ballot-submit-btn, button[type="submit"]',
+    title: 'Find My Ballot',
+    text: 'Click this button to look up your exact ballot based on your address and voting district.',
     position: 'bottom',
   },
   {
-    target: 'nav a[href="/my-reps"]',
-    title: 'My Representatives',
-    text: 'Enter your address to see all your elected officials — from Congress to your local school board — with their values scorecard.',
+    target: 'nav a[href="/"], nav a[href="/ballot"]',
+    title: 'Build My Ballot',
+    text: 'This is your home base — build your personalized ballot plan with candidate picks for every race.',
     position: 'top',
   },
   {
-    target: 'nav a[href="/elections"]',
-    title: 'Elections & Registration',
-    text: 'View upcoming elections, your personalized ballot, polling locations, and register to vote — all in one place.',
-    position: 'top',
-  },
-  {
-    target: 'nav a[href="/founding"]',
-    title: 'Our Founding & Values',
-    text: 'Explore America\'s founding principles rooted in Christian morality, the Constitution, and how we score representatives on key issues.',
-    position: 'top',
-  },
-  {
-    target: '.theme-toggle',
-    title: 'Dark Mode',
-    text: 'Toggle between light and dark themes. Your preference is saved automatically.',
+    target: '.header-auth-btn, button:has(> svg)',
+    title: 'Create an Account',
+    text: 'Sign up to save your ballot plan, get election reminders, and sync your choices across devices.',
     position: 'bottom',
   },
 ]

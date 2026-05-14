@@ -14,7 +14,7 @@ const GHL_ENDPOINT = '/api/ghl/contact'
  * @param {{ email: string, name?: string, phone?: string }} userData
  * @returns {Promise<{ ok: boolean, crmSync?: boolean }>}
  */
-export async function syncUserToGHL({ email, name, phone }) {
+export async function syncUserToGHL({ email, name, phone, state, zipCode }) {
   try {
     const res = await fetch(GHL_ENDPOINT, {
       method: 'POST',
@@ -23,6 +23,8 @@ export async function syncUserToGHL({ email, name, phone }) {
         email,
         name: name || '',
         phone: phone || '',
+        state: state || '',
+        zipCode: zipCode || '',
         source: 'MyReps Michigan',
       }),
     })
