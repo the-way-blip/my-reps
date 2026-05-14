@@ -27,6 +27,11 @@ export default function useProfile() {
 
   // Listen for auth state changes
   useEffect(() => {
+    if (!supabase) {
+      setLoading(false)
+      return
+    }
+
     // Get initial session
     supabase.auth.getSession().then(({ data: { session } }) => {
       setUser(session?.user ?? null)
