@@ -8087,6 +8087,12 @@ button.election-card {
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
+.auth-field-error {
+  display: block;
+  color: #b91c1c;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
 .auth-success {
   background: #f0fdf4;
   border: 1px solid #bbf7d0;

@@ -6,6 +6,7 @@
     { "source": "/api/census/:path*", "destination": "/api/census/[...path]" },
     { "source": "/api/congress/:path*", "destination": "/api/congress/[...path]" },
     { "source": "/api/openstates/:path*", "destination": "/api/openstates/[...path]" },
+    { "source": "/api/ghl/contact", "destination": "/api/ghl/contact" },
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ],
   "headers": [

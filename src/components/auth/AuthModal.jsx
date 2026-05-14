@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useAuth } from '../../contexts/AuthContext'
+import { syncUserToGHL } from '../../services/ghlService'
 
 const VIEWS = { SIGN_IN: 'signin', SIGN_UP: 'signup', PHONE: 'phone', FORGOT: 'forgot' }
 
@@ -35,6 +36,7 @@ export default function AuthModal({ open, onClose }) {
   const [password, setPassword] = useState('')
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
+  const [confirmPassword, setConfirmPassword] = useState('')
   const [agreedTerms, setAgreedTerms] = useState(false)
 
   // Phone OTP
@@ -51,6 +53,7 @@ export default function AuthModal({ open, onClose }) {
       setPassword('')
       setName('')
       setPhone('')
+      setConfirmPassword('')
       setAgreedTerms(false)
       setOtpSent(false)
       setOtpCode('')
@@ -98,6 +101,14 @@ export default function AuthModal({ open, onClose }) {
   const handleSignUp = async (e) => {
     e.preventDefault()
     clearMessages()
+    if (password !== confirmPassword) {
+      setError('Passwords do not match.')
+      return
+    }
+    if (password.length < 8) {
+      setError('Password must be at least 8 characters.')
+      return
+    }
     if (!agreedTerms) {
       setError('You must agree to the terms and privacy policy.')
       return
@@ -106,6 +117,9 @@ export default function AuthModal({ open, onClose }) {
     try {
       await signUp(email, password, { name, phone })
       setSuccess('Account created! Check your email to confirm.')
+
+      // Fire-and-forget: sync new user to GHL CRM for email list
+      syncUserToGHL({ email, name, phone }).catch(() => {})
     } catch (err) {
       setError(err.message)
     } finally {
@@ -345,10 +359,26 @@ export default function AuthModal({ open, onClose }) {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
-                minLength={6}
+                minLength={8}
                 autoComplete="new-password"
-                placeholder="At least 6 characters"
+                placeholder="At least 8 characters"
               />
+            </label>
+            <label className="auth-label">
+              Confirm Password
+              <input
+                type="password"
+                className="auth-input"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+                required
+                minLength={8}
+                autoComplete="new-password"
+                placeholder="Re-enter your password"
+              />
+              {confirmPassword && password !== confirmPassword && (
+                <span className="auth-field-error">Passwords do not match</span>
+              )}
             </label>
             <label className="auth-checkbox-label">
               <input
