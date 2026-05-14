@@ -131,7 +131,8 @@ export default function ProfileView() {
     // Instead we try to read from supabase directly.
     ;(async () => {
       try {
-        const { default: supabase } = await import('../lib/supabase.js')
+        const { supabase } = await import('../lib/supabase.js')
+        if (!supabase) return
         const { data: { session: s } } = await supabase.auth.getSession()
         if (s) {
           setSession(s)
@@ -155,7 +156,8 @@ export default function ProfileView() {
     if (!authLoaded) return
     ;(async () => {
       try {
-        const { default: supabase } = await import('../lib/supabase.js')
+        const { supabase } = await import('../lib/supabase.js')
+        if (!supabase) return
         const { data: { session: s } } = await supabase.auth.getSession()
         if (s) {
           setSession(s)
@@ -298,7 +300,7 @@ export default function ProfileView() {
   /* ── Delete account ── */
   async function handleDeleteAccount() {
     try {
-      const { default: supabase } = await import('../lib/supabase.js')
+      const { supabase } = await import('../lib/supabase.js')
       // Delete profile data first
       try {
         const svc = await tryLoadProfileService()
@@ -311,7 +313,7 @@ export default function ProfileView() {
         if (key.startsWith('myreps')) localStorage.removeItem(key)
       })
       // Sign out
-      await supabase.auth.signOut()
+      if (supabase) await supabase.auth.signOut()
       setShowDeleteModal(false)
       window.location.href = '/'
     } catch (err) {
@@ -327,8 +329,8 @@ export default function ProfileView() {
       if (authMod?.signOut) {
         await authMod.signOut()
       } else {
-        const { default: supabase } = await import('../lib/supabase.js')
-        await supabase.auth.signOut()
+        const { supabase } = await import('../lib/supabase.js')
+        if (supabase) await supabase.auth.signOut()
       }
       window.location.href = '/'
     } catch {
