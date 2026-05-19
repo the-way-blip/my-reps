@@ -75,7 +75,7 @@ export default function Header() {
   return (
     <header className="app-header">
       <div className="header-brand">
-        <img src="/logo.png" alt="" className="header-logo" aria-hidden="true" />
+        <img src="/logo-white.png" alt="" className="header-logo" aria-hidden="true" />
         <div>
           <h1 className="header-title">Build My Ballot</h1>
           <p className="header-sub">Research candidates. Plan your vote.</p>
