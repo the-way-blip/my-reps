@@ -75,11 +75,7 @@ export default function Header() {
   return (
     <header className="app-header">
       <div className="header-brand">
-        <span className="header-icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="M3 21V7l9-4 9 4v14" /><path d="M9 21V11h6v10" /><path d="M3 7h18" />
-          </svg>
-        </span>
+        <img src="/logo.png" alt="" className="header-logo" aria-hidden="true" />
         <div>
           <h1 className="header-title">Build My Ballot</h1>
           <p className="header-sub">Research candidates. Plan your vote.</p>

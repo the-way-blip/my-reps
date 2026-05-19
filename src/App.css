@@ -250,6 +250,13 @@ body {
   color: var(--accent-gold);
 }
 
+.header-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
 .header-title {
   font-size: 1.3rem;
   font-weight: 700;
@@ -2053,6 +2060,7 @@ body {
 
   .header-sub { display: none; }
   .header-icon svg { width: 20px; height: 20px; }
+  .header-logo { width: 28px; height: 28px; }
   .header-title { font-size: 1.1rem; }
   .header-brand { gap: 0.5rem; }
 
