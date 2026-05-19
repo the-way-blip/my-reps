@@ -41,6 +41,7 @@ export function AuthProvider({ children }) {
       email,
       password,
       options: {
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
         data: {
           full_name: metadata.name || '',
           phone: metadata.phone || '',
@@ -66,7 +67,7 @@ export function AuthProvider({ children }) {
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: window.location.origin,
+        redirectTo: `${window.location.origin}/auth/callback`,
       },
     })
     if (error) throw error
@@ -102,7 +103,7 @@ export function AuthProvider({ children }) {
   const resetPassword = useCallback(async (email) => {
     if (!supabase) throw new Error(SUPABASE_NOT_CONFIGURED)
     const { data, error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${window.location.origin}/settings`,
+      redirectTo: `${window.location.origin}/auth/callback?type=recovery`,
     })
     if (error) throw error
     return data

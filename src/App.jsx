@@ -18,6 +18,7 @@ const SettingsView = React.lazy(() => import('./pages/SettingsView'))
 const ProfileView = React.lazy(() => import('./pages/ProfileView'))
 const PrivacyView = React.lazy(() => import('./pages/PrivacyView'))
 const TermsView = React.lazy(() => import('./pages/TermsView'))
+const AuthCallbackView = React.lazy(() => import('./pages/AuthCallbackView'))
 
 const LazyFallback = (
   <div className="loader"><div className="spinner" /></div>
@@ -46,6 +47,7 @@ export default function App() {
               <Route path="profile" element={<ProfileView />} />
               <Route path="privacy" element={<PrivacyView />} />
               <Route path="terms" element={<TermsView />} />
+              <Route path="auth/callback" element={<AuthCallbackView />} />
               <Route path="documents" element={<Navigate to="/founding" replace />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Route>

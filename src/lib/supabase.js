@@ -5,7 +5,14 @@ const supabaseAnonKey = (import.meta.env.VITE_SUPABASE_ANON_KEY || '').trim()
 
 export const supabase =
   supabaseUrl && supabaseAnonKey
-    ? createClient(supabaseUrl, supabaseAnonKey)
+    ? createClient(supabaseUrl, supabaseAnonKey, {
+        auth: {
+          autoRefreshToken: true,
+          persistSession: true,
+          detectSessionInUrl: true, // Auto-detect tokens in URL hash/query params
+          flowType: 'pkce', // Use PKCE flow for better security with email confirmations
+        },
+      })
     : null
 
 if (!supabase) {
