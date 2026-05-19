@@ -15,14 +15,14 @@ export default function TermsView() {
 
       <div className="terms-content" style={{ lineHeight: 1.7, fontSize: '0.97rem' }}>
         <p>
-          Welcome to My Reps. By accessing or using this application, you agree to be bound by
+          Welcome to Build My Ballot. By accessing or using this application, you agree to be bound by
           these Terms of Service ("Terms"). If you do not agree to these Terms, please do not
           use the app.
         </p>
 
         <h3>1. Description of Service</h3>
         <p>
-          My Reps is a civic engagement platform operated by Dillon McCurdy that helps users
+          Build My Ballot is a civic engagement platform operated by Dillon McCurdy that helps users
           identify their elected representatives, plan their ballots, track legislation, and
           engage with their community on civic matters. The service is provided on an "as is"
           and "as available" basis.
@@ -57,7 +57,7 @@ export default function TermsView() {
 
         <h3>5. Privacy</h3>
         <p>
-          Your use of My Reps is also governed by our{' '}
+          Your use of Build My Ballot is also governed by our{' '}
           <Link to="/privacy" style={{ color: 'var(--primary)' }}>
             Privacy Policy
           </Link>
@@ -66,7 +66,7 @@ export default function TermsView() {
 
         <h3>6. Intellectual Property</h3>
         <p>
-          The My Reps application, including its design, code, and original content, is the
+          The Build My Ballot application, including its design, code, and original content, is the
           property of Dillon McCurdy. You may not reproduce, distribute, or create derivative
           works from the app without prior written permission.
         </p>
@@ -81,7 +81,7 @@ export default function TermsView() {
 
         <h3>8. Limitation of Liability</h3>
         <p>
-          To the fullest extent permitted by law, Dillon McCurdy and My Reps shall not be
+          To the fullest extent permitted by law, Dillon McCurdy and Build My Ballot shall not be
           liable for any indirect, incidental, special, consequential, or punitive damages
           arising from your use of the app. Our total liability shall not exceed the amount you
           paid to use the service (if any).
@@ -114,7 +114,7 @@ export default function TermsView() {
         </p>
         <p>
           <strong>Email:</strong>{' '}
-          <a href="mailto:privacy@myrepsapp.com">privacy@myrepsapp.com</a>
+          <a href="mailto:privacy@buildmyballot.com">privacy@buildmyballot.com</a>
         </p>
 
         <div style={{ marginTop: 32, paddingTop: 16, borderTop: '1px solid var(--border)' }}>

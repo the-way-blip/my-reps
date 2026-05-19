@@ -15,9 +15,9 @@ export default function PrivacyView() {
 
       <div className="privacy-content" style={{ lineHeight: 1.7, fontSize: '0.97rem' }}>
         <p>
-          My Reps ("we," "us," or "our") is operated by Dillon McCurdy. This Privacy Policy
+          Build My Ballot ("we," "us," or "our") is operated by Dillon McCurdy. This Privacy Policy
           explains how we collect, use, store, and protect your information when you use the
-          My Reps application.
+          Build My Ballot application.
         </p>
 
         <h3>1. Information We Collect</h3>
@@ -81,7 +81,7 @@ export default function PrivacyView() {
             unless you explicitly sync.
           </li>
           <li>
-            <strong>Service Worker (PWA):</strong> As a Progressive Web App, My Reps uses a
+            <strong>Service Worker (PWA):</strong> As a Progressive Web App, Build My Ballot uses a
             service worker to cache application assets for offline use. The service worker does
             not collect or transmit personal data.
           </li>
@@ -150,7 +150,7 @@ export default function PrivacyView() {
 
         <h3>7. Children's Privacy</h3>
         <p>
-          My Reps is not intended for use by children under the age of 13. We do not knowingly
+          Build My Ballot is not intended for use by children under the age of 13. We do not knowingly
           collect personal information from children under 13. If you believe a child has
           provided us with personal data, please contact us and we will promptly delete it.
         </p>
@@ -169,7 +169,7 @@ export default function PrivacyView() {
         </p>
         <p>
           <strong>Email:</strong>{' '}
-          <a href="mailto:privacy@myrepsapp.com">privacy@myrepsapp.com</a>
+          <a href="mailto:privacy@buildmyballot.com">privacy@buildmyballot.com</a>
         </p>
 
         <div style={{ marginTop: 32, paddingTop: 16, borderTop: '1px solid var(--border)' }}>

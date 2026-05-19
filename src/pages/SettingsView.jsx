@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import usePageTitle from '../hooks/usePageTitle'
 import { useApp } from '../contexts/AppContext'
 import { STATES } from '../data/states'
@@ -295,26 +296,25 @@ export default function SettingsView() {
         </h3>
         <div className="settings-card settings-about">
           <div className="settings-about-header">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 21V7l9-4 9 4v14"/><path d="M9 21V11h6v10"/><path d="M3 7h18"/></svg>
+            <img src="/logo.png" alt="Build My Ballot" className="settings-logo" />
             <div>
-              <strong className="settings-app-name">MyReps</strong>
+              <strong className="settings-app-name">Build My Ballot</strong>
               <span className="settings-version">v1.0.0</span>
             </div>
           </div>
           <p className="settings-about-desc">
-            Your guide to federal, state, and local representatives. Track elections, plan your ballot, and stay informed about civic life.
+            Research candidates. Plan your vote. Walk into the voting booth prepared with a personalized ballot plan for every race on election day.
           </p>
           <div className="settings-about-links">
-            <a
-              href="https://github.com/myreps/myreps"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="settings-btn-text"
-            >
-              View on GitHub
-            </a>
+            <Link to="/privacy" className="settings-link-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              Privacy Policy
+            </Link>
+            <Link to="/terms" className="settings-link-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              Terms of Service
+            </Link>
           </div>
-          <p className="settings-muted settings-built-with">Built with React + Vite</p>
         </div>
       </section>
 

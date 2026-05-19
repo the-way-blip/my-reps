@@ -8527,6 +8527,13 @@ button.election-card {
   margin-bottom: 0.75rem;
 }
 
+.settings-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
 .settings-app-name {
   font-size: 1.1rem;
   font-family: var(--font-heading);
@@ -8543,15 +8550,38 @@ button.election-card {
 .settings-about-desc {
   font-size: 0.9rem;
   color: var(--text-muted);
-  margin: 0 0 0.75rem;
+  margin: 0 0 1rem;
   line-height: 1.5;
 }
 
-.settings-about-links { margin-bottom: 0.75rem; }
+.settings-about-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 
-.settings-built-with {
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
+.settings-link-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.settings-link-item:hover {
+  background: var(--hover);
+  border-color: var(--accent);
+}
+
+.settings-link-item svg {
+  color: var(--accent);
+  flex-shrink: 0;
 }
 
 /* ── FAQ accordion ── */
