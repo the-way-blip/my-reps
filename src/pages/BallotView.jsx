@@ -1443,7 +1443,7 @@ export default function BallotView() {
               Our grades are based on public records. If you have documented information about a candidate's positions, help us improve our data.
             </p>
             <a
-              href="mailto:dillon@branddesignco.com?subject=MyReps Grade Tip&body=Candidate name:%0AOffice/District:%0AInformation:%0ASource/Link:"
+              href="mailto:dillon@branddesignco.com?subject=Build My Ballot Grade Tip&body=Candidate name:%0AOffice/District:%0AInformation:%0ASource/Link:"
               className="ballot-grade-tip-link"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">

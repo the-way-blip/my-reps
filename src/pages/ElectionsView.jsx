@@ -1262,7 +1262,7 @@ export default function ElectionsView() {
               <div className="page-share">
                 <ShareButton
                   title={`Elections in ${selectedState.name}`}
-                  text={`Check out election information for ${selectedState.name} on MyReps`}
+                  text={`Check out election information for ${selectedState.name} on Build My Ballot`}
                 />
               </div>
             )}

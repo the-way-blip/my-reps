@@ -332,7 +332,7 @@ export default function SearchBar({ allMembers, stateSenators, stateReps, civicR
       return
     }
 
-    // Set address immediately for Google Civic lookup (My Reps tab)
+    // Set address immediately for Google Civic lookup (My Representatives tab)
     if (onSetAddress) onSetAddress(query.trim())
     setOpen(false)
     setQuery('')

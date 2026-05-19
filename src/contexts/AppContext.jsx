@@ -94,7 +94,7 @@ export function AppProvider({ children }) {
       .finally(() => setStateLoading(false))
   }, [selectedState])
 
-  // Build "My Reps" from existing data sources (Congress + OpenStates)
+  // Build "My Representatives" list from existing data sources (Congress + OpenStates)
   // Google Civic representatives endpoint was removed by Google
   useEffect(() => {
     if (!userAddress || !selectedState) {
@@ -223,7 +223,7 @@ export function AppProvider({ children }) {
 
   const handleSetAddress = useCallback((address) => {
     setUserAddress(address)
-    // Auto-switch to "My Reps" tab when an address is entered
+    // Auto-switch to "My Representatives" tab when an address is entered
     if (address) setRepLevel('local')
   }, [])
 

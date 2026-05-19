@@ -25,7 +25,7 @@ export async function syncUserToGHL({ email, name, phone, state, zipCode }) {
         phone: phone || '',
         state: state || '',
         zipCode: zipCode || '',
-        source: 'MyReps Michigan',
+        source: 'Build My Ballot',
       }),
     })
 

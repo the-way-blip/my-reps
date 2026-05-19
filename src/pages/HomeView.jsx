@@ -298,7 +298,7 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
 
 // ── Main HomeView ──
 export default function HomeView() {
-  usePageTitle('MyReps Michigan', 'Your Michigan voter hub — reps, ballot, polling place, and registration')
+  usePageTitle('Build My Ballot — Michigan', 'Your Michigan voter hub — reps, ballot, polling place, and registration')
 
   const navigate = useNavigate()
   const {

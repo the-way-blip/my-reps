@@ -381,7 +381,7 @@ export default function MyRepsView() {
               className="myreps-address-input"
             />
             <button type="submit" className="myreps-address-btn" disabled={submitting}>
-              {submitting ? 'Looking up...' : 'Find My Reps'}
+              {submitting ? 'Looking up...' : 'Find My Representatives'}
             </button>
           </form>
           {addressError && (

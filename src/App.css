@@ -2789,7 +2789,7 @@ button.election-card {
   padding: 1.25rem;
 }
 
-/* ── My Reps (address-based) page ── */
+/* ── My Representatives (address-based) page ── */
 .myreps-page {
   max-width: 900px;
   margin: 0 auto;
@@ -3717,7 +3717,7 @@ button.election-card {
   }
 }
 
-/* ── My Reps (address-based) ── */
+/* ── My Representatives (address-based) ── */
 .my-reps-view {
   display: flex;
   flex-direction: column;

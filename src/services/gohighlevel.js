@@ -35,8 +35,8 @@
  *    phone:   string   – phone number
  *    state:   string   – US state
  *    address: string   – street / full address
- *    source:  string   – always "MyReps App"
- *    tags:    string[] – ["MyReps User", <state name>]
+ *    source:  string   – always "Build My Ballot App"
+ *    tags:    string[] – ["Build My Ballot User", <state name>]
  *  }
  *
  * ─── Notes ────────────────────────────────────────────────────────────
@@ -112,7 +112,7 @@ export async function createOrUpdateContact(userData = {}) {
     return false;
   }
 
-  const tags = ["MyReps User"];
+  const tags = ["Build My Ballot User"];
   if (state) {
     tags.push(state);
   }
@@ -123,7 +123,7 @@ export async function createOrUpdateContact(userData = {}) {
     phone: phone || "",
     state: state || "",
     address: address || "",
-    source: "MyReps App",
+    source: "Build My Ballot App",
     tags,
   };
 
