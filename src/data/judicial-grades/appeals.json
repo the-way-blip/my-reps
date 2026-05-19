@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Andrew J. Lievense",
+    "district": "1st District",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Appointed by Gov. Whitmer (D) in March 2026; former Assistant U.S. Attorney and litigation associate at Honigman LLP; clerked for U.S. District Judge Avern Cohn; U of M Law grad; WLAM 'Outstanding' rating",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific rulings or public statements found on abortion; Whitmer (D) appointment is a progressive signal but career as federal prosecutor is a neutral indicator",
+      "marriage": "No rulings or public statements on marriage or LGBTQ issues found; insufficient data to determine position",
+      "religiousLiberty": "No rulings or public statements on religious liberty found; career background does not provide strong signals either direction",
+      "secondAmendment": "No specific rulings on gun rights; federal prosecutor background could signal law-and-order orientation but no clear 2A advocacy",
+      "limitedGov": "Very recently appointed (March 2026) with no appellate judicial record to evaluate; Whitmer appointee suggests moderate-to-progressive judicial philosophy but no direct evidence of judicial activism",
+      "fiscal": "No rulings on property rights, taxation, or regulation found; corporate litigation background at Honigman could signal moderate views"
+    }
+  },
+  {
+    "name": "Mariam Saad Bazzi",
+    "district": "1st District",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Originally appointed to Wayne County Circuit Court by Gov. Snyder (R) in 2017; elevated to Court of Appeals by Gov. Whitmer (D) in 2025; first Arab and Muslim American appellate judge in Michigan; former assistant prosecuting attorney; Dearborn Board of Education president",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific rulings or public statements on abortion found; bipartisan appointment history (Snyder then Whitmer) makes position unclear; Muslim faith background could signal socially conservative personal views",
+      "marriage": "No specific rulings on marriage or LGBTQ issues found; Dearborn community context and faith background could suggest traditional values but no direct evidence",
+      "religiousLiberty": "No specific rulings on religious liberty found; as a Muslim American judge, may have personal interest in religious freedom but no judicial record to evaluate",
+      "secondAmendment": "No rulings or public statements on gun rights found; prosecutorial background is ambiguous signal",
+      "limitedGov": "Bipartisan appointment history (Snyder R, then Whitmer D) suggests genuine moderate; no strong signals of judicial activism or originalist philosophy",
+      "fiscal": "Prosecutorial background in deed and mortgage fraud suggests law enforcement orientation; no specific rulings on taxation or regulation found"
+    }
+  },
+  {
+    "name": "Anica Letica",
+    "district": "1st District",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2018; career prosecutor and appellate attorney in AG's office Criminal Division; supervised criminal appeals for 56 county prosecutors; Oakland County Prosecutor's Office veteran; elected 2020",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific rulings or public statements on abortion found; Snyder (R) appointee is a moderate conservative signal but Snyder was not strongly pro-life",
+      "marriage": "No rulings or statements on marriage or LGBTQ issues found; insufficient data to determine position",
+      "religiousLiberty": "No specific rulings on religious liberty found; joined with Boonstra and Cameron (both Snyder appointees) in pipeline tunnel ruling showing deference to legislative action",
+      "secondAmendment": "Extensive career as criminal prosecutor suggests law-and-order orientation that generally aligns with conservative views on criminal justice; Snyder (R) appointment is supportive signal",
+      "limitedGov": "Joined majority in 2020 ruling upholding constitutionality of Enbridge pipeline tunnel legislation, showing deference to legislative authority; Snyder (R) appointee with prosecutorial background suggests judicial restraint",
+      "fiscal": "Ruled with conservative panel upholding pipeline tunnel deal as constitutional, showing deference to business-friendly legislation; prosecutorial career suggests law-and-order judicial philosophy"
+    }
+  },
+  {
+    "name": "Christopher M. Murray",
+    "district": "1st District",
+    "incumbent": true,
+    "grade": "A",
+    "description": "Appointed by Gov. Engler (R) in 2002; Hillsdale College graduate; co-founded Federalist Society chapter at U of D Law; former deputy legal counsel to Gov. Engler; Board of Advisors for Michigan Lawyers Division of Federalist Society; former Chief Judge of Court of Appeals (2018-2021)",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "A",
+      "secondAmendment": "B",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific abortion rulings identified, but Hillsdale College education, Federalist Society leadership, and Engler (R) appointment strongly signal conservative alignment on social issues",
+      "marriage": "No specific marriage or LGBTQ rulings found, but Hillsdale College background and deep Federalist Society ties strongly suggest traditional values alignment",
+      "religiousLiberty": "Hillsdale College is known for its strong religious liberty advocacy; Federalist Society membership and board advisory role signal strong support for religious freedom; Engler administration background aligns with religious liberty protections",
+      "secondAmendment": "No specific 2A rulings identified, but Federalist Society involvement and strong conservative credentials suggest pro-Second Amendment judicial philosophy",
+      "limitedGov": "Co-founded Federalist Society chapter at U of D Law; serves on Board of Advisors for Michigan Lawyers Division of Federalist Society; Hillsdale College education emphasizes originalism and limited government; strong originalist/textualist judicial philosophy",
+      "fiscal": "Served as deputy legal counsel to Gov. Engler, who pursued pro-business, limited government policies; Federalist Society affiliation strongly signals support for property rights and skepticism of overregulation; longest-serving conservative on the Court of Appeals"
+    }
+  },
+  {
+    "name": "Sima G. Patel",
+    "district": "2nd District",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in 2022; former senior appellate attorney at Fieger Law representing plaintiffs in personal injury and civil rights cases; endorsed by Michigan AFL-CIO, Michigan Association for Justice, Michigan Education Association PAC, and Michigan League of Conservation Voters",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee with endorsements from progressive organizations (AFL-CIO, MEA); no specific abortion rulings found but overall profile strongly signals progressive alignment",
+      "marriage": "No specific rulings found, but endorsement portfolio from progressive organizations (AFL-CIO, MEA PAC) and Whitmer appointment signal progressive alignment on social issues",
+      "religiousLiberty": "No specific rulings or statements on religious liberty found; insufficient direct evidence to grade lower than C despite progressive appointment signals",
+      "secondAmendment": "Endorsed by Michigan AFL-CIO and other progressive organizations that generally support gun control; Whitmer appointee and plaintiffs' attorney background signal progressive alignment",
+      "limitedGov": "Career as plaintiffs' personal injury attorney at Fieger Law (known for aggressive litigation against corporations and government) signals support for expansive judicial remedies; Whitmer (D) appointment suggests progressive judicial philosophy",
+      "fiscal": "Career dedicated to plaintiffs' personal injury and civil rights litigation against businesses and insurers at Fieger Law; endorsed by trial lawyers association (MAJ); this background strongly signals support for expanded liability, larger damages, and pro-plaintiff judicial philosophy that opposes conservative fiscal/business interests"
+    }
+  },
+  {
+    "name": "Christopher M. Trebilcock",
+    "district": "2nd District",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in April 2025; served as legal counsel for Whitmer's gubernatorial campaign and transition team; former senior principal at Clark Hill PLC in employment and labor law; first Court of Appeals judge born and raised in Michigan's Upper Peninsula",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Served as personal legal counsel to Gov. Whitmer, who is strongly pro-choice; this close political relationship strongly signals alignment with Whitmer's progressive positions on reproductive rights",
+      "marriage": "Close political relationship with Whitmer administration (legal counsel for campaign and transition) signals progressive alignment; no specific rulings or statements found but appointment context is clear",
+      "religiousLiberty": "No specific rulings or statements on religious liberty; labor law background does not provide strong signal either direction",
+      "secondAmendment": "No specific rulings or statements on gun rights found; insufficient direct evidence to determine position",
+      "limitedGov": "Served as legal counsel for Whitmer's campaign committee and transition operation; labor law background at Clark Hill PLC generally aligns with employee/union-side interests; appointment directly tied to political relationship with Democratic governor",
+      "fiscal": "Employment litigation and labor law background suggests alignment with employee and union interests rather than employer/business interests; close political ties to Whitmer administration signal progressive approach to regulation and business law"
+    }
+  },
+  {
+    "name": "Mark T. Boonstra",
+    "district": "3rd District",
+    "incumbent": true,
+    "grade": "A",
+    "description": "Appointed by Gov. Snyder (R) in 2012; Federalist Society member; received Trump endorsement for 2024 Supreme Court race; Western Michigan Christian High School graduate; openly opposes abortion; argued against strict church-state separation; penned strong dissent against Whitmer COVID lockdowns; refused to use preferred pronouns citing opposition to 'wokeness'; speaker at Michigan Christian Homeschool Network conferences",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Publicly stated he opposes abortion and suggested 'creative lawyering' to work around Michigan's constitutional amendment protecting abortion access; endorsed by Trump who cited his conservative values; clear and strong pro-life position",
+      "marriage": "Refused to use preferred pronouns in People v. Gobrick, writing he would not conform to the 'wokeness of the day'; drew rebuke from 19 LGBTQ+ organizations; strong traditional values signal on gender/marriage issues",
+      "religiousLiberty": "Argued against strict separation of church and state, stating 'our rights come from God' and criticized 'secularists' who have 'banished God'; speaks at Michigan Christian Homeschool Network (INCH) conferences on topics like 'Today's Godless America...What Would Our Founding Fathers Think?'; Christian school graduate; strong pro-religious liberty record",
+      "secondAmendment": "Trump endorsement specifically cited protecting 'our always under siege Second Amendment'; Federalist Society member; overall strong conservative profile signals pro-2A alignment",
+      "limitedGov": "Wrote 13-page polemic against Whitmer COVID lockdown orders calling them totalitarian; Federalist Society member; described himself as 'a consistent and reliable judicial conservative'; endorsed by four former Michigan Supreme Court chief justices; originalist judicial philosophy",
+      "fiscal": "27 years as senior principal at Miller Canfield (major corporate law firm); ruled to uphold Enbridge pipeline tunnel deal as constitutional; corporate law background and conservative judicial philosophy signal strong pro-business, pro-property rights orientation"
+    }
+  },
+  {
+    "name": "Daniel S. Korobkin",
+    "district": "3rd District",
+    "incumbent": true,
+    "grade": "F",
+    "description": "Appointed by Gov. Whitmer (D) in April 2025; served 16+ years as ACLU of Michigan legal director; Yale Law School graduate; led ACLU litigation on LGBTQ+ rights, juvenile justice reform, free speech, prisoners' rights, and police misconduct; previously worked at NAACP Legal Defense Fund and DOJ Civil Rights Division",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "As ACLU legal director, led organization that actively litigates to protect and expand abortion access; ACLU is one of the most prominent pro-choice legal organizations in the country; Whitmer (D) appointee",
+      "marriage": "Led ACLU litigation on LGBTQ+ rights; was on legal team representing Aimee Stephens in landmark Supreme Court transgender employment discrimination case (Bostock v. Clayton County); career devoted to advancing progressive positions on marriage and gender identity",
+      "religiousLiberty": "As ACLU legal director, led organization that frequently litigates against religious exemptions and for strict church-state separation; the ACLU challenged religious refusals and religious exemptions from anti-discrimination laws; directly opposes conservative religious liberty framework",
+      "secondAmendment": "ACLU generally supports gun control measures; as legal director of ACLU Michigan, was part of an organization that has advocated for firearms restrictions; no personal pro-2A advocacy found",
+      "limitedGov": "Entire career devoted to expanding government power to enforce civil rights and limiting government power in criminal justice/policing; ACLU legal philosophy is antithetical to originalism/textualism; career at NAACP Legal Defense Fund and DOJ Civil Rights Division; represents progressive judicial activism from conservative perspective",
+      "fiscal": "Career fighting to expand government regulatory authority through ACLU litigation; successfully litigated to expand special education services, prisoners' rights, and government accountability; legal philosophy supports expanded government programs and regulatory authority"
+    }
+  },
+  {
+    "name": "Michael J. Kelly",
+    "district": "4th District",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected (not appointed) in 2008; 20 years as trial lawyer in private practice before joining bench; ruled that Whitmer's COVID stay-at-home orders were constitutional in 2020; re-elected in 2014 and 2020; University of Michigan-Flint graduate",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific rulings or public statements on abortion found; elected rather than appointed so no gubernatorial signal; insufficient data to determine position",
+      "marriage": "No specific rulings or public statements on marriage or LGBTQ issues found; insufficient data to determine position",
+      "religiousLiberty": "No specific rulings or public statements on religious liberty found; insufficient data to determine position",
+      "secondAmendment": "No specific rulings on gun rights found; private practice trial lawyer background does not provide clear signal",
+      "limitedGov": "Ruled in May 2020 that Whitmer's COVID stay-at-home orders were constitutional, upholding broad executive emergency powers - a ruling that contrasts sharply with conservative judges who opposed the lockdowns; this is the strongest signal available on his judicial philosophy regarding government power",
+      "fiscal": "No specific rulings on taxation, property rights, or business regulation found beyond the COVID order ruling; trial lawyer background is a neutral signal"
+    }
+  },
+  {
+    "name": "Allie Greenleaf Maldonado",
+    "district": "4th District",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in December 2022; first tribal citizen on Michigan Court of Appeals; former chief judge of Little Traverse Bay Bands of Odawa Indians Trial Court; nationally recognized expert on Indian Child Welfare Act; drafted Michigan Indian Family Preservation Act; University of Michigan Law School graduate",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific rulings or public statements on abortion found; Whitmer (D) appointment is a progressive signal but tribal law background does not directly address this issue",
+      "marriage": "No specific rulings or public statements on marriage or LGBTQ issues found; insufficient direct evidence to determine position",
+      "religiousLiberty": "No specific rulings on religious liberty found; tribal sovereignty expertise could cut either way on church-state issues",
+      "secondAmendment": "No specific rulings or statements on gun rights found; tribal law background does not provide clear signal on 2A issues",
+      "limitedGov": "Whitmer (D) appointee; career focused on expanding tribal sovereignty and government authority in child welfare (ICWA/MIFPA); drafted Michigan Indian Family Preservation Act which expands government regulatory framework; legal philosophy appears to favor expanded government protective authority",
+      "fiscal": "Background in tribal governance and child welfare law suggests comfort with government regulatory authority; expertise in ICWA/MIFPA involves expanding state and federal regulatory frameworks; Whitmer appointment signals progressive approach to regulation"
+    }
+  },
+  {
+    "name": "Michelle M. Rick",
+    "district": "4th District",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Elected to Court of Appeals in 2020; previously appointed to 29th Circuit Court by Gov. Granholm (D) in 2007; served as deputy legal counsel to Gov. Granholm; former senior assistant attorney general; created problem-solving courts including women's drug treatment court and traveling expungement clinics; University of Detroit Mercy School of Law graduate",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Served as deputy legal counsel to Gov. Granholm (D), who was pro-choice; original judicial appointment from Granholm strongly signals progressive alignment on reproductive rights",
+      "marriage": "Granholm (D) appointee and member of National Association of Women Judges; progressive appointment history signals progressive alignment on marriage and gender issues",
+      "religiousLiberty": "No specific rulings or statements on religious liberty found; insufficient direct evidence to determine position beyond appointment signals",
+      "secondAmendment": "No specific rulings on gun rights found; prosecutorial background could signal law-and-order orientation but Granholm appointment context is ambiguous",
+      "limitedGov": "Created multiple problem-solving courts (women's drug treatment court, high-risk felony court) and traveling expungement clinics - initiatives that expand the judicial role beyond traditional adjudication; deputy legal counsel to Granholm signals progressive judicial philosophy favoring active government",
+      "fiscal": "Created 'Project Access' traveling expungement clinics and problem-solving courts that expand government services; career in public service under Democratic administration suggests comfort with expanded government role; progressive approach to criminal justice reform"
+    }
+  }
+]

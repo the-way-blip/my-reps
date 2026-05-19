@@ -1,0 +1,2629 @@
+[
+  {
+    "district": 1,
+    "name": "Valerie Whittaker",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate who ran against incumbent Tyrone Carter in the 2024 general election and lost. Previously ran for the same HD-1 seat. No detailed policy positions or background information publicly available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found on her position regarding abortion or pro-life issues.",
+      "marriage": "No information found on her position regarding marriage.",
+      "religiousLiberty": "No information found on her position regarding religious liberty.",
+      "secondAmendment": "No information found on her position regarding the Second Amendment.",
+      "limitedGov": "No information found on her position regarding the size and scope of government.",
+      "fiscal": "No information found on her fiscal policy positions."
+    }
+  },
+  {
+    "district": 1,
+    "name": "Tyrone Carter",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative serving his fourth term in HD-1, which covers a portion of Detroit, Ecorse, and River Rouge. Former law enforcement officer born May 24, 1962. Served on Criminal Justice, Judiciary, Military/Veterans, and Regulatory Reform committees (chair). Part of the Democratic majority that passed the Reproductive Health Act and gun violence prevention measures. Now running for this seat while also exploring Detroit City Council.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted with Democratic majority to pass the Reproductive Health Act, which codified abortion rights and repealed Michigan's 1931 abortion ban.",
+      "marriage": "Aligned with Democratic caucus that supports LGBTQ+ rights and marriage redefinition in Michigan.",
+      "religiousLiberty": "Voted with Democratic majority on Elliott-Larsen Civil Rights Act expansion; no record of championing religious exemptions.",
+      "secondAmendment": "Supported and voted for gun violence prevention measures including red flag laws, universal background checks, and secure storage requirements.",
+      "limitedGov": "Supports expanded government programs including Medicaid expansion, increased state spending, and new regulatory frameworks.",
+      "fiscal": "Voted for significant increases in state spending including record education budgets and expanded social programs."
+    }
+  },
+  {
+    "district": 1,
+    "name": "Teddy Dorsette III",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Award-winning filmmaker and Detroit-based social entrepreneur and disability advocate with over 20 years of public service. Multigenerational Deaf leader who champions disability justice, anti-ableism, and inclusion. Degree in Screen Arts and Cultures from the University of Michigan. Co-founded several minority and disability-owned businesses. Founded non-profit Reel Def Entertainment. Previously ran unsuccessfully as a write-in at-large candidate for Detroit City Council.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as a progressive Democrat in a deep-blue Detroit district; aligned with party platform supporting abortion rights.",
+      "marriage": "Advocacy for LGBTQ+ and disability justice communities indicates strong support for same-sex marriage.",
+      "religiousLiberty": "No specific position found; progressive alignment suggests limited support for broad religious exemptions.",
+      "secondAmendment": "No specific position found; running in a Democratic primary in Detroit where gun control is standard platform.",
+      "limitedGov": "Advocacy work centered on expanding government programs and services for disabled communities.",
+      "fiscal": "Platform focuses on expanded social services and government programs for underserved communities."
+    }
+  },
+  {
+    "district": 1,
+    "name": "Jermaine Tobey",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Born in Detroit. Associate degree from Wayne County Community College (2016). Professional experience as a gig worker and independent contractor. Previously ran for Michigan House District 1 in 2022, losing in the Democratic primary to Tyrone Carter. Passionate about reducing gun violence and improving public education.",
+    "positions": {
+      "proLife": "F",
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as a Democrat in Detroit; aligned with pro-choice party platform.",
+      "marriage": "No specific information found on his position regarding marriage.",
+      "religiousLiberty": "No specific information found on his position regarding religious liberty.",
+      "secondAmendment": "Explicitly passionate about reducing gun violence; supports gun safety measures at the state level, citing lives lost in Detroit due to gun proliferation.",
+      "limitedGov": "Advocates for expanded government role in public education and gun regulation.",
+      "fiscal": "Supports increased funding for public education; no detailed fiscal policy positions available."
+    }
+  },
+  {
+    "district": 2,
+    "name": "Ron Kokinda",
+    "party": "republican",
+    "grade": "B",
+    "description": "Born in Troy, New York. Bachelor's degree from SUNY Stony Brook (1971). Small business owner and business consultant. Ran for HD-2 in 2024 and lost the general election. Running again in 2026. Listed on Freedom Voter Guide as a conservative candidate.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Listed on Freedom Voter Guide as a conservative; specific pro-life positions not detailed but Republican platform alignment.",
+      "marriage": "No specific statement found but aligned with conservative Republican platform.",
+      "religiousLiberty": "No specific statement found but aligned with conservative Republican platform.",
+      "secondAmendment": "No specific statement found but aligned with conservative Republican platform.",
+      "limitedGov": "Small business owner and consultant; aligns with limited government principles as a Republican.",
+      "fiscal": "Business background suggests fiscal conservatism; listed on Freedom Voter Guide."
+    }
+  },
+  {
+    "district": 2,
+    "name": "Zacharia Ortiz",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 2 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 2,
+    "name": "Frank A. Liberati",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Former Michigan State Representative who served three terms (2015-2020) representing the old 13th District (Allen Park, Southgate, part of Dearborn Heights). Term-limited out but now eligible again after term limit law changes. Brother of current HD-2 Rep. Tullio Liberati. Long political career in Downriver Wayne County. Filed a challenge to remove primary opponent Joanna Whaley from the ballot over her name change, which was denied by the Wayne County Clerk.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Served as a Democrat in the Michigan House; voted with party on reproductive health issues.",
+      "marriage": "Attempted to disqualify a transgender primary opponent, which may indicate some social conservative leanings, but overall Democratic voting record.",
+      "religiousLiberty": "No specific record found on religious liberty issues; mixed signals from ballot challenge against transgender candidate.",
+      "secondAmendment": "Voted with Democratic caucus on gun legislation during his previous terms in the House.",
+      "limitedGov": "Democratic voting record during previous House service suggests support for expanded government programs.",
+      "fiscal": "Voted with Democratic caucus on spending measures during previous terms."
+    }
+  },
+  {
+    "district": 2,
+    "name": "Gary Schlack",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Second-term Allen Park City Councilmember and U.S. Army National Guard veteran. Born and raised in Detroit's Mexicantown. First in his family to graduate college, earning his degree from Michigan State University where he served as president of Theta Chi Fraternity. Served in the Army National Guard. Built career in logistics. Earned a Master's in Public Leadership from University of San Francisco.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as a Democrat; aligned with party platform supporting abortion rights.",
+      "marriage": "Democratic platform alignment supports same-sex marriage.",
+      "religiousLiberty": "No specific position found; Democratic platform alignment.",
+      "secondAmendment": "No specific position found; Democratic platform alignment suggests support for gun regulations.",
+      "limitedGov": "Campaign focused on expanded government services and infrastructure investment.",
+      "fiscal": "Campaign priorities suggest support for increased government spending on infrastructure and services."
+    }
+  },
+  {
+    "district": 2,
+    "name": "Joanna Whaley",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Transgender woman and clinical spiritual care provider in local hospitals. Survived 15 years of conversion therapy in a high-control religious setting. Endorsed by LGBTQ+ Victory Fund. Successfully defended her right to appear on the ballot after opponent Frank Liberati challenged her name change; Wayne County Clerk denied the challenge. If elected, would be one of the first transgender state legislators in Michigan.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "LGBTQ+ Victory Fund endorsement indicates strong pro-choice alignment.",
+      "marriage": "As a transgender rights advocate endorsed by LGBTQ+ Victory Fund, strongly supports marriage redefinition.",
+      "religiousLiberty": "Survivor of conversion therapy; likely opposes broad religious exemptions that could be used against LGBTQ+ individuals.",
+      "secondAmendment": "No specific position found; progressive Democratic alignment suggests support for gun control.",
+      "limitedGov": "Progressive platform focused on expanded protections and government services.",
+      "fiscal": "Progressive Democratic alignment suggests support for expanded government spending."
+    }
+  },
+  {
+    "district": 3,
+    "name": "Gus Tarraf",
+    "party": "republican",
+    "grade": "C",
+    "description": "Media professional and community member with a long career in journalism, media production, and non-profit work since the early 1990s. Based in Dearborn. Notably switched from running as a Democrat in 2024 (lost to incumbent Alabas Farhat in the primary) to running as a Republican in 2026 for the same District 3 seat. Will not face a Republican primary challenge.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "B",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Party-switched from Democrat to Republican; specific pro-life positions unclear. Arab American community in Dearborn tends to be socially conservative.",
+      "marriage": "No specific position found; party switch and Arab American community context suggest moderate-to-conservative leanings.",
+      "religiousLiberty": "Arab American community member in Dearborn; likely sympathetic to religious liberty concerns.",
+      "secondAmendment": "No specific position found; recent party switch makes positions uncertain.",
+      "limitedGov": "Recently switched parties; positions on government size unclear.",
+      "fiscal": "No specific fiscal positions found; party switch suggests possible fiscal moderate-to-conservative shift."
+    }
+  },
+  {
+    "district": 3,
+    "name": "Othman Ali Alaansi",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Lifelong Dearborn resident. Graduate of University of Michigan-Dearborn with a bachelor's in computer science. Works in the tech industry. Ran for Dearborn City Council at-large in 2025. Actively involved with Islamic Center of Detroit, Masjid Al-Huda, and American Moslem Society. Priorities include fiscal efficiency, no new taxes, public safety, clean neighborhoods, and youth engagement.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "B",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as Democrat but from conservative Muslim community in Dearborn; emphasizes fiscal efficiency over social issues. Position unclear.",
+      "marriage": "Active in Islamic community organizations; may hold traditional views but running as a Democrat.",
+      "religiousLiberty": "Deeply involved in religious community organizations; likely supports religious liberty.",
+      "secondAmendment": "Prioritizes public safety but no specific gun policy positions found.",
+      "limitedGov": "Campaign explicitly prioritizes 'no new taxes' and fiscal efficiency, unusually conservative for a Democrat.",
+      "fiscal": "Explicitly campaigns on fiscal efficiency and no new taxes, suggesting fiscal conservatism."
+    }
+  },
+  {
+    "district": 3,
+    "name": "Hussein Berry",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Age 62, longtime real estate agent with over three decades of experience. Former Dearborn Board of Education member, elected in 2009, 2016, and 2022. Previously launched a campaign for Michigan Senate District 2 before switching to challenge incumbent Rep. Alabas Farhat in HD-3. Abruptly resigned from school board in August 2025 without explanation.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "B",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as Democrat but from conservative Arab American community in Dearborn; specific position unclear.",
+      "marriage": "Active in Arab American community; may hold traditional views but running as Democrat.",
+      "religiousLiberty": "Arab American community leader in Dearborn; likely sympathetic to religious liberty concerns.",
+      "secondAmendment": "No specific position found on Second Amendment issues.",
+      "limitedGov": "Long career in real estate and business; may lean moderate on government scope.",
+      "fiscal": "Business background in real estate suggests moderate fiscal positions."
+    }
+  },
+  {
+    "district": 3,
+    "name": "Alabas Farhat",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Incumbent Democratic State Representative serving since 2023, representing HD-3 (most of Dearborn and parts of Detroit). Raised in Dearborn. BS in public health from UM-Dearborn (2021), MPA from Gerald R. Ford School of Public Policy (2023). Previously worked for State Rep. Abdullah Hammoud and Wayne County Commissioner Sam Baydoun. Sponsored HB 5716 protecting religious liberty during booking/searches. Removed from Appropriations Committee vice chair by Speaker Hall after voting against a life-without-parole bill.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "B",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted with Democratic majority on reproductive health issues; however, representing conservative Arab American district may temper some positions.",
+      "marriage": "Democratic caucus member who voted with party on LGBTQ+ legislation.",
+      "religiousLiberty": "Notably sponsored HB 5716 protecting religious garments during booking and requiring same-sex officers for searches - one of the stronger religious liberty positions among Democrats.",
+      "secondAmendment": "Voted with Democratic caucus on gun violence prevention measures.",
+      "limitedGov": "Voted with Democratic majority on expanding government programs and regulations.",
+      "fiscal": "Served on Appropriations Committee; voted with Democratic majority on spending increases."
+    }
+  },
+  {
+    "district": 4,
+    "name": "Everett Davis",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 4 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 4,
+    "name": "Krystal Larsosa",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Born in Detroit. Bachelor's degree from Eastern University (2003). Artist, community organizer, and child and youth development professional. Previously ran for Detroit City Council District 1 in 2021 and lost in the general election.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as Democrat in deep-blue Detroit district; aligned with pro-choice party platform.",
+      "marriage": "Democratic platform alignment in Detroit supports same-sex marriage.",
+      "religiousLiberty": "No specific position found; Democratic alignment in urban Detroit.",
+      "secondAmendment": "No specific position found; Detroit Democratic candidates typically support gun control measures.",
+      "limitedGov": "Community organizer background suggests support for expanded government programs.",
+      "fiscal": "No specific fiscal positions found; aligned with Democratic spending priorities."
+    }
+  },
+  {
+    "district": 4,
+    "name": "Anthony Stafford McDonald",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 4 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 4,
+    "name": "Tyus Monroe",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 4 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 4,
+    "name": "Roslyn M. Ogburn",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 4 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 4,
+    "name": "Regina Ross",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 4 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 5,
+    "name": "Chris Venable",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 5 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 5,
+    "name": "Crystal Bailey",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 5 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 5,
+    "name": "Candace Calloway",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 5 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 5,
+    "name": "Soummer Moore-Crawford",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 5 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 6,
+    "name": "Mike Steger",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 6 in the 2026 primary. Note: A Michael Steger is also running for U.S. House in Michigan's 11th Congressional District as a Republican, described as a political intelligence operative from Kalamazoo who earned a bachelor's from UC Santa Barbara (1999). It is unclear if this is the same individual.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found specific to State House candidacy.",
+      "marriage": "No information found specific to State House candidacy.",
+      "religiousLiberty": "No information found specific to State House candidacy.",
+      "secondAmendment": "No information found specific to State House candidacy.",
+      "limitedGov": "No information found specific to State House candidacy.",
+      "fiscal": "No information found specific to State House candidacy."
+    }
+  },
+  {
+    "district": 6,
+    "name": "Charlie Gandy-Thompson",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 6 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 6,
+    "name": "David Lauer",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 6 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 6,
+    "name": "Melanie Macey",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 6 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 7,
+    "name": "Reginald Moorer",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 7 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 7,
+    "name": "Seema Ahmad",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 7 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 7,
+    "name": "Oliver Gantt",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 7 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 7,
+    "name": "Tonya Myers Phillips",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 7 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 8,
+    "name": "Bruce P. Langran",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 8 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 8,
+    "name": "Tonya Renay Wells",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 8 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 8,
+    "name": "Deanne Austin",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 8 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 8,
+    "name": "Chris Gilmer-Hill",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 8 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 8,
+    "name": "Fedor Kinaya",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 8 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 8,
+    "name": "Helena Scott",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative serving since 2021, currently representing HD-8 (NW Detroit, Ferndale, Pleasant Ridge). Bachelor's degree in psychology from Marygrove College. Former organizer for Southeast Michigan Jobs with Justice and training coordinator for League of Women Voters of Detroit. Chair of Energy, Communications & Technology Committee. Member of Insurance & Financial Services, Regulatory Reform, Higher Education, and Housing committees.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted with Democratic majority to pass Reproductive Health Act codifying abortion rights.",
+      "marriage": "Voted with Democratic caucus supporting LGBTQ+ rights legislation including Elliott-Larsen Civil Rights Act expansion.",
+      "religiousLiberty": "No record of championing religious liberty protections; voted with Democratic caucus on civil rights expansion.",
+      "secondAmendment": "Voted with Democratic majority on gun violence prevention legislation including red flag laws and storage requirements.",
+      "limitedGov": "Labor organizer background; supports expanded government role in energy, housing, and social services.",
+      "fiscal": "Voted with Democratic majority on significant spending increases across state programs."
+    }
+  },
+  {
+    "district": 9,
+    "name": "Michele Lundgren",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 9 (Detroit) in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 9,
+    "name": "Willie Burton",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Lifelong Detroiter and public servant. Made history as the youngest Police Commissioner in the United States, serving on the Detroit Board of Police Commissioners representing District 5 until January 2026. Led efforts to implement body cameras, expand Project Green Light, raise officer pay, support small businesses, and promote youth employment. Ran for Detroit City Council District 5 in 2025 and lost. Previously ran for State House District 4 in 2010, losing the Democratic primary.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as Democrat in deep-blue Detroit; aligned with pro-choice party platform.",
+      "marriage": "Democratic platform alignment supports same-sex marriage.",
+      "religiousLiberty": "No specific position found; aligned with Democratic platform.",
+      "secondAmendment": "As former Police Commissioner, supported public safety measures but also law enforcement empowerment; mixed signals.",
+      "limitedGov": "Supports expanded government programs for public safety, youth employment, and small business support.",
+      "fiscal": "Focused on government investment in public safety infrastructure and community programs."
+    }
+  },
+  {
+    "district": 9,
+    "name": "Anthony Eid",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Chaldean and Lebanese American raised in Southeast Michigan. Served as an Independent on the Michigan Independent Citizens Redistricting Commission (MICRC). Two bachelor's degrees from Wayne State University (2015), master's degree (2017), and completed two years of medical school. Grew up in Orchard Lake before moving to Detroit for higher education.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as Democrat; identified as Independent on redistricting commission but now running in Democratic primary.",
+      "marriage": "Running as Democrat; aligned with party platform on marriage.",
+      "religiousLiberty": "No specific position found; Chaldean Christian background may indicate some sympathy for religious liberty.",
+      "secondAmendment": "No specific position found on Second Amendment issues.",
+      "limitedGov": "No specific position found; redistricting commission service does not indicate clear position on government size.",
+      "fiscal": "No specific fiscal positions found."
+    }
+  },
+  {
+    "district": 9,
+    "name": "Darryl J. Ervin",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 9 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 9,
+    "name": "Arthur Harrington",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 9 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 9,
+    "name": "Bryant Hepp",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 9 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 9,
+    "name": "Karriem Holman",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 9 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 9,
+    "name": "Patricia Hurt",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 9 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 9,
+    "name": "Toni Mua",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 9 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 9,
+    "name": "Rick Silva",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 9 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 10,
+    "name": "Peter Ochs",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 10 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 10,
+    "name": "Andrew Cyburt",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 10 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 10,
+    "name": "Ryan Nelson",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 10 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 10,
+    "name": "Veronica Paiz",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 10 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 11,
+    "name": "Eddie Kabacinski",
+    "party": "republican",
+    "grade": "B",
+    "description": "Former Warren City Council member (5th District). Ran for Michigan House District 14 in 2022 but was disqualified from the Republican primary. Ran for Macomb County Sheriff in 2024. Named in 2020 criminal warrants for allegedly assaulting a woman who put BLM stickers on a Trump sign and charged with impersonating a police officer. Strongly conservative, pro-Trump activist.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Strong Trump supporter and conservative activist; aligned with pro-life movement.",
+      "marriage": "Strongly conservative; supports traditional marriage.",
+      "religiousLiberty": "Conservative activist who supports broad religious liberty protections.",
+      "secondAmendment": "Charged in an incident involving a firearm; strong pro-gun advocate and conservative activist.",
+      "limitedGov": "Conservative Republican but involvement in government roles suggests moderate limited-government advocacy.",
+      "fiscal": "Conservative Republican alignment suggests fiscal conservatism."
+    }
+  },
+  {
+    "district": 11,
+    "name": "Matthew Stafford",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 11 in the 2026 primary. No detailed public information found about background, career, or policy positions.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 11,
+    "name": "Dale J. Walker",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 11 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 11,
+    "name": "Cranstana Gina Brown Anderson",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 11 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 11,
+    "name": "Kimberly Fisher",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 11 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 11,
+    "name": "Michael Howard",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 11 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 12,
+    "name": "Brian K. Hakola",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 12 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 12,
+    "name": "Randell J. Shafer",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 12 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 12,
+    "name": "Kimberly L. Edwards",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 12 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 13,
+    "name": "Casey Armitage",
+    "party": "republican",
+    "grade": "B",
+    "description": "Gun-rights activist from Macomb County. Also running for U.S. House in Michigan's 10th Congressional District as a Republican. Active in Republican politics in southeastern Michigan's Macomb County area.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican candidate; specific pro-life positions not detailed but aligned with conservative Republican platform.",
+      "marriage": "No specific position found; aligned with conservative Republican platform.",
+      "religiousLiberty": "No specific position found; aligned with conservative Republican platform.",
+      "secondAmendment": "Described as a gun-rights activist; strongly supports Second Amendment.",
+      "limitedGov": "Conservative Republican alignment suggests support for limited government.",
+      "fiscal": "Conservative Republican alignment suggests fiscal conservatism."
+    }
+  },
+  {
+    "district": 13,
+    "name": "Mark Thomas Foster",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 13 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 13,
+    "name": "Julie Leonardi",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 13 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 13,
+    "name": "Mai Xiong",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 13 (Macomb County) in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 14,
+    "name": "Larry Szyska",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 14 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 14,
+    "name": "Minhaj Chowdhury",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 14 in the 2026 primary, challenging incumbent Mike McFall. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 14,
+    "name": "Mike McFall",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative serving his second term in HD-14, covering parts of Oakland and Macomb Counties including Center Line, Madison Heights, Hazel Park, and part of Warren. Voted to repeal Michigan's 1931 abortion ban, pass gun violence prevention laws (red flag, universal background checks, secure storage), restore prevailing wage laws, and increase per-pupil education funding to $9,608 (record high). Focuses on mental health care, equality, and community building.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted to repeal Michigan's 1931 abortion ban following Proposal 3.",
+      "marriage": "Voted with Democratic majority on LGBTQ+ rights legislation.",
+      "religiousLiberty": "No record of championing religious liberty; voted with Democratic caucus on civil rights expansion.",
+      "secondAmendment": "Authored and passed gun violence prevention laws including red flag laws, universal background checks, and secure storage requirements.",
+      "limitedGov": "Restored prevailing wage laws; expanded government regulation and programs across multiple sectors.",
+      "fiscal": "Voted for historic increases in state spending including record per-pupil education funding."
+    }
+  },
+  {
+    "district": 15,
+    "name": "Hassan H Nehme",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 15 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 15,
+    "name": "Jalal Abdallah",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 15 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 15,
+    "name": "Leslie C. Herrick",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 15 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 15,
+    "name": "Gary Woronchak",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Experienced Democratic politician and former newspaper editor. Born in Detroit. Graduate of University of Michigan-Dearborn. Former editor of Dearborn Press & Guide and managing editor of Daily Tribune (Royal Oak). Served in Michigan House of Representatives from 1999 to 2004. Served on Wayne County Board of Commissioners from 2005 to 2018, including as Chairman from 2011 to 2018. Ran unsuccessfully for Michigan Senate District 3 in 2018 and for Mayor of Dearborn in 2021.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Long-serving Democrat who voted with party during previous House tenure (1999-2004).",
+      "marriage": "Democratic voting record during previous House and county commission service.",
+      "religiousLiberty": "No specific position found; moderate Democrat from Dearborn area.",
+      "secondAmendment": "Voted with Democratic caucus during previous legislative service.",
+      "limitedGov": "Career government official; supports expanded government services and programs.",
+      "fiscal": "Long tenure as Wayne County Commission Chairman managing county budgets; moderate Democrat on fiscal issues."
+    }
+  },
+  {
+    "district": 16,
+    "name": "Brian M. Duggan",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 16 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 16,
+    "name": "Stephanie A. Young",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative serving her third term in HD-16 (northwest Detroit, southern portions of Livonia and Redford Charter Township). 93% environmental voting record from Michigan LCV. Tied for most bills signed into law in her second term with seven public acts. Serves as chair of the Detroit Caucus, chair of House Democratic Caucus, and chaplain for Michigan Legislative Black Caucus. Has cast 2,433 votes with 95 sponsorships.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted with Democratic majority on reproductive health legislation codifying abortion rights.",
+      "marriage": "Voted with Democratic caucus supporting LGBTQ+ rights legislation.",
+      "religiousLiberty": "No record of championing religious liberty; voted with Democratic caucus.",
+      "secondAmendment": "Voted with Democratic majority on gun violence prevention legislation.",
+      "limitedGov": "Strong environmentalist (93% LCV score); supports expanded government regulation and programs.",
+      "fiscal": "Voted with Democratic majority on significant spending increases; prolific legislator on government programs."
+    }
+  },
+  {
+    "district": 17,
+    "name": "Ken Crider",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 17 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 17,
+    "name": "Laurie Pohutsky",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative serving since 2019, currently representing HD-17. Bachelor's in microbiology from Michigan State University (2010). Former laboratory technician and quality control technician. Former speaker pro tempore of the Michigan House. 100% environmental voting record (Michigan LCV). Endorsed by Planned Parenthood Advocates of Michigan, Reproductive Freedom for All, AFL-CIO Michigan, UAW, and Michigan LCV. Serves on Oversight Committee.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Endorsed by Planned Parenthood Advocates and Reproductive Freedom for All; voted to codify abortion rights.",
+      "marriage": "Voted with Democratic caucus on LGBTQ+ rights expansion; endorsed by equality organizations.",
+      "religiousLiberty": "No record of supporting religious exemptions; strong advocate for LGBTQ+ civil rights expansion.",
+      "secondAmendment": "Voted with Democratic majority on comprehensive gun violence prevention package.",
+      "limitedGov": "100% environmental voting record; supports extensive government regulation and social programs.",
+      "fiscal": "Voted for record spending increases; endorsed by labor unions supporting expanded government spending."
+    }
+  },
+  {
+    "district": 18,
+    "name": "Ryan Foster",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 18 (Oakland County - Southfield, Lathrup Village, Farmington Hills) in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 18,
+    "name": "Ronald Ulmer-Paul",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 18 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 18,
+    "name": "Kelly Garrett",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 18 (Oakland County) in the 2026 primary. Open seat vacated by term-limited Jason Hoskins. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 19,
+    "name": "Kevin J. Hammer",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 19 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 19,
+    "name": "Mitch Swoboda",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 19 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 19,
+    "name": "Samantha Steckloff",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative for HD-19 (Farmington Hills area, Oakland County). Previously served on Farmington Hills City Council (2013-2021). Created the first Commission on Community Health in the state. Authored a Human Rights Ordinance. Worked to expand green energy and sustainable buildings. Serves on Appropriations Committee and five subcommittees including Higher Education (Chair).",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted with Democratic majority to codify reproductive rights.",
+      "marriage": "Authored Human Rights Ordinance on Farmington Hills City Council; strong LGBTQ+ rights supporter.",
+      "religiousLiberty": "Human Rights Ordinance may limit religious exemptions; no record of championing religious liberty.",
+      "secondAmendment": "Voted with Democratic majority on comprehensive gun control legislation.",
+      "limitedGov": "Created new government commission; supports expanded government role in health, energy, and housing.",
+      "fiscal": "Serves on Appropriations Committee; voted for significant spending increases."
+    }
+  },
+  {
+    "district": 19,
+    "name": "Brandon Young",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 19 in the 2026 primary, challenging incumbent Samantha Steckloff. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 20,
+    "name": "Hermon Barbe",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 20 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 20,
+    "name": "S. David Sullivan",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 20 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 20,
+    "name": "Noah Arbit",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative serving his second term in HD-20 (West Bloomfield, eastern Commerce Township, Keego Harbor, Orchard Lake, Sylvan Lake, NW Bloomfield Township, Oakland County). Champion on gun violence prevention, reproductive rights, LGBTQ+ rights, and voting rights. Introduced legislation to further gun violence prevention efforts. Joined Democratic colleagues on firearm safety measures.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Strong defender of reproductive rights; voted to codify abortion access.",
+      "marriage": "Passionate champion of LGBTQ+ rights including marriage equality.",
+      "religiousLiberty": "Strong LGBTQ+ advocacy suggests opposition to broad religious exemptions that could affect LGBTQ+ rights.",
+      "secondAmendment": "Leading voice on gun violence prevention; introduced legislation to expand firearm restrictions.",
+      "limitedGov": "Supports expanded government role in healthcare, civil rights enforcement, and gun regulation.",
+      "fiscal": "Voted with Democratic majority on significant spending increases."
+    }
+  },
+  {
+    "district": 21,
+    "name": "Ross Barranco",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 21 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 21,
+    "name": "Kelly Breen",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative serving her third term in HD-21 (Farmington, Farmington Hills, Northville, Novi, South Lyon, Oakland County). JD from Wayne State University (1999-2002), BS in Social Relations from Michigan State University (1995-1999). Chair of House Judiciary Committee. Helped shepherd bills codifying reproductive freedom, ensuring LGBTQ+ rights, and wrote and passed firearm legislation.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "As Judiciary Committee Chair, shepherded reproductive freedom legislation through the House.",
+      "marriage": "Key leader in ensuring LGBTQ+ rights legislation passed through Judiciary Committee.",
+      "religiousLiberty": "Led passage of civil rights expansion that limits religious exemptions.",
+      "secondAmendment": "Personally authored and passed firearm safety legislation including restrictions on gun ownership.",
+      "limitedGov": "Supports expanded government regulation through judiciary and civil rights frameworks.",
+      "fiscal": "Voted with Democratic majority on all major spending increases."
+    }
+  },
+  {
+    "district": 22,
+    "name": "Casey J. Noce",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 22 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 22,
+    "name": "Lisa McIntyre",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Past President of the Northville Board of Education, currently Treasurer. Mother of three. Lifetime of experience in mental health. Led efforts to stabilize the school district after the pandemic, led school safety initiatives and away-for-the-day personal device policy for K-8, and kept the budget strong while improving educator work experience.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as Democrat; aligned with party platform supporting abortion rights.",
+      "marriage": "Democratic platform alignment supports same-sex marriage.",
+      "religiousLiberty": "No specific position found; Democratic alignment.",
+      "secondAmendment": "School safety advocate; likely supports gun control measures in line with Democratic platform.",
+      "limitedGov": "School board experience focused on maintaining services; Democratic platform alignment.",
+      "fiscal": "Record of keeping school budgets strong suggests some fiscal responsibility, but Democratic alignment on state spending."
+    }
+  },
+  {
+    "district": 23,
+    "name": "Miriam Corvino",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 23 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 23,
+    "name": "Jason Morgan",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative for HD-23 (Ann Arbor area, Washtenaw County). Former Washtenaw County Commission Chair. Instructor at Washtenaw Community College. Former director of constituent services for Michigan Department of State and transition director for Congresswoman Elissa Slotkin. Founded bipartisan Public Transit Caucus. Priorities include public schools, natural resources, healthcare, infrastructure, and voting rights.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted with Democratic majority on reproductive health legislation.",
+      "marriage": "Represents deep-blue Ann Arbor; strong supporter of LGBTQ+ rights.",
+      "religiousLiberty": "No specific record on religious liberty; Ann Arbor progressive alignment.",
+      "secondAmendment": "Voted with Democratic majority on gun violence prevention measures.",
+      "limitedGov": "Supports expanded public transit, infrastructure spending, and government healthcare programs.",
+      "fiscal": "Voted for significant spending increases; strong advocate for public education and infrastructure investment."
+    }
+  },
+  {
+    "district": 24,
+    "name": "Allison Kay Fuller",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 24 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 24,
+    "name": "Ranjeev Puri",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative and House Minority Leader for HD-24 (Canton, Belleville, Van Buren Twp, Wayne County). Highest ranking Asian-American, Indian-American, and Sikh-American elected official in state legislative politics nationally. Former House Majority Whip (2023-2024). Led on gun violence prevention legislation following the MSU shooting. Sponsored law preventing HOAs from blocking solar panels and EV chargers (signed by Gov. Whitmer).",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted with Democratic majority on reproductive health legislation.",
+      "marriage": "Democratic leadership; voted for LGBTQ+ rights legislation.",
+      "religiousLiberty": "No specific record; Democratic leadership alignment.",
+      "secondAmendment": "Specifically tapped to lead on gun violence prevention legislation after MSU shooting; key architect of Michigan's gun control package.",
+      "limitedGov": "Sponsored regulations on HOAs; supports expanded government role in energy and gun policy.",
+      "fiscal": "Democratic leadership; voted for all major spending increases."
+    }
+  },
+  {
+    "district": 25,
+    "name": "Dawn Udell",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 25 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 25,
+    "name": "Peter Herzberg",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative for HD-25 (Wayne, portions of Canton, Dearborn Heights, Westland, Wayne County). Assumed office April 30, 2024. Graduated from John Glenn High School. BS in Finance from Wayne State University. Previously served on Westland City Council. Committed to school funding, reproductive health freedom, and advocating for working people.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Committed to protecting reproductive health decisions; aligned with Democratic platform.",
+      "marriage": "Democratic caucus member; aligned with party on LGBTQ+ rights.",
+      "religiousLiberty": "No specific position found; Democratic alignment.",
+      "secondAmendment": "No specific position found; assumed Democratic alignment on gun policy.",
+      "limitedGov": "Supports expanded school funding and government services; Democratic alignment.",
+      "fiscal": "Supports increased education funding; assumed Democratic alignment on spending."
+    }
+  },
+  {
+    "district": 26,
+    "name": "Chris Dobis",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 26 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 26,
+    "name": "Dylan Wegela",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative for HD-26 (Garden City area, Wayne County). Grew up in Livonia. Graduate of Eastern Michigan University. Former teacher and union organizer. Spent 7 years teaching, organizing, and advocating for education in South Korea, Arizona, and Michigan. Founded Arizona Educators United during the Red for Ed teacher strikes, securing over $400 million for public education. Organized for Bernie Sanders 2016. Member of the Democratic Socialists of America.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "DSA member and progressive Democrat; strongly supports abortion rights.",
+      "marriage": "DSA member; strongly supports LGBTQ+ rights and marriage equality.",
+      "religiousLiberty": "DSA member and progressive; unlikely to support broad religious exemptions.",
+      "secondAmendment": "Voted with Democratic majority on comprehensive gun control package.",
+      "limitedGov": "DSA member and union organizer; advocates for significantly expanded government role in education, labor, and social services.",
+      "fiscal": "DSA member who secured $400M in education spending in Arizona; supports major government spending increases."
+    }
+  },
+  {
+    "district": 27,
+    "name": "Rylee Linting",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 27 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 27,
+    "name": "Jaime Churches",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Former Democratic State Representative for HD-27 (2023-2025, Downriver area). Lost reelection in 2024. BS in integrated science/elementary education and MA in educational administration from Madonna University. Former 5th grade teacher in Grosse Ile and Woodhaven-Brownstown schools. Advocated for education support, infrastructure investment, Great Lakes protection, and expanding hate crime definitions to cover sexual orientation and gender identity.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted with Democratic majority on reproductive health legislation during her term.",
+      "marriage": "Supported legislation expanding hate crime protections for sexual orientation and gender identity.",
+      "religiousLiberty": "No record of championing religious liberty; supported civil rights expansion.",
+      "secondAmendment": "Voted with Democratic majority on gun violence prevention measures during her term.",
+      "limitedGov": "Supports expanded government investment in infrastructure, education, and environmental protection.",
+      "fiscal": "Voted for spending increases during her term; supports infrastructure and education investment."
+    }
+  },
+  {
+    "district": 28,
+    "name": "Jamie Thompson",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 28 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 28,
+    "name": "Sherry A. Berecz",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 28 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 29,
+    "name": "James DeSana",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican State Representative for HD-29 (Monroe County area). Assumed office January 1, 2023; won reelection in 2024. Serves on House Appropriations Committee and Agriculture/Natural Resources subcommittee. 10% environmental voting record (Michigan LCV). Voted against MDHHS budget citing Medicaid fraud. Testified in support of repealing Michigan's red flag law. Co-sponsored resolution supporting 287g immigration enforcement program. Strong conservative legislator.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life Republican; votes consistently with pro-life caucus.",
+      "marriage": "Conservative Republican who supports traditional marriage.",
+      "religiousLiberty": "Strong conservative values; supports broad religious liberty protections.",
+      "secondAmendment": "Testified before House Judiciary Committee in support of repealing Michigan's red flag law; strong 2A defender.",
+      "limitedGov": "Voted against expanded government spending citing fraud concerns; supports 287g enforcement; 10% LCV score shows opposition to environmental regulation.",
+      "fiscal": "Voted against MDHHS budget and other spending measures; consistently opposes government spending increases."
+    }
+  },
+  {
+    "district": 29,
+    "name": "Darian Counts",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 29 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 29,
+    "name": "Rich Li",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 29 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 30,
+    "name": "William Bruck",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 30 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 30,
+    "name": "Omar G. Ferdin",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 30 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 31,
+    "name": "Laura M. Perry",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 31 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 31,
+    "name": "Shannon Dare Wayne",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 31 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 32,
+    "name": "Martin A. Church",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 32 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 32,
+    "name": "Mike Eller",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 32 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 32,
+    "name": "William C. Riney",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 32 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 32,
+    "name": "Jimmie Wilson Jr.",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 32 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 33,
+    "name": "Catherine Rogers",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 33 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 33,
+    "name": "Morgan Foreman",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 33 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 34,
+    "name": "Nancy Jenkins-Arno",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican State Representative elected to her fourth non-consecutive term in HD-34 (Lenawee County including Adrian, Morenci, Tecumseh). Previously served in the Michigan House 2011-2016 and as Lenawee County Commissioner 2018-2024 (three terms). Graduated from Evangel University (1986), master's in political science from University of Toledo (1991). Chairs Joint Capital Outlay Committee and Appropriations Subcommittee on Labor/Economic Opportunity.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Evangel University graduate (Assemblies of God affiliated); long-serving Republican with conservative social values.",
+      "marriage": "Conservative Republican; expected to support traditional marriage based on party and background.",
+      "religiousLiberty": "Christian university graduate; expected to support religious liberty based on background.",
+      "secondAmendment": "Conservative Republican from rural Lenawee County; expected to support Second Amendment rights.",
+      "limitedGov": "Chairs capital outlay committee focused on fiscally responsible government spending.",
+      "fiscal": "Former county commissioner focused on fiscally responsible practices; chairs appropriations subcommittee."
+    }
+  },
+  {
+    "district": 34,
+    "name": "John E. Dahlgren",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 34 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 35,
+    "name": "Jennifer Wortz",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 35 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 35,
+    "name": "Jeff Cooley",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 35 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 36,
+    "name": "Steve Carra",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican State Representative for HD-36 (Kalamazoo/Cass/Van Buren Counties). Assumed office January 1, 2023; reelected 2024. Ranked most conservative state representative in the legislature. 7% environmental voting record (Michigan LCV). Endorsed by NRA PVF and Right to Life of Michigan. Supports lower taxes, fewer regulations, opposes biological males in women's sports. Voted 'no' more than any other legislator in the chamber.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Endorsed by Right to Life of Michigan PAC; consistently pro-life voting record.",
+      "marriage": "Opposes transgender policies in women's sports/spaces; supports traditional marriage and gender norms.",
+      "religiousLiberty": "Most conservative member of the legislature; strong supporter of religious liberty.",
+      "secondAmendment": "Endorsed by NRA PVF; strong Second Amendment supporter.",
+      "limitedGov": "Ranked most conservative representative; supports lower taxes, fewer regulations, fines, and fees across the board.",
+      "fiscal": "Voted 'no' on more spending bills than any other legislator; consistent fiscal hawk."
+    }
+  },
+  {
+    "district": 36,
+    "name": "Max Coon",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 36 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 36,
+    "name": "Luke Lori",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 36 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 36,
+    "name": "Cole Slaski",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 36 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 37,
+    "name": "Steve Bury",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 37 in the 2026 primary, challenging incumbent Brad Paquette. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 37,
+    "name": "Brad Paquette",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican State Representative serving his fourth term in HD-37 (portions of Berrien and Cass Counties, including Niles, Buchanan, Dowagiac). Born in Marquette, MI (1987). BA in political science/pre-law from Northern Michigan University (2009), master's in teaching from Andrews University (2012). Former public school teacher at Niles New Tech Entrepreneurial Academy. Former Niles Planning Commissioner. Serves on Education/Workforce and Oversight committees. Won reelection by a wide margin.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent; expected to hold pro-life positions based on party alignment and district.",
+      "marriage": "Conservative Republican from rural district; expected to support traditional marriage.",
+      "religiousLiberty": "Andrews University graduate (Seventh-day Adventist institution); expected to support religious liberty.",
+      "secondAmendment": "Conservative Republican from rural SW Michigan; expected to support Second Amendment.",
+      "limitedGov": "Republican incumbent in rural district; serves on oversight committees focused on government accountability.",
+      "fiscal": "Four-term Republican; expected to support fiscal conservatism based on party and district."
+    }
+  },
+  {
+    "district": 37,
+    "name": "Angela M. Jones",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 37 in the 2026 primary. Lost to Brad Paquette in 2024 general election by a significant margin (30,018-16,189). No detailed policy positions found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 38,
+    "name": "Mark Krieger",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 38 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 38,
+    "name": "Joey Andrews",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative serving his second term in HD-38 (parts of Allegan, Berrien, and Van Buren Counties). Born in St. Joseph, MI. BA from Carson-Newman University (2013), JD from Wayne State University (2016). Licensed attorney, former organizer and policy analyst with Michigan AFL-CIO, former small business owner.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Democratic incumbent; voted with party on reproductive health legislation.",
+      "marriage": "Democratic incumbent; voted with party on LGBTQ+ rights.",
+      "religiousLiberty": "No specific position found; Democratic alignment.",
+      "secondAmendment": "No specific position found; assumed Democratic alignment on gun policy.",
+      "limitedGov": "Former AFL-CIO organizer; supports labor protections and expanded government regulation.",
+      "fiscal": "Supports increased government spending on social programs and labor protections."
+    }
+  },
+  {
+    "district": 39,
+    "name": "Bill Sage",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 39 in the 2026 primary, challenging incumbent Pauline Wendzel. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 39,
+    "name": "Pauline Wendzel",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican State Representative for HD-39 (Berrien County area). Assumed office January 1, 2023; reelected 2024. BA in anthropology and food industry marketing from Michigan State University. Former product brand development manager with Coloma Frozen Foods, programs director at North Berrien Historical Museum, and camp counselor. 32% environmental voting record (Michigan LCV). Endorsed by Right to Life of Michigan PAC, Michigan Chamber of Commerce, and other business organizations.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Endorsed by Right to Life of Michigan PAC; consistent pro-life voting record.",
+      "marriage": "Conservative Republican; expected to support traditional marriage based on party and endorsements.",
+      "religiousLiberty": "Conservative Republican with business and faith-based organization endorsements.",
+      "secondAmendment": "Conservative Republican from rural Berrien County; expected strong 2A support.",
+      "limitedGov": "32% LCV score shows opposition to environmental regulation; endorsed by Michigan Chamber of Commerce.",
+      "fiscal": "Endorsed by business organizations including Michigan Chamber of Commerce; supports lower taxes and fewer regulations."
+    }
+  },
+  {
+    "district": 39,
+    "name": "Zachary Shinabargar",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 39 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 39,
+    "name": "Kerry Tapper",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 39 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 40,
+    "name": "Robert M. Sitarski",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 40 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 40,
+    "name": "Matt Longjohn",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative for HD-40 (Kalamazoo, Portage, Oshtemo, Texas Township area). BA from Kalamazoo College (1993), MD from Tulane University (1999), graduate degree from Tulane School of Public Health (2003). Only physician currently serving in the Michigan Legislature. 25 years developing community health coalitions and expanding healthcare access. Won 2024 general election with 57.5%. Previously ran for U.S. House in 2018.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Public health physician and Democrat; strongly supports reproductive healthcare access.",
+      "marriage": "Democratic incumbent; aligned with party on LGBTQ+ rights.",
+      "religiousLiberty": "No specific position found; Democratic alignment.",
+      "secondAmendment": "No specific position found; assumed Democratic alignment on gun policy.",
+      "limitedGov": "Public health professional who supports expanded government role in healthcare delivery and access.",
+      "fiscal": "Supports expanded healthcare spending and government health programs."
+    }
+  },
+  {
+    "district": 41,
+    "name": "Nicole C. Sabel",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 41 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 41,
+    "name": "Jen Strebs",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Kalamazoo County Commission Chair running for Michigan State House District 41. Active in Kalamazoo County Democratic Party. Seeking the Democratic nomination in the August 2026 primary.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Kalamazoo County Democratic leader; aligned with party platform on abortion rights.",
+      "marriage": "Democratic party leader; supports same-sex marriage.",
+      "religiousLiberty": "No specific position found; Democratic alignment.",
+      "secondAmendment": "No specific position found; assumed Democratic alignment.",
+      "limitedGov": "County Commission Chair; experienced in government administration.",
+      "fiscal": "County commission experience suggests familiarity with budgets; Democratic alignment on spending."
+    }
+  },
+  {
+    "district": 41,
+    "name": "Jessica Swartz",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Democratic candidate for Michigan State House District 41 in the 2026 primary. BA from Michigan State University, JD from American University Washington College of Law. Previously ran for Michigan's 4th Congressional District before dropping out of that race.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Running as Democrat; aligned with party platform on abortion rights.",
+      "marriage": "Democratic candidate; supports same-sex marriage.",
+      "religiousLiberty": "No specific position found; Democratic alignment.",
+      "secondAmendment": "No specific position found; assumed Democratic alignment.",
+      "limitedGov": "No specific position found; Democratic alignment.",
+      "fiscal": "No specific fiscal positions found; Democratic alignment."
+    }
+  },
+  {
+    "district": 42,
+    "name": "Matt Hall",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican State Representative and current Speaker of the Michigan House (79th Speaker). Serving since 2019 in HD-42. Former House Minority Leader (2023-2025). American lawyer and politician. Perfect voting attendance for three consecutive years (640+ roll call votes per session). 37% environmental voting record (Michigan LCV). Campaigns on lowering auto insurance, cutting taxes, and reducing Medicare premiums. Endorsed by conservative and business organizations.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Speaker of the House leading the Republican majority; consistent pro-life voting record.",
+      "marriage": "Conservative Republican House Speaker; supports traditional marriage.",
+      "religiousLiberty": "Conservative Republican leader who supports broad religious liberty protections.",
+      "secondAmendment": "Republican House Speaker who opposed Democratic gun control legislation.",
+      "limitedGov": "Campaigns on cutting taxes, reducing regulations, and putting money back in people's pockets.",
+      "fiscal": "Campaigns on lowering auto insurance and cutting taxes; led Republican opposition to spending increases."
+    }
+  },
+  {
+    "district": 42,
+    "name": "Bill Korb",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 42 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 42,
+    "name": "Nick Rowe",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 42 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 43,
+    "name": "Rachelle Smit",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican State Representative for HD-43 (Shelbyville area, Allegan/Barry Counties). Assumed office January 1, 2023; reelected 2024. Speaker Pro Tempore (second in House leadership). Born in Grand Rapids. Christian with strong conservative values. Dairy farmer with her husband Dave. Former Martin Township Clerk for seven years focused on election integrity. Affiliated with Right to Life, NRA, and Farm Bureau. Chair of House Election Integrity Committee. Member of Legislative Council.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Affiliated with Right to Life; strong pro-life advocate as a self-described Christian conservative.",
+      "marriage": "Christian conservative who supports traditional marriage.",
+      "religiousLiberty": "Christian conservative who strongly supports religious liberty protections.",
+      "secondAmendment": "Affiliated with the NRA; strong Second Amendment supporter.",
+      "limitedGov": "Former township clerk focused on limited government; Farm Bureau affiliated; chairs Election Integrity Committee.",
+      "fiscal": "Dairy farmer and small business owner; fiscally conservative Republican in House leadership."
+    }
+  },
+  {
+    "district": 43,
+    "name": "Alan Swank",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 43 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 44,
+    "name": "Steve Frisbie",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican State Representative for HD-44 (Calhoun County, Battle Creek area). Serving since January 2025. Businessman, paramedic, and vice-president of LifeCare Ambulance from Pennfield Township. Served 13 years as Calhoun County Commissioner, including as chairman (2019-2023). Vice chair of House Finance Committee. Serves on Transportation & Infrastructure, Energy, and Health Policy committees. Defeated incumbent Democrat Jim Haadsma in 2024.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent; expected pro-life position based on party alignment.",
+      "marriage": "Conservative Republican; expected to support traditional marriage.",
+      "religiousLiberty": "No specific position found; Republican alignment suggests support.",
+      "secondAmendment": "No specific position found; Republican from rural county expected to support 2A.",
+      "limitedGov": "Supports energy independence including natural gas, nuclear, coal; opposes excessive environmental regulation.",
+      "fiscal": "13-year county commissioner; business owner; expected fiscal conservative."
+    }
+  },
+  {
+    "district": 44,
+    "name": "Jim Haadsma",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Former Democratic State Representative for HD-44 (Calhoun County, Battle Creek area) who served 2019-2024. Lost 2024 reelection by just 79 votes to Steve Frisbie. Running again in 2026. Campaign focused on restoring competent leadership, standing up for workers, reinvesting in public education, fixing roads and infrastructure, protecting reproductive freedom, and delivering results for Calhoun County.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Explicitly campaigns on 'protecting reproductive freedom'; voted with Democratic majority on abortion legislation.",
+      "marriage": "Voted with Democratic caucus on LGBTQ+ rights legislation during previous terms.",
+      "religiousLiberty": "No specific position found; voted with Democratic caucus.",
+      "secondAmendment": "No specific position found; assumed Democratic alignment on gun policy.",
+      "limitedGov": "Supports expanded government investment in education, infrastructure, and healthcare.",
+      "fiscal": "Supports increased spending on public education, roads, and government services."
+    }
+  },
+  {
+    "district": 45,
+    "name": "Sarah Lightner",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican State Representative for HD-45 (portions of Calhoun, Jackson, and Kalamazoo Counties). Serving since 2019. Attended Springport High School and Lansing Community College. Paralegal specializing in criminal defense and family law. Operates a small crop farm and custom hay operation with her husband. Former Jackson County Commissioner (1st District). Chair of House Judiciary Committee. Serves on Agriculture, Insurance, and Finance committees.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Long-serving Republican from rural district; expected pro-life position.",
+      "marriage": "Conservative Republican; expected to support traditional marriage.",
+      "religiousLiberty": "Conservative Republican from rural area; expected to support religious liberty.",
+      "secondAmendment": "Farmer and paralegal in criminal defense from rural Michigan; strong 2A district and expected strong support.",
+      "limitedGov": "Former county commissioner, farmer, and small business owner; supports limited government.",
+      "fiscal": "Farmer and small business owner; chairs Judiciary and serves on Finance committee."
+    }
+  },
+  {
+    "district": 45,
+    "name": "Randy Davis",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 45 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 46,
+    "name": "Kathy Schmaltz",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican State Representative for HD-46 (parts of Jackson and Washtenaw Counties). Assumed office January 1, 2023; reelected 2024. Born in Birmingham, MI. Michigan State University graduate. Former news anchor at Lansing's WILX-TV for 14 years. Serves on Energy, Communications & Technology and Health Policy committees (Behavioral Health Subcommittee Minority Vice Chair).",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent; expected pro-life position based on party alignment.",
+      "marriage": "Republican incumbent; expected to support traditional marriage.",
+      "religiousLiberty": "No specific position found; Republican alignment suggests support.",
+      "secondAmendment": "No specific position found; Republican alignment suggests support.",
+      "limitedGov": "Serves on Energy committee with focus on balanced regulation; Republican alignment.",
+      "fiscal": "Republican incumbent; expected fiscal conservative based on party alignment."
+    }
+  },
+  {
+    "district": 46,
+    "name": "Jan Maino",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 46 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 47,
+    "name": "Justin Griffis",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 47 in the 2026 primary. No detailed public information found specific to Michigan State House candidacy.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 47,
+    "name": "Carrie A. Rheingans",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative for HD-47 (parts of Jackson and Washtenaw Counties including portions of Ann Arbor, Dexter, Scio Township). BS, MPH, and MSW from University of Michigan. Health policy expert and unionized instructor at UM School of Social Work. Former project director at Michigan Public Health Institute. All five laws she sponsored were bipartisan. Established first-in-the-nation Office of Tribal Legislative Liaison.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Democratic incumbent from Ann Arbor area; voted with party on reproductive health legislation.",
+      "marriage": "Democratic incumbent; aligned with party on LGBTQ+ rights.",
+      "religiousLiberty": "No specific position found; Democratic alignment.",
+      "secondAmendment": "No specific position found; assumed Democratic alignment.",
+      "limitedGov": "Public health expert who supports expanded government role in health and tribal affairs.",
+      "fiscal": "Supports expanded government spending on health and social programs."
+    }
+  },
+  {
+    "district": 48,
+    "name": "Brian Ignatowski",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for HD-48 (Livingston County area). Age 42, small business owner in the water filtration industry from Pinckney, MI (Hamburg Township). Won 2024 Republican primary but lost general election to incumbent Jennifer Conlin. Running again in 2026. Goals include creating fair legislation, fixing roads, funding police and fire, securing borders, and ensuring unbiased education.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican candidate; expected pro-life based on party alignment and conservative platform.",
+      "marriage": "Conservative Republican; expected to support traditional marriage.",
+      "religiousLiberty": "Conservative Republican; expected to support religious liberty.",
+      "secondAmendment": "Supports funding police; conservative Republican alignment suggests 2A support.",
+      "limitedGov": "Small business owner who campaigns on fair legislation and unbiased education; strongly limited-government focused.",
+      "fiscal": "Small business owner who campaigns on fiscal responsibility and fixing roads without excessive spending."
+    }
+  },
+  {
+    "district": 48,
+    "name": "Jennifer A. Conlin",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative for HD-48 (Livingston County area). Won reelection in 2024. Chairs Military, Veterans & Homeland Security committee. Member of Education, Health Policy, and Transportation committees. Endorsed by Planned Parenthood Advocates, Sierra Club Michigan, Michigan AFL-CIO, AFT Michigan, MEA, SEIU Michigan, and Equality Michigan Action Network. Focuses on infrastructure, natural resources, healthcare, school safety, and teacher recruitment.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Endorsed by Planned Parenthood Advocates of Michigan; supports reproductive freedom.",
+      "marriage": "Endorsed by Equality Michigan Action Network; supports LGBTQ+ rights.",
+      "religiousLiberty": "No record of championing religious liberty; endorsed by equality organizations.",
+      "secondAmendment": "Focuses on gun safety and school safety; supported gun violence prevention legislation.",
+      "limitedGov": "Endorsed by Sierra Club, multiple unions; supports expanded government regulation and programs.",
+      "fiscal": "Endorsed by labor unions; supports increased government spending on education, healthcare, and infrastructure."
+    }
+  },
+  {
+    "district": 49,
+    "name": "Ann M. Bollin",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican State Representative for HD-49 (Livingston and western Oakland Counties including Brighton, Walled Lake, Wixom, portions of Novi). First elected 2019. Chair of House Appropriations Committee (handles state budget). Endorsed by Right to Life of Michigan PAC, Michigan Freedom Network, Michigan Chamber of Commerce, Michigan Farm Bureau AgriPAC, and NFIB-Michigan. 33% environmental voting record (Michigan LCV) with 13 pro-environment and 26 anti-environment votes.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Endorsed by Right to Life of Michigan PAC; consistent pro-life voting record.",
+      "marriage": "Conservative Republican with Christian conservative endorsements; supports traditional marriage.",
+      "religiousLiberty": "Endorsed by Michigan Freedom Network; supports religious liberty.",
+      "secondAmendment": "Conservative Republican; opposed Democratic gun control legislation.",
+      "limitedGov": "33% LCV score shows strong opposition to environmental regulation; endorsed by business groups advocating limited regulation.",
+      "fiscal": "Chairs Appropriations Committee; endorsed by Michigan Chamber of Commerce, NFIB, Farm Bureau for fiscal conservatism."
+    }
+  },
+  {
+    "district": 49,
+    "name": "Dan Pelchat",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 49 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 50,
+    "name": "Jason Woolford",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican State Representative for HD-50 (Livingston County, Howell area). Assumed office January 1, 2025. Born in Howell, MI. U.S. Marine Corps veteran (1992-1995). CEO and business executive. Won 2024 Republican primary defeating incumbent Robert Bezotte and two other challengers. Won 2024 general election. Chairs House Oversight Subcommittee on State and Local Assistance Programs. Serves on Families and Veterans Committee and Oversight Subcommittee on Weaponization of State Government.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent; expected pro-life based on party alignment and conservative district.",
+      "marriage": "Conservative Republican; expected to support traditional marriage.",
+      "religiousLiberty": "Conservative Republican; expected to support religious liberty.",
+      "secondAmendment": "Marine Corps veteran; serves on Weaponization of Government subcommittee; expected strong 2A support.",
+      "limitedGov": "Business CEO and Marine vet who serves on oversight committees focused on government accountability; strong limited-government credentials.",
+      "fiscal": "Business executive background suggests fiscal conservatism; chairs assistance programs oversight."
+    }
+  },
+  {
+    "district": 50,
+    "name": "Cassie Canedo",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 50 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 51,
+    "name": "Matt Maddock",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican State Representative for HD-51 (Oakland County - Highland Twp, Milford, White Lake). Serving since 2019. Born December 10, 1965. Christian, private investigator, bail bondsman, and small business owner with 28 years of experience. Founder of Michigan Conservative Coalition. Introduced resolution to impeach Gov. Whitmer over COVID-19 shutdowns. Promoted claims about 2020 election fraud and protested at TCF Center. Present at January 5, 2021 rallies. Wife Meshawn Maddock is co-chair of Michigan Republican Party.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Self-described Christian and founder of Michigan Conservative Coalition; strongly pro-life.",
+      "marriage": "Christian conservative activist; strongly supports traditional marriage.",
+      "religiousLiberty": "Christian conservative who founded Michigan Conservative Coalition; strongly supports religious liberty.",
+      "secondAmendment": "Private investigator and bail bondsman; strongly supports Second Amendment rights.",
+      "limitedGov": "Introduced impeachment resolution against governor over COVID lockdowns; founder of conservative coalition opposing government overreach.",
+      "fiscal": "Founder of Michigan Conservative Coalition; opposes government spending expansion; small business owner for 28 years."
+    }
+  },
+  {
+    "district": 51,
+    "name": "Stacey McDuffie",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 51 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 51,
+    "name": "Gary Murrell",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 51 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 52,
+    "name": "Mike Harris",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican State Representative for HD-52 (Oakland County - Waterford, Commerce Twp, Lake Angelus, Clarkston, Independence Twp, portions of Springfield Twp). Serving since 2023; reelected 2024. 14% environmental voting record (Michigan LCV). Chairs House Insurance Committee, vice chairs Government Operations. Member of Economic Competitiveness and Judiciary committees. Majority Caucus Whip in House leadership. Voted against Elliott-Larsen Civil Rights Act expansion (HB 4003) despite supporting same-sex marriage personally.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "C",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent; expected pro-life based on party alignment and voting record.",
+      "marriage": "Personally supports same-sex marriage but voted against HB 4003 (gender identity/sexual orientation nondiscrimination); mixed signals. Supported ban on trans students in university bathrooms.",
+      "religiousLiberty": "Voted against Elliott-Larsen expansion which suggests support for religious exemptions; Republican alignment.",
+      "secondAmendment": "Republican from suburban Oakland County; expected 2A support.",
+      "limitedGov": "14% LCV score shows strong opposition to environmental regulation; chairs Insurance Committee.",
+      "fiscal": "Republican in House leadership (Majority Caucus Whip); expected fiscal conservative."
+    }
+  },
+  {
+    "district": 52,
+    "name": "Brendan P. Leddy",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 52 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 52,
+    "name": "Tom Owensby",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 52 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 53,
+    "name": "Melissa Schultz",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 53 (Oakland County - Pontiac, Auburn Hills) in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 53,
+    "name": "Robert L. Anderlie",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 53 in the 2026 primary, challenging incumbent Brenda Carter. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 53,
+    "name": "Brenda Carter",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic State Representative serving her fourth term in HD-53 (Pontiac, portions of Waterford and Auburn Hills, Oakland County). First woman to hold this seat. Previously served on Pontiac School Board. Resides in Pontiac with husband Randy. Established five district task force groups on veterans, poverty/homelessness, minority maternal health, and criminal justice reform. Chair and co-founder of bipartisan Poverty and Homelessness Caucus.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Four-term Democrat; voted with party on reproductive health legislation.",
+      "marriage": "Democratic incumbent; voted with party on LGBTQ+ rights expansion.",
+      "religiousLiberty": "No record of championing religious liberty; voted with Democratic caucus.",
+      "secondAmendment": "Voted with Democratic majority on gun violence prevention legislation.",
+      "limitedGov": "Created multiple government task forces; co-founded Poverty and Homelessness Caucus; supports expanded government role.",
+      "fiscal": "Advocates for expanded government programs addressing poverty, homelessness, and maternal health."
+    }
+  },
+  {
+    "district": 54,
+    "name": "Roman Gaskey",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 54 (Oakland County - Lake Orion, Bloomfield, Auburn Hills area) in the 2026 primary. Open seat as Donni Steele is running for State Senate. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 54,
+    "name": "Jeffrey M. Omtvedt",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for Michigan State House District 54 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 54,
+    "name": "Sarah Pounds",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 54 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  },
+  {
+    "district": 55,
+    "name": "Mark Tisdel",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican State Representative for HD-55 (Oakland County - Rochester Hills area). Assumed office January 1, 2023. 21% environmental voting record (Michigan LCV). Bipartisan legislator with several bipartisan bills signed into law, including a law to protect online shoppers from scammers and legislation to get cellphones out of classrooms (passed with 99 yes votes). Tax Policy Committee work providing tax savings for small businesses. Chairs House Finance Committee, vice chairs Insurance Committee. Member of Health Policy and Regulatory Reform committees.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent; expected pro-life based on party alignment.",
+      "marriage": "Moderate Republican from suburban Oakland County; expected to lean traditional but may be moderate.",
+      "religiousLiberty": "No specific position found; Republican alignment suggests support.",
+      "secondAmendment": "No specific position found; Republican alignment suggests support.",
+      "limitedGov": "Sponsored tax savings for small businesses; 21% LCV score shows opposition to environmental regulation.",
+      "fiscal": "Chairs Finance Committee; sponsored tax simplification and small business tax savings."
+    }
+  },
+  {
+    "district": 55,
+    "name": "Alex Hawkins",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for Michigan State House District 55 in the 2026 primary. No detailed public information found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No information found.", "marriage": "No information found.", "religiousLiberty": "No information found.", "secondAmendment": "No information found.", "limitedGov": "No information found.", "fiscal": "No information found." }
+  }
+]

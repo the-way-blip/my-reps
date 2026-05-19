@@ -1,0 +1,2282 @@
+[
+  {
+    "circuit": 1,
+    "county": "Hillsdale",
+    "name": "Sara S. Lisznyai",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected 2014; private practice attorney in Jonesville before election. No strong partisan signals. Rural conservative county.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on abortion-related rulings or positions",
+      "marriage": "No public record on marriage or family values positions",
+      "religiousLiberty": "No public record on religious liberty cases",
+      "secondAmendment": "No public record on firearms rulings",
+      "limitedGov": "Elected in conservative Hillsdale County; private practice background suggests moderate judicial philosophy",
+      "fiscal": "No public record on taxation or property rights rulings"
+    }
+  },
+  {
+    "circuit": 2,
+    "county": "Berrien",
+    "name": "Jennifer L. Smith-DenDooven",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2018; 21-year career as Berrien County assistant prosecutor. Prosecution background in conservative-leaning county.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no specific record but appointment signal leans conservative",
+      "marriage": "Snyder (R) appointee; no specific positions found",
+      "religiousLiberty": "Snyder (R) appointee; no specific positions found",
+      "secondAmendment": "21-year prosecutor career suggests law-and-order approach; Snyder appointee",
+      "limitedGov": "Appointed by Republican governor; prosecutor background suggests judicial restraint",
+      "fiscal": "Snyder (R) appointee; no specific positions found"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "David J. Allen",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Granholm (D) in 2003. Served in felony criminal, civil, and business court divisions. Wayne County bench.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Granholm (D) appointee; no specific record but appointment signal leans progressive",
+      "marriage": "Granholm (D) appointee; Wayne County context leans progressive",
+      "religiousLiberty": "Granholm (D) appointee; no specific positions found",
+      "secondAmendment": "Granholm (D) appointee; Wayne County context",
+      "limitedGov": "Appointed by Democratic governor to heavily Democratic county bench",
+      "fiscal": "Granholm (D) appointee; no specific positions found"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Chandra W. Baker-Robinson",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Elected 2020; former Wayne County assistant prosecutor in Arson Unit. Wayne County Democratic context.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Elected in heavily Democratic Wayne County; no specific record",
+      "marriage": "Wayne County Democratic context; no specific positions",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Wayne County context leans anti-2A",
+      "limitedGov": "Elected in Democratic stronghold; prosecution background provides some moderate signal",
+      "fiscal": "No specific positions found; Wayne County context"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Christopher M. Blount",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Originally appointed to 36th District Court by Snyder (R), then appointed to 3rd Circuit by Whitmer (D) in 2022. Mixed appointment signals. Background in legal aid and criminal defense.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Mixed signals: Snyder appointee to district court, Whitmer appointee to circuit court",
+      "marriage": "Mixed appointment signals; no specific positions",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Defense attorney background; mixed appointment signals",
+      "limitedGov": "Cross-party appointee suggests moderate judicial philosophy",
+      "fiscal": "No specific positions found"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Nicole L. Castka",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2025. Criminal defense sole practitioner since 2003. Member of criminal defense associations.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; no specific record",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Criminal defense background and Whitmer appointee",
+      "limitedGov": "Appointed by Democratic governor; defense attorney background",
+      "fiscal": "Whitmer (D) appointee; no specific positions found"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Bradley L. Cobb",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2022. Former Wayne County assistant prosecutor for 25+ years. Prosecution background but Democratic appointment.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; no specific record",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions found; long prosecution career provides some moderate signal",
+      "secondAmendment": "25+ year prosecutor career suggests law-and-order approach, but Democratic appointment",
+      "limitedGov": "Whitmer (D) appointee; prosecution background provides moderate counterweight",
+      "fiscal": "Whitmer (D) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Chris Dingell",
+    "incumbent": true,
+    "grade": "F",
+    "description": "Former Democratic state senator (1987-2003). Member of the Dingell political dynasty (father John Dingell Jr., stepmother Debbie Dingell - both Democratic U.S. representatives). Elected to circuit court 2002.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Former Democratic state senator from prominent Democratic family; strong progressive political background",
+      "marriage": "Democratic political background; awarded by AADC for civil rights work",
+      "religiousLiberty": "No specific positions but Democratic political career",
+      "secondAmendment": "Democratic political background; Dingell family has mixed gun positions",
+      "limitedGov": "Career Democratic politician turned judge; likely activist judicial philosophy",
+      "fiscal": "Democratic state senator background; progressive fiscal views expected"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Charlene M. Elder",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Granholm (D) in 2005. First Arab-American female judge on 3rd Circuit. Private practice in consumer protection before appointment.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Granholm (D) appointee; no specific record",
+      "marriage": "Granholm (D) appointee; no specific positions",
+      "religiousLiberty": "Granholm (D) appointee; no specific positions",
+      "secondAmendment": "Granholm (D) appointee; Wayne County context",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Granholm (D) appointee; consumer protection background"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Helal A. Farhat",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2019. Private practice attorney, former 19th District Court magistrate. Now Chief Judge Pro Tem.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; no specific record",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "Whitmer (D) appointee; no specific positions",
+      "secondAmendment": "Whitmer (D) appointee; Wayne County context",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Whitmer (D) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Nicole N. Goodson",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2022. Wayne County bench.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; no specific record",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Whitmer (D) appointee; Wayne County context",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Whitmer (D) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Edward J. Joseph",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2014. Former private practice attorney and special assistant attorney general. U of M and Wayne State Law.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no specific record but appointment signal leans conservative",
+      "marriage": "Snyder (R) appointee; no specific positions found",
+      "religiousLiberty": "Snyder (R) appointee; served as special assistant AG",
+      "secondAmendment": "Snyder (R) appointee; no specific positions",
+      "limitedGov": "Appointed by Republican governor; private practice and AG background",
+      "fiscal": "Snyder (R) appointee; business administration degree"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Mary Beth Kelly",
+    "incumbent": true,
+    "grade": "A",
+    "description": "Former Michigan Supreme Court Justice (2011-2015), nominated by Republican Party. First woman chief judge of Wayne Circuit Court. Appointed by Gov. Engler (R) in 1999. Federalist Society member. Strong conservative judicial record.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican-nominated Supreme Court justice; conservative judicial philosophy",
+      "marriage": "Conservative judicial record on Michigan Supreme Court",
+      "religiousLiberty": "Federalist Society member; strong religious liberty record expected",
+      "secondAmendment": "Conservative judicial philosophy as Supreme Court justice",
+      "limitedGov": "Originalist/textualist approach demonstrated on Michigan Supreme Court; Engler appointee",
+      "fiscal": "Conservative judicial approach to regulatory and property issues on Supreme Court"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Don Knapp",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2018. Former Livonia city attorney and council member. Clerked for presiding judge Tim Kenny, worked as legislative aide to state Sen. Thad McCotter (R).",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; worked for Republican Sen. McCotter",
+      "marriage": "Republican political connections; no specific positions",
+      "religiousLiberty": "Snyder appointee with Republican political background",
+      "secondAmendment": "Republican political connections; Livonia city attorney",
+      "limitedGov": "Snyder appointee; municipal law background; McCotter aide",
+      "fiscal": "Municipal attorney background; Republican political connections"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Cylenthia LaToye Miller",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2019. Wayne County bench.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; no specific record",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Whitmer (D) appointee; Wayne County context",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Whitmer (D) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Carla G. Testani",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2018. Wayne County 3rd Circuit Court.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no specific record but appointment signal leans conservative",
+      "marriage": "Snyder (R) appointee; no specific positions",
+      "religiousLiberty": "Snyder (R) appointee; no specific positions",
+      "secondAmendment": "Snyder (R) appointee",
+      "limitedGov": "Appointed by Republican governor",
+      "fiscal": "Snyder (R) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Margaret M. Van Houten",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Wayne County 3rd Circuit Court judge. No clear appointment or partisan signals found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found on abortion-related positions",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "No clear appointment or partisan background found",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Shannon Nicol Walker",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Elected 2014 in Wayne County. Former assistant prosecutor and public defender with Legal Aid & Defenders Association. Mixed prosecution/defense background in Democratic county.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Elected in heavily Democratic Wayne County; no specific record",
+      "marriage": "Wayne County Democratic context; no specific positions",
+      "religiousLiberty": "No specific positions; prosecution experience provides moderate signal",
+      "secondAmendment": "Wayne County context; public defender background",
+      "limitedGov": "Elected in Democratic stronghold; mixed prosecution/defense career",
+      "fiscal": "Wayne County Democratic context"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Shakira Lynn Hawkins",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Non-incumbent candidate for open Wayne County 3rd Circuit Court seat. Running in heavily Democratic county. Limited public information available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "D",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Running in heavily Democratic Wayne County; Wayne County judicial candidates typically lean progressive",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 3,
+    "county": "Wayne",
+    "name": "Aliyah S. Sabree",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2025 to 3rd Circuit; previously appointed to 36th District Court in 2017. Former assistant Wayne County prosecutor, Detroit government attorney.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; Detroit government background",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Whitmer (D) appointee; Wayne County context",
+      "limitedGov": "Appointed by Democratic governor; Detroit city government background",
+      "fiscal": "Whitmer (D) appointee; government service career"
+    }
+  },
+  {
+    "circuit": 4,
+    "county": "Jackson",
+    "name": "Allison L. Bates",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in April 2026 to circuit court. Previously served as 12th District Court judge (appointed 2021). Former judicial juvenile referee.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; no specific record",
+      "marriage": "Whitmer (D) appointee; family division background",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Whitmer (D) appointee",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Whitmer (D) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 4,
+    "county": "Jackson",
+    "name": "John G. McBain Jr.",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Elected 2002; former Jackson County prosecuting attorney (elected 1996). 5-year career as Florida assistant state attorney. Extensive prosecution background. Elected in moderate county.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "C",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Long prosecutor career; elected in moderate-conservative Jackson County",
+      "marriage": "No specific positions found; moderate county context",
+      "religiousLiberty": "No specific positions; prosecutor background",
+      "secondAmendment": "Prosecutor career suggests law-and-order approach favorable to 2A",
+      "limitedGov": "Elected prosecutor and judge; career suggests judicial restraint",
+      "fiscal": "No specific positions; moderate county elected official"
+    }
+  },
+  {
+    "circuit": 5,
+    "county": "Barry",
+    "name": "Vicky L. Alspaugh",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2019. Former assistant prosecutor and court referee/magistrate. Barry County is conservative but appointment was Democratic.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee, but prosecution background in conservative county provides moderate signal",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions; prosecution background",
+      "secondAmendment": "Prosecutor experience in rural conservative county; Whitmer appointee",
+      "limitedGov": "Appointed by Democratic governor despite serving in conservative county",
+      "fiscal": "Whitmer (D) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "Mary Ellen T. Brennan",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Oakland County 6th Circuit Court judge. No clear gubernatorial appointment signal found. Oakland County is politically purple.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Oakland County context is politically mixed; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "David M. Cohen",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Oakland County 6th Circuit Court judge. No clear gubernatorial appointment signal found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Oakland County context; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "Lisa Gorcyca",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Oakland County 6th Circuit Court judge. No clear gubernatorial appointment signal found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Oakland County context; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "Nanci Grant",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Oakland County 6th Circuit Court judge. Serves on Michigan Judicial Tenure Commission.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Oakland County context; serves on Judicial Tenure Commission",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "Jeffery S. Matis",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Oakland County 6th Circuit Court judge. Civil/criminal division.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Oakland County context; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "Lorie N. Savin",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Oakland County 6th Circuit Court judge. No clear partisan signals found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Oakland County context; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "Scott L. Farida",
+    "incumbent": false,
+    "grade": "B",
+    "description": "Former Oakland County assistant prosecutor (2017-2023). Ran for Oakland County Prosecutor in 2024 (Republican-leaning candidacy). Detroit Catholic Central graduate. Chaldean-American. Strong prosecution background.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Catholic school education (Detroit Catholic Central, St. Hugo); prosecution background",
+      "marriage": "Catholic education background suggests traditional values",
+      "religiousLiberty": "Catholic school background; Chaldean-American community involvement",
+      "secondAmendment": "Prosecutor career; law-and-order orientation",
+      "limitedGov": "Prosecutor background suggests judicial restraint; ran as reform prosecutor candidate",
+      "fiscal": "Small business family background"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "Nadine Renee Hatten",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Hazel Park Magistrate. Former teacher turned attorney. Criminal defense board member (CDAM). Previous write-in candidate in 2020. Defense-oriented background.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific record; defense attorney orientation suggests progressive",
+      "marriage": "No specific positions; magistrate in progressive-leaning area",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Criminal defense background; board member of Criminal Defense Attorneys of Michigan",
+      "limitedGov": "Criminal defense orientation; education/social work background suggests activist approach",
+      "fiscal": "No specific positions found"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "Victoria King",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Advises circuit judges on complex cases. Family division experience. Legal analyst role. Limited partisan signals available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found on positions",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Court research/advisory role; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 6,
+    "county": "Oakland",
+    "name": "Lisa Marie Neilson",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Oakland County Probate Court staff attorney. JD from Thomas Cooley, MSW from University of Michigan. Previously attempted Court of Appeals run in 2024 (disqualified).",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Social work degree combined with law degree; mixed signals; probate court staff attorney",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 7,
+    "county": "Genesee",
+    "name": "Chris Christenson",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Joined 7th Circuit as Family Division judge in January 2021. Genesee County (Flint area) bench.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Genesee County context leans Democratic; no clear appointment signal found",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 7,
+    "county": "Genesee",
+    "name": "Mark W. Latchana",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Genesee County 7th Circuit Court judge. No clear appointment or partisan signals found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Genesee County context; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 7,
+    "county": "Genesee",
+    "name": "Anthony J. McDowell",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2024. Former Friend of the Court director for Genesee County since 2014. Family court administrative background.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; no specific record",
+      "marriage": "Whitmer (D) appointee; family court administration background",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Whitmer (D) appointee",
+      "limitedGov": "Appointed by Democratic governor; government administration career",
+      "fiscal": "Whitmer (D) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 8,
+    "county": "Ionia / Montcalm",
+    "name": "Lori J. Shearer",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Belding attorney with career rooted in local private practice. Running for open seat (Judge Kreeger retiring). Limited partisan signals.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Private practice attorney in rural conservative area; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 8,
+    "county": "Ionia / Montcalm",
+    "name": "Ed Sternisha",
+    "incumbent": false,
+    "grade": "B",
+    "description": "Belding attorney whose career spans law enforcement and the courtroom. Law enforcement background in rural conservative area is a positive signal.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific record; law enforcement background in conservative area",
+      "marriage": "No specific positions; rural conservative area",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Law enforcement career background strongly suggests pro-2A",
+      "limitedGov": "Law enforcement and courtroom experience suggests restraint-oriented approach",
+      "fiscal": "No specific positions; conservative area"
+    }
+  },
+  {
+    "circuit": 9,
+    "county": "Kalamazoo",
+    "name": "Gary C. Giguere Jr.",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Granholm (D) in 2007. Former private practice attorney and adjunct professor. Long-serving judge in Kalamazoo County.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Granholm (D) appointee; no specific record",
+      "marriage": "Granholm (D) appointee; Kalamazoo is college town leaning progressive",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Granholm (D) appointee",
+      "limitedGov": "Appointed by Democratic governor; academic background",
+      "fiscal": "Granholm (D) appointee"
+    }
+  },
+  {
+    "circuit": 10,
+    "county": "Saginaw",
+    "name": "Manvel Trice III",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2017 to circuit court (and 2016 to district court). Former federal assistant U.S. attorney and Saginaw County assistant prosecutor. Strong prosecution background.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee (twice); no specific record but strong appointment signal",
+      "marriage": "Snyder (R) appointee; no specific positions",
+      "religiousLiberty": "Snyder (R) appointee; federal prosecution background",
+      "secondAmendment": "Former federal and county prosecutor; Snyder appointee; law-and-order",
+      "limitedGov": "Appointed twice by Republican governor; prosecution career suggests restraint",
+      "fiscal": "Snyder (R) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 11,
+    "county": "Alger / Luce / Schoolcraft",
+    "name": "Brian D. Rahilly",
+    "incumbent": true,
+    "grade": "F",
+    "description": "Incumbent under controversy: disqualified from criminal cases in Mackinac County due to judicial misconduct allegations. Prosecutors in multiple counties sought removal citing bias and impropriety. Text message scandal. Extremely problematic judicial record.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No specific record on this issue",
+      "marriage": "No specific record on this issue",
+      "religiousLiberty": "No specific record on this issue",
+      "secondAmendment": "Disqualified from criminal cases due to bias toward defendants; undermines public safety",
+      "limitedGov": "Multiple judicial misconduct findings; disqualified from cases due to impropriety and bias; activist conduct",
+      "fiscal": "No specific record on this issue"
+    }
+  },
+  {
+    "circuit": 11,
+    "county": "Alger / Luce / Schoolcraft",
+    "name": "Robert T. Steinhoff",
+    "incumbent": false,
+    "grade": "B",
+    "description": "Alger County Prosecutor since 2019 (appointed by Judge Carmody, elected 2020). Former criminal defense attorney, DHS attorney, Wisconsin military affairs. Runs on 'accountability and restored integrity' platform against troubled incumbent.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific record; prosecutor in conservative UP area",
+      "marriage": "No specific positions; rural conservative context",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Elected prosecutor in rural UP; law enforcement/DHS background strongly pro-2A",
+      "limitedGov": "Prosecutor running on accountability and rule of law; restrained judicial approach expected",
+      "fiscal": "No specific positions; conservative area"
+    }
+  },
+  {
+    "circuit": 12,
+    "county": "Baraga / Houghton / Keweenaw",
+    "name": "Brittany A. Bulleit",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2023. Former Houghton County prosecutor (2019) and chief assistant prosecutor (10 years). Prosecution background but Democratic appointment.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee but long prosecutor career provides moderate signal",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions; prosecutor background",
+      "secondAmendment": "Long prosecutor career in rural UP; law-and-order counterweight to Democratic appointment",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Whitmer (D) appointee"
+    }
+  },
+  {
+    "circuit": 13,
+    "county": "Antrim / Grand Traverse / Leelanau",
+    "name": "Kevin A. Elsenheimer",
+    "incumbent": true,
+    "grade": "A",
+    "description": "Appointed by Gov. Snyder (R) in 2017. Former Republican state representative and House Minority Leader (2005-2011). Strong conservative Republican political background.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican state representative and House leader; strong conservative voting record",
+      "marriage": "Republican House leader during period of traditional marriage advocacy",
+      "religiousLiberty": "Republican legislator; strong conservative record",
+      "secondAmendment": "Republican legislator from rural northern Michigan; pro-2A expected",
+      "limitedGov": "Snyder appointee; former Republican House Minority Leader demonstrates restraint philosophy",
+      "fiscal": "Republican legislator; conservative fiscal voting record"
+    }
+  },
+  {
+    "circuit": 14,
+    "county": "Muskegon",
+    "name": "Kathy Hoogstra",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2013. Calvin College graduate. Former probate court administrator and family court referee. Prosecution/judicial administration background.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; Calvin College (Christian Reformed) graduate",
+      "marriage": "Calvin College graduate; conservative Reformed tradition",
+      "religiousLiberty": "Calvin College graduate; Christian Reformed background strongly supports religious liberty",
+      "secondAmendment": "Snyder (R) appointee; no specific positions",
+      "limitedGov": "Appointed by Republican governor; court administration background",
+      "fiscal": "Snyder (R) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 15,
+    "county": "Branch",
+    "name": "Zachary William Stempien",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in April 2026. Former Branch County prosecuting attorney (elected 2020). Lifelong Coldwater resident. Prosecutor background but very recent Democratic appointment.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee; prosecutor background in conservative county provides moderate signal",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions; prosecutor background",
+      "secondAmendment": "Elected prosecutor in rural county; law-and-order background",
+      "limitedGov": "Appointed by Democratic governor despite serving conservative county",
+      "fiscal": "Whitmer (D) appointee"
+    }
+  },
+  {
+    "circuit": 16,
+    "county": "Macomb",
+    "name": "Julie Gatti",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected to Macomb County circuit bench in 2018. Civil/criminal division. Macomb County is politically purple/swing.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Elected in swing-county Macomb; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 16,
+    "county": "Macomb",
+    "name": "Tanya A. Grillo",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed January 2026 (Whitmer administration period). Criminal defense practice founder (Grillo Law PLLC). Defense-oriented background.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed during Whitmer administration; criminal defense background",
+      "marriage": "No specific positions; recent Whitmer-era appointment",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Criminal defense practice; Whitmer-era appointment",
+      "limitedGov": "Appointed during Democratic administration; defense attorney background",
+      "fiscal": "No specific positions; Whitmer-era appointment"
+    }
+  },
+  {
+    "circuit": 16,
+    "county": "Macomb",
+    "name": "James M. Maceroni",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Macomb County 16th Circuit Court judge. Criminal/civil division. No clear appointment or partisan signals found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Macomb County context; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 16,
+    "county": "Macomb",
+    "name": "Matthew S. Switalski",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Chief Judge Family Division, Macomb County 16th Circuit Court. No clear appointment signal found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Macomb County swing context; family division chief judge",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 16,
+    "county": "Macomb",
+    "name": "Jeremy F. Fisher",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Macomb County assistant prosecutor for 7 years. Former labor/employment attorney representing unions. Uses ActBlue for fundraising (Democratic platform). Progressive legal career.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Uses ActBlue (Democratic fundraising); labor union attorney background",
+      "marriage": "Progressive fundraising platform; labor law background",
+      "religiousLiberty": "No specific positions; progressive orientation",
+      "secondAmendment": "Prosecutor experience provides moderate signal despite progressive orientation",
+      "limitedGov": "Labor union representation; progressive fundraising; likely activist judicial approach",
+      "fiscal": "Labor/employment law representing unions; progressive orientation"
+    }
+  },
+  {
+    "circuit": 16,
+    "county": "Macomb",
+    "name": "Mariell Lehman",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Trial attorney with 14+ years experience across Macomb County. Emphasizes constitutional rights, fairness, and dignity. Private practice.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Emphasis on constitutional rights; 14 years trial experience; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 16,
+    "county": "Macomb",
+    "name": "James L. Spagnuolo",
+    "incumbent": false,
+    "grade": "B",
+    "description": "Marine Corps veteran. 20+ year trial attorney in personal injury, wrongful death. Founder of Macomb Law Group. VP of Chippewa Valley Educational Foundation. Community-oriented conservative profile.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Marine veteran; no specific record but military background correlates with conservative values",
+      "marriage": "No specific positions; military/community background",
+      "religiousLiberty": "No specific positions; military service and community involvement suggest traditional values",
+      "secondAmendment": "Marine Corps veteran; military background very strongly pro-2A",
+      "limitedGov": "Marine veteran; 'discipline' messaging suggests judicial restraint; private practice background",
+      "fiscal": "Private practice attorney and small business founder; pro-property rights expected"
+    }
+  },
+  {
+    "circuit": 16,
+    "county": "Macomb",
+    "name": "Genevieve L. Taylor",
+    "incumbent": false,
+    "grade": "C",
+    "description": "40th District Court magistrate (appointed 2021). Criminal defense and driver's license restoration practice. Interned at Macomb County Prosecutor's Office. Indigent defense research.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "Mixed: prosecution intern but primarily criminal defense practice",
+      "limitedGov": "Defense attorney background; indigent defense research; moderate magistrate experience",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 17,
+    "county": "Kent",
+    "name": "Maureen A. Gottlieb",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Kent County 17th Circuit Court judge. Current term ends January 2027. No clear appointment or partisan signals found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Kent County (Grand Rapids) context; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 17,
+    "county": "Kent",
+    "name": "Scott A. Noto",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Kent County 17th Circuit Court judge. No clear appointment or partisan signals found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Kent County context; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 17,
+    "county": "Kent",
+    "name": "Clay M. West",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Kent County 17th Circuit Court judge. No clear appointment or partisan signals found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Kent County context; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 18,
+    "county": "Bay",
+    "name": "Michael Huber",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Non-incumbent candidate for open Bay County 18th Circuit Court seat. Limited public information available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "No public record found",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 19,
+    "county": "Manistee / Benzie",
+    "name": "David A. Thompson",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Elected 2014. Former Manistee County chief assistant prosecutor and Family Division director. Appointed Chief Judge by Michigan Supreme Court in 2016. Law-and-order background in rural conservative area.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Elected in conservative rural area; prosecutor background",
+      "marriage": "Family Division director; conservative area context",
+      "religiousLiberty": "No specific positions; conservative rural context",
+      "secondAmendment": "Prosecutor in rural northern Michigan; law-and-order orientation",
+      "limitedGov": "Elected (not appointed); prosecutor career suggests judicial restraint",
+      "fiscal": "Conservative rural area; no specific positions"
+    }
+  },
+  {
+    "circuit": 20,
+    "county": "Ottawa",
+    "name": "Jon Hulsing",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Appointed by Gov. Granholm (D) in 2006. Former Ottawa County assistant prosecutor (1995-2006). Ottawa County is strongly conservative/Republican, creating a mixed signal with Democratic appointment.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Granholm (D) appointee in strongly conservative Ottawa County; mixed signals",
+      "marriage": "Mixed: Democratic appointment but conservative county context",
+      "religiousLiberty": "Mixed signals; conservative county",
+      "secondAmendment": "Prosecutor background in conservative county; Democratic appointment",
+      "limitedGov": "Democratic appointee but has served 18+ years in conservative county without controversy",
+      "fiscal": "Mixed signals; no specific positions"
+    }
+  },
+  {
+    "circuit": 22,
+    "county": "Washtenaw",
+    "name": "Patrick J. Conlin Jr.",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Elected 2014 in very progressive Washtenaw County (Ann Arbor). Chief Judge. Washtenaw is one of Michigan's most liberal counties.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Elected in very progressive Washtenaw County",
+      "marriage": "Very progressive county context",
+      "religiousLiberty": "Very progressive county; no specific positions",
+      "secondAmendment": "Washtenaw County strongly anti-gun context",
+      "limitedGov": "Elected in one of Michigan's most liberal counties",
+      "fiscal": "Progressive county; no specific positions"
+    }
+  },
+  {
+    "circuit": 22,
+    "county": "Washtenaw",
+    "name": "Tracy E. Van den Bergh",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Washtenaw County 22nd Circuit Court judge. Very progressive county (Ann Arbor).",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Washtenaw County (Ann Arbor) very progressive context",
+      "marriage": "Very progressive county",
+      "religiousLiberty": "No specific positions; progressive county",
+      "secondAmendment": "Very progressive county context",
+      "limitedGov": "Elected/serving in one of Michigan's most liberal counties",
+      "fiscal": "Progressive county context"
+    }
+  },
+  {
+    "circuit": 24,
+    "county": "Sanilac",
+    "name": "Timothy C. Wrathell",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Elected 2020. Born and raised in Sanilac County. Engineering degree (Purdue) and law degree. Private practice attorney for 10+ years in rural conservative Thumb region.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Elected in very conservative Thumb region of Michigan",
+      "marriage": "Conservative rural area; no specific positions",
+      "religiousLiberty": "No specific positions; conservative context",
+      "secondAmendment": "Elected in rural conservative Sanilac County; pro-2A area",
+      "limitedGov": "Elected in conservative county; engineering background suggests analytical approach",
+      "fiscal": "Private practice in conservative rural area; no specific positions"
+    }
+  },
+  {
+    "circuit": 25,
+    "county": "Marquette",
+    "name": "Matt Wiese",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2023. Former Marquette County prosecutor (30+ years). President of Prosecutors Association of Michigan. Long prosecution career but Democratic appointment.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee; 30+ year prosecutor provides moderate signal",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions; prosecution career",
+      "secondAmendment": "30+ year prosecutor career; law-and-order background provides moderate counterweight",
+      "limitedGov": "Appointed by Democratic governor; former Battered Women's Justice Project staff attorney",
+      "fiscal": "Whitmer (D) appointee"
+    }
+  },
+  {
+    "circuit": 26,
+    "county": "Alpena / Montmorency",
+    "name": "K. Edward Black",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D). Former prosecutor in Alpena/Montmorency counties since 2009. Rural conservative area but Democratic appointment. Now Chief Judge.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee; prosecutor background in conservative area provides moderate signal",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions; rural conservative context",
+      "secondAmendment": "Prosecutor in rural northern Michigan; but Democratic appointee",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Whitmer (D) appointee"
+    }
+  },
+  {
+    "circuit": 28,
+    "county": "Missaukee / Wexford",
+    "name": "Jason J. Elmore",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Elected 2020. 22-year U.S. Army JAG Corps veteran (including deployment as prosecutor, 3 years as military judge). Former Wexford County prosecutor. Strong military and law enforcement background.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Military veteran; elected in conservative rural area",
+      "marriage": "Military career; conservative rural context",
+      "religiousLiberty": "No specific positions; military background",
+      "secondAmendment": "22-year Army JAG veteran; military background very strongly pro-2A",
+      "limitedGov": "Elected (not appointed); military judicial experience; prosecutor career",
+      "fiscal": "Conservative rural area; no specific positions"
+    }
+  },
+  {
+    "circuit": 29,
+    "county": "Clinton / Gratiot",
+    "name": "Shannon L.W. Schlegel",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected 2020 unopposed. Private practice attorney for 12+ years. Former special prosecutor for DHHS in child welfare. Clinton County Planning Commission chair. Community involvement in conservative-leaning area.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific record; moderate-conservative area",
+      "marriage": "Family law practitioner; no specific positions",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "No specific positions; rural area context",
+      "limitedGov": "Private practice background; served on zoning and planning boards; moderate",
+      "fiscal": "Small business owner; community involvement in conservative area"
+    }
+  },
+  {
+    "circuit": 30,
+    "county": "Ingham",
+    "name": "Rosemarie Elizabeth Aquilina",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Elected 2008. Famous for Larry Nassar sentencing. Background as Democratic campaign manager for state Sen. John Kelly. Former Democratic lobbyist. Self-described 'raised a Democrat.'",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Democratic political background; worked for Democratic senator and lobby firm",
+      "marriage": "Democratic political career; progressive orientation",
+      "religiousLiberty": "No specific positions; mixed signals",
+      "secondAmendment": "Democratic political background; Ingham County progressive context",
+      "limitedGov": "Known for activist judicial style in Nassar case; Democrats recruited her for Supreme Court run; campaign manager/lobbyist turned judge",
+      "fiscal": "Democratic lobbyist background; Ingham County progressive context"
+    }
+  },
+  {
+    "circuit": 30,
+    "county": "Ingham",
+    "name": "Carol N. Koenig",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Elected 2020 in progressive Ingham County (Lansing). Family Division judge. Progressive county context.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Elected in progressive Ingham County (state capital)",
+      "marriage": "Progressive county context",
+      "religiousLiberty": "No specific positions; progressive county",
+      "secondAmendment": "Progressive Ingham County context",
+      "limitedGov": "Elected in progressive county",
+      "fiscal": "Progressive county context"
+    }
+  },
+  {
+    "circuit": 30,
+    "county": "Ingham",
+    "name": "Wanda M. Stokes",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Ingham County 30th Circuit Court judge. Progressive county (Lansing).",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Progressive Ingham County context",
+      "marriage": "Progressive county",
+      "religiousLiberty": "No specific positions; progressive county",
+      "secondAmendment": "Progressive county context",
+      "limitedGov": "Ingham County context leans progressive",
+      "fiscal": "Progressive county context"
+    }
+  },
+  {
+    "circuit": 30,
+    "county": "Ingham",
+    "name": "Patricia Tremblay",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in March 2025. Over two decades of public service in Michigan government. Family Division judge.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; career in Michigan government",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions",
+      "secondAmendment": "Whitmer (D) appointee",
+      "limitedGov": "Appointed by Democratic governor; career government service",
+      "fiscal": "Whitmer (D) appointee; government career"
+    }
+  },
+  {
+    "circuit": 31,
+    "county": "St. Clair",
+    "name": "Daniel A. Damman",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Former three-term mayor of Marysville. Private practice attorney. St. Clair County is conservative-leaning. Community service background.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Conservative-leaning St. Clair County; former Republican-area mayor",
+      "marriage": "Conservative county context; no specific positions",
+      "religiousLiberty": "No specific positions; conservative area",
+      "secondAmendment": "Conservative county; no specific positions",
+      "limitedGov": "Private practice and municipal government background; conservative area",
+      "fiscal": "Former mayor; private practice; conservative county context"
+    }
+  },
+  {
+    "circuit": 32,
+    "county": "Gogebic / Ontonagon",
+    "name": "Michael K. Pope",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2016. Private practice attorney (Dean and Pope). Biology and history degree from Alma College. Criminal law adjunct professor at Gogebic Community College.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no specific record",
+      "marriage": "Snyder (R) appointee; no specific positions",
+      "religiousLiberty": "Snyder (R) appointee; no specific positions",
+      "secondAmendment": "Snyder appointee; rural UP context; private practice",
+      "limitedGov": "Appointed by Republican governor; private practice background",
+      "fiscal": "Snyder (R) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 33,
+    "county": "Charlevoix",
+    "name": "Roy Charles Hayes III",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Elected 2014. University of Notre Dame graduate, Washington & Lee Law School. Former private practice attorney (Hayes Law Firm). Conservative-leaning Charlevoix County.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Notre Dame graduate (Catholic university); conservative northern Michigan county",
+      "marriage": "Catholic education background; conservative area",
+      "religiousLiberty": "Notre Dame background; no specific positions",
+      "secondAmendment": "Rural northern Michigan; conservative county",
+      "limitedGov": "Private practice background; elected in conservative county",
+      "fiscal": "Private practice; conservative county context"
+    }
+  },
+  {
+    "circuit": 35,
+    "county": "Shiawassee",
+    "name": "Matthew J. Stewart",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Elected 2014. U.S. Navy veteran (Operation Desert Shield/Storm). Thomas Cooley Law School. Military service and rural county election are conservative signals.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Navy veteran; elected in conservative Shiawassee County",
+      "marriage": "Military veteran; conservative county",
+      "religiousLiberty": "No specific positions; conservative context",
+      "secondAmendment": "U.S. Navy veteran; Operation Desert Shield/Storm; strongly pro-2A expected",
+      "limitedGov": "Military veteran; elected in conservative county; judicial restraint expected",
+      "fiscal": "Conservative county; no specific positions"
+    }
+  },
+  {
+    "circuit": 36,
+    "county": "Van Buren",
+    "name": "Kelly Ward",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Judicial officer/attorney referee in Van Buren County Family Court since 2021. Presides over domestic relations and juvenile matters. Running for open seat.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Family court referee experience; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 37,
+    "county": "Calhoun",
+    "name": "Sarah S. Lincoln",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected 2014, reelected 2020. First female circuit judge in Calhoun County history. Former assistant prosecutor for 13 years. Prosecution background but no clear partisan alignment.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific record; prosecutor background",
+      "marriage": "No specific positions found",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "13-year prosecutor career; law-and-order background",
+      "limitedGov": "Elected twice; prosecutor background; no clear partisan signal",
+      "fiscal": "No specific positions found"
+    }
+  },
+  {
+    "circuit": 38,
+    "county": "Monroe",
+    "name": "Lauren K. Beaudry",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Non-incumbent candidate for open Monroe County 38th Circuit Court seat. Limited public information available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "No public record found",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 38,
+    "county": "Monroe",
+    "name": "Maria Zagorski",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Monroe County attorney. Has run for district court judge previously. Limited public information on political orientation.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "No public record found",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 39,
+    "county": "Lenawee",
+    "name": "Michael R. Olsaver",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2019. Private practice attorney prior to appointment.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; no specific record",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Whitmer (D) appointee",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Whitmer (D) appointee"
+    }
+  },
+  {
+    "circuit": 40,
+    "county": "Lapeer",
+    "name": "Mike Hodges",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Elected 2020 (defeated incumbent). Former Lapeer County chief assistant prosecutor with 80+ jury trials. Friend of the Court experience. Law-and-order candidate in conservative county.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Elected in conservative Lapeer County",
+      "marriage": "Conservative county; no specific positions",
+      "religiousLiberty": "No specific positions; conservative county",
+      "secondAmendment": "Extensive prosecutor career; 80+ jury trials; law-and-order",
+      "limitedGov": "Elected by defeating incumbent; prosecutor background suggests restraint",
+      "fiscal": "Conservative county; no specific positions"
+    }
+  },
+  {
+    "circuit": 41,
+    "county": "Iron / Dickinson / Menominee",
+    "name": "Christopher S. Ninomiya",
+    "incumbent": true,
+    "grade": "A",
+    "description": "Appointed by Gov. Snyder (R) in 2018. Former elected Dickinson County prosecuting attorney (since 1993). Former 95-B District Court judge (elected 2008). MSU and Wayne State Law. Long conservative prosecution career in UP.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; elected prosecutor since 1993 in conservative UP",
+      "marriage": "Conservative UP context; no specific positions",
+      "religiousLiberty": "No specific positions; conservative context",
+      "secondAmendment": "Long-serving prosecutor in rural UP; Snyder appointee; strongly pro-2A expected",
+      "limitedGov": "Snyder appointee; decades as elected prosecutor; strong rule-of-law philosophy",
+      "fiscal": "Snyder appointee; conservative area; no specific positions"
+    }
+  },
+  {
+    "circuit": 42,
+    "county": "Midland",
+    "name": "Michael J. Beale",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Appointed by Gov. Granholm (D) in 2007. Declined to perform same-sex marriages in 2015 (stopped performing all marriages). Private practice attorney. Midland County is conservative.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Granholm (D) appointee but in conservative Midland County; mixed signals",
+      "marriage": "Stopped performing all marriages rather than perform same-sex marriages in 2015; signals traditional values",
+      "religiousLiberty": "Marriage decision suggests strong religious conscience; conservative personal values",
+      "secondAmendment": "Mixed: Democratic appointee in conservative county",
+      "limitedGov": "Granholm appointee but marriage stance shows independent/conservative judicial outlook",
+      "fiscal": "Private practice; conservative county; Democratic appointee"
+    }
+  },
+  {
+    "circuit": 44,
+    "county": "Livingston",
+    "name": "Andrea Banfield",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Brighton attorney. 'Outstanding' rating from Women Lawyers Association of Michigan. Family law focus. Fourth candidate in crowded 44th Circuit race.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found; family law focus",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "Women Lawyers Association recognition; no clear partisan signal; Livingston County is conservative",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 44,
+    "county": "Livingston",
+    "name": "Christopher Candela",
+    "incumbent": false,
+    "grade": "A",
+    "description": "Senior Assistant Prosecuting Attorney in Eaton County. Explicitly states he will 'apply the law as written, respect the separate roles of government, and put public safety and accountability first.' Originalist/textualist messaging. MSU College of Law. Age 30.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Prosecutor; conservative judicial messaging; Livingston County conservative context",
+      "marriage": "No specific positions but conservative judicial philosophy stated",
+      "religiousLiberty": "Conservative judicial philosophy; 'separate roles of government'",
+      "secondAmendment": "Prosecutor career; public safety first messaging",
+      "limitedGov": "Explicitly textualist/originalist: 'apply the law as written, respect the separate roles of government'; strong judicial restraint signal",
+      "fiscal": "Conservative judicial philosophy; prosecutor background"
+    }
+  },
+  {
+    "circuit": 44,
+    "county": "Livingston",
+    "name": "Mark Gatesman",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Howell attorney with 25+ years in criminal law. Works with 44th Circuit specialty courts (addiction/mental health). Experienced local practitioner.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "Criminal law practice; no clear signal",
+      "limitedGov": "25+ years criminal law; specialty court involvement; no clear partisan signal",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 44,
+    "county": "Livingston",
+    "name": "Mary Ellen Hayes",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Howell attorney. Filed for 44th Circuit Court race. Limited public information available on political orientation.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "No public record found",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 44,
+    "county": "Livingston",
+    "name": "Kristina S. Lyke",
+    "incumbent": false,
+    "grade": "A",
+    "description": "Pinckney native. Ran in 2020 Republican congressional primary (8th District) and 2024 Republican primary (50th state House). 20 years circuit court experience. Youngest-ever Pinckney Board of Trustees member. Clear Republican/conservative identity.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Ran in Republican primaries for Congress and state House; Republican political identity",
+      "marriage": "Republican primary candidate; conservative values platform",
+      "religiousLiberty": "Republican political identity; campaign website references constitutional commitment",
+      "secondAmendment": "Republican primary candidate; conservative platform",
+      "limitedGov": "'Committed to the Constitution' campaign messaging; Republican political identity; judicial restraint expected",
+      "fiscal": "Republican primary candidate; conservative fiscal orientation"
+    }
+  },
+  {
+    "circuit": 46,
+    "county": "Kalkaska / Crawford / Otsego",
+    "name": "George J. Mertz",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2013. MSU and Detroit College of Law. Former judicial law clerk for 46th Circuit and AG's office clerk. Elected 2014.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no specific record",
+      "marriage": "Snyder (R) appointee; no specific positions",
+      "religiousLiberty": "Snyder (R) appointee; no specific positions",
+      "secondAmendment": "Snyder appointee; rural northern Michigan; conservative area",
+      "limitedGov": "Appointed by Republican governor; AG office background",
+      "fiscal": "Snyder (R) appointee; no specific positions"
+    }
+  },
+  {
+    "circuit": 48,
+    "county": "Allegan",
+    "name": "Matt Antkoviak",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2023. Criminal defense attorney and partner at Antkoviak and Antkoviak, PC. DUI/DWI defense focus. Chief Judge since 2026.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer (D) appointee; no specific record",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions",
+      "secondAmendment": "Criminal defense practice; Whitmer appointee",
+      "limitedGov": "Appointed by Democratic governor; defense attorney background",
+      "fiscal": "Whitmer (D) appointee"
+    }
+  },
+  {
+    "circuit": 49,
+    "county": "Mecosta / Osceola",
+    "name": "Dennis L. Duvall Jr.",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Non-incumbent candidate for open Mecosta/Osceola 49th Circuit Court seat. Limited public information available. Running unopposed.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public record found",
+      "marriage": "No public record found",
+      "religiousLiberty": "No public record found",
+      "secondAmendment": "No public record found",
+      "limitedGov": "No public record found; running in conservative rural area",
+      "fiscal": "No public record found"
+    }
+  },
+  {
+    "circuit": 51,
+    "county": "Mason",
+    "name": "Susan Kasley Sniegowski",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected 2014. First female circuit judge in 51st Circuit history. Former Mason County prosecutor. MSU journalism degree, University of Denver law degree.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific record; prosecutor background in rural area",
+      "marriage": "No specific positions; moderate-conservative area",
+      "religiousLiberty": "No specific positions found",
+      "secondAmendment": "Prosecutor in rural Michigan; no specific positions",
+      "limitedGov": "Elected prosecutor turned judge; no clear partisan signal",
+      "fiscal": "No specific positions found"
+    }
+  },
+  {
+    "circuit": 52,
+    "county": "Huron",
+    "name": "Gerald M. Prill",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Elected 2014 in very conservative Huron County (Thumb region). MSU and Thomas Cooley Law. President of Huron County Bar Association. Community involvement.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Elected in very conservative Huron County in Thumb region",
+      "marriage": "Very conservative county context",
+      "religiousLiberty": "Conservative county context; no specific positions",
+      "secondAmendment": "Very conservative rural Thumb region",
+      "limitedGov": "Elected in strongly conservative county; private practice background",
+      "fiscal": "Conservative county; community involvement"
+    }
+  },
+  {
+    "circuit": 55,
+    "county": "Clare / Gladwin",
+    "name": "Tara S. Hovey",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in 2022. Private practice attorney since 1996, representing local governments. CMU and Ohio Northern Law. Rural area but Democratic appointment.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee; private practice in rural area provides some moderate signal",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions; local government representation",
+      "secondAmendment": "Rural area practice; but Democratic appointee",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Whitmer (D) appointee; represented local governments"
+    }
+  },
+  {
+    "circuit": 56,
+    "county": "Eaton",
+    "name": "Kelly E. Morton",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Whitmer (D) in July 2024. Former 56A District Court judge. 18-year career as assistant prosecutor in Eaton and Alpena counties. Oakland Community College, Oakland University, MSU College of Law.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee; 18-year prosecution career provides moderate signal",
+      "marriage": "Whitmer (D) appointee; no specific positions",
+      "religiousLiberty": "No specific positions; prosecutor background",
+      "secondAmendment": "Long prosecution career; but Democratic appointee",
+      "limitedGov": "Appointed by Democratic governor",
+      "fiscal": "Whitmer (D) appointee"
+    }
+  }
+]

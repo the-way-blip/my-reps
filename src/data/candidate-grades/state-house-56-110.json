@@ -1,0 +1,3498 @@
+[
+  {
+    "district": 56,
+    "name": "Ashok Baddi",
+    "party": "republican",
+    "grade": "C",
+    "description": "Democrat-turned-Republican candidate for HD-56. Indian American community leader and longtime resident of Troy. Switched parties citing alignment with Republican values on education and gender issues. Immigrated from Hyderabad in 2005. Focuses on education reform, opposing efforts to scale back honors programs. Supports legal immigration pathways. Previously supported Democratic incumbent Sharon MacDonell.",
+    "positions": {
+      "proLife": null,
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements found on abortion or pro-life issues.",
+      "marriage": "Switched to Republican Party citing alignment on gender issues, suggesting moderate traditional values; limited specific statements.",
+      "religiousLiberty": "No specific statements found; party switch suggests some sympathy with religious liberty positions but unclear specifics.",
+      "secondAmendment": "No public statements found on Second Amendment issues.",
+      "limitedGov": "Former Democratic activist turned Republican; education-focused platform suggests moderate limited government views rather than strong convictions.",
+      "fiscal": "No specific fiscal policy statements found; party switch to Republican suggests moderate fiscal conservative leanings."
+    }
+  },
+  {
+    "district": 56,
+    "name": "Sharon MacDonell",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-56. Represents SW Bloomfield Township, Troy, Birmingham, Clawson, and Royal Oak areas. Won 2024 re-election with 57% of the vote. 95% environmental voting record with Michigan LCV. Serves on Appropriations, Oversight, Administrative Rules, and Tax Policy committees. Has supported repealing abortion restrictions, expanding government programs, and progressive environmental policies.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Supported repealing Michigan's abortion ban as part of the Democratic majority's historic reforms in 2023-2024. Consistently votes with pro-choice Democratic caucus.",
+      "marriage": "Votes consistently with Democratic caucus on LGBTQ+ issues including marriage redefinition.",
+      "religiousLiberty": "No specific religious liberty defense record found; votes with Democratic caucus which has generally opposed religious exemptions.",
+      "secondAmendment": "Votes with Democratic caucus on gun control measures passed in 2023-2024 including red flag laws and universal background checks.",
+      "limitedGov": "95% LCV score indicates support for extensive environmental regulation. Supports expanded government programs and services.",
+      "fiscal": "Supports repealing pension tax (reducing revenue), expanding free school meals, and other increased spending programs."
+    }
+  },
+  {
+    "district": 57,
+    "name": "Thomas E. Kuhn",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-57 covering Sterling Heights, Troy, and Madison Heights. Lawyer with degrees from University of Michigan (BA Political Science), University of Toronto (MA and PhD Political Science), and Detroit College of Law (JD). 14% LCV environmental score indicating conservative environmental voting. Has cast over 1,600 votes with 35 bill sponsorships.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Votes with Republican caucus; 14% LCV score suggests conservative voting pattern across issues. No specific pro-life endorsements found.",
+      "marriage": "Republican representative in swing district; votes with caucus on social issues but limited specific statements.",
+      "religiousLiberty": "Votes with Republican caucus; no specific religious liberty legislation highlighted.",
+      "secondAmendment": "Votes with Republican caucus opposing Democratic gun control measures; no specific 2A endorsements found.",
+      "limitedGov": "14% environmental score indicates opposition to regulatory expansion. Votes against Democratic spending proposals.",
+      "fiscal": "Votes with Republican caucus against Democratic budget proposals; limited specific fiscal policy positions."
+    }
+  },
+  {
+    "district": 57,
+    "name": "Tom Turner",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Democratic challenger for HD-57. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 58,
+    "name": "Ron Robinson",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-58, covering most of Sterling Heights in Macomb County. First elected in 2024, defeating incumbent Democrat Nate Shannon. Chairs the House Appropriations Subcommittee on Military and Veterans Affairs. 0% LCV environmental score in 2025. Supports voter ID requirements, full funding for law enforcement, and anti-opioid legislation.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican caucus member; 0% LCV score suggests consistent conservative voting. No specific pro-life endorsements found.",
+      "marriage": "Votes with Republican caucus; limited specific statements on marriage issues.",
+      "religiousLiberty": "No specific statements found; votes consistently with conservative Republican caucus.",
+      "secondAmendment": "Supports law enforcement legislation; votes with Republican caucus opposing gun control. No specific 2A endorsements found.",
+      "limitedGov": "0% LCV environmental score indicates strong opposition to regulatory expansion. Supports voter ID and law enforcement funding.",
+      "fiscal": "Freshman Republican with conservative fiscal leanings; chairs Military and Veterans Affairs appropriations subcommittee."
+    }
+  },
+  {
+    "district": 58,
+    "name": "Katrina Manetta",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-58. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 59,
+    "name": "Sylvia Grot",
+    "party": "republican",
+    "grade": "B",
+    "description": "Macomb County Commissioner (District 3) since 2022 representing Shelby Township and Utica. Running for State House HD-59. Self-described 'common sense conservative' who believes government should not spend money it does not have. Pledged no new taxes or fees. Married to Shelby Township Clerk Stanley Grot. Active Republican precinct delegate for 16 years, served on 10th Congressional District Executive Committee and Michigan Republican Party State Committee. Chair of Macomb Orchard Trail Commission.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Conservative Republican in Macomb County; no specific pro-life endorsements found but party alignment suggests pro-life leanings.",
+      "marriage": "Conservative Republican activist for 16+ years; limited specific statements but party involvement suggests traditional marriage support.",
+      "religiousLiberty": "Long-time Republican activist; no specific religious liberty statements found.",
+      "secondAmendment": "Conservative Republican in Macomb County; no specific 2A endorsements found.",
+      "limitedGov": "Core philosophy is that 'government should not spend money that it does not have.' Pledged no new taxes or fees. Strong limited government credentials.",
+      "fiscal": "Explicit pledge of no new taxes or fees. Conservative fiscal philosophy is central to her governing approach."
+    }
+  },
+  {
+    "district": 59,
+    "name": "Matt Grubb",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-59 primary. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 59,
+    "name": "Jean Zott",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican challenger for HD-59. Retired controller, CPA, and small business owner. Worked for Joe Randazzo's Fruit & Vegetable, Inc. for 30 years as controller. Currently owns an accounting and tax practice. 26-year resident of Shelby Township. Previously ran in 2024 Republican primary but lost.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "B",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific statements found on pro-life issues.",
+      "marriage": "No specific statements found.",
+      "religiousLiberty": "No specific statements found.",
+      "secondAmendment": "No specific statements found.",
+      "limitedGov": "Small business owner and CPA background suggests limited government philosophy; running as Republican in conservative Macomb County district.",
+      "fiscal": "CPA and controller with 30 years of financial management experience. Small business owner with strong fiscal management background."
+    }
+  },
+  {
+    "district": 59,
+    "name": "Jason Robbins",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-59. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 60,
+    "name": "Joseph Aragona",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-60 covering northern Clinton Township and Macomb Township. First elected in 2022. Lifelong Macomb County resident. BS in Biomedical Diagnostics from Oakland University, Executive MBA from Michigan State University. Served on Clinton Township Board of Trustees 2016-2020. Potential candidate for US House MI-10 in 2026.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent in conservative Macomb County; votes with Republican caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements on marriage issues.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control; no specific 2A endorsements found.",
+      "limitedGov": "Republican representative with business background (MBA); supports limited government as part of caucus positions.",
+      "fiscal": "Business-oriented Republican with MBA from MSU; votes with caucus on fiscal issues."
+    }
+  },
+  {
+    "district": 60,
+    "name": "Amy Gray",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-60. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 61,
+    "name": "John Grossenbacher",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-61. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 61,
+    "name": "Robert Wojtowicz",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-61. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 61,
+    "name": "Mahbube Khan",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-61. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 61,
+    "name": "Denise Mentzer",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-61 covering SE Sterling Heights, Clinton Twp, and Mt. Clemens. 25 years of employment with Macomb County. Born in Mt. Clemens. Education: L'Anse Creuse High School, Macomb Community College (AA), Baker College (BA), Grand Valley University. 94% LCV environmental score. Won re-election in 2024.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "94% LCV score indicates consistent progressive voting. Votes with Democratic caucus which supported repealing abortion restrictions.",
+      "marriage": "Votes consistently with Democratic caucus on social issues including LGBTQ+ legislation.",
+      "religiousLiberty": "No specific religious liberty statements; votes with Democratic caucus which has generally not prioritized religious exemptions.",
+      "secondAmendment": "Votes with Democratic caucus supporting gun control legislation including red flag laws and universal background checks.",
+      "limitedGov": "94% LCV environmental score indicates support for extensive government regulation. Supports expanded government programs.",
+      "fiscal": "Votes with Democratic caucus on expanded spending programs; supports increased government services."
+    }
+  },
+  {
+    "district": 62,
+    "name": "Alicia St. Germaine",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-62 covering Fraser, portions of Chesterfield and Clinton townships, Roseville, St. Clair Shores, and Harrison Township. First elected 2022, re-elected 2024. Self-employed small business consultant for 25 years. Vice chair of House Natural Resources and Tourism Committee. Also serves on Education and Workforce, Health Policy, and Economic Competitiveness committees.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent; votes with conservative caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements on marriage issues.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control measures. No specific 2A endorsements found.",
+      "limitedGov": "25 years as small business consultant; supports limited government policies through Republican caucus votes.",
+      "fiscal": "Small business background; votes with Republican caucus on fiscal issues."
+    }
+  },
+  {
+    "district": 62,
+    "name": "Phil Anosike",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-62. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 62,
+    "name": "Craig Plesco",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-62. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 62,
+    "name": "Matthew Smith",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-62. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 63,
+    "name": "Jay DeBoyer",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-63, in his second term. District encompasses southern St. Clair County and northern Macomb County. From Clay Township. Elected by House Republicans as Associate Speaker Pro-Tempore for 2025-26 term. Graduated Algonac High School 1988. Owns an engineered lumber business. Formerly served as St. Clair County Clerk and Register of Deeds, and Clay Township Trustee and Supervisor.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican caucus leader (Associate Speaker Pro-Tempore); votes with conservative caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements on marriage issues.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control; no specific 2A endorsements found.",
+      "limitedGov": "Small business owner; elected to Republican leadership position indicating conservative credentials within caucus.",
+      "fiscal": "Business owner background; selected for leadership by Republican colleagues suggesting fiscal conservative alignment."
+    }
+  },
+  {
+    "district": 63,
+    "name": "Robert Kelly McFarland",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-63. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 63,
+    "name": "Jamie Sonneberger",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-63. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 64,
+    "name": "Joseph G. Pavlov",
+    "party": "republican",
+    "grade": "A",
+    "description": "Republican representative for HD-64 covering Port Huron and St. Clair County areas. First elected November 2024, defeating Democrat John Anter 61-39%. Retired teacher with 38 years at Marysville High School. Education: St. Clair County Community College (AA), Michigan State University (BA Communications Education), Oakland University (graduate degree). Served 12 years as president of Right to Life of St. Clair County. Married 50+ years with 5 children and 18 grandchildren. Serves on Agriculture, Education and Workforce, Election Integrity, and Families and Veterans committees.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Served 12 years as president of Right to Life of St. Clair County. This is the strongest pro-life credential among candidates in this group.",
+      "marriage": "Long-time Right to Life leader married 50+ years; strong traditional family values background. Serves on Families and Veterans committee.",
+      "religiousLiberty": "Right to Life leader for 12 years; serves on Election Integrity committee. Strong values-based credentials suggest religious liberty defender.",
+      "secondAmendment": "Republican representative in conservative St. Clair County district; no specific 2A endorsements documented but conservative voting expected.",
+      "limitedGov": "Serves on Election Integrity committee suggesting concern about government accountability; limited specific statements on government size.",
+      "fiscal": "Long career as public school teacher; limited specific fiscal conservative statements but Republican caucus member."
+    }
+  },
+  {
+    "district": 64,
+    "name": "Ken Heuvelman",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-64. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 65,
+    "name": "Jaime Greene",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-65 covering eastern Lapeer, western St. Clair, and northern Macomb counties. First elected 2022, re-elected 2024. From Richmond. U.S. Navy veteran (1996-1999). BA Communications from Oakland University, MA Human Services from Liberty University. Chairs House Communications and Technology Committee. Serves on Oversight Committee including Vice Chair of Corporate Subsidies subcommittee.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent; votes with conservative caucus. Liberty University graduate suggests traditional values alignment.",
+      "marriage": "Liberty University graduate; votes with Republican caucus. Limited specific statements on marriage issues.",
+      "religiousLiberty": "Liberty University MA degree indicates strong faith-based values; votes with Republican caucus on religious liberty issues.",
+      "secondAmendment": "Navy veteran; votes with Republican caucus opposing gun control. Military background provides strong 2A signal.",
+      "limitedGov": "Vice Chair of Corporate Subsidies and State Investments subcommittee suggesting interest in government accountability. Votes with Republican caucus.",
+      "fiscal": "Serves on Oversight committee; Republican caucus member voting against Democratic spending proposals."
+    }
+  },
+  {
+    "district": 65,
+    "name": "James Andonoff",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-65. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 65,
+    "name": "James M. O'Brien",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-65. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 66,
+    "name": "Josh Schriver",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-66 covering Bruce and Washington townships in Macomb County and Addison, Brandon, Oakland, and Oxford townships in Oakland County. From Oxford. Born in Warren. Kindergarten teacher who designs programs for children with Autism. BS Michigan State University 2015, MA in Psychology. Endorsed by Right to Life of Michigan PAC. Re-elected in 2024. Strongly pro-life: supports criminal penalties for partial birth abortion, abstinence education, defunding Planned Parenthood, pregnancy center grants, and freedom of conscience protections.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Right to Life of Michigan PAC endorsed. Supports criminalizing partial birth abortion, defunding Planned Parenthood, abstinence education, pregnancy center grants, and freedom of conscience protections for employers.",
+      "marriage": "Supports protecting integrity of women's sports and prohibiting boys from entering girls' restrooms, indicating strong traditional values on gender issues.",
+      "religiousLiberty": "Explicitly supports 'restoring freedom of conscience protections for employers.' Strong religious liberty advocate.",
+      "secondAmendment": "Conservative Republican with strong stance on school safety (supports SRO funding). Votes with Republican caucus opposing gun control.",
+      "limitedGov": "Opposes critical race theory in schools, supports parental rights. Strong limited government conservative.",
+      "fiscal": "No specific fiscal policy statements beyond general Republican caucus alignment."
+    }
+  },
+  {
+    "district": 66,
+    "name": "Ned Zimmer",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-66. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 67,
+    "name": "Phil Green",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-67 covering Lapeer and Genesee County areas. Born in Millington. BA in Youth Ministries and MA in Biblical Expositions from Pensacola Christian College. Career minister. Board member of Michigan Coalition for Responsible Gun Owners and served as Chair of 2nd Amendment Caucus in the Legislature. Chair of ALEC Energy, Environment and Agriculture Committee. Re-elected 2024.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Minister with degrees from Pensacola Christian College; strong faith-based values indicate strong pro-life stance.",
+      "marriage": "Minister with theological education from Pensacola Christian College; strong traditional values background.",
+      "religiousLiberty": "Career minister with theological degrees; serves as ALEC committee chair. Strong religious liberty credentials.",
+      "secondAmendment": "Board member of Michigan Coalition for Responsible Gun Owners. Chair of 2nd Amendment Caucus in the Legislature. Strongest 2A credentials among all candidates.",
+      "limitedGov": "Chair of ALEC Energy, Environment and Agriculture Committee. ALEC membership indicates strong limited government philosophy.",
+      "fiscal": "ALEC committee chair suggests fiscal conservative orientation; limited specific fiscal statements found."
+    }
+  },
+  {
+    "district": 67,
+    "name": "Leslie Getz",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-67. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 68,
+    "name": "David W. Martin",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-68 covering portions of Genesee and Oakland counties. Born May 12, 1961. U.S. Air Force veteran (1979-1999, 20 years). Formerly served as Genesee County Commissioner (2016-2020) and Davison City Council (2009-2013). Lives in Davison. First GOP candidate to win the seat since the 1990s. Re-elected 2024.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican representative; votes with conservative caucus. Limited specific pro-life statements found.",
+      "marriage": "Votes with Republican caucus; limited specific statements on marriage issues.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus.",
+      "secondAmendment": "20-year Air Force veteran; military background provides strong 2A signal. Votes with Republican caucus opposing gun control.",
+      "limitedGov": "Former County Commissioner and City Council member; Republican caucus member but limited specific limited government statements.",
+      "fiscal": "Local government experience; votes with Republican caucus on fiscal issues."
+    }
+  },
+  {
+    "district": 68,
+    "name": "Isaiah Grays",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-68. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 68,
+    "name": "Matt Schlinker",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-68. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 69,
+    "name": "Patrick Duvendeck",
+    "party": "republican",
+    "grade": "C",
+    "description": "Republican challenger for HD-69 in West Central Genesee County. Ran in 2024 general election, losing to incumbent Democrat Jasper Martus 44-56%. Running again in 2026. Limited public policy positions available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No specific statements found; Republican candidate in Genesee County district.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 69,
+    "name": "Jasper Ryan Martus",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-69 in West Central Genesee County including Clio, Flushing, Montrose, Mount Morris, and Swartz Creek. Won re-election in 2024 with 56% of the vote. Votes with Democratic caucus.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Votes with Democratic caucus which supported repealing abortion restrictions in 2023-2024.",
+      "marriage": "Votes consistently with Democratic caucus on LGBTQ+ legislation.",
+      "religiousLiberty": "No specific statements; votes with Democratic caucus which has generally not supported religious exemptions.",
+      "secondAmendment": "Votes with Democratic caucus supporting gun control legislation.",
+      "limitedGov": "Votes with Democratic caucus supporting expanded government regulation and programs.",
+      "fiscal": "Votes with Democratic caucus on increased spending programs."
+    }
+  },
+  {
+    "district": 70,
+    "name": "Larry Hutchinson",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-70. Has previously run for various offices in Michigan including Governor (2018). Limited specific policy information available for this race.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No specific information found for this race.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 70,
+    "name": "Cynthia R. Neeley",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-70 covering Flint area. Wife of Flint Mayor Sheldon Neeley. Won 2024 re-election with 79% of the vote. 87% LCV environmental score. Focuses on clean drinking water, affordable healthcare, school funding, fair wages, crime prevention, and gun safety. Married to Flint Mayor Sheldon Neeley.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Votes with Democratic caucus which supported repealing abortion restrictions. 87% LCV score indicates progressive voting pattern.",
+      "marriage": "Votes consistently with Democratic caucus on social issues.",
+      "religiousLiberty": "No specific statements; votes with Democratic caucus.",
+      "secondAmendment": "Explicitly supports 'gun safety' and 'crime prevention' legislation, indicating support for gun control measures.",
+      "limitedGov": "87% LCV score. Supports expanded government programs for healthcare, education, and water infrastructure.",
+      "fiscal": "Supports increased government spending on schools, healthcare, infrastructure, and fair wage mandates."
+    }
+  },
+  {
+    "district": 71,
+    "name": "Brian BeGole",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-71 covering Shiawassee County including Corunna, Durand, Owosso, and Perry. In second term, first elected 2022. Former Shiawassee County Sheriff with 32 years in law enforcement, including 6 as Sheriff. Chairs House Government Operations Committee. Vice Chair of House Judiciary Committee. Also serves on Economic Competitiveness and Energy committees. 14% LCV environmental score.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Conservative Republican incumbent; votes with caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with conservative Republican caucus.",
+      "secondAmendment": "32-year law enforcement veteran and former Sheriff. Strong pro-law enforcement and pro-2A credentials based on career.",
+      "limitedGov": "Chairs Government Operations Committee. 14% LCV environmental score indicating strong opposition to regulatory expansion. Former Sheriff with government accountability focus.",
+      "fiscal": "Republican caucus member voting against Democratic spending; limited specific fiscal statements."
+    }
+  },
+  {
+    "district": 71,
+    "name": "Stephen Schlaack",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-71. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 72,
+    "name": "Mike Mueller",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-72 covering Fenton, Linden, portions of Grand Blanc and Mundy townships in Genesee County, Holly area in Oakland County, and Tyrone Township in Livingston County. First elected 2022, re-elected 2024. Linden High School graduate (1992). U.S. Navy veteran. Degree in Criminology and Criminal Justice from Eastern Michigan University. Operates Mueller's Orchard and Cider Mill, owns wedding venue. Former road patrol deputy and SWAT team member. Chairs House Appropriations Subcommittee on Michigan State Police.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Conservative Republican incumbent; votes with caucus. Limited specific pro-life statements.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus.",
+      "secondAmendment": "Navy veteran, former road patrol deputy and SWAT team member. Strong law enforcement and military background provides excellent 2A credentials.",
+      "limitedGov": "Small business owner (orchard, wedding venue); chairs Michigan State Police appropriations subcommittee.",
+      "fiscal": "Business owner and appropriations committee member; votes with Republican caucus on fiscal issues."
+    }
+  },
+  {
+    "district": 72,
+    "name": "Thomas Ryan",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-72. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 73,
+    "name": "Daniel L. Ewart",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-73. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 73,
+    "name": "Norm Grant",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-73. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 73,
+    "name": "Joshua Jon Rockey",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-73. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 73,
+    "name": "Julie Brixie",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-73 covering East Lansing area in Ingham County. Won re-election 2024. 87% LCV environmental score (2019-2026). 18 years in local government before state legislature. Serves on Appropriations, Oversight, Administrative Rules, and Tax Policy committees. Opposes school vouchers, advocates for free school meals, repealed pension tax, supported repealing abortion ban. Touts MSU research and agricultural diversity.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Explicitly supported repealing Michigan's abortion ban as part of Democrats' 'historic reforms.' Strongly pro-choice.",
+      "marriage": "Votes consistently with progressive Democratic caucus on LGBTQ+ and social issues.",
+      "religiousLiberty": "Opposes school vouchers for private (including religious) schools. Not a supporter of DeVos education agenda. No religious liberty advocacy found.",
+      "secondAmendment": "Votes with Democratic caucus on gun control measures including red flag laws and universal background checks.",
+      "limitedGov": "87% LCV score. Criticizes 'Republican control' for underfunding education and infrastructure, advocates for increased government spending and programs.",
+      "fiscal": "Supports free school breakfast and lunch, repealing pension tax (reducing revenue), increased education spending, and expanded government programs."
+    }
+  },
+  {
+    "district": 74,
+    "name": "Clinton Tarver",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-74 in Lansing area. No significant public policy information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 74,
+    "name": "Aaron Iturralde",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-74. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 74,
+    "name": "Harold A. Pope",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-74. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 74,
+    "name": "TyJuan Thirdgill",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-74. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 75,
+    "name": "Frank Lambert",
+    "party": "republican",
+    "grade": "C",
+    "description": "Republican challenger for HD-75. Age 58, graduated Haslett High School 1984. Has worked at General Motors Lansing Delta Township plant for 22 years in quality control. Most passionate about education reform, calling for an entire redesign of the K-12 education system. Ran in 2024, lost to incumbent Tsernoglou.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No specific statements found on abortion issues.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "Advocates education system redesign suggesting desire for reform but from a blue-collar working perspective rather than ideological limited government stance.",
+      "fiscal": "No specific fiscal policy statements found."
+    }
+  },
+  {
+    "district": 75,
+    "name": "Penelope Tsernoglou",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-75. First elected 2022, re-elected 2024. 95% LCV environmental score. Serves on various committees. Votes consistently with progressive Democratic caucus.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "95% LCV score indicates consistent progressive voting. Votes with Democratic caucus which repealed abortion restrictions.",
+      "marriage": "Votes consistently with Democratic caucus on LGBTQ+ legislation.",
+      "religiousLiberty": "No specific statements; votes with Democratic caucus which has not prioritized religious exemptions.",
+      "secondAmendment": "Votes with Democratic caucus supporting gun control legislation.",
+      "limitedGov": "95% LCV score indicates support for extensive environmental regulation and government programs.",
+      "fiscal": "Votes with Democratic caucus on increased spending programs."
+    }
+  },
+  {
+    "district": 76,
+    "name": "Bill Kaiser",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-76. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 76,
+    "name": "John P. Ludtke",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-76. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 76,
+    "name": "Angela Witwer",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-76 since 2023. 77% LCV environmental score (2019-2026). 22 years in clinical healthcare at Sparrow Hospital including burn unit and pediatric rehabilitation. Later became manager of Sparrow Hospital community relations. Has cast 3,800 votes, sponsored 89 bills. Serves on Health Policy, Regulatory Reform, Rules committees.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "77% LCV score. Votes with Democratic caucus which repealed abortion restrictions.",
+      "marriage": "Votes consistently with Democratic caucus on social issues.",
+      "religiousLiberty": "No specific statements; votes with Democratic caucus.",
+      "secondAmendment": "Votes with Democratic caucus supporting gun control measures.",
+      "limitedGov": "77% LCV score indicating support for regulatory expansion. Healthcare background may inform support for government health programs.",
+      "fiscal": "Slightly lower LCV score than most Democrats (77%) suggests moderate fiscal positions within the caucus, but still votes for increased spending."
+    }
+  },
+  {
+    "district": 77,
+    "name": "Sally Jo Nelton",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-77. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 77,
+    "name": "Emily Dievendorf",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-77. First elected 2022, re-elected 2024. First openly nonbinary Michigan state representative. Bisexual. 100% LCV environmental score with 22 pro-environment votes and zero anti-environment votes. 20+ years of advocacy on LGBTQIA equality, racial justice, sexual/domestic violence, women's rights, immigration, voting rights, and HIV/AIDS. Supports gun control including pushing back against 'irresponsible gun sales' and community programs to prevent gun violence. Took pledge not to accept utility company donations.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "100% LCV score. Strong LGBTQIA and women's rights advocate. Votes with progressive Democratic caucus on all reproductive issues.",
+      "marriage": "First openly nonbinary state representative. 20+ years of LGBTQIA equality advocacy. Strongly supports marriage redefinition.",
+      "religiousLiberty": "Strong advocate for LGBTQ+ rights which often conflicts with religious liberty exemptions. No religious liberty advocacy found.",
+      "secondAmendment": "Explicitly supports 'responsible gun ownership and reforms that push back against irresponsible gun sales and ownership practices.' Supports community gun violence prevention programs.",
+      "limitedGov": "100% LCV environmental score. Advocates for extensive government action on racial justice, immigration, voting rights, domestic violence, and HIV/AIDS.",
+      "fiscal": "Supports extensive government programs across many policy areas. Progressive spending priorities."
+    }
+  },
+  {
+    "district": 78,
+    "name": "Terence M. Frewen",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for HD-78 in open seat race (Eaton/Barry area). Ionia County Commissioner. Running in competitive Republican primary with three other candidates.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific statements found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "County commissioner experience; running as Republican in conservative rural district.",
+      "fiscal": "County government experience suggests fiscal awareness; running as Republican in rural district."
+    }
+  },
+  {
+    "district": 78,
+    "name": "Kaleb M. Hudson",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-78. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 78,
+    "name": "Miguel Pilar",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-78. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 78,
+    "name": "Brandon L. Strong",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-78. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 78,
+    "name": "Rachel Gross",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-78. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 79,
+    "name": "Angela Rigas",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-79 covering portions of Allegan, Barry, and Kent counties. First elected 2022. 2023 CPAC Foundation Conservative Excellence Award with 96% conservative rating. 10% LCV environmental score. Long-time grassroots advocate for Second Amendment, Parental, and Voting rights. Chairs Oversight Subcommittee on Weaponization of State Government. Vice Chair of Oversight Subcommittee on Child Welfare System. Serves on Regulatory Reform committee.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "96% CPAC conservative rating. Chairs Child Welfare subcommittee indicating family values focus. Strong conservative credentials across the board.",
+      "marriage": "96% CPAC conservative rating. Family values conservative; parental rights advocate.",
+      "religiousLiberty": "96% CPAC conservative rating. Chairs Subcommittee on Weaponization of State Government, indicating concern about government overreach including against religious institutions.",
+      "secondAmendment": "Self-described 'long-time grassroots advocate for Second Amendment rights.' Explicit 2A defender.",
+      "limitedGov": "96% CPAC rating, 10% LCV score. Chairs Subcommittee on Weaponization of State Government. Strong limited government advocate.",
+      "fiscal": "96% CPAC conservative rating across all issues including fiscal policy. Serves on Regulatory Reform committee."
+    }
+  },
+  {
+    "district": 79,
+    "name": "Zach Abbott",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-79. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 80,
+    "name": "Doug Lee",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-80. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 80,
+    "name": "Lily Cheng-Schulting",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-80. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 80,
+    "name": "Kristen Fauson",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-80. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 80,
+    "name": "Kris Pachla",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-80. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 81,
+    "name": "Holly DeBoer",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-81. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 81,
+    "name": "Stephen Wooden",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-81. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 82,
+    "name": "Ryan Malinoski",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-82 in Calhoun County including Battle Creek, Springfield, and Albion. Ran in 2024, lost to incumbent Kristian Grant with only 25% of the vote. Limited policy positions available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 82,
+    "name": "Kristian C. Grant",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-82 in Calhoun County (Battle Creek). Won re-election in 2024 with 75% of the vote in a heavily Democratic district.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Votes with Democratic caucus which repealed abortion restrictions.",
+      "marriage": "Votes consistently with Democratic caucus on social issues.",
+      "religiousLiberty": "Votes with Democratic caucus; no religious liberty advocacy found.",
+      "secondAmendment": "Votes with Democratic caucus supporting gun control measures.",
+      "limitedGov": "Votes with Democratic caucus supporting expanded government programs.",
+      "fiscal": "Votes with Democratic caucus on increased spending."
+    }
+  },
+  {
+    "district": 82,
+    "name": "Robert Womack",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-82. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 83,
+    "name": "Cindy Ramirez",
+    "party": "republican",
+    "grade": "C",
+    "description": "Republican candidate for HD-83 in southwestern Kent County (Wyoming, Grand Rapids). Proud West Michigan native, GRCC alumni, daughter of a migrant worker. Business owner. Focuses on supporting local businesses, good-paying jobs, investing in schools and education, and infrastructure (roads, broadband, clean water).",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific statements found on abortion issues.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "Platform focuses on infrastructure investment and school funding which suggests moderate approach to government spending rather than strict limited government philosophy.",
+      "fiscal": "Business owner but platform emphasizes government investment in education, infrastructure, and broadband rather than tax cuts or spending reduction."
+    }
+  },
+  {
+    "district": 83,
+    "name": "John Fitzgerald",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-83. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 84,
+    "name": "Drew Jake Robbins",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for HD-84. First Ward Commissioner in Grand Rapids. Limited specific state-level policy positions available but holds local government experience.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific statements found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "Republican city commissioner in Grand Rapids; local government experience.",
+      "fiscal": "Local government experience as city commissioner; running as Republican."
+    }
+  },
+  {
+    "district": 84,
+    "name": "Justin L. Rackham",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-84. Ran in 2024 Democratic primary, receiving only 6.5% of the vote.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 84,
+    "name": "Khristian Silvis",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-84. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 85,
+    "name": "Jason Ickes",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for HD-85 but WITHDREW on 4/21/2026. Combat veteran, Green Beret. Father of four. Self-described Christian, Constitutional Conservative, and Fair Elections Advocate. From Jenison. After leaving Army in 2017, completed BS in Cyber Security. Also has trade skills in carpentry, electrical, and plumbing. Previously ran for US House MI-3.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Self-described Christian and Constitutional Conservative. Strong values-based credentials.",
+      "marriage": "Christian conservative with traditional family values (father of four).",
+      "religiousLiberty": "Self-described Christian and Constitutional Conservative; likely strong religious liberty supporter.",
+      "secondAmendment": "Combat veteran and Green Beret. Military special forces background provides strongest possible 2A credentials.",
+      "limitedGov": "Self-described Constitutional Conservative and Fair Elections Advocate. Strong limited government philosophy.",
+      "fiscal": "No specific fiscal statements found; constitutional conservative orientation suggests fiscal conservatism."
+    }
+  },
+  {
+    "district": 85,
+    "name": "John C. O'Brien",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-85. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 85,
+    "name": "Bradley Slagh",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-85 covering parts of Ottawa County including Georgetown, Zeeland Township, Hudsonville, and Zeeland. First elected 2018, re-elected 2024. Former Zeeland Township Supervisor (5+ years) and Ottawa County Treasurer (11 years). 18 years in financial services at First Michigan Bank and Byron Center State Bank. Licensed realtor and supervising partner of family property management business. Married 37 years.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican in deeply conservative Ottawa County; votes with Republican caucus. No specific pro-life endorsements documented.",
+      "marriage": "Married 37 years; conservative Republican in Ottawa County. Traditional values expected.",
+      "religiousLiberty": "Conservative Republican in deeply religious Ottawa County (Dutch Reformed heritage); votes with caucus.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control; no specific 2A endorsements found.",
+      "limitedGov": "Former Township Supervisor and County Treasurer with extensive local government experience; Republican caucus member.",
+      "fiscal": "11 years as Ottawa County Treasurer and 18 years in financial services. Strong fiscal management credentials. Family business owner."
+    }
+  },
+  {
+    "district": 85,
+    "name": "Richard Abraham",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-85. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 86,
+    "name": "Nancy DeBoer",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-86 covering greater Holland area in Allegan and Ottawa counties. First elected 2022, re-elected 2024 with 56%. Former middle and high school English teacher. First woman elected mayor of Holland in 2015, serving two terms. Holland City Council member since 2005. Co-founded West Michigan Character Council in 2002, served as executive director 17 years. Chairs House Education and Workforce Committee. Also serves on Energy, Health Policy, and Rules committees.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Conservative Republican in deeply conservative Holland/Ottawa County area. Character Council co-founder suggesting strong values orientation. Dutch Reformed community.",
+      "marriage": "Co-founded West Michigan Character Council (17 years as ED). Strong traditional values and character education background in conservative Holland community.",
+      "religiousLiberty": "Holland, Michigan has strong Dutch Reformed heritage. Character Council co-founder. Conservative Republican in religious community.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control; no specific 2A endorsements found.",
+      "limitedGov": "Former mayor and city council member with local government experience. Chairs Education and Workforce committee.",
+      "fiscal": "Local government experience as mayor; votes with Republican caucus on fiscal issues."
+    }
+  },
+  {
+    "district": 86,
+    "name": "Joseph McClusky",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-86. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 87,
+    "name": "Cody A. Chipman",
+    "party": "republican",
+    "grade": "C",
+    "description": "Republican challenger for HD-87 in Muskegon County. Michigan Republican Party State Committeeman. Data Collection Specialist at Class Valuation. Former Infantryman in Michigan National Guard. Ran in 2024, lost to incumbent Will Snyder with 38% of the vote.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": "A",
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No specific statements found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "Former National Guard Infantryman with military firearms training and experience. Strong 2A credentials.",
+      "limitedGov": "No specific statements found beyond Republican party affiliation.",
+      "fiscal": "No specific fiscal policy statements found."
+    }
+  },
+  {
+    "district": 87,
+    "name": "Will Snyder",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-87 in Muskegon County. First elected 2022, re-elected 2024. 89% LCV environmental score. Former legislative aide and district director for Rep. Terry Sabo. Has cast 1,531 votes with 55 bill sponsorships. Chairs Labor, Economic Development, and Lifelong Learning committee. Also serves on Health and Human Services, Appropriations, and Regulatory Reform committees.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "89% LCV score indicates consistent progressive voting. Votes with Democratic caucus on reproductive issues.",
+      "marriage": "Votes consistently with Democratic caucus on social issues.",
+      "religiousLiberty": "No specific statements; votes with Democratic caucus.",
+      "secondAmendment": "Votes with Democratic caucus supporting gun control legislation.",
+      "limitedGov": "89% LCV score. Chairs Labor committee suggesting support for labor regulations and government intervention.",
+      "fiscal": "Votes with Democratic caucus on increased government spending programs."
+    }
+  },
+  {
+    "district": 88,
+    "name": "Ethan Frasier",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary challenger in HD-88 against incumbent VanWoerkom. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 88,
+    "name": "Greg VanWoerkom",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-88 covering parts of Muskegon and Ottawa counties including Grand Haven, Spring Lake, Norton Shores. Serving since 2019. BA from Calvin College, MA in Political Leadership from George Washington University. Former district director for US Rep. Bill Huizenga and senior policy adviser to US Rep. Pete Hoekstra. 30% LCV environmental score (2019-2026). Member of House Appropriations Committee. Chairs Medicaid and Behavioral Health subcommittee. Vice chairs General Government subcommittee. Voted against Democratic state budget.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican in conservative Ottawa County district; votes with caucus. No specific pro-life endorsements documented.",
+      "marriage": "Calvin College graduate (Christian Reformed institution); votes with Republican caucus.",
+      "religiousLiberty": "Calvin College graduate; conservative Ottawa County Republican. Christian education background supports religious liberty.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control; no specific 2A endorsements found.",
+      "limitedGov": "Voted against Democratic state budget. 30% LCV score (slightly higher than most Rs) but still conservative. Appropriations committee focus on fiscal oversight.",
+      "fiscal": "Criticized Democratic budget for not supporting 'real families, prioritizing local infrastructure, or respecting taxpayers.' Fiscal conservative on budget matters."
+    }
+  },
+  {
+    "district": 88,
+    "name": "Kiel Reid",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-88. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 89,
+    "name": "Patrick Kapenga",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-89. Businessman from Coopersville. Filed 2/11/2026. Limited public policy information available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 89,
+    "name": "Joe Moss",
+    "party": "republican",
+    "grade": "A",
+    "description": "Republican primary candidate for HD-89. Co-founder of Ottawa Impact with Sylvia Rhodea in 2021. Ottawa County Commissioner (District 5) since January 2023. Businessman with web design and phone sales companies. Immediately upon taking office as commissioner, abolished county DEI Department, fired county administrator and lawyer, changed county motto to 'Where Freedom Rings.' Campaign focuses on protecting children and families, defending local communities, reducing taxes, strengthening economy, and eliminating government waste, fraud, and abuse.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Ottawa Impact leader focused on protecting children and families. Conservative activist in deeply conservative Ottawa County.",
+      "marriage": "Ottawa Impact mission includes defending traditional American values. Focus on protecting children and families.",
+      "religiousLiberty": "Co-founded Ottawa Impact to fight government overreach and preserve American values. Changed county motto to 'Where Freedom Rings.'",
+      "secondAmendment": "Strong conservative activist; Ottawa Impact platform includes defending constitutional rights. Conservative Ottawa County base.",
+      "limitedGov": "Abolished county DEI Department, fired administrators, focused on eliminating government waste. Strongest limited government action among all candidates.",
+      "fiscal": "Focuses on reducing taxes and eliminating waste, fraud, and abuse in government. Businessman with fiscal conservative track record."
+    }
+  },
+  {
+    "district": 89,
+    "name": "Meegan Zickus",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-89. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 90,
+    "name": "Lynn Afendoulis",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican primary candidate for HD-90 (Kent County - Rockford, Ada area). Former State Representative for HD-73 (2019-2021). Born in Grand Rapids, BS from Michigan State University 1981. Former reporter, director of corporate communications for Universal Forest Products, VP of charitable giving foundation. Served on Michigan Transportation Commission (appointed by Gov. Snyder). Board member of Grand Rapids Chamber of Commerce, GR Public Schools foundation. Ran for US House MI-3 in 2020, lost primary to Peter Meijer. Lost HD-81 race in 2022.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Former Republican state representative; voting record during 2019-2021 term would reflect caucus alignment. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "No specific religious liberty statements found; voted with Republican caucus during prior term.",
+      "secondAmendment": "Voted with Republican caucus during 2019-2021 term; no specific 2A endorsements found.",
+      "limitedGov": "Corporate background; appointed to Transportation Commission by Gov. Snyder. Moderate Republican profile.",
+      "fiscal": "Corporate VP and foundation leader; Republican with business community ties. Moderate fiscal conservative."
+    }
+  },
+  {
+    "district": 90,
+    "name": "Susannah Watts",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-90 from Rockford. Filed 1/15/2026. No significant public policy information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 90,
+    "name": "Andrew Jackson Willis",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-90. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 90,
+    "name": "Jordan Youngquist",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-90 from Kent City. Filed 1/16/2026. Previously ran for HD-81 in 2024, lost in general election. Limited policy information available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 90,
+    "name": "Rachel Crowther",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-90. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 91,
+    "name": "Pat Outman",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-91 covering Montcalm/Ionia area. From Six Lakes. First elected in prior term, currently serving second stint. Supports 'practical conservative policies.' Committed to lowering taxes, improving infrastructure, strengthening workforce, and ensuring affordable energy. 25% LCV environmental score. Sponsored resolution accusing public schools of 'radical politics' and 'political indoctrination.' Co-sponsored Fact Checker Registration Act in 2021. Voted against bipartisan ethics package.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Conservative Republican; votes with caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "Sponsored resolution against 'radical politics' in schools; strong parental rights and free speech advocate.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control; no specific 2A endorsements found.",
+      "limitedGov": "Committed to lowering taxes. Sponsored resolution against political indoctrination in schools. Co-sponsored Fact Checker Registration Act showing distrust of institutional power. Voted against bipartisan ethics package showing anti-establishment bent.",
+      "fiscal": "Explicitly committed to lowering taxes and improving infrastructure. Practical conservative on fiscal issues."
+    }
+  },
+  {
+    "district": 91,
+    "name": "Frank Lafata",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-91. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 92,
+    "name": "Jerry Neyer",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-92 covering portions of Gratiot and Isabella counties. Born in Isabella County, lives in Shepherd. First elected 2022, re-elected 2024. Chairs House Agriculture Committee. Serves on Insurance, Regulatory Reform, and Transportation & Infrastructure committees. 14% LCV environmental score.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent in rural conservative district; votes with caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "No specific statements found; votes with Republican caucus.",
+      "secondAmendment": "Rural district representative; votes with Republican caucus opposing gun control. No specific 2A endorsements found.",
+      "limitedGov": "14% LCV score indicating conservative environmental/regulatory voting. Chairs Agriculture Committee. Serves on Regulatory Reform.",
+      "fiscal": "Votes with Republican caucus on fiscal issues; serves on regulatory reform suggesting concern about business regulation costs."
+    }
+  },
+  {
+    "district": 92,
+    "name": "Luke Del Castillo",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-92. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 93,
+    "name": "Tim Kelly",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-93 covering portions of Clinton, Gratiot, Ionia, Montcalm, and Saginaw counties. First elected to current seat 2024. Previously served HD-94 in Saginaw County from 2013-2018, chairing Appropriations Subcommittee on School Aid and Education Reform committee. Former education policy advisor to Gov. John Engler. Also served in Indiana Bayh administration in economic/workforce development. Conservative views on government intervention in healthcare and limiting government.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Conservative Republican with long legislative career; votes with caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "No specific religious liberty statements found; conservative Republican.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control; no specific 2A endorsements found.",
+      "limitedGov": "Explicitly supports 'limiting government to roles that make sense for taxpayers.' Opposes government intervention in healthcare. Strong limited government credentials.",
+      "fiscal": "Former education policy advisor focused on school funding efficiency. Supports transparent government and fiscal accountability."
+    }
+  },
+  {
+    "district": 93,
+    "name": "Serenity Hope Salak",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-93. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 94,
+    "name": "Don Sugg",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican challenger for HD-94. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 94,
+    "name": "Amos O'Neal",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-94 in Saginaw County. Served since 2016. Former House Majority Caucus Chair (2023-2024). Previously served on Saginaw City Council (2003-2016) and Saginaw County Board of Commissioners (2016-present). Won re-election 2024. Long-serving Democratic legislator with deep roots in Saginaw community.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Long-serving Democrat; served as House Majority Caucus Chair during period when Democrats repealed abortion restrictions.",
+      "marriage": "Votes consistently with Democratic caucus; served in Democratic leadership.",
+      "religiousLiberty": "No specific statements; Democrat caucus leadership role during period of progressive social legislation.",
+      "secondAmendment": "Votes with Democratic caucus on gun control measures; served in Democratic leadership.",
+      "limitedGov": "Long government career spanning city council, county commission, and state house. Democrat leadership member supporting expanded government.",
+      "fiscal": "Democratic caucus leadership supporting expanded government spending programs."
+    }
+  },
+  {
+    "district": 95,
+    "name": "Bill G. Schuette",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-95 covering Midland/Gladwin area. Born July 21, 1995 in Midland. BS and MA from Georgetown University (International Politics with Spanish minor, MA Latin American Studies). Former intelligence officer with Defense Intelligence Agency. Worked in public policy at Dow Inc. Won 2024 with 64% of the vote. 14% LCV environmental score. Affiliated with NRA, Right to Life of Michigan, Michigan Farm Bureau, and Midland Business Alliance. Self-described 'fresh, proven conservative leader.'",
+    "positions": {
+      "proLife": "A",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Affiliated with Right to Life of Michigan. Strong pro-life credentials explicitly stated.",
+      "marriage": "Conservative Republican in Midland County; limited specific statements but Right to Life affiliation suggests traditional values.",
+      "religiousLiberty": "Right to Life of Michigan affiliated; conservative in Midland community. No specific religious liberty legislation highlighted.",
+      "secondAmendment": "NRA affiliated. Former Defense Intelligence Agency officer with intelligence and security background.",
+      "limitedGov": "14% LCV score. Former DIA intelligence officer and Dow Inc. public policy professional. Business community aligned. Strong conservative district mandate (64% win).",
+      "fiscal": "Michigan Farm Bureau and Midland Business Alliance affiliated. Dow Inc. background. Strong business-community fiscal conservative."
+    }
+  },
+  {
+    "district": 95,
+    "name": "AnnMarie Horseman",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-95. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 95,
+    "name": "Gary VanBlaricum",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-95. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 96,
+    "name": "Timothy Beson",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-96 in Bay County. Born March 4, 1974 in Bay City. Owner of Beson's Market. BA in Business Management from Saginaw Valley State University. Serving since January 2021. 27% LCV environmental score (2021-2026). Serves on Appropriations Committee and subcommittees including Licensing and Regulatory Affairs, Corrections and Judiciary, Human Services, and School Aid & Education.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent in Bay County; votes with caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control; no specific 2A endorsements found.",
+      "limitedGov": "27% LCV score (slightly higher than most Rs at 14%). Small business owner. Serves on regulatory affairs subcommittee.",
+      "fiscal": "Small business owner (Beson's Market). Business management degree. Serves on multiple appropriations subcommittees."
+    }
+  },
+  {
+    "district": 96,
+    "name": "Christopher R. Girard",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for HD-96. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 97,
+    "name": "Briar Bearss",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-97. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 97,
+    "name": "Mark Piotrowski",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-97. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 97,
+    "name": "Jack Bader",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-97. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 97,
+    "name": "Kandie Sherman",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-97. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 98,
+    "name": "Gregory L. Alexander",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-98. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 98,
+    "name": "Keith Brusseau",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-98. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 99,
+    "name": "Mike Hoadley",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-99. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 99,
+    "name": "David Forgione",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-99. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 100,
+    "name": "Tom Kunse",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-100. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 100,
+    "name": "Tracy Ruell",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-100. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 101,
+    "name": "Gary Anderson",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-101 (Mecosta/Osceola/Wexford area). Open seat. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 101,
+    "name": "Jaxon Deur",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-101. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 101,
+    "name": "Luke Eising",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-101. Farmer. Running for portions of Mason and Oceana counties, most of Lake and Wexford counties, and all of Newaygo County.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 101,
+    "name": "Ben Townsend",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-101. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 101,
+    "name": "Rich Vance",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-101. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 101,
+    "name": "Christopher R. Crain",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-101. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 102,
+    "name": "Curt Vanderwall",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-102 covering parts of Oceana, Manistee, Mason, and Muskegon counties. Second term in House, elected 2022 and re-elected 2024. Previously served in Michigan State Senate representing 12 Northern Michigan counties (2018-2022). Former commissioner and chairman of Mason County Board of Commissioners.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican with extensive legislative career (Senate and House); votes with conservative caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus.",
+      "secondAmendment": "Rural Northern Michigan representative; votes with Republican caucus opposing gun control.",
+      "limitedGov": "Former county commissioner and chairman; fights against 'growth of government.' Defends UP way of life from 'misguided policies.'",
+      "fiscal": "Experienced legislator (Senate and House) with county government background; votes with Republican caucus on fiscal issues."
+    }
+  },
+  {
+    "district": 102,
+    "name": "Angel Coon",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-102. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 103,
+    "name": "Edwin B. Dean",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for HD-103 challenging incumbent Betsy Coffia. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 103,
+    "name": "Betsy Coffia",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent Democratic representative for HD-103 covering Leelanau, Grand Traverse, and Benzie counties. In second term. Former newspaper reporter and weekly editor. AA from Northwestern Michigan College, BA in Social Work from Ferris State University. First Democrat to win the seat, defeating Republican Jack O'Malley in 2022. Re-elected 2024 (53-47%). 100% LCV environmental score. Supports LGBTQ+ equality, gun violence prevention, workers' rights. Endorsed by Clean Water Action, Michigan LCV, Sierra Club.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "100% LCV score indicates fully progressive voting. Votes with Democratic caucus which repealed abortion restrictions.",
+      "marriage": "Explicitly supports LGBTQ+ equality. Progressive on social issues.",
+      "religiousLiberty": "No specific religious liberty statements; progressive positions on LGBTQ+ issues may conflict with religious exemptions.",
+      "secondAmendment": "Explicitly supports 'common sense gun violence prevention laws.' Voted for gun control legislation.",
+      "limitedGov": "100% LCV score. Social worker background. Supports expanded government programs including rural internet access, healthcare access, workers' rights.",
+      "fiscal": "Supports increased government spending on infrastructure, healthcare, internet access, and social services."
+    }
+  },
+  {
+    "district": 104,
+    "name": "John R. Roth",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-104 from Traverse City. Serving since January 2021. Re-elected 2024. 26% LCV environmental score (2021-2026). Has cast 2,745 votes and sponsored 68 bills. Chairs Appropriations Subcommittee on Human Services. Vice chairs Higher Education and Community Colleges subcommittee. Also serves on Medicaid and Agriculture subcommittees.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican incumbent; votes with caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus.",
+      "secondAmendment": "Votes with Republican caucus opposing gun control; no specific 2A endorsements found.",
+      "limitedGov": "26% LCV score (slightly above average for Republicans). Serves on appropriations subcommittees overseeing spending.",
+      "fiscal": "Chairs Human Services appropriations subcommittee; vice chairs Higher Education subcommittee. Budget oversight role."
+    }
+  },
+  {
+    "district": 104,
+    "name": "Mitchell Ryan Distin",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-104. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 105,
+    "name": "Ken Borton",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-105 covering Crawford, Missaukee, Otsego, and Roscommon counties and parts of Antrim, Kalkaska, and Oscoda counties. Lives in Gaylord. Serving since 2021. Self-described 'Christian Constitutional Conservative.' Lifetime NRA member. Member of Right to Life. Pro-2nd Amendment. Former Otsego County Commissioner (10 years). House Republican Caucus Chair. Serves on Appropriations Committee. Chairs Agriculture and Rural Development subcommittee. Vice chairs EGLE subcommittee. 24% LCV environmental score.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Member of Right to Life. Self-described 'Christian Constitutional Conservative.' Explicit pro-life credentials.",
+      "marriage": "Self-described 'Christian Constitutional Conservative.' Traditional values background.",
+      "religiousLiberty": "Self-described Christian Constitutional Conservative; strong faith-based values orientation. Republican caucus leader.",
+      "secondAmendment": "Lifetime NRA member. Self-described pro-2nd Amendment. Among the strongest 2A credentials in this group.",
+      "limitedGov": "24% LCV score. Christian Constitutional Conservative. House Republican Caucus Chair indicating conservative leadership role.",
+      "fiscal": "Serves on Appropriations Committee with agriculture and natural resources subcommittee roles. County commissioner experience."
+    }
+  },
+  {
+    "district": 105,
+    "name": "Rachel Longendyke Teeter",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-105. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 106,
+    "name": "Cam Cavitt",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-106 covering Alcona, Alpena, Montmorency, Presque Isle, and portions of Oscoda and Cheboygan counties. First elected 2022. Father, Husband, Christian, Conservative, Businessman, Realtor. Former Cheboygan County Drain Commissioner. 2020 Republican National Convention delegate, endorsed by then-President Trump's campaign and Congressman Jack Bergman. Serves on Appropriations Committee. Republican vice chair on Military and Veterans Affairs and State Police subcommittee. Also on EGLE and Judiciary Appropriations subcommittees.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Self-described Christian Conservative. Trump-endorsed Republican in conservative Northern Michigan. Strong traditional values credentials.",
+      "marriage": "Self-described as Father, Husband, Christian, Conservative. Strong family values orientation.",
+      "religiousLiberty": "Self-described Christian Conservative. Trump delegate and campaign endorsed. Strong values-based credentials.",
+      "secondAmendment": "Conservative Northern Michigan Republican. Trump-endorsed. Vice chair of Military/Veterans/State Police subcommittee. Strong 2A expected.",
+      "limitedGov": "Businessman and realtor. Fights for 'Northern Michigan way of life.' Conservative Republican with Trump endorsement indicating strong limited government stance.",
+      "fiscal": "Serves on Appropriations Committee for budget oversight. Businessman background."
+    }
+  },
+  {
+    "district": 106,
+    "name": "Phillip Aderhold",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-106. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 106,
+    "name": "Mary Lucille Hamilton",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-106. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 107,
+    "name": "Parker Fairbairn",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-107. First elected 2024, defeating incumbent Neil Friske in Republican primary. Born in Petoskey, fifth-generation Northern Michigan resident. BA and MBA from Northwood University. 0% LCV environmental score in 2025. Vice chair of Regulatory Reform Committee. Serves on Natural Resources and Tourism, Communication and Technology, and Energy committees.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican in conservative Northern Michigan; votes with caucus. No specific pro-life endorsements documented.",
+      "marriage": "Votes with Republican caucus; limited specific statements.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus.",
+      "secondAmendment": "Northern Michigan Republican; votes with caucus opposing gun control. No specific 2A endorsements found.",
+      "limitedGov": "0% LCV environmental score indicating opposition to regulatory expansion. Vice chairs Regulatory Reform. Northwood University (business-oriented) education.",
+      "fiscal": "MBA from Northwood University (known for free-market economics focus). Business administration education."
+    }
+  },
+  {
+    "district": 107,
+    "name": "Melissa Perron",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-107. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 107,
+    "name": "Brendan E. Ryan",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-107. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 108,
+    "name": "Casey Hoffman",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican primary candidate for HD-108 (Upper Peninsula open seat). Current Mayor of Menominee. Previously ran for this seat in 2022. Open seat as incumbent Dave Prestin is running for State Senate.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific statements found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "Current mayor experience in local government; Republican in rural UP district.",
+      "fiscal": "Local government experience as mayor provides fiscal management background."
+    }
+  },
+  {
+    "district": 108,
+    "name": "Larry Johnson",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-108. Menominee County Commissioner. Limited policy information available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 108,
+    "name": "Kurt Perron",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-108. Previously ran in 2022. Limited policy information available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 108,
+    "name": "Christopher J. Reynolds",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-108. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 108,
+    "name": "Daryl Schroeder",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-108. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 108,
+    "name": "Steven Viau",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican primary candidate for HD-108. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 108,
+    "name": "Rachel M. Keys",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-108. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 109,
+    "name": "Karl Bohnak",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent Republican representative for HD-109 covering Alger, Baraga, Marquette, and portions of Dickinson counties in the Upper Peninsula. First elected November 2024, becoming first Republican to represent Marquette County since 1955. Former chief meteorologist at WLUC-TV6 in Marquette for nearly 40 years. Holds American Meteorological Society Broadcast Seal of Approval. Self-described as 'fiscal conservative.' Climate change skeptic. Still broadcasts daily radio weather updates.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Self-described 'social liberal' in 2014 interview; may have evolved since then given Republican party shift. Uncertain current position.",
+      "marriage": "Self-described 'social liberal' in 2014, though his political evolution toward conservatism may have changed this. Uncertain.",
+      "religiousLiberty": "Conservative Republican but self-described former social liberal. Likely supports religious liberty as part of general freedom philosophy.",
+      "secondAmendment": "Upper Peninsula Republican; strong gun culture in district. Likely pro-2A but no specific endorsements found.",
+      "limitedGov": "Climate change skeptic opposing environmental regulations. Conservative shift driven by opposition to government climate policy mandates.",
+      "fiscal": "Self-described 'fiscal conservative.' This was his original political identity before becoming more broadly conservative."
+    }
+  },
+  {
+    "district": 109,
+    "name": "Anna Aho Rink",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-109. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  },
+  {
+    "district": 110,
+    "name": "Gregory Markkanen",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent Republican representative for HD-110 covering Gogebic, Houghton, Iron, Keweenaw, and Ontonagon counties plus parts of Dickinson County in the Upper Peninsula. Serving since 2019, re-elected in 2020, 2022, and 2024. Endowed Life Member of the National Rifle Association. Former Army medical Corpsman with 82nd Airborne Division, 452nd Combat Support Hospital US Army Reserve, and 107th Engineer Battalion Michigan Army National Guard. Former high school civics, history, and geography teacher at Baraga Area Schools. Former Hancock City Council Ward II representative. Endorsed Donald Trump for president.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Conservative Republican; votes with caucus. No specific pro-life endorsements documented but longtime conservative voting record.",
+      "marriage": "Votes with Republican caucus; limited specific statements. Conservative voting record across multiple terms.",
+      "religiousLiberty": "No specific religious liberty statements found; votes with Republican caucus consistently.",
+      "secondAmendment": "NRA Endowed Life Member. Army veteran with multiple military units. Strongest 2A credential in the UP delegation.",
+      "limitedGov": "Four-term Republican representative; Trump endorser. Conservative voting record but limited specific limited government statements.",
+      "fiscal": "Long-serving Republican representative; votes with caucus on fiscal issues. Former civics teacher and city council member."
+    }
+  },
+  {
+    "district": 110,
+    "name": "Brian Irizarry",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for HD-110. No significant public information found on policy positions or background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No information found.",
+      "marriage": "No information found.",
+      "religiousLiberty": "No information found.",
+      "secondAmendment": "No information found.",
+      "limitedGov": "No information found.",
+      "fiscal": "No information found."
+    }
+  }
+]

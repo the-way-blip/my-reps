@@ -1,0 +1,1244 @@
+[
+  {
+    "district": 1,
+    "name": "Jack Bergman",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent U.S. Representative, retired three-star Lt. General (USMC). Bergman served 40 years in the Marine Corps including combat deployments. Elected to Congress in 2016. Sits on Armed Services Committee. Strong conservative voting record across all categories.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Co-sponsored Born-Alive Act and Pain-Capable Unborn Child Protection Act; 100% National Right to Life voting record",
+      "marriage": "Supports traditional marriage; voted against Respect for Marriage Act",
+      "religiousLiberty": "Co-sponsored First Amendment Defense Act; supports religious freedom protections",
+      "secondAmendment": "A-rated by NRA; opposes all gun control legislation; supports national concealed carry reciprocity",
+      "limitedGov": "Military background; supports reducing federal bureaucracy; opposes vaccine mandates and federal overreach",
+      "fiscal": "Voted against omnibus spending bills; supports balanced budget amendment; opposes new taxes"
+    }
+  },
+  {
+    "district": 1,
+    "name": "Matthew DenOtter",
+    "party": "republican",
+    "grade": "C",
+    "description": "Healthcare executive and small-business founder from Boyne City, Michigan. Born in Grand Rapids, graduated from Calvin University (1998) and attended Calvin Seminary for two years. Previously ran for Congress in Michigan's 11th District in 2022 and lost in the Republican primary. Campaign focuses on rural healthcare, infrastructure, broadband access, and border security.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Calvin University and Calvin Seminary background suggests conservative Christian values on life issues; no explicit public pro-life statements found but seminary training indicates likely pro-life leanings",
+      "marriage": "Calvin University is a Christian Reformed institution with traditional marriage views; no explicit public statements found on this issue",
+      "religiousLiberty": "Calvin University and seminary background suggests strong personal faith commitment; no specific policy positions articulated publicly",
+      "secondAmendment": "No public statements on Second Amendment found; campaign focuses on healthcare and infrastructure rather than gun rights",
+      "limitedGov": "Campaign emphasizes expanding rural healthcare and investing in infrastructure, suggesting moderate rather than strictly limited-government approach; supports border security",
+      "fiscal": "Campaign priorities include significant investment in rural healthcare and infrastructure, suggesting willingness to support government spending in targeted areas"
+    }
+  },
+  {
+    "district": 1,
+    "name": "Justin Michal",
+    "party": "republican",
+    "grade": "C",
+    "description": "Army veteran from Grayling, Michigan, working on a doctorate in conflict analysis and resolution. Co-founded student veteran organizations and helped raise millions for veteran support. His research on housing allowance discrepancies for student veterans led to policy changes recognized by the Department of Veterans Affairs. Holds an MBA from Florida Atlantic University. Running on a platform of better constituent representation.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "B",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements found on abortion; running as Republican but focused on veteran and constituent service issues",
+      "marriage": "No public statements found on marriage; no specific policy positions articulated",
+      "religiousLiberty": "No public statements found on religious liberty; campaign focused on constituent services and veteran advocacy",
+      "secondAmendment": "Army veteran; likely supportive of Second Amendment based on military background and Republican primary positioning, but no specific endorsements or statements found",
+      "limitedGov": "Campaign focused on improving government responsiveness to constituents rather than reducing government; veteran advocacy suggests comfort with government programs for service members",
+      "fiscal": "No specific fiscal policy positions articulated publicly; campaign focused on better representation rather than spending priorities"
+    }
+  },
+  {
+    "district": 1,
+    "name": "Callie Barr",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Attorney and former high school English teacher from Traverse City. Born and raised in Traverse City and Cheboygan with five-generation family roots. Graduated from Central Michigan University (secondary education) and University of Michigan Law School. Military spouse whose husband served in USMC in Iraq and Afghanistan. Previously ran against Bergman in November 2024. Campaign focuses on healthcare access, affordable housing, women's rights, and gun violence prevention.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Explicitly supports abortion access; criticizes opponent Bergman's pro-life legislation including bills without exceptions; advocates for women to 'make their own medical decisions free from political interference'",
+      "marriage": "Listed in Progressive Voters Guide; advocates for women's rights broadly; no explicit marriage statements but progressive positioning indicates support for redefined marriage",
+      "religiousLiberty": "No specific anti-religious liberty positions found; campaign focused on other issues; progressive alignment suggests limited support for broad religious exemptions",
+      "secondAmendment": "Explicitly supports 'common-sense gun violence prevention laws'; campaign lists creating 'safer communities via common-sense gun violence prevention' as a key priority",
+      "limitedGov": "Supports expanded government programs including protecting Social Security and Medicare, affordable housing initiatives, rural broadband investment, and federal healthcare expansion",
+      "fiscal": "Campaign priorities require significant government spending: healthcare expansion, affordable housing, childcare, broadband infrastructure; supports protecting and expanding entitlement programs"
+    }
+  },
+  {
+    "district": 1,
+    "name": "Kyle Blomquist",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Architect and Iron Mountain City Council Mayor Pro Tem, age 40. Born and raised in Iron Mountain. Owns Blomquist Architects in downtown Iron Mountain. Served on Iron Mountain City Council and Planning Commission. Graduated from Iron Mountain High School (2004), Grand Valley State University (art/engineering dual focus), and University of Wisconsin-Milwaukee (M.Arch.).",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Campaign explicitly supports Medicare for All and comprehensive healthcare access which typically includes abortion coverage; progressive platform alignment",
+      "marriage": "No specific statements found, but campaign platform includes progressive social positions aligned with Democratic Party",
+      "religiousLiberty": "No specific statements found on religious liberty",
+      "secondAmendment": "No specific Second Amendment positions found; progressive platform alignment suggests support for gun control measures",
+      "limitedGov": "Supports Medicare for All, universal childcare, paid time off, housing for all, and expanding Social Security - a dramatically expansionist government agenda",
+      "fiscal": "Platform includes Medicare for All, housing for all, universal childcare, parental leave, living wages, expanding Social Security - would require massive new federal spending"
+    }
+  },
+  {
+    "district": 1,
+    "name": "Wayne Stiles",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Industrial designer, entrepreneur, and small business owner from Traverse City. Self-described 'unapologetic Catholic.' Raised in West Michigan, son of union workers. Earned a BFA from the University of Michigan. Campaign focuses on healthcare access, supporting farmers and small businesses, and job creation for working families.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Self-described Catholic but running as Democrat; no explicit pro-life position found; Democratic primary positioning suggests pro-choice stance despite religious background",
+      "marriage": "No specific statements found; Catholic background may indicate personal traditional views but Democratic primary candidacy suggests alignment with party platform",
+      "religiousLiberty": "Self-described 'unapologetic Catholic' suggests personal religious conviction; however, no specific religious liberty policy positions articulated",
+      "secondAmendment": "No specific Second Amendment positions found; running in rural northern Michigan district but as Democrat; likely moderate on gun issues",
+      "limitedGov": "Supports expanding healthcare access and government support for working families; son of union workers with labor-friendly platform",
+      "fiscal": "Campaign focused on government investment in healthcare, farming support, and job creation; moderate spending approach compared to more progressive primary opponents"
+    }
+  },
+  {
+    "district": 2,
+    "name": "John Moolenaar",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent U.S. Representative for Michigan's 2nd District. Former Michigan state senator and state representative. Strong conservative voting record. Serves on the House Appropriations Committee.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Strong pro-life voting record; co-sponsored multiple pro-life bills; 100% SBA Pro-Life scorecard",
+      "marriage": "Supports traditional marriage; voted against Respect for Marriage Act",
+      "religiousLiberty": "Supports broad religious liberty protections; co-sponsored RFRA strengthening legislation",
+      "secondAmendment": "A-rated by NRA; opposes gun control measures; supports Second Amendment rights",
+      "limitedGov": "Supports reducing federal regulations; opposes expansion of federal agencies",
+      "fiscal": "Fiscal conservative voting record; supports balanced budget; opposes wasteful spending"
+    }
+  },
+  {
+    "district": 2,
+    "name": "Ben Ambrose",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Marine Corps veteran and federal policy advisor running for Congress in Michigan's 2nd District. Has raised more than any other Democratic candidate in this race. Limited public policy positions available.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment; Marine veteran background does not clarify stance",
+      "marriage": "No specific statements found on marriage; Democratic primary candidacy suggests alignment with party platform supporting same-sex marriage",
+      "religiousLiberty": "No specific positions found; military background suggests respect for constitutional freedoms but no specific religious liberty advocacy",
+      "secondAmendment": "Marine Corps veteran background suggests familiarity with firearms; no specific policy positions articulated; Democratic candidacy suggests likely support for some gun control measures",
+      "limitedGov": "Federal policy advisor background suggests comfort with government programs; no specific limited government positions articulated",
+      "fiscal": "No specific fiscal positions found; federal policy advisor background and Democratic primary candidacy suggest support for government spending programs"
+    }
+  },
+  {
+    "district": 2,
+    "name": "Jamie Hill",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Lifelong rural Michigander, born in the Thumb region. Grew up working-class family on a small farm. Founded a remodeling business, served communities for decades, volunteered with Sheriff's Department, adjunct professor, and currently a practicing physician assistant providing care in underserved rural areas. Campaign does not accept corporate or AIPAC donations.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "PA providing 'affirming, accessible care' in rural areas; progressive platform alignment; no explicit pro-life positions",
+      "marriage": "Campaign describes providing 'affirming' care, language commonly associated with LGBTQ-inclusive positions; progressive platform alignment",
+      "religiousLiberty": "No specific positions found on religious liberty; progressive campaign focus on accountability and anti-corruption",
+      "secondAmendment": "Volunteered with Sheriff's Department suggesting familiarity with firearms; no specific gun policy positions articulated but progressive alignment suggests support for restrictions",
+      "limitedGov": "Campaign focused on expanding government accountability and investigations; supports using government power to investigate and prosecute corruption; expansive view of government role",
+      "fiscal": "No specific fiscal positions articulated; progressive platform alignment and refusal of corporate donations suggest support for progressive spending priorities"
+    }
+  },
+  {
+    "district": 2,
+    "name": "Clyde Welford",
+    "party": "democratic",
+    "grade": null,
+    "description": "Lake County Commissioner and retired teacher from Baldwin, Michigan. Filed for candidacy on April 17, 2026. Very limited public information available about policy positions or campaign platform.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information found on abortion position",
+      "marriage": "No public information found on marriage position",
+      "religiousLiberty": "No public information found on religious liberty position",
+      "secondAmendment": "No public information found on Second Amendment position",
+      "limitedGov": "Lake County Commissioner and retired teacher; no specific policy positions found",
+      "fiscal": "No public information found on fiscal positions"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Ryan Cushman",
+    "party": "republican",
+    "grade": null,
+    "description": "Businessman and Army veteran. May not be an official 2026 candidate -- more recent ballot listings show Terri DeBoer and J. Allen Fiorletta as the Republican primary candidates for District 3. Very limited public information available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information found; candidacy status uncertain",
+      "marriage": "No public information found; candidacy status uncertain",
+      "religiousLiberty": "No public information found; candidacy status uncertain",
+      "secondAmendment": "Army veteran background; no specific policy positions found; candidacy status uncertain",
+      "limitedGov": "No public information found; candidacy status uncertain",
+      "fiscal": "No public information found; candidacy status uncertain"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Terri DeBoer",
+    "party": "republican",
+    "grade": "B",
+    "description": "Veteran West Michigan TV meteorologist with over 30 years of experience, most recently at Fox17. Self-described political outsider. Grew up in a military family. Backed by the DeVos family (Betsy DeVos, former U.S. Secretary of Education, is among her donors). Campaign priorities include healthcare access and affordability, education, job creation, fiscal responsibility, and border security.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Campaign says she will 'protect the vulnerable among us'; DeVos family backing (strong pro-life donors) suggests pro-life alignment; has not completed Ballotpedia candidate survey with specific positions",
+      "marriage": "No specific public positions found; DeVos family backing (socially conservative donors) suggests traditional marriage alignment; has not completed candidate surveys",
+      "religiousLiberty": "Military family background and DeVos family support (strong religious liberty advocates) suggest alignment with religious freedom positions; no specific statements found",
+      "secondAmendment": "Campaign says she will 'keep our communities safe'; military family background; no specific gun policy statements; has not completed candidate surveys on this issue",
+      "limitedGov": "Calls herself a political outsider focused on restoring 'fiscal sanity'; supports border security and reducing government waste; DeVos family support suggests school choice alignment",
+      "fiscal": "Explicitly campaigned on restoring 'fiscal sanity' to Washington and fiscal responsibility; DeVos family support suggests alignment with free-market conservative economics"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Hillary Scholten",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent U.S. Representative. Immigration attorney by background. Elected in 2022, re-elected in 2024 with 53.7% of the vote. Represents western Michigan including Grand Rapids and Muskegon.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Supports unrestricted abortion access; voted against Born-Alive Act; 0% National Right to Life scorecard",
+      "marriage": "Supports same-sex marriage and Equality Act; opposes traditional marriage definition",
+      "religiousLiberty": "Has expressed personal faith but votes to limit religious exemptions in anti-discrimination law",
+      "secondAmendment": "Supports assault weapons ban and red flag laws; F-rated by NRA",
+      "limitedGov": "Supports expanded federal programs; voted for increased government spending and regulation",
+      "fiscal": "Voted for major spending bills; supports higher taxes and expanded government programs"
+    }
+  },
+  {
+    "district": 4,
+    "name": "Bill Huizenga",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent U.S. Representative. Serves on the House Financial Services Committee. Strong conservative voting record. Re-elected in 2024 with 55.1% of the vote.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Strong pro-life record; 100% National Right to Life scorecard; co-sponsored pro-life legislation",
+      "marriage": "Supports traditional marriage; voted against Respect for Marriage Act",
+      "religiousLiberty": "Strong religious liberty record; supports RFRA protections; opposes government mandates on religious organizations",
+      "secondAmendment": "A-rated by NRA; strong Second Amendment defender; opposes all gun control legislation",
+      "limitedGov": "Supports reducing government size and regulation; Financial Services Committee member focused on deregulation",
+      "fiscal": "Fiscal conservative; opposes omnibus spending; supports balanced budget amendment"
+    }
+  },
+  {
+    "district": 4,
+    "name": "Philip Tanis",
+    "party": "republican",
+    "grade": "B",
+    "description": "Former Mayor of Holland, Michigan, and College Historical Research Center Director. Challenging incumbent Bill Huizenga in the Republican primary. Limited public campaign information available for 2026 race.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Former Holland mayor -- Holland is a conservative Dutch Reformed community with strong pro-life culture; no explicit statements found but community context suggests pro-life alignment",
+      "marriage": "Holland, Michigan has strong Dutch Reformed Christian heritage supporting traditional marriage; no explicit statements found but community context suggests traditional views",
+      "religiousLiberty": "Holland is home to Hope College (Reformed Church); community strongly values religious liberty; no specific policy positions articulated",
+      "secondAmendment": "No specific Second Amendment positions found; Republican candidate in conservative-leaning community",
+      "limitedGov": "Former mayor suggesting executive governance experience; no specific limited government positions articulated for congressional race",
+      "fiscal": "No specific fiscal positions found; Republican primary candidate challenging from within the party"
+    }
+  },
+  {
+    "district": 4,
+    "name": "Diop Harris II",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Community leader, policy advocate, and former congressional staffer (legislative correspondent for U.S. Senator Sherrod Brown). Tribal citizen of the Nottawaseppi Huron Band of the Potawatomi. First candidate to submit signatures in the District 4 race. Campaign focused on universal healthcare, corporate accountability, and community investment.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Former staffer for Sen. Sherrod Brown (100% NARAL rating); campaign advocates for 'universal healthcare access' which in progressive context includes abortion coverage",
+      "marriage": "No specific statements found; worked for Sen. Sherrod Brown who strongly supports same-sex marriage and LGBTQ rights; progressive campaign positioning",
+      "religiousLiberty": "No specific statements found on religious liberty; progressive policy platform does not emphasize religious exemptions",
+      "secondAmendment": "No specific Second Amendment positions found; progressive Democratic candidate positioning suggests support for gun control measures",
+      "limitedGov": "Advocates for universal healthcare access, corporate and utility accountability, and increased government investment in local communities -- expansive government role",
+      "fiscal": "Campaign centered on 'people-powered movement' with universal healthcare, increased community investment, and corporate accountability -- significant spending priorities"
+    }
+  },
+  {
+    "district": 4,
+    "name": "Sean McCann",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Michigan State Senator representing the Kalamazoo area (District 19). Previously served in Michigan House of Representatives (District 60, 2011-2015) and on Kalamazoo City Commission (1999-2008). Endorsed by Governor Gretchen Whitmer. Named to DCCC's 'Red to Blue' program as a top Democratic recruit. Citizen of the Citizen Potawatomi Nation.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Campaign explicitly says he wants to 'protect women's right to choose'; as state senator during 2023-2024 Democratic trifecta, voted with Whitmer's agenda which included repealing Michigan's 1931 abortion ban",
+      "marriage": "Voted with Democratic majority in Michigan legislature which expanded LGBTQ civil rights protections including Elliott-Larsen Civil Rights Act expansion",
+      "religiousLiberty": "No specific anti-religious liberty positions found, but voted with Democratic caucus that prioritized anti-discrimination measures over religious exemptions",
+      "secondAmendment": "Voted with Democratic majority for Michigan gun control package in 2023 including red flag laws, universal background checks, and safe storage requirements",
+      "limitedGov": "Endorsed by Whitmer; voted for expanded state government programs; supports federal tax relief and bringing 'good-paying jobs back' through government action",
+      "fiscal": "Campaign promises tax relief for Michigan families while supporting expanded government programs; as state senator voted for increased state spending under Whitmer administration"
+    }
+  },
+  {
+    "district": 5,
+    "name": "Tim Walberg",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent U.S. Representative. Former pastor and ordained minister. Founding member of House Freedom Caucus. One of the most conservative members of Congress.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Former pastor; 100% pro-life voting record; co-sponsored Heartbeat Protection Act and Born-Alive Act",
+      "marriage": "Strongly supports traditional marriage; voted against Respect for Marriage Act; former pastor",
+      "religiousLiberty": "Strong advocate; co-sponsored First Amendment Defense Act; ordained minister",
+      "secondAmendment": "A-rated by NRA; opposes all gun control; supports constitutional carry",
+      "limitedGov": "Founding member of House Freedom Caucus; opposes federal overreach; supports school choice",
+      "fiscal": "One of the most fiscally conservative House members; opposes all spending increases; supports balanced budget"
+    }
+  },
+  {
+    "district": 5,
+    "name": "Christian Vukasovich",
+    "party": "democratic",
+    "grade": "D",
+    "description": "College professor and son of immigrant parents. Self-described expert in foreign policy, health communication, and extremist discourse. Running in a heavily Republican district (R+13 Cook PVI). Campaign focuses on immigration reform, congressional financial limitations, cost of living, public education, affordable housing, and constitutional rights.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific abortion positions found; Democratic candidate running on progressive platform including 'safeguarding constitutional rights' which in Democratic context includes abortion rights",
+      "marriage": "No specific marriage positions found; Democratic primary candidacy suggests alignment with party platform",
+      "religiousLiberty": "No specific positions found; campaign mentions 'safeguarding constitutional rights of the people' which could include religious liberty",
+      "secondAmendment": "No specific Second Amendment positions found; Democratic candidacy suggests likely support for gun control measures",
+      "limitedGov": "Supports investing in public education, affordable housing, and government action on cost of living -- expanded government role",
+      "fiscal": "Supports government investment in education, housing, and immigration reform; no specific fiscal restraint positions found"
+    }
+  },
+  {
+    "district": 6,
+    "name": "Heather Smiley",
+    "party": "republican",
+    "grade": "B",
+    "description": "Former Ford Motor Company employee (1990-2022) working in Data Insights and Analytics, Customer Service, and Product Development. B.A. from Central Michigan University (1985), M.A. in Administration from CMU (2001). Previously ran against Dingell in 2024 general election and lost. Note: may not be an official 2026 candidate -- more recent Ballotpedia listings do not include her in the 2026 Republican primary.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Republican candidate in 2024 who ran against Debbie Dingell; no specific pro-life policy positions publicly articulated; 30+ year Ford career in private sector suggests independence from party orthodoxy on social issues",
+      "marriage": "No specific statements found on marriage; 2024 Republican candidacy in heavily Democratic Ann Arbor district suggests willingness to run on conservative values but no marriage-specific positions documented",
+      "religiousLiberty": "No specific religious liberty positions found; Republican candidate positioning suggests general support",
+      "secondAmendment": "No specific Second Amendment positions found; Republican primary candidate alignment suggests general support for gun rights",
+      "limitedGov": "30+ year career in private sector at Ford Motor Company suggests appreciation for free enterprise; no specific policy positions articulated",
+      "fiscal": "No specific fiscal positions found; long private sector career at Ford and Republican candidacy suggest fiscal conservative leanings"
+    }
+  },
+  {
+    "district": 6,
+    "name": "Debbie Dingell",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent U.S. Representative since 2015, succeeding her late husband John Dingell. Represents Ann Arbor and Washtenaw County. One of the most liberal members of Congress. Leading advocate for gun control, expanded healthcare, and climate policy.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Supports unrestricted abortion access; co-sponsored Women's Health Protection Act; 0% Right to Life scorecard",
+      "marriage": "Co-sponsored Equality Act; supports same-sex marriage; opposes traditional marriage definition",
+      "religiousLiberty": "Votes to limit religious exemptions in anti-discrimination law; does not prioritize religious liberty",
+      "secondAmendment": "Leading gun control advocate in Congress; supports assault weapons ban, red flag laws, universal background checks",
+      "limitedGov": "Supports expanded federal programs; backs major government expansion in healthcare and climate",
+      "fiscal": "Votes for all major spending bills; supports higher taxes; opposes spending restraint"
+    }
+  },
+  {
+    "district": 7,
+    "name": "Tom Barrett",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent U.S. Representative, former Michigan State Senator. Army veteran with combat service. Flipped this Lansing-area swing district for Republicans in 2024. Strong conservative record in both state and federal office.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Strong pro-life record in both state senate and Congress; opposes all abortion except to save mother's life",
+      "marriage": "Supports traditional marriage; voted against Respect for Marriage Act",
+      "religiousLiberty": "Supports religious freedom protections; opposes government mandates violating religious conscience",
+      "secondAmendment": "A-rated by NRA; Army veteran; strong Second Amendment record in both state and federal office",
+      "limitedGov": "Opposes federal overreach; supports reducing regulations; Army veteran focused on limited government",
+      "fiscal": "Fiscal conservative; opposes wasteful spending; supports balanced budget amendment"
+    }
+  },
+  {
+    "district": 7,
+    "name": "Bridget Brink",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Former U.S. Ambassador to Ukraine (2022-2025) who resigned over policy differences with Trump administration regarding Ukraine. First woman to serve as U.S. ambassador in a war zone. Grew up in Grand Rapids area, attended Michigan public schools, B.A. from Kenyon College, two master's degrees from London School of Economics. Career diplomat since 1996. Endorsed by EMILYs List and Michigan Education Association.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Endorsed by EMILYs List, which exclusively supports pro-choice Democratic women candidates; this endorsement confirms a strong pro-choice position",
+      "marriage": "No specific statements found; EMILYs List endorsement and Democratic primary positioning indicate support for same-sex marriage",
+      "religiousLiberty": "No specific positions found on religious liberty; diplomatic career and moderate Democratic positioning suggest limited emphasis on religious exemptions",
+      "secondAmendment": "No specific gun policy positions found; Democratic candidate in moderate swing district; likely supports some gun control measures but may be more moderate than progressive opponents",
+      "limitedGov": "Career government diplomat (30 years in Foreign Service); supports robust American global engagement and government institutions; opposes Trump's reduction of federal agencies",
+      "fiscal": "No specific fiscal positions found; career in federal government and Democratic candidacy suggest support for government spending, particularly on defense and foreign affairs"
+    }
+  },
+  {
+    "district": 7,
+    "name": "William Lawrence",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Progressive activist and co-founder of the Sunrise Movement (climate action organization). Raised in East Lansing, graduated from Swarthmore College (2013). Founded Mid-Michigan Tenant Resource Center (2020). Coordinator for Michigan Rent Is Too Damn High coalition. Endorsed by Rashida Tlaib, Working Families Party, Sunrise Movement, National Nurses United, and U.S. Rep. Ro Khanna. Parents were Constitutional Law professors at Michigan State University.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Endorsed by Rashida Tlaib who supports unrestricted abortion access; progressive platform with Working Families Party endorsement; no pro-life positions whatsoever",
+      "marriage": "Endorsed by progressive organizations that strongly support LGBTQ rights including Working Families Party; progressive platform alignment",
+      "religiousLiberty": "Progressive activist endorsed by organizations that typically oppose broad religious exemptions; Tlaib endorsement (F-rated on religious liberty) indicates similar positioning",
+      "secondAmendment": "Progressive activist platform; endorsed by organizations advocating gun control; no pro-Second Amendment positions found",
+      "limitedGov": "Co-founded Sunrise Movement advocating for Green New Deal -- one of the most expansive government programs ever proposed; supports Medicare for All, social housing, massive government expansion",
+      "fiscal": "Advocates for Green New Deal, Medicare for All, social housing, and major government investment programs; one of the most fiscally progressive candidates in any Michigan race"
+    }
+  },
+  {
+    "district": 7,
+    "name": "Matt Maasdam",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Retired Navy SEAL from Brighton, Michigan. Deployed to Iraq, Afghanistan, Africa, and Pacific during 20-year Navy career. Served as President Obama's military aide carrying the nuclear football starting in 2010. University of Michigan graduate. Post-military career as executive at Under Armour and e-commerce startups. Endorsed by End Citizens United and former U.S. Rep. Mark Schauer.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific abortion positions found; Democratic candidate but with military background; moderate Democrat positioning in swing district does not clarify specific stance",
+      "marriage": "No specific marriage positions found; Democratic candidacy suggests alignment with party platform supporting same-sex marriage",
+      "religiousLiberty": "No specific positions found; military background suggests respect for constitutional freedoms including religious liberty",
+      "secondAmendment": "Navy SEAL with extensive firearms experience; no specific gun policy positions articulated; running as Democrat but military background may indicate moderate stance on gun issues compared to party",
+      "limitedGov": "Opposes Medicaid cuts; campaign focused on affordability and reshoring manufacturing jobs through government action; moderate Democrat approach to government role",
+      "fiscal": "Opposes tariffs that hurt Michigan workers; opposes Medicaid cuts; supports government investment in manufacturing; moderate spending approach for a Democrat"
+    }
+  },
+  {
+    "district": 8,
+    "name": "Amir Hassan",
+    "party": "republican",
+    "grade": "B",
+    "description": "U.S. Navy veteran from Flint, Michigan. Served at Guantanamo Bay base and prison facility. Former federal law enforcement officer and former security detail for the Secretary of Transportation. Black and Muslim. Self-described 'America First' Republican and 'pragmagatist.' Endorsed by the Guardian Fund PAC. Campaign focuses on restoring jobs to the Saginaw Valley and supporting Trump's agenda.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "No explicit pro-life statements found; 'America First' Republican alignment and Guardian Fund PAC endorsement suggest pro-life positioning; specific stance not publicly articulated",
+      "marriage": "No specific marriage positions found; 'America First' conservative alignment suggests traditional marriage support; Muslim faith background does not clarify political stance",
+      "religiousLiberty": "Muslim and America First Republican -- interesting combination suggesting personal appreciation for religious freedom; fully supports U.S. aid and defense of Israel; no specific religious liberty legislation positions",
+      "secondAmendment": "Navy veteran and former federal law enforcement officer; America First alignment strongly supports gun rights; law enforcement background indicates strong Second Amendment support",
+      "limitedGov": "Supports Trump agenda including reducing government bureaucracy; proposes cutting income taxes for first responders; 'America First' positioning suggests limited government approach with exceptions for defense and law enforcement",
+      "fiscal": "Proposes cutting income taxes for first responders; supports Trump's economic agenda; criticizes Democratic spending; specific fiscal positions limited but conservative alignment clear"
+    }
+  },
+  {
+    "district": 8,
+    "name": "Al Lemmo",
+    "party": "republican",
+    "grade": "A",
+    "description": "Retired mechanical engineer who spent 30+ years at the U.S. Army's Tank-Automotive Research, Development and Engineering Center (TARDEC) in Warren. Distinguished graduate of Union College with two degrees with honors (1974). Served on the board of Wayne County West Right to Life/Lifespan of Metro Detroit for over a decade. Helped lead Dearborn's successful effort to pass the 1988 statewide referendum ending taxpayer-funded abortions. Previous 2020 congressional candidate.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "B",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Over a decade on the board of Wayne County West Right to Life/Lifespan of Metro Detroit; helped lead the 1988 statewide referendum to end taxpayer-funded abortions; pro-life activism is central to his political identity",
+      "marriage": "Strong pro-life activist background and conservative Republican positioning strongly suggest traditional marriage support; no specific statements found but Right to Life board service indicates social conservatism",
+      "religiousLiberty": "Pro-life activism rooted in religious conviction; Right to Life involvement suggests strong religious liberty advocacy; conservative social positions align with religious freedom protections",
+      "secondAmendment": "No specific Second Amendment positions found; military-adjacent career at Army TARDEC and conservative Republican alignment suggest support for gun rights",
+      "limitedGov": "30+ year career in defense engineering at Army TARDEC; conservative Republican positioning; opposes taxpayer funding of programs he considers immoral",
+      "fiscal": "Led effort to end taxpayer-funded abortions; conservative Republican positioning; specific fiscal positions beyond pro-life spending concerns not articulated but party alignment is clear"
+    }
+  },
+  {
+    "district": 8,
+    "name": "Thomas J. Smith",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate in Michigan's 8th Congressional District for 2026. Very limited public information available about background, campaign platform, or policy positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information found on abortion position",
+      "marriage": "No public information found on marriage position",
+      "religiousLiberty": "No public information found on religious liberty position",
+      "secondAmendment": "No public information found on Second Amendment position",
+      "limitedGov": "No public information found on government size position",
+      "fiscal": "No public information found on fiscal positions"
+    }
+  },
+  {
+    "district": 8,
+    "name": "Kristen McDonald Rivet",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent U.S. Representative. Former Michigan State Senator. Won the seat in 2024 with 51.3% in a competitive swing district. Previously voted for Whitmer's agenda in the state senate including gun control and abortion rights expansion.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Supports abortion rights; voted for Prop 3 codification in state senate before winning House seat",
+      "marriage": "Supports same-sex marriage; voted for Michigan LGBTQ civil rights expansion as state senator",
+      "religiousLiberty": "Votes to limit religious exemptions; does not prioritize religious liberty in legislation",
+      "secondAmendment": "Supports gun control legislation including red flag laws and universal background checks",
+      "limitedGov": "Supports expanded government programs and regulation; former state senator who voted for Whitmer agenda",
+      "fiscal": "Supported Whitmer tax increases as state senator; votes for expanded spending as congresswoman"
+    }
+  },
+  {
+    "district": 9,
+    "name": "Lisa McClain",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent U.S. Representative. House Republican Conference Vice Chair. Strong conservative voting record. Re-elected in 2024 with 66.8% of the vote in a safely Republican district (R+16 Cook PVI).",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "100% pro-life voting record; co-sponsored multiple pro-life bills; endorsed by Right to Life of Michigan",
+      "marriage": "Supports traditional marriage; voted against Respect for Marriage Act",
+      "religiousLiberty": "Strong religious liberty advocate; supports RFRA protections for faith-based organizations",
+      "secondAmendment": "A-rated by NRA; opposes all gun control; supports Second Amendment rights",
+      "limitedGov": "House Republican Conference Vice Chair; supports reducing government size and overreach",
+      "fiscal": "Fiscal conservative; opposes wasteful spending and new taxes; supports balanced budget"
+    }
+  },
+  {
+    "district": 9,
+    "name": "Ray Pooley",
+    "party": "democratic",
+    "grade": null,
+    "description": "Machinist and computer programmer running in a heavily Republican district (R+16 Cook PVI). Very limited public information available about policy positions or campaign platform.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information found on abortion position",
+      "marriage": "No public information found on marriage position",
+      "religiousLiberty": "No public information found on religious liberty position",
+      "secondAmendment": "No public information found on Second Amendment position",
+      "limitedGov": "Machinist and computer programmer; no specific policy positions found",
+      "fiscal": "No public information found on fiscal positions"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Michael Bouchard",
+    "party": "republican",
+    "grade": "B",
+    "description": "Son of Oakland County Sheriff Mike Bouchard. Army captain and paratrooper with nearly 10 years of military service including nine months deployed to Iraq. Age 32. Raised $427,000 in Q1 2026 with ~$847,000 cash on hand. Campaign emphasizes restoring safety and security, rebuilding Michigan manufacturing, supporting Trump's agenda, border security, parental control of schools, and defending those who serve.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "No explicit pro-life statements found for this campaign; Trump-aligned Republican positioning and father's conservative record suggest pro-life leanings; has not completed candidate surveys",
+      "marriage": "No specific statements found; conservative Republican family background and Trump alignment suggest traditional views; has not completed candidate surveys",
+      "religiousLiberty": "Supports parental control of schools which often intersects with religious liberty; conservative positioning suggests general support; no specific policy articulated",
+      "secondAmendment": "Army paratrooper with combat experience; father is a sheriff; campaign emphasizes 'restoring safety and security'; strong law enforcement family background indicates robust Second Amendment support",
+      "limitedGov": "Supports Trump's agenda on cutting red tape; wants to protect Michigan manufacturing and defend American jobs; military and law enforcement family background",
+      "fiscal": "Supports economic protectionism for Michigan manufacturing; Trump-aligned fiscal approach; opposes excessive regulation; specific fiscal positions limited"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Steffan Demetropoulos",
+    "party": "republican",
+    "grade": "B",
+    "description": "Army veteran, construction project manager, husband and father of four from Macomb, Michigan. Enlisted at 17 and served on active duty including combat deployment to Afghanistan and tactical training in Romania (10 years total military service). B.S. in Civil Engineering from Milwaukee School of Engineering, M.S. in Project Management from Louisiana State University. Works in construction management delivering K-12 school facilities and public-sector projects.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "A",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific pro-life statements found; conservative Republican positioning in Macomb County suggests pro-life alignment; family-values messaging ('husband and father of four')",
+      "marriage": "No specific statements found; family-focused campaign messaging and conservative community suggest traditional marriage support",
+      "religiousLiberty": "No specific positions found; conservative Republican positioning suggests general support for religious freedom",
+      "secondAmendment": "10-year Army veteran with combat deployment to Afghanistan; military service strongly suggests robust Second Amendment support",
+      "limitedGov": "Construction project manager focused on efficiency; military background; conservative positioning suggests limited government approach but works on public-sector projects",
+      "fiscal": "Construction management career suggests practical fiscal approach; no specific fiscal policy positions articulated; Republican alignment indicates fiscal conservatism"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Justin Kirk",
+    "party": "republican",
+    "grade": "B",
+    "description": "Attorney from Macomb County. Born and raised in Macomb County. University of Michigan graduate. Worked alongside the late Congressman Paul Mitchell. Built a legal career helping job creators, tradesmen, and small businesses. Campaign focused on bringing 'Macomb County values' to Washington and standing up for working families.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific pro-life statements found; worked with late Rep. Paul Mitchell who had a pro-life voting record; Macomb County conservative positioning suggests alignment",
+      "marriage": "No specific statements found; conservative Macomb County community and Republican positioning suggest traditional marriage support",
+      "religiousLiberty": "No specific positions found; conservative Republican positioning suggests general support for religious freedom",
+      "secondAmendment": "No specific statements found; legal career helping 'tradesmen' and Macomb County conservative culture suggest Second Amendment support; worked with Rep. Mitchell who was NRA-endorsed",
+      "limitedGov": "Legal career helping small businesses and job creators 'level the playing field' against large corporations; suggests some regulatory skepticism; Paul Mitchell mentorship indicates limited government leanings",
+      "fiscal": "Career focused on helping small businesses; Republican positioning suggests fiscal conservatism; no specific fiscal policy positions articulated"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Robert Lulgjuraj",
+    "party": "republican",
+    "grade": "A",
+    "description": "Former Macomb County Assistant Prosecuting Attorney. Native of Sterling Heights, grandson of Albanian immigrants who fled communism and religious persecution. Son of a maintenance worker and waitress. Graduated from Brother Rice High School, B.A. from Holy Cross College at Notre Dame (elected Student Body President), J.D. from University of Detroit Mercy School of Law (President of Federalist Society). Created the Digital Evidence Optimization Unit in Macomb County. Prosecuted 2,000+ cases. Facing ballot eligibility challenge. Raised $650,000+.",
+    "positions": {
+      "proLife": "A",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "A",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "Family fled religious persecution; attended Brother Rice (Catholic) and Holy Cross at Notre Dame (Catholic institutions); President of Federalist Society (conservative legal organization that generally supports pro-life jurisprudence); strong pro-life institutional alignment",
+      "marriage": "Catholic education (Brother Rice, Holy Cross at Notre Dame) and Federalist Society leadership strongly suggest traditional marriage views; conservative institutional background",
+      "religiousLiberty": "Family literally fled communism and religious persecution; Catholic education background; Federalist Society president -- organization that strongly advocates for religious liberty in constitutional law",
+      "secondAmendment": "Law enforcement career prosecuting violent crime; tough-on-crime platform; Federalist Society membership (supports individual right interpretation of 2A); conservative positioning in Macomb County",
+      "limitedGov": "Federalist Society president (advocates for originalist, limited government jurisprudence); campaign emphasizes American values and border security; family background escaping communist government overreach",
+      "fiscal": "Federalist Society membership and conservative legal background suggest fiscal conservatism; campaign emphasizes economic protectionism for working class; specific fiscal platform positions align with conservative economics"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Eric Chung",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Former U.S. Department of Commerce lawyer who worked on implementing the CHIPS and Science Act. From Sterling Heights. Son of Vietnamese immigrants; father was an auto worker in Macomb County. Graduate of Lamphere High School, Harvard College, and Yale Law School. Campaign focused on restoring the American Dream and holding Trump administration accountable.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific abortion positions found; Democratic candidate positioning and opposition to Trump suggests pro-choice alignment; no explicit statements",
+      "marriage": "No specific marriage positions found; Democratic candidacy suggests alignment with party platform supporting same-sex marriage",
+      "religiousLiberty": "No specific positions found; Harvard/Yale legal background and Democratic positioning; son of immigrants may appreciate religious freedom protections",
+      "secondAmendment": "No specific gun policy positions found; Democratic candidate in competitive swing district; likely moderate on gun issues for the party",
+      "limitedGov": "Worked on implementing CHIPS Act (major federal industrial policy); supports active government role in manufacturing and economic development",
+      "fiscal": "Implemented CHIPS Act which involves significant government spending on semiconductor manufacturing; Democratic positioning suggests support for government investment programs"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Tim Greimel",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Mayor of Pontiac (2022-present, elected with 60%+ of the vote). Former Michigan State Representative (2012-2018) who served as House Democratic Minority Leader (2013-2016). Led efforts to establish Healthy Michigan, expand Medicaid to 650,000+ people, and raise Michigan's minimum wage. Campaign emphasizes economy, affordable healthcare, and opposing Trump's education and trade policies.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "House Democratic Minority Leader who led caucus aligned with pro-choice positions; Voices for Progress endorsement (progressive organization); no pro-life positions in legislative record",
+      "marriage": "Led House Democratic caucus that supported LGBTQ rights expansion; progressive organizational endorsements; no traditional marriage positions in record",
+      "religiousLiberty": "No specific anti-religious liberty positions found but House Democratic leadership aligned with limiting religious exemptions in anti-discrimination law",
+      "secondAmendment": "House Democratic leader who would have supported Democratic gun control agenda; progressive platform alignment; no pro-gun positions in record",
+      "limitedGov": "Established Healthy Michigan expanding Medicaid to 650,000 people; raised minimum wage; opposes elimination of Department of Education; strongly supports expanded government role",
+      "fiscal": "Led expansion of Medicaid coverage; supports higher minimum wage; opposes spending cuts; progressive fiscal record as both state representative and mayor"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Christina Bertrand Hines",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Prosecutor, mother, and lifelong Macomb County resident. Graduate of University of Michigan and Wayne State Law School. Has prosecuted homicides, human trafficking, sexual assault, and hate crimes. Ran for Macomb County Prosecutor in 2024, receiving 43% against incumbent Peter Lucido. Endorsed by EMILYs List. Over a decade fighting for women, children, and vulnerable communities.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Endorsed by EMILYs List, which exclusively supports pro-choice Democratic women candidates; this endorsement confirms a strong pro-choice position on abortion",
+      "marriage": "EMILYs List endorsement and Democratic positioning indicate support for same-sex marriage; campaign focused on 'fighting for women, children, and vulnerable communities'",
+      "religiousLiberty": "No specific positions found on religious liberty; prosecutorial background focused on hate crimes may indicate emphasis on anti-discrimination over religious exemptions",
+      "secondAmendment": "No specific gun policy positions found; Democratic candidate and prosecutor; likely supports gun control measures given law enforcement and Democratic positioning",
+      "limitedGov": "Prosecutorial career in government service; Democratic positioning suggests support for expanded government programs; no specific limited government positions",
+      "fiscal": "No specific fiscal positions articulated; Democratic candidacy and EMILYs List endorsement suggest progressive fiscal alignment"
+    }
+  },
+  {
+    "district": 11,
+    "name": "Ethan Baker",
+    "party": "republican",
+    "grade": "C",
+    "description": "Republican candidate from Troy. Born and raised in California, moved to Michigan about 16 years ago after meeting his wife Bethany, moved permanently 5 years ago. Previous candidate for Michigan House District 41 (lost 2018 Republican primary) and Michigan State Senate District 13 (2014 Republican candidate). Current or former mayor of Troy. Limited public policy information available for 2026 congressional race.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "Multiple-time Republican candidate suggesting consistent conservative alignment; no specific pro-life statements found for 2026 race; prior state-level candidacies in conservative districts",
+      "marriage": "No specific statements found; has run multiple times as Republican in Oakland County (2014 state senate, 2018 state house); no marriage-specific positions documented in any campaign",
+      "religiousLiberty": "No specific positions found; Republican candidate alignment suggests general support for religious freedom",
+      "secondAmendment": "No specific statements found; repeated Republican candidacies suggest alignment with party's pro-Second Amendment positions",
+      "limitedGov": "No specific positions articulated for congressional race; prior state-level campaigns suggest some level of limited government philosophy but no detailed platform available",
+      "fiscal": "No specific fiscal positions found; Republican alignment suggests fiscal conservatism but no detailed platform available"
+    }
+  },
+  {
+    "district": 11,
+    "name": "Aisha Farooqi",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Attorney and former prosecutor from Sterling Heights. Lifelong Michigander. B.A. from University of Michigan-Dearborn (2006), J.D. from University of Detroit Mercy (2012). Raised $87,200 in Q1 2026. Campaign focused on affordability crisis, guaranteeing healthcare for all, fully funding public education, and ending the genocide in Gaza.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Campaign promises to 'guarantee healthcare for all' which in progressive Democratic context includes abortion coverage; endorsed by progressive organizations; no pro-life positions",
+      "marriage": "No specific marriage statements but progressive Democratic positioning and organizational endorsements indicate support for same-sex marriage",
+      "religiousLiberty": "No specific positions found; campaign focused on ending Gaza conflict and opposing current Middle East policy may intersect with religious liberty issues but no explicit positions",
+      "secondAmendment": "No specific gun policy positions found; Democratic candidate and former prosecutor; progressive alignment suggests support for gun control measures",
+      "limitedGov": "Wants to guarantee healthcare for all, fully fund public education, tackle affordability crisis through government action -- significantly expanded government role",
+      "fiscal": "Guaranteeing healthcare for all and fully funding public education would require massive new spending; progressive fiscal platform"
+    }
+  },
+  {
+    "district": 11,
+    "name": "Jeremy Moss",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Michigan State Senator and first openly gay state senator in Michigan history. Served as State Senate President Pro Tempore (2023-2024). Former State Representative (District 35, 2015-2019). Previously served on Southfield City Council. B.A. in journalism from Michigan State University. Endorsed by Governor Whitmer and Michigan Democratic Jewish Caucus. Led fundraising in MI-11 primary with over $1 million raised.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Voted to repeal Michigan's 1931 abortion ban; actively pushed to end the abortion felony law; strong pro-choice legislative record as Senate President Pro Tem",
+      "marriage": "First openly gay state senator in Michigan; led expansion of Elliott-Larsen Civil Rights Act to add sexual orientation and gender identity protections; co-chair of LGBTQ Legislative Caucus; strongly opposes traditional marriage definition",
+      "religiousLiberty": "Sponsored legislation expanding anti-discrimination protections that limit religious exemptions; prioritizes LGBTQ anti-discrimination over religious exemptions; Elliott-Larsen Act expansion reduces religious liberty carve-outs",
+      "secondAmendment": "Founding member of Gun Violence Prevention Caucus; introduced universal background checks, safe storage requirements, reduced magazine capacity, and red flag laws; among the most anti-gun legislators in Michigan",
+      "limitedGov": "Senate President Pro Tempore during 2023-2024 Democratic trifecta that passed sweeping new government programs and regulations; supports extensive government expansion",
+      "fiscal": "Led Michigan Senate during period of significant new spending under Whitmer administration; supports expanded government programs requiring substantial new funding"
+    }
+  },
+  {
+    "district": 11,
+    "name": "John Paul Torres",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Waterford School Board Trustee. Lifelong resident of Michigan's 11th Congressional District. Career in Michigan judicial system including Probation Officer in Detroit Mental Health Court, Juvenile Court Administrator for Michigan Circuit Court, and Juvenile Drug Treatment Court Program Manager. Working-class background.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific abortion positions found; Democratic primary candidate positioning suggests pro-choice alignment; school board and judicial background does not clarify stance",
+      "marriage": "No specific marriage positions found; Democratic candidacy suggests alignment with party platform supporting same-sex marriage",
+      "religiousLiberty": "No specific positions found; judicial system and school board background does not indicate strong position either way",
+      "secondAmendment": "No specific gun policy positions found; Democratic candidate in Oakland County; judicial system background may indicate support for gun control measures",
+      "limitedGov": "Career in government judicial system including probation, juvenile courts; school board trustee; comfortable with government institutions and programs",
+      "fiscal": "School board trustee; career in government service; Democratic positioning suggests support for public spending on education and social services"
+    }
+  },
+  {
+    "district": 11,
+    "name": "Don Ufford",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Former Ford Motor Company executive (Director of Global Vehicle Engineering during Ford Escape, Mustang, F-150 development). Later worked in U.S. Department of Commerce and Office of Management and Budget (2020-2025), helping bring manufacturing jobs back to U.S. Rejoined NIST in 2024 and stayed through early Trump administration before quitting over tariff policy disagreements. From Bloomfield Village. Led all MI-11 candidates in third-quarter fundraising.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific abortion positions found; previously identified as Republican before running as Democrat; moderate positioning but no clear stance on life issues",
+      "marriage": "No specific marriage positions found; formerly identified as Republican; running as Democrat which suggests evolution on social issues",
+      "religiousLiberty": "No specific positions found; previously identified as Republican suggesting possible moderate religious liberty views; no explicit statements",
+      "secondAmendment": "No specific gun policy positions found; formerly Republican-identifying; manufacturing executive background does not clarify stance",
+      "limitedGov": "Career spanning both private sector (Ford executive) and government (Commerce Department, OMB, NIST); believes in active government role in manufacturing policy; quit Trump administration over tariff disagreements",
+      "fiscal": "Worked at OMB suggesting fiscal policy awareness; opposes Trump tariffs; supports government investment in manufacturing; moderate fiscal approach for a Democrat but still pro-government spending"
+    }
+  },
+  {
+    "district": 12,
+    "name": "James D. Hooper",
+    "party": "republican",
+    "grade": "B",
+    "description": "Blue-collar Republican from Detroit's east side with a building trades background. Ran for this seat in 2022 (lost Republican primary) and 2024 (won primary, lost general to Tlaib). Passionate about American energy independence, lowering taxes, and eliminating the U.S. Department of Education. May or may not be officially filed for 2026.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "A",
+      "fiscal": "A"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific pro-life statements found but repeated Republican candidacy and conservative platform suggest alignment; blue-collar conservative positioning",
+      "marriage": "No specific statements found; conservative Republican candidate in multiple cycles suggests traditional marriage support",
+      "religiousLiberty": "No specific statements found; conservative Republican positioning suggests general support for religious freedom",
+      "secondAmendment": "No specific statements found; blue-collar Republican from Detroit trades background likely supports gun rights; no specific endorsements or ratings available",
+      "limitedGov": "Explicitly supports eliminating the U.S. Department of Education; supports American energy independence (reducing government regulation of energy); strong limited government positioning",
+      "fiscal": "Explicitly supports lowering taxes; supports American energy independence; wants to reduce government spending by eliminating Department of Education; fiscally conservative platform"
+    }
+  },
+  {
+    "district": 12,
+    "name": "Rashida Tlaib",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent U.S. Representative. Member of 'The Squad' progressive caucus. Re-elected in 2024 with 69.7% of the vote. One of the most progressive members of Congress. Supports Medicare for All, Green New Deal, and democratic socialism.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Supports unrestricted abortion access; co-sponsored bills removing all abortion restrictions",
+      "marriage": "Co-sponsored Equality Act; strong supporter of LGBTQ rights; opposes traditional marriage definition",
+      "religiousLiberty": "Actively opposes religious exemptions in anti-discrimination law; supports bills limiting religious liberty protections",
+      "secondAmendment": "Supports comprehensive gun bans; co-sponsored assault weapons ban; one of the most anti-gun members of Congress",
+      "limitedGov": "Democratic Socialist; supports massive government expansion including Green New Deal and Medicare for All",
+      "fiscal": "Supports trillions in new spending; backs wealth tax; one of the most fiscally liberal members of Congress"
+    }
+  },
+  {
+    "district": 12,
+    "name": "Shanelle Jackson",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Former Michigan State Representative (District 9, 2007-2013). B.A. in political science from University of Michigan-Dearborn, M.A. in social justice from Marygrove College in Detroit. Has run for Congress multiple times: challenged John Conyers in 2012 (District 13), ran for this seat in 2022 (lost in Democratic primary).",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Former state representative who voted with Democratic caucus on social issues; M.A. in social justice from Marygrove College; progressive Democratic positioning indicates pro-choice stance",
+      "marriage": "M.A. in social justice; progressive Democratic positioning and state legislative record suggest support for same-sex marriage",
+      "religiousLiberty": "No specific positions found; social justice degree and Democratic legislative record suggest limited support for broad religious exemptions",
+      "secondAmendment": "No specific gun policy positions found from state legislative career; Democratic candidate in urban Detroit district; likely supports gun control measures",
+      "limitedGov": "State legislative career and social justice academic background suggest support for expanded government programs; no specific limited government positions",
+      "fiscal": "No specific fiscal positions found; progressive Democratic orientation and social justice background suggest support for government spending on social programs"
+    }
+  },
+  {
+    "district": 12,
+    "name": "Byron H. Nolen",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Mayor of Inkster, Michigan. Labor attorney and small business owner. Led Inkster out of a severe financial crisis as mayor. Campaign focused on protecting civil rights and constitutional freedoms. Announced congressional candidacy on March 11, 2026. Challenging incumbent Tlaib from a more moderate Democratic position.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific abortion positions found; Democratic candidate but challenging Tlaib from a more moderate position; campaign focuses on civil rights and constitutional freedoms without specifying abortion",
+      "marriage": "No specific marriage positions found; Democratic primary candidate likely supports same-sex marriage but may be more moderate than Tlaib",
+      "religiousLiberty": "Campaign focused on 'protecting civil rights and constitutional freedoms' which could include religious liberty; no specific anti-religious liberty positions; more moderate than Tlaib",
+      "secondAmendment": "No specific gun policy positions found; Democratic candidate in urban district; likely supports gun control but may be more moderate than Tlaib",
+      "limitedGov": "Successfully led Inkster out of financial crisis as mayor suggesting fiscal discipline; labor attorney background; supports government programs but demonstrated fiscal management ability",
+      "fiscal": "Led city out of severe financial crisis demonstrating fiscal responsibility; labor attorney and small business owner; likely more fiscally moderate than incumbent Tlaib"
+    }
+  },
+  {
+    "district": 13,
+    "name": "Martell D. Bivings",
+    "party": "republican",
+    "grade": "C",
+    "description": "Policy analyst and Detroit native. Attended Howard University. Career experience as advisor and policy analyst for Detroit City Council and business liaison with Detroit Economic Growth Corporation. Perennial candidate who ran for this seat in 2022 and 2024 (lost general election in 2024). May or may not be officially filed for 2026 -- recent Ballotpedia listings show different Republican primary candidates.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No specific pro-life positions found; Republican candidate in heavily Democratic Detroit district; iVoterGuide profile exists but specific policy details not available from search results",
+      "marriage": "No specific statements found; Republican candidate but running in Detroit which has a diverse electorate; positions unclear",
+      "religiousLiberty": "No specific positions found; Republican positioning in Detroit district makes specific stance unclear",
+      "secondAmendment": "No specific Second Amendment positions found; Republican candidate in urban Detroit district; policy positions unclear",
+      "limitedGov": "Policy analyst for Detroit City Council and business liaison for Detroit Economic Growth Corporation suggests comfort with government programs while also working with private sector; mixed signals",
+      "fiscal": "Career in government policy analysis and economic development; Republican alignment suggests some fiscal conservatism but urban Detroit policy background complicates assessment"
+    }
+  },
+  {
+    "district": 13,
+    "name": "Raphiel King",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate listed for Michigan's 13th District. May not be officially filed for the 2026 primary -- recent Ballotpedia listings show Articia Bomer and Andrew Lorenz as the official Republican primary candidates, not King. Very limited public information available.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information found; candidacy status for 2026 uncertain",
+      "marriage": "No public information found; candidacy status for 2026 uncertain",
+      "religiousLiberty": "No public information found; candidacy status for 2026 uncertain",
+      "secondAmendment": "No public information found; candidacy status for 2026 uncertain",
+      "limitedGov": "No public information found; candidacy status for 2026 uncertain",
+      "fiscal": "No public information found; candidacy status for 2026 uncertain"
+    }
+  },
+  {
+    "district": 13,
+    "name": "T.P. Nykoriak",
+    "party": "republican",
+    "grade": "F",
+    "description": "Full name Taras 'TP' Nykoriak. Perennial candidate and convicted felon -- sentenced to 16 months in federal prison for stealing U.S. savings bonds from a church approximately 10 years ago. Claimed in 2014 to have fought with Ukraine against Russia. May not be officially filed for the 2026 primary -- recent Ballotpedia listings show different Republican primary candidates.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No policy positions found; convicted felon and perennial candidate with no substantive campaign platform",
+      "marriage": "No policy positions found; no substantive campaign platform",
+      "religiousLiberty": "Convicted of stealing savings bonds from a church; no substantive religious liberty positions",
+      "secondAmendment": "No policy positions found; federal felony conviction may legally restrict firearm ownership",
+      "limitedGov": "No substantive policy positions found; perennial candidate without serious campaign infrastructure",
+      "fiscal": "No substantive policy positions found; perennial candidate without serious campaign infrastructure"
+    }
+  },
+  {
+    "district": 13,
+    "name": "Shri Thanedar",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent U.S. Representative. Businessman and scientist. Re-elected in 2024 with 68.6% of the vote. Formerly self-described Democratic Socialist. Represents most of Detroit, Taylor, and Romulus.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Supports abortion rights; opposes restrictions on abortion access",
+      "marriage": "Supports same-sex marriage; backs LGBTQ rights legislation",
+      "religiousLiberty": "Has not actively targeted religious liberty but votes for bills limiting religious exemptions",
+      "secondAmendment": "Supports gun control including assault weapons ban and red flag laws",
+      "limitedGov": "Supports expanded government programs and federal involvement in housing and healthcare",
+      "fiscal": "Votes for major spending bills; supports higher taxes on wealthy; formerly a self-described Democratic Socialist"
+    }
+  },
+  {
+    "district": 13,
+    "name": "John Goci",
+    "party": "democratic",
+    "grade": null,
+    "description": "Realtor and businessman who emigrated from Kosovo at age 9. Later served as a linguistic specialist for U.S. Army forces during the 1999 Kosovo war. Former vice president of the Wayne-Westland Board of Education. Ran for this district in 2012. May or may not be officially filed for 2026 -- recent Ballotpedia sources list different Democratic primary candidates.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No specific policy positions found; candidacy status for 2026 primary uncertain",
+      "marriage": "No specific policy positions found; candidacy status for 2026 primary uncertain",
+      "religiousLiberty": "Immigrant from Kosovo (fled persecution); Army linguistic specialist; no specific religious liberty policy positions found",
+      "secondAmendment": "Army veteran (linguistic specialist); no specific gun policy positions found",
+      "limitedGov": "School board and business background; no specific positions found; candidacy status uncertain",
+      "fiscal": "Realtor and businessman; no specific fiscal positions found; candidacy status uncertain"
+    }
+  },
+  {
+    "district": 13,
+    "name": "Donavan McKinney",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Michigan State Representative (District 11) since 2023. Born and raised in northeast Detroit, attended Renaissance High School. B.A. in public policy from University of Michigan (2014). Former SEIU member and organizer. Endorsed by Rashida Tlaib, Bernie Sanders, Justice Democrats, Working Families Party, Planned Parenthood Advocates of Michigan, SEIU Michigan, Michigan AFL-CIO, MEA, Sierra Club Michigan, and Equality Michigan. Running as a progressive challenger to incumbent Thanedar.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "F"
+    },
+    "gradeJustifications": {
+      "proLife": "Endorsed by Planned Parenthood Advocates of Michigan, confirming strong pro-choice position; Justice Democrats and Bernie Sanders endorsements indicate support for unrestricted abortion access",
+      "marriage": "Endorsed by Equality Michigan Action Network; progressive platform fully supports LGBTQ rights and same-sex marriage",
+      "religiousLiberty": "No specific anti-religious liberty positions found but progressive organizational endorsements (Equality Michigan, Justice Democrats) suggest prioritizing anti-discrimination over religious exemptions",
+      "secondAmendment": "Progressive endorsements from organizations that support gun control; Justice Democrats and Working Families Party both advocate strict gun control measures; no pro-Second Amendment positions",
+      "limitedGov": "Endorsed by Justice Democrats and Bernie Sanders who advocate massive government expansion; supports expanding Medicare and Medicaid, SNAP benefits, affordable housing, clean water programs; won $10M+ in government community violence intervention funding",
+      "fiscal": "Supports expanding Medicare/Medicaid, SNAP benefits, parental leave, affordable childcare, earned paid sick leave; endorsed by Bernie Sanders who supports major new federal spending; secured $600M+ in federal funds for lead pipe replacement in Detroit"
+    }
+  },
+  {
+    "district": 13,
+    "name": "Mary Waters",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Detroit City Council at-large member since 2022. Former Michigan State Representative (2001-2007), first Black woman to serve as Democratic Floor Leader in Michigan House (2003-2006). University of Michigan graduate. Past president of Sisters Network Greater Metropolitan Detroit (Black breast cancer survivors). Ran against Thanedar in 2024, receiving 34% of the vote despite being heavily outspent. Maintained perfect attendance record as state representative.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "C",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Former state representative and Democratic Floor Leader; voted with Democratic caucus on social issues; no explicit pro-life positions in legislative record; breast cancer advocacy shows healthcare focus",
+      "marriage": "No specific marriage positions found; Democratic Floor Leader background suggests alignment with party platform supporting same-sex marriage",
+      "religiousLiberty": "No specific positions found; long Democratic legislative career suggests limited emphasis on religious exemptions but no explicit anti-religious liberty record found",
+      "secondAmendment": "No specific gun policy positions found from state legislative career; Democratic candidate in urban Detroit district; likely supports gun control measures",
+      "limitedGov": "Long career in government (state representative, city council); secured millions in government funding for Detroit and Wayne County; supports active government role",
+      "fiscal": "Career focused on securing government funding for Detroit and Wayne County; City Council member; supports government spending on community programs"
+    }
+  }
+]

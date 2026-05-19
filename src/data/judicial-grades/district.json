@@ -1,0 +1,1850 @@
+[
+  {
+    "district": "1st",
+    "name": "Michael Brown",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Chief Judge of 1st District Court in Monroe County. Limited public record on political leanings. Elected, not appointed.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues.",
+      "marriage": "No public record on marriage/family issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Insufficient information to determine judicial philosophy; default C.",
+      "fiscal": "No specific record on property rights or regulatory rulings."
+    }
+  },
+  {
+    "district": "2A",
+    "name": "Todd M. Morgan",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in 2022. Former Lenawee County public defender. Background in defense work and government service, including U.S. Navy veteran.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by Democrat governor; no public pro-life stance.",
+      "marriage": "Whitmer appointee; no traditional marriage advocacy known.",
+      "religiousLiberty": "No public record supporting religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Public defender background; Whitmer appointee suggests progressive judicial philosophy.",
+      "fiscal": "No record on property rights; Whitmer appointee default."
+    }
+  },
+  {
+    "district": "2B",
+    "name": "Megan R.M. Stiverson",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2020 to 2B District Court in Hillsdale County. Graduate of Hope College and MSU-Detroit College of Law. Not appointed by a governor.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues.",
+      "marriage": "No public record on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Elected in conservative Hillsdale County, but insufficient info on judicial philosophy.",
+      "fiscal": "No specific record on property/regulatory issues."
+    }
+  },
+  {
+    "district": "3A",
+    "name": "Brent R. Weigle",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Serving since 2009; former assistant prosecuting attorney and magistrate in Branch County. Four decades of legal career in Branch County. Seeking fourth term.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Prosecutor background in conservative rural county; no contrary signals.",
+      "marriage": "Long tenure in conservative Branch County; no contrary signals.",
+      "religiousLiberty": "No negative signals on religious liberty.",
+      "secondAmendment": "Rural conservative county; prosecutor background favorable.",
+      "limitedGov": "Prosecutor background suggests law-and-order judicial restraint.",
+      "fiscal": "Long service in rural Michigan; no adverse signals on property rights."
+    }
+  },
+  {
+    "district": "3B",
+    "name": "Tim George",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 3B District Court seat in Branch County. No public record found on background or positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "4th",
+    "name": "Stacey A. Rentfrow",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Serving since 2009 in Cass County. Former Legal Aid attorney and Friend of the Court referee. Background in public interest law and civil litigation.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues; legal aid background is neutral to mildly progressive signal.",
+      "marriage": "No public record on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Legal aid background suggests moderate-to-progressive philosophy, but rural county context.",
+      "fiscal": "Handles landlord-tenant disputes; legal aid background may lean tenant-favorable."
+    }
+  },
+  {
+    "district": "5th",
+    "name": "Jennifer E. Fields",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 5th District Court seat in Berrien County. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "5th",
+    "name": "Myrene Kay Koch",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 5th District Court seat in Berrien County. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "5th",
+    "name": "Gordon Gary Hosbein",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in August 2018. Former Macomb County assistant prosecuting attorney. Handled felony cases including child abuse/neglect. St. Joseph native.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; prosecutor background in child abuse cases favorable signal.",
+      "marriage": "Republican governor appointee; no contrary signals.",
+      "religiousLiberty": "No negative signals; Snyder appointee.",
+      "secondAmendment": "Prosecutor background; Snyder appointee.",
+      "limitedGov": "Prosecutor-to-judge pipeline suggests law-and-order judicial restraint.",
+      "fiscal": "No specific record; Snyder appointee default."
+    }
+  },
+  {
+    "district": "7th",
+    "name": "Rachel Keeley",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 7th District Court seat in Van Buren County. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "8th",
+    "name": "Kathleen P. Hemingway",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2017. Former Kalamazoo County assistant prosecuting attorney (2007-2017). Hope College graduate.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; prosecutor background.",
+      "marriage": "Republican governor appointee; no contrary signals.",
+      "religiousLiberty": "Hope College (Christian college) graduate; no negative signals.",
+      "secondAmendment": "Prosecutor background; Snyder appointee.",
+      "limitedGov": "Prosecutor background suggests judicial restraint; Snyder appointee.",
+      "fiscal": "No specific record; Snyder appointee default."
+    }
+  },
+  {
+    "district": "8th",
+    "name": "Namita Sharma",
+    "incumbent": false,
+    "grade": null,
+    "description": "Challenger to incumbent Hemingway in 8th District Court (Kalamazoo County). No detailed public record found on positions.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "8th",
+    "name": "Mark A. Holsomback",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 8th District Court seat in Kalamazoo County. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "8th",
+    "name": "Rachel Vinales",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 8th District Court seat in Kalamazoo County. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "10th",
+    "name": "Paul K. Beardslee",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in 2016. Former city attorney for Marshall. Previously served on Marshall city council and school board.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no contrary signals.",
+      "marriage": "Republican governor appointee; school board service suggests community values.",
+      "religiousLiberty": "No negative signals; Snyder appointee.",
+      "secondAmendment": "No specific record; Snyder appointee default.",
+      "limitedGov": "City attorney and local government background; Snyder appointee suggests restraint.",
+      "fiscal": "City attorney background suggests respect for municipal governance and property rights."
+    }
+  },
+  {
+    "district": "10th",
+    "name": "Michelle L. Richardson",
+    "incumbent": true,
+    "grade": "C",
+    "description": "10th District Court judge in Calhoun County. Limited public information on appointment or political background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues.",
+      "marriage": "No public record on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Insufficient information to assess judicial philosophy.",
+      "fiscal": "No specific record on property rights or regulatory rulings."
+    }
+  },
+  {
+    "district": "12th",
+    "name": "Allison L. Bates",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Elected in 2020; appointed by Whitmer (D) to 4th Circuit Court in April 2026. Former judicial juvenile referee. U of M and McGeorge Law graduate.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee to circuit court; no pro-life signals.",
+      "marriage": "Whitmer appointee; no traditional marriage advocacy known.",
+      "religiousLiberty": "No public record supporting religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Whitmer appointee; juvenile referee background suggests progressive approach.",
+      "fiscal": "No specific record; Whitmer appointee default."
+    }
+  },
+  {
+    "district": "12th",
+    "name": "Nicole Hughes",
+    "incumbent": false,
+    "grade": null,
+    "description": "Challenger in 12th District Court race in Jackson County. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "12th",
+    "name": "George D. Lyons",
+    "incumbent": false,
+    "grade": null,
+    "description": "Challenger in 12th District Court race in Jackson County. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "12th",
+    "name": "Jared L. Hopkins",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 12th District Court seat in Jackson County. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "12th",
+    "name": "Stormie Rae McGee",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 12th District Court seat in Jackson County. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "14A",
+    "name": "Anna Maria Frushour",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in 2019. Former criminal defense attorney and assigned counsel for specialty courts. Wayne State Law graduate.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee; no pro-life signals.",
+      "marriage": "Whitmer appointee in Washtenaw County (very progressive area).",
+      "religiousLiberty": "No public record supporting religious liberty.",
+      "secondAmendment": "No public record on Second Amendment; Washtenaw County context.",
+      "limitedGov": "Defense attorney background; Whitmer appointee in progressive jurisdiction.",
+      "fiscal": "No specific record; Whitmer appointee default."
+    }
+  },
+  {
+    "district": "14B",
+    "name": "Erane C. Washington",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Elected in 2020 to 14B District Court (Ypsilanti Township). Former assistant public defender and private practice attorney. MSU and U of M Law graduate.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Washtenaw County context; public defender background suggests progressive leanings.",
+      "marriage": "Washtenaw County (heavily progressive); no traditional marriage signals.",
+      "religiousLiberty": "No public record supporting religious liberty.",
+      "secondAmendment": "No public record on Second Amendment; progressive county context.",
+      "limitedGov": "Public defender background in progressive jurisdiction suggests activist tendencies.",
+      "fiscal": "No specific record; progressive jurisdiction default."
+    }
+  },
+  {
+    "district": "15th",
+    "name": "Tamara Garwood",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in January 2026. Former magistrate of 15th District Court since 2016. Previously in private practice for 17 years. MSU-Detroit College of Law graduate.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee in Ann Arbor (extremely progressive area).",
+      "marriage": "Whitmer appointee in Ann Arbor; no traditional marriage signals.",
+      "religiousLiberty": "No public record supporting religious liberty.",
+      "secondAmendment": "No public record on Second Amendment; Ann Arbor context.",
+      "limitedGov": "Whitmer appointee in progressive jurisdiction.",
+      "fiscal": "No specific record; Whitmer appointee default."
+    }
+  },
+  {
+    "district": "16th",
+    "name": "Sean Patrick Kavanagh",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2008; Chief Judge of 16th District Court in Livonia (Wayne County). Former city attorney of Livonia (1995-2008). MSU graduate for both undergrad and J.D.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues; elected, not appointed by governor.",
+      "marriage": "No public record on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "City attorney background; Livonia is moderate-conservative suburb.",
+      "fiscal": "City attorney background suggests understanding of municipal governance and property rights."
+    }
+  },
+  {
+    "district": "17th",
+    "name": "Krista Haroutunian",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in October 2018. Former private practice attorney and special assistant attorney general. U of M and MSU-Detroit College of Law graduate.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no contrary signals.",
+      "marriage": "Republican governor appointee; no contrary signals.",
+      "religiousLiberty": "No negative signals; Snyder appointee.",
+      "secondAmendment": "No specific record; Snyder appointee default.",
+      "limitedGov": "Attorney general office experience; Snyder appointee suggests judicial restraint.",
+      "fiscal": "Private practice background; Snyder appointee default."
+    }
+  },
+  {
+    "district": "18th",
+    "name": "Mark A. McConnell",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Presiding since 2007, elected in 2008. Former assistant city attorney and prosecutor for Westland. MSU graduate for undergrad and law school.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues; elected, not appointed.",
+      "marriage": "No public record on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Prosecutor background is positive signal; suburban Wayne County is moderate.",
+      "fiscal": "No specific record on property rights."
+    }
+  },
+  {
+    "district": "19th",
+    "name": "Mark W. Somers",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2002; serving since January 2003. Nearly 20 years of general practice before bench. MSU and Wayne State Law graduate. Four consecutive terms.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues; long-serving elected judge.",
+      "marriage": "No public record on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Long tenure; treatment court focus suggests rehabilitative philosophy.",
+      "fiscal": "General practice background; no specific property rights record."
+    }
+  },
+  {
+    "district": "20th",
+    "name": "Mark J. Plawecki",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 1994; serving sixth term as Chief Judge of 20th District Court (Dearborn Heights). Former prosecutor for Hazel Park. MSU and Cooley Law School graduate.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues; long-serving elected judge.",
+      "marriage": "No public record on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Former prosecutor; long tenure suggests institutional respect but uncertain philosophy.",
+      "fiscal": "No specific record on property rights."
+    }
+  },
+  {
+    "district": "21st",
+    "name": "Nicholas Opalewski",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 21st District Court seat in Garden City. No detailed public record found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information available.",
+      "marriage": "No public information available.",
+      "religiousLiberty": "No public information available.",
+      "secondAmendment": "No public information available.",
+      "limitedGov": "No public information available.",
+      "fiscal": "No public information available."
+    }
+  },
+  {
+    "district": "23rd",
+    "name": "Brittany A. Johnson",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in March 2026. Former Wayne County assistant prosecuting attorney. MSU College of Law, MSW, and GVSU graduate. ACLU extern.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee; ACLU connection is strong progressive signal.",
+      "marriage": "Whitmer appointee; ACLU extern background.",
+      "religiousLiberty": "ACLU connection is adverse signal for religious liberty.",
+      "secondAmendment": "ACLU connection; Whitmer appointee.",
+      "limitedGov": "ACLU extern and Whitmer appointee suggest progressive judicial philosophy.",
+      "fiscal": "No specific record; Whitmer appointee default."
+    }
+  },
+  {
+    "district": "24th",
+    "name": "John T. Courtright",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 24th District Court in Allen Park/Melvindale. Limited public information on appointment or political background.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues.",
+      "marriage": "No public record on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Insufficient information to assess judicial philosophy.",
+      "fiscal": "No specific record on property rights."
+    }
+  },
+  {
+    "district": "25th",
+    "name": "David M. Loeckner",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 25th District Court seat in Lincoln Park. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "25th",
+    "name": "Krystle-Marie Medina",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 25th District Court seat in Lincoln Park. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "28th",
+    "name": "Elisabeth M. Mullins",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 28th District Court in Southgate. Limited public information on appointment or political background.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record on life issues.", "marriage": "No public record on marriage issues.", "religiousLiberty": "No public record on religious liberty.", "secondAmendment": "No public record on Second Amendment.", "limitedGov": "Insufficient information to assess judicial philosophy.", "fiscal": "No specific record on property rights." }
+  },
+  {
+    "district": "31st",
+    "name": "Mark Michael Koroi",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 31st District Court in Hamtramck. Limited public information found on background.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record on life issues.", "marriage": "No public record on marriage issues.", "religiousLiberty": "No public record on religious liberty.", "secondAmendment": "No public record on Second Amendment.", "limitedGov": "Insufficient information to assess judicial philosophy.", "fiscal": "No specific record on property rights." }
+  },
+  {
+    "district": "31st",
+    "name": "Alexis Grace Krot",
+    "incumbent": false,
+    "grade": "B",
+    "description": "Former 31st District Court judge appointed by Gov. Snyder (R) in 2016. Now challenger. Former magistrate and assistant city attorney. Tulane, UDM MBA, Loyola J.D.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no contrary signals.",
+      "marriage": "Republican governor appointee; no contrary signals.",
+      "religiousLiberty": "No negative signals; Snyder appointee.",
+      "secondAmendment": "No specific record; Snyder appointee default.",
+      "limitedGov": "Strict judicial style noted; Snyder appointee suggests restraint.",
+      "fiscal": "Strict on code enforcement (blight cases); property maintenance focus."
+    }
+  },
+  {
+    "district": "32A",
+    "name": "Rebekah Ruth Coleman",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 32A District Court in Harper Woods. Limited public information on appointment or political background.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record on life issues.", "marriage": "No public record on marriage issues.", "religiousLiberty": "No public record on religious liberty.", "secondAmendment": "No public record on Second Amendment.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "34th",
+    "name": "Lisa Martin",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 34th District Court in Romulus. Limited public information on appointment or political background.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record on life issues.", "marriage": "No public record on marriage issues.", "religiousLiberty": "No public record on religious liberty.", "secondAmendment": "No public record on Second Amendment.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "35th",
+    "name": "Jim Plakas",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2008; serving as Chief Judge of 35th District Court (Plymouth/Northville/Canton). Former prosecutor, criminal defense attorney, and civil litigator. CMU and U of Detroit Law graduate.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "B",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record on life issues.",
+      "marriage": "No public record on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Balanced prosecutor and defense background; four terms as chief judge in suburban community.",
+      "fiscal": "No specific record; Plymouth/Northville area is moderate-conservative."
+    }
+  },
+  {
+    "district": "36th",
+    "name": "Demetria Brue",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Incumbent judge of 36th District Court in Detroit. Detroit is overwhelmingly progressive jurisdiction.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction; no pro-life signals.", "marriage": "Progressive jurisdiction; no traditional marriage signals.", "religiousLiberty": "No record supporting religious liberty.", "secondAmendment": "Detroit context; likely unfavorable.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "E. Lynise Bryant",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Incumbent judge of 36th District Court in Detroit.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction; no pro-life signals.", "marriage": "Progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Detroit context.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Adrienne Hinnant-Johnson",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Incumbent judge of 36th District Court in Detroit.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction; no pro-life signals.", "marriage": "Progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Detroit context.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Shannon A. Holmes",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Incumbent judge of 36th District Court in Detroit.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction.", "marriage": "Progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Detroit context.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Kenneth J. King",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Incumbent judge of 36th District Court in Detroit.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction.", "marriage": "Progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Detroit context.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Millicent D. Sherman",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Incumbent judge of 36th District Court in Detroit.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction.", "marriage": "Progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Detroit context.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "William Burton Jr.",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Non-incumbent candidate for open 36th District Court seat in Detroit.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction.", "marriage": "Progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Detroit context.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Delphia J. Burton",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Non-incumbent candidate for open 36th District Court seat in Detroit.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction.", "marriage": "Progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Detroit context.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Kahlilia Yvette Davis",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Non-incumbent candidate for open 36th District Court seat in Detroit.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction.", "marriage": "Progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Detroit context.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Jo A. Irby",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Non-incumbent candidate for open 36th District Court seat in Detroit.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Detroit jurisdiction.", "marriage": "Progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Detroit context.", "limitedGov": "Progressive jurisdiction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Ponce D. Clay",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in 2025. Former 20-year U.S. naval officer and managing attorney at Clay Law in Detroit. Wayne County Veterans Court mentor.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee; Detroit jurisdiction.", "marriage": "Whitmer appointee; progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Whitmer appointee; Detroit context.", "limitedGov": "Whitmer appointee.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Herman Griffin IV",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in 2025. Deputy director at Regional Managed Assigned Counsel Office. Former mental health specialty court defense attorney at 36th District Court.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee; defense attorney background.", "marriage": "Whitmer appointee; progressive jurisdiction.", "religiousLiberty": "No record.", "secondAmendment": "Whitmer appointee; Detroit context.", "limitedGov": "Defense attorney background; Whitmer appointee.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "36th",
+    "name": "Chastity A. Youngblood",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in 2025. Assistant prosecuting attorney at Wayne County Prosecutor's Office for 15+ years.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "C", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee; Detroit jurisdiction.", "marriage": "Whitmer appointee; progressive jurisdiction.", "religiousLiberty": "Prosecutor background is slightly favorable signal, but still Whitmer appointee.", "secondAmendment": "Whitmer appointee; Detroit context.", "limitedGov": "Prosecutor background is positive, but Whitmer appointee.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "37th",
+    "name": "Michael C. Chupa",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in December 2013. Former criminal defense attorney and city prosecutor for Warren. Wayne State and Detroit College of Law graduate.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no contrary signals.",
+      "marriage": "Republican governor appointee; no contrary signals.",
+      "religiousLiberty": "No negative signals; Snyder appointee.",
+      "secondAmendment": "Prosecutor background; Snyder appointee.",
+      "limitedGov": "Combined prosecutor and defense background; Snyder appointee suggests judicial restraint.",
+      "fiscal": "No specific record; Snyder appointee default."
+    }
+  },
+  {
+    "district": "38th",
+    "name": "Kathleen G. Galen",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2020 to 38th District Court (Eastpointe). Former private practice attorney specializing in family and criminal law. Former assistant city attorney for Warren.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; elected, not appointed.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "General practice background; no strong signals.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "38th",
+    "name": "Richard W. Goodman",
+    "incumbent": false,
+    "grade": null,
+    "description": "Challenger in 38th District Court race. No detailed public record found on positions.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "39th",
+    "name": "Derek G. Boedeker",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 39th District Court seat (Fraser/Roseville). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "39th",
+    "name": "Dana C. Freers",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 39th District Court seat (Fraser/Roseville). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "40th",
+    "name": "Joseph Craigen Oster",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 40th District Court in St. Clair Shores. Limited public information on appointment or political background.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "41A",
+    "name": "Annemarie Marino Lepore",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in December 2018. Former private practice attorney. Oakland University and UDM Law graduate. Active in Families Against Narcotics.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no contrary signals.",
+      "marriage": "Republican governor appointee; Italian American Bar Association member.",
+      "religiousLiberty": "No negative signals; Snyder appointee.",
+      "secondAmendment": "No specific record; Snyder appointee default.",
+      "limitedGov": "Snyder appointee; community service suggests responsible governance.",
+      "fiscal": "No specific record; Snyder appointee default."
+    }
+  },
+  {
+    "district": "41B",
+    "name": "Jacob Michael Femminineo Jr.",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 41B District Court in Clinton Township/Mt. Clemens. Limited public information on appointment.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "42nd - 1st Division",
+    "name": "Jennifer Andary",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 42nd District Court - 1st Division (Romeo/Washington Township). Limited public information.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "43rd",
+    "name": "Brian Christian Hartwell",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in 2020. Former private practice attorney and Mayor of Madison Heights. WMU and UDM Law graduate.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee; no pro-life signals.",
+      "marriage": "Whitmer appointee; no traditional marriage signals.",
+      "religiousLiberty": "No public record supporting religious liberty.",
+      "secondAmendment": "No public record on Second Amendment.",
+      "limitedGov": "Whitmer appointee; general practice background.",
+      "fiscal": "No specific record; Whitmer appointee default."
+    }
+  },
+  {
+    "district": "45th",
+    "name": "Jaimie Powell Horowitz",
+    "incumbent": true,
+    "grade": "F",
+    "description": "Elected in 2020. Former Wayne County assistant prosecutor (Homicide Unit). Special prosecutor for Fair Michigan Justice Project prosecuting LGBTQ hate crimes. UDM Law graduate.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "No pro-life signals; progressive endorsements.",
+      "marriage": "Active LGBTQ advocacy through Fair Michigan Justice Project; refused GOP calls to resign after posting progressive content.",
+      "religiousLiberty": "LGBTQ hate crime prosecution may conflict with religious liberty claims.",
+      "secondAmendment": "No public record; progressive endorsement pattern.",
+      "limitedGov": "Progressive judicial activism signals.",
+      "fiscal": "No specific record; progressive political orientation."
+    }
+  },
+  {
+    "district": "46th",
+    "name": "Shelia Johnson",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Elected in 2002; first African American judge in 46th District Court (Southfield). Dartmouth and U of M Law graduate. Michigan Democratic Party award recipient.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Michigan Democratic Party award recipient; progressive signals.",
+      "marriage": "Democratic Party recognition suggests progressive position.",
+      "religiousLiberty": "No record supporting religious liberty.",
+      "secondAmendment": "No record; progressive political affiliation.",
+      "limitedGov": "Democratic Party alignment suggests progressive judicial philosophy.",
+      "fiscal": "No specific record; progressive affiliation."
+    }
+  },
+  {
+    "district": "47th",
+    "name": "Anthony Bordoley",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 47th District Court seat (Farmington/Farmington Hills). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "47th",
+    "name": "Shelley Drain",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 47th District Court seat (Farmington/Farmington Hills). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "47th",
+    "name": "Moneka Sanford",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 47th District Court seat (Farmington/Farmington Hills). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "47th",
+    "name": "Michael Sawicky",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 47th District Court seat (Farmington/Farmington Hills). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "48th",
+    "name": "Kimberly Small",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Serving since 1996; longest-tenured judge on 48th District Court (Bloomfield Hills/Birmingham). U of M and MSU College of Law graduate. Known for strict sentencing.",
+    "positions": {
+      "proLife": "C",
+      "marriage": "C",
+      "religiousLiberty": "C",
+      "secondAmendment": "C",
+      "limitedGov": "B",
+      "fiscal": "C"
+    },
+    "gradeJustifications": {
+      "proLife": "No public record; long tenure in affluent suburban court.",
+      "marriage": "No public record.",
+      "religiousLiberty": "No record.",
+      "secondAmendment": "No record.",
+      "limitedGov": "Known for strict sentencing; suggests law-and-order judicial philosophy.",
+      "fiscal": "Affluent suburban district; no specific record."
+    }
+  },
+  {
+    "district": "50th",
+    "name": "Jeremy Darnell Bowie",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in December 2022. Former Wayne County prosecutor (domestic violence cases) then private practice. WMU-Cooley Law graduate.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "Whitmer appointee.", "limitedGov": "Whitmer appointee; prosecutor background is somewhat positive.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "50th",
+    "name": "Cynthia T. Walker",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Granholm (D) in September 2003 to 50th District Court (Pontiac). Former city attorney for Pontiac, court administrator, and legal services attorney.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Granholm (D) appointee.", "marriage": "Democrat governor appointee.", "religiousLiberty": "No record; legal services background.", "secondAmendment": "No record; Granholm appointee.", "limitedGov": "Legal services and public defender background; Granholm appointee.", "fiscal": "No specific record; Granholm appointee default." }
+  },
+  {
+    "district": "51st",
+    "name": "Carmen J. DeFranco",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 51st District Court seat (Waterford Township). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "51st",
+    "name": "Pamela J. Monville",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 51st District Court seat (Waterford Township). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "52nd - 1st Division",
+    "name": "Travis M. Reeds",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2014; Chief Judge of all 52nd District Court divisions. Former private practice attorney (Reeds & Reeds). Wayne State Law and CMU graduate. Super Lawyer and Top 100 Trial Lawyer.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; elected, not appointed.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Private practice background; no strong signals either direction.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "52nd - 2nd Division",
+    "name": "Joseph G. Fabrizio",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2008; Chief Judge for 52nd District Courts in 2018. Former managing partner at Fabrizio & Brook. Brother Rice HS, MSU, and UDM Law graduate. Focus on rehabilitation.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; Catholic school background (Brother Rice) is mildly favorable.", "marriage": "No public record; Catholic education background.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Rehabilitative focus; balanced approach.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "52nd - 3rd Division",
+    "name": "Laura E. Polizzi",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in May 2024. Former partner at Polizzi & Medley Law. Oakland University and WMU-Cooley Law graduate. Joan Young Judicial Excellence Award.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "Whitmer appointee.", "limitedGov": "Whitmer appointee.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "52nd - 4th Division",
+    "name": "Maureen M. McGinnis",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2014. Former family and criminal law attorney. Troy City Council member and Mayor Pro Tem. Troy HS, CU-Boulder, and MSU-Detroit College of Law graduate.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; elected in suburban Troy.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "City council/mayor pro tem experience; practical governance background.", "fiscal": "No specific record; suburban municipal governance background." }
+  },
+  {
+    "district": "53rd",
+    "name": "Daniel Bain",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in September 2019. General practice attorney (Bain & Bain P.C.). MSU and Cooley Law graduate. Hartland HS graduate. Handles civil and criminal cases.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee; Livingston County context is conservative but appointment is key signal.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "Whitmer appointee; Livingston County is pro-2A but appointment signal overrides.", "limitedGov": "Whitmer appointee.", "fiscal": "General practice background; Whitmer appointee default." }
+  },
+  {
+    "district": "54A",
+    "name": "Stacia Buchanan",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in August 2017. Chief Judge of 54A District Court in Lansing. Replaced retiring Judge Patrick Cherry.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder (R) appointee; no contrary signals.",
+      "marriage": "Republican governor appointee.",
+      "religiousLiberty": "No negative signals; Snyder appointee.",
+      "secondAmendment": "No specific record; Snyder appointee default.",
+      "limitedGov": "Snyder appointee suggests judicial restraint.",
+      "fiscal": "No specific record; Snyder appointee default."
+    }
+  },
+  {
+    "district": "55th",
+    "name": "Richard L. Hillman",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in April 2020. Former shareholder at Foster Swift (32 years private practice). Lansing Catholic Central HS, MSU, and Marquette Law graduate.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "D", "limitedGov": "D", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "Whitmer appointee but Catholic education background (Lansing Catholic Central, Marquette Law).", "marriage": "Catholic education; but Whitmer appointee.", "religiousLiberty": "Catholic education is mildly favorable; Whitmer appointee.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "Whitmer appointee; municipal law background.", "fiscal": "Municipal representation suggests property rights awareness; private practice background." }
+  },
+  {
+    "district": "56A",
+    "name": "Reid S. Felsing",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in December 2024. Former magistrate at 56A District Court, MAACS roster attorney representing indigent clients, and adjunct professor. Saginaw native.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee; indigent defense background.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "Indigent defense and public interest background; Whitmer appointee.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "56A",
+    "name": "Adrianne K. Van Langevelde",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in July 2024. Former Michigan Parole Board member and former assistant prosecuting attorney in Mecosta and Eaton counties.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "Whitmer appointee; Parole Board service and prosecutor background.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "57th",
+    "name": "Christopher E. Burnett",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in July 2025. Former co-partner at Burnett and Kastran law firm in Allegan (20 years). MSU and MSU College of Law graduate.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "Whitmer appointee; private practice background in conservative county.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "57th",
+    "name": "Tom Siver",
+    "incumbent": false,
+    "grade": null,
+    "description": "Challenger to incumbent Burnett in 57th District Court (Allegan County). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "57th",
+    "name": "Timothy Slais",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 57th District Court seat in Allegan County. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "57th",
+    "name": "Heidi L. Wolf",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 57th District Court seat in Allegan County. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "58th",
+    "name": "Juanita F. Bocanegra",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2020 (54% of vote). First Latina judge in Ottawa County. Former assistant prosecuting attorney in Ottawa County for nearly 10 years.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "Elected, not appointed; prosecutor background in conservative Ottawa County.", "marriage": "No public record; Ottawa County is conservative.", "religiousLiberty": "No record.", "secondAmendment": "No record; prosecutor background.", "limitedGov": "Prosecutor background in conservative county; moderate signals.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "58th",
+    "name": "Paul Ledford",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 58th District Court seat in Ottawa County. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "58th",
+    "name": "Anna White",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 58th District Court seat in Ottawa County. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "60th",
+    "name": "Maria Ladas Hoopes",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 60th District Court in Muskegon County. Limited public information on appointment.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "60th",
+    "name": "Paula Baker Mathes",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 60th District Court in Muskegon County. Limited public information on appointment.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "61st",
+    "name": "Kellen A. Dotson",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D). Former public defender (Kent County and Hennepin County, MN). EMU and Cooley Law graduate. Second Black man to hold seat.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee; public defender background.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "Public defender background; Whitmer appointee.", "limitedGov": "Public defender background suggests defense-oriented judicial philosophy.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "61st",
+    "name": "Angela T. Ross",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in March 2022. Former director of enforcement and criminal prosecution for City of Grand Rapids. DePaul Law and U of M graduate. Chief Judge.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "Whitmer appointee.", "limitedGov": "Whitmer appointee; enforcement background is somewhat favorable.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "62A",
+    "name": "Pablo Cortes",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Appointed by Gov. Granholm (D) in October 2005. Former Kent County assistant prosecuting attorney (1995-2005). U of M and Wayne State Law graduate.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "Granholm (D) appointee but prosecutor background.", "marriage": "Granholm appointee; mixed signals.", "religiousLiberty": "No record.", "secondAmendment": "No record; prosecutor background is somewhat favorable.", "limitedGov": "Prosecutor background suggests law-and-order approach despite Granholm appointment.", "fiscal": "No specific record; mixed signals from Granholm appointment and prosecutor background." }
+  },
+  {
+    "district": "62B",
+    "name": "Amanda H. Sterkenburg",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2020 to 62B District Court (Kentwood). Former solo attorney in criminal/civil defense and mediation. Franklin College and WMU-Cooley Law graduate.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; elected, not appointed.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Defense and mediation background; rehabilitative focus.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "63rd",
+    "name": "Kirsten L. Holz",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in August 2024. Former assistant public defender and Kent County Indigent Defense Program attorney. Cornell and American University Law graduate.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee; public defender background.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "Whitmer appointee; defense-oriented background.", "limitedGov": "Public defender and indigent defense background; Whitmer appointee.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "63rd",
+    "name": "Jeffrey J. O'Hara",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2014; Chief Judge of 63rd District Court (Kent County). Former private practice trial attorney. MSU and Cooley Law graduate. Started Recovery Court in 2019.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; elected, not appointed.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Private practice trial attorney; recovery court focus.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "64A",
+    "name": "Raymond Peter Voet",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Serving since 1999 in 64A District Court (Ionia County). Aquinas College and U of Detroit Mercy Law graduate. Chief Judge for Ionia/Montcalm courts since 2014.",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": { "proLife": "Catholic education background (Aquinas College, U of Detroit Mercy); rural conservative county.", "marriage": "Catholic education; conservative Ionia County.", "religiousLiberty": "Catholic education background favorable.", "secondAmendment": "Rural conservative county.", "limitedGov": "Long tenure in conservative jurisdiction; attempted Court of Appeals run.", "fiscal": "No adverse signals; conservative county context." }
+  },
+  {
+    "district": "64B",
+    "name": "Adam James Eggleston",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2020 to 64B District Court (Montcalm County). Former attorney-magistrate and assistant city attorney for Greenville. Montcalm Community College alumnus.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; rural conservative county but limited info.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record; rural county.", "limitedGov": "Magistrate and city attorney background; elected in rural county.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "65A",
+    "name": "Andrew M. Stevens",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in April 2025. Former assistant prosecutor in Ingham County. MSU Law graduate. WLAM 'Outstanding' rating.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "Whitmer appointee; prosecutor background is somewhat positive.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "65B",
+    "name": "Laura M. Bever",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 65B District Court seat in Gratiot County. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "67th - 1st Division",
+    "name": "David J. Goggins",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 67th District Court - 1st Division (Flint, Genesee County). Limited public information.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Flint area is progressive; insufficient individual info.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "67th - 2nd Division",
+    "name": "Jennifer Manley",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 67th District Court - 2nd Division (Genesee County). Limited public information.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "67th - 3rd Division",
+    "name": "Vikki Bayeh Haley",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 67th District Court - 3rd Division (Genesee County). Limited public information.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "67th - 4th Division",
+    "name": "K.C. Baran",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 67th-4th Division District Court seat (Genesee County). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "67th - 4th Division",
+    "name": "Cheryl A. Lopez",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 67th-4th Division seat. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "67th - 4th Division",
+    "name": "Lina Stamos",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 67th-4th Division seat. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "67th - 4th Division",
+    "name": "Brooke Tucker",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 67th-4th Division seat. No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "67th - 5th Division",
+    "name": "David Guinn",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 67th District Court - 5th Division (Genesee County). Limited public information.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "67th - 5th Division",
+    "name": "Tabitha M. Marsh",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 67th District Court - 5th Division (Genesee County). Limited public information.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "70th - 2nd Division",
+    "name": "Elian E.H. Fichtner",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 70th District Court - 2nd Division (Saginaw County). Limited public information.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "70th - 2nd Division",
+    "name": "A.T. Frank",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Incumbent judge of 70th District Court - 2nd Division (Saginaw County). Limited public information.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Insufficient information.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "71A",
+    "name": "David N. Richardson",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 71A District Court seat (Lapeer County). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "71A",
+    "name": "Maureen Flanigan Salayko",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 71A District Court seat (Lapeer County). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "71B",
+    "name": "Jason E. Bitzer",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in 2019. Former partner at Biddinger, Bitzer & Estelle. EMU and Cooley Law graduate. Caro HS graduate. Presides over Mental Health Court.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "Whitmer appointee; defense/general practice background.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "71B",
+    "name": "Craig S. Datz",
+    "incumbent": false,
+    "grade": null,
+    "description": "Challenger to incumbent Bitzer in 71B District Court (Tuscola County). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "72nd",
+    "name": "Mona S. Armstrong",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in March 2020. Former senior assistant prosecuting attorney in St. Clair County (25 years). Handled homicides and high-profile cases. MSU and Wayne State Law graduate.",
+    "positions": { "proLife": "C", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "C", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee but 25-year prosecutor is positive signal.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "25-year prosecutor background is positive; Whitmer appointee is negative.", "fiscal": "No specific record; Whitmer appointee default." }
+  },
+  {
+    "district": "74th",
+    "name": "Brian H. Jean",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 74th District Court seat (Bay County). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "74th",
+    "name": "James A. Perry",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 74th District Court seat (Bay County). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "75th",
+    "name": "Michael D. Carpenter",
+    "incumbent": true,
+    "grade": "A",
+    "description": "Appointed by Gov. Snyder (R) in December 2013. Former Midland County prosecutor since 2005. WMU and Cooley Law graduate. Stopped performing marriages after same-sex marriage ruling.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "A",
+      "religiousLiberty": "A",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Snyder appointee; prosecutor background; conservative signals.",
+      "marriage": "Stopped performing marriages after Obergefell ruling -- strong traditional marriage signal.",
+      "religiousLiberty": "Marriage stance indicates strong religious liberty convictions.",
+      "secondAmendment": "Prosecutor in rural Michigan; Snyder appointee.",
+      "limitedGov": "Prosecutor background and Snyder appointee suggest judicial restraint.",
+      "fiscal": "No specific record; Snyder appointee in conservative county."
+    }
+  },
+  {
+    "district": "76th",
+    "name": "Eric R. Janes",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in November 2013. Former private practice attorney (Janes, Backus and Janes since 1991). MSU and Cooley Law graduate.",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": { "proLife": "Snyder (R) appointee.", "marriage": "Republican governor appointee.", "religiousLiberty": "No negative signals.", "secondAmendment": "No record; Snyder appointee.", "limitedGov": "Private practice background; Snyder appointee.", "fiscal": "No specific record; Snyder appointee default." }
+  },
+  {
+    "district": "77th",
+    "name": "Peter Michael Jaklevic",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Elected in 2014 to 77th District Court (Mecosta/Osceola). Former chief prosecuting attorney for Mecosta County (1998-2014). MSU and MSU College of Law graduate.",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": { "proLife": "Long-serving prosecutor in conservative rural counties.", "marriage": "Conservative rural Michigan; no contrary signals.", "religiousLiberty": "No negative signals.", "secondAmendment": "Rural Michigan; prosecutor background.", "limitedGov": "16-year prosecutor career suggests strong law-and-order judicial philosophy.", "fiscal": "Rural conservative jurisdiction; no adverse signals." }
+  },
+  {
+    "district": "78th",
+    "name": "Ellsworth J. Stay Jr.",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in February 2024. Elected Newaygo County prosecuting attorney since 2017. U of Virginia and Indiana University Maurer Law graduate. Board of PAAM.",
+    "positions": { "proLife": "C", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "C", "limitedGov": "C", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee but elected prosecutor -- mixed signals.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "Elected prosecutor in rural county is positive; Whitmer appointment is negative.", "limitedGov": "Prosecutor background is positive but Whitmer appointment is concerning.", "fiscal": "No specific record; Whitmer appointee." }
+  },
+  {
+    "district": "79th",
+    "name": "John D. Middlebrook",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2020 to 79th District Court (Mason/Lake Counties). Former assistant prosecuting attorney. Albion College and Wake Forest Law graduate. 150+ jury trials including 16 murders.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "B", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; elected in rural Michigan.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "Rural Michigan; no record.", "limitedGov": "Extensive prosecutor experience; 150+ jury trials suggests strong law-and-order approach.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "80th",
+    "name": "Joshua M. Farrell",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2008 to 80th District Court (Clare/Gladwin Counties). Chief Judge. Long-serving in rural Michigan.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; elected in rural conservative counties.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "Rural Michigan.", "limitedGov": "Long tenure; elected in conservative area.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "82nd",
+    "name": "Mary A. Beebe",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Judge of 82nd District Court. Former Roscommon County prosecutor before being elected. Rural northern Michigan.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "B", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; prosecutor background in rural county.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "Rural Michigan.", "limitedGov": "Prosecutor background suggests law-and-order judicial philosophy.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "84th",
+    "name": "Corey J. Wiggins",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in January 2025. Former Wexford County prosecuting attorney (elected 2020, re-elected 2024). Former chief assistant prosecutor. Ferris State and Cooley Law graduate.",
+    "positions": { "proLife": "C", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "C", "limitedGov": "C", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee but elected prosecutor is positive signal.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "Elected prosecutor in rural county; Whitmer appointee.", "limitedGov": "Elected prosecutor suggests law-and-order approach; Whitmer appointment concerning.", "fiscal": "No specific record; Whitmer appointee." }
+  },
+  {
+    "district": "89th",
+    "name": "Michael J. Ekdahl",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in February 2024. Solo practitioner in criminal defense, civil litigation, divorce, estate planning. U of M and Wayne State Law graduate. Cheboygan HS graduate.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "Defense attorney background; Whitmer appointee.", "fiscal": "No specific record; Whitmer appointee." }
+  },
+  {
+    "district": "90th",
+    "name": "Angela L. Lasher",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D) in January 2020. Former Emmet County assistant prosecuting attorney (15 years). Specializes in juvenile and child abuse/neglect cases. Cooley Law and Purdue graduate.",
+    "positions": { "proLife": "C", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "C", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee but 15-year prosecutor with child abuse focus is positive.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "Prosecutor background is positive; Whitmer appointment is negative.", "fiscal": "No specific record; Whitmer appointee." }
+  },
+  {
+    "district": "92nd",
+    "name": "Beth Ann Gibson",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected in 2004 to 92nd District Court (Luce/Mackinac Counties). Former criminal defense attorney. U of M and Cooley Law graduate. Chief Judge for multiple courts in eastern UP.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record; elected in rural UP.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "Rural UP context.", "limitedGov": "Defense attorney background; long tenure in rural UP.", "fiscal": "No specific record." }
+  },
+  {
+    "district": "94th",
+    "name": "Andrew Hayse",
+    "incumbent": false,
+    "grade": "B",
+    "description": "Candidate for open 94th District Court seat (Delta County). Current domestic relations referee and district court magistrate. Former assistant prosecuting attorney for Delta County. Wayne State Law graduate.",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": { "proLife": "Prosecutor background; referee/magistrate experience.", "marriage": "Family court experience through domestic relations work.", "religiousLiberty": "No negative signals.", "secondAmendment": "Prosecutor background in rural UP county.", "limitedGov": "Prosecutor and magistrate experience suggests judicial restraint.", "fiscal": "No specific record; conservative rural UP." }
+  },
+  {
+    "district": "94th",
+    "name": "Trent Stupak",
+    "incumbent": false,
+    "grade": "C",
+    "description": "Candidate for open 94th District Court seat (Delta County). 24-year attorney in Delta County courts. MSU and MSU-Detroit College of Law graduate. Broad trial experience.",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": { "proLife": "No public record on positions; defense-oriented practice.", "marriage": "No public record.", "religiousLiberty": "No record.", "secondAmendment": "No record.", "limitedGov": "Mixed practice including criminal defense and civil litigation.", "fiscal": "Real estate and property rights experience noted." }
+  },
+  {
+    "district": "95A",
+    "name": "Jeffrey T. Rogg",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 95A District Court seat (Menominee County). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "95A",
+    "name": "Alexander Sieminski",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 95A District Court seat (Menominee County). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "95B",
+    "name": "Julie Ann LaCost",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Gov. Snyder (R) in February 2018. First female judge in 95B District Court (Dickinson County). Former deputy public defender in San Diego (1988-1995), then 23 years in UP private practice. U of M and Cooley Law graduate.",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": { "proLife": "Snyder (R) appointee.", "marriage": "Republican governor appointee.", "religiousLiberty": "No negative signals.", "secondAmendment": "Rural UP; Snyder appointee.", "limitedGov": "Snyder appointee; long legal career.", "fiscal": "No specific record; Snyder appointee default." }
+  },
+  {
+    "district": "96th",
+    "name": "Patrick J. Crowley",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 96th District Court seat (Baraga/Houghton/Keweenaw). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "96th",
+    "name": "Bill Nordeen",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 96th District Court seat (Baraga/Houghton/Keweenaw). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "96th",
+    "name": "Derek G. Swajanen",
+    "incumbent": false,
+    "grade": null,
+    "description": "Non-incumbent candidate for open 96th District Court seat (Baraga/Houghton/Keweenaw). No detailed public record found.",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": { "proLife": "No public information available.", "marriage": "No public information available.", "religiousLiberty": "No public information available.", "secondAmendment": "No public information available.", "limitedGov": "No public information available.", "fiscal": "No public information available." }
+  },
+  {
+    "district": "97th",
+    "name": "Nicholas J. Daavettila",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Gov. Whitmer (D). Former private practice attorney and director/secretary of Tri-County Public Defenders. Michigan Tech and Marquette Law graduate.",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": { "proLife": "Whitmer appointee; public defender background.", "marriage": "Whitmer appointee.", "religiousLiberty": "No record.", "secondAmendment": "No record; Whitmer appointee.", "limitedGov": "Public defender background; Whitmer appointee.", "fiscal": "No specific record; Whitmer appointee default." }
+  }
+]

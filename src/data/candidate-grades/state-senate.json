@@ -1,0 +1,2194 @@
+[
+  {
+    "district": 1,
+    "name": "Patrick O'Connell",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-1; previously ran for Wayne County Commission District 15 in 2020 (lost); ran as Democrat for HD-6 in 2014; party-switcher now running as Republican in deep-blue Detroit district",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Party-switcher (formerly Democrat) now running as Republican; willingness to run as R in deep-blue district signals some conservative alignment but prior Democratic affiliation raises questions about depth of pro-life commitment",
+      "marriage": "Prior Democratic affiliation (HD-6 in 2014) complicates conservative credentialing; no public statements found on marriage issues",
+      "religiousLiberty": "No specific religious liberty positions found; running as Republican signals general support but prior party history suggests moderation",
+      "secondAmendment": "No specific firearms positions found publicly; Republican affiliation in Wayne County suggests willingness to identify with 2A party",
+      "limitedGov": "Previously ran as Democrat in 2014 then switched to Republican; limited public record on governance philosophy",
+      "fiscal": "No specific fiscal policy positions found; party-switch history complicates assessment of fiscal conservatism"
+    }
+  },
+  {
+    "district": 1,
+    "name": "Abraham Aiyash",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Current State Representative (HD-9, Hamtramck); son of Yemeni immigrants; progressive champion; running for open SD-1 seat against Justin Onwenu",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-choice; voted to codify abortion rights in Michigan after Prop 3",
+      "marriage": "Voted for Elliott-Larsen Civil Rights Act expansion adding sexual orientation and gender identity protections",
+      "religiousLiberty": "Voted for Elliott-Larsen expansion without meaningful religious exemptions; limited support for faith-based carveouts",
+      "secondAmendment": "Voted for 2023 gun control package including red flag law, safe storage mandate, and universal background checks",
+      "limitedGov": "Supports expanded government programs and regulations; progressive on regulatory authority",
+      "fiscal": "Voted for major budget increases under Whitmer; supports progressive taxation and expanded social spending"
+    }
+  },
+  {
+    "district": 1,
+    "name": "Justin Onwenu",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Detroit's first Director of Entrepreneurship and Economic Opportunity; attorney; adjunct professor at University of Detroit Mercy School of Law; appointee to Whitmer's Black Leadership Council; endorsed by majority of Detroit City Council; age 29",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Whitmer appointee and progressive Democrat; aligned with administration's strong pro-choice agenda; no pro-life signals",
+      "marriage": "Progressive Democratic candidate endorsed by Detroit City Council members who support LGBTQ rights expansion",
+      "religiousLiberty": "Progressive alignment suggests opposition to broad religious exemptions; Whitmer appointee aligned with administration pushing Elliott-Larsen without religious carveouts",
+      "secondAmendment": "Progressive Democrat in deep-blue Detroit; endorsed by Democratic establishment which supports comprehensive gun control",
+      "limitedGov": "City government official who created new government office for entrepreneurship; supports expanded government role in economic development",
+      "fiscal": "Supports expanded government spending on economic development programs; Whitmer administration appointee aligned with progressive fiscal agenda"
+    }
+  },
+  {
+    "district": 2,
+    "name": "Harry Sawicki",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-2; repeat R candidate in deep-blue Detroit area; ran in 2022 post-Dobbs signaling willingness to identify with pro-life party",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Repeat R candidate in deep-blue Detroit area; ran in 2022 post-Dobbs signaling willingness to identify with pro-life party; no specific policy statements found",
+      "marriage": "Consistent Republican party affiliation suggests traditional values alignment; no specific statements on marriage",
+      "religiousLiberty": "Republican party affiliation signals support for religious liberty; limited public record on specific positions",
+      "secondAmendment": "Republican party affiliation signals 2A support; no specific policy statements found",
+      "limitedGov": "Consistent R party affiliation in deep-blue district; limited public record on governance positions",
+      "fiscal": "Republican party affiliation signals fiscal conservatism; limited public record on specific fiscal positions"
+    }
+  },
+  {
+    "district": 2,
+    "name": "Abbas Alawieh",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Leader of 'Uncommitted' movement; progressive activist; Rashida Tlaib ally; running for SD-2 Dearborn seat",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "F", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-choice; progressive activist aligned with the most left-wing members of the Democratic caucus",
+      "marriage": "Supports LGBTQ agenda; allied with Rashida Tlaib who champions progressive social positions",
+      "religiousLiberty": "Progressive activist; opposes religious exemptions from anti-discrimination laws",
+      "secondAmendment": "Supports strict gun control measures; aligned with progressive gun-control advocacy",
+      "limitedGov": "Led the Uncommitted movement; progressive activist who supports expanded government programs and regulation",
+      "fiscal": "Supports progressive fiscal policies including expanded social spending and government programs"
+    }
+  },
+  {
+    "district": 2,
+    "name": "Erin Byrnes",
+    "party": "democratic",
+    "grade": "F",
+    "description": "State Representative retiring from House to run for Senate; strong progressive voting record in Michigan House",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Voted to codify abortion rights; supports full reproductive rights agenda",
+      "marriage": "Voted for Elliott-Larsen LGBTQ expansion; opposes traditional marriage definition",
+      "religiousLiberty": "Voted for Elliott-Larsen expansion without meaningful religious exemptions; limited support for faith-based carveouts",
+      "secondAmendment": "Voted for 2023 gun control package including red flag law, safe storage, and universal background checks",
+      "limitedGov": "Voted with Democratic caucus on expanding government programs and mandates",
+      "fiscal": "Voted for Whitmer budget increases and expanded government spending"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Mark Ashley Price",
+    "party": "republican",
+    "grade": "C",
+    "description": "Former Libertarian who switched to Republican in April 2024; elected to Highland Park School District Board of Education in 2020; sole Republican candidate in deep-blue SD-3",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Former Libertarian (switched to Republican 2024); Libertarian background suggests personal-liberty approach to abortion rather than strong pro-life stance",
+      "marriage": "Former Libertarian party affiliation suggests libertarian view on marriage (government should stay out); not necessarily traditional marriage supporter",
+      "religiousLiberty": "Former Libertarian background supports individual liberty broadly but may not emphasize religious liberty specifically; now Republican",
+      "secondAmendment": "Libertarian background strongly supports 2A rights; party switch to Republican maintains this alignment",
+      "limitedGov": "Strong limited government credentials from Libertarian background; school board experience suggests engagement with local governance",
+      "fiscal": "Libertarian-to-Republican switch suggests strong fiscal conservatism; school board service in Highland Park shows hands-on fiscal experience"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Mohammad Alam",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Democratic candidate for SD-3; previously disqualified from 2024 Democratic primary for U.S. House MI-13; limited public policy record",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Previously ran in Democratic primary for U.S. House MI-13; Democratic party alignment in deep-blue Detroit signals strong pro-choice position",
+      "marriage": "Democratic party affiliation in progressive Detroit district signals support for LGBTQ rights expansion",
+      "religiousLiberty": "No specific positions found; Muslim-American candidate may have more nuanced views on religious liberty than typical progressive Democrat",
+      "secondAmendment": "Democratic party affiliation in Detroit signals support for gun control measures",
+      "limitedGov": "Democratic party platform in Detroit signals support for expanded government programs",
+      "fiscal": "Democratic party alignment signals support for increased government spending and social programs"
+    }
+  },
+  {
+    "district": 3,
+    "name": "John Conyers III",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Entrepreneur and political organizer; son of late Congressman John Conyers Jr.; hedge fund manager with business pragmatism",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": null, "secondAmendment": "D", "limitedGov": "D", "fiscal": "C" },
+    "gradeJustifications": {
+      "proLife": "Running as Democrat in deep-blue Detroit district; no explicit pro-life statements; party affiliation signals pro-choice lean",
+      "marriage": "Democratic party affiliation signals support for LGBTQ agenda; no specific statements found",
+      "religiousLiberty": "No public statements found on religious liberty issues",
+      "secondAmendment": "Democratic party affiliation in Detroit signals support for gun control; no specific statements found",
+      "limitedGov": "Democratic party platform supports expanded government; hedge fund background may moderate somewhat",
+      "fiscal": "More centrist messaging focused on competence, stability, and measurable results; business pragmatism from hedge fund background tempers standard Democratic fiscal positions"
+    }
+  },
+  {
+    "district": 3,
+    "name": "LeJuan Council",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Detroit Community Advisory Council member (District 4, 2025 write-in candidate); community organizer in Detroit; limited public policy record for state-level issues",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Community advisory council member running in deep-blue Detroit; Democratic party affiliation signals strong pro-choice position",
+      "marriage": "Democratic party affiliation in progressive Detroit signals support for LGBTQ rights agenda",
+      "religiousLiberty": "No specific positions found; Democratic party alignment in Detroit suggests limited support for broad religious exemptions",
+      "secondAmendment": "Democratic party affiliation in Detroit where gun violence is a major issue signals support for gun control",
+      "limitedGov": "Community organizer background suggests support for government social programs and community investment",
+      "fiscal": "Democratic party alignment in Detroit signals support for expanded government spending on social services"
+    }
+  },
+  {
+    "district": 3,
+    "name": "LaTanya Garrett",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Former three-term State Representative (2015-2020); EMT, small-business owner; extensive legislative voting record",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Pro-choice; voted with Democratic caucus on reproductive rights issues during three terms in the House",
+      "marriage": "Supported LGBTQ legislation; voted with Democratic caucus on social issues",
+      "religiousLiberty": "Voted with Democratic caucus; limited support for religious exemptions from anti-discrimination laws",
+      "secondAmendment": "Supported gun control measures; voted with Democratic caucus on firearms restrictions",
+      "limitedGov": "Voted for expanded government programs and regulation during three terms in the House",
+      "fiscal": "Supported Democratic spending priorities and budget expansions during tenure"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Korey Hall",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Former regional director in Gov. Whitmer's office; prior regional manager for Sen. Debbie Stabenow; career government official",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "F", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Whitmer administration official; supports the governor's pro-choice agenda",
+      "marriage": "Supports the Whitmer/Stabenow progressive social agenda including LGBTQ rights expansion",
+      "religiousLiberty": "Aligned with Whitmer administration which pushed Elliott-Larsen expansion without religious exemptions",
+      "secondAmendment": "Supports the Whitmer/Stabenow agenda including the 2023 gun control package",
+      "limitedGov": "Career government official; supports expanded government programs and regulatory agenda",
+      "fiscal": "Supports Whitmer budget expansions and Stabenow's federal spending priorities"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Kimberly Hill Knott",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Civic engagement strategist and environmental policy leader; led Detroit's first comprehensive Climate Action Plan as Policy Director at Detroiters Working for Environmental Justice; Congressional staff experience; founder of Christian Political Leadership Institute; CEO of Future Insight Consulting; Detroiter for nearly 30 years",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Progressive Democratic candidate; environmental justice background signals alignment with full progressive platform including pro-choice positions",
+      "marriage": "Progressive platform signals support for LGBTQ rights; no specific statements but clear ideological alignment",
+      "religiousLiberty": "Founded Christian Political Leadership Institute which may suggest some personal faith engagement; however progressive policy platform suggests limited support for broad religious exemptions",
+      "secondAmendment": "Progressive Democratic platform in Detroit signals support for comprehensive gun control",
+      "limitedGov": "Led government climate action plan; environmental policy director role signals support for expanded government environmental regulation",
+      "fiscal": "Supports expanded government investment in climate resilience and environmental justice programs"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Adam Hollier",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Former State Senator (District 2, 2018-2023); U.S. Army paratrooper; dropped Secretary of State bid to run here; more centrist than typical Detroit Democrat",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": {
+      "proLife": "Voted to codify abortion rights; supports reproductive rights legislation",
+      "marriage": "Voted for Elliott-Larsen LGBTQ expansion; opposes traditional marriage definition",
+      "religiousLiberty": "Voted for Elliott-Larsen expansion; limited support for religious exemptions but slightly more moderate than caucus",
+      "secondAmendment": "Voted for gun control measures; some moderation on enforcement-related firearms issues but still supported the package",
+      "limitedGov": "More centrist than caucus on some fiscal and law enforcement matters; military background brings some restraint on government overreach",
+      "fiscal": "More moderate than Democratic caucus on some fiscal issues; centrist tendencies on spending but still supported most Democratic budgets"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Gary Hunter",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-3; no public policy positions, campaign website, or prior political record found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Toinu Reeves",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Dartmouth College graduate (philosophy and economics); studied graduate mathematics at Wayne State; pursuing PhD in economics at University of Michigan; previously ran for SD-3 in 2022 losing to Stephanie Chang; 2025 write-in candidate for Detroit Community Advisory Council District 4",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Repeat Democratic candidate in deep-blue Detroit; previously ran against Stephanie Chang who is strongly pro-choice; no pro-life signals",
+      "marriage": "Democratic candidate in progressive Detroit district; academic background at liberal universities signals progressive social views",
+      "religiousLiberty": "No specific religious liberty positions found; progressive Democratic alignment suggests limited support for broad exemptions",
+      "secondAmendment": "Democratic candidate in Detroit where gun violence is a central issue; party alignment signals support for gun control",
+      "limitedGov": "Economics PhD candidate whose academic work likely favors government intervention models; Democratic party alignment supports expanded programs",
+      "fiscal": "Progressive Democratic candidate; economics background may inform fiscal views but party alignment signals support for expanded spending"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Abraham Shaw",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Master automotive technician from Detroit; Kettering High School graduate; attended Wayne County Community College; previously ran for Michigan House District 7 in 2024 (lost in Democratic primary)",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Previously ran in Democratic primary for HD-7; Democratic party alignment in Detroit signals pro-choice position",
+      "marriage": "Democratic party affiliation in progressive Detroit signals support for LGBTQ rights",
+      "religiousLiberty": "No specific religious liberty positions found; blue-collar Democratic candidate may have more traditional personal views but party alignment is clear",
+      "secondAmendment": "Democratic party affiliation in Detroit signals support for gun control measures",
+      "limitedGov": "Democratic party alignment supports expanded government programs; working-class background may favor government worker protections",
+      "fiscal": "Democratic party alignment signals support for increased government spending; blue-collar background suggests pro-union fiscal priorities"
+    }
+  },
+  {
+    "district": 3,
+    "name": "Eboni Taylor",
+    "party": "democratic",
+    "grade": "F",
+    "description": "First-time candidate; leadership roles at Higher Heights and Mothering Justice; progressive advocacy organizations focused on women of color in politics and family policy",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "F", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Leadership at Mothering Justice which advocates for progressive family policies; strongly pro-choice",
+      "marriage": "Leadership at Higher Heights (progressive women of color political org); supports full LGBTQ rights agenda",
+      "religiousLiberty": "Progressive organizational background; opposes religious exemptions from anti-discrimination laws",
+      "secondAmendment": "Strongly progressive on all issues including gun control; organizational affiliations support firearms restrictions",
+      "limitedGov": "Advocates for expanded government social programs through Mothering Justice; supports progressive regulatory agenda",
+      "fiscal": "Supports expanded social services spending and progressive fiscal policies through organizational advocacy"
+    }
+  },
+  {
+    "district": 4,
+    "name": "Marcie Grzywacz",
+    "party": "republican",
+    "grade": "B",
+    "description": "Rockwood City Councilwoman; critical care nurse; homeschool mom; references defending God-given freedoms",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "A", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Homeschool mom with faith-based values; references defending God-given freedoms; no explicit pro-life statement but strong signals",
+      "marriage": "Faith-based values and homeschool background signal traditional marriage support; no specific statements found",
+      "religiousLiberty": "References defending God-given freedoms; faith-based values indicate strong religious liberty support",
+      "secondAmendment": "No specific 2A statement but law enforcement supporter; Republican party affiliation signals support",
+      "limitedGov": "Explicitly states more freedom, less government overreach; Rockwood City Councilwoman with hands-on local governance experience",
+      "fiscal": "Critical care nurse and small-government advocate; opposes government overreach which signals fiscal restraint"
+    }
+  },
+  {
+    "district": 4,
+    "name": "Darrin Camilleri",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent State Senator; strong progressive voting record; elected 2022",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Voted to codify abortion rights; supported Prop 3; 0% Michigan Right to Life scorecard",
+      "marriage": "Voted to expand LGBTQ protections in Elliott-Larsen Civil Rights Act; opposes traditional marriage definition",
+      "religiousLiberty": "Voted for Elliott-Larsen expansion without religious exemptions; limited support for faith-based carveouts",
+      "secondAmendment": "Voted for 2023 gun control package including red flag law, safe storage, and universal background checks",
+      "limitedGov": "Supports expanded government programs and regulations; voted for government mandates",
+      "fiscal": "Voted for Whitmer budget expansions and new spending programs; supports tax increases"
+    }
+  },
+  {
+    "district": 5,
+    "name": "Estelle Oliansky",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for SD-5; previously ran for Plymouth-Canton Board of Education in 2014 (lost); minimal public policy record for state-level office",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Previously ran for school board in 2014; no public statements found on life issues; insufficient information to grade",
+      "marriage": "No public statements found; insufficient information for individual assessment",
+      "religiousLiberty": "No specific positions found; insufficient information for individual assessment",
+      "secondAmendment": "No specific firearms positions found; insufficient information for individual assessment",
+      "limitedGov": "School board candidate background; no specific governance philosophy statements found",
+      "fiscal": "No specific fiscal policy positions found; insufficient information for individual assessment"
+    }
+  },
+  {
+    "district": 5,
+    "name": "Matt Koleszar",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Fourth-term State Rep (District 22); former middle/high school teacher; House Education Committee chair",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Pro-choice; voted to codify abortion rights; supports reproductive rights legislation",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights",
+      "religiousLiberty": "Limited support for religious exemptions; education focus on progressive curriculum",
+      "secondAmendment": "Voted for 2023 gun control package; supports school safety through gun regulation",
+      "limitedGov": "Supports expanded government role in education; advocates for more school funding and mandates",
+      "fiscal": "Voted for Whitmer budget increases; supports higher education spending"
+    }
+  },
+  {
+    "district": 6,
+    "name": "Joi Pokerwinski",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for SD-6; no campaign website, policy positions, or prior political record found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 6,
+    "name": "Mary Cavanagh",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent State Senator since 2023; elected in 2022 with 68.01%; strong progressive voting record",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-choice; voted to codify abortion rights post-Dobbs; supported Prop 3",
+      "marriage": "Voted to expand Elliott-Larsen Civil Rights Act to include sexual orientation and gender identity",
+      "religiousLiberty": "Voted for Elliott-Larsen expansion without strong religious exemptions",
+      "secondAmendment": "Voted for 2023 gun control package; supports red flag laws and safe storage mandates",
+      "limitedGov": "Supports government expansion; voted for new state programs and mandates",
+      "fiscal": "Voted for large budget increases; supports expanding state spending"
+    }
+  },
+  {
+    "district": 6,
+    "name": "Stephen Jensen",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for SD-6; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 7,
+    "name": "Anthony Paesano",
+    "party": "republican",
+    "grade": "B",
+    "description": "Attorney and small business owner; Catholic background (Brother Rice); committed to lowering taxes and voter ID; previously ran for HD-19 in 2022",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Catholic background (Brother Rice); limited social issue statements but faith signals pro-life alignment",
+      "marriage": "Catholic education background signals traditional marriage support; no specific statements found",
+      "religiousLiberty": "Catholic background and Republican affiliation signal religious liberty support; limited public statements",
+      "secondAmendment": "Republican party affiliation signals 2A support; no specific firearms statements found",
+      "limitedGov": "Attorney and small business owner; committed to voter ID; previously ran for HD-19 (2022); strong limited government signals",
+      "fiscal": "Committed to lowering taxes; supports small business; strong fiscal conservative signals from business background and tax-cut advocacy"
+    }
+  },
+  {
+    "district": 7,
+    "name": "Jason Hoskins",
+    "party": "democratic",
+    "grade": "F",
+    "description": "State Rep (District 18); attorney; former Southfield City Council member; House Economic Development Committee chair",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Pro-choice; voted to codify abortion rights in Michigan",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights",
+      "religiousLiberty": "Limited support for religious exemptions in civil rights legislation",
+      "secondAmendment": "Voted for 2023 gun control package; supports comprehensive gun reform",
+      "limitedGov": "Supports expanded government economic development programs",
+      "fiscal": "Voted for Whitmer budget increases; supports progressive economic policies"
+    }
+  },
+  {
+    "district": 7,
+    "name": "Shadia Martini",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Architect, entrepreneur; Syrian immigrant; MBA from U of M; Oakland County business owner; 2022/2024 nominee for HD-54; DLCC endorsed",
+    "positions": { "proLife": "F", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": {
+      "proLife": "Explicitly stated the right to choose is a human right; strongly pro-choice",
+      "marriage": "Democratic party affiliation and progressive platform signal opposition to traditional marriage; no specific statements found",
+      "religiousLiberty": "Progressive Democratic candidate; no specific religious liberty positions but party alignment signals opposition to broad exemptions",
+      "secondAmendment": "Actively supports common-sense gun legislation; strongly opposes Second Amendment absolutism",
+      "limitedGov": "DLCC endorsed; supports expanded government programs; small business background may slightly moderate",
+      "fiscal": "Democratic party platform and DLCC endorsement signal support for expanded government spending; small business owner background"
+    }
+  },
+  {
+    "district": 7,
+    "name": "Rakesh Ramakrishnan",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Spine surgeon; son of immigrant parents; active local Democratic leader and precinct delegate",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": {
+      "proLife": "Active Democratic leader and precinct delegate; party affiliation signals pro-choice position; no specific statements found",
+      "marriage": "Democratic party affiliation signals support for LGBTQ agenda; no specific statements found",
+      "religiousLiberty": "Democratic party affiliation signals limited support for broad religious exemptions; no specific statements found",
+      "secondAmendment": "Democratic party affiliation signals support for gun control; no specific statements found",
+      "limitedGov": "Supports expanded government role in healthcare and education; active Democratic precinct delegate",
+      "fiscal": "Supports expanded government role in healthcare which signals increased spending; limited specific fiscal positions"
+    }
+  },
+  {
+    "district": 8,
+    "name": "Kenneth D. Massey",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for SD-8; no campaign website, policy positions, or prior political record found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 8,
+    "name": "Dayna Polehanki",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent State Senator; redistricted from former SD-7; elected 2022 with 61.07%; known for displaying AR-15 sign on Senate desk",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-choice; voted to protect and expand abortion access; supported Prop 3",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights including same-sex marriage",
+      "religiousLiberty": "Voted for Elliott-Larsen without strong religious exemptions; limited faith-based protections",
+      "secondAmendment": "Voted for 2023 gun control package; infamously displayed AR-15 sign on Senate desk to push gun control",
+      "limitedGov": "Supports expanded government role in education, healthcare, and regulation",
+      "fiscal": "Voted for all major Whitmer spending increases; supports expanded state programs"
+    }
+  },
+  {
+    "district": 8,
+    "name": "Dean Raymond Wojtowicz",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for SD-8; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 9,
+    "name": "Michael Webber",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent State Senator; elected 2022 with 50.35% in competitive race; perfect 365/365 attendance record",
+    "positions": { "proLife": "A", "marriage": "C", "religiousLiberty": "B", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Right to Life of Michigan PAC endorsed; consistent pro-life voting record",
+      "marriage": "Was one of three Republicans who voted YES on Elliott-Larsen LGBTQ expansion — significant break from conservative position",
+      "religiousLiberty": "Americans for Prosperity and Freedom Network endorsed, but Elliott-Larsen vote lacked religious liberty protections",
+      "secondAmendment": "Strong 2A record; voted against 2023 red flag laws, safe storage, and universal background checks",
+      "limitedGov": "AFP, Michigan Chamber, Freedom Network endorsed; solid conservative on regulation",
+      "fiscal": "Michigan Chamber endorsed; consistent fiscal conservative votes; perfect 365/365 attendance record"
+    }
+  },
+  {
+    "district": 9,
+    "name": "Theresa Brooks",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Dr. Theresa Brooks; running in SD-9 covering Rochester, Troy, Sterling Heights area; active campaign seeking campaign manager through progressive job boards",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Democratic candidate recruiting through progressive job boards; party alignment in suburban Oakland/Macomb district signals pro-choice position",
+      "marriage": "Democratic party affiliation signals support for LGBTQ rights expansion",
+      "religiousLiberty": "No specific religious liberty positions found; Democratic party alignment suggests limited support for broad exemptions",
+      "secondAmendment": "Democratic party affiliation signals support for gun control measures",
+      "limitedGov": "Democratic party platform supports expanded government programs",
+      "fiscal": "Democratic party alignment signals support for increased government spending"
+    }
+  },
+  {
+    "district": 9,
+    "name": "Brendan Johnson",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Democratic candidate for SD-9 covering Rochester, Troy, Sterling Heights, and Utica; has active campaign website (brendanformichigan.com)",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Democratic candidate running in competitive suburban district; party alignment signals pro-choice position",
+      "marriage": "Democratic party affiliation signals support for LGBTQ rights agenda",
+      "religiousLiberty": "No specific religious liberty positions found; Democratic party alignment suggests limited support for broad exemptions",
+      "secondAmendment": "Democratic party affiliation signals support for gun control; running in district where gun policy is competitive issue",
+      "limitedGov": "Democratic party platform supports expanded government programs and regulatory authority",
+      "fiscal": "Democratic party alignment signals support for increased government spending and social programs"
+    }
+  },
+  {
+    "district": 9,
+    "name": "Ren Nushaj",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Municipal attorney; Clawson City Attorney with 15+ years legal experience; Albanian-American; author; focuses on social justice, equality, and opportunity; active campaign (ren4misenate.com)",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Progressive Democratic candidate focused on social justice and equality; signals strong pro-choice alignment",
+      "marriage": "Campaign emphasis on equality signals support for LGBTQ rights; progressive Democratic platform",
+      "religiousLiberty": "Social justice focus suggests prioritizing anti-discrimination over religious exemptions; no specific positions found",
+      "secondAmendment": "Democratic candidate endorsed by progressive groups; party alignment signals support for gun control",
+      "limitedGov": "Municipal government attorney whose career involves government operations; social justice platform signals support for expanded programs",
+      "fiscal": "Progressive platform signals support for increased government spending on social services and community programs"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Michelle Nard",
+    "party": "republican",
+    "grade": null,
+    "description": "Lone Republican candidate for SD-10 (Sterling Heights, parts of Warren, Center Line, Detroit); no campaign website or policy positions found",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Mark Anthony Murphy Jr.",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-10 (Sterling Heights, Warren, Center Line, Detroit); no campaign website, policy positions, or background information found",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Natalie Price",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Current State Rep HD-6; endorsed by Planned Parenthood, Equality Michigan, UAW; former teacher; 100% LCV score",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "D" },
+    "gradeJustifications": {
+      "proLife": "Endorsed by Planned Parenthood; strongly pro-choice voting record as State Rep",
+      "marriage": "Endorsed by Equality Michigan; actively supports LGBTQ rights expansion; opposes traditional marriage definition",
+      "religiousLiberty": "Progressive voting record; supports anti-discrimination laws without broad religious exemptions",
+      "secondAmendment": "Explicitly fights for common-sense gun laws; endorsed by gun control advocacy groups",
+      "limitedGov": "Endorsed by UAW; 100% LCV score; supports expanded government programs, regulations, and mandates",
+      "fiscal": "Supports expanded government spending on education and social programs; UAW-endorsed with pro-worker spending agenda"
+    }
+  },
+  {
+    "district": 10,
+    "name": "Amanda Treppa",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Democratic candidate for SD-10; endorsed by LPAC (LGBTQ PAC); community advocate; business leader; housing/affordability focus",
+    "positions": { "proLife": "D", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": {
+      "proLife": "Democratic party affiliation signals pro-choice position; no explicit statements but party alignment clear",
+      "marriage": "Endorsed by LPAC (LGBTQ PAC); actively supports LGBTQ rights agenda; opposes traditional marriage definition",
+      "religiousLiberty": "LPAC endorsement and progressive platform signal opposition to broad religious exemptions",
+      "secondAmendment": "Democratic party affiliation signals support for gun control; no specific statements found",
+      "limitedGov": "Supports expanded government role in housing, tenant protections, and corporate landlord regulation",
+      "fiscal": "Supports expanded government spending on housing and tenant protections; progressive fiscal approach to affordability"
+    }
+  },
+  {
+    "district": 11,
+    "name": "Johnnie S. Townsend",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for SD-11; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 11,
+    "name": "Joseph Michael Hunt",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for SD-11; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 11,
+    "name": "Alysha Johnson",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic challenger for SD-11; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 11,
+    "name": "Veronica Klinefelt",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent State Senator; Macomb County moderate Democrat; elected 2022",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "D" },
+    "gradeJustifications": {
+      "proLife": "Pro-choice voting record; voted to expand abortion access in Michigan",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights",
+      "religiousLiberty": "Voted for Elliott-Larsen without strong religious exemptions",
+      "secondAmendment": "Voted for 2023 gun control package including red flag laws",
+      "limitedGov": "Supports government programs and expanded state services",
+      "fiscal": "Generally supports Whitmer budgets; Macomb County moderate on some fiscal issues"
+    }
+  },
+  {
+    "district": 12,
+    "name": "Joseph A. Backus",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for SD-12; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 12,
+    "name": "Patrick Shawn Biange",
+    "party": "republican",
+    "grade": "C",
+    "description": "Republican candidate for SD-12; previously ran as Democrat for Michigan House District 12 in 2024 (lost in primary); party-switcher raises questions about ideological commitment",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "C", "secondAmendment": "C", "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": {
+      "proLife": "Ran as Democrat in 2024 then switched to Republican; party-switch raises serious questions about depth of conservative convictions on life issues",
+      "marriage": "Previously ran as Democrat which signals progressive social views; recent Republican switch does not erase prior party alignment",
+      "religiousLiberty": "Party-switcher from Democrat to Republican; ideological consistency unclear",
+      "secondAmendment": "Previously ran as Democrat; recent Republican switch does not demonstrate consistent 2A advocacy",
+      "limitedGov": "Party-switch from Democrat to Republican raises questions about governance philosophy consistency",
+      "fiscal": "Party-switcher; unclear whether fiscal views align with Republican platform or previous Democratic alignment"
+    }
+  },
+  {
+    "district": 12,
+    "name": "John Goldwater",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for SD-12; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 12,
+    "name": "Eileen Tesch",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-12; community activist in Oakland/Macomb area",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican primary candidate; no explicit pro-life endorsements found; running in conservative-leaning district signals alignment",
+      "marriage": "No public statements found; conservative alignment assumed from party affiliation in conservative district",
+      "religiousLiberty": "No specific positions found; general conservative orientation",
+      "secondAmendment": "No specific firearms positions found; Republican in pro-2A district",
+      "limitedGov": "Running as Republican in conservative district; community activist background",
+      "fiscal": "No specific fiscal policy positions found; general conservative alignment in district"
+    }
+  },
+  {
+    "district": 12,
+    "name": "Shelley Wright",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-12; community leader in Oakland/Macomb area",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican primary candidate; no explicit pro-life statements found; general conservative alignment",
+      "marriage": "No public statements found; conservative alignment assumed from party affiliation",
+      "religiousLiberty": "No specific positions found; general conservative orientation",
+      "secondAmendment": "No specific firearms positions found; Republican in pro-2A district",
+      "limitedGov": "Running as Republican in conservative district; community leadership background",
+      "fiscal": "No specific fiscal policy positions found; general conservative alignment"
+    }
+  },
+  {
+    "district": 12,
+    "name": "Kevin Hertel",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Former State Representative; progressive voting record in Michigan House",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Pro-choice; voted to codify abortion rights as State Representative",
+      "marriage": "Voted for Elliott-Larsen LGBTQ expansion; opposes traditional marriage definition",
+      "religiousLiberty": "Voted for Elliott-Larsen expansion without meaningful religious exemptions; limited support for faith-based carveouts",
+      "secondAmendment": "Voted for 2023 gun control package including red flag law, safe storage, and universal background checks",
+      "limitedGov": "Voted with Democratic caucus on expanding government programs and mandates",
+      "fiscal": "Voted for Whitmer budget increases and expanded government spending programs"
+    }
+  },
+  {
+    "district": 13,
+    "name": "Ryan Berman",
+    "party": "republican",
+    "grade": "A",
+    "description": "Former two-term State Representative; attorney from Union Lake; 2025 'Leader in the Law' honoree; UNOPPOSED in R primary",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life as State Rep; voted against every pro-abortion measure; co-sponsored heartbeat bill",
+      "marriage": "Openly supports traditional marriage; voted against legislation undermining religious views on marriage",
+      "religiousLiberty": "Championed religious liberty legislation; voted to protect faith-based adoption agencies from discrimination mandates",
+      "secondAmendment": "A-rated by NRA; voted against all 2023 gun control bills including red flag law and storage mandates",
+      "limitedGov": "Conservative attorney; voted against expanding government programs; supports deregulation and parental rights in education",
+      "fiscal": "Voted against Whitmer budgets; supports tax cuts; opposed corporate welfare spending"
+    }
+  },
+  {
+    "district": 13,
+    "name": "DC Anderson",
+    "party": "democratic",
+    "grade": null,
+    "description": "Commerce Township resident; Democratic candidate for SD-13; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 13,
+    "name": "Sean Carlson",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Oakland County Deputy Executive; retired U.S. Air Force Lieutenant Colonel (20 years active/guard); MSU graduate (BA business, MA labor relations/HR, JD); former Executive Director Michigan Defense Center; former VP International Trade at MEDC; former Senior Deputy Director Michigan Dept of Management & Budget; endorsed by outgoing Sen. Rosemary Bayer",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "F", "fiscal": "D" },
+    "gradeJustifications": {
+      "proLife": "Running as Democrat with Bayer endorsement (strong progressive); Oakland County Democratic establishment candidate signals pro-choice alignment",
+      "marriage": "Endorsed by Rosemary Bayer who championed LGBTQ protections; Democratic establishment candidate signals support for progressive social agenda",
+      "religiousLiberty": "No specific positions found; military veteran background may suggest moderate views but Democratic establishment alignment limits religious liberty support",
+      "secondAmendment": "Military veteran with firearms experience; however Democratic party alignment and Oakland County progressive base signal support for gun control measures",
+      "limitedGov": "Career government official across multiple state agencies; former MEDC VP and DMB Senior Deputy Director — extensive big-government career",
+      "fiscal": "Led reforms saving $250M in government contracts at DMB showing fiscal management ability; however career spent expanding government programs signals progressive fiscal approach"
+    }
+  },
+  {
+    "district": 13,
+    "name": "Cecil D. George",
+    "party": "democratic",
+    "grade": null,
+    "description": "New Hudson resident; landscaping company owner; first-time candidate with no prior political experience; running for SD-13",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Small business owner and first-time candidate; no public policy positions found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "Small business owner which may signal some limited-government orientation; but running as Democrat; insufficient specific information",
+      "fiscal": "Small business owner background; no specific fiscal positions found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 14,
+    "name": "Tawn Shawnelle Beliger",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican who filed for SD-14 on 9/30/2025 but has since withdrawn from the race",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Withdrew from race; insufficient information to grade",
+      "marriage": "Withdrew from race; insufficient information to grade",
+      "religiousLiberty": "Withdrew from race; insufficient information to grade",
+      "secondAmendment": "Withdrew from race; insufficient information to grade",
+      "limitedGov": "Withdrew from race; insufficient information to grade",
+      "fiscal": "Withdrew from race; insufficient information to grade"
+    }
+  },
+  {
+    "district": 14,
+    "name": "Sue Shink",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent State Senator; conservationist, farmer; former Washtenaw County Board of Commissioners chair; elected 2022 with 55.80%",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-choice; voted to expand abortion access; supported Prop 3",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights",
+      "religiousLiberty": "Limited support for religious exemptions in civil rights legislation",
+      "secondAmendment": "Voted for 2023 gun control package; supports expanded background checks",
+      "limitedGov": "Supports environmental regulations and expanded government role in conservation",
+      "fiscal": "Voted for Whitmer budget expansions; supports increased state spending on environmental programs"
+    }
+  },
+  {
+    "district": 15,
+    "name": "Jason Rogers",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-15; previously ran for Michigan House District 33 in 2024 (lost in general election); consistent Republican candidate",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Repeat Republican candidate (ran for HD-33 in 2024); willingness to run as Republican in competitive districts signals conservative alignment",
+      "marriage": "Republican party affiliation signals traditional values; no specific marriage statements found",
+      "religiousLiberty": "No specific positions found; Republican party affiliation signals general support",
+      "secondAmendment": "No specific firearms positions found; Republican party affiliation signals 2A support",
+      "limitedGov": "Repeat Republican candidate showing consistent party commitment; limited specific governance positions",
+      "fiscal": "No specific fiscal positions found; consistent Republican candidate in Washtenaw/Lenawee area"
+    }
+  },
+  {
+    "district": 15,
+    "name": "Felicia Brabec",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent State Senator; strong progressive voting record in Michigan Senate",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-choice; supports expanded abortion access",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights and same-sex marriage",
+      "religiousLiberty": "Limited support for religious exemptions in expanding civil rights legislation",
+      "secondAmendment": "Voted for 2023 gun control package; supports red flag laws and universal background checks",
+      "limitedGov": "Supports government expansion in education, healthcare, and environmental regulation",
+      "fiscal": "Voted for Whitmer budget increases; supports expanded state spending"
+    }
+  },
+  {
+    "district": 15,
+    "name": "Michael White",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Army veteran; former union worker and AT&T leader; nonprofit founder; community leader in Washtenaw, Lenawee, and Monroe counties; lifelong advocate for working families",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Democratic candidate running on progressive platform; party alignment signals pro-choice position",
+      "marriage": "Democratic party affiliation and progressive platform signal support for LGBTQ rights agenda",
+      "religiousLiberty": "No specific religious liberty positions; veteran background may suggest respect for individual rights but progressive platform limits scope",
+      "secondAmendment": "Army veteran with military firearms experience; however Democratic party alignment signals support for gun control measures; veteran status may moderate somewhat",
+      "limitedGov": "Union worker background and nonprofit founder; supports expanded government role in worker protections and social services",
+      "fiscal": "Union and working-family advocacy background signals support for expanded government spending on labor protections and social programs"
+    }
+  },
+  {
+    "district": 16,
+    "name": "Joseph Bellino Jr.",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent State Senator; business owner (Broadway Market, Monroe); elected 2022 with 65.01%; former Monroe County Community College Board",
+    "positions": { "proLife": "A", "marriage": "C", "religiousLiberty": "B", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life; consistent pro-life voting record; 100% Michigan Right to Life scorecard",
+      "marriage": "Was one of three Republicans who voted YES on Elliott-Larsen LGBTQ civil rights expansion — significant break from conservative position",
+      "religiousLiberty": "Elliott-Larsen vote raises concern since the bill lacked strong religious liberty protections; otherwise supports conscience protections",
+      "secondAmendment": "NRA A-rated; voted against 2023 gun control package including red flag law and universal background checks",
+      "limitedGov": "Small business owner; 96% conservative rating (MIRS 2025); opposes excessive regulation",
+      "fiscal": "Voted against Whitmer budget increases; supports balanced budgets and opposes tax hikes; business-first approach"
+    }
+  },
+  {
+    "district": 16,
+    "name": "Deandre Barnes",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democrat from Newport, MI (4814 Sycamore Rd); filed for SD-16; no campaign website, policy positions, or background information found beyond filing record",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 17,
+    "name": "Jonathan Lindsey",
+    "party": "republican",
+    "grade": "A",
+    "description": "Attorney; constitutional conservative; strong pro-life and pro-2A advocate; endorsed by Right to Life of Michigan PAC",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Explicitly pro-life; endorsed by Right to Life of Michigan PAC; attorney who has advocated for pro-life legal positions",
+      "marriage": "Strong traditional values; Christian conservative; supports traditional marriage definition",
+      "religiousLiberty": "Constitutional attorney; strong advocate for First Amendment protections and religious liberty",
+      "secondAmendment": "Strong 2A supporter; endorsed by pro-gun organizations; opposes red flag laws",
+      "limitedGov": "Constitutional conservative; advocates for reduced government overreach; opposes regulatory expansion",
+      "fiscal": "Supports lower taxes and reduced government spending; fiscally conservative platform"
+    }
+  },
+  {
+    "district": 17,
+    "name": "Ashleigh Baker",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-17 (Calhoun/Branch/St. Joseph Counties); no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 17,
+    "name": "Mike D. Jones",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-17; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 17,
+    "name": "Brett Muchow",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-17; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 18,
+    "name": "Thomas A. Albert",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent State Senator; former State Representative and House Appropriations chair; fiscal hawk",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life throughout career; co-sponsored multiple pro-life bills as House Rep and Senator",
+      "marriage": "Consistent supporter of traditional marriage; voted against progressive family law changes",
+      "religiousLiberty": "Championed religious liberty protections; voted against mandates on faith-based organizations",
+      "secondAmendment": "Strong 2A supporter; voted against all 2023 gun control bills; supported constitutional carry",
+      "limitedGov": "Former House Appropriations chair; deeply committed to limiting government spending and overreach",
+      "fiscal": "Led budget fights as Appropriations chair; fiscal hawk who opposed Whitmer spending increases; supports tax reform"
+    }
+  },
+  {
+    "district": 18,
+    "name": "Anthony Pennock",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Educator from Battle Creek; researcher, special educator, and union leader; filed May 2025 to run against Thomas Albert in SD-18",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Public school educator and union leader running as Democrat; party alignment signals pro-choice position",
+      "marriage": "Democratic party affiliation and progressive education background signal support for LGBTQ rights",
+      "religiousLiberty": "Public educator background; Democratic alignment suggests limited support for broad religious exemptions in education and policy",
+      "secondAmendment": "Democratic party affiliation and union background signal support for gun control measures",
+      "limitedGov": "Special educator and union leader; supports expanded government role in education, union protections, and social programs",
+      "fiscal": "Union leader who advocates for increased education funding; Democratic alignment signals support for expanded government spending"
+    }
+  },
+  {
+    "district": 19,
+    "name": "Shaun Young",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for SD-19 (Kalamazoo area); no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 19,
+    "name": "Julie M. Rogers",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent State Senator; Kalamazoo area progressive; strong progressive voting record",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-choice; voted to expand abortion access",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights",
+      "religiousLiberty": "Limited support for religious exemptions in civil rights legislation",
+      "secondAmendment": "Voted for 2023 gun control package; supports expanded gun regulations",
+      "limitedGov": "Supports expanded government role in healthcare and social services",
+      "fiscal": "Voted for Whitmer budget expansions; supports increased state spending"
+    }
+  },
+  {
+    "district": 20,
+    "name": "Curtis Clark",
+    "party": "republican",
+    "grade": "B",
+    "description": "Holland, MI native; U.S. Army veteran (1983-2006); previously ran for U.S. House MI-4 as U.S. Taxpayers Party candidate in 2024 (lost); third-party-to-Republican candidate",
+    "positions": { "proLife": "A", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "U.S. Taxpayers Party (Constitution Party affiliate) background is strongly pro-life; party platform opposes all abortion",
+      "marriage": "Constitution Party affiliate background supports traditional marriage; no specific individual statements found",
+      "religiousLiberty": "Constitution Party affiliate background strongly supports religious liberty; no specific individual statements found",
+      "secondAmendment": "Military veteran (23 years Army) and Constitution Party affiliate strongly supports 2A; no specific statements but strong signals",
+      "limitedGov": "Constitution Party/U.S. Taxpayers Party affiliation is strongest limited-government party; 23-year military veteran",
+      "fiscal": "Constitution Party affiliate background supports minimal government spending and taxation; strong fiscal conservative credentials"
+    }
+  },
+  {
+    "district": 20,
+    "name": "Kenny Clevenger",
+    "party": "republican",
+    "grade": "B",
+    "description": "Casco Township Treasurer (2021-present); former Allegan County Republican Party chairman (2022-2025); local government fiscal experience",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Conservative Republican; former county party chairman; general pro-life alignment but no explicit endorsements found",
+      "marriage": "Conservative county party leader; no explicit statements but strong party alignment",
+      "religiousLiberty": "Republican party leader in conservative Allegan County; general conservative orientation",
+      "secondAmendment": "Rural SW Michigan Republican; general 2A support expected but no specific endorsements found",
+      "limitedGov": "Township treasurer; local government experience suggests understanding of limited government principles",
+      "fiscal": "Township treasurer with fiscal management experience; conservative fiscal orientation"
+    }
+  },
+  {
+    "district": 20,
+    "name": "Chris Moraitis",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-20; SW Michigan conservative; limited public record",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican primary candidate in conservative district; no explicit pro-life statements found publicly",
+      "marriage": "No public statements found; conservative alignment assumed from party affiliation in conservative SW Michigan",
+      "religiousLiberty": "No specific positions found; general conservative orientation",
+      "secondAmendment": "No specific firearms positions found; Republican in pro-2A rural district",
+      "limitedGov": "Running as Republican in conservative SW Michigan; limited public record",
+      "fiscal": "No specific fiscal policy positions found; general conservative alignment"
+    }
+  },
+  {
+    "district": 20,
+    "name": "Dale Murney",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-20; has campaign website (murney4senate.com) but limited policy detail available through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Has active campaign but no specific policy positions found; insufficient information to grade",
+      "marriage": "No specific policy positions found; insufficient information to grade",
+      "religiousLiberty": "No specific policy positions found; insufficient information to grade",
+      "secondAmendment": "No specific policy positions found; insufficient information to grade",
+      "limitedGov": "No specific policy positions found; insufficient information to grade",
+      "fiscal": "No specific policy positions found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 21,
+    "name": "Josh Burns",
+    "party": "republican",
+    "grade": "A",
+    "description": "Husband and father; runs on 'Life. Land. Liberty.' platform; opposes government overreach including Flock cameras, radical school ideology, and foreign farmland purchases; supports school vouchers and Educational Savings Accounts",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Explicitly states every life begins at conception and every child is made in the image of God; committed to protecting the innocent",
+      "marriage": "Strong faith-based values evident in campaign messaging; 'made in the image of God' language signals traditional marriage support",
+      "religiousLiberty": "Explicitly opposes government overreach; supports parental control of education including homeschooling; strong religious liberty signals",
+      "secondAmendment": "Liberty-focused platform opposing government overreach; opposes government surveillance (Flock cameras); strong individual rights orientation signals 2A support",
+      "limitedGov": "Central campaign theme is opposing government that has grown too powerful, too expensive, and too intrusive; supports full school vouchers and ESAs; opposes Flock cameras and foreign farmland purchases",
+      "fiscal": "Committed to cutting wasteful spending, eliminating fraud, reducing bureaucracy, and lowering the tax burden on working people"
+    }
+  },
+  {
+    "district": 21,
+    "name": "Sarah Anthony",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent State Senator; Senate Appropriations Committee; former Ingham County commissioner; strong progressive",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-choice; voted to codify abortion rights; championed reproductive rights legislation",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights",
+      "religiousLiberty": "Limited support for religious exemptions",
+      "secondAmendment": "Voted for 2023 gun control package; supports comprehensive gun reform",
+      "limitedGov": "Supports expanded government programs; former county commissioner who grew county services",
+      "fiscal": "Senate Appropriations Committee; voted for major budget expansions; supports new spending"
+    }
+  },
+  {
+    "district": 22,
+    "name": "Mike Murphy",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent State Senator (Livingston County Sheriff); strong conservative record across all issues",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Consistent pro-life record; voted against all pro-abortion measures in the Michigan Senate",
+      "marriage": "Supports traditional marriage; conservative social values throughout legislative career",
+      "religiousLiberty": "Voted to protect religious organizations from state mandates; supports First Amendment protections",
+      "secondAmendment": "Strong 2A record; voted against 2023 gun control package; supports gun owners' rights",
+      "limitedGov": "Opposes government overreach; voted against expanding state regulatory authority",
+      "fiscal": "Fiscal conservative; voted against budget increases; supports reducing state spending"
+    }
+  },
+  {
+    "district": 22,
+    "name": "Robert Hower",
+    "party": "democratic",
+    "grade": "F",
+    "description": "CEO of Numed Technologies (Ann Arbor medical device company); part-time engineering professor at Wayne State University; Livingston County small business owner; Green Oak Township resident; first Democrat to declare for SD-22",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": {
+      "proLife": "Democratic candidate; no specific statements but party alignment signals pro-choice position",
+      "marriage": "Democratic party affiliation signals support for LGBTQ rights; no specific statements found",
+      "religiousLiberty": "No specific religious liberty positions; small business owner and professor background may moderate views somewhat",
+      "secondAmendment": "Democratic candidate; no specific firearms positions but party alignment signals support for gun control",
+      "limitedGov": "Small business CEO brings private-sector perspective; however Democratic party alignment signals support for government programs in education and healthcare",
+      "fiscal": "Small business owner and CEO which may moderate fiscal views; prioritizes education funding and community college investment"
+    }
+  },
+  {
+    "district": 23,
+    "name": "Daniel Lawless",
+    "party": "republican",
+    "grade": "B",
+    "description": "White Lake resident; Republican candidate for SD-23; community advocate; limited public record",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican primary candidate; no explicit pro-life endorsements found; general conservative alignment",
+      "marriage": "No public statements found; conservative alignment assumed from party affiliation",
+      "religiousLiberty": "No specific positions found; general conservative orientation",
+      "secondAmendment": "No specific firearms positions found; Republican in Oakland County suburban district",
+      "limitedGov": "Running as Republican; limited public record on specific policy positions",
+      "fiscal": "No specific fiscal policy positions found; general conservative alignment"
+    }
+  },
+  {
+    "district": 23,
+    "name": "Donni Steele",
+    "party": "republican",
+    "grade": "A",
+    "description": "Current State Rep (HD-54, Lake Orion); owns Coldwell Banker Shooltz Realty; BA Business Mgmt from WMU; realtor/property manager/associate broker",
+    "positions": { "proLife": "A", "marriage": "B", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Pro-life voting record as State Rep; voted against pro-abortion legislation",
+      "marriage": "Supports traditional values; has not been outspoken on marriage-specific legislation",
+      "religiousLiberty": "Voted to protect religious liberty and conscience protections in the legislature",
+      "secondAmendment": "Strong 2A supporter; voted against 2023 gun control bills; supports gun owners' rights",
+      "limitedGov": "Business owner who opposes excessive regulation; supports reducing government bureaucracy",
+      "fiscal": "Fiscal conservative; business background; voted against budget expansions and tax increases"
+    }
+  },
+  {
+    "district": 23,
+    "name": "Margarette Gupta",
+    "party": "democratic",
+    "grade": null,
+    "description": "Oakland Township resident; Democratic candidate for SD-23; no campaign website, policy positions, or background information found beyond filing record",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 23,
+    "name": "Greg Hill",
+    "party": "democratic",
+    "grade": null,
+    "description": "Oxford resident; dad, coach, and small business owner; has campaign website (greghillformichigan.com) but limited specific policy positions available",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Small business owner running as Democrat; no specific positions found; insufficient information to grade",
+      "marriage": "No specific positions found; insufficient information to grade",
+      "religiousLiberty": "No specific positions found; insufficient information to grade",
+      "secondAmendment": "No specific positions found; insufficient information to grade",
+      "limitedGov": "Small business owner which may signal some private-sector orientation; running as Democrat in traditionally Republican district",
+      "fiscal": "No specific fiscal positions found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 24,
+    "name": "Terence H. Mekoski",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-24; Macomb County conservative; limited public record",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican primary candidate in Macomb County; no explicit pro-life statements found publicly",
+      "marriage": "No public statements found; conservative alignment assumed from party affiliation",
+      "religiousLiberty": "No specific positions found; general conservative orientation",
+      "secondAmendment": "No specific firearms positions found; Republican in blue-collar Macomb County",
+      "limitedGov": "Running as Republican; limited public record on specific policy positions",
+      "fiscal": "No specific fiscal policy positions found; general conservative alignment"
+    }
+  },
+  {
+    "district": 24,
+    "name": "Douglas Chester Wozniak",
+    "party": "republican",
+    "grade": "A",
+    "description": "Small-business owner and practicing attorney; served in House 2018; special election to Senate 2021; returned to House 2024; strong conservative record across both chambers",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Consistently pro-life in both House and Senate; voted against all pro-abortion measures",
+      "marriage": "Strong traditional marriage supporter; voted to protect marriage definition",
+      "religiousLiberty": "Championed religious liberty as both State Rep and Senator; voted for conscience protections",
+      "secondAmendment": "Strong 2A record across both chambers; voted against gun control bills; NRA-supported",
+      "limitedGov": "Attorney and small-business owner; opposes government overreach; supports deregulation",
+      "fiscal": "Fiscal hawk; voted against Whitmer budget increases in both House and Senate; supports tax cuts"
+    }
+  },
+  {
+    "district": 24,
+    "name": "Frank Borsellino",
+    "party": "democratic",
+    "grade": null,
+    "description": "Previously ran for Macomb County Board of Commissioners 7th District in 2024; Democratic candidate for SD-24; limited public policy record for state-level office",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Previously ran for county commission; no state-level policy positions found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 24,
+    "name": "Edlira Sako",
+    "party": "democratic",
+    "grade": null,
+    "description": "Lead teacher at Macomb Montessori Academy; pursuing master's in counseling at Wayne State University; Albanian immigrant who moved to Clinton Township in 2012; 2024 nominee for Macomb County Board of Commissioners 7th District",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Educator and counseling student; no specific policy positions found on life issues; insufficient information to grade",
+      "marriage": "No specific positions found; insufficient information to grade",
+      "religiousLiberty": "No specific positions found; insufficient information to grade",
+      "secondAmendment": "No specific positions found; insufficient information to grade",
+      "limitedGov": "Teacher and county commission candidate background; no specific governance philosophy found",
+      "fiscal": "No specific fiscal positions found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 25,
+    "name": "Andrew Beeler",
+    "party": "republican",
+    "grade": "A",
+    "description": "Port Huron resident; strong constitutional conservative; pro-life advocate; 2A supporter; endorsed by Right to Life of Michigan PAC",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Explicitly pro-life; endorsed by Right to Life of Michigan PAC; advocates for protection of unborn life",
+      "marriage": "Strong traditional values; Christian conservative; supports biblical definition of marriage",
+      "religiousLiberty": "Strong advocate for First Amendment protections; opposes government overreach into religious practice",
+      "secondAmendment": "Strong 2A supporter; endorsed by gun rights organizations; opposes gun control measures",
+      "limitedGov": "Constitutional conservative; advocates for reduced government regulation and individual liberty",
+      "fiscal": "Supports lower taxes and reduced government spending; fiscally conservative platform"
+    }
+  },
+  {
+    "district": 25,
+    "name": "Gary R. Eisen",
+    "party": "republican",
+    "grade": "A",
+    "description": "Former State Representative; outspoken conservative; refused to certify 2020 election results on Board of Canvassers; open carry supporter",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life as State Rep; voted against all pro-abortion measures",
+      "marriage": "Strong traditional marriage supporter; outspoken conservative",
+      "religiousLiberty": "Championed religious liberty protections in the House",
+      "secondAmendment": "Strong 2A advocate; voted against all gun control measures; open carry supporter",
+      "limitedGov": "Known for opposing government overreach; refused to certify 2020 election results (Board of Canvassers)",
+      "fiscal": "Fiscal conservative; voted against budget increases; supports spending cuts"
+    }
+  },
+  {
+    "district": 25,
+    "name": "John W. Mahaney",
+    "party": "republican",
+    "grade": "B",
+    "description": "Port Huron resident; repeat Republican candidate — ran for Michigan House District 64 in 2022 (lost primary) and HD-81 in 2020 (lost primary to Gary Eisen); persistent conservative candidate",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Repeat Republican candidate in conservative Thumb area; consistent party affiliation signals pro-life alignment but no endorsements found",
+      "marriage": "No specific statements found; consistent Republican alignment in conservative area signals traditional values",
+      "religiousLiberty": "No specific positions found; conservative Republican in Thumb area signals general support",
+      "secondAmendment": "No specific firearms positions found; Republican in rural/suburban St. Clair County signals 2A support",
+      "limitedGov": "Persistent Republican candidate showing commitment to conservative governance; no specific positions documented",
+      "fiscal": "No specific fiscal positions found; consistent Republican candidate in conservative district"
+    }
+  },
+  {
+    "district": 25,
+    "name": "Randy Schultz",
+    "party": "republican",
+    "grade": "B",
+    "description": "Mussey Township resident; ran for Mussey Township Supervisor in 2024; local government experience in rural St. Clair County",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican candidate with local government background in conservative Thumb area; no specific positions found but strong conservative alignment",
+      "marriage": "No specific statements found; rural conservative area signals traditional values",
+      "religiousLiberty": "No specific positions found; general conservative orientation in rural Michigan",
+      "secondAmendment": "No specific firearms positions found; rural Michigan Republican signals strong 2A alignment",
+      "limitedGov": "Township supervisor candidate; local government experience in rural area signals understanding of limited government",
+      "fiscal": "Township-level government experience suggests fiscal management orientation; no specific state-level fiscal positions found"
+    }
+  },
+  {
+    "district": 25,
+    "name": "April L. Osentoski",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Bad Axe resident and lifelong Michigan resident; culinary professional with 25+ years experience; 1992 Bad Axe HS grad; ran for Michigan House District 98 in 2024 (lost general); Vice Chair Huron County Democratic Party; unopposed in D primary for SD-25",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Democratic party alignment signals pro-choice position; previously ran on Democratic ticket in rural Thumb area",
+      "marriage": "Democratic party affiliation signals support for LGBTQ rights; no specific statements found",
+      "religiousLiberty": "No specific positions found; rural Democrat may have more moderate views than urban counterparts but party alignment limits support for broad exemptions",
+      "secondAmendment": "Rural Thumb area Democrat; may have more moderate gun views than urban Democrats given constituency; however party alignment still signals gun control support",
+      "limitedGov": "Michigan Democratic Party Rural Caucus leadership; supports expanded government programs in rural communities",
+      "fiscal": "Democratic party alignment signals support for increased government spending; focus on rural community investment"
+    }
+  },
+  {
+    "district": 26,
+    "name": "Daltson Atwell",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-26; community conservative in Tuscola/Lapeer/Genesee area; limited public record",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican primary candidate; no explicit pro-life statements found; general conservative alignment in rural district",
+      "marriage": "No public statements found; conservative alignment assumed from party affiliation",
+      "religiousLiberty": "No specific positions found; general conservative orientation",
+      "secondAmendment": "No specific firearms positions found; Republican in rural district",
+      "limitedGov": "Running as Republican; limited public record on specific policy positions",
+      "fiscal": "No specific fiscal policy positions found; general conservative alignment"
+    }
+  },
+  {
+    "district": 26,
+    "name": "Matthew Bierlein",
+    "party": "republican",
+    "grade": "A",
+    "description": "Former State Representative; reelected 2024 with 70.36%; retiring from House to run for Senate; strong conservative voting record",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strong pro-life voting record as State Rep; co-sponsored pro-life legislation",
+      "marriage": "Supports traditional marriage; conservative social values in rural Tuscola/Lapeer district",
+      "religiousLiberty": "Voted to protect religious organizations from government mandates",
+      "secondAmendment": "Strong 2A supporter; voted against all 2023 gun control bills; rural district with strong gun culture",
+      "limitedGov": "Conservative voting record opposing government expansion; supports limited regulation",
+      "fiscal": "Fiscal conservative; won reelection with 70%+ showing broad support for his spending restraint positions"
+    }
+  },
+  {
+    "district": 26,
+    "name": "James M. Graham",
+    "party": "republican",
+    "grade": null,
+    "description": "Saginaw resident; Republican candidate for SD-26; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 26,
+    "name": "Gabriel Lossing",
+    "party": "republican",
+    "grade": "B",
+    "description": "Otter Lake resident; combat veteran; first-generation farmer; Republican candidate for SD-26 (Genesee/Lapeer/Saginaw/Tuscola area); has active campaign (lossing4senate.com)",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "A", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican candidate in conservative district; combat veteran and farmer signals traditional values; no explicit pro-life endorsements found",
+      "marriage": "No public statements found; military veteran and farmer background in conservative area signals traditional values",
+      "religiousLiberty": "No specific positions found; general conservative orientation from military and agricultural background",
+      "secondAmendment": "Combat veteran with military firearms experience; Republican in rural Michigan; strong 2A alignment expected",
+      "limitedGov": "First-generation farmer and combat veteran; independent/self-reliant background signals limited government orientation",
+      "fiscal": "Farmer and veteran background suggests fiscal responsibility; no specific policy positions documented"
+    }
+  },
+  {
+    "district": 26,
+    "name": "Candice Miller",
+    "party": "republican",
+    "grade": null,
+    "description": "Retired businesswoman from Burton; 2022 candidate for Michigan House of Representatives; Republican candidate for SD-26; not the former U.S. Rep Candice Miller",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Retired businesswoman and previous House candidate; no specific policy positions found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "Business background; no specific governance positions found; insufficient information to grade",
+      "fiscal": "No specific fiscal positions found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 26,
+    "name": "Martin L. Cousineau",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-26; previously ran for Michigan House District 48 in 2022 (did not appear on ballot); limited public record",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Previous House candidate who did not make ballot; no policy positions found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 26,
+    "name": "Brendan J. Johnson",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Georgetown graduate; former State Department analyst; former Elissa Slotkin staff; bridges national security and local governance",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": null, "secondAmendment": "D", "limitedGov": "D", "fiscal": "C" },
+    "gradeJustifications": {
+      "proLife": "Democratic party affiliation signals pro-choice position; no specific statements found",
+      "marriage": "Democratic party affiliation signals support for LGBTQ agenda; no specific statements found",
+      "religiousLiberty": "No public statements found on religious liberty issues",
+      "secondAmendment": "Democratic party affiliation and Slotkin staff background signal support for gun control measures",
+      "limitedGov": "Former State Department analyst; Democratic party affiliation signals support for expanded government; Slotkin staff background",
+      "fiscal": "Supports reducing burdensome red tape for small business which is a mixed signal; more centrist than typical progressive Democrat on fiscal matters"
+    }
+  },
+  {
+    "district": 27,
+    "name": "Bill Bain",
+    "party": "republican",
+    "grade": "C",
+    "description": "Flushing Township Trustee (2 terms); former UAW executive board officer; blue-collar Republican with union background",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "No public statements found on life issues; UAW background and worker-focused messaging suggest centrist-to-moderate Republican",
+      "marriage": "No public statements found on marriage issues",
+      "religiousLiberty": "No public statements found on religious liberty issues",
+      "secondAmendment": "No public statements found on Second Amendment issues",
+      "limitedGov": "Believes in common-sense governance; Flushing Township Trustee with local government experience; UAW background complicates limited-gov signals",
+      "fiscal": "Advocates cutting wasteful spending; Flushing Township Trustee focused on fiscal responsibility; UAW executive board background may moderate fiscal conservatism"
+    }
+  },
+  {
+    "district": 27,
+    "name": "John D. Cherry",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Incumbent State Senator; Flint-area Democrat; moderate on some enforcement issues",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Pro-choice voting record; supports abortion access",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights",
+      "religiousLiberty": "Limited support for religious exemptions in expanding civil rights law",
+      "secondAmendment": "Voted for some gun control measures; Flint-area Democrat moderate on some 2A issues",
+      "limitedGov": "Supports expanded government programs; focuses on urban revitalization through state investment",
+      "fiscal": "Voted for Whitmer budget increases; supports state spending on Flint recovery"
+    }
+  },
+  {
+    "district": 28,
+    "name": "Julie L. DeRose",
+    "party": "republican",
+    "grade": "B",
+    "description": "Previously ran in 2024 Republican primary for HD-77; insurance and education background; DeWitt area resident",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Previously ran in 2024 Republican primary for HD-77; Republican affiliation in conservative-leaning DeWitt area signals pro-life alignment",
+      "marriage": "Republican party affiliation in conservative-leaning district signals traditional marriage support; limited public statements",
+      "religiousLiberty": "Republican party affiliation signals religious liberty support; limited public statements on specific issues",
+      "secondAmendment": "Republican party affiliation signals 2A support; limited public statements on firearms",
+      "limitedGov": "Background in insurance and education in conservative-leaning DeWitt area; limited public statements on governance",
+      "fiscal": "Republican party affiliation in conservative-leaning district signals fiscal conservatism; limited public statements"
+    }
+  },
+  {
+    "district": 28,
+    "name": "Rashida Harrison",
+    "party": "democratic",
+    "grade": null,
+    "description": "Lansing resident; Democratic candidate for SD-28; running in primary alongside Kilvington, Pena, and Polsdofer for Sam Singh's open seat; limited public policy record found",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 28,
+    "name": "Ted Kilvington",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-28; running for Sam Singh's open seat; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 28,
+    "name": "Robert Orlando Pena",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-28; running for Sam Singh's open seat; no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 28,
+    "name": "Mark Polsdofer",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Ingham County Commissioner (14th District, 2019-present) representing southern Meridian Township; former Deputy Director of Legislative Affairs for Gov. Granholm; worked in both chambers of legislature; currently at Michigan DOT; Okemos resident",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Career Democratic government official and Granholm administration appointee; progressive alignment signals strong pro-choice position",
+      "marriage": "Progressive Democratic official; Granholm administration background signals support for LGBTQ rights",
+      "religiousLiberty": "No specific positions found; career in Democratic government suggests limited support for broad religious exemptions",
+      "secondAmendment": "Democratic party official; Granholm administration and Ingham County progressive base signal support for gun control",
+      "limitedGov": "Career government official spanning county commission, both legislative chambers, governor's office, and MDOT; quintessential big-government background",
+      "fiscal": "Granholm administration appointee; career in government spending agencies signals support for expanded state spending"
+    }
+  },
+  {
+    "district": 29,
+    "name": "Brady A. Middleton",
+    "party": "republican",
+    "grade": "B",
+    "description": "Previous R candidate (2014 HD-73); entrepreneur and fiscal conservative; opposes raising taxes; strong private-sector orientation",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Previous Republican candidate (2014 HD-73); consistent R party affiliation signals pro-life alignment; limited specific statements",
+      "marriage": "Republican party affiliation signals traditional marriage support; no specific statements found",
+      "religiousLiberty": "Republican party affiliation signals religious liberty support; no specific statements found",
+      "secondAmendment": "Republican party affiliation signals 2A support; no specific firearms statements found",
+      "limitedGov": "Stated jobs are created in the minds, hearts, and hands of entrepreneurs; strongly supports private sector over government solutions",
+      "fiscal": "Opposed raising taxes; noted Michigan has 6th highest gas tax but poor roads showing fiscal accountability focus; clear fiscal conservative credentials"
+    }
+  },
+  {
+    "district": 29,
+    "name": "Ivan Diaz",
+    "party": "democratic",
+    "grade": "D",
+    "description": "Former Kent County Commissioner (2023-2025); GVSU student; SEIU union representative; young progressive candidate",
+    "positions": { "proLife": "D", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "D", "fiscal": "D" },
+    "gradeJustifications": {
+      "proLife": "Young progressive candidate; Democratic party affiliation signals pro-choice position; SEIU alignment",
+      "marriage": "Democratic party affiliation and progressive platform signal support for LGBTQ agenda",
+      "religiousLiberty": "Progressive Democratic candidate; party alignment signals opposition to broad religious exemptions",
+      "secondAmendment": "Democratic party affiliation signals support for gun control; no specific statements found",
+      "limitedGov": "Former Kent County Commissioner; SEIU union rep; government-expansion approach to policy",
+      "fiscal": "SEIU union representative; young progressive candidate; supports expanded government spending programs"
+    }
+  },
+  {
+    "district": 29,
+    "name": "Abbie Groff-Blaszak",
+    "party": "democratic",
+    "grade": "F",
+    "description": "East Grand Rapids City Commissioner; Harvard MEd; most progressive policy platform in SD-29 including single-payer healthcare, universal childcare, ending cash bail",
+    "positions": { "proLife": "F", "marriage": "D", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Supports single-payer healthcare and universal childcare; progressive platform strongly opposed to pro-life positions",
+      "marriage": "Progressive Democratic platform signals support for LGBTQ agenda; no specific statements but clear ideological alignment",
+      "religiousLiberty": "Progressive platform signals opposition to broad religious exemptions; government-expansion approach to social policy",
+      "secondAmendment": "Explicitly supports gun violence mitigation; strongly opposes Second Amendment absolutism",
+      "limitedGov": "Supports single-payer healthcare, universal childcare, paid family leave, ending cash bail; maximalist government expansion platform",
+      "fiscal": "Supports progressive tax structure, raising minimum wage, single-payer healthcare, universal childcare; most fiscally progressive candidate in SD-29"
+    }
+  },
+  {
+    "district": 29,
+    "name": "Phil Skaggs",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Current State Rep HD-80; passed Kent County first LGBTQ non-discrimination ordinance; strong progressive voting record",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "D" },
+    "gradeJustifications": {
+      "proLife": "Explicitly supports repealing 1931 abortion ban; strongly pro-choice voting record as State Rep",
+      "marriage": "Passed Kent County first LGBTQ non-discrimination ordinance; actively opposes traditional marriage definition",
+      "religiousLiberty": "Supports LGBTQ non-discrimination without broad religious exemptions; progressive social agenda",
+      "secondAmendment": "Voted for universal background checks, safe storage, and red flag laws; strongly supports gun control",
+      "limitedGov": "100% support for expanded government programs; actively pushes government expansion in social services and regulation",
+      "fiscal": "Supports expanded government spending programs; progressive fiscal approach as State Rep"
+    }
+  },
+  {
+    "district": 30,
+    "name": "Mark E. Huizenga",
+    "party": "republican",
+    "grade": "B",
+    "description": "Incumbent State Senator; Christian Reformed, Calvin University graduate; self-described 'free market conservative' with some moderate positions",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "A", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Generally pro-life but less vocal than peers; self-described 'free market conservative'",
+      "marriage": "Explicitly supports traditional marriage ('one man and one woman') but was sole Republican to vote for conversion therapy ban — mixed signal",
+      "religiousLiberty": "States religious liberty 'deserves highest protection' but conversion therapy ban vote undercuts this position",
+      "secondAmendment": "Voted against all 2023 gun control package; strong 2A record",
+      "limitedGov": "'Free market conservative' but praised government renewable energy policy; mixed on regulation",
+      "fiscal": "Generally fiscal conservative; some departures on energy policy spending"
+    }
+  },
+  {
+    "district": 30,
+    "name": "Carol Glanville",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Current State Rep (HD-84); BA from Western Michigan University; MA from University of Phoenix; former consultant and program manager at Johnson Center for Philanthropy; adjunct faculty at Aquinas College; running to flip SD-30 seat; DLCC endorsed",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Voted to codify abortion rights as State Representative; strongly pro-choice",
+      "marriage": "Voted for Elliott-Larsen expansion; supports LGBTQ rights",
+      "religiousLiberty": "Voted for Elliott-Larsen expansion; limited support for religious exemptions",
+      "secondAmendment": "Voted for 2023 gun control package; supports expanded gun regulations as State Rep",
+      "limitedGov": "Supports expanded government role in education and social services; progressive regulatory platform",
+      "fiscal": "Voted for Whitmer budget increases as State Rep; supports expanded state spending"
+    }
+  },
+  {
+    "district": 30,
+    "name": "Rickie Kreuzer",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Founding Executive Director of Chosen Family of Michigan (statewide LGBTQ civil rights nonprofit); serves on Michigan State Board of Nursing; background in LGBTQ and voter advocacy with HRC, LCV, Michigan United, and OutFront Kalamazoo",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "F", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Progressive activist with strong LGBTQ advocacy background; party alignment signals strong pro-choice position",
+      "marriage": "Founded Chosen Family of Michigan (LGBTQ civil rights org); actively champions LGBTQ rights and opposes traditional marriage definition",
+      "religiousLiberty": "LGBTQ rights activist; strongly opposes religious exemptions from anti-discrimination laws; advocacy career centered on expanding protections over religious liberty",
+      "secondAmendment": "Progressive activist aligned with gun control advocacy organizations; supports expanded firearms restrictions",
+      "limitedGov": "Founded nonprofit focused on government-mandated civil rights protections; supports expanded government social programs and regulation",
+      "fiscal": "Supports expanded government investment in affordable housing, education, healthcare, and infrastructure; progressive fiscal platform"
+    }
+  },
+  {
+    "district": 31,
+    "name": "Kevin J. Maas",
+    "party": "republican",
+    "grade": null,
+    "description": "Republican candidate for SD-31; limited public information available",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 31,
+    "name": "Michael J. Markey Jr.",
+    "party": "republican",
+    "grade": "A",
+    "description": "Businessman; 2022 disqualified gubernatorial candidate; 2024 congressional candidate; strong conservative across multiple campaign cycles",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life; ran gubernatorial and congressional campaigns on explicit pro-life platform",
+      "marriage": "Conservative Christian; supports traditional marriage; consistent traditional values messaging",
+      "religiousLiberty": "Strong advocate for religious freedom and conscience protections; Christian conservative platform",
+      "secondAmendment": "Strong 2A supporter; opposes gun control measures; ran on pro-gun platform",
+      "limitedGov": "Consistent limited government messaging across multiple campaigns; anti-establishment conservative",
+      "fiscal": "Businessman; advocates lower taxes and reduced government spending; fiscal conservative platform"
+    }
+  },
+  {
+    "district": 31,
+    "name": "John Wetzel",
+    "party": "republican",
+    "grade": "A",
+    "description": "Conservative businessman; strong pro-life and pro-2A advocate in Ottawa/Allegan area",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Explicitly pro-life; strong advocacy for protection of unborn life",
+      "marriage": "Strong traditional values; supports traditional marriage definition",
+      "religiousLiberty": "Advocates for First Amendment protections and religious liberty",
+      "secondAmendment": "Strong 2A supporter; opposes gun control measures",
+      "limitedGov": "Constitutional conservative; advocates for reduced government regulation",
+      "fiscal": "Supports lower taxes and reduced government spending; fiscally conservative"
+    }
+  },
+  {
+    "district": 31,
+    "name": "Keagan Host",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-31 (Ottawa/Allegan area); no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 31,
+    "name": "Chris Kleinjans",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Former Ottawa County Commissioner; US Navy veteran; nonprofit sector employee; husband, father, grandfather; previously won county seat as Democrat in heavily Republican Ottawa County; noted Ottawa County shifted 2 points left in 2024",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Democratic candidate in conservative Ottawa County; party alignment signals pro-choice position despite potentially moderate personal views",
+      "marriage": "Democratic party affiliation signals support for LGBTQ rights; running in county that had contentious conservative-progressive school board fights",
+      "religiousLiberty": "Navy veteran which may suggest moderate views on individual liberty; however Democratic alignment in Ottawa County limits support for broad religious exemptions",
+      "secondAmendment": "Navy veteran with military firearms experience; Democratic alignment signals some gun control support but veteran status may moderate views",
+      "limitedGov": "Former county commissioner and nonprofit employee; Democratic platform supports expanded government programs",
+      "fiscal": "Democratic alignment and nonprofit background signal support for expanded government spending"
+    }
+  },
+  {
+    "district": 32,
+    "name": "Kim Cole",
+    "party": "republican",
+    "grade": "A",
+    "description": "Mason County Sheriff since 2012; 40 years in law enforcement; fifth-generation Mason County resident; second-generation sheriff (great-great-grandfather served 1899-1902); seeking Republican nomination for open SD-32 seat",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "A", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Long-serving Republican sheriff in conservative rural Michigan; party alignment signals pro-life but no specific endorsements found",
+      "marriage": "No specific statements found; law enforcement background in conservative rural Michigan signals traditional values",
+      "religiousLiberty": "No specific positions found; Republican in conservative rural district signals general support",
+      "secondAmendment": "40-year law enforcement career and county sheriff; strong understanding of firearms; Republican in rural gun-culture area signals strong 2A support",
+      "limitedGov": "Law enforcement career represents government authority but constitutional oath-based; Republican alignment signals limited government orientation",
+      "fiscal": "County-level budget management experience as sheriff; no specific state fiscal positions found"
+    }
+  },
+  {
+    "district": 32,
+    "name": "Max Riekse",
+    "party": "republican",
+    "grade": "B",
+    "description": "Veteran and teacher; 2016 Libertarian nominee for state house; 2018 Libertarian candidate for State Senate District 34; 2020 Libertarian candidate for U.S. House MI-2; 2024 Muskegon County sheriff candidate; now running as Republican for SD-32",
+    "positions": { "proLife": "C", "marriage": "C", "religiousLiberty": "B", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Former Libertarian with multiple campaigns; Libertarian party typically takes personal-liberty approach to abortion rather than strong pro-life stance",
+      "marriage": "Libertarian background typically favors government staying out of marriage; not specifically traditional marriage advocacy",
+      "religiousLiberty": "Libertarian background strongly supports individual liberty including religious freedom; now Republican which maintains this alignment",
+      "secondAmendment": "Libertarian-to-Republican candidate with strong individual rights orientation; veteran with military experience; strong 2A credentials",
+      "limitedGov": "Multiple campaigns as Libertarian demonstrate deep commitment to limited government; veteran and teacher background",
+      "fiscal": "Libertarian background demonstrates strongest possible fiscal conservative credentials; opposes government spending expansion"
+    }
+  },
+  {
+    "district": 32,
+    "name": "Rebecca Amidon",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Adjunct communication professor at Mid Michigan College; lives in Manistee National Forest area with family; Vice Chair of Manistee County Democratic Party (2021-2024); VP of children's nonprofit; over 10 years in higher education",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Democratic party official (Vice Chair Manistee County Dems); party alignment signals pro-choice position",
+      "marriage": "Democratic party leadership signals support for LGBTQ rights agenda",
+      "religiousLiberty": "No specific positions found; Democratic party alignment suggests limited support for broad religious exemptions",
+      "secondAmendment": "Rural Michigan Democrat; may have more moderate gun views than urban counterparts given rural constituency; however party alignment signals gun control support",
+      "limitedGov": "Supports expanded government investment in education, healthcare, and rural communities; progressive platform",
+      "fiscal": "Supports expanded government spending on public education, healthcare access, and rural community investment"
+    }
+  },
+  {
+    "district": 33,
+    "name": "Katie DeBoer",
+    "party": "republican",
+    "grade": "B",
+    "description": "Kent County Commissioner; West Michigan Republican with faith-based values and local government experience",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Generally pro-life; county commissioner role limits direct voting record on this issue",
+      "marriage": "Supports traditional values; limited direct record on marriage legislation as county commissioner",
+      "religiousLiberty": "Supports religious liberty; West Michigan Republican with faith-based values",
+      "secondAmendment": "Supports 2A rights; limited direct voting record as county commissioner",
+      "limitedGov": "County commissioner focused on efficient local government; supports responsible governance",
+      "fiscal": "County-level fiscal experience; supports responsible spending at the county level"
+    }
+  },
+  {
+    "district": 33,
+    "name": "Joseph D. Fox",
+    "party": "republican",
+    "grade": "A",
+    "description": "Current State Representative from Fremont; strong conservative voting record in Michigan House",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Pro-life voting record in the Michigan House; voted against pro-abortion legislation",
+      "marriage": "Supports traditional marriage; conservative social values",
+      "religiousLiberty": "Voted to protect religious liberty and conscience protections",
+      "secondAmendment": "Strong 2A supporter; voted against 2023 gun control bills",
+      "limitedGov": "Conservative voting record; opposes government expansion",
+      "fiscal": "Fiscal conservative; voted against budget increases"
+    }
+  },
+  {
+    "district": 33,
+    "name": "Gina Johnsen",
+    "party": "republican",
+    "grade": "A",
+    "description": "Current State Representative from Portland; strong conservative voting record including pro-life, pro-2A, and fiscal restraint",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Pro-life voting record in the Michigan House; consistently votes to protect unborn life",
+      "marriage": "Supports traditional marriage; conservative on social issues",
+      "religiousLiberty": "Supports religious freedom protections; voted for conscience clause legislation",
+      "secondAmendment": "Strong 2A record; voted against gun control measures",
+      "limitedGov": "Supports limited government and reducing regulations",
+      "fiscal": "Voted against expanded state spending; supports balanced budgets"
+    }
+  },
+  {
+    "district": 33,
+    "name": "Thomas J. Norton",
+    "party": "republican",
+    "grade": "A",
+    "description": "Rockford resident; has campaign website (thomasjnorton.com) advocating for Right to Life, 2nd Amendment, welfare reform, and child services reform; previously ran for U.S. Congress",
+    "positions": { "proLife": "A", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Explicitly advocates for RIGHT to LIFE on campaign website; clearly pro-life",
+      "marriage": "No specific marriage statements found on campaign platform; Republican in conservative West Michigan signals traditional values",
+      "religiousLiberty": "No specific religious liberty statements found; conservative Republican in West Michigan signals general support",
+      "secondAmendment": "Explicitly advocates for 2nd Amendment rights on campaign website; clearly pro-2A",
+      "limitedGov": "Advocates for welfare reform reducing government dependency; supports reducing government overreach",
+      "fiscal": "Supports welfare reform and reduced government spending; fiscal conservative platform focused on accountability"
+    }
+  },
+  {
+    "district": 33,
+    "name": "Stan Opal",
+    "party": "democratic",
+    "grade": null,
+    "description": "White Cloud resident (233 N Pine Ave); Democratic candidate for SD-33; filed 2/19/2026; no campaign website, policy positions, or background information found",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 34,
+    "name": "Roger Hauck",
+    "party": "republican",
+    "grade": "A",
+    "description": "Former State Representative; strong conservative record; 100% Michigan Right to Life; A-rated by NRA",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life as State Rep; voted against all pro-abortion measures; 100% Michigan Right to Life",
+      "marriage": "Strong traditional marriage supporter; conservative social values",
+      "religiousLiberty": "Championed religious liberty protections as State Rep; voted for conscience protections",
+      "secondAmendment": "A-rated by NRA; voted against all gun control measures; strong rural 2A advocate",
+      "limitedGov": "Opposed government overreach; voted against expanding state regulatory authority",
+      "fiscal": "Fiscal conservative; voted against budget increases; supports reducing state spending"
+    }
+  },
+  {
+    "district": 34,
+    "name": "Rhonda L. Lange",
+    "party": "republican",
+    "grade": "C",
+    "description": "Republican candidate for SD-34; realtor; limited public policy information available",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": "C", "fiscal": "C" },
+    "gradeJustifications": {
+      "proLife": "No public position found",
+      "marriage": "No public position found",
+      "religiousLiberty": "No public position found",
+      "secondAmendment": "No public position found",
+      "limitedGov": "Republican candidate in northern Michigan; limited public record; C grade reflects party affiliation without documented policy positions",
+      "fiscal": "No specific fiscal policy positions found; C grade reflects lack of documented positions"
+    }
+  },
+  {
+    "district": 34,
+    "name": "Tyler Landgraf",
+    "party": "democratic",
+    "grade": null,
+    "description": "Chippewa Lake resident; Democratic candidate for SD-34; previously ran for same seat (lost); limited current policy information found",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "Repeat Democratic candidate in conservative rural district; no specific positions found; insufficient information to grade individually",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 35,
+    "name": "Jason Tunney",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-35; ran in May 2026 special election; limited public policy record",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican primary candidate; no explicit pro-life endorsements found; general conservative alignment",
+      "marriage": "No public statements found; conservative alignment assumed from party affiliation",
+      "religiousLiberty": "No specific positions found; general conservative orientation",
+      "secondAmendment": "No specific firearms positions found; Republican in northern Michigan",
+      "limitedGov": "Running as Republican; limited public record on specific policy positions",
+      "fiscal": "No specific fiscal policy positions found; general conservative alignment"
+    }
+  },
+  {
+    "district": 35,
+    "name": "Chadwick Twillman",
+    "party": "republican",
+    "grade": "B",
+    "description": "Republican candidate for SD-35; community conservative; limited public record",
+    "positions": { "proLife": "B", "marriage": "B", "religiousLiberty": "B", "secondAmendment": "B", "limitedGov": "B", "fiscal": "B" },
+    "gradeJustifications": {
+      "proLife": "Republican primary candidate; no explicit pro-life statements found; general conservative alignment",
+      "marriage": "No public statements found; conservative alignment assumed from party affiliation",
+      "religiousLiberty": "No specific positions found; general conservative orientation",
+      "secondAmendment": "No specific firearms positions found; Republican in rural northern Michigan",
+      "limitedGov": "Running as Republican; limited public record on specific policy positions",
+      "fiscal": "No specific fiscal policy positions found; general conservative alignment"
+    }
+  },
+  {
+    "district": 35,
+    "name": "Chedrick Greene",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Won May 2026 special election to fill Kristen McDonald Rivet's vacancy; ran on progressive platform in Flint/Saginaw area",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "F", "secondAmendment": "F", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Ran on progressive platform supporting abortion access; pro-choice",
+      "marriage": "Progressive Democrat from Flint area; supports LGBTQ rights agenda",
+      "religiousLiberty": "Progressive platform; opposes religious exemptions from anti-discrimination laws",
+      "secondAmendment": "Ran on platform supporting gun control measures; progressive on firearms restrictions",
+      "limitedGov": "Supports expanded social services and government programs; progressive regulatory agenda",
+      "fiscal": "Ran on expanded social services spending; supports progressive fiscal policies"
+    }
+  },
+  {
+    "district": 36,
+    "name": "Michele Hoitenga",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent State Senator; strong conservative record; 100% Michigan Right to Life; A-rated by NRA; homeschool champion; unopposed",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life throughout legislative career; voted against all pro-abortion measures; 100% Michigan Right to Life scorecard",
+      "marriage": "Strong supporter of traditional marriage; outspoken on social conservative values",
+      "religiousLiberty": "Championed religious liberty protections; introduced bills to protect faith-based organizations",
+      "secondAmendment": "A-rated by NRA; voted against 2023 gun control package; strong rural 2A advocate",
+      "limitedGov": "Known for opposing government overreach; introduced bills to reduce regulations; homeschool champion",
+      "fiscal": "Fiscal conservative; voted against every Whitmer budget increase; supports tax cuts and spending restraint"
+    }
+  },
+  {
+    "district": 37,
+    "name": "John Damoose",
+    "party": "republican",
+    "grade": "A",
+    "description": "Incumbent State Senator; Northern Michigan conservative; strong record on all issues",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life; consistent voting record against abortion expansion in Michigan",
+      "marriage": "Supports traditional marriage; Northern Michigan conservative values",
+      "religiousLiberty": "Voted to protect religious organizations from government mandates; supports conscience protections",
+      "secondAmendment": "Strong 2A supporter; voted against 2023 gun control package; represents rural Northern Michigan",
+      "limitedGov": "Opposes government overreach; supports reducing state bureaucracy and regulations",
+      "fiscal": "Fiscal conservative; voted against Whitmer budget expansions; supports balanced budgets"
+    }
+  },
+  {
+    "district": 37,
+    "name": "Kate Gallup",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-37 (NE Lower Peninsula); no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 37,
+    "name": "Mitchell Treadwell",
+    "party": "democratic",
+    "grade": null,
+    "description": "Democratic candidate for SD-37 (NE Lower Peninsula); no campaign website, policy positions, or background information found through research",
+    "positions": { "proLife": null, "marriage": null, "religiousLiberty": null, "secondAmendment": null, "limitedGov": null, "fiscal": null },
+    "gradeJustifications": {
+      "proLife": "No public statements or campaign materials found; insufficient information to grade",
+      "marriage": "No public statements or campaign materials found; insufficient information to grade",
+      "religiousLiberty": "No public statements or campaign materials found; insufficient information to grade",
+      "secondAmendment": "No public statements or campaign materials found; insufficient information to grade",
+      "limitedGov": "No public statements or campaign materials found; insufficient information to grade",
+      "fiscal": "No public statements or campaign materials found; insufficient information to grade"
+    }
+  },
+  {
+    "district": 38,
+    "name": "Beau Matthew LaFave",
+    "party": "republican",
+    "grade": "A",
+    "description": "Former State Rep (2017-2022); pro-open carry conservative firebrand; endorsed by Rep. Jack Bergman; tried to bring AR-style rifle to Whitmer State of the State; A+ NRA rating",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Strongly pro-life throughout House career; co-sponsored multiple pro-life bills",
+      "marriage": "Strong traditional marriage supporter; outspoken conservative on social issues",
+      "religiousLiberty": "Championed religious liberty and First Amendment protections as State Rep",
+      "secondAmendment": "One of the strongest 2A advocates in the legislature; attempted to open carry in State Capitol; A+ NRA rating",
+      "limitedGov": "Liberty-focused conservative; opposes government overreach; supports constitutional limits on government",
+      "fiscal": "Fiscal hawk; voted against state spending increases; supports tax elimination"
+    }
+  },
+  {
+    "district": 38,
+    "name": "David Prestin",
+    "party": "republican",
+    "grade": "A",
+    "description": "Current State Rep (HD-108, elected 2022, reelected 2024); endorsed by outgoing Sen. Ed McBroom, Reps. Greg Markkanen and Karl Bohnak; UP representative",
+    "positions": { "proLife": "A", "marriage": "A", "religiousLiberty": "A", "secondAmendment": "A", "limitedGov": "A", "fiscal": "A" },
+    "gradeJustifications": {
+      "proLife": "Pro-life voting record in the House; voted against all pro-abortion legislation",
+      "marriage": "Supports traditional marriage; Upper Peninsula conservative values",
+      "religiousLiberty": "Supports religious freedom protections; voted for conscience clause legislation",
+      "secondAmendment": "Strong 2A record; voted against 2023 gun control bills; represents rural UP district",
+      "limitedGov": "Endorsed by outgoing Sen. McBroom for limited-government credentials; opposes state overreach",
+      "fiscal": "Fiscal conservative; voted against Whitmer budget expansions; supports responsible spending"
+    }
+  },
+  {
+    "district": 38,
+    "name": "Kelli J. Van Ginhoven",
+    "party": "democratic",
+    "grade": "F",
+    "description": "Delta County Commissioner (Vice Chair); won seat via May 2024 recall election, re-elected Nov 2024; 1998 Escanaba HS graduate; former preschool teacher and credit union worker; small business owner (For The Love of Cupcakes bakery in downtown Escanaba); claims SD-38 is flippable",
+    "positions": { "proLife": "F", "marriage": "F", "religiousLiberty": "D", "secondAmendment": "D", "limitedGov": "F", "fiscal": "F" },
+    "gradeJustifications": {
+      "proLife": "Democratic county commissioner; party alignment signals pro-choice position; running on progressive platform",
+      "marriage": "Democratic party affiliation signals support for LGBTQ rights agenda",
+      "religiousLiberty": "No specific positions found; small-town UP background may suggest moderate personal views but Democratic alignment limits broad religious exemption support",
+      "secondAmendment": "Rural UP Democrat; may have more moderate gun views than downstate Democrats given rural constituency and hunting culture; party alignment still signals some gun control support",
+      "limitedGov": "County commissioner who supports expanded government investment in UP communities; Democratic platform supports expanded programs",
+      "fiscal": "Small business owner who supports expanded government investment; Democratic alignment signals support for increased spending"
+    }
+  }
+]

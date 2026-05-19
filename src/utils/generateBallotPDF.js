@@ -7,6 +7,26 @@ const GRAY = [120, 120, 120]
 const LIGHT_GRAY = [220, 220, 220]
 const WHITE = [255, 255, 255]
 const GOLD_BG = [252, 247, 237]   // very light gold for selected rows
+
+const GRADE_COLORS = {
+  A: [34, 197, 94],
+  B: [132, 204, 22],
+  C: [202, 138, 4],
+  D: [249, 115, 22],
+  F: [239, 68, 68],
+}
+
+function drawGradeBadge(doc, grade, x, y) {
+  if (!grade || !GRADE_COLORS[grade]) return 0
+  const color = GRADE_COLORS[grade]
+  doc.setFillColor(...color)
+  doc.circle(x + 2.5, y - 0.5, 2.5, 'F')
+  doc.setTextColor(...WHITE)
+  doc.setFontSize(6)
+  doc.setFont('helvetica', 'bold')
+  doc.text(grade, x + 1.5, y + 0.5)
+  return 7
+}
 const PAGE_WIDTH = 210            // A4 mm
 const MARGIN = 20
 const CONTENT_WIDTH = PAGE_WIDTH - MARGIN * 2
@@ -170,10 +190,13 @@ export default function generateBallotPDF({ party, races, choices, address }) {
             doc.setFont('helvetica', 'bold')
             doc.text(candidate.name, MARGIN + 8, y + 0.5)
 
+            // Grade badge
+            const nameWidth = doc.getTextWidth(candidate.name)
+            const gradeWidth = drawGradeBadge(doc, candidate.grade, MARGIN + 8 + nameWidth + 2, y + 0.5)
+
             // YOUR CHOICE label
             doc.setFillColor(...GOLD)
-            const nameWidth = doc.getTextWidth(candidate.name)
-            const labelX = MARGIN + 8 + nameWidth + 3
+            const labelX = MARGIN + 8 + nameWidth + 2 + gradeWidth + 1
             doc.roundedRect(labelX, y - 2.5, 19, 5, 1, 1, 'F')
             doc.setTextColor(...WHITE)
             doc.setFontSize(6)
@@ -190,12 +213,18 @@ export default function generateBallotPDF({ party, races, choices, address }) {
             doc.setFontSize(9)
             doc.setFont('helvetica', 'normal')
             doc.text(candidate.name, MARGIN + 8, y + 0.5)
+
+            // Grade badge for unselected
+            drawGradeBadge(doc, candidate.grade, MARGIN + 8 + doc.getTextWidth(candidate.name) + 2, y + 0.5)
           }
 
           // Candidate description to the right
           if (candidate.description) {
+            doc.setFontSize(9)
+            doc.setFont(isSelected ? 'helvetica' : 'helvetica', isSelected ? 'bold' : 'normal')
             const candNameWidth = doc.getTextWidth(candidate.name)
-            let descX = MARGIN + 8 + candNameWidth + 3
+            const gradeOffset = candidate.grade ? 9 : 0
+            let descX = MARGIN + 8 + candNameWidth + 3 + gradeOffset
             if (isSelected) descX += 22 // account for YOUR CHOICE label
             const maxDescWidth = PAGE_WIDTH - MARGIN - descX
             if (maxDescWidth > 15) {

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import usePageTitle from '../hooks/usePageTitle'
 import { useApp } from '../contexts/AppContext'
@@ -6,6 +6,7 @@ import ShareButton from '../components/ui/ShareButton'
 import FounderQuoteBanner from '../components/ui/FounderQuoteBanner'
 import { VOTING_QUOTES } from '../data/foundingValues'
 import { getVoterInfo } from '../services/googleCivicApi'
+import { geocodeToDistrict } from '../services/districtService'
 import {
   STATE_ELECTION_RESOURCES,
   getStateElectionUrl,
@@ -740,9 +741,103 @@ function VotingInfoCard({ info }) {
   )
 }
 
+function ElectionsAddressBar({ userAddress, setUserAddress, handleSearchDistrict, selectedState }) {
+  const [query, setQuery] = useState(userAddress || '')
+  const [loading, setLoading] = useState(false)
+  const [suggestions, setSuggestions] = useState([])
+  const [open, setOpen] = useState(false)
+  const debounceRef = useRef(null)
+  const wrapRef = useRef(null)
+
+  useEffect(() => {
+    function onClick(e) {
+      if (wrapRef.current && !wrapRef.current.contains(e.target)) setOpen(false)
+    }
+    document.addEventListener('mousedown', onClick)
+    return () => document.removeEventListener('mousedown', onClick)
+  }, [])
+
+  function handleChange(e) {
+    const val = e.target.value
+    setQuery(val)
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    if (val.length < 5) { setSuggestions([]); setOpen(false); return }
+    debounceRef.current = setTimeout(async () => {
+      try {
+        const res = await fetch(`https://nominatim.openstreetmap.org/search?format=json&countrycodes=us&limit=5&q=${encodeURIComponent(val)}`)
+        const data = await res.json()
+        const filtered = data.filter(d => d.display_name.includes('Michigan'))
+        setSuggestions(filtered)
+        setOpen(filtered.length > 0)
+      } catch { setSuggestions([]); setOpen(false) }
+    }, 350)
+  }
+
+  async function submitAddress(address) {
+    setQuery(address)
+    setOpen(false)
+    setSuggestions([])
+    setUserAddress(address)
+    setLoading(true)
+    try {
+      const geo = await geocodeToDistrict(address)
+      if (geo && selectedState) {
+        handleSearchDistrict(selectedState, geo.district, geo.matchedAddress, geo)
+        if (geo.matchedAddress) {
+          setUserAddress(geo.matchedAddress)
+          setQuery(geo.matchedAddress)
+        }
+      }
+    } catch { /* geocoding failed */ }
+    finally { setLoading(false) }
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault()
+    if (query.trim()) submitAddress(query.trim())
+  }
+
+  return (
+    <form className="elections-address-bar" onSubmit={handleSubmit} ref={wrapRef}>
+      <div className="elections-address-input-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="elections-address-icon">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
+        </svg>
+        <input
+          type="text"
+          className="elections-address-input"
+          placeholder="Enter your Michigan address..."
+          value={query}
+          onChange={handleChange}
+          aria-label="Enter your address"
+        />
+        <button type="submit" className="elections-address-btn" disabled={loading || !query.trim()}>
+          {loading ? 'Finding...' : 'Find My Ballot'}
+        </button>
+      </div>
+      {open && suggestions.length > 0 && (
+        <ul className="elections-address-suggestions">
+          {suggestions.map((s, i) => (
+            <li key={i}>
+              <button type="button" onClick={() => submitAddress(s.display_name)}>
+                {s.display_name}
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+      {userAddress && !loading && (
+        <p className="elections-address-current">
+          <span>Current:</span> {userAddress}
+        </p>
+      )}
+    </form>
+  )
+}
+
 export default function ElectionsView() {
   usePageTitle('Elections & Registration', 'Upcoming elections, voter registration, and ballot information')
-  const { selectedState, elections, electionsLoading, userAddress } = useApp()
+  const { selectedState, elections, electionsLoading, userAddress, setUserAddress, handleSearchDistrict } = useApp()
   const stateCode = selectedState?.code
   const stateResource = stateCode ? STATE_ELECTION_RESOURCES[stateCode] : null
   const regInfo = stateCode ? REGISTRATION_LINKS[stateCode] : null
@@ -830,11 +925,12 @@ export default function ElectionsView() {
             ? `Know your elections, know your ballot, make your voice heard in ${selectedState.name}.`
             : 'Select a state to see election and registration information.'}
         </p>
-        {!userAddress && selectedState && (
-          <p className="elections-hero-cta">
-            Enter your address in the search bar to see your personalized ballot and polling locations.
-          </p>
-        )}
+        <ElectionsAddressBar
+          userAddress={userAddress}
+          setUserAddress={setUserAddress}
+          handleSearchDistrict={handleSearchDistrict}
+          selectedState={selectedState}
+        />
       </div>
 
       <Link to="/ballot" className="ballot-hero-link">

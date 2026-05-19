@@ -1,0 +1,600 @@
+[
+  {
+    "county": "BERRIEN",
+    "name": "Mabel Johnson Mayfield",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Republican Governor John Engler in January 2000. Has served continuously since, winning multiple elections. Previously served as a Juvenile Court Attorney Referee for 7 years and worked at Berrien County Legal Services for 10 years. Currently serves as Chief Judge of the Berrien County Trial Court. Named Fellow of the Michigan State Bar Foundation.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by pro-life Republican Governor Engler. No public statements found on life issues.",
+      "marriage": "Appointed by Republican governor who supported traditional marriage. No public statements found.",
+      "religiousLiberty": "No public record on religious liberty issues. Default based on Republican appointment.",
+      "secondAmendment": "No public record on Second Amendment issues. Default based on Republican appointment.",
+      "limitedGov": "Long tenure as probate judge suggests institutional stability. Appointed by governor who favored judicial restraint.",
+      "fiscal": "No public record on property rights or fiscal rulings. Default based on Republican appointment."
+    }
+  },
+  {
+    "county": "CHIPPEWA",
+    "name": "Eric G. Blubaugh",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Republican Governor Rick Snyder on May 8, 2017. Former assistant prosecutor for Chippewa County, chief prosecutor for Bay Mills Indian Community, magistrate for 91st District Court, juvenile referee for Chippewa County Family Court, and adjunct professor at Lake Superior State University. Has won election to keep the seat.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by Republican Governor Snyder. No public statements found on life issues.",
+      "marriage": "No public statements found. Default based on Republican governor appointment.",
+      "religiousLiberty": "No public record on religious liberty issues. Default based on Republican appointment.",
+      "secondAmendment": "No public record on Second Amendment issues. Rural UP district. Default based on Republican appointment.",
+      "limitedGov": "Prosecutorial background suggests law-and-order orientation. Appointed by governor who favored moderate judicial restraint.",
+      "fiscal": "No public record on property rights or fiscal rulings. Default based on Republican appointment."
+    }
+  },
+  {
+    "county": "GENESEE",
+    "name": "Andrea L. LeGendre",
+    "incumbent": false,
+    "grade": null,
+    "description": "Assistant County Prosecutor and Bureau Chief in Genesee County with 25 years of experience in county courts. Has overseen probate, family, and felony matters including guardianships, child protection, elder abuse, and mental health proceedings. Lifelong Genesee County resident. No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Prosecutorial background but no information on judicial philosophy.",
+      "fiscal": "No public record on property rights or fiscal issues."
+    }
+  },
+  {
+    "county": "GENESEE",
+    "name": "Ashley Prew",
+    "incumbent": false,
+    "grade": null,
+    "description": "Senior Assistant Prosecuting Attorney in Genesee County. Also served as Senior Assistant Corporation Counsel. Prior to government service, practiced at Casey D Conklin with experience in estate planning, probate, business law, real estate, intellectual property, and civil litigation. J.D. from Michigan State University College of Law. No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Prosecutorial background but no information on judicial philosophy.",
+      "fiscal": "No public record on property rights or fiscal issues."
+    }
+  },
+  {
+    "county": "HURON",
+    "name": "Julienne M. Ferris",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Democrat Governor Gretchen Whitmer in September 2025 to the Huron County Probate Court, also serving as 73-B District Court judge. First female judge in Huron County history. Previously a partner at Ferris, Schwedler & O'Mara, P.C. in Bad Axe, specializing in family and probate law. B.S. in early childhood education from University of Georgia; J.D. from Florida Coastal School of Law.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by pro-choice Governor Whitmer. No personal public statements found.",
+      "marriage": "Appointed by Governor Whitmer who supports progressive marriage policies. No personal statements found.",
+      "religiousLiberty": "No public record on religious liberty issues. Default based on Democrat governor appointment.",
+      "secondAmendment": "No public record on Second Amendment issues. Default based on Democrat governor appointment.",
+      "limitedGov": "Appointed by Democrat governor. No information on judicial philosophy available.",
+      "fiscal": "No public record on property rights or fiscal rulings. Default based on Democrat governor appointment."
+    }
+  },
+  {
+    "county": "HURON",
+    "name": "Jessica Leigh Testolin-Reinke",
+    "incumbent": false,
+    "grade": null,
+    "description": "Attorney magistrate for the 73-B District Court in Huron County. Oversees all magistrate matters and serves as an attorney referee. Challenging incumbent Judge Ferris. No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "No information on judicial philosophy.",
+      "fiscal": "No public record on property rights or fiscal issues."
+    }
+  },
+  {
+    "county": "INGHAM",
+    "name": "Richard J. Garcia",
+    "incumbent": true,
+    "grade": "B",
+    "description": "Appointed by Republican Governor John Engler in February 2000. Elected in November 2000 and re-elected for full terms in 2002, 2008, and 2014. Appointed Chief Judge of Ingham County Probate Court by Michigan Supreme Court in 2013. B.A. from University of Notre Dame (1983); J.D. from University of Michigan (1985). Over 25 years of service on the bench.",
+    "positions": {
+      "proLife": "B",
+      "marriage": "B",
+      "religiousLiberty": "B",
+      "secondAmendment": "B",
+      "limitedGov": "B",
+      "fiscal": "B"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by pro-life Republican Governor Engler. No public statements found on life issues.",
+      "marriage": "Appointed by Republican governor who supported traditional marriage. No personal statements found.",
+      "religiousLiberty": "No public record on religious liberty issues. Default based on Republican appointment.",
+      "secondAmendment": "No public record on Second Amendment issues. Default based on Republican appointment.",
+      "limitedGov": "Long-serving judge appointed by Republican governor. University of Michigan law education. No evidence of activist rulings.",
+      "fiscal": "No public record on property rights or fiscal rulings. Default based on Republican appointment."
+    }
+  },
+  {
+    "county": "KALAMAZOO",
+    "name": "Tiffany A. Ankley",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected to probate court seat in 2014, defeating opponent with 55.9% of the vote, but was reassigned to 8th District Court by the Kalamazoo County Executive Judicial Council. Previously served as a family court attorney-referee for the 9th Circuit Court for ten years. President of the Kalamazoo County Bar Association. Not appointed by any governor -- won election outright. No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Elected rather than appointed, so no governor signal. Family court background. No clear ideological indicators.",
+      "fiscal": "No public record on property rights or fiscal issues."
+    }
+  },
+  {
+    "county": "KENT",
+    "name": "David M. Murkowski",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Democrat Governor Jennifer Granholm on August 4, 2006. Subsequently appointed chief judge by Michigan Supreme Court in December 2007. B.A. from Marquette University (1979); J.D. from Thomas M. Cooley Law School (1983). Was a solo practitioner from 1983-1993 and managing partner at Dilley, Dilley, Murkowski & Goller, PLLC before appointment. Has served continuously since 2006.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by pro-choice Governor Granholm. No personal public statements found.",
+      "marriage": "Appointed by Governor Granholm. No personal statements found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues. Default based on Democrat governor appointment.",
+      "secondAmendment": "No public record on Second Amendment issues. Default based on Democrat governor appointment.",
+      "limitedGov": "Appointed by Democrat governor. Long tenure but no information on judicial philosophy specifics.",
+      "fiscal": "No public record on property rights or fiscal rulings. Default based on Democrat governor appointment."
+    }
+  },
+  {
+    "county": "MACOMB",
+    "name": "Sara A. Schimke",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Democrat Governor Gretchen Whitmer in April 2022. Previously an attorney at Chalgian & Tripp, PLLC, specializing in probate law, estate planning, and advocacy. Won election in November 2022 to keep the seat. Career devoted exclusively to probate and estate planning matters.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by pro-choice Governor Whitmer. No personal public statements found.",
+      "marriage": "Appointed by Governor Whitmer. No personal statements found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues. Default based on Democrat governor appointment.",
+      "secondAmendment": "No public record on Second Amendment issues. Default based on Democrat governor appointment.",
+      "limitedGov": "Appointed by Democrat governor. Probate practice background. No information on judicial philosophy.",
+      "fiscal": "No public record on property rights or fiscal rulings. Default based on Democrat governor appointment."
+    }
+  },
+  {
+    "county": "MONROE",
+    "name": "Cheryl R. Sweeney",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Democrat Governor Gretchen Whitmer on November 6, 2025. Previously served as chief juvenile court referee for the 38th Judicial Circuit Court Family Division and deputy probate register for the Monroe County Probate Court. Also previously solo practitioner at Law Offices of Cheryl Sweeney. Filling partial term following resignation of Judge Frank Arnold.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by pro-choice Governor Whitmer. No personal public statements found.",
+      "marriage": "Appointed by Governor Whitmer. No personal statements found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues. Default based on Democrat governor appointment.",
+      "secondAmendment": "No public record on Second Amendment issues. Default based on Democrat governor appointment.",
+      "limitedGov": "Appointed by Democrat governor. Juvenile court referee background. No information on judicial philosophy.",
+      "fiscal": "No public record on property rights or fiscal rulings. Default based on Democrat governor appointment."
+    }
+  },
+  {
+    "county": "OAKLAND",
+    "name": "Nicole S. Huddleston",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Democrat Governor Gretchen Whitmer on April 1, 2026. Owner of Huddleston Law, PLLC, specializing in probate, family, and civil law. Previously served as managing director at Detroit Justice Center, and as staff attorney at Detroit Justice Center, Lakeshore Legal Aid, and Legal Aid and Defender. Filling partial term following resignation of Judge Kathleen Ryan.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by pro-choice Governor Whitmer. No personal public statements found.",
+      "marriage": "Appointed by Governor Whitmer. No personal statements found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues. Default based on Democrat governor appointment.",
+      "secondAmendment": "No public record on Second Amendment issues. Default based on Democrat governor appointment.",
+      "limitedGov": "Very recent Whitmer appointee (April 2026). Background at Detroit Justice Center and legal aid organizations suggests progressive legal orientation.",
+      "fiscal": "No public record on property rights or fiscal rulings. Default based on Democrat governor appointment."
+    }
+  },
+  {
+    "county": "OAKLAND",
+    "name": "Elisabeth Dery",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Partner at Yun, Dery & Morgan, P.C. in Clarkston, managing a 16-member legal team focused on probate clients. Chair of the Oakland County Bar Association's Probate, Estate, and Trust Committee. Elected to the Board of the Michigan Guardianship Association. Member of State Bar of Michigan LGBTQA Committee. Co-authored legal articles supporting second-parent adoption and LGBTQ+ families post-DOMA. J.D. from Western Michigan University-Cooley Law School (2012).",
+    "positions": {
+      "proLife": "D",
+      "marriage": "F",
+      "religiousLiberty": "D",
+      "secondAmendment": null,
+      "limitedGov": "D",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No direct statements on life issues. LGBTQA committee involvement and progressive legal advocacy suggest liberal alignment.",
+      "marriage": "Active member of State Bar of Michigan LGBTQA Committee. Co-authored legal articles supporting second-parent adoption and LGBTQ+ families, indicating strong progressive stance on family/marriage issues.",
+      "religiousLiberty": "Progressive stance on LGBTQ+ family matters may indicate tension with traditional religious liberty frameworks.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Advocacy-oriented legal background suggests activist judicial philosophy.",
+      "fiscal": "No public record on property rights or fiscal issues."
+    }
+  },
+  {
+    "county": "OAKLAND",
+    "name": "Ariel Drissman",
+    "incumbent": false,
+    "grade": null,
+    "description": "Estate planner and probate attorney at Drissman Law, PLLC in West Bloomfield. B.A. from Wayne State University; J.D. from University of Detroit Mercy School of Law. Admitted to practice in Michigan since 2014. Member of Oakland County Bar Association. Campaign emphasizes nonpartisan approach: 'firmly committed to following the law without politics or ideology influencing outcomes.' No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Campaign language about following law without ideology could indicate judicial restraint, but insufficient information to grade.",
+      "fiscal": "No public record on property rights or fiscal issues."
+    }
+  },
+  {
+    "county": "OAKLAND",
+    "name": "Jessica Ann Hallmark",
+    "incumbent": false,
+    "grade": null,
+    "description": "Attorney at Adkison Need Allen & Rentrop in Bloomfield Hills since 2017, practicing commercial real estate, liquor licensing, and business formation. Previously served as law clerk for Oakland Circuit Judge Wendy Potts and spent seven years at a Birmingham boutique law firm. Resides in Clarkston. No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Business law and commercial real estate background. No information on judicial philosophy.",
+      "fiscal": "Business law background may indicate familiarity with property rights, but insufficient information to grade."
+    }
+  },
+  {
+    "county": "OAKLAND",
+    "name": "Sheila Calvary Worthy-Williams",
+    "incumbent": false,
+    "grade": null,
+    "description": "Candidate for Oakland County Probate Court open seat. Very limited public information available. No background details, political affiliations, or endorsements found through research.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information found.",
+      "marriage": "No public information found.",
+      "religiousLiberty": "No public information found.",
+      "secondAmendment": "No public information found.",
+      "limitedGov": "No public information found.",
+      "fiscal": "No public information found."
+    }
+  },
+  {
+    "county": "SAGINAW",
+    "name": "Barbara L. Meter",
+    "incumbent": true,
+    "grade": "C",
+    "description": "Elected to Saginaw County Probate Court on November 4, 2014, winning a five-candidate primary and then the general election with 56.6% of the vote. Not appointed by any governor. B.S. in elementary education from Michigan State University (1984); J.D. from University of New Hampshire (1990). Served as assistant prosecutor in Saginaw County for 19 years before election.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": "C",
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Elected rather than appointed, so no governor signal. Long prosecutorial background. No clear ideological indicators.",
+      "fiscal": "No public record on property rights or fiscal issues."
+    }
+  },
+  {
+    "county": "ST. CLAIR",
+    "name": "Jennifer Deegan",
+    "incumbent": true,
+    "grade": "D",
+    "description": "Appointed by Democrat Governor Gretchen Whitmer on March 19, 2024. Previously served as senior assistant prosecuting attorney in the St. Clair County Prosecuting Attorney's Office since 1999. B.A. in International Business and French from Alma College; J.D. from Wayne State University School of Law. Filling vacancy created by retirement of Judge Elwood L. Brown.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Appointed by pro-choice Governor Whitmer. No personal public statements found.",
+      "marriage": "Appointed by Governor Whitmer. No personal statements found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues. Default based on Democrat governor appointment.",
+      "secondAmendment": "No public record on Second Amendment issues. Default based on Democrat governor appointment.",
+      "limitedGov": "Appointed by Democrat governor. Prosecutorial background. No information on judicial philosophy.",
+      "fiscal": "No public record on property rights or fiscal rulings. Default based on Democrat governor appointment."
+    }
+  },
+  {
+    "county": "SANILAC",
+    "name": "Sara L. Grout",
+    "incumbent": false,
+    "grade": null,
+    "description": "Candidate for Sanilac County Probate Court open seat (non-incumbent race with single candidate). Very limited public information available. No background details, political affiliations, or endorsements found through research.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public information found.",
+      "marriage": "No public information found.",
+      "religiousLiberty": "No public information found.",
+      "secondAmendment": "No public information found.",
+      "limitedGov": "No public information found.",
+      "fiscal": "No public information found."
+    }
+  },
+  {
+    "county": "WASHTENAW",
+    "name": "Alethia Jean Battles",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Associate General Counsel and Licensed Clinical Social Worker at the University of Michigan. Attorney with over a decade of experience in probate matters across multiple counties in Michigan and Ohio. Works at the intersection of law, medicine, and social services managing cases involving guardianship, capacity determinations, surrogate decision-making, and complex disposition issues. Running in heavily Democratic Washtenaw County for open seat vacated by retiring Judge Julia Owdziej.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "University of Michigan institutional affiliation in heavily progressive Washtenaw County. No direct statements but environment strongly suggests progressive alignment.",
+      "marriage": "No direct statements, but Washtenaw County / University of Michigan context strongly suggests progressive alignment.",
+      "religiousLiberty": "No public record. Environmental context of deeply liberal Washtenaw County suggests progressive stance.",
+      "secondAmendment": "No public record. Washtenaw County context suggests progressive alignment.",
+      "limitedGov": "Social work background combined with legal practice at U of M suggests activist/interventionist judicial philosophy.",
+      "fiscal": "No public record on property rights or fiscal issues. Institutional environment suggests progressive orientation."
+    }
+  },
+  {
+    "county": "WASHTENAW",
+    "name": "Jennifer Lawrence",
+    "incumbent": false,
+    "grade": "D",
+    "description": "Ann Arbor attorney born and raised in the community. Practices in estate planning, general civil litigation, real estate, and criminal matters. Past president of Women Lawyers Association of Michigan Washtenaw Chapter. Served on Washtenaw County Bar Association Board of Directors. J.D. from Thomas M. Cooley Law School (2008); B.S. magna cum laude (2001). Running in heavily Democratic Washtenaw County.",
+    "positions": {
+      "proLife": "D",
+      "marriage": "D",
+      "religiousLiberty": "D",
+      "secondAmendment": "D",
+      "limitedGov": "D",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "No direct statements but running in heavily progressive Washtenaw County suggests liberal alignment.",
+      "marriage": "No direct statements but Washtenaw County / Ann Arbor context strongly suggests progressive alignment.",
+      "religiousLiberty": "No public record. Environmental context of deeply liberal Washtenaw County suggests progressive stance.",
+      "secondAmendment": "No public record. Washtenaw County context suggests progressive alignment.",
+      "limitedGov": "No specific information on judicial philosophy. Ann Arbor environment suggests progressive orientation.",
+      "fiscal": "Estate planning and real estate background may indicate respect for property rights, but Washtenaw County context suggests progressive orientation overall."
+    }
+  },
+  {
+    "county": "WAYNE",
+    "name": "Sarah Colegrove",
+    "incumbent": false,
+    "grade": null,
+    "description": "Partner at Briggs Colegrove, P.C. in downtown Detroit (First National Building). B.A. in political science from Kalamazoo College; J.D. from Michigan State University School of Law. Firm specializes in litigation, estate and probate matters. Certified mediator serving as mediator for U.S. Postal Service and arbitrator for Better Business Bureau. Previously ran for Grosse Pointe City Municipal Judge in 2023. No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Mediation and arbitration background may suggest preference for dispute resolution over judicial activism, but insufficient information.",
+      "fiscal": "Estate and probate practice background but no public record on fiscal issues."
+    }
+  },
+  {
+    "county": "WAYNE",
+    "name": "Suzanne Fanning",
+    "incumbent": false,
+    "grade": null,
+    "description": "Probate and estate attorney based in Ann Arbor. Founder of Suzanne R. Fanning, PLLC. B.A. with honors in History from University of Bristol, England (1991); J.D. from Wayne State Law School (1996). 25+ years of legal experience concentrating exclusively in probate, trusts, and estates. Co-chair of Washtenaw County Bar Association Probate and Estate Section. Frequently appointed Guardian Ad Litem by Washtenaw County Probate Court. No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Deep probate practice expertise. No information on judicial philosophy.",
+      "fiscal": "Extensive estate and trust practice suggests familiarity with property rights issues, but insufficient information to grade."
+    }
+  },
+  {
+    "county": "WAYNE",
+    "name": "Susan L. Hubbard",
+    "incumbent": false,
+    "grade": "F",
+    "description": "Current Wayne County Circuit Court Judge since 2010. Nominated by the Green Party of Michigan for Michigan Supreme Court in 2020. Previously served on Wayne County Commission from 1989-2004 and Dearborn City Council from 1985-1989. B.A. in print journalism from Wayne State University (1985); J.D. from Detroit College of Law (1991). Campaign emphasizes stopping 'insider favoritism' and restoring transparency at Wayne County Probate Court. Created first instructional video for self-represented litigants.",
+    "positions": {
+      "proLife": "F",
+      "marriage": "F",
+      "religiousLiberty": "F",
+      "secondAmendment": "F",
+      "limitedGov": "F",
+      "fiscal": "D"
+    },
+    "gradeJustifications": {
+      "proLife": "Nominated by Green Party of Michigan for Supreme Court in 2020. Green Party platform is strongly pro-choice. Long career in Wayne County Democratic political establishment.",
+      "marriage": "Green Party nominee. Green Party platform supports expansive LGBTQ+ rights and progressive family law positions.",
+      "religiousLiberty": "Green Party affiliation and long career in progressive Wayne County politics suggest opposition to religious liberty carve-outs.",
+      "secondAmendment": "Green Party platform explicitly supports strict gun control measures. Green Party Supreme Court nominee.",
+      "limitedGov": "Green Party nominee for Supreme Court indicates activist judicial philosophy. Long political career on Wayne County Commission suggests government interventionism.",
+      "fiscal": "Long government career and Green Party affiliation suggest progressive fiscal orientation, though her ethics ordinance work and anti-corruption stance show some institutional reform instincts."
+    }
+  },
+  {
+    "county": "WAYNE",
+    "name": "Shalanda C. Leggs",
+    "incumbent": false,
+    "grade": null,
+    "description": "Principal and Founder of The C. Smith Law Group, PLLC in the Metropolitan Detroit area. B.B.A. in Finance from Eastern Michigan University; J.D. from University of Detroit School of Law. Primary practice areas include probate (guardianship, conservatorship, estate administration), estate planning, and business law. Had a 20-year career in Finance and Accounting prior to becoming an attorney. No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "No public record on religious liberty issues.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "Business and finance background prior to law career. No information on judicial philosophy.",
+      "fiscal": "Strong finance and accounting background (20 years) plus business law practice may indicate respect for property rights and fiscal responsibility, but insufficient information to grade."
+    }
+  },
+  {
+    "county": "WAYNE",
+    "name": "Vanessa M. Moss",
+    "incumbent": false,
+    "grade": null,
+    "description": "Solo practitioner since 2002 with expertise in criminal, family, probate, neglect and abuse, and delinquency law. Raised in Detroit, graduated from DPS and Wayne State University. Active in community through voter registration drives, church work, and extensive pro bono work. Board member of Downtown Detroit YMCA and Rho Sigma Foundation of Sigma Gamma Rho Sorority. Previously ran for 36th District Court Judge in 2024 (lost as write-in). No political affiliation information found.",
+    "positions": {
+      "proLife": null,
+      "marriage": null,
+      "religiousLiberty": null,
+      "secondAmendment": null,
+      "limitedGov": null,
+      "fiscal": null
+    },
+    "gradeJustifications": {
+      "proLife": "No public statements or affiliations found on life issues.",
+      "marriage": "No public statements or affiliations found on marriage issues.",
+      "religiousLiberty": "Church involvement noted in community work, but no specific statements on religious liberty.",
+      "secondAmendment": "No public record on Second Amendment issues.",
+      "limitedGov": "No information on judicial philosophy. Community-oriented background.",
+      "fiscal": "No public record on property rights or fiscal issues."
+    }
+  }
+]

@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react'
-import SearchBar from '../SearchBar'
 import { useApp } from '../../contexts/AppContext'
 import { useAuth } from '../../contexts/AuthContext'
 import AuthModal from '../auth/AuthModal'
@@ -67,14 +66,7 @@ function UserMenu({ user, onSignOut }) {
 }
 
 export default function Header() {
-  const {
-    selectedState, clearState,
-    allMembers,
-    handleSearchState, handleSearchMember, handleSearchDistrict,
-    setUserAddress,
-    stateSenators, stateReps,
-    civicReps,
-  } = useApp()
+  const { selectedState } = useApp()
 
   const { user, loading: authLoading, signOut } = useAuth()
   const [authModalOpen, setAuthModalOpen] = useState(false)
@@ -94,17 +86,6 @@ export default function Header() {
         </div>
       </div>
 
-      <SearchBar
-        allMembers={allMembers}
-        stateSenators={stateSenators}
-        stateReps={stateReps}
-        civicReps={civicReps}
-        selectedState={selectedState}
-        onSelectState={handleSearchState}
-        onSelectMember={handleSearchMember}
-        onSelectDistrict={handleSearchDistrict}
-        onSetAddress={setUserAddress}
-      />
 
       <button
         className="theme-toggle"

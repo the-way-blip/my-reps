@@ -37,7 +37,7 @@ export default function App() {
               <Route path="home" element={<HomeView />} />
               <Route path="explore" element={<RepsView />} />
               <Route path="my-reps" element={<MyRepsView />} />
-              <Route path="elections" element={<ElectionsView />} />
+              <Route path="elections" element={<Navigate to="/" replace />} />
               <Route path="register" element={<Navigate to="/elections" replace />} />
               <Route path="founding" element={<FoundingView />} />
               <Route path="analytics" element={<AnalyticsView />} />
