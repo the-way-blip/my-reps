@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
 
-const BASE = 'MyReps'
+const BASE = 'Build My Ballot'
 const DEFAULT_DESCRIPTION =
-  'Your guide to federal, state, and local representatives. Track elections, plan your ballot, and hold officials accountable.'
+  'Walk into the voting booth prepared. Research every race on your ballot and build a personalized plan before election day.'
 
 function setMetaTag(attr, key, content) {
   let el = document.querySelector(`meta[${attr}="${key}"]`)
@@ -13,7 +13,7 @@ function setMetaTag(attr, key, content) {
 
 export default function usePageTitle(page, description) {
   useEffect(() => {
-    const title = page ? `${page} | ${BASE}` : `${BASE} — Know Your Government Representatives`
+    const title = page ? `${page} | ${BASE}` : `${BASE} — Know Your Representatives`
     const desc = description || DEFAULT_DESCRIPTION
 
     document.title = title

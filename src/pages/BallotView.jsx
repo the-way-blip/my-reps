@@ -892,7 +892,7 @@ export default function BallotView() {
         lines.push(`${race.office}: ${c.name}`)
       }
     })
-    lines.push('\nCreated with MyReps — myrepsapp.com')
+    lines.push('\nCreated with Build My Ballot — buildmyballot.com')
     return lines.join('\n')
   }, [party, allRaces, choices])
 

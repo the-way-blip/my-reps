@@ -22,7 +22,7 @@ function drawScorecard(canvas, member, alignment, photoUrl) {
   // App name
   ctx.fillStyle = '#94a3b8'
   ctx.font = '600 13px system-ui, sans-serif'
-  ctx.fillText('MyReps Constitutional Scorecard', 20, 30)
+  ctx.fillText('Build My Ballot — Constitutional Scorecard', 20, 30)
 
   // Member name
   ctx.fillStyle = '#f8fafc'

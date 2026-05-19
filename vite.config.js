@@ -9,11 +9,11 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'MyReps Michigan — Know Your Representatives',
-        short_name: 'MyReps MI',
-        description: 'Your guide to Michigan representatives, elections, and ballot planning',
-        theme_color: '#0b1221',
-        background_color: '#0b1221',
+        name: 'Build My Ballot — Know Your Representatives',
+        short_name: 'Build My Ballot',
+        description: 'Walk into the voting booth prepared. Research every race on your ballot and build a personalized plan before election day.',
+        theme_color: '#0B2E59',
+        background_color: '#F7F3E8',
         display: 'standalone',
         start_url: '/',
         icons: [
@@ -38,6 +38,23 @@ export default defineConfig({
       workbox: {
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // 5 MiB
         runtimeCaching: [
+          {
+            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'google-fonts-stylesheets',
+              expiration: { maxEntries: 4, maxAgeSeconds: 60 * 60 * 24 * 365 },
+            },
+          },
+          {
+            urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'google-fonts-webfonts',
+              expiration: { maxEntries: 20, maxAgeSeconds: 60 * 60 * 24 * 365 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
           {
             urlPattern: /^https:\/\/api\.congress\.gov\/.*/i,
             handler: 'NetworkFirst',

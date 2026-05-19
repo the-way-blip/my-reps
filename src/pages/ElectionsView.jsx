@@ -51,13 +51,13 @@ function generateIcsContent(election) {
   const endDate = formatIcsDate(nextDay)
 
   const desc = election.registrationDeadline
-    ? `Remember to vote!\\nRegistration deadline: ${election.registrationDeadline}\\nEarly voting: ${election.earlyVotingStart || 'Check your state'}\\n\\nFind your polling location at MyReps.`
-    : 'Remember to vote! Find your polling location at MyReps.'
+    ? `Remember to vote!\\nRegistration deadline: ${election.registrationDeadline}\\nEarly voting: ${election.earlyVotingStart || 'Check your state'}\\n\\nPlan your ballot at buildmyballot.com`
+    : 'Remember to vote! Plan your ballot at buildmyballot.com'
 
   return [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//MyReps//EN',
+    'PRODID:-//BuildMyBallot//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     'BEGIN:VEVENT',
@@ -1093,7 +1093,7 @@ export default function ElectionsView() {
               <div className="page-share">
                 <ShareButton
                   title="Michigan 2026 Races"
-                  text="See the 2026 candidates running in Michigan on MyReps"
+                  text="See the 2026 candidates running in Michigan — Build My Ballot"
                 />
               </div>
             )}

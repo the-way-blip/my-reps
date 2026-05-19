@@ -81,8 +81,8 @@ export default function Header() {
           </svg>
         </span>
         <div>
-          <h1 className="header-title">MyReps <span className="header-state-badge">Michigan</span></h1>
-          <p className="header-sub">Know your Michigan representatives</p>
+          <h1 className="header-title">Build My Ballot</h1>
+          <p className="header-sub">Research candidates. Plan your vote.</p>
         </div>
       </div>
 
