@@ -465,7 +465,7 @@ export default function ProfileView() {
             className="profile-input"
             value={form.address}
             onChange={e => updateField('address', e.target.value)}
-            placeholder="123 Main St, Detroit, MI 48201"
+            placeholder="Enter your address"
           />
 
           <label className="settings-label settings-label-top" htmlFor="profile-party">Party Affiliation</label>

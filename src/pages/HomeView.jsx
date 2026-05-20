@@ -46,7 +46,7 @@ function AddressHero({ onSubmit, loading }) {
           value={input}
           onChange={setInput}
           onSelect={(s) => { setInput(s.display); onSubmit(s.display) }}
-          placeholder="Enter your Michigan address..."
+          placeholder="Enter your address"
           className="home-hero-input"
           autoFocus
         />

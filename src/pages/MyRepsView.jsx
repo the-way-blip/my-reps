@@ -377,7 +377,7 @@ export default function MyRepsView() {
                   if (form) form.requestSubmit()
                 }, 50)
               }}
-              placeholder="Enter your Michigan address..."
+              placeholder="Enter your address"
               className="myreps-address-input"
             />
             <button type="submit" className="myreps-address-btn" disabled={submitting}>

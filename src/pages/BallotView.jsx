@@ -72,7 +72,7 @@ function AddressStep({ address, onSubmit }) {
           value={input}
           onChange={setInput}
           onSelect={handleSuggestionSelect}
-          placeholder="Enter your Michigan address..."
+          placeholder="Enter your address"
           className="ballot-address-input"
           autoFocus
         />

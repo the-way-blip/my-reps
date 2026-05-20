@@ -806,7 +806,7 @@ function ElectionsAddressBar({ userAddress, setUserAddress, handleSearchDistrict
         <input
           type="text"
           className="elections-address-input"
-          placeholder="Enter your Michigan address..."
+          placeholder="Enter your address"
           value={query}
           onChange={handleChange}
           aria-label="Enter your address"

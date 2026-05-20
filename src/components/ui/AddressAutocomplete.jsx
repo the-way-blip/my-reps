@@ -69,7 +69,7 @@ export default function AddressAutocomplete({
   value,
   onChange,
   onSelect,
-  placeholder = '123 Main St, Detroit, MI 48201',
+  placeholder = 'Enter your address',
   className = '',
   autoFocus = false,
   inputProps = {},
