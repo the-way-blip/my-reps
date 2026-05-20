@@ -31,8 +31,7 @@ export default function LandingView() {
       <header className="landing-header">
         <div className="landing-header-inner">
           <div className="landing-brand">
-            <img src="/logo-white.png" alt="" className="landing-logo" />
-            <span className="landing-brand-name">Build My Ballot</span>
+            <span className="landing-parent-brand">Of For <span className="landing-ampersand">&amp;</span> By The People</span>
           </div>
           <button className="landing-signin-btn" onClick={openSignIn}>
             Sign In
@@ -42,6 +41,10 @@ export default function LandingView() {
 
       <section className="landing-hero">
         <div className="landing-hero-content">
+          <div className="landing-product-badge">
+            <img src="/logo-white.png" alt="" className="landing-badge-logo" />
+            <span>Build My Ballot</span>
+          </div>
           <h1 className="landing-headline">
             Know Your Candidates.<br />Own Your Vote.
           </h1>
@@ -155,7 +158,7 @@ export default function LandingView() {
       {/* Footer */}
       <footer className="landing-footer">
         <div className="landing-footer-inner">
-          <p>&copy; {new Date().getFullYear()} Build My Ballot. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Of For &amp; By The People. All rights reserved.</p>
           <div className="landing-footer-links">
             <a href="/privacy">Privacy Policy</a>
             <a href="/terms">Terms of Service</a>

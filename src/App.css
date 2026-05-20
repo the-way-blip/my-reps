@@ -9759,15 +9759,37 @@ select.auth-input {
   align-items: center;
   gap: 0.75rem;
 }
-.landing-logo {
-  height: 36px;
-  width: auto;
-}
-.landing-brand-name {
+.landing-parent-brand {
   font-family: var(--font-heading);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.landing-ampersand {
+  color: #C9A96E;
   font-weight: 700;
+  font-size: 1.35rem;
+}
+.landing-product-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(11, 46, 89, 0.08);
+  border: 1px solid rgba(11, 46, 89, 0.15);
+  border-radius: 20px;
+  padding: 0.35rem 1rem 0.35rem 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 1.25rem;
+}
+.landing-badge-logo {
+  height: 22px;
+  width: auto;
+  border-radius: 4px;
+  background: #0B2E59;
+  padding: 2px;
 }
 .landing-signin-btn {
   background: transparent;
