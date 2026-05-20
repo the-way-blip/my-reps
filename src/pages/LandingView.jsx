@@ -84,7 +84,6 @@ export default function LandingView() {
                 </svg>
               </div>
               <h3>Candidates Are Hard to Research</h3>
-              <p className="landing-problem-type">The External Problem</p>
               <p>
                 There are dozens of races on every ballot — from Congress down to
                 school board — and credible information on most candidates simply
@@ -99,7 +98,6 @@ export default function LandingView() {
                 </svg>
               </div>
               <h3>You Don't Want to Vote Blindly</h3>
-              <p className="landing-problem-type">The Internal Problem</p>
               <p>
                 Nobody wants to cast a ballot for someone who opposes everything
                 they believe in. The uncertainty makes people skip races — or skip
@@ -114,7 +112,6 @@ export default function LandingView() {
                 </svg>
               </div>
               <h3>Our Values Deserve Better</h3>
-              <p className="landing-problem-type">The Philosophical Problem</p>
               <p>
                 In a republic founded on Christian principles and Constitutional
                 liberty, every citizen should be able to hold their leaders
