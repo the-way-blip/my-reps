@@ -163,20 +163,37 @@ const GROUP_ICONS = {
   star: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.27 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2z" /></svg>,
 }
 
-function RepGroup({ title, icon, reps, onSelect }) {
+function RepGroup({ title, icon, reps, onSelect, defaultOpen = true }) {
+  const [open, setOpen] = useState(defaultOpen)
   if (!reps || reps.length === 0) return null
   const iconEl = typeof icon === 'string' ? GROUP_ICONS[icon] || null : icon
   return (
     <div className="myreps-group">
-      <h3 className="myreps-group-title">
+      <h3
+        className="my-reps-group-title"
+        onClick={() => setOpen(o => !o)}
+        role="button"
+        tabIndex={0}
+        aria-expanded={open}
+        onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setOpen(o => !o) } }}
+      >
         {iconEl && <span className="myreps-group-icon">{iconEl}</span>}
         {title}
         <span className="my-reps-group-count">{reps.length}</span>
+        <span className={`my-reps-group-chevron${open ? '' : ' collapsed'}`}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </span>
       </h3>
-      <div className="myreps-group-list">
-        {reps.map(rep => (
-          <RepCard key={rep.id || rep.name} rep={rep} onSelect={onSelect} />
-        ))}
+      <div className={`my-reps-group-content${open ? '' : ' collapsed'}`}>
+        <div className="my-reps-group-content-inner">
+          <div className="myreps-group-list">
+            {reps.map(rep => (
+              <RepCard key={rep.id || rep.name} rep={rep} onSelect={onSelect} />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   )
