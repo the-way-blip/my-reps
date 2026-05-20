@@ -23,7 +23,7 @@ function PhoneIcon() {
   )
 }
 
-export default function AuthModal({ open, onClose }) {
+export default function AuthModal({ open, onClose, initialView }) {
   const { signIn, signUp, signInWithGoogle, signInWithPhone, verifyOtp, resetPassword, isSupabaseConfigured } = useAuth()
   const [view, setView] = useState(VIEWS.SIGN_IN)
   const [error, setError] = useState('')
@@ -48,7 +48,7 @@ export default function AuthModal({ open, onClose }) {
   // Reset state when modal opens/closes
   useEffect(() => {
     if (open) {
-      setView(VIEWS.SIGN_IN)
+      setView(initialView === 'signup' ? VIEWS.SIGN_UP : VIEWS.SIGN_IN)
       setError('')
       setSuccess('')
       setEmail('')
@@ -62,7 +62,7 @@ export default function AuthModal({ open, onClose }) {
       setOtpSent(false)
       setOtpCode('')
     }
-  }, [open])
+  }, [open, initialView])
 
   // Escape key
   useEffect(() => {

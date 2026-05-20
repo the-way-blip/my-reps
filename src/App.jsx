@@ -3,9 +3,11 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AppProvider } from './contexts/AppContext'
 import { AuthProvider } from './contexts/AuthContext'
 import AppLayout from './components/layout/AppLayout'
+import ProtectedRoute from './components/ProtectedRoute'
 import ErrorBoundary from './components/ui/ErrorBoundary'
 import './App.css'
 
+const LandingView = React.lazy(() => import('./pages/LandingView'))
 const HomeView = React.lazy(() => import('./pages/HomeView'))
 const RepsView = React.lazy(() => import('./pages/RepsView'))
 const MyRepsView = React.lazy(() => import('./pages/MyRepsView'))
@@ -32,7 +34,20 @@ export default function App() {
         <ErrorBoundary>
         <Suspense fallback={LazyFallback}>
           <Routes>
-            <Route element={<AppLayout />}>
+            {/* Public routes — no auth required */}
+            <Route path="welcome" element={<LandingView />} />
+            <Route path="privacy" element={<AppLayout />}>
+              <Route index element={<PrivacyView />} />
+            </Route>
+            <Route path="terms" element={<AppLayout />}>
+              <Route index element={<TermsView />} />
+            </Route>
+            <Route path="auth/callback" element={<AppLayout />}>
+              <Route index element={<AuthCallbackView />} />
+            </Route>
+
+            {/* Protected routes — require sign-in */}
+            <Route element={<ProtectedRoute><AppLayout /></ProtectedRoute>}>
               <Route index element={<BallotView />} />
               <Route path="ballot" element={<BallotView />} />
               <Route path="home" element={<HomeView />} />
@@ -45,12 +60,11 @@ export default function App() {
               <Route path="community" element={<CommunityView />} />
               <Route path="settings" element={<SettingsView />} />
               <Route path="profile" element={<ProfileView />} />
-              <Route path="privacy" element={<PrivacyView />} />
-              <Route path="terms" element={<TermsView />} />
-              <Route path="auth/callback" element={<AuthCallbackView />} />
               <Route path="documents" element={<Navigate to="/founding" replace />} />
-              <Route path="*" element={<Navigate to="/" replace />} />
             </Route>
+
+            {/* Catch-all */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>
         </ErrorBoundary>
