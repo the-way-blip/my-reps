@@ -89,14 +89,14 @@ export const STATEWIDE_RACES = [
           instagram: 'johnjamesmi',
           raised: '$10.3M',
           topDonors: 'DeVos family ($5M to Super PAC), Charles Secchia, Ross Perot Jr.',
-          grade: 'A',
+          grade: 'B',
           positions: {
             proLife: 'A',
             marriage: 'B',
             religiousLiberty: 'A',
-            secondAmendment: 'A',
-            limitedGov: 'A',
-            fiscal: 'A',
+            secondAmendment: 'B',
+            limitedGov: 'B',
+            fiscal: 'B',
           },
           bio: 'West Point graduate, Army veteran (Apache helicopter pilot), and businessman. Served in Iraq and Afghanistan. Elected to U.S. House in 2022 after two U.S. Senate campaigns. Endorsed by Trump in 2020 Senate race.',
           keyPositions: [
@@ -109,9 +109,9 @@ export const STATEWIDE_RACES = [
             proLife: 'Co-sponsored Born-Alive Abortion Survivors Protection Act; voted against codifying Roe v. Wade; 100% SBA Pro-Life America scorecard',
             marriage: 'Supports traditional marriage; has not actively introduced legislation on this issue',
             religiousLiberty: 'Co-sponsored First Amendment Defense Act; voted to protect religious organizations from government mandates',
-            secondAmendment: 'A-rated by NRA; voted to defund ATF pistol brace rule enforcement; supports constitutional carry',
-            limitedGov: 'Supports balanced budget amendment; voted against expanding federal agencies; opposes vaccine mandates',
-            fiscal: 'Voted against omnibus spending bills; supports balanced budget amendment; opposes tax increases',
+            secondAmendment: 'A-rated by NRA; voted to defund ATF pistol brace rule enforcement; supports constitutional carry; GOA B+ (2024); NRA-PVF AQ rating (2022)',
+            limitedGov: 'Supports balanced budget amendment; voted against expanding federal agencies; opposes vaccine mandates; Heritage Action 85% (119th Congress), 73% lifetime',
+            fiscal: 'Club for Growth 48% (2024), 57% lifetime; NFIB Guardian of Small Business award; mixed fiscal record shows B alignment',
           },
         },
         {
@@ -178,7 +178,7 @@ export const STATEWIDE_RACES = [
             religiousLiberty: 'Authored legislation protecting religious organizations from state mandates; opposed bills compelling speech or participation in events violating faith',
             secondAmendment: 'A+ NRA rating; opposed red flag laws; voted against every gun control bill in the Michigan Senate; supports constitutional carry',
             limitedGov: 'Led fight against Whitmer emergency powers; authored Right to Work defense legislation; opposes state vaccine mandates; supports school choice',
-            fiscal: 'Voted against every Whitmer tax increase; authored state spending cap proposals; supports zero-based budgeting; opposes corporate welfare',
+            fiscal: 'NFIB 100% scorecard + Guardian of Small Business Award (2023-24); voted against every Whitmer tax increase; authored state spending cap proposals; supports zero-based budgeting; opposes corporate welfare',
           },
         },
         {
@@ -406,12 +406,12 @@ export const STATEWIDE_RACES = [
             'Supports codifying Roe v. Wade',
           ],
           gradeJustifications: {
-            proLife: 'Co-sponsored Women\'s Health Protection Act codifying Roe; 100% NARAL Pro-Choice rating; opposes all abortion restrictions',
-            marriage: 'Co-sponsored Equality Act expanding LGBTQ protections; supports same-sex marriage; opposes religious exemptions on marriage',
+            proLife: 'NRLC 0%, SBA Pro-Life 0%; co-sponsored Women\'s Health Protection Act codifying Roe; 100% NARAL Pro-Choice rating; opposes all abortion restrictions',
+            marriage: 'FRC Action 5%, CWA 21%, Eagle Forum 5%; co-sponsored Equality Act expanding LGBTQ protections; supports same-sex marriage; opposes religious exemptions on marriage',
             religiousLiberty: 'Equality Act she co-sponsored would limit religious exemptions under RFRA; does not prioritize religious liberty protections',
-            secondAmendment: 'Supports assault weapons ban, universal background checks, red flag laws; F-rated by NRA; co-sponsored gun control legislation',
-            limitedGov: 'Voted for Inflation Reduction Act expanding government; supports expanded federal role in healthcare, education, and climate',
-            fiscal: 'Voted for trillions in new federal spending; supports higher taxes on corporations and high earners; opposes spending cuts',
+            secondAmendment: 'NRA-PVF 0%, GOA 8%; supports assault weapons ban, universal background checks, red flag laws; co-sponsored gun control legislation',
+            limitedGov: 'Heritage Action 0%, JBS Freedom Index 0%, ACU 5%, NumbersUSA 4%; voted for Inflation Reduction Act expanding government; supports expanded federal role in healthcare, education, and climate',
+            fiscal: 'Club for Growth 2%, NTU 11%, CCAGW 7%, AFP 12%; voted for trillions in new federal spending; supports higher taxes on corporations and high earners; opposes spending cuts',
           },
         },
         {
@@ -447,7 +447,7 @@ export const STATEWIDE_RACES = [
             religiousLiberty: 'Supported bills limiting religious exemptions in anti-discrimination law; does not prioritize religious liberty concerns',
             secondAmendment: 'Supports gun safety legislation including red flag laws and expanded background checks; opposes constitutional carry',
             limitedGov: 'Supports expanded government programs; voted for increased state spending; opposes school choice and voucher programs',
-            fiscal: 'Voted for Whitmer budget increases; supports higher taxes on corporations; opposes spending restraint measures',
+            fiscal: 'NFIB 11% scorecard (2023-24); Voted for Whitmer budget increases; supports higher taxes on corporations; opposes spending restraint measures',
           },
         },
         {
@@ -501,14 +501,14 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: 'Jack Bergman', description: 'Incumbent U.S. Representative, retired three-star Lt. General (USMC). Bergman served 40 years in the Marine Corps including combat deployments. Elected to Congress in 2016. Sits on Armed Services Committee. Strong conservative voting record across all categories.', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Co-sponsored Born-Alive Act and Pain-Capable Unborn Child Protection Act; 100% National Right to Life voting record',
             marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
             religiousLiberty: 'Co-sponsored First Amendment Defense Act; supports religious freedom protections',
             secondAmendment: 'A-rated by NRA; opposes all gun control legislation; supports national concealed carry reciprocity',
-            limitedGov: 'Military background; supports reducing federal bureaucracy; opposes vaccine mandates and federal overreach',
-            fiscal: 'Voted against omnibus spending bills; supports balanced budget amendment; opposes new taxes'
+            limitedGov: 'Military background; supports reducing federal bureaucracy; opposes vaccine mandates and federal overreach; Heritage Action 83% (119th), 75% lifetime; NumbersUSA B (career 79%)',
+            fiscal: 'Club for Growth 70% (2024), 68% lifetime; CCAGW 89% lifetime; NFIB Guardian of Small Business'
           }
         },
       
@@ -578,15 +578,15 @@ export const US_HOUSE_RACES = {
     incumbent: 'John Moolenaar (R)',
     candidates: {
       republican: [
-        { name: 'John Moolenaar', description: 'Incumbent U.S. Representative for Michigan\'s 2nd District. Former Michigan state senator and state representative. Strong conservative voting record. Serves on the House Appropriations Committee.', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+        { name: 'John Moolenaar', description: 'Incumbent U.S. Representative for Michigan\'s 2nd District. Former Michigan state senator and state representative. Strong conservative voting record. Serves on the House Appropriations Committee.', status: 'incumbent', grade: 'B',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Strong pro-life voting record; co-sponsored multiple pro-life bills; 100% SBA Pro-Life scorecard',
             marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
             religiousLiberty: 'Supports broad religious liberty protections; co-sponsored RFRA strengthening legislation',
             secondAmendment: 'A-rated by NRA; opposes gun control measures; supports Second Amendment rights',
-            limitedGov: 'Supports reducing federal regulations; opposes expansion of federal agencies',
-            fiscal: 'Fiscal conservative voting record; supports balanced budget; opposes wasteful spending'
+            limitedGov: 'Supports reducing federal regulations; opposes expansion of federal agencies; Heritage Action 76% (119th), 74% lifetime',
+            fiscal: 'Club for Growth 54% (2024), 70% lifetime; CCAGW 87% lifetime; NFIB Guardian of Small Business; moderate fiscal voting record'
           }
         },
       ],
@@ -678,14 +678,14 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: 'Bill Huizenga', description: 'Incumbent U.S. Representative. Serves on the House Financial Services Committee. Strong conservative voting record. Re-elected in 2024 with 55.1% of the vote.', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Strong pro-life record; 100% National Right to Life scorecard; co-sponsored pro-life legislation',
-            marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
+            marriage: 'Supports traditional marriage; voted against Respect for Marriage Act; FRC Action 100% scorecard (2018-2021); True Blue award (2021)',
             religiousLiberty: 'Strong religious liberty record; supports RFRA protections; opposes government mandates on religious organizations',
             secondAmendment: 'A-rated by NRA; strong Second Amendment defender; opposes all gun control legislation',
-            limitedGov: 'Supports reducing government size and regulation; Financial Services Committee member focused on deregulation',
-            fiscal: 'Fiscal conservative; opposes omnibus spending; supports balanced budget amendment'
+            limitedGov: 'Supports reducing government size and regulation; Financial Services Committee member focused on deregulation; Heritage Action 83% (119th), 80% lifetime',
+            fiscal: 'Club for Growth 59% (2024), 79% lifetime; CCAGW 94% lifetime; NFIB Guardian of Small Business'
           }
         },
       
@@ -734,14 +734,14 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: 'Tim Walberg', description: 'Incumbent U.S. Representative. Former pastor and ordained minister. Founding member of House Freedom Caucus. One of the most conservative members of Congress.', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Former pastor; 100% pro-life voting record; co-sponsored Heartbeat Protection Act and Born-Alive Act',
             marriage: 'Strongly supports traditional marriage; voted against Respect for Marriage Act; former pastor',
             religiousLiberty: 'Strong advocate; co-sponsored First Amendment Defense Act; ordained minister',
-            secondAmendment: 'A-rated by NRA; opposes all gun control; supports constitutional carry',
-            limitedGov: 'Founding member of House Freedom Caucus; opposes federal overreach; supports school choice',
-            fiscal: 'One of the most fiscally conservative House members; opposes all spending increases; supports balanced budget'
+            secondAmendment: 'A-rated by NRA; opposes all gun control; supports constitutional carry; NRA-PVF A+ lifetime; GOA B+ (2024)',
+            limitedGov: 'Founding member of House Freedom Caucus; opposes federal overreach; supports school choice; Heritage Action 76% (119th), 74% lifetime; NumbersUSA A (career 90%)',
+            fiscal: 'Club for Growth 53% (2024), 77% lifetime; CCAGW 92% lifetime; NFIB Guardian of Small Business'
           }
         },
       ],
@@ -803,12 +803,12 @@ export const US_HOUSE_RACES = {
         { name: 'Tom Barrett', description: 'Incumbent U.S. Representative, former Michigan State Senator. Army veteran with combat service. Flipped this Lansing-area swing district for Republicans in 2024. Strong conservative record in both state and federal office.', status: 'incumbent', grade: 'A',
           positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
-            proLife: 'Strong pro-life record in both state senate and Congress; opposes all abortion except to save mother\'s life',
+            proLife: 'Strong pro-life record in both state senate and Congress; opposes all abortion except to save mother\'s life; endorsed by SBA Pro-Life America and Right to Life of Michigan',
             marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
             religiousLiberty: 'Supports religious freedom protections; opposes government mandates violating religious conscience',
-            secondAmendment: 'A-rated by NRA; Army veteran; strong Second Amendment record in both state and federal office',
-            limitedGov: 'Opposes federal overreach; supports reducing regulations; Army veteran focused on limited government',
-            fiscal: 'Fiscal conservative; opposes wasteful spending; supports balanced budget amendment'
+            secondAmendment: 'A-rated by NRA; Army veteran; strong Second Amendment record in both state and federal office; NRA-PVF 100% (MI Senate career)',
+            limitedGov: 'Opposes federal overreach; supports reducing regulations; Army veteran focused on limited government; Heritage Action 92% (119th Congress and lifetime)',
+            fiscal: 'Fiscal conservative; opposes wasteful spending; supports balanced budget amendment; ATR Taxpayer Protection Pledge signed (2025)'
           }
         },
       ],
@@ -923,14 +923,14 @@ export const US_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: 'Lisa McClain', description: 'Incumbent U.S. Representative. House Republican Conference Vice Chair. Strong conservative voting record. Re-elected in 2024 with 66.8% of the vote in a safely Republican district (R+16 Cook PVI).', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
-            proLife: '100% pro-life voting record; co-sponsored multiple pro-life bills; endorsed by Right to Life of Michigan',
+            proLife: '100% pro-life voting record; co-sponsored multiple pro-life bills; endorsed by Right to Life of Michigan; SBA Pro-Life America A+ (117th-118th Congress); NRLC endorsed (2024)',
             marriage: 'Supports traditional marriage; voted against Respect for Marriage Act',
             religiousLiberty: 'Strong religious liberty advocate; supports RFRA protections for faith-based organizations',
-            secondAmendment: 'A-rated by NRA; opposes all gun control; supports Second Amendment rights',
-            limitedGov: 'House Republican Conference Vice Chair; supports reducing government size and overreach',
-            fiscal: 'Fiscal conservative; opposes wasteful spending and new taxes; supports balanced budget'
+            secondAmendment: 'A-rated by NRA; opposes all gun control; supports Second Amendment rights; GOA A- (2024); NRA-PVF endorsed (2020)',
+            limitedGov: 'House Republican Conference Vice Chair; supports reducing government size and overreach; Heritage Action 83% (119th), 85% lifetime',
+            fiscal: 'Club for Growth 52% (2024), 77% lifetime; CCAGW 100% lifetime; NFIB Guardian of Small Business'
           }
         },
       ],
@@ -1641,7 +1641,7 @@ export const STATE_SENATE_RACES = {
             religiousLiberty: 'Voted for Elliott-Larsen expansion without strong religious exemptions',
             secondAmendment: 'Voted for 2023 gun control package; supports red flag laws and safe storage mandates',
             limitedGov: 'Supports government expansion; voted for new state programs and mandates',
-            fiscal: 'Voted for large budget increases; supports expanding state spending'
+            fiscal: 'NFIB 11% scorecard (2023-24); Voted for large budget increases; supports expanding state spending'
           }
         },
         { name: 'Stephen Jensen', description: 'Democratic challenger for SD-6; no campaign website, policy positions, or background information found through research', status: 'challenger', grade: null,
@@ -1742,7 +1742,7 @@ export const STATE_SENATE_RACES = {
             religiousLiberty: 'Voted for Elliott-Larsen without strong religious exemptions; limited faith-based protections',
             secondAmendment: 'Voted for 2023 gun control package; infamously displayed AR-15 sign on Senate desk to push gun control',
             limitedGov: 'Supports expanded government role in education, healthcare, and regulation',
-            fiscal: 'Voted for all major Whitmer spending increases; supports expanded state programs'
+            fiscal: 'NFIB 11% scorecard (2023-24); Voted for all major Whitmer spending increases; supports expanded state programs'
           }
         },
         { name: 'Dean Raymond Wojtowicz', description: 'Democratic challenger for SD-8; no campaign website, policy positions, or background information found through research', status: 'challenger', grade: null,
@@ -1766,13 +1766,13 @@ export const STATE_SENATE_RACES = {
     candidates: {
       republican: [
         { name: 'Michael Webber', description: 'Incumbent State Senator; elected 2022 with 50.35% in competitive race; perfect 365/365 attendance record', status: 'incumbent', grade: 'B',
-          positions: { proLife: 'A', marriage: 'C', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+          positions: { proLife: 'A', marriage: 'C', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'C', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'Right to Life of Michigan PAC endorsed; consistent pro-life voting record',
             marriage: 'Was one of three Republicans who voted YES on Elliott-Larsen LGBTQ expansion — significant break from conservative position',
             religiousLiberty: 'Americans for Prosperity and Freedom Network endorsed, but Elliott-Larsen vote lacked religious liberty protections',
             secondAmendment: 'Strong 2A record; voted against 2023 red flag laws, safe storage, and universal background checks',
-            limitedGov: 'AFP, Michigan Chamber, Freedom Network endorsed; solid conservative on regulation',
+            limitedGov: 'Freedom Index 50% (2023); voted with Democrats on several regulatory bills; mixed limited government record',
             fiscal: 'Michigan Chamber endorsed; consistent fiscal conservative votes; perfect 365/365 attendance record'
           }
         },
@@ -1909,7 +1909,7 @@ export const STATE_SENATE_RACES = {
             religiousLiberty: 'Voted for Elliott-Larsen without strong religious exemptions',
             secondAmendment: 'Voted for 2023 gun control package including red flag laws',
             limitedGov: 'Supports government programs and expanded state services',
-            fiscal: 'Generally supports Whitmer budgets; Macomb County moderate on some fiscal issues'
+            fiscal: 'NFIB 11% scorecard (2023-24); Generally supports Whitmer budgets; Macomb County moderate on some fiscal issues'
           }
         },
       ],
@@ -2066,7 +2066,7 @@ export const STATE_SENATE_RACES = {
             religiousLiberty: 'Limited support for religious exemptions in civil rights legislation',
             secondAmendment: 'Voted for 2023 gun control package; supports expanded background checks',
             limitedGov: 'Supports environmental regulations and expanded government role in conservation',
-            fiscal: 'Voted for Whitmer budget expansions; supports increased state spending on environmental programs'
+            fiscal: 'NFIB 11% scorecard (2023-24); Voted for Whitmer budget expansions; supports increased state spending on environmental programs'
           }
         },
       ],
@@ -2099,7 +2099,7 @@ export const STATE_SENATE_RACES = {
             religiousLiberty: 'Limited support for religious exemptions in expanding civil rights legislation',
             secondAmendment: 'Voted for 2023 gun control package; supports red flag laws and universal background checks',
             limitedGov: 'Supports government expansion in education, healthcare, and environmental regulation',
-            fiscal: 'Voted for Whitmer budget increases; supports expanded state spending'
+            fiscal: 'NFIB 0% scorecard (2023-24); Voted for Whitmer budget increases; supports expanded state spending'
           }
         },
         { name: 'Michael White', description: 'Army veteran; former union worker and AT&T leader; nonprofit founder; community leader in Washtenaw, Lenawee, and Monroe counties; lifelong advocate for working families', status: 'challenger', grade: 'F',
@@ -2344,7 +2344,7 @@ export const STATE_SENATE_RACES = {
             religiousLiberty: 'Limited support for religious exemptions',
             secondAmendment: 'Voted for 2023 gun control package; supports comprehensive gun reform',
             limitedGov: 'Supports expanded government programs; former county commissioner who grew county services',
-            fiscal: 'Senate Appropriations Committee; voted for major budget expansions; supports new spending'
+            fiscal: 'NFIB 11% scorecard (2023-24); Senate Appropriations Committee; voted for major budget expansions; supports new spending'
           }
         },
       ],
@@ -3117,14 +3117,14 @@ export const STATE_SENATE_RACES = {
     incumbent: "John Damoose (R)",
     candidates: {
       republican: [
-        { name: 'John Damoose', description: 'Incumbent State Senator; Northern Michigan conservative; strong record on all issues', status: 'incumbent', grade: 'A',
-          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+        { name: 'John Damoose', description: 'Incumbent State Senator; Northern Michigan conservative; strong record on all issues', status: 'incumbent', grade: 'B',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'C', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'Strongly pro-life; consistent voting record against abortion expansion in Michigan',
             marriage: 'Supports traditional marriage; Northern Michigan conservative values',
             religiousLiberty: 'Voted to protect religious organizations from government mandates; supports conscience protections',
             secondAmendment: 'Strong 2A supporter; voted against 2023 gun control package; represents rural Northern Michigan',
-            limitedGov: 'Opposes government overreach; supports reducing state bureaucracy and regulations',
+            limitedGov: 'Freedom Index 67% (2023); moderate conservative voting record on limited government issues',
             fiscal: 'Fiscal conservative; voted against Whitmer budget expansions; supports balanced budgets'
           }
         },
@@ -4174,7 +4174,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'Human Rights Ordinance may limit religious exemptions; no record of championing religious liberty.',
             secondAmendment: 'Voted with Democratic majority on comprehensive gun control legislation.',
             limitedGov: 'Created new government commission; supports expanded government role in health, energy, and housing.',
-            fiscal: 'Serves on Appropriations Committee; voted for significant spending increases.'
+            fiscal: 'NFIB 0% scorecard (2023-24); Serves on Appropriations Committee; voted for significant spending increases.'
           }
         },
         { name: 'Brandon Young', description: 'Democratic candidate for Michigan State House District 19 in the 2026 primary, challenging incumbent Samantha Steckloff. No detailed public information found.', status: 'challenger', grade: null,
@@ -4219,7 +4219,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'Strong LGBTQ+ advocacy suggests opposition to broad religious exemptions that could affect LGBTQ+ rights.',
             secondAmendment: 'Leading voice on gun violence prevention; introduced legislation to expand firearm restrictions.',
             limitedGov: 'Supports expanded government role in healthcare, civil rights enforcement, and gun regulation.',
-            fiscal: 'Voted with Democratic majority on significant spending increases.'
+            fiscal: 'NFIB 11% scorecard (2023-24); Voted with Democratic majority on significant spending increases.'
           }
         },
       ],
@@ -5243,7 +5243,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'Voted against Elliott-Larsen expansion which suggests support for religious exemptions; Republican alignment.',
             secondAmendment: 'Republican from suburban Oakland County; expected 2A support.',
             limitedGov: '14% LCV score shows strong opposition to environmental regulation; chairs Insurance Committee.',
-            fiscal: 'Republican in House leadership (Majority Caucus Whip); expected fiscal conservative.'
+            fiscal: 'NFIB 100% + Guardian of Small Business Award (2023-24); Republican in House leadership (Majority Caucus Whip); expected fiscal conservative.'
           }
         },
       ],
@@ -5291,7 +5291,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'No record of championing religious liberty; voted with Democratic caucus.',
             secondAmendment: 'Voted with Democratic majority on gun violence prevention legislation.',
             limitedGov: 'Created multiple government task forces; co-founded Poverty and Homelessness Caucus; supports expanded government role.',
-            fiscal: 'Advocates for expanded government programs addressing poverty, homelessness, and maternal health.'
+            fiscal: 'NFIB 11% scorecard (2023-24); Advocates for expanded government programs addressing poverty, homelessness, and maternal health.'
           }
         },
       ],
@@ -5392,7 +5392,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'No specific religious liberty defense record found; votes with Democratic caucus which has generally opposed religious exemptions.',
             secondAmendment: 'Votes with Democratic caucus on gun control measures passed in 2023-2024 including red flag laws and universal background checks.',
             limitedGov: '95% LCV score indicates support for extensive environmental regulation. Supports expanded government programs and services.',
-            fiscal: 'Supports repealing pension tax (reducing revenue), expanding free school meals, and other increased spending programs.'
+            fiscal: 'NFIB 0% scorecard (2023-24); Supports repealing pension tax (reducing revenue), expanding free school meals, and other increased spending programs.'
           }
         },
       ],
@@ -5412,7 +5412,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'Votes with Republican caucus; no specific religious liberty legislation highlighted.',
             secondAmendment: 'Votes with Republican caucus opposing Democratic gun control measures; no specific 2A endorsements found.',
             limitedGov: '14% environmental score indicates opposition to regulatory expansion. Votes against Democratic spending proposals.',
-            fiscal: 'Votes with Republican caucus against Democratic budget proposals; limited specific fiscal policy positions beyond party-line votes.'
+            fiscal: 'NFIB 100% scorecard (2023-24); Votes with Republican caucus against Democratic budget proposals; limited specific fiscal policy positions beyond party-line votes.'
           }
         },
       ],
@@ -5601,7 +5601,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'No specific religious liberty statements; votes with Democratic caucus which has generally not prioritized religious exemptions.',
             secondAmendment: 'Votes with Democratic caucus supporting gun control legislation including red flag laws and universal background checks.',
             limitedGov: '94% LCV environmental score indicates support for extensive government regulation. Supports expanded government programs.',
-            fiscal: 'Votes with Democratic caucus on expanded spending programs; supports increased government services.'
+            fiscal: 'NFIB 11% scorecard (2023-24); Votes with Democratic caucus on expanded spending programs; supports increased government services.'
           }
         },
       ],
@@ -5621,7 +5621,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'No specific religious liberty statements found; votes with Republican caucus.',
             secondAmendment: 'Votes with Republican caucus opposing gun control measures. No specific 2A endorsements found.',
             limitedGov: '25 years as small business consultant; supports limited government policies through Republican caucus votes.',
-            fiscal: 'Small business background; votes with Republican caucus on fiscal issues.'
+            fiscal: 'NFIB 100% scorecard (2023-24); Small business background; votes with Republican caucus on fiscal issues.'
           }
         },
       ],
@@ -5853,7 +5853,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'No specific religious liberty statements found; votes with Republican caucus.',
             secondAmendment: '20-year Air Force veteran; military background provides strong 2A signal. Votes with Republican caucus opposing gun control.',
             limitedGov: 'Former County Commissioner and City Council member; Republican caucus member but limited specific limited government statements.',
-            fiscal: 'Local government experience; votes with Republican caucus on fiscal issues.'
+            fiscal: 'NFIB 100% + Guardian of Small Business Award (2023-24); Local government experience; votes with Republican caucus on fiscal issues.'
           }
         },
       ],
@@ -5943,7 +5943,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'No specific statements; votes with Democratic caucus.',
             secondAmendment: 'Explicitly supports \'gun safety\' and \'crime prevention\' legislation, indicating support for gun control measures.',
             limitedGov: '87% LCV score. Supports expanded government programs for healthcare, education, and water infrastructure.',
-            fiscal: 'Supports increased government spending on schools, healthcare, infrastructure, and fair wage mandates.'
+            fiscal: 'NFIB 11% scorecard (2023-24); Supports increased government spending on schools, healthcare, infrastructure, and fair wage mandates.'
           }
         },
       ],
@@ -6054,7 +6054,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'Opposes school vouchers for private (including religious) schools. Not a supporter of DeVos education agenda. No religious liberty advocacy found.',
             secondAmendment: 'Votes with Democratic caucus on gun control measures including red flag laws and universal background checks.',
             limitedGov: '87% LCV score. Criticizes \'Republican control\' for underfunding education and infrastructure, advocates for increased government spending and programs.',
-            fiscal: 'Supports free school breakfast and lunch, repealing pension tax (reducing revenue), increased education spending, and expanded government programs.'
+            fiscal: 'NFIB 0% scorecard (2023-24); Supports free school breakfast and lunch, repealing pension tax (reducing revenue), increased education spending, and expanded government programs.'
           }
         },
       ],
@@ -6400,7 +6400,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'Votes with Democratic caucus; no religious liberty advocacy found.',
             secondAmendment: 'Votes with Democratic caucus supporting gun control measures.',
             limitedGov: 'Votes with Democratic caucus supporting expanded government programs.',
-            fiscal: 'Votes with Democratic caucus on increased spending.'
+            fiscal: 'NFIB 11% scorecard (2023-24); Votes with Democratic caucus on increased spending.'
           }
         },
         { name: 'Robert Womack', description: 'Democratic challenger for HD-82. No significant public information found on policy positions or background.', status: 'challenger', grade: null,
@@ -6620,7 +6620,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'Calvin College graduate; conservative Ottawa County Republican. Christian education background supports religious liberty.',
             secondAmendment: 'Votes with Republican caucus opposing gun control; no specific 2A endorsements found.',
             limitedGov: 'Voted against Democratic state budget. 30% LCV score (slightly higher than most Rs) but still conservative. Appropriations committee focus on fiscal oversight.',
-            fiscal: 'Criticized Democratic budget for not supporting \'real families, prioritizing local infrastructure, or respecting taxpayers.\' Fiscal conservative on budget matters.'
+            fiscal: 'NFIB 100% scorecard (2023-24); Criticized Democratic budget for not supporting \'real families, prioritizing local infrastructure, or respecting taxpayers.\' Fiscal conservative on budget matters.'
           }
         },
       ],
@@ -6763,7 +6763,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'Sponsored resolution against \'radical politics\' in schools; strong parental rights and free speech advocate.',
             secondAmendment: 'Votes with Republican caucus opposing gun control; no specific 2A endorsements found.',
             limitedGov: 'Committed to lowering taxes. Sponsored resolution against political indoctrination in schools. Co-sponsored Fact Checker Registration Act showing distrust of institutional power. Voted against bipartisan ethics package showing anti-establishment bent.',
-            fiscal: 'Explicitly committed to lowering taxes and improving infrastructure. Practical conservative on fiscal issues.'
+            fiscal: 'NFIB 100% scorecard (2023-24); Explicitly committed to lowering taxes and improving infrastructure. Practical conservative on fiscal issues.'
           }
         },
       ],
@@ -6796,7 +6796,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'No specific statements found; votes with Republican caucus.',
             secondAmendment: 'Rural district representative; votes with Republican caucus opposing gun control. No specific 2A endorsements found.',
             limitedGov: '14% LCV score indicating conservative environmental/regulatory voting. Chairs Agriculture Committee. Serves on Regulatory Reform.',
-            fiscal: 'Votes with Republican caucus on fiscal issues; serves on regulatory reform suggesting concern about business regulation costs.'
+            fiscal: 'NFIB 100% scorecard (2023-24); Votes with Republican caucus on fiscal issues; serves on regulatory reform suggesting concern about business regulation costs.'
           }
         },
       ],
@@ -6939,7 +6939,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'No specific religious liberty statements found; votes with Republican caucus.',
             secondAmendment: 'Votes with Republican caucus opposing gun control; no specific 2A endorsements found.',
             limitedGov: '27% LCV score (slightly higher than most Rs at 14%). Small business owner. Serves on regulatory affairs subcommittee.',
-            fiscal: 'Small business owner (Beson\'s Market). Business management degree. Serves on multiple appropriations subcommittees.'
+            fiscal: 'NFIB 100% scorecard (2023-24); Small business owner (Beson\'s Market). Business management degree. Serves on multiple appropriations subcommittees.'
           }
         },
       ],
@@ -7230,7 +7230,7 @@ export const STATE_HOUSE_RACES = {
             religiousLiberty: 'No specific religious liberty statements found; votes with Republican caucus.',
             secondAmendment: 'Votes with Republican caucus opposing gun control; no specific 2A endorsements found.',
             limitedGov: '26% LCV score (slightly above average for Republicans). Serves on appropriations subcommittees overseeing spending.',
-            fiscal: 'Chairs Human Services appropriations subcommittee; vice chairs Higher Education subcommittee. Budget oversight focus.'
+            fiscal: 'NFIB 100% scorecard (2023-24); Chairs Human Services appropriations subcommittee; vice chairs Higher Education subcommittee. Budget oversight focus.'
           }
         },
       ],

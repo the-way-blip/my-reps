@@ -20,7 +20,7 @@ import {
 import generateBallotPDF from '../utils/generateBallotPDF'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
 import useFocusTrap from '../hooks/useFocusTrap'
-import { getRatingsForCandidate, getRatingsForIssue } from '../data/externalRatings'
+import { getRatingsForCandidate, getRatingsForIssue, getEvidenceLevel } from '../data/externalRatings'
 import { getSource, RATING_SOURCES, ISSUE_AREA_LABELS, RATING_TYPE_LABELS, RATING_TYPE_DESCRIPTIONS } from '../data/ratingSources'
 import { getVoterInfo } from '../services/googleCivicApi'
 import { geocodeToDistrict } from '../services/districtService'
@@ -260,6 +260,77 @@ function ExternalRatingBadge({ rating }) {
   )
 }
 
+// ── Evidence Level Indicator ──
+
+function EvidenceIndicator({ candidate }) {
+  const evidence = getEvidenceLevel(candidate.name, candidate)
+  const segments = 4
+  const filled = evidence.level === 'extensive' ? 4
+    : evidence.level === 'moderate' ? 3
+    : evidence.level === 'limited' ? 2
+    : 1
+
+  const levelColors = {
+    extensive: '#22c55e',
+    moderate: '#3b82f6',
+    limited: '#f59e0b',
+    minimal: '#9ca3af',
+  }
+  const color = levelColors[evidence.level]
+
+  return (
+    <div className="evidence-indicator" title={evidence.description}>
+      <div className="evidence-indicator-top">
+        <span className="evidence-indicator-label">Data Depth</span>
+        <span className={`evidence-indicator-level evidence-level-${evidence.level}`}>{evidence.label}</span>
+      </div>
+      <div className="evidence-indicator-bar">
+        {Array.from({ length: segments }).map((_, i) => (
+          <span
+            key={i}
+            className={`evidence-bar-segment ${i < filled ? 'evidence-bar-filled' : ''}`}
+            style={i < filled ? { background: color } : undefined}
+          />
+        ))}
+      </div>
+      <p className="evidence-indicator-desc">{evidence.description}</p>
+    </div>
+  )
+}
+
+// ── Compact Evidence Badge (for candidate card list) ──
+
+function EvidenceBadge({ candidate }) {
+  const evidence = getEvidenceLevel(candidate.name, candidate)
+  const segments = 4
+  const filled = evidence.level === 'extensive' ? 4
+    : evidence.level === 'moderate' ? 3
+    : evidence.level === 'limited' ? 2
+    : 1
+
+  const levelColors = {
+    extensive: '#22c55e',
+    moderate: '#3b82f6',
+    limited: '#f59e0b',
+    minimal: '#9ca3af',
+  }
+  const color = levelColors[evidence.level]
+
+  return (
+    <span className="evidence-badge" title={`${evidence.label}: ${evidence.description}`}>
+      <span className="evidence-badge-bars">
+        {Array.from({ length: segments }).map((_, i) => (
+          <span
+            key={i}
+            className={`evidence-badge-bar ${i < filled ? 'evidence-badge-bar-filled' : ''}`}
+            style={i < filled ? { background: color } : undefined}
+          />
+        ))}
+      </span>
+    </span>
+  )
+}
+
 // ── Candidate Detail Modal ──
 
 function CandidateDetailModal({ candidate, onClose }) {
@@ -308,6 +379,11 @@ function CandidateDetailModal({ candidate, onClose }) {
             )}
           </div>
         </div>
+
+        {/* Evidence Level */}
+        {candidate.grade && (
+          <EvidenceIndicator candidate={candidate} />
+        )}
 
         {/* Bio */}
         {candidate.bio && (
@@ -757,6 +833,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                     <span className="ballot-candidate-name">
                       {c.name}
                       <GradeBadge grade={c.grade} size="sm" showUnrated={!c.grade} />
+                      {c.grade && <EvidenceBadge candidate={c} />}
                       {c.status === 'incumbent' && <span className="ballot-incumbent-tag">Incumbent</span>}
                     </span>
                     {c.description && <span className="ballot-candidate-desc">{c.description}</span>}

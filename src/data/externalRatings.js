@@ -13,16 +13,23 @@
  * period    — e.g. "119th Congress", "2026 cycle", "lifetime"
  * url       — optional direct link to the specific rating page
  *
- * Last updated: 2026-05-20
+ * Last updated: 2026-05-20 (expanded with NFIB MI 2023-24 scorecard + Vote Smart data)
  * Sources verified via Heritage Action, Club for Growth, GOA, NRA-PVF,
- * SBA Pro-Life, NRLC, CCAGW, NFIB, ATR, Freedom Index, ACU/CPAC, FRC Action
+ * SBA Pro-Life, NRLC, CCAGW, NFIB, ATR, Freedom Index, ACU/CPAC, FRC Action,
+ * NTU, AFP, CWA, Eagle Forum, FAIR, NumbersUSA
  */
 
 const EXTERNAL_RATINGS = {
 
   // ═══════════════════════════════════════════════════════════════
-  // STATEWIDE — Governor
+  // STATEWIDE — Governor (Republican)
   // ═══════════════════════════════════════════════════════════════
+
+  'Aric Nesbitt': [
+    // State Senate Minority Leader (R, SD-20). NFIB MI 2023-24 Voting Record.
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+    { sourceId: 'nfib', type: 'award', value: 'Guardian of Small Business', issue: 'fiscal', period: '2023-24 session' },
+  ],
 
   'John James': [
     // Heritage Action
@@ -215,6 +222,41 @@ const EXTERNAL_RATINGS = {
   ],
 
   // ═══════════════════════════════════════════════════════════════
+  // US SENATE RACE — Haley Stevens (D, incumbent US House MI-11)
+  // ═══════════════════════════════════════════════════════════════
+
+  'Haley Stevens': [
+    // Federal scorecards — Heritage Action, JBS Freedom Index, ACU
+    { sourceId: 'heritage_action', type: 'scorecard', value: '0%', issue: 'limitedGov', period: '119th Congress' },
+    { sourceId: 'jbs_freedom_index', type: 'scorecard', value: '0%', issue: 'limitedGov', period: '119th Congress' },
+    { sourceId: 'acu', type: 'scorecard', value: '5%', issue: 'limitedGov', period: '2023' },
+    { sourceId: 'numbersusa', type: 'scorecard', value: '4%', issue: 'limitedGov', period: '2023-2024' },
+    { sourceId: 'fair', type: 'scorecard', value: '0%', issue: 'limitedGov', period: '2021-2022' },
+    // Fiscal
+    { sourceId: 'club_for_growth', type: 'scorecard', value: '2%', issue: 'fiscal', period: '2023' },
+    { sourceId: 'ntu', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023' },
+    { sourceId: 'ccagw', type: 'scorecard', value: '7%', issue: 'fiscal', period: '2022' },
+    { sourceId: 'afp', type: 'scorecard', value: '12%', issue: 'fiscal', period: '2024' },
+    // 2nd Amendment
+    { sourceId: 'nra_pvf', type: 'scorecard', value: '0%', issue: 'secondAmendment', period: '2024' },
+    { sourceId: 'goa', type: 'scorecard', value: '8%', issue: 'secondAmendment', period: '2024' },
+    // Pro-life
+    { sourceId: 'nrlc', type: 'scorecard', value: '0%', issue: 'proLife', period: '2023-2024' },
+    { sourceId: 'sba_prolife', type: 'scorecard', value: '0%', issue: 'proLife', period: '2023-2024' },
+    // Marriage & Family
+    { sourceId: 'frc_action', type: 'scorecard', value: '5%', issue: 'marriage', period: '2023' },
+    { sourceId: 'cwa', type: 'scorecard', value: '21%', issue: 'marriage', period: '2023-2024' },
+    { sourceId: 'eagle_forum', type: 'scorecard', value: '5%', issue: 'marriage', period: '2023-2024' },
+    // Sources: Heritage Action (heritageaction.com), JBS Freedom Index (thenewamerican.com),
+    // Vote Smart aggregator (justfacts.votesmart.org/candidate/evaluations/181092/haley-stevens)
+  ],
+
+  'Mallory McMorrow': [
+    // State Senator (D, SD-08); running for U.S. Senate in 2026.
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  // ═══════════════════════════════════════════════════════════════
   // STATE SENATE
   // ═══════════════════════════════════════════════════════════════
 
@@ -314,6 +356,108 @@ const EXTERNAL_RATINGS = {
   'Al Lemmo': [
     { sourceId: 'rtl_michigan', type: 'endorsement', value: 'Board Member (10+ yrs)', issue: 'proLife', period: 'Lifetime' },
   ],
+
+  // ═══════════════════════════════════════════════════════════════
+  // STATE HOUSE — Republican Incumbents (NFIB MI 2023-24 Voting Record)
+  // ═══════════════════════════════════════════════════════════════
+
+  'Mike Harris': [
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+    { sourceId: 'nfib', type: 'award', value: 'Guardian of Small Business', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Thomas E. Kuhn': [
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Greg VanWoerkom': [
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Pat Outman': [
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Jerry Neyer': [
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Timothy Beson': [
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'John R. Roth': [
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Alicia St. Germaine': [
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'David W. Martin': [
+    { sourceId: 'nfib', type: 'scorecard', value: '100%', issue: 'fiscal', period: '2023-24 session' },
+    { sourceId: 'nfib', type: 'award', value: 'Guardian of Small Business', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  // ═══════════════════════════════════════════════════════════════
+  // STATE HOUSE/SENATE — Democratic Incumbents (NFIB MI 2023-24 Voting Record)
+  // ═══════════════════════════════════════════════════════════════
+
+  'Veronica Klinefelt': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Mary Cavanagh': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Dayna Polehanki': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Sue Shink': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Felicia Brabec': [
+    { sourceId: 'nfib', type: 'scorecard', value: '0%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Sarah Anthony': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Samantha Steckloff': [
+    { sourceId: 'nfib', type: 'scorecard', value: '0%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Noah Arbit': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Brenda Carter': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Sharon MacDonell': [
+    { sourceId: 'nfib', type: 'scorecard', value: '0%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Denise Mentzer': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Cynthia R. Neeley': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Julie Brixie': [
+    { sourceId: 'nfib', type: 'scorecard', value: '0%', issue: 'fiscal', period: '2023-24 session' },
+  ],
+
+  'Kristian C. Grant': [
+    { sourceId: 'nfib', type: 'scorecard', value: '11%', issue: 'fiscal', period: '2023-24 session' },
+  ],
 }
 
 export default EXTERNAL_RATINGS
@@ -339,4 +483,89 @@ export function getRatingsForIssue(name, issueKey) {
  */
 export function hasExternalRatings(name) {
   return (EXTERNAL_RATINGS[name] || []).length > 0
+}
+
+/**
+ * Calculate an evidence level for a candidate's grade.
+ * Returns { level, label, description, score, details }
+ *
+ * Evidence is based on:
+ *  - Number of external org ratings (scorecards weigh most)
+ *  - Number of unique source organizations
+ *  - Number of issue areas covered by external data
+ *  - Presence of gradeJustifications, keyPositions, endorsements, bio
+ *
+ * Levels:
+ *  - 'extensive'  — Voting-record scorecards from multiple orgs across many issues
+ *  - 'moderate'   — Some external ratings or endorsements plus editorial research
+ *  - 'limited'    — Primarily editorial assessment with minimal external org data
+ *  - 'minimal'    — No external org data; based on public statements and platform only
+ */
+export function getEvidenceLevel(candidateName, candidate = {}) {
+  const ratings = getRatingsForCandidate(candidateName)
+
+  // Count scorecards (voting-record-based, highest value)
+  const scorecards = ratings.filter(r => r.type === 'scorecard')
+  const endorsements = ratings.filter(r => r.type === 'endorsement' || r.type === 'award')
+  const pledges = ratings.filter(r => r.type === 'pledge' || r.type === 'voter_guide')
+
+  // Unique orgs
+  const uniqueOrgs = new Set(ratings.map(r => r.sourceId))
+
+  // Unique issue areas covered by external data
+  const issuesCovered = new Set(ratings.map(r => r.issue))
+
+  // Internal data checks
+  const hasJustifications = candidate.gradeJustifications
+    ? Object.keys(candidate.gradeJustifications).length
+    : 0
+  const hasKeyPositions = candidate.keyPositions?.length || 0
+  const hasEndorsements = candidate.endorsements?.length || 0
+  const hasBio = candidate.bio ? 1 : 0
+
+  // Weighted evidence score
+  // Scorecards are gold-standard (voting records), endorsements are supporting
+  let score = 0
+  score += scorecards.length * 3    // scorecards most valuable
+  score += endorsements.length * 1.5 // endorsements/awards
+  score += pledges.length * 1       // pledges/voter guides
+  score += uniqueOrgs.size * 2      // org breadth bonus
+  score += issuesCovered.size * 1.5 // issue coverage bonus
+  score += hasJustifications * 0.5  // internal justifications
+  score += hasKeyPositions * 0.3    // key positions
+  score += hasEndorsements * 0.3    // listed endorsements
+  score += hasBio * 0.5            // has bio
+
+  // Build details
+  const details = {
+    externalRatings: ratings.length,
+    scorecardRatings: scorecards.length,
+    endorsementRatings: endorsements.length,
+    uniqueOrgs: uniqueOrgs.size,
+    issuesCovered: issuesCovered.size,
+    justifications: hasJustifications,
+    keyPositions: hasKeyPositions,
+  }
+
+  // Determine level
+  let level, label, description
+  if (scorecards.length >= 4 && uniqueOrgs.size >= 3 && issuesCovered.size >= 3) {
+    level = 'extensive'
+    label = 'Extensive Record'
+    description = `Grade backed by ${scorecards.length} voting-record scorecards from ${uniqueOrgs.size} organizations across ${issuesCovered.size} issue areas.`
+  } else if (ratings.length >= 3 || (scorecards.length >= 2 && uniqueOrgs.size >= 2)) {
+    level = 'moderate'
+    label = 'Moderate Record'
+    description = `Grade informed by ${ratings.length} external rating${ratings.length !== 1 ? 's' : ''} from ${uniqueOrgs.size} organization${uniqueOrgs.size !== 1 ? 's' : ''}.`
+  } else if (ratings.length >= 1) {
+    level = 'limited'
+    label = 'Limited Record'
+    description = `Grade based on ${ratings.length} external rating${ratings.length !== 1 ? 's' : ''} plus editorial research.`
+  } else {
+    level = 'minimal'
+    label = 'Minimal Record'
+    description = 'Grade based on public statements, campaign platform, and editorial assessment. No independent organization scorecards available.'
+  }
+
+  return { level, label, description, score: Math.round(score), details }
 }

@@ -33,22 +33,22 @@
 
 /* ── Dark mode tokens ── */
 [data-theme="dark"] {
-  --bg: #0A1628;
-  --surface: #111E33;
-  --card: #162340;
-  --hover: #1C2D4A;
-  --border: #253A55;
-  --text: #EDE9DD;
-  --text-muted: #8A96A8;
-  --muted: #6B7A8E;
-  --text-secondary: #9AACBE;
-  --accent: #6BAED6;
-  --accent-light: #152840;
-  --accent-red: #E05555;
-  --accent-gold: #D4AF37;
-  --party-d: #3b82f6;
-  --party-r: #ef4444;
-  --party-i: #6b7280;
+  --bg: #0D1B2A;
+  --surface: #152238;
+  --card: #1A2B45;
+  --hover: #223650;
+  --border: #334D6E;
+  --text: #F0ECE2;
+  --text-muted: #A0B0C4;
+  --muted: #8899B0;
+  --text-secondary: #A8BACE;
+  --accent: #7EC4E8;
+  --accent-light: #1A3050;
+  --accent-red: #F06060;
+  --accent-gold: #E0C050;
+  --party-d: #5B9BF0;
+  --party-r: #F06060;
+  --party-i: #8899B0;
   --shadow: 0 2px 8px rgba(0,0,0,0.4), 0 4px 20px rgba(0,0,0,0.25);
   --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
 }
@@ -98,7 +98,7 @@
   border-color: var(--border);
 }
 [data-theme="dark"] .member-card:hover {
-  border-color: #3d5068;
+  border-color: var(--accent-gold);
   box-shadow: 0 4px 16px rgba(0,0,0,0.35);
 }
 [data-theme="dark"] .delegation-summary {
@@ -117,7 +117,7 @@
   border-color: var(--border);
 }
 [data-theme="dark"] .election-card:hover {
-  border-color: #3d5068;
+  border-color: var(--accent-gold);
 }
 [data-theme="dark"] .founder-quote-banner {
   background: var(--card);
@@ -139,16 +139,221 @@
   border-color: var(--border);
 }
 [data-theme="dark"] .voting-record-link:hover {
-  border-color: #3d5068;
+  border-color: var(--accent-gold);
   background: var(--hover);
 }
 [data-theme="dark"] .nav-bar {
-  background: var(--bg);
+  background: var(--surface);
   border-top-color: var(--border);
+  border-bottom-color: var(--border);
+}
+[data-theme="dark"] .nav-item {
+  color: var(--text-secondary);
+}
+[data-theme="dark"] .nav-item:hover {
+  color: #fff;
+}
+[data-theme="dark"] .nav-item.active {
+  color: var(--accent-gold);
+  border-bottom-color: var(--accent-gold);
 }
 [data-theme="dark"] .scorecard-popup {
   background: var(--card);
   border-color: var(--border);
+}
+
+/* Dark mode — content area contrast */
+[data-theme="dark"] .myreps-card {
+  background: var(--card);
+  border-color: var(--border);
+}
+[data-theme="dark"] .myreps-card:hover {
+  border-color: var(--accent-gold);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
+[data-theme="dark"] .myreps-card-name {
+  color: #fff;
+}
+[data-theme="dark"] .myreps-card-title {
+  color: var(--text-muted);
+}
+[data-theme="dark"] .myreps-group-title {
+  color: var(--text-secondary);
+}
+[data-theme="dark"] .myreps-group-title:hover {
+  color: #fff;
+  background: var(--hover);
+}
+[data-theme="dark"] .myreps-heading {
+  color: #fff;
+}
+[data-theme="dark"] .myreps-subheading {
+  color: var(--text-muted);
+}
+[data-theme="dark"] .myreps-address-input {
+  background: var(--card);
+  border-color: var(--border);
+  color: #fff;
+}
+[data-theme="dark"] .myreps-address-input:focus {
+  border-color: var(--accent-gold);
+}
+[data-theme="dark"] .myreps-district-badge {
+  background: var(--card);
+  border-color: var(--border);
+  color: var(--text-muted);
+}
+[data-theme="dark"] .myreps-summary {
+  color: var(--text-muted);
+}
+[data-theme="dark"] .myreps-action-btn {
+  color: var(--accent-gold);
+  border-color: var(--border);
+}
+[data-theme="dark"] .myreps-action-btn:hover {
+  background: var(--hover);
+  color: #fff;
+}
+
+/* Dark mode — ballot sections */
+[data-theme="dark"] .ballot-section {
+  background: var(--card);
+  border-color: var(--border);
+}
+[data-theme="dark"] .ballot-section-title {
+  color: #fff;
+}
+[data-theme="dark"] .ballot-race {
+  background: var(--surface);
+  border-color: var(--border);
+}
+[data-theme="dark"] .ballot-race-office {
+  color: #fff;
+}
+[data-theme="dark"] .ballot-race-level {
+  color: var(--accent-gold);
+}
+[data-theme="dark"] .ballot-race-desc,
+[data-theme="dark"] .ballot-race-note {
+  color: var(--text-muted);
+}
+[data-theme="dark"] .ballot-candidate-desc {
+  color: var(--text-muted);
+}
+[data-theme="dark"] .ballot-primary-explainer {
+  background: var(--card);
+  border-color: var(--border);
+  color: var(--text-muted);
+}
+[data-theme="dark"] .ballot-dates-box {
+  background: var(--card);
+  border-color: var(--border);
+}
+[data-theme="dark"] .ballot-dates-title {
+  color: var(--text-secondary);
+}
+[data-theme="dark"] .ballot-party-badge {
+  border-color: var(--border);
+}
+[data-theme="dark"] .ballot-switch-party {
+  color: var(--accent-gold);
+  border-color: var(--border);
+}
+[data-theme="dark"] .ballot-switch-party:hover {
+  background: var(--hover);
+  color: #fff;
+}
+[data-theme="dark"] .ballot-progress-label {
+  color: var(--text-muted);
+}
+[data-theme="dark"] .ballot-progress-track {
+  background: var(--surface);
+}
+[data-theme="dark"] .ballot-incumbent-tag {
+  background: rgba(224,192,80,0.15);
+  color: var(--accent-gold);
+}
+[data-theme="dark"] .ballot-candidate-selected {
+  border-color: var(--accent-gold);
+  background: rgba(224,192,80,0.08);
+}
+[data-theme="dark"] .ballot-scroll-top {
+  background: var(--card);
+  border-color: var(--border);
+  color: var(--text-secondary);
+}
+
+/* Dark mode — candidate modal */
+[data-theme="dark"] .candidate-modal-content {
+  background: var(--bg);
+  border-color: var(--border);
+}
+[data-theme="dark"] .candidate-modal-section-title {
+  color: var(--text-secondary);
+}
+[data-theme="dark"] .candidate-scorecard-label {
+  color: var(--text-muted);
+}
+
+/* Dark mode — empty state cards */
+[data-theme="dark"] .empty-state-card {
+  background: var(--card);
+  border-color: var(--border);
+}
+[data-theme="dark"] .empty-state-card h3 {
+  color: #fff;
+}
+[data-theme="dark"] .empty-state-card p {
+  color: var(--text-muted);
+}
+
+/* Dark mode — settings page */
+[data-theme="dark"] .settings-card {
+  background: var(--card);
+  border-color: var(--border);
+}
+[data-theme="dark"] .settings-label {
+  color: var(--text-secondary);
+}
+
+/* Dark mode — auth modal */
+[data-theme="dark"] .auth-modal-content {
+  background: var(--bg);
+  border-color: var(--border);
+}
+[data-theme="dark"] .auth-input {
+  background: var(--card);
+  border-color: var(--border);
+  color: #fff;
+}
+[data-theme="dark"] .auth-input::placeholder {
+  color: var(--muted);
+}
+
+/* Dark mode — grade legend / methodology */
+[data-theme="dark"] .grade-legend {
+  background: var(--card);
+  border-color: var(--border);
+}
+
+/* Dark mode — local rep grid (My Reps tab alternate view) */
+[data-theme="dark"] .state-rep-card {
+  background: var(--card);
+  border-color: var(--border);
+}
+[data-theme="dark"] .state-rep-card:hover {
+  border-color: var(--accent-gold);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
+[data-theme="dark"] .state-rep-name {
+  color: #fff;
+}
+[data-theme="dark"] .my-reps-group-title {
+  color: var(--text-secondary);
+}
+[data-theme="dark"] .my-reps-group-title:hover {
+  color: #fff;
+  background: var(--hover);
 }
 
 /* ── Theme toggle ── */
@@ -7387,6 +7592,81 @@ button.election-card {
   border-radius: 1rem;
 }
 
+/* ── Evidence Level Indicator (in modal) ── */
+.evidence-indicator {
+  background: color-mix(in srgb, var(--accent) 6%, var(--surface));
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.evidence-indicator-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+.evidence-indicator-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+.evidence-indicator-level {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.1rem 0.45rem;
+  border-radius: 0.75rem;
+}
+.evidence-level-extensive { color: #16a34a; background: rgba(34,197,94,0.12); }
+.evidence-level-moderate  { color: #2563eb; background: rgba(59,130,246,0.12); }
+.evidence-level-limited   { color: #d97706; background: rgba(245,158,11,0.12); }
+.evidence-level-minimal   { color: #6b7280; background: rgba(156,163,175,0.15); }
+
+.evidence-indicator-bar {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 0.35rem;
+}
+.evidence-bar-segment {
+  flex: 1;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--border);
+  transition: background 0.2s;
+}
+.evidence-indicator-desc {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* ── Evidence Badge (compact, in candidate card list) ── */
+.evidence-badge {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+}
+.evidence-badge-bars {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 1.5px;
+  height: 12px;
+}
+.evidence-badge-bar {
+  width: 3px;
+  border-radius: 1px;
+  background: var(--border);
+  transition: background 0.2s;
+}
+.evidence-badge-bar:nth-child(1) { height: 4px; }
+.evidence-badge-bar:nth-child(2) { height: 6px; }
+.evidence-badge-bar:nth-child(3) { height: 9px; }
+.evidence-badge-bar:nth-child(4) { height: 12px; }
+
 .candidate-modal-footnote {
   font-size: 0.65rem;
   color: var(--text-muted);
@@ -10355,6 +10635,21 @@ select.auth-input {
 }
 [data-theme="dark"] .ballot-proposal-recommendation {
   background: rgba(212, 175, 55, 0.12);
+}
+/* Evidence indicator dark mode */
+[data-theme="dark"] .evidence-indicator {
+  background: rgba(126, 196, 232, 0.06);
+  border-color: var(--border);
+}
+[data-theme="dark"] .evidence-level-extensive { color: #4ade80; background: rgba(34,197,94,0.15); }
+[data-theme="dark"] .evidence-level-moderate  { color: #60a5fa; background: rgba(59,130,246,0.15); }
+[data-theme="dark"] .evidence-level-limited   { color: #fbbf24; background: rgba(245,158,11,0.15); }
+[data-theme="dark"] .evidence-level-minimal   { color: #9ca3af; background: rgba(156,163,175,0.12); }
+[data-theme="dark"] .evidence-bar-segment {
+  background: rgba(255,255,255,0.1);
+}
+[data-theme="dark"] .evidence-badge-bar {
+  background: rgba(255,255,255,0.15);
 }
 
 /* ══════════════════════════════════════════════
