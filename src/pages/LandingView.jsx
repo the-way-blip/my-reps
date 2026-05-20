@@ -182,7 +182,7 @@ export default function LandingView() {
       {/* Bottom CTA */}
       <section className="landing-bottom-cta">
         <h2>Government of the people, by the people, for the people.</h2>
-        <p>Stand for faith, family, and the Constitution. Join the movement.</p>
+        <p>Stand for Faith, Family, and our Founding Principles. Join the movement.</p>
         <button className="landing-cta-primary" onClick={openSignUp}>
           Create Your Free Account
         </button>
