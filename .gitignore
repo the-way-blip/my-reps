@@ -26,3 +26,12 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+# Large binary / design files
+*.psd
+*.ai
+*.eps
+*.tif
+*.tiff
+*.bmp
+AdobeStock_*

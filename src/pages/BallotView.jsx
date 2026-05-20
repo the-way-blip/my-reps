@@ -81,7 +81,7 @@ function AddressStep({ address, onSubmit }) {
         </button>
       </form>
       <p className="ballot-step-note">
-        Your address is used only to determine your districts. It is not shared or stored on any server.
+        Enter your home address to see every race on your ballot.
       </p>
 
       <div className="ballot-preview-features">

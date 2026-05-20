@@ -7261,12 +7261,181 @@ button.election-card {
   border-radius: 0.375rem;
 }
 
+/* ── Ballot Responsive: 768px (tablets) ── */
+@media (max-width: 768px) {
+  .ballot-step {
+    padding: 1.5rem 1rem;
+  }
+  .ballot-address-form {
+    flex-direction: column;
+  }
+  .ballot-address-btn {
+    width: 100%;
+  }
+  .ballot-preview-features {
+    grid-template-columns: 1fr;
+  }
+  .scorecard-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .scorecard-popup {
+    max-width: 95vw;
+    padding: 1rem;
+  }
+  .ballot-resources-grid {
+    grid-template-columns: 1fr;
+  }
+  .candidate-modal {
+    max-width: 95vw;
+    max-height: 90vh;
+    padding: 1.25rem;
+  }
+  .ballot-summary-card {
+    margin: 0 -0.25rem;
+  }
+  .ballot-section {
+    padding: 0.75rem 0;
+  }
+  .ballot-filter-tabs {
+    margin: 0.5rem 0;
+  }
+  .ballot-jump-nav {
+    gap: 0.25rem;
+  }
+  .ballot-jump-nav button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.62rem;
+  }
+  .ballot-elections-list {
+    gap: 0.5rem;
+  }
+  .ballot-election-item {
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: flex-start;
+  }
+  .ballot-election-date {
+    flex-direction: row;
+    gap: 0.35rem;
+  }
+  .ballot-proposal-body {
+    padding: 0.75rem;
+  }
+  .ballot-proposal-views {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Ballot Responsive: 600px (large phones) ── */
+@media (max-width: 600px) {
+  .ballot-race {
+    padding: 0.6rem;
+  }
+  .ballot-race-office {
+    font-size: 0.82rem;
+  }
+  .ballot-candidate {
+    padding: 0.5rem 0.6rem;
+    gap: 0.4rem;
+  }
+  .ballot-candidate-name {
+    font-size: 0.78rem;
+  }
+  .ballot-candidate-detail-btn {
+    padding: 0 0.45rem;
+  }
+  .scorecard-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.35rem;
+  }
+  .scorecard-item {
+    padding: 0.4rem 0.5rem;
+    gap: 0.35rem;
+  }
+  .scorecard-item-label {
+    font-size: 0.7rem;
+  }
+  .scorecard-item-grade {
+    width: 22px;
+    height: 22px;
+    font-size: 0.65rem;
+  }
+  .ballot-filter-tab {
+    padding: 0.35rem 0.4rem;
+    font-size: 0.65rem;
+  }
+  .ballot-deadline-alert {
+    padding: 0.6rem 0.75rem;
+    font-size: 0.72rem;
+  }
+  .ballot-countdown {
+    gap: 0.35rem;
+  }
+  .ballot-countdown-number {
+    font-size: 1.3rem;
+    min-width: 2rem;
+  }
+  .ballot-countdown-label {
+    font-size: 0.5rem;
+  }
+  .candidate-modal {
+    max-height: 92vh;
+    padding: 1rem;
+    margin: 0.25rem;
+    border-radius: 0.75rem;
+  }
+  .candidate-modal-overlay {
+    padding: 0.5rem;
+  }
+  .candidate-modal-name {
+    font-size: 1.15rem;
+  }
+  .candidate-modal-name-row {
+    gap: 0.5rem;
+  }
+  .ballot-proposal-title-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  .ballot-polling-info {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .ballot-scroll-top {
+    bottom: 5rem;
+    right: 0.75rem;
+    width: 36px;
+    height: 36px;
+  }
+  .ballot-grade-tip {
+    padding: 0.6rem;
+  }
+  .scorecard-popup-overlay {
+    align-items: flex-end;
+  }
+  .scorecard-popup {
+    max-height: 85vh;
+    border-radius: 0.75rem 0.75rem 0 0;
+    padding: 1rem;
+  }
+  .scorecard-vote-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}
+
+/* ── Ballot Responsive: 480px (small phones) ── */
 @media (max-width: 480px) {
   .ballot-party-cards {
     grid-template-columns: 1fr;
   }
   .ballot-step {
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 0.75rem;
+  }
+  .ballot-step-title {
+    font-size: 1rem;
   }
   .ballot-date-item {
     flex-direction: column;
@@ -7274,17 +7443,95 @@ button.election-card {
   }
   .ballot-date-value { text-align: left; }
   .candidate-modal {
-    max-height: 90vh;
-    padding: 1rem;
-    margin: 0.5rem;
+    max-height: 95vh;
+    padding: 0.75rem;
+    margin: 0;
+    border-radius: 0;
+    max-width: 100vw;
+  }
+  .candidate-modal-overlay {
+    padding: 0;
+    align-items: flex-end;
   }
   .candidate-modal-name {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
-  .ballot-proposal-title-row {
+  .candidate-modal-role {
+    font-size: 0.72rem;
+  }
+  .scorecard-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3rem;
+  }
+  .scorecard-item-label {
+    font-size: 0.65rem;
+  }
+  .ballot-race {
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+  }
+  .ballot-race-header {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
+    gap: 0.2rem;
+  }
+  .ballot-race-office {
+    font-size: 0.78rem;
+  }
+  .ballot-candidate {
+    padding: 0.45rem 0.5rem;
+  }
+  .ballot-candidate-name {
+    font-size: 0.74rem;
+    flex-wrap: wrap;
+  }
+  .ballot-candidate-detail-btn {
+    padding: 0 0.35rem;
+  }
+  .ballot-jump-nav {
+    gap: 0.2rem;
+  }
+  .ballot-jump-nav button {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.58rem;
+  }
+  .ballot-filter-tab {
+    padding: 0.3rem 0.25rem;
+    font-size: 0.6rem;
+  }
+  .ballot-section-title {
+    font-size: 0.8rem;
+  }
+  .ballot-proposal-name {
+    font-size: 0.78rem;
+  }
+  .ballot-proposal-recommendation {
+    font-size: 0.6rem;
+    padding: 0.3rem 0.5rem;
+  }
+  .ballot-resource-card {
+    padding: 0.6rem;
+  }
+  .ballot-resource-label {
+    font-size: 0.65rem;
+  }
+  .ballot-polling-detail {
+    font-size: 0.72rem;
+  }
+  .ballot-elections-link {
+    font-size: 0.68rem;
+    padding: 0.3rem 0.6rem;
+  }
+  .scorecard-popup {
+    max-height: 90vh;
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+  .scorecard-popup-grade {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+  .scorecard-popup-title {
+    font-size: 0.95rem;
   }
 }
 

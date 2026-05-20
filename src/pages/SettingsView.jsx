@@ -339,8 +339,8 @@ export default function SettingsView() {
             <p>On the Elections page, click the bell icon next to any upcoming election to set a reminder. You will receive a browser notification 7 days and 1 day before the election. Make sure browser notifications are enabled in the Notifications section above.</p>
           </FaqItem>
 
-          <FaqItem question="Is my data stored securely?">
-            <p>All your data is stored locally in your browser using localStorage. Nothing is sent to any server. You can clear all data at any time from the Data Management section above.</p>
+          <FaqItem question="How can I manage my data?">
+            <p>You can clear all saved data at any time from the Data Management section above. Your ballot selections and preferences are stored so you can pick up where you left off.</p>
           </FaqItem>
         </div>
       </section>
