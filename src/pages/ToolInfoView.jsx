@@ -128,47 +128,6 @@ const TOOLS = {
     ],
     cta: 'Explore Founding Documents',
   },
-  community: {
-    name: 'Community Pulse',
-    tagline: 'See how fellow conservative voters are leaning.',
-    status: 'live',
-    hero: 'Aggregated, anonymous insights from values-driven voters who\'ve done their research.',
-    description:
-      'Community Pulse gives you a window into how other conservative, faith-minded voters are thinking. See aggregated, anonymous data on which candidates are gaining traction among our community, how support breaks down by race, and which contests are the most competitive. This isn\'t a mainstream media poll — it\'s real data from real values-driven voters who\'ve done the research and made their picks. Use it as one more data point in your own decision-making.',
-    features: [
-      {
-        title: 'Candidate Popularity',
-        desc: 'See which candidates are most selected by our values-driven community in each race. Understand who\'s gaining traction among conservative voters.',
-        icon: 'chart',
-      },
-      {
-        title: 'Party Breakdown',
-        desc: 'View how selections break down by party across all races. See the overall lean of the community and where crossover support exists.',
-        icon: 'party',
-      },
-      {
-        title: 'Race-by-Race Data',
-        desc: 'Drill into individual races to see detailed selection data. From governor to county commissioner, see how fellow voters are planning their ballots at every level.',
-        icon: 'layers',
-      },
-      {
-        title: 'State Filtering',
-        desc: 'Filter community data by state to see regional trends. As we expand beyond Michigan, compare how different areas are leaning.',
-        icon: 'filter',
-      },
-      {
-        title: 'Anonymous & Aggregated',
-        desc: 'All data is fully anonymous and aggregated. No individual votes are ever shared. Your ballot plan is always private — community data is about trends, not individuals.',
-        icon: 'lock',
-      },
-      {
-        title: 'Real-Time Updates',
-        desc: 'Community data updates as users make their selections. Watch trends shift as election day approaches and more voters do their research.',
-        icon: 'live',
-      },
-    ],
-    cta: 'See Community Pulse',
-  },
   analytics: {
     name: 'Alignment Analytics',
     tagline: 'Data-driven insights into your representation.',
@@ -263,7 +222,7 @@ export default function ToolInfoView() {
   const handleCTA = () => {
     if (user) {
       // Logged in → go to the tool
-      const routes = { ballot: '/', reps: '/my-reps', founding: '/founding', community: '/community', analytics: '/analytics' }
+      const routes = { ballot: '/', reps: '/my-reps', founding: '/founding', analytics: '/analytics' }
       navigate(routes[toolId] || '/')
     } else {
       setAuthOpen(true)

@@ -15,7 +15,6 @@ const ElectionsView = React.lazy(() => import('./pages/ElectionsView'))
 const FoundingView = React.lazy(() => import('./pages/FoundingView'))
 const AnalyticsView = React.lazy(() => import('./pages/AnalyticsView'))
 const BallotView = React.lazy(() => import('./pages/BallotView'))
-const CommunityView = React.lazy(() => import('./pages/CommunityView'))
 const SettingsView = React.lazy(() => import('./pages/SettingsView'))
 const ProfileView = React.lazy(() => import('./pages/ProfileView'))
 const PrivacyView = React.lazy(() => import('./pages/PrivacyView'))
@@ -59,7 +58,7 @@ export default function App() {
               <Route path="register" element={<Navigate to="/elections" replace />} />
               <Route path="founding" element={<FoundingView />} />
               <Route path="analytics" element={<AnalyticsView />} />
-              <Route path="community" element={<CommunityView />} />
+              <Route path="community" element={<Navigate to="/" replace />} />
               <Route path="settings" element={<SettingsView />} />
               <Route path="profile" element={<ProfileView />} />
               <Route path="documents" element={<Navigate to="/founding" replace />} />
