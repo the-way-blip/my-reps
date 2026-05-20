@@ -4,14 +4,14 @@ import { supabase } from '../lib/supabase'
 import { syncUserToGHL } from '../services/ghlService'
 
 /**
- * Handles the auth callback from Supabase email confirmation / password reset / OAuth.
+ * Handles the auth callback from Supabase email confirmation / OAuth.
  *
- * When a user clicks a confirmation link in their email, Supabase redirects here
- * with either:
- *   - A `code` query param (PKCE flow) → needs exchangeCodeForSession
- *   - Hash fragments with access_token/refresh_token (implicit flow) → handled by onAuthStateChange
+ * With implicit flow, Supabase redirects here with hash fragments containing
+ * access_token/refresh_token. The onAuthStateChange listener in AuthContext
+ * picks these up automatically via detectSessionInUrl.
  *
- * After processing, the user is redirected to the home page (or /settings for password resets).
+ * This view waits for the session to be established, syncs new OAuth users
+ * to GHL, then redirects to the appropriate page.
  */
 export default function AuthCallbackView() {
   const navigate = useNavigate()
@@ -26,7 +26,6 @@ export default function AuthCallbackView() {
         }
 
         const url = new URL(window.location.href)
-        const code = url.searchParams.get('code')
         const errorParam = url.searchParams.get('error')
         const errorDescription = url.searchParams.get('error_description')
 
@@ -36,67 +35,46 @@ export default function AuthCallbackView() {
           return
         }
 
-        // PKCE flow: exchange the code for a session
-        if (code) {
-          const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code)
-          if (exchangeError) {
-            setError(exchangeError.message)
-            return
-          }
-        }
-
-        // Check if we have hash fragments (implicit flow / magic link)
-        // onAuthStateChange in AuthContext handles this automatically,
-        // but we still need to wait for it to process
+        // Check for recovery type (password reset)
         const hashParams = new URLSearchParams(window.location.hash.substring(1))
-        const accessToken = hashParams.get('access_token')
         const type = hashParams.get('type') || url.searchParams.get('type')
 
-        // If this is a password recovery, redirect to settings
         if (type === 'recovery') {
           navigate('/settings', { replace: true })
           return
         }
 
-        // If we had a code or access token, session is now established
-        // Check if this is a new OAuth user and sync to GHL
-        if (code || accessToken) {
+        // Wait briefly for onAuthStateChange to process hash fragments
+        await new Promise((resolve) => setTimeout(resolve, 500))
+
+        // Check if session was established
+        const { data: { session } } = await supabase.auth.getSession()
+
+        if (session?.user) {
+          // Check if this is a new OAuth user and sync to GHL
           try {
-            const { data: { session: currentSession } } = await supabase.auth.getSession()
-            const oauthUser = currentSession?.user
-            if (oauthUser) {
-              const createdAt = new Date(oauthUser.created_at)
-              const isNewUser = (Date.now() - createdAt.getTime()) < 120000 // within 2 min
-              if (isNewUser) {
-                const fullName = oauthUser.user_metadata?.full_name || oauthUser.user_metadata?.name || ''
-                syncUserToGHL({
-                  email: oauthUser.email || '',
-                  name: fullName,
-                  phone: oauthUser.user_metadata?.phone || '',
-                  state: '',
-                  zipCode: '',
-                }).catch(() => {}) // fire-and-forget
-              }
+            const createdAt = new Date(session.user.created_at)
+            const isNewUser = (Date.now() - createdAt.getTime()) < 120000 // within 2 min
+            if (isNewUser && session.user.app_metadata?.provider !== 'email') {
+              const fullName = session.user.user_metadata?.full_name || session.user.user_metadata?.name || ''
+              syncUserToGHL({
+                email: session.user.email || '',
+                name: fullName,
+                phone: session.user.user_metadata?.phone || '',
+                state: '',
+                zipCode: '',
+              }).catch(() => {}) // fire-and-forget
             }
           } catch (syncErr) {
-            console.warn('OAuth GHL sync check failed:', syncErr)
+            console.warn('GHL sync check failed:', syncErr)
           }
 
-          // Small delay to let auth state propagate, then redirect
-          setTimeout(() => {
-            navigate('/', { replace: true })
-          }, 100)
-          return
-        }
-
-        // If no code and no hash, try to get the current session
-        // (user may have already been authenticated)
-        const { data: { session } } = await supabase.auth.getSession()
-        if (session) {
           navigate('/', { replace: true })
         } else {
-          // No auth params and no session — just go home
-          navigate('/', { replace: true })
+          // No session yet — give it one more moment, then redirect anyway
+          setTimeout(() => {
+            navigate('/', { replace: true })
+          }, 1000)
         }
       } catch (err) {
         console.error('Auth callback error:', err)
