@@ -31,6 +31,7 @@ export default function LandingView() {
       <header className="landing-header">
         <div className="landing-header-inner">
           <div className="landing-brand">
+            <img src="/logo-icon.png" alt="" className="landing-header-logo" />
             <span className="landing-parent-brand">Of For <span className="landing-ampersand">&amp;</span> By The People</span>
           </div>
           <button className="landing-signin-btn" onClick={openSignIn}>
@@ -42,9 +43,7 @@ export default function LandingView() {
       {/* Hero — Organization */}
       <section className="landing-hero">
         <div className="landing-hero-content landing-hero-centered">
-          <h1 className="landing-headline landing-headline-lg">
-            Of For <span className="landing-ampersand-hero">&amp;</span> By The People
-          </h1>
+          <img src="/logo.png" alt="Of For & By The People" className="landing-hero-logo" />
           <p className="landing-subheadline landing-subheadline-centered">
             Free tools for conservative voters who value faith, the Constitution,
             and limited government. Research candidates, grade your representatives,

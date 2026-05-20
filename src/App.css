@@ -9759,6 +9759,10 @@ select.auth-input {
   align-items: center;
   gap: 0.75rem;
 }
+.landing-header-logo {
+  height: 36px;
+  width: auto;
+}
 .landing-parent-brand {
   font-family: var(--font-heading);
   font-size: 1.2rem;
@@ -9832,6 +9836,12 @@ select.auth-input {
 }
 .landing-headline-lg {
   font-size: 3.2rem;
+}
+.landing-hero-logo {
+  max-width: 340px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
 }
 .landing-ampersand-hero {
   color: var(--accent-gold);
@@ -10366,6 +10376,10 @@ a.landing-tool-card {
   }
   .landing-headline-lg {
     font-size: 2.2rem;
+  }
+  .landing-hero-logo {
+    max-width: 240px;
+    margin-bottom: 1rem;
   }
   .landing-ampersand-hero {
     font-size: 2.5rem;
