@@ -209,7 +209,7 @@ export default function LandingView() {
       <section className="landing-direct-cta">
         <div className="landing-direct-cta-inner">
           <h2>Ready to See Your Ballot?</h2>
-          <p>Join thousands of conservative voters who walk into the polls prepared.</p>
+          <p>Know exactly which candidates align with your values before election day.</p>
           <button className="landing-cta-primary" onClick={openSignUp}>
             Build My Ballot
           </button>
