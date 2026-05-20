@@ -200,6 +200,7 @@ export default function MyRepsView() {
   const [submitting, setSubmitting] = useState(false)
   const [addressError, setAddressError] = useState(null)
   const resultsRef = useRef(null)
+  const justSubmittedRef = useRef(false)
 
   // Filter reps to only those representing the user's specific districts
   const federalReps = (() => {
@@ -308,12 +309,18 @@ export default function MyRepsView() {
     countyReps, cityReps, townshipReps, villageReps, schoolReps,
   ].filter(g => g.length > 0).length
 
-  // Scroll to results when data finishes loading
+  // Scroll to results only after a fresh address submission (not on tab navigation)
   useEffect(() => {
-    if (hasData && !isLoading && userAddress && resultsRef.current) {
+    if (hasData && !isLoading && userAddress && resultsRef.current && justSubmittedRef.current) {
+      justSubmittedRef.current = false
       resultsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
   }, [hasData, isLoading, userAddress])
+
+  // Scroll to top when navigating to this page
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   async function handleSubmit(e) {
     e.preventDefault()
@@ -331,6 +338,7 @@ export default function MyRepsView() {
 
     setAddressError(null)
     setSubmitting(true)
+    justSubmittedRef.current = true
     setUserAddress(addr)
 
     try {

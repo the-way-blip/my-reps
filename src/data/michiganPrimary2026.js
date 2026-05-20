@@ -34,7 +34,14 @@ export const PRIMARY_INFO = {
 //
 // EVIDENCE SOURCES (applied equally to ALL candidates):
 //   1. Legislative voting record (if applicable)
-//   2. Interest group scores & endorsements (RTL, NRA, AFP, Chamber, Farm Bureau)
+//   2. Interest group scorecards — 30+ organizations tracked in ratingSources.js:
+//      - General:    Heritage Action, ACU, Conservative Review, Freedom Index
+//      - Pro-Life:   SBA Pro-Life America, NRLC, Right to Life of MI, Students for Life
+//      - Marriage:   FRC Action, Family Policy Alliance, MI Family Forum, Eagle Forum, CWA
+//      - 2A:         NRA-PVF, GOA, NAGR, CCRKBA
+//      - Religious:  iVoterGuide, Faith & Freedom, CatholicVote, Liberty Counsel
+//      - Fiscal:     Club for Growth, AFP, NTU, ATR, CCAGW, NFIB
+//      - Immigration:NumbersUSA, FAIR
 //   3. Candidate questionnaire responses (RTL, NRA-PVF, AFP, party questionnaires)
 //   4. Campaign website issue positions
 //   5. Public statements (debates, forums, interviews, news coverage)
@@ -43,6 +50,7 @@ export const PRIMARY_INFO = {
 //   8. Professional background & affiliations
 //   9. Endorsements received (who backs them tells you where they stand)
 //  10. Prior campaign platforms (even if they lost)
+//  11. External rating data (see externalRatings.js for structured org ratings)
 //
 // GRADING NOTES:
 // - Voting record is weighted most heavily where available

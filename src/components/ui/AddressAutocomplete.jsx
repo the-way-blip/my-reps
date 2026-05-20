@@ -17,7 +17,7 @@ async function fetchSuggestions(query) {
     const res = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, {
       headers: { 'Accept': 'application/json' },
     })
-    if (!res.ok) return []
+    if (!res.ok) throw new Error(`Nominatim ${res.status}`)
     const data = await res.json()
     return data
       .filter(r => {
@@ -77,6 +77,8 @@ export default function AddressAutocomplete({
   const [suggestions, setSuggestions] = useState([])
   const [open, setOpen] = useState(false)
   const [activeIndex, setActiveIndex] = useState(-1)
+  const [noResults, setNoResults] = useState(false)
+  const [fetchError, setFetchError] = useState(false)
   const debounceRef = useRef(null)
   const wrapRef = useRef(null)
 
@@ -96,13 +98,25 @@ export default function AddressAutocomplete({
     if (query.length < 3) {
       setSuggestions([])
       setOpen(false)
+      setNoResults(false)
+      setFetchError(false)
       return
     }
     debounceRef.current = setTimeout(() => {
       fetchSuggestions(query).then(results => {
         setSuggestions(results)
         setActiveIndex(-1)
-        if (results.length > 0) setOpen(true)
+        setFetchError(false)
+        if (results.length > 0) {
+          setOpen(true)
+          setNoResults(false)
+        } else {
+          setOpen(false)
+          setNoResults(true)
+        }
+      }).catch(() => {
+        setFetchError(true)
+        setNoResults(false)
       })
     }, 300)
   }, [])
@@ -174,6 +188,16 @@ export default function AddressAutocomplete({
             </li>
           ))}
         </ul>
+      )}
+      {noResults && !open && value.length >= 3 && (
+        <div className="address-no-results" role="status">
+          No addresses found. Try entering your full street address with city and state.
+        </div>
+      )}
+      {fetchError && (
+        <div className="address-fetch-error" role="alert">
+          Address lookup is temporarily unavailable. You can still type your full address and submit.
+        </div>
       )}
     </div>
   )

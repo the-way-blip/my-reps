@@ -51,9 +51,9 @@ export default function App() {
 
             {/* Protected routes — require sign-in */}
             <Route element={<ProtectedRoute><AppLayout /></ProtectedRoute>}>
-              <Route index element={<BallotView />} />
-              <Route path="ballot" element={<BallotView />} />
+              <Route index element={<HomeView />} />
               <Route path="home" element={<HomeView />} />
+              <Route path="ballot" element={<BallotView />} />
               <Route path="explore" element={<RepsView />} />
               <Route path="my-reps" element={<MyRepsView />} />
               <Route path="elections" element={<Navigate to="/" replace />} />

@@ -22,7 +22,7 @@ function drawScorecard(canvas, member, alignment, photoUrl) {
   // App name
   ctx.fillStyle = '#94a3b8'
   ctx.font = '600 13px system-ui, sans-serif'
-  ctx.fillText('Build My Ballot — Constitutional Scorecard', 20, 30)
+  ctx.fillText('Of For & By The People — Scorecard', 20, 30)
 
   // Member name
   ctx.fillStyle = '#f8fafc'
@@ -109,7 +109,7 @@ function drawScorecard(canvas, member, alignment, photoUrl) {
   // Branding
   ctx.fillStyle = '#475569'
   ctx.textAlign = 'right'
-  ctx.fillText('buildmyballot.com', W - 20, H - 20)
+  ctx.fillText('offorandbythepeople.com', W - 20, H - 20)
   ctx.textAlign = 'left'
 }
 

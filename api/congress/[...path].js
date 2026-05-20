@@ -1,9 +1,26 @@
 // Vercel serverless proxy for Congress.gov API (avoids CORS/403 issues)
+
+const ALLOWED_ORIGINS = [
+  'https://www.offorandbythepeople.com',
+  'https://offorandbythepeople.com',
+  'https://my-reps-pi.vercel.app',
+]
+
+function getCorsOrigin(req) {
+  const origin = req.headers.origin || ''
+  if (ALLOWED_ORIGINS.includes(origin)) return origin
+  if (origin.startsWith('http://localhost:')) return origin
+  return ALLOWED_ORIGINS[0]
+}
+
 export default async function handler(req, res) {
+  const corsOrigin = getCorsOrigin(req)
+
   if (req.method === 'OPTIONS') {
-    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Origin', corsOrigin)
     res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS')
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
+    res.setHeader('Vary', 'Origin')
     return res.status(200).end()
   }
 
@@ -23,7 +40,8 @@ export default async function handler(req, res) {
   // Add API key server-side
   const apiKey = (process.env.VITE_CONGRESS_API_KEY || '').trim()
   if (!apiKey) {
-    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Origin', corsOrigin)
+    res.setHeader('Vary', 'Origin')
     return res.status(500).json({ error: 'Congress API key not configured' })
   }
   params.set('api_key', apiKey)
@@ -35,11 +53,13 @@ export default async function handler(req, res) {
     const response = await fetch(url)
     const data = await response.text()
     res.setHeader('Content-Type', response.headers.get('content-type') || 'application/json')
-    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Origin', corsOrigin)
+    res.setHeader('Vary', 'Origin')
     res.setHeader('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=600')
     res.status(response.status).send(data)
   } catch (err) {
-    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Origin', corsOrigin)
+    res.setHeader('Vary', 'Origin')
     res.status(500).json({ error: 'Proxy error', message: err.message })
   }
 }

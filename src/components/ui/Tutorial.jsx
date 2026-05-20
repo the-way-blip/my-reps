@@ -6,7 +6,7 @@ const STEPS = [
   {
     target: '.ballot-address-input, .address-autocomplete input, input[placeholder*="address"]',
     title: 'Enter Your Address',
-    text: 'Type your Michigan address here to find all the races and candidates on your primary ballot.',
+    text: 'Type your address here to find all the races and candidates on your ballot.',
     position: 'bottom',
   },
   {
@@ -17,7 +17,7 @@ const STEPS = [
   },
   {
     target: 'nav a[href="/"], nav a[href="/ballot"]',
-    title: 'Build My Ballot',
+    title: 'Of For & By The People',
     text: 'This is your home base — build your personalized ballot plan with candidate picks for every race.',
     position: 'top',
   },

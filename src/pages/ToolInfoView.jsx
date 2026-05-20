@@ -11,7 +11,7 @@ const TOOLS = {
     status: 'live',
     hero: 'Every race on your ballot, graded against Christian and Constitutional values — so you walk in prepared.',
     description:
-      'Build My Ballot takes the guesswork out of voting for conservative Christians. Enter your Michigan address and instantly see every race on your upcoming ballot — from Governor and U.S. Senate down to county commissioners and local proposals. Every candidate is graded on how well they align with Christian principles and Constitutional values like religious liberty, the sanctity of life, Second Amendment rights, and limited government. Pick your candidates, save your choices, and print a ballot plan to bring with you on election day.',
+      'The Build My Ballot tool takes the guesswork out of voting for conservative Christians. Enter your address and instantly see every race on your upcoming ballot — from Governor and U.S. Senate down to county commissioners and local proposals. Every candidate is graded on how well they align with Christian principles and Constitutional values like religious liberty, the sanctity of life, Second Amendment rights, and limited government. Pick your candidates, save your choices, and print a ballot plan to bring with you on election day.',
     features: [
       {
         title: 'Address-Based Ballot Lookup',

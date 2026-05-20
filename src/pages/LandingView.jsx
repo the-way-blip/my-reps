@@ -108,6 +108,43 @@ export default function LandingView() {
         </div>
       </section>
 
+      {/* Why This Exists */}
+      <section className="landing-goals">
+        <h2 className="landing-section-title">Why We Built This</h2>
+        <p className="landing-section-subtitle">
+          Three problems we're solving for conservative voters.
+        </p>
+        <div className="landing-goals-grid">
+          <div className="landing-goal-card">
+            <div className="landing-goal-number">1</div>
+            <h3>More Voters in Primaries</h3>
+            <p>
+              Your vote has the most impact in a primary election — turnout is low,
+              candidates are many, and party splits mean each ballot carries outsized
+              weight. Yet most people skip primaries. We want to change that.
+            </p>
+          </div>
+          <div className="landing-goal-card">
+            <div className="landing-goal-number">2</div>
+            <h3>Vote Informed, Not Blind</h3>
+            <p>
+              People skip elections because they don't know who the candidates are
+              or where they stand. Nobody wants to cast a vote for someone they'd
+              never support. We give you the research so you can walk in confident.
+            </p>
+          </div>
+          <div className="landing-goal-card">
+            <div className="landing-goal-number">3</div>
+            <h3>Know &amp; Hold Reps Accountable</h3>
+            <p>
+              Most people can't name their state representative, let alone contact them.
+              We show you exactly who represents you, what they're doing,
+              and how to reach them — so they answer to you.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Tools */}
       <section className="landing-tools">
         <h2 className="landing-section-title">Our Tools</h2>
@@ -214,6 +251,10 @@ export default function LandingView() {
       <footer className="landing-footer">
         <div className="landing-footer-inner">
           <p>&copy; {new Date().getFullYear()} Of For &amp; By The People. All rights reserved.</p>
+          <p className="landing-footer-disclaimer">
+            Not paid for by any candidate or candidate's committee. Candidate grades are
+            editorial opinions and not endorsed by any government entity or political party.
+          </p>
           <div className="landing-footer-links">
             <a href="/privacy">Privacy Policy</a>
             <a href="/terms">Terms of Service</a>

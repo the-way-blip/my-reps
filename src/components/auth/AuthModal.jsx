@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useAuth } from '../../contexts/AuthContext'
 import { syncUserToGHL } from '../../services/ghlService'
+import useFocusTrap from '../../hooks/useFocusTrap'
 
 const VIEWS = { SIGN_IN: 'signin', SIGN_UP: 'signup', PHONE: 'phone', FORGOT: 'forgot' }
 
@@ -30,6 +31,7 @@ export default function AuthModal({ open, onClose, initialView }) {
   const [success, setSuccess] = useState('')
   const [loading, setLoading] = useState(false)
   const modalRef = useRef(null)
+  const focusTrapRef = useFocusTrap(open)
 
   // Form fields
   const [email, setEmail] = useState('')
@@ -214,7 +216,7 @@ export default function AuthModal({ open, onClose, initialView }) {
     <div className="auth-overlay" onClick={onClose}>
       <div
         className="auth-card"
-        ref={modalRef}
+        ref={(node) => { modalRef.current = node; focusTrapRef.current = node }}
         tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
         role="dialog"
@@ -467,7 +469,11 @@ export default function AuthModal({ open, onClose, initialView }) {
                 checked={agreedTerms}
                 onChange={(e) => setAgreedTerms(e.target.checked)}
               />
-              I agree to the Terms of Service and Privacy Policy
+              I agree to the{' '}
+              <a href="/terms" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)' }}>Terms of Service</a>
+              {' '}and{' '}
+              <a href="/privacy" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)' }}>Privacy Policy</a>
+              , including receiving civic engagement communications
             </label>
             <button type="submit" className="auth-btn auth-btn-primary" disabled={loading}>
               {loading ? 'Creating account...' : 'Create Account'}

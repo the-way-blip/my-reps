@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
+import useFocusTrap from '../hooks/useFocusTrap'
 import { getMemberDetail, getMemberLegislation, getMemberCosponsoredLegislation } from '../services/congressApi'
 import useCampaignFinance from '../hooks/useCampaignFinance'
 import VotingRecord from './VotingRecord'
@@ -49,6 +50,7 @@ export default function MemberDetail({ member, onClose }) {
   const [error, setError] = useState(null)
   const panelRef = useRef(null)
   const previousFocusRef = useRef(null)
+  const focusTrapRef = useFocusTrap(true)
 
   const stateLevel = isStateLeg(member)
   const isCivic = member.source === 'civic'
@@ -208,7 +210,7 @@ export default function MemberDetail({ member, onClose }) {
   return (
     <>
       <div className="detail-overlay" onClick={onClose} aria-hidden="true" />
-      <div className="detail-panel" role="dialog" aria-modal="true" aria-label={`Details for ${member.name}`} ref={panelRef}>
+      <div className="detail-panel" role="dialog" aria-modal="true" aria-label={`Details for ${member.name}`} ref={(node) => { panelRef.current = node; focusTrapRef.current = node }}>
         <div className="detail-top-bar">
           <ShareButton
             title={member.name}

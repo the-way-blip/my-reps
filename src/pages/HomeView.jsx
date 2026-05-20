@@ -24,7 +24,7 @@ function daysUntil(dateStr) {
 }
 
 // ── Address Entry Hero ──
-function AddressHero({ onSubmit, loading }) {
+function AddressHero({ onSubmit, loading, error }) {
   const [input, setInput] = useState('')
 
   const handleSubmit = (e) => {
@@ -66,6 +66,14 @@ function AddressHero({ onSubmit, loading }) {
           )}
         </button>
       </form>
+      {error && (
+        <div className="home-hero-error" role="alert">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+            <circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" />
+          </svg>
+          {error}
+        </div>
+      )}
       <div className="home-hero-countdown">
         <span className="home-countdown-num">{daysUntil('2026-08-04')}</span>
         <span className="home-countdown-label">days until the August 4 primary</span>
@@ -103,6 +111,22 @@ function QuickCard({ icon, title, desc, to, href, accent, badge }) {
     <Link to={to} className="home-card">
       {inner}
     </Link>
+  )
+}
+
+// ── Collapsible Section ──
+function CollapsibleSection({ title, defaultOpen = false, children }) {
+  const [open, setOpen] = useState(defaultOpen)
+  return (
+    <div className={`home-collapsible ${open ? 'home-collapsible-open' : ''}`}>
+      <button className="home-collapsible-toggle" onClick={() => setOpen(o => !o)} aria-expanded={open}>
+        <span>{title}</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16" className="home-collapsible-chevron">
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
+      {open && <div className="home-collapsible-content">{children}</div>}
+    </div>
   )
 }
 
@@ -254,9 +278,8 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
         />
       </div>
 
-      {/* Key dates */}
-      <div className="home-dates">
-        <h3 className="home-dates-title">Key Dates — August 2026 Primary</h3>
+      {/* Key dates — collapsible */}
+      <CollapsibleSection title="Key Dates — August 2026 Primary" defaultOpen={primaryDays <= 60}>
         <div className="home-dates-grid">
           <div className="home-date-item">
             <span className="home-date-label">Registration Deadline</span>
@@ -275,30 +298,32 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
             <span className="home-date-value">{PRIMARY_INFO.date}</span>
           </div>
         </div>
-      </div>
+      </CollapsibleSection>
 
-      {/* Quick links */}
-      <div className="home-quick-links">
-        <a href={MI_SOS_REGISTER} target="_blank" rel="noopener noreferrer" className="home-quick-link">
-          Register to Vote
-        </a>
-        <a href={MI_SOS_ABSENTEE} target="_blank" rel="noopener noreferrer" className="home-quick-link">
-          Request Absentee Ballot
-        </a>
-        <a href={MI_SOS_SAMPLE_BALLOT} target="_blank" rel="noopener noreferrer" className="home-quick-link">
-          Official Sample Ballot
-        </a>
-        <Link to="/elections" className="home-quick-link">
-          Full Election Calendar
-        </Link>
-      </div>
+      {/* Quick links — collapsible */}
+      <CollapsibleSection title="Voter Resources">
+        <div className="home-quick-links">
+          <a href={MI_SOS_REGISTER} target="_blank" rel="noopener noreferrer" className="home-quick-link">
+            Register to Vote
+          </a>
+          <a href={MI_SOS_ABSENTEE} target="_blank" rel="noopener noreferrer" className="home-quick-link">
+            Request Absentee Ballot
+          </a>
+          <a href={MI_SOS_SAMPLE_BALLOT} target="_blank" rel="noopener noreferrer" className="home-quick-link">
+            Official Sample Ballot
+          </a>
+          <Link to="/elections" className="home-quick-link">
+            Full Election Calendar
+          </Link>
+        </div>
+      </CollapsibleSection>
     </div>
   )
 }
 
 // ── Main HomeView ──
 export default function HomeView() {
-  usePageTitle('Build My Ballot — Michigan', 'Your Michigan voter hub — reps, ballot, polling place, and registration')
+  usePageTitle('Of For & By The People — Michigan', 'Your Michigan voter hub — reps, ballot, polling place, and registration')
 
   const navigate = useNavigate()
   const {
@@ -310,6 +335,7 @@ export default function HomeView() {
   const [loading, setLoading] = useState(false)
   const [pollingData, setPollingData] = useState(null)
   const [showDashboard, setShowDashboard] = useState(!!userAddress)
+  const [addressError, setAddressError] = useState('')
 
   // Count total reps — only YOUR representatives, not all Michigan legislators
   const repsCount = useMemo(() => {
@@ -374,6 +400,7 @@ export default function HomeView() {
 
   const handleAddressSubmit = async (address) => {
     setLoading(true)
+    setAddressError('')
     setUserAddress(address)
 
     try {
@@ -383,10 +410,15 @@ export default function HomeView() {
         if (state) {
           handleSearchDistrict(state, geo.district, geo.matchedAddress, geo)
           setUserAddress(geo.matchedAddress || address)
+        } else {
+          setAddressError('We could not find your voting districts. Try entering a more specific address with street number, city, and state.')
         }
+      } else {
+        setAddressError('We could not find your voting districts. Try entering a more specific address with street number, city, and state.')
       }
-    } catch {
-      // Geocoding failed — still show dashboard with what we have
+    } catch (err) {
+      console.warn('Geocoding error:', err.message)
+      setAddressError('Something went wrong looking up your address. Please try again or enter a different address.')
     }
 
     setShowDashboard(true)
@@ -401,7 +433,7 @@ export default function HomeView() {
   return (
     <div className="page-container home-page">
       {!showDashboard ? (
-        <AddressHero onSubmit={handleAddressSubmit} loading={loading} />
+        <AddressHero onSubmit={handleAddressSubmit} loading={loading} error={addressError} />
       ) : (
         <Dashboard
           address={userAddress || ''}

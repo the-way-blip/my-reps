@@ -51,8 +51,8 @@ function generateIcsContent(election) {
   const endDate = formatIcsDate(nextDay)
 
   const desc = election.registrationDeadline
-    ? `Remember to vote!\\nRegistration deadline: ${election.registrationDeadline}\\nEarly voting: ${election.earlyVotingStart || 'Check your state'}\\n\\nPlan your ballot at buildmyballot.com`
-    : 'Remember to vote! Plan your ballot at buildmyballot.com'
+    ? `Remember to vote!\\nRegistration deadline: ${election.registrationDeadline}\\nEarly voting: ${election.earlyVotingStart || 'Check your state'}\\n\\nPlan your ballot at offorandbythepeople.com`
+    : 'Remember to vote! Plan your ballot at offorandbythepeople.com'
 
   return [
     'BEGIN:VCALENDAR',
@@ -1093,7 +1093,7 @@ export default function ElectionsView() {
               <div className="page-share">
                 <ShareButton
                   title="Michigan 2026 Races"
-                  text="See the 2026 candidates running in Michigan — Build My Ballot"
+                  text="See the 2026 candidates running in Michigan — Of For & By The People"
                 />
               </div>
             )}
@@ -1262,7 +1262,7 @@ export default function ElectionsView() {
               <div className="page-share">
                 <ShareButton
                   title={`Elections in ${selectedState.name}`}
-                  text={`Check out election information for ${selectedState.name} on Build My Ballot`}
+                  text={`Check out election information for ${selectedState.name} on Of For & By The People`}
                 />
               </div>
             )}

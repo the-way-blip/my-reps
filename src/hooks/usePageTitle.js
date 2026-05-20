@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-const BASE = 'Build My Ballot'
+const BASE = 'Of For & By The People'
 const DEFAULT_DESCRIPTION =
   'Walk into the voting booth prepared. Research every race on your ballot and build a personalized plan before election day.'
 

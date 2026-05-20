@@ -31,7 +31,7 @@ function partyAbbr(party) {
 const officeMap = Object.fromEntries(DEFAULT_OFFICES.map(o => [o.id, o]))
 
 export default function CommunityView() {
-  usePageTitle('Community Pulse', 'See how Build My Ballot users are planning to vote')
+  usePageTitle('Community Pulse', 'See how Of For & By The People users are planning to vote')
 
   const { selectedState } = useApp()
   const [filterState, setFilterState] = useState(selectedState?.code || '')
@@ -110,7 +110,7 @@ export default function CommunityView() {
       <div className="community-hero">
         <h2 className="page-title community-title">Community Pulse</h2>
         <p className="community-subtitle">
-          See how Build My Ballot users across {stateName} are planning to vote
+          See how Of For & By The People users across {stateName} are planning to vote
         </p>
       </div>
 

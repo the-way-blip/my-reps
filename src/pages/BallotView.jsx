@@ -19,6 +19,9 @@ import {
 // import { getNovemberLocalRaces } from '../data/michiganNovember2026'
 import generateBallotPDF from '../utils/generateBallotPDF'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
+import useFocusTrap from '../hooks/useFocusTrap'
+import { getRatingsForCandidate, getRatingsForIssue } from '../data/externalRatings'
+import { getSource, RATING_SOURCES, ISSUE_AREA_LABELS, RATING_TYPE_LABELS, RATING_TYPE_DESCRIPTIONS } from '../data/ratingSources'
 import { getVoterInfo } from '../services/googleCivicApi'
 import { geocodeToDistrict } from '../services/districtService'
 import { MI_ELECTIONS } from '../data/electionData'
@@ -65,7 +68,7 @@ function AddressStep({ address, onSubmit }) {
       </div>
       <h3 className="ballot-step-title">Where Do You Vote?</h3>
       <p className="ballot-step-desc">
-        Enter your Michigan address to see the exact races and candidates on your primary ballot.
+        Enter your address to see the exact races and candidates on your ballot.
       </p>
       <form onSubmit={handleSubmit} className="ballot-address-form">
         <AddressAutocomplete
@@ -195,6 +198,8 @@ function GradeBadge({ grade, size = 'sm', onClick, showUnrated = false }) {
     )
   }
   const color = getGradeColor(grade)
+  const gradeLabels = { A: 'Excellent', B: 'Good', C: 'Mixed', D: 'Poor', F: 'Failing' }
+  const gradeLabel = gradeLabels[grade?.[0]] || grade
   const sizes = {
     sm: { width: '1.35rem', height: '1.35rem', fontSize: '0.65rem' },
     md: { width: '1.8rem', height: '1.8rem', fontSize: '0.85rem' },
@@ -203,7 +208,7 @@ function GradeBadge({ grade, size = 'sm', onClick, showUnrated = false }) {
   const s = sizes[size] || sizes.sm
   return (
     <span
-      className="grade-badge"
+      className={`grade-badge grade-badge-${(grade?.[0] || '').toLowerCase()}`}
       style={{
         background: color,
         width: s.width,
@@ -211,7 +216,9 @@ function GradeBadge({ grade, size = 'sm', onClick, showUnrated = false }) {
         fontSize: s.fontSize,
       }}
       onClick={onClick}
-      title={`Constitutional Alignment: ${grade}`}
+      title={`Constitutional Alignment: ${grade} (${gradeLabel})`}
+      aria-label={`Grade ${grade}: ${gradeLabel} constitutional alignment`}
+      role="img"
     >
       {grade}
     </span>
@@ -229,9 +236,34 @@ const ISSUE_LABELS = {
   fiscal: { label: 'Fiscal Responsibility', icon: '💰' },
 }
 
+// ── External Rating Badge ──
+
+function ExternalRatingBadge({ rating }) {
+  const source = getSource(rating.sourceId)
+  if (!source) return null
+
+  const typeLabel = RATING_TYPE_LABELS[rating.type] || rating.type
+  const isPositive = ['A+', 'A', 'A-', 'B+', 'B', '100%', 'Endorsed', 'Board Member', 'Lifetime Member', 'Member', 'Affiliated'].includes(rating.value)
+  const isNegative = ['F', 'D', 'D-', '0%'].includes(rating.value)
+
+  return (
+    <a
+      href={source.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`external-rating-badge ${isPositive ? 'external-rating-positive' : ''} ${isNegative ? 'external-rating-negative' : ''}`}
+      title={`${source.fullName}: ${rating.value} (${typeLabel}, ${rating.period})`}
+    >
+      <span className="external-rating-org">{source.name}</span>
+      <span className="external-rating-value">{rating.value}</span>
+    </a>
+  )
+}
+
 // ── Candidate Detail Modal ──
 
 function CandidateDetailModal({ candidate, onClose }) {
+  const focusTrapRef = useFocusTrap(!!candidate)
   if (!candidate) return null
 
   // Close on escape
@@ -243,7 +275,7 @@ function CandidateDetailModal({ candidate, onClose }) {
 
   return (
     <div className="candidate-modal-overlay" onClick={onClose}>
-      <div className="candidate-modal" onClick={e => e.stopPropagation()} role="dialog" aria-modal="true">
+      <div className="candidate-modal" ref={focusTrapRef} onClick={e => e.stopPropagation()} role="dialog" aria-modal="true">
         <button className="candidate-modal-close" onClick={onClose} aria-label="Close">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="20" height="20">
             <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
@@ -322,6 +354,7 @@ function CandidateDetailModal({ candidate, onClose }) {
               {Object.entries(ISSUE_LABELS).map(([key, { label, icon }]) => {
                 const issueGrade = candidate.positions[key]
                 const justification = candidate.gradeJustifications?.[key]
+                const issueRatings = getRatingsForIssue(candidate.name, key)
                 return (
                   <div key={key} className={`candidate-scorecard-row ${justification ? 'has-justification' : ''}`}>
                     <div className="candidate-scorecard-row-top">
@@ -338,9 +371,31 @@ function CandidateDetailModal({ candidate, onClose }) {
                     {justification && (
                       <p className="candidate-scorecard-justification">{justification}</p>
                     )}
+                    {issueRatings.length > 0 && (
+                      <div className="candidate-scorecard-external">
+                        {issueRatings.map((r, i) => (
+                          <ExternalRatingBadge key={i} rating={r} />
+                        ))}
+                      </div>
+                    )}
                   </div>
                 )
               })}
+            </div>
+          </div>
+        )}
+
+        {/* Organization Ratings Summary */}
+        {getRatingsForCandidate(candidate.name).length > 0 && (
+          <div className="candidate-modal-section">
+            <h4 className="candidate-modal-section-title">Organization Ratings</h4>
+            <p className="candidate-modal-ratings-note">
+              Independent ratings from conservative organizations. Click any badge to visit the source.
+            </p>
+            <div className="candidate-external-ratings">
+              {getRatingsForCandidate(candidate.name).map((r, i) => (
+                <ExternalRatingBadge key={i} rating={r} />
+              ))}
             </div>
           </div>
         )}
@@ -438,8 +493,10 @@ function CandidateDetailModal({ candidate, onClose }) {
 
         {/* Grade methodology note */}
         <div className="candidate-modal-footnote">
-          Grades reflect alignment with constitutional conservative principles across six key issues.
-          Data sourced from voting records, public statements, and campaign platforms.
+          Our grades reflect alignment with constitutional conservative principles across six key issues.
+          Data sourced from voting records, interest group scorecards (Heritage Action, ACU, NRA, SBA Pro-Life,
+          NRLC, FRC, Club for Growth, NumbersUSA, and others), candidate questionnaires, campaign platforms,
+          public statements, signed pledges, and endorsements. See the grade legend for full methodology.
         </div>
       </div>
     </div>
@@ -545,6 +602,43 @@ function GradeLegend() {
               </div>
             ))}
           </div>
+
+          <h5 className="grade-legend-sources-title">Evidence Sources</h5>
+          <p className="grade-legend-sources-intro">
+            Our grades are informed by data from 30+ established conservative organizations. We consult multiple independent sources per issue area to ensure well-rounded assessments:
+          </p>
+          <div className="grade-legend-sources-grid">
+            <div className="grade-legend-source-group">
+              <span className="grade-legend-source-label">Pro-Life</span>
+              <span className="grade-legend-source-orgs">SBA Pro-Life America, NRLC, Right to Life of Michigan, Students for Life Action, March for Life Action</span>
+            </div>
+            <div className="grade-legend-source-group">
+              <span className="grade-legend-source-label">Marriage & Family</span>
+              <span className="grade-legend-source-orgs">FRC Action, Family Policy Alliance, Michigan Family Forum, Eagle Forum, Concerned Women for America</span>
+            </div>
+            <div className="grade-legend-source-group">
+              <span className="grade-legend-source-label">Religious Liberty</span>
+              <span className="grade-legend-source-orgs">iVoterGuide, Faith & Freedom Coalition, CatholicVote, Liberty Counsel Action</span>
+            </div>
+            <div className="grade-legend-source-group">
+              <span className="grade-legend-source-label">2nd Amendment</span>
+              <span className="grade-legend-source-orgs">NRA-PVF, Gun Owners of America, NAGR, CCRKBA</span>
+            </div>
+            <div className="grade-legend-source-group">
+              <span className="grade-legend-source-label">Limited Gov.</span>
+              <span className="grade-legend-source-orgs">Heritage Action, ACU, Freedom Index, NumbersUSA, FAIR</span>
+            </div>
+            <div className="grade-legend-source-group">
+              <span className="grade-legend-source-label">Fiscal</span>
+              <span className="grade-legend-source-orgs">Club for Growth, AFP, NTU, ATR, CCAGW, NFIB</span>
+            </div>
+          </div>
+
+          <p className="grade-legend-sources-note">
+            We also consult legislative voting records, candidate questionnaire responses, campaign websites,
+            public statements, social media, signed pledges, professional backgrounds, and endorsements.
+            Grades are our editorial assessment — not an average of external scores.
+          </p>
         </div>
       )}
     </div>
@@ -636,48 +730,83 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
         <div className="ballot-candidates">
           {race.candidates.map((c, i) => {
             const isSelected = choice?.name === c.name
-            const hasDetail = c.bio || c.positions || c.website || c.keyPositions || !c.grade
             return (
-              <div key={i} className={`ballot-candidate-row ${isSelected ? 'ballot-candidate-selected' : ''}`}>
-                <button
-                  className={`ballot-candidate ${isSelected ? 'ballot-candidate-selected' : ''} ${
-                    c.status === 'incumbent' ? 'ballot-candidate-incumbent' : ''
-                  }`}
-                  onClick={() => onSelect(race.id, { name: c.name, description: c.description })}
-                >
-                  <span className="ballot-candidate-radio">
-                    {isSelected ? (
-                      <svg viewBox="0 0 24 24" fill="var(--accent-gold)" width="18" height="18">
-                        <circle cx="12" cy="12" r="10" /><path d="M9 12l2 2 4-4" stroke="#000" strokeWidth="2.5" fill="none" />
-                      </svg>
-                    ) : (
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="18" height="18">
-                        <circle cx="12" cy="12" r="9" />
-                      </svg>
-                    )}
-                  </span>
-                  <span className="ballot-candidate-info">
+              <div key={i} className={`ballot-candidate-card ${isSelected ? 'ballot-candidate-selected' : ''} ${
+                c.status === 'incumbent' ? 'ballot-candidate-incumbent' : ''
+              }`}>
+                {/* Top row: radio select + name + grade */}
+                <div className="ballot-candidate-top">
+                  <button
+                    className="ballot-candidate-select-btn"
+                    onClick={() => onSelect(race.id, isSelected ? null : { name: c.name, description: c.description })}
+                    aria-label={isSelected ? `${c.name} selected — click to deselect` : `Select ${c.name}`}
+                  >
+                    <span className="ballot-candidate-radio">
+                      {isSelected ? (
+                        <svg viewBox="0 0 24 24" fill="var(--accent-gold)" width="18" height="18">
+                          <circle cx="12" cy="12" r="10" /><path d="M9 12l2 2 4-4" stroke="#000" strokeWidth="2.5" fill="none" />
+                        </svg>
+                      ) : (
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="18" height="18">
+                          <circle cx="12" cy="12" r="9" />
+                        </svg>
+                      )}
+                    </span>
+                  </button>
+                  <div className="ballot-candidate-header" onClick={() => onCandidateDetail(c)} role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onCandidateDetail(c) } }}>
                     <span className="ballot-candidate-name">
                       {c.name}
                       <GradeBadge grade={c.grade} size="sm" showUnrated={!c.grade} />
                       {c.status === 'incumbent' && <span className="ballot-incumbent-tag">Incumbent</span>}
                     </span>
                     {c.description && <span className="ballot-candidate-desc">{c.description}</span>}
-                    {c.gradeNote && <span className="ballot-candidate-grade-note">{c.gradeNote}</span>}
-                  </span>
-                </button>
-                {hasDetail && (
+                  </div>
+                </div>
+
+                {/* Mini scorecard preview + View Profile link */}
+                <div className="ballot-candidate-bottom">
+                  {c.positions && (
+                    <div className="ballot-candidate-mini-scores" aria-label="Issue grades at a glance">
+                      {Object.entries(ISSUE_LABELS).map(([key, { label }]) => {
+                        const g = c.positions[key]
+                        const shortLabels = {
+                          proLife: 'Life',
+                          marriage: 'Marr.',
+                          religiousLiberty: 'Faith',
+                          secondAmendment: '2A',
+                          limitedGov: 'Gov',
+                          fiscal: 'Tax',
+                        }
+                        return (
+                          <span
+                            key={key}
+                            className="ballot-mini-score-wrap"
+                            title={`${label}: ${g || 'N/A'}`}
+                          >
+                            <span
+                              className="ballot-mini-score"
+                              style={g ? { background: getGradeColor(g), color: '#fff' } : undefined}
+                            >
+                              {g || '–'}
+                            </span>
+                            <span className="ballot-mini-score-label">{shortLabels[key]}</span>
+                          </span>
+                        )
+                      })}
+                    </div>
+                  )}
                   <button
-                    className="ballot-candidate-detail-btn"
-                    onClick={(e) => { e.stopPropagation(); onCandidateDetail(c) }}
-                    title={`View ${c.name}'s profile`}
-                    aria-label={`View details for ${c.name}`}
+                    className="ballot-candidate-profile-btn"
+                    onClick={() => onCandidateDetail(c)}
+                    aria-label={`View full profile for ${c.name}`}
                   >
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
-                      <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
+                    View Profile
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="13" height="13">
+                      <polyline points="9 18 15 12 9 6" />
                     </svg>
                   </button>
-                )}
+                </div>
+                {c.gradeNote && <span className="ballot-candidate-grade-note">{c.gradeNote}</span>}
               </div>
             )
           })}
@@ -861,9 +990,12 @@ export default function BallotView() {
   }
 
   const handlePartySelect = (p) => {
+    // If switching to a different party, clear prior choices so they don't bleed over
+    const nextChoices = (p !== party) ? {} : choices
     setParty(p)
+    setChoices(nextChoices)
     setStep('ballot')
-    persist(choices, p, address)
+    persist(nextChoices, p, address)
   }
 
   const handleRestart = () => {
@@ -892,7 +1024,7 @@ export default function BallotView() {
         lines.push(`${race.office}: ${c.name}`)
       }
     })
-    lines.push('\nCreated with Build My Ballot — buildmyballot.com')
+    lines.push('\nCreated with Of For & By The People — offorandbythepeople.com')
     return lines.join('\n')
   }, [party, allRaces, choices])
 
@@ -1055,6 +1187,32 @@ export default function BallotView() {
             <button className="ballot-switch-party" onClick={() => setStep('party')}>
               Switch party
             </button>
+          </div>
+
+          {/* Primary explainer */}
+          <div className="ballot-primary-explainer">
+            <div className="ballot-primary-explainer-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="20" height="20">
+                <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
+              </svg>
+            </div>
+            <div className="ballot-primary-explainer-text">
+              <strong>How does a primary election work?</strong>
+              <p>
+                A primary election narrows the field of candidates before the general election.
+                You are choosing which candidate will represent the{' '}
+                <strong>{party === 'republican' ? 'Republican' : 'Democratic'} Party</strong> in
+                each race on the November ballot. The winner of each primary race advances to the
+                general election to face the other party's nominee.
+              </p>
+              <p>
+                Michigan uses an <strong>open primary</strong> — you do not need to be a registered
+                member of a party to vote in their primary. However, you must pick one party's
+                column and vote only within that column for all partisan races. Nonpartisan races
+                (such as judges) and ballot proposals are open to all voters regardless of which
+                column you choose.
+              </p>
+            </div>
           </div>
 
           {/* Progress bar */}
@@ -1446,7 +1604,7 @@ export default function BallotView() {
               Our grades are based on public records. If you have documented information about a candidate's positions, help us improve our data.
             </p>
             <a
-              href="mailto:dillon@branddesignco.com?subject=Build My Ballot Grade Tip&body=Candidate name:%0AOffice/District:%0AInformation:%0ASource/Link:"
+              href="mailto:dillon@branddesignco.com?subject=Candidate Grade Tip&body=Candidate name:%0AOffice/District:%0AInformation:%0ASource/Link:"
               className="ballot-grade-tip-link"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
@@ -1454,6 +1612,20 @@ export default function BallotView() {
               </svg>
               Submit a Tip
             </a>
+          </div>
+
+          {/* ── Election Disclaimer ── */}
+          <div className="ballot-disclaimer">
+            <p>
+              <strong>Disclaimer:</strong> Candidate grades and values alignment scores are
+              editorial opinions based on publicly available voting records, public statements,
+              and policy positions. They are not endorsed by any government entity, political
+              party, candidate, or campaign. This tool is not affiliated with any political
+              organization. Always verify election information with your local election office.
+            </p>
+            <p>
+              Not paid for by any candidate or candidate's committee.
+            </p>
           </div>
         </>
       )}

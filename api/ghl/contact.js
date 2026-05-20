@@ -1,11 +1,26 @@
 // Vercel serverless function — proxies new user registrations to GoHighLevel CRM
 // This avoids CORS issues and keeps the GHL webhook URL server-side only.
 
+const ALLOWED_ORIGINS = [
+  'https://www.offorandbythepeople.com',
+  'https://offorandbythepeople.com',
+  'https://my-reps-pi.vercel.app',
+]
+
+function getCorsOrigin(req) {
+  const origin = req.headers.origin || ''
+  if (ALLOWED_ORIGINS.includes(origin)) return origin
+  // Allow localhost during development
+  if (origin.startsWith('http://localhost:')) return origin
+  return ALLOWED_ORIGINS[0]
+}
+
 export default async function handler(req, res) {
-  // CORS headers
-  res.setHeader('Access-Control-Allow-Origin', '*')
+  const corsOrigin = getCorsOrigin(req)
+  res.setHeader('Access-Control-Allow-Origin', corsOrigin)
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS')
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
+  res.setHeader('Vary', 'Origin')
 
   if (req.method === 'OPTIONS') {
     return res.status(200).end()
@@ -15,7 +30,11 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const webhookUrl = 'https://services.leadconnectorhq.com/hooks/CFNKZrr92QFvfZIK7O7M/webhook-trigger/925bedd1-52ac-40b3-98be-84bce239afba'
+  const webhookUrl = process.env.GHL_WEBHOOK_URL
+  if (!webhookUrl) {
+    console.error('GHL_WEBHOOK_URL environment variable is not configured')
+    return res.status(200).json({ ok: true, crmSync: false, reason: 'webhook_not_configured' })
+  }
 
   try {
     const { email, name, phone, state, zipCode, source } = req.body
@@ -36,11 +55,11 @@ export default async function handler(req, res) {
       phone: phone || '',
       state: state || '',
       postalCode: zipCode || '',
-      source: source || 'Build My Ballot',
-      tags: ['bmb-signup', 'michigan-voter'],
+      source: source || 'Of For & By The People',
+      tags: ['ofp-signup', 'voter'],
       customField: {
         signup_date: new Date().toISOString(),
-        platform: 'buildmyballot.com',
+        platform: 'offorandbythepeople.com',
         state: state || '',
         zip_code: zipCode || '',
       },

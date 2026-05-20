@@ -17,7 +17,6 @@ const KEYS = {
   ballotPlan: 'myreps-ballot-plan',
   reminders: 'myreps_election_reminders',
   onboarding: 'myreps-onboarding-complete',
-  tutorial: 'myreps_tutorial_done',
 }
 
 /* ── Simple accordion for FAQ ── */

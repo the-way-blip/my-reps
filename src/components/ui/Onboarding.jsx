@@ -1,4 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
+import useFocusTrap from '../../hooks/useFocusTrap'
+import { useAuth } from '../../contexts/AuthContext'
 
 const STORAGE_KEY = 'myreps-onboarding-complete'
 
@@ -16,7 +18,7 @@ const STEPS = [
   {
     id: 'address',
     title: 'Enter Your Address',
-    content: 'Type in your Michigan address to see the exact races and candidates that will be on your primary ballot — from Governor down to your local school board.',
+    content: 'Type in your address to see the exact races and candidates that will be on your ballot — from Governor down to your local school board.',
     icon: (
       <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
@@ -62,15 +64,26 @@ const STEPS = [
 export default function Onboarding() {
   const [visible, setVisible] = useState(false)
   const [step, setStep] = useState(0)
+  const focusTrapRef = useFocusTrap(visible)
   const [direction, setDirection] = useState('next') // 'next' | 'prev'
   const [animating, setAnimating] = useState(false)
+  const { user } = useAuth()
 
+  // Only auto-show onboarding for brand-new sign-ups (account created within the last 2 minutes)
   useEffect(() => {
-    if (!localStorage.getItem(STORAGE_KEY)) {
+    if (!user) return
+    if (localStorage.getItem(STORAGE_KEY)) return
+
+    const createdAt = new Date(user.created_at)
+    const now = new Date()
+    const ageMs = now - createdAt
+    const isNewSignUp = ageMs < 2 * 60 * 1000 // within 2 minutes
+
+    if (isNewSignUp) {
       const t = setTimeout(() => setVisible(true), 600)
       return () => clearTimeout(t)
     }
-  }, [])
+  }, [user])
 
   // Listen for custom event to re-trigger onboarding
   useEffect(() => {
@@ -132,7 +145,7 @@ export default function Onboarding() {
 
   return (
     <div className="onboarding-overlay" role="dialog" aria-modal="true" aria-label="Onboarding walkthrough">
-      <div className="onboarding-card">
+      <div className="onboarding-card" ref={focusTrapRef}>
         {/* Skip button */}
         {!isLast && (
           <button className="onboarding-skip" onClick={finish} aria-label="Skip onboarding">

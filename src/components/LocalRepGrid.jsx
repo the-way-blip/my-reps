@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import ShareButton from './ui/ShareButton'
 
 function partyClass(party) {
@@ -70,6 +70,54 @@ const LocalRepCard = React.memo(function LocalRepCard({ rep, onSelect }) {
   )
 })
 
+function CollapsibleRepGroups({ grouped, onSelect }) {
+  // All sections start expanded
+  const [collapsed, setCollapsed] = useState({})
+
+  const toggle = useCallback((level) => {
+    setCollapsed(prev => ({ ...prev, [level]: !prev[level] }))
+  }, [])
+
+  return (
+    <div className="my-reps-view">
+      {LEVEL_ORDER.map(level => {
+        const group = grouped[level]
+        if (!group || group.length === 0) return null
+        const isCollapsed = !!collapsed[level]
+        return (
+          <div key={level} className="my-reps-group">
+            <h3
+              className="my-reps-group-title"
+              onClick={() => toggle(level)}
+              role="button"
+              tabIndex={0}
+              aria-expanded={!isCollapsed}
+              onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(level) } }}
+            >
+              {LEVEL_LABELS[level]}
+              <span className="my-reps-group-count">{group.length}</span>
+              <span className={`my-reps-group-chevron ${isCollapsed ? 'collapsed' : ''}`}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </span>
+            </h3>
+            <div className={`my-reps-group-content ${isCollapsed ? 'collapsed' : ''}`}>
+              <div className="my-reps-group-content-inner">
+                <div className="state-rep-list">
+                  {group.map(rep => (
+                    <LocalRepCard key={rep.id} rep={rep} onSelect={onSelect} />
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
 export default function LocalRepGrid({ reps = [], onSelect, hasAddress }) {
   if (!hasAddress) {
     return (
@@ -101,24 +149,6 @@ export default function LocalRepGrid({ reps = [], onSelect, hasAddress }) {
   }
 
   return (
-    <div className="my-reps-view">
-      {LEVEL_ORDER.map(level => {
-        const group = grouped[level]
-        if (!group || group.length === 0) return null
-        return (
-          <div key={level} className="my-reps-group">
-            <h3 className="my-reps-group-title">
-              {LEVEL_LABELS[level]}
-              <span className="my-reps-group-count">{group.length}</span>
-            </h3>
-            <div className="state-rep-list">
-              {group.map(rep => (
-                <LocalRepCard key={rep.id} rep={rep} onSelect={onSelect} />
-              ))}
-            </div>
-          </div>
-        )
-      })}
-    </div>
+    <CollapsibleRepGroups grouped={grouped} onSelect={onSelect} />
   )
 }

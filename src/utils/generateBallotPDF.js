@@ -313,7 +313,7 @@ export default function generateBallotPDF({ party, races, choices, address }) {
   doc.setTextColor(...GRAY)
   doc.setFontSize(8)
   doc.setFont('helvetica', 'normal')
-  doc.text('Created with Build My Ballot — buildmyballot.com', MARGIN, y)
+  doc.text('Created with Of For & By The People — offorandbythepeople.com', MARGIN, y)
 
   const now = new Date()
   const dateStr = now.toLocaleDateString('en-US', {
