@@ -7,7 +7,7 @@ export default function LandingView() {
   const { user } = useAuth()
   const navigate = useNavigate()
   const [authOpen, setAuthOpen] = useState(false)
-  const [authTab, setAuthTab] = useState('signup') // 'signup' or 'signin'
+  const [authTab, setAuthTab] = useState('signup')
 
   // If already logged in, redirect to ballot
   if (user) {
@@ -27,7 +27,7 @@ export default function LandingView() {
 
   return (
     <div className="landing">
-      {/* Hero */}
+      {/* Header */}
       <header className="landing-header">
         <div className="landing-header-inner">
           <div className="landing-brand">
@@ -39,117 +39,148 @@ export default function LandingView() {
         </div>
       </header>
 
+      {/* Hero — Organization */}
       <section className="landing-hero">
-        <div className="landing-hero-content">
-          <div className="landing-product-badge">
-            <img src="/logo-white.png" alt="" className="landing-badge-logo" />
-            <span>Build My Ballot</span>
-          </div>
-          <h1 className="landing-headline">
-            Know Your Candidates.<br />Own Your Vote.
+        <div className="landing-hero-content landing-hero-centered">
+          <h1 className="landing-headline landing-headline-lg">
+            Of For <span className="landing-ampersand-hero">&amp;</span> By The People
           </h1>
-          <p className="landing-subheadline">
-            Build My Ballot is the free tool that shows you every race on your ballot,
-            grades candidates on the issues that matter, and lets you build a
-            printable voting plan before election day.
+          <p className="landing-subheadline landing-subheadline-centered">
+            We build free tools that put the power of democracy back in your hands.
+            Research candidates, find your representatives, and walk into every
+            election informed and ready.
           </p>
-          <div className="landing-cta-group">
+          <div className="landing-cta-group landing-cta-centered">
             <button className="landing-cta-primary" onClick={openSignUp}>
-              Get Started Free
+              Join For Free
             </button>
             <p className="landing-cta-sub">
-              Free account &middot; No credit card &middot; Takes 30 seconds
+              Free forever &middot; No credit card &middot; Takes 30 seconds
             </p>
           </div>
         </div>
-        <div className="landing-hero-visual">
-          <div className="landing-ballot-preview">
-            <div className="landing-preview-header">
-              <span className="landing-preview-dot" />
-              <span>My Ballot Plan</span>
+      </section>
+
+      {/* Mission */}
+      <section className="landing-mission">
+        <div className="landing-mission-inner">
+          <h2 className="landing-section-title">Our Mission</h2>
+          <p className="landing-mission-text">
+            Democracy works best when people show up informed. But finding reliable,
+            unbiased information about who's on your ballot shouldn't require hours of
+            research. We're building the civic toolkit that makes it easy for every
+            citizen to understand their government, know their options, and make their
+            voice heard — from the top of the ticket to the most local race on your ballot.
+          </p>
+          <div className="landing-values">
+            <div className="landing-value">
+              <div className="landing-value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+                </svg>
+              </div>
+              <h4>Nonpartisan</h4>
+              <p>We don't tell you who to vote for. We give you the facts and let you decide.</p>
             </div>
-            <div className="landing-preview-row">
-              <span className="landing-preview-office">Governor</span>
-              <span className="landing-preview-grade grade-a">A</span>
+            <div className="landing-value">
+              <div className="landing-value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+                </svg>
+              </div>
+              <h4>Transparent</h4>
+              <p>Every grade and assessment is based on publicly available records you can verify yourself.</p>
             </div>
-            <div className="landing-preview-row">
-              <span className="landing-preview-office">US Senate</span>
-              <span className="landing-preview-grade grade-b">B+</span>
-            </div>
-            <div className="landing-preview-row">
-              <span className="landing-preview-office">State Rep</span>
-              <span className="landing-preview-grade grade-a">A-</span>
-            </div>
-            <div className="landing-preview-row">
-              <span className="landing-preview-office">County Clerk</span>
-              <span className="landing-preview-grade grade-c">C</span>
-            </div>
-            <div className="landing-preview-footer">
-              4 races &middot; Ready to vote
+            <div className="landing-value">
+              <div className="landing-value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <h4>For Everyone</h4>
+              <p>Free tools for every citizen, regardless of party, background, or political experience.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* How It Works */}
-      <section className="landing-steps">
-        <h2 className="landing-section-title">How It Works</h2>
-        <div className="landing-steps-grid">
-          <div className="landing-step">
-            <div className="landing-step-number">1</div>
-            <h3>Enter Your Address</h3>
-            <p>We use your Michigan address to find the exact races and candidates on your ballot — from President down to local offices.</p>
+      {/* Tools */}
+      <section className="landing-tools">
+        <h2 className="landing-section-title">Our Tools</h2>
+        <p className="landing-section-subtitle">Everything you need to participate in democracy, all in one place.</p>
+        <div className="landing-tools-grid">
+
+          {/* Build My Ballot */}
+          <div className="landing-tool-card landing-tool-featured">
+            <div className="landing-tool-badge">Live Now</div>
+            <div className="landing-tool-icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/>
+              </svg>
+            </div>
+            <h3>Build My Ballot</h3>
+            <p>
+              Enter your address and see every race on your upcoming ballot. Research
+              candidates with grades, positions, and background info. Save your picks
+              and bring a printable ballot plan to the polls.
+            </p>
+            <ul className="landing-tool-features">
+              <li>Every candidate in your district</li>
+              <li>Values alignment grades (A&ndash;F)</li>
+              <li>Side-by-side candidate comparison</li>
+              <li>Printable ballot plan for election day</li>
+            </ul>
           </div>
-          <div className="landing-step">
-            <div className="landing-step-number">2</div>
-            <h3>Research Candidates</h3>
-            <p>See grades, positions, endorsements, and background info for every candidate. Compare them side by side in every race.</p>
+
+          {/* Find My Reps */}
+          <div className="landing-tool-card">
+            <div className="landing-tool-badge landing-tool-badge-soon">Coming Soon</div>
+            <div className="landing-tool-icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3>Find My Reps</h3>
+            <p>
+              Look up every elected official who represents you — from your city
+              council member to your U.S. senators. See their voting records,
+              contact info, and how to reach them.
+            </p>
+            <ul className="landing-tool-features">
+              <li>Federal, state, and local representatives</li>
+              <li>Voting records and key positions</li>
+              <li>Direct contact information</li>
+              <li>Committee assignments and leadership roles</li>
+            </ul>
           </div>
-          <div className="landing-step">
-            <div className="landing-step-number">3</div>
-            <h3>Build Your Ballot</h3>
-            <p>Pick your candidates, save your choices, and bring a printable ballot plan with you on election day. Vote with confidence.</p>
+
+          {/* More Tools */}
+          <div className="landing-tool-card landing-tool-more">
+            <div className="landing-tool-icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/>
+              </svg>
+            </div>
+            <h3>More Coming Soon</h3>
+            <p>
+              We're building new tools to help you stay informed and engaged.
+              Voter registration status, election reminders, bill tracking,
+              and more — all free, all nonpartisan.
+            </p>
+            <ul className="landing-tool-features">
+              <li>Voter registration checker</li>
+              <li>Election date reminders</li>
+              <li>Bill and legislation tracker</li>
+              <li>Civic engagement resources</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      {/* Features */}
-      <section className="landing-features">
-        <div className="landing-features-grid">
-          <div className="landing-feature">
-            <div className="landing-feature-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-              </svg>
-            </div>
-            <h3>Every Candidate</h3>
-            <p>See every candidate running in your district, not just the big races. Local elections matter too.</p>
-          </div>
-          <div className="landing-feature">
-            <div className="landing-feature-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
-              </svg>
-            </div>
-            <h3>Values-Based Grades</h3>
-            <p>We grade candidates A through F based on publicly available records so you can quickly see where they stand.</p>
-          </div>
-          <div className="landing-feature">
-            <div className="landing-feature-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
-              </svg>
-            </div>
-            <h3>Printable Plan</h3>
-            <p>Take your completed ballot plan to the polls. No more scrambling to remember who you wanted to vote for.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
+      {/* Bottom CTA */}
       <section className="landing-bottom-cta">
-        <h2>Ready to build your ballot?</h2>
-        <p>Join thousands of Michigan voters making informed decisions.</p>
+        <h2>Government of the people, by the people, for the people.</h2>
+        <p>Join us and take ownership of your democracy.</p>
         <button className="landing-cta-primary" onClick={openSignUp}>
           Create Your Free Account
         </button>
