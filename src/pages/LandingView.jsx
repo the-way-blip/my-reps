@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import AuthModal from '../components/auth/AuthModal'
 
@@ -111,7 +111,7 @@ export default function LandingView() {
         <div className="landing-tools-grid">
 
           {/* Build My Ballot */}
-          <div className="landing-tool-card landing-tool-featured">
+          <Link to="/tools/ballot" className="landing-tool-card landing-tool-featured" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="landing-tool-badge">Live Now</div>
             <div className="landing-tool-icon-wrap">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -130,10 +130,11 @@ export default function LandingView() {
               <li>Side-by-side candidate comparison</li>
               <li>Printable ballot plan for election day</li>
             </ul>
-          </div>
+            <span className="landing-tool-learn-more">Learn More &rarr;</span>
+          </Link>
 
           {/* Find My Reps */}
-          <div className="landing-tool-card">
+          <Link to="/tools/reps" className="landing-tool-card" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="landing-tool-badge landing-tool-badge-soon">Coming Soon</div>
             <div className="landing-tool-icon-wrap">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -152,7 +153,8 @@ export default function LandingView() {
               <li>Direct contact information</li>
               <li>Committee assignments and leadership roles</li>
             </ul>
-          </div>
+            <span className="landing-tool-learn-more">Learn More &rarr;</span>
+          </Link>
 
           {/* More Tools */}
           <div className="landing-tool-card landing-tool-more">

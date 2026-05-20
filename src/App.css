@@ -10172,6 +10172,190 @@ select.auth-input {
   color: var(--accent);
 }
 
+/* ── Landing tool card links ── */
+.landing-tool-learn-more {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--accent-gold);
+  transition: color var(--transition);
+}
+.landing-tool-card:hover .landing-tool-learn-more {
+  color: var(--accent);
+}
+a.landing-tool-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Tool Info Pages ── */
+.tool-info-hero {
+  background: linear-gradient(135deg, #0B2E59 0%, #163D6F 100%);
+  padding: 7rem 2rem 4rem;
+  text-align: center;
+  color: #fff;
+}
+.tool-info-hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.tool-info-status-badge {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.3rem 1rem;
+  border-radius: 999px;
+  background: rgba(201,169,110,0.2);
+  color: var(--accent-gold);
+  border: 1px solid rgba(201,169,110,0.35);
+  margin-bottom: 1.25rem;
+}
+.tool-info-status-badge[data-status="coming"] {
+  background: rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.8);
+  border-color: rgba(255,255,255,0.2);
+}
+.tool-info-name {
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+  color: #fff;
+}
+.tool-info-tagline {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  color: rgba(255,255,255,0.8);
+  margin: 0 0 1rem;
+  font-weight: 400;
+}
+.tool-info-hero-text {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.7;
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* About section */
+.tool-info-about {
+  padding: 4rem 2rem;
+  background: var(--surface);
+}
+.tool-info-about-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.tool-info-about h2 {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  color: var(--text);
+  margin: 0 0 1.25rem;
+}
+.tool-info-about p {
+  font-family: var(--font-body);
+  font-size: 1.02rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Features grid */
+.tool-info-features {
+  padding: 4rem 2rem;
+  background: var(--bg);
+}
+.tool-info-features-grid {
+  max-width: 1100px;
+  margin: 2rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.tool-info-feature-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+.tool-info-feature-card:hover {
+  border-color: var(--accent-gold);
+  box-shadow: var(--shadow-lg);
+}
+.tool-info-feature-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(201,169,110,0.12), rgba(201,169,110,0.06));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: var(--accent-gold);
+}
+.tool-info-feature-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: var(--text);
+  margin: 0 0 0.6rem;
+}
+.tool-info-feature-card p {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Other tools */
+.tool-info-other {
+  padding: 4rem 2rem;
+  background: var(--surface);
+}
+.tool-info-other-grid {
+  max-width: 1100px;
+  margin: 2rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.tool-info-other-card {
+  display: block;
+  text-decoration: none;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+.tool-info-other-card:hover {
+  border-color: var(--accent-gold);
+  box-shadow: var(--shadow);
+}
+.tool-info-other-card h4 {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  color: var(--text);
+  margin: 0 0 0.35rem;
+}
+.tool-info-other-card p {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
 /* ── Landing Responsive ── */
 @media (max-width: 768px) {
   .landing-hero {
@@ -10217,5 +10401,33 @@ select.auth-input {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
+  }
+  .tool-info-hero {
+    padding: 6rem 1.5rem 3rem;
+  }
+  .tool-info-name {
+    font-size: 2rem;
+  }
+  .tool-info-tagline {
+    font-size: 1.05rem;
+  }
+  .tool-info-about {
+    padding: 3rem 1.5rem;
+  }
+  .tool-info-features {
+    padding: 3rem 1.5rem;
+  }
+  .tool-info-features-grid {
+    grid-template-columns: 1fr;
+    max-width: 480px;
+    margin: 1.5rem auto 0;
+  }
+  .tool-info-other {
+    padding: 3rem 1.5rem;
+  }
+  .tool-info-other-grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: 480px;
+    margin: 1.5rem auto 0;
   }
 }

@@ -21,6 +21,7 @@ const ProfileView = React.lazy(() => import('./pages/ProfileView'))
 const PrivacyView = React.lazy(() => import('./pages/PrivacyView'))
 const TermsView = React.lazy(() => import('./pages/TermsView'))
 const AuthCallbackView = React.lazy(() => import('./pages/AuthCallbackView'))
+const ToolInfoView = React.lazy(() => import('./pages/ToolInfoView'))
 
 const LazyFallback = (
   <div className="loader"><div className="spinner" /></div>
@@ -36,6 +37,7 @@ export default function App() {
           <Routes>
             {/* Public routes — no auth required */}
             <Route path="welcome" element={<LandingView />} />
+            <Route path="tools/:toolId" element={<ToolInfoView />} />
             <Route path="privacy" element={<AppLayout />}>
               <Route index element={<PrivacyView />} />
             </Route>
