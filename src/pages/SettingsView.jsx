@@ -296,9 +296,9 @@ export default function SettingsView() {
         </h3>
         <div className="settings-card settings-about">
           <div className="settings-about-header">
-            <img src="/logo.png" alt="Build My Ballot" className="settings-logo" />
+            <img src="/logo.png" alt="Of For & By The People" className="settings-logo" />
             <div>
-              <strong className="settings-app-name">Build My Ballot</strong>
+              <strong className="settings-app-name">Of For & By The People</strong>
               <span className="settings-version">v1.0.0</span>
             </div>
           </div>

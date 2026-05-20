@@ -9,9 +9,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Build My Ballot — Know Your Representatives',
-        short_name: 'Build My Ballot',
-        description: 'Walk into the voting booth prepared. Research every race on your ballot and build a personalized plan before election day.',
+        name: 'Of For & By The People — Vote Your Values',
+        short_name: 'Of For & By',
+        description: 'Free tools for conservative voters who value faith, the Constitution, and limited government. Grade candidates, find your reps, and walk into every election prepared.',
         theme_color: '#0B2E59',
         background_color: '#F7F3E8',
         display: 'standalone',

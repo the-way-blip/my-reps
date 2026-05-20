@@ -126,7 +126,7 @@ export function checkAndFireReminders() {
 
         new Notification('Election Reminder', {
           body: `${reminder.electionName} is ${daysText} (${formatDate(reminder.electionDate)}).`,
-          icon: '/favicon.svg',
+          icon: '/favicon.png',
           tag: `election-${id}-${rd.days}`,
         })
       }
