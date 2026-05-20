@@ -16,10 +16,7 @@ export default async function handler(req, res) {
   }
 
   const webhookUrl = process.env.GHL_WEBHOOK_URL
-  if (!webhookUrl) {
-    console.warn('GHL_WEBHOOK_URL not configured — skipping CRM sync')
-    return res.status(200).json({ ok: true, skipped: true })
-  }
+    || 'https://services.leadconnectorhq.com/hooks/CFNKZrr92QFvfZIK7O7M/webhook-trigger/f9aa5f19-23a6-4f1c-867a-86ebbc0be590'
 
   try {
     const { email, name, phone, state, zipCode, source } = req.body
