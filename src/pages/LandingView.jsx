@@ -31,8 +31,7 @@ export default function LandingView() {
       <header className="landing-header">
         <div className="landing-header-inner">
           <div className="landing-brand">
-            <img src="/logo-icon-white.png" alt="" className="landing-header-logo" />
-            <span className="landing-parent-brand">Of For <span className="landing-ampersand">&amp;</span> By The People</span>
+            <img src="/logo-icon-white.png" alt="Of For & By The People" className="landing-header-logo" />
           </div>
           <button className="landing-signin-btn" onClick={openSignIn}>
             Sign In

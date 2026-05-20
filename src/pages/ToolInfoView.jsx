@@ -235,8 +235,7 @@ export default function ToolInfoView() {
       <header className="landing-header">
         <div className="landing-header-inner">
           <Link to="/welcome" className="landing-brand" style={{ textDecoration: 'none' }}>
-            <img src="/logo-icon-white.png" alt="" className="landing-header-logo" />
-            <span className="landing-parent-brand">Of For <span className="landing-ampersand">&amp;</span> By The People</span>
+            <img src="/logo-icon-white.png" alt="Of For & By The People" className="landing-header-logo" />
           </Link>
           {user ? (
             <button className="landing-signin-btn" onClick={() => navigate('/')}>Go to App</button>
