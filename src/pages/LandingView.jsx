@@ -51,15 +51,15 @@ export default function LandingView() {
           </h1>
           <p className="landing-subheadline landing-subheadline-centered">
             You believe in faith, family, and the Constitution. Now you can see
-            exactly which candidates share those convictions — in under two minutes,
-            completely free.
+            exactly which candidates share those convictions — graded on the
+            issues that matter, ready in under two minutes.
           </p>
           <div className="landing-cta-group landing-cta-centered">
             <button className="landing-cta-primary" onClick={openSignUp}>
-              Get Your Free Ballot Guide
+              Build My Ballot
             </button>
             <p className="landing-cta-sub">
-              Free forever &middot; No credit card &middot; Takes 30 seconds
+              Takes 30 seconds &middot; No credit card required
             </p>
           </div>
         </div>
@@ -158,7 +158,7 @@ export default function LandingView() {
               </div>
               <div className="landing-guide-cred">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                <span>100% free forever — no paywalls</span>
+                <span>Every level of government covered</span>
               </div>
             </div>
           </div>
@@ -180,8 +180,8 @@ export default function LandingView() {
         <div className="landing-plan-grid">
           <div className="landing-plan-step">
             <div className="landing-plan-number">1</div>
-            <h3>Create Your Free Account</h3>
-            <p>Sign up in 30 seconds. No credit card, no strings attached.</p>
+            <h3>Create Your Account</h3>
+            <p>Sign up in 30 seconds and get instant access to your personalized ballot.</p>
           </div>
           <div className="landing-plan-connector" aria-hidden="true">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -214,7 +214,7 @@ export default function LandingView() {
           <h2>Ready to See Your Ballot?</h2>
           <p>Join thousands of conservative voters who walk into the polls prepared.</p>
           <button className="landing-cta-primary" onClick={openSignUp}>
-            Get Your Free Ballot Guide
+            Build My Ballot
           </button>
         </div>
       </section>
@@ -224,7 +224,7 @@ export default function LandingView() {
          Lower commitment — explore the tools
          ══════════════════════════════════════ */}
       <section className="landing-tools">
-        <h2 className="landing-section-title">What You Get — Free</h2>
+        <h2 className="landing-section-title">Your Civic Toolkit</h2>
         <p className="landing-section-subtitle">
           Everything you need to vote your values and hold your leaders accountable.
         </p>
@@ -286,7 +286,7 @@ export default function LandingView() {
             <p>
               We're building new tools to help conservative voters stay informed
               and engaged. Founding documents, community insights, bill tracking,
-              and more — all free.
+              and more.
             </p>
             <ul className="landing-tool-features">
               <li>Founding documents &amp; principles</li>
@@ -396,10 +396,10 @@ export default function LandingView() {
           <h2>Government of the people, by the people, for the people.</h2>
           <p>Stand for Faith, Family, and our Founding Principles. Join the movement.</p>
           <button className="landing-cta-primary" onClick={openSignUp}>
-            Get Your Free Ballot Guide
+            Build My Ballot
           </button>
           <p className="landing-bottom-reassurance">
-            Free forever &middot; No credit card required &middot; 30-second signup
+            30-second signup &middot; No credit card required
           </p>
         </div>
       </section>
