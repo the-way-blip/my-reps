@@ -302,10 +302,6 @@ export default function AuthModal({ open, onClose }) {
 
             <div className="auth-divider"><span>or</span></div>
 
-            <button type="button" className="auth-btn auth-btn-google" onClick={handleGoogle} disabled={loading}>
-              <GoogleIcon />
-              Sign in with Google
-            </button>
             <button
               type="button"
               className="auth-btn auth-btn-phone"
@@ -471,12 +467,6 @@ export default function AuthModal({ open, onClose }) {
               {loading ? 'Creating account...' : 'Create Account'}
             </button>
 
-            <div className="auth-divider"><span>or</span></div>
-
-            <button type="button" className="auth-btn auth-btn-google" onClick={handleGoogle} disabled={loading}>
-              <GoogleIcon />
-              Sign up with Google
-            </button>
           </form>
         )}
 
