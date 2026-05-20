@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import MemberDetail from '../MemberDetail'
 import Onboarding from '../ui/Onboarding'
 import OfflineBanner from '../ui/OfflineBanner'
+import HelpPanel from '../ui/HelpPanel'
 import { useApp } from '../../contexts/AppContext'
 
 export default function AppLayout() {
@@ -27,6 +28,7 @@ export default function AppLayout() {
       )}
 
       <Onboarding />
+      <HelpPanel />
     </div>
   )
 }
