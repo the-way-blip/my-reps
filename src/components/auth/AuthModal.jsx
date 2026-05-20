@@ -119,11 +119,17 @@ export default function AuthModal({ open, onClose, initialView }) {
     }
     setLoading(true)
     try {
-      await signUp(email, password, { name, phone, state, zipCode })
-      setSuccess('Account created! Check your email to confirm.')
+      const result = await signUp(email, password, { name, phone, state, zipCode })
 
       // Fire-and-forget: sync new user to GHL CRM for email list
       syncUserToGHL({ email, name, phone, state, zipCode }).catch(() => {})
+
+      // If Supabase returned a session, user is logged in immediately (no confirmation needed)
+      if (result?.session) {
+        onClose()
+      } else {
+        setSuccess('Account created! Check your email to confirm.')
+      }
     } catch (err) {
       setError(err.message)
     } finally {
