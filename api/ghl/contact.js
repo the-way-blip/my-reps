@@ -15,8 +15,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const webhookUrl = process.env.GHL_WEBHOOK_URL
-    || 'https://services.leadconnectorhq.com/hooks/CFNKZrr92QFvfZIK7O7M/webhook-trigger/f9aa5f19-23a6-4f1c-867a-86ebbc0be590'
+  const webhookUrl = 'https://services.leadconnectorhq.com/hooks/CFNKZrr92QFvfZIK7O7M/webhook-trigger/925bedd1-52ac-40b3-98be-84bce239afba'
 
   try {
     const { email, name, phone, state, zipCode, source } = req.body
