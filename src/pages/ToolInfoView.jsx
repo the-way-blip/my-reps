@@ -7,11 +7,11 @@ import AuthModal from '../components/auth/AuthModal'
 const TOOLS = {
   ballot: {
     name: 'Build My Ballot',
-    tagline: 'Walk into every election prepared.',
+    tagline: 'Vote your values in every race.',
     status: 'live',
-    hero: 'Your personalized ballot plan — every race, every candidate, every choice.',
+    hero: 'Every race on your ballot, graded against Christian and Constitutional values — so you walk in prepared.',
     description:
-      'Build My Ballot takes the guesswork out of voting. Enter your Michigan address and instantly see every race on your upcoming ballot — from Governor and U.S. Senate down to county commissioners and local proposals. Research every candidate with values-based grades, detailed positions, and background information. Then pick your candidates, save your choices, and print a ballot plan to bring with you on election day.',
+      'Build My Ballot takes the guesswork out of voting for conservative Christians. Enter your Michigan address and instantly see every race on your upcoming ballot — from Governor and U.S. Senate down to county commissioners and local proposals. Every candidate is graded on how well they align with Christian principles and Constitutional values like religious liberty, the sanctity of life, Second Amendment rights, and limited government. Pick your candidates, save your choices, and print a ballot plan to bring with you on election day.',
     features: [
       {
         title: 'Address-Based Ballot Lookup',
@@ -19,13 +19,13 @@ const TOOLS = {
         icon: 'map',
       },
       {
-        title: 'Candidate Grades (A–F)',
-        desc: 'Every candidate receives a values alignment grade based on publicly available voting records, public statements, and policy positions. Quickly compare where candidates stand.',
+        title: 'Christian & Constitutional Grades (A–F)',
+        desc: 'Every candidate is graded on their alignment with Christian values and Constitutional principles — religious liberty, sanctity of life, 2A rights, limited government, and more.',
         icon: 'grade',
       },
       {
         title: 'Side-by-Side Comparison',
-        desc: 'Compare candidates within each race. See their grades, party affiliation, endorsements, and key positions all in one view so you can make informed decisions.',
+        desc: 'Compare candidates within each race. See their values grades, party affiliation, endorsements, and key positions all in one view so you can vote with confidence.',
         icon: 'compare',
       },
       {
@@ -48,11 +48,11 @@ const TOOLS = {
   },
   reps: {
     name: 'Find My Reps',
-    tagline: 'Know who represents you at every level.',
+    tagline: 'Know who represents you — and how they score.',
     status: 'live',
-    hero: 'From your city council to the U.S. Senate — every elected official who represents you, in one place.',
+    hero: 'From your city council to the U.S. Senate — see every elected official and how they measure up on faith, family, and the Constitution.',
     description:
-      'Find My Reps connects you directly to the people who represent you in government. Enter your address and instantly see your elected officials at every level — federal, state, and local. View their photos, party affiliation, contact information, and how they align with founding American values. Democracy works best when citizens know who speaks for them.',
+      'Find My Reps connects you directly to the people who represent you in government and shows you whether they\'re actually fighting for your values. Enter your address and instantly see your elected officials at every level — federal, state, and local. View their photos, party affiliation, contact information, and how they score on Christian and Constitutional values. Hold them accountable. Our republic only works when the people pay attention.',
     features: [
       {
         title: 'All Levels of Government',
@@ -60,8 +60,8 @@ const TOOLS = {
         icon: 'layers',
       },
       {
-        title: 'Alignment Grades',
-        desc: 'Each representative receives a values alignment grade showing how their voting record and positions align with founding principles. See the data behind every grade.',
+        title: 'Values Alignment Grades',
+        desc: 'Each representative is graded on their alignment with Christian values and Constitutional principles. See exactly where they stand on the issues that matter to you.',
         icon: 'grade',
       },
       {
@@ -71,7 +71,7 @@ const TOOLS = {
       },
       {
         title: 'Voting Records',
-        desc: 'See how your representatives have voted on key issues. Track their record over time and hold them accountable to the positions they campaigned on.',
+        desc: 'See how your representatives have voted on key issues like religious liberty, life, the Second Amendment, and government spending. Hold them accountable.',
         icon: 'vote',
       },
       {
@@ -91,9 +91,9 @@ const TOOLS = {
     name: 'Founding Documents',
     tagline: 'The principles that started it all.',
     status: 'live',
-    hero: 'Access America\'s founding documents, understand the principles behind them, and see how today\'s leaders measure up.',
+    hero: 'America\'s founding documents, the Christian principles behind them, and how today\'s leaders measure up.',
     description:
-      'The Founding Documents tool is your civic reference library. Read the full text of the U.S. Constitution, the Bill of Rights, all 27 amendments, and key historical documents that shaped American democracy. But it goes beyond just reading — we connect these founding principles to modern governance by showing how today\'s elected officials align with the values the founders established.',
+      'The Founding Documents tool is your civic reference library rooted in America\'s Christian heritage. Read the full text of the U.S. Constitution, the Bill of Rights, all 27 amendments, and key historical documents that shaped our republic. But it goes beyond just reading — we connect these founding principles to modern governance by showing how today\'s elected officials align with the values the founders established. Understand what they believed, why they built the system they did, and whether your representatives are honoring that legacy.',
     features: [
       {
         title: 'Full Constitutional Text',
@@ -102,12 +102,12 @@ const TOOLS = {
       },
       {
         title: 'Founding Principles',
-        desc: 'Explore the core principles behind the founding — individual liberty, limited government, rule of law, separation of powers — with quotes directly from the founders.',
+        desc: 'Explore the core principles behind the founding — God-given rights, individual liberty, limited government, rule of law — with quotes directly from the founders.',
         icon: 'star',
       },
       {
         title: 'Scorecard Issues',
-        desc: 'See the specific issues we use to grade elected officials. Each issue traces back to a founding principle, so you understand why it matters and how it\'s measured.',
+        desc: 'See the specific issues we use to grade elected officials. Each issue traces back to a founding principle and Biblical value, so you understand why it matters.',
         icon: 'grade',
       },
       {
@@ -122,7 +122,7 @@ const TOOLS = {
       },
       {
         title: 'Founders\' Quotes',
-        desc: 'Read what Washington, Jefferson, Madison, Hamilton, and other founders actually said about the issues that still matter today. Context from the people who built the republic.',
+        desc: 'Read what Washington, Jefferson, Madison, Hamilton, and other founders actually said about faith, liberty, and governance. Context from the people who built the republic.',
         icon: 'quote',
       },
     ],
@@ -130,25 +130,25 @@ const TOOLS = {
   },
   community: {
     name: 'Community Pulse',
-    tagline: 'See how your community plans to vote.',
+    tagline: 'See how fellow conservative voters are leaning.',
     status: 'live',
-    hero: 'Aggregated, anonymous insights into how Build My Ballot users are planning their votes.',
+    hero: 'Aggregated, anonymous insights from values-driven voters who\'ve done their research.',
     description:
-      'Community Pulse gives you a window into how other informed voters are thinking. See aggregated, anonymous data on which candidates are gaining traction, how support breaks down by party, and which races are the most competitive. This isn\'t a poll — it\'s real data from real users who\'ve done the research and made their picks. Use it as one more data point in your own decision-making.',
+      'Community Pulse gives you a window into how other conservative, faith-minded voters are thinking. See aggregated, anonymous data on which candidates are gaining traction among our community, how support breaks down by race, and which contests are the most competitive. This isn\'t a mainstream media poll — it\'s real data from real values-driven voters who\'ve done the research and made their picks. Use it as one more data point in your own decision-making.',
     features: [
       {
         title: 'Candidate Popularity',
-        desc: 'See which candidates are most selected by Build My Ballot users in each race. Understand who\'s gaining traction among informed voters.',
+        desc: 'See which candidates are most selected by our values-driven community in each race. Understand who\'s gaining traction among conservative voters.',
         icon: 'chart',
       },
       {
         title: 'Party Breakdown',
-        desc: 'View how selections break down by party across all races. See the overall lean of the Build My Ballot community and where crossover support exists.',
+        desc: 'View how selections break down by party across all races. See the overall lean of the community and where crossover support exists.',
         icon: 'party',
       },
       {
         title: 'Race-by-Race Data',
-        desc: 'Drill into individual races to see detailed selection data. From governor to county commissioner, see how the community is planning to vote at every level.',
+        desc: 'Drill into individual races to see detailed selection data. From governor to county commissioner, see how fellow voters are planning their ballots at every level.',
         icon: 'layers',
       },
       {
@@ -173,9 +173,9 @@ const TOOLS = {
     name: 'Alignment Analytics',
     tagline: 'Data-driven insights into your representation.',
     status: 'live',
-    hero: 'See the big picture — how your representatives score across issues, parties, and levels of government.',
+    hero: 'The big picture — how your representatives score on Christian and Constitutional values across every issue.',
     description:
-      'Alignment Analytics takes all of our representative grading data and presents it in a clear, visual format. See grade distributions across all scored officials, break down alignment by individual issues, and compare how federal vs. state representatives perform. It\'s the 30,000-foot view of how well your government actually represents founding American values.',
+      'Alignment Analytics takes all of our representative grading data and presents it in a clear, visual format. See grade distributions across all scored officials, break down alignment by individual issues like religious liberty, life, the Second Amendment, and fiscal responsibility. Compare how federal vs. state representatives perform. It\'s the 30,000-foot view of how well your government actually upholds the Christian and Constitutional values that built this nation.',
     features: [
       {
         title: 'Grade Distribution',
@@ -184,17 +184,17 @@ const TOOLS = {
       },
       {
         title: 'Per-Issue Breakdown',
-        desc: 'Drill into individual scorecard issues to see how representatives perform on specific topics — from fiscal responsibility to constitutional rights.',
+        desc: 'Drill into individual scorecard issues — religious liberty, sanctity of life, Second Amendment, fiscal responsibility, and more. See where your reps stand.',
         icon: 'issues',
       },
       {
         title: 'Party Comparison',
-        desc: 'Compare average grades between parties. See which party\'s representatives better align with founding principles on each individual issue.',
+        desc: 'Compare average grades between parties. See which party\'s representatives better align with Christian and Constitutional principles on each issue.',
         icon: 'party',
       },
       {
         title: 'Federal vs. State',
-        desc: 'Compare alignment at different levels of government. See whether your federal or state representatives are doing a better job representing founding values.',
+        desc: 'Compare alignment at different levels of government. See whether your federal or state representatives are doing a better job upholding your values.',
         icon: 'layers',
       },
       {

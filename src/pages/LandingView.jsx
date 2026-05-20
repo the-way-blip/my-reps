@@ -46,9 +46,9 @@ export default function LandingView() {
             Of For <span className="landing-ampersand-hero">&amp;</span> By The People
           </h1>
           <p className="landing-subheadline landing-subheadline-centered">
-            We build free tools that put the power of democracy back in your hands.
-            Research candidates, find your representatives, and walk into every
-            election informed and ready.
+            Free tools for conservative voters who value faith, the Constitution,
+            and limited government. Research candidates, grade your representatives,
+            and walk into every election informed and ready.
           </p>
           <div className="landing-cta-group landing-cta-centered">
             <button className="landing-cta-primary" onClick={openSignUp}>
@@ -66,39 +66,40 @@ export default function LandingView() {
         <div className="landing-mission-inner">
           <h2 className="landing-section-title">Our Mission</h2>
           <p className="landing-mission-text">
-            Democracy works best when people show up informed. But finding reliable,
-            unbiased information about who's on your ballot shouldn't require hours of
-            research. We're building the civic toolkit that makes it easy for every
-            citizen to understand their government, know their options, and make their
-            voice heard — from the top of the ticket to the most local race on your ballot.
+            America was built on Christian principles and Constitutional liberty. But
+            today, finding out which candidates actually uphold those values takes hours
+            of research most people don't have time for. We're building the civic toolkit
+            that makes it easy for conservative voters to see where every candidate stands
+            on the issues that matter — faith, family, the Second Amendment, fiscal
+            responsibility, and the Constitutional rights our founders fought to protect.
           </p>
           <div className="landing-values">
             <div className="landing-value">
               <div className="landing-value-icon">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+                  <line x1="12" y1="2" x2="12" y2="22"/><line x1="6" y1="8" x2="18" y2="8"/>
                 </svg>
               </div>
-              <h4>Nonpartisan</h4>
-              <p>We don't tell you who to vote for. We give you the facts and let you decide.</p>
+              <h4>Faith-Driven</h4>
+              <p>Grounded in Christian values and the belief that our rights come from God, not government.</p>
             </div>
             <div className="landing-value">
               <div className="landing-value-icon">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                 </svg>
               </div>
-              <h4>Transparent</h4>
-              <p>Every grade and assessment is based on publicly available records you can verify yourself.</p>
+              <h4>Constitutional</h4>
+              <p>Every grade is measured against the Constitution and the founding principles that made America exceptional.</p>
             </div>
             <div className="landing-value">
               <div className="landing-value-icon">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                  <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
                 </svg>
               </div>
-              <h4>For Everyone</h4>
-              <p>Free tools for every citizen, regardless of party, background, or political experience.</p>
+              <h4>100% Free</h4>
+              <p>Every tool is free forever. No paywalls, no premium tiers — because informed voters strengthen our republic.</p>
             </div>
           </div>
         </div>
@@ -107,7 +108,7 @@ export default function LandingView() {
       {/* Tools */}
       <section className="landing-tools">
         <h2 className="landing-section-title">Our Tools</h2>
-        <p className="landing-section-subtitle">Everything you need to participate in democracy, all in one place.</p>
+        <p className="landing-section-subtitle">Everything you need to vote your values, all in one place.</p>
         <div className="landing-tools-grid">
 
           {/* Build My Ballot */}
@@ -120,13 +121,13 @@ export default function LandingView() {
             </div>
             <h3>Build My Ballot</h3>
             <p>
-              Enter your address and see every race on your upcoming ballot. Research
-              candidates with grades, positions, and background info. Save your picks
-              and bring a printable ballot plan to the polls.
+              See every race on your ballot, graded against Christian and
+              Constitutional values. Compare candidates, pick your choices,
+              and bring a printable plan to the polls.
             </p>
             <ul className="landing-tool-features">
               <li>Every candidate in your district</li>
-              <li>Values alignment grades (A&ndash;F)</li>
+              <li>Christian &amp; Constitutional values grades (A&ndash;F)</li>
               <li>Side-by-side candidate comparison</li>
               <li>Printable ballot plan for election day</li>
             </ul>
@@ -143,15 +144,15 @@ export default function LandingView() {
             </div>
             <h3>Find My Reps</h3>
             <p>
-              Look up every elected official who represents you — from your city
-              council member to your U.S. senators. See their voting records,
-              contact info, and how to reach them.
+              Look up every elected official who represents you and see how they
+              score on the issues that matter — faith, family, the Constitution,
+              and limited government.
             </p>
             <ul className="landing-tool-features">
               <li>Federal, state, and local representatives</li>
-              <li>Voting records and key positions</li>
+              <li>Values alignment scores &amp; voting records</li>
               <li>Direct contact information</li>
-              <li>Committee assignments and leadership roles</li>
+              <li>Hold them accountable to their promises</li>
             </ul>
             <span className="landing-tool-learn-more">Learn More &rarr;</span>
           </Link>
@@ -165,15 +166,15 @@ export default function LandingView() {
             </div>
             <h3>More Coming Soon</h3>
             <p>
-              We're building new tools to help you stay informed and engaged.
-              Voter registration status, election reminders, bill tracking,
-              and more — all free, all nonpartisan.
+              We're building new tools to help conservative voters stay informed
+              and engaged. Founding documents, community insights, bill tracking,
+              and more — all free.
             </p>
             <ul className="landing-tool-features">
-              <li>Voter registration checker</li>
-              <li>Election date reminders</li>
+              <li>Founding documents &amp; principles</li>
+              <li>Community voting insights</li>
               <li>Bill and legislation tracker</li>
-              <li>Civic engagement resources</li>
+              <li>Election date reminders</li>
             </ul>
           </div>
         </div>
@@ -182,7 +183,7 @@ export default function LandingView() {
       {/* Bottom CTA */}
       <section className="landing-bottom-cta">
         <h2>Government of the people, by the people, for the people.</h2>
-        <p>Join us and take ownership of your democracy.</p>
+        <p>Stand for faith, family, and the Constitution. Join the movement.</p>
         <button className="landing-cta-primary" onClick={openSignUp}>
           Create Your Free Account
         </button>
