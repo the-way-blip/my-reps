@@ -335,7 +335,7 @@ export default function SettingsView() {
           </FaqItem>
 
           <FaqItem question="How do election reminders work?">
-            <p>On the Elections page, click the bell icon next to any upcoming election to set a reminder. You will receive a browser notification 7 days and 1 day before the election. Make sure browser notifications are enabled in the Notifications section above.</p>
+            <p>Election dates are displayed on your ballot page. Enable browser notifications in the Notifications section above to receive reminders before upcoming elections. We're working on adding customizable reminder alerts — stay tuned.</p>
           </FaqItem>
 
           <FaqItem question="How can I manage my data?">

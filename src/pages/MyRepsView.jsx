@@ -163,7 +163,7 @@ const GROUP_ICONS = {
   star: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.27 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2z" /></svg>,
 }
 
-function RepGroup({ title, icon, reps, onSelect, defaultOpen = true }) {
+function RepGroup({ title, icon, reps, onSelect, defaultOpen = false }) {
   const [open, setOpen] = useState(defaultOpen)
   if (!reps || reps.length === 0) return null
   const iconEl = typeof icon === 'string' ? GROUP_ICONS[icon] || null : icon
