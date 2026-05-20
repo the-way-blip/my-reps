@@ -10,6 +10,7 @@ export const supabase =
           autoRefreshToken: true,
           persistSession: true,
           detectSessionInUrl: true, // Auto-detect tokens in URL hash/query params
+          flowType: 'implicit', // Use implicit flow to avoid PKCE code_verifier issues with email confirmations
         },
       })
     : null
