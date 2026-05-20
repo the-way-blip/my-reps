@@ -470,6 +470,13 @@ export default function AuthModal({ open, onClose }) {
             <button type="submit" className="auth-btn auth-btn-primary" disabled={loading}>
               {loading ? 'Creating account...' : 'Create Account'}
             </button>
+
+            <div className="auth-divider"><span>or</span></div>
+
+            <button type="button" className="auth-btn auth-btn-google" onClick={handleGoogle} disabled={loading}>
+              <GoogleIcon />
+              Sign up with Google
+            </button>
           </form>
         )}
 

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
+import { syncUserToGHL } from '../services/ghlService'
 
 /**
  * Handles the auth callback from Supabase email confirmation / password reset / OAuth.
@@ -58,9 +59,30 @@ export default function AuthCallbackView() {
         }
 
         // If we had a code or access token, session is now established
-        // Give onAuthStateChange a moment to fire, then redirect
+        // Check if this is a new OAuth user and sync to GHL
         if (code || accessToken) {
-          // Small delay to let auth state propagate
+          try {
+            const { data: { session: currentSession } } = await supabase.auth.getSession()
+            const oauthUser = currentSession?.user
+            if (oauthUser) {
+              const createdAt = new Date(oauthUser.created_at)
+              const isNewUser = (Date.now() - createdAt.getTime()) < 120000 // within 2 min
+              if (isNewUser) {
+                const fullName = oauthUser.user_metadata?.full_name || oauthUser.user_metadata?.name || ''
+                syncUserToGHL({
+                  email: oauthUser.email || '',
+                  name: fullName,
+                  phone: oauthUser.user_metadata?.phone || '',
+                  state: '',
+                  zipCode: '',
+                }).catch(() => {}) // fire-and-forget
+              }
+            }
+          } catch (syncErr) {
+            console.warn('OAuth GHL sync check failed:', syncErr)
+          }
+
+          // Small delay to let auth state propagate, then redirect
           setTimeout(() => {
             navigate('/', { replace: true })
           }, 100)

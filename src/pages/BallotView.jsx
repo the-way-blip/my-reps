@@ -1293,6 +1293,9 @@ export default function BallotView() {
                 : 'Your ballot plan is stored on this device only. Sign in to sync across devices.'}
               {' '}Candidate data is sourced from public filings and may change before election day.
             </p>
+            <p style={{ marginTop: '0.5rem', fontStyle: 'italic' }}>
+              Disclaimer: All information is kept as current as possible but may not reflect the latest developments. Candidate grades reflect our editorial assessment based on publicly available records and are inherently subjective. We encourage all voters to conduct their own research before making final voting decisions.
+            </p>
             <p style={{ marginTop: '0.25rem' }}>
               <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-mvic-link">
                 View your official sample ballot on Michigan.gov
