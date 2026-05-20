@@ -348,8 +348,13 @@
 [data-theme="dark"] .state-rep-name {
   color: #fff;
 }
+[data-theme="dark"] .myreps-group {
+  border-color: var(--border);
+  background: var(--surface);
+}
 [data-theme="dark"] .my-reps-group-title {
   color: var(--text-secondary);
+  background: var(--surface);
 }
 [data-theme="dark"] .my-reps-group-title:hover {
   color: #fff;
@@ -3942,25 +3947,31 @@ button.election-card {
   gap: 1.5rem;
 }
 
+.myreps-group {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
 .my-reps-group-title {
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--muted);
-  margin-bottom: 0.5rem;
+  color: var(--text);
+  margin: 0;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
   user-select: none;
-  padding: 0.35rem 0.5rem;
-  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
   transition: background var(--transition), color var(--transition);
+  background: var(--surface);
 }
 .my-reps-group-title:hover {
   background: var(--hover);
-  color: var(--text);
 }
 
 .my-reps-group-chevron {
@@ -3987,6 +3998,10 @@ button.election-card {
 }
 .my-reps-group-content-inner {
   overflow: hidden;
+  padding: 0 1rem;
+}
+.my-reps-group-content-inner .myreps-group-list {
+  padding-bottom: 0.75rem;
 }
 
 .my-reps-group-count {
@@ -10816,6 +10831,351 @@ select.auth-input {
   margin: 0;
 }
 
+/* ── Hero Headline ── */
+.landing-hero-headline {
+  font-family: var(--font-heading);
+  font-size: 2.6rem;
+  line-height: 1.2;
+  color: var(--accent);
+  margin: 0 0 1.25rem;
+  max-width: 720px;
+}
+
+/* ══════════════════════════════════════
+   StoryBrand: PROBLEM Section
+   ══════════════════════════════════════ */
+.landing-problem {
+  background: var(--surface);
+  padding: 5rem 2rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.landing-problem-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.landing-problem-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+.landing-problem-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 2rem 1.5rem;
+  text-align: left;
+}
+.landing-problem-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: #FEF3F2;
+  color: #B22234;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+.landing-problem-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+  color: var(--text);
+}
+.landing-problem-type {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #B22234;
+  margin: 0 0 0.85rem;
+}
+.landing-problem-card > p:last-child {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .landing-problem { padding: 3rem 1.5rem; }
+  .landing-problem-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+}
+
+/* ══════════════════════════════════════
+   StoryBrand: GUIDE Section
+   ══════════════════════════════════════ */
+.landing-guide {
+  padding: 5rem 2rem;
+}
+.landing-guide-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+.landing-guide-content {
+  text-align: left;
+}
+.landing-guide-eyebrow {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-gold);
+  margin: 0 0 0.75rem;
+}
+.landing-guide-title {
+  text-align: left !important;
+  margin-bottom: 1.25rem !important;
+}
+.landing-guide-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin: 0 0 1.5rem;
+}
+.landing-guide-credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.landing-guide-cred {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.92rem;
+  color: var(--text);
+  font-weight: 500;
+}
+.landing-guide-cred svg {
+  color: var(--accent-gold);
+  flex-shrink: 0;
+}
+.landing-guide-image {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+.landing-guide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 768px) {
+  .landing-guide { padding: 3rem 1.5rem; }
+  .landing-guide-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .landing-guide-content { text-align: center; }
+  .landing-guide-title { text-align: center !important; }
+  .landing-guide-credentials { align-items: center; }
+  .landing-guide-image { max-width: 480px; margin: 0 auto; }
+}
+
+/* ══════════════════════════════════════
+   StoryBrand: PLAN Section
+   ══════════════════════════════════════ */
+.landing-plan {
+  background: var(--surface);
+  padding: 5rem 2rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.landing-plan-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.landing-plan-step {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  flex: 1;
+}
+.landing-plan-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.landing-plan-step h3 {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--text);
+}
+.landing-plan-step p {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
+}
+.landing-plan-connector {
+  color: var(--accent-gold);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .landing-plan { padding: 3rem 1.5rem; }
+  .landing-plan-grid { flex-direction: column; max-width: 400px; }
+  .landing-plan-connector { transform: rotate(90deg); }
+}
+
+/* ══════════════════════════════════════
+   StoryBrand: DIRECT CTA
+   ══════════════════════════════════════ */
+.landing-direct-cta {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.landing-direct-cta-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.landing-direct-cta h2 {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--accent);
+  margin: 0 0 0.75rem;
+}
+.landing-direct-cta p {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  margin: 0 0 1.5rem;
+  line-height: 1.6;
+}
+
+/* ══════════════════════════════════════
+   StoryBrand: SUCCESS Section
+   ══════════════════════════════════════ */
+.landing-success {
+  background: var(--surface);
+  padding: 5rem 2rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.landing-success-grid {
+  max-width: 1000px;
+  margin: 2.5rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.landing-success-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  align-items: flex-start;
+}
+.landing-success-icon {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: 50%;
+  background: #EFF8EE;
+  color: #2E7D32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-success-item h4 {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+  color: var(--text);
+}
+.landing-success-item p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .landing-success { padding: 3rem 1.5rem; }
+  .landing-success-grid { grid-template-columns: 1fr; max-width: 480px; }
+}
+
+/* ══════════════════════════════════════
+   StoryBrand: STAKES (Failure) Section
+   ══════════════════════════════════════ */
+.landing-stakes {
+  padding: 5rem 2rem;
+}
+.landing-stakes-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.landing-stakes-title {
+  color: var(--text) !important;
+}
+.landing-stakes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+.landing-stakes-item {
+  text-align: center;
+}
+.landing-stakes-num {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #B22234;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+.landing-stakes-item p {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+.landing-stakes-bottom {
+  font-size: 1.05rem;
+  color: var(--text);
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .landing-stakes { padding: 3rem 1.5rem; }
+  .landing-stakes-grid { grid-template-columns: 1fr; gap: 1.5rem; max-width: 320px; margin: 2rem auto; }
+  .landing-stakes-num { font-size: 2.2rem; }
+}
+
+/* ── Bottom CTA reassurance ── */
+.landing-bottom-reassurance {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.6);
+  margin: 1rem 0 0;
+}
+
 /* ── Ballot Preview Card ── */
 .landing-hero-visual {
   display: flex;
@@ -11449,6 +11809,9 @@ a.landing-tool-card {
   }
   .landing-ampersand-hero {
     font-size: 2.5rem;
+  }
+  .landing-hero-headline {
+    font-size: 1.8rem;
   }
   .landing-subheadline {
     max-width: 100%;
@@ -12607,6 +12970,20 @@ a.landing-tool-card {
 }
 [data-theme="dark"] .help-faq-link {
   color: var(--accent, #3b82f6);
+}
+
+/* ── Dark mode: StoryBrand landing sections ── */
+[data-theme="dark"] .landing-problem-icon {
+  background: rgba(178, 34, 52, 0.15);
+}
+[data-theme="dark"] .landing-success-icon {
+  background: rgba(46, 125, 50, 0.15);
+}
+[data-theme="dark"] .landing-problem-card,
+[data-theme="dark"] .landing-plan-step,
+[data-theme="dark"] .landing-success-item {
+  background: var(--surface);
+  border-color: var(--border);
 }
 
 /* Mobile */

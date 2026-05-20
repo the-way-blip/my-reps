@@ -27,7 +27,7 @@ export default function LandingView() {
 
   return (
     <div className="landing">
-      {/* Header */}
+      {/* ── Header ── */}
       <header className="landing-header">
         <div className="landing-header-inner">
           <div className="landing-brand">
@@ -39,18 +39,24 @@ export default function LandingView() {
         </div>
       </header>
 
-      {/* Hero — Organization */}
+      {/* ══════════════════════════════════════
+         SB7 Element 1: CHARACTER
+         The voter is the hero. Open with their desire.
+         ══════════════════════════════════════ */}
       <section className="landing-hero">
         <div className="landing-hero-content landing-hero-centered">
           <img src="/logo.png" alt="Of For & By The People" className="landing-hero-logo" />
+          <h1 className="landing-hero-headline">
+            Walk Into Every Election Confident You're Voting Your Values
+          </h1>
           <p className="landing-subheadline landing-subheadline-centered">
-            Free tools for conservative voters who value faith, the Constitution,
-            and limited government. Research candidates, grade your representatives,
-            and walk into every election informed and ready.
+            You believe in faith, family, and the Constitution. Now you can see
+            exactly which candidates share those convictions — in under two minutes,
+            completely free.
           </p>
           <div className="landing-cta-group landing-cta-centered">
             <button className="landing-cta-primary" onClick={openSignUp}>
-              Join For Free
+              Get Your Free Ballot Guide
             </button>
             <p className="landing-cta-sub">
               Free forever &middot; No credit card &middot; Takes 30 seconds
@@ -59,98 +65,170 @@ export default function LandingView() {
         </div>
       </section>
 
-      {/* Mission */}
-      <section className="landing-mission">
-        <div className="landing-mission-inner">
-          <div className="landing-mission-content">
-            <h2 className="landing-section-title">Our Mission</h2>
-            <p className="landing-mission-text">
-              America was built on Christian principles and Constitutional liberty. But
-              today, finding out which candidates actually uphold those values takes hours
-              of research most people don't have time for. We're building the civic toolkit
-              that makes it easy for conservative voters to see where every candidate stands
-              on the issues that matter — faith, family, the Second Amendment, fiscal
-              responsibility, and the Constitutional rights our founders fought to protect.
-            </p>
+      {/* ══════════════════════════════════════
+         SB7 Element 2: PROBLEM
+         External, Internal, and Philosophical layers
+         ══════════════════════════════════════ */}
+      <section className="landing-problem">
+        <div className="landing-problem-inner">
+          <h2 className="landing-section-title">Voting Shouldn't Require a Research Project</h2>
+          <p className="landing-section-subtitle">
+            Three problems facing conservative voters today.
+          </p>
+          <div className="landing-problem-grid">
+            {/* External Problem */}
+            <div className="landing-problem-card">
+              <div className="landing-problem-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+              </div>
+              <h3>Candidates Are Hard to Research</h3>
+              <p className="landing-problem-type">The External Problem</p>
+              <p>
+                There are dozens of races on every ballot — from Congress down to
+                school board — and credible information on most candidates simply
+                doesn't exist in one place.
+              </p>
+            </div>
+            {/* Internal Problem */}
+            <div className="landing-problem-card">
+              <div className="landing-problem-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><circle cx="12" cy="12" r="10"/><path d="M12 17h.01"/>
+                </svg>
+              </div>
+              <h3>You Don't Want to Vote Blindly</h3>
+              <p className="landing-problem-type">The Internal Problem</p>
+              <p>
+                Nobody wants to cast a ballot for someone who opposes everything
+                they believe in. The uncertainty makes people skip races — or skip
+                elections entirely.
+              </p>
+            </div>
+            {/* Philosophical Problem */}
+            <div className="landing-problem-card">
+              <div className="landing-problem-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <h3>Our Values Deserve Better</h3>
+              <p className="landing-problem-type">The Philosophical Problem</p>
+              <p>
+                In a republic founded on Christian principles and Constitutional
+                liberty, every citizen should be able to hold their leaders
+                accountable — not just the ones with time for hours of research.
+              </p>
+            </div>
           </div>
-          <div className="landing-mission-image">
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+         SB7 Element 3: GUIDE
+         Position the platform as the empathetic authority
+         ══════════════════════════════════════ */}
+      <section className="landing-guide">
+        <div className="landing-guide-inner">
+          <div className="landing-guide-content">
+            <p className="landing-guide-eyebrow">We Understand</p>
+            <h2 className="landing-section-title landing-guide-title">
+              We Built the Civic Toolkit We Wished Existed
+            </h2>
+            <p className="landing-guide-text">
+              We're conservative voters who got tired of showing up unprepared.
+              So we built a platform that grades every candidate on a clear,
+              transparent rubric — rooted in the values we share: protection of
+              unborn life, religious liberty, the Second Amendment, marriage &amp;
+              family, limited government, and fiscal responsibility.
+            </p>
+            <div className="landing-guide-credentials">
+              <div className="landing-guide-cred">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>30+ conservative organization scorecards</span>
+              </div>
+              <div className="landing-guide-cred">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Voting records carry the most weight</span>
+              </div>
+              <div className="landing-guide-cred">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Independent — no party affiliation</span>
+              </div>
+              <div className="landing-guide-cred">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>100% free forever — no paywalls</span>
+              </div>
+            </div>
+          </div>
+          <div className="landing-guide-image">
             <img src="/hero-constitution.jpg" alt="We The People — the United States Constitution" loading="lazy" />
           </div>
         </div>
-        <div className="landing-values">
-          <div className="landing-value">
-            <div className="landing-value-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="12" y1="2" x2="12" y2="22"/><line x1="6" y1="8" x2="18" y2="8"/>
-              </svg>
-            </div>
-            <h4>Faith-Driven</h4>
-            <p>Grounded in Christian values and the belief that our rights come from God, not government.</p>
-          </div>
-          <div className="landing-value">
-            <div className="landing-value-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-              </svg>
-            </div>
-            <h4>Constitutional</h4>
-            <p>Every grade is measured against the Constitution and the founding principles that made America exceptional.</p>
-          </div>
-          <div className="landing-value">
-            <div className="landing-value-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-              </svg>
-            </div>
-            <h4>100% Free</h4>
-            <p>Every tool is free forever. No paywalls, no premium tiers — because informed voters strengthen our republic.</p>
-          </div>
-        </div>
       </section>
 
-      {/* Why This Exists */}
-      <section className="landing-goals">
-        <h2 className="landing-section-title">Why We Built This</h2>
+      {/* ══════════════════════════════════════
+         SB7 Element 4: PLAN
+         Give a clear 3-step path
+         ══════════════════════════════════════ */}
+      <section className="landing-plan">
+        <h2 className="landing-section-title">Three Steps to Voting Your Values</h2>
         <p className="landing-section-subtitle">
-          Three problems we're solving for conservative voters.
+          It takes under two minutes. Here's how it works.
         </p>
-        <div className="landing-goals-grid">
-          <div className="landing-goal-card">
-            <div className="landing-goal-number">1</div>
-            <h3>More Voters in Primaries</h3>
-            <p>
-              Your vote has the most impact in a primary election — turnout is low,
-              candidates are many, and party splits mean each ballot carries outsized
-              weight. Yet most people skip primaries. We want to change that.
-            </p>
+        <div className="landing-plan-grid">
+          <div className="landing-plan-step">
+            <div className="landing-plan-number">1</div>
+            <h3>Create Your Free Account</h3>
+            <p>Sign up in 30 seconds. No credit card, no strings attached.</p>
           </div>
-          <div className="landing-goal-card">
-            <div className="landing-goal-number">2</div>
-            <h3>Vote Informed, Not Blind</h3>
-            <p>
-              People skip elections because they don't know who the candidates are
-              or where they stand. Nobody wants to cast a vote for someone they'd
-              never support. We give you the research so you can walk in confident.
-            </p>
+          <div className="landing-plan-connector" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+            </svg>
           </div>
-          <div className="landing-goal-card">
-            <div className="landing-goal-number">3</div>
-            <h3>Know &amp; Hold Reps Accountable</h3>
-            <p>
-              Most people can't name their state representative, let alone contact them.
-              We show you exactly who represents you, what they're doing,
-              and how to reach them — so they answer to you.
-            </p>
+          <div className="landing-plan-step">
+            <div className="landing-plan-number">2</div>
+            <h3>Enter Your Address</h3>
+            <p>We show you every race on your ballot with candidates graded A through F.</p>
+          </div>
+          <div className="landing-plan-connector" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </div>
+          <div className="landing-plan-step">
+            <div className="landing-plan-number">3</div>
+            <h3>Vote With Confidence</h3>
+            <p>Compare candidates, pick your choices, and bring a printable plan to the polls.</p>
           </div>
         </div>
       </section>
 
-      {/* Tools */}
-      <section className="landing-tools">
-        <h2 className="landing-section-title">Our Tools</h2>
-        <p className="landing-section-subtitle">Everything you need to vote your values, all in one place.</p>
-        <div className="landing-tools-grid">
+      {/* ══════════════════════════════════════
+         SB7 Element 5: CALL TO ACTION (Direct)
+         ══════════════════════════════════════ */}
+      <section className="landing-direct-cta">
+        <div className="landing-direct-cta-inner">
+          <h2>Ready to See Your Ballot?</h2>
+          <p>Join thousands of conservative voters who walk into the polls prepared.</p>
+          <button className="landing-cta-primary" onClick={openSignUp}>
+            Get Your Free Ballot Guide
+          </button>
+        </div>
+      </section>
 
+      {/* ══════════════════════════════════════
+         SB7 Element 5b: TRANSITIONAL CTA
+         Lower commitment — explore the tools
+         ══════════════════════════════════════ */}
+      <section className="landing-tools">
+        <h2 className="landing-section-title">What You Get — Free</h2>
+        <p className="landing-section-subtitle">
+          Everything you need to vote your values and hold your leaders accountable.
+        </p>
+        <div className="landing-tools-grid">
           {/* Build My Ballot */}
           <Link to="/tools/ballot" className="landing-tool-card landing-tool-featured" style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="landing-tool-badge">Live Now</div>
@@ -220,6 +298,80 @@ export default function LandingView() {
         </div>
       </section>
 
+      {/* ══════════════════════════════════════
+         SB7 Element 6: SUCCESS
+         Paint the picture of life after using the platform
+         ══════════════════════════════════════ */}
+      <section className="landing-success">
+        <h2 className="landing-section-title">Imagine Walking Into the Polls Prepared</h2>
+        <div className="landing-success-grid">
+          <div className="landing-success-item">
+            <div className="landing-success-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <h4>Every Race, Every Candidate — Graded</h4>
+            <p>No more guessing. You know exactly which candidates align with your values before you step into the booth.</p>
+          </div>
+          <div className="landing-success-item">
+            <div className="landing-success-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/>
+              </svg>
+            </div>
+            <h4>A Printable Ballot Plan</h4>
+            <p>Pick your candidates at home, print your selections, and bring your cheat sheet on election day. Done in minutes.</p>
+          </div>
+          <div className="landing-success-item">
+            <div className="landing-success-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              </svg>
+            </div>
+            <h4>Your Reps, At Your Fingertips</h4>
+            <p>Know who represents you at every level. See their record, contact them directly, and hold them accountable.</p>
+          </div>
+          <div className="landing-success-item">
+            <div className="landing-success-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h4>Your Vote Protects What Matters</h4>
+            <p>Faith, family, and freedom aren't abstract ideas — they're the foundation of our republic. Your informed vote defends them.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+         SB7 Element 7: FAILURE
+         What's at stake if they don't act
+         ══════════════════════════════════════ */}
+      <section className="landing-stakes">
+        <div className="landing-stakes-inner">
+          <h2 className="landing-section-title landing-stakes-title">What Happens When We Stay Home?</h2>
+          <div className="landing-stakes-grid">
+            <div className="landing-stakes-item">
+              <span className="landing-stakes-num">73%</span>
+              <p>of eligible voters skip primary elections — the races where your vote has the biggest impact.</p>
+            </div>
+            <div className="landing-stakes-item">
+              <span className="landing-stakes-num">62%</span>
+              <p>of Americans can't name their state representative — let alone hold them accountable.</p>
+            </div>
+            <div className="landing-stakes-item">
+              <span className="landing-stakes-num">1 in 3</span>
+              <p>voters say they've voted for a candidate whose positions they later disagreed with.</p>
+            </div>
+          </div>
+          <p className="landing-stakes-bottom">
+            When conservative voters stay home or vote uninformed, the leaders
+            who get elected don't reflect our values. That's a problem we can fix.
+          </p>
+        </div>
+      </section>
+
       {/* State Coverage Banner */}
       <section className="landing-state-banner">
         <div className="landing-state-banner-inner">
@@ -236,18 +388,23 @@ export default function LandingView() {
         </div>
       </section>
 
-      {/* Bottom CTA */}
+      {/* ══════════════════════════════════════
+         Final CTA — repeat the direct call to action
+         ══════════════════════════════════════ */}
       <section className="landing-bottom-cta">
         <div className="landing-bottom-cta-overlay">
           <h2>Government of the people, by the people, for the people.</h2>
           <p>Stand for Faith, Family, and our Founding Principles. Join the movement.</p>
           <button className="landing-cta-primary" onClick={openSignUp}>
-            Create Your Free Account
+            Get Your Free Ballot Guide
           </button>
+          <p className="landing-bottom-reassurance">
+            Free forever &middot; No credit card required &middot; 30-second signup
+          </p>
         </div>
       </section>
 
-      {/* Footer */}
+      {/* ── Footer ── */}
       <footer className="landing-footer">
         <div className="landing-footer-inner">
           <p>&copy; {new Date().getFullYear()} Of For &amp; By The People. All rights reserved.</p>
