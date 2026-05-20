@@ -21,6 +21,7 @@ const PrivacyView = React.lazy(() => import('./pages/PrivacyView'))
 const TermsView = React.lazy(() => import('./pages/TermsView'))
 const AuthCallbackView = React.lazy(() => import('./pages/AuthCallbackView'))
 const ToolInfoView = React.lazy(() => import('./pages/ToolInfoView'))
+const StateCoverageView = React.lazy(() => import('./pages/StateCoverageView'))
 
 const LazyFallback = (
   <div className="loader"><div className="spinner" /></div>
@@ -37,6 +38,7 @@ export default function App() {
             {/* Public routes — no auth required */}
             <Route path="welcome" element={<LandingView />} />
             <Route path="tools/:toolId" element={<ToolInfoView />} />
+            <Route path="states" element={<StateCoverageView />} />
             <Route path="privacy" element={<AppLayout />}>
               <Route index element={<PrivacyView />} />
             </Route>

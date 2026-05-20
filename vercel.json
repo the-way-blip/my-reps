@@ -2,6 +2,32 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "vite",
+  "redirects": [
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "buildmyballot.com" }],
+      "destination": "https://www.offorandbythepeople.com/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "www.buildmyballot.com" }],
+      "destination": "https://www.offorandbythepeople.com/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "myreps.vote" }],
+      "destination": "https://www.offorandbythepeople.com/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "www.myreps.vote" }],
+      "destination": "https://www.offorandbythepeople.com/:path",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/api/census/:path*", "destination": "/api/census/[...path]" },
     { "source": "/api/congress/:path*", "destination": "/api/congress/[...path]" },

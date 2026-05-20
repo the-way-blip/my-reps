@@ -62,43 +62,48 @@ export default function LandingView() {
       {/* Mission */}
       <section className="landing-mission">
         <div className="landing-mission-inner">
-          <h2 className="landing-section-title">Our Mission</h2>
-          <p className="landing-mission-text">
-            America was built on Christian principles and Constitutional liberty. But
-            today, finding out which candidates actually uphold those values takes hours
-            of research most people don't have time for. We're building the civic toolkit
-            that makes it easy for conservative voters to see where every candidate stands
-            on the issues that matter — faith, family, the Second Amendment, fiscal
-            responsibility, and the Constitutional rights our founders fought to protect.
-          </p>
-          <div className="landing-values">
-            <div className="landing-value">
-              <div className="landing-value-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="12" y1="2" x2="12" y2="22"/><line x1="6" y1="8" x2="18" y2="8"/>
-                </svg>
-              </div>
-              <h4>Faith-Driven</h4>
-              <p>Grounded in Christian values and the belief that our rights come from God, not government.</p>
+          <div className="landing-mission-content">
+            <h2 className="landing-section-title">Our Mission</h2>
+            <p className="landing-mission-text">
+              America was built on Christian principles and Constitutional liberty. But
+              today, finding out which candidates actually uphold those values takes hours
+              of research most people don't have time for. We're building the civic toolkit
+              that makes it easy for conservative voters to see where every candidate stands
+              on the issues that matter — faith, family, the Second Amendment, fiscal
+              responsibility, and the Constitutional rights our founders fought to protect.
+            </p>
+          </div>
+          <div className="landing-mission-image">
+            <img src="/hero-constitution.jpg" alt="We The People — the United States Constitution" loading="lazy" />
+          </div>
+        </div>
+        <div className="landing-values">
+          <div className="landing-value">
+            <div className="landing-value-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="12" y1="2" x2="12" y2="22"/><line x1="6" y1="8" x2="18" y2="8"/>
+              </svg>
             </div>
-            <div className="landing-value">
-              <div className="landing-value-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                </svg>
-              </div>
-              <h4>Constitutional</h4>
-              <p>Every grade is measured against the Constitution and the founding principles that made America exceptional.</p>
+            <h4>Faith-Driven</h4>
+            <p>Grounded in Christian values and the belief that our rights come from God, not government.</p>
+          </div>
+          <div className="landing-value">
+            <div className="landing-value-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
             </div>
-            <div className="landing-value">
-              <div className="landing-value-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                </svg>
-              </div>
-              <h4>100% Free</h4>
-              <p>Every tool is free forever. No paywalls, no premium tiers — because informed voters strengthen our republic.</p>
+            <h4>Constitutional</h4>
+            <p>Every grade is measured against the Constitution and the founding principles that made America exceptional.</p>
+          </div>
+          <div className="landing-value">
+            <div className="landing-value-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
             </div>
+            <h4>100% Free</h4>
+            <p>Every tool is free forever. No paywalls, no premium tiers — because informed voters strengthen our republic.</p>
           </div>
         </div>
       </section>
@@ -178,13 +183,31 @@ export default function LandingView() {
         </div>
       </section>
 
+      {/* State Coverage Banner */}
+      <section className="landing-state-banner">
+        <div className="landing-state-banner-inner">
+          <div className="landing-state-banner-text">
+            <h3>Growing Across America</h3>
+            <p>
+              We're building ballot data and candidate grades state by state.
+              See which states have full coverage and what's coming next.
+            </p>
+          </div>
+          <Link to="/states" className="landing-state-banner-btn">
+            View State Coverage &rarr;
+          </Link>
+        </div>
+      </section>
+
       {/* Bottom CTA */}
       <section className="landing-bottom-cta">
-        <h2>Government of the people, by the people, for the people.</h2>
-        <p>Stand for Faith, Family, and our Founding Principles. Join the movement.</p>
-        <button className="landing-cta-primary" onClick={openSignUp}>
-          Create Your Free Account
-        </button>
+        <div className="landing-bottom-cta-overlay">
+          <h2>Government of the people, by the people, for the people.</h2>
+          <p>Stand for Faith, Family, and our Founding Principles. Join the movement.</p>
+          <button className="landing-cta-primary" onClick={openSignUp}>
+            Create Your Free Account
+          </button>
+        </div>
       </section>
 
       {/* Footer */}
