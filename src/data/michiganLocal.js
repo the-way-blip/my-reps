@@ -78,7 +78,7 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Mandy Daleski Smith', title: 'Register of Deeds', party: 'Democratic' },
       { name: 'Gerald Fournier', title: 'Drain Commissioner', party: 'Republican' },
       { name: 'William LaHaie', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
-      { name: 'Dan Ludlow', title: 'Commissioner (District 2)', party: null, district: 2 }, // appointed Jan 2025; Griffin James won D2 in Nov 2024 but was ineligible (moved out of district)
+      { name: 'Dan Ludlow', title: 'Commissioner (District 2)', party: 'Democratic', district: 2 }, // appointed Jan 2025; registered Democrat (Alpena News)
       { name: 'Lucille Bray', title: 'Commissioner (District 3)', party: null, district: 3 }, // appointed Sept 2024 to fill vacancy; ran and won Nov 2024 general as Independent
       { name: 'Bill Peterson', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
       { name: 'Brenda Fournier', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
@@ -251,7 +251,7 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Fred Blankenship', title: 'Sheriff', party: 'Republican' },
       { name: 'Terry A. Kubasiak', title: 'County Clerk', party: 'Republican' },
       { name: 'Steven Rutz', title: 'Treasurer', party: 'Republican' },
-      { name: 'Nyci Centers', title: 'Register of Deeds', party: null }, // UNVERIFIED party affiliation
+      { name: 'Nyci Centers', title: 'Register of Deeds', party: 'Republican' }, // ran as Republican in 2024 (ballot name Nyci DeLoach)
       { name: 'Michael Hard', title: 'Drain Commissioner', party: 'Republican' },
       { name: 'Randall Hazelbaker', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
       { name: 'Jon E. Houtz', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
@@ -294,7 +294,7 @@ export const MI_COUNTY_OFFICIALS = {
     website: 'https://www.casscountymi.org',
     phone: '269-445-4400',
     officials: [
-      { name: null, title: 'Prosecuting Attorney', party: null }, // UNVERIFIED — office vacant since May 19, 2026; court appointment pending
+      { name: null, title: 'Prosecuting Attorney', party: null }, // VACANT — Victor Fitz (R) resigned May 19, 2026; circuit court appointment pending
       { name: 'Clint Roach', title: 'Sheriff', party: 'Republican' },
       { name: 'Monica McMichael', title: 'County Clerk / Register of Deeds', party: 'Republican' },
       { name: 'Hope Anderson', title: 'Treasurer', party: 'Republican' },
@@ -319,15 +319,15 @@ export const MI_COUNTY_OFFICIALS = {
     website: 'https://www.charlevoixcounty.org',
     phone: '231-547-7200',
     officials: [
-      { name: null, title: 'County Administrator', party: null }, // UNVERIFIED — county has administrator function but name not confirmed
+      { name: 'Kevin Shepard', title: 'County Administrator', party: null }, // appointed; County Administrator & HR Director
       { name: 'Christopher D. Tholen', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Charles Vondra', title: 'Sheriff', party: 'Republican' },
       { name: 'Julia A. Drost', title: 'County Clerk', party: 'Republican' },
       { name: 'Julie Wheat', title: 'Treasurer', party: 'Republican' },
       { name: 'Jessica Porter', title: 'Register of Deeds', party: 'Republican' },
-      { name: null, title: 'Drain Commissioner', party: null }, // UNVERIFIED — Dennis Jason died March 4, 2024; November 2024 winner not confirmed in available sources
+      { name: 'Russell Smith', title: 'Drain Commissioner', party: 'Republican' }, // appointed 2024 after Dennis Jason died in office
       { name: 'Robert J. Jess', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
-      { name: 'Chris Christensen', title: 'Commissioner (District 2)', party: null, district: 2 }, // UNVERIFIED party; ran but party affiliation not confirmed in available sources
+      { name: 'Chris Christensen', title: 'Commissioner (District 2)', party: 'Republican', district: 2 }, // serving since 2006
       { name: 'Tim Kenney', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
       { name: 'Joshua Chamberlain', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
       { name: 'Scott Hankins', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
@@ -378,7 +378,7 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Anthony Stackpoole', title: 'Drain Commissioner', party: 'Republican' },
       { name: 'Scott Shackleton', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
       { name: 'Jim Martin', title: 'Commissioner (District 2)', party: 'Democratic', district: 2 },
-      { name: null, title: 'Commissioner (District 3)', party: null, district: 3 }, // UNVERIFIED — Damon Lieurance (R) vs Thomas Farnquist Sr. (Independent); winner not confirmed from available sources
+      { name: 'Damon Lieurance', title: 'Commissioner (District 3)', party: 'Republican', district: 3 }, // won 2024 over T. Farnquist Sr. (Independent)
       { name: 'James Traynor', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
       { name: 'Robert Savoie', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
     ],
@@ -434,6 +434,7 @@ export const MI_COUNTY_OFFICIALS = {
 
   // 7 districts; all row officers and commissioners elected Nov 2024 for 2025-2028 terms
   // Crawford County confirmed as one of 31 Michigan counties with combined Clerk/Register of Deeds office
+  // Crawford County does not elect a Drain Commissioner — the office is absent from the Michigan Manual county listings.
   'Crawford': {
     name: 'Crawford County',
     website: 'https://www.crawfordco.org',
@@ -443,7 +444,6 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Ryan A. Swope', title: 'Sheriff', party: 'Republican' },
       { name: 'Jamie L. McClain', title: 'County Clerk / Register of Deeds', party: 'Republican' },
       { name: 'Kate M. Wagner', title: 'Treasurer', party: 'Republican' }, // confirmed: official county website (crawfordco.org/offices-departments/treasurer/) lists Kate M. Wagner; received 6,644 votes Nov 2024 as R candidate
-      { name: null, title: 'Drain Commissioner', party: null }, // UNVERIFIED -- no Ballotpedia page found; county may have uncontested or appointed drain commissioner
       { name: 'Laurie Jamison', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
       { name: 'Dorothy A. Frederick', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
       { name: 'Stephanie A. Orlik', title: 'Commissioner (District 3)', party: 'Democratic', district: 3 },
@@ -464,7 +464,7 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Todd M. Tardiff', title: 'Sheriff', party: 'Republican' },
       { name: 'Nancy Przewrocki', title: 'County Clerk / Register of Deeds', party: 'Republican' },
       { name: 'Terence S. Wanic', title: 'Treasurer', party: 'Republican' }, // UNVERIFIED party -- ran as R candidate; winner not explicitly confirmed by official results page
-      { name: 'Dean Auger', title: 'Drain Commissioner', party: null }, // confirmed name: appointed 2022, elected uncontested Nov 2024 (WLUC/Daily Press June 2025 reporting); UNVERIFIED party -- ran uncontested, party affiliation not confirmed from available sources
+      { name: 'Dean Auger', title: 'Drain Commissioner', party: 'Republican' }, // ran as Republican; elected uncontested Nov 2024
       { name: 'John Malnar', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
       { name: 'Patrick D. Johnson', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
       { name: 'Christine Williams', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
@@ -499,7 +499,7 @@ export const MI_COUNTY_OFFICIALS = {
     website: 'https://www.eatoncounty.org',
     phone: '517-543-7500',
     officials: [
-      { name: null, title: 'County Administrator / Controller', party: null }, // appointed position; Ben Dawson served as interim controller/administrator as of early 2026
+      { name: 'Ben Dawson', title: 'County Administrator / Controller', party: null }, // appointed administrator/controller
       { name: 'Doug Lloyd', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Tom Reich', title: 'Sheriff', party: 'Democratic' }, // won third term Nov 2024
       { name: 'Kimberly Morris', title: 'County Clerk / Register of Deeds', party: null }, // appointed effective May 1, 2026, succeeding Diana Bosworth (who was elected); appointed official so party: null per rules
@@ -601,7 +601,7 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Jorge H. Cruz', title: 'Sheriff', party: 'Republican' }, // won Nov 2024 with 5,136 votes (69.6%) vs Gabe Justinak (D) 2,263 (30.4%); took office Jan 2025 per yourdailyglobe.com
       { name: 'Erin Berg', title: 'County Clerk / Register of Deeds', party: 'Republican' }, // combined office confirmed via Ballotpedia: "Gogebic County Clerk and Register of Deeds"
       { name: 'Lisa Hewitt', title: 'Treasurer', party: 'Republican' },
-      { name: null, title: 'Drain Commissioner', party: null }, // UNVERIFIED -- Gogebic County has no drainage districts but is statutorily required to elect a drain commissioner; name not confirmed
+      { name: 'Michael Foley', title: 'Drain Commissioner', party: 'Republican' }, // Republican; elected 2020, ran unopposed 2024
       { name: 'Dan Siirila', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
       { name: 'Joseph Cayer', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
       { name: 'Dan Wood', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
@@ -609,6 +609,30 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Peter Matonich', title: 'Commissioner (District 5)', party: 'Democratic', district: 5 },
       { name: 'Michael Yon', title: 'Commissioner (District 6)', party: 'Republican', district: 6 },
       { name: 'George Peterson III', title: 'Commissioner (District 7)', party: 'Democratic', district: 7 },
+    ],
+  },
+
+  'Grand Traverse': {
+    name: 'Grand Traverse County',
+    website: 'https://www.gtcountymi.gov',
+    phone: '231-922-4700',
+    officials: [
+      { name: 'Nate Alger', title: 'County Administrator', party: null },
+      { name: 'Noelle R. Moeggenberg', title: 'Prosecuting Attorney', party: 'Republican' },
+      { name: 'Michael D. Shea', title: 'Sheriff', party: 'Republican' },
+      { name: 'Bonnie Scheele', title: 'County Clerk', party: 'Republican' },
+      { name: 'Jamie Callahan', title: 'Treasurer', party: 'Republican' },
+      { name: 'Scott Rokos', title: 'Register of Deeds', party: 'Republican' },
+      { name: 'Andy Smits', title: 'Drain Commissioner', party: 'Republican' },
+      { name: 'Brian McAllister', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
+      { name: 'Lauren Flynn', title: 'Commissioner (District 2)', party: 'Democratic', district: 2 },
+      { name: 'Ashlea Walter', title: 'Commissioner (District 3)', party: 'Democratic', district: 3 },
+      { name: 'Fern Spence', title: 'Commissioner (District 4)', party: 'Democratic', district: 4 },
+      { name: 'Rob Hentschel', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
+      { name: 'Darryl Nelson', title: 'Commissioner (District 6)', party: 'Republican', district: 6 },
+      { name: 'TJ Andrews', title: 'Commissioner (District 7)', party: 'Democratic', district: 7 },
+      { name: 'Scott Sieffert', title: 'Commissioner (District 8)', party: 'Republican', district: 8 },
+      { name: 'Penny Morris', title: 'Commissioner (District 9)', party: 'Republican', district: 9 },
     ],
   },
 
@@ -678,7 +702,7 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Timothy Rutkowski', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Kelly Hanson', title: 'Sheriff', party: 'Republican' },
       { name: 'Lori Neal', title: 'County Clerk', party: 'Republican' },
-      { name: 'Sheryl Jahn', title: 'Treasurer', party: null }, // appointed after Deb McCollum (R) won 2024 election then retired Nov. 20, 2024; Jahn party unverified
+      { name: 'Sheryl Jahn', title: 'Treasurer', party: null }, // appointed by county board after 2024 winner Deb McCollum (R) retired before taking office
       { name: 'Sarah Durr', title: 'Register of Deeds', party: 'Republican' },
       { name: 'Bill Khoury', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
       { name: 'Ron Geiger', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
@@ -771,7 +795,7 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Amy Donati', title: 'County Clerk / Register of Deeds', party: 'Democratic' },
       { name: 'Melanie Camps', title: 'Treasurer', party: 'Democratic' },
       { name: 'Dan Peretto', title: 'Commissioner (District 1)', party: 'Democratic', district: 1 },
-      { name: 'Pete Judd', title: 'Commissioner (District 2)', party: null, district: 2 }, // appointed to fill vacancy after Tom Stafford resigned; party unverified
+      { name: 'Pete Judd', title: 'Commissioner (District 2)', party: null, district: 2 }, // board-appointed Feb 2025 to fill vacancy (Tom Stafford resigned); appointed official
       { name: 'Mark Stauber', title: 'Commissioner (District 3)', party: null, district: 3 }, // ran and won as NPA (No Party Affiliation) in 2024
       { name: 'Ean Bruette', title: 'Commissioner (District 4)', party: null, district: 4 }, // ran and won as NPA (No Party Affiliation) in 2024
       { name: 'Jacob Conery', title: 'Commissioner (District 5)', party: null, district: 5 }, // ran and won as NPA (No Party Affiliation) in 2024
@@ -917,7 +941,7 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Julie Carlson', title: 'County Clerk / Register of Deeds', party: 'Republican' },
       { name: 'Eric Hermanson', title: 'Treasurer', party: 'Republican' },
       { name: 'Don Piche', title: 'Commissioner (District 1)', party: 'Democratic', district: 1 },
-      { name: 'Mike LaMotte', title: 'Commissioner (District 2)', party: null, district: 2 }, // UNVERIFIED party -- ran/serves as No Party Affiliation per search results
+      { name: 'Mike LaMotte', title: 'Commissioner (District 2)', party: null, district: 2 }, // ran as NPA (No Party Affiliation), 2024
       { name: 'Del Rajala', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
       { name: 'Robert DeMarois', title: 'Commissioner (District 4)', party: 'Democratic', district: 4 },
       { name: 'Randy Eckloff', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
@@ -1026,7 +1050,7 @@ export const MI_COUNTY_OFFICIALS = {
     website: 'https://milivcounty.gov',
     phone: '517-546-3669',
     officials: [
-      { name: null, title: 'County Administrator', party: null }, // UNVERIFIED -- could not confirm current name; county was recruiting as of recent records
+      { name: 'Nathan Burd', title: 'County Administrator', party: null }, // appointed County Administrator
       { name: 'Carolyn Henry', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Mike Murphy', title: 'Sheriff', party: 'Republican' },
       { name: 'Elizabeth Hundley', title: 'County Clerk', party: 'Republican' },
@@ -1141,7 +1165,7 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Gregory S. Zyburt', title: 'Sheriff', party: 'Republican' },
       { name: 'Linda Talsma', title: 'County Clerk', party: 'Democratic' }, // ran in Democratic primary Aug 2024
       { name: 'Jackie Solomon', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Tonya Nelson', title: 'Register of Deeds', party: null }, // UNVERIFIED -- party affiliation not confirmed via Ballotpedia or official source
+      { name: 'Tonya Nelson', title: 'Register of Deeds', party: 'Democratic' },
       { name: 'Karl Numinen', title: 'Commissioner (District 1)', party: 'Democratic', district: 1 }, // appointed Oct 2025, replacing John DePetro who resigned Sept 2025
       { name: 'Joseph DeRocha', title: 'Commissioner (District 2)', party: 'Democratic', district: 2 },
       { name: 'Fred Benzie', title: 'Commissioner (District 3)', party: 'Democratic', district: 3 }, // appointed March 2025, replacing Stephen Adamini who resigned
@@ -1537,6 +1561,25 @@ export const MI_COUNTY_OFFICIALS = {
     ],
   },
 
+  'Presque Isle': {
+    name: 'Presque Isle County',
+    website: 'https://presqueislecounty.org',
+    phone: '989-734-3288',
+    officials: [
+      { name: 'Zakary McLennan', title: 'Prosecuting Attorney', party: 'Republican' },
+      { name: 'Joe Brewbaker', title: 'Sheriff', party: 'Republican' },
+      { name: 'Darrin Darga', title: 'County Clerk', party: 'Republican' },
+      { name: 'Valerie Sue Peacock', title: 'Treasurer', party: 'Democratic' },
+      { name: 'Vicky L. Kowalewsky', title: 'Register of Deeds', party: 'Republican' },
+      { name: 'Robert G. Macomber', title: 'Drain Commissioner', party: 'Republican' },
+      { name: 'Clifford Tollini', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
+      { name: 'Robert Brietzke', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
+      { name: 'Robin Hughes', title: 'Commissioner (District 3)', party: null, district: 3 }, // ran as Independent (no party affiliation)
+      { name: 'Joe Libby', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
+      { name: 'Robert Crook', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
+    ],
+  },
+
   // Roscommon County — 5 commissioner districts
   'Roscommon': {
     name: 'Roscommon County',
@@ -1648,6 +1691,48 @@ export const MI_COUNTY_OFFICIALS = {
     ],
   },
 
+  'St. Clair': {
+    name: 'St. Clair County',
+    website: 'https://www.stclaircounty.org',
+    phone: '810-985-2200',
+    officials: [
+      { name: 'Thomas M. Hull', title: 'County Administrator/Controller', party: null }, // appointed (interim)
+      { name: 'Mike Wendling', title: 'Prosecuting Attorney', party: 'Republican' },
+      { name: 'Mat King', title: 'Sheriff', party: 'Republican' },
+      { name: 'Angie Waters', title: 'County Clerk / Register of Deeds', party: 'Republican' },
+      { name: 'Kelly Roberts-Burnett', title: 'Treasurer', party: 'Republican' },
+      { name: 'Robert Wiley', title: 'Drain Commissioner', party: 'Republican' },
+      { name: 'Steve Simasko', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
+      { name: 'Kerry Ange', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
+      { name: 'Lisa Beedon', title: 'Commissioner (District 3)', party: 'Democratic', district: 3 },
+      { name: 'Joi Torello', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
+      { name: 'Paul Zeller', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
+      { name: 'Dave Rushing', title: 'Commissioner (District 6)', party: 'Republican', district: 6 },
+      { name: 'Dave Vandenbossche', title: 'Commissioner (District 7)', party: 'Republican', district: 7 },
+    ],
+  },
+
+  'St. Joseph': {
+    name: 'St. Joseph County',
+    website: 'https://www.stjosephcountymi.gov',
+    phone: '269-467-5500',
+    officials: [
+      { name: 'Teresa Cupp', title: 'County Administrator', party: null },
+      { name: 'Deborah Davis', title: 'Prosecuting Attorney', party: 'Republican' },
+      { name: 'Chad Spence', title: 'Sheriff', party: 'Republican' },
+      { name: 'Gina Everson', title: 'County Clerk / Register of Deeds', party: 'Republican' },
+      { name: 'Kathy Humphreys', title: 'Treasurer', party: 'Republican' },
+      { name: 'Jeff Wenzel', title: 'Drain Commissioner', party: 'Republican' },
+      { name: 'Jared Hoffmaster', title: 'Commissioner (District 1)', party: 'Republican', district: 1 },
+      { name: 'Rick Shaffer', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
+      { name: 'Rusty Baker', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
+      { name: 'Luis Rosado', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
+      { name: 'Christina Yunker', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
+      { name: 'Ken Malone', title: 'Commissioner (District 6)', party: 'Republican', district: 6 },
+      { name: 'Terry Conklin', title: 'Commissioner (District 7)', party: 'Republican', district: 7 },
+    ],
+  },
+
   // Tuscola County — 5 commissioner districts; District 1 filled by appointment (Nancy Barrios, Oct 2025)
   'Tuscola': {
     name: 'Tuscola County',
@@ -1666,6 +1751,28 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Kim Vaughan', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
       { name: 'Bill Lutz', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
       { name: 'Matthew J. Koch', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
+    ],
+  },
+
+  'Van Buren': {
+    name: 'Van Buren County',
+    website: 'https://vanburencountymi.gov',
+    phone: '269-657-8200',
+    officials: [
+      { name: 'John Faul', title: 'County Administrator', party: null }, // appointed County Administrator (2023); 2026 tenure not independently confirmed
+      { name: 'Susan Zuiderveen', title: 'Prosecuting Attorney', party: 'Republican' },
+      { name: 'Daniel E. Abbott', title: 'Sheriff', party: 'Republican' },
+      { name: 'Suzie Roehm', title: 'County Clerk', party: 'Republican' },
+      { name: 'Trisha Nesbitt', title: 'Treasurer', party: 'Republican' },
+      { name: 'Paul DeYoung', title: 'Register of Deeds', party: 'Republican' },
+      { name: 'Joe Parman', title: 'Drain Commissioner', party: 'Republican' },
+      { name: 'Gail Lee Patterson-Gladney', title: 'Commissioner (District 1)', party: 'Democratic', district: 1 },
+      { name: 'Michael Chappell', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
+      { name: 'Kurt Doroh', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
+      { name: 'David J. DiStefano', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
+      { name: 'James Toth', title: 'Commissioner (District 5)', party: 'Republican', district: 5 }, // appointed Mar 2026 to fill vacancy after death of Randall Peat
+      { name: 'Tina Leary', title: 'Commissioner (District 6)', party: 'Republican', district: 6 },
+      { name: 'Paul Schincariol', title: 'Commissioner (District 7)', party: 'Republican', district: 7 },
     ],
   },
 
@@ -1729,7 +1836,7 @@ export const MI_COUNTY_OFFICIALS = {
     phone: '231-779-9453',
     officials: [
       { name: 'Joe Porterfield', title: 'County Administrator', party: null },
-      { name: 'Johanna Carey', title: 'Prosecuting Attorney', party: null }, // UNVERIFIED party -- appointed Feb 2025 by circuit court judge to fill vacancy left by Corey Wiggins; party not confirmed in sources
+      { name: 'Johanna Carey', title: 'Prosecuting Attorney', party: null }, // court-appointed Feb 2025 by Circuit Judge Jason Elmore to fill vacancy
       { name: 'Trent Taylor', title: 'Sheriff', party: 'Republican' },
       { name: 'Alania Nyman', title: 'County Clerk', party: 'Republican' },
       { name: 'Kristi Nottingham', title: 'Treasurer', party: 'Republican' },
@@ -1744,105 +1851,6 @@ export const MI_COUNTY_OFFICIALS = {
       { name: 'Gary Taylor', title: 'Commissioner (District 7)', party: 'Republican', district: 7 },
       { name: 'Jason Baughan', title: 'Commissioner (District 8)', party: 'Republican', district: 8 },
       { name: 'Brian Potter', title: 'Commissioner (District 9)', party: 'Republican', district: 9 },
-    ],
-  },
-
-  // Counties from original database (not updated by Cowork batch)
-
-'Grand Traverse': {
-    name: 'Grand Traverse County',
-    website: 'https://www.grandtraverse.org',
-    phone: '231-922-4700',
-    officials: [
-      { name: 'Nate Alger', title: 'County Administrator', party: null },
-      { name: 'Noelle Moeggenberg', title: 'Prosecuting Attorney', party: 'Republican' },
-      { name: 'Tom Bensley', title: 'Sheriff', party: 'Republican' },
-      { name: 'Bonnie Scheele', title: 'County Clerk', party: 'Republican' },
-      { name: 'Heidi Scheppe', title: 'Treasurer', party: 'Republican' },
-      { name: 'Josh Waterman', title: 'Register of Deeds', party: 'Republican' },
-      { name: 'Rob Hentschel', title: 'Board Chair (District 1)', party: 'Republican', district: 1 },
-      { name: 'Lance Oesterle', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
-      { name: 'Brad Jewett', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
-      { name: 'Bryce Hundley', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
-      { name: 'Betsy Coffia', title: 'Commissioner (District 5)', party: 'Democratic', district: 5 },
-      { name: 'Darryl Nelson', title: 'Commissioner (District 6)', party: 'Republican', district: 6 },
-      { name: 'Penny Morris', title: 'Commissioner (District 7)', party: 'Republican', district: 7 },
-    ],
-  },
-
-'Presque Isle': {
-    name: 'Presque Isle County',
-    website: 'https://www.presqueislecounty.org',
-    phone: '989-734-3288',
-    officials: [
-      { name: 'Kenneth Radzibon', title: 'Prosecuting Attorney', party: 'Republican' },
-      { name: 'Joe Brewbaker', title: 'Sheriff', party: 'Republican' },
-      { name: 'Ann Marie Main', title: 'County Clerk', party: 'Republican' },
-      { name: 'Bridget LaLonde', title: 'Treasurer', party: 'Republican' },
-      { name: 'Dawn Quaine', title: 'Register of Deeds', party: 'Republican' },
-      { name: 'Carl Altman', title: 'Board Chair (District 1)', party: 'Republican', district: 1 },
-      { name: 'Lee Gapczynski', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
-      { name: 'Michael Darga', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
-      { name: 'Bob Schell', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
-      { name: 'Paul Quaine', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
-    ],
-  },
-
-'St. Clair': {
-    name: 'St. Clair County',
-    website: 'https://www.stclaircounty.org',
-    phone: '810-989-6900',
-    officials: [
-      { name: 'Karry Hepting', title: 'County Administrator', party: null },
-      { name: 'Michael Wendling', title: 'Prosecuting Attorney', party: 'Republican' },
-      { name: 'Mat King', title: 'Sheriff', party: 'Republican' },
-      { name: 'Jay DeBoyer', title: 'County Clerk/Register of Deeds', party: 'Republican' },
-      { name: 'Kelly Roberts-Burnett', title: 'Treasurer', party: 'Republican' },
-      { name: 'Jeff Bohm', title: 'Board Chair (District 1)', party: 'Republican', district: 1 },
-      { name: 'Jorja Baldwin', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
-      { name: 'Lisa Beedon', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
-      { name: 'Cliff Schrader', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
-      { name: 'Bill Gratopp', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
-      { name: 'David Rushing', title: 'Commissioner (District 6)', party: 'Republican', district: 6 },
-      { name: 'Karl Tomion', title: 'Commissioner (District 7)', party: 'Republican', district: 7 },
-    ],
-  },
-
-'St. Joseph': {
-    name: 'St. Joseph County',
-    website: 'https://www.stjosephcountymi.org',
-    phone: '269-467-5500',
-    officials: [
-      { name: 'David Marvin', title: 'Prosecuting Attorney', party: 'Republican' },
-      { name: 'Mark Lillywhite', title: 'Sheriff', party: 'Republican' },
-      { name: 'Lindsay Oswald', title: 'County Clerk/Register of Deeds', party: 'Republican' },
-      { name: 'Kathy Humphreys', title: 'Treasurer', party: 'Republican' },
-      { name: 'Dan Czarnecki', title: 'Board Chair (District 1)', party: 'Republican', district: 1 },
-      { name: 'Kathy Pangle', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
-      { name: 'Dennis Allen', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
-      { name: 'Rick Shaffer', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
-      { name: 'Ken Malone', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
-    ],
-  },
-
-'Van Buren': {
-    name: 'Van Buren County',
-    website: 'https://www.vbco.org',
-    phone: '269-657-8218',
-    officials: [
-      { name: 'Susan Bupp', title: 'County Administrator', party: null },
-      { name: 'Michael Bedford', title: 'Prosecuting Attorney', party: 'Republican' },
-      { name: 'Daniel Abbott', title: 'Sheriff', party: 'Republican' },
-      { name: 'Tina Leary', title: 'County Clerk', party: 'Republican' },
-      { name: 'Deb Bartz-Gray', title: 'Treasurer', party: 'Republican' },
-      { name: 'Emily Heisler', title: 'Register of Deeds', party: 'Republican' },
-      { name: 'Kurt Doroh', title: 'Board Chair (District 1)', party: 'Republican', district: 1 },
-      { name: 'Randall Peat', title: 'Commissioner (District 2)', party: 'Republican', district: 2 },
-      { name: 'Mike Chappell', title: 'Commissioner (District 3)', party: 'Republican', district: 3 },
-      { name: 'Paul Zarbo', title: 'Commissioner (District 4)', party: 'Republican', district: 4 },
-      { name: 'Tim Bupp', title: 'Commissioner (District 5)', party: 'Republican', district: 5 },
-      { name: 'Nancy Backas', title: 'Commissioner (District 6)', party: 'Democratic', district: 6 },
-      { name: 'Richard Godfrey', title: 'Commissioner (District 7)', party: 'Republican', district: 7 },
     ],
   },
 
