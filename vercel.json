@@ -2,6 +2,11 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "vite",
+  "functions": {
+    "api/congress/[...path].js": { "maxDuration": 30 },
+    "api/openstates/[...path].js": { "maxDuration": 30 },
+    "api/census/[...path].js": { "maxDuration": 30 }
+  },
   "redirects": [
     {
       "source": "/:path(.*)",

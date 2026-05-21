@@ -7,7 +7,7 @@ const PROXY_BASE = '/api/congress'
 const DIRECT_BASE = 'https://api.congress.gov/v3'
 const KEY = import.meta.env.VITE_CONGRESS_API_KEY
 
-async function apiFetch(path, params = {}) {
+async function apiFetch(path, params = {}, retries = 2) {
   const base = IS_PROD ? PROXY_BASE : DIRECT_BASE
   const url = new URL(`${base}${path}`, window.location.origin)
   if (!IS_PROD) {
@@ -15,9 +15,25 @@ async function apiFetch(path, params = {}) {
     url.searchParams.set('format', 'json')
   }
   Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v))
-  const res = await fetch(url)
-  if (!res.ok) throw new Error(`Congress API ${res.status}: ${res.statusText}`)
-  return res.json()
+
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url)
+      // Retry on server errors and rate limits
+      if ((res.status >= 500 || res.status === 429) && attempt < retries) {
+        await new Promise(r => setTimeout(r, 1000 * (attempt + 1))) // 1s, 2s backoff
+        continue
+      }
+      if (!res.ok) throw new Error(`Congress API ${res.status}: ${res.statusText}`)
+      return res.json()
+    } catch (err) {
+      if (attempt < retries && err.name !== 'AbortError') {
+        await new Promise(r => setTimeout(r, 1000 * (attempt + 1)))
+        continue
+      }
+      throw err
+    }
+  }
 }
 
 // The /member endpoint doesn't support stateCode filtering — it returns all 538
@@ -67,16 +83,40 @@ export async function getAllMembers() {
     return _cache
   }
 
-  _pending = Promise.all([
+  // Use allSettled so partial results still work if one page fails
+  _pending = Promise.allSettled([
     apiFetch('/member', { currentMember: true, limit: 250, offset: 0 }),
     apiFetch('/member', { currentMember: true, limit: 250, offset: 250 }),
     apiFetch('/member', { currentMember: true, limit: 50,  offset: 500 }),
-  ]).then(pages => {
-    _cache = pages.flatMap(p => p.members ?? [])
+  ]).then(results => {
+    const members = results
+      .filter(r => r.status === 'fulfilled')
+      .flatMap(r => r.value.members ?? [])
+
     _pending = null
-    recordFetchTime('congress-api')
-    setLocalStorageCache(_cache)
-    return _cache
+
+    // If we got a meaningful number of members, cache them
+    if (members.length > 400) {
+      _cache = members
+      recordFetchTime('congress-api')
+      setLocalStorageCache(_cache)
+      return _cache
+    }
+
+    // Partial or empty result — try stale cache
+    const stale = getStaleLocalStorageCache()
+    if (stale) {
+      _cache = stale
+      return _cache
+    }
+
+    // Even partial data is better than nothing
+    if (members.length > 0) {
+      _cache = members
+      return _cache
+    }
+
+    throw new Error('Failed to load Congress members')
   }).catch(err => {
     _pending = null
     // If network fails, try localStorage even if expired
