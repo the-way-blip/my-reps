@@ -14975,18 +14975,24 @@ export async function getMichiganLocalOfficials(geo) {
     }
   }
 
-  // Check county subdivision for village officials (check both datasets)
+  // Check for village officials — try geo.place first (Census puts villages in
+  // "Incorporated Places"), then fall back to countySubdivision
   let village = null
-  if (geo.countySubdivision) {
-    village = MI_VILLAGE_OFFICIALS[geo.countySubdivision] || null
-    // If not found in primary data, try the extended village dataset
-    if (!village) {
-      try {
-        const { MI_VILLAGE_OFFICIALS_NEW } = await import('./villageData_new')
-        village = MI_VILLAGE_OFFICIALS_NEW[geo.countySubdivision] || null
-      } catch {
-        // Extended village data not available
+  const villageCandidates = [geo.place, geo.countySubdivision].filter(Boolean)
+  for (const name of villageCandidates) {
+    village = MI_VILLAGE_OFFICIALS[name] || null
+    if (village) break
+  }
+  // If not found in primary data, try the extended village dataset
+  if (!village && villageCandidates.length > 0) {
+    try {
+      const { MI_VILLAGE_OFFICIALS_NEW } = await import('./villageData_new')
+      for (const name of villageCandidates) {
+        village = MI_VILLAGE_OFFICIALS_NEW[name] || null
+        if (village) break
       }
+    } catch {
+      // Extended village data not available
     }
   }
 
