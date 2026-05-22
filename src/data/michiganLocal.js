@@ -2497,6 +2497,10 @@ export const MI_CITY_OFFICIALS = {
     phone: '231-775-0181',
     officials: [
       { name: 'David Powell', title: 'Mayor', party: null },
+      { name: 'Bryan Elenbaas', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Scott Hopkins', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Robert Engels', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Ruthann French', title: 'Council Member (Ward 4)', party: null, ward: 4 },
     ],
   },
 
@@ -3158,9 +3162,15 @@ export const MI_CITY_OFFICIALS = {
   'Sault Ste. Marie': {
     name: 'City of Sault Ste. Marie',
     website: 'https://www.saultcity.com',
-    phone: '906-632-5709',
+    phone: '906-632-5700',
     officials: [
-      { name: 'Steve Habusta', title: 'Commissioner', party: null },
+      { name: 'Don Gerrie', title: 'Mayor', party: null },
+      { name: 'Ray Bauer', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Jodi Bosbous-Rath', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Steve Habusta', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Scott Marble', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Andrew Rubinstein', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Timothy Talentino', title: 'Commissioner (At-Large)', party: null },
     ],
   },
 
@@ -3233,6 +3243,12 @@ export const MI_CITY_OFFICIALS = {
     phone: '313-885-5800',
     officials: [
       { name: 'Sheila Tomkowiak', title: 'Mayor', party: null },
+      { name: 'Terence A. Thomas', title: 'Council Member (At-Large)', party: null },
+      { name: 'Seth Krupp', title: 'Council Member (At-Large)', party: null },
+      { name: 'Chris Moyer', title: 'Council Member (At-Large)', party: null },
+      { name: 'Chris D. Walsh', title: 'Council Member (At-Large)', party: null },
+      { name: 'Maureen Juip', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Calcaterra', title: 'Council Member (At-Large)', party: null },
     ],
   },
 
@@ -4141,13 +4157,16 @@ export const MI_CITY_OFFICIALS = {
     ],
   },
 
-  // UNVERIFIED — could not confirm full council roster post-Nov 2024 election from official sources; prior members included Dan Heinrich (Mayor Pro Tem), Jane Barbour, Joe Warr, John Popovich
   'Au Gres': {
     name: 'City of Au Gres',
     website: 'https://cityofaugresmi.com',
     phone: '989-876-8811',
     officials: [
       { name: 'Jon Sanford', title: 'Mayor', party: null },
+      { name: 'Dan Heinrich', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jane Barbour', title: 'Council Member (At-Large)', party: null },
+      { name: 'Joe Warr', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Popovich', title: 'Council Member (At-Large)', party: null },
     ],
   },
 
@@ -4328,10 +4347,10 @@ export const MI_CITY_OFFICIALS = {
       { name: 'Karen Snider', title: 'Mayor', party: null },
       { name: 'Charlotte Kish', title: 'Council Member (At-Large)', party: null },
       { name: 'Emily Campbell', title: 'Council Member (At-Large)', party: null },
-      { name: 'Doreen Oedy', title: 'Council Member (At-Large)', party: null },
       { name: 'Heidi Parker', title: 'Council Member (At-Large)', party: null },
+      { name: 'Doreen Oedy', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Riley', title: 'Council Member (At-Large)', party: null },
       { name: 'Jill White', title: 'Council Member (At-Large)', party: null },
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — seat vacant (Gregory Hutchison resigned July 2025; special election outcome not confirmed as of May 2026)
     ],
   },
 
@@ -4545,13 +4564,14 @@ export const MI_CITY_OFFICIALS = {
     website: 'https://www.durandmi.com',
     phone: '989-288-3113',
     officials: [
-      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — Mayor Jeff Brands died May 2025; current acting mayor not confirmed
-      { name: 'Brian Boggs', title: 'Council Member (At-Large)', party: null },
-      { name: 'Deb Doyle', title: 'Council Member (At-Large)', party: null },
-      { name: 'Nick Florindi', title: 'Council Member (At-Large)', party: null },
-      { name: 'Rich Folaron', title: 'Council Member (At-Large)', party: null },
+      { name: 'Deb Doyle', title: 'Mayor', party: null },
+      { name: 'Brian Boggs', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: null, title: 'Council Member (Ward 1)', party: null, ward: 1 }, // VACANT — Deb Doyle elevated to Mayor May 2026; appointment process underway
+      { name: 'Nick Florindi', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Richard Folaron', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Patrick O\'Connor', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Andrew Zick', title: 'Council Member (Ward 2)', party: null, ward: 2 },
       { name: 'Amber Rochefort', title: 'Council Member (At-Large)', party: null },
-      { name: 'Andy Zick', title: 'Council Member (At-Large)', party: null },
     ],
   },
 
@@ -4561,12 +4581,12 @@ export const MI_CITY_OFFICIALS = {
     phone: '231-536-3381',
     officials: [
       { name: 'Melyssa Lindenthal', title: 'Mayor', party: null },
-      { name: 'Daniel Miller', title: 'Commissioner (At-Large)', party: null },
-      { name: 'Peter Sladick', title: 'Commissioner (At-Large)', party: null },
       { name: 'Amy Sherman', title: 'Commissioner (At-Large)', party: null },
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — seventh commissioner seat; city has 7-member commission (mayor + 6); could not confirm remaining member
+      { name: 'Joseph Kroll', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Daniel Miller', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Mark Penzien', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Margaret Manor', title: 'Commissioner (At-Large)', party: null },
       { name: 'Scott Gillespie', title: 'Commissioner (At-Large)', party: null },
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — seventh commissioner seat; city has 7-member commission (mayor + 6); could not confirm remaining member
     ],
   },
 
@@ -4706,26 +4726,25 @@ export const MI_CITY_OFFICIALS = {
     phone: '989-652-9901',
     officials: [
       { name: 'Tom Meyer', title: 'Mayor', party: null },
-      { name: 'Bethany Bernthal Reindel', title: 'Council Member (At-Large)', party: null },
+      { name: 'Bethany M. Bernthal-Reindel', title: 'Council Member (At-Large)', party: null },
       { name: 'Joe Cramer', title: 'Council Member (At-Large)', party: null },
-      { name: 'Michael Grossi', title: 'Council Member (At-Large)', party: null },
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — "Howe" last name only from May 2025 work session minutes; first name not confirmed
+      { name: 'Jim Howe', title: 'Council Member (At-Large)', party: null },
       { name: 'Chad Ross', title: 'Council Member (At-Large)', party: null },
-      { name: 'Vickie Schmitzer', title: 'Council Member (At-Large)', party: null },
+      { name: 'Vickie J. Schmitzer', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michael Grossi', title: 'Council Member (At-Large)', party: null },
     ],
   },
 
-  // UNVERIFIED — could not confirm the fifth council seat holder; city has five-member council; fourth and fifth seats from pre-2024 election period not confirmed
   'Frankfort': {
     name: 'City of Frankfort',
     website: 'https://www.frankfortmich.com',
     phone: '231-352-7117',
     officials: [
-      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — mayor is selected by council from among members; identity not confirmed in public sources
-      { name: 'Jenna Smeltzer-Pritchard', title: 'Council Member (At-Large)', party: null },
-      { name: 'Peter Penfold', title: 'Council Member (At-Large)', party: null },
-      { name: 'JoAnn Holwerda', title: 'Council Member (At-Large)', party: null },
-      { name: 'Steven Drews', title: 'Council Member (At-Large)', party: null },
+      { name: 'JoAnn Holwerda', title: 'Mayor', party: null },
+      { name: 'Dale Charters', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brady Olsen', title: 'Council Member (At-Large)', party: null },
+      { name: 'Pete Penfold', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jenna Pritchard-Smeltzer', title: 'Council Member (At-Large)', party: null },
     ],
   },
 
@@ -4765,23 +4784,26 @@ export const MI_CITY_OFFICIALS = {
     officials: [
       { name: 'Garrett Shumate', title: 'Mayor', party: null },
       { name: 'Rick Cox', title: 'Council Member (At-Large)', party: null },
+      { name: 'Denis Boismier', title: 'Council Member (At-Large)', party: null },
+      { name: 'Cody Dill', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kathy LaPointe', title: 'Council Member (At-Large)', party: null },
       { name: 'Art McNabb', title: 'Council Member (At-Large)', party: null },
       { name: 'Rob Molnar', title: 'Council Member (At-Large)', party: null },
-      { name: 'Justus Walden', title: 'Council Member (At-Large)', party: null },
-      { name: 'Dorothy Wood', title: 'Council Member (At-Large)', party: null },
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — sixth council seat; city has 6 council members + mayor; could not confirm all seats after Nov 2025 election and 2024–2025 recall proceedings
     ],
   },
 
-  // UNVERIFIED — no confirmed official city website found; city uses BSA Online portal (bsaonline.com)
-  // UNVERIFIED — sourced from chamber directory; area code may differ from older 616 listings
-  // UNVERIFIED — could not confirm full city commission roster; city (pop. 851) has no accessible public roster online
   'Gobles': {
     name: 'City of Gobles',
     website: 'https://vanburencountymi.gov/government/municipalities/cities/city-of-gobles/',
     phone: '269-628-2246',
     officials: [
-      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — could not confirm current mayor name through public sources
+      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — could not confirm from available sources
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources
     ],
   },
 
@@ -5411,18 +5433,16 @@ export const MI_CITY_OFFICIALS = {
     website: 'https://www.cityofnewbaltimore.org',
     phone: '586-725-2151',
     officials: [
-      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — Nov 2025 mayor race (Semaan vs Covert) result not confirmed
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
+      { name: 'Thomas Semaan', title: 'Mayor', party: null },
+      { name: 'Jacob Dittrich', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Duffy', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mel Eason Jr.', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jason Harvey', title: 'Council Member (At-Large)', party: null },
+      { name: 'Florence Hayman', title: 'Council Member (At-Large)', party: null },
+      { name: 'Stan Russell', title: 'Council Member (At-Large)', party: null },
     ],
   },
 
-  // UNVERIFIED — city hall main phone not confirmed
   'New Buffalo': {
     name: 'City of New Buffalo',
     website: 'https://cityofnewbuffalomi.gov',
@@ -5430,9 +5450,9 @@ export const MI_CITY_OFFICIALS = {
     officials: [
       { name: 'Vance Price', title: 'Mayor', party: null },
       { name: 'Roger Lijewski', title: 'Council Member (At-Large)', party: null },
-      { name: 'Rich Knoll', title: 'Council Member (At-Large)', party: null },
       { name: 'Karen Gear', title: 'Council Member (At-Large)', party: null },
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — 5th council member not confirmed
+      { name: 'Rich Knoll', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mark Robertson', title: 'Council Member (At-Large)', party: null },
     ],
   },
 
@@ -5450,31 +5470,31 @@ export const MI_CITY_OFFICIALS = {
     ],
   },
 
-  // UNVERIFIED — city hall main phone not confirmed
   'Omer': {
     name: 'City of Omer',
     website: 'https://www.cityofomer.com',
     phone: '989-653-2566',
     officials: [
-      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — could not confirm current mayor
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — full roster unconfirmed; AI-generated names rejected as hallucinations
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — full roster unconfirmed; AI-generated names rejected as hallucinations
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — full roster unconfirmed; AI-generated names rejected as hallucinations
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — full roster unconfirmed; AI-generated names rejected as hallucinations
+      { name: 'Daniel Raushi', title: 'Mayor', party: null },
+      { name: 'Marc Daniel', title: 'Council Member (At-Large)', party: null },
+      { name: 'Darwin Tremble', title: 'Council Member (At-Large)', party: null },
+      { name: 'Paul Piche', title: 'Council Member (At-Large)', party: null },
+      { name: 'Alexander Rood', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ed Oliver', title: 'Council Member (At-Large)', party: null },
+      { name: 'Paul Giles', title: 'Council Member (At-Large)', party: null },
     ],
   },
 
-  // UNVERIFIED — listed number uses 517 area code but Presque Isle County is 989; not confirmed
   'Onaway': {
     name: 'City of Onaway',
     website: 'https://onawaymi.com',
-    phone: '989-733-8713',
+    phone: '989-733-8313',
     officials: [
-      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — Mike Benson elected 2023 but 2025 status not confirmed
+      { name: 'Mike Benson', title: 'Mayor', party: null },
       { name: 'Andrew Bischer', title: 'Commissioner (At-Large)', party: null },
       { name: 'Roger Marsh', title: 'Commissioner (At-Large)', party: null },
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — name not confirmed
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — name not confirmed
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources
     ],
   },
 
@@ -5515,11 +5535,11 @@ export const MI_CITY_OFFICIALS = {
     officials: [
       { name: 'Robert D. Britigan III', title: 'Mayor', party: null },
       { name: 'Michael E. Conner', title: 'Commissioner (At-Large)', party: null },
-      { name: 'Tammy Cooper', title: 'Commissioner (At-Large)', party: null },
       { name: 'Kristen Capelli', title: 'Commissioner (At-Large)', party: null },
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — term to 2027; name not confirmed
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — term to 2027; name not confirmed
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — term to 2027; name not confirmed
+      { name: 'Tammy Cooper', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Justin Mendoza', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Robin Madaras', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Douglas Fooy', title: 'Commissioner (At-Large)', party: null },
     ],
   },
 
@@ -5623,19 +5643,18 @@ export const MI_CITY_OFFICIALS = {
     ],
   },
 
-  // UNVERIFIED — possibly 313-842-5604 but not confirmed from official source
   'River Rouge': {
     name: 'City of River Rouge',
     website: 'https://cityofriverrouge.com',
-    phone: '313-842-4200',
+    phone: '313-842-4203',
     officials: [
       { name: 'William L. Campbell', title: 'Mayor', party: null },
-      { name: null, title: 'Mayor Pro-Tem', party: null }, // UNVERIFIED — Patty Campbell held this role in 2023 but current status not confirmed
-      { name: 'Darryl Folks II', title: 'Council Member (At-Large)', party: null },
-      { name: 'Percy Pierce', title: 'Council Member (At-Large)', party: null },
+      { name: 'Patty Campbell', title: 'Council Member (At-Large)', party: null },
       { name: 'Karen Ward', title: 'Council Member (At-Large)', party: null },
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED
+      { name: 'Jonathan Holly', title: 'Council Member (At-Large)', party: null },
+      { name: 'Percy Price', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dan Cooney', title: 'Council Member (At-Large)', party: null },
+      { name: 'Darryl Folks II', title: 'Council Member (At-Large)', party: null },
     ],
   },
 
@@ -5674,13 +5693,13 @@ export const MI_CITY_OFFICIALS = {
     website: 'https://www.rockwoodmi.org',
     phone: '734-379-9496',
     officials: [
-      { name: 'Troy Cox', title: 'Mayor', party: null },
+      { name: 'Troy A. Cox', title: 'Mayor', party: null },
+      { name: 'Scott Cramton', title: 'Council Member (At-Large)', party: null },
       { name: 'Marcie Grzywacz', title: 'Council Member (At-Large)', party: null },
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
-      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
+      { name: 'Richard Johnson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Aimee Mercure', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jesse Robertson', title: 'Council Member (At-Large)', party: null },
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — last name Slavin confirmed in March 2026 minutes, first name could not be confirmed from available sources
     ],
   },
 
@@ -5979,10 +5998,10 @@ export const MI_CITY_OFFICIALS = {
     phone: '269-463-6769',
     officials: [
       { name: 'Deah Muth', title: 'Mayor', party: null },
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — see above
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — see above
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — see above
-      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — see above
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources (2024 election candidates: Bumstead, Cobb, Quinn, Whitney)
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources (2024 election candidates: Bumstead, Cobb, Quinn, Whitney)
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources (2024 election candidates: Bumstead, Cobb, Quinn, Whitney)
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — could not confirm from available sources (2024 election candidates: Bumstead, Cobb, Quinn, Whitney)
     ],
   },
 
