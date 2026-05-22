@@ -4108,6 +4108,2004 @@ export const MI_CITY_OFFICIALS = {
       { name: 'Tina Conley', title: 'Council Member (Ward 7)', party: null, ward: 7 },
     ],
   },
+
+  /* ── New cities from Cowork (138 cities, compiled 2026-05-21) ── */
+
+'Albion': {
+    name: 'City of Albion',
+    website: 'https://www.cityofalbionmi.gov',
+    phone: '517-629-5535',
+    officials: [
+      { name: 'Victoria Garcia Snyder', title: 'Mayor', party: null },
+      { name: 'Donivan Williams', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Lenn Reid', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Jim Stuart', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'C.J. Frost', title: 'Council Member (Ward 4)', party: null, ward: 4 },
+      { name: 'Vivian Davis', title: 'Council Member (Ward 5)', party: null, ward: 5 },
+      { name: 'Andrew French', title: 'Council Member (Ward 6)', party: null, ward: 6 },
+    ],
+  },
+
+  'Algonac': {
+    name: 'City of Algonac',
+    website: 'https://www.cityofalgonac.org',
+    phone: '810-794-9361',
+    officials: [
+      { name: 'Rocky Gillis', title: 'Mayor', party: null },
+      { name: 'Dawn Davey', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem, term Nov 2024-Nov 2026
+      { name: 'Michael Bembas', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ed Carter', title: 'Council Member (At-Large)', party: null },
+      { name: 'Cathy Harris', title: 'Council Member (At-Large)', party: null },
+      { name: 'Wendy Meldrum', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jake Skarbek', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full council roster post-Nov 2024 election from official sources; prior members included Dan Heinrich (Mayor Pro Tem), Jane Barbour, Joe Warr, John Popovich
+  'Au Gres': {
+    name: 'City of Au Gres',
+    website: 'https://cityofaugresmi.com',
+    phone: '989-876-8811',
+    officials: [
+      { name: 'Jon Sanford', title: 'Mayor', party: null },
+    ],
+  },
+
+  'Auburn': {
+    name: 'City of Auburn',
+    website: 'https://auburnmi.gov',
+    phone: '989-662-6761',
+    officials: [
+      { name: 'Thomas Rytlewski', title: 'Mayor', party: null },
+      { name: 'Ken Charbonneau', title: 'Commissioner (At-Large)', party: null }, // term expires Nov 2028
+      { name: 'Ryan Putt', title: 'Commissioner (At-Large)', party: null }, // term expires Nov 2026
+      { name: 'Alyson McCloy', title: 'Commissioner (At-Large)', party: null }, // term expires Nov 2028
+      { name: 'Steven Smith', title: 'Commissioner (At-Large)', party: null }, // term expires Nov 2026
+      { name: 'Michael Buchmann', title: 'Commissioner (At-Large)', party: null }, // Mayor Pro Tem, term expires Nov 2028
+      { name: 'Dalton Natke', title: 'Commissioner (At-Large)', party: null }, // term expires Nov 2026
+    ],
+  },
+
+  'Bad Axe': {
+    name: 'City of Bad Axe',
+    website: 'https://www.cityofbadaxe.com',
+    phone: '989-269-6479',
+    officials: [
+      { name: 'Kathleen Particka', title: 'Mayor', party: null },
+      { name: 'Nicholas Rochefort', title: 'Council Member (At-Large)', party: null }, // Mayor Pro-Tem
+      { name: 'Joel Harrison', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mickayla Kerr', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jesse Klaska', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Rapson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mark Robinson', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Bangor': {
+    name: 'City of Bangor',
+    website: 'https://www.cityofbangormi.org',
+    phone: '269-427-5831',
+    officials: [
+      { name: 'Lynne Farmer', title: 'Mayor', party: null }, // term expires May 2028
+      { name: 'Patricia Martinez-Serratos', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem, term expires May 2026
+      { name: 'Renee Doroh', title: 'Council Member (At-Large)', party: null }, // term expires May 2028
+      { name: 'Amber Garcia', title: 'Council Member (At-Large)', party: null }, // term expires May 2028
+      { name: 'Darla McCrumb', title: 'Council Member (At-Large)', party: null }, // term expires May 2027
+      { name: 'Helene Rivers', title: 'Council Member (At-Large)', party: null }, // term expires May 2027
+      { name: 'Jeremy Uplinger', title: 'Council Member (At-Large)', party: null }, // term expires May 2026
+    ],
+  },
+
+  'Belleville': {
+    name: 'City of Belleville',
+    website: 'https://bellevilleonthelake.com',
+    phone: '734-697-9323',
+    officials: [
+      { name: 'Ken Voigt', title: 'Mayor', party: null },
+      { name: 'Kelly Bates', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Jeremiah Beebe', title: 'Council Member (At-Large)', party: null },
+      { name: 'Julie Kissel', title: 'Council Member (At-Large)', party: null },
+      { name: 'Randy Priest', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Bessemer': {
+    name: 'City of Bessemer',
+    website: 'https://www.cityofbessemermi.gov',
+    phone: '906-663-4311',
+    officials: [
+      { name: 'Mark Movrich', title: 'Mayor', party: null },
+      { name: 'Peter Tacconelli', title: 'Council Member (At-Large)', party: null }, // Mayor Pro-Tem
+      { name: 'Linda Nelson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mark Serwe', title: 'Council Member (At-Large)', party: null },
+      { name: 'Bill McDonald', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Bloomfield Hills': {
+    name: 'City of Bloomfield Hills',
+    website: 'https://www.bloomfieldhillsmi.net',
+    phone: '248-644-1520',
+    officials: [
+      { name: 'Susan McCarthy', title: 'Mayor', party: null },
+      { name: 'Alice Buckley', title: 'Commissioner (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Alan Ackerman', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Brad Baxter', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Lauren Fisher', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Boyne City': {
+    name: 'City of Boyne City',
+    website: 'https://www.boynecity.gov',
+    phone: '231-582-6597',
+    officials: [
+      { name: 'Bob Farrell', title: 'Mayor', party: null }, // term expires Nov 2027
+      { name: 'Bridget Foltz', title: 'Commissioner (At-Large)', party: null }, // Mayor Pro-Tem, term expires Nov 2029
+      { name: 'Aaron Place', title: 'Commissioner (At-Large)', party: null }, // term expires Nov 2027
+      { name: 'Jennifer "Beano" Hampton', title: 'Commissioner (At-Large)', party: null }, // term expires Nov 2029
+      { name: 'Rebecca Houser', title: 'Commissioner (At-Large)', party: null }, // term expires Nov 2029
+    ],
+  },
+
+  'Bridgman': {
+    name: 'City of Bridgman',
+    website: 'https://www.bridgman.org',
+    phone: '269-465-5144',
+    officials: [
+      { name: 'Jan Trapani', title: 'Mayor', party: null },
+      { name: 'Sam Stine', title: 'Council Member (At-Large)', party: null }, // Mayor Pro-Tempore
+      { name: 'Jacquie Blackwell', title: 'Council Member (At-Large)', party: null },
+      { name: 'Pam Hahaj', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Bonkoske', title: 'Council Member (At-Large)', party: null },
+      { name: 'Toni D\'Agostino', title: 'Council Member (At-Large)', party: null },
+      { name: 'William Boyd Sr.', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Brighton': {
+    name: 'City of Brighton',
+    website: 'https://www.brightoncitymi.gov',
+    phone: '810-227-1911',
+    officials: [
+      { name: 'Kristoffer L Tobbe', title: 'Mayor', party: null },
+      { name: 'Jim Bohn', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Bill Albert', title: 'Council Member (At-Large)', party: null },
+      { name: 'Susan Gardner', title: 'Council Member (At-Large)', party: null },
+      { name: 'Paul Gipson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Renee Pettengill', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ken Schmenk', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Bronson': {
+    name: 'City of Bronson',
+    website: 'https://www.bronson-mi.com',
+    phone: '517-369-7334',
+    officials: [
+      { name: 'William Rinehart', title: 'Mayor', party: null },
+      { name: 'Rick Johannes', title: 'Council Member (At-Large)', party: null }, // Vice-Mayor, term expires Nov 2026
+      { name: 'Matt Watkins', title: 'Council Member (At-Large)', party: null }, // term expires Nov 2026
+      { name: 'William Earl', title: 'Council Member (At-Large)', party: null }, // term expires Nov 2026
+      { name: 'Larry McConn', title: 'Council Member (At-Large)', party: null }, // term expires Nov 2028
+    ],
+  },
+
+  'Brown City': {
+    name: 'City of Brown City',
+    website: 'https://cityofbrowncity.net',
+    phone: '810-346-2325',
+    officials: [
+      { name: 'Julie Miller', title: 'Mayor', party: null },
+      { name: 'Ross McIvor', title: 'Council Member (At-Large)', party: null }, // Mayor Pro-Tem
+      { name: 'Neil Kohler', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mark Vaerten', title: 'Council Member (At-Large)', party: null },
+      { name: 'Pat Jacobson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Robert Jacobson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Eugene Navock', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sara Muxlow', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Buchanan': {
+    name: 'City of Buchanan',
+    website: 'https://www.cityofbuchanan.com',
+    phone: '269-695-3844',
+    officials: [
+      { name: 'Mark Weedon', title: 'Mayor', party: null },
+      { name: 'Patrick Swem', title: 'Commissioner (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Raquell George', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Larry Money', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Dan Vigansky', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Caro': {
+    name: 'City of Caro',
+    website: 'https://www.carocity.net',
+    phone: '989-673-2226',
+    officials: [
+      { name: 'Karen Snider', title: 'Mayor', party: null },
+      { name: 'Charlotte Kish', title: 'Council Member (At-Large)', party: null },
+      { name: 'Emily Campbell', title: 'Council Member (At-Large)', party: null },
+      { name: 'Doreen Oedy', title: 'Council Member (At-Large)', party: null },
+      { name: 'Heidi Parker', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jill White', title: 'Council Member (At-Large)', party: null },
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — seat vacant (Gregory Hutchison resigned July 2025; special election outcome not confirmed as of May 2026)
+    ],
+  },
+
+  // sourced from casevillecity.com government page (updated Nov 6, 2025)
+  'Caseville': {
+    name: 'City of Caseville',
+    website: 'https://casevillecity.com',
+    phone: '989-856-2102',
+    officials: [
+      { name: 'Christopher C. Stahl', title: 'Mayor', party: null },
+      { name: 'Jason Krueger', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dawn Talaski', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jacob Kretzschmer', title: 'Council Member (At-Large)', party: null },
+      { name: 'Darin Sprague', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Tait', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jeff Hervert', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; names sourced from caspiancity.org government page and Ballotpedia 2025 candidate listings
+  'Caspian': {
+    name: 'City of Caspian',
+    website: 'https://caspiancity.org',
+    phone: '906-265-2514',
+    officials: [
+      { name: 'Matt Jacks', title: 'Mayor', party: null },
+      { name: 'Robert Ketchum', title: 'Council Member (At-Large)', party: null },
+      { name: 'Gary Sabol', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ancella Thurston', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michael Stachowicz', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Charlevoix': {
+    name: 'City of Charlevoix',
+    website: 'https://www.charlevoixmi.gov',
+    phone: '231-547-3270',
+    officials: [
+      { name: 'Lyle Gennett', title: 'Mayor', party: null },
+      { name: 'Aaron Hagen', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Janet Kalbfell', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Mark Knapp', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Richard Spring', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Phil Parr', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Dennis Halverson', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+    ],
+  },
+
+  'Chelsea': {
+    name: 'City of Chelsea',
+    website: 'https://city-chelsea.org',
+    phone: '734-475-1771',
+    officials: [
+      { name: 'Kate Henson', title: 'Mayor', party: null },
+      { name: 'Sam Angus', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tony Iannelli', title: 'Council Member (At-Large)', party: null },
+      { name: 'Felix Stump', title: 'Council Member (At-Large)', party: null },
+      { name: 'George Merkel', title: 'Council Member (At-Large)', party: null },
+      { name: 'Eric Keaton', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jacquelyn Bullerman', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full six-member roster; one seat may exist; names sourced from Nov. 2025 election results (C&G News) and city website
+  'Clawson': {
+    name: 'City of Clawson',
+    website: 'https://www.cityofclawson.com',
+    phone: '248-435-4500',
+    officials: [
+      { name: 'Susan Moffitt', title: 'Mayor', party: null },
+      { name: 'Meredith Peltonen', title: 'Council Member (At-Large)', party: null },
+      { name: 'Laura L. Slowinski', title: 'Council Member (At-Large)', party: null },
+      { name: 'Heather Rigby Rinkevich', title: 'Council Member (At-Large)', party: null },
+      { name: 'Scott Tinlin', title: 'Council Member (At-Large)', party: null },
+      { name: 'Aidan O\'Rourke', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Clio': {
+    name: 'City of Clio',
+    website: 'https://clio.govoffice.com',
+    phone: '810-686-5850',
+    officials: [
+      { name: 'Doug Vance', title: 'Mayor', party: null },
+      { name: 'Duane Mosher', title: 'Commissioner (At-Large)', party: null },
+      { name: 'David Fejedelem', title: 'Commissioner (At-Large)', party: null },
+      { name: 'D.J. Williams', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Kirk Todd', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Josh Westfall', title: 'Commissioner (At-Large)', party: null },
+      { name: 'James Dotson', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  // 2024 election: Massey (375 votes), Balkin (374), Smith (356) won three four-year seats; Freitag holdover; Hammond elected mayor; sourced from Berrien County election results
+  'Coloma': {
+    name: 'City of Coloma',
+    website: 'https://www.cityofcoloma.org',
+    phone: '269-468-6606',
+    officials: [
+      { name: 'Marsha Hammond', title: 'Mayor', party: null },
+      { name: 'Linda Freitag', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Cynthia Massey', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Jamie Nilson Balkin', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Julie Mastri Smith', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — Ward 3 has one vacant seat as of late 2025; six-seat council with one vacancy confirmed
+  'Corunna': {
+    name: 'City of Corunna',
+    website: 'https://www.corunna-mi.gov',
+    phone: '989-743-3650',
+    officials: [
+      { name: 'Wayne LeDuc', title: 'Mayor', party: null },
+      { name: 'Brian DeLorge', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Helen Granger', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Dan Ayers', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Jaquelyn Rye', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Mike Carr', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; names sourced from Jan. 2025 council meeting report (Sanilac Broadcasting)
+  'Croswell': {
+    name: 'City of Croswell',
+    website: 'https://www.cityofcroswell.com',
+    phone: '810-679-2299',
+    officials: [
+      { name: 'Rob Butler', title: 'Mayor', party: null },
+      { name: 'Denise Slone', title: 'Council Member (At-Large)', party: null },
+      { name: 'Donald Maury', title: 'Council Member (At-Large)', party: null },
+      { name: 'Randy Willis', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Crystal Falls': {
+    name: 'City of Crystal Falls',
+    website: 'https://crystalfalls.org',
+    phone: '906-875-3212',
+    officials: [
+      { name: 'Tim Bean', title: 'Mayor', party: null },
+      { name: 'Travis Cudnohufsky', title: 'Council Member (At-Large)', party: null },
+      { name: 'Wayne Maki', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kaycee Smith', title: 'Council Member (At-Large)', party: null },
+      { name: 'Steven Fabbri', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Davison': {
+    name: 'City of Davison',
+    website: 'https://www.cityofdavisonmi.gov',
+    phone: '810-653-2191',
+    officials: [
+      { name: 'Stacey Kalisz', title: 'Mayor', party: null },
+      { name: 'David Perry', title: 'Council Member (At-Large)', party: null },
+      { name: 'Robin Ballard', title: 'Council Member (At-Large)', party: null },
+      { name: 'Angela Bunton', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brenden Hynes', title: 'Council Member (At-Large)', party: null },
+      { name: 'Eric Daly', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ben Lindstrom', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'DeWitt': {
+    name: 'City of DeWitt',
+    website: 'https://dewittmi.gov',
+    phone: '517-669-2441',
+    officials: [
+      { name: 'Sue Leeming', title: 'Mayor', party: null },
+      { name: 'Dave Hunsaker', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sheryl Landgraf', title: 'Council Member (At-Large)', party: null },
+      { name: 'Trevor VanDyke', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mark Kellogg', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jennifer Whitman', title: 'Council Member (At-Large)', party: null },
+      { name: 'Denise Donohue', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Dexter': {
+    name: 'City of Dexter',
+    website: 'https://www.dextermi.gov',
+    phone: '734-426-8303',
+    officials: [
+      { name: 'Shawn Keough', title: 'Mayor', party: null },
+      { name: 'Joseph Semifero', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sanam Aldag', title: 'Council Member (At-Large)', party: null },
+      { name: 'Wa-Louisa Hubbard', title: 'Council Member (At-Large)', party: null },
+      { name: 'Pavlo Popov', title: 'Council Member (At-Large)', party: null },
+      { name: 'Daniel Schlaff', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ray Tell', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Dowagiac': {
+    name: 'City of Dowagiac',
+    website: 'https://www.cityofdowagiac.com',
+    phone: '269-782-2195',
+    officials: [
+      { name: 'Patrick Bakeman', title: 'Mayor', party: null },
+      { name: 'Danielle Lucas', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Tharan Suvarna', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'James B. Dodd', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Laura Desilets', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Randy Gross', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Breanna Bundy', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+    ],
+  },
+
+  'Durand': {
+    name: 'City of Durand',
+    website: 'https://www.durandmi.com',
+    phone: '989-288-3113',
+    officials: [
+      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — Mayor Jeff Brands died May 2025; current acting mayor not confirmed
+      { name: 'Brian Boggs', title: 'Council Member (At-Large)', party: null },
+      { name: 'Deb Doyle', title: 'Council Member (At-Large)', party: null },
+      { name: 'Nick Florindi', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rich Folaron', title: 'Council Member (At-Large)', party: null },
+      { name: 'Amber Rochefort', title: 'Council Member (At-Large)', party: null },
+      { name: 'Andy Zick', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'East Jordan': {
+    name: 'City of East Jordan',
+    website: 'https://www.eastjordancity.org',
+    phone: '231-536-3381',
+    officials: [
+      { name: 'Melyssa Lindenthal', title: 'Mayor', party: null },
+      { name: 'Daniel Miller', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Peter Sladick', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Amy Sherman', title: 'Commissioner (At-Large)', party: null },
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — seventh commissioner seat; city has 7-member commission (mayor + 6); could not confirm remaining member
+      { name: 'Scott Gillespie', title: 'Commissioner (At-Large)', party: null },
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — seventh commissioner seat; city has 7-member commission (mayor + 6); could not confirm remaining member
+    ],
+  },
+
+  'East Tawas': {
+    name: 'City of East Tawas',
+    website: 'https://www.easttawas.com',
+    phone: '989-362-6161',
+    officials: [
+      { name: 'Bruce Bolen', title: 'Mayor', party: null },
+      { name: 'Lisa Bolen', title: 'Council Member (At-Large)', party: null },
+      { name: 'Blinda A. Baker', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Leslie', title: 'Council Member (At-Large)', party: null },
+      { name: 'Joseph Kolts', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mark Eklund', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sandra Hamill', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Eaton Rapids': {
+    name: 'City of Eaton Rapids',
+    website: 'https://www.cityofeatonrapids.gov',
+    phone: '517-663-8118',
+    officials: [
+      { name: 'Pamela Colestock', title: 'Mayor', party: null },
+      { name: 'William Steele', title: 'Council Member (At-Large)', party: null },
+      { name: 'Deb Malewski', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rick Loftus', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ken Nicholas', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Ecorse': {
+    name: 'City of Ecorse',
+    website: 'https://www.ecorsemi.gov',
+    phone: '313-386-2520',
+    officials: [
+      { name: 'Lamar Tidwell', title: 'Mayor', party: null },
+      { name: 'Kimberly Alexander', title: 'Council Member (At-Large)', party: null },
+      { name: 'Donald Agee Jr.', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jared Berry', title: 'Council Member (At-Large)', party: null },
+      { name: 'LaTonya Lamb', title: 'Council Member (At-Large)', party: null },
+      { name: 'Montel Love', title: 'Council Member (At-Large)', party: null },
+      { name: 'Roger Parker Sr.', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Essexville': {
+    name: 'City of Essexville',
+    website: 'https://essexville.org',
+    phone: '989-893-7192',
+    officials: [
+      { name: 'Scott Wittbrodt', title: 'Mayor', party: null },
+      { name: 'Jennifer Gradowski', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jack Covieo', title: 'Council Member (At-Large)', party: null },
+      { name: 'Adam Hughes', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Connelly', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dennis Rondeau', title: 'Council Member (At-Large)', party: null },
+      { name: 'Todd Wendt', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Farmington': {
+    name: 'City of Farmington',
+    website: 'https://farmgov.com',
+    phone: '248-474-5500',
+    officials: [
+      { name: 'Joe LaRussa', title: 'Mayor', party: null },
+      { name: 'Johnna Balk', title: 'Council Member (At-Large)', party: null },
+      { name: 'Steven Schneemann', title: 'Council Member (At-Large)', party: null },
+      { name: 'Maria Taylor', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kevin Parkins', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Fennville': {
+    name: 'City of Fennville',
+    website: 'https://www.fennville.org',
+    phone: '269-561-8321',
+    officials: [
+      { name: 'Carlos Lopez', title: 'Mayor', party: null },
+      { name: 'David Lopez Jr', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Seth Boeve', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Dan Rastall', title: 'Commissioner (At-Large)', party: null },
+      { name: 'John Jamros', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Shawn Machan', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Sarah Sliter', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Fenton': {
+    name: 'City of Fenton',
+    website: 'https://www.cityoffenton.org',
+    phone: '810-629-2261',
+    officials: [
+      { name: 'B. Sue Osborn', title: 'Mayor', party: null },
+      { name: 'Tracy Bottecelli', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brad Jacob', title: 'Council Member (At-Large)', party: null },
+      { name: 'Patricia Lockwood', title: 'Council Member (At-Large)', party: null },
+      { name: 'David McDermott', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sean Sage', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mark Suchowski', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Flat Rock': {
+    name: 'City of Flat Rock',
+    website: 'https://www.flatrockmi.org',
+    phone: '734-782-2455',
+    officials: [
+      { name: 'Steven Beller', title: 'Mayor', party: null },
+      { name: 'John Bergeron', title: 'Council Member (At-Large)', party: null },
+      { name: 'Albert Frond', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jim Martin', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ricky Tefend', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kenneth Wrobel', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Flushing': {
+    name: 'City of Flushing',
+    website: 'https://www.flushingcity.com',
+    phone: '810-659-5665',
+    officials: [
+      { name: 'Edward Sullivan', title: 'Mayor', party: null },
+      { name: 'Joe Karlichek', title: 'Council Member (District 1)', party: null, district: 1 },
+      { name: 'Dane Miller', title: 'Council Member (District 2)', party: null, district: 2 },
+      { name: 'Danielle Smith', title: 'Council Member (District 3)', party: null, district: 3 },
+      { name: 'Eric Johnson', title: 'Council Member (District 4)', party: null, district: 4 },
+      { name: 'Michael Aversa', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brooke Good', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Frankenmuth': {
+    name: 'City of Frankenmuth',
+    website: 'https://www.frankenmuthcity.com',
+    phone: '989-652-9901',
+    officials: [
+      { name: 'Tom Meyer', title: 'Mayor', party: null },
+      { name: 'Bethany Bernthal Reindel', title: 'Council Member (At-Large)', party: null },
+      { name: 'Joe Cramer', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michael Grossi', title: 'Council Member (At-Large)', party: null },
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — "Howe" last name only from May 2025 work session minutes; first name not confirmed
+      { name: 'Chad Ross', title: 'Council Member (At-Large)', party: null },
+      { name: 'Vickie Schmitzer', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm the fifth council seat holder; city has five-member council; fourth and fifth seats from pre-2024 election period not confirmed
+  'Frankfort': {
+    name: 'City of Frankfort',
+    website: 'https://www.frankfortmich.com',
+    phone: '231-352-7117',
+    officials: [
+      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — mayor is selected by council from among members; identity not confirmed in public sources
+      { name: 'Jenna Smeltzer-Pritchard', title: 'Council Member (At-Large)', party: null },
+      { name: 'Peter Penfold', title: 'Council Member (At-Large)', party: null },
+      { name: 'JoAnn Holwerda', title: 'Council Member (At-Large)', party: null },
+      { name: 'Steven Drews', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Gaastra': {
+    name: 'City of Gaastra',
+    website: 'http://www.cityofgaastra.com',
+    phone: '906-265-2141',
+    officials: [
+      { name: 'Richard Holm', title: 'Mayor', party: null },
+      { name: 'Tony Holm', title: 'Commissioner (At-Large)', party: null },
+      { name: 'James Mortl', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Randy Clements', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Chris Cain', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Mari Kay McNamara', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Galesburg': {
+    name: 'City of Galesburg',
+    website: 'https://www.galesburgcity.org',
+    phone: '269-665-7000',
+    officials: [
+      { name: 'Linda Marble', title: 'Mayor', party: null },
+      { name: 'Carol Wortinger', title: 'Council Member (At-Large)', party: null },
+      { name: 'Stanley Chovanec', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ryan Harnden', title: 'Council Member (At-Large)', party: null },
+      { name: 'Roger Frazee', title: 'Council Member (At-Large)', party: null },
+      { name: 'Glen Hawes', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tony Tipken', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Gibraltar': {
+    name: 'City of Gibraltar',
+    website: 'https://cityofgibraltarmi.gov',
+    phone: '734-676-3900',
+    officials: [
+      { name: 'Garrett Shumate', title: 'Mayor', party: null },
+      { name: 'Rick Cox', title: 'Council Member (At-Large)', party: null },
+      { name: 'Art McNabb', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rob Molnar', title: 'Council Member (At-Large)', party: null },
+      { name: 'Justus Walden', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dorothy Wood', title: 'Council Member (At-Large)', party: null },
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — sixth council seat; city has 6 council members + mayor; could not confirm all seats after Nov 2025 election and 2024–2025 recall proceedings
+    ],
+  },
+
+  // UNVERIFIED — no confirmed official city website found; city uses BSA Online portal (bsaonline.com)
+  // UNVERIFIED — sourced from chamber directory; area code may differ from older 616 listings
+  // UNVERIFIED — could not confirm full city commission roster; city (pop. 851) has no accessible public roster online
+  'Gobles': {
+    name: 'City of Gobles',
+    website: 'https://vanburencountymi.gov/government/municipalities/cities/city-of-gobles/',
+    phone: '269-628-2246',
+    officials: [
+      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — could not confirm current mayor name through public sources
+    ],
+  },
+
+  'Grand Blanc': {
+    name: 'City of Grand Blanc',
+    website: 'https://www.cityofgrandblancmi.gov',
+    phone: '810-694-1118',
+    officials: [
+      { name: 'John Creasey', title: 'Mayor', party: null },
+      { name: 'Chris Douglas', title: 'Council Member (At-Large)', party: null },
+      { name: 'Julie Nielsen', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jaime Weasel', title: 'Council Member (At-Large)', party: null },
+      { name: 'Chris Carr', title: 'Council Member (At-Large)', party: null },
+      { name: 'Andrew Nyquist', title: 'Council Member (At-Large)', party: null },
+      { name: 'Norm Williams', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Grand Ledge': {
+    name: 'City of Grand Ledge',
+    website: 'https://www.cityofgrandledge.com',
+    phone: '517-627-2149',
+    officials: [
+      { name: 'Keith Mulder', title: 'Mayor', party: null },
+      { name: 'Brett Gillespie', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Dave Logel', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Rick Lantz', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Lynne MacDowell', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Tom Jancek', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Don Willems', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+    ],
+  },
+
+  'Grosse Pointe Farms': {
+    name: 'City of Grosse Pointe Farms',
+    website: 'https://www.grossepointefarms.org',
+    phone: '313-885-6600',
+    officials: [
+      { name: 'John Gillooly', title: 'Mayor', party: null },
+      { name: 'Sierra Donaven', title: 'Council Member (At-Large)', party: null },
+      { name: 'Daniel Jensen', title: 'Council Member (At-Large)', party: null },
+      { name: 'Beth Konrad-Wilberding', title: 'Council Member (At-Large)', party: null },
+      { name: 'Joe Ricci', title: 'Council Member (At-Large)', party: null },
+      { name: 'Neil Sroka', title: 'Council Member (At-Large)', party: null },
+      { name: 'Lev Wood', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Grosse Pointe Park': {
+    name: 'City of Grosse Pointe Park',
+    website: 'https://www.grossepointepark.org',
+    phone: '313-822-6200',
+    officials: [
+      { name: 'Michele Hodges', title: 'Mayor', party: null },
+      { name: 'Tim Kolar', title: 'Council Member (At-Large)', party: null },
+      { name: 'Martin D. McMillan', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brent Dreaver', title: 'Council Member (At-Large)', party: null },
+      { name: 'Thomas J. Caulfield', title: 'Council Member (At-Large)', party: null },
+      { name: 'Patrick Gleason', title: 'Council Member (At-Large)', party: null },
+      { name: 'Max A. Wiener', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Grosse Pointe Shores': {
+    name: 'Village of Grosse Pointe Shores, A Michigan City',
+    website: 'https://www.gpshoresmi.gov',
+    phone: '313-881-6565',
+    officials: [
+      { name: 'Ted J. Kedzierski', title: 'Mayor', party: null },
+      { name: 'John Seago', title: 'Council Member (At-Large)', party: null },
+      { name: 'Danielle Gehlert', title: 'Council Member (At-Large)', party: null },
+      { name: 'Donn Schroder', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sandra Cavataio', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Dakmak', title: 'Council Member (At-Large)', party: null },
+      { name: 'Scott Houghton', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Grosse Pointe Woods': {
+    name: 'City of Grosse Pointe Woods',
+    website: 'https://www.gpwmi.us',
+    phone: '313-343-2440',
+    officials: [
+      { name: 'Arthur W. Bryant', title: 'Mayor', party: null },
+      { name: 'Todd A. McConaghy', title: 'Council Member (At-Large)', party: null },
+      { name: 'Victoria A. Granger', title: 'Council Member (At-Large)', party: null },
+      { name: 'Angela Coletti Brown', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kenneth Gafa', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michael Koester', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jim Motschall', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Harbor Beach': {
+    name: 'City of Harbor Beach',
+    website: 'https://www.harborbeach.com',
+    phone: '989-479-3363',
+    officials: [
+      { name: 'Kevin Guitar', title: 'Mayor', party: null },
+      { name: 'Sam Capling', title: 'Council Member (At-Large)', party: null },
+      { name: 'Adam Wood', title: 'Council Member (At-Large)', party: null },
+      { name: 'Matt Woodke', title: 'Council Member (At-Large)', party: null },
+      { name: 'Will Woodward', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Harbor Springs': {
+    name: 'City of Harbor Springs',
+    website: 'https://www.cityofharborsprings.com',
+    phone: '231-526-2104',
+    officials: [
+      { name: 'Tom Graham Jr.', title: 'Mayor', party: null },
+      { name: 'Jeanne Benjamin', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kathy Motschall', title: 'Council Member (At-Large)', party: null },
+      { name: 'Wendy Reeve', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jamie Melke', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Harper Woods': {
+    name: 'City of Harper Woods',
+    website: 'https://www.harperwoodscity.org',
+    phone: '313-343-2500',
+    officials: [
+      { name: 'Valerie Kindle', title: 'Mayor', party: 'Democratic' },
+      { name: 'Vivian M. Sawicki', title: 'Council Member (At-Large)', party: null },
+      { name: 'Cheryl A. Costantino', title: 'Council Member (At-Large)', party: null },
+      { name: 'Regina Williams', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ivery Toussant, Jr.', title: 'Council Member (At-Large)', party: null },
+      { name: 'Gerianne LaPratt', title: 'Council Member (At-Large)', party: null },
+      { name: 'Teresa Foster', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Harrisville': {
+    name: 'City of Harrisville',
+    website: 'https://harrisvillemi.org',
+    phone: '989-916-4155',
+    officials: [
+      { name: 'Jeff Gehring', title: 'Mayor', party: null },
+      { name: 'Michael Bean', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Nancy McKenzie', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Kari Vandereuel', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Timothy Claseman', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Jacquelyn Schwanz', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Thomas Mason', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+    ],
+  },
+
+  'Hartford': {
+    name: 'City of Hartford',
+    website: 'https://www.cityofhartfordmi.org',
+    phone: '269-621-2477',
+    officials: [
+      { name: 'Jane Danger', title: 'Mayor', party: null },
+      { name: 'Peter Aranda', title: 'Commissioner (At-Large)', party: null },
+      { name: 'John A. Miller', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Lindsy Morsaw', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Nancy Spoula', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Charlie Weeden', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Highland Park': {
+    name: 'City of Highland Park',
+    website: 'https://www.highlandparkmi.gov',
+    phone: '313-252-0050',
+    officials: [
+      { name: 'Glenda McDonald', title: 'Mayor', party: null },
+      { name: 'Temeko Manica', title: 'Council Member (District 1)', party: null, district: 1 },
+      { name: 'Kallela Martin', title: 'Council Member (District 2)', party: null, district: 2 },
+      { name: 'Khursheed Ash-Shafii', title: 'Council Member (District 3)', party: null, district: 3 },
+      { name: 'Jamal K. Thomas', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sharmain Robinson', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // Wards 1 and remaining ward 2/3 members UNVERIFIED — could not confirm all members
+  'Hillsdale': {
+    name: 'City of Hillsdale',
+    website: 'https://www.cityofhillsdale.org',
+    phone: '517-437-6440',
+    officials: [
+      { name: 'Scott Sessions', title: 'Mayor', party: null },
+      { name: 'Will Morrisey', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Matthew Bentley', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Joshua Paladino', title: 'Council Member (Ward 4)', party: null, ward: 4 },
+      { name: 'Robert Socha', title: 'Council Member (Ward 4)', party: null, ward: 4 },
+    ],
+  },
+
+  'Howell': {
+    name: 'City of Howell',
+    website: 'https://www.cityofhowell.org',
+    phone: '517-546-3500',
+    officials: [
+      { name: 'Nikolas Hertrich', title: 'Mayor', party: null },
+      { name: 'Jan Lobur', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jacob Schlittler', title: 'Council Member (At-Large)', party: null },
+      { name: 'Luke Wilson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michael Gaitan-Flores', title: 'Council Member (At-Large)', party: null },
+      { name: 'Erin Britten', title: 'Council Member (At-Large)', party: null },
+      { name: 'Alex Clos', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Hudson': {
+    name: 'City of Hudson',
+    website: 'https://www.ci.hudson.mi.us',
+    phone: '517-448-8983',
+    officials: [
+      { name: 'Daniel Schudel', title: 'Mayor', party: null },
+      { name: 'Brandi Clark', title: 'Council Member (At-Large)', party: null },
+      { name: 'Greg Hillegas', title: 'Council Member (At-Large)', party: null },
+      { name: 'Barbara Ireland', title: 'Council Member (At-Large)', party: null },
+      { name: 'Natalie Loop', title: 'Council Member (At-Large)', party: null },
+      { name: 'Carl Sword', title: 'Council Member (At-Large)', party: null },
+      { name: 'Nicole Williams', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Huntington Woods': {
+    name: 'City of Huntington Woods',
+    website: 'https://www.hwmi.org',
+    phone: '248-541-4300',
+    officials: [
+      { name: 'Bob Paul', title: 'Mayor', party: null },
+      { name: 'Jules Olsman', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Joe Rozell', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Michelle Elder', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Jessica Steinhart', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Imlay City': {
+    name: 'City of Imlay City',
+    website: 'https://www.imlaycity.org',
+    phone: '810-724-2135',
+    officials: [
+      { name: 'Barb Yockey', title: 'Mayor', party: null },
+      { name: 'Bob Tanis', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Tom Blount', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Stu Davis', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Joe DeLuca', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Al Ramirez', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Luke Stempien', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Iron River': {
+    name: 'City of Iron River',
+    website: 'https://www.ironriver.org',
+    phone: '906-265-4719',
+    officials: [
+      { name: 'Rodney Dood', title: 'Mayor', party: null },
+      { name: 'Dennis Powell', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Anthony Clements', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Ronjo Leonoff', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Martha Burdick', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Ironwood': {
+    name: 'City of Ironwood',
+    website: 'https://ironwoodmi.gov',
+    phone: '906-932-5050',
+    officials: [
+      { name: 'Kim Corcoran', title: 'Mayor', party: null },
+      { name: 'Lauren Korpi', title: 'Commissioner (At-Large)', party: null },
+      { name: 'James Mildren', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Timothy Dean', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Steve Frank', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  // 3 additional council members serving unexpired terms UNVERIFIED — could not confirm which of pre-Nov-2025 members (Andrew, Endter, Koppleberger, Lombardi, Roethlisberger) are continuing
+  'Ithaca': {
+    name: 'City of Ithaca',
+    website: 'https://www.ithacami.com',
+    phone: '989-875-3200',
+    officials: [
+      { name: 'Brett Baublitz', title: 'Mayor', party: null },
+      { name: 'Clark Hubbard', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brooke R. Vernon', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brandon Ester', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Jonesville': {
+    name: 'City of Jonesville',
+    website: 'https://jonesvillemi.gov',
+    phone: '517-849-2104',
+    officials: [
+      { name: 'Gerald Arno', title: 'Mayor', party: null },
+      { name: 'Andy Penrose', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dean Adair', title: 'Council Member (At-Large)', party: null },
+      { name: 'Chris Grider', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brenda Guyse', title: 'Council Member (At-Large)', party: null },
+      { name: 'George Humphries Jr.', title: 'Council Member (At-Large)', party: null },
+      { name: 'Annette Sands', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Keego Harbor': {
+    name: 'City of Keego Harbor',
+    website: 'https://www.keegoharbor.org',
+    phone: '248-682-1930',
+    officials: [
+      { name: 'John Fletcher', title: 'Mayor', party: null },
+      { name: 'Joel Ross', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rob Kalman', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ronnie Dahl', title: 'Council Member (At-Large)', party: null },
+      { name: 'Theresa Shimansky', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Laingsburg': {
+    name: 'City of Laingsburg',
+    website: 'https://www.laingsburg.us',
+    phone: '517-651-5374',
+    officials: [
+      { name: 'Greg Beavers', title: 'Mayor', party: null },
+      { name: 'Randy Cragg', title: 'Council Member (At-Large)', party: null },
+      { name: 'RJ Miller', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jody Frank', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tim Leonard', title: 'Council Member (At-Large)', party: null },
+      { name: 'Scott Dedic', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jason Innis', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Lake Angelus': {
+    name: 'City of Lake Angelus',
+    website: 'https://www.lakeangelus.org',
+    phone: '248-332-3916',
+    officials: [
+      { name: 'Tom McGinnis', title: 'Mayor', party: null },
+      { name: 'Mark Symonds', title: 'Council Member (At-Large)', party: null },
+      { name: 'Chris Fietsam', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tony Messina', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rob Welsh', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Lathrup Village': {
+    name: 'City of Lathrup Village',
+    website: 'https://www.lathrupvillage.org',
+    phone: '248-557-2600',
+    officials: [
+      { name: 'Bruce Kantor', title: 'Mayor', party: null },
+      { name: 'Kelly Garrett', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jalen Jennings', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jason Hammond', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Sousanis', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Leslie': {
+    name: 'City of Leslie',
+    website: 'https://www.cityofleslie.org',
+    phone: '517-589-8236',
+    officials: [
+      { name: 'Matthew Johnson', title: 'Mayor', party: null },
+      { name: 'Pam Beegle', title: 'Council Member (At-Large)', party: null },
+      { name: 'Collin Baker', title: 'Council Member (At-Large)', party: null },
+      { name: 'Grady Doane', title: 'Council Member (At-Large)', party: null },
+      { name: 'Melissa Eggleston', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brandon Hunter', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Sharick', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Linden': {
+    name: 'City of Linden',
+    website: 'https://www.lindenmi.us',
+    phone: '810-735-7980',
+    officials: [
+      { name: 'Elizabeth Armstrong', title: 'Mayor', party: null },
+      { name: 'Jerry Link', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brad Dick', title: 'Council Member (At-Large)', party: null },
+      { name: 'Denise Miller', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brenda Simons', title: 'Council Member (At-Large)', party: null },
+      { name: 'Pamela Howd', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tom Hicks', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Litchfield': {
+    name: 'City of Litchfield',
+    website: 'https://cityoflitchfield.org',
+    phone: '517-542-2921',
+    officials: [
+      { name: 'Jessica Bills', title: 'Mayor', party: null },
+      { name: 'Don Bannick', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rick Siebert', title: 'Council Member (At-Large)', party: null },
+      { name: 'Melinda Dinwiddie', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dan Efstathiou', title: 'Council Member (At-Large)', party: null },
+      { name: 'Steve Schlumm', title: 'Council Member (At-Large)', party: null },
+      { name: 'Alecia Aponte', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Luna Pier': {
+    name: 'City of Luna Pier',
+    website: 'https://www.cityoflunapier.com',
+    phone: '734-848-6495',
+    officials: [
+      { name: 'James Gardner', title: 'Mayor', party: null },
+      { name: 'Shawn Boslooper', title: 'Council Member (At-Large)', party: null },
+      { name: 'Duy Hoang', title: 'Council Member (At-Large)', party: null },
+      { name: 'Amanda Neiding', title: 'Council Member (At-Large)', party: null },
+      { name: 'Joy Perry', title: 'Council Member (At-Large)', party: null },
+      { name: 'Diana Szkatulski', title: 'Council Member (At-Large)', party: null },
+      { name: 'Neil Wakeman', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Mackinac Island': {
+    name: 'City of Mackinac Island',
+    website: 'https://www.cityofmi.org',
+    phone: '906-847-3702',
+    officials: [
+      { name: 'Margaret Doud', title: 'Mayor', party: null },
+      { name: 'Richard Chambers', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tom Corrigan', title: 'Council Member (At-Large)', party: null },
+      { name: 'Steven Moskwa', title: 'Council Member (At-Large)', party: null },
+      { name: 'Anneke Myers', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jason St. Onge', title: 'Council Member (At-Large)', party: null },
+      { name: 'Lindsey White', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Manistique': {
+    name: 'City of Manistique',
+    website: 'https://www.cityofmanistique.org',
+    phone: '906-341-2290',
+    officials: [
+      { name: 'Joan Ecclesine', title: 'Mayor', party: null },
+      { name: 'Catherine Rohde', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kimberly Shiner', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michael Perilloux', title: 'Council Member (At-Large)', party: null },
+      { name: 'Irma González-Hider', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Marine City': {
+    name: 'City of Marine City',
+    website: 'https://marinecity.gov',
+    phone: '810-765-8846',
+    officials: [
+      { name: 'Jennifer Vandenbossche', title: 'Mayor', party: null },
+      { name: 'Jacob Bryson', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Lisa Hendrick', title: 'Commissioner (At-Large)', party: null },
+      { name: 'William Klaassen', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Trish May', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Sean O\'Brien', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Rita Roehrig', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm main phone from official source; verify against city website
+  'Marlette': {
+    name: 'City of Marlette',
+    website: 'https://www.cityofmarlette.com',
+    phone: '989-635-3894',
+    officials: [
+      { name: 'Charles Bush', title: 'Mayor', party: null },
+      { name: 'Shane Hunter', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jason Bell', title: 'Council Member (At-Large)', party: null },
+      { name: 'Pat Wilson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Christopher Kopacz', title: 'Council Member (At-Large)', party: null },
+      { name: 'Don Redman', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dan Edwards', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Marysville': {
+    name: 'City of Marysville',
+    website: 'https://www.cityofmarysvillemi.com',
+    phone: '810-364-6613',
+    officials: [
+      { name: 'Kathy Hayman', title: 'Mayor', party: null },
+      { name: 'Shawn Winston', title: 'Council Member (At-Large)', party: null },
+      { name: 'Greg Badley', title: 'Council Member (At-Large)', party: null },
+      { name: 'Duke Dunn', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michelle Easter', title: 'Council Member (At-Large)', party: null },
+      { name: 'Daniel Shirkey', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Watson', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Mason': {
+    name: 'City of Mason',
+    website: 'https://www.mason.mi.us',
+    phone: '517-676-9155',
+    officials: [
+      { name: 'Russell W. Whipple', title: 'Mayor', party: null },
+      { name: 'Jon Droscha', title: 'Council Member (At-Large)', party: null },
+      { name: 'Elaine Ferris', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tom Husby', title: 'Council Member (At-Large)', party: null },
+      { name: 'Scott Preadmore', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jerry Schaffer', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Vercher', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Melvindale': {
+    name: 'City of Melvindale',
+    website: 'https://melvindale.org',
+    phone: '313-429-1040',
+    officials: [
+      { name: 'Nicole M. Shkira', title: 'Mayor', party: null },
+      { name: 'Joseph Jackson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Saleim Abuali', title: 'Council Member (At-Large)', party: null },
+      { name: 'Stanley Filipowski', title: 'Council Member (At-Large)', party: null },
+      { name: 'Wheeler Marsee', title: 'Council Member (At-Large)', party: null },
+      { name: 'Scott Frederick', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dawn Cartrette', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — holdover council members from 2022 election not confirmed from primary source; verify full roster against city website
+  'Memphis': {
+    name: 'City of Memphis',
+    website: 'https://cityofmemphismi.gov',
+    phone: '810-392-2385',
+    officials: [
+      { name: 'Tammy J. Wehrum', title: 'Mayor', party: null },
+      { name: 'Ken Dunbar', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jason Sopha', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rodona M. Harper', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Menominee': {
+    name: 'City of Menominee',
+    website: 'https://www.menominee.us',
+    phone: '906-863-2656',
+    officials: [
+      { name: 'Casey Hoffman', title: 'Mayor', party: null },
+      { name: 'Michael DeDamos', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Cheryl Haupt', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Windy-Marie Kerkela', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Donna Marineau', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Josh Jones', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Steve Fifarek', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Christina Vargo', title: 'Council Member (Ward 4)', party: null, ward: 4 },
+      { name: 'Joe Dulak', title: 'Council Member (Ward 4)', party: null, ward: 4 },
+    ],
+  },
+
+  'Milan': {
+    name: 'City of Milan',
+    website: 'https://www.milanmi.gov',
+    phone: '734-439-1501',
+    officials: [
+      { name: 'Edward Kolar', title: 'Mayor', party: null },
+      { name: 'Mary Kerkes', title: 'Council Member (At-Large)', party: null },
+      { name: 'Shannon Dare Wayne', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Snyder', title: 'Council Member (At-Large)', party: null },
+      { name: 'Marie Gress', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jesse Nie', title: 'Council Member (At-Large)', party: null },
+      { name: 'Matthew Stafford', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Montrose': {
+    name: 'City of Montrose',
+    website: 'https://www.cityofmontrose.us',
+    phone: '810-639-6168',
+    officials: [
+      { name: 'Thomas J. Banks', title: 'Mayor', party: null },
+      { name: 'Mark Richard', title: 'Council Member (At-Large)', party: null },
+      { name: 'Robert Arnold', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ryan Heslop', title: 'Council Member (At-Large)', party: null },
+      { name: 'Melissa Hoose', title: 'Council Member (At-Large)', party: null },
+      { name: 'Lori Machuk', title: 'Council Member (At-Large)', party: null },
+      { name: 'Todd Pangle', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Morenci': {
+    name: 'City of Morenci',
+    website: 'https://www.cityofmorenci.org',
+    phone: '517-458-6828',
+    officials: [
+      { name: 'Tracy Schell', title: 'Mayor', party: null },
+      { name: 'Jerome Bussell', title: 'Council Member (At-Large)', party: null },
+      { name: 'Diane Molitierno', title: 'Council Member (At-Large)', party: null },
+      { name: 'Theresa Stiver', title: 'Council Member (At-Large)', party: null },
+      { name: 'Gail Cleghorn', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kori Christle', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kandice Speiser', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Mount Morris': {
+    name: 'City of Mount Morris',
+    website: 'https://cityofmtmorris.org',
+    phone: '810-686-2160',
+    officials: [
+      { name: 'Sara Dubey', title: 'Mayor', party: null },
+      { name: 'Lou Templeton', title: 'Council Member (At-Large)', party: null },
+      { name: 'La\'Shaya Darisaw', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michael Withey', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Vance', title: 'Council Member (At-Large)', party: null },
+      { name: 'Chuck Smith', title: 'Council Member (At-Large)', party: null },
+      { name: 'Wayne Walter', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Munising': {
+    name: 'City of Munising',
+    website: 'https://cityofmunising.org',
+    phone: '906-387-2095',
+    officials: [
+      { name: 'Chris Berry', title: 'Mayor', party: null },
+      { name: 'Jordan Prunick', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Bob Wilkinson', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Brice Burge', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Rod DesJardins', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'New Baltimore': {
+    name: 'City of New Baltimore',
+    website: 'https://www.cityofnewbaltimore.org',
+    phone: '586-725-2151',
+    officials: [
+      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — Nov 2025 mayor race (Semaan vs Covert) result not confirmed
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — could not confirm full post-2025-election roster
+    ],
+  },
+
+  // UNVERIFIED — city hall main phone not confirmed
+  'New Buffalo': {
+    name: 'City of New Buffalo',
+    website: 'https://cityofnewbuffalomi.gov',
+    phone: '269-469-1500',
+    officials: [
+      { name: 'Vance Price', title: 'Mayor', party: null },
+      { name: 'Roger Lijewski', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rich Knoll', title: 'Council Member (At-Large)', party: null },
+      { name: 'Karen Gear', title: 'Council Member (At-Large)', party: null },
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — 5th council member not confirmed
+    ],
+  },
+
+  'Olivet': {
+    name: 'City of Olivet',
+    website: 'https://cityofolivet.org',
+    phone: '269-749-4961',
+    officials: [
+      { name: 'Laura Barlond-Maas', title: 'Mayor', party: null },
+      { name: 'Joe Hoffdahl', title: 'Council Member (At-Large)', party: null },
+      { name: 'Joseph Davis', title: 'Council Member (At-Large)', party: null },
+      { name: 'Larry Marsh', title: 'Council Member (At-Large)', party: null },
+      { name: 'Gary Peterson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Don Walker', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — city hall main phone not confirmed
+  'Omer': {
+    name: 'City of Omer',
+    website: 'https://www.cityofomer.com',
+    phone: '989-653-2566',
+    officials: [
+      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — could not confirm current mayor
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — full roster unconfirmed; AI-generated names rejected as hallucinations
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — full roster unconfirmed; AI-generated names rejected as hallucinations
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — full roster unconfirmed; AI-generated names rejected as hallucinations
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — full roster unconfirmed; AI-generated names rejected as hallucinations
+    ],
+  },
+
+  // UNVERIFIED — listed number uses 517 area code but Presque Isle County is 989; not confirmed
+  'Onaway': {
+    name: 'City of Onaway',
+    website: 'https://onawaymi.com',
+    phone: '989-733-8713',
+    officials: [
+      { name: null, title: 'Mayor', party: null }, // UNVERIFIED — Mike Benson elected 2023 but 2025 status not confirmed
+      { name: 'Andrew Bischer', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Roger Marsh', title: 'Commissioner (At-Large)', party: null },
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — name not confirmed
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — name not confirmed
+    ],
+  },
+
+  'Orchard Lake Village': {
+    name: 'City of Orchard Lake Village',
+    website: 'https://www.cityoforchardlake.com',
+    phone: '248-682-2400',
+    officials: [
+      { name: 'Kevin G. Kroger', title: 'Mayor', party: null },
+      { name: 'Bruce McIntyre', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Steuer', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kelly Mandel', title: 'Council Member (At-Large)', party: null },
+      { name: 'DuAnne Sonneville', title: 'Council Member (At-Large)', party: null },
+      { name: 'Fred Leeb', title: 'Council Member (At-Large)', party: null },
+      { name: 'Joe Majcher', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Ovid': {
+    name: 'City of Ovid',
+    website: 'https://www.ovidmi.org',
+    phone: '989-834-5550',
+    officials: [
+      { name: 'Mary Perrien', title: 'Mayor', party: null },
+      { name: 'Eric Starn', title: 'Council Member (At-Large)', party: null },
+      { name: 'Eric Brown', title: 'Council Member (At-Large)', party: null },
+      { name: 'Lyle Perrien II', title: 'Council Member (At-Large)', party: null },
+      { name: 'Melissa Jones', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michelle Soliz', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mallory Olger', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Parchment': {
+    name: 'City of Parchment',
+    website: 'https://parchment.org',
+    phone: '269-349-3785',
+    officials: [
+      { name: 'Robert D. Britigan III', title: 'Mayor', party: null },
+      { name: 'Michael E. Conner', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Tammy Cooper', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Kristen Capelli', title: 'Commissioner (At-Large)', party: null },
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — term to 2027; name not confirmed
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — term to 2027; name not confirmed
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — term to 2027; name not confirmed
+    ],
+  },
+
+  'Perry': {
+    name: 'City of Perry',
+    website: 'https://www.perrymi.gov',
+    phone: '517-625-6155',
+    officials: [
+      { name: 'Sue Hammond', title: 'Mayor', party: null },
+      { name: 'Larry Lambert', title: 'Council Member (At-Large)', party: null },
+      { name: 'Bob Porter', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mike Connell', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kristin Babel', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kamal Ghazi', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mindy Galbavi', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Petersburg': {
+    name: 'City of Petersburg',
+    website: 'https://petersburgmi.gov',
+    phone: '734-279-1210',
+    officials: [
+      { name: 'Kevin Richards', title: 'Mayor', party: null },
+      { name: 'Dawn Cilley', title: 'Council Member (At-Large)', party: null },
+      { name: 'Stella Kirby', title: 'Council Member (At-Large)', party: null },
+      { name: 'Laura Antoszewski', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rita Rousseau', title: 'Council Member (At-Large)', party: null },
+      { name: 'Lisa Walters', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ron Stumpmier', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Pinconning': {
+    name: 'City of Pinconning',
+    website: 'https://cityofpinconning.org',
+    phone: '989-879-2360',
+    officials: [
+      { name: 'Sheri Boettcher', title: 'Mayor', party: null },
+      { name: 'Kriste Boetefuer', title: 'Council Member (At-Large)', party: null },
+      { name: 'Becky Lesniak', title: 'Council Member (At-Large)', party: null },
+      { name: 'Payton Ramsay', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michelle Bleshenski', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Pleasant Ridge': {
+    name: 'City of Pleasant Ridge',
+    website: 'https://cityofpleasantridge.org',
+    phone: '248-541-2901',
+    officials: [
+      { name: 'Bret Scott', title: 'Mayor', party: null },
+      { name: 'Chris Budnik', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Alex Lenko', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Ann Perry', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Katy Schmier', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Potterville': {
+    name: 'City of Potterville',
+    website: 'https://pottervillemi.org',
+    phone: '517-645-7641',
+    officials: [
+      { name: 'Jennifer Lenneman', title: 'Mayor', party: null },
+      { name: 'Michael Potter', title: 'Council Member (At-Large)', party: null },
+      { name: 'Trevor Hunt', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dawn Sweeney', title: 'Council Member (At-Large)', party: null },
+      { name: 'Hannah Myers-Southerly', title: 'Council Member (At-Large)', party: null },
+      { name: 'Bob Nichols', title: 'Council Member (At-Large)', party: null },
+      { name: 'Zach Connor', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — city hall phone not found in available sources
+  'Reading': {
+    name: 'City of Reading',
+    website: 'http://reading.mi.us',
+    phone: '517-283-2604',
+    officials: [
+      { name: 'Chad Penney', title: 'Mayor', party: null },
+      { name: 'Rebecca Matz', title: 'Council Member (At-Large)', party: null },
+      { name: 'Chuck George', title: 'Council Member (At-Large)', party: null },
+      { name: 'Christopher Gary', title: 'Council Member (At-Large)', party: null },
+      { name: 'Todd Crank Sr.', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Richmond': {
+    name: 'City of Richmond',
+    website: 'https://www.cityofrichmond.net',
+    phone: '586-727-7571',
+    officials: [
+      { name: 'Timothy Rix', title: 'Mayor', party: null },
+      { name: 'Michael Misteravich', title: 'Council Member (At-Large)', party: null },
+      { name: 'Emily Allen', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dennis LaFore', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jim Schultz', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Warn', title: 'Council Member (At-Large)', party: null },
+      { name: 'Nick Yelencich', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // UNVERIFIED — possibly 313-842-5604 but not confirmed from official source
+  'River Rouge': {
+    name: 'City of River Rouge',
+    website: 'https://cityofriverrouge.com',
+    phone: '313-842-4200',
+    officials: [
+      { name: 'William L. Campbell', title: 'Mayor', party: null },
+      { name: null, title: 'Mayor Pro-Tem', party: null }, // UNVERIFIED — Patty Campbell held this role in 2023 but current status not confirmed
+      { name: 'Darryl Folks II', title: 'Council Member (At-Large)', party: null },
+      { name: 'Percy Pierce', title: 'Council Member (At-Large)', party: null },
+      { name: 'Karen Ward', title: 'Council Member (At-Large)', party: null },
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED
+    ],
+  },
+
+  'Riverview': {
+    name: 'City of Riverview',
+    website: 'https://www.cityofriverview.com',
+    phone: '734-281-4200',
+    officials: [
+      { name: 'Andrew Swift', title: 'Mayor', party: null },
+      { name: 'Scott Williams', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sussie O\'Neil', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brian Webb', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rita Gunaga', title: 'Council Member (At-Large)', party: null },
+      { name: 'Nicole Clark', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Pray', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Rochester': {
+    name: 'City of Rochester',
+    website: 'https://www.ci.rochester.mi.us',
+    phone: '248-733-3700',
+    officials: [
+      { name: 'Nancy Salvia', title: 'Mayor', party: null },
+      { name: 'Stuart A. Bikson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Christian Hauser', title: 'Council Member (At-Large)', party: null },
+      { name: 'Debbie Jones', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sara King', title: 'Council Member (At-Large)', party: null },
+      { name: 'Steve Sage', title: 'Council Member (At-Large)', party: null },
+      { name: 'Marilyn Trent', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Rockwood': {
+    name: 'City of Rockwood',
+    website: 'https://www.rockwoodmi.org',
+    phone: '734-379-9496',
+    officials: [
+      { name: 'Troy Cox', title: 'Mayor', party: null },
+      { name: 'Marcie Grzywacz', title: 'Council Member (At-Large)', party: null },
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
+      { name: null, title: 'Council Member (At-Large)', party: null }, // UNVERIFIED — council page returned no content; full roster not confirmed
+    ],
+  },
+
+  'Rose City': {
+    name: 'City of Rose City',
+    website: 'https://www.rosecitymi.net',
+    phone: '989-685-3033',
+    officials: [
+      { name: 'Michael Samples', title: 'Mayor', party: null },
+      { name: 'Anthony Evans', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brent Hinkley', title: 'Council Member (At-Large)', party: null },
+      { name: 'Claire Meyers', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ashley Herrick', title: 'Council Member (At-Large)', party: null },
+      { name: 'Scott Hamel', title: 'Council Member (At-Large)', party: null },
+      { name: 'Donald Freeman', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Saline': {
+    name: 'City of Saline',
+    website: 'https://www.cityofsaline.org',
+    phone: '734-429-4907',
+    officials: [
+      { name: 'Brian Marl', title: 'Mayor', party: null },
+      { name: 'Janet Dillon', title: 'Council Member (At-Large)', party: null },
+      { name: 'Nicole Rice', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dean Girbach', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jenn Harmount', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jim Dell\'Orco', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tramane Halsch', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Sandusky': {
+    name: 'City of Sandusky',
+    website: 'https://www.misandusky.com',
+    phone: '810-648-4444',
+    officials: [
+      { name: 'Virginia Bissett', title: 'Mayor', party: null },
+      { name: 'Todd Hillman', title: 'Council Member (At-Large)', party: null },
+      { name: 'Timothy Torp', title: 'Council Member (At-Large)', party: null },
+      { name: 'Timothy Stone', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brad Harris', title: 'Council Member (At-Large)', party: null },
+      { name: 'Larry Mitchell', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'South Lyon': {
+    name: 'City of South Lyon',
+    website: 'https://www.southlyonmi.org',
+    phone: '248-437-1735',
+    officials: [
+      { name: 'Steve Kennedy', title: 'Mayor', party: null },
+      { name: 'Alex Hansen', title: 'Council Member (At-Large)', party: null },
+      { name: 'Lisa Dilg', title: 'Council Member (At-Large)', party: null },
+      { name: 'Margaret Kurtzweil', title: 'Council Member (At-Large)', party: null },
+      { name: 'Thad Bogert', title: 'Council Member (At-Large)', party: null },
+      { name: 'Lisa Popa', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michael Squires', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Springfield': {
+    name: 'City of Springfield',
+    website: 'https://www.springfieldmich.com',
+    phone: '269-965-2354',
+    officials: [
+      { name: 'Harry Burdett', title: 'Mayor', party: null },
+      { name: 'Christy Kincaid', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tracey Cummings', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brad Francis', title: 'Council Member (At-Large)', party: null },
+      { name: 'Adam Gregory', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ron Wells', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'St. Clair': {
+    name: 'City of St. Clair',
+    website: 'https://cityofstclairmi.gov',
+    phone: '810-329-7121',
+    officials: [
+      { name: 'Bill Cedar', title: 'Mayor', party: null },
+      { name: 'Dan Kuffa', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Tom Volz', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Peggy LaPorte', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'Ron Paul', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'David Gottler', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+      { name: 'Bob Westrick', title: 'Council Member (Ward 3)', party: null, ward: 3 },
+    ],
+  },
+
+  'St. Ignace': {
+    name: 'City of St. Ignace',
+    website: 'https://www.stignace.net',
+    phone: '906-643-8545',
+    officials: [
+      { name: 'Jill Eyre', title: 'Mayor', party: null },
+      { name: 'Don Gustafson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Connie Litzner', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kayla Pelter', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tammy Shepard', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mike Williford', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'St. Johns': {
+    name: 'City of St. Johns',
+    website: 'https://www.stjohnsmi.gov',
+    phone: '989-224-8944',
+    officials: [
+      { name: 'Dave Weiss', title: 'Mayor', party: null },
+      { name: 'Kim Huyge', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Jeff Rowell', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Bill Bohm', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Terry Storey', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Tim Dusbiber', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'St. Louis': {
+    name: 'City of St. Louis',
+    website: 'https://www.stlouismi.com',
+    phone: '989-681-2137',
+    officials: [
+      { name: 'James Wieferich', title: 'Mayor', party: null },
+      { name: 'Bonnie Turner', title: 'Council Member (At-Large)', party: null },
+      { name: 'Todd Kilbourn', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tami Muladore', title: 'Council Member (At-Large)', party: null },
+      { name: 'Megan Schneider', title: 'Council Member (At-Large)', party: null },
+      { name: 'Lee Wieferich', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Standish': {
+    name: 'City of Standish',
+    website: 'https://www.cityofstandish.com',
+    phone: '989-846-9588',
+    officials: [
+      { name: 'Kevin King', title: 'Mayor', party: null },
+      { name: 'Jeff Link', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mark Spencer', title: 'Council Member (At-Large)', party: null },
+      { name: 'Justin Fleszar', title: 'Council Member (At-Large)', party: null },
+      { name: 'Melody Lincoln', title: 'Council Member (At-Large)', party: null },
+      { name: 'Chris Niernberg', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mike Myers', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Stephenson': {
+    name: 'City of Stephenson',
+    website: 'https://www.stephensoncity.com',
+    phone: '906-753-2226',
+    officials: [
+      { name: 'John Starzynski', title: 'Mayor', party: null },
+      { name: 'Howard Fredrickson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Martha Haight', title: 'Council Member (At-Large)', party: null },
+      { name: 'Dale Parrett', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Solander', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brian White', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ronald Zahorik', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Swartz Creek': {
+    name: 'City of Swartz Creek',
+    website: 'https://www.cityofswartzcreekmi.gov',
+    phone: '810-635-4464',
+    officials: [
+      { name: 'Nate Henry', title: 'Mayor', party: null },
+      { name: 'John Knickerbocker', title: 'Council Member (Ward 1)', party: null, ward: 1 },
+      { name: 'Rae Lynn Hicks', title: 'Council Member (Ward 2)', party: null, ward: 2 },
+      { name: 'David Spillane', title: 'Council Member (Ward 4)', party: null, ward: 4 },
+      { name: 'John Gilbert', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Krueger', title: 'Council Member (At-Large)', party: null },
+      { name: 'Walt Melen', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Sylvan Lake': {
+    name: 'City of Sylvan Lake',
+    website: 'https://www.sylvanlake.org',
+    phone: '248-682-1440',
+    officials: [
+      { name: 'Jim Cowper', title: 'Mayor', party: null },
+      { name: 'Sally Segal', title: 'Council Member (At-Large)', party: null },
+      { name: 'Feather Buchanan', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ben Clarke', title: 'Council Member (At-Large)', party: null },
+      { name: 'Mike Zubrzycki', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Tawas City': {
+    name: 'City of Tawas City',
+    website: 'https://tawascity.org',
+    phone: '989-362-8688',
+    officials: [
+      { name: 'Jackie Masich', title: 'Mayor', party: null },
+      { name: 'Chuck Klenow', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jerry Malone', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ed Nagy', title: 'Council Member (At-Large)', party: null },
+      { name: 'Michael Russo', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brad Huebel', title: 'Council Member (At-Large)', party: null },
+      { name: 'David Lesinski', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Tecumseh': {
+    name: 'City of Tecumseh',
+    website: 'https://www.mytecumseh.org',
+    phone: '517-423-2174',
+    officials: [
+      { name: 'Brian Radant', title: 'Mayor', party: null },
+      { name: 'Ron Wimple', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brent Gnodtke', title: 'Council Member (At-Large)', party: null },
+      { name: 'Katie Mattison', title: 'Council Member (At-Large)', party: null },
+      { name: 'Gary Naugle', title: 'Council Member (At-Large)', party: null },
+      { name: 'Vicki Riddle', title: 'Council Member (At-Large)', party: null },
+      { name: 'Joseph Tuckey', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Three Rivers': {
+    name: 'City of Three Rivers',
+    website: 'https://www.threeriversmi.org',
+    phone: '269-273-1075',
+    officials: [
+      { name: 'Angel Johnston', title: 'Mayor', party: null },
+      { name: 'Pat Dane', title: 'Commissioner (District 1)', party: null, district: 1 },
+      { name: 'Steven Haigh', title: 'Commissioner (District 2)', party: null, district: 2 },
+      { name: 'Anthony Stanfill', title: 'Commissioner (District 3)', party: null, district: 3 },
+      { name: 'Carolyn McNary', title: 'Commissioner (District 4)', party: null, district: 4 }, // Mayor Pro Tem
+      { name: 'Torrey Brown', title: 'Commissioner (At-Large)', party: null },
+      { name: 'Lucas Allen', title: 'Commissioner (At-Large)', party: null },
+    ],
+  },
+
+  'Utica': {
+    name: 'City of Utica',
+    website: 'https://www.cityofutica.org',
+    phone: '586-739-1600',
+    officials: [
+      { name: 'Gus Calandrino', title: 'Mayor', party: null },
+      { name: 'Faith Terenzi', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Lou Backus', title: 'Council Member (At-Large)', party: null },
+      { name: 'Thom Dionne', title: 'Council Member (At-Large)', party: null },
+      { name: 'Joel DeVriendt', title: 'Council Member (At-Large)', party: null },
+      { name: 'Brad O\'Donnell', title: 'Council Member (At-Large)', party: null },
+      { name: 'Paul Weaver', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Vassar': {
+    name: 'City of Vassar',
+    website: 'https://www.cityofvassar.org',
+    phone: '989-823-8517',
+    officials: [
+      { name: 'Mike Damm', title: 'Mayor', party: null },
+      { name: 'Chuck Fabbro Jr.', title: 'Council Member (At-Large)', party: null }, // Mayor Pro-Tem
+      { name: 'Melissa Armstrong', title: 'Council Member (At-Large)', party: null },
+      { name: 'Pat Mecham', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tom McTaggart', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Village of Clarkston': {
+    name: 'City of the Village of Clarkston',
+    website: 'https://www.villageofclarkston.org',
+    phone: '248-625-1559',
+    officials: [
+      { name: 'Sue Wylie', title: 'Mayor', party: null },
+      { name: 'Laura Rodgers', title: 'Council Member (At-Large)', party: null },
+      { name: 'Gary Casey', title: 'Council Member (At-Large)', party: null },
+      { name: 'Amanda Forte', title: 'Council Member (At-Large)', party: null },
+      { name: 'Erica Jones', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ted Quisenberry', title: 'Council Member (At-Large)', party: null },
+      { name: 'Al Avery', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Wakefield': {
+    name: 'City of Wakefield',
+    website: 'https://cityofwakefieldmi.gov',
+    phone: '906-229-5131',
+    officials: [
+      { name: 'Dale White', title: 'Mayor', party: null },
+      { name: 'Mike Zeckovich', title: 'Council Member (At-Large)', party: null }, // Mayor Pro-Tem
+      { name: 'Scott Heikkila', title: 'Council Member (At-Large)', party: null },
+      { name: 'James Anderson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Patrick Libertoski', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Watervliet': {
+    name: 'City of Watervliet',
+    website: 'https://www.watervliet.org',
+    phone: '269-463-6769',
+    officials: [
+      { name: 'Deah Muth', title: 'Mayor', party: null },
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — see above
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — see above
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — see above
+      { name: null, title: 'Commissioner (At-Large)', party: null }, // UNVERIFIED — see above
+    ],
+  },
+
+  'Wayne': {
+    name: 'City of Wayne',
+    website: 'https://www.cityofwayne.com',
+    phone: '734-722-2000',
+    officials: [
+      { name: 'John P. Rhaesa', title: 'Mayor', party: null },
+      { name: 'Alfred Brock', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Kevin J. Dowd', title: 'Council Member (At-Large)', party: null },
+      { name: 'Donald Quarles Sr.', title: 'Council Member (At-Large)', party: null },
+      { name: 'Rob Darwiche', title: 'Council Member (At-Large)', party: null },
+      { name: 'Kathy Lawrence', title: 'Council Member (At-Large)', party: null },
+      { name: 'Deborah R. Wass', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'West Branch': {
+    name: 'City of West Branch',
+    website: 'https://www.westbranch.com',
+    phone: '989-345-0295',
+    officials: [
+      { name: 'Paul Frechette', title: 'Mayor', party: null },
+      { name: 'Mike Jackson', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Carol Adair', title: 'Council Member (At-Large)', party: null },
+      { name: 'Lois Bergquist', title: 'Council Member (At-Large)', party: null },
+      { name: 'Ellen Pugh', title: 'Council Member (At-Large)', party: null },
+      { name: 'Matthew Thompson', title: 'Council Member (At-Large)', party: null },
+      { name: 'Cathy Zimmerman', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  // No official city website found
+  // UNVERIFIED — all four officials sourced from a draft planning document, not an official city website. No official website found for City of Whittemore. Verify before use.
+  // PART B — COMPLETENESS CHECK
+  // Michigan has 276 incorporated cities (Wikipedia). The existing dataset
+  // at least 1 city uncovered. Cross-referencing the Michigan MDOT City-Village
+  // official city websites as currently incorporated Michigan cities.
+  'Whittemore': {
+    name: 'City of Whittemore',
+    website: null,
+    phone: '989-756-2161',
+    officials: [
+      { name: 'Robert Leslie', title: 'Mayor', party: null }, // Source: 2026-2031 Master Plan DRAFT (NEMCOG)
+      { name: 'Micheal Neibert', title: 'Council Member (At-Large)', party: null }, // Source: 2026-2031 Master Plan DRAFT
+      { name: 'John Miller', title: 'Council Member (At-Large)', party: null }, // Source: 2026-2031 Master Plan DRAFT
+      { name: 'Nicole Trevarro', title: 'Council Member (At-Large)', party: null }, // Source: 2026-2031 Master Plan DRAFT
+    ],
+  },
+
+  'Williamston': {
+    name: 'City of Williamston',
+    website: 'https://williamston-mi.us',
+    phone: '517-655-2774',
+    officials: [
+      { name: 'Tammy Gilroy', title: 'Mayor', party: null }, // Mayor elected by council from its membership
+      { name: 'Daniel Rhines', title: 'Council Member (At-Large)', party: null }, // Mayor Pro-Tem
+      { name: 'Terry Hansen', title: 'Council Member (At-Large)', party: null },
+      { name: 'John Haynes', title: 'Council Member (At-Large)', party: null },
+      { name: 'Steve Jenkins', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tim Ludwig', title: 'Council Member (At-Large)', party: null },
+      { name: 'Scott VanAllsburg', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Wixom': {
+    name: 'City of Wixom',
+    website: 'https://www.wixomgov.org',
+    phone: '248-624-4557',
+    officials: [
+      { name: 'Patrick Beagle', title: 'Mayor', party: null },
+      { name: 'Keenan Gottschall', title: 'Council Member (At-Large)', party: null }, // Deputy Mayor
+      { name: 'Peter Behrmann', title: 'Council Member (At-Large)', party: null },
+      { name: 'Jason Kennedy', title: 'Council Member (At-Large)', party: null },
+      { name: 'Tia Gronlund-Fox', title: 'Council Member (At-Large)', party: null },
+      { name: 'Nicole O\'Dea', title: 'Council Member (At-Large)', party: null },
+      { name: 'Veronica Simmons', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Woodhaven': {
+    name: 'City of Woodhaven',
+    website: 'https://www.woodhavenmi.org',
+    phone: '734-675-3000',
+    officials: [
+      { name: 'Patricia Odette', title: 'Mayor', party: null },
+      { name: 'Jan Sikes', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Don Belcher', title: 'Council Member (At-Large)', party: null },
+      { name: 'Darrel Penix', title: 'Council Member (At-Large)', party: null },
+      { name: 'Preston Abadie', title: 'Council Member (At-Large)', party: null },
+      { name: 'J.C. Moczydlowsky', title: 'Council Member (At-Large)', party: null },
+      { name: 'Roger Minyard', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Yale': {
+    name: 'City of Yale',
+    website: 'https://www.yalemi.us',
+    phone: '810-387-3311',
+    officials: [
+      { name: 'Brenda Krzak', title: 'Mayor', party: null },
+      { name: 'Tammy Hazel', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Anthony Hackett', title: 'Council Member (At-Large)', party: null },
+      { name: 'Eric Kleitch', title: 'Council Member (At-Large)', party: null },
+      { name: 'Sharon Krosnicki', title: 'Council Member (At-Large)', party: null },
+      { name: 'Shelley O\'Brien', title: 'Council Member (At-Large)', party: null },
+      { name: 'Josh Jedrzejczak', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
+
+  'Zilwaukee': {
+    name: 'City of Zilwaukee',
+    website: 'https://www.zilwaukeemichigan.gov',
+    phone: '989-755-0931',
+    officials: [
+      { name: 'Charles Henning', title: 'Mayor', party: null },
+      { name: 'Matthew Heck', title: 'Council Member (At-Large)', party: null }, // Mayor Pro Tem
+      { name: 'Robert Bohnsack', title: 'Council Member (At-Large)', party: null },
+      { name: 'Margie Black', title: 'Council Member (At-Large)', party: null },
+      { name: 'Christine Campbell', title: 'Council Member (At-Large)', party: null },
+    ],
+  },
 }
 
 /* ── Township officials ── */
