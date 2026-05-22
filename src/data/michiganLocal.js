@@ -17181,6 +17181,1219 @@ export const MI_VILLAGE_OFFICIALS = {
       { name: 'Mike Balma', title: 'Trustee', party: null },
     ],
   },
+
+  /* ── New villages from Cowork (78 villages, compiled 2026-05-21) ── */
+
+// UNVERIFIED — could not confirm full roster; only 3 of likely 6 trustees found via 2024 election results (Mining Gazette); remaining trustees not publicly listed
+  'Ahmeek': {
+    name: 'Village of Ahmeek',
+    website: 'https://www.ahmeekvillage.org/',
+    phone: '906-337-1004',
+    county: 'Keweenaw',
+    officials: [
+      { name: 'Susan R. Gherna', title: 'Village President', party: null },
+      { name: 'Michael DeFina', title: 'Trustee', party: null },
+      { name: 'Dave W. Maki', title: 'Trustee', party: null },
+      { name: 'Frank D. Spagnotti', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; Deb Meyer resigned and Carr was appointed; 2024 ballot had only 2 trustee seats up; full 6-trustee roster not confirmed
+  'Akron': {
+    name: 'Village of Akron',
+    website: 'https://akronvillage.org/',
+    phone: '989-691-5540',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Roxanne Huizar', title: 'Village President', party: null },
+      { name: 'Matthew Strasz', title: 'Trustee', party: null },
+      { name: 'Teri Nusz', title: 'Trustee', party: null },
+      { name: 'Timothy P. Tait', title: 'Trustee', party: null },
+      { name: 'Julie Carr', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — village website lists 4 trustees; could not confirm additional trustees if any; Jennifer Murphy is Clerk-Treasurer but appointed, not elected
+  'Alanson': {
+    name: 'Village of Alanson',
+    website: 'https://www.villageofalanson.com/',
+    phone: '231-548-5431',
+    county: 'Emmet',
+    officials: [
+      { name: 'Jamie Breithaupt', title: 'Village President', party: null },
+      { name: 'Mark Fairbairn', title: 'Trustee', party: null },
+      { name: 'Gail Greenwell', title: 'Trustee', party: null },
+      { name: 'Scott Latva', title: 'Trustee', party: null },
+      { name: 'Wayne McPhall', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; only 2 trustee candidates found on 2024 Hillsdale County ballot; remaining council composition unknown
+  'Allen': {
+    name: 'Village of Allen',
+    website: null,
+    phone: null,
+    county: 'Hillsdale',
+    officials: [
+      { name: null, title: 'Village President', party: null }, // UNVERIFIED — could not confirm president name from any public source; no village website found; 2024 ballot had only trustee seats listed publicly
+      { name: 'Paul D. Seegert', title: 'Trustee', party: null },
+      { name: 'Jan L. Seegert', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Almont': {
+    name: 'Village of Almont',
+    website: 'https://www.almontmichigan.gov/',
+    phone: '810-798-8528',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Timothy J. Dyke', title: 'Village President', party: null },
+      { name: 'Peter Feldman', title: 'Trustee', party: null },
+      { name: 'Wayne Glasser', title: 'Trustee', party: null },
+      { name: 'Robert C. Miller', title: 'Trustee', party: null },
+      { name: 'Stephen Powell', title: 'Trustee', party: null },
+      { name: 'Steve Schneider', title: 'Trustee', party: null },
+      { name: 'Melinda Steffler', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; only 2 trustees found via Iron County Unit Officials 2024 document; village may have up to 6 trustees but remaining seats not publicly listed
+  'Alpha': {
+    name: 'Village of Alpha',
+    website: null,
+    phone: null,
+    county: 'Iron',
+    officials: [
+      { name: 'Peter LaPin', title: 'Village President', party: null },
+      { name: 'Gene S. Byrge', title: 'Trustee', party: null },
+      { name: 'Charyl McCole', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — council reconstituted July 2025 via appointments after resignations; roster current as of July 2025 per Sanilac County News; clerk first name not confirmed
+  'Applegate': {
+    name: 'Village of Applegate',
+    website: 'https://www.villageofapplegate.com/',
+    phone: null,
+    county: 'Sanilac',
+    officials: [
+      { name: 'Aidan Dove', title: 'Village President', party: null },
+      { name: 'Donna Geller', title: 'Trustee', party: null },
+      { name: 'Vicki Dawson', title: 'Trustee', party: null },
+      { name: 'Robert Szolack', title: 'Trustee', party: null },
+      { name: 'Ralph Dove', title: 'Trustee', party: null },
+      { name: 'William Klauka', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; 3 trustee candidates found on 2024 Gratiot County ballot; remaining trustees not publicly identified
+  'Ashley': {
+    name: 'Village of Ashley',
+    website: 'https://www.ashleyvillage.net/',
+    phone: '989-847-3050',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Ann Paksi', title: 'Village President', party: null },
+      { name: 'Terry Beck', title: 'Trustee', party: null },
+      { name: 'David A. Foote', title: 'Trustee', party: null },
+      { name: 'Doug Schneider', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Athens': {
+    name: 'Village of Athens',
+    website: 'http://athensarea.org/',
+    phone: null,
+    county: 'Calhoun',
+    officials: [
+      { name: 'Martin Preston', title: 'Village President', party: null },
+      { name: 'Don Crapoff', title: 'Trustee', party: null },
+      { name: 'Jerry Qualls', title: 'Trustee', party: null },
+      { name: 'JR Brunner', title: 'Trustee', party: null },
+      { name: 'Matt Harvey', title: 'Trustee', party: null },
+      { name: 'Lucy Lamson', title: 'Trustee', party: null },
+      { name: 'Robin Shoup', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; village website lists only 3 trustees; remaining seats (up to 6 total) not publicly confirmed
+  'Baraga': {
+    name: 'Village of Baraga',
+    website: 'https://villageofbaraga.com/',
+    phone: '906-353-6647',
+    county: 'Baraga',
+    officials: [
+      { name: 'Will Wiggins', title: 'Village President', party: null },
+      { name: 'Arlan Friisvall', title: 'Trustee', party: null },
+      { name: 'Bill Olsen', title: 'Trustee', party: null },
+      { name: 'Rob Mayo', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Baroda': {
+    name: 'Village of Baroda',
+    website: 'https://barodavillage.org/',
+    phone: null,
+    county: 'Berrien',
+    officials: [
+      { name: 'Michael Price', title: 'Village President', party: null },
+      { name: 'Nikki Andrews', title: 'Trustee', party: null },
+      { name: 'Julie Elliott', title: 'Trustee', party: null },
+      { name: 'Bob Feickert', title: 'Trustee', party: null },
+      { name: 'Steve Hillhouse', title: 'Trustee', party: null },
+      { name: 'Jack Lewis', title: 'Trustee', party: null },
+      { name: 'Katie Zordell', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Barton Hills': {
+    name: 'Village of Barton Hills',
+    website: 'https://bartonhillsvillage.org/',
+    phone: '734-222-5209',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Alicia Torres', title: 'Village President', party: null },
+      { name: 'Brooke Calabrese', title: 'Trustee', party: null },
+      { name: 'Dennis Capozza', title: 'Trustee', party: null },
+      { name: 'Andrea Darden', title: 'Trustee', party: null },
+      { name: 'Mostafa Haitam', title: 'Trustee', party: null },
+      { name: 'Robert Hensinger', title: 'Trustee', party: null },
+      { name: 'Randolph Perry', title: 'Trustee', party: null },
+      { name: 'Richard Prager', title: 'Trustee', party: null },
+      { name: 'Carla Smith', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; village staff page uses first names only; 3 trustees identified via bearlakemichigan.org council page; remaining seats not confirmed
+  'Bear Lake': {
+    name: 'Village of Bear Lake',
+    website: 'https://villageofbearlakemi.gov/',
+    phone: null,
+    county: 'Manistee',
+    officials: [
+      { name: 'Shelly Lynnes', title: 'Village President', party: null },
+      { name: 'Rodney Gee', title: 'Trustee', party: null },
+      { name: 'Janene Gee', title: 'Trustee', party: null },
+      { name: 'Daniel Heiss', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Bellaire': {
+    name: 'Village of Bellaire',
+    website: 'https://bellairemichigan.com/',
+    phone: '231-533-6414',
+    county: 'Antrim',
+    officials: [
+      { name: 'Dan Bennett', title: 'Village President', party: null },
+      { name: 'Patrick Boyd', title: 'Trustee', party: null },
+      { name: 'Trish Drollinger', title: 'Trustee', party: null },
+      { name: 'Eldon McPherson', title: 'Trustee', party: null },
+      { name: 'Stacy Maza', title: 'Trustee', party: null },
+      { name: 'Helen Schuckel', title: 'Trustee', party: null },
+      { name: 'Andrew Turner', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Benzonia': {
+    name: 'Village of Benzonia',
+    website: 'https://www.villagebenzonia.com',
+    phone: '231-882-9981',
+    county: 'Benzie',
+    officials: [
+      { name: 'Timothy Flynn', title: 'Village President', party: null },
+      { name: 'Bob French', title: 'Trustee', party: null },
+      { name: 'Toni Flynn', title: 'Trustee', party: null },
+      { name: 'John Hafer', title: 'Trustee', party: null },
+      { name: 'Alexandra Herryman', title: 'Trustee', party: null },
+      { name: 'Matthew Jason', title: 'Trustee', party: null },
+      { name: 'Shane Myers', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Berrien Springs': {
+    name: 'Village of Berrien Springs',
+    website: 'https://www.villageofberriensprings.com',
+    phone: '269-473-6921',
+    county: 'Berrien',
+    officials: [
+      { name: 'Sheila Snyder', title: 'Village President', party: null },
+      { name: 'Jack Davis', title: 'Trustee', party: null },
+      { name: 'Zachary Fedoruk', title: 'Trustee', party: null },
+      { name: 'Lonna Johnson', title: 'Trustee', party: null },
+      { name: 'Christopher Perez', title: 'Trustee', party: null },
+      { name: 'Mark VandeVere', title: 'Trustee', party: null },
+      { name: 'Kristin von Maur', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Beulah': {
+    name: 'Village of Beulah',
+    website: 'https://www.villageofbeulah.net',
+    phone: '231-882-4451',
+    county: 'Benzie',
+    officials: [
+      { name: 'Jeri VanDePerre', title: 'Village President', party: null },
+      { name: 'Dan Hook', title: 'Trustee', party: null },
+      { name: 'Jerry Smith', title: 'Trustee', party: null },
+      { name: 'Mark Heniser', title: 'Trustee', party: null },
+      { name: 'Phil Downs', title: 'Trustee', party: null },
+      { name: 'Ed Popour', title: 'Trustee', party: null },
+    ],
+  },
+
+  // DROPPED: Blanchard | Montcalm — unincorporated community in Rolland Township, Isabella County (not in Montcalm County). No incorporated village government.
+  'Bingham Farms': {
+    name: 'Village of Bingham Farms',
+    website: 'https://www.binghamfarms.org',
+    phone: '248-644-0044',
+    county: 'Oakland',
+    officials: [
+      { name: 'Lisa Blackburn', title: 'Village President', party: null },
+      { name: 'D.E. Hagaman', title: 'Trustee', party: null },
+      { name: 'Eric McAlexander', title: 'Trustee', party: null },
+      { name: 'Michael DeRonne', title: 'Trustee', party: null },
+      { name: 'Diane Howard', title: 'Trustee', party: null },
+      { name: 'James Miller', title: 'Trustee', party: null },
+      { name: 'Kathy Mechigian', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Bloomingdale': {
+    name: 'Village of Bloomingdale',
+    website: null,
+    phone: '269-521-3222',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Justin Crawford', title: 'Village President', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full trustee roster; Van Buren County lists trustee contact but not individual names
+    ],
+  },
+
+  'Boyne Falls': {
+    name: 'Village of Boyne Falls',
+    website: 'https://www.boynefallsvillage.com',
+    phone: '231-549-2425',
+    county: 'Charlevoix',
+    officials: [
+      { name: 'Marilyn Cousineau', title: 'Village President', party: null },
+      { name: 'G. Joann Bell', title: 'Trustee', party: null },
+      { name: 'Brandy Marvin', title: 'Trustee', party: null },
+      { name: 'Larry Organek', title: 'Trustee', party: null },
+      { name: 'Douglas Weiss', title: 'Trustee', party: null },
+      { name: 'Raphael Zara', title: 'Trustee', party: null },
+      { name: 'William Carson', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Breckenridge': {
+    name: 'Village of Breckenridge',
+    website: 'https://www.breckenridgemi.com',
+    phone: '989-842-3109',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Charles Seeley', title: 'Village President', party: null },
+      { name: 'Terasa Burt', title: 'Trustee', party: null },
+      { name: 'Lyndsay Wingle', title: 'Trustee', party: null },
+      { name: 'Brian Wenzel', title: 'Trustee', party: null },
+      { name: 'Phillip Baldwin', title: 'Trustee', party: null },
+      { name: 'Nan Clapp', title: 'Trustee', party: null },
+      { name: 'Jake Matthews', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Breedsville': {
+    name: 'Village of Breedsville',
+    website: 'https://breedsville.org',
+    phone: '269-427-9029',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Cesar Leon', title: 'Village President', party: null },
+      { name: 'Larry Weniger', title: 'Trustee', party: null },
+      { name: 'Paul Cooley', title: 'Trustee', party: null },
+      { name: 'Tim Weniger', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — one seat listed as open vacancy on official website; Rich McGrew listed as Clerk/Treasurer (appointed)
+    ],
+  },
+
+  // UNVERIFIED — 2025 Lenawee County Government Directory lists 5 trustees above; could not confirm whether a 6th seat exists or is vacant
+  'Britton': {
+    name: 'Village of Britton',
+    website: 'https://villageofbritton.org',
+    phone: '517-451-2171',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Richard Frazier', title: 'Village President', party: null },
+      { name: 'Jim Frayer', title: 'Trustee', party: null },
+      { name: 'Eve Redmon', title: 'Trustee', party: null },
+      { name: 'Kevin Hurst', title: 'Trustee', party: null },
+      { name: 'Jay Skees', title: 'Trustee', party: null },
+      { name: 'Kevin Arquette', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Brooklyn': {
+    name: 'Village of Brooklyn',
+    website: 'https://www.villageofbrooklyn.com',
+    phone: '517-592-2591',
+    county: 'Jackson',
+    officials: [
+      { name: 'Estella Roberts', title: 'Village President', party: null },
+      { name: 'Phil Bliven', title: 'Trustee', party: null },
+      { name: 'Stacy Hicks', title: 'Trustee', party: null },
+      { name: 'Bob Jenson', title: 'Trustee', party: null },
+      { name: 'Ronda Kay', title: 'Trustee', party: null },
+      { name: 'Patti Robinson', title: 'Trustee', party: null },
+      { name: 'Gabriella Bach', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Burlington': {
+    name: 'Village of Burlington',
+    website: null,
+    phone: null,
+    county: 'Calhoun',
+    officials: [
+      { name: null, title: 'Village President', party: null }, // UNVERIFIED — Gary Hughes and Deborah Kaye Vanderpool were the two 2024 election candidates; winner could not be confirmed from official sources
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full trustee roster
+    ],
+  },
+
+  'Burr Oak': {
+    name: 'Village of Burr Oak',
+    website: null,
+    phone: '269-489-5258',
+    county: 'St. Joseph',
+    officials: [
+      { name: null, title: 'Village President', party: null }, // UNVERIFIED — Tabbitha Hines named on govcb.com vendor directory; could not confirm from official village source
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — 2024 trustee candidates included Heather Avery, Kayla Root, Meadow Woodman; could not confirm current roster from official source
+    ],
+  },
+
+  'Camden': {
+    name: 'Village of Camden',
+    website: 'https://village-of-camden.com',
+    phone: '517-368-5601',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'Tim Daglow', title: 'Village President', party: null },
+      { name: 'Carlene Sanderson', title: 'Trustee', party: null },
+      { name: 'Kevin Light', title: 'Trustee', party: null },
+      { name: 'Ken Dale', title: 'Trustee', party: null },
+      { name: 'Sarah Wilcox', title: 'Trustee', party: null },
+      { name: 'Bob Bates', title: 'Trustee', party: null },
+      { name: 'Nathan Kurtz', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Capac': {
+    name: 'Village of Capac',
+    website: 'https://www.villageofcapac.com',
+    phone: '810-395-4355',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Debra Hlubic', title: 'Village President', party: null },
+      { name: 'Miguel Rodriguez', title: 'Trustee', party: null },
+      { name: 'Samantha Ramirez', title: 'Trustee', party: null },
+      { name: 'Patricia Weyhrauch', title: 'Trustee', party: null },
+      { name: 'Joseph Herrington', title: 'Trustee', party: null },
+      { name: 'Lynne Mandeville', title: 'Trustee', party: null },
+      { name: 'Mary Klug', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — no phone found on official sources; citydirectory.us shows "Not available"
+  // UNVERIFIED — full trustee roster not confirmed; Carney uses "Village Council" at-large structure; only Barosko and Whitmire confirmed from 2024 election; additional council members may exist
+  'Carney': {
+    name: 'Village of Carney',
+    website: null,
+    phone: null,
+    county: 'Menominee',
+    officials: [
+      { name: 'Gerald Thiry Jr.', title: 'Village President', party: null },
+      { name: 'Julie L. Thiry', title: 'Village Clerk', party: null }, // elected per Menominee County 2024 ballot
+      { name: 'Kathy Betters', title: 'Village Treasurer', party: null }, // elected per Menominee County search; third-party source, primary source not confirmed
+      { name: 'Marie Whitmire', title: 'Trustee', party: null },
+      { name: 'George M. Barosko', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — no official phone confirmed; Sanilac county page returned blank
+  'Carsonville': {
+    name: 'Village of Carsonville',
+    website: 'https://www.sanilaccounty.gov/villages/carsonville.php',
+    phone: null,
+    county: 'Sanilac',
+    officials: [
+      { name: 'Mikel Faulk', title: 'Village President', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — full trustee roster not found in any public source; Sanilac county village page returned blank; 2024 election results not located
+    ],
+  },
+
+  // UNVERIFIED — no main office phone found on official village website
+  // Village Clerk (Carol Ladd) and Village Treasurer (Charolyn Cure) are APPOINTED — not listed per task rules
+  // NOTE: Cement City uses a 5-member council (president + 4 trustees) per official website and Lenawee County 2025 directory
+  'Cement City': {
+    name: 'Village of Cement City',
+    website: 'https://www.villageofcementcity.com/',
+    phone: null,
+    county: 'Lenawee',
+    officials: [
+      { name: 'Jennifer Porter', title: 'Village President', party: null },
+      { name: 'Dustin Blakley', title: 'Trustee', party: null },
+      { name: 'Triston Perry', title: 'Trustee', party: null },
+      { name: 'Terrance Montague II', title: 'Trustee', party: null },
+      { name: 'John Weber', title: 'Trustee', party: null },
+    ],
+  },
+
+  // Village Clerk/Treasurer (Allie Nemecek) appears APPOINTED — not on 2024 Antrim County election ballot; Antrim County treasurer directory lists her as village treasurer
+  // Channing | Dickinson — DROPPED: unincorporated community in Sagola Township; not an incorporated village
+  'Central Lake': {
+    name: 'Village of Central Lake',
+    website: 'https://centrallakemi.org/',
+    phone: '231-544-6483',
+    county: 'Antrim',
+    officials: [
+      { name: 'Rob Tyler', title: 'Village President', party: null },
+      { name: 'Bill Chapman', title: 'Trustee', party: null },
+      { name: 'Kipp Drake', title: 'Trustee', party: null },
+      { name: 'Michelle Fox', title: 'Trustee', party: null },
+      { name: 'Shane Tschirhart', title: 'Trustee', party: null },
+      { name: 'Brian Patton', title: 'Trustee', party: null },
+      { name: 'Don Tyrrell', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Chatham': {
+    name: 'Village of Chatham',
+    website: null,
+    phone: '906-439-5608',
+    county: 'Alger',
+    officials: [
+      { name: null, title: 'Village President', party: null }, // UNVERIFIED — no president race found in 2024 Alger County election results; president name not confirmed from any public source
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — 2024 Alger County election results not accessible in full; partial candidates found (Kit R. Fortney, Hailey Rittenger, Daniel Rushford) but full council composition unconfirmed
+    ],
+  },
+
+  // UNVERIFIED — no official village phone confirmed
+  'Clayton': {
+    name: 'Village of Clayton',
+    website: null,
+    phone: null,
+    county: 'Lenawee',
+    officials: [
+      { name: 'Henry Burrece', title: 'Village President', party: null }, // won Nov 2024 election (82 votes, 57%) per WDIV ClickOnDetroit
+      { name: 'Wendy Mullane', title: 'Village Clerk', party: null }, // listed as nonpartisan candidate per Lenawee County 2024 election records and Lenawee County 2025 Government Directory
+      { name: 'Cathleen Brown', title: 'Trustee', party: null }, // 2024 election winner
+      { name: 'Susan Jacobs', title: 'Trustee', party: null }, // 2024 election winner
+      { name: 'John Lee', title: 'Trustee', party: null }, // 2024 election winner
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — holdover trustees; Lenawee County 2025 directory listed additional names (Penny Jeffery, Denver Hedge, Jake Bovee, Ken Grubbs) but their current seat status after 2024 election uncertain
+    ],
+  },
+
+  'Clifford': {
+    name: 'Village of Clifford',
+    website: 'http://www.villageofclifford.com/',
+    phone: '989-761-7003',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Gary Ferguson', title: 'Village President', party: null }, // ran unopposed in 2024 per Ballotpedia/search
+      { name: 'Dusty J. Hardies', title: 'Trustee', party: null }, // 2024 election candidate (3 seats, 3 candidates — uncontested)
+      { name: 'Craig S. Long', title: 'Trustee', party: null },
+      { name: 'Shannan Perna', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — standard village has 6 trustees; only 3 seats up in 2024; holdover trustees not confirmed from any public source
+    ],
+  },
+
+  'Climax': {
+    name: 'Village of Climax',
+    website: 'https://www.villageofclimax.org/',
+    phone: '269-746-4174',
+    county: 'Kalamazoo',
+    officials: [
+      { name: null, title: 'Village President', party: null }, // UNVERIFIED — Bill Lewis and Dave Miller ran in Nov 2024; winner not confirmed from any accessible source
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — 2024 trustee candidates listed on Kalamazoo County candidate list but vote totals and winners not confirmed; Enhanced Voting page returned blank
+    ],
+  },
+
+  // UNVERIFIED — no phone confirmed from official sources
+  // Village Treasurer (Danita Williams) — elected/appointed status not confirmed; omitting per rules
+  'Columbiaville': {
+    name: 'Village of Columbiaville',
+    website: 'http://columbiaville.org/',
+    phone: null,
+    county: 'Lapeer',
+    officials: [
+      { name: 'Tom Wood', title: 'Village President', party: null },
+      { name: 'Denise Baker', title: 'Village Clerk', party: null }, // listed as elected per Ballotpedia and village website
+      { name: 'Barb Harris', title: 'Trustee', party: null }, // also serves as President Pro Tem per village website
+      { name: 'Joanne St. Pierre', title: 'Trustee', party: null },
+      { name: 'Kim Goldorf', title: 'Trustee', party: null },
+      { name: 'Todd Deweese', title: 'Trustee', party: null },
+      { name: 'Paul Milka', title: 'Trustee', party: null },
+      { name: 'Jamie Medellin', title: 'Trustee', party: null },
+    ],
+  },
+
+  // Village Clerk (Misty O'Shea) APPOINTED — not listed per task rules
+  // Village Treasurer — VACANT per Manistee County 2025-26 directory
+  'Copemish': {
+    name: 'Village of Copemish',
+    website: 'https://www.villageofcopemish.gov/',
+    phone: '231-378-4652',
+    county: 'Manistee',
+    officials: [
+      { name: 'Mike Longo', title: 'Village President', party: null },
+      { name: 'Janet Myers', title: 'Trustee', party: null },
+      { name: 'Earl Witkop', title: 'Trustee', party: null },
+      { name: 'Mary Scarbrough', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — Manistee County 2025-26 directory lists only 3 trustees; additional trustee seats may exist; full roster uncertain
+    ],
+  },
+
+  // UNVERIFIED — no official phone confirmed
+  // UNVERIFIED — full trustee roster (6 total) not confirmed; only 3 trustee seats up in 2024; holdover trustees not found
+  // Crystal | Montcalm — DROPPED: unincorporated Census-Designated Place in Crystal Township; not an incorporated village
+  'Copper City': {
+    name: 'Village of Copper City',
+    website: null,
+    phone: null,
+    county: 'Houghton',
+    officials: [
+      { name: null, title: 'Village President', party: null }, // UNVERIFIED — no president race in 2024 Houghton County election; president from prior term not found in any source
+      { name: 'Carol Wiitanen', title: 'Village Clerk', party: null }, // elected per Houghton County Nov 2024 official election results
+      { name: 'Alecia Gariepy', title: 'Trustee', party: null }, // confirmed per Houghton County Nov 2024 official election results
+      { name: 'Kim Spelich', title: 'Trustee', party: null },
+      { name: 'David Strang', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — no official phone confirmed
+  'Daggett': {
+    name: 'Village of Daggett',
+    website: null,
+    phone: null,
+    county: 'Menominee',
+    officials: [
+      { name: 'Lori Van', title: 'Village President', party: null },
+      { name: 'Shannon Berger', title: 'Village Treasurer', party: null }, // elected per 2024 Menominee County election
+      { name: 'Nancy Kayser', title: 'Trustee', party: null }, // 2024 election winner
+      { name: 'Robert Winkler', title: 'Trustee', party: null }, // 2024 election winner
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — additional trustees (holdovers) not confirmed; names from Facebook sources (Jamie Marcusen, Charlotte Corey) not verified from primary sources
+    ],
+  },
+
+  // UNVERIFIED — no official phone confirmed from village website
+  // Village Clerk/Treasurer (Jen Postula) — not on 2024 Chippewa County ballot; appears APPOINTED — omitting per task rules
+  'De Tour Village': {
+    name: 'Village of De Tour',
+    website: 'https://detourmi.gov/',
+    phone: null,
+    county: 'Chippewa',
+    officials: [
+      { name: 'Lindsey McGuire', title: 'Village President', party: null },
+      { name: 'Karen Allison', title: 'Trustee', party: null }, // 2024 election winner (129 votes) per Chippewa County official results
+      { name: 'Jeremy Vredenburg', title: 'Trustee', party: null }, // 2024 election winner (121 votes)
+      { name: 'Josh Quick', title: 'Trustee', party: null }, // 2024 election winner (87 votes)
+      { name: 'Devon Wilson', title: 'Trustee', party: null }, // holdover per village website
+      { name: 'Jay VanDam', title: 'Trustee', party: null }, // holdover per village website
+      { name: 'Linda Fisher', title: 'Trustee', party: null }, // holdover per village website
+    ],
+  },
+
+  'Eagle': {
+    name: 'Village of Eagle',
+    website: null,
+    phone: null,
+    county: 'Clinton',
+    officials: [
+      { name: 'Curtis Jack Flynn', title: 'Village President', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — see above
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — see above
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — see above
+    ],
+  },
+
+  'Eau Claire': {
+    name: 'Village of Eau Claire',
+    website: 'https://www.eauclairemi.com',
+    phone: null,
+    county: 'Berrien',
+    officials: [
+      { name: 'John Glassman', title: 'Village President', party: null },
+      { name: 'Virginia Gonzalez', title: 'Trustee', party: null },
+      { name: 'Ken Karn Sr.', title: 'Trustee', party: null },
+      { name: 'Juli Pierce', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+    ],
+  },
+
+  'Elberta': {
+    name: 'Village of Elberta',
+    website: 'http://villageofelberta.com',
+    phone: '231-352-7201',
+    county: 'Benzie',
+    officials: [
+      { name: 'Jennifer Wilkins', title: 'Village President', party: null },
+      { name: 'Ken Holmes', title: 'Trustee', party: null },
+      { name: 'Ryan Fiebing', title: 'Trustee', party: null },
+      { name: 'Bill O\'Dwyer', title: 'Trustee', party: null },
+      { name: 'Tammy Radionoff', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Elk Rapids': {
+    name: 'Village of Elk Rapids',
+    website: 'https://www.elkrapids.org',
+    phone: '231-264-9274',
+    county: 'Antrim',
+    officials: [
+      { name: 'Karen Simpson', title: 'Village President', party: null },
+      { name: 'Tracy Fosdick', title: 'Trustee', party: null },
+      { name: 'Barb Mullaly', title: 'Trustee', party: null },
+      { name: 'Kellie Sergent', title: 'Trustee', party: null },
+      { name: 'Beth Guntzviller', title: 'Trustee', party: null },
+      { name: 'Liz DeLaRossa', title: 'Trustee', party: null },
+      { name: 'Ellen Vasquez', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Ellsworth': {
+    name: 'Village of Ellsworth',
+    website: 'https://villageofellsworthmi.com',
+    phone: '231-588-7411',
+    county: 'Antrim',
+    officials: [
+      { name: 'Jerry Rasmussen', title: 'Village President', party: null },
+      { name: 'Lynn Aldrich Spearing', title: 'Trustee', party: null },
+      { name: 'Scott Sowers', title: 'Trustee', party: null },
+      { name: 'Gregg McCallum', title: 'Trustee', party: null },
+      { name: 'Mike Bennett', title: 'Trustee', party: null },
+      { name: 'Sheila Dhillon', title: 'Trustee', party: null },
+      { name: 'Al Drenth', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Elsie': {
+    name: 'Village of Elsie',
+    website: 'https://elsie.org',
+    phone: null,
+    county: 'Clinton',
+    officials: [
+      { name: 'Jason Freeman', title: 'Village President', party: null },
+      { name: 'Kory Witt', title: 'Trustee', party: null },
+      { name: 'Sam Frink', title: 'Trustee', party: null },
+      { name: 'Dorothy Ornelas', title: 'Trustee', party: null },
+      { name: 'Mark Helt', title: 'Trustee', party: null },
+      { name: 'Joe Ondrusek', title: 'Trustee', party: null },
+      { name: 'Todd Carroll', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Emmett': {
+    name: 'Village of Emmett',
+    website: null,
+    phone: null,
+    county: 'St. Clair',
+    officials: [
+      { name: 'Richard Pierce', title: 'Village President', party: null }, // UNVERIFIED — ran as sole 2024 candidate for president; election win assumed but not confirmed via official results
+      { name: 'Dennis Pierce', title: 'Trustee', party: null }, // UNVERIFIED — 2024 candidate; election outcome not confirmed
+      { name: 'Patrick R. Pierce', title: 'Trustee', party: null }, // UNVERIFIED — 2024 candidate; election outcome not confirmed
+      { name: 'Joseph Yeskey', title: 'Trustee', party: null }, // UNVERIFIED — 2024 candidate; election outcome not confirmed
+    ],
+  },
+
+  'Empire': {
+    name: 'Village of Empire',
+    website: 'https://www.leelanau.gov/villages/empire/index.php',
+    phone: null,
+    county: 'Leelanau',
+    officials: [
+      { name: 'Daniel Davis', title: 'Village President', party: null },
+      { name: 'Ella Skrocki', title: 'Trustee', party: null },
+      { name: 'Margaret Bacon', title: 'Trustee', party: null },
+      { name: 'Linda Chase', title: 'Trustee', party: null },
+      { name: 'Tom Rademacher', title: 'Trustee', party: null },
+      { name: 'March Dye', title: 'Trustee', party: null },
+      { name: 'Meg Walton', title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full post-2024-election roster; some trustees carried from prior term
+    ],
+  },
+
+  'Fairgrove': {
+    name: 'Village of Fairgrove',
+    website: 'https://villageoffairgrove.org',
+    phone: '989-693-6572',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Kristin Young', title: 'Village President', party: null }, // UNVERIFIED — term expired Nov 2024; still listed on official website as of 2025; successor not confirmed
+      { name: 'Jackie Sebert', title: 'Trustee', party: null },
+      { name: 'Leslie Harrison', title: 'Trustee', party: null },
+      { name: 'Nicole Spencer', title: 'Trustee', party: null },
+      { name: 'Deborah Meyer', title: 'Trustee', party: null }, // UNVERIFIED — won Nov 2024 trustee seat per Tuscola County results; could not confirm title assignment
+      { name: 'Timothy Tait', title: 'Trustee', party: null }, // UNVERIFIED — won Nov 2024 trustee seat per Tuscola County results; could not confirm title assignment
+    ],
+  },
+
+  'Forestville': {
+    name: 'Village of Forestville',
+    website: 'https://forestvillemichigan.com',
+    phone: '989-864-3447',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Tim Sielaff', title: 'Village President', party: null },
+      { name: 'Ken Kolomak', title: 'Trustee', party: null },
+      { name: 'Dennis Kickhofel', title: 'Trustee', party: null },
+      { name: 'Amy Schweitzer', title: 'Trustee', party: null },
+      { name: 'Wayne Cyr', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full 6-trustee roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full 6-trustee roster
+    ],
+  },
+
+  'Fowler': {
+    name: 'Village of Fowler',
+    website: 'https://www.fowlermi.com',
+    phone: '989-593-2080',
+    county: 'Clinton',
+    officials: [
+      { name: 'Vernon J. Thelen', title: 'Village President', party: null },
+      { name: 'Richard A. Fink', title: 'Trustee', party: null },
+      { name: 'Melissa A. Humphrey', title: 'Trustee', party: null },
+      { name: 'Brad Rhynard', title: 'Trustee', party: null },
+      { name: 'Mike Porter', title: 'Trustee', party: null },
+      { name: 'Dan Schmitt', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm sixth trustee post-2024 election
+    ],
+  },
+
+  'Grand Beach': {
+    name: 'Village of Grand Beach',
+    website: 'https://www.grandbeach.org',
+    phone: '269-469-3141',
+    county: 'Berrien',
+    officials: [
+      { name: 'Harry Walder', title: 'Village President', party: null },
+      { name: 'Ed Brandes', title: 'Trustee', party: null },
+      { name: 'Jack Grace', title: 'Trustee', party: null },
+      { name: 'Ed Sebastian', title: 'Trustee', party: null },
+      { name: 'Peter Doerr', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; village contact page lists 4 trustees (Wendel, Denoyer, Hepner, Dunn); unclear if reduced to 4 by ordinance or additional seats exist
+  'Honor': {
+    name: 'Village of Honor',
+    website: 'https://villageofhonor.org',
+    phone: '231-325-8432',
+    county: 'Benzie',
+    officials: [
+      { name: 'Jesse Theobald', title: 'Village President', party: null },
+      { name: 'Mike Wendel', title: 'Trustee', party: null },
+      { name: 'Dallas Denoyer', title: 'Trustee', party: null },
+      { name: 'Nichole Hepner', title: 'Trustee', party: null },
+      { name: 'Anna Dunn', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full roster; Joseph R. Michalski was a 2024 candidate for Village President but election result not confirmed; no official village website found; no verified trustee names available
+  'Kinde': {
+    name: 'Village of Kinde',
+    website: null,
+    phone: '989-874-4655',
+    county: 'Huron',
+    officials: [
+    ],
+  },
+
+  // UNVERIFIED — one trustee seat was vacant as of mid-2025; clerk and treasurer are appointed (not elected)
+  'Lake Ann': {
+    name: 'Village of Lake Ann',
+    website: 'https://lakeann-mi.com',
+    phone: null,
+    county: 'Benzie',
+    officials: [
+      { name: 'Dan Hawkins', title: 'Village President', party: null },
+      { name: 'Vince Edwards', title: 'Trustee', party: null },
+      { name: 'Al Uryga', title: 'Trustee', party: null },
+      { name: 'Kyle Belton', title: 'Trustee', party: null },
+      { name: 'Nick Beckwith', title: 'Trustee', party: null },
+    ],
+  },
+
+  // Note: Home Rule Village — all 7 council members are directly elected; President/Clerk/Treasurer are internal council designations, not separately elected offices
+  'Lake Isabella': {
+    name: 'Village of Lake Isabella',
+    website: 'https://www.lakeisabellami.org',
+    phone: '989-644-8654',
+    county: 'Isabella',
+    officials: [
+      { name: 'Dave Torgerson', title: 'Village President', party: null },
+      { name: 'Carrie Barringer', title: 'Trustee', party: null },
+      { name: 'Paul Cueny', title: 'Trustee', party: null },
+      { name: 'Emil Lahti', title: 'Trustee', party: null },
+      { name: 'Robert Laraway', title: 'Trustee', party: null },
+      { name: 'Brent Peavey', title: 'Trustee', party: null },
+      { name: 'Carol Shannon', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — two trustee seats (Steven Elder and Aaron Biehl, Pro-Tem) expired November 2024; replacement trustees after Nov 2024 election could not be confirmed; clerk and treasurer are appointed (not elected)
+  'Mancelona': {
+    name: 'Village of Mancelona',
+    website: 'https://villageofmancelona.org',
+    phone: '231-587-8331',
+    county: 'Antrim',
+    officials: [
+      { name: 'Mike Allison', title: 'Village President', party: null },
+      { name: 'Lori Derror', title: 'Trustee', party: null },
+      { name: 'Jeremy Davis', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — council reduced from 6 to 4 trustees (Ordinance 53A amended
+  // ~2024); names of all four sitting trustees could not be confirmed from
+  // public sources. Pre-reduction names included Hendrickson, Olson, Puckett,
+  // Cameron, Schummer, Stokes — current four-trustee roster unverified.
+  'Newberry': {
+    name: 'Village of Newberry',
+    website: 'https://www.villageofnewberry.com',
+    phone: '906-293-3433',
+    county: 'Luce',
+    officials: [
+      { name: 'Catherine Freese', title: 'Village President', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+    ],
+  },
+
+  // UNVERIFIED — 7-member board; confirmed 4 trustees above from July 2025
+  // meeting minutes + 2024 election results. Three additional trustee seats
+  // exist (terms from 2022 cycle: Gale, Conley, Cook referenced in Feb 2024
+  // minutes) but current incumbency after any post-2024 changes unverified.
+  'Northport': {
+    name: 'Village of Northport',
+    website: 'https://villageofnorthport.net',
+    phone: '231-386-5182',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Chris McCann', title: 'Village President', party: null },
+      { name: 'Susan Ager', title: 'Trustee', party: null },
+      { name: 'Laura Cavendish', title: 'Trustee', party: null },
+      { name: 'Will Harper', title: 'Trustee', party: null },
+      { name: 'Joe Ruble', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+    ],
+  },
+
+  // Village Clerk (Ruth Hudson) and Village Treasurer (Nikki Jach) omitted:
+  // could not confirm whether these positions are elected vs. appointed.
+  // Ballotpedia noted a village clerk race in 2024 but did not list a treasurer
+  // race; status of each position as elected vs. appointed is unverified.
+  'Onekama': {
+    name: 'Village of Onekama',
+    website: 'https://www.onekama.info/village',
+    phone: '231-889-3171',
+    county: 'Manistee',
+    officials: [
+      { name: 'Wayne Miller', title: 'Village President', party: null },
+      { name: 'Roger Burger', title: 'Trustee', party: null },
+      { name: 'Sarah Fauble', title: 'Trustee', party: null },
+      { name: 'Mickey Finan', title: 'Trustee', party: null },
+      { name: 'Tom Foster', title: 'Trustee', party: null },
+      { name: 'Susan Halloran', title: 'Trustee', party: null },
+      { name: 'Rod Hudson', title: 'Trustee', party: null },
+    ],
+  },
+
+  // 2024 election (4-yr terms): Perry, Rebholz, Wiesen elected unopposed.
+  // 2022 election trustees (still serving through 2026):
+  // UNVERIFIED — sixth trustee seat: Brittany Penegor won in 2022 but
+  // subsequent vacancy/replacement unverified. Could not confirm current
+  // occupant of this seat from public records.
+  'Ontonagon': {
+    name: 'Village of Ontonagon',
+    website: 'https://villageofontonagon.org',
+    phone: '906-884-2305',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Pam Coey', title: 'Village President', party: null },
+      { name: 'Lyle Perry', title: 'Trustee', party: null },
+      { name: 'Mike Rebholz', title: 'Trustee', party: null },
+      { name: 'Matt Wiesen', title: 'Trustee', party: null },
+      { name: 'Sarah Hopper', title: 'Trustee', party: null },
+      { name: 'Debra Seid', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+    ],
+  },
+
+  // UNVERIFIED — Village President name could not be confirmed. 2024 meeting
+  // minutes reference "D. Dorr" as chair but full name not confirmed.
+  // UNVERIFIED — trustee names from 2024 minutes listed by initial only
+  // (M. Valley, A. Lerma, D. Thomason, T. Gill). Full names and current
+  // incumbency not confirmed from public sources.
+  'Otter Lake': {
+    name: 'Village of Otter Lake',
+    website: 'https://villageofotterlake.com',
+    phone: '810-793-2665',
+    county: 'Lapeer',
+    officials: [
+      { name: null, title: 'Village President', party: null }, // UNVERIFIED — full name not confirmed
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+    ],
+  },
+
+  // UNVERIFIED — Village President name could not be confirmed from public
+  // sources. Ballotpedia listed trustee candidate Phronsie Warren (2024) but
+  // no village president candidate page found.
+  // UNVERIFIED — full trustee roster could not be confirmed.
+  'Peck': {
+    name: 'Village of Peck',
+    website: 'https://www.villageofpeck.com',
+    phone: null,
+    county: 'Sanilac',
+    officials: [
+      { name: null, title: 'Village President', party: null }, // UNVERIFIED — name not found
+      { name: 'Phronsie Warren', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+    ],
+  },
+
+  'Pellston': {
+    name: 'Village of Pellston',
+    website: 'https://pellstonmi.com',
+    phone: '231-539-7355',
+    county: 'Emmet',
+    officials: [
+      { name: 'Jim Gillett', title: 'Village President', party: null },
+      { name: 'Eric Ward', title: 'Trustee', party: null },
+      { name: 'Jane Ann Rose', title: 'Trustee', party: null },
+      { name: 'Jackie Pierce', title: 'Trustee', party: null },
+      { name: 'Kayla Schlappi', title: 'Trustee', party: null },
+      { name: 'Steven Hall', title: 'Trustee', party: null },
+      { name: 'Mark Givens', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — village has six trustees; fifth and sixth trustee seats
+  // beyond above four could not be confirmed from public sources.
+  // Village Clerk and Village Treasurer are appointed, not elected — omitted.
+  'Port Sanilac': {
+    name: 'Village of Port Sanilac',
+    website: 'https://www.portsanilac.net',
+    phone: null,
+    county: 'Sanilac',
+    officials: [
+      { name: 'Damien Falcon', title: 'Village President', party: null },
+      { name: 'Michael Balysh', title: 'Trustee', party: null },
+      { name: 'Sue Balysh', title: 'Trustee', party: null },
+      { name: 'Brian Moran Jr.', title: 'Trustee', party: null },
+      { name: 'Britton Simon', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+    ],
+  },
+
+  // UNVERIFIED — 2024 ballot listed 3 trustee seats (vote for 3); prior-term
+  // trustees not confirmed. Total board size and remaining seats unverified.
+  // Village Clerk/Treasurer (Ruth Blahnik) — elected per 2024 Ballotpedia
+  // candidate listing; combined Clerk/Treasurer position.
+  'Powers': {
+    name: 'Village of Powers',
+    website: null,
+    phone: null,
+    county: 'Menominee',
+    officials: [
+      { name: 'Carol Welch', title: 'Village President', party: null },
+      { name: 'Ruth Blahnik', title: 'Village Clerk', party: null },
+      { name: 'Ruth Blahnik', title: 'Village Treasurer', party: null },
+      { name: 'John Behrend', title: 'Trustee', party: null },
+      { name: 'Cindy Meiner', title: 'Trustee', party: null },
+      { name: 'Melissa L. Mercier', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+    ],
+  },
+
+  // UNVERIFIED — 2024 ballot listed "vote for 6" trustees but only 3 candidates
+  // appeared; remaining three trustee seats from prior cycle unverified.
+  // Elected positions confirmed via Ballotpedia 2024 candidate listings:
+  'Prescott': {
+    name: 'Village of Prescott',
+    website: null,
+    phone: null,
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Peggy Mashke', title: 'Village President', party: null },
+      { name: 'Darla Best', title: 'Village Clerk', party: null },
+      { name: 'Ruth A. Keeley', title: 'Village Treasurer', party: null },
+      { name: 'Beckie Cliff', title: 'Trustee', party: null },
+      { name: 'Paula K. Nagy', title: 'Trustee', party: null },
+      { name: 'Joey E. Stone', title: 'Trustee', party: null },
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+      { name: null, title: 'Trustee', party: null }, // UNVERIFIED — could not confirm full roster
+    ],
+  },
+
+  // UNVERIFIED — could not confirm 6th trustee; 5 trustees confirmed from council minutes (Feb 2025)
+  'Richland': {
+    name: 'Village of Richland',
+    website: 'https://villageofrichland.org',
+    phone: '269-629-9903',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Dave Greve', title: 'Village President', party: null },
+      { name: 'Gail Koporetz', title: 'Trustee', party: null },
+      { name: 'Kim Lewis', title: 'Trustee', party: null },
+      { name: 'Paul Foust', title: 'Trustee', party: null },
+      { name: 'Rob Riddle', title: 'Trustee', party: null },
+      { name: 'Jason Mechenbier', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — Village President race (Nov 2024) was between Joshua D. Barnette and Gordon Webb; winner not confirmed in available sources
+  // UNVERIFIED — trustee roster could not be confirmed; prior council included Barnette, Bryant, Ward, Webb, Bartley, Severns but post-Nov 2024 composition not confirmed
+  'Springport': {
+    name: 'Village of Springport',
+    website: 'https://springportmi.gov',
+    phone: null,
+    county: 'Jackson',
+    officials: [
+      { name: null, title: 'Village President', party: null }, // UNVERIFIED — could not confirm winner of Nov 2024 election
+    ],
+  },
+
+  'Stevensville': {
+    name: 'Village of Stevensville',
+    website: 'https://www.villageofstevensville.us',
+    phone: '269-429-1802',
+    county: 'Berrien',
+    officials: [
+      { name: 'Bert Peters', title: 'Village President', party: null },
+      { name: 'Bruce Arter', title: 'Trustee', party: null },
+      { name: 'Joe Effa', title: 'Trustee', party: null },
+      { name: 'Chris Mason', title: 'Trustee', party: null },
+      { name: 'Holly Schewe', title: 'Trustee', party: null },
+      { name: 'Amanda Spitzer', title: 'Trustee', party: null },
+      { name: 'Carl Steinberger', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — roster sourced from village website directory; some trustees may have changed after Nov 2024 election (Christensen, Perkins, Pontius, Suppes were candidates Nov 2024); confirm current composition
+  'Suttons Bay': {
+    name: 'Village of Suttons Bay',
+    website: 'https://www.suttonsbayvillage.org',
+    phone: '231-271-3051',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Steve Lutke', title: 'Village President', party: null },
+      { name: 'Karl Bahle', title: 'Trustee', party: null },
+      { name: 'Bill Perkins', title: 'Trustee', party: null },
+      { name: 'Colleen Christensen', title: 'Trustee', party: null },
+      { name: 'Patrick Yoder', title: 'Trustee', party: null },
+      { name: 'Debra Smith', title: 'Trustee', party: null },
+      { name: 'Roger Suppes', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm full 6-trustee roster; only 3 trustee candidates found for Nov 2024 at-large race; prior trustees not confirmed
+  'Thompsonville': {
+    name: 'Village of Thompsonville',
+    website: null,
+    phone: '231-378-2716',
+    county: 'Benzie',
+    officials: [
+      { name: 'Ken Pasanski', title: 'Village President', party: null },
+      { name: 'Fran Griffin', title: 'Trustee', party: null },
+      { name: 'Sue A. Meredith', title: 'Trustee', party: null },
+      { name: 'Florence M. Smith', title: 'Trustee', party: null },
+    ],
+  },
+
+  'Three Oaks': {
+    name: 'Village of Three Oaks',
+    website: 'https://www.threeoaksvillage.org',
+    phone: null,
+    county: 'Berrien',
+    officials: [
+      { name: 'Steve Graziano', title: 'Village President', party: null },
+      { name: 'Joe Hinman', title: 'Trustee', party: null },
+      { name: 'John Kramer', title: 'Trustee', party: null },
+      { name: 'Mike Springer', title: 'Trustee', party: null },
+      { name: 'Jason Niemzyk', title: 'Trustee', party: null },
+      { name: 'Becky Thomas', title: 'Trustee', party: null },
+      { name: 'Lois Jones', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — could not confirm trustee names; only president confirmed via Arenac County officials directory
+  'Turner': {
+    name: 'Village of Turner',
+    website: null,
+    phone: '989-867-4528',
+    county: 'Arenac',
+    officials: [
+      { name: 'Gary Bates', title: 'Village President', party: null },
+    ],
+  },
+
+  // UNVERIFIED — 4 trustees confirmed from village website; could not confirm if this is the full 4-trustee or 6-trustee board; note: Evan Hickman faces a recall election on the Nov 2026 ballot
+  'Vandalia': {
+    name: 'Village of Vandalia',
+    website: 'https://www.villageofvandaliami.com',
+    phone: '269-476-2344',
+    county: 'Cass',
+    officials: [
+      { name: 'Evan Hickman', title: 'Village President', party: null },
+      { name: 'Cassandra Bennett', title: 'Trustee', party: null },
+      { name: 'John Bennett', title: 'Trustee', party: null },
+      { name: 'Sharon Myrick', title: 'Trustee', party: null },
+      { name: 'Marianne Behrends', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — one trustee seat was open/vacant as of March 2025 per council minutes; 5 trustees confirmed
+  'Waldron': {
+    name: 'Village of Waldron',
+    website: 'https://villageofwaldron.com',
+    phone: '517-286-6677',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'Shawn Barnhart', title: 'Village President', party: null },
+      { name: 'Brian Bernath', title: 'Trustee', party: null },
+      { name: 'Emil Gravelle', title: 'Trustee', party: null },
+      { name: 'Allison Harwood', title: 'Trustee', party: null },
+      { name: 'Dakota Potter', title: 'Trustee', party: null },
+      { name: 'Stacie Shamplo', title: 'Trustee', party: null },
+    ],
+  },
+
+  // UNVERIFIED — only 3 of 7 council seats confirmed from 2024 election sources (Ballotpedia / Clinton County); remaining 4 trustees could not be confirmed
+  'Westphalia': {
+    name: 'Village of Westphalia',
+    website: 'https://www.westphaliami.com',
+    phone: '989-587-3411',
+    county: 'Clinton',
+    officials: [
+      { name: 'Tim Fandel', title: 'Village President', party: null },
+      { name: 'William Schmitt', title: 'Trustee', party: null },
+      { name: 'Phil Smith', title: 'Trustee', party: null },
+    ],
+  },
 }
 
 /**
