@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useEffect, useCallback } from 'react'
 import { supabase } from '../lib/supabase'
+import { trackSignUp } from '../utils/analytics'
 
 const AuthContext = createContext(null)
 
@@ -49,6 +50,7 @@ export function AuthProvider({ children }) {
       },
     })
     if (error) throw error
+    trackSignUp('email')
     return data
   }, [])
 

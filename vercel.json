@@ -11,25 +11,25 @@
     {
       "source": "/:path(.*)",
       "has": [{ "type": "host", "value": "buildmyballot.com" }],
-      "destination": "https://www.offorandbythepeople.com/:path",
+      "destination": "https://www.offorandbythepeople.com/:path?utm_source=buildmyballot&utm_medium=redirect",
       "permanent": true
     },
     {
       "source": "/:path(.*)",
       "has": [{ "type": "host", "value": "www.buildmyballot.com" }],
-      "destination": "https://www.offorandbythepeople.com/:path",
+      "destination": "https://www.offorandbythepeople.com/:path?utm_source=buildmyballot&utm_medium=redirect",
       "permanent": true
     },
     {
       "source": "/:path(.*)",
       "has": [{ "type": "host", "value": "myreps.vote" }],
-      "destination": "https://www.offorandbythepeople.com/:path",
+      "destination": "https://www.offorandbythepeople.com/:path?utm_source=myreps&utm_medium=redirect",
       "permanent": true
     },
     {
       "source": "/:path(.*)",
       "has": [{ "type": "host", "value": "www.myreps.vote" }],
-      "destination": "https://www.offorandbythepeople.com/:path",
+      "destination": "https://www.offorandbythepeople.com/:path?utm_source=myreps&utm_medium=redirect",
       "permanent": true
     }
   ],

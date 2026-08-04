@@ -80,7 +80,7 @@ function getCivicCache(address) {
     if (Date.now() - ts < CIVIC_LS_TTL && Array.isArray(data) && data.length > 0) {
       return data
     }
-  } catch {}
+  } catch { /* ignore */ }
   return null
 }
 
@@ -88,7 +88,7 @@ function setCivicCache(address, data) {
   try {
     const key = `myreps_civic_${address.trim().toLowerCase()}`
     localStorage.setItem(key, JSON.stringify({ data, ts: Date.now() }))
-  } catch {}
+  } catch { /* ignore */ }
 }
 
 function getStaleCivicCache(address) {
@@ -99,7 +99,7 @@ function getStaleCivicCache(address) {
       const { data } = JSON.parse(raw)
       return data
     }
-  } catch {}
+  } catch { /* ignore */ }
   return null
 }
 

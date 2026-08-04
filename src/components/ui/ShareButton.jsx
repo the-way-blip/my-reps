@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import { shareEntity } from '../../utils/share'
 
-export default function ShareButton({ title, text, url, className = '', children }) {
+export default function ShareButton({ title, text, url, className = '', children, onShare }) {
   const [status, setStatus] = useState(null)
 
   async function handleShare() {
     const result = await shareEntity({ title, text, url })
+    if (onShare) onShare(result)
     if (result === 'copied') {
       setStatus('copied')
       setTimeout(() => setStatus(null), 2000)

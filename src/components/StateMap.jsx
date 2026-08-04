@@ -172,11 +172,19 @@ export default function StateMap({
       const ptX = (e.clientX - rect.left) / rect.width * W
       const ptY = (e.clientY - rect.top) / rect.height * H
       const factor = e.deltaY < 0 ? 1.25 : 0.8
-      zoomAt(ptX, ptY, factor)
+      setTransform(t => {
+        const newScale = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, t.scale * factor))
+        const ratio = newScale / t.scale
+        return {
+          scale: newScale,
+          x: ptX - ratio * (ptX - t.x),
+          y: ptY - ratio * (ptY - t.y),
+        }
+      })
     }
     svg.addEventListener('wheel', onWheel, { passive: false })
     return () => svg.removeEventListener('wheel', onWheel)
-  })
+  }, [])
 
   // Build a map: district number -> rep
   const districtToRep = useMemo(() => {

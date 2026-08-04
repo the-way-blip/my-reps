@@ -49,7 +49,9 @@ export default async function handler(req, res) {
   }
 
   // Add API key server-side
-  const apiKey = (process.env.VITE_CONGRESS_API_KEY || process.env.CONGRESS_API_KEY || '').trim()
+  // CONGRESS_API_KEY is the server-side env var (set in Vercel dashboard).
+  // VITE_CONGRESS_API_KEY is a build-time variable (only works in client code).
+  const apiKey = (process.env.CONGRESS_API_KEY || process.env.VITE_CONGRESS_API_KEY || '').trim()
   if (!apiKey) {
     res.setHeader('Access-Control-Allow-Origin', corsOrigin)
     res.setHeader('Vary', 'Origin')

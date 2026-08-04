@@ -98,7 +98,8 @@ export const STATEWIDE_RACES = [
             limitedGov: 'B',
             fiscal: 'B',
           },
-          bio: 'West Point graduate, Army veteran (Apache helicopter pilot), and businessman. Served in Iraq and Afghanistan. Elected to U.S. House in 2022 after two U.S. Senate campaigns. Endorsed by Trump in 2020 Senate race.',
+          bio: 'West Point graduate, Army veteran (Apache helicopter pilot), and businessman. Served in Iraq and Afghanistan. Elected to U.S. House in 2022 after two U.S. Senate campaigns. Endorsed by President Trump for governor (June 2026).',
+          endorsements: ['President Donald Trump', 'Aric Nesbitt (former Senate Minority Leader)'],
           keyPositions: [
             'Voted to defund ATF enforcement of pistol brace rule',
             'Co-sponsored Born-Alive Abortion Survivors Protection Act',
@@ -148,8 +149,10 @@ export const STATEWIDE_RACES = [
         },
         {
           name: 'Aric Nesbitt',
-          description: 'State Senate Minority Leader',
-          status: 'major',
+          description: 'State Senate Minority Leader — WITHDREW June 23, 2026; endorsed John James',
+          status: 'withdrawn',
+          withdrawn: true,
+          withdrawnDate: '2026-06-23',
           website: 'https://nesbittforgovernor.com/',
           twitter: 'SenAricNesbitt',
           facebook: 'https://www.facebook.com/aricnesbitt/',
@@ -216,8 +219,9 @@ export const STATEWIDE_RACES = [
         },
         {
           name: 'Ralph Rebandt',
-          description: 'Pastor, 2022 gubernatorial candidate',
-          status: 'major',
+          description: 'Pastor, 2022 gubernatorial candidate — DISQUALIFIED (insufficient valid petition signatures)',
+          status: 'disqualified',
+          withdrawn: true,
           grade: 'B',
           endorsements: [],
           positions: {
@@ -303,8 +307,9 @@ export const STATEWIDE_RACES = [
         },
         {
           name: 'Kim Thomas',
-          description: 'Democratic candidate for Governor; minor candidate',
-          status: 'minor',
+          description: 'Democratic candidate for Governor — DISQUALIFIED (insufficient valid petition signatures)',
+          status: 'disqualified',
+          withdrawn: true,
           grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
@@ -2045,7 +2050,7 @@ export const STATE_SENATE_RACES = {
     incumbent: "Sue Shink (D)",
     candidates: {
       republican: [
-        { name: 'Tawn Shawnelle Beliger', description: 'Republican who filed for SD-14 on 9/30/2025 but has since withdrawn from the race', status: 'challenger', grade: null,
+        { name: 'Tawn Shawnelle Beliger', description: 'Republican who filed for SD-14 on 9/30/2025 but has since withdrawn from the race', status: 'withdrawn', withdrawn: true, grade: null,
           positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
           gradeJustifications: {
             proLife: 'Withdrew from race; insufficient information to grade',

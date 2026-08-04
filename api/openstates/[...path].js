@@ -40,7 +40,9 @@ export default async function handler(req, res) {
   }
 
   // Add API key from server-side env (trim whitespace/newlines)
-  const apiKey = (process.env.VITE_OPENSTATES_API_KEY || process.env.OPENSTATES_API_KEY || '').trim()
+  // OPENSTATES_API_KEY is the server-side env var (set in Vercel dashboard).
+  // VITE_OPENSTATES_API_KEY is a build-time variable (only works in client code).
+  const apiKey = (process.env.OPENSTATES_API_KEY || process.env.VITE_OPENSTATES_API_KEY || '').trim()
   if (!apiKey) {
     res.setHeader('Access-Control-Allow-Origin', corsOrigin)
     res.setHeader('Vary', 'Origin')

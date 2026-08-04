@@ -58,16 +58,16 @@ export default function App() {
               <Route index element={<HomeView />} />
               <Route path="home" element={<HomeView />} />
               <Route path="ballot" element={<BallotView />} />
-              <Route path="explore" element={<RepsView />} />
-              <Route path="my-reps" element={<MyRepsView />} />
+              <Route path="explore" element={<Navigate to="/" replace />} />
+              <Route path="my-reps" element={<Navigate to="/" replace />} />
               <Route path="elections" element={<Navigate to="/" replace />} />
-              <Route path="register" element={<Navigate to="/elections" replace />} />
-              <Route path="founding" element={<FoundingView />} />
-              <Route path="analytics" element={<AnalyticsView />} />
+              <Route path="register" element={<Navigate to="/" replace />} />
+              <Route path="founding" element={<Navigate to="/" replace />} />
+              <Route path="analytics" element={<Navigate to="/" replace />} />
               <Route path="community" element={<Navigate to="/" replace />} />
               <Route path="settings" element={<SettingsView />} />
               <Route path="profile" element={<ProfileView />} />
-              <Route path="documents" element={<Navigate to="/founding" replace />} />
+              <Route path="documents" element={<Navigate to="/" replace />} />
             </Route>
 
             {/* Catch-all */}

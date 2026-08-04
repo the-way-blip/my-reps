@@ -31,8 +31,6 @@ const NAV_ITEMS = [
       <rect x="3" y="3" width="18" height="18" rx="2" /><path d="m9 12 2 2 4-4" />
     </svg>
   ), badge: daysUntilPrimary },
-  { to: '/my-reps', label: 'My Reps', icon: icons.reps },
-  { to: '/founding', label: 'Founding', icon: icons.founding },
 ]
 
 export default function NavBar() {

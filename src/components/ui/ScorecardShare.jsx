@@ -109,7 +109,7 @@ function drawScorecard(canvas, member, alignment, photoUrl) {
   // Branding
   ctx.fillStyle = '#475569'
   ctx.textAlign = 'right'
-  ctx.fillText('offorandbythepeople.com', W - 20, H - 20)
+  ctx.fillText('buildmyballot.com', W - 20, H - 20)
   ctx.textAlign = 'left'
 }
 

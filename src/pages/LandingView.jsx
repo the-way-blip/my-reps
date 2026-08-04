@@ -131,14 +131,14 @@ export default function LandingView() {
           <div className="landing-guide-content">
             <p className="landing-guide-eyebrow">We Understand</p>
             <h2 className="landing-section-title landing-guide-title">
-              We Built the Civic Toolkit We Wished Existed
+              We Built the Ballot Tool We Wished Existed
             </h2>
             <p className="landing-guide-text">
               We're conservative voters who got tired of showing up unprepared.
-              So we built a platform that grades every candidate on a clear,
-              transparent rubric — rooted in the values we share: protection of
-              unborn life, religious liberty, the Second Amendment, marriage &amp;
-              family, limited government, and fiscal responsibility.
+              So we built a tool that grades every candidate on your ballot
+              using a clear, transparent rubric — rooted in the values we share:
+              protection of unborn life, religious liberty, the Second Amendment,
+              marriage &amp; family, limited government, and fiscal responsibility.
             </p>
             <div className="landing-guide-credentials">
               <div className="landing-guide-cred">
@@ -221,78 +221,49 @@ export default function LandingView() {
          Lower commitment — explore the tools
          ══════════════════════════════════════ */}
       <section className="landing-tools">
-        <h2 className="landing-section-title">Your Civic Toolkit</h2>
+        <h2 className="landing-section-title">What's On Your Ballot?</h2>
         <p className="landing-section-subtitle">
-          Everything you need to vote your values and hold your leaders accountable.
+          Enter your address and see every race you'll vote on — candidates graded
+          on the values that matter most.
         </p>
-        <div className="landing-tools-grid">
-          {/* Build My Ballot */}
-          <Link to="/tools/ballot" className="landing-tool-card landing-tool-featured" style={{ textDecoration: 'none', color: 'inherit' }}>
+        <div className="landing-ballot-hero-card" onClick={openSignUp}>
+          <div className="landing-ballot-hero-left">
             <div className="landing-tool-badge">Live Now</div>
-            <div className="landing-tool-icon-wrap">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <div className="landing-ballot-hero-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/>
               </svg>
             </div>
             <h3>Build My Ballot</h3>
             <p>
-              See every race on your ballot, graded against Christian and
-              Constitutional values. Compare candidates, pick your choices,
-              and bring a printable plan to the polls.
+              See every race on your August 4th primary ballot — Governor, US Senate,
+              US House, State Legislature, and more. Every candidate graded A–F.
             </p>
-            <ul className="landing-tool-features">
-              <li>Every candidate in your district</li>
-              <li>Christian &amp; Constitutional values grades (A&ndash;F)</li>
-              <li>Side-by-side candidate comparison</li>
-              <li>Printable ballot plan for election day</li>
-            </ul>
-            <span className="landing-tool-learn-more">Learn More &rarr;</span>
-          </Link>
-
-          {/* Find My Reps */}
-          <Link to="/tools/reps" className="landing-tool-card" style={{ textDecoration: 'none', color: 'inherit' }}>
-            <div className="landing-tool-badge landing-tool-badge-soon">Coming Soon</div>
-            <div className="landing-tool-icon-wrap">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-              </svg>
-            </div>
-            <h3>Find My Reps</h3>
-            <p>
-              Look up every elected official who represents you and see how they
-              score on the issues that matter — faith, family, the Constitution,
-              and limited government.
-            </p>
-            <ul className="landing-tool-features">
-              <li>Federal, state, and local representatives</li>
-              <li>Values alignment scores &amp; voting records</li>
-              <li>Direct contact information</li>
-              <li>Hold them accountable to their promises</li>
-            </ul>
-            <span className="landing-tool-learn-more">Learn More &rarr;</span>
-          </Link>
-
-          {/* More Tools */}
-          <div className="landing-tool-card landing-tool-more">
-            <div className="landing-tool-icon-wrap">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/>
-              </svg>
-            </div>
-            <h3>More Coming Soon</h3>
-            <p>
-              We're building new tools to help conservative voters stay informed
-              and engaged. Founding documents, community insights, bill tracking,
-              and more.
-            </p>
-            <ul className="landing-tool-features">
-              <li>Founding documents &amp; principles</li>
-              <li>Community voting insights</li>
-              <li>Bill and legislation tracker</li>
-              <li>Election date reminders</li>
-            </ul>
+            <span className="landing-ballot-hero-cta">Build My Ballot &rarr;</span>
           </div>
+          <ul className="landing-ballot-hero-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" strokeWidth="2" width="18" height="18"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Every candidate in your district
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" strokeWidth="2" width="18" height="18"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18"/><path d="M12 3v18"/></svg>
+              Values alignment grades (A–F)
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" strokeWidth="2" width="18" height="18"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              Issue scorecards &amp; voting records
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" strokeWidth="2" width="18" height="18"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              Printable ballot plan for the polls
+            </li>
+          </ul>
         </div>
+        <p className="landing-tools-coming">
+          More tools coming after the election — Find My Reps, bill tracking,
+          founding documents, and more.
+        </p>
       </section>
 
       {/* ══════════════════════════════════════
@@ -326,8 +297,8 @@ export default function LandingView() {
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
               </svg>
             </div>
-            <h4>Your Reps, At Your Fingertips</h4>
-            <p>Know who represents you at every level. See their record, contact them directly, and hold them accountable.</p>
+            <h4>Share It With Your Church &amp; Community</h4>
+            <p>Forward your ballot plan to friends and family. Help your entire community walk into the polls prepared and confident.</p>
           </div>
           <div className="landing-success-item">
             <div className="landing-success-icon">

@@ -8,16 +8,23 @@ import FounderQuoteBanner from '../components/ui/FounderQuoteBanner'
 import { VOTING_QUOTES } from '../data/foundingValues'
 import {
   PRIMARY_INFO,
+  PRIMARY_DATE,
+  REGISTRATION_DEADLINE,
+  EARLY_VOTING_START,
+  ABSENTEE_DEADLINE,
   STATEWIDE_RACES,
   US_HOUSE_RACES,
   // BALLOT_PROPOSALS,  // November only — re-enable after primary
+  CONVENTION_NOMINEES,
   getPrimaryBallot,
   getLocalBallotRaces,
   getGradeColor,
 } from '../data/michiganPrimary2026'
 // November ballot will be re-enabled after August 4 primary
 // import { getNovemberLocalRaces } from '../data/michiganNovember2026'
+import { getProposalsForLocation, getCategoryLabel, getCategoryIcon } from '../data/michiganProposals2026'
 import generateBallotPDF from '../utils/generateBallotPDF'
+import { trackAddressEntered, trackPartySelected, trackCandidateSelected, trackBallotComplete, trackProposalVoted, trackChecklistItem, trackShareTool, trackShareBallot } from '../utils/analytics'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
 import useFocusTrap from '../hooks/useFocusTrap'
 import { getRatingsForCandidate, getRatingsForIssue, getEvidenceLevel } from '../data/externalRatings'
@@ -579,27 +586,30 @@ function CandidateDetailModal({ candidate, onClose }) {
   )
 }
 
-// ── Proposal Card ──
+// ── Proposal Card (with YES/NO explainers + vote tracking) ──
 
-function ProposalCard({ proposal }) {
+function ProposalCard({ proposal, choice, onVote }) {
   const [expanded, setExpanded] = useState(false)
+  const isRenewal = /renewal/i.test(proposal.type)
+  const isNew = /new|increase|bond/i.test(proposal.type)
 
   return (
-    <div className={`ballot-proposal ${expanded ? 'ballot-proposal-expanded' : ''}`}>
+    <div className={`ballot-proposal ${expanded ? 'ballot-proposal-expanded' : ''} ${choice ? 'ballot-proposal-decided' : ''}`}>
       <button className="ballot-proposal-header" onClick={() => setExpanded(!expanded)}>
         <div className="ballot-proposal-title-row">
-          <span className={`ballot-proposal-status ballot-proposal-status-${proposal.status}`}>
-            {proposal.status === 'confirmed' ? 'Confirmed' : 'Likely'}
-          </span>
-          <h4 className="ballot-proposal-name">{proposal.name}</h4>
+          <span className="ballot-proposal-category-icon">{getCategoryIcon(proposal.category)}</span>
+          <div className="ballot-proposal-title-stack">
+            <h4 className="ballot-proposal-name">{proposal.name}</h4>
+            <span className="ballot-proposal-jurisdiction">{proposal.jurisdiction}</span>
+          </div>
+          {choice && (
+            <span className={`ballot-proposal-vote-badge ballot-proposal-vote-${choice}`}>
+              {choice === 'yes' ? 'YES' : 'NO'}
+            </span>
+          )}
         </div>
         <svg
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          width="18"
-          height="18"
+          viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18"
           className={`ballot-proposal-chevron ${expanded ? 'rotated' : ''}`}
         >
           <polyline points="6 9 12 15 18 9" />
@@ -608,13 +618,40 @@ function ProposalCard({ proposal }) {
 
       {expanded && (
         <div className="ballot-proposal-body">
-          <p className="ballot-proposal-type">
-            <strong>Type:</strong> {proposal.type}
-          </p>
-          {proposal.statusNote && (
-            <p className="ballot-proposal-status-note">{proposal.statusNote}</p>
-          )}
+          <div className="ballot-proposal-meta">
+            <span className="ballot-proposal-type-badge">{proposal.type}</span>
+            {proposal.mills != null && <span className="ballot-proposal-mills">{proposal.mills} mills</span>}
+            {proposal.duration && <span className="ballot-proposal-duration">{proposal.duration}</span>}
+            {proposal.bondAmount && <span className="ballot-proposal-bond">{proposal.bondAmount}</span>}
+          </div>
+
           <p className="ballot-proposal-desc">{proposal.description}</p>
+
+          {proposal.taxImpact && (
+            <div className="ballot-proposal-tax">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
+                <line x1="12" y1="1" x2="12" y2="23" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
+              <span>{proposal.taxImpact}</span>
+            </div>
+          )}
+
+          <div className="ballot-proposal-yes-no">
+            <button
+              className={`ballot-proposal-vote-btn ballot-proposal-vote-yes ${choice === 'yes' ? 'selected' : ''}`}
+              onClick={(e) => { e.stopPropagation(); onVote(proposal.id, choice === 'yes' ? null : 'yes') }}
+            >
+              <span className="ballot-proposal-vote-label">YES</span>
+              <span className="ballot-proposal-vote-explain">{proposal.yesVote}</span>
+            </button>
+            <button
+              className={`ballot-proposal-vote-btn ballot-proposal-vote-no ${choice === 'no' ? 'selected' : ''}`}
+              onClick={(e) => { e.stopPropagation(); onVote(proposal.id, choice === 'no' ? null : 'no') }}
+            >
+              <span className="ballot-proposal-vote-label">NO</span>
+              <span className="ballot-proposal-vote-explain">{proposal.noVote}</span>
+            </button>
+          </div>
 
           <div className="ballot-proposal-views">
             <div className="ballot-proposal-view ballot-proposal-view-conservative">
@@ -635,9 +672,162 @@ function ProposalCard({ proposal }) {
               {proposal.recommendation}
             </div>
           )}
+
+          {isRenewal && (
+            <div className="ballot-proposal-renewal-note">
+              <strong>Renewal:</strong> This renews an existing tax — your rate does not change if it passes.
+            </div>
+          )}
         </div>
       )}
     </div>
+  )
+}
+
+// ── Deadline Banner ──
+
+function DeadlineBanner() {
+  const now = new Date()
+  const primaryDate = new Date('2026-08-04')
+  const isElectionDay = now.toDateString() === primaryDate.toDateString()
+  const isPastElection = now > primaryDate && !isElectionDay
+
+  if (isPastElection) return null
+
+  if (isElectionDay) {
+    return (
+      <div className="ballot-deadline-banner ballot-deadline-urgent">
+        <div className="ballot-deadline-left">
+          <span className="ballot-deadline-days" style={{ fontSize: '14px' }}>TODAY</span>
+        </div>
+        <div className="ballot-deadline-info">
+          <strong>Primary Election Day</strong>
+          <span className="ballot-deadline-date">
+            Polls are open. You can still register at your clerk's office and vote today.
+          </span>
+        </div>
+        <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-deadline-action">
+          Find your polling place
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="12" height="12">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            <polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+          </svg>
+        </a>
+      </div>
+    )
+  }
+
+  const deadlines = [
+    { date: new Date('2026-07-20'), label: 'Registration deadline (online/mail)', action: 'Register now', href: 'https://mvic.sos.state.mi.us/RegisterVoter' },
+    { date: new Date('2026-07-26'), label: 'Early voting begins', action: 'Find early voting site', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
+    { date: new Date('2026-07-31'), label: 'Absentee ballot deadline (mail)', action: 'Request absentee ballot', href: 'https://mvic.sos.state.mi.us/AVApplication/Index' },
+    { date: new Date('2026-08-03'), label: 'Last day for in-person absentee', action: 'Find your clerk', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
+    { date: new Date('2026-08-04'), label: 'Primary Election Day', action: 'Find your polling place', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
+  ]
+
+  const next = deadlines.find(d => d.date >= now)
+  if (!next) return null
+
+  const daysLeft = Math.ceil((next.date - now) / (1000 * 60 * 60 * 24))
+  const urgent = daysLeft <= 7
+
+  return (
+    <div className={`ballot-deadline-banner ${urgent ? 'ballot-deadline-urgent' : ''}`}>
+      <div className="ballot-deadline-left">
+        <span className="ballot-deadline-days">{daysLeft}</span>
+        <span className="ballot-deadline-days-label">days</span>
+      </div>
+      <div className="ballot-deadline-info">
+        <strong>{next.label}</strong>
+        <span className="ballot-deadline-date">
+          {next.date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}
+        </span>
+      </div>
+      <a href={next.href} target="_blank" rel="noopener noreferrer" className="ballot-deadline-action">
+        {next.action}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="12" height="12">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+          <polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+        </svg>
+      </a>
+    </div>
+  )
+}
+
+// ── November Preview ──
+
+function NovemberPreview({ party }) {
+  const [expanded, setExpanded] = useState(false)
+  const entries = Object.values(CONVENTION_NOMINEES)
+
+  return (
+    <section className="ballot-november-preview">
+      <button className="ballot-november-header" onClick={() => setExpanded(!expanded)}>
+        <div className="ballot-november-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+            <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18" /><path d="M8 2v4" /><path d="M16 2v4" />
+          </svg>
+          <div>
+            <strong>November 3 General Election Preview</strong>
+            <span className="ballot-november-sub">Convention-nominated races — not on the primary ballot</span>
+          </div>
+        </div>
+        <svg
+          viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18"
+          className={`ballot-proposal-chevron ${expanded ? 'rotated' : ''}`}
+        >
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
+      {expanded && (
+        <div className="ballot-november-body">
+          {entries.map(race => {
+            const isBoard = Array.isArray(race.republican || race.nominees)
+            const isNonpartisan = !!race.nominees
+            return (
+              <div key={race.office} className="ballot-november-race">
+                <h4 className="ballot-november-office">{race.office}</h4>
+                {isNonpartisan ? (
+                  <div className="ballot-november-nominees">
+                    {race.nominees.map(n => (
+                      <div key={n.name} className="ballot-november-nominee">
+                        <span className="ballot-november-name">{n.name}</span>
+                        {n.description && <span className="ballot-november-desc">{n.description}</span>}
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="ballot-november-matchup">
+                    <div className="ballot-november-party-col">
+                      <span className="ballot-november-party-label ballot-party-r">R</span>
+                      {(isBoard ? race.republican : [race.republican]).map(c => (
+                        <div key={c.name} className="ballot-november-nominee">
+                          <span className="ballot-november-name">{c.name}</span>
+                          {c.description && <span className="ballot-november-desc">{c.description}</span>}
+                        </div>
+                      ))}
+                    </div>
+                    <div className="ballot-november-vs">vs</div>
+                    <div className="ballot-november-party-col">
+                      <span className="ballot-november-party-label ballot-party-d">D</span>
+                      {(isBoard ? race.democratic : [race.democratic]).map(c => (
+                        <div key={c.name} className="ballot-november-nominee">
+                          <span className="ballot-november-name">{c.name}</span>
+                          {c.description && <span className="ballot-november-desc">{c.description}</span>}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )
+          })}
+          <p className="ballot-november-note">
+            Full November ballot with candidate grades will be available here after the August 4 primary.
+          </p>
+        </div>
+      )}
+    </section>
   )
 }
 
@@ -727,7 +917,10 @@ function BallotSummaryCard({ choices, races }) {
   const [expanded, setExpanded] = useState(false)
   const picks = races
     .filter(r => choices[r.id]?.name)
-    .map(r => ({ office: r.office, name: choices[r.id].name }))
+    .map(r => {
+      const candidate = r.candidates?.find(c => c.name === choices[r.id].name)
+      return { office: r.office, name: choices[r.id].name, grade: candidate?.grade }
+    })
 
   if (picks.length === 0) return null
 
@@ -747,7 +940,10 @@ function BallotSummaryCard({ choices, races }) {
           {picks.map((p, i) => (
             <div key={i} className="ballot-summary-pick">
               <span className="ballot-summary-office">{p.office}</span>
-              <span className="ballot-summary-name">{p.name}</span>
+              <span className="ballot-summary-name">
+                {p.name}
+                {p.grade && <GradeBadge grade={p.grade} size="sm" />}
+              </span>
             </div>
           ))}
         </div>
@@ -806,12 +1002,14 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
         <div className="ballot-candidates">
           {race.candidates.map((c, i) => {
             const isSelected = choice?.name === c.name
+            const isWithdrawn = c.withdrawn || c.status === 'withdrawn' || c.status === 'disqualified'
             return (
               <div key={i} className={`ballot-candidate-card ${isSelected ? 'ballot-candidate-selected' : ''} ${
                 c.status === 'incumbent' ? 'ballot-candidate-incumbent' : ''
-              }`}>
+              } ${isWithdrawn ? 'ballot-candidate-withdrawn' : ''}`}>
                 {/* Top row: radio select + name + grade */}
                 <div className="ballot-candidate-top">
+                  {!isWithdrawn ? (
                   <button
                     className="ballot-candidate-select-btn"
                     onClick={() => onSelect(race.id, isSelected ? null : { name: c.name, description: c.description })}
@@ -829,12 +1027,23 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                       )}
                     </span>
                   </button>
+                  ) : (
+                    <span className="ballot-candidate-select-btn" aria-hidden="true">
+                      <span className="ballot-candidate-radio">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="var(--text-muted, #64748b)" strokeWidth="1.5" width="18" height="18" opacity="0.4">
+                          <circle cx="12" cy="12" r="9" /><line x1="7" y1="7" x2="17" y2="17" />
+                        </svg>
+                      </span>
+                    </span>
+                  )}
                   <div className="ballot-candidate-header" onClick={() => onCandidateDetail(c)} role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onCandidateDetail(c) } }}>
                     <span className="ballot-candidate-name">
                       {c.name}
                       <GradeBadge grade={c.grade} size="sm" showUnrated={!c.grade} />
                       {c.grade && <EvidenceBadge candidate={c} />}
                       {c.status === 'incumbent' && <span className="ballot-incumbent-tag">Incumbent</span>}
+                      {c.status === 'withdrawn' && <span className="ballot-withdrawn-tag">Withdrew</span>}
+                      {c.status === 'disqualified' && <span className="ballot-withdrawn-tag">Disqualified</span>}
                     </span>
                     {c.description && <span className="ballot-candidate-desc">{c.description}</span>}
                   </div>
@@ -872,16 +1081,46 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                       })}
                     </div>
                   )}
-                  <button
-                    className="ballot-candidate-profile-btn"
-                    onClick={() => onCandidateDetail(c)}
-                    aria-label={`View full profile for ${c.name}`}
-                  >
-                    View Profile
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="13" height="13">
-                      <polyline points="9 18 15 12 9 6" />
-                    </svg>
-                  </button>
+                  <div className="ballot-candidate-links">
+                    <button
+                      className="ballot-candidate-profile-btn"
+                      onClick={() => onCandidateDetail(c)}
+                      aria-label={`View full profile for ${c.name}`}
+                    >
+                      View Profile
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="13" height="13">
+                        <polyline points="9 18 15 12 9 6" />
+                      </svg>
+                    </button>
+                    <a
+                      href={`https://ballotpedia.org/${c.name.replace(/\s+/g, '_')}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ballot-candidate-source-link"
+                      onClick={e => e.stopPropagation()}
+                    >
+                      Ballotpedia
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="11" height="11">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                        <polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+                      </svg>
+                    </a>
+                    {c.website && (
+                      <a
+                        href={c.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ballot-candidate-source-link"
+                        onClick={e => e.stopPropagation()}
+                      >
+                        Campaign Site
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="11" height="11">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                          <polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
+                      </a>
+                    )}
+                  </div>
                 </div>
                 {c.gradeNote && <span className="ballot-candidate-grade-note">{c.gradeNote}</span>}
               </div>
@@ -945,7 +1184,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
 // ── Main BallotView ──
 
 export default function BallotView() {
-  usePageTitle('Ballot & Elections', 'Plan your ballot and find Michigan election information')
+  usePageTitle('Build My Ballot — August 2026 Michigan Primary', 'Every candidate on your ballot, graded A through F on Constitutional values')
 
   const { selectedState, userAddress, userDistricts, localGeo, setUserAddress, handleSearchDistrict } = useApp()
   const { user, syncBallot, ballotPlan, loading: profileLoading } = useProfile()
@@ -960,7 +1199,19 @@ export default function BallotView() {
   const [pollingLoading, setPollingLoading] = useState(false)
   const [raceFilter, setRaceFilter] = useState('all') // 'all' | 'undecided' | 'decided'
   const [showScrollTop, setShowScrollTop] = useState(false)
+  const [checklist, setChecklist] = useState(() => {
+    try { return JSON.parse(localStorage.getItem('ballot_checklist') || '{}') } catch { return {} }
+  })
   const cloudTimerRef = useRef(null)
+
+  const toggleChecklist = useCallback((key) => {
+    setChecklist(prev => {
+      const next = { ...prev, [key]: !prev[key] }
+      if (next[key]) trackChecklistItem(key)
+      localStorage.setItem('ballot_checklist', JSON.stringify(next))
+      return next
+    })
+  }, [])
 
   // Load saved ballot
   useEffect(() => {
@@ -1009,17 +1260,43 @@ export default function BallotView() {
     return getLocalBallotRaces(party, localGeo)
   }, [party, localGeo])
 
+  // Local ballot proposals (millages, bonds, etc.) based on geography
+  const proposals = useMemo(() => {
+    if (!localGeo) return []
+    return getProposalsForLocation(localGeo)
+  }, [localGeo])
+
   // November local races — will be re-enabled after August 4 primary
   // const novemberLocalRaces = useMemo(() => {
   //   if (!localGeo) return []
   //   return getNovemberLocalRaces(localGeo)
   // }, [localGeo])
 
+  const [showStickyBar, setShowStickyBar] = useState(false)
+  const progressRef = useRef(null)
+
   useEffect(() => {
-    const onScroll = () => setShowScrollTop(window.scrollY > 600)
+    const onScroll = () => {
+      setShowScrollTop(window.scrollY > 600)
+      if (progressRef.current) {
+        const rect = progressRef.current.getBoundingClientRect()
+        setShowStickyBar(rect.bottom < 0)
+      }
+    }
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
+  // Track ballot completion (fire once)
+  const completionTracked = useRef(false)
+  useEffect(() => {
+    const decidedCount = Object.keys(choices).length
+    const totalItems = (races.length || 0) + (localRaces?.length || 0) + (proposals?.length || 0)
+    if (totalItems > 0 && decidedCount === totalItems && !completionTracked.current) {
+      completionTracked.current = true
+      trackBallotComplete(totalItems)
+    }
+  }, [choices, races, localRaces, proposals])
 
   // Save
   const persist = useCallback((c, p, addr) => {
@@ -1044,6 +1321,7 @@ export default function BallotView() {
     const next = { ...choices }
     if (candidate) {
       next[raceId] = candidate
+      trackCandidateSelected(raceId, candidate.name)
     } else {
       delete next[raceId]
     }
@@ -1055,9 +1333,23 @@ export default function BallotView() {
     selectCandidate(raceId, { name, description: 'Write-in candidate' })
   }
 
+  const voteOnProposal = (proposalId, vote) => {
+    const next = { ...choices }
+    if (vote) {
+      next[proposalId] = { name: vote === 'yes' ? 'YES' : 'NO', proposalVote: vote }
+      trackProposalVoted(proposalId, vote)
+    } else {
+      delete next[proposalId]
+    }
+    setChoices(next)
+    persist(next, party, address)
+  }
+
   const handleAddressSubmit = (addr) => {
     setAddress(addr)
     setStep('party')
+    trackAddressEntered()
+    window.scrollTo({ top: 0, behavior: 'smooth' })
     if (setUserAddress) setUserAddress(addr)
     geocodeToDistrict(addr).then(geo => {
       if (geo && selectedState) {
@@ -1067,11 +1359,12 @@ export default function BallotView() {
   }
 
   const handlePartySelect = (p) => {
-    // If switching to a different party, clear prior choices so they don't bleed over
     const nextChoices = (p !== party) ? {} : choices
     setParty(p)
     setChoices(nextChoices)
     setStep('ballot')
+    trackPartySelected(p)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
     persist(nextChoices, p, address)
   }
 
@@ -1085,12 +1378,13 @@ export default function BallotView() {
 
   // Summary stats
   const allRaces = useMemo(() => [...races, ...localRaces], [races, localRaces])
+  const totalItems = allRaces.length + proposals.length
   const decidedCount = Object.keys(choices).filter(k => choices[k]?.name).length
   const totalRaces = allRaces.length
 
   // Build shareable summary
   const summaryText = useMemo(() => {
-    if (!party || allRaces.length === 0) return ''
+    if (!party || (allRaces.length === 0 && proposals.length === 0)) return ''
     const lines = [
       `My Ballot Plan — Michigan ${party === 'republican' ? 'Republican' : 'Democratic'} Primary`,
       `August 4, 2026\n`,
@@ -1101,9 +1395,18 @@ export default function BallotView() {
         lines.push(`${race.office}: ${c.name}`)
       }
     })
-    lines.push('\nCreated with Of For & By The People — offorandbythepeople.com')
+    if (proposals.length > 0) {
+      const proposalChoices = proposals.filter(p => choices[p.id]?.proposalVote)
+      if (proposalChoices.length > 0) {
+        lines.push('\nBallot Proposals:')
+        proposalChoices.forEach(p => {
+          lines.push(`${p.name}: ${choices[p.id].proposalVote.toUpperCase()}`)
+        })
+      }
+    }
+    lines.push('\nCreated with Of For & By The People — buildmyballot.com')
     return lines.join('\n')
-  }, [party, allRaces, choices])
+  }, [party, allRaces, proposals, choices])
 
   // Countdown to primary
   const daysUntil = useMemo(() => {
@@ -1113,11 +1416,8 @@ export default function BallotView() {
     return diff > 0 ? diff : 0
   }, [])
 
-  const daysUntilRegistration = useMemo(() => {
-    const deadline = new Date('2026-07-20')
-    const now = new Date()
-    const diff = Math.ceil((deadline - now) / (1000 * 60 * 60 * 24))
-    return diff > 0 ? diff : 0
+  const isElectionDay = useMemo(() => {
+    return new Date().toDateString() === new Date('2026-08-04').toDateString()
   }, [])
 
   return (
@@ -1126,25 +1426,25 @@ export default function BallotView() {
       <div className="ballot-header">
         <h2 className="page-title">My Ballot Plan</h2>
         <div className="ballot-countdown">
-          <span className="ballot-countdown-number">{daysUntil}</span>
-          <span className="ballot-countdown-label">days until the Michigan Primary</span>
+          <span className="ballot-countdown-number">{isElectionDay ? 'TODAY' : daysUntil}</span>
+          <span className="ballot-countdown-label">{isElectionDay ? 'is the Michigan Primary' : 'days until the Michigan Primary'}</span>
         </div>
         <p className="ballot-date-line">
           <strong>{PRIMARY_INFO.date}</strong> &middot; {PRIMARY_INFO.type}
         </p>
       </div>
 
-      {/* Registration deadline alert */}
-      {daysUntilRegistration > 0 && daysUntilRegistration <= 30 && (
-        <div className={`ballot-deadline-alert ${daysUntilRegistration <= 7 ? 'urgent' : ''}`}>
+      {/* Election day same-day registration note */}
+      {isElectionDay && (
+        <div className="ballot-deadline-alert urgent">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
             <circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" />
           </svg>
           <span>
-            <strong>{daysUntilRegistration} day{daysUntilRegistration !== 1 ? 's' : ''}</strong> until voter registration deadline (online/mail) &mdash;{' '}
-            <a href="https://mvic.sos.state.mi.us/RegisterVoter" target="_blank" rel="noopener noreferrer">
-              Register now
-            </a>
+            <strong>Not registered?</strong> You can register and vote today at your{' '}
+            <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer">
+              local clerk's office
+            </a>. Bring a photo ID and proof of residency.
           </span>
         </div>
       )}
@@ -1266,6 +1566,9 @@ export default function BallotView() {
             </button>
           </div>
 
+          {/* Key deadline */}
+          <DeadlineBanner />
+
           {/* Primary explainer */}
           <div className="ballot-primary-explainer">
             <div className="ballot-primary-explainer-icon">
@@ -1293,18 +1596,18 @@ export default function BallotView() {
           </div>
 
           {/* Progress bar */}
-          {totalRaces > 0 && (
-            <div className="ballot-progress">
+          {totalItems > 0 && (
+            <div className="ballot-progress" ref={progressRef}>
               <div className="ballot-progress-bar">
                 <div
                   className="ballot-progress-fill"
-                  style={{ width: `${totalRaces > 0 ? (decidedCount / totalRaces) * 100 : 0}%` }}
+                  style={{ width: `${totalItems > 0 ? (decidedCount / totalItems) * 100 : 0}%` }}
                 />
               </div>
               <span className="ballot-progress-text">
-                <span><strong>{decidedCount}</strong> of {totalRaces} races decided</span>
-                {decidedCount === totalRaces && <span className="ballot-progress-done">All set!</span>}
-                {decidedCount > 0 && decidedCount < totalRaces && (
+                <span><strong>{decidedCount}</strong> of {totalItems} decided</span>
+                {decidedCount === totalItems && <span className="ballot-progress-done">All set!</span>}
+                {decidedCount > 0 && decidedCount < totalItems && (
                   <button
                     className="ballot-next-undecided"
                     onClick={() => {
@@ -1323,6 +1626,48 @@ export default function BallotView() {
           )}
 
 
+          {/* Ballot complete celebration */}
+          {decidedCount === totalItems && totalItems > 0 && (
+            <div className="ballot-complete-banner">
+              <div className="ballot-complete-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="32" height="32">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+              </div>
+              <div className="ballot-complete-text">
+                <strong>Your ballot plan is complete!</strong>
+                <p>You've decided on all {totalItems} races and proposals. Download a PDF to take to the polls or share with friends.</p>
+              </div>
+              <div className="ballot-complete-actions">
+                <button
+                  className="ballot-complete-pdf"
+                  onClick={() => generateBallotPDF({ party, races: allRaces, choices, address })}
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                  Download PDF
+                </button>
+                <ShareButton
+                  title="My Ballot Plan"
+                  text={summaryText}
+                  className="ballot-complete-share"
+                  onShare={trackShareBallot}
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+                    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                    <polyline points="16 6 12 2 8 6" />
+                    <line x1="12" y1="2" x2="12" y2="15" />
+                  </svg>
+                  Share
+                </ShareButton>
+              </div>
+            </div>
+          )}
+
           <FounderQuoteBanner quotes={VOTING_QUOTES} />
 
           {/* Quick picks summary */}
@@ -1332,9 +1677,17 @@ export default function BallotView() {
 
           <GradeLegend />
 
-          {/* Key dates info box */}
-          <div className="ballot-dates-box">
-            <h4 className="ballot-dates-title">Key Dates</h4>
+          {/* Key dates — collapsible since DeadlineBanner handles the urgent one */}
+          <details className="ballot-dates-details">
+            <summary className="ballot-dates-summary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
+                <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18" /><path d="M8 2v4" /><path d="M16 2v4" />
+              </svg>
+              All Key Dates
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="12" height="12" className="ballot-dates-chevron">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </summary>
             <div className="ballot-dates-grid">
               <div className="ballot-date-item">
                 <span className="ballot-date-label">Registration Deadline</span>
@@ -1348,8 +1701,12 @@ export default function BallotView() {
                 <span className="ballot-date-label">Absentee Ballot Deadline</span>
                 <span className="ballot-date-value">{PRIMARY_INFO.absenteeDeadline}</span>
               </div>
+              <div className="ballot-date-item ballot-date-primary-item">
+                <span className="ballot-date-label">Primary Election Day</span>
+                <span className="ballot-date-value">{PRIMARY_INFO.date}</span>
+              </div>
             </div>
-          </div>
+          </details>
 
           {/* Race filter tabs */}
           {totalRaces > 3 && (
@@ -1382,7 +1739,9 @@ export default function BallotView() {
             {localRaces.length > 0 && (
               <button onClick={() => document.getElementById('section-local')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Local</button>
             )}
-            {/* Proposals jump nav — re-enable when proposals are on a current ballot */}
+            {proposals.length > 0 && (
+              <button onClick={() => document.getElementById('section-proposals')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Proposals</button>
+            )}
             <button onClick={() => document.getElementById('section-resources')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Resources</button>
           </div>
 
@@ -1478,17 +1837,43 @@ export default function BallotView() {
             </div>
           )}
 
-          {/* November 2026 — coming after primary */}
-          <div className="ballot-november-teaser">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
-              <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18" /><path d="M8 2v4" /><path d="M16 2v4" />
-            </svg>
-            <span>
-              <strong>November 3 General Election</strong> ballot will be available here after the August 4 primary.
-            </span>
-          </div>
+          {/* Ballot Proposals & Millages */}
+          {proposals.length > 0 && (
+            <section id="section-proposals" className="ballot-section ballot-section-proposals">
+              <h3 className="ballot-section-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" />
+                </svg>
+                Ballot Proposals &amp; Millages
+              </h3>
+              <p className="ballot-proposals-note">
+                These proposals appear on your ballot regardless of which party column you choose. Tap each proposal to see what a YES or NO vote means in plain English.
+              </p>
+              <div className="ballot-proposals-list">
+                {proposals.map(p => (
+                  <ProposalCard
+                    key={p.id}
+                    proposal={p}
+                    choice={choices[p.id]?.proposalVote || null}
+                    onVote={voteOnProposal}
+                  />
+                ))}
+              </div>
+              <div className="ballot-proposals-disclaimer">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
+                  <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
+                </svg>
+                <span>
+                  Proposals are matched to your address. Your actual ballot may include additional proposals not yet in our database.
+                  Always verify with your <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer">official sample ballot</a>.
+                </span>
+              </div>
+            </section>
+          )}
 
-          {/* Ballot Proposals — November only, re-enable after primary */}
+          {/* November 2026 — preview of convention-nominated races */}
+          <NovemberPreview party={party} />
 
           {/* Candidate Detail Modal */}
           {detailCandidate && (
@@ -1636,6 +2021,67 @@ export default function BallotView() {
             )}
           </section>
 
+          {/* ── Election Day Checklist ── */}
+          <section id="section-checklist" className="ballot-section ballot-section-checklist">
+            <h3 className="ballot-section-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              Election Day Checklist
+            </h3>
+            <p className="ballot-checklist-subtitle">Make sure you're ready before you head to the polls.</p>
+            <div className="ballot-checklist-items">
+              {[
+                { key: 'id', label: 'Bring a valid photo ID', detail: 'Michigan requires a photo ID to vote. If you don\'t have one, you can sign an affidavit at the polls and still cast a ballot.' },
+                { key: 'registration', label: 'Confirm your registration is active', detail: 'Check your registration status at the Michigan Voter Information Center — you can register or update your address on Election Day at your clerk\'s office.', link: 'https://mvic.sos.state.mi.us/Voter/Index', linkLabel: 'Check status' },
+                { key: 'polling', label: 'Know your polling place', detail: 'Michigan polls are open 7:00 AM – 8:00 PM. If you\'re in line by 8 PM, you will be allowed to vote.', link: 'https://mvic.sos.state.mi.us/Voter/Index', linkLabel: 'Find location' },
+                { key: 'ballot', label: 'Save your ballot plan to your phone', detail: 'Screenshot your completed ballot above or bookmark this page. Cell service can be spotty at polling locations.' },
+                { key: 'research', label: 'Review your ballot proposals', detail: 'Proposals and millages are the races voters are least prepared for. Scroll up to read the plain-English YES/NO explainers.' },
+                { key: 'friend', label: 'Remind a friend to vote', detail: 'Share this free tool with someone who wants to vote their values but doesn\'t have time to research every race.' },
+              ].map(item => (
+                <button
+                  key={item.key}
+                  className={`ballot-checklist-item ${checklist[item.key] ? 'checked' : ''}`}
+                  onClick={() => toggleChecklist(item.key)}
+                >
+                  <span className="ballot-checklist-check">
+                    {checklist[item.key] ? (
+                      <svg viewBox="0 0 24 24" fill="var(--accent-gold)" width="20" height="20">
+                        <circle cx="12" cy="12" r="10" /><path d="M9 12l2 2 4-4" stroke="#fff" strokeWidth="2.5" fill="none" />
+                      </svg>
+                    ) : (
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="20" height="20">
+                        <circle cx="12" cy="12" r="10" />
+                      </svg>
+                    )}
+                  </span>
+                  <div className="ballot-checklist-content">
+                    <span className="ballot-checklist-label">{item.label}</span>
+                    <span className="ballot-checklist-detail">{item.detail}</span>
+                    {item.link && (
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ballot-checklist-link"
+                        onClick={e => e.stopPropagation()}
+                      >
+                        {item.linkLabel}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="11" height="11">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                          <polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
+                      </a>
+                    )}
+                  </div>
+                </button>
+              ))}
+            </div>
+            <div className="ballot-checklist-progress">
+              {Object.values(checklist).filter(Boolean).length} of 6 complete
+            </div>
+          </section>
+
           {/* ── Voter Resources Section ── */}
           <section id="section-resources" className="ballot-section ballot-section-resources">
             <h3 className="ballot-section-title">
@@ -1658,11 +2104,11 @@ export default function BallotView() {
                 </svg>
                 <span className="ballot-resource-label">Register to Vote</span>
               </a>
-              <a href="https://mvic.sos.state.mi.us/AVApplication/Index" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
+              <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
-                  <rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
                 </svg>
-                <span className="ballot-resource-label">Request Absentee Ballot</span>
+                <span className="ballot-resource-label">Find Your Polling Place</span>
               </a>
               <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
@@ -1673,6 +2119,26 @@ export default function BallotView() {
               </a>
             </div>
           </section>
+
+          {/* Spread the word */}
+          <div className="ballot-spread-cta">
+            <h4 className="ballot-spread-title">Know someone who needs a ballot plan?</h4>
+            <p className="ballot-spread-desc">Help your friends and family vote their values — share this free tool.</p>
+            <ShareButton
+              title="Of For & By The People"
+              text="Plan your ballot for Michigan's August 4 primary — every race, every candidate, graded on Constitutional values. Free at buildmyballot.com"
+              url="https://www.buildmyballot.com/ballot"
+              className="ballot-spread-btn"
+              onShare={trackShareTool}
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+                <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                <polyline points="16 6 12 2 8 6" />
+                <line x1="12" y1="2" x2="12" y2="15" />
+              </svg>
+              Share This Tool
+            </ShareButton>
+          </div>
 
           {/* ── Grade Tip Submission ── */}
           <div className="ballot-grade-tip">
@@ -1705,6 +2171,44 @@ export default function BallotView() {
             </p>
           </div>
         </>
+      )}
+
+      {/* Sticky mobile progress bar */}
+      {step === 'ballot' && totalRaces > 0 && showStickyBar && (
+        <div className="ballot-sticky-bar">
+          <div className="ballot-sticky-progress">
+            <div className="ballot-sticky-fill" style={{ width: `${(decidedCount / totalRaces) * 100}%` }} />
+          </div>
+          <span className="ballot-sticky-count">
+            <strong>{decidedCount}</strong>/{totalRaces}
+          </span>
+          {decidedCount < totalRaces ? (
+            <button
+              className="ballot-sticky-next"
+              onClick={() => {
+                const el = document.querySelector('.ballot-race:not(.ballot-race-decided)')
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+              }}
+            >
+              Next
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" width="12" height="12">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+          ) : (
+            <button
+              className="ballot-sticky-next ballot-sticky-done"
+              onClick={() => generateBallotPDF({ party, races: allRaces, choices, address })}
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              PDF
+            </button>
+          )}
+        </div>
       )}
 
       {showScrollTop && (

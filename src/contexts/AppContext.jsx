@@ -217,7 +217,7 @@ export function AppProvider({ children }) {
     }
     getMembersByState(state.code).then(({ reps }) => {
       const rep = reps.find(r => r.district === districtNum)
-      if (rep) setSelectedMember(rep)
+      if (rep) setHighlightDistrict(rep.district)
     })
   }, [])
 

@@ -90,7 +90,7 @@ export default function ProfileView() {
   /* ── Auth state ── */
   const [authMod, setAuthMod] = useState(null)
   const [user, setUser] = useState(null)
-  const [session, setSession] = useState(null)
+  const [_session, setSession] = useState(null)
   const [authLoaded, setAuthLoaded] = useState(false)
 
   /* ── Profile form state ── */

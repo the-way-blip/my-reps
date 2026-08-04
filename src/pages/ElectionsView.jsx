@@ -51,8 +51,8 @@ function generateIcsContent(election) {
   const endDate = formatIcsDate(nextDay)
 
   const desc = election.registrationDeadline
-    ? `Remember to vote!\\nRegistration deadline: ${election.registrationDeadline}\\nEarly voting: ${election.earlyVotingStart || 'Check your state'}\\n\\nPlan your ballot at offorandbythepeople.com`
-    : 'Remember to vote! Plan your ballot at offorandbythepeople.com'
+    ? `Remember to vote!\\nRegistration deadline: ${election.registrationDeadline}\\nEarly voting: ${election.earlyVotingStart || 'Check your state'}\\n\\nPlan your ballot at buildmyballot.com`
+    : 'Remember to vote! Plan your ballot at buildmyballot.com'
 
   return [
     'BEGIN:VCALENDAR',

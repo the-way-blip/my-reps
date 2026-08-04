@@ -2531,16 +2531,6 @@ export const MI_CITY_OFFICIALS = {
     ],
   },
 
-  Alpena: {
-    name: 'City of Alpena',
-    website: 'https://www.alpena.mi.us',
-    phone: '989-354-1700',
-    officials: [
-      { name: 'Cindy Johnson', title: 'Mayor', party: null },
-      { name: 'Karol Walchak', title: 'Mayor Pro Tem', party: null },
-    ],
-  },
-
   Ludington: {
     name: 'City of Ludington',
     website: 'https://www.ludington.mi.us',
@@ -2883,19 +2873,6 @@ export const MI_CITY_OFFICIALS = {
       { name: 'Norman Barlow', title: 'Council Member (3rd Ward)', party: null },
       { name: 'Jacquie McLean', title: 'Council Member (4th Ward)', party: null },
       { name: 'Jordan Brehm', title: 'Council Member (4th Ward)', party: null },
-    ],
-  },
-
-  Greenville: {
-    name: 'City of Greenville',
-    website: 'https://www.greenvillemi.org',
-    phone: '616-754-5645',
-    officials: [
-      { name: 'Carey Winters', title: 'Mayor', party: null },
-      { name: 'Phil Reno', title: 'Mayor Pro Tem', party: null },
-      { name: 'Norm Phelps', title: 'Council Member', party: null },
-      { name: 'Nathan Bocks', title: 'Council Member', party: null },
-      { name: 'Jason Prime', title: 'Council Member', party: null },
     ],
   },
 
@@ -3497,95 +3474,9 @@ export const MI_CITY_OFFICIALS = {
 
   /* ── Montcalm County cities ── */
 
-  'Greenville': {
-    name: 'City of Greenville',
-    county: 'Montcalm',
-    website: 'https://greenvillemi.org',
-    officials: [
-      { name: 'Jeff Scoby', title: 'Mayor', party: null },
-      { name: 'Claude Johnson', title: 'Mayor Pro-Tem', party: null },
-      { name: 'James Barrus', title: 'Council Member', party: null },
-      { name: 'Michael Mangus', title: 'Council Member', party: null },
-      { name: 'Dave Seppala', title: 'Council Member', party: null },
-      { name: 'Larry Moss', title: 'Council Member', party: null },
-      { name: 'Jay McBride', title: 'Council Member', party: null },
-    ],
-  },
-
-  'Stanton': {
-    name: 'City of Stanton',
-    county: 'Montcalm',
-    website: 'https://stantononline.com',
-    officials: [
-      { name: 'Bill Ferguson', title: 'Mayor', party: null },
-      { name: 'Jane Basom', title: 'Mayor Pro-Tem', party: null },
-      { name: 'Lewis Corwin', title: 'Commissioner', party: null },
-      { name: 'Ray Holloway', title: 'Commissioner', party: null },
-      { name: 'Tamara Kuhn', title: 'Commissioner', party: null },
-      { name: 'Jacky McGill', title: 'Commissioner', party: null },
-      { name: 'Charles Miel', title: 'Commissioner', party: null },
-    ],
-  },
-
-  'Carson City': {
-    name: 'City of Carson City',
-    county: 'Montcalm',
-    website: 'https://carsoncitymi.com',
-    officials: [
-      { name: 'Neil Kapustka', title: 'Mayor', party: null },
-      { name: 'Chad Parmenter', title: 'Mayor Pro-Tem', party: null },
-      { name: 'Kyle Miller', title: 'Council Member', party: null },
-      { name: 'David Gage', title: 'Council Member', party: null },
-      { name: 'Lezlie Hauck', title: 'Council Member', party: null },
-      { name: 'Kurt Keiffer', title: 'Council Member', party: null },
-      { name: 'Deb McCrackin', title: 'Council Member', party: null },
-    ],
-  },
-
   /* ── Osceola County cities ── */
 
-  'Reed City': {
-    name: 'City of Reed City',
-    county: 'Osceola',
-    website: 'https://www.reedcity.org/mayor-and-city-council.php',
-    officials: [
-      { name: 'Roger W. Meinert', title: 'Mayor', party: null },
-      { name: 'Trevor Guiles', title: 'Mayor Pro Tem', party: null },
-      { name: 'Nathan Bailey', title: 'Councilor', party: null },
-      { name: 'Charles Lupo', title: 'Councilor', party: null },
-      { name: 'Bradley Nixon', title: 'Councilor', party: null },
-      { name: 'Nicole Woodside', title: 'Councilor', party: null },
-      { name: 'James Anderlohr', title: 'Councilor', party: null },
-    ],
-  },
-
-  'Evart': {
-    name: 'City of Evart',
-    county: 'Osceola',
-    website: 'https://www.evart.org/city_government/city_council_and_mayor.php',
-    officials: [
-      { name: 'Roger Elkins', title: 'Mayor', party: null },
-      { name: 'Sandra Szeliga', title: 'Mayor Pro Tem', party: null },
-      { name: 'Ralph Carlson', title: 'Council Member', party: null },
-      { name: 'Mike Fulton', title: 'Council Member', party: null },
-      { name: 'Tina Young', title: 'Council Member', party: null },
-    ],
-  },
-
   /* ── Mecosta County cities ── */
-
-  'Big Rapids': {
-    name: 'City of Big Rapids',
-    county: 'Mecosta',
-    website: 'https://www.cityofbr.org/government/boards_and_commission/city_commission.php',
-    officials: [
-      { name: 'Fred Guenther', title: 'Mayor', party: null },
-      { name: 'Amanda Johnson', title: 'Commissioner', party: null },
-      { name: 'David Rhodes', title: 'Commissioner', party: null },
-      { name: 'Karen Simmon', title: 'Commissioner', party: null },
-      { name: 'Lorraine James', title: 'Commissioner', party: null },
-    ],
-  },
 
   'McBain': {
     name: 'City of McBain',
@@ -3636,19 +3527,6 @@ export const MI_CITY_OFFICIALS = {
 
   /* ── Midland County cities ── */
 
-  'Midland': {
-    name: 'City of Midland',
-    county: 'Midland',
-    website: 'https://www.cityofmidlandmi.gov',
-    officials: [
-      { name: 'Maureen Donker', title: 'Mayor (Ward 2)', party: null },
-      { name: 'Diane Brown Wilhelm', title: 'Mayor Pro Tem (Ward 4)', party: null },
-      { name: 'Tim Soler', title: 'Council Member (Ward 1)', party: null },
-      { name: 'Dave Pasek', title: 'Council Member (Ward 3)', party: null },
-      { name: 'Marty Wazbinski', title: 'Council Member (Ward 5)', party: null },
-      { name: 'Brad Kaye', title: 'City Manager', party: null },
-    ],
-  },
   'Coleman': {
     name: 'City of Coleman',
     county: 'Midland',
@@ -4127,7 +4005,7 @@ export const MI_CITY_OFFICIALS = {
 
   /* ── New cities from Cowork (138 cities, compiled 2026-05-21) ── */
 
-'Albion': {
+  'Albion': {
     name: 'City of Albion',
     website: 'https://www.cityofalbionmi.gov',
     phone: '517-629-5535',
@@ -6130,6793 +6008,13580 @@ export const MI_CITY_OFFICIALS = {
 /* ── Township officials ── */
 
 export const MI_TOWNSHIP_OFFICIALS = {
-  Georgetown: {
-    name: 'Georgetown Township',
-    website: 'https://www.gtwp.com',
-    phone: '616-457-2340',
-    officials: [
-      { name: 'Jim Wierenga', title: 'Supervisor', party: 'Republican' },
-      { name: 'Kelly Kuiper', title: 'Clerk', party: 'Republican' },
-      { name: 'Gene DeWitt', title: 'Treasurer', party: 'Republican' },
-      { name: 'Amy Grasman', title: 'Trustee', party: null },
-      { name: 'John Schwalm', title: 'Trustee', party: null },
-      { name: 'Kevin Kelly', title: 'Trustee', party: null },
-      { name: 'Gary Veldink', title: 'Trustee', party: null },
-    ],
-  },
-
-  Holland: {
-    name: 'Holland Charter Township',
-    website: 'https://hct.holland.mi.us',
-    phone: '616-396-2345',
-    officials: [
-      { name: 'Russ TeSlaa', title: 'Supervisor', party: 'Republican' },
-      { name: 'Michael Dalman', title: 'Clerk', party: 'Republican' },
-      { name: 'Vince Bush', title: 'Treasurer', party: 'Republican' },
-      { name: 'Elliott Church', title: 'Trustee', party: null },
-      { name: 'Dave DeYoung', title: 'Trustee', party: null },
-      { name: 'Gretchen Molotky', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Ottawa County townships ── */
-
-  'Allendale Charter': {
-    name: 'Allendale Charter Township',
-    county: 'Ottawa',
-    website: 'https://allendalemi.gov/',
-    phone: '616-892-5592',
-    officials: [
-      { name: 'Adam Elenbaas', title: 'Supervisor', party: null },
-      { name: 'Jody L. Hansen', title: 'Clerk', party: null },
-      { name: 'David Vander Wall', title: 'Treasurer', party: null },
-      { name: 'Ken Smit', title: 'Trustee', party: null },
-      { name: 'Mikal MacDonald', title: 'Trustee', party: null },
-      { name: 'Kris Schuitema', title: 'Trustee', party: null },
-      { name: 'Bruce Zeinstra', title: 'Trustee', party: null },
-    ],
-  },
-
-  Blendon: {
-    name: 'Blendon Township',
-    county: 'Ottawa',
-    website: 'https://www.blendontownship-mi.gov/',
-    phone: '616-896-6525',
-    officials: [
-      { name: 'Don Vander Kuyl', title: 'Supervisor', party: null },
-      { name: 'Robin Overway', title: 'Clerk', party: null },
-      { name: "Steven O'Connell", title: 'Treasurer', party: null },
-      { name: 'Jeff Meyer', title: 'Trustee', party: null },
-      { name: 'Trisha Henderson', title: 'Trustee', party: null },
-    ],
-  },
-
-  Chester: {
-    name: 'Chester Township',
-    county: 'Ottawa',
-    website: 'https://www.chester-twp.org/',
-    phone: '616-899-5544',
-    officials: [
-      { name: 'Troy Goodno', title: 'Supervisor', party: null },
-      { name: 'Helen Dietrich', title: 'Clerk', party: null },
-      { name: 'Lisa Denhof', title: 'Treasurer', party: null },
-      { name: 'Mike Dunnuck', title: 'Trustee', party: null },
-      { name: 'Dale Fedewa', title: 'Trustee', party: null },
-    ],
-  },
-
-  Crockery: {
-    name: 'Crockery Township',
-    county: 'Ottawa',
-    website: 'https://crockerytownship.gov/',
-    phone: '616-842-8622',
-    officials: [
-      { name: 'Erik Erhorn', title: 'Supervisor', party: null },
-      { name: 'Kathy Buchanan', title: 'Clerk', party: null },
-      { name: 'Judy VanBemmelen', title: 'Treasurer', party: null },
-      { name: 'Ryan Kelly', title: 'Trustee', party: null },
-      { name: 'Richard Suchecki', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Grand Haven Charter': {
-    name: 'Grand Haven Charter Township',
-    county: 'Ottawa',
-    website: 'https://ghtmi.gov/',
-    phone: '616-842-5988',
-    officials: [
-      { name: 'Mark Reenders', title: 'Supervisor', party: null },
-      { name: 'Laurie Larsen', title: 'Clerk', party: null },
-      { name: 'William Kieft III', title: 'Treasurer', party: null },
-      { name: 'Howard Behm', title: 'Trustee', party: null },
-      { name: 'Andrea Dumbrell', title: 'Trustee', party: null },
-      { name: 'Joy Gaasch', title: 'Trustee', party: null },
-      { name: 'Bob Wagenmaker', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Jamestown Charter': {
-    name: 'Jamestown Charter Township',
-    county: 'Ottawa',
-    website: 'https://twp.jamestown.mi.us/',
-    phone: '616-896-8376',
-    officials: [
-      { name: 'Laurie VanHaitsma', title: 'Supervisor', party: null },
-      { name: 'Candy DeHaan', title: 'Clerk', party: null },
-      { name: 'Scott Brouwer', title: 'Treasurer', party: null },
-      { name: 'Ben Miller', title: 'Trustee', party: null },
-      { name: 'Tim Tacoma', title: 'Trustee', party: null },
-      { name: 'Wade Windemuller', title: 'Trustee', party: null },
-      { name: 'Tom Wolfert', title: 'Trustee', party: null },
-    ],
-  },
-
-  Olive: {
-    name: 'Olive Township',
-    county: 'Ottawa',
-    website: 'https://www.olivetownship.org/',
-    phone: '616-786-9996',
-    officials: [
-      { name: 'Al Nienhuis', title: 'Supervisor', party: null },
-      { name: 'Lona Bronkema', title: 'Clerk', party: null },
-      { name: 'Randy Vander Zwaag', title: 'Treasurer', party: null },
-      { name: 'Matt Nienhuis', title: 'Trustee', party: null },
-      { name: 'Dan Raak', title: 'Trustee', party: null },
-    ],
-  },
-
-  Park: {
-    name: 'Park Township',
-    county: 'Ottawa',
-    website: 'https://parktownship.org/',
-    phone: '616-399-4520',
-    officials: [
-      { name: 'Steve Spoelhof', title: 'Supervisor', party: null },
-      { name: 'Joan Zeerip', title: 'Clerk', party: null },
-      { name: 'Jan Steggerda', title: 'Treasurer', party: null },
-      { name: 'Shar Clark', title: 'Trustee', party: null },
-      { name: 'Jim Gerard', title: 'Trustee', party: null },
-      { name: 'Bryan Jones', title: 'Trustee', party: null },
-      { name: 'Loran Serne', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Polkton Charter': {
-    name: 'Polkton Charter Township',
-    county: 'Ottawa',
-    website: 'https://polktontownship.com/',
-    phone: '616-837-6876',
-    officials: [
-      { name: 'Ted Costigan', title: 'Supervisor', party: null },
-      { name: 'Jamie TenBrink', title: 'Clerk', party: null },
-      { name: 'Robin Liszewski', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Port Sheldon': {
-    name: 'Port Sheldon Township',
-    county: 'Ottawa',
-    website: 'https://www.portsheldontwp.org/',
-    officials: [
-      { name: 'Mike Sabatino', title: 'Supervisor', party: null },
-      { name: 'Meredith Hemmeke', title: 'Clerk', party: null },
-      { name: 'Rachel Frantom', title: 'Treasurer', party: null },
-      { name: 'Luke DeVries', title: 'Trustee', party: null },
-      { name: 'Bill Monhollon', title: 'Trustee', party: null },
-    ],
-  },
-
-  Robinson: {
-    name: 'Robinson Township',
-    county: 'Ottawa',
-    website: 'https://robinsontwpmi.gov/',
-    phone: '616-846-2210',
-    officials: [
-      { name: 'Adam MacMillan', title: 'Supervisor', party: null },
-      { name: 'Victoria Sund', title: 'Clerk', party: null },
-      { name: 'Jamie Tubergen', title: 'Treasurer', party: null },
-      { name: 'Steven Ambrose', title: 'Trustee', party: null },
-      { name: 'Ben Ipema', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Spring Lake Twp': {
-    name: 'Spring Lake Township',
-    county: 'Ottawa',
-    website: 'https://springlaketwp.org/',
-    phone: '616-842-1340',
-    officials: [
-      { name: 'Jerry Rabideau', title: 'Supervisor', party: null },
-      { name: 'H. Carolyn Boersma', title: 'Clerk', party: null },
-      { name: 'Jim Koster', title: 'Treasurer', party: null },
-      { name: 'Cathy Pavick', title: 'Trustee', party: null },
-      { name: 'Ande Scherf', title: 'Trustee', party: null },
-      { name: 'Jack Schroeder', title: 'Trustee', party: null },
-      { name: 'Molly Ziegler', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Tallmadge Charter': {
-    name: 'Tallmadge Charter Township',
-    county: 'Ottawa',
-    website: 'https://tallmadge.com/',
-    phone: '616-994-4501',
-    officials: [
-      { name: 'Mark Bennett', title: 'Supervisor', party: null },
-      { name: 'Karina Rollenhagen', title: 'Clerk', party: null },
-      { name: 'Valdyne R. Schwallier', title: 'Treasurer', party: null },
-      { name: 'Michael Eppink', title: 'Trustee', party: null },
-      { name: 'Joel Terpstra', title: 'Trustee', party: null },
-      { name: 'John Bronkema', title: 'Trustee', party: null },
-      { name: 'Kent Bollinger', title: 'Trustee', party: null },
-    ],
-  },
-
-  Wright: {
-    name: 'Wright Township',
-    county: 'Ottawa',
-    website: 'https://wrighttownshipottawami.gov/',
-    phone: '616-677-3048',
-    officials: [
-      { name: 'Steve VanTimmeren', title: 'Supervisor', party: null },
-      { name: 'Theresa Frank', title: 'Clerk', party: null },
-      { name: 'Sharyl Dietrich', title: 'Treasurer', party: null },
-      { name: 'Brad Anderson', title: 'Trustee', party: null },
-      { name: 'Rick Schoenborn', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Zeeland Charter': {
-    name: 'Zeeland Charter Township',
-    county: 'Ottawa',
-    website: 'https://www.zeelandtwp.org/',
-    phone: '616-772-6701',
-    officials: [
-      { name: 'Kerri Bosma', title: 'Supervisor', party: null },
-      { name: 'Brian VanDussen', title: 'Clerk', party: null },
-      { name: 'Melissa Veldheer', title: 'Treasurer', party: null },
-      { name: 'Jeff Salisbury', title: 'Trustee', party: null },
-      { name: 'Dave Barry', title: 'Trustee', party: null },
-      { name: 'Scott Beute', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Wayne County townships ── */
-
-  Canton: {
-    name: 'Canton Township',
-    website: 'https://www.canton-mi.org',
-    phone: '734-394-5100',
-    officials: [
-      { name: 'Anne Marie Graham-Hudak', title: 'Supervisor', party: 'Democratic', phone: '734-394-5185' },
-      { name: 'Michael Siegrist', title: 'Clerk', party: 'Democratic', phone: '734-394-5120' },
-      { name: 'Dian Slavens', title: 'Treasurer', party: 'Democratic', phone: '734-394-5130' },
-      { name: 'Sommer Foster', title: 'Trustee', party: 'Democratic' },
-      { name: 'Steven Sneideman', title: 'Trustee', party: 'Democratic' },
-      { name: 'Kate Borninski', title: 'Trustee', party: 'Democratic' },
-      { name: 'Tania Ganguly', title: 'Trustee', party: 'Democratic' },
-    ],
-  },
-
-  Redford: {
-    name: 'Redford Township',
-    website: 'https://www.redfordtwp.com',
-    phone: '313-387-2700',
-    officials: [
-      { name: 'Pat McRae', title: 'Supervisor', party: 'Republican', phone: '313-387-2761' },
-      { name: 'Garth Christie', title: 'Clerk', party: 'Republican', phone: '313-387-2750' },
-      { name: 'Lily Cavanagh', title: 'Treasurer', party: 'Republican', phone: '313-387-2780' },
-      { name: 'Jerry Barterian', title: 'Trustee', party: null },
-      { name: 'James R. Brown', title: 'Trustee', party: null },
-      { name: 'Joanne McHale', title: 'Trustee', party: null },
-      { name: 'Tracey Schultz Kobylarz', title: 'Trustee', party: null },
-    ],
-  },
-
-  Plymouth: {
-    name: 'Plymouth Township',
-    website: 'https://www.plymouthtwp.org',
-    phone: '734-354-3200',
-    officials: [
-      { name: 'Kurt Heise', title: 'Supervisor', party: 'Republican', phone: '734-354-3201' },
-      { name: 'Jerry Vorva', title: 'Clerk', party: 'Republican', phone: '734-354-3224' },
-      { name: 'Mark Clinton', title: 'Treasurer', party: 'Republican', phone: '734-354-3214' },
-      { name: 'Gary Heitman', title: 'Trustee', party: null },
-      { name: 'John Stewart', title: 'Trustee', party: null },
-      { name: 'Paul Wojciechowski', title: 'Trustee', party: null },
-      { name: 'Shannon Price', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Macomb County townships ── */
-
-  Clinton: {
-    name: 'Clinton Township',
-    website: 'https://www.clintontownship.com',
-    phone: '586-286-9313',
-    officials: [
-      { name: 'Kim Meltzer', title: 'Supervisor', party: 'Democratic', phone: '586-286-9301' },
-      { name: 'Jennifer Lilla', title: 'Clerk', party: 'Democratic', phone: '586-286-9313' },
-      { name: 'Paul Gieleghem', title: 'Treasurer', party: 'Democratic', phone: '586-286-9390' },
-      { name: 'Michael Keys', title: 'Trustee', party: null },
-      { name: 'Larry Tocco', title: 'Trustee', party: null },
-      { name: 'Mike Maitner', title: 'Trustee', party: null },
-      { name: 'Dean Reynolds', title: 'Trustee', party: null },
-    ],
-  },
-
-  Shelby: {
-    name: 'Shelby Township',
-    website: 'https://www.shelbytwp.org',
-    phone: '586-731-5100',
-    officials: [
-      { name: 'Rick Stathakis', title: 'Supervisor', party: 'Republican', phone: '586-731-5101' },
-      { name: 'Stanley Grot', title: 'Clerk', party: 'Republican', phone: '586-731-5102' },
-      { name: 'Darlene Streicher', title: 'Treasurer', party: 'Republican', phone: '586-731-5103' },
-      { name: 'David E. Larkin', title: 'Trustee', party: null },
-      { name: 'John Vermeersch', title: 'Trustee', party: null },
-      { name: 'Doug Wozniak', title: 'Trustee', party: null },
-      { name: 'Michael Borg', title: 'Trustee', party: null },
-    ],
-  },
-
-  Macomb: {
-    name: 'Macomb Township',
-    website: 'https://www.macomb-mi.gov',
-    phone: '586-992-0710',
-    officials: [
-      { name: 'Frank Viviano', title: 'Supervisor', party: 'Republican', phone: '586-992-0710' },
-      { name: 'Kristi Pozzi', title: 'Clerk', party: 'Republican', phone: '586-992-0712' },
-      { name: 'Lauren Young', title: 'Treasurer', party: 'Republican', phone: '586-992-0720' },
-      { name: 'Charles Oliver', title: 'Trustee', party: null },
-      { name: 'Peter Lucido III', title: 'Trustee', party: null },
-      { name: 'Janet Dunn', title: 'Trustee', party: null },
-      { name: 'Joe Kowalski', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Oakland County townships ── */
-
-  Waterford: {
-    name: 'Waterford Township',
-    website: 'https://www.waterfordmi.gov',
-    phone: '248-674-6211',
-    officials: [
-      { name: 'Gary Wall', title: 'Supervisor', party: 'Republican', phone: '248-674-6201' },
-      { name: 'Margaret Birch', title: 'Clerk', party: 'Republican', phone: '248-674-6211' },
-      { name: 'Margaret Holwell', title: 'Treasurer', party: 'Republican', phone: '248-674-6220' },
-      { name: 'Anthony Bartolotta', title: 'Trustee', party: null },
-      { name: 'Karen Joliat', title: 'Trustee', party: null },
-      { name: 'Arthur Picard', title: 'Trustee', party: null },
-      { name: 'Steve Thomas', title: 'Trustee', party: null },
-    ],
-  },
-
-  'West Bloomfield': {
-    name: 'West Bloomfield Township',
-    website: 'https://www.wbtwp.com',
-    phone: '248-451-4800',
-    officials: [
-      { name: 'Steve Kaplan', title: 'Supervisor', party: 'Democratic', phone: '248-451-4801' },
-      { name: 'Debbie Binder', title: 'Clerk', party: 'Democratic', phone: '248-451-4848' },
-      { name: 'Teri Weingarden', title: 'Treasurer', party: 'Democratic', phone: '248-451-4860' },
-      { name: 'Terry Galvin', title: 'Trustee', party: null },
-      { name: 'Sheilah Seaton McWatt', title: 'Trustee', party: null },
-      { name: 'Howard Rosenberg', title: 'Trustee', party: null },
-      { name: 'Steven Lindberg', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Washtenaw County townships ── */
-
-  Pittsfield: {
-    name: 'Pittsfield Charter Township',
-    website: 'https://www.pittsfield-mi.gov',
-    phone: '734-822-3135',
-    officials: [
-      { name: 'Mandy Grewal', title: 'Supervisor', party: 'Democratic', email: 'mgrewal@pittsfield-mi.gov', phone: '734-822-3135' },
-      { name: 'Michelle Anzaldi', title: 'Clerk', party: 'Democratic', email: 'manzaldi@pittsfield-mi.gov', phone: '734-822-3120' },
-      { name: 'Patricia Tupacz Scribner', title: 'Treasurer', party: 'Democratic', email: 'ptscribner@pittsfield-mi.gov', phone: '734-822-3130' },
-      { name: 'Yameen Jaffer', title: 'Trustee', party: 'Democratic' },
-      { name: 'Gerald Krone', title: 'Trustee', party: 'Democratic' },
-      { name: 'Linda Edwards-Brown', title: 'Trustee', party: 'Democratic' },
-      { name: 'Matthew Hitchingham', title: 'Trustee', party: 'Democratic' },
-    ],
-  },
-
-  Superior: {
-    name: 'Superior Charter Township',
-    website: 'https://www.superiortownship.org',
-    phone: '734-482-6099',
-    officials: [
-      { name: 'Ken Schwartz', title: 'Supervisor', party: 'Democratic', phone: '734-482-6099' },
-      { name: 'Lynette Findley', title: 'Clerk', party: 'Democratic', phone: '734-482-6099' },
-      { name: 'Lisa Lewis', title: 'Treasurer', party: 'Democratic', phone: '734-482-6099' },
-      { name: 'Rhonda McGill', title: 'Trustee', party: null },
-      { name: 'Nancy Caviston', title: 'Trustee', party: null },
-      { name: 'Bernice Lindke', title: 'Trustee', party: null },
-      { name: 'Alex Williams', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Ingham County townships ── */
-
-  Meridian: {
-    name: 'Meridian Charter Township',
-    website: 'https://www.meridian.mi.us',
-    phone: '517-853-4000',
-    officials: [
-      { name: 'Patricia Herring Jackson', title: 'Supervisor', party: 'Democratic', phone: '517-853-4560' },
-      { name: 'Deborah Guthrie', title: 'Clerk', party: 'Democratic', phone: '517-853-4300' },
-      { name: 'Julie Brixie', title: 'Treasurer', party: 'Democratic', phone: '517-853-4400' },
-      { name: 'Dan Opsommer', title: 'Trustee', party: null },
-      { name: 'Kathy Sundland', title: 'Trustee', party: null },
-      { name: 'Phil Deschaine', title: 'Trustee', party: null },
-      { name: 'Mary Helou', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Delhi Charter': {
-    name: 'Delhi Charter Township',
-    website: 'https://www.delhitownship.com',
-    phone: '517-694-7760',
-    officials: [
-      { name: 'John Hayhoe', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Evan Hope', title: 'Clerk', party: 'Democratic' },
-      { name: 'Andrew Arens', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Stuart Goodrich', title: 'Trustee', party: null },
-      { name: 'Pat Brown', title: 'Trustee', party: null },
-      { name: 'Marcy Bishop', title: 'Trustee', party: null },
-      { name: 'Mary Vitale', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Lansing Charter': {
-    name: 'Lansing Charter Township',
-    website: 'https://www.lansingtownship.org',
-    phone: '517-485-4063',
-    officials: [
-      { name: 'Maggie Sanders', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Susan Estes', title: 'Clerk', party: 'Democratic' },
-      { name: 'Megan Cochran', title: 'Treasurer', party: 'Democratic' },
-      { name: 'John Daher', title: 'Trustee', party: null },
-      { name: 'Diontrae Hayes', title: 'Trustee', party: null },
-      { name: 'Beth Rodgers', title: 'Trustee', party: null },
-      { name: 'David Hines', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Eaton County townships ── */
-
-  'Delta Charter': {
-    name: 'Delta Charter Township',
-    website: 'https://www.deltami.gov',
-    phone: '517-323-8590',
-    officials: [
-      { name: 'Ken Fletcher', title: 'Supervisor', party: 'Republican' },
-      { name: 'Mary Clark', title: 'Clerk', party: 'Republican' },
-      { name: 'Howard Pizzo', title: 'Treasurer', party: 'Republican' },
-      { name: 'Fonda Brewer', title: 'Trustee', party: null },
-      { name: 'Andrea Cascarilla', title: 'Trustee', party: null },
-      { name: 'Dennis Fedewa', title: 'Trustee', party: null },
-      { name: 'Karen Mojica', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Genesee County townships ── */
-
-  'Grand Blanc': {
-    name: 'Grand Blanc Township',
-    website: 'https://www.grandblanctwp.com',
-    phone: '810-424-2600',
-    officials: [
-      { name: 'Scott Bennett', title: 'Supervisor', party: 'Republican' },
-      { name: 'Cathy Lane', title: 'Clerk', party: 'Republican' },
-      { name: 'Tonya Ketzler', title: 'Treasurer', party: 'Republican' },
-      { name: 'Earl Wortley', title: 'Trustee', party: null },
-      { name: 'Gary Going', title: 'Trustee', party: null },
-      { name: 'Lonnie Adkins', title: 'Trustee', party: null },
-      { name: 'James Wilkinson', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Flint': {
-    name: 'Flint Township',
-    website: 'https://www.flinttownship.org',
-    phone: '810-732-5200',
-    officials: [
-      { name: 'Karyn Miller', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Kathy Funk', title: 'Clerk', party: 'Democratic' },
-      { name: 'Tracey Tucker', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Tom & Cathy Wise', title: 'Trustee', party: null },
-      { name: 'Mark Swartz', title: 'Trustee', party: null },
-      { name: 'Frank Mardeusz', title: 'Trustee', party: null },
-      { name: 'George Menoutes', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Jackson County townships ── */
-
-  Summit: {
-    name: 'Summit Township',
-    website: 'https://www.summittwp.com',
-    phone: '517-782-5765',
-    officials: [
-      { name: 'James Dunn', title: 'Supervisor', party: 'Republican' },
-      { name: 'Betty Morrissett', title: 'Clerk', party: 'Republican' },
-      { name: 'Shelley Brasher', title: 'Treasurer', party: 'Republican' },
-      { name: 'Sharon Kulenkamp', title: 'Trustee', party: null },
-      { name: 'Jeff Delaney', title: 'Trustee', party: null },
-      { name: 'Mark Owen', title: 'Trustee', party: null },
-      { name: 'Mike Knott', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Kalamazoo County townships ── */
-
-  'Comstock Charter': {
-    name: 'Comstock Charter Township',
-    website: 'https://www.comstockmi.gov',
-    phone: '269-381-2360',
-    officials: [
-      { name: 'Randy Thompson', title: 'Supervisor', party: 'Republican' },
-      { name: 'Colleen Knight', title: 'Clerk', party: 'Republican' },
-      { name: 'Bret Padgett', title: 'Treasurer', party: 'Republican' },
-      { name: 'Jim Thomas', title: 'Trustee', party: null },
-      { name: 'Russ DeYoung', title: 'Trustee', party: null },
-      { name: 'Carl Engstrom', title: 'Trustee', party: null },
-      { name: 'Judy Bisceglia', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Texas Charter': {
-    name: 'Texas Charter Township',
-    website: 'https://www.texastownship.org',
-    phone: '269-375-1591',
-    officials: [
-      { name: 'Dave Gemmill', title: 'Supervisor', party: 'Republican' },
-      { name: 'Joanna Boekeloo', title: 'Clerk', party: 'Republican' },
-      { name: 'Nathan Mehney', title: 'Treasurer', party: 'Republican' },
-      { name: 'Brian Ayers', title: 'Trustee', party: null },
-      { name: 'Val Foster', title: 'Trustee', party: null },
-      { name: 'Doug Stover', title: 'Trustee', party: null },
-      { name: 'Greg Kamer', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Oshtemo Charter': {
-    name: 'Oshtemo Charter Township',
-    website: 'https://www.oshtemo.org',
-    phone: '269-375-4260',
-    officials: [
-      { name: 'Libby Heiny-Cogswell', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Dusty Farmer', title: 'Clerk', party: 'Democratic' },
-      { name: 'Clare Buszka', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Zak Ford', title: 'Trustee', party: null },
-      { name: 'Kizzy Bradford', title: 'Trustee', party: null },
-      { name: 'Neil Sikora', title: 'Trustee', party: null },
-      { name: 'Cheri Bell', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Kent County townships ── */
-
-  Byron: {
-    name: 'Byron Township',
-    website: 'https://www.byrontownship.org',
-    phone: '616-878-9104',
-    officials: [
-      { name: 'Audrey Damoose', title: 'Supervisor', party: 'Republican' },
-      { name: 'Bob Dykstra', title: 'Clerk', party: 'Republican' },
-      { name: 'Peter VanTuinen', title: 'Treasurer', party: 'Republican' },
-      { name: 'Josh Grignon', title: 'Trustee', party: null },
-      { name: 'Tammy Meyers', title: 'Trustee', party: null },
-      { name: 'Adam DeVore', title: 'Trustee', party: null },
-      { name: 'Chris Bloem', title: 'Trustee', party: null },
-    ],
-  },
-
-  Alpine: {
-    name: 'Alpine Township',
-    website: 'https://www.alpinetwp.org',
-    phone: '616-784-1262',
-    officials: [
-      { name: 'Alex Arends', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jean Hoffman', title: 'Clerk', party: 'Republican' },
-      { name: 'William Schweitzer', title: 'Treasurer', party: 'Republican' },
-      { name: 'Jim May', title: 'Trustee', party: null },
-      { name: 'Ron Cordes', title: 'Trustee', party: null },
-      { name: 'Gary DeJong', title: 'Trustee', party: null },
-      { name: 'Todd Herweyer', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Cascade Charter': {
-    name: 'Cascade Charter Township',
-    website: 'https://www.cascadetwp.com',
-    phone: '616-949-1500',
-    officials: [
-      { name: 'Harry Baergen', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jennifer Antel', title: 'Clerk', party: 'Republican' },
-      { name: 'Sandra Korhorn', title: 'Treasurer', party: 'Republican' },
-      { name: 'Tom McDonald', title: 'Trustee', party: null },
-      { name: 'Pam Barrows', title: 'Trustee', party: null },
-      { name: 'Jack Lewis', title: 'Trustee', party: null },
-      { name: 'Rob Beahan', title: 'Trustee', party: null },
-    ],
-  },
-
-  Ada: {
-    name: 'Ada Township',
-    website: 'https://www.adamichigan.org',
-    phone: '616-676-9191',
-    county: 'Kent',
-    officials: [
-      { name: 'Thomas Korth', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jo DeMarco', title: 'Clerk', party: 'Republican' },
-      { name: 'Kevin Moran', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  Algoma: {
-    name: 'Algoma Township',
-    website: 'https://www.algomatwp.org',
-    phone: '616-866-1583',
-    county: 'Kent',
-    officials: [
-      { name: 'Kevin Green', title: 'Supervisor', party: 'Republican' },
-      { name: 'Tim Spitler', title: 'Clerk', party: 'Republican' },
-      { name: 'Eric Alderman', title: 'Treasurer', party: 'Republican' },
-      { name: 'Elizabeth Johnson', title: 'Trustee', party: null },
-      { name: 'Gordon Pickerd', title: 'Trustee', party: null },
-      { name: 'James Powell', title: 'Trustee', party: null },
-      { name: 'Steve Rikkers', title: 'Trustee', party: null },
-    ],
-  },
-
-  Bowne: {
-    name: 'Bowne Township',
-    website: 'https://www.bownetwp.org',
-    phone: '616-868-6846',
-    county: 'Kent',
-    officials: [
-      { name: 'Randy Wilcox', title: 'Supervisor', party: 'Republican' },
-      { name: 'Karen Hendrick', title: 'Clerk', party: 'Republican' },
-      { name: 'Bonnie Lent-Davis', title: 'Treasurer', party: 'Republican' },
-      { name: 'Leigh Chick', title: 'Trustee', party: 'Republican' },
-      { name: 'Bob Flynn', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Caledonia Charter': {
-    name: 'Caledonia Charter Township',
-    website: 'https://www.caledoniatownship.org',
-    phone: '616-891-0070',
-    county: 'Kent',
-    officials: [
-      { name: 'Bryan Harrison', title: 'Supervisor', party: 'Republican' },
-      { name: 'Joni Henry', title: 'Clerk', party: 'Republican' },
-      { name: 'Richard Robertson', title: 'Treasurer', party: 'Republican' },
-      { name: 'Tim Bradshaw', title: 'Trustee', party: 'Republican' },
-      { name: 'Dale Hermenet', title: 'Trustee', party: 'Republican' },
-      { name: 'Richard Snoeyink', title: 'Trustee', party: 'Republican' },
-      { name: 'Greg Zoller', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  Cannon: {
-    name: 'Cannon Township',
-    website: 'https://www.cannontwp.gov',
-    phone: '616-874-6966',
-    county: 'Kent',
-    officials: [
-      { name: 'Steve Grimm', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jim Alles', title: 'Clerk', party: 'Republican' },
-      { name: 'David Spencer', title: 'Treasurer', party: 'Republican' },
-      { name: 'Jessica Gutowski-Slaydon', title: 'Trustee', party: null },
-      { name: 'Todd Olson', title: 'Trustee', party: null },
-      { name: 'Henry Betten', title: 'Trustee', party: null },
-      { name: 'Cy Balk', title: 'Trustee', party: null },
-    ],
-  },
-
-  Courtland: {
-    name: 'Courtland Township',
-    website: 'https://www.courtlandtwpmi.gov',
-    phone: '616-866-0622',
-    county: 'Kent',
-    officials: [
-      { name: 'Matt McConnon', title: 'Supervisor', party: 'Republican' },
-      { name: 'Susan Hartman', title: 'Clerk', party: 'Republican' },
-      { name: 'Colleen Brown', title: 'Treasurer', party: 'Republican' },
-      { name: 'Kimberly McIntyre', title: 'Trustee', party: 'Republican' },
-      { name: 'Charles Porter', title: 'Trustee', party: 'Republican' },
-      { name: 'David Thomas', title: 'Trustee', party: 'Republican' },
-      { name: 'Rachel Crowther', title: 'Trustee', party: 'Democratic' },
-    ],
-  },
-
-  'Gaines Charter': {
-    name: 'Gaines Charter Township',
-    website: 'https://www.gainestownship.org',
-    phone: '616-698-6640',
-    county: 'Kent',
-    officials: [
-      { name: 'Jenna Pilkington', title: 'Supervisor', party: 'Republican' },
-      { name: 'Michael Brew', title: 'Clerk', party: 'Republican' },
-      { name: 'Laurie Lemke', title: 'Treasurer', party: 'Republican' },
-      { name: 'Robert DeWard', title: 'Trustee', party: 'Republican' },
-      { name: 'Dan Fryling', title: 'Trustee', party: 'Republican' },
-      { name: 'Tim Haagsma', title: 'Trustee', party: 'Republican' },
-      { name: 'Kathy Vander Stel', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Grand Rapids Charter Twp': {
-    name: 'Grand Rapids Charter Township',
-    website: 'https://www.grandrapidstwp.org',
-    phone: '616-361-7391',
-    county: 'Kent',
-    officials: [
-      { name: 'Michael DeVries', title: 'Supervisor', party: 'Republican' },
-      { name: 'Ed Robinette', title: 'Clerk', party: null },
-      /* UNVERIFIED: treasurer not confirmed via web search — check grandrapidstwp.org/staff */
-    ],
-  },
-
-  Grattan: {
-    name: 'Grattan Township',
-    website: 'https://www.grattantownship.org',
-    phone: '616-691-8450',
-    county: 'Kent',
-    officials: [
-      { name: 'Franklin Force', title: 'Supervisor', party: 'Republican' },
-      { name: 'Michelle Alberts', title: 'Clerk', party: 'Republican' },
-      { name: 'Sabrina Freeman', title: 'Treasurer', party: 'Republican' },
-      { name: 'Dennis Heffron', title: 'Trustee', party: 'Republican' },
-      { name: 'Paul Knoerl', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Lowell Charter': {
-    name: 'Lowell Charter Township',
-    website: 'https://www.lowelltwp.org',
-    phone: '616-897-7600',
-    county: 'Kent',
-    officials: [
-      { name: 'Jerry Hale', title: 'Supervisor', party: null },
-      { name: 'Monica Burtt', title: 'Clerk', party: null },
-      { name: 'Ronda Benedict', title: 'Treasurer', party: 'Republican' },
-      { name: 'Mark Anderson', title: 'Trustee', party: 'Republican' },
-      { name: 'Carlton Blough', title: 'Trustee', party: 'Republican' },
-      { name: 'William Thompson', title: 'Trustee', party: 'Republican' },
-      { name: 'Andy Vander Ziel', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  Nelson: {
-    name: 'Nelson Township',
-    website: 'https://www.nelsontownship.org',
-    phone: '616-636-5332',
-    county: 'Kent',
-    officials: [
-      { name: 'Robyn Britton', title: 'Supervisor', party: 'Republican' },
-      { name: 'Andrea Carr', title: 'Clerk', party: 'Republican' },
-      { name: 'Katy Austin', title: 'Treasurer', party: 'Republican' },
-      { name: 'Curtis DeJong', title: 'Trustee', party: 'Republican' },
-      { name: 'Daniel George', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  Oakfield: {
-    name: 'Oakfield Township',
-    website: 'https://www.oakfieldtwp.org',
-    phone: '616-754-5679',
-    county: 'Kent',
-    officials: [
-      { name: 'Darcia Kelley', title: 'Supervisor', party: null },
-      { name: 'Sue Trainer', title: 'Clerk', party: null },
-      { name: 'Betsy Koett', title: 'Treasurer', party: null },
-      { name: 'David Howard', title: 'Trustee', party: 'Republican' },
-      { name: 'Pamela Riker', title: 'Trustee', party: 'Republican' },
-      { name: 'Kenneth Rittersdorf', title: 'Trustee', party: 'Republican' },
-      { name: 'Chad Sowerby', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Plainfield Charter': {
-    name: 'Plainfield Charter Township',
-    website: 'https://www.plainfieldmi.org',
-    county: 'Kent',
-    officials: [
-      { name: 'Thomas Coleman', title: 'Supervisor', party: 'Republican' },
-      { name: 'Cathleen Postmus', title: 'Clerk', party: 'Republican' },
-      { name: 'William Brinkman Jr.', title: 'Treasurer', party: 'Republican' },
-      { name: 'Kathy Batey', title: 'Trustee', party: null },
-      { name: 'Jack Hagedorn', title: 'Trustee', party: null },
-      { name: 'Frank Pfaff', title: 'Trustee', party: null },
-      { name: 'Susan Morrow', title: 'Trustee', party: null },
-    ],
-  },
-
-  Solon: {
-    name: 'Solon Township',
-    website: 'https://www.solontwp.org',
-    phone: '616-696-1718',
-    county: 'Kent',
-    officials: [
-      { name: 'Robert Ellick', title: 'Supervisor', party: 'Republican' },
-      { name: 'Dorothy Willoughby', title: 'Clerk', party: 'Republican' },
-      { name: 'AJ Anielski', title: 'Treasurer', party: 'Republican' },
-      { name: 'Mark Hoskins', title: 'Trustee', party: 'Republican' },
-      { name: 'Jon Stout', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Sparta Twp': {
-    name: 'Sparta Township',
-    website: 'https://spartatownship.org',
-    phone: '616-887-8863',
-    county: 'Kent',
-    officials: [
-      { name: 'Dale Bergman', title: 'Supervisor', party: null },
-      { name: 'Marcy Savage', title: 'Clerk', party: null },
-      { name: 'Ashley Johnson', title: 'Treasurer', party: null },
-      { name: 'Jason Bradford', title: 'Trustee', party: 'Republican' },
-      { name: 'William Goodfellow', title: 'Trustee', party: 'Republican' },
-      { name: 'Barbara Johnson', title: 'Trustee', party: 'Republican' },
-      { name: 'Robert Steffens', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  Spencer: {
-    name: 'Spencer Township',
-    website: 'https://spencertwpmi.gov',
-    phone: '616-984-0035',
-    county: 'Kent',
-    officials: [
-      { name: 'Jeff Knapp', title: 'Supervisor', party: null },
-      { name: 'Lisa Wright', title: 'Clerk', party: null },
-      { name: 'Scott Baas', title: 'Treasurer', party: null },
-      { name: 'Chris Lange', title: 'Trustee', party: 'Republican' },
-      { name: 'Andrea Roberts', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Tyrone Twp (Kent)': {
-    name: 'Tyrone Township',
-    website: 'https://www.tyronetownship.us',
-    phone: '616-947-7818',
-    county: 'Kent',
-    officials: [
-      { name: 'Greg Carnes', title: 'Supervisor', party: 'Republican' },
-      { name: 'Pam Moughler', title: 'Clerk', party: 'Republican' },
-      { name: 'Jennifer Eden', title: 'Treasurer', party: 'Republican' },
-      { name: 'Herman Ferguson', title: 'Trustee', party: 'Republican' },
-      { name: 'Dean Haas', title: 'Trustee', party: 'Republican' },
-      { name: 'Chris Ropeta', title: 'Trustee', party: 'Republican' },
-      { name: 'Zach Tucker', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  Vergennes: {
-    name: 'Vergennes Township',
-    website: 'https://vergennestwpmi.gov',
-    phone: '616-897-5671',
-    county: 'Kent',
-    officials: [
-      { name: 'Tim Wittenbach', title: 'Supervisor', party: null },
-      { name: 'Shantell Ford', title: 'Clerk', party: null },
-      { name: 'Sherry Richmond', title: 'Treasurer', party: null },
-    ],
-  },
-
-  /* ── Oakland County townships ── */
-
-  'Springfield Charter': {
-    name: 'Springfield Charter Township',
-    website: 'https://www.springfield-twp.us',
-    phone: '248-846-6510',
-    officials: [
-      { name: 'Laura Moreau', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jennifer Whitteaker', title: 'Clerk', party: 'Republican' },
-      { name: 'Jamie Dubre', title: 'Treasurer', party: 'Republican' },
-      { name: 'Judy Hensler', title: 'Trustee', party: null },
-      { name: 'Dennis Vallad', title: 'Trustee', party: null },
-      { name: 'David Hopper', title: 'Trustee', party: null },
-      { name: 'Marc Cooper', title: 'Trustee', party: null },
-    ],
-  },
-
-  Independence: {
-    name: 'Independence Township',
-    website: 'https://www.twp.independence.mi.us',
-    phone: '248-625-5111',
-    officials: [
-      { name: 'Pat Kittle', title: 'Supervisor', party: 'Republican' },
-      { name: 'Cari Neubeck', title: 'Clerk', party: 'Republican' },
-      { name: 'Paul Brown', title: 'Treasurer', party: 'Republican' },
-      { name: 'Ron Ritchie', title: 'Trustee', party: null },
-      { name: 'Sam Moraco', title: 'Trustee', party: null },
-      { name: 'Jose Aliaga', title: 'Trustee', party: null },
-      { name: 'Terri Nallamothu', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Commerce Charter': {
-    name: 'Commerce Charter Township',
-    website: 'https://www.commercetwp.com',
-    phone: '248-624-0110',
-    officials: [
-      { name: 'Scott Sadler', title: 'Supervisor', party: 'Republican' },
-      { name: 'Mike Lasley', title: 'Clerk', party: 'Republican' },
-      { name: 'Debbi Eimer', title: 'Treasurer', party: 'Republican' },
-      { name: 'George Weber', title: 'Trustee', party: null },
-      { name: 'Robert Long', title: 'Trustee', party: null },
-      { name: 'Barbara Garland', title: 'Trustee', party: null },
-      { name: 'Ron Dahlstrom', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Wayne County townships ── */
-
-  Northville: {
-    name: 'Northville Township',
-    website: 'https://www.northvillemich.com',
-    phone: '248-348-5800',
-    officials: [
-      { name: 'Mark Abbo', title: 'Supervisor', party: 'Republican' },
-      { name: 'Marjorie Banner', title: 'Clerk', party: 'Republican' },
-      { name: 'Jason Rhines', title: 'Treasurer', party: 'Republican' },
-      { name: 'Mindy Herrmann', title: 'Trustee', party: null },
-      { name: 'Chris Roosen', title: 'Trustee', party: null },
-      { name: 'Scott Instruments', title: 'Trustee', party: null },
-      { name: 'Mary Gallagher', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Van Buren': {
-    name: 'Van Buren Township',
-    website: 'https://www.vanburen-mi.org',
-    phone: '734-699-8900',
-    officials: [
-      { name: 'Kevin McNamara', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Leon Wright', title: 'Clerk', party: 'Democratic' },
-      { name: 'Sharry Budd', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Paul White', title: 'Trustee', party: null },
-      { name: 'Sherry Catallo', title: 'Trustee', party: null },
-      { name: 'Reggie Miller', title: 'Trustee', party: null },
-      { name: 'Kevin Martin', title: 'Trustee', party: null },
-    ],
-  },
-
-  Brownstown: {
-    name: 'Brownstown Township',
-    website: 'https://www.brownstown-mi.org',
-    phone: '734-675-0390',
-    officials: [
-      { name: 'Warren Pearl', title: 'Supervisor', party: 'Republican' },
-      { name: 'Dennis Bortolotti', title: 'Clerk', party: 'Republican' },
-      { name: 'Kelly Roberts', title: 'Treasurer', party: 'Republican' },
-      { name: 'Brian Samulski', title: 'Trustee', party: null },
-      { name: 'Christine Taylor', title: 'Trustee', party: null },
-      { name: 'Ronald Anstead', title: 'Trustee', party: null },
-      { name: 'Joanne Lee', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Saginaw County townships ── */
-
-  'Saginaw Charter': {
-    name: 'Saginaw Charter Township',
-    website: 'https://www.saginawtownship.org',
-    phone: '989-791-9830',
-    officials: [
-      { name: 'Tim Braun', title: 'Supervisor', party: 'Republican' },
-      { name: 'Amy Hahn', title: 'Clerk', party: 'Republican' },
-      { name: 'Monica Price', title: 'Treasurer', party: 'Republican' },
-      { name: 'Kyle Harris', title: 'Trustee', party: null },
-      { name: 'Jim Graham', title: 'Trustee', party: null },
-      { name: 'Phil Karwat', title: 'Trustee', party: null },
-      { name: 'Bill Rienstra', title: 'Trustee', party: null },
-    ],
-  },
-
-  Thomas: {
-    name: 'Thomas Township',
-    website: 'https://www.thomastwp.org',
-    phone: '989-781-0150',
-    officials: [
-      { name: 'Steve Elkins', title: 'Supervisor', party: 'Republican' },
-      { name: 'Linda Coombs', title: 'Clerk', party: 'Republican' },
-      { name: 'Dawn Kelley', title: 'Treasurer', party: 'Republican' },
-      { name: 'Andy Wenger', title: 'Trustee', party: null },
-      { name: 'William Saxton', title: 'Trustee', party: null },
-      { name: 'Larry Lee', title: 'Trustee', party: null },
-      { name: 'Dave Sommers', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Grand Traverse County townships ── */
-
-  'Acme': {
-    name: 'Acme Township',
-    county: 'Grand Traverse',
-    website: 'https://www.acmetownship.org/',
-    officials: [
-      { name: 'Doug White', title: 'Supervisor', party: null },
-      { name: 'Lisa Swanson', title: 'Clerk', party: null },
-      { name: 'Amy Jenema', title: 'Treasurer', party: null },
-      { name: 'Aaron Wylie', title: 'Trustee', party: null },
-      { name: 'Paul Scott', title: 'Trustee', party: null },
-      { name: 'Dale Stevens', title: 'Trustee', party: null },
-      { name: 'Dave Hoxsie', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Blair': {
-    name: 'Blair Township',
-    county: 'Grand Traverse',
-    website: 'https://www.blairtownshipmi.gov/',
-    officials: [
-      { name: 'Nicole Blonshine', title: 'Supervisor', party: null },
-      { name: 'Lynette Wolfgang', title: 'Clerk', party: null },
-      { name: 'Tracie Campbell', title: 'Treasurer', party: null },
-      { name: 'Andy Nickerson', title: 'Trustee', party: null },
-      { name: 'Preston Taylor', title: 'Trustee', party: null },
-      { name: 'Roger Zeits', title: 'Trustee', party: null },
-      { name: 'Carl Kucera', title: 'Trustee', party: null },
-    ],
-  },
-
-  'East Bay': {
-    name: 'East Bay Township',
-    county: 'Grand Traverse',
-    website: 'https://www.eastbaytwp.org',
-    officials: [
-      { name: 'Beth Friend', title: 'Supervisor', party: null },
-      { name: 'Susanne Courtade', title: 'Clerk', party: null },
-      { name: 'Tracey Bartlett', title: 'Treasurer', party: null },
-      { name: 'Mindy Walters', title: 'Trustee', party: null },
-      { name: 'Glen Lile', title: 'Trustee', party: null },
-      { name: 'Matt Courtade', title: 'Trustee', party: null },
-      { name: 'Matt Cook', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Fife Lake': {
-    name: 'Fife Lake Township',
-    county: 'Grand Traverse',
-    website: 'https://fifelaketwp.com/',
-    officials: [
-      { name: 'Lisa Radtke', title: 'Supervisor', party: null },
-      { name: 'Annie Allen', title: 'Clerk', party: null },
-      { name: 'Cathy Sorrow', title: 'Treasurer', party: null },
-      { name: 'Dawn Zimmerman', title: 'Trustee', party: null },
-      { name: 'Jayme Werner', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Garfield Twp (Grand Traverse)': {
-    name: 'Garfield Township',
-    county: 'Grand Traverse',
-    website: 'https://www.garfield-twp.com',
-    officials: [
-      { name: 'Joe McManus', title: 'Supervisor', party: null },
-      { name: 'Lanie McManus', title: 'Clerk', party: null },
-      { name: 'Chloe Macomber', title: 'Treasurer', party: null },
-      { name: 'Molly Agostinelli', title: 'Trustee', party: null },
-      { name: 'Laurie Lapp', title: 'Trustee', party: null },
-      { name: 'Denise Schmuckal', title: 'Trustee', party: null },
-      { name: 'Chuck Korn', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Grant Twp (Grand Traverse)': {
-    name: 'Grant Township',
-    county: 'Grand Traverse',
-    website: 'https://grant-grdtraverse.com/',
-    officials: [
-      { name: 'Crystal Breithaupt', title: 'Supervisor', party: null },
-      { name: 'Lisa Willett', title: 'Clerk', party: null },
-      { name: 'Beth Svec', title: 'Treasurer', party: null },
-      { name: 'Kyle Rector', title: 'Trustee', party: null },
-      { name: 'Doug Moyer', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Green Lake': {
-    name: 'Green Lake Township',
-    county: 'Grand Traverse',
-    website: 'https://www.gogreenlake.org/',
-    officials: [
-      { name: 'Marvin Radtke Jr.', title: 'Supervisor', party: null },
-      { name: 'Judith Kramer', title: 'Clerk', party: null },
-      { name: 'Andy Marek', title: 'Treasurer', party: null },
-      { name: 'Paul Biondo', title: 'Trustee', party: null },
-      { name: 'David Bieganowski', title: 'Trustee', party: null },
-      { name: 'Pat McDonald', title: 'Trustee', party: null },
-      { name: 'Sherry West', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Long Lake': {
-    name: 'Long Lake Township',
-    county: 'Grand Traverse',
-    website: 'https://longlaketownship.com/',
-    officials: [
-      { name: 'Ron Lemcool', title: 'Supervisor', party: null },
-      { name: 'Ronda Robinson', title: 'Clerk', party: null },
-      { name: 'Kendra Balderach', title: 'Treasurer', party: null },
-      { name: 'Duane Schaub', title: 'Trustee', party: null },
-      { name: 'Linda Wheelock', title: 'Trustee', party: null },
-      { name: 'Dan Wagner', title: 'Trustee', party: null },
-      { name: 'Kevin Severt', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Mayfield': {
-    name: 'Mayfield Township',
-    county: 'Grand Traverse',
-    website: 'http://mayfieldtwp.com/',
-    officials: [
-      { name: 'Dan Engleman', title: 'Supervisor', party: null },
-      { name: 'Julie Schlaud', title: 'Clerk', party: null },
-      { name: 'Dan Frisch', title: 'Treasurer', party: null },
-      { name: 'Cheryl Kile', title: 'Trustee', party: null },
-      { name: 'Chris Maasch', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Paradise': {
-    name: 'Paradise Township',
-    county: 'Grand Traverse',
-    website: 'https://www.paradisetwp.org/',
-    officials: [
-      { name: 'Rob Lajko', title: 'Supervisor', party: null },
-      { name: 'Lisa Gulliver', title: 'Clerk', party: null },
-      { name: 'Anne Smith', title: 'Treasurer', party: null },
-      { name: 'Jennifer Graham', title: 'Trustee', party: null },
-      { name: 'Jeff Wallace', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Peninsula': {
-    name: 'Peninsula Township',
-    county: 'Grand Traverse',
-    website: 'https://www.peninsulatownship.com/',
-    officials: [
-      { name: 'Maura Sanders', title: 'Supervisor', party: null },
-      { name: 'Becky Chown', title: 'Clerk', party: null },
-      { name: 'Katie Clark', title: 'Treasurer', party: null },
-      { name: 'Julie Alexander', title: 'Trustee', party: null },
-      { name: 'J.P. Milliken', title: 'Trustee', party: null },
-      { name: 'David Sanger', title: 'Trustee', party: null },
-      { name: 'Isaiah Wunsch', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Union Twp (Grand Traverse)': {
-    name: 'Union Township',
-    county: 'Grand Traverse',
-    website: 'https://uniontownshipgt.com/',
-    officials: [
-      { name: 'Doug Mansfield', title: 'Supervisor', party: null },
-      { name: 'Sheryl Tillitson', title: 'Clerk', party: null },
-      { name: 'Keri Boughner', title: 'Treasurer', party: null },
-      { name: 'Kellie Fuelling', title: 'Trustee', party: null },
-      { name: 'Janine Jung', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Whitewater': {
-    name: 'Whitewater Township',
-    county: 'Grand Traverse',
-    website: 'https://www.whitewatertownshipmi.gov/',
-    officials: [
-      { name: 'Linda Slopsema', title: 'Supervisor', party: null },
-      { name: 'Wendy Hoeksema', title: 'Clerk', party: null },
-      { name: 'Jill Koester', title: 'Treasurer', party: null },
-      { name: 'Tim Arends', title: 'Trustee', party: null },
-      { name: 'Randy Mielnik', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Wayne County townships ── */
-
-  Redford: {
-    name: 'Redford Township',
-    website: 'https://www.redfordtwp.com',
-    phone: '313-387-2700',
-    officials: [
-      { name: 'Pat McRae', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Garth Christie', title: 'Clerk', party: 'Democratic' },
-      { name: 'Dawn Duff', title: 'Treasurer', party: 'Democratic' },
-      { name: 'David Jordan', title: 'Trustee', party: null },
-      { name: 'Tracey Schultz-Kobylarz', title: 'Trustee', party: null },
-      { name: 'Jack Martin', title: 'Trustee', party: null },
-      { name: 'Joanne McHugh', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Huron Charter': {
-    name: 'Huron Charter Township',
-    website: 'https://www.hurontwp.com',
-    phone: '734-753-4070',
-    officials: [
-      { name: 'Everette Thomas', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Thomas & Associates', title: 'Clerk', party: null },
-      { name: 'Christine Williamson', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Sumpter: {
-    name: 'Sumpter Township',
-    website: 'https://www.sumptertwp.com',
-    phone: '734-461-6201',
-    officials: [
-      { name: 'John Morgan', title: 'Supervisor', party: null },
-      { name: 'Esther Hurst', title: 'Clerk', party: null },
-      { name: 'Peggy Bezy', title: 'Treasurer', party: null },
-    ],
-  },
-
-  /* ── Oakland County townships ── */
-
-  'West Bloomfield': {
-    name: 'West Bloomfield Township',
-    website: 'https://www.westbloomfieldtwp.com',
-    phone: '248-451-4800',
-    officials: [
-      { name: 'Steve Kaplan', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Deborah Binder', title: 'Clerk', party: 'Democratic' },
-      { name: 'Teri Weingarden', title: 'Treasurer', party: 'Democratic' },
-    ],
-  },
-
-  'Waterford': {
-    name: 'Waterford Township',
-    website: 'https://www.waterfordmi.gov',
-    phone: '248-674-5441',
-    officials: [
-      { name: 'Gary Wall', title: 'Supervisor', party: 'Republican' },
-      { name: 'Margaret Birch', title: 'Clerk', party: 'Republican' },
-      { name: 'Terri Bates', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  'Orion': {
-    name: 'Orion Township',
-    website: 'https://www.oriontownship.org',
-    phone: '248-391-0304',
-    officials: [
-      { name: 'Chris Barnett', title: 'Supervisor', party: 'Republican' },
-      { name: 'Penny Shults', title: 'Clerk', party: 'Republican' },
-      { name: 'Donni Steele', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  'Commerce Charter': {
-    name: 'Commerce Charter Township',
-    website: 'https://www.commercetwp.com',
-    phone: '248-624-0110',
-    officials: [
-      { name: 'Scott Philo', title: 'Supervisor', party: 'Republican' },
-      { name: 'Mike Gehrls', title: 'Clerk', party: 'Republican' },
-      { name: 'Natalie McCann', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  'Independence': {
-    name: 'Independence Township',
-    website: 'https://www.twp.independence.mi.us',
-    phone: '248-625-5111',
-    officials: [
-      { name: 'Pat Kittle', title: 'Supervisor', party: 'Republican' },
-      { name: 'Cari Neubeck', title: 'Clerk', party: 'Republican' },
-      { name: 'Paul Brown', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  'White Lake': {
-    name: 'White Lake Township',
-    website: 'https://www.whitelaketwp.com',
-    phone: '248-698-3300',
-    officials: [
-      { name: 'Rik Kowall', title: 'Supervisor', party: 'Republican' },
-      { name: 'Anthony Noble', title: 'Clerk', party: 'Republican' },
-      { name: 'Teresa Rutt', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  'Brandon': {
-    name: 'Brandon Township',
-    website: 'https://www.brandontownship.us',
-    phone: '248-627-2851',
-    officials: [
-      { name: 'Jayson Rumball', title: 'Supervisor', party: 'Republican' },
-      { name: 'Roselyn Blair', title: 'Clerk', party: 'Republican' },
-      { name: 'Jenny Bland', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  /* ── Livingston County townships ── */
-
-  'Genoa': {
-    name: 'Genoa Township',
-    website: 'https://www.genoa.org',
-    phone: '517-546-7200',
-    officials: [
-      { name: 'Bill Rogers', title: 'Supervisor', party: 'Republican' },
-      { name: 'Polly Skolarus', title: 'Clerk', party: 'Republican' },
-      { name: 'Robin Hunt', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  'Brighton': {
-    name: 'Brighton Township',
-    website: 'https://www.brightontwp.com',
-    phone: '810-229-0550',
-    officials: [
-      { name: 'Patrick Michel', title: 'Supervisor', party: 'Republican' },
-      { name: 'Ann Bollin', title: 'Clerk', party: 'Republican' },
-      { name: 'Teresa Morency', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  'Hamburg': {
-    name: 'Hamburg Township',
-    website: 'https://www.hamburg.mi.us',
-    phone: '810-231-1000',
-    officials: [
-      { name: 'Pat Hohl', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jim Neilson', title: 'Clerk', party: 'Republican' },
-      { name: 'Jason Negri', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  /* ── Monroe County townships ── */
-
-  'Bedford': {
-    name: 'Bedford Township',
-    website: 'https://www.bedfordtwp.org',
-    phone: '734-847-6791',
-    officials: [
-      { name: 'Paul Zarbaugh', title: 'Supervisor', party: 'Republican' },
-      { name: 'Trudy Hershberger', title: 'Clerk', party: 'Republican' },
-      { name: 'Krista Engelman', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  /* ── Berrien County townships ── */
-
-  'St. Joseph Charter': {
-    name: 'St. Joseph Charter Township',
-    website: 'https://www.sjtwp.org',
-    phone: '269-429-4517',
-    officials: [
-      { name: 'John Osiadacz', title: 'Supervisor', party: 'Republican' },
-      { name: 'Carol Stibitz', title: 'Clerk', party: 'Republican' },
-      { name: 'Jeff Frick', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  /* ── Calhoun County townships ── */
-
-  'Emmett Charter': {
-    name: 'Emmett Charter Township',
-    website: 'https://www.emmettchartertownship.org',
-    phone: '269-968-0581',
-    officials: [
-      { name: 'John Bippus', title: 'Supervisor', party: 'Republican' },
-      { name: 'Virginia Beard', title: 'Clerk', party: 'Republican' },
-      { name: 'Brittany Losey', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  /* ── Jackson County townships ── */
-
-  'Summit': {
-    name: 'Summit Township',
-    website: 'https://www.summittwp.com',
-    phone: '517-784-1025',
-    officials: [
-      { name: 'James Dunn', title: 'Supervisor', party: 'Republican' },
-      { name: 'Victoria Hamlin', title: 'Clerk', party: 'Republican' },
-      { name: 'Sandie Neumann', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  /* ── Genesee County townships ── */
-
-  'Flushing': {
-    name: 'Flushing Township',
-    website: 'https://www.flushingtwp.com',
-    phone: '810-659-0800',
-    officials: [
-      { name: 'Gary Deitering', title: 'Supervisor', party: 'Republican' },
-      { name: 'Julia Morford', title: 'Clerk', party: 'Republican' },
-      { name: 'Mark Purkey', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  'Grand Blanc Charter': {
-    name: 'Grand Blanc Charter Township',
-    website: 'https://www.grandblanctwp.com',
-    phone: '810-424-2600',
-    officials: [
-      { name: 'Scott Bennett', title: 'Supervisor', party: 'Republican' },
-      { name: 'Cathy Lane', title: 'Clerk', party: 'Republican' },
-      { name: 'Mike Zack', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  'Mundy': {
-    name: 'Mundy Township',
-    website: 'https://www.mundytownship.org',
-    phone: '810-744-1015',
-    officials: [
-      { name: 'Tonya Ketzler', title: 'Supervisor', party: 'Republican' },
-      { name: 'Tina Gambino', title: 'Clerk', party: 'Republican' },
-      { name: 'James Wojciechowski', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  /* ── Muskegon County townships ── */
-
-  'Blue Lake Twp': {
-    name: 'Blue Lake Township',
-    website: 'https://www.bluelaketownship.org',
-    phone: '231-894-6335',
-    officials: [
-      { name: 'Melonie Arbogast', title: 'Supervisor', party: null },
-      { name: 'Jeff Abram', title: 'Clerk', party: null },
-      { name: 'Debbie Therrian', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Casnovia Twp': {
-    name: 'Casnovia Township',
-    website: 'https://casnoviatownshipmi.gov',
-    phone: '616-675-4064',
-    officials: [
-      { name: 'Paul Black', title: 'Supervisor', party: null },
-      { name: 'Carrie Marlatt', title: 'Clerk', party: null },
-      { name: 'Penny Muma', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Cedar Creek': {
-    name: 'Cedar Creek Township',
-    website: 'https://www.cedarcreektownship.org',
-    phone: '231-821-0014',
-    officials: [
-      { name: 'Chuck Luttrull', title: 'Supervisor', party: null },
-      { name: 'Heather Delimata', title: 'Clerk', party: null },
-      { name: 'Heather Jarvis', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Dalton: {
-    name: 'Dalton Township',
-    website: 'https://daltonmi.gov',
-    phone: '231-766-3043',
-    officials: [
-      { name: 'Heather Petrie-Cooley', title: 'Supervisor', party: 'Republican' },
-      { name: 'Tracy L. DeMarse', title: 'Clerk', party: 'Democratic' },
-      { name: 'Kristy Houseman-Miles', title: 'Treasurer', party: 'Republican' },
-      { name: 'Michael Bennett', title: 'Trustee', party: 'Democratic' },
-      { name: 'Daniel Hess', title: 'Trustee', party: 'Democratic' },
-      { name: 'Eugene Kooi', title: 'Trustee', party: 'Republican' },
-      { name: 'Nola Twining', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  Egelston: {
-    name: 'Egelston Township',
-    website: 'https://www.egelstontwp.org',
-    phone: '231-788-2531',
-    officials: [
-      { name: 'Amanda Faino', title: 'Supervisor', party: null },
-      { name: 'Joan Raap', title: 'Clerk', party: null },
-      { name: 'Trudy Rosema', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Fruitland: {
-    name: 'Fruitland Township',
-    website: 'https://fruitlandmi.gov',
-    phone: '231-766-3208',
-    officials: [
-      { name: 'Jeff Marcinkowski', title: 'Supervisor', party: null },
-      { name: 'Alexa Steffes', title: 'Clerk', party: null },
-      { name: 'Justin Roggero', title: 'Treasurer', party: null },
-      { name: 'Brent Brower', title: 'Trustee', party: null },
-      { name: 'Sondra Cross', title: 'Trustee', party: null },
-      { name: 'Mike Holman', title: 'Trustee', party: null },
-      { name: 'Christopher VanOosterhout', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Fruitport Charter': {
-    name: 'Fruitport Charter Township',
-    website: 'https://fruitporttownship-mi.gov',
-    phone: '231-865-3151',
-    officials: [
-      { name: 'Todd Dunham', title: 'Supervisor', party: null },
-      { name: 'Andrea Anderson', title: 'Clerk', party: null },
-      { name: 'Rose Dillon', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Holton Twp': {
-    name: 'Holton Township',
-    website: 'https://holtontownship.com',
-    phone: '231-821-2168',
-    officials: [
-      { name: 'Amy Brookhouse', title: 'Supervisor', party: 'Republican' },
-      { name: 'Candy Murat', title: 'Clerk', party: 'Republican' },
-      { name: 'William Halbower', title: 'Treasurer', party: 'Democratic' },
-    ],
-  },
-
-  Laketon: {
-    name: 'Laketon Township',
-    website: 'https://laketontwpmi.gov',
-    phone: '231-744-2454',
-    officials: [
-      { name: 'Kim Arter', title: 'Supervisor', party: null },
-      { name: 'Christina Achterhoff', title: 'Clerk', party: null },
-      { name: 'Veronica S. West', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Montague Twp': {
-    name: 'Montague Township',
-    website: 'http://www.montaguetownship.com',
-    phone: '231-894-4414',
-    officials: [
-      { name: 'Jeff King', title: 'Supervisor', party: null },
-      { name: 'Drew Roesler', title: 'Clerk', party: null },
-      { name: 'Tracy Korthase', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Moorland: {
-    name: 'Moorland Township',
-    website: 'https://moorlandtwp.com',
-    phone: '231-861-6266',
-    officials: [
-      { name: 'Dan Nutt', title: 'Supervisor', party: null },
-      { name: 'Rose Spoelman', title: 'Clerk', party: null },
-      { name: 'Sabra Guy', title: 'Treasurer', party: null },
-      { name: 'Jake Tyers', title: 'Trustee', party: null },
-      { name: 'Anita Knapp', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Muskegon Charter': {
-    name: 'Muskegon Charter Township',
-    website: 'https://muskegontwpmi.gov',
-    phone: '231-777-2555',
-    officials: [
-      { name: 'Jennifer Hodges', title: 'Supervisor', party: null },
-      { name: 'Carrie Westbrook', title: 'Clerk', party: null },
-      { name: 'Lindsay Theile', title: 'Treasurer', party: null },
-      { name: 'Robert Grabinski', title: 'Trustee', party: null },
-      { name: 'Carolyn Jurecki', title: 'Trustee', party: null },
-      { name: 'Jenni Bowen', title: 'Trustee', party: null },
-      { name: 'Steve Browers', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Ravenna Twp': {
-    name: 'Ravenna Township',
-    website: 'https://www.ravennatwp.com',
-    phone: '231-853-6205',
-    officials: [
-      { name: 'Steven Patterson', title: 'Supervisor', party: 'Republican' },
-      { name: 'Penny Sherman', title: 'Clerk', party: null },
-      { name: 'Sonja K. Patterson', title: 'Treasurer', party: 'Republican' },
-    ],
-  },
-
-  Sullivan: {
-    name: 'Sullivan Township',
-    website: 'https://sullivantownship.com',
-    phone: '231-853-6900',
-    officials: [
-      { name: 'Courtney Glavich', title: 'Supervisor', party: null },
-      { name: 'Heather Brown', title: 'Clerk', party: null },
-      { name: 'Brooke VanHouten', title: 'Treasurer', party: null },
-      { name: 'Angela Himber', title: 'Trustee', party: null },
-      { name: 'Michael Hazekamp', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Whitehall Twp': {
-    name: 'Whitehall Township',
-    website: 'https://whitehalltwp.org',
-    phone: '231-893-2095',
-    officials: [
-      { name: 'Rhonda Boyd', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'White River': {
-    name: 'White River Township',
-    website: 'https://whiterivertwp.com',
-    phone: '231-894-6449',
-    officials: [
-      { name: 'Ron Bailey', title: 'Supervisor', party: null },
-      { name: 'Julie Goericke', title: 'Clerk', party: null },
-      { name: 'Mary Kriesel', title: 'Treasurer', party: null },
-      { name: 'Deb Harris', title: 'Trustee', party: null },
-      { name: 'Laura Anderson', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Montcalm County townships ── */
-
-  'Bloomer': {
-    name: 'Bloomer Township',
-    website: 'https://bloomertownship.org',
-    phone: '989-533-1096',
-    officials: [
-      { name: 'Dan Ryan', title: 'Supervisor', party: 'Republican' },
-      { name: 'Tara Chapko', title: 'Clerk', party: 'Republican' },
-      { name: 'Colleen Schneider', title: 'Treasurer', party: 'Republican' },
-      { name: 'Dana Gonzales', title: 'Trustee', party: 'Republican' },
-      { name: 'Larry Hummel', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Bushnell': {
-    name: 'Bushnell Township',
-    website: 'https://bushnelltownship.com',
-    phone: '989-248-3349',
-    officials: [
-      { name: 'Mike Fitzgerald', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Louise Belyou', title: 'Clerk', party: 'Republican' },
-      { name: 'Karron Bliss', title: 'Treasurer', party: null },
-      { name: 'Patrick Draper', title: 'Trustee', party: 'Republican' },
-      { name: 'Lori Daly', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Cato': {
-    name: 'Cato Township',
-    website: 'https://villageoflakeview.org/cato-township-information.php',
-    phone: '616-824-4568',
-    officials: [
-      { name: 'Brandi Clark-Hubbard', title: 'Supervisor', party: 'Republican' },
-      { name: 'Ginger Imhoff', title: 'Clerk', party: 'Republican' },
-      { name: 'Jamie Boehm', title: 'Treasurer', party: 'Republican' },
-      { name: 'David G. Behrenwald', title: 'Trustee', party: 'Republican' },
-      { name: 'Marcy Myers', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Crystal': {
-    name: 'Crystal Township',
-    website: 'https://crystal-township.com',
-    phone: '989-235-4170',
-    officials: [
-      { name: 'Curt McCracken', title: 'Supervisor', party: 'Republican' },
-      { name: 'Pat Baker-Marek', title: 'Clerk', party: 'Republican' },
-      { name: 'Alisha Little', title: 'Treasurer', party: 'Republican' },
-      { name: 'Vera Bogart', title: 'Trustee', party: 'Republican' },
-      { name: 'David Wight', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Day': {
-    name: 'Day Township',
-    website: 'https://daytownship.com',
-    phone: '989-304-0233',
-    officials: [
-      { name: 'Michael J. Rasmussen', title: 'Supervisor', party: 'Republican' },
-      { name: 'Krysti B. Perkins', title: 'Clerk', party: 'Republican' },
-      { name: 'Beth L. Bellows', title: 'Treasurer', party: 'Republican' },
-      { name: 'Brandon M. Gibson', title: 'Trustee', party: 'Republican' },
-      { name: 'Marcus Nelson', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Douglass': {
-    name: 'Douglass Township',
-    website: 'https://douglasstwp.org',
-    phone: '989-762-8014',
-    officials: [
-      { name: 'Kathy Rasmussen', title: 'Supervisor', party: null }, /* appointed Aug 2025 after Cindy Shick resigned */
-      { name: 'Holly Huff', title: 'Clerk', party: 'Republican' },
-      { name: 'Kristi Cordray', title: 'Treasurer', party: 'Independent' },
-      { name: 'Ken Bunting', title: 'Trustee', party: 'Republican' },
-      { name: 'Eric Tester', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Eureka': {
-    name: 'Eureka Charter Township',
-    website: 'https://eurekatownshipmi.gov',
-    phone: '616-754-5053',
-    officials: [
-      { name: 'Kristen Lower', title: 'Supervisor', party: 'Republican' },
-      { name: 'Linda Ruwersma', title: 'Clerk', party: 'Republican' },
-      { name: 'Cindy Hanson', title: 'Treasurer', party: 'Republican' },
-      { name: 'Shayne Becher', title: 'Trustee', party: 'Republican' },
-      { name: 'Paul Ruwersma', title: 'Trustee', party: null },
-      { name: 'Tim Johnson', title: 'Trustee', party: 'Republican' },
-      { name: 'Jeremy Austin', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Evergreen': {
-    name: 'Evergreen Township',
-    website: 'https://evergreen-township.com',
-    phone: '989-831-9043',
-    officials: [
-      { name: 'Andy Ross', title: 'Supervisor', party: 'Republican' },
-      { name: 'Kelli Greenhoe', title: 'Clerk', party: 'Republican' },
-      { name: 'Annette Fountain', title: 'Treasurer', party: 'Republican' },
-      { name: 'Mark Heintzelman', title: 'Trustee', party: 'Republican' },
-      { name: 'Laura Baker', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Fairplain': {
-    name: 'Fairplain Township',
-    website: 'https://www.montcalm.us/390/Fairplains-Township',
-    phone: '616-835-7677',
-    officials: [
-      { name: 'Thomas B. Sova', title: 'Supervisor', party: 'Republican' },
-      { name: 'Stacie Pribble', title: 'Clerk', party: 'Republican' },
-      { name: 'Randall Ross', title: 'Treasurer', party: 'Republican' },
-      { name: 'Brenda Sova', title: 'Trustee', party: 'Republican' },
-      { name: 'Gaylia Ross', title: 'Trustee', party: 'Democratic' },
-    ],
-  },
-
-  'Ferris': {
-    name: 'Ferris Township',
-    website: 'https://www.montcalm.us/394/Ferris-Township',
-    phone: '989-268-5313',
-    officials: [
-      { name: 'Randy Stearns', title: 'Supervisor', party: 'Republican' },
-      { name: 'Tammy Carter', title: 'Clerk', party: 'Republican' },
-      { name: 'Darrell Waldron', title: 'Treasurer', party: 'Republican' },
-      { name: 'Dan Calverley', title: 'Trustee', party: 'Republican' },
-      { name: 'Kevin Max Hills', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Home': {
-    name: 'Home Township',
-    website: 'https://hometownshipmontcalm.gov',
-    phone: '989-427-3092',
-    officials: [
-      { name: 'Cindy Stratton', title: 'Supervisor', party: 'Republican' },
-      { name: 'Kim Collins', title: 'Clerk', party: 'Republican' },
-      { name: 'Karen Nesbitt', title: 'Treasurer', party: 'Republican' },
-      { name: 'Chris Irwin', title: 'Trustee', party: 'Republican' },
-      { name: 'Gale Nesbitt', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Maple Valley': {
-    name: 'Maple Valley Township',
-    website: 'https://maplevalleytwpmi.gov',
-    phone: '231-354-6774',
-    officials: [
-      { name: 'Bruce Deur', title: 'Supervisor', party: null }, /* appointed interim after Dan Boes resigned Apr 2025 */
-      { name: 'Andi Knapp', title: 'Clerk', party: null },
-      { name: 'Meg Booth', title: 'Treasurer', party: null },
-      { name: 'Lee Frandsen', title: 'Trustee', party: 'Republican' },
-      { name: 'Tim Thornhill', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Montcalm Twp': {
-    name: 'Montcalm Township',
-    website: 'https://montcalmtownship.com',
-    phone: '616-754-5133',
-    officials: [
-      { name: 'Brian Blomstrom', title: 'Supervisor', party: 'Republican' },
-      { name: 'Christine Foley', title: 'Clerk', party: 'Republican' },
-      { name: 'Rosemary Hyde', title: 'Treasurer', party: 'Republican' },
-      { name: 'Brian Cousineau', title: 'Trustee', party: 'Republican' },
-      { name: 'Edward Hansen', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Pierson Twp': {
-    name: 'Pierson Township',
-    website: 'https://piersontwp.org',
-    phone: '616-636-8570',
-    officials: [
-      { name: 'Daniel J. Buyze', title: 'Supervisor', party: 'Republican' },
-      { name: 'Sara Burkholder', title: 'Clerk', party: 'Republican' },
-      { name: 'Lydia Orcutt', title: 'Treasurer', party: 'Republican' },
-      { name: 'Jason Bergman', title: 'Trustee', party: 'Republican' },
-      { name: 'Caleb Sower', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Pine': {
-    name: 'Pine Township',
-    website: 'https://pinetownship.net',
-    phone: '989-831-8803',
-    officials: [
-      { name: 'William Drews', title: 'Supervisor', party: 'Republican' },
-      { name: 'Marla Sprague', title: 'Clerk', party: 'Republican' },
-      { name: 'Misty VanGessel', title: 'Treasurer', party: 'Republican' },
-      { name: 'Darcy Krause', title: 'Trustee', party: 'Republican' },
-      { name: 'Rodney Palmer', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Reynolds': {
-    name: 'Reynolds Township',
-    website: 'https://reynoldstwp.com',
-    phone: '616-292-1859',
-    officials: [
-      { name: 'Aaron Kindel', title: 'Supervisor', party: 'Republican' },
-      { name: 'Robin Sholty', title: 'Clerk', party: 'Republican' },
-      { name: 'Roger Stedman', title: 'Treasurer', party: 'Republican' },
-      { name: 'Robert Bergstrom', title: 'Trustee', party: 'Republican' },
-      { name: 'David Saucier', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Richland': {
-    name: 'Richland Township',
-    website: 'https://richland-township.com',
-    phone: '989-268-5286',
-    officials: [
-      { name: 'Jody Penrod', title: 'Supervisor', party: 'Republican' },
-      { name: 'Laurie Darmody', title: 'Clerk', party: 'Republican' },
-      { name: 'Connie Marshall', title: 'Treasurer', party: 'Republican' },
-      { name: 'Scott Marshall', title: 'Trustee', party: 'Republican' },
-      { name: 'Cal Callison', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Sidney': {
-    name: 'Sidney Township',
-    website: 'https://sidneymi.gov',
-    phone: '989-328-3535',
-    officials: [
-      { name: 'Terry Peterman', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Carrie Wills', title: 'Clerk', party: 'Republican' },
-      { name: 'Corinda Stover', title: 'Treasurer', party: 'Republican' },
-      { name: 'Erik Benko', title: 'Trustee', party: 'Republican' },
-      { name: 'Ray Leyrer', title: 'Trustee', party: 'Democratic' },
-    ],
-  },
-
-  'Winfield': {
-    name: 'Winfield Township',
-    website: 'https://winfieldtownshipmi.gov',
-    phone: '231-636-1401',
-    officials: [
-      { name: 'Ryan VanSolkema', title: 'Supervisor', party: 'Republican' },
-      { name: 'CaroleSue Chase-Stout', title: 'Clerk', party: 'Independent' },
-      { name: 'Susan Majinska', title: 'Treasurer', party: 'Independent' },
-      { name: 'Kenneth Ek', title: 'Trustee', party: null },
-      { name: 'Theresa Bennett-Stratton', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  /* ── Mecosta County townships ── */
-
-  'Aetna': {
-    name: 'Aetna Township',
-    website: 'https://www.aetnatownshipmecosta.com',
-    phone: '231-856-4480',
-    officials: [
-      { name: 'Bruce Carey', title: 'Supervisor', party: 'Republican' },
-      { name: 'Bev McLaughlin', title: 'Clerk', party: 'Republican' },
-      { name: 'Amy Hillis-Ouellette', title: 'Treasurer', party: 'Republican' },
-      { name: 'Barbie Cornell', title: 'Trustee', party: null },
-      { name: 'Larry Platt', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Austin': {
-    name: 'Austin Township',
-    website: 'http://austintownship.org',
-    phone: '231-823-9704',
-    officials: [
-      { name: 'Kenn Vredenburg', title: 'Supervisor', party: 'Republican' },
-      { name: 'Billie Jean Barns', title: 'Clerk', party: 'Republican' },
-      { name: 'Carolyn K. Towsley', title: 'Treasurer', party: 'Democratic' },
-      { name: 'John Brockway', title: 'Trustee', party: null },
-      { name: 'Charles Sheldon', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Big Rapids Charter': {
-    name: 'Big Rapids Charter Township',
-    website: 'https://bigrapidstownshipmi.gov',
-    phone: '231-796-3603',
-    officials: [
-      { name: 'Bruce Borkovich', title: 'Supervisor', party: null },
-      { name: 'Hannah Saez', title: 'Clerk', party: null },
-      { name: 'Dena Marek', title: 'Treasurer', party: null },
-      { name: 'Jerry Everett', title: 'Trustee', party: null },
-      { name: 'Chris Teceno', title: 'Trustee', party: null },
-      { name: 'Joe Bechaz', title: 'Trustee', party: null },
-      { name: 'Ron Welch', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Chippewa': {
-    name: 'Chippewa Township',
-    website: 'https://www.chippewatwp.org',
-    phone: '231-867-3777',
-    officials: [
-      { name: 'Shirley Hazen', title: 'Supervisor', party: null },
-      { name: 'Kristin Lytle', title: 'Clerk', party: null },
-      { name: 'Julie Austin', title: 'Treasurer', party: null },
-      { name: 'Annette Walters', title: 'Trustee', party: null },
-      { name: 'Debra Zielinski', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Colfax': {
-    name: 'Colfax Township',
-    website: 'https://www.colfaxtwpmecosta.gov',
-    phone: '231-796-3122',
-    officials: [
-      { name: 'Nick Kaye', title: 'Supervisor', party: 'Republican' },
-      { name: 'Susan J. Olson', title: 'Clerk', party: 'Republican' },
-      { name: 'Julie L. Johansen', title: 'Treasurer', party: 'Republican' },
-      { name: 'William Burmeister', title: 'Trustee', party: 'Democratic' },
-      { name: 'Karen Morningstar', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Deerfield': {
-    name: 'Deerfield Township',
-    website: 'https://deerfieldmecosta.org',
-    phone: '231-856-7008',
-    officials: [
-      { name: 'Phil Stier', title: 'Supervisor', party: null },
-      { name: 'Michelle Lewis', title: 'Clerk', party: null },
-      { name: 'Sheila Lingle', title: 'Treasurer', party: null },
-      { name: 'Jamey Nelson', title: 'Trustee', party: null },
-      { name: 'Brian Carey II', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Fork': {
-    name: 'Fork Township',
-    website: 'https://forktownshipmichigan.com',
-    phone: '231-349-2803',
-    officials: [
-      { name: 'Lori Helmer', title: 'Supervisor', party: null },
-      { name: 'Roberta Hazen', title: 'Clerk', party: null },
-      { name: 'Patti McNeilly', title: 'Treasurer', party: null },
-      { name: 'Mitch Mackersie', title: 'Trustee', party: null },
-      { name: 'Dave Dowell', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Grant': {
-    name: 'Grant Township',
-    phone: '231-796-2106',
-    officials: [
-      { name: 'Cheryl Aris', title: 'Supervisor', party: 'Republican' },
-      { name: 'Lisa Cranney', title: 'Clerk', party: 'Republican' },
-      { name: 'Chuck Smalley', title: 'Treasurer', party: null },
-      { name: 'Nicholas Bentley', title: 'Trustee', party: 'Republican' },
-      { name: 'Travis Horstman', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Green Charter': {
-    name: 'Green Charter Township',
-    website: 'https://www.greentownship.org',
-    phone: '231-796-6201',
-    officials: [
-      { name: 'Jason Kruse', title: 'Supervisor', party: 'Republican' },
-      { name: 'Corri Riebow', title: 'Clerk', party: 'Republican' },
-      { name: 'Jilliane Walsh', title: 'Treasurer', party: 'Republican' },
-      { name: 'Kelly Cushway', title: 'Trustee', party: 'Republican' },
-      { name: 'Jeffrey Thorne', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Hinton': {
-    name: 'Hinton Township',
-    website: 'https://hintontownship.gov',
-    phone: '231-206-0350',
-    officials: [
-      { name: 'Wayne Sutherland', title: 'Supervisor', party: 'Republican' },
-      { name: 'Ruth Petersen', title: 'Clerk', party: 'Republican' },
-      { name: 'Jim Helms', title: 'Treasurer', party: 'Republican' },
-      { name: 'Carl Thompson', title: 'Trustee', party: 'Republican' },
-      { name: 'Brian Taylor', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Martiny': {
-    name: 'Martiny Township',
-    website: 'https://martinytownshipmi.gov',
-    phone: '231-867-3387',
-    officials: [
-      { name: 'Barbara Hampel', title: 'Supervisor', party: 'Republican' },
-      { name: 'Connie Grant', title: 'Clerk', party: 'Republican' },
-      { name: 'Lois Schmidt', title: 'Treasurer', party: 'Republican' },
-      { name: 'Cindy Lattimore', title: 'Trustee', party: null },
-      { name: 'Dale Dosenberry', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Mecosta Twp': {
-    name: 'Mecosta Township',
-    website: 'https://www.mecostatwp.org',
-    phone: '231-796-8935',
-    officials: [
-      { name: 'John A. Boyd', title: 'Supervisor', party: 'Republican' },
-      { name: 'Stephanie McNeal', title: 'Clerk', party: 'Republican' },
-      { name: 'Mary Quinlan', title: 'Treasurer', party: 'Republican' },
-      { name: 'James Cain', title: 'Trustee', party: 'Republican' },
-      { name: 'Tyler Huntey', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Millbrook': {
-    name: 'Millbrook Township',
-    phone: '989-561-2838',
-    officials: [
-      { name: 'Bruce Eldred', title: 'Supervisor', party: 'Republican' },
-      { name: 'Kaye M. Wisner', title: 'Clerk', party: 'Republican' },
-      { name: 'Tina Y. Murray', title: 'Treasurer', party: 'Republican' },
-      { name: 'Randy Spayd', title: 'Trustee', party: 'Republican' },
-      { name: 'Lenny Sorsen', title: 'Trustee', party: 'Democratic' },
-    ],
-  },
-
-  'Morton': {
-    name: 'Morton Township',
-    website: 'https://mortontownship.org',
-    phone: '231-972-7138',
-    officials: [
-      { name: 'Mark Klumpp', title: 'Supervisor', party: 'Republican' },
-      { name: 'Stephanie McNeal', title: 'Clerk', party: 'Republican' },
-      { name: 'Maureen Wolfe', title: 'Treasurer', party: null },
-      { name: 'Jeff Ratledge', title: 'Trustee', party: null },
-      { name: 'Yulanda Bellingar', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Sheridan Twp': {
-    name: 'Sheridan Township',
-    website: 'https://sheridantownship.com',
-    phone: '231-924-2566',
-    officials: [
-      { name: 'Vern E. Young', title: 'Supervisor', party: 'Republican' },
-      { name: 'Christina Martin', title: 'Clerk', party: 'Republican' },
-      { name: 'Rachel Borders', title: 'Treasurer', party: 'Republican' },
-      { name: 'Harry L. Hardenburgh', title: 'Trustee', party: 'Republican' },
-      { name: 'Johanna Hopkins', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Wheatland': {
-    name: 'Wheatland Township',
-    website: 'https://www.remus.org/wheatland-township',
-    phone: '989-967-8252',
-    officials: [
-      { name: 'Thomas L. Vansyckle', title: 'Supervisor', party: 'Republican' },
-      { name: 'Kim Thiel', title: 'Clerk', party: 'Republican' },
-      { name: 'Lee Carte', title: 'Trustee', party: 'Republican' },
-      { name: 'Ethan McNeal', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  /* ── Osceola County townships ── */
-
-  'Burdell': {
-    name: 'Burdell Township',
-    phone: '231-829-4049',
-    officials: [
-      { name: 'Dean Molnar', title: 'Supervisor', party: 'Republican' },
-      { name: 'Richard S. Dunlap', title: 'Clerk', party: 'Republican' },
-      { name: 'Mary E. Holmes', title: 'Treasurer', party: 'Republican' },
-      { name: 'Ted W. Mattson', title: 'Trustee', party: 'Republican' },
-      { name: 'Donna Molnar', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Cedar': {
-    name: 'Cedar Township',
-    phone: '231-832-3470',
-    officials: [
-      { name: 'Cynthia Gadbois', title: 'Supervisor', party: 'Republican' },
-      { name: 'Mary Clark', title: 'Clerk', party: 'Republican' },
-      { name: 'Heather Battle', title: 'Treasurer', party: 'Republican' },
-      { name: 'Kimberly Cool', title: 'Trustee', party: 'Republican' },
-      { name: 'Edward Lundborg', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Evart Twp': {
-    name: 'Evart Township',
-    officials: [
-      { name: 'Douglas Derscheid', title: 'Supervisor', party: 'Republican' },
-      { name: 'Denise L. Custer', title: 'Clerk', party: 'Democratic' },
-      { name: 'Martha Y. Hartman', title: 'Treasurer', party: 'Republican' },
-      { name: 'Chad L. Booher', title: 'Trustee', party: 'Republican' },
-      { name: 'Stephen Campbell', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Hartwick': {
-    name: 'Hartwick Township',
-    officials: [
-      { name: 'Randal VanBuren', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Shelley Muczynski', title: 'Clerk', party: 'Republican' },
-      { name: 'Michael J. Ritzer', title: 'Treasurer', party: 'Republican' },
-      { name: 'Jeffrey Neuman', title: 'Trustee', party: 'Republican' },
-      { name: 'Lawrence Reinardy', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Hersey Twp': {
-    name: 'Hersey Township',
-    officials: [
-      { name: 'Jason Daday', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Jennifer Verdi-Stieg', title: 'Clerk', party: 'Republican' },
-      { name: 'Mikhayla Black', title: 'Treasurer', party: 'Republican' },
-      { name: 'Diane Leichty', title: 'Trustee', party: 'Republican' },
-      { name: 'Rene L. Stieg', title: 'Trustee', party: 'Independent' },
-    ],
-  },
-
-  'Highland': {
-    name: 'Highland Township',
-    officials: [
-      { name: 'Derek Wing', title: 'Supervisor', party: 'Republican' },
-      { name: 'Larissa Avery', title: 'Clerk', party: 'Republican' },
-      { name: 'Tricia Wing', title: 'Treasurer', party: 'Independent' },
-      { name: 'Jed Avery', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'LeRoy Twp': {
-    name: 'LeRoy Township',
-    website: 'https://leroytwposceola.org',
-    phone: '231-580-7953',
-    officials: [
-      { name: 'Anja Wing', title: 'Supervisor', party: 'Republican' },
-      { name: 'Stacie Crozier Dvonch', title: 'Clerk', party: 'Republican' },
-      { name: 'Lori Leudeman', title: 'Treasurer', party: 'Republican' },
-      { name: 'Dan Cool', title: 'Trustee', party: 'Republican' },
-      { name: 'Dale Ruppert', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Lincoln Twp': {
+  'Alcona:Alcona': {
+    name: 'Alcona Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'Marlena MacNeill', title: 'Supervisor', phone: '(989) 727-3788', email: '' },
+      { name: 'Dawn LaLonde', title: 'Clerk', phone: '(989) 471-2948', email: '' },
+      { name: 'Tina Gauthier', title: 'Treasurer', phone: '(989) 471-2429', email: '' },
+      { name: 'James Bouchard', title: 'Trustee', phone: '(989) 255-7568', email: '' },
+      { name: 'Tony Bolanowski', title: 'Trustee', phone: '(989) 255-0459', email: '' }
+    ]
+  },
+  'Alcona:Caledonia': {
+    name: 'Caledonia Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'Cyndi Apsey', title: 'Supervisor', phone: '(989) 335-3018', email: '' },
+      { name: 'Cindy Smith', title: 'Clerk', phone: '(989) 464-2161', email: '' },
+      { name: 'Haylee Rondeau', title: 'Treasurer', phone: '(989) 471-2383', email: '' },
+      { name: 'Anthony Sobeck', title: 'Trustee', phone: '(989) 471-5377', email: '' },
+      { name: 'Thomas Tice', title: 'Trustee', phone: '(989) 464-5464', email: '' }
+    ]
+  },
+  'Alcona:Curtis': {
+    name: 'Curtis Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'Kevin Perry', title: 'Supervisor', phone: '(989) 735-4081', email: '' },
+      { name: 'Teresa Perkins', title: 'Clerk', phone: '(989) 735-4081', email: '' },
+      { name: 'Kathryn Bonner', title: 'Treasurer', phone: '(989) 735-3622', email: '' },
+      { name: 'Sherry Clouse', title: 'Trustee', phone: '(989) 735-4081', email: '' },
+      { name: 'Jennifer Petty', title: 'Trustee', phone: '(989) 735-4081', email: '' }
+    ]
+  },
+  'Alcona:Greenbush': {
+    name: 'Greenbush Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'C. Lee Major', title: 'Supervisor', phone: '(989) 254-1892', email: '' },
+      { name: 'Melissa Curth', title: 'Clerk', phone: '(989) 569-3519', email: '' },
+      { name: 'Theresa Kehoe', title: 'Treasurer', phone: '(989) 254-0883', email: '' },
+      { name: 'Mark Parent', title: 'Trustee', phone: '(989) 254-1838', email: '' },
+      { name: 'Steve Franks', title: 'Trustee', phone: '(989) 335-3197', email: '' }
+    ]
+  },
+  'Alcona:Gustin': {
+    name: 'Gustin Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'Pamela Ashford', title: 'Supervisor', phone: '(989) 335-3056', email: '' },
+      { name: 'Renee LaVergne', title: 'Clerk', phone: '(989) 335-0635', email: '' },
+      { name: 'Theodore Somers', title: 'Treasurer', phone: '(989) 335-0377', email: '' },
+      { name: 'Hannah Brege', title: 'Trustee', phone: '(989) 255-9906', email: '' },
+      { name: 'Denise Procunier', title: 'Trustee', phone: '(989) 335-0635', email: '' }
+    ]
+  },
+  'Alcona:Harrisville': {
+    name: 'Harrisville Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'Chad Spitznagel', title: 'Supervisor', phone: '(989) 335-1960', email: '' },
+      { name: 'Samantha Schott', title: 'Clerk', phone: '(989) 724-3029', email: '' },
+      { name: 'Carla Harvey', title: 'Treasurer', phone: '(989) 724-5867', email: '' },
+      { name: 'Steve Healy', title: 'Trustee', phone: '(989) 724-6388', email: '' },
+      { name: 'Andrew Feldhiser', title: 'Trustee', phone: '(989) 724-7056', email: '' }
+    ]
+  },
+  'Alcona:Hawes': {
+    name: 'Hawes Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'Rodney Cordes', title: 'Supervisor', phone: '(989) 736-8460', email: '' },
+      { name: 'Janette Richardson Stover', title: 'Clerk', phone: '(989) 736-6919', email: '' },
+      { name: 'Esther Budreau', title: 'Treasurer', phone: '(989) 736-8393', email: '' },
+      { name: 'Patrick Smylie', title: 'Trustee', phone: '(989) 335-4088', email: '' },
+      { name: 'Evelyn Gladhill', title: 'Trustee', phone: '(734) 218-4089', email: '' }
+    ]
+  },
+  'Alcona:Haynes': {
+    name: 'Haynes Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'James Effrick', title: 'Supervisor', phone: '(989) 736-6657', email: '' },
+      { name: 'Tamara Quick', title: 'Clerk', phone: '(989) 736-3650', email: '' },
+      { name: 'Ginger Campbell', title: 'Treasurer', phone: '(989) 335-8287', email: '' },
+      { name: 'James Quick', title: 'Trustee', phone: '(989) 724-6249', email: '' },
+      { name: 'Jesse Campbell', title: 'Trustee', phone: '(989) 736-3650', email: '' }
+    ]
+  },
+  'Alcona:Mikado': {
+    name: 'Mikado Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'Craig Ostby', title: 'Supervisor', phone: '(989) 335-5581', email: '' },
+      { name: 'Rita Sands', title: 'Clerk', phone: '(989) 736-7721', email: '' },
+      { name: 'Anne Harmon', title: 'Treasurer', phone: '(989) 736-7721', email: '' },
+      { name: 'Carrie Mullins', title: 'Trustee', phone: '(989) 916-4119', email: '' },
+      { name: 'Wayne Nedo', title: 'Trustee', phone: '(989) 736-7721', email: '' }
+    ]
+  },
+  'Alcona:Millen': {
+    name: 'Millen Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'R. Dennis Smith', title: 'Supervisor', phone: '(231) 357-2426', email: '' },
+      { name: 'Mary Somers', title: 'Clerk', phone: '(928) 304-3109', email: '' },
+      { name: 'Barbara Bartlett', title: 'Treasurer', phone: '(989) 736-0700', email: '' },
+      { name: 'Jeffery Somers', title: 'Trustee', phone: '(989) 304-3098', email: '' }
+    ]
+  },
+  'Alcona:Mitchell': {
+    name: 'Mitchell Township',
+    county: 'Alcona',
+    officials: [
+      { name: 'Carla Brimm', title: 'Supervisor', phone: '(989) 848-2401', email: '' },
+      { name: 'Olivia Bowers', title: 'Clerk', phone: '(989) 848-5692', email: '' },
+      { name: 'Kevin Small', title: 'Treasurer', phone: '(989) 848-5641', email: '' },
+      { name: 'Paula Taylor', title: 'Trustee', phone: '(989) 848-5692', email: '' },
+      { name: 'Mike Ray', title: 'Trustee', phone: '(989) 848-5692', email: '' }
+    ]
+  },
+  'Alger:Au Train': {
+    name: 'Au Train Township',
+    county: 'Alger',
+    officials: [
+      { name: 'Thomas Balmes', title: 'Supervisor', phone: '(906) 892-8279', email: '' },
+      { name: 'Mary Johnson', title: 'Clerk', phone: '(906) 361-2373', email: '' },
+      { name: 'Kristy Cota', title: 'Treasurer', phone: '(906) 202-0387', email: '' },
+      { name: 'Jacob Miller', title: 'Trustee', phone: '(906) 892-8265', email: '' },
+      { name: 'John Carr', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Alger:Burt': {
+    name: 'Burt Township',
+    county: 'Alger',
+    officials: [
+      { name: 'Jon Babbitt', title: 'Supervisor', phone: '(906) 494-2381', email: '' },
+      { name: 'Lori McShane', title: 'Clerk', phone: '(906) 494-2381', email: '' },
+      { name: 'Sara Secrest', title: 'Treasurer', phone: '(906) 494-2381', email: '' },
+      { name: 'Timothy Jenkins', title: 'Trustee', phone: '(906) 494-2381', email: '' },
+      { name: 'Paul Williams', title: 'Trustee', phone: '(906) 494-2381', email: '' }
+    ]
+  },
+  'Alger:Grand Island': {
+    name: 'Grand Island Township',
+    county: 'Alger',
+    officials: [
+      { name: 'Dena Ramsey', title: 'Supervisor', phone: '(906) 202-0621', email: '' },
+      { name: 'Tammy Lindeblad', title: 'Clerk', phone: '(906) 387-2420', email: '' },
+      { name: 'Dee Jay Paquette', title: 'Treasurer', phone: '(906) 387-4673', email: '' },
+      { name: 'Barbara Stark', title: 'Trustee', phone: '(906) 387-2654', email: '' },
+      { name: 'Scott Lindebald', title: 'Trustee', phone: '(906) 630-5477', email: '' }
+    ]
+  },
+  'Alger:Limestone': {
+    name: 'Limestone Township',
+    county: 'Alger',
+    officials: [
+      { name: 'Thomas Curry', title: 'Supervisor', phone: '(906) 446-3708', email: '' },
+      { name: 'Danita Rask', title: 'Clerk', phone: '(906) 439-5448', email: '' },
+      { name: 'Brian Menghini', title: 'Treasurer', phone: '(906) 446-3363', email: '' },
+      { name: 'William Brisson', title: 'Trustee', phone: '(906) 439-5408', email: '' },
+      { name: 'Ingrid Hoy', title: 'Trustee', phone: '(906) 446-3876', email: '' }
+    ]
+  },
+  'Alger:Mathias': {
+    name: 'Mathias Township',
+    county: 'Alger',
+    officials: [
+      { name: 'Amy Richmond', title: 'Supervisor', phone: '(906) 446-3226', email: '' },
+      { name: 'Megan Webber', title: 'Clerk', phone: '(734) 790-5711', email: '' },
+      { name: 'Marilyn Rukkila', title: 'Treasurer', phone: '(906) 446-3268', email: '' },
+      { name: 'Shannon Thompson', title: 'Trustee', phone: '(906) 446-3226', email: '' },
+      { name: 'Jonathon Thompson', title: 'Trustee', phone: '(906) 446-3226', email: '' }
+    ]
+  },
+  'Alger:Munising': {
+    name: 'Munising Township',
+    county: 'Alger',
+    officials: [
+      { name: 'Lisa Howard', title: 'Supervisor', phone: '(906) 202-0930', email: '' },
+      { name: 'Patty Willson', title: 'Clerk', phone: '(906) 202-0967', email: '' },
+      { name: 'Carmon Decet', title: 'Treasurer', phone: '(906) 202-1968', email: '' },
+      { name: 'Selina Balko', title: 'Trustee', phone: '(906) 202-0901', email: '' },
+      { name: 'Jolene Hetherington', title: 'Trustee', phone: '(906) 202-1994', email: '' }
+    ]
+  },
+  'Alger:Onota': {
+    name: 'Onota Township',
+    county: 'Alger',
+    officials: [
+      { name: 'Christopher Haydon', title: 'Supervisor', phone: '(906) 343-6535', email: '' },
+      { name: 'Pamela Simmons', title: 'Clerk', phone: '(906) 343-6535', email: '' },
+      { name: 'Cheryl Lane', title: 'Treasurer', phone: '(906) 343-6535', email: '' },
+      { name: 'Brian Bresette', title: 'Trustee', phone: '(906) 892-8582', email: '' },
+      { name: 'Jennifer Hough', title: 'Trustee', phone: '(906) 343-6535', email: '' }
+    ]
+  },
+  'Alger:Rock River': {
+    name: 'Rock River Township',
+    county: 'Alger',
+    officials: [
+      { name: 'Gerald Melchiori', title: 'Supervisor', phone: '(906) 439-5360', email: '' },
+      { name: 'Heather Marsh', title: 'Clerk', phone: '(906) 439-5360', email: '' },
+      { name: 'Jenny LeJeune', title: 'Treasurer', phone: '(906) 439-5360', email: '' },
+      { name: 'Victor Aho', title: 'Trustee', phone: '(906) 439-5360', email: '' },
+      { name: 'Jim Rondeau', title: 'Trustee', phone: '(906) 439-5360', email: '' }
+    ]
+  },
+  'Allegan:Allegan': {
+    name: 'Allegan Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Stephen Schulz', title: 'Supervisor', phone: '(269) 686-0013', email: '' },
+      { name: 'Michelle Waite', title: 'Clerk', phone: '(269) 673-5051', email: '' },
+      { name: 'Laree Waanders', title: 'Treasurer', phone: '(269) 673-5051', email: '' },
+      { name: 'Jim Connell', title: 'Trustee', phone: '(269) 673-5051', email: '' },
+      { name: 'Heather Knight', title: 'Trustee', phone: '(269) 673-5051', email: '' }
+    ]
+  },
+  'Allegan:Casco': {
+    name: 'Casco Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Allan Overhiser', title: 'Supervisor', phone: '(616) 836-3298', email: '' },
+      { name: 'Rachel Ridley', title: 'Clerk', phone: '(269) 637-4441', email: '' },
+      { name: 'Kenny Clevenger', title: 'Treasurer', phone: '(269) 637-4441', email: '' },
+      { name: 'Paul Macyauski', title: 'Trustee', phone: '(269) 637-4441', email: '' },
+      { name: 'Mary Campbell', title: 'Trustee', phone: '(269) 637-4441', email: '' }
+    ]
+  },
+  'Allegan:Cheshire': {
+    name: 'Cheshire Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'David Pabis', title: 'Supervisor', phone: '(269) 521-3440', email: '' },
+      { name: 'Jodi Pinnell', title: 'Clerk', phone: '(269) 521-3440', email: '' },
+      { name: 'Georgia Meade', title: 'Treasurer', phone: '(269) 521-3440', email: '' },
+      { name: 'Kenneth Horton', title: 'Trustee', phone: '(269) 217-6119', email: '' },
+      { name: 'Raymond Moored', title: 'Trustee', phone: '(269) 207-4736', email: '' }
+    ]
+  },
+  'Allegan:Clyde': {
+    name: 'Clyde Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Tommie Giles', title: 'Supervisor', phone: '(269) 561-5214', email: '' },
+      { name: 'Pam Onken', title: 'Clerk', phone: '(616) 566-1667', email: '' },
+      { name: 'Christine McKellips', title: 'Treasurer', phone: '(269) 561-5230', email: '' },
+      { name: 'Robert Larsen', title: 'Trustee', phone: '(269) 561-2091', email: '' },
+      { name: 'Bernie McLeod', title: 'Trustee', phone: '(269) 561-5153', email: '' }
+    ]
+  },
+  'Allegan:Dorr': {
+    name: 'Dorr Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Jeff Miling', title: 'Supervisor', phone: '(616) 681-9874', email: '' },
+      { name: 'Debbie Sewers', title: 'Clerk', phone: '(616) 681-9874', email: '' },
+      { name: 'Sheila Reitz', title: 'Treasurer', phone: '(616) 681-9874', email: '' },
+      { name: 'Dan Weber', title: 'Trustee', phone: '(616) 681-9874', email: '' },
+      { name: 'John Tuinstra', title: 'Trustee', phone: '(616) 681-9874', email: '' },
+      { name: 'Patrick Champion', title: 'Trustee', phone: '(616) 681-9874', email: '' },
+      { name: 'Chandler Stanton', title: 'Trustee', phone: '(616) 681-9874', email: '' }
+    ]
+  },
+  'Allegan:Fillmore': {
+    name: 'Fillmore Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'John Yonker', title: 'Supervisor', phone: '(269) 751-7655', email: '' },
+      { name: 'Elaine Mokma', title: 'Clerk', phone: '(616) 218-0925', email: '' },
+      { name: 'Leah Folkert', title: 'Treasurer', phone: '(269) 751-7655', email: '' },
+      { name: 'Bob Yonker', title: 'Trustee', phone: '(269) 751-7655', email: '' },
+      { name: 'Chuck Schaap', title: 'Trustee', phone: '(269) 751-8507', email: '' }
+    ]
+  },
+  'Allegan:Ganges': {
+    name: 'Ganges Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'John Hebert', title: 'Supervisor', phone: '(269) 543-4634', email: '' },
+      { name: 'Robin Phelps', title: 'Clerk', phone: '(269) 543-8316', email: '' },
+      { name: 'Cindy Reimink', title: 'Treasurer', phone: '(269) 543-3451', email: '' },
+      { name: 'Richard Hutchins', title: 'Trustee', phone: '(269) 561-2079', email: '' },
+      { name: 'George Thompson', title: 'Trustee', phone: '(269) 543-8316', email: '' }
+    ]
+  },
+  'Allegan:Gun Plain': {
+    name: 'Gun Plain Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Michael Vandenberg', title: 'Supervisor', phone: '(269) 695-9471', email: '' },
+      { name: 'Marty Meert', title: 'Clerk', phone: '(269) 685-9471', email: '' },
+      { name: 'Annette Horton', title: 'Treasurer', phone: '(269) 685-9471', email: '' },
+      { name: 'Jenann Pearson', title: 'Trustee', phone: '(269) 685-9471', email: '' },
+      { name: 'Christine Vandenberg', title: 'Trustee', phone: '(269) 685-9471', email: '' },
+      { name: 'Dana Albertson', title: 'Trustee', phone: '(269) 685-9471', email: '' },
+      { name: 'Kevin Meert', title: 'Trustee', phone: '(269) 685-9471', email: '' }
+    ]
+  },
+  'Allegan:Heath': {
+    name: 'Heath Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Ron Jones', title: 'Supervisor', phone: '(269) 751-2001', email: '' },
+      { name: 'Michelle Harvey', title: 'Clerk', phone: '(269) 751-2403', email: '' },
+      { name: 'Misti Lindholm', title: 'Treasurer', phone: '(269) 751-8221', email: '' },
+      { name: 'Hilda Boerman', title: 'Trustee', phone: '(269) 751-8480', email: '' },
+      { name: 'William Harvey', title: 'Trustee', phone: '(269) 751-2403', email: '' }
+    ]
+  },
+  'Allegan:Hopkins': {
+    name: 'Hopkins Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Cade Bolser', title: 'Supervisor', phone: '(269) 793-3188', email: '' },
+      { name: 'Stacey Timmer', title: 'Clerk', phone: '(269) 793-3188', email: '' },
+      { name: 'Eric Alberda', title: 'Treasurer', phone: '(269) 806-7547', email: '' },
+      { name: 'Charles Wamhoff', title: 'Trustee', phone: '(269) 793-7239', email: '' },
+      { name: 'Bob Modreske', title: 'Trustee', phone: '(269) 793-8773', email: '' }
+    ]
+  },
+  'Allegan:Laketown': {
+    name: 'Laketown Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Steven Ringelberg', title: 'Supervisor', phone: '(616) 335-3050', email: '' },
+      { name: 'Jim Delaney', title: 'Clerk', phone: '(616) 834-6679', email: '' },
+      { name: 'Jim Johnson', title: 'Treasurer', phone: '(616) 335-3050', email: '' },
+      { name: 'Mark Timmerman', title: 'Trustee', phone: '(616) 335-3050', email: '' },
+      { name: 'Michael Koeman', title: 'Trustee', phone: '(616) 335-3050', email: '' }
+    ]
+  },
+  'Allegan:Lee': {
+    name: 'Lee Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Richard Rawson', title: 'Supervisor', phone: '(269) 236-6485', email: '' },
+      { name: 'Kathryn Blackburn', title: 'Clerk', phone: '(269) 236-6485', email: '' },
+      { name: 'Joe Godlew', title: 'Treasurer', phone: '(269) 236-6485', email: '' },
+      { name: 'Ann Hatfield', title: 'Trustee', phone: '(269) 206-6196', email: '' },
+      { name: 'Ben Lewis', title: 'Trustee', phone: '(269) 236-6485', email: '' }
+    ]
+  },
+  'Allegan:Leighton': {
+    name: 'Leighton Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Steve Wolbrink', title: 'Supervisor', phone: '(616) 891-8238', email: '' },
+      { name: 'Rachel Fennema', title: 'Clerk', phone: '(616) 891-8238', email: '' },
+      { name: 'Jacquelynn Bultsma', title: 'Treasurer', phone: '(616) 891-8238', email: '' },
+      { name: 'John Hooker', title: 'Trustee', phone: '(616) 792-2525', email: '' },
+      { name: 'Brian Bonnema', title: 'Trustee', phone: '(616) 891-8238', email: '' }
+    ]
+  },
+  'Allegan:Martin': {
+    name: 'Martin Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Glenn Leep', title: 'Supervisor', phone: '(269) 208-7035', email: '' },
+      { name: 'Jennifer Wharton', title: 'Clerk', phone: '(269) 672-5027', email: '' },
+      { name: 'Maria Leep', title: 'Treasurer', phone: '(269) 672-5027', email: '' },
+      { name: 'John Schipper', title: 'Trustee', phone: '(269) 672-5027', email: '' },
+      { name: 'Jim DeYoung', title: 'Trustee', phone: '(269) 672-5027', email: '' }
+    ]
+  },
+  'Allegan:Monterey': {
+    name: 'Monterey Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Henry Reinart', title: 'Supervisor', phone: '(269) 793-3050', email: '' },
+      { name: 'Megan Frank', title: 'Clerk', phone: '(517) 851-1229', email: '' },
+      { name: 'Julie DeHaan', title: 'Treasurer', phone: '(269) 793-2014 ext. 3', email: '' },
+      { name: 'Eric Commons', title: 'Trustee', phone: '(616) 293-2420', email: '' },
+      { name: 'Jerry Williams', title: 'Trustee', phone: '(616) 813-5291', email: '' }
+    ]
+  },
+  'Allegan:Otsego': {
+    name: 'Otsego Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Michael Gudith', title: 'Supervisor', phone: '(269) 694-9434', email: '' },
+      { name: 'Jen Colin', title: 'Clerk', phone: '(269) 694-9434', email: '' },
+      { name: 'Carrie Lunarde-Alexander', title: 'Treasurer', phone: '(269) 694-9434', email: '' },
+      { name: 'Karen Burns', title: 'Trustee', phone: '(269) 694-9434', email: '' },
+      { name: 'Lori Bumgart', title: 'Trustee', phone: '(269) 694-9434', email: '' },
+      { name: 'Rick Moll', title: 'Trustee', phone: '(269) 694-9434', email: '' },
+      { name: 'Ashlee Rose', title: 'Trustee', phone: '(269) 694-9434', email: '' }
+    ]
+  },
+  'Allegan:Overisel': {
+    name: 'Overisel Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Lisa Russcher', title: 'Supervisor', phone: '(269) 751-7030', email: '' },
+      { name: 'Paula Scholten', title: 'Clerk', phone: '(269) 751-7030', email: '' },
+      { name: 'Rachel Hoeve', title: 'Treasurer', phone: '(269) 751-7030', email: '' },
+      { name: 'Joshua Groenheide', title: 'Trustee', phone: '(269) 751-7030', email: '' },
+      { name: 'Ben Koopman', title: 'Trustee', phone: '(269) 751-7030', email: '' }
+    ]
+  },
+  'Allegan:Salem': {
+    name: 'Salem Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'James Pitsch', title: 'Supervisor', phone: '(616) 896-9420', email: '' },
+      { name: 'Renee Busscher', title: 'Clerk', phone: '(616) 896-9857', email: '' },
+      { name: 'Ashley Brower', title: 'Treasurer', phone: '(616) 896-9857', email: '' },
+      { name: 'Don Sebright', title: 'Trustee', phone: '(616) 896-8580', email: '' },
+      { name: 'Dan Striegle', title: 'Trustee', phone: '(616) 896-9857', email: '' }
+    ]
+  },
+  'Allegan:Saugatuck': {
+    name: 'Saugatuck Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Abby Bigford', title: 'Supervisor', phone: '(269) 857-7721', email: '' },
+      { name: 'Cindy Osman', title: 'Clerk', phone: '(269) 857-7721', email: '' },
+      { name: 'Stacey Aldrich', title: 'Trustee', phone: '(616) 283-2295', email: '' },
+      { name: 'Brenda Marcy', title: 'Trustee', phone: '(269) 857-7721', email: '' }
+    ]
+  },
+  'Allegan:Trowbridge': {
+    name: 'Trowbridge Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Jeff Kaylor', title: 'Supervisor', phone: '(616) 218-1898', email: '' },
+      { name: 'David Smalla', title: 'Clerk', phone: '(269) 673-5012', email: '' },
+      { name: 'Cindi Kurtz', title: 'Treasurer', phone: '(269) 673-8189', email: '' },
+      { name: 'Tony Emmons', title: 'Trustee', phone: '(269) 686-9248', email: '' },
+      { name: 'Mark Haveman', title: 'Trustee', phone: '(269) 673-8189', email: '' }
+    ]
+  },
+  'Allegan:Valley': {
+    name: 'Valley Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Mike Krcatovich', title: 'Supervisor', phone: '(269) 673-5962', email: '' },
+      { name: 'Brandee Ellis', title: 'Clerk', phone: '(269) 744-0692', email: '' },
+      { name: 'Christi Foster', title: 'Treasurer', phone: '(269) 348-8251', email: '' },
+      { name: 'Timothy Batchelor', title: 'Trustee', phone: '(269) 673-5962', email: '' },
+      { name: 'Mike Jensen', title: 'Trustee', phone: '(616) 610-7073', email: '' }
+    ]
+  },
+  'Allegan:Watson': {
+    name: 'Watson Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Kevin Travis', title: 'Supervisor', phone: '(269) 589-5688', email: '' },
+      { name: 'Mary Ann Baker', title: 'Clerk', phone: '(269) 672-7254', email: '' },
+      { name: 'Tera Davis', title: 'Treasurer', phone: '(616) 813-0557', email: '' },
+      { name: 'Michelle Harris', title: 'Trustee', phone: '(269) 672-7254', email: '' },
+      { name: 'Joseph Yearous', title: 'Trustee', phone: '(269) 672-7254', email: '' }
+    ]
+  },
+  'Allegan:Wayland': {
+    name: 'Wayland Township',
+    county: 'Allegan',
+    officials: [
+      { name: 'Roger VanVolkinburg', title: 'Supervisor', phone: '(269) 792-6658', email: '' },
+      { name: 'Sue Kamyszek', title: 'Treasurer', phone: '(269) 792-0410', email: '' },
+      { name: 'James Stein', title: 'Trustee', phone: '(269) 792-6394', email: '' },
+      { name: 'Matt Miner', title: 'Trustee', phone: '(269) 792-6394', email: '' }
+    ]
+  },
+  'Alpena:Alpena': {
+    name: 'Alpena Township',
+    county: 'Alpena',
+    officials: [
+      { name: 'Abbi Kaszubowski', title: 'Supervisor', phone: '(989) 464-0029', email: '' },
+      { name: 'Michele Palevich', title: 'Clerk', phone: '(989) 356-4024', email: '' },
+      { name: 'Norm Poli', title: 'Trustee', phone: '(989) 358-1590', email: '' },
+      { name: 'Cash Kroll', title: 'Trustee', phone: '(989) 356-4024', email: '' },
+      { name: 'Steve Lappan', title: 'Trustee', phone: '(989) 356-4024', email: '' },
+      { name: 'Russ Rhynard', title: 'Trustee', phone: '(989) 356-4024', email: '' }
+    ]
+  },
+  'Alpena:Green': {
+    name: 'Green Township',
+    county: 'Alpena',
+    officials: [
+      { name: 'Eric Smith', title: 'Supervisor', phone: '(989) 379-2238', email: '' },
+      { name: 'Melony Sumerix', title: 'Clerk', phone: '(989) 379-2398', email: '' },
+      { name: 'Melanie Roznowski', title: 'Treasurer', phone: '(989) 379-6038', email: '' },
+      { name: 'Herbert Gamage', title: 'Trustee', phone: '(989) 379-4229', email: '' },
+      { name: 'Kendall Sumerix', title: 'Trustee', phone: '(989) 379-2398', email: '' }
+    ]
+  },
+  'Alpena:Long Rapids': {
+    name: 'Long Rapids Township',
+    county: 'Alpena',
+    officials: [
+      { name: 'Todd Precord', title: 'Supervisor', phone: '(989) 379-3602', email: '' },
+      { name: 'M. Susan Thomson', title: 'Clerk', phone: '(989) 657-2095', email: '' },
+      { name: 'Wendy Johnson', title: 'Treasurer', phone: '(989) 379-3739', email: '' },
+      { name: 'Vickie Ritter', title: 'Trustee', phone: '(989) 657-2095', email: '' }
+    ]
+  },
+  'Alpena:Maple Ridge': {
+    name: 'Maple Ridge Township',
+    county: 'Alpena',
+    officials: [
+      { name: 'John Male', title: 'Supervisor', phone: '(989) 356-0791', email: '' },
+      { name: 'Melissa Hoskinson', title: 'Clerk', phone: '(989) 356-0791', email: '' },
+      { name: 'Kristi Hoppe', title: 'Treasurer', phone: '(989) 356-0791', email: '' },
+      { name: 'Gregory Whitlow', title: 'Trustee', phone: '(989) 356-0791', email: '' }
+    ]
+  },
+  'Alpena:Ossineke': {
+    name: 'Ossineke Township',
+    county: 'Alpena',
+    officials: [
+      { name: 'Kenneth Lobert', title: 'Supervisor', phone: '(989) 727-2771', email: '' },
+      { name: 'Jo\'Lee Dorie', title: 'Clerk', phone: '(989) 255-8313', email: '' },
+      { name: 'Denise Schultz', title: 'Treasurer', phone: '(989) 727-4037', email: '' },
+      { name: 'Gerald Leschinger', title: 'Trustee', phone: '(989) 727-1275', email: '' },
+      { name: 'Randy Fairbanks', title: 'Trustee', phone: '(989) 727-3702', email: '' }
+    ]
+  },
+  'Alpena:Sanborn': {
+    name: 'Sanborn Township',
+    county: 'Alpena',
+    officials: [
+      { name: 'Kenneth Gauthier', title: 'Supervisor', phone: '(989) 590-0040', email: '' },
+      { name: 'Margaret Ceslick', title: 'Clerk', phone: '(989) 471-1050', email: '' },
+      { name: 'Mary Eaton', title: 'Treasurer', phone: '(989) 471-5331', email: '' },
+      { name: 'Gary Stephan', title: 'Trustee', phone: '(989) 471-1050', email: '' },
+      { name: 'Dale Hart', title: 'Trustee', phone: '(989) 657-5515', email: '' }
+    ]
+  },
+  'Alpena:Wellington': {
+    name: 'Wellington Township',
+    county: 'Alpena',
+    officials: [
+      { name: 'Ronald Lucas', title: 'Supervisor', phone: '(989) 657-6670', email: '' },
+      { name: 'Pamela Madsen', title: 'Clerk', phone: '(989) 464-5164', email: '' },
+      { name: 'Amy Lewis', title: 'Treasurer', phone: '(989) 379-3640', email: '' },
+      { name: 'Justin Dziesinski', title: 'Trustee', phone: '(989) 379-4510', email: '' },
+      { name: 'Karen Stevens', title: 'Trustee', phone: '(989) 742-3243', email: '' }
+    ]
+  },
+  'Alpena:Wilson': {
+    name: 'Wilson Township',
+    county: 'Alpena',
+    officials: [
+      { name: 'Daniel Hibner', title: 'Supervisor', phone: '(989) 657-5708', email: '' },
+      { name: 'Rhonda Ritthaler', title: 'Clerk', phone: '(989) 255-6640', email: '' },
+      { name: 'Melissa Werth', title: 'Treasurer', phone: '(989) 464-8392', email: '' },
+      { name: 'Cody Werth', title: 'Trustee', phone: '(989) 464-7356', email: '' },
+      { name: 'Mike Centala', title: 'Trustee', phone: '(989) 590-3568', email: '' }
+    ]
+  },
+  'Antrim:Banks': {
+    name: 'Banks Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Alex Busman', title: 'Supervisor', phone: '(231) 676-1075', email: '' },
+      { name: 'Julie Chellis', title: 'Clerk', phone: '(231) 588-6126', email: '' },
+      { name: 'Katherine Postmus', title: 'Treasurer', phone: '(231) 599-3433', email: '' },
+      { name: 'Marvin Rubingh', title: 'Trustee', phone: '(425) 533-8106', email: '' },
+      { name: 'Richard Friske', title: 'Trustee', phone: '(231) 632-6585', email: '' }
+    ]
+  },
+  'Antrim:Central Lake': {
+    name: 'Central Lake Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Mark Byard', title: 'Supervisor', phone: '(231) 544-6687', email: '' },
+      { name: 'Judith Kosloski', title: 'Clerk', phone: '(231) 544-6687', email: '' },
+      { name: 'Lawrence Germain', title: 'Treasurer', phone: '(231) 544-6687', email: '' },
+      { name: 'Patrick Hanlon', title: 'Trustee', phone: '(231) 544-6687', email: '' },
+      { name: 'Stanley Bean', title: 'Trustee', phone: '(231) 544-8253', email: '' }
+    ]
+  },
+  'Antrim:Chestonia': {
+    name: 'Chestonia Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Roy Wicht', title: 'Supervisor', phone: '(231) 584-3222', email: '' },
+      { name: 'Nancy Shepard', title: 'Clerk', phone: '(231) 584-3222', email: '' },
+      { name: 'Debra Sutherland', title: 'Treasurer', phone: '(231) 584-3222', email: '' },
+      { name: 'Wendy Hummel', title: 'Trustee', phone: '(231) 584-2055', email: '' },
+      { name: 'Nicholas Kler', title: 'Trustee', phone: '(231) 584-3222', email: '' }
+    ]
+  },
+  'Antrim:Custer': {
+    name: 'Custer Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Roxann Flake', title: 'Supervisor', phone: '(231) 587-5118', email: '' },
+      { name: 'Stacy Simon', title: 'Clerk', phone: '(231) 587-4773', email: '' },
+      { name: 'Renee Elder', title: 'Treasurer', phone: '(231) 587-5446', email: '' },
+      { name: 'David Allen', title: 'Trustee', phone: '(231) 357-3724', email: '' },
+      { name: 'Alex Fleet', title: 'Trustee', phone: '(231) 587-5118', email: '' }
+    ]
+  },
+  'Antrim:Echo': {
+    name: 'Echo Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'William Derenzy', title: 'Supervisor', phone: '(231) 544-6100', email: '' },
+      { name: 'Diane Kucharek', title: 'Clerk', phone: '(231) 544-2516', email: '' },
+      { name: 'Timothy Timmer', title: 'Treasurer', phone: '(231) 459-6717', email: '' },
+      { name: 'Dennis Graham', title: 'Trustee', phone: '(231) 736-3942', email: '' },
+      { name: 'Alan Petrie', title: 'Trustee', phone: '(231) 675-7116', email: '' }
+    ]
+  },
+  'Antrim:Elk Rapids': {
+    name: 'Elk Rapids Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Dorance Amos', title: 'Supervisor', phone: '(231) 264-8885', email: '' },
+      { name: 'Debbie Husband', title: 'Clerk', phone: '(231) 264-9333', email: '' },
+      { name: 'Kelly Jensen', title: 'Treasurer', phone: '(231) 264-9333', email: '' },
+      { name: 'Richard Hults', title: 'Trustee', phone: '(231) 264-9333', email: '' },
+      { name: 'Matt Soper', title: 'Trustee', phone: '(231) 264-9333', email: '' }
+    ]
+  },
+  'Antrim:Forest Home': {
+    name: 'Forest Home Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Terry Smith', title: 'Supervisor', phone: '(231) 350-1776', email: '' },
+      { name: 'Suzanne Mahan', title: 'Clerk', phone: '(231) 533-8003', email: '' },
+      { name: 'Theresa Kent', title: 'Treasurer', phone: '(231) 533-5393', email: '' },
+      { name: 'Dean Crandall', title: 'Trustee', phone: '(231) 377-4501', email: '' },
+      { name: 'Scott Steiner', title: 'Trustee', phone: '(231) 533-8003', email: '' }
+    ]
+  },
+  'Antrim:Helena': {
+    name: 'Helena Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Butch Peeples', title: 'Supervisor', phone: '(231) 590-3888', email: '' },
+      { name: 'Oryana Leffew', title: 'Clerk', phone: '(231) 331-4643', email: '' },
+      { name: 'Catherine Rice', title: 'Treasurer', phone: '(231) 331-6125', email: '' },
+      { name: 'Charles Bartz', title: 'Trustee', phone: '(231) 331-4643', email: '' },
+      { name: 'Jim Schilling', title: 'Trustee', phone: '(231) 331-4643', email: '' }
+    ]
+  },
+  'Antrim:Jordan': {
+    name: 'Jordan Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Sue Falco', title: 'Supervisor', phone: '(231) 536-2729', email: '' },
+      { name: 'Colton Vining', title: 'Clerk', phone: '(231) 350-3349', email: '' },
+      { name: 'Jessica Parker', title: 'Treasurer', phone: '(224) 725-9933', email: '' },
+      { name: 'Jessica Morris', title: 'Trustee', phone: '(231) 350-3349', email: '' },
+      { name: 'Kirk Falco', title: 'Trustee', phone: '(231) 350-3349', email: '' }
+    ]
+  },
+  'Antrim:Kearney': {
+    name: 'Kearney Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Edward Neipoth', title: 'Supervisor', phone: '(231) 533-5719', email: '' },
+      { name: 'Michelle Valuet', title: 'Clerk', phone: '(231) 533-5719', email: '' }
+    ]
+  },
+  'Antrim:Mancelona': {
+    name: 'Mancelona Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Chuck Johnson', title: 'Supervisor', phone: '(231) 587-8651', email: '' },
+      { name: 'Michael Biehl', title: 'Clerk', phone: '(231) 587-8651', email: '' },
+      { name: 'Jessie Ayoub', title: 'Treasurer', phone: '(231) 587-5171', email: '' },
+      { name: 'Rod Vesey', title: 'Trustee', phone: '(231) 587-8651', email: '' },
+      { name: 'Daniel Bean', title: 'Trustee', phone: '(231) 587-8651', email: '' }
+    ]
+  },
+  'Antrim:Milton': {
+    name: 'Milton Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Chris Weinzapfel', title: 'Supervisor', phone: '(231) 264-6612', email: '' },
+      { name: 'Janet Beebe', title: 'Clerk', phone: '(231) 264-6612', email: '' },
+      { name: 'Elizabeth Atkinson', title: 'Treasurer', phone: '(231) 264-6693', email: '' },
+      { name: 'Joe Renis', title: 'Trustee', phone: '(231) 264-6612', email: '' },
+      { name: 'Bruce Veliquette', title: 'Trustee', phone: '(231) 264-6612', email: '' }
+    ]
+  },
+  'Antrim:Star': {
+    name: 'Star Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Robert Marsh', title: 'Supervisor', phone: '(231) 590-0661', email: '' },
+      { name: 'Phyllis Hoogerhyde', title: 'Clerk', phone: '(231) 357-3353', email: '' },
+      { name: 'Tammi Fuller', title: 'Treasurer', phone: '(231) 584-2810', email: '' },
+      { name: 'James Marsh', title: 'Trustee', phone: '(989) 350-5810', email: '' },
+      { name: 'Stacey North', title: 'Trustee', phone: '(989) 350-5518', email: '' }
+    ]
+  },
+  'Antrim:Torch Lake': {
+    name: 'Torch Lake Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Bob Cook', title: 'Supervisor', phone: '(231) 599-2036 ext. 104', email: '' },
+      { name: 'Mary Merchant', title: 'Clerk', phone: '(231) 599-2036 ext. 103', email: '' },
+      { name: 'Sharon Schultz', title: 'Treasurer', phone: '(231) 599-2036 ext. 107', email: '' },
+      { name: 'Jason Merchant', title: 'Trustee', phone: '(231) 599-2036', email: '' },
+      { name: 'Andrew Graves', title: 'Trustee', phone: '(231) 599-2036', email: '' }
+    ]
+  },
+  'Antrim:Warner': {
+    name: 'Warner Township',
+    county: 'Antrim',
+    officials: [
+      { name: 'Sarah Kitchen', title: 'Supervisor', phone: '(231) 342-5628', email: '' },
+      { name: 'Pam Zaremba', title: 'Clerk', phone: '(231) 342-5628', email: '' },
+      { name: 'Lori Herman', title: 'Treasurer', phone: '(231) 420-0225', email: '' },
+      { name: 'Robert Herman', title: 'Trustee', phone: '(231) 330-5833', email: '' },
+      { name: 'Laurie Bingham', title: 'Trustee', phone: '(231) 342-5628', email: '' }
+    ]
+  },
+  'Arenac:Adams': {
+    name: 'Adams Township',
+    county: 'Arenac',
+    officials: [
+      { name: 'Mark Revord', title: 'Supervisor', phone: '(989) 529-0978', email: '' },
+      { name: 'Charity Sisco', title: 'Clerk', phone: '(989) 387-1501', email: '' },
+      { name: 'Darlene Wolford', title: 'Treasurer', phone: '(989) 654-9441', email: '' },
+      { name: 'Lynn Berry', title: 'Trustee', phone: '(989) 737-5142', email: '' },
+      { name: 'Daniel Meihls', title: 'Trustee', phone: '(989) 654-3609', email: '' }
+    ]
+  },
+  'Arenac:Arenac': {
+    name: 'Arenac Township',
+    county: 'Arenac',
+    officials: [
+      { name: 'Brian Osier', title: 'Supervisor', phone: '(989) 653-2319', email: '' },
+      { name: 'Elizabeth Harzinski', title: 'Clerk', phone: '(989) 653-2319', email: '' },
+      { name: 'Pamela Proulx', title: 'Treasurer', phone: '(989) 653-2319', email: '' },
+      { name: 'Allen Osier', title: 'Trustee', phone: '(989) 653-2686', email: '' },
+      { name: 'Joe Carruthers', title: 'Trustee', phone: '(989) 954-6861', email: '' }
+    ]
+  },
+  'Arenac:Au Gres': {
+    name: 'Au Gres Township',
+    county: 'Arenac',
+    officials: [
+      { name: 'James Herzog', title: 'Supervisor', phone: '(989) 876-7293', email: '' },
+      { name: 'Michael Oxley', title: 'Clerk', phone: '(989) 876-7293', email: '' },
+      { name: 'Patricia Tremble', title: 'Treasurer', phone: '(989) 876-0093', email: '' },
+      { name: 'Penny Kurchak', title: 'Trustee', phone: '(989) 876-7293', email: '' },
+      { name: 'Janice Bullock', title: 'Trustee', phone: '(989) 876-0260', email: '' }
+    ]
+  },
+  'Arenac:Clayton': {
+    name: 'Clayton Township',
+    county: 'Arenac',
+    officials: [
+      { name: 'Byron Fogarasi', title: 'Supervisor', phone: '(989) 654-3225', email: '' },
+      { name: 'Robyn Fogarasi', title: 'Clerk', phone: '(989) 274-8770', email: '' },
+      { name: 'Patricia Berry', title: 'Treasurer', phone: '(989) 529-9316', email: '' },
+      { name: 'Dave Bowen', title: 'Trustee', phone: '(989) 654-3225', email: '' },
+      { name: 'Billy Daniels', title: 'Trustee', phone: '(989) 654-3225', email: '' }
+    ]
+  },
+  'Arenac:Deep River': {
+    name: 'Deep River Township',
+    county: 'Arenac',
+    officials: [
+      { name: 'Matthew Stawowy', title: 'Supervisor', phone: '(989) 239-0067', email: '' },
+      { name: 'Casey Gwisdala', title: 'Clerk', phone: '(989) 654-3161', email: '' },
+      { name: 'MaRianne Flick', title: 'Treasurer', phone: '(989) 654-3161', email: '' },
+      { name: 'Chuck McBride', title: 'Trustee', phone: '(989) 654-3161', email: '' },
+      { name: 'Heath Kroczaleski', title: 'Trustee', phone: '(989) 654-3161', email: '' }
+    ]
+  },
+  'Arenac:Lincoln': {
     name: 'Lincoln Township',
+    county: 'Arenac',
     officials: [
-      { name: 'Mark Brock', title: 'Supervisor', party: 'Republican' },
-      { name: 'Sherry Blackrick', title: 'Clerk', party: 'Republican' },
-      { name: 'Martha Modene', title: 'Treasurer', party: 'Republican' },
-      { name: 'Rachel D. Killingbeck', title: 'Trustee', party: 'Republican' },
-      { name: 'Kathy Yost', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Gerald Wenkel', title: 'Supervisor', phone: '', email: '' },
+      { name: 'Kristie Damron', title: 'Clerk', phone: '(989) 833-9159', email: '' },
+      { name: 'Manda Haas', title: 'Treasurer', phone: '(989) 833-9159', email: '' },
+      { name: 'Noreen Walter', title: 'Trustee', phone: '(989) 846-9701', email: '' },
+      { name: 'Brenda Damron', title: 'Trustee', phone: '(989) 833-9159', email: '' }
+    ]
   },
-
-  'Marion Twp': {
-    name: 'Marion Township',
+  'Arenac:Mason': {
+    name: 'Mason Township',
+    county: 'Arenac',
     officials: [
-      { name: 'Doug Bontekoe', title: 'Supervisor', party: 'Republican' },
-      { name: 'Connie Zuiderveen', title: 'Clerk', party: 'Republican' },
-      { name: 'Joyce K. Mayle', title: 'Treasurer', party: 'Republican' },
-      { name: 'Rose Ballew', title: 'Trustee', party: 'Republican' },
-      { name: 'Shannon Carmody', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Mark Heideman', title: 'Supervisor', phone: '(989) 213-5872', email: '' },
+      { name: 'Amanda Hofmeister', title: 'Clerk', phone: '(989) 305-1570', email: '' },
+      { name: 'Shelly Everitt', title: 'Treasurer', phone: '(989) 873-3895', email: '' },
+      { name: 'Jeff Piar', title: 'Trustee', phone: '(989) 867-4216', email: '' },
+      { name: 'Justin Spencer', title: 'Trustee', phone: '(989) 653-0019', email: '' }
+    ]
   },
-
-  'Middle Branch': {
-    name: 'Middle Branch Township',
+  'Arenac:Moffatt': {
+    name: 'Moffatt Township',
+    county: 'Arenac',
     officials: [
-      { name: 'Glenn Wilson Jr.', title: 'Supervisor', party: 'Republican' },
-      { name: 'Richielene Beebe', title: 'Clerk', party: 'Republican' },
-      { name: 'Patricia R. Michell', title: 'Treasurer', party: 'Republican' },
-      { name: 'Peggy Ann Hoard', title: 'Trustee', party: 'Republican' },
-      { name: 'Bruce E. Tower', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Thomas Spencer', title: 'Supervisor', phone: '(989) 329-7094', email: '' },
+      { name: 'Allison Chmielewski', title: 'Clerk', phone: '(989) 836-2452', email: '' },
+      { name: 'Kevin Kaczmarek', title: 'Treasurer', phone: '(989) 836-6873', email: '' },
+      { name: 'Dennis Whirley', title: 'Trustee', phone: '(989) 836-2452', email: '' },
+      { name: 'Patrick Jedrzejczyk', title: 'Trustee', phone: '(989) 836-2452', email: '' }
+    ]
   },
-
-  'Orient': {
-    name: 'Orient Township',
+  'Arenac:Sims': {
+    name: 'Sims Township',
+    county: 'Arenac',
     officials: [
-      { name: 'Matthew Tiedt', title: 'Supervisor', party: 'Republican' },
-      { name: 'Mark Sochocki', title: 'Clerk', party: 'Republican' },
-      { name: 'Cindy Sue Morgan', title: 'Treasurer', party: 'Republican' },
-      { name: 'Gary V. Earnest', title: 'Trustee', party: 'Republican' },
-      { name: 'Ryan Keathley', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Greg Easterle', title: 'Supervisor', phone: '(989) 876-8631', email: '' },
+      { name: 'Jill Sanzo', title: 'Clerk', phone: '(989) 876-8631', email: '' },
+      { name: 'Ann Marie Borushko', title: 'Treasurer', phone: '(989) 876-8631', email: '' },
+      { name: 'Gregory Walker', title: 'Trustee', phone: '(989) 876-8631', email: '' },
+      { name: 'Ron Pawlaczyk', title: 'Trustee', phone: '(989) 876-8631', email: '' }
+    ]
   },
-
-  'Osceola Twp': {
-    name: 'Osceola Township',
-    phone: '231-510-3476',
+  'Arenac:Standish': {
+    name: 'Standish Township',
+    county: 'Arenac',
     officials: [
-      { name: 'Timothy Ladd', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jennifer Rounds', title: 'Clerk', party: 'Republican' },
-      { name: 'Martin E. Nieman', title: 'Treasurer', party: 'Republican' },
-      { name: 'Sherri Bancroft', title: 'Trustee', party: 'Republican' },
-      { name: 'Connie R. Holmes', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Corey Sajdak', title: 'Supervisor', phone: '', email: '' },
+      { name: 'Melissa Jennings', title: 'Clerk', phone: '(989) 737-9708', email: '' },
+      { name: 'Connie Proulx', title: 'Treasurer', phone: '', email: '' },
+      { name: 'Dustin Cardinal', title: 'Trustee', phone: '', email: '' },
+      { name: 'Amy Buttrick', title: 'Trustee', phone: '', email: '' }
+    ]
   },
-
-  'Richmond': {
-    name: 'Richmond Township',
+  'Arenac:Turner': {
+    name: 'Turner Township',
+    county: 'Arenac',
     officials: [
-      { name: 'Maynard E. Bluhm', title: 'Supervisor', party: 'Republican' },
-      { name: 'Linda K. Stieg', title: 'Clerk', party: 'Republican' },
-      { name: 'Carrolin Ruppert', title: 'Treasurer', party: 'Republican' },
-      { name: 'Edward Galloup', title: 'Trustee', party: 'Republican' },
-      { name: 'John D. Woods', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'James Rittenberg', title: 'Supervisor', phone: '(989) 867-4045', email: '' },
+      { name: 'Tina Schumacher', title: 'Clerk', phone: '(989) 867-4045', email: '' },
+      { name: 'Colleen Rittenberg', title: 'Treasurer', phone: '(989) 867-4045', email: '' },
+      { name: 'Rodney Daniels', title: 'Trustee', phone: '(989) 254-4895', email: '' },
+      { name: 'Jessica Bender', title: 'Trustee', phone: '(989) 867-4045', email: '' }
+    ]
   },
-
-  'Rose Lake': {
-    name: 'Rose Lake Township',
+  'Arenac:Whitney': {
+    name: 'Whitney Township',
+    county: 'Arenac',
     officials: [
-      { name: 'Morris Langworthy Jr.', title: 'Supervisor', party: 'Republican' },
-      { name: 'Vicky Schaefer', title: 'Clerk', party: 'Republican' },
-      { name: 'Patricia Gregory', title: 'Treasurer', party: 'Republican' },
-      { name: 'Karrie Maes', title: 'Trustee', party: 'Republican' },
-      { name: 'Duey Proctor', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Scott McAlindon', title: 'Supervisor', phone: '(989) 362-8441', email: '' },
+      { name: 'Kimberly Anderson', title: 'Clerk', phone: '(989) 362-8441', email: '' },
+      { name: 'LaRae Meldrum', title: 'Treasurer', phone: '(989) 362-8441', email: '' },
+      { name: 'Ralph Zimmermann', title: 'Trustee', phone: '(989) 362-8441', email: '' },
+      { name: 'George Brown', title: 'Trustee', phone: '(989) 362-8441', email: '' }
+    ]
   },
-
-  'Sherman Twp': {
-    name: 'Sherman Township',
-    phone: '231-829-3611',
+  'Baraga:Arvon': {
+    name: 'Arvon Township',
+    county: 'Baraga',
     officials: [
-      { name: 'David Eggle', title: 'Supervisor', party: 'Republican' },
-      { name: 'Bethany Bolduc', title: 'Clerk', party: 'Republican' },
-      { name: 'Sharon L. Black', title: 'Treasurer', party: 'Republican' },
-      { name: 'H. John Iler', title: 'Trustee', party: 'Democratic' },
-      { name: 'Keith G. Calkins', title: 'Trustee', party: 'Republican' },
-      { name: 'David P. Johns', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Jay Fish', title: 'Supervisor', phone: '(906) 524-2141', email: '' },
+      { name: 'Lisa Marinich', title: 'Clerk', phone: '(906) 524-7757', email: '' },
+      { name: 'Krystal Eliason', title: 'Treasurer', phone: '(906) 524-2118', email: '' },
+      { name: 'Robert Janda', title: 'Trustee', phone: '(906) 524-2974', email: '' },
+      { name: 'Keith Erickson', title: 'Trustee', phone: '(906) 524-4942', email: '' }
+    ]
   },
-
-  'Sylvan': {
-    name: 'Sylvan Township',
+  'Baraga:Baraga': {
+    name: 'Baraga Township',
+    county: 'Baraga',
     officials: [
-      { name: 'Angela Moore', title: 'Supervisor', party: 'Republican' },
-      { name: 'Terry Pritchard', title: 'Clerk', party: 'Republican' },
-      { name: 'Angela D. Reagan', title: 'Treasurer', party: 'Republican' },
-      { name: 'Jeffrey J. Reagan', title: 'Trustee', party: 'Republican' },
-      { name: 'Sheila M. Robinson', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'George Danielson', title: 'Supervisor', phone: '(906) 353-6701', email: '' },
+      { name: 'Michelle Fish', title: 'Clerk', phone: '(906) 395-0312', email: '' },
+      { name: 'Catherine Wadaga', title: 'Treasurer', phone: '(906) 353-7258', email: '' },
+      { name: 'Jerry Dompier', title: 'Trustee', phone: '(906) 353-6493', email: '' },
+      { name: 'Abby Manson', title: 'Trustee', phone: '(906) 353-6701', email: '' }
+    ]
   },
-
-  /* ── Lake County townships ── */
-
-  'Chase': {
-    name: 'Chase Township',
-    website: 'https://chasetownship.org',
-    phone: '231-912-7212',
+  'Baraga:Covington': {
+    name: 'Covington Township',
+    county: 'Baraga',
     officials: [
-      { name: 'Phillip Lodholtz', title: 'Supervisor', party: 'Republican' },
-      { name: 'Shelli Droke', title: 'Clerk', party: 'Republican' },
-      { name: 'Janel Eichenberg', title: 'Treasurer', party: 'Republican' },
-      { name: 'Joyce Beach', title: 'Trustee', party: 'Republican' },
-      { name: 'Sarah Nyp', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Amber Franti', title: 'Supervisor', phone: '(906) 355-2296', email: '' },
+      { name: 'Amy Leaf', title: 'Clerk', phone: '(906) 355-2491', email: '' },
+      { name: 'Lisa Karcher', title: 'Treasurer', phone: '(906) 355-2268', email: '' },
+      { name: 'Laurie Ahola', title: 'Trustee', phone: '(906) 355-2623', email: '' },
+      { name: 'Michael Schultz', title: 'Trustee', phone: '(906) 355-2296', email: '' }
+    ]
   },
-
-  'Cherry Valley': {
-    name: 'Cherry Valley Township',
-    website: 'https://cherryvalleytwsp.org',
+  'Baraga:L\'Anse': {
+    name: 'L\'Anse Township',
+    county: 'Baraga',
     officials: [
-      { name: 'Robert S. Shepler', title: 'Supervisor', party: 'Republican' },
-      { name: 'Angie Guynn', title: 'Clerk', party: null },
-      { name: 'Lori A. Jeffrey', title: 'Treasurer', party: 'Republican' },
-      { name: 'Connie D. Avery', title: 'Trustee', party: 'Democratic' },
-      { name: 'Vicki Sherman', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Peter Magaraggia', title: 'Supervisor', phone: '(906) 524-5717', email: '' },
+      { name: 'Kristin Kahler', title: 'Clerk', phone: '(906) 524-7377', email: '' },
+      { name: 'Sarah Solberg', title: 'Treasurer', phone: '(906) 524-7377', email: '' },
+      { name: 'Shelley Lloyd', title: 'Trustee', phone: '(906) 524-5207', email: '' },
+      { name: 'Wallace Sweeney', title: 'Trustee', phone: '(906) 524-7377', email: '' }
+    ]
   },
-
-  'Dover': {
-    name: 'Dover Township',
+  'Baraga:Spurr': {
+    name: 'Spurr Township',
+    county: 'Baraga',
     officials: [
-      { name: 'Cathy May', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Courtney Houseman', title: 'Clerk', party: 'Republican' },
-      { name: 'Amanda Bailor', title: 'Treasurer', party: 'Republican' },
-      { name: 'Karin Goodlein', title: 'Trustee', party: 'Republican' },
-      { name: 'Evan VanderHoof', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Jason Killoran', title: 'Supervisor', phone: '(906) 323-6166', email: '' },
+      { name: 'Jessica Omernick', title: 'Clerk', phone: '(906) 323-6166', email: '' },
+      { name: 'Barb Wilson', title: 'Treasurer', phone: '(906) 323-6166', email: '' },
+      { name: 'Dennis Bentti', title: 'Trustee', phone: '(906) 323-6166', email: '' },
+      { name: 'Joel LePage', title: 'Trustee', phone: '(906) 323-6166', email: '' }
+    ]
   },
-
-  'Eden': {
-    name: 'Eden Township',
-    website: 'https://edentownship-ironsmi.com',
-    officials: [
-      { name: 'Al Shaughnessy', title: 'Supervisor', party: 'Republican' },
-      { name: 'Barbara Charnes', title: 'Clerk', party: 'Republican' },
-      { name: 'Chris R. Oetman', title: 'Treasurer', party: 'Republican' },
-      { name: 'Nancy Frazee', title: 'Trustee', party: 'Democratic' },
-      { name: 'Gary John Oetman', title: 'Trustee', party: 'Republican' },
-      { name: 'Maggie Shaughnessy', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Elk': {
-    name: 'Elk Township',
-    website: 'https://elk-township.org',
-    officials: [
-      { name: 'Louis Fitz', title: 'Supervisor', party: null },
-      { name: 'Karen Fickies', title: 'Clerk', party: null },
-      { name: 'Brandy Myers', title: 'Treasurer', party: null },
-      { name: 'Jack Hankiewicz', title: 'Trustee', party: null },
-      { name: 'Dave Bass', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Ellsworth': {
-    name: 'Ellsworth Township',
-    website: 'https://ellsworthtownship.com',
-    officials: [
-      { name: 'Todd Charles', title: 'Supervisor', party: 'Republican' },
-      { name: 'Brittany Carlson', title: 'Clerk', party: 'Independent' },
-      { name: 'Kimberly Rothig-Pendley', title: 'Treasurer', party: 'Independent' },
-      { name: 'Patrick Chachulski', title: 'Trustee', party: 'Independent' },
-    ],
-  },
-
-  'Lake Twp': {
-    name: 'Lake Township',
-    website: 'https://laketownshiplcmi.gov',
-    phone: '231-898-3189',
-    officials: [
-      { name: 'Robert Mateja', title: 'Supervisor', party: 'Republican' },
-      { name: 'Amy E. Rademaker', title: 'Clerk', party: 'Republican' },
-      { name: 'Kathy VanDonkelaar', title: 'Treasurer', party: 'Republican' },
-      { name: 'Tina Personette', title: 'Trustee', party: 'Republican' },
-      { name: 'John LaPointe', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Newkirk': {
-    name: 'Newkirk Township',
-    website: 'https://newkirktownship.org',
-    officials: [
-      { name: 'Gretchen Allan', title: 'Supervisor', party: 'Republican' },
-      { name: 'Cheryl Jayne Fullerton', title: 'Clerk', party: 'Republican' },
-      { name: 'Sharon Gray', title: 'Treasurer', party: 'Republican' },
-      { name: 'Marilyn Gray', title: 'Trustee', party: 'Republican' },
-      { name: 'Richard Hall', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Peacock': {
-    name: 'Peacock Township',
-    website: 'https://peacocktownship.org',
-    officials: [
-      { name: 'Luann Parker', title: 'Supervisor', party: 'Republican' },
-      { name: 'Ann Thomas', title: 'Clerk', party: 'Republican' },
-      { name: 'Laura Hepler', title: 'Treasurer', party: 'Republican' },
-      { name: 'Kim Plummer', title: 'Trustee', party: 'Democratic' },
-      { name: 'Shirley Blackler', title: 'Trustee', party: 'Republican' },
-      { name: 'Justine Schram', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Pinora': {
-    name: 'Pinora Township',
-    website: 'https://pinoratownshipmi.org',
-    officials: [
-      { name: 'Victoria Dennett', title: 'Supervisor', party: 'Republican' },
-      { name: 'Ashley Visner', title: 'Clerk', party: 'Republican' },
-      { name: 'Don Dvoracek', title: 'Treasurer', party: 'Republican' },
-      { name: 'Kelly Weaver', title: 'Trustee', party: 'Democratic' },
-      { name: 'Rob Visner', title: 'Trustee', party: 'Republican' },
-      { name: 'Sidney G. Woods', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Pleasant Plains': {
-    name: 'Pleasant Plains Township',
-    website: 'https://pleasantplainstwp.org',
-    officials: [
-      { name: 'Kevin D. Braddy', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jessica Hanna', title: 'Clerk', party: 'Republican' },
-      { name: 'Ronnette Hanna', title: 'Treasurer', party: 'Republican' },
-      { name: 'Raymond Novakoskie', title: 'Trustee', party: null },
-      { name: 'Sondra Lemm', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Sauble': {
-    name: 'Sauble Township',
-    website: 'https://saubletwp.org',
-    officials: [
-      { name: 'Mary Ann Nugent', title: 'Supervisor', party: 'Independent' },
-      { name: 'Gail Raad', title: 'Clerk', party: 'Republican' },
-      { name: 'Beth Acker', title: 'Treasurer', party: 'Independent' },
-      { name: 'Tracy A. Baker', title: 'Trustee', party: 'Independent' },
-      { name: 'Patricia Bishop', title: 'Trustee', party: 'Independent' },
-      { name: 'Bill Rodgers', title: 'Trustee', party: 'Independent' },
-    ],
-  },
-
-  'Webber': {
-    name: 'Webber Township',
-    website: 'https://webbertownship.org',
-    officials: [
-      { name: 'Shaun Munson', title: 'Supervisor', party: null },
-      { name: 'Deborah L. Hanes', title: 'Clerk', party: 'Independent' },
-      { name: 'Pat Williams', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Katherine Rose', title: 'Trustee', party: 'Democratic' },
-      { name: 'Kathryn Young', title: 'Trustee', party: 'Democratic' },
-      { name: 'Kelly McCune', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Yates': {
-    name: 'Yates Township',
-    website: 'https://yatestownship.com',
-    officials: [
-      { name: 'Christopher Grier', title: 'Supervisor', party: null },
-      { name: 'Barbara McGregory', title: 'Clerk', party: 'Democratic' },
-      { name: 'Jacqueline Patterson', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Shawn Coffey', title: 'Trustee', party: 'Democratic' },
-      { name: 'Erica Tate', title: 'Trustee', party: 'Democratic' },
-    ],
-  },
-
-  /* ── Newaygo County townships ── */
-
-  Ashland: {
-    name: 'Ashland Township',
-    county: 'Newaygo',
-    website: 'https://www.ashtwp.com/',
-    phone: '231-834-7535',
-    officials: [
-      { name: 'Marvin Geers', title: 'Supervisor', party: 'Republican' },
-      { name: 'Shelly Boerema', title: 'Clerk', party: 'Republican' },
-      { name: 'Michelle McKinlay', title: 'Treasurer', party: 'Republican' },
-      { name: 'William Butchart', title: 'Trustee', party: 'Republican' },
-      { name: 'Gary Nelsen', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  Barton: {
-    name: 'Barton Township',
-    county: 'Newaygo',
-    website: 'https://bartontownship.org/',
-    phone: '231-735-2136',
-    officials: [
-      { name: 'Kyle Luce', title: 'Supervisor', party: null },
-      { name: 'Cheryl DuKavas', title: 'Clerk', party: null },
-      { name: 'Joni Luce', title: 'Treasurer', party: null },
-      { name: 'John Wright', title: 'Trustee', party: null },
-      { name: 'David Lange', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Big Prairie': {
-    name: 'Big Prairie Township',
-    county: 'Newaygo',
-    website: 'https://www.bigprairietownship.org/',
-    officials: [
-      { name: 'David Wright', title: 'Supervisor', party: null },
-      { name: 'Judy Baker', title: 'Clerk', party: null },
-      { name: 'Julie M. Scott', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Bridgeton: {
-    name: 'Bridgeton Township',
-    county: 'Newaygo',
-    website: 'https://bridgetontownshipmi.gov/',
-    phone: '231-282-3344',
-    officials: [
-      { name: 'Jason Mansfield', title: 'Supervisor', party: null },
-    ],
-  },
-
-  Brooks: {
-    name: 'Brooks Township',
-    county: 'Newaygo',
-    website: 'https://brookstownship.org/',
-    phone: '231-652-6763',
-    officials: [
-      { name: 'Cory Nelson', title: 'Supervisor', party: null },
-      { name: 'Jennifer Badgero', title: 'Clerk', party: null },
-      { name: 'Vivian Miller', title: 'Treasurer', party: null },
-      { name: 'Danielle Hummel', title: 'Trustee', party: null },
-      { name: 'Ryan Schultz', title: 'Trustee', party: null },
-    ],
-  },
-
-  Croton: {
-    name: 'Croton Township',
-    county: 'Newaygo',
-    website: 'https://www.crotontownship.org/',
-    officials: [
-      { name: 'Morgan Heinzman', title: 'Supervisor', party: null },
-      { name: 'Debbra Wright', title: 'Clerk', party: null },
-      { name: 'Kim Edwards', title: 'Treasurer', party: null },
-      { name: 'Andy Fias', title: 'Trustee', party: null },
-      { name: 'John Shepherd', title: 'Trustee', party: null },
-    ],
-  },
-
-  Dayton: {
-    name: 'Dayton Township',
-    county: 'Newaygo',
-    website: 'https://www.daytontownship.com/',
-    officials: [
-      { name: 'Brian Frens', title: 'Supervisor', party: null },
-      { name: 'Mary Jo Tibbe', title: 'Clerk', party: null },
-      { name: 'William Kunnen', title: 'Treasurer', party: null },
-      { name: 'Glen Sparks', title: 'Trustee', party: null },
-      { name: 'Marva Zeldenrust', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Denver Twp (Newaygo)': {
-    name: 'Denver Township',
-    county: 'Newaygo',
-    website: 'https://denvertownship.org/',
-    officials: [
-      { name: 'Mike Anderson', title: 'Supervisor', party: null },
-      { name: 'Nicki McWilliams', title: 'Clerk', party: null },
-      { name: 'Sherrilee Craner', title: 'Treasurer', party: null },
-      { name: 'Jeff Rumsey', title: 'Trustee', party: null },
-      { name: 'Tom Borgman', title: 'Trustee', party: null },
-    ],
-  },
-
-  Ensley: {
-    name: 'Ensley Township',
-    county: 'Newaygo',
-    website: 'https://www.ensleytownship.org/',
-    phone: '231-689-1082',
-    officials: [
-      { name: 'Patrick Hills', title: 'Supervisor', party: 'Republican' },
-      { name: 'Cindy Harwood', title: 'Clerk', party: 'Republican' },
-      { name: 'Faye Folkema', title: 'Treasurer', party: 'Republican' },
-      { name: 'Timothy Butler', title: 'Trustee', party: 'Republican' },
-      { name: 'Tim Newton', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  Everett: {
-    name: 'Everett Township',
-    county: 'Newaygo',
-    website: 'http://www.everetttownship.com/',
-    officials: [
-      { name: 'Judy Maike', title: 'Supervisor', party: 'Republican' },
-      { name: 'Pamela K. Chaffee', title: 'Clerk', party: null },
-      { name: 'Brandy Fleming', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Richard Long', title: 'Trustee', party: null },
-    ],
-  },
-
-  Garfield: {
-    name: 'Garfield Township',
-    county: 'Newaygo',
-    website: 'https://www.garfieldtownship.org/',
-    phone: '231-652-4251',
-    officials: [
-      { name: 'George Suchy', title: 'Supervisor', party: null },
-      { name: 'Kristin Melvin', title: 'Clerk', party: null },
-      { name: 'Ray Troyer', title: 'Treasurer', party: null },
-      { name: 'Rob Kinniburgh', title: 'Trustee', party: null },
-      { name: 'Amy Ekkel', title: 'Trustee', party: null },
-    ],
-  },
-
-  Goodwell: {
-    name: 'Goodwell Township',
-    county: 'Newaygo',
-    website: 'http://www.goodwelltownship.com/',
-    phone: '231-923-3797',
-    officials: [
-      { name: 'Tim Maxson', title: 'Supervisor', party: null },
-      { name: 'Jennifer Wozniak', title: 'Clerk', party: null },
-      { name: 'Rachel Belcher', title: 'Treasurer', party: null },
-      { name: 'Greg Olson', title: 'Trustee', party: null },
-      { name: 'Robert Birr', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Grant Twp': {
-    name: 'Grant Township',
-    county: 'Newaygo',
-    website: 'https://www.granttownship.org/',
-    phone: '231-269-2102',
-    officials: [
-      { name: 'Crystal Breithaupt', title: 'Supervisor', party: null },
-      { name: 'Lisa Willett', title: 'Clerk', party: null },
-      { name: 'Beth Svec', title: 'Treasurer', party: null },
-      { name: 'Kyle Rector', title: 'Trustee', party: null },
-      { name: 'Doug Moyer', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Lincoln Twp (Newaygo)': {
-    name: 'Lincoln Township',
-    county: 'Newaygo',
-    website: 'https://lincolntownship.net/',
-    officials: [
-      { name: 'Robin Rodarmer', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jackie Bulson', title: 'Clerk', party: 'Republican' },
-      { name: 'Amy Stockwell', title: 'Treasurer', party: 'Republican' },
-      { name: 'Josh Frantz', title: 'Trustee', party: 'Republican' },
-      { name: 'Roger Ungrey', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  Merrill: {
-    name: 'Merrill Township',
-    county: 'Newaygo',
-    website: 'https://www.merrilltownship.com/',
-    phone: '844-444-6828',
-    officials: [
-      { name: 'Pete Morgan', title: 'Supervisor', party: null },
-      { name: 'Tabatha Glezman', title: 'Clerk', party: null },
-      { name: 'Bonnie St. Amour', title: 'Treasurer', party: null },
-      { name: 'David Miedema', title: 'Trustee', party: null },
-    ],
-  },
-
-  Monroe: {
-    name: 'Monroe Township',
-    county: 'Newaygo',
-    website: 'http://www.monroemitwp.com/',
-    officials: [
-      { name: 'Michelle Marie Mills', title: 'Supervisor', party: null },
-      { name: 'Nancy Stone', title: 'Clerk', party: null },
-      { name: 'Stephen Jones', title: 'Treasurer', party: null },
-      { name: 'Mellissa Ann Manzagol', title: 'Trustee', party: null },
-      { name: 'Gretchen Ochs', title: 'Trustee', party: null },
-    ],
-  },
-
-  Norwich: {
-    name: 'Norwich Township',
-    county: 'Newaygo',
-    website: 'https://norwichtwp.org/',
-    phone: '231-629-1882',
-    officials: [
-      { name: 'Dan Wanink', title: 'Supervisor', party: null },
-      { name: 'Stacie Langworthy', title: 'Clerk', party: null },
-      { name: 'Phyllis Carlson', title: 'Treasurer', party: null },
-      { name: 'Jennifer Kailing', title: 'Trustee', party: null },
-      { name: 'Stephanie Morgan', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Sheridan Charter': {
-    name: 'Sheridan Charter Township',
-    county: 'Newaygo',
-    website: 'http://www.sheridanchartertownship.com/',
-    phone: '231-924-2566',
-    officials: [
-      { name: 'Peter L. Lance', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Maggie Kolk', title: 'Clerk', party: 'Republican' },
-      { name: 'Jennifer Hollowell', title: 'Treasurer', party: 'Republican' },
-      { name: 'Sue Auw', title: 'Trustee', party: 'Republican' },
-      { name: 'Aaron Bennett', title: 'Trustee', party: 'Republican' },
-      { name: 'Mark Robinson', title: 'Trustee', party: 'Republican' },
-      { name: 'Jesse B. Wolfsen', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  'Sherman Twp (Newaygo)': {
-    name: 'Sherman Township',
-    county: 'Newaygo',
-    website: 'https://shermantwp.org/',
-    phone: '989-250-0263',
-    officials: [
-      { name: 'Ken Smalligan', title: 'Supervisor', party: null },
-      { name: 'Jamie Kukal', title: 'Clerk', party: null },
-      { name: 'Karen Berens', title: 'Treasurer', party: null },
-      { name: 'Doug Berens', title: 'Trustee', party: null },
-      { name: 'Stanley Stroven', title: 'Trustee', party: null },
-    ],
-  },
-
-  Troy: {
-    name: 'Troy Township',
-    county: 'Newaygo',
-    officials: [
-      { name: 'Erica Quick', title: 'Supervisor', party: 'Republican' },
-      { name: 'Michael Donald Lowery', title: 'Clerk', party: 'Republican' },
-      { name: 'Stephanie Hawley', title: 'Treasurer', party: 'Republican' },
-      { name: 'Tina M. Hill', title: 'Trustee', party: 'Democratic' },
-    ],
-  },
-
-  Wilcox: {
-    name: 'Wilcox Township',
-    county: 'Newaygo',
-    officials: [
-      { name: 'Pamela A. Rolfe', title: 'Supervisor', party: 'Republican' },
-      { name: 'Erica Pozas', title: 'Clerk', party: 'Republican' },
-      { name: 'Melissa VerStrat-Jonaitis', title: 'Treasurer', party: 'Republican' },
-      { name: 'Ronald Fowler', title: 'Trustee', party: 'Republican' },
-      { name: 'Laurie Sytsma', title: 'Trustee', party: 'Republican' },
-    ],
-  },
-
-  /* ── Isabella County townships ── */
-
-  Broomfield: {
-    name: 'Broomfield Township',
-    county: 'Isabella',
-    phone: '989-967-8839',
-    officials: [
-      { name: 'Neil Strong', title: 'Supervisor', party: null },
-      { name: 'Patti Olson', title: 'Clerk', party: null },
-      { name: 'Jackie Verbeke', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Chippewa Twp (Isabella)': {
-    name: 'Chippewa Township',
-    county: 'Isabella',
-    website: 'https://chippewatownship.com/',
-    phone: '989-773-3600',
-    officials: [
-      { name: 'Don Lowery', title: 'Supervisor', party: null },
-      { name: 'Frances B. Ash', title: 'Clerk', party: null },
-      { name: 'Kathy VanderKolk', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Coe: {
-    name: 'Coe Township',
-    county: 'Isabella',
-    website: 'https://coetownship.com/',
-    phone: '989-828-5960',
-    officials: [
-      { name: 'Mary Kay Maas', title: 'Supervisor', party: null },
-      { name: 'Riley Travis', title: 'Clerk', party: null },
-      { name: 'Teresa Meyer', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Coldwater: {
-    name: 'Coldwater Township',
-    county: 'Isabella',
-    officials: [
-      { name: 'Randy Hall', title: 'Supervisor', party: null },
-      { name: 'Corrine Tipton', title: 'Clerk', party: null },
-      { name: 'Kathy Wyman', title: 'Treasurer', party: null },
-      { name: 'Chris Wyman', title: 'Trustee', party: null },
-      { name: 'Jason Barker', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Deerfield Twp (Isabella)': {
-    name: 'Deerfield Township',
-    county: 'Isabella',
-    website: 'https://deerfieldtownship.net/',
-    phone: '989-779-7557',
-    officials: [
-      { name: 'Timothy Murphy', title: 'Supervisor', party: null },
-      { name: 'Walter Nelson', title: 'Clerk', party: null },
-      { name: 'Connie Lynch', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Denver: {
-    name: 'Denver Township',
-    county: 'Isabella',
-    phone: '989-621-3629',
-    officials: [
-      { name: 'John Pedjac', title: 'Supervisor', party: null },
-      { name: 'Tammy L. Prout', title: 'Clerk', party: null },
-      { name: 'Monica Kampf-Carroll', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Fremont Twp': {
-    name: 'Fremont Township',
-    county: 'Isabella',
-    website: 'https://fremonttwnshp.com/',
-    officials: [
-      { name: 'Gerad Himebaugh', title: 'Supervisor', party: null },
-      { name: 'John Schimmelmann', title: 'Clerk', party: null },
-      { name: 'Shirlee Van Bonn', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Gilmore: {
-    name: 'Gilmore Township',
-    county: 'Isabella',
-    website: 'https://gilmoretwp.com/',
-    officials: [
-      { name: 'Robert Sibasch', title: 'Supervisor', party: null },
-      { name: 'Lisa Graham', title: 'Clerk', party: null },
-      { name: 'Patricia Marshall', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Isabella: {
-    name: 'Isabella Township',
-    county: 'Isabella',
-    website: 'https://isabellatwp.com/',
-    phone: '989-433-5413',
-    officials: [
-      { name: 'Rick Ervin', title: 'Supervisor', party: null },
-      { name: 'Kristen Derby', title: 'Clerk', party: null },
-      { name: 'Linda Bechtel', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Lincoln Twp (Isabella)': {
-    name: 'Lincoln Township',
-    county: 'Isabella',
-    phone: '989-828-6967',
-    officials: [
-      { name: 'Thomas L. Ramon', title: 'Supervisor', party: null },
-      { name: 'Danielle Willoughby', title: 'Clerk', party: null },
-      { name: 'Linda Vogel', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Nottawa: {
-    name: 'Nottawa Township',
-    county: 'Isabella',
-    website: 'https://nottawatwpisabellami.gov/',
-    phone: '989-644-1000',
-    officials: [
-      { name: 'Kory Mindel', title: 'Supervisor', party: null },
-      { name: 'Heather A. Curtiss', title: 'Clerk', party: null },
-      { name: 'Katie Galinski', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Rolland: {
-    name: 'Rolland Township',
-    county: 'Isabella',
-    website: 'https://rollandtownship.org/',
-    officials: [
-      { name: 'Daniel Shaw', title: 'Supervisor', party: null },
-      { name: 'Mary Ellen Butler', title: 'Clerk', party: null },
-      { name: 'Javan Quackenbush', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Sherman Twp (Isabella)': {
-    name: 'Sherman Township',
-    county: 'Isabella',
-    website: 'https://shermantwp.com/',
-    phone: '989-644-2666',
-    officials: [
-      { name: 'Tom Johnson', title: 'Supervisor', party: null },
-      { name: 'Denise M. Livermore', title: 'Clerk', party: null },
-      { name: 'Teresa Clark', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Union: {
-    name: 'Union Township',
-    county: 'Isabella',
-    website: 'https://uniontownshipmi.com/',
-    phone: '989-772-4600',
-    officials: [
-      { name: 'Bryan Mielke', title: 'Supervisor', party: null },
-      { name: 'Lisa Cody', title: 'Clerk', party: null },
-      { name: 'Kimberly Rice', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Vernon: {
-    name: 'Vernon Township',
-    county: 'Isabella',
-    website: 'https://vernontownship.org/',
-    phone: '989-751-6341',
-    officials: [
-      { name: 'Ben Browning', title: 'Supervisor', party: null },
-      { name: 'Loren Cole', title: 'Clerk', party: null },
-      { name: 'Stephanie Allen', title: 'Treasurer', party: null },
-    ],
-  },
-
-  Wise: {
-    name: 'Wise Township',
-    county: 'Isabella',
-    website: 'https://wisetownship.org/',
-    phone: '989-386-7244',
-    officials: [
-      { name: 'Robert Moore', title: 'Supervisor', party: null },
-      { name: 'Doris Methner', title: 'Clerk', party: null },
-      { name: 'Shannon Penny', title: 'Treasurer', party: null },
-    ],
-  },
-
-  /* ── Barry County townships ── */
-
-  Assyria: {
+  'Barry:Assyria': {
     name: 'Assyria Township',
     county: 'Barry',
-    website: 'https://assyriatwpmi.gov/',
     officials: [
-      { name: 'Tom Wing', title: 'Supervisor', party: null },
-      { name: 'Cheryl Thornton', title: 'Clerk', party: null },
-      { name: 'Terry Ryder-Stephens', title: 'Treasurer', party: null },
-      { name: 'Josh Miller', title: 'Trustee', party: null },
-      { name: 'Zachary Haralson', title: 'Trustee', party: null },
-    ],
+      { name: 'Thomas Wing', title: 'Supervisor', phone: '(269) 758-3646', email: '' },
+      { name: 'Cheryl Thornton', title: 'Clerk', phone: '(269) 758-3646', email: '' },
+      { name: 'Terry Ryder-Stephens', title: 'Treasurer', phone: '(269) 339-9569', email: '' },
+      { name: 'James Miller', title: 'Trustee', phone: '(269) 758-3410', email: '' },
+      { name: 'Zachary Haralson', title: 'Trustee', phone: '', email: '' }
+    ]
   },
-
-  Baltimore: {
+  'Barry:Baltimore': {
     name: 'Baltimore Township',
     county: 'Barry',
-    website: 'https://baltimoretwp.com/',
     officials: [
-      { name: 'Chad VanSyckle', title: 'Supervisor', party: null },
-      { name: 'Jana Bishop', title: 'Clerk', party: null },
-      { name: 'Kelli Case', title: 'Treasurer', party: null },
-      { name: 'April Krouse', title: 'Trustee', party: null },
-      { name: 'Aaron VanSickle', title: 'Trustee', party: null },
-    ],
+      { name: 'Chad Vansyckle', title: 'Supervisor', phone: '(269) 721-3502', email: '' },
+      { name: 'Jana Harding-Bishop', title: 'Clerk', phone: '(269) 378-7280', email: '' },
+      { name: 'Kelli Case', title: 'Treasurer', phone: '(269) 721-3502', email: '' },
+      { name: 'April Taggart', title: 'Trustee', phone: '(269) 721-3502', email: '' }
+    ]
   },
-
-  'Barry Twp': {
+  'Barry:Barry': {
     name: 'Barry Township',
     county: 'Barry',
-    website: 'https://barrytownshipmi.com/',
     officials: [
-      { name: 'Barry Bower', title: 'Supervisor', party: null },
-      { name: 'Deb Knight', title: 'Clerk', party: null },
-      { name: 'Judy Wooer', title: 'Treasurer', party: null },
-      { name: 'Lee Campbell', title: 'Trustee', party: null },
-      { name: 'Don White', title: 'Trustee', party: null },
-    ],
+      { name: 'Barry Bower', title: 'Supervisor', phone: '', email: '' },
+      { name: 'Debra Knight', title: 'Clerk', phone: '(269) 623-5171', email: '' },
+      { name: 'Judith Wooer', title: 'Treasurer', phone: '(269) 623-5171', email: '' },
+      { name: 'Lee Campbell', title: 'Trustee', phone: '(269) 623-5171', email: '' },
+      { name: 'Don White', title: 'Trustee', phone: '(269) 623-5171', email: '' }
+    ]
   },
-
-  Carlton: {
+  'Barry:Carlton': {
     name: 'Carlton Township',
     county: 'Barry',
-    website: 'https://www.carltontownship.org/',
     officials: [
-      { name: 'Brad Carpenter', title: 'Supervisor', party: null },
-      { name: 'Amanda Duits', title: 'Clerk', party: null },
-      { name: 'Terri Geiger', title: 'Treasurer', party: null },
-      { name: 'Michelle Duits', title: 'Trustee', party: null },
-      { name: 'Kevin Erb', title: 'Trustee', party: null },
-    ],
+      { name: 'Brad Carpenter', title: 'Supervisor', phone: '(269) 945-5990 ext. 1', email: '' },
+      { name: 'Amanda Carothers', title: 'Clerk', phone: '(269) 945-5990 ext. 3', email: '' },
+      { name: 'Terri Geiger', title: 'Treasurer', phone: '(269) 945-5990 ext. 2', email: '' },
+      { name: 'Michelle Duits', title: 'Trustee', phone: '(269) 945-5990', email: '' },
+      { name: 'Kevin Erb', title: 'Trustee', phone: '(269) 945-5990', email: '' }
+    ]
   },
-
-  Castleton: {
+  'Barry:Castleton': {
     name: 'Castleton Township',
     county: 'Barry',
     officials: [
-      { name: 'Cheryl Hartwell', title: 'Supervisor', party: null },
-      { name: 'Marcia Scramlin', title: 'Clerk', party: null },
-      { name: 'Joy Mulder', title: 'Treasurer', party: null },
-    ],
+      { name: 'Cheryl Hartwell', title: 'Supervisor', phone: '(517) 930-8449', email: '' },
+      { name: 'Marcia Scramlin', title: 'Clerk', phone: '(517) 852-9479', email: '' },
+      { name: 'Joy Mulder', title: 'Treasurer', phone: '(517) 852-9479', email: '' },
+      { name: 'Stephanie Hester', title: 'Trustee', phone: '(517) 852-9479', email: '' },
+      { name: 'William Rhodes', title: 'Trustee', phone: '(517) 852-9479', email: '' }
+    ]
   },
-
-  'Hastings Twp': {
-    name: 'Hastings Charter Township',
+  'Barry:Hastings': {
+    name: 'Hastings charter Township',
     county: 'Barry',
-    website: 'https://www.hastingstownship.com/',
     officials: [
-      { name: 'Jim Partridge', title: 'Supervisor', party: null },
-      { name: 'David Olson', title: 'Clerk', party: null },
-      { name: 'Jenee Phillips', title: 'Treasurer', party: null },
-      { name: 'Benjamin Westveer', title: 'Trustee', party: null },
-      { name: 'Bruce Scheck', title: 'Trustee', party: null },
-      { name: 'Don Eichholz', title: 'Trustee', party: null },
-      { name: 'William Wetzel', title: 'Trustee', party: null },
-    ],
+      { name: 'James Partridge', title: 'Supervisor', phone: '(269) 998-8762', email: '' },
+      { name: 'David Olson', title: 'Clerk', phone: '(269) 948-9690', email: '' },
+      { name: 'Jenee Phillips', title: 'Treasurer', phone: '(269) 948-9690', email: '' },
+      { name: 'William Wetzel', title: 'Trustee', phone: '(269) 945-9943', email: '' },
+      { name: 'Don Eichholz', title: 'Trustee', phone: '(269) 598-8807', email: '' },
+      { name: 'Bruce Scheck', title: 'Trustee', phone: '(269) 762-2172', email: '' },
+      { name: 'Benjamin Westveer', title: 'Trustee', phone: '(269) 948-9690', email: '' }
+    ]
   },
-
-  Hope: {
+  'Barry:Hope': {
     name: 'Hope Township',
     county: 'Barry',
-    website: 'https://www.hopetwp.com/',
     officials: [
-      { name: 'Doug Peck', title: 'Supervisor', party: null },
-      { name: 'Debby Jackson', title: 'Clerk', party: null },
-      { name: 'Arlene Tonkin', title: 'Treasurer', party: null },
-      { name: 'Chris Lapins', title: 'Trustee', party: null },
-      { name: 'Jr. Homister', title: 'Trustee', party: null },
-    ],
+      { name: 'Douglas Peck', title: 'Supervisor', phone: '(269) 948-2464', email: '' },
+      { name: 'Deborah Jackson', title: 'Clerk', phone: '(269) 948-2464', email: '' },
+      { name: 'Arlene Tonkin', title: 'Treasurer', phone: '(269) 945-9299', email: '' },
+      { name: 'Chris Lapins', title: 'Trustee', phone: '(269) 948-2464', email: '' },
+      { name: 'Eldon Homister', title: 'Trustee', phone: '(269) 948-2464', email: '' }
+    ]
   },
-
-  Irving: {
+  'Barry:Irving': {
     name: 'Irving Township',
     county: 'Barry',
-    website: 'https://www.irvingtownship.org/',
     officials: [
-      { name: 'Daniel Lydy', title: 'Supervisor', party: null },
-      { name: 'Tessa Stout', title: 'Clerk', party: null },
-      { name: 'Francie Nagel', title: 'Treasurer', party: null },
-      { name: 'Mike Buehler', title: 'Trustee', party: null },
-      { name: 'Larry Brummel Jr', title: 'Trustee', party: null },
-    ],
+      { name: 'Dan Lydy', title: 'Supervisor', phone: '(269) 948-0633', email: '' },
+      { name: 'Tessa Stout', title: 'Clerk', phone: '(269) 948-0633', email: '' },
+      { name: 'Francie Nagel', title: 'Treasurer', phone: '(269) 948-0633', email: '' },
+      { name: 'Michael Buehler', title: 'Trustee', phone: '(269) 838-2235', email: '' },
+      { name: 'Larry Brummel', title: 'Trustee', phone: '(269) 948-0633', email: '' }
+    ]
   },
-
-  Johnstown: {
+  'Barry:Johnstown': {
     name: 'Johnstown Township',
     county: 'Barry',
-    website: 'https://johnstowntwpmi.gov/',
     officials: [
-      { name: 'Barbara Earl', title: 'Supervisor', party: null },
-      { name: 'Sheri Babcock', title: 'Clerk', party: null },
-      { name: 'Karmen Nickerson', title: 'Treasurer', party: null },
-      { name: 'Deana Powell', title: 'Trustee', party: null },
-      { name: 'Dolores Garland', title: 'Trustee', party: null },
-    ],
+      { name: 'Barbara Earl', title: 'Supervisor', phone: '(269) 721-8443', email: '' },
+      { name: 'Sheri Babcock', title: 'Clerk', phone: '(269) 721-9709 ext. 202', email: '' },
+      { name: 'Karmen Nickerson', title: 'Treasurer', phone: '(269) 721-3611', email: '' },
+      { name: 'Deana Powell', title: 'Trustee', phone: '(269) 721-3418', email: '' },
+      { name: 'Dolores Garland', title: 'Trustee', phone: '(269) 721-9928', email: '' }
+    ]
   },
-
-  'Maple Grove': {
+  'Barry:Maple Grove': {
     name: 'Maple Grove Township',
     county: 'Barry',
-    website: 'https://www.maplegrovetownship.org/',
     officials: [
-      { name: 'Wes Peterman', title: 'Supervisor', party: null },
-      { name: 'Tish Yaros', title: 'Clerk', party: null },
-      { name: 'Ron Jaster', title: 'Treasurer', party: null },
-      { name: 'Joe Erhardt Jr.', title: 'Trustee', party: null },
-      { name: 'Marc Ebenhoeh', title: 'Trustee', party: null },
-    ],
+      { name: 'Jeffrey Butler', title: 'Supervisor', phone: '(517) 937-0286', email: '' },
+      { name: 'Holly Carpenter', title: 'Clerk', phone: '(517) 852-0872', email: '' },
+      { name: 'Stacey Denton', title: 'Treasurer', phone: '(517) 852-4658', email: '' },
+      { name: 'Douglas Westendorp', title: 'Trustee', phone: '(269) 838-7001', email: '' },
+      { name: 'Steve Gauss', title: 'Trustee', phone: '(517) 852-0872', email: '' }
+    ]
   },
-
-  Orangeville: {
+  'Barry:Orangeville': {
     name: 'Orangeville Township',
     county: 'Barry',
-    website: 'https://www.orangevilletownship.org/',
     officials: [
-      { name: 'Vivian Conner', title: 'Supervisor', party: null },
-      { name: 'Mel Risner', title: 'Clerk', party: null },
-      { name: 'Michelle Ritchie', title: 'Treasurer', party: null },
-      { name: 'Brittnee Risner', title: 'Trustee', party: null },
-      { name: 'Corey Ribble', title: 'Trustee', party: null },
-    ],
+      { name: 'Vivian Conner', title: 'Supervisor', phone: '(269) 838-8740', email: '' },
+      { name: 'Melody Risner', title: 'Clerk', phone: '(269) 664-4522', email: '' },
+      { name: 'Michelle Ritchie', title: 'Treasurer', phone: '(269) 664-4522', email: '' },
+      { name: 'Britnee Risner', title: 'Trustee', phone: '(269) 664-4522', email: '' },
+      { name: 'Corey Ribble', title: 'Trustee', phone: '(269) 297-0111', email: '' }
+    ]
   },
-
-  Prairieville: {
+  'Barry:Prairieville': {
     name: 'Prairieville Township',
     county: 'Barry',
-    website: 'https://prairievilletwp-mi.gov/',
     officials: [
-      { name: 'Jim Stoneburner', title: 'Supervisor', party: null },
-      { name: 'Rod Goebel', title: 'Clerk', party: null },
-      { name: 'Judy Pence', title: 'Treasurer', party: null },
-      { name: 'Ted DeVries', title: 'Trustee', party: null },
-      { name: 'Mark D. Doster', title: 'Trustee', party: null },
-    ],
+      { name: 'Jim Stoneburner', title: 'Supervisor', phone: '(269) 623-2664', email: '' },
+      { name: 'Rod Goebel', title: 'Clerk', phone: '(269) 623-2664', email: '' },
+      { name: 'Judy Pence', title: 'Treasurer', phone: '(269) 623-2763', email: '' },
+      { name: 'Ted DeVries', title: 'Trustee', phone: '(269) 491-4676', email: '' },
+      { name: 'Mark Doster', title: 'Trustee', phone: '(269) 623-2664', email: '' }
+    ]
   },
-
-  Rutland: {
-    name: 'Rutland Charter Township',
+  'Barry:Rutland': {
+    name: 'Rutland charter Township',
     county: 'Barry',
-    website: 'https://www.rutlandtownship.org/',
     officials: [
-      { name: 'Marti Mayack', title: 'Supervisor', party: null },
-      { name: 'Robin Hawthorne', title: 'Clerk', party: null },
-      { name: 'Sandy Greenfield', title: 'Treasurer', party: null },
-      { name: 'Brenda Bellmore', title: 'Trustee', party: null },
-      { name: 'Sandra James', title: 'Trustee', party: null },
-      { name: 'Gene Hall', title: 'Trustee', party: null },
-      { name: 'Jason Watson', title: 'Trustee', party: null },
-    ],
+      { name: 'Marti Mayack', title: 'Supervisor', phone: '(269) 948-2194', email: '' },
+      { name: 'Robin Hawthorne', title: 'Clerk', phone: '(269) 948-2194', email: '' },
+      { name: 'Sandra Greenfield', title: 'Treasurer', phone: '(269) 948-2194', email: '' },
+      { name: 'Brenda Bellmore', title: 'Trustee', phone: '(269) 948-4110', email: '' },
+      { name: 'Sandra James', title: 'Trustee', phone: '(269) 945-9402', email: '' },
+      { name: 'Gene Hall', title: 'Trustee', phone: '(269) 948-2194', email: '' },
+      { name: 'Jason Watson', title: 'Trustee', phone: '(269) 948-2194', email: '' }
+    ]
   },
-
-  Thornapple: {
+  'Barry:Thornapple': {
     name: 'Thornapple Township',
     county: 'Barry',
-    website: 'https://www.thornapple-twp.org/',
     officials: [
-      { name: 'Eric Schaefer', title: 'Supervisor', party: null },
-      { name: 'Cindy Ordway', title: 'Clerk', party: null },
-      { name: 'Laura Bouchard', title: 'Treasurer', party: null },
-      { name: 'Curtis Campbell', title: 'Trustee', party: null },
-      { name: 'Ross DeMaagd', title: 'Trustee', party: null },
-      { name: 'Sandra Rairigh', title: 'Trustee', party: null },
-      { name: 'David Stanton', title: 'Trustee', party: null },
-    ],
+      { name: 'Eric Schaefer', title: 'Supervisor', phone: '(269) 795-7202', email: '' },
+      { name: 'Kathy Medenblik', title: 'Clerk', phone: '(269) 795-7202', email: '' },
+      { name: 'Laura Bouchard', title: 'Treasurer', phone: '(269) 795-7202', email: '' },
+      { name: 'Ross DeMaagd', title: 'Trustee', phone: '(269) 795-7202', email: '' },
+      { name: 'Sandra Rairigh', title: 'Trustee', phone: '(616) 292-8916', email: '' },
+      { name: 'David Stanton', title: 'Trustee', phone: '(269) 795-7202', email: '' },
+      { name: 'Richard Frye', title: 'Trustee', phone: '(269) 795-7202', email: '' }
+    ]
   },
-
-  Woodland: {
+  'Barry:Woodland': {
     name: 'Woodland Township',
     county: 'Barry',
-    website: 'https://www.woodlandtwp.com/',
     officials: [
-      { name: 'Jeff Mackenzie', title: 'Supervisor', party: null },
-      { name: 'Elizabeth Busk', title: 'Clerk', party: null },
-      { name: 'Shawn Durkee', title: 'Treasurer', party: null },
-      { name: 'Mike Slater', title: 'Trustee', party: null },
-      { name: 'Gabe Steward', title: 'Trustee', party: null },
-    ],
+      { name: 'Jeff MacKenzie', title: 'Supervisor', phone: '(269) 367-4915', email: '' },
+      { name: 'Elizabeth Busk', title: 'Clerk', phone: '(269) 367-4915', email: '' },
+      { name: 'Shawn Durkee', title: 'Treasurer', phone: '(269) 367-4915', email: '' },
+      { name: 'Gabe Steward', title: 'Trustee', phone: '(269) 367-4915', email: '' },
+      { name: 'Mikel Slater', title: 'Trustee', phone: '', email: '' }
+    ]
   },
-
-  'Yankee Springs': {
+  'Barry:Yankee Springs': {
     name: 'Yankee Springs Township',
     county: 'Barry',
-    website: 'https://yankeespringstwp.org/',
     officials: [
-      { name: 'Rob Heethuis', title: 'Supervisor', party: null },
-      { name: 'Tom Hopkins', title: 'Clerk', party: null },
-      { name: 'Deb Mousseau', title: 'Treasurer', party: null },
-      { name: 'Dave VanHouten', title: 'Trustee', party: null },
-      { name: 'Larry Knowles', title: 'Trustee', party: null },
-    ],
+      { name: 'Rob Heethuis', title: 'Supervisor', phone: '(269) 795-9091', email: '' },
+      { name: 'Tom Hopkins', title: 'Clerk', phone: '(269) 795-9091', email: '' },
+      { name: 'Deb Mousseau', title: 'Treasurer', phone: '(269) 795-9091', email: '' },
+      { name: 'Larry Knowles', title: 'Trustee', phone: '(269) 795-9091', email: '' },
+      { name: 'Dave VanHouten', title: 'Trustee', phone: '(269) 795-9091', email: '' }
+    ]
   },
-
-  /* ── Allegan County townships ── */
-
-  'Allegan Twp': {
-    name: 'Allegan Township',
-    county: 'Allegan',
-    website: 'https://allegantownship.org/',
+  'Bay:Bangor': {
+    name: 'Bangor charter Township',
+    county: 'Bay',
     officials: [
-      { name: 'Steve Schulz', title: 'Supervisor', party: null },
-      { name: 'Michelle Waite', title: 'Clerk', party: null },
-      { name: 'Laree Waanders', title: 'Treasurer', party: null },
-      { name: 'Heather Knight', title: 'Trustee', party: null },
-      { name: 'Jim Connell', title: 'Trustee', party: null },
-    ],
+      { name: 'Glenn Rowley', title: 'Supervisor', phone: '(989) 684-8931', email: '' },
+      { name: 'Dawn Bublitz', title: 'Clerk', phone: '(989) 684-8041', email: '' },
+      { name: 'Karie Wardynski', title: 'Treasurer', phone: '(989) 684-8041', email: '' },
+      { name: 'Brian Taylor', title: 'Trustee', phone: '(989) 684-8041', email: '' },
+      { name: 'Tracy Koch', title: 'Trustee', phone: '(989) 684-8041', email: '' },
+      { name: 'Katie Caldwell', title: 'Trustee', phone: '(989) 684-8041', email: '' },
+      { name: 'Bob Thomas', title: 'Trustee', phone: '(989) 684-8041', email: '' }
+    ]
   },
-
-  Casco: {
-    name: 'Casco Township',
-    county: 'Allegan',
-    website: 'https://www.cascotownship.info/',
+  'Bay:Beaver': {
+    name: 'Beaver Township',
+    county: 'Bay',
     officials: [
-      { name: 'Allan Overhiser', title: 'Supervisor', party: null },
-      { name: 'Rachel Ridley', title: 'Clerk', party: null },
-      { name: 'Kenny Clevenger', title: 'Treasurer', party: null },
-      { name: 'Mary Campbell', title: 'Trustee', party: null },
-      { name: 'Dan Fleming', title: 'Trustee', party: null },
-    ],
+      { name: 'Nicholas Tomczak', title: 'Supervisor', phone: '(989) 662-4996', email: '' },
+      { name: 'April Histed', title: 'Clerk', phone: '(989) 662-4996', email: '' },
+      { name: 'Gary Koch', title: 'Treasurer', phone: '(989) 662-4996', email: '' },
+      { name: 'Thomas Meier', title: 'Trustee', phone: '(989) 662-4996', email: '' },
+      { name: 'Mark Wackerle', title: 'Trustee', phone: '(989) 662-4996', email: '' }
+    ]
   },
-
-  Cheshire: {
-    name: 'Cheshire Township',
-    county: 'Allegan',
-    website: 'https://www.cheshiretownship.org/',
+  'Bay:Frankenlust': {
+    name: 'Frankenlust Township',
+    county: 'Bay',
     officials: [
-      { name: 'Steve Revor', title: 'Supervisor', party: null },
-      { name: 'Jodi Pinnell', title: 'Clerk', party: null },
-      { name: 'Ron Hale', title: 'Treasurer', party: null },
-      { name: 'Raymond Moored', title: 'Trustee', party: null },
-      { name: 'Kenneth Horton', title: 'Trustee', party: null },
-    ],
+      { name: 'Ronald Campbell', title: 'Supervisor', phone: '(989) 686-5300', email: '' },
+      { name: 'Dee Ann LaPan', title: 'Clerk', phone: '(989) 686-5300', email: '' },
+      { name: 'Amy Stothard', title: 'Treasurer', phone: '(989) 686-5300', email: '' },
+      { name: 'Samuel Britton', title: 'Trustee', phone: '(989) 798-3152', email: '' }
+    ]
   },
-
-  Clyde: {
-    name: 'Clyde Township',
-    county: 'Allegan',
-    website: 'https://clydetwp.com/',
+  'Bay:Fraser': {
+    name: 'Fraser Township',
+    county: 'Bay',
     officials: [
-      { name: 'Tom Giles', title: 'Supervisor', party: null },
-      { name: 'Pam Onken', title: 'Clerk', party: null },
-      { name: 'Chris McKellips', title: 'Treasurer', party: null },
-      { name: 'Bernard McLeod', title: 'Trustee', party: null },
-      { name: 'Robert Larsen', title: 'Trustee', party: null },
-    ],
+      { name: 'Mark Galus', title: 'Supervisor', phone: '(989) 697-3820', email: '' },
+      { name: 'Patricia Powers', title: 'Clerk', phone: '(989) 697-3820', email: '' },
+      { name: 'Dan Couveau', title: 'Treasurer', phone: '(989) 697-3820', email: '' },
+      { name: 'George Augustyniak', title: 'Trustee', phone: '(616) 402-3913', email: '' },
+      { name: 'Tyler McKeon', title: 'Trustee', phone: '(989) 697-3820', email: '' }
+    ]
   },
-
-  Dorr: {
-    name: 'Dorr Township',
-    county: 'Allegan',
-    website: 'https://www.dorrtownshipmi.gov/',
+  'Bay:Garfield': {
+    name: 'Garfield Township',
+    county: 'Bay',
     officials: [
-      { name: 'Jeff Miling', title: 'Supervisor', party: null },
-      { name: 'Debbie Sewers', title: 'Clerk', party: null },
-      { name: 'Sheila Reitz', title: 'Treasurer', party: null },
-      { name: 'John Tuinstra', title: 'Trustee', party: null },
-      { name: 'Patrick Champion', title: 'Trustee', party: null },
-      { name: 'Dan Weber', title: 'Trustee', party: null },
-    ],
+      { name: 'James Dubay', title: 'Supervisor', phone: '(989) 879-5338', email: '' },
+      { name: 'Sean Gorman', title: 'Clerk', phone: '(989) 879-2552', email: '' },
+      { name: 'Karen Snyder', title: 'Treasurer', phone: '(989) 879-2552', email: '' },
+      { name: 'Tom Gradowski', title: 'Trustee', phone: '(989) 879-2552', email: '' },
+      { name: 'Amy Bromberg', title: 'Trustee', phone: '(989) 928-0760', email: '' }
+    ]
   },
-
-  Fillmore: {
-    name: 'Fillmore Township',
-    county: 'Allegan',
-    website: 'https://fillmoretownship.org/',
+  'Bay:Gibson': {
+    name: 'Gibson Township',
+    county: 'Bay',
     officials: [
-      { name: 'John Yonker', title: 'Supervisor', party: null },
-      { name: 'Elaine Mokma', title: 'Clerk', party: null },
-      { name: 'Leah Folkert', title: 'Treasurer', party: null },
-      { name: 'Robert Yonker', title: 'Trustee', party: null },
-      { name: 'Chuck Schaap', title: 'Trustee', party: null },
-    ],
+      { name: 'Matt Bayne', title: 'Supervisor', phone: '(989) 903-5227', email: '' },
+      { name: 'Christine Cousineau', title: 'Clerk', phone: '(989) 903-5227', email: '' },
+      { name: 'Shery Droptiny', title: 'Treasurer', phone: '(989) 239-4555', email: '' },
+      { name: 'Katie McLincha', title: 'Trustee', phone: '(989) 903-5227', email: '' },
+      { name: 'Samantha Witzke', title: 'Trustee', phone: '(989) 324-8447', email: '' }
+    ]
   },
-
-  Ganges: {
-    name: 'Ganges Township',
-    county: 'Allegan',
-    website: 'https://gangestownship.org/',
+  'Bay:Hampton': {
+    name: 'Hampton charter Township',
+    county: 'Bay',
     officials: [
-      { name: 'John Hebert', title: 'Supervisor', party: null },
-      { name: 'Robin Phelps', title: 'Clerk', party: null },
-      { name: 'Cindy Reimink', title: 'Treasurer', party: null },
-      { name: 'Dick Hutchins', title: 'Trustee', party: null },
-      { name: 'George Thompson', title: 'Trustee', party: null },
-    ],
+      { name: 'Teresa Close', title: 'Supervisor', phone: '(989) 893-7541', email: '' },
+      { name: 'Amanda DeWyse', title: 'Clerk', phone: '(989) 893-7541', email: '' },
+      { name: 'Donna Samyn', title: 'Treasurer', phone: '(989) 893-7541', email: '' },
+      { name: 'Emily Benchley', title: 'Trustee', phone: '', email: '' },
+      { name: 'Louis DuRussel', title: 'Trustee', phone: '(989) 714-0560', email: '' },
+      { name: 'Thomas Foret', title: 'Trustee', phone: '(989) 893-7541', email: '' }
+    ]
   },
-
-  'Gun Plain': {
-    name: 'Gun Plain Charter Township',
-    county: 'Allegan',
-    website: 'https://www.gunplain.org/',
+  'Bay:Kawkawlin': {
+    name: 'Kawkawlin Township',
+    county: 'Bay',
     officials: [
-      { name: 'Michael VanDenBerg', title: 'Supervisor', party: null },
-      { name: 'Martha Meert', title: 'Clerk', party: null },
-      { name: 'Annette Horton', title: 'Treasurer', party: null },
-      { name: 'Jenann Pearson', title: 'Trustee', party: null },
-      { name: 'Kevin Meert', title: 'Trustee', party: null },
-      { name: 'Christine VanDenBerg', title: 'Trustee', party: null },
-      { name: 'Dana Albertson-Stowell', title: 'Trustee', party: null },
-    ],
+      { name: 'Brad Eddy', title: 'Supervisor', phone: '(989) 686-8710', email: '' },
+      { name: 'Brian Waldee', title: 'Clerk', phone: '(989) 686-8710', email: '' },
+      { name: 'Laurie DeShano', title: 'Treasurer', phone: '(989) 686-8710', email: '' },
+      { name: 'Charles Campbell', title: 'Trustee', phone: '(989) 686-8710', email: '' },
+      { name: 'Brian Whalen', title: 'Trustee', phone: '(989) 686-8710', email: '' }
+    ]
   },
-
-  Heath: {
-    name: 'Heath Township',
-    county: 'Allegan',
-    website: 'https://heathtownship.net/',
+  'Bay:Merritt': {
+    name: 'Merritt Township',
+    county: 'Bay',
     officials: [
-      { name: 'Ronald L. Jones', title: 'Supervisor', party: null },
-      { name: 'Missy Harvey', title: 'Clerk', party: null },
-      { name: 'Misti J. Lindholm', title: 'Treasurer', party: null },
-      { name: 'Hildagarde Boerman', title: 'Trustee', party: null },
-      { name: 'Bill Harvey', title: 'Trustee', party: null },
-    ],
+      { name: 'David Schabel', title: 'Supervisor', phone: '(989) 659-2136', email: '' },
+      { name: 'Kathy Parrent', title: 'Clerk', phone: '(989) 659-2136', email: '' },
+      { name: 'Tina Fleischmann', title: 'Treasurer', phone: '(989) 659-2136', email: '' },
+      { name: 'Cindy Mead', title: 'Trustee', phone: '(989) 659-2136', email: '' }
+    ]
   },
-
-  'Hopkins Twp': {
-    name: 'Hopkins Township',
-    county: 'Allegan',
-    website: 'https://www.hopkinstownship.org/',
+  'Bay:Monitor': {
+    name: 'Monitor charter Township',
+    county: 'Bay',
     officials: [
-      { name: 'Cade Bolser', title: 'Supervisor', party: null },
-      { name: 'Stacey Timmer', title: 'Clerk', party: null },
-      { name: 'Eric Alberda', title: 'Treasurer', party: null },
-      { name: 'Chuck Wamhoff', title: 'Trustee', party: null },
-      { name: 'Bob Modreske', title: 'Trustee', party: null },
-    ],
+      { name: 'Terry Spencer', title: 'Supervisor', phone: '(989) 684-7203', email: '' },
+      { name: 'Linda Stewart', title: 'Clerk', phone: '(989) 684-7203', email: '' },
+      { name: 'Ashley Kloha', title: 'Treasurer', phone: '(989) 684-7203', email: '' },
+      { name: 'Earl Arnold', title: 'Trustee', phone: '(989) 751-1551', email: '' },
+      { name: 'Jim Meier', title: 'Trustee', phone: '(989) 684-7203', email: '' },
+      { name: 'Paul Meylan', title: 'Trustee', phone: '(989) 684-7203', email: '' },
+      { name: 'James Bellor', title: 'Trustee', phone: '(989) 684-7203', email: '' }
+    ]
   },
-
-  Laketown: {
-    name: 'Laketown Township',
-    county: 'Allegan',
-    website: 'https://laketowntwp.org/',
+  'Bay:Mount Forest': {
+    name: 'Mount Forest Township',
+    county: 'Bay',
     officials: [
-      { name: 'Steven Ringelberg', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jim Delaney', title: 'Clerk', party: 'Republican' },
-      { name: 'Jim Johnson', title: 'Treasurer', party: 'Republican' },
-      { name: 'Michael Koeman', title: 'Trustee', party: 'Republican' },
-      { name: 'Mark S. Timmerman', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Michael Haranda', title: 'Supervisor', phone: '(989) 879-7575', email: '' },
+      { name: 'Linda Hoffman', title: 'Clerk', phone: '(989) 879-7575', email: '' },
+      { name: 'Kathleen Ososki', title: 'Treasurer', phone: '(989) 879-7575', email: '' },
+      { name: 'Don Galloner', title: 'Trustee', phone: '(989) 879-7575', email: '' },
+      { name: 'James Duley', title: 'Trustee', phone: '(989) 879-7575', email: '' }
+    ]
   },
-
-  Leighton: {
-    name: 'Leighton Township',
-    county: 'Allegan',
-    website: 'https://leightontownship.org/',
+  'Bay:Pinconning': {
+    name: 'Pinconning Township',
+    county: 'Bay',
     officials: [
-      { name: 'Steve Wolbrink', title: 'Supervisor', party: 'Republican' },
-      { name: 'Rachel Fennema', title: 'Clerk', party: 'Republican' },
-      { name: 'Jacquelynn Bultsma', title: 'Treasurer', party: null },
-      { name: 'Brian Bonnema', title: 'Trustee', party: 'Republican' },
-      { name: 'John Hooker', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Paul Pomaville', title: 'Supervisor', phone: '(989) 879-4018', email: '' },
+      { name: 'Machele Faith', title: 'Clerk', phone: '(989) 879-4018', email: '' },
+      { name: 'Dawn Beck', title: 'Treasurer', phone: '(989) 879-4018', email: '' },
+      { name: 'Dennis Whitney', title: 'Trustee', phone: '(989) 879-4018', email: '' },
+      { name: 'Louis Buchalski', title: 'Trustee', phone: '(989) 879-4018', email: '' }
+    ]
   },
-
-  Manlius: {
-    name: 'Manlius Township',
-    county: 'Allegan',
-    website: 'https://www.manliustwp.org/',
+  'Bay:Portsmouth': {
+    name: 'Portsmouth charter Township',
+    county: 'Bay',
     officials: [
-      { name: 'Barbara Van Gelderen', title: 'Supervisor', party: null },
-      { name: 'Matthew Rooks', title: 'Clerk', party: null },
-      { name: 'Troy Thompson', title: 'Treasurer', party: null },
-      { name: 'David Kempker', title: 'Trustee', party: null },
-      { name: 'Thomas Nolan', title: 'Trustee', party: null },
-    ],
+      { name: 'Robert Pawlak', title: 'Supervisor', phone: '(989) 892-7221', email: '' },
+      { name: 'Judith Bukowski', title: 'Clerk', phone: '(989) 892-7221', email: '' },
+      { name: 'Kevin Kokaly', title: 'Treasurer', phone: '(989) 892-7221', email: '' },
+      { name: 'Nance Corrion', title: 'Trustee', phone: '(989) 893-9817', email: '' },
+      { name: 'Gene Vandriessche', title: 'Trustee', phone: '(989) 895-8417', email: '' },
+      { name: 'Michael Vandriessche', title: 'Trustee', phone: '(989) 892-7221', email: '' },
+      { name: 'Rebecca Brandt', title: 'Trustee', phone: '(989) 892-7221', email: '' }
+    ]
   },
-
-  'Martin Twp': {
-    name: 'Martin Township',
-    county: 'Allegan',
-    website: 'https://www.martintownship.org/',
+  'Bay:Williams': {
+    name: 'Williams charter Township',
+    county: 'Bay',
     officials: [
-      { name: 'Glenn Leep', title: 'Supervisor', party: null },
-      { name: 'Jennifer Wharton', title: 'Clerk', party: null },
-      { name: 'Maria Leep', title: 'Treasurer', party: null },
-      { name: 'John Schipper', title: 'Trustee', party: null },
-      { name: 'Jim DeYoung', title: 'Trustee', party: null },
-    ],
+      { name: 'Jerome Putt', title: 'Supervisor', phone: '(989) 662-4045', email: '' },
+      { name: 'Kellie Andrus', title: 'Clerk', phone: '(989) 662-4241', email: '' },
+      { name: 'Terri Charbonneau', title: 'Treasurer', phone: '(989) 662-4241', email: '' },
+      { name: 'Jason Gower', title: 'Trustee', phone: '(989) 894-0100', email: '' },
+      { name: 'James Plant', title: 'Trustee', phone: '(989) 662-4241', email: '' },
+      { name: 'Thomas Paige', title: 'Trustee', phone: '(989) 859-2056', email: '' },
+      { name: 'Doug Behmlander', title: 'Trustee', phone: '(989) 662-4408', email: '' }
+    ]
   },
-
-  Monterey: {
-    name: 'Monterey Township',
-    county: 'Allegan',
-    website: 'https://www.montereytownship.org/',
+  'Benzie:Almira': {
+    name: 'Almira Township',
+    county: 'Benzie',
     officials: [
-      { name: 'Henry Reinart', title: 'Supervisor', party: 'Republican' },
-      { name: 'Megan Frank', title: 'Clerk', party: 'Republican' },
-      { name: 'Julie DeHaan', title: 'Treasurer', party: 'Republican' },
-      { name: 'Eric Commons', title: 'Trustee', party: 'Republican' },
-      { name: 'Jerry Williams', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Mark Roper', title: 'Supervisor', phone: '(231) 275-5862', email: '' },
+      { name: 'Tammy Clous', title: 'Clerk', phone: '(231) 275-5862', email: '' },
+      { name: 'Mandy Gray Rineer', title: 'Treasurer', phone: '(231) 275-5862', email: '' },
+      { name: 'Matt Therrien', title: 'Trustee', phone: '(231) 275-1414', email: '' },
+      { name: 'Lori Florrip', title: 'Trustee', phone: '(231) 275-5862', email: '' }
+    ]
   },
-
-  'Otsego Twp': {
-    name: 'Otsego Township',
-    county: 'Allegan',
-    website: 'https://www.otsegotownship.org/',
+  'Benzie:Benzonia': {
+    name: 'Benzonia Township',
+    county: 'Benzie',
     officials: [
-      { name: 'Michael Gudith', title: 'Supervisor', party: null },
-      { name: 'Jen Colin', title: 'Clerk', party: null },
-      { name: 'Carrie Lunarde-Alexander', title: 'Treasurer', party: null },
-      { name: 'Karen Burns', title: 'Trustee', party: null },
-      { name: 'Rick Moll', title: 'Trustee', party: null },
-      { name: 'Lori Bumgart', title: 'Trustee', party: null },
-      { name: 'Ashlee Rose', title: 'Trustee', party: null },
-    ],
+      { name: 'Jason Barnard', title: 'Supervisor', phone: '(231) 882-4411', email: '' },
+      { name: 'Diana Heller', title: 'Clerk', phone: '(231) 882-4411', email: '' },
+      { name: 'Karen Burns', title: 'Treasurer', phone: '(231) 882-4411', email: '' },
+      { name: 'Al Rose', title: 'Trustee', phone: '(231) 882-4411', email: '' },
+      { name: 'Julie Orr', title: 'Trustee', phone: '(231) 882-4411', email: '' }
+    ]
   },
-
-  Overisel: {
-    name: 'Overisel Township',
-    county: 'Allegan',
-    website: 'https://overiseltownship.org/',
+  'Benzie:Blaine': {
+    name: 'Blaine Township',
+    county: 'Benzie',
     officials: [
-      { name: 'Lisa Russcher', title: 'Supervisor', party: null },
-      { name: 'Lori Scholten', title: 'Clerk', party: null },
-      { name: 'Rachel Hoeve', title: 'Treasurer', party: null },
-      { name: 'Josh Groenheide', title: 'Trustee', party: null },
-      { name: 'Ben Koopman', title: 'Trustee', party: null },
-    ],
+      { name: 'Paul Crandall', title: 'Supervisor', phone: '(734) 578-2961', email: '' },
+      { name: 'Marjorie Rohn', title: 'Clerk', phone: '(231) 352-5977', email: '' },
+      { name: 'Cyndi Sauer', title: 'Treasurer', phone: '(231) 651-0646', email: '' },
+      { name: 'Walter Rohn', title: 'Trustee', phone: '(231) 352-9558', email: '' },
+      { name: 'Chuck Beale', title: 'Trustee', phone: '(231) 352-7315', email: '' }
+    ]
   },
-
-  'Salem (Allegan)': {
-    name: 'Salem Township',
-    county: 'Allegan',
-    website: 'https://salemtownship.org/',
-    officials: [
-      { name: 'James Pitsch', title: 'Supervisor', party: null },
-      { name: 'Renee Busscher', title: 'Clerk', party: null },
-      { name: 'Ashley Brower', title: 'Treasurer', party: null },
-      { name: 'Dan Striegle', title: 'Trustee', party: null },
-      { name: 'Don Sebright', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Saugatuck Twp': {
-    name: 'Saugatuck Township',
-    county: 'Allegan',
-    website: 'https://saugatucktownshipmi.gov/',
-    officials: [
-      { name: 'Abby Bigford', title: 'Supervisor', party: null },
-      { name: 'Cindy Osman', title: 'Clerk', party: null },
-      { name: 'Jon Helmrich', title: 'Treasurer', party: null },
-      { name: 'Stacey Aldrich', title: 'Trustee', party: null },
-      { name: 'Brenda Marcy', title: 'Trustee', party: null },
-    ],
-  },
-
-  Trowbridge: {
-    name: 'Trowbridge Township',
-    county: 'Allegan',
-    website: 'https://trowbridgetownship.org/',
-    officials: [
-      { name: 'Jeff Kaylor', title: 'Supervisor', party: null },
-      { name: 'Dave Smalla', title: 'Clerk', party: null },
-      { name: 'Cindi Kurtz', title: 'Treasurer', party: null },
-      { name: 'Tony Emmons Jr.', title: 'Trustee', party: null },
-      { name: 'Lori Querback', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Valley (Allegan)': {
-    name: 'Valley Township',
-    county: 'Allegan',
-    website: 'https://www.valleytwp.org/',
-    officials: [
-      { name: 'Mike Krcatovich', title: 'Supervisor', party: null },
-      { name: 'Brandee Ellis', title: 'Clerk', party: null },
-      { name: 'Christi Foster', title: 'Treasurer', party: null },
-      { name: 'Mike Jensen', title: 'Trustee', party: null },
-      { name: 'Tim Batchelor', title: 'Trustee', party: null },
-    ],
-  },
-
-  Watson: {
-    name: 'Watson Township',
-    county: 'Allegan',
-    website: 'https://watsontownshipmi.gov/',
-    officials: [
-      { name: 'Kevin Travis', title: 'Supervisor', party: null },
-      { name: 'Mary Ann Baker', title: 'Clerk', party: null },
-      { name: 'Tera Davis', title: 'Treasurer', party: null },
-      { name: 'Michelle Harris', title: 'Trustee', party: null },
-      { name: 'Joseph Yearous', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Wayland Twp': {
-    name: 'Wayland Township',
-    county: 'Allegan',
-    website: 'https://waytwp.org/',
-    officials: [
-      { name: 'Roger VanVolkinburg', title: 'Supervisor', party: null },
-      { name: 'Bob Fryling', title: 'Clerk', party: null },
-      { name: 'Sue Kamyszek', title: 'Treasurer', party: null },
-      { name: 'Matt Miner', title: 'Trustee', party: null },
-      { name: 'Jim Stein', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Ionia County townships ── */
-
-  Berlin: {
-    name: 'Berlin Township',
-    county: 'Ionia',
-    website: 'https://berlintwpioniami.gov/',
-    officials: [
-      { name: 'Robert Bennett', title: 'Supervisor', party: null },
-      { name: 'Rachael Alexander', title: 'Clerk', party: null },
-      { name: 'Marilyn Palmer', title: 'Treasurer', party: null },
-      { name: 'Wanda Marcussen', title: 'Trustee', party: null },
-      { name: 'William B. Vaarberg', title: 'Trustee', party: null },
-    ],
-  },
-
-  Boston: {
-    name: 'Boston Township',
-    county: 'Ionia',
-    website: 'https://www.bostontwp.org/',
-    officials: [
-      { name: 'Dennis Bowen', title: 'Supervisor', party: null },
-      { name: 'Lynn Kaufman', title: 'Clerk', party: null },
-      { name: 'Mary Lamphere', title: 'Treasurer', party: null },
-      { name: 'Barbara Foster', title: 'Trustee', party: null },
-      { name: 'Gary Martin', title: 'Trustee', party: null },
-    ],
-  },
-
-  Campbell: {
-    name: 'Campbell Township',
-    county: 'Ionia',
-    website: 'https://www.campbelltownship.org/',
-    officials: [
-      { name: 'Dennis Pepper', title: 'Supervisor', party: null },
-      { name: 'Denise Newman', title: 'Clerk', party: null },
-      { name: 'Nicole Klahn', title: 'Treasurer', party: null },
-      { name: 'Adam McArthur', title: 'Trustee', party: null },
-      { name: 'Dan Jackson', title: 'Trustee', party: null },
-    ],
-  },
-
-  Danby: {
-    name: 'Danby Township',
-    county: 'Ionia',
-    website: 'https://www.danbytownship.org/',
-    officials: [
-      { name: 'Daniel Platte', title: 'Supervisor', party: null },
-      { name: 'Kristina Platte', title: 'Clerk', party: null },
-      { name: 'Michele Hoppes', title: 'Treasurer', party: null },
-      { name: 'Bill Nurenberg', title: 'Trustee', party: null },
-      { name: 'Daniel Schafer', title: 'Trustee', party: null },
-    ],
-  },
-
-  Easton: {
-    name: 'Easton Township',
-    county: 'Ionia',
-    website: 'http://www.eastontownship.org/',
-    officials: [
-      { name: 'John Dinehart', title: 'Supervisor', party: null },
-      { name: 'Breanne Rowley', title: 'Clerk', party: null },
-      { name: 'Tracie Dinehart-Shindorf', title: 'Treasurer', party: null },
-      { name: 'Don Rittersdorf', title: 'Trustee', party: null },
-      { name: 'Cindy Cotter', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Ionia Twp': {
-    name: 'Ionia Township',
-    county: 'Ionia',
-    website: 'https://ioniatownshipmi.gov/',
-    officials: [
-      { name: 'Jamie Stephens', title: 'Supervisor', party: null },
-      { name: 'Sheri Lynn', title: 'Clerk', party: null },
-      { name: 'Mackenzie Waters', title: 'Treasurer', party: null },
-      { name: 'Susan McCoy', title: 'Trustee', party: null },
-      { name: 'Aric Pitchford', title: 'Trustee', party: null },
-    ],
-  },
-
-  Keene: {
-    name: 'Keene Township',
-    county: 'Ionia',
-    website: 'https://keenetownshipmi.gov/',
-    officials: [
-      { name: 'Sandy Smiley', title: 'Supervisor', party: null },
-      { name: 'Holli Melton', title: 'Clerk', party: null },
-      { name: 'Christine Hendrick', title: 'Treasurer', party: null },
-      { name: 'Nate Wolff', title: 'Trustee', party: null },
-      { name: 'William Pflugradt', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Lyons (Ionia)': {
-    name: 'Lyons Township',
-    county: 'Ionia',
-    website: 'https://www.lyonstownship.org/',
-    officials: [
-      { name: 'Charles Babcock', title: 'Supervisor', party: null },
-      { name: 'Julie Heckman', title: 'Clerk', party: null },
-      { name: 'Jill Thelen', title: 'Treasurer', party: null },
-      { name: 'Kevin Gould', title: 'Trustee', party: null },
-      { name: 'Andy Hengesbach', title: 'Trustee', party: null },
-    ],
-  },
-
-  'North Plains': {
-    name: 'North Plains Township',
-    county: 'Ionia',
-    officials: [
-      { name: 'William Kruger', title: 'Supervisor', party: null },
-      { name: 'Robert Fahey', title: 'Clerk', party: null },
-      { name: 'Jennifer Stevenson', title: 'Treasurer', party: null },
-      { name: 'William Cunningham', title: 'Trustee', party: null },
-      { name: 'Timothy Schafer', title: 'Trustee', party: null },
-    ],
-  },
-
-  Odessa: {
-    name: 'Odessa Township',
-    county: 'Ionia',
-    website: 'https://www.odessatownship.org/',
-    officials: [
-      { name: 'Gary P. Secor', title: 'Supervisor', party: null },
-      { name: 'Lisa Williams', title: 'Clerk', party: null },
-      { name: 'Sharon Rohrbacher', title: 'Treasurer', party: null },
-      { name: 'Brad Barrone', title: 'Trustee', party: null },
-      { name: 'Allan Baron II', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Orange Twp (Ionia)': {
-    name: 'Orange Township',
-    county: 'Ionia',
-    website: 'https://orangetownshipioniami.gov/',
-    officials: [
-      { name: 'Tom Green', title: 'Supervisor', party: null },
-      { name: 'Wendy McBride', title: 'Clerk', party: null },
-      { name: 'Karla Wittenbach', title: 'Treasurer', party: null },
-      { name: 'Jeff Cody', title: 'Trustee', party: null },
-      { name: 'Chris Fox', title: 'Trustee', party: null },
-    ],
-  },
-
-  Orleans: {
-    name: 'Orleans Township',
-    county: 'Ionia',
-    website: 'https://www.oleanstwp.com/',
-    officials: [
-      { name: 'Scott Rudlaff', title: 'Supervisor', party: null },
-      { name: 'Melissa Harper', title: 'Clerk', party: null },
-      { name: 'Barbara Colwell', title: 'Treasurer', party: null },
-      { name: 'Albert Almy', title: 'Trustee', party: null },
-      { name: 'Tonda Rich', title: 'Trustee', party: null },
-    ],
-  },
-
-  Otisco: {
-    name: 'Otisco Township',
-    county: 'Ionia',
-    website: 'https://www.otiscotwp.org/',
-    officials: [
-      { name: 'Bruce Feuerstein', title: 'Supervisor', party: null },
-      { name: 'Lynda Sower', title: 'Clerk', party: null },
-      { name: 'Paula Byrne', title: 'Treasurer', party: null },
-      { name: 'Joseph Borek', title: 'Trustee', party: null },
-      { name: 'Stephanie Wireman', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Portland Twp': {
-    name: 'Portland Township',
-    county: 'Ionia',
-    website: 'https://www.portlandtownship.org/',
-    officials: [
-      { name: 'Chris Jensen', title: 'Supervisor', party: null },
-      { name: 'Charlene Keilen', title: 'Clerk', party: null },
-      { name: 'Melanie Schneider', title: 'Treasurer', party: null },
-      { name: 'Mark Simon', title: 'Trustee', party: null },
-      { name: 'Tim Kerekes', title: 'Trustee', party: null },
-    ],
-  },
-
-  Ronald: {
-    name: 'Ronald Township',
-    county: 'Ionia',
-    website: 'https://www.ronaldtownship.org/',
-    officials: [
-      { name: 'Tamara Edwards', title: 'Supervisor', party: null },
-      { name: 'Sulyn Bettinghouse', title: 'Clerk', party: null },
-      { name: 'Angela Lamphere', title: 'Treasurer', party: null },
-      { name: 'Kathy Ainsworth', title: 'Trustee', party: null },
-      { name: 'Sandra Thelen', title: 'Trustee', party: null },
-    ],
-  },
-
-  Sebewa: {
-    name: 'Sebewa Township',
-    county: 'Ionia',
-    officials: [
-      { name: 'John Piercefield', title: 'Supervisor', party: null },
-      { name: 'Marcia Lewis', title: 'Clerk', party: null },
-      { name: 'Cynthia Piercefield', title: 'Treasurer', party: null },
-      { name: 'Craig Brown', title: 'Trustee', party: null },
-      { name: 'John Lich', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Mason County townships ── */
-
-  Amber: {
-    name: 'Amber Township',
-    county: 'Mason',
-    website: 'https://ambertwpmi.gov/',
-    officials: [
-      { name: 'Thomas Alway', title: 'Supervisor', party: null },
-      { name: 'Theresa Rohde', title: 'Clerk', party: null },
-      { name: 'Jeanne Miller', title: 'Treasurer', party: null },
-      { name: 'Rita Copenhaver', title: 'Trustee', party: null },
-      { name: 'Noah VanDusen', title: 'Trustee', party: null },
-    ],
-  },
-
-  Branch: {
-    name: 'Branch Township',
-    county: 'Mason',
-    officials: [
-      { name: 'Michael Shoup', title: 'Supervisor', party: null },
-      { name: 'Kimberly Tenney', title: 'Clerk', party: null },
-      { name: 'Ralph Razminas', title: 'Treasurer', party: null },
-      { name: 'Shirley Brayton', title: 'Trustee', party: null },
-      { name: 'Joseph Fiers', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Custer Twp': {
-    name: 'Custer Township',
-    county: 'Mason',
-    website: 'https://www.custertownship.com/',
-    officials: [
-      { name: 'Thomas Trenner', title: 'Supervisor', party: null },
-      { name: 'Stacy K. Wood', title: 'Clerk', party: null },
-      { name: 'Carey M. Jolly', title: 'Treasurer', party: null },
-      { name: 'George Allison', title: 'Trustee', party: null },
-      { name: 'Susan Hansen', title: 'Trustee', party: null },
-    ],
-  },
-
-  Eden: {
-    name: 'Eden Township',
-    county: 'Mason',
-    website: 'https://edentownshipmi.org/',
-    officials: [
-      { name: 'Roger Nash', title: 'Supervisor', party: null },
-      { name: 'Julie L. Van Dyke', title: 'Clerk', party: null },
-      { name: 'Trudy L. McCumber', title: 'Treasurer', party: null },
-      { name: 'Brenda S. Carr', title: 'Trustee', party: null },
-      { name: 'Joseph D. Stickney', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Free Soil Twp': {
-    name: 'Free Soil Township',
-    county: 'Mason',
-    website: 'https://freesoiltownship.org/',
-    officials: [
-      { name: 'Gregg Surma', title: 'Supervisor', party: null },
-      { name: 'Lynda A. Papes', title: 'Clerk', party: null },
-      { name: 'Lisa Marie Stankowski', title: 'Treasurer', party: null },
-      { name: 'Philip Gajeski', title: 'Trustee', party: null },
-      { name: 'Joseph J. Meyers', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Grant Twp (Mason)': {
-    name: 'Grant Township',
-    county: 'Mason',
-    website: 'https://granttwpmi.org/',
-    officials: [
-      { name: 'Mary Jo Janowiak', title: 'Clerk', party: null },
-      { name: 'Kris Brandt', title: 'Treasurer', party: null },
-      { name: 'Allen Bufka', title: 'Trustee', party: null },
-      { name: 'Seth Kelly', title: 'Trustee', party: null },
-    ],
-  },
-
-  Hamlin: {
-    name: 'Hamlin Township',
-    county: 'Mason',
-    website: 'https://www.hamlintownship.org/',
-    officials: [
-      { name: 'Marta C. Greenslait', title: 'Supervisor', party: null },
-      { name: 'Shelia Genter', title: 'Clerk', party: null },
-      { name: 'Susan Ptaszenski', title: 'Treasurer', party: null },
-      { name: 'Christopher Cook', title: 'Trustee', party: null },
-      { name: 'Johnaine Gurzynski', title: 'Trustee', party: null },
-    ],
-  },
-
-  Logan: {
-    name: 'Logan Township',
-    county: 'Mason',
-    officials: [
-      { name: 'Bruce Burke', title: 'Supervisor', party: null },
-      { name: 'John Kampfschulte', title: 'Clerk', party: null },
-      { name: 'Tammy Bromley', title: 'Treasurer', party: null },
-      { name: 'Robert Burke', title: 'Trustee', party: null },
-      { name: 'Daniel R. Stewart', title: 'Trustee', party: null },
-    ],
-  },
-
-  Meade: {
-    name: 'Meade Township',
-    county: 'Mason',
-    officials: [
-      { name: 'Harmon H. Schonfeld', title: 'Supervisor', party: null },
-      { name: 'Kirstin VandeVoorde', title: 'Clerk', party: null },
-      { name: 'Brian Jacobson', title: 'Treasurer', party: null },
-      { name: 'Jim Metzger', title: 'Trustee', party: null },
-      { name: 'William Keith Thomas', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Pere Marquette': {
-    name: 'Pere Marquette Charter Township',
-    county: 'Mason',
-    website: 'https://www.pmtwp.org/',
-    officials: [
-      { name: 'Kelly D. Smith', title: 'Supervisor', party: null },
-      { name: 'Rachelle D. Enbody', title: 'Clerk', party: null },
-      { name: 'Sarah Iteen', title: 'Treasurer', party: null },
-      { name: 'Andrew R. Kmetz III', title: 'Trustee', party: null },
-      { name: 'James T. Nordlund', title: 'Trustee', party: null },
-      { name: 'Henry E. Rasmussen', title: 'Trustee', party: null },
-      { name: 'Megan Tresnak', title: 'Trustee', party: null },
-    ],
-  },
-
-  Riverton: {
-    name: 'Riverton Township',
-    county: 'Mason',
-    website: 'https://rivertontownship.org/',
-    officials: [
-      { name: 'Gary L. Dittmer', title: 'Supervisor', party: null },
-      { name: 'Cynthia Gerbers', title: 'Clerk', party: null },
-      { name: 'Kristi Rae Griffis', title: 'Treasurer', party: null },
-      { name: 'Greg Thurow', title: 'Trustee', party: null },
-      { name: 'Todd VanNortwick', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Sheridan Twp (Mason)': {
-    name: 'Sheridan Township',
-    county: 'Mason',
-    website: 'https://sheridantwpmason.org/',
-    officials: [
-      { name: 'Kelly Crocker', title: 'Supervisor', party: null },
-      { name: 'Marlynn E. Gulembo', title: 'Clerk', party: null },
-      { name: 'Jennie L. Borema', title: 'Treasurer', party: null },
-      { name: 'Rich Rouwhorst', title: 'Trustee', party: null },
-      { name: 'Jennifer Tyndall', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Sherman Twp (Mason)': {
-    name: 'Sherman Township',
-    county: 'Mason',
-    website: 'https://shermantwpmasonmi.gov/',
-    officials: [
-      { name: 'Joseph F. Mickevich', title: 'Supervisor', party: null },
-      { name: 'Kurt D. Lubben', title: 'Clerk', party: null },
-      { name: 'Kristina Randle', title: 'Treasurer', party: null },
-      { name: 'Chelsea Miszewski', title: 'Trustee', party: null },
-      { name: 'William Stakenas', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Summit Twp (Mason)': {
-    name: 'Summit Township',
-    county: 'Mason',
-    website: 'https://summittownship.org/',
-    officials: [
-      { name: 'D. Wayne Kelly', title: 'Supervisor', party: null },
-      { name: 'Kay Deanda', title: 'Clerk', party: null },
-      { name: 'Mary Bedker', title: 'Treasurer', party: null },
-      { name: 'Edward Chase', title: 'Trustee', party: null },
-      { name: 'Todd Jorissen', title: 'Trustee', party: null },
-    ],
-  },
-
-  Victory: {
-    name: 'Victory Township',
-    county: 'Mason',
-    website: 'https://www.victorytownship.org/',
-    officials: [
-      { name: 'Robert W. Kesling', title: 'Supervisor', party: null },
-      { name: 'Sarah L. Grabowski', title: 'Clerk', party: null },
-      { name: 'Patricia A. Geers', title: 'Treasurer', party: null },
-      { name: 'Jerome Papes', title: 'Trustee', party: null },
-      { name: 'Wayne Andersen', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Oceana County townships ── */
-
-  Benona: {
-    name: 'Benona Township',
-    county: 'Oceana',
-    website: 'http://www.benonatownship.org/',
-    officials: [
-      { name: 'Steven Fleming', title: 'Supervisor', party: null },
-      { name: 'Margie Shaw', title: 'Clerk', party: null },
-      { name: 'Brandi Neuman', title: 'Treasurer', party: null },
-      { name: 'John Smith', title: 'Trustee', party: null },
-      { name: 'Warren Overbeke', title: 'Trustee', party: null },
-    ],
-  },
-
-  Claybanks: {
-    name: 'Claybanks Township',
-    county: 'Oceana',
-    website: 'http://www.claybankstownship.org/',
-    officials: [
-      { name: 'Daniel Lombard', title: 'Supervisor', party: null },
-      { name: 'Alice Holsomback Smith', title: 'Clerk', party: null },
-      { name: 'Cheryl Rabe', title: 'Treasurer', party: null },
-      { name: 'David Rabe', title: 'Trustee', party: null },
-      { name: 'Peter Shlagor', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Colfax (Oceana)': {
+  'Benzie:Colfax': {
     name: 'Colfax Township',
-    county: 'Oceana',
-    website: 'https://www.colfaxtownshipoceana.org/',
+    county: 'Benzie',
     officials: [
-      { name: 'David Leonard', title: 'Supervisor', party: 'Democrat' },
-      { name: 'Corrine Norton', title: 'Clerk', party: null },
-      { name: 'Shelby Branch', title: 'Treasurer', party: null },
-      { name: 'Stuart Overway', title: 'Trustee', party: null },
-      { name: 'Bradley Norton', title: 'Trustee', party: null },
-    ],
+      { name: 'Ron Seguin', title: 'Supervisor', phone: '(231) 620-3031', email: '' },
+      { name: 'DeAnn Mosher', title: 'Clerk', phone: '(231) 631-9221', email: '' },
+      { name: 'Jeremy West', title: 'Treasurer', phone: '(231) 378-2144', email: '' },
+      { name: 'Tom Besey', title: 'Trustee', phone: '(231) 631-9227', email: '' },
+      { name: 'Shelley Greene', title: 'Trustee', phone: '(231) 378-2334', email: '' }
+    ]
   },
-
-  'Crystal Twp (Oceana)': {
-    name: 'Crystal Township',
-    county: 'Oceana',
-    website: 'https://crystaltownship.org',
+  'Benzie:Crystal Lake': {
+    name: 'Crystal Lake Township',
+    county: 'Benzie',
     officials: [
-      { name: 'Lee Hyslop', title: 'Supervisor', party: null },
-      { name: 'Bethany Seymour', title: 'Clerk', party: null },
-      { name: 'Cathryn Walker', title: 'Treasurer', party: null },
-      { name: 'Jon Stevenson', title: 'Trustee', party: null },
-      { name: 'Kyle Oomen', title: 'Trustee', party: null },
-    ],
+      { name: 'Amy Ferris', title: 'Supervisor', phone: '(231) 352-9791', email: '' },
+      { name: 'Judy VanMeter', title: 'Clerk', phone: '(231) 352-9791', email: '' },
+      { name: 'Jill Marble', title: 'Treasurer', phone: '(231) 352-9791', email: '' },
+      { name: 'Sue Webber', title: 'Trustee', phone: '(231) 352-9791', email: '' },
+      { name: 'Gregory Wright', title: 'Trustee', phone: '(231) 352-9791', email: '' }
+    ]
   },
-
-  Elbridge: {
-    name: 'Elbridge Township',
-    county: 'Oceana',
-    website: 'http://elbridgetownship.org',
+  'Benzie:Gilmore': {
+    name: 'Gilmore Township',
+    county: 'Benzie',
     officials: [
-      { name: 'Lance VanSickle', title: 'Supervisor', party: null },
-      { name: 'Stephanie VanSickle', title: 'Clerk', party: null },
-      { name: 'Vicki Koch', title: 'Treasurer', party: null },
-      { name: 'Eric Herrygers', title: 'Trustee', party: null },
-      { name: 'Noah VandeZande', title: 'Trustee', party: null },
-    ],
+      { name: 'Benjamin MacRae', title: 'Supervisor', phone: '(231) 651-0079', email: '' },
+      { name: 'Amanda Rommell', title: 'Clerk', phone: '(231) 352-5047', email: '' },
+      { name: 'Shannon Spencley', title: 'Treasurer', phone: '(231) 352-5047', email: '' },
+      { name: 'David Beaton', title: 'Trustee', phone: '(231) 352-5047', email: '' },
+      { name: 'Dan Carter', title: 'Trustee', phone: '(231) 352-5047', email: '' }
+    ]
   },
-
-  Ferry: {
-    name: 'Ferry Township',
-    county: 'Oceana',
-    website: 'https://www.ferrytownship.org/',
+  'Benzie:Homestead': {
+    name: 'Homestead Township',
+    county: 'Benzie',
     officials: [
-      { name: 'David Schmieding', title: 'Supervisor', party: null },
-      { name: 'William Jessup', title: 'Clerk', party: null },
-      { name: 'Brenda Dickman', title: 'Treasurer', party: null },
-      { name: 'Milton Kreigh', title: 'Trustee', party: null },
-      { name: 'Jessica Woodworth', title: 'Trustee', party: null },
-    ],
+      { name: 'Tia Kurina-Cooley', title: 'Supervisor', phone: '(231) 325-6772', email: '' },
+      { name: 'Kathryn (Kit) Wilson', title: 'Clerk', phone: '(231) 227-1242', email: '' },
+      { name: 'Beverly Holbrook', title: 'Treasurer', phone: '(231) 325-6772', email: '' },
+      { name: 'Mike Mead', title: 'Trustee', phone: '(231) 383-5127 ext. 0', email: '' },
+      { name: 'Shannon Purchase', title: 'Trustee', phone: '(231) 325-6772', email: '' }
+    ]
   },
-
-  Golden: {
-    name: 'Golden Township',
-    county: 'Oceana',
-    website: 'http://www.goldentownship.org/',
+  'Benzie:Inland': {
+    name: 'Inland Township',
+    county: 'Benzie',
     officials: [
-      { name: 'Robert Draper', title: 'Supervisor', party: null },
-      { name: 'Rachel Iteen', title: 'Clerk', party: null },
-      { name: 'Connie Cargill', title: 'Treasurer', party: null },
-      { name: 'Doug Dykstra', title: 'Trustee', party: null },
-      { name: 'Bill Kolenda', title: 'Trustee', party: null },
-    ],
+      { name: 'Benjamin Zeits', title: 'Supervisor', phone: '(231) 275-6568', email: '' },
+      { name: 'Rose Wirth', title: 'Clerk', phone: '(231) 392-1352', email: '' },
+      { name: 'Therese Zielinski', title: 'Treasurer', phone: '(231) 275-6568', email: '' },
+      { name: 'Mary Miller', title: 'Trustee', phone: '(231) 275-7156', email: '' },
+      { name: 'Ted Nelson', title: 'Trustee', phone: '(810) 210-3018', email: '' }
+    ]
   },
-
-  'Grant Twp (Oceana)': {
-    name: 'Grant Township',
-    county: 'Oceana',
-    website: 'https://www.granttownshipoceana.com/',
+  'Benzie:Joyfield': {
+    name: 'Joyfield Township',
+    county: 'Benzie',
     officials: [
-      { name: 'Roger Schmidt', title: 'Supervisor', party: null },
-      { name: 'Shannon Beizhuisen', title: 'Clerk', party: null },
-      { name: 'Joanne Heck', title: 'Treasurer', party: null },
-      { name: 'William Mischler', title: 'Trustee', party: null },
-      { name: 'Joan Brooks', title: 'Trustee', party: null },
-    ],
+      { name: 'Jim Evans', title: 'Supervisor', phone: '(231) 871-0044', email: '' },
+      { name: 'Dodie Putney', title: 'Clerk', phone: '(231) 649-0614', email: '' },
+      { name: 'Patricia Daugherty', title: 'Treasurer', phone: '(231) 690-5640', email: '' },
+      { name: 'Mark Evans', title: 'Trustee', phone: '(231) 383-0238', email: '' },
+      { name: 'Jason Streeter', title: 'Trustee', phone: '(231) 882-0133', email: '' }
+    ]
   },
-
-  'Greenwood Twp (Oceana)': {
-    name: 'Greenwood Township',
-    county: 'Oceana',
-    website: 'http://greenwood-township.com/',
-    officials: [
-      { name: 'Jeffrey Hunt', title: 'Supervisor', party: null },
-      { name: 'Linda Hunt', title: 'Clerk', party: null },
-      { name: 'Melissa Stroven', title: 'Treasurer', party: null },
-      { name: 'Alan Deater', title: 'Trustee', party: null },
-      { name: 'James Kibart', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Hart Twp': {
-    name: 'Hart Township',
-    county: 'Oceana',
-    website: 'http://www.harttownship.org/',
-    officials: [
-      { name: 'Jay McGhan', title: 'Supervisor', party: null },
-      { name: 'Steven Freed', title: 'Clerk', party: null },
-      { name: 'Todd Metzler', title: 'Treasurer', party: null },
-      { name: 'Douglas Fuehring', title: 'Trustee', party: null },
-      { name: 'Lois Alvesteffer-Simmons', title: 'Trustee', party: null },
-    ],
-  },
-
-  Leavitt: {
-    name: 'Leavitt Township',
-    county: 'Oceana',
-    officials: [
-      { name: 'Brooke Stapel', title: 'Supervisor', party: null },
-      { name: 'Naomi Oomen', title: 'Clerk', party: null },
-      { name: 'Matt Thompson', title: 'Treasurer', party: null },
-      { name: 'Allen Purdy', title: 'Trustee', party: null },
-    ],
-  },
-
-  Newfield: {
-    name: 'Newfield Township',
-    county: 'Oceana',
-    website: 'http://www.newfieldtownship.org/',
-    officials: [
-      { name: 'Joan David', title: 'Supervisor', party: null },
-      { name: 'Nancy Conley', title: 'Clerk', party: null },
-      { name: 'Mary Martin-Hopkins', title: 'Treasurer', party: null },
-      { name: 'Richard Roberson', title: 'Trustee', party: null },
-      { name: 'Wayne Ferris', title: 'Trustee', party: null },
-    ],
-  },
-
-  Otto: {
-    name: 'Otto Township',
-    county: 'Oceana',
-    website: 'https://ottotownship.com/',
-    officials: [
-      { name: 'Todd Van Nett', title: 'Supervisor', party: null },
-      { name: 'Pat Budde', title: 'Clerk', party: null },
-      { name: 'Charlene Martin', title: 'Treasurer', party: null },
-      { name: 'Kathy Eichenberg', title: 'Trustee', party: null },
-      { name: 'Mary Justian-Murray', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Pentwater Twp': {
-    name: 'Pentwater Township',
-    county: 'Oceana',
-    website: 'https://www.pentwatertownshipmi.gov/',
-    officials: [
-      { name: 'Lynette Cavazos', title: 'Supervisor', party: null },
-      { name: 'Maureen Murphy', title: 'Clerk', party: null },
-      { name: 'Heather Douglas', title: 'Treasurer', party: null },
-      { name: 'Michael Flynn', title: 'Trustee', party: null },
-      { name: 'Dean Holub', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Shelby Twp (Oceana)': {
-    name: 'Shelby Township',
-    county: 'Oceana',
-    website: 'https://www.shelbytownshipoceana.com/',
-    officials: [
-      { name: 'Richard Raffaelli', title: 'Supervisor', party: null },
-      { name: 'Cathy Anderson', title: 'Clerk', party: null },
-      { name: 'Rebecca Griffin', title: 'Treasurer', party: null },
-      { name: 'Scott Meyers', title: 'Trustee', party: null },
-      { name: 'Scott Beishuizen', title: 'Trustee', party: null },
-    ],
-  },
-
-  Weare: {
-    name: 'Weare Township',
-    county: 'Oceana',
-    website: 'http://wearetownship.org/',
-    officials: [
-      { name: 'Larry Doran', title: 'Supervisor', party: null },
-      { name: 'Melanie Sayles', title: 'Clerk', party: null },
-      { name: 'Jill VanderZanden', title: 'Treasurer', party: null },
-      { name: 'Byron Miller', title: 'Trustee', party: null },
-      { name: 'Lane Stotler', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Wexford County townships ── */
-
-  Boon: {
-    name: 'Boon Township',
-    county: 'Wexford',
-    website: 'https://boontownshipmichigan.gov/',
-    officials: [
-      { name: 'Matthew Beattie', title: 'Supervisor', party: null },
-      { name: 'Sheila Pratt', title: 'Clerk', party: null },
-      { name: 'Michelle Wing', title: 'Treasurer', party: null },
-      { name: 'Beverly Brighton', title: 'Trustee', party: null },
-      { name: 'Kenneth Schinke', title: 'Trustee', party: null },
-    ],
-  },
-
-  Antioch: {
-    name: 'Antioch Township',
-    county: 'Wexford',
-    website: 'https://wexfordcounty.org/?page_id=13710',
-    officials: [
-      { name: 'Thomas H. Williams', title: 'Supervisor', party: null },
-      { name: 'Darby Terpstra', title: 'Clerk', party: null },
-      { name: 'Tanja McCane-Clark', title: 'Treasurer', party: null },
-      { name: 'Joseph Gardner', title: 'Trustee', party: null },
-      { name: 'Bruce G. Jewett', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Cedar Creek': {
-    name: 'Cedar Creek Township',
-    county: 'Wexford',
-    officials: [
-      { name: 'Larry Paquette', title: 'Supervisor', party: null },
-      { name: 'Elizabeth A. Edwards', title: 'Clerk', party: null },
-      { name: 'Mary Hallett', title: 'Treasurer', party: null },
-      { name: 'Scott Paddock', title: 'Trustee', party: null },
-      { name: 'Jean Schnitker', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Cherry Grove': {
-    name: 'Cherry Grove Township',
-    county: 'Wexford',
-    website: 'https://www.cherrygrovetwp.org/',
-    officials: [
-      { name: 'Ben Pearson', title: 'Supervisor', party: null },
-      { name: 'Marcy Hall', title: 'Clerk', party: null },
-      { name: 'Kari Hanus', title: 'Treasurer', party: null },
-      { name: 'Kathy Adams', title: 'Trustee', party: null },
-      { name: 'Chad Edwards', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Clam Lake': {
-    name: 'Clam Lake Township',
-    county: 'Wexford',
-    website: 'https://clamlaketownship.org/',
-    officials: [
-      { name: 'Bill Benson', title: 'Supervisor', party: null },
-      { name: 'Sara Hurley', title: 'Clerk', party: null },
-      { name: 'Lesa Wade', title: 'Treasurer', party: null },
-      { name: 'Steven Kitler', title: 'Trustee', party: null },
-      { name: 'Linda Stahl', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Colfax (Wexford)': {
-    name: 'Colfax Township',
-    county: 'Wexford',
-    website: 'https://ctwpwcm.org/',
-    officials: [
-      { name: 'Mike Mix', title: 'Supervisor', party: null },
-      { name: 'Rebecca Stoddard', title: 'Clerk', party: null },
-      { name: 'Ruth Reddy', title: 'Treasurer', party: null },
-      { name: 'Jeanne Housler', title: 'Trustee', party: null },
-      { name: 'Nancy Wood', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Greenwood Twp (Wexford)': {
-    name: 'Greenwood Township',
-    county: 'Wexford',
-    website: 'https://www.gwtwp.org/',
-    officials: [
-      { name: 'Shelly Bigelow', title: 'Supervisor', party: null },
-      { name: 'Nancy Mohler', title: 'Clerk', party: null },
-      { name: 'Terry Vandercook', title: 'Treasurer', party: null },
-      { name: 'Harold Swinehart', title: 'Trustee', party: null },
-      { name: 'Melody Baker', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Hanover (Wexford)': {
-    name: 'Hanover Township',
-    county: 'Wexford',
-    website: 'https://hanovertsp.com/',
-    officials: [
-      { name: 'Peter Hansen', title: 'Supervisor', party: null },
-      { name: 'Terri Schichtel', title: 'Clerk', party: null },
-      { name: 'Michele Beeman', title: 'Treasurer', party: null },
-      { name: 'Peggy Benz', title: 'Trustee', party: null },
-      { name: 'Kim Manuel', title: 'Trustee', party: null },
-    ],
-  },
-
-  Haring: {
-    name: 'Haring Charter Township',
-    county: 'Wexford',
-    website: 'https://haringtwpmi.gov/',
-    officials: [
-      { name: 'Robert Scarbrough', title: 'Supervisor', party: null },
-      { name: 'Paula Dewey', title: 'Clerk', party: null },
-      { name: 'Elizabeth McCain', title: 'Treasurer', party: null },
-      { name: 'Susan Baldwin', title: 'Trustee', party: null },
-      { name: 'Ted Dewey', title: 'Trustee', party: null },
-      { name: 'Robert Suader', title: 'Trustee', party: null },
-      { name: 'Molly Whetstone', title: 'Trustee', party: null },
-    ],
-  },
-
-  Henderson: {
-    name: 'Henderson Township',
-    county: 'Wexford',
-    website: 'https://hendersontwpmi.gov/',
-    officials: [
-      { name: 'Paul Wayrynen', title: 'Supervisor', party: null },
-      { name: 'Linda Sours', title: 'Clerk', party: null },
-      { name: 'Cathy Knight', title: 'Treasurer', party: null },
-      { name: 'Sawyer Renwick', title: 'Trustee', party: null },
-      { name: 'Eric Sours', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Liberty Twp (Wexford)': {
-    name: 'Liberty Township',
-    county: 'Wexford',
-    website: 'https://www.libertytownshipwexfordmi.gov/',
-    officials: [
-      { name: 'Brad Swanson', title: 'Supervisor', party: null },
-      { name: 'Amanda Kimbel-Sparks', title: 'Clerk', party: null },
-      { name: 'Jennifer Moffit', title: 'Treasurer', party: null },
-      { name: 'Jim Heady', title: 'Trustee', party: null },
-      { name: 'Brian Neihardt', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Selma Twp (Wexford)': {
-    name: 'Selma Township',
-    county: 'Wexford',
-    website: 'https://selmatownship-mi.gov/',
-    officials: [
-      { name: 'Mike Boyd', title: 'Supervisor', party: null },
-      { name: 'Carol Perrin', title: 'Clerk', party: null },
-      { name: 'Sara Hettich', title: 'Treasurer', party: null },
-      { name: 'Lori Wetherell', title: 'Trustee', party: null },
-      { name: 'David Kuyers', title: 'Trustee', party: null },
-    ],
-  },
-
-  Slagle: {
-    name: 'Slagle Township',
-    county: 'Wexford',
-    website: 'https://slagletownship.org/',
-    officials: [
-      { name: 'Phil Wendel', title: 'Supervisor', party: null },
-      { name: 'Tammy Porterfield', title: 'Clerk', party: null },
-      { name: 'Connie Roush', title: 'Treasurer', party: null },
-      { name: 'Norma Kangas', title: 'Trustee', party: null },
-      { name: "David O'Grady", title: 'Trustee', party: null },
-    ],
-  },
-
-  'South Branch': {
-    name: 'South Branch Township',
-    county: 'Wexford',
-    website: 'https://southbranchtownship.com/',
-    officials: [
-      { name: 'Anna Sylvester', title: 'Supervisor', party: null },
-      { name: 'Brenda Nelson', title: 'Clerk', party: null },
-      { name: 'Kate Barkley', title: 'Treasurer', party: null },
-      { name: 'Michael Janisse', title: 'Trustee', party: null },
-      { name: 'Scott Barritt', title: 'Trustee', party: null },
-    ],
-  },
-
-  Springville: {
-    name: 'Springville Township',
-    county: 'Wexford',
-    website: 'https://www.springvilletownship.net/',
-    officials: [
-      { name: 'Timothy Dzikowicz', title: 'Supervisor', party: null },
-      { name: 'Stacy Brewer', title: 'Clerk', party: null },
-      { name: 'Wendy Floury', title: 'Treasurer', party: null },
-      { name: 'Rob McGregor', title: 'Trustee', party: null },
-      { name: 'Charles Maidens', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Wexford Twp': {
-    name: 'Wexford Township',
-    county: 'Wexford',
-    website: 'https://wexfordtsp.org/',
-    officials: [
-      { name: 'Dave Williams', title: 'Supervisor', party: null },
-      { name: 'Kimberly Nyman', title: 'Clerk', party: null },
-      { name: 'Christina Hansen', title: 'Treasurer', party: null },
-      { name: 'Robert Kellogg', title: 'Trustee', party: null },
-      { name: 'Paul Williams', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Missaukee County townships ── */
-
-  'Aetna Twp (Missaukee)': {
-    name: 'Aetna Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/aetna_township/index.php',
-    officials: [
-      { name: 'Keith Dick', title: 'Supervisor', party: null },
-      { name: 'Linda Brown', title: 'Clerk', party: null },
-      { name: 'Mark Jenema', title: 'Treasurer', party: null },
-      { name: 'Kimberly Richards', title: 'Trustee', party: null },
-      { name: 'Steve Burkholder', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Bloomfield Twp (Missaukee)': {
-    name: 'Bloomfield Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/bloomfield_township/index.php',
-    officials: [
-      { name: 'Tim Bridson', title: 'Supervisor', party: null },
-      { name: 'Cherrie Park', title: 'Clerk', party: null },
-      { name: 'Helen Potter', title: 'Treasurer', party: null },
-      { name: 'Justin Stauffer', title: 'Trustee', party: null },
-      { name: 'Clint Bridson', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Butterfield Twp (Missaukee)': {
-    name: 'Butterfield Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/butterfield_township/index.php',
-    officials: [
-      { name: 'Mike Rockey', title: 'Supervisor', party: null },
-      { name: 'Marilyn Myers', title: 'Clerk', party: null },
-      { name: 'Carrie Creger', title: 'Treasurer', party: null },
-      { name: 'Jan Hose', title: 'Trustee', party: null },
-      { name: 'George Davis', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Caldwell Twp (Missaukee)': {
-    name: 'Caldwell Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/caldwell_township/index.php',
-    officials: [
-      { name: 'Mike Lutke', title: 'Supervisor', party: null },
-      { name: 'Shelley Sloat', title: 'Clerk', party: null },
-      { name: 'Dani Lutke', title: 'Treasurer', party: null },
-      { name: 'Clayton Paul Helsel Jr.', title: 'Trustee', party: null },
-      { name: 'Brad Birgy', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Clam Union': {
-    name: 'Clam Union Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/clam_union_township/index.php',
-    officials: [
-      { name: 'Mark DeZeeuw', title: 'Supervisor', party: null },
-      { name: 'Steve Ebels', title: 'Clerk', party: null },
-      { name: 'Bob Ebels', title: 'Treasurer', party: null },
-      { name: 'Rich Herweyer', title: 'Trustee', party: null },
-      { name: 'Judy Jenema', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Enterprise Twp (Missaukee)': {
-    name: 'Enterprise Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/enterprise_township/index.php',
-    officials: [
-      { name: 'Wyatt Howey', title: 'Supervisor', party: null },
-      { name: 'Lynn Pope', title: 'Clerk', party: null },
-      { name: 'Carla Baumgardner', title: 'Treasurer', party: null },
-      { name: 'Demi Westmaas', title: 'Trustee', party: null },
-      { name: 'Kathy Hamel', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Forest Twp (Missaukee)': {
-    name: 'Forest Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/forest_township/index.php',
-    officials: [
-      { name: 'Samantha Peery', title: 'Supervisor', party: null },
-      { name: 'Leann Vokes', title: 'Clerk', party: null },
-      { name: 'Jennifer Jones', title: 'Treasurer', party: null },
-      { name: 'Duane Baldwin', title: 'Trustee', party: null },
-      { name: 'Ryan Luhrs', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Holland Twp (Missaukee)': {
-    name: 'Holland Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/holland_township/index.php',
-    officials: [
-      { name: 'Robert Warson', title: 'Supervisor', party: null },
-      { name: 'Donna Bode', title: 'Clerk', party: null },
-      { name: 'Madelaine Hunter', title: 'Treasurer', party: null },
-      { name: 'Todd Wallington', title: 'Trustee', party: null },
-      { name: 'Shirley Kregear', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Lake Twp (Missaukee)': {
+  'Benzie:Lake': {
     name: 'Lake Township',
-    county: 'Missaukee',
-    website: 'https://laketownshipmissaukee.com/',
+    county: 'Benzie',
     officials: [
-      { name: 'Robert Hall', title: 'Supervisor', party: null },
-      { name: 'Korinda Winkelmann', title: 'Clerk', party: null },
-      { name: 'Rebecca Gaines', title: 'Treasurer', party: null },
-      { name: 'Carol Bradley', title: 'Trustee', party: null },
-      { name: 'Randy Norman', title: 'Trustee', party: null },
-    ],
+      { name: 'Mary Pitcher', title: 'Supervisor', phone: '(231) 325-5202', email: '' },
+      { name: 'Penny Georgevich', title: 'Clerk', phone: '(231) 325-5202', email: '' },
+      { name: 'Maryanne Goodman', title: 'Treasurer', phone: '(231) 944-5499', email: '' },
+      { name: 'Kyle Orr', title: 'Trustee', phone: '(231) 325-5202', email: '' },
+      { name: 'Joel Quine', title: 'Trustee', phone: '(231) 325-5202', email: '' }
+    ]
   },
-
-  'Norwich Twp (Missaukee)': {
-    name: 'Norwich Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/norwich_township/index.php',
+  'Benzie:Platte': {
+    name: 'Platte Township',
+    county: 'Benzie',
     officials: [
-      { name: 'Lois Whipple', title: 'Supervisor', party: null },
-      { name: 'Heather Klein', title: 'Clerk', party: null },
-      { name: 'Dawn Jones', title: 'Treasurer', party: null },
-      { name: 'Jason McCoy', title: 'Trustee', party: null },
-      { name: 'Susan Lehr', title: 'Trustee', party: null },
-    ],
+      { name: 'Paul Solem', title: 'Supervisor', phone: '(231) 835-0631', email: '' },
+      { name: 'Alison Michalak', title: 'Clerk', phone: '(231) 930-7182', email: '' },
+      { name: 'Cynthia Gottschalk', title: 'Treasurer', phone: '(231) 493-5471', email: '' },
+      { name: 'Daniel Haswell', title: 'Trustee', phone: '(231) 357-4359', email: '' },
+      { name: 'Robert Bollenberg', title: 'Trustee', phone: '(231) 510-2213', email: '' }
+    ]
   },
-
-  'Pioneer Twp (Missaukee)': {
-    name: 'Pioneer Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/pioneer_township/index.php',
+  'Benzie:Weldon': {
+    name: 'Weldon Township',
+    county: 'Benzie',
     officials: [
-      { name: 'Emily Alexander', title: 'Supervisor', party: null },
-      { name: 'Karen Emond', title: 'Clerk', party: null },
-      { name: 'Anna Crane', title: 'Treasurer', party: null },
-      { name: 'Carol Chaffee', title: 'Trustee', party: null },
-      { name: 'Eric Wickstrom', title: 'Trustee', party: null },
-    ],
+      { name: 'Carrie Aldrich', title: 'Supervisor', phone: '(231) 378-2280', email: '' },
+      { name: 'Frances Griffin', title: 'Clerk', phone: '(231) 944-9848', email: '' },
+      { name: 'Sally Bobek', title: 'Treasurer', phone: '(231) 378-2477', email: '' },
+      { name: 'Sue Meredith', title: 'Trustee', phone: '(231) 378-2377', email: '' },
+      { name: 'Scott Williams', title: 'Trustee', phone: '(231) 378-2477', email: '' }
+    ]
   },
-
-  'Reeder': {
-    name: 'Reeder Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/reeder_township/index.php',
+  'Berrien:Bainbridge': {
+    name: 'Bainbridge Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Joshua Pellow', title: 'Supervisor', party: null },
-      { name: 'Ann Roberts', title: 'Clerk', party: null },
-      { name: 'Elaine Gallop', title: 'Treasurer', party: null },
-      { name: 'William Roberts', title: 'Trustee', party: null },
-      { name: 'Marcia Rackov', title: 'Trustee', party: null },
-    ],
+      { name: 'Andrew Gardiner', title: 'Supervisor', phone: '(269) 252-7588', email: '' },
+      { name: 'Samantha Droskie', title: 'Clerk', phone: '(269) 468-8040 ext. 1110', email: '' },
+      { name: 'Nancy Weber', title: 'Treasurer', phone: '(269) 468-8040', email: '' },
+      { name: 'John Yetzke', title: 'Trustee', phone: '(269) 463-8056', email: '' },
+      { name: 'Donald Baiers', title: 'Trustee', phone: '(269) 463-3351', email: '' }
+    ]
   },
-
-  'Richland Twp (Missaukee)': {
-    name: 'Richland Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/richland_township/index.php',
+  'Berrien:Baroda': {
+    name: 'Baroda Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Greg Buning', title: 'Supervisor', party: null },
-      { name: 'Sarah Lutke', title: 'Clerk', party: null },
-      { name: 'Darla Kars', title: 'Treasurer', party: null },
-      { name: 'Douglas Benthem', title: 'Trustee', party: null },
-      { name: 'Jonathon Schierbeek', title: 'Trustee', party: null },
-    ],
+      { name: 'Dennis Krotzer', title: 'Supervisor', phone: '(269) 422-2300', email: '' },
+      { name: 'Christina Price', title: 'Clerk', phone: '(269) 422-2300', email: '' },
+      { name: 'William Hurst', title: 'Treasurer', phone: '(269) 422-2300', email: '' },
+      { name: 'David Wolf', title: 'Trustee', phone: '(269) 422-2300', email: '' },
+      { name: 'Larry Klug', title: 'Trustee', phone: '(269) 422-2300', email: '' }
+    ]
   },
-
-  'Riverside Twp (Missaukee)': {
-    name: 'Riverside Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/riverside_township/index.php',
+  'Berrien:Benton': {
+    name: 'Benton charter Township',
+    county: 'Berrien',
     officials: [
-      { name: 'David Rozeveld', title: 'Supervisor', party: null },
-      { name: 'Jill Geeseman', title: 'Clerk', party: null },
-      { name: 'Barbara Henrickson', title: 'Treasurer', party: null },
-      { name: 'Kenneth Heuker', title: 'Trustee', party: null },
-      { name: 'Gordon Rozeveld', title: 'Trustee', party: null },
-    ],
+      { name: 'Cathy Yates', title: 'Supervisor', phone: '(269) 925-0616', email: '' },
+      { name: 'Carolyn Phillips', title: 'Clerk', phone: '(269) 925-0616', email: '' },
+      { name: 'Debra Boothby', title: 'Treasurer', phone: '(269) 925-0616', email: '' },
+      { name: 'Rosie Hudson', title: 'Trustee', phone: '(269) 925-0616', email: '' },
+      { name: 'Linda Scarbrough', title: 'Trustee', phone: '(269) 925-0616', email: '' },
+      { name: 'Margaret Clayborn', title: 'Trustee', phone: '(269) 925-0616', email: '' }
+    ]
   },
-
-  'West Branch Twp (Missaukee)': {
-    name: 'West Branch Township',
-    county: 'Missaukee',
-    website: 'https://www.missaukee.org/government/local_governments/west_branch_township/index.php',
+  'Berrien:Berrien': {
+    name: 'Berrien Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Kevin Travelbee', title: 'Supervisor', party: null },
-      { name: 'Yvonne R. Ahrens', title: 'Clerk', party: null },
-      { name: 'Karrie Loney', title: 'Treasurer', party: null },
-      { name: 'Jeannie Wilton', title: 'Trustee', party: null },
-      { name: 'Samantha Musselman', title: 'Trustee', party: null },
-    ],
+      { name: 'Bryan Bixby', title: 'Supervisor', phone: '(269) 461-6925', email: '' },
+      { name: 'Tory Parrish', title: 'Clerk', phone: '(269) 461-6925', email: '' },
+      { name: 'Michael Jenks', title: 'Treasurer', phone: '(269) 461-6925', email: '' },
+      { name: 'Cynthia Layman', title: 'Trustee', phone: '(269) 461-6925', email: '' },
+      { name: 'Harold Bishop', title: 'Trustee', phone: '(269) 461-6925', email: '' },
+      { name: 'Kevin Klug', title: 'Trustee', phone: '(269) 461-6925', email: '' }
+    ]
   },
-
-  /* ── Clare County townships ── */
-
-  Arthur: {
-    name: 'Arthur Township',
-    county: 'Clare',
-    website: 'https://arthurtownshipmi.com',
-    phone: '989-429-5525',
+  'Berrien:Bertrand': {
+    name: 'Bertrand Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Matthew Bednorek', title: 'Supervisor', party: null },
-      { name: 'Janice LaRose', title: 'Clerk', party: null },
-      { name: 'Anna Sharp', title: 'Treasurer', party: null },
-      { name: 'Joy Kleinhardt', title: 'Trustee', party: null },
-      { name: 'Jerry Willford', title: 'Trustee', party: null },
-    ],
+      { name: 'Steve Hicks', title: 'Supervisor', phone: '(269) 695-5001', email: '' },
+      { name: 'Sheryl Miller', title: 'Clerk', phone: '(269) 695-5001', email: '' },
+      { name: 'David Kuhn', title: 'Treasurer', phone: '(269) 695-5001', email: '' },
+      { name: 'David Zelmer', title: 'Trustee', phone: '(269) 695-5001', email: '' },
+      { name: 'Gordon Payton', title: 'Trustee', phone: '(269) 695-5001', email: '' },
+      { name: 'Ryan Loveing', title: 'Trustee', phone: '(269) 695-5001', email: '' },
+      { name: 'Alice Kring', title: 'Trustee', phone: '(269) 695-5001', email: '' }
+    ]
   },
-
-  Franklin: {
-    name: 'Franklin Township',
-    county: 'Clare',
-    website: 'https://www.franklin-twp.com',
-    phone: '989-429-9786',
+  'Berrien:Buchanan': {
+    name: 'Buchanan Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Ed Erskine', title: 'Supervisor', party: null },
-      { name: 'Shelly Schultz', title: 'Clerk', party: null },
-      { name: 'Sandy Scherrer', title: 'Treasurer', party: null },
-      { name: 'Therese Haley', title: 'Trustee', party: null },
-      { name: 'Jackie Ecklin', title: 'Trustee', party: null },
-    ],
+      { name: 'Wendi Heyliger', title: 'Clerk', phone: '(269) 695-6442', email: '' },
+      { name: 'Amber Ramirez', title: 'Treasurer', phone: '(269) 695-6442', email: '' },
+      { name: 'Lynn Ferris', title: 'Trustee', phone: '(269) 695-5008', email: '' },
+      { name: 'Bradley Huebner', title: 'Trustee', phone: '(269) 695-6442', email: '' },
+      { name: 'Adam Byrdak', title: 'Trustee', phone: '(269) 695-6442', email: '' },
+      { name: 'Tom Gordon', title: 'Trustee', phone: '(269) 695-6442', email: '' }
+    ]
   },
-
-  Freeman: {
-    name: 'Freeman Township',
-    county: 'Clare',
-    website: 'https://freemantwp.com',
-    phone: '989-588-2752',
+  'Berrien:Chikaming': {
+    name: 'Chikaming Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Doug Johnson', title: 'Supervisor', party: null },
-      { name: 'Cindy LaFave', title: 'Clerk', party: null },
-      { name: 'Janet Lackie', title: 'Treasurer', party: null },
-      { name: 'Sheyla Young', title: 'Trustee', party: null },
-      { name: 'Robert Eckardt', title: 'Trustee', party: null },
-    ],
+      { name: 'David Bunte', title: 'Supervisor', phone: '(269) 469-1676', email: '' },
+      { name: 'Paula Dudiak', title: 'Clerk', phone: '(269) 469-1676', email: '' },
+      { name: 'Elizabeth Rettig', title: 'Treasurer', phone: '(269) 469-1676', email: '' },
+      { name: 'Richard Sullivan', title: 'Trustee', phone: '(269) 369-2212', email: '' },
+      { name: 'Arthur Anderson', title: 'Trustee', phone: '(269) 469-1676', email: '' }
+    ]
   },
-
-  Frost: {
-    name: 'Frost Township',
-    county: 'Clare',
-    website: 'https://www.frosttownship.com',
-    phone: '989-630-9038',
+  'Berrien:Coloma': {
+    name: 'Coloma charter Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Marion Coon', title: 'Supervisor', party: null },
-      { name: 'Joan Rattray', title: 'Clerk', party: null },
-      { name: 'Janet Spencer', title: 'Treasurer', party: null },
-      { name: 'Virginia Hogan', title: 'Trustee', party: null },
-      { name: 'Janae Veite', title: 'Trustee', party: null },
-    ],
+      { name: 'Kenneth Parrigin', title: 'Supervisor', phone: '(269) 468-7212', email: '' },
+      { name: 'Sheila Hickmott', title: 'Clerk', phone: '(269) 468-7212', email: '' },
+      { name: 'James Fulton', title: 'Treasurer', phone: '(269) 468-7212', email: '' },
+      { name: 'Bryan Duffield', title: 'Trustee', phone: '(269) 468-7212', email: '' },
+      { name: 'Jerry Willmeng', title: 'Trustee', phone: '(269) 468-7212', email: '' },
+      { name: 'Kendyl Adams', title: 'Trustee', phone: '(269) 468-7212', email: '' },
+      { name: 'Lance Becht', title: 'Trustee', phone: '(269) 757-6227', email: '' }
+    ]
   },
-
-  'Garfield Twp (Clare)': {
-    name: 'Garfield Township',
-    county: 'Clare',
-    website: 'https://www.garfieldtownship-cc.com',
-    phone: '989-544-2445',
+  'Berrien:Galien': {
+    name: 'Galien Township',
+    county: 'Berrien',
     officials: [
-      { name: 'David Byl', title: 'Supervisor', party: null },
-      { name: 'Denise K. Hicks', title: 'Clerk', party: null },
-      { name: 'Robin A. Yarhouse', title: 'Treasurer', party: null },
-      { name: 'James Lard', title: 'Trustee', party: null },
-      { name: 'Lisa Roland', title: 'Trustee', party: null },
-    ],
+      { name: 'Tim Richter', title: 'Supervisor', phone: '(269) 545-8143', email: '' },
+      { name: 'Jennifer Richter', title: 'Clerk', phone: '(269) 545-8143', email: '' },
+      { name: 'Kendra Truhn', title: 'Treasurer', phone: '(269) 545-3575', email: '' },
+      { name: 'Matt Kinne', title: 'Trustee', phone: '(269) 545-8143', email: '' },
+      { name: 'Savannah DeVries', title: 'Trustee', phone: '(269) 545-8143', email: '' }
+    ]
   },
-
-  'Grant Twp (Clare)': {
-    name: 'Grant Township',
-    county: 'Clare',
-    website: 'https://grant-township.org',
+  'Berrien:Hagar': {
+    name: 'Hagar Township',
+    county: 'Berrien',
     officials: [
-      { name: 'John Lake', title: 'Supervisor', party: null },
-      { name: 'Tammy Teall', title: 'Clerk', party: null },
-      { name: 'Brendan Gregory', title: 'Treasurer', party: null },
-      { name: 'Linda Gilmore', title: 'Trustee', party: null },
-      { name: 'David Isaac', title: 'Trustee', party: null },
-    ],
+      { name: 'Izzy DiMaggio', title: 'Supervisor', phone: '(269) 449-3628', email: '' },
+      { name: 'Tom Allen', title: 'Clerk', phone: '(269) 849-0455', email: '' },
+      { name: 'Kay Ohst', title: 'Treasurer', phone: '(269) 849-0455', email: '' },
+      { name: 'Andy Ulleg', title: 'Trustee', phone: '(269) 849-0455', email: '' },
+      { name: 'Wade Arends', title: 'Trustee', phone: '(269) 849-0455', email: '' }
+    ]
   },
-
-  'Greenwood Twp (Clare)': {
-    name: 'Greenwood Township',
-    county: 'Clare',
-    website: 'https://www.greenwoodtownship.org',
+  'Berrien:Lake': {
+    name: 'Lake charter Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Jess McClaughry', title: 'Supervisor', party: null },
-      { name: 'Rachel Mackson', title: 'Clerk', party: null },
-      { name: 'Lorie Fliegel', title: 'Treasurer', party: null },
-      { name: 'Gail Garrity', title: 'Trustee', party: null },
-      { name: 'Bronwyn Asplund', title: 'Trustee', party: null },
-    ],
+      { name: 'Zachary Carson', title: 'Supervisor', phone: '(269) 876-1802', email: '' },
+      { name: 'Miranda Companion', title: 'Clerk', phone: '(269) 465-6601', email: '' },
+      { name: 'Jennifer Adams', title: 'Treasurer', phone: '(269) 465-6601', email: '' },
+      { name: 'Nancy Mensinger', title: 'Trustee', phone: '(269) 449-2906', email: '' },
+      { name: 'Michael Essig', title: 'Trustee', phone: '(269) 930-8497', email: '' },
+      { name: 'Amanda Drew', title: 'Trustee', phone: '(269) 465-6601', email: '' },
+      { name: 'William Shuler', title: 'Trustee', phone: '(269) 465-6601', email: '' }
+    ]
   },
-
-  Hamilton: {
-    name: 'Hamilton Township',
-    county: 'Clare',
-    website: 'https://hamiltontwp.us',
-    phone: '989-487-4164',
+  'Berrien:Lincoln': {
+    name: 'Lincoln charter Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Tom Vaughn', title: 'Supervisor', party: null },
-      { name: 'Andrea Wallace', title: 'Clerk', party: null },
-      { name: 'Denise Goodenow', title: 'Treasurer', party: null },
-      { name: 'Mike Conway', title: 'Trustee', party: null },
-      { name: 'Mike Iutzi', title: 'Trustee', party: null },
-    ],
+      { name: 'Glenn Youngstedt', title: 'Supervisor', phone: '(269) 429-1589', email: '' },
+      { name: 'Michael Brown', title: 'Clerk', phone: '(269) 429-1589', email: '' },
+      { name: 'Terrie Smith', title: 'Treasurer', phone: '(269) 429-1589 ext. 112#', email: '' },
+      { name: 'Deborah Peterson', title: 'Trustee', phone: '(269) 429-1589', email: '' },
+      { name: 'Richard Stauffer', title: 'Trustee', phone: '(269) 429-1589', email: '' },
+      { name: 'Marc Florian', title: 'Trustee', phone: '(269) 465-4008', email: '' },
+      { name: 'Christian Nitz', title: 'Trustee', phone: '(269) 982-9400', email: '' }
+    ]
   },
-
-  Hatton: {
-    name: 'Hatton Township',
-    county: 'Clare',
-    website: 'https://www.hattontownship.com',
-    phone: '989-600-1495',
+  'Berrien:New Buffalo': {
+    name: 'New Buffalo Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Bill Hileman', title: 'Supervisor', party: null },
-      { name: 'Linda McClain', title: 'Clerk', party: null },
-      { name: 'Molly Humphrey', title: 'Treasurer', party: null },
-      { name: 'Nathanael Farrell', title: 'Trustee', party: null },
-      { name: 'William Guiette', title: 'Trustee', party: null },
-    ],
+      { name: 'Michelle Heit', title: 'Supervisor', phone: '(269) 469-1011', email: '' },
+      { name: 'Michelle Hannon', title: 'Clerk', phone: '(269) 469-1011', email: '' },
+      { name: 'Patricia Iazzetto', title: 'Treasurer', phone: '(269) 469-1011', email: '' },
+      { name: 'Howard Males', title: 'Trustee', phone: '(269) 469-1011', email: '' },
+      { name: 'Barb Anderson', title: 'Trustee', phone: '(269) 469-1011', email: '' }
+    ]
   },
-
-  Hayes: {
-    name: 'Hayes Township',
-    county: 'Clare',
-    website: 'https://hayestwpclaremi.gov',
-    phone: '989-539-7128',
+  'Berrien:Niles': {
+    name: 'Niles Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Brendan Powell', title: 'Supervisor', party: null },
-      { name: 'Debra Hoyt', title: 'Clerk', party: null },
-      { name: 'Savannah Cavanaugh', title: 'Treasurer', party: null },
-      { name: 'Rob McKay', title: 'Trustee', party: null },
-      { name: 'Robert Buckley', title: 'Trustee', party: null },
-    ],
+      { name: 'Marge Durm-Hiatt', title: 'Supervisor', phone: '(269) 684-0870', email: '' },
+      { name: 'Daniel Pulaski', title: 'Clerk', phone: '(269) 684-0870', email: '' },
+      { name: 'James Ringler', title: 'Treasurer', phone: '(269) 684-0870', email: '' },
+      { name: 'Chris Vella', title: 'Trustee', phone: '(269) 684-0870', email: '' },
+      { name: 'Herschel Hoese', title: 'Trustee', phone: '(269) 684-0870', email: '' },
+      { name: 'Richard Cooper', title: 'Trustee', phone: '(269) 684-0870', email: '' },
+      { name: 'Terri Grimes', title: 'Trustee', phone: '(269) 684-0870', email: '' }
+    ]
   },
-
-  'Lincoln Twp (Clare)': {
-    name: 'Lincoln Township',
-    county: 'Clare',
-    website: 'https://www.lincolntwp.com',
-    phone: '989-588-9841',
+  'Berrien:Oronoko': {
+    name: 'Oronoko charter Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Troy L. Kibbey', title: 'Supervisor', party: null },
-      { name: 'Carol L. Majewski', title: 'Clerk', party: null },
-      { name: 'Maggie Carey', title: 'Treasurer', party: null },
-      { name: 'Jeff Simons', title: 'Trustee', party: null },
-      { name: 'Mike Tobin', title: 'Trustee', party: null },
-    ],
+      { name: 'Mike Hildebrand', title: 'Supervisor', phone: '(269) 471-1682', email: '' },
+      { name: 'Michelle Bolin', title: 'Clerk', phone: '(269) 471-2824 ext. 12', email: '' },
+      { name: 'Lawrence Schalk', title: 'Treasurer', phone: '(269) 519-2708', email: '' },
+      { name: 'Marc Kerlikowske', title: 'Trustee', phone: '(269) 471-7548', email: '' },
+      { name: 'Richard Albers', title: 'Trustee', phone: '(269) 471-2824', email: '' },
+      { name: 'Don Damron', title: 'Trustee', phone: '(269) 471-4017', email: '' },
+      { name: 'Tyson Keigley', title: 'Trustee', phone: '(269) 932-4003', email: '' }
+    ]
   },
-
-  Redding: {
-    name: 'Redding Township',
-    county: 'Clare',
-    website: 'https://reddingtownship.net',
-    phone: '231-743-9525',
+  'Berrien:Pipestone': {
+    name: 'Pipestone Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Billie Wrubel', title: 'Supervisor', party: null },
-      { name: 'Brooke Daniels', title: 'Clerk (Deputy, acting)', party: null },
-      /* Note: Clerk, Treasurer, and one Trustee positions vacated late 2025 due to mass resignations. Contact township for current status. */
-    ],
+      { name: 'Doug Davis', title: 'Supervisor', phone: '(269) 461-6151', email: '' },
+      { name: 'Deborah Crews', title: 'Clerk', phone: '(269) 461-6151', email: '' },
+      { name: 'Virginia Gonzalez', title: 'Treasurer', phone: '(269) 461-6151', email: '' },
+      { name: 'Robert Bishop', title: 'Trustee', phone: '(269) 782-8181', email: '' },
+      { name: 'Floyd Sommer', title: 'Trustee', phone: '(269) 461-6151', email: '' }
+    ]
   },
-
-  'Sheridan Twp (Clare)': {
-    name: 'Sheridan Township',
-    county: 'Clare',
-    website: 'https://www.sheridantwpclareco.com',
+  'Berrien:Royalton': {
+    name: 'Royalton Township',
+    county: 'Berrien',
     officials: [
-      { name: 'William Ray Strouse', title: 'Supervisor', party: 'Republican' },
-      { name: 'Raquel Brown', title: 'Clerk', party: 'Republican' },
-      { name: 'Jennifer L. Magnus', title: 'Treasurer', party: 'Republican' },
-      { name: 'James Eberhart', title: 'Trustee', party: 'Republican' },
-      { name: 'Brian J. Tomaski', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Michael Eisenhart', title: 'Supervisor', phone: '(269) 429-2501', email: '' },
+      { name: 'Rachel Bernard', title: 'Clerk', phone: '(269) 429-2501', email: '' },
+      { name: 'Jason Ackerman', title: 'Treasurer', phone: '(269) 429-2501', email: '' },
+      { name: 'Julie Marsh', title: 'Trustee', phone: '(269) 429-2501', email: '' },
+      { name: 'Adam Wagner', title: 'Trustee', phone: '(269) 429-2501', email: '' }
+    ]
   },
-
-  Summerfield: {
-    name: 'Summerfield Township',
-    county: 'Clare',
-    website: 'https://summerfieldtwp.org',
-    phone: '989-539-2501',
+  'Berrien:Sodus': {
+    name: 'Sodus Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Dan Wilhelm', title: 'Supervisor', party: null },
-      { name: 'Jaclyn Hall', title: 'Clerk', party: null },
-      { name: 'Sheri Levy', title: 'Treasurer', party: null },
-      { name: 'Scott Losey', title: 'Trustee', party: null },
-      { name: 'James (Dean) Smith', title: 'Trustee', party: null },
-    ],
+      { name: 'David Chandler', title: 'Supervisor', phone: '(269) 944-7960', email: '' },
+      { name: 'Cheryl Andres', title: 'Clerk', phone: '(269) 944-4844', email: '' },
+      { name: 'Terry McCain', title: 'Treasurer', phone: '(269) 944-9038', email: '' },
+      { name: 'Kenneth Peters', title: 'Trustee', phone: '(269) 925-6943', email: '' },
+      { name: 'Loyall Bennett', title: 'Trustee', phone: '(269) 926-6285', email: '' }
+    ]
   },
-
-  Surrey: {
-    name: 'Surrey Township',
-    county: 'Clare',
-    website: 'https://www.surreytownship.com',
-    phone: '989-588-6691',
+  'Berrien:St. Joseph': {
+    name: 'St. Joseph charter Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Mike Coon', title: 'Supervisor', party: null },
-      { name: 'Glenna Bradbury', title: 'Clerk', party: null },
-      { name: 'Mindy Campbell', title: 'Treasurer', party: null },
-      { name: 'Dixie Adams', title: 'Trustee', party: null },
-      { name: 'Paul Ghinelli', title: 'Trustee', party: null },
-    ],
+      { name: 'Roger Seely', title: 'Supervisor', phone: '(269) 429-7703', email: '' },
+      { name: 'Patrice Rose', title: 'Clerk', phone: '(269) 429-7703', email: '' },
+      { name: 'David Vonk', title: 'Treasurer', phone: '(269) 429-7703', email: '' },
+      { name: 'Melissa Hahn', title: 'Trustee', phone: '(269) 429-7703', email: '' },
+      { name: 'Tom Milnikel', title: 'Trustee', phone: '(269) 429-0475', email: '' },
+      { name: 'Edward Meny', title: 'Trustee', phone: '(269) 429-2025', email: '' },
+      { name: 'Timothy Drews', title: 'Trustee', phone: '(269) 429-7703', email: '' }
+    ]
   },
-
-  Winterfield: {
-    name: 'Winterfield Township',
-    county: 'Clare',
-    website: 'https://www.winterfieldtownship.org',
-    phone: '231-878-2745',
+  'Berrien:Three Oaks': {
+    name: 'Three Oaks Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Shelly Laughlin', title: 'Supervisor', party: null },
-      { name: 'Dianna Powell-Reid', title: 'Clerk', party: null },
-      { name: 'Linda Peterson', title: 'Treasurer', party: null },
-      { name: 'Fred Prielipp', title: 'Trustee', party: null },
-      { name: 'Carl Traynor', title: 'Trustee', party: null },
-    ],
+      { name: 'Philip Smith', title: 'Supervisor', phone: '(269) 756-9801', email: '' },
+      { name: 'Marcie Miles', title: 'Clerk', phone: '(269) 756-9801', email: '' },
+      { name: 'Kathleen Osburn', title: 'Treasurer', phone: '(269) 756-9801', email: '' },
+      { name: 'John Swanstrom', title: 'Trustee', phone: '(269) 756-9801', email: '' }
+    ]
   },
-
-  /* ── Crawford County townships ── */
-
-  'Beaver Creek': {
-    name: 'Beaver Creek Township',
-    county: 'Crawford',
-    website: 'http://www.beavercreektownship.com/',
+  'Berrien:Watervliet': {
+    name: 'Watervliet Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Kim VanNuck', title: 'Supervisor', party: null },
-      { name: 'Jill Peacock', title: 'Clerk', party: null },
-      { name: 'Hope Francis', title: 'Treasurer', party: null },
-      { name: 'Mary Dent', title: 'Trustee', party: null },
-      { name: 'Steve Nelson', title: 'Trustee', party: null },
-    ],
+      { name: 'Robert Wallace', title: 'Supervisor', phone: '(269) 463-5113', email: '' },
+      { name: 'Linda Rizzo', title: 'Clerk', phone: '(269) 463-5113', email: '' },
+      { name: 'Thomas Scheid', title: 'Treasurer', phone: '(269) 463-5113', email: '' },
+      { name: 'Vick Kinzler', title: 'Trustee', phone: '(269) 470-8425', email: '' },
+      { name: 'Kevin Cole', title: 'Trustee', phone: '(269) 463-5113', email: '' }
+    ]
   },
-
-  'Frederic': {
-    name: 'Frederic Township',
-    county: 'Crawford',
-    website: 'https://www.frederictownship.org/',
+  'Berrien:Weesaw': {
+    name: 'Weesaw Township',
+    county: 'Berrien',
     officials: [
-      { name: 'Brandon M. Gabriel', title: 'Supervisor', party: null },
-      { name: 'Amanda L. Siwecki', title: 'Clerk', party: null },
-      { name: 'Karen M. Dawson', title: 'Treasurer', party: null },
-      { name: 'Randy Richardson', title: 'Trustee', party: null },
-      { name: 'Donald Weaver', title: 'Trustee', party: null },
-    ],
+      { name: 'Gary Sommers', title: 'Supervisor', phone: '(269) 422-1432', email: '' },
+      { name: 'Erika Burcham', title: 'Clerk', phone: '(269) 426-3002', email: '' },
+      { name: 'Michelle Tackitt', title: 'Treasurer', phone: '(269) 426-3002 ext. 3#', email: '' },
+      { name: 'Arthur King', title: 'Trustee', phone: '(269) 426-3641', email: '' },
+      { name: 'James Pelletier', title: 'Supervisor', phone: '(269) 426-3002', email: '' }
+    ]
   },
-
-  'Grayling Twp': {
-    name: 'Grayling Charter Township',
-    county: 'Crawford',
-    website: 'https://twp.grayling.mi.us/',
+  'Branch:Algansee': {
+    name: 'Algansee Township',
+    county: 'Branch',
     officials: [
-      { name: 'Lacey D. Stephan III', title: 'Supervisor', party: null },
-      { name: 'Diane Giska', title: 'Clerk', party: null },
-      { name: 'Brenda Wargo', title: 'Treasurer', party: null },
-      { name: 'Joe Smock', title: 'Trustee', party: null },
-      { name: 'Shannon Sorenson', title: 'Trustee', party: null },
-      { name: 'Jeri Seithoffer', title: 'Trustee', party: null },
-      { name: 'JoAnn Michal', title: 'Trustee', party: null },
-    ],
+      { name: 'Craig Fichtelberg', title: 'Supervisor', phone: '(312) 919-0193', email: '' },
+      { name: 'Chantal Paxton', title: 'Clerk', phone: '(808) 265-2969', email: '' },
+      { name: 'Sharon Atkinson', title: 'Treasurer', phone: '(517) 639-2395', email: '' },
+      { name: 'Rod Bassage', title: 'Trustee', phone: '(517) 639-4871', email: '' },
+      { name: 'Jason Shilling', title: 'Trustee', phone: '(517) 639-4871', email: '' }
+    ]
   },
-
-  'Lovells': {
-    name: 'Lovells Township',
-    county: 'Crawford',
-    website: 'https://lovellsmi.org/',
+  'Branch:Batavia': {
+    name: 'Batavia Township',
+    county: 'Branch',
     officials: [
-      { name: 'Richard Wright', title: 'Supervisor', party: null },
-      { name: 'Janet Dunning', title: 'Clerk', party: null },
-      { name: 'Tamara Kengel', title: 'Treasurer', party: null },
-      { name: 'Cheryl Hopp', title: 'Trustee', party: null },
-      { name: 'Gary Neumann', title: 'Trustee', party: null },
-    ],
+      { name: 'Taylor Fraser', title: 'Supervisor', phone: '(517) 677-8600', email: '' },
+      { name: 'Teresa Cuthbert', title: 'Clerk', phone: '(517) 278-3019', email: '' },
+      { name: 'Ashley Gruner', title: 'Treasurer', phone: '(517) 677-7670', email: '' },
+      { name: 'Mike Abrey', title: 'Trustee', phone: '(517) 227-1045', email: '' },
+      { name: 'Vincent Barone', title: 'Trustee', phone: '(517) 278-3019', email: '' }
+    ]
   },
-
-  'Maple Forest': {
-    name: 'Maple Forest Township',
-    county: 'Crawford',
-    website: 'http://www.mapleforest.org/',
+  'Branch:Bethel': {
+    name: 'Bethel Township',
+    county: 'Branch',
     officials: [
-      { name: 'Thomas L. Coors', title: 'Supervisor', party: null },
-      { name: 'April Hehir', title: 'Clerk', party: null },
-      { name: 'Denise M. Joseph', title: 'Treasurer', party: null },
-      { name: 'Phyllis Desprez', title: 'Trustee', party: null },
-      { name: 'Connie Meyer', title: 'Trustee', party: null },
-    ],
+      { name: 'Larry LaMontagne', title: 'Supervisor', phone: '(517) 369-9454', email: '' },
+      { name: 'Lori Brewer', title: 'Clerk', phone: '(517) 369-2512', email: '' },
+      { name: 'Terri Smith', title: 'Treasurer', phone: '(517) 369-2512', email: '' },
+      { name: 'Gerald Haylett', title: 'Trustee', phone: '(517) 238-2139', email: '' },
+      { name: 'Robin Kehoe', title: 'Trustee', phone: '(517) 369-2512', email: '' }
+    ]
   },
-
-  'South Branch': {
-    name: 'South Branch Township',
-    county: 'Crawford',
-    website: 'http://www.southbranchtownship.com/',
+  'Branch:Bronson': {
+    name: 'Bronson Township',
+    county: 'Branch',
     officials: [
-      { name: 'Anna Sylvester', title: 'Supervisor', party: null },
-      { name: 'Brenda Nelson', title: 'Clerk', party: null },
-      { name: 'Cathy Lewis', title: 'Treasurer', party: null },
-      { name: 'Michael Janisse', title: 'Trustee', party: null },
-      { name: 'Scott Barritt', title: 'Trustee', party: null },
-    ],
+      { name: 'Ken Carpenter', title: 'Supervisor', phone: '(269) 506-0295', email: '' },
+      { name: 'Rhonda Noble', title: 'Clerk', phone: '(517) 462-8154', email: '' },
+      { name: 'Mark Houghton', title: 'Treasurer', phone: '(517) 369-1877', email: '' },
+      { name: 'Roger Wisman', title: 'Trustee', phone: '(517) 369-9404', email: '' },
+      { name: 'John Wielgos', title: 'Trustee', phone: '(517) 369-1160', email: '' }
+    ]
   },
-
-  /* ── Presque Isle County townships ── */
-
-  'Allis': {
-    name: 'Allis Township',
-    county: 'Presque Isle',
+  'Branch:Butler': {
+    name: 'Butler Township',
+    county: 'Branch',
     officials: [
-      { name: 'Richard R. Nash', title: 'Supervisor', party: 'Republican' },
-      { name: 'Teresa Splan', title: 'Clerk', party: 'Republican' },
-      { name: 'David Schmoldt', title: 'Treasurer', party: 'Independent' },
-      { name: 'Mark E. Dean', title: 'Trustee', party: 'Republican' },
-      { name: 'Trevor Most', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Rod Olney', title: 'Supervisor', phone: '(517) 227-1960', email: '' },
+      { name: 'Linda Hammontree', title: 'Clerk', phone: '(517) 462-1351', email: '' },
+      { name: 'Deborah Bracy', title: 'Treasurer', phone: '(517) 639-8901', email: '' },
+      { name: 'Christopher Brenner', title: 'Trustee', phone: '(517) 542-3029', email: '' },
+      { name: 'Janis Olney', title: 'Trustee', phone: '(517) 227-2785', email: '' }
+    ]
   },
-  'Bearinger': {
-    name: 'Bearinger Township',
-    county: 'Presque Isle',
-    website: 'https://bearingertownship.org',
+  'Branch:California': {
+    name: 'California Township',
+    county: 'Branch',
     officials: [
-      { name: 'Cheryl Watt', title: 'Supervisor', party: null },
-      { name: 'Frances Kline', title: 'Clerk', party: null },
-      { name: 'James Watt', title: 'Treasurer', party: 'Republican' },
-      { name: 'Lee Stawiarski', title: 'Trustee', party: 'Republican' },
-      { name: 'Emilie Stawiarski', title: 'Trustee', party: null },
-    ],
+      { name: 'Basil Bassage', title: 'Supervisor', phone: '(517) 296-4530', email: '' },
+      { name: 'Michael Hatt', title: 'Clerk', phone: '(517) 398-0007', email: '' },
+      { name: 'Lori Bassage', title: 'Treasurer', phone: '(517) 238-4373', email: '' }
+    ]
   },
-  'Belknap': {
-    name: 'Belknap Township',
-    county: 'Presque Isle',
-    website: 'https://belknaptownship.org',
+  'Branch:Coldwater': {
+    name: 'Coldwater Township',
+    county: 'Branch',
     officials: [
-      { name: 'Toby Kuznicki', title: 'Supervisor', party: 'Independent' },
-      { name: 'Danielle Wirgau', title: 'Clerk', party: 'Republican' },
-      { name: 'Candy Peltz', title: 'Treasurer', party: 'Republican' },
-      { name: 'Robert Hopp', title: 'Trustee', party: 'Republican' },
-      { name: 'Justin Schalk', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Donald Rogers', title: 'Supervisor', phone: '(517) 279-9388 ext. 2', email: '' },
+      { name: 'Nathan Gilchrist', title: 'Clerk', phone: '(517) 279-9388', email: '' },
+      { name: 'Mike Sowles', title: 'Treasurer', phone: '(517) 279-9388', email: '' },
+      { name: 'Ted Short', title: 'Trustee', phone: '(517) 279-9388', email: '' },
+      { name: 'Ken Clayman', title: 'Trustee', phone: '(517) 279-9388', email: '' }
+    ]
   },
-  'Bismarck': {
-    name: 'Bismarck Township',
-    county: 'Presque Isle',
+  'Branch:Gilead': {
+    name: 'Gilead Township',
+    county: 'Branch',
     officials: [
-      { name: 'Lloyd T. Dullack', title: 'Supervisor', party: 'Republican' },
-      { name: 'Shelby J. Schwiesow', title: 'Clerk', party: 'Democratic' },
-      { name: 'Scott Cordes', title: 'Treasurer', party: 'Republican' },
-      { name: 'Russell Martin', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Debbie Burzynski', title: 'Supervisor', phone: '(517) 462-1114', email: '' },
+      { name: 'Branden Billman', title: 'Clerk', phone: '(517) 227-8450', email: '' },
+      { name: 'Beth Cook', title: 'Treasurer', phone: '(517) 617-2737', email: '' },
+      { name: 'Richard Chard', title: 'Trustee', phone: '(269) 330-2282', email: '' },
+      { name: 'Aaron Miller', title: 'Trustee', phone: '(616) 633-4164', email: '' }
+    ]
   },
-  'Case': {
-    name: 'Case Township',
-    county: 'Presque Isle',
-    website: 'https://casetownship.org',
+  'Branch:Girard': {
+    name: 'Girard Township',
+    county: 'Branch',
     officials: [
-      { name: 'Lisa Pochmara', title: 'Supervisor', party: null },
-      { name: 'Erin Leach', title: 'Clerk', party: null },
-      { name: 'Chuck Lewis', title: 'Treasurer', party: null },
-      { name: 'Luke Ellenberger', title: 'Trustee', party: null },
-      { name: 'Wendy Brooks', title: 'Trustee', party: null },
-    ],
+      { name: 'Candace Cox', title: 'Supervisor', phone: '(517) 617-1269', email: '' },
+      { name: 'Kathy Weigt', title: 'Clerk', phone: '(517) 279-2323', email: '' },
+      { name: 'Sarah Collins', title: 'Treasurer', phone: '(517) 279-2323', email: '' },
+      { name: 'George Baker', title: 'Trustee', phone: '(517) 677-4072', email: '' },
+      { name: 'William Wilber', title: 'Trustee', phone: '(517) 279-2323', email: '' }
+    ]
   },
-  'Krakow': {
-    name: 'Krakow Township',
-    county: 'Presque Isle',
-    website: 'https://krakowtownship.org',
+  'Branch:Kinderhook': {
+    name: 'Kinderhook Township',
+    county: 'Branch',
     officials: [
-      { name: 'Michael Grohowski', title: 'Supervisor', party: null },
-      { name: 'Elaine M. Misiak', title: 'Clerk', party: null },
-      { name: 'Diane Mucciante', title: 'Treasurer', party: null },
-      { name: 'Mitchell Mulka', title: 'Trustee', party: null },
-      { name: 'Michael T. Smith', title: 'Trustee', party: 'Democratic' },
-    ],
+      { name: 'Wayne Barnes', title: 'Supervisor', phone: '(517) 238-2540', email: '' },
+      { name: 'Pamela Tooman', title: 'Clerk', phone: '(517) 238-8182', email: '' },
+      { name: 'Jody Lewis', title: 'Treasurer', phone: '(517) 238-8182', email: '' },
+      { name: 'Gary Stetler', title: 'Trustee', phone: '(517) 238-2874', email: '' },
+      { name: 'Hal McCurley', title: 'Trustee', phone: '(517) 238-8182', email: '' }
+    ]
   },
-  'Metz': {
-    name: 'Metz Township',
-    county: 'Presque Isle',
+  'Branch:Matteson': {
+    name: 'Matteson Township',
+    county: 'Branch',
     officials: [
-      { name: 'Nyle R. Wickersham', title: 'Supervisor', party: 'Independent' },
-      { name: 'Nancy Kandow', title: 'Clerk', party: 'Democratic' },
-      { name: 'Andrea L. Konwinski', title: 'Treasurer', party: 'Republican' },
-      { name: 'Thomas R. Hein', title: 'Trustee', party: 'Democratic' },
-      { name: 'Louis J. Urban', title: 'Trustee', party: 'Democratic' },
-    ],
+      { name: 'Kevin Barnes', title: 'Supervisor', phone: '(517) 369-2193', email: '' },
+      { name: 'Karon Jo Fisher-Barr', title: 'Clerk', phone: '(517) 369-1678', email: '' },
+      { name: 'Sharon Butters', title: 'Treasurer', phone: '(269) 449-5464', email: '' },
+      { name: 'Richard Easterday', title: 'Trustee', phone: '(517) 369-1500', email: '' },
+      { name: 'Ted Stoll', title: 'Trustee', phone: '(269) 377-4404', email: '' }
+    ]
   },
-  'Moltke': {
-    name: 'Moltke Township',
-    county: 'Presque Isle',
+  'Branch:Noble': {
+    name: 'Noble Township',
+    county: 'Branch',
     officials: [
-      { name: 'Neil Sorgenfrei', title: 'Supervisor', party: 'Republican' },
-      { name: 'Edith Kerr', title: 'Clerk', party: 'Independent' },
-      { name: 'Christine Idalski', title: 'Treasurer', party: 'Republican' },
-      { name: 'Andrew LaLonde', title: 'Trustee', party: 'Republican' },
-      { name: 'Timothy Sorgenfrei', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Harry Metzger', title: 'Supervisor', phone: '(269) 832-7841', email: '' },
+      { name: 'Rebecca Thurston', title: 'Clerk', phone: '(517) 369-3605', email: '' },
+      { name: 'Ryan McFall', title: 'Treasurer', phone: '(269) 858-5534', email: '' },
+      { name: 'Richard Wotta', title: 'Trustee', phone: '(269) 489-5478', email: '' },
+      { name: 'Bricelyn Allen', title: 'Trustee', phone: '(517) 617-3502', email: '' }
+    ]
   },
-  'North Allis': {
-    name: 'North Allis Township',
-    county: 'Presque Isle',
+  'Branch:Ovid': {
+    name: 'Ovid Township',
+    county: 'Branch',
     officials: [
-      { name: 'Dean Tebo', title: 'Supervisor', party: 'Republican' },
-      { name: 'Roberta Northcott', title: 'Clerk', party: 'Republican' },
-      { name: 'Kristin Tebo', title: 'Treasurer', party: 'Independent' },
-      { name: 'David Kolasa', title: 'Trustee', party: 'Republican' },
-      { name: 'Timothy J. George', title: 'Trustee', party: 'Independent' },
-    ],
+      { name: 'Ben Losinski', title: 'Supervisor', phone: '(517) 238-5099', email: '' },
+      { name: 'Amy Havasy', title: 'Clerk', phone: '(517) 238-5099', email: '' },
+      { name: 'Julie Waterbury', title: 'Treasurer', phone: '(517) 238-5099', email: '' },
+      { name: 'Steve Norton', title: 'Trustee', phone: '(517) 238-5099', email: '' },
+      { name: 'James Snivley', title: 'Trustee', phone: '(419) 630-6497', email: '' }
+    ]
   },
-  'Ocqueoc': {
-    name: 'Ocqueoc Township',
-    county: 'Presque Isle',
-    website: 'https://ocqueoctwpmi.gov',
+  'Branch:Quincy': {
+    name: 'Quincy Township',
+    county: 'Branch',
     officials: [
-      { name: 'Jerry Counterman', title: 'Supervisor', party: null },
-      { name: 'Pamela S. Schaedig', title: 'Clerk', party: null },
-      { name: 'Shari Pomranke', title: 'Treasurer', party: null },
-      { name: 'Joel Jaroch', title: 'Trustee', party: null },
-      { name: 'Jerome Isaacs', title: 'Trustee', party: null },
-    ],
+      { name: 'Kurt Barve', title: 'Supervisor', phone: '(517) 639-4060', email: '' },
+      { name: 'Cindy Harleton', title: 'Clerk', phone: '(517) 639-4060', email: '' },
+      { name: 'Tim Brockway', title: 'Treasurer', phone: '', email: '' },
+      { name: 'Jim Harmon', title: 'Trustee', phone: '(517) 617-5194', email: '' },
+      { name: 'Marilyn Ostrander', title: 'Trustee', phone: '(517) 639-4060', email: '' }
+    ]
   },
-  'Posen Twp': {
-    name: 'Posen Township',
-    county: 'Presque Isle',
+  'Branch:Sherwood': {
+    name: 'Sherwood Township',
+    county: 'Branch',
     officials: [
-      { name: 'James Zakshesky', title: 'Supervisor', party: 'Republican' },
-      { name: 'Elizabeth Wozniak', title: 'Clerk', party: 'Republican' },
-      { name: 'Lorraine Smigelski', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Terry Buczkowski', title: 'Trustee', party: 'Republican' },
-      { name: 'Steven Hentkowski', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Toren Stanton', title: 'Supervisor', phone: '(517) 741-7281', email: '' },
+      { name: 'Hannah Smith', title: 'Clerk', phone: '(517) 741-7281', email: '' },
+      { name: 'Dale Marie Brubaker', title: 'Treasurer', phone: '(517) 741-7281', email: '' },
+      { name: 'Jeff Brott', title: 'Trustee', phone: '(517) 741-7281', email: '' },
+      { name: 'Bill Courliss', title: 'Trustee', phone: '(517) 317-3011', email: '' }
+    ]
   },
-  'Presque Isle Twp': {
-    name: 'Presque Isle Township',
-    county: 'Presque Isle',
-    website: 'https://presqueisletwp.org',
+  'Branch:Union': {
+    name: 'Union Township',
+    county: 'Branch',
     officials: [
-      { name: 'Stephen Lang', title: 'Supervisor', party: null },
-      { name: 'Kate Szydlowski', title: 'Clerk', party: null },
-      { name: 'Jennifer Wieczorkowski', title: 'Treasurer', party: null },
-      { name: 'Mark Devers', title: 'Trustee', party: null },
-      { name: "Mary O'Neill", title: 'Trustee', party: null },
-    ],
+      { name: 'Ralph Strong', title: 'Supervisor', phone: '(517) 741-7353', email: '' },
+      { name: 'Sharon Boley', title: 'Clerk', phone: '(517) 741-4169', email: '' },
+      { name: 'Tara Powell', title: 'Treasurer', phone: '(517) 741-4169', email: '' },
+      { name: 'Bryan Washburn', title: 'Trustee', phone: '(517) 741-4169', email: '' },
+      { name: 'Justin Johnson', title: 'Trustee', phone: '(517) 741-4169', email: '' }
+    ]
   },
-  'Pulawski': {
-    name: 'Pulawski Township',
-    county: 'Presque Isle',
+  'Calhoun:Albion': {
+    name: 'Albion Township',
+    county: 'Calhoun',
     officials: [
-      { name: 'Martha Roznowski', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Becky Strzelecki', title: 'Clerk', party: 'Republican' },
-      { name: 'Carleen Darga', title: 'Treasurer', party: 'Democratic' },
-      { name: 'Bonnie Strzelecki', title: 'Trustee', party: 'Republican' },
-      { name: 'Allen Ciarkowski', title: 'Trustee', party: 'Independent' },
-    ],
+      { name: 'Ken Blight', title: 'Supervisor', phone: '(517) 494-0141', email: '' },
+      { name: 'Kathy Grundemann', title: 'Clerk', phone: '(517) 629-7270', email: '' },
+      { name: 'Virginia Schultz', title: 'Treasurer', phone: '(517) 629-4867', email: '' },
+      { name: 'Gary Harrison', title: 'Trustee', phone: '(517) 629-6647', email: '' },
+      { name: 'Cameron Reichow', title: 'Trustee', phone: '(517) 629-2289', email: '' }
+    ]
   },
-  'Rogers Twp': {
-    name: 'Rogers Township',
-    county: 'Presque Isle',
+  'Calhoun:Athens': {
+    name: 'Athens Township',
+    county: 'Calhoun',
     officials: [
-      { name: 'Randall Smolinski', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Kari Ryan', title: 'Clerk', party: 'Republican' },
-      { name: 'Jessica Peacock', title: 'Treasurer', party: 'Republican' },
-      { name: 'David R. Grulke', title: 'Trustee', party: 'Republican' },
-      { name: 'Malcolm F. Lamp', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Stephen Irons', title: 'Supervisor', phone: '(269) 317-8214', email: '' },
+      { name: 'Debera Denney', title: 'Clerk', phone: '(269) 729-5305', email: '' },
+      { name: 'Michael Irons', title: 'Treasurer', phone: '(269) 729-5305', email: '' },
+      { name: 'Stephen Tuttle', title: 'Trustee', phone: '(269) 317-8218', email: '' },
+      { name: 'Clifford Denney', title: 'Trustee', phone: '(269) 729-5305', email: '' }
+    ]
   },
-
-  /* ── Midland County townships ── */
-
-  'Edenville Twp (Midland)': {
-    name: 'Edenville Township',
-    county: 'Midland',
-    website: 'https://www.edenvilletwp.org',
+  'Calhoun:Bedford': {
+    name: 'Bedford charter Township',
+    county: 'Calhoun',
     officials: [
-      { name: 'Art Peters', title: 'Supervisor', party: null },
-      { name: 'Tamie M. Luty', title: 'Clerk', party: null },
-      { name: 'Kathy Peters', title: 'Treasurer', party: null },
-      { name: 'Jim Sperling', title: 'Trustee', party: null },
-      { name: 'Crystal Starkey', title: 'Trustee', party: null },
-    ],
+      { name: 'Randolph Johnson', title: 'Supervisor', phone: '(269) 965-4343', email: '' },
+      { name: 'Joyce Feraco', title: 'Clerk', phone: '(269) 965-1999', email: '' },
+      { name: 'Christy Davis', title: 'Treasurer', phone: '(269) 965-4343', email: '' },
+      { name: 'Bruce Meinke', title: 'Trustee', phone: '(269) 965-4343', email: '' },
+      { name: 'Gene McKay', title: 'Trustee', phone: '(269) 965-4343', email: '' },
+      { name: 'Shannon Hoskins', title: 'Trustee', phone: '(269) 965-4343', email: '' },
+      { name: 'Scott Blanchard', title: 'Trustee', phone: '(269) 965-4343', email: '' }
+    ]
   },
-  'Geneva Twp (Midland)': {
-    name: 'Geneva Township',
-    county: 'Midland',
-    website: 'https://genevatwpmidlandcounty.com',
+  'Calhoun:Burlington': {
+    name: 'Burlington Township',
+    county: 'Calhoun',
     officials: [
-      { name: 'Joshua J. Murray', title: 'Supervisor', party: null },
-      { name: 'Carla J. Murray', title: 'Clerk', party: null },
-      { name: 'Nancy J. Robison', title: 'Treasurer', party: null },
-      { name: 'Neil Berthume', title: 'Trustee', party: null },
-      { name: 'Jeremy D. Longstreth', title: 'Trustee', party: null },
-    ],
+      { name: 'Jeff Eyre', title: 'Supervisor', phone: '(517) 765-2323', email: '' },
+      { name: 'Darlene Mack', title: 'Clerk', phone: '(517) 765-2323 ext. 1', email: '' },
+      { name: 'Sara Converse', title: 'Treasurer', phone: '(517) 765-2323', email: '' },
+      { name: 'Barton Boyer', title: 'Trustee', phone: '(517) 765-2530', email: '' },
+      { name: 'Robert Mack', title: 'Trustee', phone: '(517) 765-2323', email: '' }
+    ]
   },
-  'Greendale Twp (Midland)': {
-    name: 'Greendale Township',
-    county: 'Midland',
-    website: 'https://greendaletwpmidcomi.org',
+  'Calhoun:Clarence': {
+    name: 'Clarence Township',
+    county: 'Calhoun',
     officials: [
-      { name: 'Brian J. Knopp', title: 'Supervisor', party: null },
-      { name: 'Ruth L. Knapp', title: 'Clerk', party: null },
-      { name: 'Angela Brown', title: 'Treasurer', party: null },
-      { name: 'Julia Ann Beach', title: 'Trustee', party: null },
-      { name: 'Bridget Elkins', title: 'Trustee', party: null },
-    ],
+      { name: 'John Dancer', title: 'Treasurer', phone: '(517) 881-3980', email: '' },
+      { name: 'Steven Lake', title: 'Trustee', phone: '(517) 857-2288', email: '' }
+    ]
   },
-  'Homer Twp (Midland)': {
+  'Calhoun:Clarendon': {
+    name: 'Clarendon Township',
+    county: 'Calhoun',
+    officials: [
+      { name: 'Steve Schrock', title: 'Supervisor', phone: '(517) 568-4047', email: '' },
+      { name: 'Ericka Tryon', title: 'Clerk', phone: '(719) 281-7716', email: '' },
+      { name: 'RoseMary Berry', title: 'Treasurer', phone: '(517) 568-3805', email: '' },
+      { name: 'Tim Anderson', title: 'Trustee', phone: '(517) 425-9090', email: '' },
+      { name: 'Jim Russell', title: 'Trustee', phone: '(517) 206-9271', email: '' }
+    ]
+  },
+  'Calhoun:Convis': {
+    name: 'Convis Township',
+    county: 'Calhoun',
+    officials: [
+      { name: 'Ryan Harvey', title: 'Supervisor', phone: '(269) 924-7720', email: '' },
+      { name: 'Kimberly Collins', title: 'Clerk', phone: '(269) 789-0654', email: '' },
+      { name: 'Kristy Kipp', title: 'Treasurer', phone: '(269) 789-0654', email: '' },
+      { name: 'Elyse Bibbings', title: 'Trustee', phone: '(269) 789-0654', email: '' },
+      { name: 'Franklin Irish', title: 'Trustee', phone: '(269) 789-0654', email: '' }
+    ]
+  },
+  'Calhoun:Eckford': {
+    name: 'Eckford Township',
+    county: 'Calhoun',
+    officials: [
+      { name: 'Bruce Rapp', title: 'Supervisor', phone: '(517) 262-9710', email: '' },
+      { name: 'LeAnne Blight', title: 'Clerk', phone: '(517) 937-8273', email: '' },
+      { name: 'Teresa Baylis', title: 'Treasurer', phone: '(269) 781-7416', email: '' },
+      { name: 'Wayne Cornell', title: 'Trustee', phone: '(517) 581-3889', email: '' },
+      { name: 'Branden Maksimchuk', title: 'Trustee', phone: '(269) 223-2355', email: '' }
+    ]
+  },
+  'Calhoun:Emmett': {
+    name: 'Emmett charter Township',
+    county: 'Calhoun',
+    officials: [
+      { name: 'Tracy Myers', title: 'Supervisor', phone: '(269) 968-0241', email: '' },
+      { name: 'Dawn McMillon', title: 'Clerk', phone: '(269) 968-0241', email: '' },
+      { name: 'Tyler Sobeski', title: 'Treasurer', phone: '(269) 968-0241', email: '' },
+      { name: 'James Juhnke', title: 'Trustee', phone: '(269) 968-0241', email: '' },
+      { name: 'Steven Titus', title: 'Trustee', phone: '(269) 968-0241', email: '' },
+      { name: 'Ryan Leonard', title: 'Trustee', phone: '(269) 968-0241', email: '' }
+    ]
+  },
+  'Calhoun:Fredonia': {
+    name: 'Fredonia Township',
+    county: 'Calhoun',
+    officials: [
+      { name: 'Terry Day', title: 'Supervisor', phone: '(269) 781-8115', email: '' },
+      { name: 'Margaret Bosserd', title: 'Clerk', phone: '(269) 781-8115', email: '' },
+      { name: 'Kyler Speaker', title: 'Treasurer', phone: '(269) 781-8115', email: '' },
+      { name: 'Cathy Combs', title: 'Trustee', phone: '(267) 275-4638', email: '' },
+      { name: 'John Miller', title: 'Trustee', phone: '(269) 781-8115', email: '' }
+    ]
+  },
+  'Calhoun:Homer': {
     name: 'Homer Township',
-    county: 'Midland',
-    website: 'https://www.homertownship.org',
+    county: 'Calhoun',
     officials: [
-      { name: 'Russ Varner', title: 'Supervisor', party: null },
-      { name: 'Todd A. Lee', title: 'Clerk', party: null },
-      { name: 'Sandra K. Turk', title: 'Treasurer', party: null },
-      { name: 'Keith Johnson', title: 'Trustee', party: null },
-      { name: 'Craig Norton', title: 'Trustee', party: null },
-      { name: 'John A. Pruiett', title: 'Trustee', party: null },
-      { name: 'Brian VanWert', title: 'Trustee', party: null },
-    ],
+      { name: 'Todd Wildt', title: 'Supervisor', phone: '(517) 568-4717', email: '' },
+      { name: 'Amanda Koch', title: 'Clerk', phone: '(269) 339-4646', email: '' },
+      { name: 'Anne Mestdagh-Leach', title: 'Treasurer', phone: '(517) 204-6388', email: '' },
+      { name: 'Todd Landis', title: 'Trustee', phone: '(517) 568-3591', email: '' },
+      { name: 'Ron Giacobassi', title: 'Trustee', phone: '(517) 568-5730', email: '' }
+    ]
   },
-  'Hope Twp (Midland)': {
-    name: 'Hope Township',
-    county: 'Midland',
-    website: 'https://hopetwp.org',
-    officials: [
-      { name: 'Rita Goul', title: 'Supervisor', party: null },
-      { name: 'Carol Coyle', title: 'Clerk', party: null },
-      { name: 'Charles R. Hudler', title: 'Treasurer', party: null },
-      { name: 'Wendy J. Faber', title: 'Trustee', party: null },
-      { name: 'Dan Mieske', title: 'Trustee', party: null },
-    ],
-  },
-  'Ingersoll Twp (Midland)': {
-    name: 'Ingersoll Township',
-    county: 'Midland',
-    website: 'https://ingersolltwpmi.gov',
-    officials: [
-      { name: 'Kim D. Heisler', title: 'Supervisor', party: null },
-      { name: 'Mary Ellen Keel', title: 'Clerk', party: null },
-      { name: 'James R. Terwillegar', title: 'Treasurer', party: null },
-      { name: 'Ron Garrett', title: 'Trustee', party: null },
-      { name: 'Jacob Terwillegar', title: 'Trustee', party: null },
-    ],
-  },
-  'Jasper Twp (Midland)': {
-    name: 'Jasper Township',
-    county: 'Midland',
-    officials: [
-      { name: 'Carmen Kay Bajena', title: 'Supervisor', party: null },
-      { name: 'Kristina DeBolt', title: 'Clerk', party: null },
-      { name: 'Katelynn Hernandez', title: 'Treasurer', party: null },
-      { name: 'Roxanne R. Gibson', title: 'Trustee', party: null },
-      { name: 'Deric Wright', title: 'Trustee', party: null },
-    ],
-  },
-  'Jerome Twp (Midland)': {
-    name: 'Jerome Township',
-    county: 'Midland',
-    website: 'https://www.jerometownship.org',
-    officials: [
-      { name: 'Steve Rice', title: 'Supervisor', party: null },
-      { name: 'Gil Bernier', title: 'Clerk', party: null },
-      { name: 'Jennifer Clever', title: 'Treasurer', party: null },
-      { name: 'Mark Green', title: 'Trustee', party: null },
-      { name: 'Carolyn Konechne', title: 'Trustee', party: null },
-      { name: 'Laura Norcutt', title: 'Trustee', party: null },
-      { name: 'Sarah Jo Rowley', title: 'Trustee', party: null },
-    ],
-  },
-  'Larkin Twp (Midland)': {
-    name: 'Charter Township of Larkin',
-    county: 'Midland',
-    website: 'https://www.larkintownship.org',
-    officials: [
-      { name: 'Maria Sandow', title: 'Supervisor', party: null },
-      { name: 'Lisa Benter Rich', title: 'Clerk', party: null },
-      { name: 'Mandy Archbold', title: 'Treasurer', party: null },
-      { name: 'Todd Draves', title: 'Trustee', party: null },
-      { name: 'Karen Hitchcock', title: 'Trustee', party: null },
-    ],
-  },
-  'Lee Twp (Midland)': {
+  'Calhoun:Lee': {
     name: 'Lee Township',
-    county: 'Midland',
-    website: 'https://leetownshipmidlandmi.gov',
+    county: 'Calhoun',
     officials: [
-      { name: 'Doug Kruger', title: 'Supervisor', party: null },
-      { name: 'Laura Dawson', title: 'Clerk', party: null },
-      { name: 'Heidi Pitt', title: 'Treasurer', party: null },
-      { name: 'Mark List', title: 'Trustee', party: null },
-      { name: 'Debra Reiber', title: 'Trustee', party: null },
-    ],
+      { name: 'Brad Shrontz', title: 'Supervisor', phone: '', email: '' },
+      { name: 'Samantha VanDorsten', title: 'Clerk', phone: '(269) 749-9292', email: '' },
+      { name: 'Douglas Mathewson', title: 'Treasurer', phone: '(269) 749-9292', email: '' },
+      { name: 'Casey Hall', title: 'Trustee', phone: '(269) 749-9292', email: '' }
+    ]
   },
-  'Lincoln Twp (Midland)': {
-    name: 'Lincoln Township',
-    county: 'Midland',
-    website: 'https://www.lincoln-twp.org',
+  'Calhoun:Leroy': {
+    name: 'Leroy Township',
+    county: 'Calhoun',
     officials: [
-      { name: 'Brett Fales', title: 'Supervisor', party: null },
-      { name: 'Barbara L. Wilson', title: 'Clerk', party: null },
-      { name: 'Kimberly Oswald', title: 'Treasurer', party: null },
-      { name: 'Nate Meredith', title: 'Trustee', party: null },
-      { name: 'Brad Wirtz', title: 'Trustee', party: null },
-    ],
+      { name: 'Laveta Hardish', title: 'Supervisor', phone: '(269) 979-9421', email: '' },
+      { name: 'Jeannie Burchfield', title: 'Clerk', phone: '(269) 979-9421', email: '' },
+      { name: 'Michael VanHouten', title: 'Treasurer', phone: '(269) 979-9421', email: '' },
+      { name: 'Jonathan Bolton', title: 'Trustee', phone: '(269) 979-9421', email: '' },
+      { name: 'Doug Chapman', title: 'Trustee', phone: '(269) 979-9421', email: '' }
+    ]
   },
-  'Midland Twp (Midland)': {
-    name: 'Midland Township',
-    county: 'Midland',
-    website: 'https://midlandtownship.net',
+  'Calhoun:Marengo': {
+    name: 'Marengo Township',
+    county: 'Calhoun',
     officials: [
-      { name: 'Terry Holt', title: 'Supervisor', party: null },
-      { name: 'Shelly Armstrong-Miller', title: 'Clerk', party: null },
-      { name: 'Mark J. Radosa', title: 'Treasurer', party: null },
-      { name: 'James R. Avery', title: 'Trustee', party: null },
-      { name: 'Jeff Bourcier', title: 'Trustee', party: null },
-      { name: 'Paul J. Heyse', title: 'Trustee', party: null },
-      { name: 'Haley Wenzlick', title: 'Trustee', party: null },
-    ],
+      { name: 'David Fountain', title: 'Supervisor', phone: '(269) 781-5607', email: '' },
+      { name: 'Deb Withee', title: 'Clerk', phone: '(269) 781-8422', email: '' },
+      { name: 'Carole Tabiadon', title: 'Treasurer', phone: '(269) 420-5541', email: '' },
+      { name: 'Todd Hazel', title: 'Trustee', phone: '(269) 781-8422', email: '' },
+      { name: 'Victor Potter', title: 'Trustee', phone: '(269) 420-6935', email: '' }
+    ]
   },
-  'Mills Twp (Midland)': {
-    name: 'Mills Township',
-    county: 'Midland',
-    website: 'https://millstownship.org',
+  'Calhoun:Marshall': {
+    name: 'Marshall Township',
+    county: 'Calhoun',
     officials: [
-      { name: 'Ron Kutchey', title: 'Supervisor', party: null },
-      { name: 'Kim Sweet', title: 'Clerk', party: null },
-      { name: 'Sara L. Pitch', title: 'Treasurer', party: null },
-      { name: 'Amy Hoover', title: 'Trustee', party: null },
-      { name: 'Alan L. Wendt', title: 'Trustee', party: null },
-    ],
+      { name: 'David Bosserd', title: 'Supervisor', phone: '(269) 781-7976', email: '' },
+      { name: 'Wayne Wright', title: 'Clerk', phone: '(269) 781-7976', email: '' },
+      { name: 'Glenn Kowalske', title: 'Treasurer', phone: '(269) 781-7976', email: '' },
+      { name: 'Mick Woods', title: 'Trustee', phone: '(269) 781-7976', email: '' },
+      { name: 'Christina Markunas', title: 'Trustee', phone: '(269) 781-7976', email: '' }
+    ]
   },
-  'Mount Haley Twp (Midland)': {
-    name: 'Mount Haley Township',
-    county: 'Midland',
-    website: 'https://mthaleytwp.com',
+  'Calhoun:Newton': {
+    name: 'Newton Township',
+    county: 'Calhoun',
     officials: [
-      { name: 'Kennith D. Brown', title: 'Supervisor', party: null },
-      { name: 'Karen L. Radosa', title: 'Clerk', party: null },
-      { name: 'Leonard A. Breasbois', title: 'Treasurer', party: null },
-      { name: 'Kevin Mudd', title: 'Trustee', party: null },
-      { name: 'Nicholas Pelton', title: 'Trustee', party: null },
-    ],
+      { name: 'Troy Radcliff', title: 'Supervisor', phone: '(269) 979-4191', email: '' },
+      { name: 'Mary Aldrich', title: 'Clerk', phone: '(269) 979-3212', email: '' },
+      { name: 'Kenneth Cunningham', title: 'Treasurer', phone: '(269) 979-3212', email: '' },
+      { name: 'Rick Westphal', title: 'Trustee', phone: '(269) 420-3804', email: '' },
+      { name: 'Keith Eyre', title: 'Trustee', phone: '(269) 420-3399', email: '' }
+    ]
   },
-  'Porter Twp (Midland)': {
+  'Calhoun:Pennfield': {
+    name: 'Pennfield charter Township',
+    county: 'Calhoun',
+    officials: [
+      { name: 'Kevin Leiter', title: 'Supervisor', phone: '(269) 968-8549', email: '' },
+      { name: 'Kathleen Case', title: 'Clerk', phone: '(269) 968-8549', email: '' },
+      { name: 'Deborah Jackson', title: 'Treasurer', phone: '(269) 968-8549', email: '' },
+      { name: 'Dave Vandlen', title: 'Trustee', phone: '(269) 968-8549', email: '' },
+      { name: 'James Beard', title: 'Trustee', phone: '(269) 968-8549', email: '' },
+      { name: 'Paul Anderson', title: 'Trustee', phone: '(269) 967-9204', email: '' },
+      { name: 'Barbara Darlington', title: 'Trustee', phone: '(269) 968-8549', email: '' }
+    ]
+  },
+  'Calhoun:Sheridan': {
+    name: 'Sheridan Township',
+    county: 'Calhoun',
+    officials: [
+      { name: 'Richard Porter', title: 'Supervisor', phone: '(517) 629-2604', email: '' },
+      { name: 'Stephanie Craig', title: 'Clerk', phone: '(517) 629-2604', email: '' },
+      { name: 'Hayley England', title: 'Treasurer', phone: '(517) 629-2604', email: '' },
+      { name: 'Scott Frederick', title: 'Trustee', phone: '(517) 629-2604', email: '' },
+      { name: 'Rusty Smith', title: 'Trustee', phone: '(517) 629-2604', email: '' }
+    ]
+  },
+  'Calhoun:Tekonsha': {
+    name: 'Tekonsha Township',
+    county: 'Calhoun',
+    officials: [
+      { name: 'Roberta Stemaly', title: 'Supervisor', phone: '(517) 583-1059', email: '' },
+      { name: 'BobbieJo Garnant', title: 'Clerk', phone: '(517) 767-3366', email: '' },
+      { name: 'Lynnette Phillips', title: 'Treasurer', phone: '(517) 767-3366', email: '' },
+      { name: 'George Moore', title: 'Trustee', phone: '(269) 558-2003', email: '' },
+      { name: 'Jeanette Stiebling', title: 'Trustee', phone: '(517) 767-3366', email: '' }
+    ]
+  },
+  'Cass:Calvin': {
+    name: 'Calvin Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Adrienne Glover', title: 'Supervisor', phone: '(269) 476-2620', email: '' },
+      { name: 'Michelle Anderson', title: 'Clerk', phone: '(269) 476-2620', email: '' },
+      { name: 'Rosemary Gillam', title: 'Treasurer', phone: '(269) 476-2620', email: '' },
+      { name: 'Keith Carter', title: 'Trustee', phone: '(269) 476-2220', email: '' },
+      { name: 'James Hershberger', title: 'Trustee', phone: '(269) 476-2620', email: '' }
+    ]
+  },
+  'Cass:Howard': {
+    name: 'Howard Charter Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Billy Kasprzak', title: 'Supervisor', phone: '(269) 684-0072', email: '' },
+      { name: 'Sheri Wozniak', title: 'Clerk', phone: '(269) 684-0072', email: '' },
+      { name: 'Mike Gordon', title: 'Treasurer', phone: '(269) 684-6589', email: '' },
+      { name: 'Hank Johnson', title: 'Trustee', phone: '(269) 683-8819', email: '' },
+      { name: 'Phillip Hurlbutt', title: 'Trustee', phone: '(269) 684-0072', email: '' },
+      { name: 'Gary Conover', title: 'Trustee', phone: '(269) 684-0072', email: '' },
+      { name: 'David Kroa', title: 'Trustee', phone: '(269) 684-0072', email: '' }
+    ]
+  },
+  'Cass:Jefferson': {
+    name: 'Jefferson Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Dean Hass', title: 'Supervisor', phone: '(269) 445-3941', email: '' },
+      { name: 'Valerie Locke', title: 'Clerk', phone: '(269) 445-3941', email: '' },
+      { name: 'Karla Mendenhall', title: 'Treasurer', phone: '(269) 445-3941', email: '' },
+      { name: 'Jeff Gillam', title: 'Trustee', phone: '(269) 445-3941', email: '' },
+      { name: 'Della Bundle', title: 'Trustee', phone: '(269) 445-3941', email: '' }
+    ]
+  },
+  'Cass:LaGrange': {
+    name: 'LaGrange Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Brittany File', title: 'Supervisor', phone: '', email: '' },
+      { name: 'Tasha McCoy', title: 'Clerk', phone: '(269) 233-4004', email: '' },
+      { name: 'Naomi Criswell', title: 'Treasurer', phone: '(269) 445-3590', email: '' },
+      { name: 'Paul File', title: 'Trustee', phone: '(269) 208-1260', email: '' }
+    ]
+  },
+  'Cass:Marcellus': {
+    name: 'Marcellus Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Ed Koshar', title: 'Supervisor', phone: '(269) 251-8570', email: '' },
+      { name: 'Darcie Plummer', title: 'Clerk', phone: '(269) 646-2305', email: '' },
+      { name: 'Lee Ann Mroz', title: 'Treasurer', phone: '(269) 646-2305', email: '' },
+      { name: 'Donald Hess', title: 'Trustee', phone: '(269) 646-2305', email: '' },
+      { name: 'Matthew Schick', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Cass:Mason': {
+    name: 'Mason Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Charlie Arnold', title: 'Supervisor', phone: '(269) 641-5923', email: '' },
+      { name: 'Kristin LeVan', title: 'Clerk', phone: '(269) 641-5923', email: '' },
+      { name: 'Arlene Chew', title: 'Treasurer', phone: '(269) 699-7388', email: '' },
+      { name: 'David Allen', title: 'Trustee', phone: '(269) 591-2848', email: '' },
+      { name: 'Debra Cloud', title: 'Trustee', phone: '(269) 641-5923', email: '' }
+    ]
+  },
+  'Cass:Milton': {
+    name: 'Milton Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Kurt Meyer', title: 'Supervisor', phone: '(269) 591-7977', email: '' },
+      { name: 'Kristen Barrera', title: 'Clerk', phone: '(269) 684-7262', email: '' },
+      { name: 'Rachel Plank', title: 'Treasurer', phone: '(269) 684-7262', email: '' },
+      { name: 'Rich Mullin', title: 'Trustee', phone: '(269) 684-7262', email: '' },
+      { name: 'Phil Egert', title: 'Trustee', phone: '(269) 684-7262', email: '' },
+      { name: 'JT McDonald', title: 'Trustee', phone: '(269) 684-7262', email: '' }
+    ]
+  },
+  'Cass:Newberg': {
+    name: 'Newberg Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Dan Covey', title: 'Supervisor', phone: '(269) 244-8747', email: '' },
+      { name: 'Amanda Norton-Duff', title: 'Clerk', phone: '(269) 244-8747', email: '' },
+      { name: 'Jill Blackburn', title: 'Treasurer', phone: '(269) 244-8747', email: '' },
+      { name: 'Douglas Harvey', title: 'Trustee', phone: '(269) 244-8747', email: '' },
+      { name: 'Keith Griffiths', title: 'Trustee', phone: '(312) 259-1721', email: '' }
+    ]
+  },
+  'Cass:Ontwa': {
+    name: 'Ontwa Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Meryl Christensen', title: 'Supervisor', phone: '(269) 663-2347', email: '' },
+      { name: 'Tina VanBelle', title: 'Clerk', phone: '(269) 663-2347', email: '' },
+      { name: 'Sharee Leist', title: 'Treasurer', phone: '(269) 663-2347', email: '' },
+      { name: 'Jeffrey Kozinski', title: 'Trustee', phone: '(269) 663-2347', email: '' },
+      { name: 'Dan Stutsman', title: 'Trustee', phone: '(269) 663-2347', email: '' },
+      { name: 'Jerry Marchetti', title: 'Trustee', phone: '(269) 663-2347', email: '' }
+    ]
+  },
+  'Cass:Penn': {
+    name: 'Penn Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Oli Olafsson', title: 'Supervisor', phone: '(269) 476-2173', email: '' },
+      { name: 'Rhonda Barnett', title: 'Clerk', phone: '(269) 476-2173', email: '' },
+      { name: 'Paul Rutherford', title: 'Treasurer', phone: '(269) 506-5205', email: '' },
+      { name: 'Roger Leach', title: 'Trustee', phone: '(269) 445-0890', email: '' },
+      { name: 'Scott Peters', title: 'Trustee', phone: '(269) 476-2173', email: '' }
+    ]
+  },
+  'Cass:Pokagon': {
+    name: 'Pokagon Township',
+    county: 'Cass',
+    officials: [
+      { name: 'Linda Preston', title: 'Supervisor', phone: '(269) 782-8756', email: '' },
+      { name: 'Christina Davis', title: 'Clerk', phone: '(269) 782-8756', email: '' },
+      { name: 'Kevin Young', title: 'Treasurer', phone: '(269) 782-8756', email: '' },
+      { name: 'Gary Mihills', title: 'Trustee', phone: '(269) 683-0382', email: '' },
+      { name: 'Robert Shaffer', title: 'Trustee', phone: '(269) 362-4347', email: '' }
+    ]
+  },
+  'Cass:Porter': {
     name: 'Porter Township',
-    county: 'Midland',
+    county: 'Cass',
     officials: [
-      { name: 'Thomas J. Corbat', title: 'Supervisor', party: null },
-      { name: 'Marianne L. Corbat', title: 'Clerk', party: null },
-      { name: 'Pamela Garcia', title: 'Treasurer', party: null },
-      { name: 'Correy Colthorp', title: 'Trustee', party: null },
-      { name: 'Nancy McCallum', title: 'Trustee', party: null },
-    ],
+      { name: 'Rich Drews', title: 'Supervisor', phone: '(269) 641-2375', email: '' },
+      { name: 'Beth Russell', title: 'Clerk', phone: '(269) 641-2375', email: '' },
+      { name: 'John Penkala', title: 'Treasurer', phone: '(269) 641-2375', email: '' },
+      { name: 'Leard Wylie', title: 'Trustee', phone: '(269) 641-2375', email: '' },
+      { name: 'Tommy Harman', title: 'Trustee', phone: '(269) 641-2375', email: '' }
+    ]
   },
-  'Warren Twp (Midland)': {
-    name: 'Warren Township',
-    county: 'Midland',
-    website: 'https://www.warrentownshipmi.com',
+  'Cass:Silver Creek': {
+    name: 'Silver Creek Township',
+    county: 'Cass',
     officials: [
-      { name: 'Emily Burgess', title: 'Supervisor', party: null },
-      { name: 'Linda S. Anthony', title: 'Clerk', party: null },
-      { name: 'Lyndsy Bock', title: 'Treasurer', party: null },
-      { name: 'Bella Harsh', title: 'Trustee', party: null },
-      { name: 'Blaine Yeager', title: 'Trustee', party: null },
-    ],
+      { name: 'Mick Braman', title: 'Supervisor', phone: '(269) 424-3025 ext. 4', email: '' },
+      { name: 'Jessica Honn', title: 'Clerk', phone: '(269) 424-3025 ext. 4', email: '' },
+      { name: 'Lorri Behnke', title: 'Treasurer', phone: '(269) 424-3025 ext. 4', email: '' },
+      { name: 'Nickolas Barnes', title: 'Trustee', phone: '(574) 400-9292', email: '' },
+      { name: 'Jennifer Stockwell', title: 'Trustee', phone: '(269) 424-3025 ext. 4', email: '' }
+    ]
   },
-
-  /* ── Kalkaska County townships ── */
-
-  'Bear Lake': {
-    name: 'Bear Lake Township',
-    county: 'Kalkaska',
-    website: 'https://www.bearlaketownship.org',
-    phone: '231-258-4871',
+  'Cass:Volinia': {
+    name: 'Volinia Township',
+    county: 'Cass',
     officials: [
-      { name: 'Bud Banker', title: 'Supervisor', party: null },
-      { name: 'Dawn Dannenberg', title: 'Clerk', party: null },
-      { name: 'Beth Redmond', title: 'Treasurer', party: null },
-      { name: 'Jim Knight', title: 'Trustee', party: null },
-      { name: 'Bob Dixon', title: 'Trustee', party: null },
-    ],
+      { name: 'Chris Brooks', title: 'Supervisor', phone: '(269) 921-8720', email: '' },
+      { name: 'Annette Peters', title: 'Clerk', phone: '(269) 646-3373', email: '' },
+      { name: 'Alex Williams', title: 'Treasurer', phone: '(269) 646-3372', email: '' },
+      { name: 'Nicholas Seelye', title: 'Trustee', phone: '(269) 646-3373', email: '' },
+      { name: 'Efrim Johnson', title: 'Trustee', phone: '(269) 646-3373', email: '' }
+    ]
   },
-  'Blue Lake Twp (Kalkaska)': {
-    name: 'Blue Lake Township',
-    county: 'Kalkaska',
-    website: 'https://www.bluelaketwpkalkaska.gov',
-    phone: '231-587-8354',
+  'Cass:Wayne': {
+    name: 'Wayne Township',
+    county: 'Cass',
     officials: [
-      { name: 'Todd Fletemier', title: 'Supervisor', party: null },
-      { name: 'Tracy Nichol', title: 'Clerk', party: null },
-      { name: 'Christine Almose', title: 'Treasurer', party: null },
-      { name: 'Todd Brozovich', title: 'Trustee', party: null },
-      { name: 'Larry Shoemaker', title: 'Trustee', party: null },
-    ],
+      { name: 'Dave Davis', title: 'Supervisor', phone: '(269) 782-7017', email: '' },
+      { name: 'Michelle Smith', title: 'Clerk', phone: '(269) 782-7017', email: '' },
+      { name: 'Judith Fusko', title: 'Treasurer', phone: '(269) 423-8357', email: '' },
+      { name: 'Jim Griggs', title: 'Trustee', phone: '(269) 782-7890', email: '' },
+      { name: 'Mandy Wallace', title: 'Trustee', phone: '(269) 782-7017', email: '' }
+    ]
   },
-  'Boardman Twp (Kalkaska)': {
-    name: 'Boardman Township',
-    county: 'Kalkaska',
-    website: 'https://boardmantownshipmi.net',
-    phone: '231-369-2856',
+  'Charlevoix:Bay': {
+    name: 'Bay Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'Paul Erickson', title: 'Supervisor', party: null },
-      { name: 'Tonya Hart', title: 'Clerk', party: null },
-      { name: 'Kathleen Chaffee', title: 'Treasurer', party: null },
-      { name: 'Holly Hart', title: 'Trustee', party: null },
-      { name: 'Bryan Byrne', title: 'Trustee', party: null },
-    ],
+      { name: 'Xavier Gaudard', title: 'Supervisor', phone: '(231) 675-3132', email: '' },
+      { name: 'Wendy Simmons', title: 'Clerk', phone: '(231) 675-3457', email: '' },
+      { name: 'Debra Bonneville', title: 'Treasurer', phone: '(231) 582-3594', email: '' },
+      { name: 'Steve Van Dam', title: 'Trustee', phone: '(231) 330-1079', email: '' }
+    ]
   },
-  'Clearwater Twp (Kalkaska)': {
-    name: 'Clearwater Township',
-    county: 'Kalkaska',
-    website: 'https://www.clearwatertwp.com',
-    phone: '231-331-6249',
+  'Charlevoix:Boyne Valley': {
+    name: 'Boyne Valley Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'Jim Leffew', title: 'Supervisor', party: null },
-      { name: 'Christine Johnson', title: 'Clerk', party: null },
-      { name: 'Michelle Jackson', title: 'Treasurer', party: null },
-    ],
+      { name: 'Lynn Sparks', title: 'Supervisor', phone: '(231) 549-3130', email: '' },
+      { name: 'David Skop', title: 'Clerk', phone: '(231) 549-3130', email: '' },
+      { name: 'Renee Fitzgerald', title: 'Treasurer', phone: '(231) 549-3130', email: '' },
+      { name: 'Randall Matelski', title: 'Trustee', phone: '(231) 549-2249', email: '' },
+      { name: 'Bernie Kondrat', title: 'Trustee', phone: '(231) 549-3130', email: '' }
+    ]
   },
-  'Coldsprings Twp (Kalkaska)': {
-    name: 'Coldsprings Township',
-    county: 'Kalkaska',
-    website: 'https://www.coldspringstownshipmi.gov',
-    phone: '231-587-8633',
+  'Charlevoix:Chandler': {
+    name: 'Chandler Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'Rick Delaney', title: 'Supervisor', party: null },
-      { name: 'Danielle Stein-Seabolt', title: 'Clerk', party: null },
-      { name: 'Dawn Moses', title: 'Treasurer', party: null },
-      { name: 'Patrick Eavey', title: 'Trustee', party: null },
-      { name: 'Gayenell Gentelia', title: 'Trustee', party: null },
-    ],
+      { name: 'Dennis Howard', title: 'Supervisor', phone: '(231) 675-3315', email: '' },
+      { name: 'Myron Matz', title: 'Clerk', phone: '(231) 549-2596', email: '' },
+      { name: 'Catherine Olsen', title: 'Treasurer', phone: '(231) 838-1311', email: '' },
+      { name: 'Rickey Howard', title: 'Trustee', phone: '(231) 549-2674', email: '' }
+    ]
   },
-  'Excelsior Twp (Kalkaska)': {
-    name: 'Excelsior Township',
-    county: 'Kalkaska',
-    website: 'https://www.excelsiortownship.org',
-    phone: '231-258-6108',
+  'Charlevoix:Charlevoix': {
+    name: 'Charlevoix Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'Richard VanBeek', title: 'Supervisor', party: null },
-      { name: 'Annie Wallace', title: 'Clerk', party: null },
-      { name: 'Nina Cotton', title: 'Treasurer', party: null },
-      { name: 'Norman Groner', title: 'Trustee', party: null },
-      { name: 'Daniel Prokup', title: 'Trustee', party: null },
-    ],
+      { name: 'Dan Ulrich', title: 'Supervisor', phone: '(231) 547-4611', email: '' },
+      { name: 'Krista Jarema', title: 'Clerk', phone: '(231) 547-4611', email: '' },
+      { name: 'Theda Williams', title: 'Treasurer', phone: '(231) 547-4611', email: '' },
+      { name: 'Kate Stewart', title: 'Trustee', phone: '(231) 547-4611', email: '' },
+      { name: 'JB Hoyt', title: 'Trustee', phone: '(269) 921-5471', email: '' }
+    ]
   },
-  'Garfield Twp (Kalkaska)': {
-    name: 'Garfield Township',
-    county: 'Kalkaska',
-    website: 'https://garfieldtwsp.com',
-    phone: '231-369-2483',
+  'Charlevoix:Evangeline': {
+    name: 'Evangeline Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'Todd Jones', title: 'Supervisor', party: null },
-      { name: 'Brett Southworth', title: 'Clerk', party: null },
-      { name: 'Terri Sibole', title: 'Treasurer', party: null },
-      { name: 'Bryan Moore', title: 'Trustee', party: null },
-      { name: 'Eric Rohn', title: 'Trustee', party: null },
-    ],
+      { name: 'Dan Mercer', title: 'Supervisor', phone: '(231) 675-5895', email: '' },
+      { name: 'Erin Mercer', title: 'Clerk', phone: '(231) 675-5888', email: '' },
+      { name: 'Lawrence Taylor', title: 'Treasurer', phone: '(231) 459-6095', email: '' },
+      { name: 'Michelle Cortright', title: 'Trustee', phone: '(231) 675-0388', email: '' },
+      { name: 'Jodie Adams', title: 'Trustee', phone: '(231) 582-9161', email: '' }
+    ]
   },
-  'Kalkaska Twp (Kalkaska)': {
-    name: 'Kalkaska Township',
-    county: 'Kalkaska',
-    website: 'https://www.kalkaskatownship.net',
-    phone: '231-258-3300',
+  'Charlevoix:Eveline': {
+    name: 'Eveline Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'John Arnold', title: 'Supervisor', party: null },
-      { name: 'Kristina Swikoski', title: 'Clerk', party: null },
-      { name: 'Dawn Kuhns', title: 'Treasurer', party: null },
-      { name: 'Mike Fitch', title: 'Trustee', party: null },
-      { name: 'Cari Jo Roberts', title: 'Trustee', party: null },
-    ],
+      { name: 'Marc Pellegrino', title: 'Supervisor', phone: '(231) 459-4258', email: '' },
+      { name: 'Sandi Whiteford', title: 'Clerk', phone: '(231) 675-4426', email: '' },
+      { name: 'Ronald Chapman', title: 'Treasurer', phone: '(231) 547-6724', email: '' },
+      { name: 'Eric Beishlag', title: 'Trustee', phone: '(231) 547-2666', email: '' },
+      { name: 'Robert Reynolds', title: 'Trustee', phone: '(231) 459-4258', email: '' }
+    ]
   },
-  'Oliver Twp (Kalkaska)': {
-    name: 'Oliver Township',
-    county: 'Kalkaska',
-    website: 'http://www.olivertwp.net',
-    phone: '231-258-2711',
+  'Charlevoix:Hayes': {
+    name: 'Hayes Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'Mike Cox', title: 'Supervisor', party: null },
-      { name: 'Alexa Szymchack', title: 'Clerk', party: null },
-      { name: 'Debbie Bishop', title: 'Treasurer', party: null },
-      { name: 'Janet Cox', title: 'Trustee', party: null },
-      { name: 'Mike Fisher', title: 'Trustee', party: null },
-    ],
+      { name: 'William Conklin', title: 'Supervisor', phone: '(231) 547-6961', email: '' },
+      { name: 'Kristin Baranski', title: 'Clerk', phone: '(231) 547-6961', email: '' },
+      { name: 'Julie Collard', title: 'Treasurer', phone: '(231) 547-6961', email: '' },
+      { name: 'Matt Cunningham', title: 'Trustee', phone: '(231) 881-1533', email: '' },
+      { name: 'Doug Kuebler', title: 'Trustee', phone: '(231) 347-8045', email: '' }
+    ]
   },
-  'Orange Twp (Kalkaska)': {
-    name: 'Orange Township',
-    county: 'Kalkaska',
-    phone: '231-369-3457',
+  'Charlevoix:Hudson': {
+    name: 'Hudson Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'Trevor Ball', title: 'Supervisor', party: null },
-      { name: 'Eric Hendricks', title: 'Clerk', party: null },
-      { name: 'Mary Hill', title: 'Treasurer', party: null },
-      { name: 'Sue Ball', title: 'Trustee', party: null },
-      { name: 'Scott Nelson', title: 'Trustee', party: null },
-    ],
+      { name: 'Terrence Erber', title: 'Supervisor', phone: '(231) 549-2624', email: '' },
+      { name: 'Cecilia Smith', title: 'Clerk', phone: '', email: '' },
+      { name: 'Frank Wasylewski', title: 'Treasurer', phone: '(231) 549-3019', email: '' },
+      { name: 'Ross Payton', title: 'Trustee', phone: '(231) 549-3121', email: '' }
+    ]
   },
-  'Rapid River Twp (Kalkaska)': {
-    name: 'Rapid River Township',
-    county: 'Kalkaska',
-    website: 'https://rapidrivertownship.org',
-    phone: '231-258-2943',
+  'Charlevoix:Marion': {
+    name: 'Marion Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'Terry Williams', title: 'Supervisor', party: null },
-      { name: 'Valerie Hansen', title: 'Clerk', party: null },
-      { name: 'Rhonda Argyle', title: 'Treasurer', party: null },
-      { name: 'Matthew Brenner', title: 'Trustee', party: null },
-      { name: 'David McKinnon', title: 'Trustee', party: null },
-    ],
+      { name: 'Hayden Dvoracek', title: 'Supervisor', phone: '(231) 675-4079', email: '' },
+      { name: 'Simon Baginski', title: 'Clerk', phone: '(248) 330-1206', email: '' },
+      { name: 'Michael Jarema', title: 'Treasurer', phone: '(231) 547-2488', email: '' },
+      { name: 'Kathleen Dvoracek', title: 'Trustee', phone: '(231) 675-1481', email: '' }
+    ]
   },
-  'Springfield Twp (Kalkaska)': {
-    name: 'Springfield Township',
-    county: 'Kalkaska',
-    website: 'https://www.springfieldtownship-kalkaskacounty.org',
-    phone: '231-258-4428',
+  'Charlevoix:Melrose': {
+    name: 'Melrose Township',
+    county: 'Charlevoix',
     officials: [
-      { name: 'Timothy Birgy', title: 'Supervisor', party: null },
-      { name: 'Jodi Thayer', title: 'Clerk', party: null },
-      { name: 'Jessica Plude', title: 'Treasurer', party: null },
-      { name: 'Charles Jones', title: 'Trustee', party: null },
-      { name: 'Barrett Little', title: 'Trustee', party: null },
-    ],
+      { name: 'Robin Hissong Berry', title: 'Supervisor', phone: '(231) 535-2310', email: '' },
+      { name: 'Becky Jenkins', title: 'Clerk', phone: '(231) 535-2310', email: '' },
+      { name: 'Shelley Burr', title: 'Treasurer', phone: '(231) 535-2310', email: '' },
+      { name: 'Mary Pat Goldich', title: 'Trustee', phone: '(231) 535-2310', email: '' },
+      { name: 'Tim LaGasse', title: 'Trustee', phone: '(231) 535-2310', email: '' }
+    ]
   },
-
-  /* ── Cheboygan County townships ── */
-
-  'Aloha': {
+  'Charlevoix:Norwood': {
+    name: 'Norwood Township',
+    county: 'Charlevoix',
+    officials: [
+      { name: 'Benamin Freds', title: 'Supervisor', phone: '(616) 566-4708', email: '' },
+      { name: 'Brenda Freds', title: 'Clerk', phone: '(231) 497-0897', email: '' },
+      { name: 'Leah Wise', title: 'Treasurer', phone: '(765) 427-5282', email: '' },
+      { name: 'Douglas Warner', title: 'Trustee', phone: '(231) 547-5940', email: '' },
+      { name: 'Mark Pirie', title: 'Trustee', phone: '(231) 547-4767', email: '' }
+    ]
+  },
+  'Charlevoix:Peaine': {
+    name: 'Peaine Township',
+    county: 'Charlevoix',
+    officials: [
+      { name: 'Maria Dal Pra', title: 'Supervisor', phone: '(231) 448-3540', email: '' },
+      { name: 'Carla Martin', title: 'Clerk', phone: '(231) 448-3540', email: '' },
+      { name: 'Vicki Smith', title: 'Treasurer', phone: '(253) 720-5692', email: '' },
+      { name: 'Andrew Stebbins', title: 'Trustee', phone: '(231) 448-3540', email: '' },
+      { name: 'Heather Carey', title: 'Trustee', phone: '(231) 448-3540', email: '' }
+    ]
+  },
+  'Charlevoix:South Arm': {
+    name: 'South Arm Township',
+    county: 'Charlevoix',
+    officials: [
+      { name: 'Robert Christensen', title: 'Supervisor', phone: '(231) 536-2444', email: '' },
+      { name: 'Kimberly Olstrom', title: 'Clerk', phone: '(231) 536-2900', email: '' },
+      { name: 'Lisa Weber', title: 'Treasurer', phone: '(231) 536-2900', email: '' },
+      { name: 'Erick Bennett', title: 'Trustee', phone: '(231) 350-3870', email: '' },
+      { name: 'Allan Peterson', title: 'Trustee', phone: '(231) 310-2066', email: '' }
+    ]
+  },
+  'Charlevoix:St. James': {
+    name: 'St. James Township',
+    county: 'Charlevoix',
+    officials: [
+      { name: 'Roberta Welke', title: 'Supervisor', phone: '(231) 448-2014', email: '' },
+      { name: 'Julie Gillespie', title: 'Clerk', phone: '(231) 448-2761', email: '' },
+      { name: 'Diane McDonough', title: 'Treasurer', phone: '(231) 448-2760', email: '' },
+      { name: 'Paul Cole', title: 'Trustee', phone: '(231) 448-2014', email: '' },
+      { name: 'Craig Peirano', title: 'Trustee', phone: '(231) 448-2014', email: '' }
+    ]
+  },
+  'Charlevoix:Wilson': {
+    name: 'Wilson Township',
+    county: 'Charlevoix',
+    officials: [
+      { name: 'Ray Guzniczak', title: 'Supervisor', phone: '(231) 582-1033 ext. 2', email: '' },
+      { name: 'Marilyn Beebe', title: 'Clerk', phone: '(231) 582-1033 ext. 1', email: '' },
+      { name: 'Karen Hellebuyck', title: 'Treasurer', phone: '(231) 582-1033 ext. 4', email: '' },
+      { name: 'Lee Rainey', title: 'Trustee', phone: '(231) 582-1033 ext. 7', email: '' },
+      { name: 'Don Forbes', title: 'Trustee', phone: '(231) 582-1033', email: '' }
+    ]
+  },
+  'Cheboygan:Aloha': {
     name: 'Aloha Township',
     county: 'Cheboygan',
-    website: 'https://www.alohatownship.org',
     officials: [
-      { name: 'Charles Maziasz', title: 'Supervisor', party: 'Republican' },
-      { name: 'Teresa Sullivan', title: 'Clerk', party: 'Republican' },
-      { name: 'Dana Stempky', title: 'Treasurer', party: 'Republican' },
-      { name: 'Scott Eno', title: 'Trustee', party: 'Republican' },
-      { name: 'Steve Crusoe', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Charles Maziasz', title: 'Supervisor', phone: '(231) 625-2132', email: '' },
+      { name: 'Teresa Sullivan', title: 'Clerk', phone: '(231) 625-9003', email: '' },
+      { name: 'Dana Stempky', title: 'Treasurer', phone: '(231) 625-9632', email: '' },
+      { name: 'Stephen Crusoe', title: 'Trustee', phone: '(231) 420-2566', email: '' },
+      { name: 'Scott Eno', title: 'Trustee', phone: '(231) 625-8485', email: '' }
+    ]
   },
-  'Beaugrand': {
+  'Cheboygan:Beaugrand': {
     name: 'Beaugrand Township',
     county: 'Cheboygan',
-    website: 'https://beaugrandtwp.org',
     officials: [
-      { name: 'Marcia A. Rocheleau', title: 'Supervisor', party: 'Republican' },
-      { name: 'Terri Sarrault', title: 'Clerk', party: 'Republican' },
-      { name: 'Robin Westfall', title: 'Treasurer', party: 'Republican' },
-      { name: 'Myles Fimbinger', title: 'Trustee', party: 'Republican' },
-      { name: 'John Wanke', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Marcia Rocheleau', title: 'Supervisor', phone: '(231) 627-3467', email: '' },
+      { name: 'Terri Sarrault', title: 'Clerk', phone: '(231) 627-3621 ext. 1', email: '' },
+      { name: 'Gina Borino', title: 'Treasurer', phone: '(231) 818-0150', email: '' },
+      { name: 'John Wanke', title: 'Trustee', phone: '(231) 627-4367', email: '' },
+      { name: 'Myles Fimbinger', title: 'Trustee', phone: '(231) 627-3621', email: '' }
+    ]
   },
-  'Benton': {
+  'Cheboygan:Benton': {
     name: 'Benton Township',
     county: 'Cheboygan',
-    website: 'https://www.bentontwp.org',
     officials: [
-      { name: 'Bruce Brandt', title: 'Supervisor', party: 'Republican' },
-      { name: 'Carol Neumann', title: 'Clerk', party: 'Independent' },
-      { name: 'Jayne Passeno', title: 'Treasurer', party: 'Republican' },
-      { name: 'Ron Fenlon', title: 'Trustee', party: 'Republican' },
-      { name: 'Pete Redmond', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Bruce Brandt', title: 'Supervisor', phone: '(231) 268-8537', email: '' },
+      { name: 'Carol Neumann', title: 'Clerk', phone: '(231) 625-9176', email: '' },
+      { name: 'Jayne Passeno', title: 'Treasurer', phone: '(231) 625-9176', email: '' },
+      { name: 'Ron Fenlon', title: 'Trustee', phone: '(231) 625-9176', email: '' },
+      { name: 'Pete Redmond', title: 'Trustee', phone: '(231) 625-9176', email: '' }
+    ]
   },
-  'Burt': {
+  'Cheboygan:Burt': {
     name: 'Burt Township',
     county: 'Cheboygan',
-    website: 'https://burtcheboyganmi.gov',
     officials: [
-      { name: 'Eugene Hodulik', title: 'Supervisor', party: 'Republican' },
-      { name: 'Christy Kozlowski', title: 'Clerk', party: 'Republican' },
-      { name: 'Carol Reimann', title: 'Treasurer', party: 'Republican' },
-      { name: 'Allen Kozlowski', title: 'Trustee', party: 'Republican' },
-      { name: 'Katie Parker', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Christy Kozlowski', title: 'Clerk', phone: '(734) 730-1746', email: '' },
+      { name: 'Carol Reimann', title: 'Treasurer', phone: '(231) 838-4012', email: '' },
+      { name: 'Eugene Hodulik', title: 'Trustee', phone: '(231) 238-8824', email: '' },
+      { name: 'Katie Parker', title: 'Trustee', phone: '(231) 499-8289', email: '' }
+    ]
   },
-  'Ellis': {
+  'Cheboygan:Ellis': {
     name: 'Ellis Township',
     county: 'Cheboygan',
     officials: [
-      { name: 'Jim LaPeer', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Sheryl Hilliker', title: 'Clerk', party: 'Democratic' },
-      { name: 'Carolyn Taglauer', title: 'Treasurer', party: 'Republican' },
-      { name: 'Alison Studer', title: 'Trustee', party: 'Republican' },
-      { name: 'Adam Taglauer', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Fulford Lapeer', title: 'Supervisor', phone: '(231) 238-9606', email: '' },
+      { name: 'Sheryl Hilliker', title: 'Clerk', phone: '(231) 290-0181', email: '' },
+      { name: 'Carolyn Taglauer', title: 'Treasurer', phone: '(231) 525-8468', email: '' },
+      { name: 'Adam Taglauer', title: 'Trustee', phone: '(231) 420-1454', email: '' },
+      { name: 'Allison Studer', title: 'Trustee', phone: '(231) 445-1394', email: '' }
+    ]
   },
-  'Forest': {
+  'Cheboygan:Forest': {
     name: 'Forest Township',
     county: 'Cheboygan',
-    website: 'https://www.foresttownship.net',
     officials: [
-      { name: 'Harry Lee Waldie', title: 'Supervisor', party: 'Republican' },
-      { name: 'Melinda Hambleton', title: 'Clerk', party: 'Republican' },
-      { name: 'Gerald Hillis Jr.', title: 'Treasurer', party: 'Republican' },
-      { name: 'Pam Crowe', title: 'Trustee', party: 'Democratic' },
-      { name: 'Dawn Fenstermaker', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Harry Waldie', title: 'Supervisor', phone: '(863) 280-0124', email: '' },
+      { name: 'Melinda Hambleton', title: 'Clerk', phone: '(989) 306-0683', email: '' },
+      { name: 'Gerald Hillis', title: 'Treasurer', phone: '(989) 306-1987', email: '' },
+      { name: 'Pamela Crowe', title: 'Trustee', phone: '(989) 370-7203', email: '' },
+      { name: 'Dawn Fenstermaker', title: 'Trustee', phone: '(989) 733-9948', email: '' }
+    ]
   },
-  'Grant Twp (Cheboygan)': {
+  'Cheboygan:Grant': {
     name: 'Grant Township',
     county: 'Cheboygan',
-    website: 'https://www.granttwp.com',
     officials: [
-      { name: 'Gil Archambo', title: 'Supervisor', party: 'Republican' },
-      { name: 'Theresa Berden', title: 'Clerk', party: 'Democratic' },
-      { name: 'Debi Kuczynski', title: 'Treasurer', party: null },
-      { name: 'Eric Boyd', title: 'Trustee', party: 'Democratic' },
-      { name: 'Shawna McManus', title: 'Trustee', party: 'Independent' },
-    ],
+      { name: 'Clarence Archambo', title: 'Supervisor', phone: '(231) 625-2776', email: '' },
+      { name: 'Theresa Berden', title: 'Clerk', phone: '(989) 884-3268', email: '' },
+      { name: 'Deborah Kuczynski', title: 'Treasurer', phone: '(231) 268-0571', email: '' },
+      { name: 'Eric Boyd', title: 'Trustee', phone: '(231) 625-2471', email: '' },
+      { name: 'Shawna McManus', title: 'Trustee', phone: '', email: '' }
+    ]
   },
-  'Hebron': {
+  'Cheboygan:Hebron': {
     name: 'Hebron Township',
     county: 'Cheboygan',
-    website: 'https://www.hebrontownship.org',
     officials: [
-      { name: 'Andrew Beethem', title: 'Supervisor', party: 'Republican' },
-      { name: 'Gary Douglas', title: 'Clerk', party: 'Democratic' },
-      { name: 'John Douglas', title: 'Treasurer', party: 'Republican' },
-      { name: 'Lisa Neelis', title: 'Trustee', party: 'Democratic' },
-      { name: 'Judy Schmidt', title: 'Trustee', party: 'Democratic' },
-    ],
+      { name: 'Andrew Beethem', title: 'Supervisor', phone: '(231) 627-6601', email: '' },
+      { name: 'Gary Douglas', title: 'Clerk', phone: '(231) 627-9142', email: '' },
+      { name: 'John Douglas', title: 'Treasurer', phone: '(231) 627-6924', email: '' },
+      { name: 'Lisa Neelis', title: 'Trustee', phone: '(231) 420-8483', email: '' },
+      { name: 'Judy Schmidt', title: 'Trustee', phone: '(231) 445-1678', email: '' }
+    ]
   },
-  'Inverness': {
+  'Cheboygan:Inverness': {
     name: 'Inverness Township',
     county: 'Cheboygan',
-    website: 'https://www.invernesstownship.com',
     officials: [
-      { name: 'Todd LaRocque', title: 'Supervisor', party: 'Republican' },
-      { name: 'Jennifer Beebe', title: 'Clerk', party: 'Republican' },
-      { name: 'Laurie Merchant', title: 'Treasurer', party: 'Republican' },
-      { name: 'Greg Borowicz Jr.', title: 'Trustee', party: 'Republican' },
-      { name: 'Bernard Schramm Jr.', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Rodney LaHaie', title: 'Supervisor', phone: '(231) 420-9487', email: '' },
+      { name: 'Jennifer Beebe', title: 'Clerk', phone: '(231) 627-2939', email: '' },
+      { name: 'Laurie Merchant', title: 'Treasurer', phone: '(231) 420-4422', email: '' },
+      { name: 'Greg Elliott', title: 'Trustee', phone: '(231) 420-1723', email: '' },
+      { name: 'Bernie Schramm', title: 'Trustee', phone: '(231) 627-2939', email: '' }
+    ]
   },
-  'Koehler': {
+  'Cheboygan:Koehler': {
     name: 'Koehler Township',
     county: 'Cheboygan',
-    website: 'https://www.koehlertownship.org',
     officials: [
-      { name: 'Steven Dubois', title: 'Supervisor', party: null },
-      { name: 'Renee Neri', title: 'Clerk', party: null },
-      { name: 'Angie Everingham', title: 'Treasurer', party: 'Republican' },
-      { name: 'Martha Ehrhardt', title: 'Trustee', party: 'Republican' },
-      { name: 'Dana Nutt', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Steven DuBois', title: 'Supervisor', phone: '(231) 238-8522', email: '' },
+      { name: 'Renee Neri', title: 'Clerk', phone: '(231) 459-9526', email: '' },
+      { name: 'Angela Everingham', title: 'Treasurer', phone: '(231) 238-7283', email: '' },
+      { name: 'Martha Ehrhardt', title: 'Trustee', phone: '(231) 290-0325', email: '' },
+      { name: 'Dana Nutt', title: 'Trustee', phone: '(231) 238-8522', email: '' }
+    ]
   },
-  'Mackinaw': {
+  'Cheboygan:Mackinaw': {
     name: 'Mackinaw Township',
     county: 'Cheboygan',
-    website: 'https://www.mackinawtownship.com',
     officials: [
-      { name: 'Michael Smydra', title: 'Supervisor', party: 'Republican' },
-      { name: 'Ashley Darrow', title: 'Clerk', party: 'Republican' },
-      { name: 'Deborah Closs', title: 'Treasurer', party: 'Republican' },
-      { name: 'Charles Brew', title: 'Trustee', party: 'Republican' },
-      { name: 'Donna Falor', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Michael Smydra', title: 'Supervisor', phone: '(231) 268-9549', email: '' },
+      { name: 'Ashley Darrow', title: 'Clerk', phone: '(231) 818-9230', email: '' },
+      { name: 'Deborah Closs', title: 'Treasurer', phone: '(231) 420-5139', email: '' },
+      { name: 'Charles Brew', title: 'Trustee', phone: '(231) 499-6478', email: '' },
+      { name: 'Donna Falor', title: 'Trustee', phone: '(231) 445-0151', email: '' }
+    ]
   },
-  'Mentor': {
+  'Cheboygan:Mentor': {
     name: 'Mentor Township',
     county: 'Cheboygan',
-    website: 'https://mentortownship.org',
     officials: [
-      { name: 'Gregory Whittaker', title: 'Supervisor', party: 'Republican' },
-      { name: 'Adeena Stahlbuck-Whittaker', title: 'Clerk', party: 'Republican' },
-      { name: 'Kathy Mattson', title: 'Treasurer', party: 'Republican' },
-      { name: 'Wendy Courneya', title: 'Trustee', party: 'Republican' },
-      { name: 'Timothy Torrice', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Greg Whittaker', title: 'Supervisor', phone: '(231) 420-0872', email: '' },
+      { name: 'Dee Whittaker', title: 'Clerk', phone: '(231) 420-9990', email: '' },
+      { name: 'Kathy Mattson', title: 'Treasurer', phone: '(231) 525-8643', email: '' },
+      { name: 'Timothy Torrice', title: 'Trustee', phone: '(231) 525-8101', email: '' },
+      { name: 'Wendy Courneya', title: 'Trustee', phone: '(231) 525-8108', email: '' }
+    ]
   },
-  'Mullett': {
+  'Cheboygan:Mullett': {
     name: 'Mullett Township',
     county: 'Cheboygan',
-    website: 'https://mullett-townshipmi.gov',
     officials: [
-      { name: 'Laz Surabian', title: 'Supervisor', party: 'Republican' },
-      { name: 'Denise Ackerman', title: 'Clerk', party: 'Republican' },
-      { name: 'Bobbie Balazovic', title: 'Treasurer', party: 'Republican' },
-      { name: 'Mike Goerke', title: 'Trustee', party: 'Republican' },
-      { name: 'Brett Lindgren', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Brett Lindgren', title: 'Supervisor', phone: '(231) 290-3149', email: '' },
+      { name: 'Denise Ackerman', title: 'Clerk', phone: '(231) 597-0209', email: '' },
+      { name: 'Mike Goerke', title: 'Trustee', phone: '(231) 238-8808', email: '' }
+    ]
   },
-  'Munro': {
+  'Cheboygan:Munro': {
     name: 'Munro Township',
     county: 'Cheboygan',
-    website: 'https://www.munrotownship.com',
     officials: [
-      { name: 'Keith Ginop', title: 'Supervisor', party: 'Republican' },
-      { name: 'Mary Bur', title: 'Clerk', party: 'Republican' },
-      { name: 'Cheryl Dotski', title: 'Treasurer', party: 'Republican' },
-      { name: 'Al Antkoviak', title: 'Trustee', party: 'Republican' },
-      { name: 'Donald Tracey', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Keith Ginop', title: 'Supervisor', phone: '(231) 420-7389', email: '' },
+      { name: 'Mary Bur', title: 'Clerk', phone: '(231) 627-6749', email: '' },
+      { name: 'Cheryl Dotski', title: 'Treasurer', phone: '(231) 627-6528', email: '' },
+      { name: 'Donald Tracey', title: 'Trustee', phone: '(231) 627-4610', email: '' },
+      { name: 'Al Antkoviak', title: 'Trustee', phone: '(231) 420-0967', email: '' }
+    ]
   },
-  'Nunda': {
+  'Cheboygan:Nunda': {
     name: 'Nunda Township',
     county: 'Cheboygan',
     officials: [
-      { name: 'John D. Moore', title: 'Supervisor', party: 'Republican' },
-      { name: 'Gwen Sangeorzan', title: 'Clerk', party: 'Democratic' },
-      { name: 'Craig Bridges', title: 'Treasurer', party: 'Republican' },
-      { name: 'Wendy Loffer', title: 'Trustee', party: 'Republican' },
-      { name: 'Sandra Lee Stafford', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'John Moore', title: 'Supervisor', phone: '(231) 525-8469', email: '' },
+      { name: 'Theresa Moyer', title: 'Clerk', phone: '(734) 306-0790', email: '' },
+      { name: 'Craig Bridges', title: 'Treasurer', phone: '(231) 525-8173', email: '' },
+      { name: 'Sandra Stafford', title: 'Trustee', phone: '(231) 525-8449', email: '' },
+      { name: 'Wendy Loffer', title: 'Trustee', phone: '(231) 525-6561', email: '' }
+    ]
   },
-  'Tuscarora': {
+  'Cheboygan:Tuscarora': {
     name: 'Tuscarora Township',
     county: 'Cheboygan',
-    website: 'https://www.tuscaroratwp.com',
     officials: [
-      { name: 'Trudy Maves', title: 'Supervisor', party: 'Republican' },
-      { name: 'Laura Decker', title: 'Clerk', party: 'Republican' },
-      { name: 'Lori Smith', title: 'Treasurer', party: 'Republican' },
-      { name: 'Jonathan Hutchison', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Trudy Maves', title: 'Supervisor', phone: '(231) 420-2598', email: '' },
+      { name: 'Laura Decker', title: 'Clerk', phone: '(231) 238-0970', email: '' },
+      { name: 'Lori Smith', title: 'Treasurer', phone: '(231) 238-0970', email: '' },
+      { name: 'Jonathon Hutchison', title: 'Trustee', phone: '(231) 238-0970', email: '' },
+      { name: 'Thomas Prout', title: 'Trustee', phone: '(248) 309-2508', email: '' }
+    ]
   },
-  'Walker': {
+  'Cheboygan:Walker': {
     name: 'Walker Township',
     county: 'Cheboygan',
     officials: [
-      { name: 'Joshua Joseph', title: 'Supervisor', party: 'Republican' },
-      { name: 'Julie Northrop', title: 'Clerk', party: 'Republican' },
-      { name: 'Brenda Nash', title: 'Treasurer', party: 'Republican' },
-      { name: 'Eli Hope', title: 'Trustee', party: 'Democratic' },
-      { name: 'Peggy Dunham', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Joshua Joseph', title: 'Supervisor', phone: '(906) 440-4030', email: '' },
+      { name: 'Julie Northrop', title: 'Clerk', phone: '(231) 290-1470', email: '' },
+      { name: 'Brenda Nash', title: 'Treasurer', phone: '(231) 238-6802', email: '' },
+      { name: 'Peggy Dunham', title: 'Trustee', phone: '(231) 290-1389', email: '' },
+      { name: 'Eli Hope', title: 'Trustee', phone: '(231) 238-7773', email: '' }
+    ]
   },
-  'Waverly': {
+  'Cheboygan:Waverly': {
     name: 'Waverly Township',
     county: 'Cheboygan',
-    website: 'https://www.waverlytwp.com',
     officials: [
-      { name: 'Kory Hyde', title: 'Supervisor', party: 'Republican' },
-      { name: 'Rebecca Hyde', title: 'Clerk', party: 'Republican' },
-      { name: 'Dawn Wregglesworth', title: 'Treasurer', party: 'Republican' },
-      { name: 'Robert Decker', title: 'Trustee', party: 'Republican' },
-      { name: 'Betty Sherburne', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Kory Hyde', title: 'Supervisor', phone: '(989) 733-8995', email: '' },
+      { name: 'Becky Hyde', title: 'Clerk', phone: '(989) 370-2749', email: '' },
+      { name: 'Dawn Wregglesworth', title: 'Treasurer', phone: '(989) 306-2994', email: '' },
+      { name: 'Robert Decker', title: 'Trustee', phone: '(989) 733-9661', email: '' },
+      { name: 'Betty Sherburne', title: 'Trustee', phone: '(989) 733-2703', email: '' }
+    ]
   },
-  'Wilmot': {
+  'Cheboygan:Wilmot': {
     name: 'Wilmot Township',
     county: 'Cheboygan',
     officials: [
-      { name: 'Tierney Farhat', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Cary Ford', title: 'Clerk', party: 'Republican' },
-      { name: 'Stacie McCulley', title: 'Treasurer', party: 'Republican' },
-      { name: 'Ralph Dubey', title: 'Trustee', party: 'Republican' },
-      { name: 'John Ford', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Tierney Farhat', title: 'Supervisor', phone: '(231) 525-8965', email: '' },
+      { name: 'Cary Ford', title: 'Clerk', phone: '(231) 525-6621', email: '' },
+      { name: 'Stacie McCulley', title: 'Treasurer', phone: '(810) 394-2632', email: '' },
+      { name: 'Ralph Dubey', title: 'Trustee', phone: '(231) 525-6621', email: '' },
+      { name: 'John Ford', title: 'Trustee', phone: '(231) 525-6621', email: '' }
+    ]
   },
-
-  /* ── Otsego County townships ── */
-
-  'Bagley': {
-    name: 'Bagley Township',
-    county: 'Otsego',
-    website: 'https://bagleytownshipmi.gov',
+  'Chippewa:Bay Mills': {
+    name: 'Bay Mills Township',
+    county: 'Chippewa',
     officials: [
-      { name: 'Michelle Noirot', title: 'Supervisor', party: 'Republican' },
-      { name: 'James E. Szymanski', title: 'Clerk', party: 'Republican' },
-      { name: 'Celeste Szymanski', title: 'Treasurer', party: 'Republican' },
-      { name: 'Colleen Gelow', title: 'Trustee', party: 'Republican' },
-      { name: 'John Hendrickson', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Roger Graham', title: 'Supervisor', phone: '(906) 630-0133', email: '' },
+      { name: 'Mary Swendsen', title: 'Clerk', phone: '(906) 322-0311', email: '' },
+      { name: 'Dawn Recla', title: 'Treasurer', phone: '(906) 437-5373', email: '' },
+      { name: 'Raymond Baker', title: 'Trustee', phone: '(906) 437-5385', email: '' },
+      { name: 'Daniel Wilcox', title: 'Trustee', phone: '(906) 437-5305', email: '' }
+    ]
   },
-  'Charlton': {
-    name: 'Charlton Township',
-    county: 'Otsego',
-    website: 'https://charltontownship.org',
+  'Chippewa:Bruce': {
+    name: 'Bruce Township',
+    county: 'Chippewa',
     officials: [
-      { name: 'Matthew Nowak', title: 'Supervisor', party: 'Republican' },
-      { name: 'George Pewinski', title: 'Clerk', party: 'Republican' },
-      { name: 'Kimberly Samkowiak', title: 'Treasurer', party: 'Republican' },
-      { name: 'R. Keith Huff', title: 'Trustee', party: 'Republican' },
-      { name: 'Michael McCarthy', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Carl Marsh', title: 'Supervisor', phone: '(906) 630-4121', email: '' },
+      { name: 'Jason Kronemeyer', title: 'Clerk', phone: '(906) 635-3058 ext. 2', email: '' },
+      { name: 'Vicki Gage', title: 'Treasurer', phone: '(906) 635-3058 ext. 2', email: '' },
+      { name: 'Michael Pins', title: 'Trustee', phone: '(906) 635-3058', email: '' },
+      { name: 'Connie Thompson', title: 'Trustee', phone: '(906) 635-3058 ext. 2', email: '' }
+    ]
   },
-  'Chester': {
-    name: 'Chester Township',
-    county: 'Otsego',
-    website: 'https://chester-township.com',
+  'Chippewa:Chippewa': {
+    name: 'Chippewa Township',
+    county: 'Chippewa',
     officials: [
-      { name: 'Bonny T. Miller', title: 'Supervisor', party: null },
-      { name: 'Melissa L. Szymanski', title: 'Clerk', party: null },
-      { name: 'Katherine C. Miller', title: 'Treasurer', party: null },
-      { name: 'Preston Casselman', title: 'Trustee', party: null },
-      { name: 'Elizabeth Smith', title: 'Trustee', party: null },
-    ],
+      { name: 'Brian Mills', title: 'Supervisor', phone: '(906) 274-5319', email: '' },
+      { name: 'Tami Beseau', title: 'Clerk', phone: '(906) 274-5579', email: '' },
+      { name: 'Billie Jo Johnson', title: 'Treasurer', phone: '(906) 274-5442', email: '' },
+      { name: 'Amie Duvall', title: 'Trustee', phone: '(906) 274-5319', email: '' },
+      { name: 'Anita Ficke', title: 'Trustee', phone: '(906) 274-5319', email: '' }
+    ]
   },
-  'Corwith': {
-    name: 'Corwith Township',
-    county: 'Otsego',
-    website: 'https://www.corwith.net',
+  'Chippewa:Dafter': {
+    name: 'Dafter Township',
+    county: 'Chippewa',
     officials: [
-      { name: 'Vernon J. Kassuba', title: 'Supervisor', party: 'Republican' },
-      { name: 'Debbie Whitman', title: 'Clerk', party: 'Democratic' },
-      { name: 'Lori Lynn Bush', title: 'Treasurer', party: 'Republican' },
-      { name: 'Patrick Coultes', title: 'Trustee', party: 'Democratic' },
-      { name: 'Tom R. Kellogg', title: 'Trustee', party: 'Democratic' },
-    ],
+      { name: 'Robert Brown', title: 'Supervisor', phone: '(906) 630-5363', email: '' },
+      { name: 'Marcella Reattoir', title: 'Clerk', phone: '(906) 632-1579', email: '' },
+      { name: 'Kareen Brown', title: 'Treasurer', phone: '(906) 632-8917', email: '' },
+      { name: 'Frank Mongene', title: 'Trustee', phone: '(906) 632-2974', email: '' },
+      { name: 'Erik Baron', title: 'Trustee', phone: '(906) 440-4468', email: '' }
+    ]
   },
-  'Dover': {
-    name: 'Dover Township',
-    county: 'Otsego',
-    website: 'https://www.dovertwp-otsegomi.gov',
+  'Chippewa:Detour': {
+    name: 'Detour Township',
+    county: 'Chippewa',
     officials: [
-      { name: 'Rudi D. Edel', title: 'Supervisor', party: 'Republican' },
-      { name: 'Janet C. Kwapis', title: 'Clerk', party: 'Democratic' },
-      { name: 'Theresa R. Taskey', title: 'Treasurer', party: 'Republican' },
-      { name: 'Rebecca S. House', title: 'Trustee', party: 'Democratic' },
-      { name: 'Trevor Boughner', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Thomas Lehman', title: 'Supervisor', phone: '(906) 297-8088', email: '' },
+      { name: 'Marilyn McGuire', title: 'Clerk', phone: '(906) 297-5304', email: '' },
+      { name: 'Patti Loehr', title: 'Treasurer', phone: '(906) 297-5304', email: '' },
+      { name: 'Johnny Fountain', title: 'Trustee', phone: '(906) 297-5304', email: '' },
+      { name: 'Robert Vaught', title: 'Trustee', phone: '(906) 297-3560', email: '' }
+    ]
   },
-  'Elmira': {
-    name: 'Elmira Township',
-    county: 'Otsego',
-    website: 'https://elmiratownship.com',
+  'Chippewa:Drummond': {
+    name: 'Drummond Township',
+    county: 'Chippewa',
     officials: [
-      { name: 'Diane Franckowiak', title: 'Supervisor', party: null },
-      { name: 'Susan Schaedig', title: 'Clerk', party: null },
-      { name: 'Diane Purgiel', title: 'Treasurer', party: null },
-      { name: 'Dale Holzschu', title: 'Trustee', party: null },
-      { name: 'Jessica Henke', title: 'Trustee', party: null },
-    ],
+      { name: 'Krystal Truax', title: 'Supervisor', phone: '(906) 322-0609', email: '' },
+      { name: 'Amanda Fairchild', title: 'Clerk', phone: '(906) 493-5321', email: '' },
+      { name: 'Jeanette Alguire', title: 'Treasurer', phone: '(906) 493-5321', email: '' },
+      { name: 'Kevin Kruzel', title: 'Trustee', phone: '(906) 493-5321', email: '' },
+      { name: 'Justin Bailey', title: 'Trustee', phone: '(906) 493-5321', email: '' }
+    ]
   },
-  'Hayes': {
+  'Chippewa:Hulbert': {
+    name: 'Hulbert Township',
+    county: 'Chippewa',
+    officials: [
+      { name: 'Todd Davis', title: 'Supervisor', phone: '(906) 876-2353', email: '' },
+      { name: 'Cynthia Dewitt', title: 'Clerk', phone: '(906) 876-2353', email: '' },
+      { name: 'Patricia Hopper', title: 'Treasurer', phone: '(906) 876-2353', email: '' },
+      { name: 'Daryl Hopper', title: 'Trustee', phone: '(906) 876-2353', email: '' },
+      { name: 'Todd Davis', title: 'Trustee', phone: '(906) 876-2353', email: '' }
+    ]
+  },
+  'Chippewa:Kinross': {
+    name: 'Kinross charter Township',
+    county: 'Chippewa',
+    officials: [
+      { name: 'Mark Rice', title: 'Supervisor', phone: '(906) 495-5381 ext. 102', email: '' },
+      { name: 'Loretta Robinson', title: 'Clerk', phone: '(906) 495-5381 ext. 102', email: '' },
+      { name: 'Cierra MacDonald', title: 'Treasurer', phone: '(906) 495-5381 ext. 102', email: '' },
+      { name: 'Robert Mills', title: 'Trustee', phone: '', email: '' },
+      { name: 'Sarah Pierson', title: 'Trustee', phone: '(906) 495-5381 ext. 102', email: '' },
+      { name: 'Caleb Rader', title: 'Trustee', phone: '(906) 495-5381 ext. 102', email: '' },
+      { name: 'Mathew Besteman', title: 'Trustee', phone: '(906) 495-5381 ext. 102', email: '' }
+    ]
+  },
+  'Chippewa:Pickford': {
+    name: 'Pickford Township',
+    county: 'Chippewa',
+    officials: [
+      { name: 'Thomas Ball', title: 'Supervisor', phone: '(906) 647-3361', email: '' },
+      { name: 'Linda Miller', title: 'Clerk', phone: '(906) 647-3361', email: '' },
+      { name: 'Cynthia Manske', title: 'Treasurer', phone: '(906) 647-3361', email: '' },
+      { name: 'Travis Miller', title: 'Trustee', phone: '(906) 647-3361', email: '' },
+      { name: 'Adam Fuhrman', title: 'Trustee', phone: '(906) 647-3361', email: '' }
+    ]
+  },
+  'Chippewa:Raber': {
+    name: 'Raber Township',
+    county: 'Chippewa',
+    officials: [
+      { name: 'Linda Johnson', title: 'Supervisor', phone: '(906) 647-2105', email: '' },
+      { name: 'Hillary Galarowic', title: 'Clerk', phone: '(906) 440-2289', email: '' },
+      { name: 'Michele Traynor', title: 'Treasurer', phone: '(906) 297-3805', email: '' },
+      { name: 'Dan Galarowic', title: 'Trustee', phone: '(906) 297-3805', email: '' },
+      { name: 'Robert Warner', title: 'Trustee', phone: '(906) 297-3805', email: '' }
+    ]
+  },
+  'Chippewa:Rudyard': {
+    name: 'Rudyard Township',
+    county: 'Chippewa',
+    officials: [
+      { name: 'John Krentz', title: 'Supervisor', phone: '(906) 478-5041', email: '' },
+      { name: 'Margaret Jarvie', title: 'Clerk', phone: '(906) 478-5041', email: '' },
+      { name: 'Bruce Berkompas', title: 'Treasurer', phone: '(906) 478-5041', email: '' },
+      { name: 'Amy Miller', title: 'Trustee', phone: '(906) 478-5041', email: '' },
+      { name: 'Janice Besteman', title: 'Trustee', phone: '(906) 478-5041', email: '' }
+    ]
+  },
+  'Chippewa:Soo': {
+    name: 'Soo Township',
+    county: 'Chippewa',
+    officials: [
+      { name: 'Larry Perron', title: 'Supervisor', phone: '(906) 632-0718', email: '' },
+      { name: 'Allen Walther', title: 'Clerk', phone: '(906) 630-0674', email: '' },
+      { name: 'Krista Broos-Adams', title: 'Treasurer', phone: '(906) 630-6331', email: '' },
+      { name: 'Don Kucharczyk', title: 'Trustee', phone: '(906) 635-1196', email: '' },
+      { name: 'James Callon', title: 'Trustee', phone: '(906) 203-7346', email: '' }
+    ]
+  },
+  'Chippewa:Sugar Island': {
+    name: 'Sugar Island Township',
+    county: 'Chippewa',
+    officials: [
+      { name: 'Mark Eitrem', title: 'Supervisor', phone: '(906) 253-9353', email: '' },
+      { name: 'Brandi Rich', title: 'Clerk', phone: '(906) 253-9353', email: '' },
+      { name: 'Jaci Brown', title: 'Treasurer', phone: '(906) 253-9353', email: '' },
+      { name: 'Jason Moorehouse', title: 'Trustee', phone: '(906) 253-9353', email: '' },
+      { name: 'Carol Williams', title: 'Trustee', phone: '(906) 253-9353', email: '' }
+    ]
+  },
+  'Chippewa:Superior': {
+    name: 'Superior Township',
+    county: 'Chippewa',
+    officials: [
+      { name: 'Michael Fox', title: 'Supervisor', phone: '(906) 248-5213', email: '' },
+      { name: 'Jolene Passmore', title: 'Clerk', phone: '(906) 248-5213', email: '' },
+      { name: 'Amy Eddy', title: 'Treasurer', phone: '(906) 248-5213', email: '' },
+      { name: 'Cindy Vansloten', title: 'Trustee', phone: '(906) 322-6756', email: '' },
+      { name: 'James Sutton', title: 'Trustee', phone: '(906) 248-5213', email: '' }
+    ]
+  },
+  'Chippewa:Whitefish': {
+    name: 'Whitefish Township',
+    county: 'Chippewa',
+    officials: [
+      { name: 'Edson Forrester', title: 'Supervisor', phone: '(906) 492-3452', email: '' },
+      { name: 'Fred Roach', title: 'Clerk', phone: '(906) 492-3452', email: '' },
+      { name: 'Kimberly Bean', title: 'Treasurer', phone: '(906) 492-3452', email: '' },
+      { name: 'Earl Skeans', title: 'Trustee', phone: '(906) 492-3452', email: '' }
+    ]
+  },
+  'Clare:Arthur': {
+    name: 'Arthur Township',
+    county: 'Clare',
+    officials: [
+      { name: 'Matthew Bednorek', title: 'Supervisor', phone: '(989) 317-5383', email: '' },
+      { name: 'Janice LaRose', title: 'Clerk', phone: '(989) 429-5525', email: '' },
+      { name: 'Anna Sharp', title: 'Treasurer', phone: '(989) 429-4202', email: '' },
+      { name: 'Jerry Willford', title: 'Trustee', phone: '(989) 329-2435', email: '' },
+      { name: 'Joy Kleinhardt', title: 'Trustee', phone: '(989) 329-1942', email: '' }
+    ]
+  },
+  'Clare:Franklin': {
+    name: 'Franklin Township',
+    county: 'Clare',
+    officials: [
+      { name: 'Ed Erskine', title: 'Supervisor', phone: '(989) 429-9786', email: '' },
+      { name: 'Shelly Schultz', title: 'Clerk', phone: '(989) 941-5089', email: '' },
+      { name: 'Sandy Scherrer', title: 'Treasurer', phone: '(989) 539-8936', email: '' },
+      { name: 'Jackie Ecklin', title: 'Trustee', phone: '(989) 539-7705', email: '' },
+      { name: 'Therese Haley', title: 'Trustee', phone: '(989) 539-2468', email: '' }
+    ]
+  },
+  'Clare:Freeman': {
+    name: 'Freeman Township',
+    county: 'Clare',
+    officials: [
+      { name: 'Douglas Johnson', title: 'Supervisor', phone: '(989) 588-2752', email: '' },
+      { name: 'Lacinda LaFave', title: 'Clerk', phone: '(989) 588-2752', email: '' },
+      { name: 'Janet Lackie', title: 'Treasurer', phone: '(989) 588-2752', email: '' },
+      { name: 'Robert Eckardt', title: 'Trustee', phone: '(989) 588-2752', email: '' },
+      { name: 'Sheyla Young', title: 'Trustee', phone: '(989) 588-2752', email: '' }
+    ]
+  },
+  'Clare:Frost': {
+    name: 'Frost Township',
+    county: 'Clare',
+    officials: [
+      { name: 'Marion Coon', title: 'Supervisor', phone: '(989) 630-0366', email: '' },
+      { name: 'Joan Rattray', title: 'Clerk', phone: '(989) 630-0366', email: '' },
+      { name: 'Janet Spencer', title: 'Treasurer', phone: '(989) 630-0366', email: '' },
+      { name: 'Virginia Hogan', title: 'Trustee', phone: '(989) 539-7079', email: '' },
+      { name: 'Janae Coon', title: 'Trustee', phone: '(989) 630-0366', email: '' }
+    ]
+  },
+  'Clare:Garfield': {
+    name: 'Garfield Township',
+    county: 'Clare',
+    officials: [
+      { name: 'David Byl', title: 'Supervisor', phone: '(810) 449-1453', email: '' },
+      { name: 'Denise Hicks', title: 'Clerk', phone: '(989) 544-2445', email: '' },
+      { name: 'Robin Yarhouse', title: 'Treasurer', phone: '(989) 544-2926', email: '' },
+      { name: 'Lisa Roland', title: 'Trustee', phone: '(989) 544-2386', email: '' },
+      { name: 'James Lard', title: 'Trustee', phone: '(989) 544-2445', email: '' }
+    ]
+  },
+  'Clare:Grant': {
+    name: 'Grant Township',
+    county: 'Clare',
+    officials: [
+      { name: 'John Lake', title: 'Supervisor', phone: '(989) 424-6331', email: '' },
+      { name: 'Tammy Teall', title: 'Clerk', phone: '(989) 424-6040', email: '' },
+      { name: 'Brendan Gregory', title: 'Treasurer', phone: '(989) 424-6331', email: '' },
+      { name: 'Dave Isaac', title: 'Trustee', phone: '(989) 424-6331', email: '' },
+      { name: 'Linda Gilmore', title: 'Trustee', phone: '(989) 424-6331', email: '' }
+    ]
+  },
+  'Clare:Greenwood': {
+    name: 'Greenwood Township',
+    county: 'Clare',
+    officials: [
+      { name: 'Jess McClaughry', title: 'Supervisor', phone: '(810) 488-0056', email: '' },
+      { name: 'Rachel Mackson', title: 'Clerk', phone: '(989) 572-0456', email: '' },
+      { name: 'Lorie Fliegel', title: 'Treasurer', phone: '(989) 539-6881', email: '' },
+      { name: 'Gail Garrity', title: 'Trustee', phone: '(989) 272-3257', email: '' },
+      { name: 'Bronwyn Asplund', title: 'Trustee', phone: '(989) 630-4203', email: '' }
+    ]
+  },
+  'Clare:Hamilton': {
+    name: 'Hamilton Township',
+    county: 'Clare',
+    officials: [
+      { name: 'Gerald Vaughn', title: 'Supervisor', phone: '(989) 539-7943', email: '' },
+      { name: 'Andrea Wallace', title: 'Clerk', phone: '(989) 539-7943', email: '' },
+      { name: 'Denise Goodenow', title: 'Treasurer', phone: '(989) 387-5971', email: '' },
+      { name: 'Michael Iutzi', title: 'Trustee', phone: '(989) 539-2018', email: '' },
+      { name: 'Mike Conway', title: 'Trustee', phone: '(989) 539-7285', email: '' }
+    ]
+  },
+  'Clare:Hatton': {
+    name: 'Hatton Township',
+    county: 'Clare',
+    officials: [
+      { name: 'Bill Hileman', title: 'Supervisor', phone: '(989) 539-5409', email: '' },
+      { name: 'Linda McClain', title: 'Clerk', phone: '(989) 424-0808', email: '' },
+      { name: 'Molly Humphrey', title: 'Treasurer', phone: '(989) 386-7012', email: '' },
+      { name: 'William Guiette', title: 'Trustee', phone: '(989) 539-2978', email: '' },
+      { name: 'Nathan Farrell', title: 'Trustee', phone: '(989) 386-8123', email: '' }
+    ]
+  },
+  'Clare:Hayes': {
     name: 'Hayes Township',
-    county: 'Otsego',
-    website: 'https://hayestwpotsegomi.gov',
+    county: 'Clare',
     officials: [
-      { name: 'Mary Sanders', title: 'Supervisor', party: null },
-      { name: 'Richard Ross', title: 'Clerk', party: null },
-      { name: 'Jessie Geiger', title: 'Treasurer', party: null },
-      { name: 'Lisa Daly', title: 'Trustee', party: null },
-      { name: 'Brad Kilbourn', title: 'Trustee', party: null },
-    ],
+      { name: 'Brendan Powell', title: 'Supervisor', phone: '(989) 539-7128', email: '' },
+      { name: 'Debra Hoyt', title: 'Clerk', phone: '(989) 539-7128', email: '' },
+      { name: 'Savannah Cavanaugh', title: 'Treasurer', phone: '(989) 539-7128', email: '' },
+      { name: 'Robert Buckley', title: 'Trustee', phone: '(989) 539-7128', email: '' },
+      { name: 'Rob McKay', title: 'Trustee', phone: '(989) 539-7128', email: '' }
+    ]
   },
-  'Livingston': {
-    name: 'Livingston Township',
-    county: 'Otsego',
-    website: 'https://livingstontownshipmi.gov',
+  'Clare:Lincoln': {
+    name: 'Lincoln Township',
+    county: 'Clare',
     officials: [
-      { name: 'Norm Brecheisen', title: 'Supervisor', party: null },
-      { name: 'Elizabeth Mench', title: 'Clerk', party: null },
-      { name: 'Cheryl Prusakiewicz', title: 'Treasurer', party: null },
-      { name: 'Steven Dipzinski', title: 'Trustee', party: null },
-      { name: 'James Vanderveer', title: 'Trustee', party: null },
-    ],
+      { name: 'Troy Kibbey', title: 'Supervisor', phone: '(989) 588-9841', email: '' },
+      { name: 'Carol Majewski', title: 'Clerk', phone: '(989) 588-9069', email: '' },
+      { name: 'Maggie Carey', title: 'Treasurer', phone: '(989) 588-2574', email: '' },
+      { name: 'Mike Tobin', title: 'Trustee', phone: '(989) 588-2311', email: '' },
+      { name: 'Jeff Simons', title: 'Trustee', phone: '(989) 588-9841', email: '' }
+    ]
   },
-  'Otsego Lake': {
-    name: 'Otsego Lake Township',
-    county: 'Otsego',
-    website: 'https://otsegolaketownship.org',
+  'Clare:Redding': {
+    name: 'Redding Township',
+    county: 'Clare',
     officials: [
-      { name: 'Dave Matelski', title: 'Supervisor', party: null },
-      { name: 'Mary Brown', title: 'Clerk', party: null },
-      { name: 'Jerry Brown', title: 'Treasurer', party: null },
-      { name: 'Denise Pallarito', title: 'Trustee', party: null },
-      { name: 'Jeff Bergel', title: 'Trustee', party: null },
-    ],
+      { name: 'Brooke Daniels', title: 'Clerk', phone: '(231) 743-9525', email: '' },
+      { name: 'Kelly Nurenberg', title: 'Treasurer', phone: '(231) 743-9525', email: '' },
+      { name: 'Billy Lemaster', title: 'Trustee', phone: '(231) 743-9525', email: '' },
+      { name: 'Todd Jeffrey', title: 'Supervisor', phone: '(231) 743-9525', email: '' },
+      { name: 'Bonnie Pierce', title: 'Trustee', phone: '(989) 339-1768', email: '' }
+    ]
   },
-
-  /* ── Roscommon County townships ── */
-
-  'Au Sable Twp (Roscommon)': {
-    name: 'Au Sable Township',
-    county: 'Roscommon',
-    website: 'https://ausabletownshipmi.com',
+  'Clare:Sheridan': {
+    name: 'Sheridan Township',
+    county: 'Clare',
     officials: [
-      { name: 'Kurtis Norton', title: 'Supervisor', party: 'Republican' },
-      { name: 'Ron Watson', title: 'Clerk', party: 'Republican' },
-      { name: 'Sarah Watson', title: 'Treasurer', party: 'Republican' },
-      { name: 'Erica Wise', title: 'Trustee', party: 'Republican' },
-      { name: 'Mike Carpenter', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'William Strouse', title: 'Supervisor', phone: '(989) 386-3795', email: '' },
+      { name: 'Raquel Brown', title: 'Clerk', phone: '(989) 312-3111', email: '' },
+      { name: 'Jennifer Magnus', title: 'Treasurer', phone: '(989) 386-7234', email: '' },
+      { name: 'James Eberhart', title: 'Trustee', phone: '(989) 386-2361', email: '' },
+      { name: 'Brian Tomaski', title: 'Trustee', phone: '(989) 386-7981', email: '' }
+    ]
   },
-  'Backus Twp (Roscommon)': {
-    name: 'Backus Township',
-    county: 'Roscommon',
-    website: 'https://www.backusmi.gov',
+  'Clare:Summerfield': {
+    name: 'Summerfield Township',
+    county: 'Clare',
     officials: [
-      { name: 'Mike Orzechowski', title: 'Supervisor', party: 'Republican' },
-      { name: 'Louise Marie Nagy', title: 'Clerk', party: 'Republican' },
-      { name: 'Christine M. Tacey', title: 'Treasurer', party: 'Republican' },
-      { name: 'Eldona L. Doll', title: 'Trustee', party: 'Democratic' },
-      { name: 'Daniel A. Nagy', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Dan Wilhelm', title: 'Supervisor', phone: '(989) 539-2501', email: '' },
+      { name: 'Jaclyn Hall', title: 'Clerk', phone: '(989) 539-2501', email: '' },
+      { name: 'Sherilene Levy', title: 'Treasurer', phone: '(517) 740-5217', email: '' },
+      { name: 'Scott Losey', title: 'Trustee', phone: '(989) 539-2501', email: '' },
+      { name: 'James Smith', title: 'Trustee', phone: '(989) 539-2501', email: '' }
+    ]
   },
-  'Denton Twp (Roscommon)': {
-    name: 'Denton Township',
-    county: 'Roscommon',
-    website: 'https://dentontownshipmi.gov',
+  'Clare:Surrey': {
+    name: 'Surrey Township',
+    county: 'Clare',
     officials: [
-      { name: 'Dave DenBoer', title: 'Supervisor', party: null },
-      { name: 'Theresa M. Wagner', title: 'Clerk', party: null },
-      { name: 'Susan S. Seaford', title: 'Treasurer', party: 'Republican' },
-      { name: 'Paula Fuller', title: 'Trustee', party: 'Republican' },
-      { name: 'Dick Pedersen', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Michael Coon', title: 'Supervisor', phone: '(989) 588-6691', email: '' },
+      { name: 'Glenna Bradbury', title: 'Clerk', phone: '(989) 588-6691 ext. 2', email: '' },
+      { name: 'Mindy Campbell', title: 'Treasurer', phone: '(989) 588-6691 ext. 5', email: '' },
+      { name: 'Dixie Adams', title: 'Trustee', phone: '(989) 588-6691', email: '' },
+      { name: 'Paul Ghinelli', title: 'Trustee', phone: '(989) 588-6691', email: '' }
+    ]
   },
-  'Gerrish Twp (Roscommon)': {
-    name: 'Gerrish Township',
-    county: 'Roscommon',
-    website: 'https://gerrishtownship.org',
+  'Clare:Winterfield': {
+    name: 'Winterfield Township',
+    county: 'Clare',
     officials: [
-      { name: 'Brian A. Hill', title: 'Supervisor', party: 'Republican' },
-      { name: 'Michelle Squires', title: 'Clerk', party: 'Republican' },
-      { name: 'James Anderson', title: 'Treasurer', party: 'Republican' },
-      { name: 'James Ostling', title: 'Trustee', party: 'Republican' },
-      { name: 'Mary Jo Oppy', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Shelly Laughlin', title: 'Supervisor', phone: '(231) 878-2745', email: '' },
+      { name: 'Dianna Powell-Reid', title: 'Clerk', phone: '(231) 468-4961', email: '' },
+      { name: 'Linda Peterson', title: 'Treasurer', phone: '(231) 825-8248', email: '' },
+      { name: 'Fred Prielipp', title: 'Trustee', phone: '(231) 743-9531', email: '' },
+      { name: 'Carl Traynor', title: 'Trustee', phone: '(231) 743-2743', email: '' }
+    ]
   },
-  'Higgins Twp (Roscommon)': {
-    name: 'Higgins Township',
-    county: 'Roscommon',
-    website: 'https://higginstownship.com',
+  'Clinton:Bath': {
+    name: 'Bath charter Township',
+    county: 'Clinton',
     officials: [
-      { name: 'Steve Doggett', title: 'Supervisor', party: 'Republican' },
-      { name: 'Maggie Borgula', title: 'Clerk', party: 'Democratic' },
-      { name: 'Cheri Sullivan', title: 'Treasurer', party: 'Republican' },
-      { name: 'Randy Hartman', title: 'Trustee', party: 'Republican' },
-      { name: 'Tom Jennette', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Ryan Fewins-Bliss', title: 'Supervisor', phone: '(231) 794-2284', email: '' },
+      { name: 'Brenda Butler-Challander', title: 'Clerk', phone: '(517) 641-6728', email: '' },
+      { name: 'Jennifer Wilson', title: 'Treasurer', phone: '(517) 641-6728', email: '' },
+      { name: 'Allen Rosekrans', title: 'Trustee', phone: '(517) 641-6728', email: '' },
+      { name: 'Cheryl Kellerman', title: 'Trustee', phone: '(517) 641-6728', email: '' },
+      { name: 'Kate Hagerman', title: 'Trustee', phone: '(517) 641-6728', email: '' },
+      { name: 'Ray Kotke', title: 'Trustee', phone: '(517) 641-6728', email: '' }
+    ]
   },
-  'Lake Twp (Roscommon)': {
-    name: 'Lake Township',
-    county: 'Roscommon',
-    website: 'https://www.lake-township.com',
+  'Clinton:Bengal': {
+    name: 'Bengal Township',
+    county: 'Clinton',
     officials: [
-      { name: 'John Hibbard', title: 'Supervisor', party: 'Republican' },
-      { name: 'Andrea Grabowski', title: 'Clerk', party: 'Republican' },
-      { name: 'Harry Trier', title: 'Treasurer', party: 'Republican' },
-      { name: 'Scott Hassler', title: 'Trustee', party: 'Republican' },
-      { name: 'Pamela Surprenant', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Nicholas McDonald', title: 'Supervisor', phone: '(517) 819-6127', email: '' },
+      { name: 'Sharon Bassette', title: 'Clerk', phone: '(989) 640-4750', email: '' },
+      { name: 'Nolan Solomon', title: 'Treasurer', phone: '(219) 743-7759', email: '' },
+      { name: 'Stan Sillman', title: 'Trustee', phone: '(989) 640-0419', email: '' },
+      { name: 'Nicholas Tipper', title: 'Trustee', phone: '(517) 449-1564', email: '' }
+    ]
   },
-  'Lyon Twp (Roscommon)': {
-    name: 'Lyon Township',
-    county: 'Roscommon',
-    website: 'https://lyontwp-higginsmi.gov',
+  'Clinton:Bingham': {
+    name: 'Bingham Township',
+    county: 'Clinton',
     officials: [
-      { name: 'Paul Bertrand', title: 'Supervisor', party: 'Republican' },
-      { name: 'Gregory Pearn', title: 'Clerk', party: 'Republican' },
-      { name: 'Kevin Hopps', title: 'Treasurer', party: 'Republican' },
-      { name: 'Steven Detmer', title: 'Trustee', party: 'Republican' },
-      { name: 'Timothy Monet', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'John Weber', title: 'Supervisor', phone: '(989) 224-8319', email: '' },
+      { name: 'Amy Wirth', title: 'Clerk', phone: '(989) 403-8468', email: '' },
+      { name: 'Jessica Chant Smith', title: 'Treasurer', phone: '(989) 640-3466', email: '' },
+      { name: 'Anthony Hufnagel', title: 'Trustee', phone: '(989) 224-3832', email: '' },
+      { name: 'Eric Harger', title: 'Trustee', phone: '(989) 224-8319', email: '' }
+    ]
   },
-  'Markey Twp (Roscommon)': {
-    name: 'Markey Township',
-    county: 'Roscommon',
-    website: 'https://markeytownship.org',
+  'Clinton:Dallas': {
+    name: 'Dallas Township',
+    county: 'Clinton',
     officials: [
-      { name: 'Stanley Gardner', title: 'Supervisor', party: 'Republican' },
-      { name: 'Sheryl Tussey', title: 'Clerk', party: 'Republican' },
-      { name: 'Wendy Engle', title: 'Treasurer', party: 'Republican' },
-      { name: 'Loretta Bell', title: 'Trustee', party: 'Republican' },
-      { name: 'Christopher DeBaeke', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Vern Feldpausch', title: 'Supervisor', phone: '(989) 640-3069', email: '' },
+      { name: 'Melinda Schafer', title: 'Clerk', phone: '(989) 307-0356', email: '' },
+      { name: 'Katie Halfmann', title: 'Treasurer', phone: '(989) 640-4625', email: '' },
+      { name: 'Elizabeth Douglass', title: 'Trustee', phone: '(517) 819-0229', email: '' },
+      { name: 'Patrick Feldpausch', title: 'Trustee', phone: '(989) 307-0356', email: '' }
+    ]
   },
-  'Nester Twp (Roscommon)': {
-    name: 'Nester Township',
-    county: 'Roscommon',
+  'Clinton:DeWitt': {
+    name: 'DeWitt charter Township',
+    county: 'Clinton',
     officials: [
-      { name: 'Mark R. Kirby', title: 'Supervisor', party: 'Republican' },
-      { name: 'Maryanne Wick', title: 'Clerk', party: 'Republican' },
-      { name: 'Susan Newmyer', title: 'Treasurer', party: 'Republican' },
-      { name: 'Ray Good', title: 'Trustee', party: 'Republican' },
-      { name: 'Terry M. Muma', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Brian Ross', title: 'Supervisor', phone: '(517) 668-0270', email: '' },
+      { name: 'Adam Cramton', title: 'Clerk', phone: '(517) 668-0270', email: '' },
+      { name: 'Sandy Stump', title: 'Treasurer', phone: '(517) 668-1411', email: '' },
+      { name: 'Steven Smith', title: 'Trustee', phone: '(517) 862-5868', email: '' },
+      { name: 'Tom Hamp', title: 'Trustee', phone: '(517) 668-0270', email: '' },
+      { name: 'Lisa Barrone', title: 'Trustee', phone: '(517) 668-0270', email: '' }
+    ]
   },
-  'Richfield Twp (Roscommon)': {
-    name: 'Richfield Township',
-    county: 'Roscommon',
-    website: 'https://richfieldtownship.org',
+  'Clinton:Duplain': {
+    name: 'Duplain Township',
+    county: 'Clinton',
     officials: [
-      { name: 'Ray Wlosinski', title: 'Supervisor', party: 'Republican' },
-      { name: 'Carolyn Minton', title: 'Clerk', party: null },
-      { name: 'Terri Hidey', title: 'Treasurer', party: 'Republican' },
-      { name: 'Veronica Bridson', title: 'Trustee', party: 'Republican' },
-      { name: 'Greg Watt', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Bruce Levey', title: 'Supervisor', phone: '(517) 599-0192', email: '' },
+      { name: 'Dawn Levey', title: 'Clerk', phone: '(517) 927-6258', email: '' },
+      { name: 'Amy Bowen', title: 'Treasurer', phone: '(989) 640-3048', email: '' },
+      { name: 'Robert Ladiski', title: 'Trustee', phone: '(989) 627-4114', email: '' },
+      { name: 'Ryan Boots', title: 'Trustee', phone: '(989) 620-5680', email: '' }
+    ]
   },
-  'Roscommon Twp (Roscommon)': {
-    name: 'Roscommon Township',
-    county: 'Roscommon',
-    website: 'https://roscommontownshipmi.gov',
+  'Clinton:Eagle': {
+    name: 'Eagle Township',
+    county: 'Clinton',
     officials: [
-      { name: 'Diane F. Randall', title: 'Supervisor', party: 'Republican' },
-      { name: 'Carie A. Milburn', title: 'Clerk', party: 'Republican' },
-      { name: 'Mary Ann Hose', title: 'Treasurer', party: 'Republican' },
-      { name: 'Rob Christian', title: 'Trustee', party: 'Republican' },
-      { name: 'Ken Pickard', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Troy Stroud', title: 'Supervisor', phone: '(517) 526-7548', email: '' },
+      { name: 'Laurie Briggs-Dudley', title: 'Clerk', phone: '(517) 526-7548', email: '' },
+      { name: 'Chelsea Hoppes', title: 'Treasurer', phone: '(517) 647-9354', email: '' },
+      { name: 'Michelle Hoppes', title: 'Trustee', phone: '(517) 881-8987', email: '' },
+      { name: 'Robin Currie', title: 'Trustee', phone: '(517) 626-7181', email: '' }
+    ]
   },
-  'South Branch Twp (Roscommon)': {
+  'Clinton:Essex': {
+    name: 'Essex Township',
+    county: 'Clinton',
+    officials: [
+      { name: 'Eric Verlinde', title: 'Supervisor', phone: '(989) 640-5147', email: '' },
+      { name: 'Tim Karasek', title: 'Clerk', phone: '(989) 307-0425', email: '' },
+      { name: 'Kathy George', title: 'Treasurer', phone: '(989) 307-1069', email: '' },
+      { name: 'Isreal Oboyle', title: 'Trustee', phone: '(989) 224-3484', email: '' },
+      { name: 'Jacob Klaus', title: 'Trustee', phone: '(989) 224-3484', email: '' }
+    ]
+  },
+  'Clinton:Greenbush': {
+    name: 'Greenbush Township',
+    county: 'Clinton',
+    officials: [
+      { name: 'Lee Thelen', title: 'Supervisor', phone: '(989) 224-3993', email: '' },
+      { name: 'Ramona Smith', title: 'Clerk', phone: '(989) 224-3993', email: '' },
+      { name: 'Denise Roof', title: 'Treasurer', phone: '(989) 224-3993', email: '' },
+      { name: 'Kyle Grahams', title: 'Trustee', phone: '(989) 224-3993', email: '' },
+      { name: 'Larry Kindel', title: 'Trustee', phone: '(989) 224-3993', email: '' }
+    ]
+  },
+  'Clinton:Lebanon': {
+    name: 'Lebanon Township',
+    county: 'Clinton',
+    officials: [
+      { name: 'Gregory Armbrustmacher', title: 'Supervisor', phone: '(989) 640-4899', email: '' },
+      { name: 'Daniel Smith', title: 'Clerk', phone: '(989) 593-2193', email: '' },
+      { name: 'Michael Klein', title: 'Treasurer', phone: '(989) 640-3630', email: '' },
+      { name: 'Perry Fitzpatrick', title: 'Trustee', phone: '(989) 981-6658', email: '' },
+      { name: 'Dan Bengel', title: 'Trustee', phone: '(517) 819-0879', email: '' }
+    ]
+  },
+  'Clinton:Olive': {
+    name: 'Olive Township',
+    county: 'Clinton',
+    officials: [
+      { name: 'Eric Voisinet', title: 'Supervisor', phone: '(517) 331-3932', email: '' },
+      { name: 'Elizabeth June', title: 'Clerk', phone: '(517) 275-0006', email: '' },
+      { name: 'Bonnie Wohlfert', title: 'Treasurer', phone: '(989) 272-8091', email: '' },
+      { name: 'Louis Faivor', title: 'Trustee', phone: '(989) 627-0658', email: '' },
+      { name: 'Charles Young', title: 'Trustee', phone: '(517) 648-9183', email: '' }
+    ]
+  },
+  'Clinton:Ovid': {
+    name: 'Ovid Township',
+    county: 'Clinton',
+    officials: [
+      { name: 'Jennings West', title: 'Supervisor', phone: '(989) 834-2838', email: '' },
+      { name: 'Claudia Barrett Pluger', title: 'Clerk', phone: '(989) 834-4830', email: '' },
+      { name: 'Nancy Hughson', title: 'Treasurer', phone: '(989) 834-4831', email: '' },
+      { name: 'Bobby Byles', title: 'Trustee', phone: '(989) 640-5088', email: '' },
+      { name: 'Kurt Wolf', title: 'Trustee', phone: '(989) 834-2838', email: '' }
+    ]
+  },
+  'Clinton:Riley': {
+    name: 'Riley Township',
+    county: 'Clinton',
+    officials: [
+      { name: 'Kevin Garvey', title: 'Supervisor', phone: '(517) 243-5760', email: '' },
+      { name: 'Lisa Powell', title: 'Clerk', phone: '(517) 819-6132', email: '' },
+      { name: 'Pam Feldpausch', title: 'Treasurer', phone: '(517) 243-5760', email: '' },
+      { name: 'Trish Martens', title: 'Trustee', phone: '(517) 712-2187', email: '' },
+      { name: 'Brian Lawless', title: 'Trustee', phone: '(517) 243-5760', email: '' }
+    ]
+  },
+  'Clinton:Victor': {
+    name: 'Victor Township',
+    county: 'Clinton',
+    officials: [
+      { name: 'Andrew Wiswasser', title: 'Supervisor', phone: '(517) 651-2094', email: '' },
+      { name: 'Lianne Prange', title: 'Clerk', phone: '(517) 651-1706', email: '' },
+      { name: 'Paula Willoughby', title: 'Treasurer', phone: '(517) 651-2094', email: '' },
+      { name: 'Maggie Sayles', title: 'Trustee', phone: '(517) 651-2094', email: '' },
+      { name: 'Nathan Pesch', title: 'Trustee', phone: '(517) 651-2094', email: '' }
+    ]
+  },
+  'Clinton:Watertown': {
+    name: 'Watertown charter Township',
+    county: 'Clinton',
+    officials: [
+      { name: 'John Maahs', title: 'Supervisor', phone: '(517) 669-5698', email: '' },
+      { name: 'Carolyn Brokob', title: 'Clerk', phone: '(517) 626-6593', email: '' },
+      { name: 'Susan Biergans', title: 'Treasurer', phone: '(517) 626-6593', email: '' },
+      { name: 'Ronald Overton', title: 'Trustee', phone: '(517) 626-6447', email: '' },
+      { name: 'Todd Hufnagel', title: 'Trustee', phone: '(517) 626-6593', email: '' },
+      { name: 'Chad Cooley', title: 'Trustee', phone: '(517) 819-4980', email: '' },
+      { name: 'Holly Madill', title: 'Trustee', phone: '(517) 626-6593', email: '' }
+    ]
+  },
+  'Clinton:Westphalia': {
+    name: 'Westphalia Township',
+    county: 'Clinton',
+    officials: [
+      { name: 'Jon Thelen', title: 'Supervisor', phone: '(989) 587-3411', email: '' },
+      { name: 'Kristana Thelen', title: 'Clerk', phone: '(989) 587-3411', email: '' },
+      { name: 'Vicki Buckley', title: 'Treasurer', phone: '(989) 587-3411', email: '' },
+      { name: 'Andrew Thelen', title: 'Trustee', phone: '(517) 204-0652', email: '' },
+      { name: 'Michelle Barker', title: 'Trustee', phone: '(517) 712-0896', email: '' }
+    ]
+  },
+  'Crawford:Beaver Creek': {
+    name: 'Beaver Creek Township',
+    county: 'Crawford',
+    officials: [
+      { name: 'Kim VanNuck', title: 'Supervisor', phone: '(989) 275-8878', email: '' },
+      { name: 'Jill Peacock', title: 'Clerk', phone: '(989) 275-8878', email: '' },
+      { name: 'Hope Francis', title: 'Treasurer', phone: '(989) 275-8878', email: '' },
+      { name: 'Steve Nelson', title: 'Trustee', phone: '(989) 275-8878', email: '' },
+      { name: 'Mary Dent', title: 'Trustee', phone: '(989) 275-8878', email: '' }
+    ]
+  },
+  'Crawford:Frederic': {
+    name: 'Frederic Township',
+    county: 'Crawford',
+    officials: [
+      { name: 'Brandon Gabriel', title: 'Supervisor', phone: '(989) 350-5150', email: '' },
+      { name: 'Amanda Siwecki', title: 'Clerk', phone: '(989) 348-8778', email: '' },
+      { name: 'Karen Dawson', title: 'Treasurer', phone: '(989) 348-8778', email: '' },
+      { name: 'Randy Richardson', title: 'Trustee', phone: '(989) 348-8778', email: '' },
+      { name: 'Donald Weaver', title: 'Trustee', phone: '(989) 348-8778', email: '' }
+    ]
+  },
+  'Crawford:Grayling': {
+    name: 'Grayling charter Township',
+    county: 'Crawford',
+    officials: [
+      { name: 'Lacey Stephan', title: 'Supervisor', phone: '(989) 348-4361', email: '' },
+      { name: 'Diane Giska', title: 'Clerk', phone: '(989) 348-4361', email: '' },
+      { name: 'Brenda Wargo', title: 'Treasurer', phone: '(989) 348-4361', email: '' },
+      { name: 'JoAnn Michal', title: 'Trustee', phone: '(989) 348-4361', email: '' },
+      { name: 'Joseph Smock', title: 'Trustee', phone: '(989) 348-4361', email: '' },
+      { name: 'Shannon Sorenson', title: 'Trustee', phone: '(989) 348-4361', email: '' },
+      { name: 'Jeri Seithoffer', title: 'Trustee', phone: '(989) 348-4361', email: '' }
+    ]
+  },
+  'Crawford:Lovells': {
+    name: 'Lovells Township',
+    county: 'Crawford',
+    officials: [
+      { name: 'Richard Wright', title: 'Supervisor', phone: '(989) 348-9215', email: '' },
+      { name: 'Janet Dunning', title: 'Clerk', phone: '(989) 348-9215', email: '' },
+      { name: 'Tamara Kengel', title: 'Treasurer', phone: '(989) 348-9215', email: '' },
+      { name: 'Cheryl Hopp', title: 'Trustee', phone: '(989) 348-9215', email: '' },
+      { name: 'Gary Neumann', title: 'Trustee', phone: '(989) 348-9215', email: '' }
+    ]
+  },
+  'Crawford:Maple Forest': {
+    name: 'Maple Forest Township',
+    county: 'Crawford',
+    officials: [
+      { name: 'Tom Coors', title: 'Supervisor', phone: '(989) 348-5794', email: '' },
+      { name: 'April Hehir', title: 'Clerk', phone: '(517) 227-4710', email: '' },
+      { name: 'Denise Joseph', title: 'Treasurer', phone: '(989) 350-3483', email: '' },
+      { name: 'Phyllis Desprez', title: 'Trustee', phone: '(989) 348-5794', email: '' },
+      { name: 'Connie Meyer', title: 'Trustee', phone: '(989) 348-5794', email: '' }
+    ]
+  },
+  'Crawford:South Branch': {
     name: 'South Branch Township',
-    county: 'Roscommon',
-    website: 'https://southbranchtownship.com',
+    county: 'Crawford',
     officials: [
-      { name: 'Anna Sylvester', title: 'Supervisor', party: 'Independent' },
-      { name: 'Brenda Nelson', title: 'Clerk', party: null },
-      { name: 'Cathy Lewis', title: 'Treasurer', party: null },
-      { name: 'Michael Janisse', title: 'Trustee', party: null },
-      { name: 'Scott Barritt', title: 'Trustee', party: null },
-    ],
+      { name: 'Anna Sylvester', title: 'Supervisor', phone: '(989) 275-8232', email: '' },
+      { name: 'Brenda Nelson', title: 'Clerk', phone: '(989) 275-8232', email: '' },
+      { name: 'Kate Barkley', title: 'Treasurer', phone: '(989) 275-8232', email: '' },
+      { name: 'Michael Janisse', title: 'Trustee', phone: '(989) 275-8232', email: '' },
+      { name: 'Scott Barritt', title: 'Trustee', phone: '(989) 619-5325', email: '' }
+    ]
   },
-
-  /* ── Gladwin County townships ── */
-
-  'Beaverton Twp (Gladwin)': {
-    name: 'Beaverton Township',
-    county: 'Gladwin',
-    website: 'https://beavertontownship.com',
-    officials: [
-      { name: 'Joseph Sprague', title: 'Supervisor', party: null },
-      { name: 'Kelly Avila', title: 'Clerk', party: null },
-      { name: 'Suzanne Sutton', title: 'Treasurer', party: null },
-      { name: 'Tom Murry', title: 'Trustee', party: null },
-      { name: 'Dawn Keller', title: 'Trustee', party: null },
-    ],
-  },
-  'Bentley Twp (Gladwin)': {
-    name: 'Bentley Township',
-    county: 'Gladwin',
-    officials: [
-      { name: 'Justine Osborn', title: 'Supervisor', party: null },
-      { name: 'Kristie Resmer', title: 'Clerk', party: null },
-      { name: 'Sharon Roy-Krahner', title: 'Treasurer', party: null },
-    ],
-  },
-  'Billings Twp (Gladwin)': {
-    name: 'Billings Township',
-    county: 'Gladwin',
-    website: 'http://billingstownship.org',
-    officials: [
-      { name: 'Tim Mester', title: 'Supervisor', party: null },
-      { name: 'Linda J. McSweyn', title: 'Clerk', party: null },
-      { name: 'Len Pytlak', title: 'Treasurer', party: null },
-      { name: 'Cindy Whittington', title: 'Trustee', party: null },
-      { name: 'Brian Johnson', title: 'Trustee', party: null },
-    ],
-  },
-  'Bourret Twp (Gladwin)': {
-    name: 'Bourret Township',
-    county: 'Gladwin',
-    website: 'https://www.bourrettownship.com',
-    officials: [
-      { name: 'Susan M. Morgan', title: 'Supervisor', party: null },
-      { name: 'Jeff Fournier', title: 'Clerk', party: null },
-      { name: 'Ruth Fournier', title: 'Treasurer', party: null },
-      { name: 'Cindy Pepin', title: 'Trustee', party: null },
-      { name: 'Don Hunt', title: 'Trustee', party: null },
-    ],
-  },
-  'Buckeye Twp (Gladwin)': {
-    name: 'Buckeye Township',
-    county: 'Gladwin',
-    officials: [
-      { name: 'Kevin VanTiem', title: 'Supervisor', party: null },
-      { name: 'Sue Walker', title: 'Clerk', party: null },
-      { name: 'Steve Broka', title: 'Treasurer', party: null },
-      { name: 'Karen Csernyik', title: 'Trustee', party: null },
-      { name: 'Edwin R. Schroeder', title: 'Trustee', party: null },
-    ],
-  },
-  'Butman Twp (Gladwin)': {
-    name: 'Butman Township',
-    county: 'Gladwin',
-    website: 'https://butmantwp.com',
-    officials: [
-      { name: 'Danny Gonzales', title: 'Supervisor', party: null },
-      { name: 'Dianna Gonzales', title: 'Clerk', party: null },
-      { name: 'Susie Ruppert', title: 'Treasurer', party: null },
-      { name: 'Mike Mahaffy', title: 'Trustee', party: null },
-      { name: 'Darleen Gauci', title: 'Trustee', party: null },
-    ],
-  },
-  'Clement Twp (Gladwin)': {
-    name: 'Clement Township',
-    county: 'Gladwin',
-    website: 'http://clementtwp.org',
-    officials: [
-      { name: 'Chuck Sikora', title: 'Supervisor', party: null },
-      { name: 'Eric House', title: 'Clerk', party: null },
-      { name: 'Carolyn Ochab', title: 'Treasurer', party: null },
-      { name: 'Kim Davis', title: 'Trustee', party: null },
-      { name: 'Albert Lee', title: 'Trustee', party: null },
-    ],
-  },
-  'Gladwin Twp (Gladwin)': {
-    name: 'Gladwin Township',
-    county: 'Gladwin',
-    website: 'https://gladwintownship.org',
-    officials: [
-      { name: 'Robert Weaver', title: 'Supervisor', party: null },
-      { name: 'Kristie Simrau', title: 'Clerk', party: null },
-      { name: 'Jodie Klamer', title: 'Treasurer', party: null },
-      { name: 'Jennifer Slabic', title: 'Trustee', party: null },
-      { name: 'Doug Ritchie', title: 'Trustee', party: null },
-    ],
-  },
-  'Grim Twp (Gladwin)': {
-    name: 'Grim Township',
-    county: 'Gladwin',
-    officials: [
-      { name: 'Alan Piaskowski', title: 'Supervisor', party: null },
-      { name: "Linda O'Dell", title: 'Clerk', party: null },
-      { name: 'Renee Dunn Green', title: 'Treasurer', party: null },
-      { name: 'Bernard Barber', title: 'Trustee', party: null },
-      { name: 'Lonnie Pacholke', title: 'Trustee', party: null },
-    ],
-  },
-  'Grout Twp (Gladwin)': {
-    name: 'Grout Township',
-    county: 'Gladwin',
-    website: 'https://grouttownship.org',
-    officials: [
-      { name: 'James Shea', title: 'Supervisor', party: null },
-      { name: 'Diana Fritzler', title: 'Clerk', party: null },
-      { name: 'Melody A. Hill', title: 'Treasurer', party: null },
-      { name: 'Richard Christie', title: 'Trustee', party: null },
-      { name: 'Julie Beck', title: 'Trustee', party: null },
-    ],
-  },
-  'Hay Twp (Gladwin)': {
-    name: 'Hay Township',
-    county: 'Gladwin',
-    website: 'https://haytownship.org',
-    officials: [
-      { name: 'Peter Doyle', title: 'Supervisor', party: null },
-      { name: 'Sandra Griffin', title: 'Clerk', party: null },
-      { name: 'Diane Kludt', title: 'Treasurer', party: null },
-      { name: 'Jason Becker', title: 'Trustee', party: null },
-      { name: 'Steve Monaghan', title: 'Trustee', party: null },
-    ],
-  },
-  'Sage Twp (Gladwin)': {
-    name: 'Sage Township',
-    county: 'Gladwin',
-    website: 'https://www.sagetownship.org',
-    officials: [
-      { name: 'Renee Zelt', title: 'Supervisor', party: null },
-      { name: 'Janet Smith', title: 'Clerk', party: null },
-      { name: 'Laura Flach', title: 'Treasurer', party: null },
-      { name: 'Kent A. Crawford', title: 'Trustee', party: null },
-      { name: 'Jeff Swanstra', title: 'Trustee', party: null },
-    ],
-  },
-  'Secord Twp (Gladwin)': {
-    name: 'Secord Township',
-    county: 'Gladwin',
-    website: 'https://secordtwp.com',
-    officials: [
-      { name: 'Joel Vernier', title: 'Supervisor', party: null },
-      { name: 'Kristine Panetta', title: 'Clerk', party: null },
-      { name: 'Cheryl Stiehl', title: 'Treasurer', party: null },
-      { name: 'Bill Bowman', title: 'Trustee', party: null },
-      { name: 'Martin Holmes', title: 'Trustee', party: null },
-    ],
-  },
-  'Sherman Twp (Gladwin)': {
-    name: 'Sherman Township',
-    county: 'Gladwin',
-    website: 'https://shermantownshipgladwin.com',
-    officials: [
-      { name: 'John Jurgensen', title: 'Supervisor', party: null },
-      { name: 'Kay Whelen', title: 'Clerk', party: null },
-      { name: 'Nathan Paisley', title: 'Treasurer', party: null },
-      { name: 'Keith Good', title: 'Trustee', party: null },
-      { name: 'Sarah Paisley', title: 'Trustee', party: null },
-    ],
-  },
-  'Tobacco Twp (Gladwin)': {
-    name: 'Tobacco Township',
-    county: 'Gladwin',
-    website: 'https://tobaccotownship.org',
-    officials: [
-      { name: 'Craig Bergman', title: 'Supervisor', party: null },
-      { name: 'Whitney King', title: 'Clerk', party: null },
-      { name: 'Julie VanKuiken', title: 'Treasurer', party: null },
-      { name: 'John Blades', title: 'Trustee', party: null },
-      { name: 'BJ Oard', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Alpena County townships ── */
-
-  'Alpena Twp': {
-    name: 'Charter Township of Alpena',
-    county: 'Alpena',
-    website: 'https://www.alpenatownship.com',
-    officials: [
-      { name: 'Abbi Kaszubowski', title: 'Supervisor', party: null },
-      { name: 'Michele Palevich', title: 'Clerk', party: null },
-      { name: 'Laura Ellery-Somers', title: 'Treasurer', party: null },
-      { name: 'Norm Poli', title: 'Trustee', party: null },
-      { name: 'Cash Kroll', title: 'Trustee', party: null },
-      { name: 'Steve Lappan', title: 'Trustee', party: null },
-      { name: 'Russ Rhynard', title: 'Trustee', party: null },
-    ],
-  },
-  'Green': {
-    name: 'Green Township',
-    county: 'Alpena',
-    website: 'https://greentownshipmi.org',
-    officials: [
-      { name: 'Eric Smith', title: 'Supervisor', party: null },
-      { name: 'Melony Sumerix', title: 'Clerk', party: null },
-      { name: 'Melanie Roznowski', title: 'Treasurer', party: null },
-      { name: 'Kendall Sumerix', title: 'Trustee', party: null },
-      { name: 'Herb Gamage', title: 'Trustee', party: null },
-    ],
-  },
-  'Long Rapids': {
-    name: 'Long Rapids Township',
-    county: 'Alpena',
-    website: 'https://longrapidstownship.org',
-    officials: [
-      { name: 'Todd Precord', title: 'Supervisor', party: null },
-      { name: 'Mary Sue Thomson', title: 'Clerk', party: null },
-      { name: 'Wendy Johnson', title: 'Treasurer', party: null },
-      { name: 'Brad Styma', title: 'Trustee', party: null },
-      { name: 'Vickie Ritter', title: 'Trustee', party: null },
-    ],
-  },
-  'Maple Ridge': {
-    name: 'Maple Ridge Township',
-    county: 'Alpena',
-    website: 'https://alpenacounty.org/435/Maple-Ridge-Township',
-    officials: [
-      { name: 'John Male Sr.', title: 'Supervisor', party: null },
-      { name: 'Melissa Hoskinson', title: 'Clerk', party: null },
-      { name: 'Krisi Hoppe', title: 'Treasurer', party: null },
-      { name: 'Lenore Kasubowski', title: 'Trustee', party: null },
-      { name: 'Robert Trelfa', title: 'Trustee', party: null },
-    ],
-  },
-  'Ossineke': {
-    name: 'Ossineke Township',
-    county: 'Alpena',
-    website: 'https://ossineketownship.com',
-    officials: [
-      { name: 'Kenneth Lobert', title: 'Supervisor', party: null },
-      { name: "Jo'Lee Dorie", title: 'Clerk', party: null },
-      { name: 'Denise Schultz', title: 'Treasurer', party: null },
-      { name: 'Jerry Leschinger', title: 'Trustee', party: null },
-      { name: 'Randy Fairbanks', title: 'Trustee', party: null },
-    ],
-  },
-  'Sanborn': {
-    name: 'Sanborn Township',
-    county: 'Alpena',
-    website: 'https://sanborntwp.com',
-    officials: [
-      { name: 'Kenneth Gauthier', title: 'Supervisor', party: null },
-      { name: 'Peggy Ceslick', title: 'Clerk', party: null },
-      { name: 'Mary Eaton', title: 'Treasurer', party: null },
-      { name: 'Gary Stephan', title: 'Trustee', party: null },
-      { name: 'Dale Hart Jr.', title: 'Trustee', party: null },
-    ],
-  },
-  'Wellington': {
-    name: 'Wellington Township',
-    county: 'Alpena',
-    website: 'https://www.alpenacounty.org/578/Wellington-Township',
-    officials: [
-      { name: 'Ron Lucas', title: 'Supervisor', party: null },
-      { name: 'Pamela Madsen', title: 'Clerk', party: null },
-      { name: 'Grace Lumsden', title: 'Treasurer', party: null },
-    ],
-  },
-  'Wilson': {
-    name: 'Wilson Township',
-    county: 'Alpena',
-    website: 'https://wilsontownshipalpena.com',
-    officials: [
-      { name: 'Dan Hibner', title: 'Supervisor', party: null },
-      { name: 'Rhonda Ritthaler', title: 'Clerk', party: null },
-      { name: 'Melissa Werth', title: 'Treasurer', party: null },
-      { name: 'Mike Centala', title: 'Trustee', party: null },
-      { name: 'Cody Werth', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Montmorency County townships ── */
-
-  'Albert': {
-    name: 'Albert Township',
-    county: 'Montmorency',
-    website: 'https://alberttwpmi.gov/',
-    officials: [
-      { name: 'Michael Szukhent', title: 'Supervisor', party: null },
-      { name: 'Sandra L. Raffin', title: 'Clerk', party: null },
-      { name: 'John Righi', title: 'Treasurer', party: null },
-      { name: 'Mark Bowser', title: 'Trustee', party: null },
-      { name: 'Marsha McDonald', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Avery': {
-    name: 'Avery Township',
-    county: 'Montmorency',
-    website: 'https://averytownship.com/',
-    officials: [
-      { name: 'Thomas Seymour', title: 'Supervisor', party: null },
-      { name: 'Rebecca Smith', title: 'Clerk', party: null },
-      { name: 'Elizabeth Culham', title: 'Treasurer', party: null },
-      { name: 'Gary D. McMurphy', title: 'Trustee', party: null },
-      { name: 'Bernard H. Yantz', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Briley': {
-    name: 'Briley Township',
-    county: 'Montmorency',
-    website: 'https://brileytownshipmi.gov/',
-    officials: [
-      { name: 'Ken Werner', title: 'Supervisor', party: null },
-      { name: 'Gordon Green', title: 'Clerk', party: null },
-      { name: 'Vanessa Werner', title: 'Treasurer', party: null },
-      { name: 'Dan Kent', title: 'Trustee', party: null },
-      { name: 'Evelyn White', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Hillman Twp': {
-    name: 'Hillman Township',
-    county: 'Montmorency',
-    website: 'https://hillmantownship.com/',
-    officials: [
-      { name: 'John Burr', title: 'Supervisor', party: null },
-      { name: 'Kelli Ableidinger', title: 'Clerk', party: null },
-      { name: 'Jody Vanderveer', title: 'Treasurer', party: null },
-      { name: 'Steven Achatz', title: 'Trustee', party: null },
-      { name: 'Daryl Peterson', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Loud': {
-    name: 'Loud Township',
-    county: 'Montmorency',
-    officials: [
-      { name: 'Beau Williams', title: 'Supervisor', party: null },
-      { name: 'Robin Chinavare', title: 'Clerk', party: null },
-      { name: 'Kimberly Ann Rippee', title: 'Treasurer', party: null },
-      { name: 'Joel Bixel', title: 'Trustee', party: null },
-      { name: 'Donna Stehle', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Montmorency Twp': {
-    name: 'Montmorency Township',
-    county: 'Montmorency',
-    website: 'https://www.montmorencytownship.org/',
-    officials: [
-      { name: 'Kelly R. Bennett', title: 'Supervisor', party: null },
-      { name: 'Connie Brandt', title: 'Clerk', party: null },
-      { name: 'Paula M. Miller', title: 'Treasurer', party: null },
-      { name: 'Dwight A. Hardies', title: 'Trustee', party: null },
-      { name: 'Gerald Steinke', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Rust': {
-    name: 'Rust Township',
-    county: 'Montmorency',
-    website: 'https://rusttownship.com/',
-    officials: [
-      { name: 'Jon Schulze', title: 'Supervisor', party: null },
-      { name: 'Carleen Klein', title: 'Clerk', party: null },
-      { name: 'Lisa Benac-Appelgren', title: 'Treasurer', party: null },
-      { name: 'James Fifield', title: 'Trustee', party: null },
-      { name: 'Janice L. Richiert', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Vienna': {
-    name: 'Vienna Township',
-    county: 'Montmorency',
-    officials: [
-      { name: 'Cheryl Klein', title: 'Supervisor', party: null },
-      { name: 'Elaine Dixon', title: 'Clerk', party: null },
-      { name: 'Peggy Bush', title: 'Treasurer', party: null },
-      { name: 'Mayree Payne', title: 'Trustee', party: null },
-      { name: 'Diane E. Webber', title: 'Trustee', party: null },
-    ],
-  },
-
-  /* ── Delta County townships ── */
-
-  'Baldwin Twp': {
+  'Delta:Baldwin': {
     name: 'Baldwin Township',
     county: 'Delta',
-    website: 'https://deltacountymi.gov/township-information/baldwin-township/',
     officials: [
-      { name: 'Lisa K. Carlson', title: 'Supervisor', party: null },
-      { name: 'Terre Anderson', title: 'Clerk', party: null },
-      { name: 'Mark S. DePuydt', title: 'Treasurer', party: null },
-      { name: 'Dale K. Schneider', title: 'Trustee', party: null },
-      { name: 'Karen L. Van Damme', title: 'Trustee', party: null },
-    ],
+      { name: 'Lisa Carlson', title: 'Supervisor', phone: '(906) 359-4228', email: '' },
+      { name: 'Terre Anderson', title: 'Clerk', phone: '(906) 359-4228', email: '' },
+      { name: 'Mark Depuydt', title: 'Treasurer', phone: '(906) 359-4228', email: '' },
+      { name: 'Karen VanDamme', title: 'Trustee', phone: '(906) 359-4228', email: '' }
+    ]
   },
-
-  'Bay de Noc Twp': {
+  'Delta:Bark River': {
+    name: 'Bark River Township',
+    county: 'Delta',
+    officials: [
+      { name: 'Matt Hanson', title: 'Supervisor', phone: '(906) 466-7422', email: '' },
+      { name: 'Mark Ray', title: 'Clerk', phone: '(906) 466-2331', email: '' },
+      { name: 'Judith Davis', title: 'Treasurer', phone: '(906) 466-2331', email: '' },
+      { name: 'Randy Gorecki', title: 'Trustee', phone: '(906) 399-4001', email: '' },
+      { name: 'Ken Knauf', title: 'Trustee', phone: '(906) 466-2826', email: '' }
+    ]
+  },
+  'Delta:Bay de Noc': {
     name: 'Bay de Noc Township',
     county: 'Delta',
-    website: 'https://deltacountymi.gov/township-information/bay-de-noc-township/',
     officials: [
-      { name: 'Ginny Dahlin', title: 'Supervisor', party: null },
-      { name: 'Maggie Anderson', title: 'Clerk', party: null },
-      { name: 'Diane E. Wicklund', title: 'Treasurer', party: null },
-      { name: 'Michael J. Balaskovitz', title: 'Trustee', party: null },
-      { name: 'Jayne Peterson', title: 'Trustee', party: null },
-    ],
+      { name: 'Ginny Dahlin', title: 'Supervisor', phone: '(906) 474-5042', email: '' },
+      { name: 'Maggie Anderson', title: 'Clerk', phone: '(906) 399-9793', email: '' },
+      { name: 'Diane Wicklund', title: 'Treasurer', phone: '(906) 474-6185', email: '' },
+      { name: 'Jayne Peterson', title: 'Trustee', phone: '(906) 474-6745', email: '' },
+      { name: 'Michael Balaskovitz', title: 'Trustee', phone: '', email: '' }
+    ]
   },
-
-  'Brampton Twp': {
+  'Delta:Brampton': {
     name: 'Brampton Township',
     county: 'Delta',
-    website: 'https://deltacountymi.gov/township-information/brampton-township/',
     officials: [
-      { name: 'Dennis Maufort', title: 'Supervisor', party: null },
-      { name: 'Debbie Edwardsen', title: 'Clerk', party: null },
-      { name: 'Tonia S. Thull', title: 'Treasurer', party: null },
-      { name: 'Gladys Elegeert', title: 'Trustee', party: null },
-      { name: 'Robin Smauley', title: 'Trustee', party: null },
-    ],
+      { name: 'Dennis Maufort', title: 'Supervisor', phone: '(906) 428-4790', email: '' },
+      { name: 'Debbie Edwardsen', title: 'Clerk', phone: '(906) 428-2820', email: '' },
+      { name: 'Tonia Thull', title: 'Treasurer', phone: '(906) 428-4790', email: '' },
+      { name: 'Gladys Elegeert', title: 'Trustee', phone: '(906) 428-9647', email: '' },
+      { name: 'Robin Smauley', title: 'Trustee', phone: '(906) 399-6437', email: '' }
+    ]
   },
-
-  'Cornell Twp': {
+  'Delta:Cornell': {
     name: 'Cornell Township',
     county: 'Delta',
-    website: 'https://deltacountymi.gov/township-information/cornell-township/',
     officials: [
-      { name: 'Jerry J. Plourde', title: 'Supervisor', party: null },
-      { name: 'Diana L. Clark', title: 'Clerk', party: null },
-      { name: 'Sue Caron', title: 'Treasurer', party: null },
-      { name: 'Edward L. Fleury', title: 'Trustee', party: null },
-      { name: 'Gary J. Dubord', title: 'Trustee', party: null },
-    ],
+      { name: 'Jerry Plourde', title: 'Supervisor', phone: '(906) 420-0022', email: '' },
+      { name: 'Diana Clark', title: 'Clerk', phone: '(906) 399-2201', email: '' },
+      { name: 'Sue Caron', title: 'Treasurer', phone: '(906) 384-6534', email: '' },
+      { name: 'Edward Fleury', title: 'Trustee', phone: '(906) 384-6980', email: '' },
+      { name: 'Gary Dubord', title: 'Trustee', phone: '(906) 384-6985', email: '' }
+    ]
   },
-
-  'Ensign Twp': {
+  'Delta:Ensign': {
     name: 'Ensign Township',
     county: 'Delta',
-    website: 'https://deltacountymi.gov/township-information/ensign-township/',
     officials: [
-      { name: 'John Wolf', title: 'Supervisor', party: null },
-      { name: 'Mary Wilson', title: 'Clerk', party: null },
-      { name: 'Sherri Pratt Parrett', title: 'Treasurer', party: null },
-      { name: 'Darryl Lindquist', title: 'Trustee', party: null },
-      { name: 'Becky O\'Brien', title: 'Trustee', party: null },
-    ],
+      { name: 'John Wolf', title: 'Supervisor', phone: '(906) 474-9373', email: '' },
+      { name: 'Mary Wilson', title: 'Clerk', phone: '(906) 474-9944', email: '' },
+      { name: 'Sherri Parrett', title: 'Treasurer', phone: '(906) 399-0531', email: '' },
+      { name: 'Becky O\'Brien', title: 'Trustee', phone: '(906) 280-4840', email: '' },
+      { name: 'Darryl Lindquist', title: 'Trustee', phone: '(906) 474-9373', email: '' }
+    ]
   },
-
-  'Escanaba Twp': {
+  'Delta:Escanaba': {
     name: 'Escanaba Township',
     county: 'Delta',
-    website: 'https://escanabatownshipmi.gov',
     officials: [
-      { name: 'Tom Rymkos', title: 'Supervisor', party: null },
-      { name: 'Theresa Chenier', title: 'Clerk', party: null },
-      { name: 'Kim Knauf-Wyckoff', title: 'Treasurer', party: null },
-      { name: 'Al Gareau', title: 'Trustee', party: null },
-      { name: 'Norman Fleury', title: 'Trustee', party: null },
-    ],
+      { name: 'Thomas Rymkos', title: 'Supervisor', phone: '(906) 280-3232', email: '' },
+      { name: 'Theresa Chenier', title: 'Clerk', phone: '(906) 789-1887', email: '' },
+      { name: 'Kim Knauf Wyckoff', title: 'Treasurer', phone: '(906) 420-2911', email: '' },
+      { name: 'Ann LaBumbard', title: 'Trustee', phone: '(906) 399-3642', email: '' },
+      { name: 'Nathan Neumeier', title: 'Trustee', phone: '(906) 280-0627', email: '' }
+    ]
   },
-
-  'Ford River Twp': {
+  'Delta:Fairbanks': {
+    name: 'Fairbanks Township',
+    county: 'Delta',
+    officials: [
+      { name: 'Michael Lang', title: 'Supervisor', phone: '(906) 644-2392', email: '' },
+      { name: 'Sondra Casey', title: 'Clerk', phone: '(906) 644-7198', email: '' },
+      { name: 'Linda Ranguette', title: 'Treasurer', phone: '(906) 644-2080', email: '' },
+      { name: 'Ron Collins', title: 'Trustee', phone: '(906) 644-2022', email: '' },
+      { name: 'Daniel Dalgord', title: 'Trustee', phone: '(906) 644-2276', email: '' }
+    ]
+  },
+  'Delta:Ford River': {
     name: 'Ford River Township',
     county: 'Delta',
-    website: 'https://fordriver.org',
     officials: [
-      { name: 'Stephen Nelson', title: 'Supervisor', party: 'Republican' },
-      { name: 'Debbie Brown', title: 'Clerk', party: 'Republican' },
-      { name: 'Amanda Wagner', title: 'Treasurer', party: 'Republican' },
-      { name: 'Jayne Pendergraft-Church', title: 'Trustee', party: 'Democratic' },
-      { name: 'Robert Valentine', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Stephen Nelson', title: 'Supervisor', phone: '(906) 786-8532', email: '' },
+      { name: 'Debbi Brown', title: 'Clerk', phone: '(906) 786-8532', email: '' },
+      { name: 'Amanda Wagner', title: 'Treasurer', phone: '(906) 399-5876', email: '' },
+      { name: 'Jayne Church', title: 'Trustee', phone: '(906) 786-3213', email: '' },
+      { name: 'Bob Valentine', title: 'Trustee', phone: '(906) 280-5419', email: '' }
+    ]
   },
-
-  'Garden Twp': {
+  'Delta:Garden': {
     name: 'Garden Township',
     county: 'Delta',
-    website: 'https://www.gardentwp.com',
     officials: [
-      { name: 'Kathy Young', title: 'Supervisor', party: null },
-      { name: 'Brenda Lester', title: 'Clerk', party: null },
-      { name: 'Jenna Silkworth', title: 'Treasurer', party: null },
-      { name: 'Craig Potvin', title: 'Trustee', party: null },
-      { name: 'Susan Rochefort', title: 'Trustee', party: null },
-    ],
+      { name: 'Katherine Young', title: 'Supervisor', phone: '(906) 450-1878', email: '' },
+      { name: 'Brenda Lester', title: 'Clerk', phone: '(906) 644-7602', email: '' },
+      { name: 'Jenna Silkworth', title: 'Treasurer', phone: '(906) 644-7602', email: '' },
+      { name: 'Craig Potvin', title: 'Trustee', phone: '(906) 450-5622', email: '' },
+      { name: 'Susan Rochefort', title: 'Trustee', phone: '(906) 450-2458', email: '' }
+    ]
   },
-
-  'Maple Ridge Twp': {
+  'Delta:Maple Ridge': {
     name: 'Maple Ridge Township',
     county: 'Delta',
-    website: 'https://deltacountymi.gov/township-information/maple-ridge-township/',
     officials: [
-      { name: 'Michael Lepisto', title: 'Supervisor', party: null },
-      { name: 'Sue Sicotte', title: 'Clerk', party: null },
-      { name: 'Barbara Nummilien', title: 'Treasurer', party: null },
-    ],
+      { name: 'Mike Lepisto', title: 'Supervisor', phone: '(906) 553-9830', email: '' },
+      { name: 'Susan Sicotte', title: 'Clerk', phone: '(906) 399-7079', email: '' },
+      { name: 'Barb Nummilien', title: 'Treasurer', phone: '(906) 356-6119', email: '' },
+      { name: 'Sandra Beauchamp', title: 'Trustee', phone: '(906) 235-1629', email: '' },
+      { name: 'Judith Trudell', title: 'Trustee', phone: '(906) 356-6003', email: '' }
+    ]
   },
-
-  'Masonville Twp': {
+  'Delta:Masonville': {
     name: 'Masonville Township',
     county: 'Delta',
-    website: 'https://deltacountymi.gov/township-information/masonville-township/',
     officials: [
-      { name: 'Wendy M. Holzenkamp', title: 'Supervisor', party: null },
-      { name: 'Lynn M. Herzog', title: 'Clerk', party: null },
-      { name: 'Esther M. Davis', title: 'Treasurer', party: null },
-      { name: 'Karl Jaeger', title: 'Trustee', party: null },
-      { name: 'Travis Cary', title: 'Trustee', party: null },
-    ],
+      { name: 'Wendy Holzenkamp', title: 'Supervisor', phone: '(906) 399-8909', email: '' },
+      { name: 'Lynn Herzog', title: 'Clerk', phone: '(906) 474-9505', email: '' },
+      { name: 'Esther Davis', title: 'Treasurer', phone: '(906) 474-9286', email: '' },
+      { name: 'Travis Cary', title: 'Trustee', phone: '(906) 399-9797', email: '' },
+      { name: 'Karl Jaeger', title: 'Trustee', phone: '(906) 290-0011', email: '' }
+    ]
   },
-
-  'Nahma Twp': {
+  'Delta:Nahma': {
     name: 'Nahma Township',
     county: 'Delta',
-    website: 'https://www.nahmatownship.us',
     officials: [
-      { name: 'Herbert Pomeroy', title: 'Supervisor', party: null },
-      { name: 'Michelle Lass', title: 'Clerk', party: null },
-      { name: 'Kathy Fries', title: 'Treasurer', party: null },
-      { name: 'Suzanne Kacer', title: 'Trustee', party: null },
-      { name: 'Mary LaVigne', title: 'Trustee', party: null },
-    ],
+      { name: 'Herb Pomeroy', title: 'Supervisor', phone: '(906) 420-3209', email: '' },
+      { name: 'Michelle Lass', title: 'Clerk', phone: '(906) 420-5077', email: '' },
+      { name: 'Kathy Fries', title: 'Treasurer', phone: '(906) 553-1027', email: '' },
+      { name: 'Mary LaVigne', title: 'Trustee', phone: '(906) 644-2029', email: '' },
+      { name: 'Sue Kacer', title: 'Trustee', phone: '(906) 428-6728', email: '' }
+    ]
   },
-
-  'Wells Twp (Delta)': {
+  'Delta:Wells': {
     name: 'Wells Township',
     county: 'Delta',
-    website: 'https://www.wellsdeltami.net',
     officials: [
-      { name: 'Tony Millette', title: 'Supervisor', party: null },
-      { name: 'Tina Jensen', title: 'Clerk', party: null },
-      { name: 'Karen Kobasic', title: 'Treasurer', party: null },
-      { name: 'Brett Way', title: 'Trustee', party: null },
-      { name: 'Shannon Dubord', title: 'Trustee', party: null },
-      { name: 'Gloria F. Johnson', title: 'Trustee', party: null },
-      { name: 'Vicki Kositzky', title: 'Trustee', party: null },
-    ],
+      { name: 'Anthony Millette', title: 'Supervisor', phone: '(906) 786-0839', email: '' },
+      { name: 'Tina Jensen', title: 'Clerk', phone: '(906) 786-0839', email: '' },
+      { name: 'Karen Kobasic', title: 'Treasurer', phone: '(906) 786-0839', email: '' },
+      { name: 'Gloria Johnson', title: 'Trustee', phone: '(906) 786-0839', email: '' },
+      { name: 'Brett Way', title: 'Trustee', phone: '(906) 786-0839', email: '' },
+      { name: 'Shannon Dubord', title: 'Trustee', phone: '(906) 786-0839', email: '' },
+      { name: 'Vicki Kositzky', title: 'Trustee', phone: '(906) 786-0839', email: '' }
+    ]
   },
-
-  /* ── Dickinson County townships ── */
-
-  'Breen Twp': {
+  'Dickinson:Breen': {
     name: 'Breen Township',
     county: 'Dickinson',
-    website: 'https://www.breentwp.gov',
     officials: [
-      { name: 'Travis Woodward', title: 'Supervisor', party: 'Republican' },
-      { name: 'Samantha Mattson', title: 'Clerk', party: null },
-      { name: 'Katherine Dixon', title: 'Treasurer', party: null },
-      { name: 'Robert Massie', title: 'Trustee', party: 'Republican' },
-      { name: 'Mick Reynolds', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Travis Woodward', title: 'Supervisor', phone: '(906) 271-0108', email: '' },
+      { name: 'Emme Massie', title: 'Clerk', phone: '(906) 246-3555', email: '' },
+      { name: 'Katie Dixon', title: 'Treasurer', phone: '', email: '' },
+      { name: 'Mickey Reynolds', title: 'Trustee', phone: '', email: '' },
+      { name: 'Rob Massie', title: 'Trustee', phone: '(906) 246-3555', email: '' }
+    ]
   },
-
-  'Breitung Charter Twp': {
-    name: 'Breitung Charter Township',
+  'Dickinson:Breitung': {
+    name: 'Breitung charter Township',
     county: 'Dickinson',
-    website: 'https://www.breitungtownshipmi.gov',
     officials: [
-      { name: 'Denny Olson', title: 'Supervisor', party: 'Republican' },
-      { name: 'Karie A. Taff', title: 'Clerk', party: null },
-      { name: 'Heather Lieburn', title: 'Treasurer', party: 'Republican' },
-      { name: 'Brent Johnson', title: 'Trustee', party: 'Republican' },
-      { name: 'Ben Peterson', title: 'Trustee', party: 'Republican' },
-      { name: 'Sharon Reuter', title: 'Trustee', party: 'Republican' },
-      { name: 'Paul J. Taff', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Denny Olson', title: 'Supervisor', phone: '(906) 563-8181', email: '' },
+      { name: 'Hannah Chrivia', title: 'Clerk', phone: '(906) 779-2050', email: '' },
+      { name: 'Heather Lieburn', title: 'Treasurer', phone: '(906) 779-2050', email: '' },
+      { name: 'Benjamin Peterson', title: 'Trustee', phone: '(906) 221-7703', email: '' },
+      { name: 'Brent Johnson', title: 'Trustee', phone: '(906) 779-2050', email: '' },
+      { name: 'Sharon Reuter', title: 'Trustee', phone: '(906) 779-2050', email: '' },
+      { name: 'Michael Day', title: 'Trustee', phone: '(906) 779-2050', email: '' }
+    ]
   },
-
-  'Felch Twp': {
+  'Dickinson:Felch': {
     name: 'Felch Township',
     county: 'Dickinson',
-    website: 'https://felchtownship.gov',
     officials: [
-      { name: 'Robert Mattson', title: 'Supervisor', party: 'Republican' },
-      { name: 'Darrell J. Oman', title: 'Clerk', party: 'Republican' },
-      { name: 'Marilyn Steinbrecher', title: 'Treasurer', party: 'Republican' },
-      { name: 'Darwin Dixon', title: 'Trustee', party: 'Republican' },
-      { name: 'Greg Wille', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Robert Mattson', title: 'Supervisor', phone: '(906) 282-6402', email: '' },
+      { name: 'Darrell Oman', title: 'Clerk', phone: '(906) 246-3286', email: '' },
+      { name: 'Marilyn Steinbrecher', title: 'Treasurer', phone: '(906) 246-3531', email: '' },
+      { name: 'Greg Wille', title: 'Trustee', phone: '(906) 282-8492', email: '' },
+      { name: 'Darwin Dixon', title: 'Trustee', phone: '(906) 869-5309', email: '' }
+    ]
   },
-
-  'Norway Twp': {
+  'Dickinson:Norway': {
     name: 'Norway Township',
     county: 'Dickinson',
-    website: 'https://norwaytwpmi.com',
     officials: [
-      { name: 'Don Byczek', title: 'Supervisor', party: 'Democratic' },
-      { name: 'Joyce Giuliani', title: 'Clerk', party: 'Republican' },
-      { name: 'Jeffrey Edwards', title: 'Treasurer', party: 'Republican' },
-      { name: 'Brian K. Pellegrini', title: 'Trustee', party: 'Republican' },
-      { name: 'David B. Solda', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Don Byczek', title: 'Supervisor', phone: '(906) 563-9100', email: '' },
+      { name: 'Joyce Giuliani', title: 'Clerk', phone: '(906) 563-9100', email: '' },
+      { name: 'Jeffrey Edwards', title: 'Treasurer', phone: '(906) 563-9100', email: '' },
+      { name: 'David Solda', title: 'Trustee', phone: '(906) 563-9100', email: '' },
+      { name: 'Brian Pellegrini', title: 'Trustee', phone: '(906) 563-9100', email: '' }
+    ]
   },
-
-  'Sagola Twp': {
+  'Dickinson:Sagola': {
     name: 'Sagola Township',
     county: 'Dickinson',
-    website: 'https://sagolatwp.com',
     officials: [
-      { name: 'Ryan Mulder', title: 'Supervisor', party: 'Republican' },
-      { name: 'Julie Roell', title: 'Clerk', party: 'Republican' },
-      { name: 'Marissa Berg', title: 'Treasurer', party: 'Republican' },
-      { name: 'Lucas Fleming', title: 'Trustee', party: 'Republican' },
-      { name: 'David Roell', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Ryan Mulder', title: 'Supervisor', phone: '(906) 282-0607', email: '' },
+      { name: 'Julie Roell', title: 'Clerk', phone: '(906) 542-3824', email: '' },
+      { name: 'Marissa Berg', title: 'Treasurer', phone: '(906) 542-3824', email: '' },
+      { name: 'Luke Fleming', title: 'Trustee', phone: '(906) 282-5424', email: '' },
+      { name: 'David Roell', title: 'Trustee', phone: '(906) 542-3824', email: '' }
+    ]
   },
-
-  'Waucedah Twp': {
+  'Dickinson:Waucedah': {
     name: 'Waucedah Township',
     county: 'Dickinson',
-    website: 'https://www.waucedahtownship.com',
     officials: [
-      { name: 'Louis A. Sturm', title: 'Supervisor', party: 'Republican' },
-      { name: 'Lori Turri', title: 'Clerk', party: 'Republican' },
-      { name: 'Amy Hebzynski', title: 'Treasurer', party: 'Republican' },
-      { name: 'Chuck Adams', title: 'Trustee', party: 'Republican' },
-      { name: 'Rick J. Smaniotti', title: 'Trustee', party: 'Democratic' },
-    ],
+      { name: 'Louis Sturm', title: 'Supervisor', phone: '(906) 563-9080', email: '' },
+      { name: 'Lori Turri', title: 'Clerk', phone: '(906) 563-9080', email: '' },
+      { name: 'Amy Hebzynski', title: 'Treasurer', phone: '(906) 563-9080', email: '' },
+      { name: 'Rick Smaniotti', title: 'Trustee', phone: '(906) 563-9080', email: '' },
+      { name: 'Chuck Adams', title: 'Trustee', phone: '(906) 563-9080', email: '' }
+    ]
   },
-
-  'West Branch Twp (Dickinson)': {
+  'Dickinson:West Branch': {
     name: 'West Branch Township',
     county: 'Dickinson',
     officials: [
-      { name: 'Penny S. Skogman', title: 'Supervisor', party: 'Republican' },
-      { name: 'Lisa M. Jacobsen', title: 'Clerk', party: 'Republican' },
-      { name: 'Kim M. Oman', title: 'Treasurer', party: 'Republican' },
-      { name: 'Roger Hiironen', title: 'Trustee', party: null },
-      { name: 'Cheryl Peacock', title: 'Trustee', party: null },
-    ],
+      { name: 'Penny Skogman', title: 'Supervisor', phone: '(906) 246-3610', email: '' },
+      { name: 'Lisa Jacobsen', title: 'Clerk', phone: '(906) 246-3610', email: '' },
+      { name: 'Kim Oman', title: 'Treasurer', phone: '(906) 246-3431', email: '' },
+      { name: 'Roger Hiironen', title: 'Trustee', phone: '(906) 246-3610', email: '' },
+      { name: 'Earl Phyilliaere', title: 'Trustee', phone: '(906) 246-4123', email: '' }
+    ]
   },
-
-  /* ── Houghton County townships ── */
-
-  'Adams Twp': {
+  'Eaton:Bellevue': {
+    name: 'Bellevue Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Donald Chase', title: 'Supervisor', phone: '(269) 763-3156', email: '' },
+      { name: 'Lisa Lawitzke', title: 'Clerk', phone: '(269) 763-2989', email: '' },
+      { name: 'Vickie Madry', title: 'Treasurer', phone: '(269) 986-2688', email: '' },
+      { name: 'Donald Malinowski', title: 'Trustee', phone: '(269) 763-2989', email: '' },
+      { name: 'Kyle Lang', title: 'Trustee', phone: '(269) 763-2989', email: '' }
+    ]
+  },
+  'Eaton:Benton': {
+    name: 'Benton Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Gary Suits', title: 'Supervisor', phone: '(517) 645-7880', email: '' },
+      { name: 'Carah Spadafore', title: 'Clerk', phone: '(517) 645-7880', email: '' },
+      { name: 'Robert Hipple', title: 'Treasurer', phone: '(517) 645-0223', email: '' },
+      { name: 'Chris Tennes', title: 'Trustee', phone: '(517) 645-7880', email: '' },
+      { name: 'Scott Hoornstra', title: 'Trustee', phone: '(517) 719-5291', email: '' },
+      { name: 'David Falsetta', title: 'Trustee', phone: '(517) 645-7880', email: '' },
+      { name: 'Neal Rohrs', title: 'Trustee', phone: '(517) 645-7880', email: '' }
+    ]
+  },
+  'Eaton:Brookfield': {
+    name: 'Brookfield Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Nolan Spotts', title: 'Supervisor', phone: '(517) 543-2119', email: '' },
+      { name: 'Tara Miller', title: 'Clerk', phone: '(517) 983-5036', email: '' },
+      { name: 'Helene Larson', title: 'Treasurer', phone: '(517) 663-3832', email: '' },
+      { name: 'Jim Orr', title: 'Trustee', phone: '(517) 543-5383', email: '' },
+      { name: 'Marshall Williams', title: 'Trustee', phone: '(517) 543-6165', email: '' }
+    ]
+  },
+  'Eaton:Carmel': {
+    name: 'Carmel Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Donald Ramsey', title: 'Supervisor', phone: '(517) 543-9650', email: '' },
+      { name: 'Steven Willard', title: 'Clerk', phone: '(517) 543-9650 ext. 1', email: '' },
+      { name: 'Michele Wise', title: 'Treasurer', phone: '(517) 543-9650 ext. 2', email: '' },
+      { name: 'Rick Dykstra', title: 'Trustee', phone: '(517) 543-9650', email: '' },
+      { name: 'Jennifer Beck', title: 'Trustee', phone: '(517) 543-9650', email: '' }
+    ]
+  },
+  'Eaton:Chester': {
+    name: 'Chester Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Justin Vedder', title: 'Supervisor', phone: '(269) 888-3766', email: '' },
+      { name: 'Donyaellie Wheaton', title: 'Clerk', phone: '(517) 541-8043', email: '' },
+      { name: 'Leslie Garn', title: 'Treasurer', phone: '(517) 541-9693', email: '' },
+      { name: 'Kim Walters', title: 'Trustee', phone: '(517) 543-7750', email: '' },
+      { name: 'Randy Carlson', title: 'Trustee', phone: '(517) 667-1447', email: '' }
+    ]
+  },
+  'Eaton:Delta': {
+    name: 'Delta charter Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Fonda Brewer', title: 'Supervisor', phone: '(517) 323-8500', email: '' },
+      { name: 'Mary Clark', title: 'Clerk', phone: '(517) 323-8500', email: '' },
+      { name: 'Dennis Fedewa', title: 'Treasurer', phone: '(517) 323-8500', email: '' },
+      { name: 'Karen Mojica', title: 'Trustee', phone: '(517) 323-8500', email: '' },
+      { name: 'Andrea Cascarilla', title: 'Trustee', phone: '(517) 323-8500', email: '' },
+      { name: 'Elizabeth Bowen', title: 'Trustee', phone: '(517) 323-8500', email: '' },
+      { name: 'Joshua Lyman', title: 'Trustee', phone: '(517) 323-8500', email: '' }
+    ]
+  },
+  'Eaton:Eaton': {
+    name: 'Eaton Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Dave Roberts', title: 'Supervisor', phone: '(517) 543-1047', email: '' },
+      { name: 'Krista Royston', title: 'Clerk', phone: '(517) 543-3308', email: '' },
+      { name: 'Becky Dolman', title: 'Treasurer', phone: '(517) 543-3308', email: '' },
+      { name: 'Jim Droscha', title: 'Trustee', phone: '(517) 543-3308', email: '' },
+      { name: 'Richard Harvey', title: 'Trustee', phone: '(517) 543-3308', email: '' }
+    ]
+  },
+  'Eaton:Eaton Rapids': {
+    name: 'Eaton Rapids Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Scott Wilson', title: 'Supervisor', phone: '(517) 663-7407', email: '' },
+      { name: 'Tami Harrison', title: 'Clerk', phone: '(517) 663-7407', email: '' },
+      { name: 'Janice Heck', title: 'Treasurer', phone: '(517) 663-7407', email: '' },
+      { name: 'Steve Benkovsky', title: 'Trustee', phone: '(517) 663-7407', email: '' },
+      { name: 'Amanda Brown', title: 'Trustee', phone: '(517) 663-7407', email: '' }
+    ]
+  },
+  'Eaton:Hamlin': {
+    name: 'Hamlin Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Phillip Bombrys', title: 'Supervisor', phone: '(517) 663-7777', email: '' },
+      { name: 'Katherine King', title: 'Clerk', phone: '(517) 663-7777', email: '' },
+      { name: 'Denise Perkins', title: 'Treasurer', phone: '(517) 663-7777', email: '' },
+      { name: 'Matthew Gleeson', title: 'Trustee', phone: '(517) 663-7777', email: '' },
+      { name: 'Erin Reincke', title: 'Trustee', phone: '(517) 663-7777', email: '' }
+    ]
+  },
+  'Eaton:Kalamo': {
+    name: 'Kalamo Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Brett Ramey', title: 'Supervisor', phone: '(517) 726-0902', email: '' },
+      { name: 'Dawn Conklin', title: 'Clerk', phone: '(517) 726-1266', email: '' },
+      { name: 'Heather Newsome', title: 'Treasurer', phone: '(517) 726-0579', email: '' },
+      { name: 'Michael Newsome', title: 'Trustee', phone: '', email: '' },
+      { name: 'Willis Rugg', title: 'Trustee', phone: '(517) 726-0579', email: '' }
+    ]
+  },
+  'Eaton:Oneida': {
+    name: 'Oneida charter Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Rick Jones', title: 'Supervisor', phone: '(517) 622-8078', email: '' },
+      { name: 'Michaela Mosher', title: 'Clerk', phone: '(517) 622-8078', email: '' },
+      { name: 'Janet Schultz', title: 'Trustee', phone: '(517) 627-6841', email: '' },
+      { name: 'Madelyne Lawry', title: 'Trustee', phone: '(517) 622-8078', email: '' },
+      { name: 'Thomas Campbell', title: 'Trustee', phone: '(517) 622-8078', email: '' },
+      { name: 'Jeri Haddix', title: 'Trustee', phone: '(517) 622-8078', email: '' }
+    ]
+  },
+  'Eaton:Roxand': {
+    name: 'Roxand Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Larry Mead', title: 'Supervisor', phone: '(517) 649-8525', email: '' },
+      { name: 'Patti Kepitis', title: 'Clerk', phone: '(517) 649-3033', email: '' },
+      { name: 'Melanie Dow', title: 'Treasurer', phone: '(517) 649-8536', email: '' },
+      { name: 'Armon Southworth', title: 'Trustee', phone: '(517) 627-4391', email: '' },
+      { name: 'James Lilly', title: 'Trustee', phone: '(517) 231-8598', email: '' }
+    ]
+  },
+  'Eaton:Sunfield': {
+    name: 'Sunfield Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Selena Duits', title: 'Supervisor', phone: '(517) 652-9386', email: '' },
+      { name: 'Betsy Gibbs', title: 'Clerk', phone: '(517) 652-9385', email: '' },
+      { name: 'Amy Baker-Brown', title: 'Treasurer', phone: '(517) 652-9386', email: '' },
+      { name: 'Jeffrey Smith', title: 'Trustee', phone: '(517) 652-9386', email: '' },
+      { name: 'Terry MuCullough', title: 'Trustee', phone: '(517) 652-9386', email: '' }
+    ]
+  },
+  'Eaton:Vermontville': {
+    name: 'Vermontville Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Jack Owens', title: 'Supervisor', phone: '(517) 403-4486', email: '' },
+      { name: 'Jamie Platte', title: 'Clerk', phone: '(517) 726-0355', email: '' },
+      { name: 'Amy Peters', title: 'Treasurer', phone: '(517) 726-0355', email: '' },
+      { name: 'Tim James', title: 'Trustee', phone: '(517) 726-0355', email: '' },
+      { name: 'Marilyn Frith', title: 'Trustee', phone: '(517) 726-0355', email: '' }
+    ]
+  },
+  'Eaton:Walton': {
+    name: 'Walton Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Doug Thering', title: 'Supervisor', phone: '(269) 209-3372', email: '' },
+      { name: 'Erin Cummings', title: 'Clerk', phone: '(269) 317-2101', email: '' },
+      { name: 'Christina Heisler', title: 'Treasurer', phone: '', email: '' },
+      { name: 'Bob Starkweather', title: 'Trustee', phone: '(517) 543-5574', email: '' },
+      { name: 'Richard Heisler', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Eaton:Windsor': {
+    name: 'Windsor charter Township',
+    county: 'Eaton',
+    officials: [
+      { name: 'Bethany Shaw', title: 'Supervisor', phone: '(517) 646-0772', email: '' },
+      { name: 'Meredith Barnhart-Smith', title: 'Clerk', phone: '(517) 646-0772', email: '' },
+      { name: 'Lisa Rumsey', title: 'Treasurer', phone: '(517) 646-0772', email: '' },
+      { name: 'Curt Myers', title: 'Trustee', phone: '(517) 645-0156', email: '' },
+      { name: 'Sandy Pray', title: 'Trustee', phone: '(517) 646-8632', email: '' },
+      { name: 'Robert Gardner', title: 'Trustee', phone: '(517) 646-0772', email: '' },
+      { name: 'Kern Slucter', title: 'Trustee', phone: '(517) 646-0772', email: '' }
+    ]
+  },
+  'Emmet:Bear Creek': {
+    name: 'Bear Creek Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Dennis Keiser', title: 'Supervisor', phone: '(231) 347-1311', email: '' },
+      { name: 'Emma Radatovich', title: 'Clerk', phone: '(231) 347-2455', email: '' },
+      { name: 'Connie Golding', title: 'Treasurer', phone: '(231) 347-3204', email: '' },
+      { name: 'Joseph Hoffman', title: 'Trustee', phone: '(231) 347-6823', email: '' },
+      { name: 'Tom Urman', title: 'Trustee', phone: '(231) 347-1290', email: '' }
+    ]
+  },
+  'Emmet:Bliss': {
+    name: 'Bliss Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Philip Lechowicz', title: 'Supervisor', phone: '(231) 537-2483', email: '' },
+      { name: 'Debra Prout', title: 'Clerk', phone: '(231) 537-4590', email: '' },
+      { name: 'Meg Byard', title: 'Treasurer', phone: '(231) 818-1207', email: '' },
+      { name: 'Amber Holt', title: 'Trustee', phone: '(231) 537-2295', email: '' },
+      { name: 'Deanna Eby', title: 'Trustee', phone: '(517) 285-3168', email: '' }
+    ]
+  },
+  'Emmet:Carp Lake': {
+    name: 'Carp Lake Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Paul Teike', title: 'Supervisor', phone: '(231) 537-2513', email: '' },
+      { name: 'Michael Lloyd', title: 'Clerk', phone: '(231) 537-2263', email: '' },
+      { name: 'Samantha Sonnenberg', title: 'Treasurer', phone: '(231) 537-2263', email: '' },
+      { name: 'John Sonnenberg', title: 'Trustee', phone: '', email: '' },
+      { name: 'Hazel Williams', title: 'Trustee', phone: '(231) 537-2263', email: '' }
+    ]
+  },
+  'Emmet:Center': {
+    name: 'Center Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'William Hutto', title: 'Supervisor', phone: '(231) 539-8592', email: '' },
+      { name: 'Constance Jordan', title: 'Clerk', phone: '(231) 539-8592', email: '' },
+      { name: 'Rhea Dreffs', title: 'Treasurer', phone: '(231) 203-5398', email: '' },
+      { name: 'Judy VanAvery', title: 'Trustee', phone: '(231) 537-2284', email: '' },
+      { name: 'Jane Seidler', title: 'Trustee', phone: '(231) 539-8592', email: '' }
+    ]
+  },
+  'Emmet:Cross Village': {
+    name: 'Cross Village Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Stephen Keller', title: 'Supervisor', phone: '(231) 330-9343', email: '' },
+      { name: 'John Keller', title: 'Clerk', phone: '(231) 881-1913', email: '' },
+      { name: 'Marie Garrett', title: 'Treasurer', phone: '(231) 242-0182', email: '' },
+      { name: 'Howard Wood', title: 'Trustee', phone: '(231) 526-6475', email: '' },
+      { name: 'Barbara Jania', title: 'Trustee', phone: '(231) 242-0182', email: '' }
+    ]
+  },
+  'Emmet:Friendship': {
+    name: 'Friendship Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Frederick Troup', title: 'Supervisor', phone: '(231) 526-6918', email: '' },
+      { name: 'Janell Van Divner', title: 'Clerk', phone: '(231) 526-6410', email: '' },
+      { name: 'Kati Negley', title: 'Treasurer', phone: '(231) 242-8752', email: '' },
+      { name: 'Marty MacGregor', title: 'Trustee', phone: '(231) 838-4879', email: '' },
+      { name: 'James Fisher', title: 'Trustee', phone: '(231) 526-6410', email: '' }
+    ]
+  },
+  'Emmet:Little Traverse': {
+    name: 'Little Traverse Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'William Dohm', title: 'Supervisor', phone: '(231) 347-9686', email: '' },
+      { name: 'Kim Porta', title: 'Clerk', phone: '(231) 526-0351', email: '' },
+      { name: 'Connie Shepherd-O\'Neill', title: 'Treasurer', phone: '(231) 526-0351', email: '' },
+      { name: 'Ken Garver', title: 'Trustee', phone: '(231) 526-5865', email: '' },
+      { name: 'Joe Chattaway', title: 'Trustee', phone: '(231) 526-2768', email: '' }
+    ]
+  },
+  'Emmet:Littlefield': {
+    name: 'Littlefield Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Douglas Larson', title: 'Supervisor', phone: '(231) 373-0702', email: '' },
+      { name: 'Sondra Festerling', title: 'Clerk', phone: '(231) 548-2220 ext. 3', email: '' },
+      { name: 'Loriel Grigsby', title: 'Treasurer', phone: '(231) 548-2220 ext. 2', email: '' },
+      { name: 'Kathryn Derrohn', title: 'Trustee', phone: '(231) 347-1937', email: '' },
+      { name: 'Dean Morford', title: 'Trustee', phone: '(231) 347-0653', email: '' }
+    ]
+  },
+  'Emmet:Maple River': {
+    name: 'Maple River Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'John Eby', title: 'Supervisor', phone: '(231) 529-6520', email: '' },
+      { name: 'Tammy Gregory', title: 'Clerk', phone: '(231) 539-0932', email: '' },
+      { name: 'Leslie Budnik', title: 'Treasurer', phone: '(231) 539-0932', email: '' },
+      { name: 'Arthur Beach', title: 'Trustee', phone: '(231) 838-5673', email: '' }
+    ]
+  },
+  'Emmet:McKinley': {
+    name: 'McKinley Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Mark Drier', title: 'Supervisor', phone: '(231) 539-8517', email: '' },
+      { name: 'Alicia Morrow', title: 'Clerk', phone: '(231) 445-0156', email: '' },
+      { name: 'Elizabeth Readmond', title: 'Treasurer', phone: '(231) 537-2437', email: '' },
+      { name: 'Lyle Spierling', title: 'Trustee', phone: '(231) 539-8211', email: '' },
+      { name: 'Harry Hammond', title: 'Trustee', phone: '(231) 539-8388', email: '' }
+    ]
+  },
+  'Emmet:Pleasantview': {
+    name: 'Pleasantview Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Rocky Beydoun', title: 'Supervisor', phone: '(231) 526-8140', email: '' },
+      { name: 'Debra Bosma', title: 'Clerk', phone: '(231) 526-8140', email: '' },
+      { name: 'Jim Rummer', title: 'Trustee', phone: '(231) 526-8140', email: '' },
+      { name: 'George Bloomfield', title: 'Trustee', phone: '(586) 808-8076', email: '' }
+    ]
+  },
+  'Emmet:Readmond': {
+    name: 'Readmond Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Lisa Fineout', title: 'Supervisor', phone: '(231) 526-9601', email: '' },
+      { name: 'Rebecca McLean', title: 'Clerk', phone: '(231) 526-9601', email: '' },
+      { name: 'Patty Vorce-Sutton', title: 'Treasurer', phone: '(231) 526-9601', email: '' },
+      { name: 'Bob Kruzel', title: 'Trustee', phone: '(231) 526-9601', email: '' }
+    ]
+  },
+  'Emmet:Resort': {
+    name: 'Resort Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Brad Coulter', title: 'Supervisor', phone: '(231) 347-7915', email: '' },
+      { name: 'Rufus Welsheimer', title: 'Clerk', phone: '(231) 347-7915', email: '' },
+      { name: 'Suzanne Coveyou', title: 'Treasurer', phone: '(231) 397-7844', email: '' },
+      { name: 'Tim Howard', title: 'Trustee', phone: '(231) 347-7915', email: '' },
+      { name: 'Carrie Klingelsmith', title: 'Trustee', phone: '(231) 347-7915', email: '' }
+    ]
+  },
+  'Emmet:Springvale': {
+    name: 'Springvale Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Randall McCune', title: 'Supervisor', phone: '(231) 347-3077', email: '' },
+      { name: 'Patricia McCune', title: 'Clerk', phone: '(231) 347-3077', email: '' },
+      { name: 'Dawn Derue', title: 'Treasurer', phone: '(231) 347-3077', email: '' },
+      { name: 'Kyle Ulrich', title: 'Trustee', phone: '(906) 630-1564', email: '' }
+    ]
+  },
+  'Emmet:Wawatam': {
+    name: 'Wawatam Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Roger Moore', title: 'Supervisor', phone: '(231) 436-5141', email: '' },
+      { name: 'Meghan Michalak', title: 'Clerk', phone: '(231) 436-5274', email: '' },
+      { name: 'Elaine Desy', title: 'Treasurer', phone: '(231) 436-5289', email: '' },
+      { name: 'Roy Cole', title: 'Trustee', phone: '(231) 436-5366', email: '' },
+      { name: 'Robert Desy', title: 'Trustee', phone: '(231) 436-5289', email: '' }
+    ]
+  },
+  'Emmet:West Traverse': {
+    name: 'West Traverse Township',
+    county: 'Emmet',
+    officials: [
+      { name: 'Edward Murphy', title: 'Supervisor', phone: '(231) 526-7361', email: '' },
+      { name: 'Jay Olson', title: 'Clerk', phone: '(231) 526-7361', email: '' },
+      { name: 'Kristi Hollingsworth', title: 'Treasurer', phone: '(231) 526-7361', email: '' },
+      { name: 'David Green', title: 'Trustee', phone: '(231) 242-0558', email: '' },
+      { name: 'Stephanie Baker', title: 'Trustee', phone: '(231) 526-7361', email: '' }
+    ]
+  },
+  'Genesee:Argentine': {
+    name: 'Argentine Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Robert Cole', title: 'Supervisor', phone: '(810) 735-5050', email: '' },
+      { name: 'Gwynne James', title: 'Clerk', phone: '(810) 735-5050', email: '' },
+      { name: 'Matthew Frederick', title: 'Treasurer', phone: '(810) 735-5050', email: '' },
+      { name: 'Norman Schmidt', title: 'Trustee', phone: '(810) 735-7529', email: '' },
+      { name: 'Ed Renckly', title: 'Trustee', phone: '(810) 735-5050', email: '' }
+    ]
+  },
+  'Genesee:Atlas': {
+    name: 'Atlas Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Jim Busch', title: 'Supervisor', phone: '(810) 636-2548', email: '' },
+      { name: 'Toni Yaklin', title: 'Clerk', phone: '(810) 636-2548', email: '' },
+      { name: 'Ann Marie Moore', title: 'Treasurer', phone: '(810) 636-2548', email: '' },
+      { name: 'Patrick Major', title: 'Trustee', phone: '(810) 636-2548', email: '' },
+      { name: 'Tracy Butcher', title: 'Trustee', phone: '(810) 428-7092', email: '' }
+    ]
+  },
+  'Genesee:Clayton': {
+    name: 'Clayton charter Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Dennis Milem', title: 'Clerk', phone: '(810) 635-4433', email: '' },
+      { name: 'Shelley Thompson', title: 'Treasurer', phone: '(810) 618-3172', email: '' },
+      { name: 'Ken Engel', title: 'Trustee', phone: '(810) 635-4433', email: '' },
+      { name: 'Doug Sherman', title: 'Trustee', phone: '(810) 635-4433', email: '' }
+    ]
+  },
+  'Genesee:Davison': {
+    name: 'Davison Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'James Slezak', title: 'Supervisor', phone: '(810) 845-8803', email: '' },
+      { name: 'Michael Leffler', title: 'Clerk', phone: '(810) 653-4156', email: '' },
+      { name: 'Travis Howell', title: 'Treasurer', phone: '(810) 922-6195', email: '' },
+      { name: 'Matthew Karr', title: 'Trustee', phone: '(810) 653-5126', email: '' },
+      { name: 'Lori Tallman', title: 'Trustee', phone: '(810) 569-1995', email: '' }
+    ]
+  },
+  'Genesee:Fenton': {
+    name: 'Fenton charter Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Vince Lorraine', title: 'Supervisor', phone: '(810) 629-1537', email: '' },
+      { name: 'Robert Krug', title: 'Clerk', phone: '(810) 629-1537', email: '' },
+      { name: 'John Tucker', title: 'Treasurer', phone: '(810) 629-1537', email: '' },
+      { name: 'Mark Goupil', title: 'Trustee', phone: '(810) 629-1537', email: '' },
+      { name: 'Robert Kesler', title: 'Trustee', phone: '(810) 629-1537', email: '' },
+      { name: 'Christine Reid', title: 'Trustee', phone: '(817) 235-2392', email: '' },
+      { name: 'William Clark', title: 'Trustee', phone: '(810) 629-1537', email: '' }
+    ]
+  },
+  'Genesee:Flint': {
+    name: 'Flint charter Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Karyn Miller', title: 'Supervisor', phone: '(810) 241-2570', email: '' },
+      { name: 'Manya Triplett', title: 'Clerk', phone: '(810) 600-3212', email: '' },
+      { name: 'Tom Klee', title: 'Treasurer', phone: '(810) 732-1350', email: '' },
+      { name: 'Barbara Vert', title: 'Trustee', phone: '(810) 233-7791', email: '' },
+      { name: 'Tenesia Todd-Lloyd', title: 'Trustee', phone: '(810) 732-1350', email: '' },
+      { name: 'Gene Leverette', title: 'Trustee', phone: '(810) 732-1350', email: '' },
+      { name: 'Jenna McIntire', title: 'Trustee', phone: '(810) 732-1350', email: '' }
+    ]
+  },
+  'Genesee:Flushing': {
+    name: 'Flushing charter Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Frederick Thorsby', title: 'Supervisor', phone: '(810) 659-0800 ext. 104', email: '' },
+      { name: 'Wendy Meinburg', title: 'Clerk', phone: '(810) 659-0800', email: '' },
+      { name: 'Terry Peck', title: 'Treasurer', phone: '(810) 659-0800', email: '' },
+      { name: 'Linda Minarik', title: 'Trustee', phone: '(810) 659-0800', email: '' },
+      { name: 'William Bain', title: 'Trustee', phone: '(810) 659-0800', email: '' },
+      { name: 'Joshua Upleger', title: 'Trustee', phone: '(810) 659-0800', email: '' },
+      { name: 'Andrew Eichorn', title: 'Trustee', phone: '(810) 659-0800', email: '' }
+    ]
+  },
+  'Genesee:Forest': {
+    name: 'Forest Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Mary Ann Price', title: 'Supervisor', phone: '(810) 631-6040', email: '' },
+      { name: 'Lisa Margrif', title: 'Clerk', phone: '(810) 631-4997', email: '' },
+      { name: 'Linda Smoke', title: 'Treasurer', phone: '(810) 631-6645', email: '' },
+      { name: 'Steed Mills', title: 'Trustee', phone: '(810) 336-8237', email: '' },
+      { name: 'Mark Martin', title: 'Trustee', phone: '(810) 631-6040', email: '' }
+    ]
+  },
+  'Genesee:Gaines': {
+    name: 'Gaines Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Daniel Jenkins', title: 'Supervisor', phone: '(810) 635-3200', email: '' },
+      { name: 'Michael VanDusen', title: 'Clerk', phone: '(810) 635-3200', email: '' },
+      { name: 'Robert Henderson', title: 'Treasurer', phone: '(810) 635-3200', email: '' },
+      { name: 'Danny Waid', title: 'Trustee', phone: '(810) 635-3200', email: '' }
+    ]
+  },
+  'Genesee:Grand Blanc': {
+    name: 'Grand Blanc charter Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Scott Bennett', title: 'Supervisor', phone: '(810) 424-2664', email: '' },
+      { name: 'Dave Robertson', title: 'Clerk', phone: '(810) 424-2602', email: '' },
+      { name: 'Mike Yancho', title: 'Treasurer', phone: '(810) 424-2602', email: '' },
+      { name: 'Sarah Hugo', title: 'Trustee', phone: '(810) 424-2602', email: '' },
+      { name: 'Joel Feick', title: 'Trustee', phone: '(810) 424-2602', email: '' },
+      { name: 'Jude Rariden', title: 'Trustee', phone: '(810) 424-2602', email: '' },
+      { name: 'Paul White', title: 'Trustee', phone: '(810) 424-2602', email: '' }
+    ]
+  },
+  'Genesee:Montrose': {
+    name: 'Montrose charter Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Coetta Adams', title: 'Supervisor', phone: '(810) 639-2021', email: '' },
+      { name: 'Steve Schlicht', title: 'Clerk', phone: '(810) 639-2021', email: '' },
+      { name: 'Karen Jones', title: 'Treasurer', phone: '(810) 639-2021', email: '' },
+      { name: 'Sam Spence', title: 'Trustee', phone: '(810) 639-2021', email: '' },
+      { name: 'Gerald Cole', title: 'Trustee', phone: '(810) 639-2021', email: '' },
+      { name: 'Frederick Christensen', title: 'Trustee', phone: '(810) 639-2021', email: '' },
+      { name: 'Jim Coon', title: 'Trustee', phone: '(810) 639-2021', email: '' }
+    ]
+  },
+  'Genesee:Mount Morris': {
+    name: 'Mount Morris Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Larry Green', title: 'Supervisor', phone: '(810) 785-9138', email: '' },
+      { name: 'DeWayn Allen', title: 'Clerk', phone: '(810) 875-2639', email: '' },
+      { name: 'Jona Kean', title: 'Treasurer', phone: '(810) 785-0817', email: '' },
+      { name: 'Michele Loper', title: 'Trustee', phone: '(810) 785-0817', email: '' },
+      { name: 'Brian Baxter', title: 'Trustee', phone: '', email: '' },
+      { name: 'Reginald Mays', title: 'Trustee', phone: '(810) 785-0817', email: '' }
+    ]
+  },
+  'Genesee:Mundy': {
+    name: 'Mundy Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Jennifer Stainton', title: 'Supervisor', phone: '(810) 655-4631', email: '' },
+      { name: 'Cory Jo Fornari-Bostwick', title: 'Clerk', phone: '(810) 655-4631', email: '' },
+      { name: 'Danelle Barker', title: 'Treasurer', phone: '(810) 655-4631', email: '' },
+      { name: 'Kyle Ward', title: 'Trustee', phone: '(810) 655-4631', email: '' },
+      { name: 'Mark Gorton', title: 'Trustee', phone: '(810) 655-4631', email: '' },
+      { name: 'Leah Davis', title: 'Trustee', phone: '(810) 655-4631', email: '' },
+      { name: 'Zach Sack', title: 'Trustee', phone: '(810) 655-4631', email: '' }
+    ]
+  },
+  'Genesee:Richfield': {
+    name: 'Richfield Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Joseph Madore', title: 'Supervisor', phone: '(810) 653-3564', email: '' },
+      { name: 'Cheryl Campbell-Hoberg', title: 'Clerk', phone: '(810) 653-3564', email: '' },
+      { name: 'Brian Arnes', title: 'Treasurer', phone: '(810) 653-3564', email: '' },
+      { name: 'John Minto', title: 'Trustee', phone: '(810) 653-3564', email: '' },
+      { name: 'Don Harris', title: 'Trustee', phone: '(810) 653-3564', email: '' }
+    ]
+  },
+  'Genesee:Thetford': {
+    name: 'Thetford Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Rachel Stanke', title: 'Supervisor', phone: '(810) 620-2393', email: '' },
+      { name: 'Stacey Wells', title: 'Clerk', phone: '(810) 686-5200', email: '' },
+      { name: 'Kristine Taylor', title: 'Treasurer', phone: '(810) 686-5200', email: '' },
+      { name: 'John Congdon', title: 'Trustee', phone: '(810) 686-5200', email: '' },
+      { name: 'Eric Gunnels', title: 'Trustee', phone: '(810) 686-5200', email: '' },
+      { name: 'Patrick Tack', title: 'Trustee', phone: '(810) 686-5200', email: '' },
+      { name: 'Tim Brenner', title: 'Trustee', phone: '(810) 686-5200', email: '' }
+    ]
+  },
+  'Genesee:Vienna': {
+    name: 'Vienna charter Township',
+    county: 'Genesee',
+    officials: [
+      { name: 'Joseph Rizk', title: 'Supervisor', phone: '(810) 686-7580', email: '' },
+      { name: 'Richard Johnson', title: 'Clerk', phone: '(810) 686-7580', email: '' },
+      { name: 'Cathrine Thompson', title: 'Treasurer', phone: '(810) 686-7580', email: '' },
+      { name: 'Jeff Thomas', title: 'Trustee', phone: '(810) 275-2517', email: '' },
+      { name: 'Karin Muron', title: 'Trustee', phone: '(810) 686-7580', email: '' },
+      { name: 'Sue Thomas', title: 'Trustee', phone: '(810) 686-7580', email: '' },
+      { name: 'Cynthia Bryan', title: 'Trustee', phone: '(810) 686-7580', email: '' }
+    ]
+  },
+  'Gladwin:Beaverton': {
+    name: 'Beaverton Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Joe Sprague', title: 'Supervisor', phone: '(989) 387-6710', email: '' },
+      { name: 'Kelly Avila', title: 'Clerk', phone: '(989) 435-9236', email: '' },
+      { name: 'Suzanne Sutton', title: 'Treasurer', phone: '(989) 435-9236', email: '' },
+      { name: 'Tom Murray', title: 'Trustee', phone: '(989) 435-9236', email: '' },
+      { name: 'Dawn Keller', title: 'Trustee', phone: '(989) 205-7901', email: '' }
+    ]
+  },
+  'Gladwin:Bentley': {
+    name: 'Bentley Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Justine Osborn', title: 'Supervisor', phone: '(989) 430-4525', email: '' },
+      { name: 'Kristie Resmer', title: 'Clerk', phone: '(989) 903-5574', email: '' },
+      { name: 'Sharon Roy-Krahner', title: 'Treasurer', phone: '(989) 879-4017', email: '' },
+      { name: 'Thomas Shepard', title: 'Trustee', phone: '(989) 879-5254', email: '' },
+      { name: 'Robert Pettit', title: 'Trustee', phone: '(989) 879-3844', email: '' }
+    ]
+  },
+  'Gladwin:Billings': {
+    name: 'Billings Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Tim Mester', title: 'Supervisor', phone: '(989) 233-3396', email: '' },
+      { name: 'Linda McSweyn', title: 'Clerk', phone: '(989) 435-7918', email: '' },
+      { name: 'Len Pytlak', title: 'Treasurer', phone: '(989) 435-8430', email: '' },
+      { name: 'Brian Johnson', title: 'Trustee', phone: '(989) 435-4037', email: '' },
+      { name: 'Cynthia Whittington', title: 'Trustee', phone: '(989) 435-8430', email: '' }
+    ]
+  },
+  'Gladwin:Bourret': {
+    name: 'Bourret Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Susan Morgan', title: 'Supervisor', phone: '(989) 701-2112', email: '' },
+      { name: 'Jeffery Fournier', title: 'Clerk', phone: '(989) 965-1175', email: '' },
+      { name: 'Ruth Fournier', title: 'Treasurer', phone: '(574) 265-9706', email: '' },
+      { name: 'Don Hunt', title: 'Trustee', phone: '(989) 329-0314', email: '' },
+      { name: 'Cindy Pepin', title: 'Trustee', phone: '(810) 348-8316', email: '' }
+    ]
+  },
+  'Gladwin:Buckeye': {
+    name: 'Buckeye Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Kevin VanTiem', title: 'Supervisor', phone: '(989) 615-4645', email: '' },
+      { name: 'Susan Walker', title: 'Clerk', phone: '(989) 615-7248', email: '' },
+      { name: 'Steve Broka', title: 'Treasurer', phone: '(989) 615-7384', email: '' },
+      { name: 'Edwin Schroeder', title: 'Trustee', phone: '(313) 492-5887', email: '' },
+      { name: 'Ronald Brabon', title: 'Trustee', phone: '(989) 435-6077', email: '' }
+    ]
+  },
+  'Gladwin:Butman': {
+    name: 'Butman Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Danny Gonzales', title: 'Supervisor', phone: '(989) 426-4351', email: '' },
+      { name: 'Dianna Gonzales', title: 'Clerk', phone: '(989) 426-4351', email: '' },
+      { name: 'Susie Ruppert', title: 'Treasurer', phone: '(989) 426-4351', email: '' },
+      { name: 'Mike Mahaffy', title: 'Trustee', phone: '(989) 426-4351', email: '' },
+      { name: 'Darleen Gauci', title: 'Trustee', phone: '(989) 426-4351', email: '' }
+    ]
+  },
+  'Gladwin:Clement': {
+    name: 'Clement Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Charles Sikora', title: 'Supervisor', phone: '(989) 345-3915', email: '' },
+      { name: 'Eric House', title: 'Clerk', phone: '(989) 345-3915', email: '' },
+      { name: 'Carolyn Ochab', title: 'Treasurer', phone: '(989) 345-3915', email: '' },
+      { name: 'Albert Lee', title: 'Trustee', phone: '(989) 345-3915', email: '' },
+      { name: 'Kim Davis', title: 'Trustee', phone: '(989) 345-3915', email: '' }
+    ]
+  },
+  'Gladwin:Gladwin': {
+    name: 'Gladwin Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Robert Weaver', title: 'Supervisor', phone: '(989) 426-9667', email: '' },
+      { name: 'Kristie Simrau', title: 'Clerk', phone: '(989) 802-9418', email: '' },
+      { name: 'Jodie Klamer', title: 'Treasurer', phone: '(989) 426-5786', email: '' },
+      { name: 'Doug Ritchie', title: 'Trustee', phone: '(989) 426-4423', email: '' }
+    ]
+  },
+  'Gladwin:Grim': {
+    name: 'Grim Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Alan Piaskowski', title: 'Supervisor', phone: '(989) 205-3384', email: '' },
+      { name: 'Linda O\'Dell', title: 'Clerk', phone: '(989) 907-9252', email: '' },
+      { name: 'Renee Dunn-Greene', title: 'Treasurer', phone: '(989) 513-9599', email: '' },
+      { name: 'Lonnie Pacholke', title: 'Trustee', phone: '(989) 907-9252', email: '' },
+      { name: 'Bernie Barber', title: 'Trustee', phone: '(989) 846-6058', email: '' }
+    ]
+  },
+  'Gladwin:Grout': {
+    name: 'Grout Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Jim Shea', title: 'Supervisor', phone: '(989) 426-5896', email: '' },
+      { name: 'Diana Fritzler', title: 'Clerk', phone: '(810) 210-4163', email: '' },
+      { name: 'Melody Hill', title: 'Treasurer', phone: '(989) 240-1773', email: '' },
+      { name: 'Richard Christie', title: 'Trustee', phone: '(989) 578-8251', email: '' },
+      { name: 'Julie Beck', title: 'Trustee', phone: '(989) 426-7287', email: '' }
+    ]
+  },
+  'Gladwin:Hay': {
+    name: 'Hay Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Sandra Griffin', title: 'Clerk', phone: '(989) 426-1821', email: '' },
+      { name: 'Diane Kludt', title: 'Treasurer', phone: '(989) 426-4836', email: '' },
+      { name: 'Steven Monaghan', title: 'Trustee', phone: '(989) 426-0105', email: '' },
+      { name: 'Jason Becker', title: 'Trustee', phone: '(989) 429-7881', email: '' }
+    ]
+  },
+  'Gladwin:Sage': {
+    name: 'Sage Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Renee Zelt', title: 'Supervisor', phone: '(989) 246-3112', email: '' },
+      { name: 'Laura Flach', title: 'Clerk', phone: '(989) 246-3112', email: '' },
+      { name: 'Janet Smith', title: 'Treasurer', phone: '(989) 246-3112', email: '' },
+      { name: 'Kent Crawford', title: 'Trustee', phone: '(989) 246-3112', email: '' },
+      { name: 'Jeff Swanstra', title: 'Trustee', phone: '(989) 426-2892', email: '' }
+    ]
+  },
+  'Gladwin:Secord': {
+    name: 'Secord Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Joel Vernier', title: 'Supervisor', phone: '(989) 329-9319', email: '' },
+      { name: 'Kris Panetta', title: 'Clerk', phone: '(989) 426-7445', email: '' },
+      { name: 'Christine Grace', title: 'Treasurer', phone: '(989) 426-7445', email: '' }
+    ]
+  },
+  'Gladwin:Sherman': {
+    name: 'Sherman Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Rick Myrick', title: 'Supervisor', phone: '(989) 426-4218', email: '' },
+      { name: 'Kay Whalen', title: 'Clerk', phone: '(989) 426-4218', email: '' },
+      { name: 'Nathan Paisley', title: 'Treasurer', phone: '(989) 426-4218', email: '' },
+      { name: 'Sarah Paisley', title: 'Trustee', phone: '(989) 426-4218', email: '' },
+      { name: 'Keith Good', title: 'Trustee', phone: '(989) 426-4218', email: '' }
+    ]
+  },
+  'Gladwin:Tobacco': {
+    name: 'Tobacco Township',
+    county: 'Gladwin',
+    officials: [
+      { name: 'Craig Bergman', title: 'Supervisor', phone: '(989) 435-2774', email: '' },
+      { name: 'Whitney King', title: 'Clerk', phone: '(989) 387-7863', email: '' },
+      { name: 'Julie Vankuiken', title: 'Treasurer', phone: '', email: '' },
+      { name: 'John Blades', title: 'Trustee', phone: '(989) 429-5400', email: '' },
+      { name: 'William Oard', title: 'Trustee', phone: '(989) 435-4525', email: '' }
+    ]
+  },
+  'Gogebic:Bessemer': {
+    name: 'Bessemer Township',
+    county: 'Gogebic',
+    officials: [
+      { name: 'Hope Tarnaski', title: 'Clerk', phone: '(906) 667-0019', email: '' },
+      { name: 'Lisa Hegbloom', title: 'Treasurer', phone: '(906) 667-0423', email: '' },
+      { name: 'Susan Roberts', title: 'Trustee', phone: '(906) 364-1061', email: '' },
+      { name: 'Steven Selin', title: 'Trustee', phone: '(906) 667-0423', email: '' }
+    ]
+  },
+  'Gogebic:Erwin': {
+    name: 'Erwin Township',
+    county: 'Gogebic',
+    officials: [
+      { name: 'Larry Grimsby', title: 'Supervisor', phone: '(906) 399-7406', email: '' },
+      { name: 'Betty Perkis', title: 'Clerk', phone: '(906) 285-0850', email: '' },
+      { name: 'Roberta Nuce', title: 'Treasurer', phone: '(906) 932-0235', email: '' },
+      { name: 'James Anderson', title: 'Trustee', phone: '(906) 364-3042', email: '' },
+      { name: 'William Hellen', title: 'Trustee', phone: '(906) 285-0322', email: '' }
+    ]
+  },
+  'Gogebic:Ironwood': {
+    name: 'Ironwood charter Township',
+    county: 'Gogebic',
+    officials: [
+      { name: 'Jay Kangas', title: 'Supervisor', phone: '(906) 932-5800', email: '' },
+      { name: 'Sherry King', title: 'Clerk', phone: '(906) 932-5800', email: '' },
+      { name: 'Maria Graser', title: 'Treasurer', phone: '(906) 932-5800', email: '' },
+      { name: 'Brenda Aili-Angus', title: 'Trustee', phone: '(906) 932-5601', email: '' },
+      { name: 'James Simmons', title: 'Trustee', phone: '(906) 285-3513', email: '' },
+      { name: 'Bev Michaels', title: 'Trustee', phone: '(715) 730-0762', email: '' },
+      { name: 'Kathy Jo Koval', title: 'Trustee', phone: '(906) 932-5800', email: '' }
+    ]
+  },
+  'Gogebic:Marenisco': {
+    name: 'Marenisco Township',
+    county: 'Gogebic',
+    officials: [
+      { name: 'Robert Delich', title: 'Supervisor', phone: '(906) 787-2463', email: '' },
+      { name: 'Donna Kenney', title: 'Clerk', phone: '(906) 787-2463', email: '' },
+      { name: 'Kathy Leonard', title: 'Treasurer', phone: '(906) 787-2463', email: '' },
+      { name: 'Dave Hagen', title: 'Trustee', phone: '(906) 787-2463', email: '' },
+      { name: 'Kelly Dunbar', title: 'Trustee', phone: '(906) 787-2463', email: '' }
+    ]
+  },
+  'Gogebic:Wakefield': {
+    name: 'Wakefield Township',
+    county: 'Gogebic',
+    officials: [
+      { name: 'Mandalynn Lake', title: 'Supervisor', phone: '(906) 364-0669', email: '' },
+      { name: 'Jennifer Ahonen', title: 'Clerk', phone: '(906) 224-8551', email: '' },
+      { name: 'Denice Laessig', title: 'Treasurer', phone: '(906) 224-8551', email: '' },
+      { name: 'Michael Heikkila', title: 'Trustee', phone: '(906) 224-8551', email: '' },
+      { name: 'Robert Drier', title: 'Trustee', phone: '(906) 224-8551', email: '' }
+    ]
+  },
+  'Gogebic:Watersmeet': {
+    name: 'Watersmeet Township',
+    county: 'Gogebic',
+    officials: [
+      { name: 'Yvonne Clark', title: 'Supervisor', phone: '(906) 358-4501', email: '' },
+      { name: 'Laura Mans', title: 'Clerk', phone: '(906) 358-4501', email: '' },
+      { name: 'Paul Kemppainen', title: 'Treasurer', phone: '(906) 358-4501', email: '' },
+      { name: 'John Oliver', title: 'Trustee', phone: '(906) 358-4501', email: '' },
+      { name: 'Simon Zelinski', title: 'Trustee', phone: '(906) 358-4501', email: '' }
+    ]
+  },
+  'Grand Traverse:Acme': {
+    name: 'Acme Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Doug White', title: 'Supervisor', phone: '(231) 938-1350', email: '' },
+      { name: 'Lisa Swanson', title: 'Clerk', phone: '(231) 938-1350', email: '' },
+      { name: 'Amy Jenema', title: 'Treasurer', phone: '(231) 632-3529', email: '' },
+      { name: 'Paul Scott', title: 'Trustee', phone: '(231) 938-1350', email: '' },
+      { name: 'David Hoxsie', title: 'Trustee', phone: '(231) 938-1350', email: '' },
+      { name: 'Dale Stevens', title: 'Trustee', phone: '(231) 938-1350', email: '' },
+      { name: 'Aaron Wylie', title: 'Trustee', phone: '(231) 938-1350', email: '' }
+    ]
+  },
+  'Grand Traverse:Blair': {
+    name: 'Blair Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Nicole Blonshine', title: 'Supervisor', phone: '(231) 276-9263', email: '' },
+      { name: 'Lynette Wolfgang', title: 'Clerk', phone: '(231) 276-9263', email: '' },
+      { name: 'Tracie Campbell', title: 'Treasurer', phone: '(231) 276-9263', email: '' },
+      { name: 'Roger Zeits', title: 'Trustee', phone: '(231) 276-9545', email: '' },
+      { name: 'Carl Kucera', title: 'Trustee', phone: '(231) 276-9263', email: '' },
+      { name: 'Preston Taylor', title: 'Trustee', phone: '(231) 947-8647', email: '' },
+      { name: 'Andy Nickerson', title: 'Trustee', phone: '(231) 313-2639', email: '' }
+    ]
+  },
+  'Grand Traverse:East Bay': {
+    name: 'East Bay Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Beth Friend', title: 'Supervisor', phone: '(231) 947-8719', email: '' },
+      { name: 'Susanne Courtade', title: 'Clerk', phone: '(231) 947-8647', email: '' },
+      { name: 'Tracey Bartlett', title: 'Treasurer', phone: '(231) 947-8647', email: '' },
+      { name: 'Glen Lile', title: 'Trustee', phone: '(231) 947-8719', email: '' },
+      { name: 'Mindy Walters', title: 'Trustee', phone: '(231) 947-8647', email: '' },
+      { name: 'Matt Courtade', title: 'Trustee', phone: '(231) 668-1492', email: '' },
+      { name: 'Matt Cook', title: 'Trustee', phone: '(231) 947-8647', email: '' }
+    ]
+  },
+  'Grand Traverse:Fife Lake': {
+    name: 'Fife Lake Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Lisa Radtke', title: 'Supervisor', phone: '(231) 879-3963', email: '' },
+      { name: 'Annie Allen', title: 'Clerk', phone: '(231) 879-3963', email: '' },
+      { name: 'Cathy Sorrow', title: 'Treasurer', phone: '(231) 879-4656', email: '' },
+      { name: 'Dawn Zimmerman', title: 'Trustee', phone: '(231) 879-3837', email: '' },
+      { name: 'Jayme Werner', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Grand Traverse:Garfield': {
+    name: 'Garfield charter Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Joe McManus', title: 'Supervisor', phone: '(231) 941-1620', email: '' },
+      { name: 'Lanie McManus', title: 'Clerk', phone: '(231) 941-1620', email: '' },
+      { name: 'Chloe Macomber', title: 'Treasurer', phone: '(231) 941-1620', email: '' },
+      { name: 'Denise Schmuckal', title: 'Trustee', phone: '(231) 620-0523', email: '' },
+      { name: 'Molly Agostinelli', title: 'Trustee', phone: '(231) 941-1620', email: '' },
+      { name: 'Laurie Lapp', title: 'Trustee', phone: '(231) 941-1620', email: '' },
+      { name: 'Chuck Korn', title: 'Trustee', phone: '(231) 941-1620', email: '' }
+    ]
+  },
+  'Grand Traverse:Grant': {
+    name: 'Grant Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Crystal Breithaupt', title: 'Supervisor', phone: '(231) 269-4488', email: '' },
+      { name: 'Lisa Willett', title: 'Clerk', phone: '(231) 263-7090', email: '' },
+      { name: 'Elizabeth Svec', title: 'Treasurer', phone: '(231) 486-5465', email: '' },
+      { name: 'Kyle Rector', title: 'Trustee', phone: '(231) 263-7090', email: '' },
+      { name: 'Douglas Moyer', title: 'Trustee', phone: '(231) 263-7168', email: '' }
+    ]
+  },
+  'Grand Traverse:Green Lake': {
+    name: 'Green Lake Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Marvin Radtke', title: 'Supervisor', phone: '(231) 276-9329', email: '' },
+      { name: 'Judith Kramer', title: 'Clerk', phone: '(231) 276-9329', email: '' },
+      { name: 'Andy Marek', title: 'Treasurer', phone: '(231) 276-9329', email: '' },
+      { name: 'Sherry West', title: 'Trustee', phone: '(231) 275-7069', email: '' },
+      { name: 'Patrick McDonald', title: 'Trustee', phone: '(231) 276-9329', email: '' },
+      { name: 'David Bieganowski', title: 'Trustee', phone: '(231) 947-6073', email: '' },
+      { name: 'Paul Biondo', title: 'Trustee', phone: '(231) 276-9329', email: '' }
+    ]
+  },
+  'Grand Traverse:Long Lake': {
+    name: 'Long Lake Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Ron Lemcool', title: 'Supervisor', phone: '(231) 590-2944', email: '' },
+      { name: 'Ronda Robinson', title: 'Clerk', phone: '(231) 946-2249', email: '' },
+      { name: 'Kendra Balderach', title: 'Treasurer', phone: '(231) 946-2249', email: '' },
+      { name: 'Duane Schaub', title: 'Trustee', phone: '(231) 649-2367', email: '' },
+      { name: 'Linda Wheelock', title: 'Trustee', phone: '(231) 946-2249', email: '' },
+      { name: 'Dan Wagner', title: 'Trustee', phone: '(231) 590-1947', email: '' },
+      { name: 'Kevin Severt', title: 'Trustee', phone: '(231) 946-2249', email: '' }
+    ]
+  },
+  'Grand Traverse:Mayfield': {
+    name: 'Mayfield Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'John Ockert', title: 'Supervisor', phone: '(231) 263-7255', email: '' },
+      { name: 'Jamie Hansen', title: 'Clerk', phone: '(231) 263-4599', email: '' },
+      { name: 'Dean Bott', title: 'Treasurer', phone: '(231) 263-4599', email: '' },
+      { name: 'Gregory Thon', title: 'Trustee', phone: '(231) 263-4599', email: '' },
+      { name: 'Brian McManus', title: 'Trustee', phone: '(231) 263-4599', email: '' }
+    ]
+  },
+  'Grand Traverse:Paradise': {
+    name: 'Paradise Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Rob Lajko', title: 'Supervisor', phone: '(231) 263-5251', email: '' },
+      { name: 'Lisa Gulliver', title: 'Clerk', phone: '(231) 263-5251', email: '' },
+      { name: 'Anne Smith', title: 'Treasurer', phone: '(231) 263-5251', email: '' },
+      { name: 'Jeff Wallace', title: 'Trustee', phone: '(231) 263-5251', email: '' },
+      { name: 'Jennifer Graham', title: 'Trustee', phone: '(231) 263-5251', email: '' }
+    ]
+  },
+  'Grand Traverse:Peninsula': {
+    name: 'Peninsula Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Maura Sanders', title: 'Supervisor', phone: '(231) 223-7322', email: '' },
+      { name: 'Rebecca Chown', title: 'Clerk', phone: '(231) 223-7322', email: '' },
+      { name: 'Katie Clark', title: 'Treasurer', phone: '(231) 223-4484', email: '' },
+      { name: 'David Sanger', title: 'Trustee', phone: '(231) 216-1212', email: '' },
+      { name: 'JP Milliken', title: 'Trustee', phone: '(231) 223-7322', email: '' },
+      { name: 'Isaiah Wunsch', title: 'Trustee', phone: '(231) 620-0791', email: '' },
+      { name: 'Julie Alexander', title: 'Trustee', phone: '(231) 223-7322', email: '' }
+    ]
+  },
+  'Grand Traverse:Union': {
+    name: 'Union Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Doug Mansfield', title: 'Supervisor', phone: '(231) 218-5560', email: '' },
+      { name: 'Sheryl Tillitson', title: 'Clerk', phone: '(231) 492-9889', email: '' },
+      { name: 'Keri Boughner', title: 'Treasurer', phone: '(231) 492-9855', email: '' },
+      { name: 'Kellie Fuelling', title: 'Trustee', phone: '(419) 260-5919', email: '' },
+      { name: 'Janine Jung', title: 'Trustee', phone: '(734) 323-8799', email: '' }
+    ]
+  },
+  'Grand Traverse:Whitewater': {
+    name: 'Whitewater Township',
+    county: 'Grand Traverse',
+    officials: [
+      { name: 'Linda Slopsema', title: 'Supervisor', phone: '(231) 267-5141 ext. 23', email: '' },
+      { name: 'Wendy Hoeksema', title: 'Clerk', phone: '(231) 267-5141 ext. 24', email: '' },
+      { name: 'Jill Koester', title: 'Treasurer', phone: '(231) 267-5141 ext. 22', email: '' },
+      { name: 'Randy Mielnik', title: 'Trustee', phone: '(231) 534-2420', email: '' }
+    ]
+  },
+  'Gratiot:Arcada': {
+    name: 'Arcada Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Laureen Baxter', title: 'Clerk', phone: '(989) 620-6272', email: '' },
+      { name: 'Mary Redman', title: 'Treasurer', phone: '(989) 640-4245', email: '' },
+      { name: 'Conrad Bovee', title: 'Trustee', phone: '(989) 763-2998', email: '' },
+      { name: 'William Baxter', title: 'Trustee', phone: '(989) 620-6295', email: '' }
+    ]
+  },
+  'Gratiot:Bethany': {
+    name: 'Bethany Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Greg Mikek', title: 'Supervisor', phone: '(989) 330-4722', email: '' },
+      { name: 'Tracy Howd', title: 'Clerk', phone: '(989) 620-5842', email: '' },
+      { name: 'Darryl Fowler', title: 'Treasurer', phone: '(989) 681-5042', email: '' },
+      { name: 'Kent Humm', title: 'Trustee', phone: '(989) 842-3235', email: '' },
+      { name: 'Brian Devine', title: 'Trustee', phone: '(989) 388-2026', email: '' }
+    ]
+  },
+  'Gratiot:Elba': {
+    name: 'Elba Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Madalin Morris', title: 'Clerk', phone: '(989) 847-2210', email: '' },
+      { name: 'Paula Bolton', title: 'Treasurer', phone: '(989) 847-2210', email: '' },
+      { name: 'Connie Stehlik', title: 'Trustee', phone: '(989) 847-4205', email: '' },
+      { name: 'Jensen Schmidt', title: 'Trustee', phone: '(989) 847-2210', email: '' }
+    ]
+  },
+  'Gratiot:Emerson': {
+    name: 'Emerson Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'James Weburg', title: 'Supervisor', phone: '(989) 289-2674', email: '' },
+      { name: 'Jodie Reeves', title: 'Clerk', phone: '(989) 875-5041', email: '' },
+      { name: 'Lori Kindel', title: 'Treasurer', phone: '(989) 875-5041', email: '' },
+      { name: 'Michael Reeves', title: 'Trustee', phone: '(989) 875-5041', email: '' },
+      { name: 'Marc Coon', title: 'Trustee', phone: '(989) 763-1346', email: '' }
+    ]
+  },
+  'Gratiot:Fulton': {
+    name: 'Fulton Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Robert Baxter', title: 'Supervisor', phone: '(989) 236-5102 ext. 3', email: '' },
+      { name: 'Denise Rossman', title: 'Clerk', phone: '(989) 236-5102', email: '' },
+      { name: 'Heather Abbott', title: 'Treasurer', phone: '(989) 236-5102', email: '' },
+      { name: 'Michael Oberlitner', title: 'Trustee', phone: '(989) 236-5102', email: '' }
+    ]
+  },
+  'Gratiot:Hamilton': {
+    name: 'Hamilton Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Laura Clark', title: 'Supervisor', phone: '(989) 620-6810', email: '' },
+      { name: 'Karen Crocker', title: 'Clerk', phone: '(989) 763-7307', email: '' },
+      { name: 'Andrea Oswald', title: 'Treasurer', phone: '(989) 763-7307', email: '' },
+      { name: 'Rhonda Ringle', title: 'Trustee', phone: '(989) 875-2429', email: '' },
+      { name: 'Dirk Oswald', title: 'Trustee', phone: '(989) 763-7307', email: '' }
+    ]
+  },
+  'Gratiot:Lafayette': {
+    name: 'Lafayette Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Bradey Neitzke', title: 'Supervisor', phone: '(989) 205-3020', email: '' },
+      { name: 'Corey Schaub', title: 'Clerk', phone: '(989) 620-4354', email: '' },
+      { name: 'Jaclyn Godley', title: 'Treasurer', phone: '(989) 620-4354', email: '' },
+      { name: 'Nora Colthorp', title: 'Trustee', phone: '(989) 205-2777', email: '' },
+      { name: 'Ashley Thomas', title: 'Trustee', phone: '(989) 620-4354', email: '' }
+    ]
+  },
+  'Gratiot:New Haven': {
+    name: 'New Haven Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Brian Smith', title: 'Supervisor', phone: '(989) 584-3707', email: '' },
+      { name: 'Candy Smith', title: 'Clerk', phone: '(989) 584-3707', email: '' },
+      { name: 'Kathy Doran', title: 'Treasurer', phone: '(989) 875-4680', email: '' },
+      { name: 'Anthony Taylor', title: 'Trustee', phone: '(989) 763-4688', email: '' },
+      { name: 'Tim Gustavison', title: 'Trustee', phone: '(989) 584-3707', email: '' }
+    ]
+  },
+  'Gratiot:Newark': {
+    name: 'Newark Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Katie Cooper', title: 'Supervisor', phone: '(307) 749-5305', email: '' },
+      { name: 'Heather Reeser', title: 'Clerk', phone: '(989) 251-4782', email: '' },
+      { name: 'Seth Lake', title: 'Treasurer', phone: '(989) 620-6493', email: '' },
+      { name: 'Christopher Bovee', title: 'Trustee', phone: '(989) 763-3227', email: '' },
+      { name: 'Dominic Walsh', title: 'Trustee', phone: '(989) 620-6665', email: '' }
+    ]
+  },
+  'Gratiot:North Shade': {
+    name: 'North Shade Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'John Peck', title: 'Supervisor', phone: '(989) 584-3049', email: '' },
+      { name: 'Kathy Keiffer', title: 'Clerk', phone: '(989) 584-6000', email: '' },
+      { name: 'Scott Friesen', title: 'Treasurer', phone: '(989) 236-5472', email: '' },
+      { name: 'Arthur Kurtze', title: 'Trustee', phone: '(517) 202-0437', email: '' },
+      { name: 'Tyler Wilson', title: 'Trustee', phone: '(989) 584-6000', email: '' }
+    ]
+  },
+  'Gratiot:North Star': {
+    name: 'North Star Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'John Hardman', title: 'Supervisor', phone: '(989) 875-2586', email: '' },
+      { name: 'Heidi Drowley', title: 'Clerk', phone: '(989) 875-3352', email: '' },
+      { name: 'Nicole Whitmore', title: 'Treasurer', phone: '(989) 763-5920', email: '' },
+      { name: 'Bill Smith', title: 'Trustee', phone: '(989) 875-4140', email: '' },
+      { name: 'Danielle Wolfe', title: 'Trustee', phone: '(810) 342-8369', email: '' }
+    ]
+  },
+  'Gratiot:Pine River': {
+    name: 'Pine River Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Kevin Beeson', title: 'Supervisor', phone: '(989) 859-1754', email: '' },
+      { name: 'Andrea Whitmore', title: 'Clerk', phone: '(989) 681-5523', email: '' },
+      { name: 'Todd Moeggenborg', title: 'Treasurer', phone: '(989) 681-5523', email: '' },
+      { name: 'Jeff Baker', title: 'Trustee', phone: '(989) 681-5523', email: '' }
+    ]
+  },
+  'Gratiot:Seville': {
+    name: 'Seville Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Patricia (Tish) Mallory', title: 'Supervisor', phone: '(989) 763-0501', email: '' },
+      { name: 'Amy Densmore', title: 'Clerk', phone: '(989) 506-0355', email: '' },
+      { name: 'Ashlee Gibson-Smith', title: 'Treasurer', phone: '(989) 488-7047', email: '' },
+      { name: 'Doug Brecht', title: 'Trustee', phone: '(989) 463-6180', email: '' },
+      { name: 'Michale Miller', title: 'Trustee', phone: '(989) 403-8537', email: '' }
+    ]
+  },
+  'Gratiot:Sumner': {
+    name: 'Sumner Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Ronald Hunt', title: 'Supervisor', phone: '(989) 576-0914', email: '' },
+      { name: 'Carlene McGill', title: 'Clerk', phone: '(989) 463-4531', email: '' },
+      { name: 'Angela Martin', title: 'Treasurer', phone: '(989) 833-7292', email: '' },
+      { name: 'Aaron VanHorn', title: 'Trustee', phone: '(989) 388-7107', email: '' },
+      { name: 'Scott Beagle', title: 'Trustee', phone: '(989) 833-7068', email: '' }
+    ]
+  },
+  'Gratiot:Washington': {
+    name: 'Washington Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Tarry Stahl', title: 'Clerk', phone: '(989) 847-1000', email: '' },
+      { name: 'Kevin Whaley', title: 'Treasurer', phone: '(989) 388-3734', email: '' }
+    ]
+  },
+  'Gratiot:Wheeler': {
+    name: 'Wheeler Township',
+    county: 'Gratiot',
+    officials: [
+      { name: 'Neil Jenkins', title: 'Supervisor', phone: '(989) 842-3428', email: '' },
+      { name: 'Kelly Bushre', title: 'Clerk', phone: '(989) 842-3428', email: '' },
+      { name: 'Marguerite Cooper', title: 'Treasurer', phone: '(989) 842-3428', email: '' },
+      { name: 'Olan Humm', title: 'Trustee', phone: '(989) 330-6694', email: '' },
+      { name: 'Lance Anderson', title: 'Trustee', phone: '(517) 614-1231', email: '' }
+    ]
+  },
+  'Hillsdale:Adams': {
     name: 'Adams Township',
-    county: 'Houghton',
+    county: 'Hillsdale',
     officials: [
-      { name: 'Gerald Heikkinen', title: 'Supervisor', party: null },
-      { name: 'Debra Pindral', title: 'Clerk', party: null },
-      { name: 'Tracy Immonen', title: 'Treasurer', party: null },
-      { name: 'Paul Eister', title: 'Trustee', party: 'Republican' },
-      { name: 'Diane Keranen', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Randy Johnson', title: 'Supervisor', phone: '(517) 435-8470', email: '' },
+      { name: 'Suzy Roberts', title: 'Clerk', phone: '(517) 287-5766', email: '' },
+      { name: 'David McCumber', title: 'Treasurer', phone: '(517) 287-5766', email: '' },
+      { name: 'Jason Griffiths', title: 'Trustee', phone: '(517) 287-5766', email: '' },
+      { name: 'Dan Shadik', title: 'Trustee', phone: '(989) 640-5978', email: '' }
+    ]
   },
-
-  'Calumet Charter Twp': {
-    name: 'Calumet Charter Township',
-    county: 'Houghton',
+  'Hillsdale:Allen': {
+    name: 'Allen Township',
+    county: 'Hillsdale',
     officials: [
-      { name: 'Tim Gasperich', title: 'Supervisor', party: null },
-      { name: 'Robin Hicks', title: 'Clerk', party: null },
-      { name: 'Lana Hyrkas', title: 'Treasurer', party: null },
-      { name: 'Gary Lassila', title: 'Trustee', party: 'Republican' },
-      { name: 'David Yeo', title: 'Trustee', party: 'Republican' },
-      { name: 'Jeff West', title: 'Trustee', party: 'Republican' },
-      { name: 'Tom Helppi', title: 'Trustee', party: null },
-    ],
+      { name: 'Ken Todd', title: 'Supervisor', phone: '(517) 321-2418', email: '' },
+      { name: 'Jessica Kratzer', title: 'Clerk', phone: '(517) 425-0406', email: '' },
+      { name: 'Amy Huepenbecker', title: 'Treasurer', phone: '(517) 869-3667', email: '' },
+      { name: 'David Payn', title: 'Trustee', phone: '(517) 932-8192', email: '' },
+      { name: 'Shawnda Cope', title: 'Trustee', phone: '', email: '' }
+    ]
   },
-
-  'Chassell Twp': {
-    name: 'Chassell Township',
-    county: 'Houghton',
+  'Hillsdale:Amboy': {
+    name: 'Amboy Township',
+    county: 'Hillsdale',
     officials: [
-      { name: 'Lynn Gierke', title: 'Supervisor', party: null },
-      { name: 'Bethany Baetsen', title: 'Clerk', party: null },
-      { name: 'Kelly Holmes', title: 'Treasurer', party: null },
-      { name: 'Curt Judson', title: 'Trustee', party: null },
-      { name: 'Dan Palosaari', title: 'Trustee', party: null },
-    ],
+      { name: 'James Watt', title: 'Supervisor', phone: '(517) 254-4116', email: '' },
+      { name: 'Betty Burkhart', title: 'Clerk', phone: '(517) 254-4116', email: '' },
+      { name: 'Mary Anne Bunce', title: 'Treasurer', phone: '(517) 254-4438', email: '' },
+      { name: 'John Burkhart', title: 'Trustee', phone: '(517) 254-4116', email: '' }
+    ]
   },
-
-  'Duncan Twp': {
-    name: 'Duncan Township',
-    county: 'Houghton',
+  'Hillsdale:Cambria': {
+    name: 'Cambria Township',
+    county: 'Hillsdale',
     officials: [
-      { name: 'Laurie Houts', title: 'Supervisor', party: null },
-      { name: 'Kathleen Allen', title: 'Clerk', party: null },
-      { name: 'Sandra Pitkanen', title: 'Treasurer', party: null },
-      { name: 'Lon Houts', title: 'Trustee', party: null },
-      { name: 'Theodore Pitkanen', title: 'Trustee', party: null },
-    ],
+      { name: 'Joel Bowers', title: 'Supervisor', phone: '(517) 357-4225', email: '' },
+      { name: 'Carol Rosales', title: 'Clerk', phone: '(517) 357-4488', email: '' },
+      { name: 'Shelley Neukom', title: 'Treasurer', phone: '(517) 357-4225', email: '' },
+      { name: 'Eric Baumgartner', title: 'Trustee', phone: '(517) 357-4210', email: '' },
+      { name: 'Ted Brown', title: 'Trustee', phone: '(517) 357-4225', email: '' }
+    ]
   },
-
-  'Elm River Twp': {
-    name: 'Elm River Township',
-    county: 'Houghton',
-    website: 'http://www.elmrivertownship.com',
+  'Hillsdale:Camden': {
+    name: 'Camden Township',
+    county: 'Hillsdale',
     officials: [
-      { name: 'John Reynolds', title: 'Supervisor', party: null },
-      { name: 'Sherri Brandt', title: 'Clerk', party: null },
-      { name: 'Cheryl Reynolds', title: 'Treasurer', party: null },
-      { name: 'David Saari', title: 'Trustee', party: null },
-      { name: 'Joe Romano', title: 'Trustee', party: null },
-    ],
+      { name: 'Duane Carlson', title: 'Supervisor', phone: '(517) 398-6452', email: '' },
+      { name: 'Kristina Dewey', title: 'Clerk', phone: '(517) 606-5567', email: '' },
+      { name: 'Christine Ash', title: 'Treasurer', phone: '(517) 368-4925', email: '' },
+      { name: 'David Hutchins', title: 'Trustee', phone: '(517) 368-5353', email: '' },
+      { name: 'Linda Ash', title: 'Trustee', phone: '(517) 368-4925', email: '' }
+    ]
   },
-
-  'Franklin Twp': {
-    name: 'Franklin Township',
-    county: 'Houghton',
+  'Hillsdale:Fayette': {
+    name: 'Fayette Township',
+    county: 'Hillsdale',
     officials: [
-      { name: 'Mary Sears', title: 'Supervisor', party: null },
-      { name: 'Elizabeth Aho', title: 'Clerk', party: null },
-      { name: 'Rachel Sears', title: 'Treasurer', party: null },
-      { name: 'DJ Dulong', title: 'Trustee', party: 'Republican' },
-      { name: 'Lawrence Julio', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Nate Baker', title: 'Supervisor', phone: '(517) 849-2351', email: '' },
+      { name: 'Jessica Bradley', title: 'Clerk', phone: '(517) 849-2351', email: '' },
+      { name: 'Nancy DuBois', title: 'Treasurer', phone: '(517) 849-2351', email: '' },
+      { name: 'Alfred DuBois', title: 'Trustee', phone: '(517) 849-2351', email: '' },
+      { name: 'Scott Playford', title: 'Trustee', phone: '(517) 849-2351', email: '' }
+    ]
   },
-
-  'Hancock Twp': {
-    name: 'Hancock Township',
-    county: 'Houghton',
-    website: 'https://hancocktwp.org',
+  'Hillsdale:Hillsdale': {
+    name: 'Hillsdale Township',
+    county: 'Hillsdale',
     officials: [
-      { name: 'Mike Young', title: 'Supervisor', party: null },
-      { name: 'Amy Jo Maki', title: 'Clerk', party: null },
-      { name: 'James Moore', title: 'Treasurer', party: null },
-      { name: 'Connie Pietila', title: 'Trustee', party: 'Republican' },
-      { name: 'Ronald Racine Sr.', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Jacquelyn Sullivan', title: 'Supervisor', phone: '(517) 439-5120', email: '' },
+      { name: 'Janel Stewart', title: 'Clerk', phone: '(517) 320-0617', email: '' },
+      { name: 'Kelly Lantis', title: 'Treasurer', phone: '(517) 437-4105', email: '' },
+      { name: 'Rick Emery', title: 'Trustee', phone: '(517) 437-7420', email: '' },
+      { name: 'Tim Wilcox', title: 'Trustee', phone: '(517) 425-2529', email: '' }
+    ]
   },
-
-  'Laird Twp': {
+  'Hillsdale:Jefferson': {
+    name: 'Jefferson Township',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'Steve Wismar', title: 'Supervisor', phone: '(517) 523-3165', email: '' },
+      { name: 'Allyssa Cornett', title: 'Clerk', phone: '(517) 523-3165', email: '' },
+      { name: 'Barbie Keiser', title: 'Treasurer', phone: '(517) 523-3165', email: '' },
+      { name: 'Bonnie Tew', title: 'Trustee', phone: '(517) 523-3165', email: '' },
+      { name: 'Wes Wickham', title: 'Trustee', phone: '(517) 523-3165', email: '' }
+    ]
+  },
+  'Hillsdale:Litchfield': {
+    name: 'Litchfield Township',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'Ben Thomas', title: 'Supervisor', phone: '(517) 398-2733', email: '' },
+      { name: 'Vicki Heckel', title: 'Clerk', phone: '(517) 542-3950', email: '' },
+      { name: 'Ann McCormick', title: 'Treasurer', phone: '(517) 542-3950', email: '' },
+      { name: 'Ron Lemke', title: 'Trustee', phone: '(517) 542-3950', email: '' },
+      { name: 'Julie Blonde', title: 'Trustee', phone: '(517) 542-3950', email: '' }
+    ]
+  },
+  'Hillsdale:Moscow': {
+    name: 'Moscow Township',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'William Petrie', title: 'Supervisor', phone: '(517) 740-8541', email: '' },
+      { name: 'Sheri Gower', title: 'Clerk', phone: '(517) 688-9707', email: '' },
+      { name: 'Mary Rutan', title: 'Treasurer', phone: '(517) 287-5134', email: '' },
+      { name: 'Craig Moore', title: 'Trustee', phone: '(517) 960-3699', email: '' },
+      { name: 'Lisa Wallace', title: 'Trustee', phone: '(517) 315-7075', email: '' }
+    ]
+  },
+  'Hillsdale:Pittsford': {
+    name: 'Pittsford Township',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'Leaann Zimmerman', title: 'Supervisor', phone: '(517) 425-9042', email: '' },
+      { name: 'Caitlin Saunders', title: 'Clerk', phone: '(517) 610-9335', email: '' },
+      { name: 'Tonya Billington', title: 'Treasurer', phone: '(517) 607-5407', email: '' },
+      { name: 'Melvin Tuckerman', title: 'Trustee', phone: '(517) 610-2149', email: '' },
+      { name: 'David Siegel', title: 'Trustee', phone: '(517) 425-0982', email: '' }
+    ]
+  },
+  'Hillsdale:Ransom': {
+    name: 'Ransom Township',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'Robert Billman', title: 'Supervisor', phone: '(517) 610-1217', email: '' },
+      { name: 'Cathy Burkhart', title: 'Clerk', phone: '(517) 425-0455', email: '' },
+      { name: 'Joyce McCallister', title: 'Treasurer', phone: '(517) 567-4304', email: '' },
+      { name: 'Joe Burkhart', title: 'Trustee', phone: '(517) 254-4214', email: '' },
+      { name: 'Roy Bodinus', title: 'Trustee', phone: '(517) 306-3155', email: '' }
+    ]
+  },
+  'Hillsdale:Reading': {
+    name: 'Reading Township',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'Corey Burke', title: 'Supervisor', phone: '(517) 283-3286', email: '' },
+      { name: 'Kathy Flaugher', title: 'Clerk', phone: '(517) 283-3286', email: '' },
+      { name: 'Rick Gripman', title: 'Treasurer', phone: '(517) 283-3600', email: '' },
+      { name: 'Ronald Parker', title: 'Trustee', phone: '(517) 283-3286', email: '' }
+    ]
+  },
+  'Hillsdale:Scipio': {
+    name: 'Scipio Township',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'Todd Miller', title: 'Supervisor', phone: '(517) 549-8405', email: '' },
+      { name: 'Judy Leedy', title: 'Clerk', phone: '(517) 849-9223', email: '' },
+      { name: 'Gary Nye', title: 'Treasurer', phone: '(517) 849-2949', email: '' },
+      { name: 'Cynthia Magda', title: 'Trustee', phone: '(517) 262-0435', email: '' },
+      { name: 'Mary Wallen', title: 'Trustee', phone: '(517) 849-9223', email: '' }
+    ]
+  },
+  'Hillsdale:Somerset': {
+    name: 'Somerset Township',
+    county: 'Hillsdale',
+    officials: [
+      { name: 'Tim Shaw', title: 'Supervisor', phone: '(517) 748-1134', email: '' },
+      { name: 'Sharon Uyttenhove', title: 'Clerk', phone: '(517) 260-2353', email: '' },
+      { name: 'Steve Meckley', title: 'Trustee', phone: '(517) 812-1603', email: '' }
+    ]
+  },
+  'Houghton:Laird': {
     name: 'Laird Township',
     county: 'Houghton',
-    website: 'https://lairdtownship.org',
     officials: [
-      { name: 'Patricia Spencer', title: 'Supervisor', party: null },
-      { name: 'Robin Henry', title: 'Clerk', party: null },
-      { name: 'Nicole Krajnak', title: 'Treasurer', party: null },
-      { name: 'John Juntunen', title: 'Trustee', party: 'Republican' },
-      { name: 'Ryan McGahan', title: 'Trustee', party: null },
-    ],
+      { name: 'Patricia Spencer', title: 'Supervisor', phone: '(906) 338-2771', email: '' },
+      { name: 'Robin Henry', title: 'Clerk', phone: '(906) 395-1026', email: '' },
+      { name: 'Nicole Krajnak', title: 'Treasurer', phone: '(906) 395-2095', email: '' },
+      { name: 'Sarah Hiltunen', title: 'Trustee', phone: '(906) 338-2794', email: '' }
+    ]
   },
-
-  'Osceola Twp (Houghton)': {
+  'Houghton:Osceola': {
     name: 'Osceola Township',
     county: 'Houghton',
-    website: 'https://www.osceolatownship.org',
     officials: [
-      { name: 'Mark Halkola', title: 'Supervisor', party: null },
-      { name: 'Christa Gardner', title: 'Clerk', party: null },
-      { name: 'Christina Gardner', title: 'Treasurer', party: null },
-      { name: 'Aaron Janke', title: 'Trustee', party: 'Republican' },
-      { name: 'Donald Wareham', title: 'Trustee', party: 'Democratic' },
-    ],
+      { name: 'Mark Halkola', title: 'Supervisor', phone: '(906) 482-8578 ext. 1', email: '' },
+      { name: 'Christa Gardner', title: 'Clerk', phone: '(906) 482-8578 ext. 2', email: '' },
+      { name: 'Christina Gardner', title: 'Treasurer', phone: '(906) 482-8578 ext. 3', email: '' },
+      { name: 'Aaron Janke', title: 'Trustee', phone: '(906) 370-7208', email: '' },
+      { name: 'Don Wareham', title: 'Trustee', phone: '(906) 370-3651', email: '' }
+    ]
   },
-
-  'Portage Charter Twp': {
-    name: 'Portage Charter Township',
+  'Houghton:Portage': {
+    name: 'Portage charter Township',
     county: 'Houghton',
     officials: [
-      { name: 'Brandon Scholie', title: 'Supervisor', party: null },
-      { name: 'Amy Skewes', title: 'Clerk', party: null },
-      { name: 'Betsy Smith', title: 'Treasurer', party: null },
-      { name: 'Dale Belanger', title: 'Trustee', party: 'Republican' },
-      { name: 'Janelle Datto', title: 'Trustee', party: 'Republican' },
-      { name: 'Nicholas Lanctot', title: 'Trustee', party: 'Republican' },
-      { name: 'Amber Voght', title: 'Trustee', party: 'Democratic' },
-    ],
+      { name: 'Brandon Scholie', title: 'Supervisor', phone: '(906) 482-4310', email: '' },
+      { name: 'Janelle Datto', title: 'Clerk', phone: '(906) 482-4310', email: '' },
+      { name: 'Amy Skewes', title: 'Treasurer', phone: '(906) 482-4310', email: '' },
+      { name: 'Amber Voght', title: 'Trustee', phone: '(906) 482-4310', email: '' },
+      { name: 'Marty Raffaelli', title: 'Trustee', phone: '(989) 738-6402', email: '' },
+      { name: 'Nick Lanctot', title: 'Trustee', phone: '(906) 482-4310', email: '' },
+      { name: 'Dale Belanger', title: 'Trustee', phone: '(989) 738-6402', email: '' }
+    ]
   },
-
-  'Quincy Twp': {
+  'Houghton:Quincy': {
     name: 'Quincy Township',
     county: 'Houghton',
     officials: [
-      { name: 'Dennis Raasio', title: 'Supervisor', party: null },
-      { name: 'Beth Helminen', title: 'Clerk', party: null },
-      { name: 'Cheri Raasio', title: 'Treasurer', party: null },
-      { name: 'Chris Kangas', title: 'Trustee', party: 'Democratic' },
-      { name: 'Michael Galetto', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Dennis Raasio', title: 'Supervisor', phone: '(906) 370-8273', email: '' },
+      { name: 'Beth Helminen', title: 'Clerk', phone: '(906) 281-4853', email: '' },
+      { name: 'Cheri Raasio', title: 'Treasurer', phone: '(906) 523-5256', email: '' },
+      { name: 'Chris Kangas', title: 'Trustee', phone: '(906) 482-2125', email: '' },
+      { name: 'Mike Galetto', title: 'Trustee', phone: '(906) 369-4500', email: '' }
+    ]
   },
-
-  'Schoolcraft Twp': {
+  'Houghton:Schoolcraft': {
     name: 'Schoolcraft Township',
     county: 'Houghton',
     officials: [
-      { name: 'Josh Loukus', title: 'Supervisor', party: null },
-      { name: 'Betty Antilla', title: 'Clerk', party: null },
-      { name: 'Robert Wareham', title: 'Treasurer', party: null },
-      { name: 'Susan Marcotte', title: 'Trustee', party: 'Democratic' },
-      { name: 'William Heide', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Josh Loukus', title: 'Supervisor', phone: '(906) 369-5674', email: '' },
+      { name: 'Betty Antilla', title: 'Clerk', phone: '(906) 296-8721', email: '' },
+      { name: 'Robert Wareham', title: 'Treasurer', phone: '(906) 296-8721', email: '' },
+      { name: 'Susan Marcotte', title: 'Trustee', phone: '(906) 296-8721', email: '' },
+      { name: 'William Heide', title: 'Trustee', phone: '(906) 296-8721', email: '' }
+    ]
   },
-
-  'Stanton Twp': {
+  'Houghton:Stanton': {
     name: 'Stanton Township',
     county: 'Houghton',
-    website: 'https://www.stantontownship.com',
     officials: [
-      { name: 'Marty Rajala', title: 'Supervisor', party: null },
-      { name: 'Tina Hatman', title: 'Clerk', party: null },
-      { name: 'Lori Anderson', title: 'Treasurer', party: null },
-      { name: 'Jim Heinonen', title: 'Trustee', party: 'Republican' },
-      { name: 'Mark Haataja', title: 'Trustee', party: 'Republican' },
-    ],
+      { name: 'Marty Rajala', title: 'Supervisor', phone: '(906) 482-9340', email: '' },
+      { name: 'Tina Hatman', title: 'Clerk', phone: '(906) 482-8319', email: '' },
+      { name: 'Lori Anderson', title: 'Treasurer', phone: '(906) 483-0543', email: '' },
+      { name: 'Mark Haataja', title: 'Trustee', phone: '(906) 482-8319', email: '' },
+      { name: 'James Heinonen', title: 'Trustee', phone: '(906) 482-8319', email: '' }
+    ]
   },
-
-  'Torch Lake Twp': {
+  'Houghton:Torch Lake': {
     name: 'Torch Lake Township',
     county: 'Houghton',
-    website: 'https://www.torchlaketownship.com',
     officials: [
-      { name: 'Brian Cadwell', title: 'Supervisor', party: null },
-      { name: 'Lou Ambuehl', title: 'Clerk', party: null },
-      { name: 'Kathryn Moore', title: 'Treasurer', party: null },
-      { name: 'Scott Sapino', title: 'Trustee', party: 'Democratic' },
-      { name: 'Tim Reitz', title: 'Trustee', party: null },
-    ],
+      { name: 'Brian Cadwell', title: 'Supervisor', phone: '(906) 296-9373', email: '' },
+      { name: 'Lou Ambuehl', title: 'Clerk', phone: '(906) 296-0214', email: '' },
+      { name: 'Kathryn Moore', title: 'Treasurer', phone: '(906) 296-0214', email: '' },
+      { name: 'Scott Sapino', title: 'Trustee', phone: '(906) 296-0214', email: '' },
+      { name: 'Tim Reitz', title: 'Trustee', phone: '(906) 296-0214', email: '' }
+    ]
   },
-
-  /* ── Marquette County townships ── */
-
-  'Chocolay Charter Twp': {
-    name: 'Chocolay Charter Township',
+  'Huron:Bingham': {
+    name: 'Bingham Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Kevin Grifka', title: 'Supervisor', phone: '(989) 658-8651', email: '' },
+      { name: 'Joseph Trepkoski', title: 'Clerk', phone: '(989) 550-1946', email: '' },
+      { name: 'Laura Tyll', title: 'Treasurer', phone: '(989) 658-8651', email: '' },
+      { name: 'Charles Briolat', title: 'Trustee', phone: '(989) 658-8063', email: '' },
+      { name: 'Robert Brahmer', title: 'Trustee', phone: '(989) 658-8651', email: '' }
+    ]
+  },
+  'Huron:Bloomfield': {
+    name: 'Bloomfield Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Matthew Booms', title: 'Supervisor', phone: '(989) 428-3832', email: '' },
+      { name: 'Samantha Guza', title: 'Clerk', phone: '(989) 428-4774', email: '' },
+      { name: 'Marcealina Miller', title: 'Treasurer', phone: '(989) 550-9078', email: '' },
+      { name: 'Fred Karg', title: 'Trustee', phone: '(989) 550-0513', email: '' },
+      { name: 'Paul Elandt', title: 'Trustee', phone: '(989) 551-4527', email: '' }
+    ]
+  },
+  'Huron:Brookfield': {
+    name: 'Brookfield Township',
+    county: 'Huron',
+    officials: [
+      { name: 'A. Charles Timmons', title: 'Supervisor', phone: '(989) 780-0316', email: '' },
+      { name: 'Debbie Engelhardt', title: 'Clerk', phone: '(989) 325-2690', email: '' },
+      { name: 'Ervin Haley', title: 'Treasurer', phone: '(989) 678-4291', email: '' },
+      { name: 'Aaron Fahrner', title: 'Trustee', phone: '(989) 551-3395', email: '' },
+      { name: 'Aaron Baker', title: 'Trustee', phone: '(989) 551-9681', email: '' }
+    ]
+  },
+  'Huron:Caseville': {
+    name: 'Caseville Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Ben Willenberg', title: 'Supervisor', phone: '(989) 856-3053', email: '' },
+      { name: 'Kim Simpson', title: 'Clerk', phone: '(989) 856-3053', email: '' },
+      { name: 'Chelsey Klawon', title: 'Treasurer', phone: '(989) 856-3053', email: '' },
+      { name: 'Laurie Marrocco', title: 'Trustee', phone: '(586) 764-0175', email: '' },
+      { name: 'Michelle Stirrett', title: 'Trustee', phone: '(989) 856-4881', email: '' }
+    ]
+  },
+  'Huron:Chandler': {
+    name: 'Chandler Township',
+    county: 'Huron',
+    officials: [
+      { name: 'William Renn', title: 'Supervisor', phone: '(989) 553-4005', email: '' },
+      { name: 'Kevin Roestel', title: 'Clerk', phone: '(989) 453-3540', email: '' },
+      { name: 'Sara Mallory', title: 'Treasurer', phone: '(989) 551-2156', email: '' },
+      { name: 'Mike Bushey', title: 'Trustee', phone: '(989) 453-3540', email: '' },
+      { name: 'Troy Steinman', title: 'Trustee', phone: '(989) 453-3540', email: '' }
+    ]
+  },
+  'Huron:Colfax': {
+    name: 'Colfax Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Doug Gentner', title: 'Supervisor', phone: '(989) 269-2271', email: '' },
+      { name: 'Angelique Shupe', title: 'Clerk', phone: '(989) 269-2271', email: '' },
+      { name: 'Linda Smith', title: 'Treasurer', phone: '(989) 269-2271', email: '' },
+      { name: 'Tim Gordon', title: 'Trustee', phone: '(989) 269-2271', email: '' },
+      { name: 'Floyd Stroschein', title: 'Trustee', phone: '(586) 256-6873', email: '' }
+    ]
+  },
+  'Huron:Dwight': {
+    name: 'Dwight Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Mark Sosnoski', title: 'Supervisor', phone: '(989) 315-2136', email: '' },
+      { name: 'Roman Kozlowski', title: 'Clerk', phone: '(989) 874-4826', email: '' },
+      { name: 'Charlotte Sosnoski', title: 'Treasurer', phone: '(989) 315-2306', email: '' },
+      { name: 'Mike Horn', title: 'Trustee', phone: '(989) 874-4826', email: '' },
+      { name: 'Dale Jaworski', title: 'Trustee', phone: '(989) 874-4826', email: '' }
+    ]
+  },
+  'Huron:Fairhaven': {
+    name: 'Fairhaven Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Brandon Swartzendruber', title: 'Supervisor', phone: '(989) 553-1979', email: '' },
+      { name: 'Shawna Beachy', title: 'Clerk', phone: '(989) 656-9901', email: '' },
+      { name: 'Ellen McGathy', title: 'Treasurer', phone: '(989) 550-2923', email: '' },
+      { name: 'Dennis VanPoole', title: 'Trustee', phone: '(989) 656-9901', email: '' },
+      { name: 'Jill Bruce', title: 'Trustee', phone: '(989) 656-9901', email: '' }
+    ]
+  },
+  'Huron:Gore': {
+    name: 'Gore Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Daniel Koglin', title: 'Supervisor', phone: '(989) 670-6510', email: '' },
+      { name: 'Melissa Wright', title: 'Clerk', phone: '(248) 245-4431', email: '' },
+      { name: 'Mary Ann Jahn', title: 'Treasurer', phone: '(989) 428-4573', email: '' },
+      { name: 'Judith Kowalewski', title: 'Trustee', phone: '(989) 428-4561', email: '' },
+      { name: 'Donald Finkel', title: 'Trustee', phone: '(989) 550-5298', email: '' }
+    ]
+  },
+  'Huron:Grant': {
+    name: 'Grant Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Jeffery Krohn', title: 'Supervisor', phone: '(989) 551-5434', email: '' },
+      { name: 'Janice Brandel', title: 'Clerk', phone: '(989) 551-5740', email: '' },
+      { name: 'Barbara Irrer', title: 'Treasurer', phone: '(989) 375-2376', email: '' },
+      { name: 'Theodore Sheldon', title: 'Trustee', phone: '(989) 551-1482', email: '' },
+      { name: 'Debra Fritz', title: 'Trustee', phone: '(989) 670-2960', email: '' }
+    ]
+  },
+  'Huron:Hume': {
+    name: 'Hume Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Bill Goretski', title: 'Supervisor', phone: '(989) 550-7249', email: '' },
+      { name: 'Theresa Mazure', title: 'Clerk', phone: '(989) 874-5220', email: '' },
+      { name: 'Alice Craig', title: 'Treasurer', phone: '(989) 874-5150', email: '' },
+      { name: 'Samuel Meagher', title: 'Trustee', phone: '(989) 738-8212', email: '' },
+      { name: 'Matt Hyzer', title: 'Trustee', phone: '(989) 874-5220', email: '' }
+    ]
+  },
+  'Huron:Huron': {
+    name: 'Huron Township',
+    county: 'Huron',
+    officials: [
+      { name: 'John Phillips', title: 'Supervisor', phone: '(810) 623-1105', email: '' },
+      { name: 'Joanne Schulte', title: 'Clerk', phone: '(989) 428-4962', email: '' },
+      { name: 'Janice Bender', title: 'Treasurer', phone: '(989) 551-7850', email: '' },
+      { name: 'Stan Mayer', title: 'Trustee', phone: '(989) 476-0012', email: '' },
+      { name: 'Patricia Tinsey-Iseler', title: 'Trustee', phone: '(989) 476-0012', email: '' }
+    ]
+  },
+  'Huron:Lake': {
+    name: 'Lake Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Valerie McCallum', title: 'Supervisor', phone: '(989) 550-1046', email: '' },
+      { name: 'Lisa Clinton', title: 'Clerk', phone: '(989) 856-4867', email: '' },
+      { name: 'Nicole Collins', title: 'Treasurer', phone: '(989) 856-4867', email: '' },
+      { name: 'Dale Hartsell', title: 'Trustee', phone: '(989) 856-3471', email: '' },
+      { name: 'Kenny Kapa', title: 'Trustee', phone: '(989) 856-4867', email: '' }
+    ]
+  },
+  'Huron:Lincoln': {
+    name: 'Lincoln Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Melvin Drake', title: 'Supervisor', phone: '(989) 550-4886', email: '' },
+      { name: 'Irvin Kanaski', title: 'Clerk', phone: '(989) 874-5055', email: '' },
+      { name: 'Patricia Weber', title: 'Treasurer', phone: '(989) 874-4036', email: '' },
+      { name: 'Timothy Pawlowski', title: 'Trustee', phone: '(989) 670-8380', email: '' },
+      { name: 'John Wisneski', title: 'Trustee', phone: '(989) 874-4261', email: '' }
+    ]
+  },
+  'Huron:McKinley': {
+    name: 'McKinley Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Adam Armbruster', title: 'Supervisor', phone: '(989) 551-5107', email: '' },
+      { name: 'Melissa Van Hamlin', title: 'Clerk', phone: '(989) 225-4871', email: '' },
+      { name: 'Laurie Gotham', title: 'Treasurer', phone: '(989) 553-2640', email: '' },
+      { name: 'Robert Thiel', title: 'Trustee', phone: '(989) 402-7490', email: '' },
+      { name: 'Nicholas Leipprandt', title: 'Trustee', phone: '(989) 551-5107', email: '' }
+    ]
+  },
+  'Huron:Meade': {
+    name: 'Meade Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Bernard Creguer', title: 'Supervisor', phone: '(989) 550-9370', email: '' },
+      { name: 'Melissa Periso', title: 'Clerk', phone: '(989) 551-3356', email: '' },
+      { name: 'Barbara Carpenter', title: 'Treasurer', phone: '(989) 395-6714', email: '' },
+      { name: 'Gregory Krozek', title: 'Trustee', phone: '(989) 550-4952', email: '' },
+      { name: 'Clayton Pethers', title: 'Trustee', phone: '(989) 553-1819', email: '' }
+    ]
+  },
+  'Huron:Oliver': {
+    name: 'Oliver Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Thomas Ziel', title: 'Supervisor', phone: '(989) 553-4046', email: '' },
+      { name: 'Robert Ross', title: 'Clerk', phone: '(989) 551-2198', email: '' },
+      { name: 'Gary Sweeney', title: 'Treasurer', phone: '(989) 553-4066', email: '' },
+      { name: 'Kevin McKenzie', title: 'Trustee', phone: '(989) 550-2956', email: '' },
+      { name: 'Adam Herford', title: 'Trustee', phone: '(989) 551-7913', email: '' }
+    ]
+  },
+  'Huron:Paris': {
+    name: 'Paris Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Ronald Smalley', title: 'Supervisor', phone: '(989) 658-2380', email: '' },
+      { name: 'Randy Weber', title: 'Clerk', phone: '(989) 658-8946', email: '' },
+      { name: 'Karen Rutkowski', title: 'Treasurer', phone: '(989) 658-8659', email: '' },
+      { name: 'Ernest Essenmacher', title: 'Trustee', phone: '(989) 912-8937', email: '' },
+      { name: 'Shelly Alent', title: 'Trustee', phone: '(989) 917-0662', email: '' }
+    ]
+  },
+  'Huron:Pointe Aux Barques': {
+    name: 'Pointe Aux Barques Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Patricia Gotfredson', title: 'Supervisor', phone: '(313) 590-1693', email: '' },
+      { name: 'Anne Milligan', title: 'Clerk', phone: '(313) 570-8882', email: '' },
+      { name: 'Michael Farley', title: 'Treasurer', phone: '(989) 738-6402', email: '' },
+      { name: 'Susan McDermott', title: 'Trustee', phone: '(989) 738-0098', email: '' },
+      { name: 'Donald Brundirks', title: 'Trustee', phone: '(989) 738-0223', email: '' }
+    ]
+  },
+  'Huron:Port Austin': {
+    name: 'Port Austin Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Brian Hoody', title: 'Supervisor', phone: '(989) 738-6808', email: '' },
+      { name: 'Debra Hubbard', title: 'Clerk', phone: '(989) 738-6808', email: '' },
+      { name: 'Jamie Strozeski', title: 'Treasurer', phone: '(989) 738-6808', email: '' },
+      { name: 'Tyler Pettit', title: 'Trustee', phone: '', email: '' },
+      { name: 'Josh Zimmerman', title: 'Trustee', phone: '(989) 738-6808', email: '' }
+    ]
+  },
+  'Huron:Rubicon': {
+    name: 'Rubicon Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Marvin Koglin', title: 'Supervisor', phone: '(810) 404-9029', email: '' },
+      { name: 'Peggy Emerick', title: 'Clerk', phone: '(989) 428-4282', email: '' },
+      { name: 'Terry Emerick', title: 'Treasurer', phone: '(989) 428-4282', email: '' },
+      { name: 'Dan Deer', title: 'Trustee', phone: '(989) 550-3617', email: '' },
+      { name: 'Dan Bischer', title: 'Trustee', phone: '(810) 705-3013', email: '' }
+    ]
+  },
+  'Huron:Sand Beach': {
+    name: 'Sand Beach Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Wade Mazure', title: 'Supervisor', phone: '(989) 315-1213', email: '' },
+      { name: 'Linda Buchholz', title: 'Clerk', phone: '(989) 479-9653', email: '' },
+      { name: 'Judy Booms', title: 'Treasurer', phone: '(989) 550-3600', email: '' },
+      { name: 'Leonard Gajewski', title: 'Trustee', phone: '(989) 479-3484', email: '' },
+      { name: 'Eric Schumacher', title: 'Trustee', phone: '(989) 712-8141', email: '' }
+    ]
+  },
+  'Huron:Sebewaing': {
+    name: 'Sebewaing Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Kurt Bach', title: 'Supervisor', phone: '(989) 883-2120', email: '' },
+      { name: 'Janice Hahn', title: 'Clerk', phone: '(989) 883-2120', email: '' },
+      { name: 'Judy Gregory', title: 'Treasurer', phone: '(989) 883-2120', email: '' },
+      { name: 'Larry Kuhl', title: 'Trustee', phone: '(989) 883-2120', email: '' },
+      { name: 'Neal Gettel', title: 'Trustee', phone: '(989) 883-2120', email: '' }
+    ]
+  },
+  'Huron:Sheridan': {
+    name: 'Sheridan Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Donald Heleski', title: 'Supervisor', phone: '(989) 658-8030', email: '' },
+      { name: 'Alexander Peruski', title: 'Clerk', phone: '(989) 295-7063', email: '' },
+      { name: 'Forrest Roth', title: 'Treasurer', phone: '(989) 551-5006', email: '' },
+      { name: 'Barbara Murray', title: 'Trustee', phone: '(989) 658-8387', email: '' },
+      { name: 'Ken Pichla', title: 'Trustee', phone: '(989) 315-1262', email: '' }
+    ]
+  },
+  'Huron:Sherman': {
+    name: 'Sherman Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Kathi Jahn', title: 'Clerk', phone: '(989) 551-1071', email: '' },
+      { name: 'Pamela Will', title: 'Treasurer', phone: '(989) 551-1075', email: '' },
+      { name: 'Martin Block', title: 'Trustee', phone: '(989) 551-6751', email: '' },
+      { name: 'Ladonna Volmering', title: 'Trustee', phone: '(989) 550-3498', email: '' }
+    ]
+  },
+  'Huron:Sigel': {
+    name: 'Sigel Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Dennis Bischer', title: 'Supervisor', phone: '(989) 551-4416', email: '' },
+      { name: 'Lauren Lackowski', title: 'Clerk', phone: '(989) 553-3797', email: '' },
+      { name: 'Chris Grekowicz', title: 'Treasurer', phone: '(989) 551-9658', email: '' },
+      { name: 'Joel Kiehl', title: 'Trustee', phone: '(989) 550-3661', email: '' },
+      { name: 'Clint Balcer', title: 'Trustee', phone: '(989) 550-7740', email: '' }
+    ]
+  },
+  'Huron:Verona': {
+    name: 'Verona Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Carl Rader', title: 'Supervisor', phone: '(989) 269-9334', email: '' },
+      { name: 'Joann Gerstenschlager', title: 'Clerk', phone: '(989) 269-6819', email: '' },
+      { name: 'Randi Guigar', title: 'Treasurer', phone: '(989) 975-3567', email: '' },
+      { name: 'Wayne Lubeski', title: 'Trustee', phone: '(989) 975-0051', email: '' }
+    ]
+  },
+  'Huron:Winsor': {
+    name: 'Winsor Township',
+    county: 'Huron',
+    officials: [
+      { name: 'Matthew Reibling', title: 'Supervisor', phone: '(989) 551-1599', email: '' },
+      { name: 'Madison Dubs', title: 'Clerk', phone: '(989) 297-2505', email: '' },
+      { name: 'Nancy Heck', title: 'Treasurer', phone: '(989) 453-2706', email: '' },
+      { name: 'David Armbruster', title: 'Trustee', phone: '(989) 453-3369', email: '' },
+      { name: 'Jeff Lawrence', title: 'Trustee', phone: '(989) 453-2706', email: '' }
+    ]
+  },
+  'Ingham:Alaiedon': {
+    name: 'Alaiedon Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Steven Lott', title: 'Supervisor', phone: '(517) 676-9277', email: '' },
+      { name: 'Kimberly Hafley', title: 'Clerk', phone: '(517) 371-8100', email: '' },
+      { name: 'Scott Everett', title: 'Treasurer', phone: '(517) 676-9277', email: '' },
+      { name: 'Beth Smith', title: 'Trustee', phone: '(517) 676-9277', email: '' },
+      { name: 'Kurt Kranz', title: 'Trustee', phone: '(517) 676-9277', email: '' }
+    ]
+  },
+  'Ingham:Aurelius': {
+    name: 'Aurelius Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'David Droscha', title: 'Supervisor', phone: '(517) 628-2093', email: '' },
+      { name: 'Bethany Walter', title: 'Clerk', phone: '(517) 628-2093', email: '' },
+      { name: 'Marnie Anderson', title: 'Treasurer', phone: '(517) 628-2093', email: '' },
+      { name: 'Gary Malcangi', title: 'Trustee', phone: '(517) 628-2093', email: '' },
+      { name: 'Gordon Waltz', title: 'Trustee', phone: '(517) 628-2093', email: '' }
+    ]
+  },
+  'Ingham:Bunker Hill': {
+    name: 'Bunker Hill Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Gene Ulrey', title: 'Supervisor', phone: '(517) 589-9310', email: '' },
+      { name: 'Carrie Zeitz', title: 'Clerk', phone: '(517) 589-9886', email: '' },
+      { name: 'Shannon Murray', title: 'Treasurer', phone: '(517) 589-9886', email: '' },
+      { name: 'Scott Mccann', title: 'Trustee', phone: '(517) 589-9886', email: '' },
+      { name: 'Sherry Morehouse', title: 'Trustee', phone: '(517) 589-9886', email: '' }
+    ]
+  },
+  'Ingham:Delhi': {
+    name: 'Delhi charter Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Eddie Montemayor', title: 'Supervisor', phone: '(517) 694-2137', email: '' },
+      { name: 'Evan Hope', title: 'Clerk', phone: '(517) 694-2135', email: '' },
+      { name: 'Tom Lenard', title: 'Treasurer', phone: '(517) 694-2137', email: '' },
+      { name: 'DiAnne Warfield', title: 'Trustee', phone: '(517) 694-1493', email: '' },
+      { name: 'Matthew Lincoln', title: 'Trustee', phone: '(517) 694-2137', email: '' },
+      { name: 'Fred Ford', title: 'Trustee', phone: '(517) 694-2137', email: '' },
+      { name: 'Wendi King', title: 'Trustee', phone: '(517) 694-2137', email: '' }
+    ]
+  },
+  'Ingham:Ingham': {
+    name: 'Ingham Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Bruce Harris', title: 'Supervisor', phone: '(517) 623-0008', email: '' },
+      { name: 'Kathy LaGrow', title: 'Clerk', phone: '(517) 623-0008', email: '' },
+      { name: 'Ilona Harns', title: 'Treasurer', phone: '(517) 623-0008', email: '' },
+      { name: 'David Harns', title: 'Trustee', phone: '(517) 623-0008', email: '' },
+      { name: 'Krista Kuehner', title: 'Trustee', phone: '(517) 623-0008', email: '' }
+    ]
+  },
+  'Ingham:Lansing': {
+    name: 'Lansing charter Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Maggie Sanders', title: 'Supervisor', phone: '(517) 485-4063', email: '' },
+      { name: 'Cortney Lightheart', title: 'Clerk', phone: '(517) 485-4063', email: '' },
+      { name: 'Kathleen Rodgers', title: 'Treasurer', phone: '(517) 485-7115', email: '' },
+      { name: 'Tracie Harris', title: 'Trustee', phone: '(517) 321-6179', email: '' },
+      { name: 'Henrietta Brewer', title: 'Trustee', phone: '(517) 485-4063', email: '' },
+      { name: 'Nathan Ruiz', title: 'Trustee', phone: '(517) 485-4063', email: '' },
+      { name: 'Leslie Graham', title: 'Trustee', phone: '(517) 485-4063', email: '' }
+    ]
+  },
+  'Ingham:Leroy': {
+    name: 'Leroy Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Earl Griffes', title: 'Supervisor', phone: '(517) 521-3729', email: '' },
+      { name: 'Gina Whitehead', title: 'Clerk', phone: '(517) 521-3729', email: '' },
+      { name: 'Heidi Ream', title: 'Treasurer', phone: '(517) 521-3729', email: '' },
+      { name: 'Raymond Diederich', title: 'Trustee', phone: '(517) 521-3729', email: '' },
+      { name: 'Loretta Benjamin', title: 'Trustee', phone: '(517) 521-3729', email: '' }
+    ]
+  },
+  'Ingham:Leslie': {
+    name: 'Leslie Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Dallas Henney', title: 'Supervisor', phone: '(517) 589-8201', email: '' },
+      { name: 'Lynn Lankton', title: 'Clerk', phone: '(517) 589-8201', email: '' },
+      { name: 'Megan Casper', title: 'Treasurer', phone: '(517) 589-8201', email: '' },
+      { name: 'Greg Gilliland', title: 'Trustee', phone: '(517) 589-8201', email: '' },
+      { name: 'William Whitbeck', title: 'Trustee', phone: '(517) 589-8201', email: '' }
+    ]
+  },
+  'Ingham:Locke': {
+    name: 'Locke Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Bruce Miller', title: 'Supervisor', phone: '(517) 468-3405', email: '' },
+      { name: 'Mary Shinkle', title: 'Clerk', phone: '(517) 468-3405', email: '' },
+      { name: 'Marcy Shepler', title: 'Treasurer', phone: '(517) 468-3405', email: '' }
+    ]
+  },
+  'Ingham:Meridian': {
+    name: 'Meridian charter Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Scott Hendrickson', title: 'Supervisor', phone: '(517) 853-4000', email: '' },
+      { name: 'Angela Demas', title: 'Clerk', phone: '(517) 897-4724', email: '' },
+      { name: 'Linda Burghardt', title: 'Treasurer', phone: '(517) 853-4000', email: '' },
+      { name: 'Kathy Sundland', title: 'Trustee', phone: '(517) 853-4000', email: '' },
+      { name: 'Marna Wilson', title: 'Trustee', phone: '(517) 853-4000', email: '' },
+      { name: 'Peter Trezise', title: 'Trustee', phone: '(517) 853-4000', email: '' },
+      { name: 'Nickolas Lentz', title: 'Trustee', phone: '(517) 853-4000', email: '' }
+    ]
+  },
+  'Ingham:Onondaga': {
+    name: 'Onondaga Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Phil Hutchison', title: 'Supervisor', phone: '(517) 628-2433', email: '' },
+      { name: 'Marcie Seavolt', title: 'Clerk', phone: '(517) 628-2654', email: '' },
+      { name: 'Sara Ammerman', title: 'Treasurer', phone: '(214) 329-3064', email: '' },
+      { name: 'Roger Garner', title: 'Trustee', phone: '(517) 628-2654', email: '' },
+      { name: 'John Myers', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Ingham:Stockbridge': {
+    name: 'Stockbridge Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'CG Lantis', title: 'Supervisor', phone: '(517) 851-9362', email: '' },
+      { name: 'Becky Muraf', title: 'Clerk', phone: '(517) 851-9362', email: '' },
+      { name: 'James Wireman', title: 'Treasurer', phone: '(517) 851-9472', email: '' },
+      { name: 'Terry Sommer', title: 'Trustee', phone: '(517) 851-8870', email: '' },
+      { name: 'Ed Wetherall', title: 'Trustee', phone: '(517) 851-9362', email: '' }
+    ]
+  },
+  'Ingham:Vevay': {
+    name: 'Vevay Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'John Lazet', title: 'Supervisor', phone: '(517) 676-9523', email: '' },
+      { name: 'Tracy Ayres', title: 'Clerk', phone: '(517) 676-9523', email: '' },
+      { name: 'Christopher Lewis', title: 'Treasurer', phone: '(517) 676-9523', email: '' },
+      { name: 'Richard Lacasse', title: 'Trustee', phone: '(517) 676-9523', email: '' },
+      { name: 'Patricia McNeilly', title: 'Trustee', phone: '(517) 676-9523', email: '' }
+    ]
+  },
+  'Ingham:Wheatfield': {
+    name: 'Wheatfield Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Troy Leonard', title: 'Supervisor', phone: '(517) 655-4161', email: '' },
+      { name: 'Michael Miller', title: 'Clerk', phone: '(517) 655-4161', email: '' },
+      { name: 'Jessie Schmidt', title: 'Treasurer', phone: '(517) 655-4161', email: '' },
+      { name: 'Rocky Hitchcock', title: 'Trustee', phone: '(517) 655-4161', email: '' },
+      { name: 'Alan Lawrenz', title: 'Trustee', phone: '(517) 655-4161', email: '' }
+    ]
+  },
+  'Ingham:White Oak': {
+    name: 'White Oak Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Dorwin Marshall', title: 'Supervisor', phone: '(517) 795-9624', email: '' },
+      { name: 'Leela Vernon', title: 'Clerk', phone: '(517) 376-1325', email: '' },
+      { name: 'Brigitte Doxtator', title: 'Treasurer', phone: '(517) 230-3404', email: '' },
+      { name: 'Diane Graf', title: 'Trustee', phone: '(517) 851-8693', email: '' },
+      { name: 'John Kemler', title: 'Trustee', phone: '(517) 290-1998', email: '' }
+    ]
+  },
+  'Ingham:Williamstown': {
+    name: 'Williamstown Township',
+    county: 'Ingham',
+    officials: [
+      { name: 'Ron Poth', title: 'Supervisor', phone: '(517) 655-3193', email: '' },
+      { name: 'Robin Cleveland', title: 'Clerk', phone: '5176553193303 ext. 303', email: '' },
+      { name: 'Kim VanErp', title: 'Treasurer', phone: '(517) 655-3193 ext. 306', email: '' },
+      { name: 'Kevin Duffy', title: 'Trustee', phone: '(517) 655-3193', email: '' },
+      { name: 'Keith Creagh', title: 'Trustee', phone: '(517) 290-7776', email: '' },
+      { name: 'Mark Steinberg', title: 'Trustee', phone: '(517) 655-3193', email: '' },
+      { name: 'Jim Brinker', title: 'Trustee', phone: '(517) 655-3193', email: '' }
+    ]
+  },
+  'Ionia:Berlin': {
+    name: 'Berlin Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Robert Bennett', title: 'Supervisor', phone: '(616) 293-0622', email: '' },
+      { name: 'Rachael Alexander', title: 'Clerk', phone: '(616) 523-2762', email: '' },
+      { name: 'Penny Rust', title: 'Treasurer', phone: '(616) 527-9567', email: '' },
+      { name: 'Wanda Marcussen', title: 'Trustee', phone: '(616) 902-8702', email: '' },
+      { name: 'William Vaarberg', title: 'Trustee', phone: '(616) 262-0134', email: '' }
+    ]
+  },
+  'Ionia:Boston': {
+    name: 'Boston Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Dennis Bowen', title: 'Supervisor', phone: '(616) 642-6636', email: '' },
+      { name: 'Lynn Kaufman', title: 'Clerk', phone: '(616) 642-6636', email: '' },
+      { name: 'Mary Lamphere', title: 'Treasurer', phone: '(616) 642-6636', email: '' },
+      { name: 'Kenneth Olson', title: 'Trustee', phone: '(616) 642-6918', email: '' },
+      { name: 'Dennis Sitzer', title: 'Trustee', phone: '(616) 642-9243', email: '' },
+      { name: 'Barbara Foster', title: 'Trustee', phone: '(616) 540-3847', email: '' }
+    ]
+  },
+  'Ionia:Campbell': {
+    name: 'Campbell Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Dennis Pepper', title: 'Supervisor', phone: '(616) 693-2920', email: '' },
+      { name: 'Denise Newman', title: 'Clerk', phone: '(616) 693-2920', email: '' },
+      { name: 'Nicole Klahn', title: 'Treasurer', phone: '(616) 693-2920', email: '' },
+      { name: 'Daniel Jackson', title: 'Trustee', phone: '(616) 693-2920', email: '' },
+      { name: 'Kyle Shellenbarger', title: 'Trustee', phone: '(616) 693-2920', email: '' }
+    ]
+  },
+  'Ionia:Danby': {
+    name: 'Danby Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Daniel Platte', title: 'Supervisor', phone: '(517) 994-8086', email: '' },
+      { name: 'Kristina Platte', title: 'Clerk', phone: '(517) 994-8085', email: '' },
+      { name: 'Michele Hoppes', title: 'Treasurer', phone: '(517) 819-2968', email: '' },
+      { name: 'Dan Schafer', title: 'Trustee', phone: '(517) 649-2200', email: '' },
+      { name: 'Bill Nurenberg', title: 'Trustee', phone: '(517) 649-2200', email: '' }
+    ]
+  },
+  'Ionia:Easton': {
+    name: 'Easton Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'John Dinehart', title: 'Supervisor', phone: '(616) 813-8972', email: '' },
+      { name: 'Breanne Rowley', title: 'Clerk', phone: '(616) 841-0578', email: '' },
+      { name: 'Tracie Shindorf', title: 'Treasurer', phone: '(616) 902-4266', email: '' },
+      { name: 'Donald Rittersdorf', title: 'Trustee', phone: '(616) 527-1145', email: '' },
+      { name: 'Cindy Cotter', title: 'Trustee', phone: '(517) 331-8690', email: '' }
+    ]
+  },
+  'Ionia:Ionia': {
+    name: 'Ionia Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Jamie Stephens', title: 'Supervisor', phone: '(616) 204-6101', email: '' },
+      { name: 'Sheri Lynn', title: 'Clerk', phone: '(616) 523-2472', email: '' },
+      { name: 'Macky Waters', title: 'Treasurer', phone: '(616) 902-2390', email: '' },
+      { name: 'Eric Pitchford', title: 'Trustee', phone: '', email: '' },
+      { name: 'Susan McCoy', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Ionia:Keene': {
+    name: 'Keene Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Sandy Smiley', title: 'Supervisor', phone: '(616) 642-9809', email: '' },
+      { name: 'Holli Melton', title: 'Clerk', phone: '(616) 642-9809', email: '' },
+      { name: 'Christine Hendrick', title: 'Treasurer', phone: '(616) 642-9809', email: '' },
+      { name: 'Nate Wolf', title: 'Trustee', phone: '(616) 642-9809', email: '' },
+      { name: 'William Pflugardt', title: 'Trustee', phone: '(616) 642-9809', email: '' }
+    ]
+  },
+  'Ionia:Lyons': {
+    name: 'Lyons Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Charles Babcock', title: 'Supervisor', phone: '(989) 855-3740', email: '' },
+      { name: 'Julia Heckman', title: 'Clerk', phone: '(989) 590-2008', email: '' },
+      { name: 'Jill Thelen', title: 'Treasurer', phone: '(989) 593-2642', email: '' },
+      { name: 'Kevin Gould', title: 'Trustee', phone: '(989) 855-2016', email: '' },
+      { name: 'Andy Hengesbach', title: 'Trustee', phone: '(989) 855-2016', email: '' }
+    ]
+  },
+  'Ionia:North Plains': {
+    name: 'North Plains Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Darren Nash', title: 'Supervisor', phone: '(517) 420-1166', email: '' },
+      { name: 'Robert Fahey', title: 'Clerk', phone: '(517) 526-1025', email: '' },
+      { name: 'Jennifer Stevenson', title: 'Treasurer', phone: '(989) 287-0040', email: '' },
+      { name: 'William Cunningham', title: 'Trustee', phone: '(517) 881-3259', email: '' },
+      { name: 'Timothy Schafer', title: 'Trustee', phone: '(989) 388-1932', email: '' }
+    ]
+  },
+  'Ionia:Odessa': {
+    name: 'Odessa Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Gary Secor', title: 'Supervisor', phone: '(616) 374-4237', email: '' },
+      { name: 'Lisa Williams', title: 'Clerk', phone: '(616) 374-4237 ext. 10', email: '' },
+      { name: 'Sharon Rohrbacher', title: 'Treasurer', phone: '(616) 374-4237 ext. 11', email: '' },
+      { name: 'Bradley Barrone', title: 'Trustee', phone: '(616) 485-7008', email: '' },
+      { name: 'Allan Baron', title: 'Trustee', phone: '(616) 374-4237', email: '' }
+    ]
+  },
+  'Ionia:Orange': {
+    name: 'Orange Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Tom Green', title: 'Supervisor', phone: '(517) 647-6801', email: '' },
+      { name: 'Wendy McBride', title: 'Clerk', phone: '(517) 242-2441', email: '' },
+      { name: 'Karla Wittenbach', title: 'Treasurer', phone: '(517) 647-0184', email: '' },
+      { name: 'Jeff Cody', title: 'Trustee', phone: '(616) 527-7290', email: '' },
+      { name: 'Chris Fox', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Ionia:Orleans': {
+    name: 'Orleans Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Scott Rudlaff', title: 'Supervisor', phone: '(616) 761-3111', email: '' },
+      { name: 'Melissa Harper', title: 'Clerk', phone: '(616) 761-3111', email: '' },
+      { name: 'Barb Colwell', title: 'Treasurer', phone: '(616) 761-3111', email: '' },
+      { name: 'Al Almy', title: 'Trustee', phone: '(616) 761-3407', email: '' },
+      { name: 'Tonda Rich', title: 'Trustee', phone: '(616) 761-3111', email: '' }
+    ]
+  },
+  'Ionia:Otisco': {
+    name: 'Otisco Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Bruce Feuerstein', title: 'Supervisor', phone: '(616) 794-3506', email: '' },
+      { name: 'Vicky Byrne', title: 'Clerk', phone: '(616) 794-3506', email: '' },
+      { name: 'Paula Byrne', title: 'Treasurer', phone: '(616) 794-3506', email: '' },
+      { name: 'Joe Borek', title: 'Trustee', phone: '(616) 794-3506', email: '' },
+      { name: 'Stephanie Wireman', title: 'Trustee', phone: '(616) 794-3506', email: '' }
+    ]
+  },
+  'Ionia:Portland': {
+    name: 'Portland Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Chris Jensen', title: 'Supervisor', phone: '(989) 289-4071', email: '' },
+      { name: 'Charlene Keilen', title: 'Clerk', phone: '(517) 647-6643', email: '' },
+      { name: 'Melanie Schneider', title: 'Treasurer', phone: '(517) 647-2075', email: '' },
+      { name: 'Mark Simon', title: 'Trustee', phone: '(517) 647-4892', email: '' },
+      { name: 'Tim Kerekes', title: 'Trustee', phone: '(269) 290-3786', email: '' }
+    ]
+  },
+  'Ionia:Ronald': {
+    name: 'Ronald Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'Tamara Edwards', title: 'Supervisor', phone: '(616) 902-7822', email: '' },
+      { name: 'Sulyn Bettinghouse', title: 'Clerk', phone: '(616) 527-0617', email: '' },
+      { name: 'Angela Lamphere', title: 'Treasurer', phone: '(616) 902-7822', email: '' },
+      { name: 'Sandra Thelen', title: 'Trustee', phone: '(616) 902-7822', email: '' },
+      { name: 'Kathy Ainsworth', title: 'Trustee', phone: '(616) 902-7822', email: '' }
+    ]
+  },
+  'Ionia:Sebewa': {
+    name: 'Sebewa Township',
+    county: 'Ionia',
+    officials: [
+      { name: 'John Piercefield', title: 'Supervisor', phone: '(517) 204-2987', email: '' },
+      { name: 'Mandy Grosshans', title: 'Clerk', phone: '(269) 838-3077', email: '' },
+      { name: 'Cindi Piercefield', title: 'Treasurer', phone: '(517) 204-3066', email: '' },
+      { name: 'Craig Brown', title: 'Trustee', phone: '(517) 242-0075', email: '' },
+      { name: 'John Lich', title: 'Trustee', phone: '(517) 819-2902', email: '' }
+    ]
+  },
+  'Iosco:Alabaster': {
+    name: 'Alabaster Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Michael Berent', title: 'Supervisor', phone: '(989) 362-3171', email: '' },
+      { name: 'Jasmine Tubbs', title: 'Clerk', phone: '(989) 362-3171', email: '' },
+      { name: 'Christine Gentges', title: 'Treasurer', phone: '(989) 362-3171', email: '' },
+      { name: 'Kelly Frank', title: 'Trustee', phone: '(989) 254-5450', email: '' },
+      { name: 'Dion Rasey', title: 'Trustee', phone: '(989) 362-3171', email: '' }
+    ]
+  },
+  'Iosco:Au Sable': {
+    name: 'Au Sable charter Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Kevin Kubik', title: 'Supervisor', phone: '(989) 739-9169', email: '' },
+      { name: 'Kelly Graham', title: 'Clerk', phone: '(989) 739-9169', email: '' },
+      { name: 'Yvette Ramsdell', title: 'Treasurer', phone: '(989) 739-9169', email: '' },
+      { name: 'Kathy Lott', title: 'Trustee', phone: '(989) 739-9169', email: '' },
+      { name: 'Diana London', title: 'Trustee', phone: '(989) 739-9169', email: '' },
+      { name: 'Shayne Janis', title: 'Trustee', phone: '(989) 739-9169', email: '' },
+      { name: 'Gina Cinquino', title: 'Trustee', phone: '(989) 739-9169', email: '' }
+    ]
+  },
+  'Iosco:Baldwin': {
+    name: 'Baldwin Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Christopher Martin', title: 'Supervisor', phone: '(989) 362-3742', email: '' },
+      { name: 'Cathy Pittsley', title: 'Clerk', phone: '(989) 984-6345', email: '' },
+      { name: 'Patricia Spriggs', title: 'Treasurer', phone: '(989) 984-6455', email: '' },
+      { name: 'Dave Hoin', title: 'Trustee', phone: '(313) 378-0421', email: '' },
+      { name: 'Aaron Wills', title: 'Trustee', phone: '(989) 362-3742', email: '' }
+    ]
+  },
+  'Iosco:Burleigh': {
+    name: 'Burleigh Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Christopher Stone', title: 'Supervisor', phone: '(989) 756-3262', email: '' },
+      { name: 'Stacy McClure', title: 'Clerk', phone: '(989) 295-9316', email: '' },
+      { name: 'Sharren Engle', title: 'Treasurer', phone: '(989) 756-3131', email: '' },
+      { name: 'Matt Jordan', title: 'Trustee', phone: '(989) 756-2424', email: '' },
+      { name: 'Paul Birkenbach', title: 'Trustee', phone: '(989) 756-2424', email: '' }
+    ]
+  },
+  'Iosco:Grant': {
+    name: 'Grant Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Todd Torrey', title: 'Supervisor', phone: '(989) 820-7773', email: '' },
+      { name: 'Alysha Burgess', title: 'Clerk', phone: '(989) 469-3177 ext. 2', email: '' },
+      { name: 'Velda Jennett', title: 'Treasurer', phone: '(989) 469-3177', email: '' },
+      { name: 'Jordan Emry', title: 'Trustee', phone: '(989) 469-3177', email: '' },
+      { name: 'Kurt Summerville', title: 'Trustee', phone: '(989) 469-3177', email: '' }
+    ]
+  },
+  'Iosco:Oscoda': {
+    name: 'Oscoda charter Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Nicole Tregear', title: 'Supervisor', phone: '(989) 739-3211', email: '' },
+      { name: 'Heather Tait', title: 'Clerk', phone: '(989) 739-3211', email: '' },
+      { name: 'Jaimie McGuire', title: 'Treasurer', phone: '(989) 739-7471', email: '' },
+      { name: 'Timothy Cummings', title: 'Trustee', phone: '(989) 739-3211', email: '' },
+      { name: 'Regina Fortner', title: 'Trustee', phone: '(989) 739-3211', email: '' },
+      { name: 'Jeffrey Linderman', title: 'Trustee', phone: '(989) 739-3211', email: '' },
+      { name: 'Mark Wygant', title: 'Trustee', phone: '(989) 739-3211', email: '' }
+    ]
+  },
+  'Iosco:Plainfield': {
+    name: 'Plainfield Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Fred Lewis', title: 'Supervisor', phone: '(989) 728-2811', email: '' },
+      { name: 'Susan Reilly', title: 'Clerk', phone: '(989) 728-2811', email: '' },
+      { name: 'Roma Bassi', title: 'Treasurer', phone: '(989) 728-2811', email: '' },
+      { name: 'Rick Morel', title: 'Trustee', phone: '(989) 728-2811', email: '' },
+      { name: 'Kim Kocher', title: 'Trustee', phone: '(989) 728-2811', email: '' }
+    ]
+  },
+  'Iosco:Reno': {
+    name: 'Reno Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Jeff Jakubik', title: 'Supervisor', phone: '(989) 240-0716', email: '' },
+      { name: 'Cheryl Hottois', title: 'Clerk', phone: '(989) 756-3475', email: '' },
+      { name: 'Michael Boensch', title: 'Treasurer', phone: '(989) 305-9556', email: '' },
+      { name: 'Lawrence Everitt', title: 'Trustee', phone: '(989) 756-3475', email: '' },
+      { name: 'Lane Caverly', title: 'Trustee', phone: '(989) 756-3475', email: '' }
+    ]
+  },
+  'Iosco:Sherman': {
+    name: 'Sherman Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Mark Moers', title: 'Supervisor', phone: '(989) 254-2573', email: '' },
+      { name: 'Nancy Orvis', title: 'Clerk', phone: '(989) 254-2573', email: '' },
+      { name: 'Samantha Strauer', title: 'Supervisor', phone: '(989) 254-2573', email: '' },
+      { name: 'Jeffery Petri', title: 'Trustee', phone: '(989) 867-4392', email: '' },
+      { name: 'Brandon Lichota', title: 'Trustee', phone: '(989) 906-1311', email: '' }
+    ]
+  },
+  'Iosco:Tawas': {
+    name: 'Tawas Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Paul Westcott', title: 'Supervisor', phone: '(989) 305-0993', email: '' },
+      { name: 'Melissa Stewart', title: 'Clerk', phone: '(989) 254-7759', email: '' },
+      { name: 'Sheryl Williams', title: 'Treasurer', phone: '(989) 362-3716', email: '' },
+      { name: 'Tim Haskin', title: 'Trustee', phone: '(989) 362-4978', email: '' },
+      { name: 'Colleen Sheffer', title: 'Trustee', phone: '(989) 362-3771', email: '' }
+    ]
+  },
+  'Iosco:Wilber': {
+    name: 'Wilber Township',
+    county: 'Iosco',
+    officials: [
+      { name: 'Mark Nunn', title: 'Supervisor', phone: '(989) 362-2022', email: '' },
+      { name: 'Mary Pingot', title: 'Clerk', phone: '(989) 329-5020', email: '' },
+      { name: 'Cheri Mioduch', title: 'Treasurer', phone: '(989) 362-5410', email: '' },
+      { name: 'Steve Ferguson', title: 'Trustee', phone: '(989) 362-5410', email: '' },
+      { name: 'Larry Alda', title: 'Trustee', phone: '(989) 362-5410', email: '' }
+    ]
+  },
+  'Iron:Bates': {
+    name: 'Bates Township',
+    county: 'Iron',
+    officials: [
+      { name: 'Mike Stafford', title: 'Supervisor', phone: '(906) 265-2787', email: '' },
+      { name: 'Barbara Benson Stafford', title: 'Clerk', phone: '(906) 265-2787', email: '' },
+      { name: 'Teresa Nelson', title: 'Treasurer', phone: '(906) 265-2787', email: '' },
+      { name: 'Mike Franzene', title: 'Trustee', phone: '(906) 265-2787', email: '' },
+      { name: 'Jane Adams', title: 'Trustee', phone: '(906) 265-2787', email: '' }
+    ]
+  },
+  'Iron:Crystal Falls': {
+    name: 'Crystal Falls Township',
+    county: 'Iron',
+    officials: [
+      { name: 'Curtis Stebic', title: 'Supervisor', phone: '(906) 875-3449', email: '' },
+      { name: 'Nancy Niemi', title: 'Clerk', phone: '(906) 875-3062 ext. 3', email: '' },
+      { name: 'Jen Ketola', title: 'Treasurer', phone: '(906) 875-3062 ext. 6', email: '' },
+      { name: 'Diane Kut', title: 'Trustee', phone: '(906) 875-3062', email: '' },
+      { name: 'Joanne Seppala', title: 'Trustee', phone: '(906) 875-3062', email: '' }
+    ]
+  },
+  'Iron:Hematite': {
+    name: 'Hematite Township',
+    county: 'Iron',
+    officials: [
+      { name: 'Joseph Hoenig', title: 'Supervisor', phone: '(906) 284-2628', email: '' },
+      { name: 'Vanessa Warren', title: 'Clerk', phone: '(906) 367-2420', email: '' },
+      { name: 'Ashley Haag', title: 'Treasurer', phone: '(906) 396-1034', email: '' },
+      { name: 'Dale Richardson', title: 'Trustee', phone: '(906) 284-1218', email: '' },
+      { name: 'Carlyn Raduechel', title: 'Trustee', phone: '(906) 822-7962', email: '' }
+    ]
+  },
+  'Iron:Iron River': {
+    name: 'Iron River Township',
+    county: 'Iron',
+    officials: [
+      { name: 'Scott Tarsi', title: 'Supervisor', phone: '(906) 284-3454', email: '' },
+      { name: 'Amber Laturi', title: 'Clerk', phone: '(906) 367-0785', email: '' },
+      { name: 'Marla Hill', title: 'Treasurer', phone: '(906) 265-3403', email: '' },
+      { name: 'Mike Sheehy', title: 'Trustee', phone: '(906) 284-0503', email: '' },
+      { name: 'Westley Hill', title: 'Trustee', phone: '(906) 265-3403', email: '' }
+    ]
+  },
+  'Iron:Mansfield': {
+    name: 'Mansfield Township',
+    county: 'Iron',
+    officials: [
+      { name: 'Brock VanOss', title: 'Supervisor', phone: '(906) 367-0777', email: '' },
+      { name: 'John Leutz', title: 'Clerk', phone: '(906) 875-3043', email: '' },
+      { name: 'Rose Poynter', title: 'Treasurer', phone: '(906) 875-3043', email: '' },
+      { name: 'George Minerick', title: 'Trustee', phone: '(906) 272-2608', email: '' },
+      { name: 'Mike Carey', title: 'Trustee', phone: '(906) 774-1381', email: '' }
+    ]
+  },
+  'Iron:Mastodon': {
+    name: 'Mastodon Township',
+    county: 'Iron',
+    officials: [
+      { name: 'Chad Skinner', title: 'Supervisor', phone: '(906) 875-6232', email: '' },
+      { name: 'Karen Mallon', title: 'Clerk', phone: '(906) 875-6232', email: '' },
+      { name: 'Stacey Watters', title: 'Treasurer', phone: '(906) 284-1036', email: '' },
+      { name: 'Michael Bjork', title: 'Trustee', phone: '(906) 875-6232', email: '' },
+      { name: 'Dave Smith', title: 'Trustee', phone: '(906) 875-6232', email: '' }
+    ]
+  },
+  'Iron:Stambaugh': {
+    name: 'Stambaugh Township',
+    county: 'Iron',
+    officials: [
+      { name: 'Kevin Isaacson', title: 'Supervisor', phone: '(906) 284-0771', email: '' },
+      { name: 'Margaret Christensen', title: 'Clerk', phone: '(906) 367-3639', email: '' },
+      { name: 'Sharon Rogers', title: 'Treasurer', phone: '(906) 284-3889', email: '' },
+      { name: 'Sherry Pangrazzi', title: 'Trustee', phone: '(906) 284-9651', email: '' },
+      { name: 'Dean Stolberg', title: 'Trustee', phone: '(906) 284-0436', email: '' }
+    ]
+  },
+  'Isabella:Broomfield': {
+    name: 'Broomfield Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Neil Strong', title: 'Supervisor', phone: '(989) 330-1408', email: '' },
+      { name: 'Patti Olson', title: 'Clerk', phone: '(989) 309-9402', email: '' },
+      { name: 'Jackie Verbeke', title: 'Treasurer', phone: '(989) 506-8803', email: '' },
+      { name: 'Candy Recker', title: 'Trustee', phone: '(989) 561-2064', email: '' },
+      { name: 'Terry Ellis', title: 'Trustee', phone: '(989) 289-0202', email: '' }
+    ]
+  },
+  'Isabella:Chippewa': {
+    name: 'Chippewa Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Donald Lowery', title: 'Supervisor', phone: '(989) 772-2685', email: '' },
+      { name: 'Frances Ash', title: 'Clerk', phone: '(989) 772-2685', email: '' },
+      { name: 'Kathy VanderKolk', title: 'Treasurer', phone: '(989) 773-3600 ext. 301', email: '' },
+      { name: 'Robert Wetherbee', title: 'Trustee', phone: '(989) 621-0547', email: '' },
+      { name: 'Kurt Fisher', title: 'Trustee', phone: '(989) 772-2685', email: '' }
+    ]
+  },
+  'Isabella:Coe': {
+    name: 'Coe Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Mary Kay Maas', title: 'Supervisor', phone: '(989) 828-5322', email: '' },
+      { name: 'Riley Travis', title: 'Clerk', phone: '(989) 828-5960', email: '' },
+      { name: 'Teresa Meyer', title: 'Treasurer', phone: '(989) 828-5960', email: '' },
+      { name: 'Joan Whitmore', title: 'Trustee', phone: '(989) 828-5006', email: '' },
+      { name: 'Dana Tomaski', title: 'Trustee', phone: '(989) 828-5960', email: '' }
+    ]
+  },
+  'Isabella:Coldwater': {
+    name: 'Coldwater Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Randy Hall', title: 'Supervisor', phone: '(989) 644-2040', email: '' },
+      { name: 'Corrine Tipton', title: 'Clerk', phone: '(248) 330-9703', email: '' },
+      { name: 'Kathleen Wyman', title: 'Treasurer', phone: '(989) 289-8308', email: '' },
+      { name: 'Jason Barker', title: 'Trustee', phone: '', email: '' },
+      { name: 'Chris Wyman', title: 'Trustee', phone: '(989) 544-2079', email: '' }
+    ]
+  },
+  'Isabella:Deerfield': {
+    name: 'Deerfield Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Timothy Murphy', title: 'Supervisor', phone: '(989) 779-7557', email: '' },
+      { name: 'Walter Nelson', title: 'Clerk', phone: '(989) 772-3427', email: '' },
+      { name: 'Connie Lynch', title: 'Treasurer', phone: '(989) 779-7557', email: '' },
+      { name: 'Randall Martin', title: 'Trustee', phone: '(989) 779-7557', email: '' },
+      { name: 'Alan Johns', title: 'Trustee', phone: '(989) 773-2122', email: '' }
+    ]
+  },
+  'Isabella:Denver': {
+    name: 'Denver Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'John Pedjac', title: 'Supervisor', phone: '(989) 429-7544', email: '' },
+      { name: 'Tammy Prout', title: 'Clerk', phone: '(989) 433-5507', email: '' },
+      { name: 'Monica Kampf-Carroll', title: 'Treasurer', phone: '(989) 433-5891', email: '' },
+      { name: 'Jacqueline Curtis', title: 'Trustee', phone: '(989) 772-0597', email: '' },
+      { name: 'Amy Vogel', title: 'Trustee', phone: '(989) 954-5581', email: '' }
+    ]
+  },
+  'Isabella:Fremont': {
+    name: 'Fremont Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Gerad Himebaugh', title: 'Supervisor', phone: '(989) 513-8587', email: '' },
+      { name: 'John Schimmelmann', title: 'Clerk', phone: '(989) 866-2512', email: '' },
+      { name: 'Shirlee VanBonn', title: 'Treasurer', phone: '(989) 866-2360', email: '' },
+      { name: 'Georgina Main', title: 'Trustee', phone: '(989) 621-0052', email: '' },
+      { name: 'Ruth Barrett', title: 'Trustee', phone: '(989) 866-2512', email: '' }
+    ]
+  },
+  'Isabella:Gilmore': {
+    name: 'Gilmore Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Robert Sabisch', title: 'Supervisor', phone: '(989) 323-1859', email: '' },
+      { name: 'Lisa Graham', title: 'Clerk', phone: '(989) 339-7744', email: '' },
+      { name: 'Patricia Marshall', title: 'Treasurer', phone: '(989) 644-2112', email: '' },
+      { name: 'John McConnell', title: 'Trustee', phone: '(989) 588-7052', email: '' },
+      { name: 'Gary Silker', title: 'Trustee', phone: '(989) 588-3093', email: '' }
+    ]
+  },
+  'Isabella:Isabella': {
+    name: 'Isabella Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Rick Ervin', title: 'Supervisor', phone: '(989) 433-5413', email: '' },
+      { name: 'Kristin Derby', title: 'Clerk', phone: '(989) 433-5413', email: '' },
+      { name: 'Linda Bechtel', title: 'Treasurer', phone: '(989) 433-5413', email: '' },
+      { name: 'Robert Walton', title: 'Trustee', phone: '(989) 433-5413', email: '' },
+      { name: 'Thomas Reihl', title: 'Trustee', phone: '(989) 433-5413', email: '' }
+    ]
+  },
+  'Isabella:Lincoln': {
+    name: 'Lincoln Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Thomas Ramon', title: 'Supervisor', phone: '(989) 944-3000', email: '' },
+      { name: 'Danielle Willoughby', title: 'Clerk', phone: '(989) 828-4173', email: '' },
+      { name: 'Linda Vogel', title: 'Treasurer', phone: '(989) 828-4173', email: '' },
+      { name: 'Sharon Snyder', title: 'Trustee', phone: '(989) 828-4173', email: '' },
+      { name: 'Thomas Recker', title: 'Trustee', phone: '(989) 828-4173', email: '' }
+    ]
+  },
+  'Isabella:Nottawa': {
+    name: 'Nottawa Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Kory Mindel', title: 'Supervisor', phone: '(989) 644-8480', email: '' },
+      { name: 'Heather Curtiss', title: 'Clerk', phone: '(989) 506-6344', email: '' },
+      { name: 'Katie Pung-Galinski', title: 'Treasurer', phone: '(989) 444-8786', email: '' },
+      { name: 'James Streng', title: 'Trustee', phone: '(989) 506-1988', email: '' },
+      { name: 'Patrick Schafer', title: 'Trustee', phone: '(989) 560-2859', email: '' }
+    ]
+  },
+  'Isabella:Rolland': {
+    name: 'Rolland Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Daniel Shaw', title: 'Supervisor', phone: '(989) 561-2224', email: '' },
+      { name: 'Mary Ellen Butler', title: 'Clerk', phone: '(989) 561-5205', email: '' },
+      { name: 'Javan Quackenbush', title: 'Treasurer', phone: '(989) 561-2224', email: '' },
+      { name: 'Kevin Mitchell', title: 'Trustee', phone: '(989) 561-2860', email: '' },
+      { name: 'Laura Karcher', title: 'Trustee', phone: '(989) 330-5900', email: '' }
+    ]
+  },
+  'Isabella:Sherman': {
+    name: 'Sherman Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Thomas Johnson', title: 'Supervisor', phone: '(989) 627-6258', email: '' },
+      { name: 'Denise Livermore', title: 'Clerk', phone: '(989) 621-0903', email: '' },
+      { name: 'Teresa Clark', title: 'Treasurer', phone: '(989) 506-6989', email: '' },
+      { name: 'Jo Simon', title: 'Trustee', phone: '(989) 289-1756', email: '' },
+      { name: 'Jeffrey Grey', title: 'Trustee', phone: '(989) 859-5271', email: '' }
+    ]
+  },
+  'Isabella:Union': {
+    name: 'Union charter Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Bryan Mielke', title: 'Supervisor', phone: '(989) 772-4600', email: '' },
+      { name: 'Lisa Cody', title: 'Clerk', phone: '(989) 772-4600', email: '' },
+      { name: 'Lori Rogers', title: 'Treasurer', phone: '(989) 772-4600', email: '' },
+      { name: 'James Thering', title: 'Trustee', phone: '(989) 772-4600', email: '' },
+      { name: 'Tim Lannen', title: 'Trustee', phone: '(989) 772-4600', email: '' },
+      { name: 'Miranda Ley', title: 'Trustee', phone: '(989) 772-4600', email: '' }
+    ]
+  },
+  'Isabella:Vernon': {
+    name: 'Vernon Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Ben Browning', title: 'Supervisor', phone: '(989) 386-7141', email: '' },
+      { name: 'Loren Cole', title: 'Clerk', phone: '(989) 751-6341', email: '' },
+      { name: 'Stephanie Allen', title: 'Treasurer', phone: '(989) 429-2176', email: '' },
+      { name: 'Lee Cole', title: 'Trustee', phone: '(989) 289-3321', email: '' },
+      { name: 'Jeff Denton', title: 'Trustee', phone: '(989) 798-5396', email: '' }
+    ]
+  },
+  'Isabella:Wise': {
+    name: 'Wise Township',
+    county: 'Isabella',
+    officials: [
+      { name: 'Robert Moore', title: 'Supervisor', phone: '(989) 465-9116', email: '' },
+      { name: 'Doris Methner', title: 'Clerk', phone: '(989) 339-0546', email: '' },
+      { name: 'Shannon Penny', title: 'Treasurer', phone: '(989) 708-1595', email: '' },
+      { name: 'Travis Burgess', title: 'Trustee', phone: '(989) 386-7244', email: '' },
+      { name: 'Darcie Bower', title: 'Trustee', phone: '(989) 386-7244', email: '' }
+    ]
+  },
+  'Jackson:Blackman': {
+    name: 'Blackman charter Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Peter Jancek', title: 'Supervisor', phone: '(517) 788-4345', email: '' },
+      { name: 'David Elwell', title: 'Clerk', phone: '(517) 990-8224', email: '' },
+      { name: 'Phil Preston', title: 'Treasurer', phone: '(517) 788-4345 ext. 8226', email: '' },
+      { name: 'Mike Ambs', title: 'Trustee', phone: '(517) 788-4345', email: '' },
+      { name: 'Scott Pack', title: 'Trustee', phone: '(517) 788-4345', email: '' },
+      { name: 'Mike Thomas', title: 'Trustee', phone: '(517) 788-4345', email: '' },
+      { name: 'Michelle Boulter', title: 'Trustee', phone: '(517) 788-4345', email: '' }
+    ]
+  },
+  'Jackson:Columbia': {
+    name: 'Columbia Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Barry Marsh', title: 'Supervisor', phone: '(517) 592-2000', email: '' },
+      { name: 'Cathy Hulburt', title: 'Clerk', phone: '(517) 592-2000', email: '' },
+      { name: 'John Calhoun', title: 'Treasurer', phone: '(517) 592-2000 ext. 240', email: '' },
+      { name: 'Brent Beamish', title: 'Trustee', phone: '(517) 592-6531', email: '' },
+      { name: 'Rick Church', title: 'Trustee', phone: '(517) 592-2000', email: '' }
+    ]
+  },
+  'Jackson:Concord': {
+    name: 'Concord Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'David Saenz', title: 'Supervisor', phone: '(517) 895-6030', email: '' },
+      { name: 'Terri Butts', title: 'Clerk', phone: '(517) 895-6023', email: '' },
+      { name: 'Judy Clark', title: 'Treasurer', phone: '(517) 895-6031', email: '' },
+      { name: 'Guthrie Colburn', title: 'Trustee', phone: '(517) 812-8836', email: '' },
+      { name: 'Stephanie Finegan', title: 'Trustee', phone: '(517) 358-8540', email: '' }
+    ]
+  },
+  'Jackson:Grass Lake': {
+    name: 'Grass Lake charter Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'John Lesinski', title: 'Supervisor', phone: '(517) 522-8464', email: '' },
+      { name: 'Gail Harris', title: 'Clerk', phone: '(517) 522-8464', email: '' },
+      { name: 'Thomas Loveland', title: 'Treasurer', phone: '(517) 522-8464', email: '' },
+      { name: 'Scott Bray', title: 'Trustee', phone: '(517) 522-8464', email: '' },
+      { name: 'Tina Bednarski-Lynch', title: 'Trustee', phone: '(517) 522-8464', email: '' }
+    ]
+  },
+  'Jackson:Hanover': {
+    name: 'Hanover Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Jeffrey Heath', title: 'Supervisor', phone: '(517) 563-2791', email: '' },
+      { name: 'Rachel Heath', title: 'Clerk', phone: '(517) 563-2791', email: '' },
+      { name: 'Timothy Evans', title: 'Treasurer', phone: '(517) 563-2791', email: '' },
+      { name: 'Jason Dorian', title: 'Trustee', phone: '(517) 563-2791', email: '' },
+      { name: 'Steve Keller', title: 'Trustee', phone: '(517) 563-2791', email: '' }
+    ]
+  },
+  'Jackson:Henrietta': {
+    name: 'Henrietta Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Andy Grimes', title: 'Supervisor', phone: '(517) 769-6925', email: '' },
+      { name: 'Makendra Krutsch', title: 'Clerk', phone: '(517) 769-6925', email: '' },
+      { name: 'Matthew Chrisinske', title: 'Treasurer', phone: '(517) 769-6925', email: '' },
+      { name: 'Andrew Faist', title: 'Trustee', phone: '(517) 769-2542', email: '' },
+      { name: 'Sally Keene', title: 'Trustee', phone: '(517) 769-6925', email: '' }
+    ]
+  },
+  'Jackson:Leoni': {
+    name: 'Leoni Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Howard Linnabary', title: 'Supervisor', phone: '(517) 764-7400', email: '' },
+      { name: 'Cindy Norris', title: 'Clerk', phone: '(517) 764-4694', email: '' },
+      { name: 'Marcia King', title: 'Treasurer', phone: '(517) 764-4694', email: '' },
+      { name: 'Jerry Cox', title: 'Trustee', phone: '(517) 206-3406', email: '' },
+      { name: 'Ron Kinch', title: 'Trustee', phone: '', email: '' },
+      { name: 'Mike Hill', title: 'Trustee', phone: '(517) 764-4694', email: '' },
+      { name: 'Russ Jennings', title: 'Trustee', phone: '(517) 764-4694', email: '' }
+    ]
+  },
+  'Jackson:Liberty': {
+    name: 'Liberty Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Mark Hubbard', title: 'Supervisor', phone: '(517) 529-4084', email: '' },
+      { name: 'Debbie Sheehan', title: 'Clerk', phone: '(517) 529-4374', email: '' },
+      { name: 'Karen Garver', title: 'Treasurer', phone: '(517) 529-4374', email: '' },
+      { name: 'Mark Smith', title: 'Trustee', phone: '(517) 529-4374', email: '' },
+      { name: 'Jack Vincent', title: 'Trustee', phone: '(517) 563-8136', email: '' }
+    ]
+  },
+  'Jackson:Napoleon': {
+    name: 'Napoleon Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Daniel Wymer', title: 'Supervisor', phone: '(517) 536-8694', email: '' },
+      { name: 'Traci Spring', title: 'Clerk', phone: '(517) 536-8694', email: '' },
+      { name: 'Anita Graham', title: 'Treasurer', phone: '(517) 536-8694', email: '' },
+      { name: 'Julie Wilson', title: 'Trustee', phone: '(517) 536-8694', email: '' },
+      { name: 'John Hummer', title: 'Trustee', phone: '(517) 536-8694', email: '' }
+    ]
+  },
+  'Jackson:Norvell': {
+    name: 'Norvell Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'William Sutherland', title: 'Supervisor', phone: '(517) 536-4370', email: '' },
+      { name: 'Sharon Pero', title: 'Clerk', phone: '(517) 536-4370 ext. 102', email: '' },
+      { name: 'Deserre Sauers', title: 'Treasurer', phone: '(517) 257-3928', email: '' },
+      { name: 'Andrew Haystead', title: 'Supervisor', phone: '(517) 536-0727', email: '' },
+      { name: 'Paul Francis', title: 'Trustee', phone: '(517) 536-4370', email: '' }
+    ]
+  },
+  'Jackson:Parma': {
+    name: 'Parma Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Bobbie Norman', title: 'Supervisor', phone: '(517) 629-8277', email: '' },
+      { name: 'Sarah Stanham', title: 'Clerk', phone: '(517) 629-8277', email: '' },
+      { name: 'Sheila Dermyer', title: 'Treasurer', phone: '(517) 629-8277', email: '' },
+      { name: 'Douglas Harris', title: 'Trustee', phone: '(906) 236-0775', email: '' },
+      { name: 'Olivia Steele', title: 'Trustee', phone: '(517) 629-8277', email: '' }
+    ]
+  },
+  'Jackson:Pulaski': {
+    name: 'Pulaski Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Norman Todd', title: 'Supervisor', phone: '(517) 524-6061', email: '' },
+      { name: 'Bobbi Riley', title: 'Clerk', phone: '(517) 524-6061', email: '' },
+      { name: 'Lanellia Pluger', title: 'Treasurer', phone: '(517) 524-6061', email: '' },
+      { name: 'Terry Meade', title: 'Trustee', phone: '(517) 524-6061', email: '' }
+    ]
+  },
+  'Jackson:Rives': {
+    name: 'Rives Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Jerald Adams', title: 'Supervisor', phone: '(517) 569-2424', email: '' },
+      { name: 'Kendra Adams', title: 'Clerk', phone: '(517) 569-3100', email: '' },
+      { name: 'Carol Schulz', title: 'Treasurer', phone: '(517) 569-3100', email: '' },
+      { name: 'Bryce Hammond', title: 'Trustee', phone: '(517) 745-2130', email: '' },
+      { name: 'Brandon Adams', title: 'Trustee', phone: '(517) 569-3100', email: '' }
+    ]
+  },
+  'Jackson:Sandstone': {
+    name: 'Sandstone Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Gary Britten', title: 'Supervisor', phone: '(517) 784-4712', email: '' },
+      { name: 'Kimberly Britten', title: 'Clerk', phone: '(517) 784-4712', email: '' },
+      { name: 'Betty Sue VanWinkle', title: 'Treasurer', phone: '(517) 784-4712', email: '' },
+      { name: 'Cheryl Marks', title: 'Trustee', phone: '(517) 784-4712', email: '' },
+      { name: 'Jeff Hale', title: 'Trustee', phone: '(517) 784-4712', email: '' },
+      { name: 'Chris Crisenbery', title: 'Trustee', phone: '(517) 784-4712', email: '' },
+      { name: 'Steven Noble', title: 'Trustee', phone: '(517) 784-4712', email: '' }
+    ]
+  },
+  'Jackson:Spring Arbor': {
+    name: 'Spring Arbor Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'David Herlein', title: 'Supervisor', phone: '(517) 750-2800', email: '' },
+      { name: 'Patricia Bush', title: 'Clerk', phone: '(517) 750-2800', email: '' },
+      { name: 'Katie Trachsel', title: 'Treasurer', phone: '(517) 750-2800', email: '' },
+      { name: 'Troy Ganton', title: 'Trustee', phone: '(517) 750-1905', email: '' },
+      { name: 'James Buck', title: 'Trustee', phone: '(517) 414-2204', email: '' },
+      { name: 'Mike Archer', title: 'Trustee', phone: '(517) 937-4597', email: '' },
+      { name: 'Josh Walz', title: 'Trustee', phone: '(734) 216-1757', email: '' }
+    ]
+  },
+  'Jackson:Springport': {
+    name: 'Springport Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Donald (Donny) Cockroft', title: 'Supervisor', phone: '(517) 857-2030', email: '' },
+      { name: 'Jackie Riehle', title: 'Clerk', phone: '(517) 857-2030', email: '' },
+      { name: 'Brock Adams', title: 'Treasurer', phone: '(517) 740-8773', email: '' },
+      { name: 'Jason Sebastian', title: 'Trustee', phone: '(517) 206-0113', email: '' },
+      { name: 'Bob Hemminger', title: 'Trustee', phone: '(517) 857-2030', email: '' }
+    ]
+  },
+  'Jackson:Summit': {
+    name: 'Summit Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'John Griffin', title: 'Supervisor', phone: '(517) 788-4113', email: '' },
+      { name: 'Meghan Dobben', title: 'Clerk', phone: '(517) 788-4113', email: '' },
+      { name: 'David Heins', title: 'Treasurer', phone: '(517) 788-4113', email: '' },
+      { name: 'Mike Trudell', title: 'Trustee', phone: '(517) 788-4113', email: '' },
+      { name: 'Tina Farkas', title: 'Trustee', phone: '(517) 788-4113', email: '' },
+      { name: 'Steve Scarpino', title: 'Trustee', phone: '(517) 788-4113', email: '' },
+      { name: 'Michael Way', title: 'Trustee', phone: '(517) 817-9287', email: '' }
+    ]
+  },
+  'Jackson:Tompkins': {
+    name: 'Tompkins Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Charles Woodburn', title: 'Supervisor', phone: '(517) 569-2463', email: '' },
+      { name: 'Melanie Curran', title: 'Clerk', phone: '(517) 740-2122', email: '' },
+      { name: 'Janine Baldwin', title: 'Treasurer', phone: '(517) 569-2463', email: '' },
+      { name: 'Nancy Seydell', title: 'Trustee', phone: '(517) 569-2535', email: '' },
+      { name: 'John Tuttle', title: 'Trustee', phone: '(517) 206-5540', email: '' }
+    ]
+  },
+  'Jackson:Waterloo': {
+    name: 'Waterloo Township',
+    county: 'Jackson',
+    officials: [
+      { name: 'Douglas Lance', title: 'Supervisor', phone: '(517) 917-4575', email: '' },
+      { name: 'Bill Richardson', title: 'Clerk', phone: '(517) 596-8400', email: '' },
+      { name: 'Wendy Walz', title: 'Treasurer', phone: '(517) 596-8300', email: '' },
+      { name: 'Josh McAlister', title: 'Trustee', phone: '(517) 596-8200', email: '' },
+      { name: 'John Beck', title: 'Trustee', phone: '(517) 596-8200', email: '' }
+    ]
+  },
+  'Kalamazoo:Alamo': {
+    name: 'Alamo Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Russell Scott', title: 'Supervisor', phone: '(269) 382-3366', email: '' },
+      { name: 'Barbara Venema', title: 'Clerk', phone: '(269) 382-3366', email: '' },
+      { name: 'Denise Wilcox', title: 'Treasurer', phone: '(269) 382-3366', email: '' }
+    ]
+  },
+  'Kalamazoo:Brady': {
+    name: 'Brady Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Randy Smith', title: 'Supervisor', phone: '(269) 649-1813', email: '' },
+      { name: 'Reagan Hunter', title: 'Clerk', phone: '(269) 649-1813', email: '' },
+      { name: 'Elise Stephens', title: 'Treasurer', phone: '(269) 649-1813', email: '' },
+      { name: 'John Meyer', title: 'Trustee', phone: '(269) 649-1813', email: '' },
+      { name: 'Rod Richardson', title: 'Trustee', phone: '(269) 649-1813', email: '' },
+      { name: 'Lee Naplin', title: 'Trustee', phone: '(269) 649-1813', email: '' },
+      { name: 'Todd Thompson', title: 'Trustee', phone: '(269) 649-1813', email: '' }
+    ]
+  },
+  'Kalamazoo:Charleston': {
+    name: 'Charleston Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Jerry VanderRoest', title: 'Supervisor', phone: '(269) 365-4826', email: '' },
+      { name: 'Alese LePert', title: 'Clerk', phone: '(269) 665-7805', email: '' },
+      { name: 'Kimberlie Balkema', title: 'Treasurer', phone: '(269) 665-7805', email: '' },
+      { name: 'Brian Moravek', title: 'Trustee', phone: '(269) 665-7805', email: '' },
+      { name: 'Josh Balkema', title: 'Trustee', phone: '(269) 665-7805', email: '' }
+    ]
+  },
+  'Kalamazoo:Climax': {
+    name: 'Climax Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Trent Piper', title: 'Supervisor', phone: '(269) 746-5572', email: '' },
+      { name: 'Sarah DeBoer', title: 'Clerk', phone: '(269) 746-4103', email: '' },
+      { name: 'Steven Walman', title: 'Treasurer', phone: '(269) 746-4103', email: '' },
+      { name: 'Richard Thierjung', title: 'Trustee', phone: '(269) 746-4654', email: '' },
+      { name: 'Cheryl Bates', title: 'Trustee', phone: '(269) 746-4103', email: '' }
+    ]
+  },
+  'Kalamazoo:Comstock': {
+    name: 'Comstock charter Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Ben Martin', title: 'Supervisor', phone: '(269) 381-2360', email: '' },
+      { name: 'Nicole Beauchamp', title: 'Clerk', phone: '(269) 381-2360', email: '' },
+      { name: 'Sandra Bloomfield', title: 'Treasurer', phone: '(269) 345-3909', email: '' },
+      { name: 'Terry McIver', title: 'Trustee', phone: '(269) 381-2360', email: '' },
+      { name: 'Jerry Amos', title: 'Trustee', phone: '(269) 381-2360', email: '' },
+      { name: 'Robert Pratt', title: 'Trustee', phone: '(269) 381-2360', email: '' },
+      { name: 'Kristie Cherry', title: 'Trustee', phone: '(269) 381-2360', email: '' }
+    ]
+  },
+  'Kalamazoo:Cooper': {
+    name: 'Cooper charter Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Jeffrey Sorensen', title: 'Supervisor', phone: '(269) 382-0223', email: '' },
+      { name: 'DeAnna Janssen', title: 'Clerk', phone: '(269) 382-0223', email: '' },
+      { name: 'Robin DeHaan', title: 'Treasurer', phone: '(269) 382-0223', email: '' },
+      { name: 'Marc Rowlson', title: 'Trustee', phone: '(269) 357-4444', email: '' },
+      { name: 'Fred Vlietstra', title: 'Trustee', phone: '(269) 345-7695', email: '' },
+      { name: 'Adam Tuinstra', title: 'Trustee', phone: '(269) 330-6057', email: '' },
+      { name: 'Ray Wilson', title: 'Trustee', phone: '(269) 344-3499', email: '' }
+    ]
+  },
+  'Kalamazoo:Kalamazoo': {
+    name: 'Kalamazoo charter Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'David Combs', title: 'Supervisor', phone: '(269) 381-8080', email: '' },
+      { name: 'Lisa Mackie', title: 'Clerk', phone: '(269) 381-8080', email: '' },
+      { name: 'Clara Robinson', title: 'Treasurer', phone: '(269) 377-7675', email: '' },
+      { name: 'Ashley Glass', title: 'Trustee', phone: '(269) 381-8080', email: '' },
+      { name: 'Colleen Leonard', title: 'Trustee', phone: '(269) 381-8080', email: '' },
+      { name: 'Craig Sherwood', title: 'Trustee', phone: '(269) 381-8080', email: '' }
+    ]
+  },
+  'Kalamazoo:Oshtemo': {
+    name: 'Oshtemo charter Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Cheri Bell', title: 'Supervisor', phone: '(269) 217-1716', email: '' },
+      { name: 'Dusty Farmer', title: 'Clerk', phone: '(269) 375-4260', email: '' },
+      { name: 'Clare Buszka', title: 'Treasurer', phone: '(269) 655-7043', email: '' },
+      { name: 'Zak Ford', title: 'Trustee', phone: '(269) 375-4260', email: '' },
+      { name: 'Kristin Cole', title: 'Trustee', phone: '(269) 377-3357', email: '' },
+      { name: 'Michael Chapman', title: 'Trustee', phone: '(269) 375-4260', email: '' },
+      { name: 'Neil Sikora', title: 'Trustee', phone: '(269) 760-6769', email: '' }
+    ]
+  },
+  'Kalamazoo:Pavilion': {
+    name: 'Pavilion Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'John Speeter', title: 'Supervisor', phone: '(269) 327-0462', email: '' },
+      { name: 'Karen Siegwart', title: 'Clerk', phone: '(269) 327-0462', email: '' },
+      { name: 'Robyn Maxson', title: 'Treasurer', phone: '(269) 327-0462', email: '' },
+      { name: 'Gregory Thomas', title: 'Trustee', phone: '(269) 330-4822', email: '' },
+      { name: 'Edward Cagney', title: 'Trustee', phone: '(269) 327-0462', email: '' },
+      { name: 'Dan Frizzo', title: 'Trustee', phone: '(269) 327-0462', email: '' },
+      { name: 'Dave Steffens', title: 'Trustee', phone: '(269) 327-0462', email: '' }
+    ]
+  },
+  'Kalamazoo:Prairie Ronde': {
+    name: 'Prairie Ronde Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Michael Tomlinson', title: 'Supervisor', phone: '(269) 679-5567', email: '' },
+      { name: 'Dale Smith', title: 'Clerk', phone: '(269) 679-5666', email: '' },
+      { name: 'Sarah Smith', title: 'Treasurer', phone: '(269) 806-0149', email: '' },
+      { name: 'John Chapin', title: 'Trustee', phone: '(269) 679-2003', email: '' },
+      { name: 'Leonard Griffin', title: 'Trustee', phone: '(269) 679-5666', email: '' }
+    ]
+  },
+  'Kalamazoo:Richland': {
+    name: 'Richland Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Bear Priest', title: 'Supervisor', phone: '(269) 629-4921', email: '' },
+      { name: 'Tami Penny', title: 'Clerk', phone: '(269) 381-2360', email: '' },
+      { name: 'Jason Ramer', title: 'Treasurer', phone: '(269) 629-4921', email: '' },
+      { name: 'David Wendzel', title: 'Trustee', phone: '(269) 629-4295', email: '' },
+      { name: 'Trey Eldridge', title: 'Trustee', phone: '(269) 629-4921', email: '' },
+      { name: 'Bill Peter', title: 'Trustee', phone: '(269) 629-4921', email: '' },
+      { name: 'Andrew Woolf', title: 'Trustee', phone: '(269) 629-4921', email: '' }
+    ]
+  },
+  'Kalamazoo:Ross': {
+    name: 'Ross Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Christina Hutchings', title: 'Supervisor', phone: '(269) 731-4888', email: '' },
+      { name: 'Mary Stage', title: 'Clerk', phone: '(269) 731-4888', email: '' },
+      { name: 'Amanda Wiersma', title: 'Treasurer', phone: '(269) 731-4888', email: '' },
+      { name: 'Diana Langshaw', title: 'Trustee', phone: '(269) 731-4259', email: '' },
+      { name: 'Lynn Harmon', title: 'Trustee', phone: '(269) 731-4888', email: '' },
+      { name: 'Michael Bekes', title: 'Trustee', phone: '(269) 731-4888', email: '' },
+      { name: 'Todd White', title: 'Trustee', phone: '(269) 731-4888', email: '' }
+    ]
+  },
+  'Kalamazoo:Schoolcraft': {
+    name: 'Schoolcraft Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Donald Ulsh', title: 'Supervisor', phone: '(269) 649-2903', email: '' },
+      { name: 'Eska Brown', title: 'Clerk', phone: '(269) 649-1276', email: '' },
+      { name: 'Teresa Scott', title: 'Treasurer', phone: '(269) 649-1276', email: '' },
+      { name: 'Tamra Stafford', title: 'Trustee', phone: '(269) 649-1276', email: '' },
+      { name: 'Jennifer Sportel', title: 'Trustee', phone: '(269) 649-1276', email: '' }
+    ]
+  },
+  'Kalamazoo:Texas': {
+    name: 'Texas charter Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'JoAnne O\'Rourke', title: 'Supervisor', phone: '(269) 375-1591', email: '' },
+      { name: 'Emily Beutel', title: 'Clerk', phone: '(269) 375-1591', email: '' },
+      { name: 'Emily Meinema', title: 'Treasurer', phone: '(269) 375-1591', email: '' },
+      { name: 'Don Boven', title: 'Trustee', phone: '(269) 375-1591', email: '' },
+      { name: 'Barbara Hammon', title: 'Trustee', phone: '', email: '' },
+      { name: 'Lisa Koop', title: 'Trustee', phone: '(269) 375-1591', email: '' },
+      { name: 'Michelle O\'Neill', title: 'Trustee', phone: '(269) 375-1591', email: '' }
+    ]
+  },
+  'Kalamazoo:Wakeshma': {
+    name: 'Wakeshma Township',
+    county: 'Kalamazoo',
+    officials: [
+      { name: 'Jason Gatlin', title: 'Supervisor', phone: '(269) 270-1919', email: '' },
+      { name: 'Michael Fry', title: 'Clerk', phone: '(269) 281-3935', email: '' },
+      { name: 'Leanne Munn', title: 'Treasurer', phone: '(269) 778-3728', email: '' },
+      { name: 'Barb Thole', title: 'Trustee', phone: '(269) 778-3768', email: '' },
+      { name: 'Trevor Bennett', title: 'Trustee', phone: '(269) 778-3728', email: '' }
+    ]
+  },
+  'Kalkaska:Bear Lake': {
+    name: 'Bear Lake Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'George Banker', title: 'Supervisor', phone: '(231) 624-1019', email: '' },
+      { name: 'Dawn Dannenberg', title: 'Clerk', phone: '(231) 258-4871', email: '' },
+      { name: 'Beth Redmond', title: 'Treasurer', phone: '(231) 258-4871', email: '' },
+      { name: 'Bob Dixon', title: 'Trustee', phone: '(231) 258-4871', email: '' },
+      { name: 'Jim Knight', title: 'Trustee', phone: '(231) 258-4871', email: '' }
+    ]
+  },
+  'Kalkaska:Blue Lake': {
+    name: 'Blue Lake Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Todd Fletemier', title: 'Supervisor', phone: '(586) 588-1871', email: '' },
+      { name: 'Tracy Nichol', title: 'Clerk', phone: '(231) 587-8354', email: '' },
+      { name: 'Christine Almose', title: 'Treasurer', phone: '(231) 587-8354', email: '' },
+      { name: 'Lawrence Shoemaker', title: 'Trustee', phone: '(231) 587-0723', email: '' },
+      { name: 'Todd Brozovich', title: 'Trustee', phone: '(231) 587-8354', email: '' }
+    ]
+  },
+  'Kalkaska:Boardman': {
+    name: 'Boardman Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Paul Erickson', title: 'Supervisor', phone: '(231) 564-2203', email: '' },
+      { name: 'Tonya Hart', title: 'Clerk', phone: '(231) 369-3336', email: '' },
+      { name: 'Kathleen Chaffee', title: 'Treasurer', phone: '(231) 369-3542', email: '' },
+      { name: 'Bryan Byrne', title: 'Trustee', phone: '(231) 369-3336', email: '' },
+      { name: 'Holly Hart', title: 'Trustee', phone: '(231) 369-3336', email: '' }
+    ]
+  },
+  'Kalkaska:Clearwater': {
+    name: 'Clearwater Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Jim Leffew', title: 'Supervisor', phone: '(231) 331-6249', email: '' },
+      { name: 'Christine Johnson', title: 'Clerk', phone: '(231) 331-6249', email: '' },
+      { name: 'Michelle Jackson', title: 'Treasurer', phone: '(231) 331-6249', email: '' },
+      { name: 'David Koss', title: 'Trustee', phone: '(231) 331-6249', email: '' },
+      { name: 'Bob Underhill', title: 'Trustee', phone: '(231) 331-6249', email: '' }
+    ]
+  },
+  'Kalkaska:Coldsprings': {
+    name: 'Coldsprings Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Rick Delaney', title: 'Supervisor', phone: '(231) 587-8633', email: '' },
+      { name: 'Danielle Stein-Seabolt', title: 'Clerk', phone: '(231) 587-8633', email: '' },
+      { name: 'Dawn Moses', title: 'Treasurer', phone: '(231) 587-8633', email: '' },
+      { name: 'Gayenell Gentelia', title: 'Trustee', phone: '(231) 587-8633 ext. 112', email: '' },
+      { name: 'Brian Gorch', title: 'Trustee', phone: '(231) 587-8633', email: '' }
+    ]
+  },
+  'Kalkaska:Excelsior': {
+    name: 'Excelsior Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Richard VanBeek', title: 'Supervisor', phone: '(231) 590-5167', email: '' },
+      { name: 'Annie Wallace', title: 'Clerk', phone: '(231) 258-6108', email: '' },
+      { name: 'Nina Cotton', title: 'Treasurer', phone: '(231) 258-6108', email: '' },
+      { name: 'Daniel Prokup', title: 'Trustee', phone: '(231) 564-0128', email: '' },
+      { name: 'Norman Groner', title: 'Trustee', phone: '(231) 258-4607', email: '' }
+    ]
+  },
+  'Kalkaska:Garfield': {
+    name: 'Garfield Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Todd Jones', title: 'Supervisor', phone: '(231) 369-2483', email: '' },
+      { name: 'Kenneth Nason', title: 'Clerk', phone: '(231) 369-2483', email: '' },
+      { name: 'Terri Sibole', title: 'Treasurer', phone: '(231) 369-2483', email: '' },
+      { name: 'Eric Rohn', title: 'Trustee', phone: '(231) 492-3800', email: '' },
+      { name: 'Lisa Nason', title: 'Trustee', phone: '(231) 369-2483', email: '' }
+    ]
+  },
+  'Kalkaska:Kalkaska': {
+    name: 'Kalkaska Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'John Arnold', title: 'Supervisor', phone: '(231) 258-9305', email: '' },
+      { name: 'Kristie Swikoski', title: 'Clerk', phone: '(231) 258-9305', email: '' },
+      { name: 'Taylor Fison', title: 'Treasurer', phone: '(231) 258-9305', email: '' },
+      { name: 'David Wolfe', title: 'Trustee', phone: '(231) 258-8133', email: '' },
+      { name: 'Michael Fitch', title: 'Trustee', phone: '(231) 258-9305', email: '' }
+    ]
+  },
+  'Kalkaska:Oliver': {
+    name: 'Oliver Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Mike Cox', title: 'Supervisor', phone: '', email: '' },
+      { name: 'Alexa Szymchack', title: 'Clerk', phone: '(262) 339-2239', email: '' },
+      { name: 'Debbie Bishop', title: 'Treasurer', phone: '(231) 258-3415', email: '' },
+      { name: 'Michael Fisher', title: 'Trustee', phone: '(213) 342-6808', email: '' },
+      { name: 'Janet Cox', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Kalkaska:Orange': {
+    name: 'Orange Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Trevor Ball', title: 'Supervisor', phone: '(231) 564-0211', email: '' },
+      { name: 'Eric Hendricks', title: 'Clerk', phone: '(231) 369-3457', email: '' },
+      { name: 'Mary Hill', title: 'Treasurer', phone: '(231) 369-3457', email: '' },
+      { name: 'Susan Ball', title: 'Trustee', phone: '(231) 369-3457', email: '' },
+      { name: 'Scott Nelson', title: 'Trustee', phone: '(231) 369-3457', email: '' }
+    ]
+  },
+  'Kalkaska:Rapid River': {
+    name: 'Rapid River Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Terry Williams', title: 'Supervisor', phone: '(231) 258-2457', email: '' },
+      { name: 'Valerie Hansen', title: 'Clerk', phone: '(231) 258-2193', email: '' },
+      { name: 'Russell Stingley', title: 'Treasurer', phone: '(231) 258-2943', email: '' },
+      { name: 'Matthew Brenner', title: 'Trustee', phone: '(231) 342-8424', email: '' },
+      { name: 'Kevin Davis', title: 'Trustee', phone: '(231) 340-2042', email: '' }
+    ]
+  },
+  'Kalkaska:Springfield': {
+    name: 'Springfield Township',
+    county: 'Kalkaska',
+    officials: [
+      { name: 'Timothy Birgy', title: 'Supervisor', phone: '(231) 879-4541', email: '' },
+      { name: 'Jodi Thayer', title: 'Clerk', phone: '(231) 384-2168', email: '' },
+      { name: 'Jessica Marvin', title: 'Treasurer', phone: '(231) 564-0206', email: '' },
+      { name: 'Jeremy Birgy', title: 'Trustee', phone: '(231) 886-0201', email: '' }
+    ]
+  },
+  'Kent:Ada': {
+    name: 'Ada Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Thomas Korth', title: 'Supervisor', phone: '(616) 676-9191', email: '' },
+      { name: 'Jo DeMarco', title: 'Clerk', phone: '(616) 676-9191', email: '' },
+      { name: 'Kevin Moran', title: 'Treasurer', phone: '(616) 676-9191 ext. 23', email: '' },
+      { name: 'Robert Proos', title: 'Trustee', phone: '(616) 676-9191', email: '' },
+      { name: 'Dan Hurwitz', title: 'Trustee', phone: '(616) 676-9191', email: '' },
+      { name: 'Dan Carter', title: 'Trustee', phone: '(616) 676-9191', email: '' },
+      { name: 'Erin Damstra', title: 'Trustee', phone: '(616) 676-9191', email: '' }
+    ]
+  },
+  'Kent:Algoma': {
+    name: 'Algoma Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Kevin Green', title: 'Supervisor', phone: '(616) 866-1583', email: '' },
+      { name: 'Tim Spitler', title: 'Clerk', phone: '(616) 866-1583', email: '' },
+      { name: 'Eric Alderman', title: 'Treasurer', phone: '(616) 866-1583', email: '' },
+      { name: 'James Powell', title: 'Trustee', phone: '(616) 866-4693', email: '' },
+      { name: 'Gordon Pickerd', title: 'Trustee', phone: '(616) 866-9055', email: '' },
+      { name: 'Elizabeth Johnson', title: 'Trustee', phone: '(616) 866-1583', email: '' },
+      { name: 'Steven Rikkers', title: 'Trustee', phone: '(616) 866-1583', email: '' }
+    ]
+  },
+  'Kent:Alpine': {
+    name: 'Alpine Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Greg Madura', title: 'Supervisor', phone: '(616) 784-1262', email: '' },
+      { name: 'Christy Mitchell', title: 'Clerk', phone: '(616) 784-1262', email: '' },
+      { name: 'Beth Alt', title: 'Treasurer', phone: '(616) 784-1262', email: '' },
+      { name: 'Ronald Cordes', title: 'Trustee', phone: '(616) 887-3856', email: '' },
+      { name: 'Rob Scheidel', title: 'Trustee', phone: '(616) 784-1262', email: '' },
+      { name: 'Jean Wahlfield', title: 'Trustee', phone: '(616) 784-1262', email: '' },
+      { name: 'Raechel Macqueen', title: 'Trustee', phone: '(616) 784-1262', email: '' }
+    ]
+  },
+  'Kent:Bowne': {
+    name: 'Bowne Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Randy Wilcox', title: 'Supervisor', phone: '(616) 868-6846', email: '' },
+      { name: 'Karen Hendrick', title: 'Clerk', phone: '(616) 868-6846', email: '' },
+      { name: 'Bonnie Lent-Davis', title: 'Treasurer', phone: '(616) 868-6846', email: '' },
+      { name: 'David Fuss', title: 'Trustee', phone: '(616) 868-6918', email: '' },
+      { name: 'Robert Flynn', title: 'Trustee', phone: '(616) 868-6846', email: '' }
+    ]
+  },
+  'Kent:Byron': {
+    name: 'Byron Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Amos Tillema', title: 'Supervisor', phone: '(616) 878-1222', email: '' },
+      { name: 'Peggy Sattler', title: 'Clerk', phone: '(616) 878-6011', email: '' },
+      { name: 'Becky Beld', title: 'Treasurer', phone: '(616) 878-9066', email: '' },
+      { name: 'Jay DeKleine', title: 'Trustee', phone: '(616) 422-8040', email: '' },
+      { name: 'Scott Tubergen', title: 'Trustee', phone: '(616) 291-7749', email: '' },
+      { name: 'Marty Tilma', title: 'Trustee', phone: '(616) 878-9174', email: '' },
+      { name: 'Tom Hooker', title: 'Trustee', phone: '(616) 551-6969', email: '' }
+    ]
+  },
+  'Kent:Caledonia': {
+    name: 'Caledonia Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Bryan Harrison', title: 'Supervisor', phone: '(616) 891-0070', email: '' },
+      { name: 'Joni Henry', title: 'Clerk', phone: '(616) 891-0070', email: '' },
+      { name: 'Richard Robertson', title: 'Treasurer', phone: '(616) 891-0070', email: '' },
+      { name: 'Dale Hermenet', title: 'Trustee', phone: '(616) 541-2160', email: '' },
+      { name: 'Richard Snoeyink', title: 'Trustee', phone: '(616) 891-1474', email: '' },
+      { name: 'Tim Bradshaw', title: 'Trustee', phone: '(616) 891-0070', email: '' },
+      { name: 'Greg Zoller', title: 'Trustee', phone: '(616) 891-0564', email: '' }
+    ]
+  },
+  'Kent:Cannon': {
+    name: 'Cannon Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Stephen Grimm', title: 'Supervisor', phone: '(616) 874-6966', email: '' },
+      { name: 'Jim Alles', title: 'Clerk', phone: '(616) 874-6966', email: '' },
+      { name: 'David Spencer', title: 'Treasurer', phone: '(616) 874-6966', email: '' },
+      { name: 'Henry Betten', title: 'Trustee', phone: '(616) 283-7395', email: '' },
+      { name: 'Cy Balk', title: 'Trustee', phone: '(616) 874-6966', email: '' },
+      { name: 'Jessica Slaydon-Gutowski', title: 'Trustee', phone: '(616) 874-6966', email: '' },
+      { name: 'Todd Olson', title: 'Trustee', phone: '(616) 874-6966', email: '' }
+    ]
+  },
+  'Kent:Cascade': {
+    name: 'Cascade charter Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Grace Lesperance', title: 'Supervisor', phone: '(616) 949-1500', email: '' },
+      { name: 'Susan Slater', title: 'Clerk', phone: '(616) 949-1508', email: '' },
+      { name: 'Windy Korstange', title: 'Treasurer', phone: '(616) 949-1500', email: '' },
+      { name: 'John Shipley', title: 'Trustee', phone: '(616) 949-1500', email: '' },
+      { name: 'Timothy Noordhoek', title: 'Trustee', phone: '(616) 949-1500', email: '' },
+      { name: 'Scott Rissi', title: 'Trustee', phone: '(616) 949-1500', email: '' },
+      { name: 'Christopher Noordyke', title: 'Trustee', phone: '(616) 949-1500', email: '' }
+    ]
+  },
+  'Kent:Courtland': {
+    name: 'Courtland Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Matthew McConnon', title: 'Supervisor', phone: '(616) 866-0622', email: '' },
+      { name: 'Susan Hartman', title: 'Clerk', phone: '(616) 866-0622', email: '' },
+      { name: 'Colleen Brown', title: 'Treasurer', phone: '(616) 866-0622', email: '' },
+      { name: 'Kimberly McIntyre', title: 'Trustee', phone: '(616) 866-0622', email: '' },
+      { name: 'Charles Porter', title: 'Trustee', phone: '(616) 866-0622', email: '' },
+      { name: 'Rachel Crowther', title: 'Trustee', phone: '(616) 866-0622', email: '' },
+      { name: 'Matt Spaans', title: 'Trustee', phone: '(616) 866-0622', email: '' }
+    ]
+  },
+  'Kent:Gaines': {
+    name: 'Gaines charter Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Bob Terpstra', title: 'Supervisor', phone: '(616) 698-6640', email: '' },
+      { name: 'Michael Brew', title: 'Clerk', phone: '(616) 698-7980', email: '' },
+      { name: 'Laurie Lemke', title: 'Treasurer', phone: '(616) 499-2045', email: '' },
+      { name: 'Tim Haagsma', title: 'Trustee', phone: '(616) 554-3396', email: '' },
+      { name: 'Daniel Fryling', title: 'Trustee', phone: '(616) 455-8321', email: '' },
+      { name: 'Kathy Vanderstel', title: 'Trustee', phone: '(616) 698-6640', email: '' },
+      { name: 'Robert DeWard', title: 'Trustee', phone: '(616) 299-2582', email: '' }
+    ]
+  },
+  'Kent:Grand Rapids': {
+    name: 'Grand Rapids charter Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Michael DeVries', title: 'Supervisor', phone: '(616) 855-5802', email: '' },
+      { name: 'Edward Robinette', title: 'Clerk', phone: '(616) 361-1368', email: '' },
+      { name: 'Dave VanDyke', title: 'Treasurer', phone: '(616) 361-7391', email: '' },
+      { name: 'Vasiliki Christopoulos', title: 'Trustee', phone: '(616) 361-7391', email: '' },
+      { name: 'Meghan Mott', title: 'Trustee', phone: '(616) 361-7391', email: '' },
+      { name: 'Matt Scheider', title: 'Trustee', phone: '(616) 361-7391', email: '' },
+      { name: 'Douglas Lipinski', title: 'Trustee', phone: '(616) 361-7391', email: '' }
+    ]
+  },
+  'Kent:Grattan': {
+    name: 'Grattan Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Franklin Force', title: 'Supervisor', phone: '(616) 691-8450', email: '' },
+      { name: 'Michelle Alberts', title: 'Clerk', phone: '(616) 691-8450', email: '' },
+      { name: 'Sabrina Freeman', title: 'Treasurer', phone: '(616) 691-8450', email: '' },
+      { name: 'Denny Heffron', title: 'Trustee', phone: '(616) 691-8450', email: '' },
+      { name: 'Paul Knoerl', title: 'Trustee', phone: '(616) 691-8450', email: '' }
+    ]
+  },
+  'Kent:Lowell': {
+    name: 'Lowell charter Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Jerry Hale', title: 'Supervisor', phone: '(616) 897-7600', email: '' },
+      { name: 'Monica Burtt', title: 'Clerk', phone: '(616) 897-7600', email: '' },
+      { name: 'Ronda Benedict', title: 'Treasurer', phone: '(616) 897-7600', email: '' },
+      { name: 'Mark Anderson', title: 'Trustee', phone: '(616) 897-7600', email: '' },
+      { name: 'Carlton Blough', title: 'Trustee', phone: '(616) 897-4995', email: '' },
+      { name: 'William Thompson', title: 'Trustee', phone: '(616) 897-7600', email: '' },
+      { name: 'Andy VanderZiel', title: 'Trustee', phone: '(616) 897-7600', email: '' }
+    ]
+  },
+  'Kent:Nelson': {
+    name: 'Nelson Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Robyn Britton', title: 'Supervisor', phone: '(616) 636-5332', email: '' },
+      { name: 'Andrea Carr', title: 'Clerk', phone: '(616) 636-5332', email: '' },
+      { name: 'Katy Austin', title: 'Treasurer', phone: '(616) 636-5332', email: '' },
+      { name: 'Curtis DeJong', title: 'Trustee', phone: '(616) 636-5332', email: '' },
+      { name: 'Daniel George', title: 'Trustee', phone: '(616) 636-5332', email: '' }
+    ]
+  },
+  'Kent:Oakfield': {
+    name: 'Oakfield Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Sue Trainer', title: 'Clerk', phone: '(616) 754-5679', email: '' },
+      { name: 'Betsy Koett', title: 'Treasurer', phone: '(616) 754-5679 ext. 13', email: '' },
+      { name: 'Chad Sowerby', title: 'Trustee', phone: '(616) 754-5679', email: '' },
+      { name: 'Kenneth Rittersdorf', title: 'Trustee', phone: '(616) 691-8842', email: '' },
+      { name: 'Pamela Riker', title: 'Trustee', phone: '(616) 291-6735', email: '' },
+      { name: 'David Howard', title: 'Trustee', phone: '(616) 754-5679', email: '' }
+    ]
+  },
+  'Kent:Plainfield': {
+    name: 'Plainfield charter Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Tom Coleman', title: 'Supervisor', phone: '(616) 291-4845', email: '' },
+      { name: 'Steven McKellar', title: 'Clerk', phone: '(616) 364-8466', email: '' },
+      { name: 'Jack Hagedorn', title: 'Treasurer', phone: '(616) 866-3295', email: '' },
+      { name: 'Frank Pfaff', title: 'Trustee', phone: '(616) 238-7445', email: '' },
+      { name: 'Susan Morrow', title: 'Trustee', phone: '(616) 364-8466', email: '' },
+      { name: 'Kathey Batey', title: 'Trustee', phone: '(810) 730-6679', email: '' },
+      { name: 'Robert Reminga', title: 'Trustee', phone: '(616) 364-8466', email: '' }
+    ]
+  },
+  'Kent:Solon': {
+    name: 'Solon Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Robert Ellick', title: 'Supervisor', phone: '(616) 696-1718 ext. 2', email: '' },
+      { name: 'Dorothy Willoughby', title: 'Clerk', phone: '(616) 696-1718', email: '' },
+      { name: 'A.J. Anielski', title: 'Treasurer', phone: '(616) 696-1718', email: '' },
+      { name: 'Mark Hoskins', title: 'Trustee', phone: '(616) 696-1718', email: '' },
+      { name: 'Jon Stout', title: 'Trustee', phone: '(616) 696-1718', email: '' }
+    ]
+  },
+  'Kent:Sparta': {
+    name: 'Sparta Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Dale Bergman', title: 'Supervisor', phone: '(616) 887-8863', email: '' },
+      { name: 'Marcy Savage', title: 'Clerk', phone: '(616) 887-8863', email: '' },
+      { name: 'Ashley Johnson', title: 'Treasurer', phone: '(616) 887-8863', email: '' },
+      { name: 'Robert Steffens', title: 'Trustee', phone: '(616) 887-8863', email: '' },
+      { name: 'Bill Goodfellow', title: 'Trustee', phone: '(616) 318-8244', email: '' },
+      { name: 'Jason Bradford', title: 'Trustee', phone: '(616) 887-4284', email: '' },
+      { name: 'Barbara Johnson', title: 'Trustee', phone: '(616) 887-8863', email: '' }
+    ]
+  },
+  'Kent:Spencer': {
+    name: 'Spencer Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Lisa Wright', title: 'Clerk', phone: '(616) 984-0035', email: '' },
+      { name: 'Scott Baas', title: 'Treasurer', phone: '(616) 984-0035', email: '' },
+      { name: 'Chris Lange', title: 'Trustee', phone: '(616) 984-0035', email: '' },
+      { name: 'Chris McIntire', title: 'Trustee', phone: '(616) 984-0035', email: '' }
+    ]
+  },
+  'Kent:Tyrone': {
+    name: 'Tyrone Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Dave Ignasiak', title: 'Supervisor', phone: '(616) 675-3141', email: '' },
+      { name: 'Dolan Bair', title: 'Clerk', phone: '(616) 678-4779', email: '' },
+      { name: 'Juli Hall', title: 'Treasurer', phone: '(616) 678-4779', email: '' },
+      { name: 'Dave Loew', title: 'Trustee', phone: '(616) 581-8974', email: '' },
+      { name: 'Brian Wheeler', title: 'Trustee', phone: '(616) 678-4779', email: '' }
+    ]
+  },
+  'Kent:Vergennes': {
+    name: 'Vergennes Township',
+    county: 'Kent',
+    officials: [
+      { name: 'Tim Wittenbach', title: 'Supervisor', phone: '(616) 897-5671', email: '' },
+      { name: 'Shantell Ford', title: 'Clerk', phone: '(616) 897-5671', email: '' },
+      { name: 'Sherry Richmond', title: 'Treasurer', phone: '(616) 897-5671', email: '' },
+      { name: 'Rick Gillette', title: 'Trustee', phone: '(616) 676-1443', email: '' },
+      { name: 'Duane Rasch', title: 'Trustee', phone: '(616) 897-5671', email: '' }
+    ]
+  },
+  'Keweenaw:Allouez': {
+    name: 'Allouez Township',
+    county: 'Keweenaw',
+    officials: [
+      { name: 'Mark Aho', title: 'Supervisor', phone: '(906) 337-2466', email: '' },
+      { name: 'Jesse Patrick', title: 'Clerk', phone: '(906) 337-2302', email: '' },
+      { name: 'Julie Newman', title: 'Treasurer', phone: '', email: '' },
+      { name: 'Kenneth Johnson', title: 'Trustee', phone: '(906) 337-2302', email: '' },
+      { name: 'Robert Travis', title: 'Trustee', phone: '(906) 337-2302', email: '' }
+    ]
+  },
+  'Keweenaw:Eagle Harbor': {
+    name: 'Eagle Harbor Township',
+    county: 'Keweenaw',
+    officials: [
+      { name: 'Richard Probst', title: 'Supervisor', phone: '(906) 289-4407', email: '' },
+      { name: 'Jeane Olson', title: 'Clerk', phone: '(906) 289-4407', email: '' },
+      { name: 'Patty Asselin', title: 'Treasurer', phone: '(906) 289-4407', email: '' },
+      { name: 'Richard Schaefer', title: 'Trustee', phone: '(906) 289-4407', email: '' },
+      { name: 'Bryce Holden', title: 'Trustee', phone: '(906) 289-4407', email: '' }
+    ]
+  },
+  'Keweenaw:Grant': {
+    name: 'Grant Township',
+    county: 'Keweenaw',
+    officials: [
+      { name: 'Meg North', title: 'Supervisor', phone: '(906) 289-4292', email: '' },
+      { name: 'Cheryl Ochodnicky', title: 'Clerk', phone: '(906) 289-4292', email: '' },
+      { name: 'Greg Lis', title: 'Treasurer', phone: '(906) 289-4292', email: '' },
+      { name: 'Arthur Davis', title: 'Trustee', phone: '(906) 289-4662', email: '' },
+      { name: 'Staci Gibson-Kisiel', title: 'Trustee', phone: '(906) 289-4292', email: '' }
+    ]
+  },
+  'Keweenaw:Houghton': {
+    name: 'Houghton Township',
+    county: 'Keweenaw',
+    officials: [
+      { name: 'Robby Fischer', title: 'Supervisor', phone: '(906) 337-1970', email: '' },
+      { name: 'Linda Paradiso', title: 'Clerk', phone: '(906) 337-1970', email: '' },
+      { name: 'Julie Hamilton', title: 'Treasurer', phone: '(906) 337-1970', email: '' },
+      { name: 'Thomas Hall', title: 'Trustee', phone: '(906) 337-1970', email: '' },
+      { name: 'Jim Huovinen', title: 'Trustee', phone: '(906) 337-2229', email: '' }
+    ]
+  },
+  'Keweenaw:Sherman': {
+    name: 'Sherman Township',
+    county: 'Keweenaw',
+    officials: [
+      { name: 'Melissa Dexheimer', title: 'Clerk', phone: '(906) 296-1211', email: '' },
+      { name: 'Karen Turner', title: 'Treasurer', phone: '(906) 296-1211', email: '' },
+      { name: 'Sondi Mathews', title: 'Trustee', phone: '(906) 296-1211', email: '' },
+      { name: 'Jeremy Lauren', title: 'Trustee', phone: '(906) 296-1211', email: '' }
+    ]
+  },
+  'Lake:Chase': {
+    name: 'Chase Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Phillip Lodholtz', title: 'Supervisor', phone: '(231) 250-1075', email: '' },
+      { name: 'Shelli Droke', title: 'Clerk', phone: '(231) 250-8015', email: '' },
+      { name: 'Janel Eichenberg', title: 'Treasurer', phone: '(231) 832-4076', email: '' },
+      { name: 'Joyce Beach', title: 'Trustee', phone: '(231) 878-2155', email: '' },
+      { name: 'Sarah Nyp', title: 'Trustee', phone: '(231) 832-4076', email: '' }
+    ]
+  },
+  'Lake:Cherry Valley': {
+    name: 'Cherry Valley Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Robert Shepler', title: 'Supervisor', phone: '(248) 459-6707', email: '' },
+      { name: 'Angela Guynn', title: 'Clerk', phone: '(231) 745-7466', email: '' },
+      { name: 'Lori Jeffrey', title: 'Treasurer', phone: '(231) 745-7466', email: '' },
+      { name: 'Connie Avery', title: 'Trustee', phone: '(231) 745-8652', email: '' },
+      { name: 'Vicki Sherman', title: 'Trustee', phone: '(231) 745-7466', email: '' }
+    ]
+  },
+  'Lake:Dover': {
+    name: 'Dover Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Cathy May', title: 'Supervisor', phone: '(231) 878-6647', email: '' },
+      { name: 'Courtney Houseman', title: 'Clerk', phone: '(231) 878-2264', email: '' },
+      { name: 'Amanda Bailor', title: 'Treasurer', phone: '(231) 893-3811', email: '' },
+      { name: 'Karin Goodlein', title: 'Trustee', phone: '(231) 829-3280', email: '' },
+      { name: 'Marcella Leusby', title: 'Trustee', phone: '(231) 388-5081', email: '' }
+    ]
+  },
+  'Lake:Eden': {
+    name: 'Eden Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Al Shaughnessy', title: 'Supervisor', phone: '(231) 920-6683', email: '' },
+      { name: 'Barbara Charnes', title: 'Clerk', phone: '(231) 266-8301', email: '' },
+      { name: 'Christine Oetman', title: 'Treasurer', phone: '(231) 729-1645', email: '' },
+      { name: 'Maggie Shaughnessy', title: 'Trustee', phone: '(231) 266-8277', email: '' },
+      { name: 'Gary Oetman', title: 'Trustee', phone: '(231) 633-6837', email: '' }
+    ]
+  },
+  'Lake:Elk': {
+    name: 'Elk Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Jeffrey Mather', title: 'Supervisor', phone: '(231) 266-5983', email: '' },
+      { name: 'Karen Fickies', title: 'Clerk', phone: '(231) 266-5983', email: '' },
+      { name: 'Sandy Mather', title: 'Treasurer', phone: '(231) 266-5983', email: '' },
+      { name: 'Jack Hankiewwicz', title: 'Trustee', phone: '(231) 729-1387', email: '' },
+      { name: 'Craig Fazakerly', title: 'Trustee', phone: '(231) 266-5983', email: '' }
+    ]
+  },
+  'Lake:Ellsworth': {
+    name: 'Ellsworth Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Todd Charles', title: 'Supervisor', phone: '(231) 250-2397', email: '' },
+      { name: 'Brittany Carlson', title: 'Clerk', phone: '(231) 468-7847', email: '' },
+      { name: 'Kimberley Pendley', title: 'Treasurer', phone: '(231) 357-1824', email: '' },
+      { name: 'Patrick Chachulski', title: 'Trustee', phone: '(231) 942-6567', email: '' },
+      { name: 'James Bacon', title: 'Trustee', phone: '(231) 250-2397', email: '' }
+    ]
+  },
+  'Lake:Lake': {
+    name: 'Lake Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Bob Mateja', title: 'Supervisor', phone: '(231) 898-3189', email: '' },
+      { name: 'Amy Rademaker', title: 'Clerk', phone: '(231) 898-3189', email: '' },
+      { name: 'Kathy VanDonkelaar', title: 'Treasurer', phone: '(231) 898-3189', email: '' },
+      { name: 'John LaPointe', title: 'Trustee', phone: '(231) 898-2646', email: '' },
+      { name: 'Tina Personette', title: 'Trustee', phone: '(231) 898-3189', email: '' }
+    ]
+  },
+  'Lake:Newkirk': {
+    name: 'Newkirk Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Gretchen Allan', title: 'Supervisor', phone: '(231) 797-5838', email: '' },
+      { name: 'Cheryl Fullerton', title: 'Clerk', phone: '(231) 492-7606', email: '' },
+      { name: 'Sharon Gray', title: 'Treasurer', phone: '(231) 388-4057', email: '' },
+      { name: 'Richard Hall', title: 'Trustee', phone: '(231) 797-5838', email: '' },
+      { name: 'Marilyn Gray', title: 'Trustee', phone: '(231) 797-5838', email: '' }
+    ]
+  },
+  'Lake:Peacock': {
+    name: 'Peacock Township',
+    county: 'Lake',
+    officials: [
+      { name: 'LuAnn Parker', title: 'Supervisor', phone: '(231) 266-5122', email: '' },
+      { name: 'Ann Thomas', title: 'Clerk', phone: '(231) 266-5122', email: '' },
+      { name: 'Laura Hepler', title: 'Treasurer', phone: '(231) 266-5122', email: '' },
+      { name: 'Shirley Blackler', title: 'Trustee', phone: '(231) 266-5122', email: '' },
+      { name: 'Justine Schram', title: 'Trustee', phone: '(231) 266-5122', email: '' }
+    ]
+  },
+  'Lake:Pinora': {
+    name: 'Pinora Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Victoria Dennett', title: 'Supervisor', phone: '(231) 779-2176', email: '' },
+      { name: 'Ashley Visner', title: 'Clerk', phone: '(231) 250-0762', email: '' },
+      { name: 'Donald Dvoracek', title: 'Treasurer', phone: '(231) 912-0134', email: '' },
+      { name: 'Sidney Woods', title: 'Trustee', phone: '(231) 832-2957', email: '' },
+      { name: 'Rob Visner', title: 'Trustee', phone: '(231) 250-0285', email: '' }
+    ]
+  },
+  'Lake:Pleasant Plains': {
+    name: 'Pleasant Plains Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Kevin Braddy', title: 'Supervisor', phone: '', email: '' },
+      { name: 'Ronette Hanna', title: 'Treasurer', phone: '(231) 745-2949 ext. 2', email: '' },
+      { name: 'Debra Russell', title: 'Trustee', phone: '(231) 745-7296', email: '' },
+      { name: 'Sondra Lemm', title: 'Trustee', phone: '(231) 388-3689', email: '' }
+    ]
+  },
+  'Lake:Sauble': {
+    name: 'Sauble Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Mary Ann Nugent', title: 'Supervisor', phone: '(231) 266-8384', email: '' },
+      { name: 'Gail Raad', title: 'Clerk', phone: '(231) 266-8384', email: '' },
+      { name: 'Beth Acker', title: 'Treasurer', phone: '(231) 266-8384', email: '' },
+      { name: 'Tracy Baker', title: 'Trustee', phone: '(231) 266-8384', email: '' },
+      { name: 'William Rodgers', title: 'Trustee', phone: '(231) 266-8384', email: '' }
+    ]
+  },
+  'Lake:Sweetwater': {
+    name: 'Sweetwater Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Tammie Bonzheim', title: 'Clerk', phone: '(231) 425-7259', email: '' },
+      { name: 'Angela MacDougall', title: 'Treasurer', phone: '(231) 898-3759', email: '' },
+      { name: 'Cindy Bosley', title: 'Trustee', phone: '(231) 898-2939', email: '' },
+      { name: 'Michael Gleason', title: 'Trustee', phone: '(231) 898-3050', email: '' }
+    ]
+  },
+  'Lake:Webber': {
+    name: 'Webber Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Shaun Munson', title: 'Supervisor', phone: '(231) 349-4870', email: '' },
+      { name: 'Deb Hanes', title: 'Clerk', phone: '(231) 745-3471', email: '' },
+      { name: 'Pat Williams', title: 'Treasurer', phone: '(231) 745-3471', email: '' },
+      { name: 'Kelly McCune', title: 'Trustee', phone: '(231) 745-3471', email: '' },
+      { name: 'Kathy Rose', title: 'Trustee', phone: '(231) 745-3471', email: '' }
+    ]
+  },
+  'Lake:Yates': {
+    name: 'Yates Township',
+    county: 'Lake',
+    officials: [
+      { name: 'Chris Grier', title: 'Supervisor', phone: '(616) 886-4758', email: '' },
+      { name: 'Barbara McGregory', title: 'Clerk', phone: '(816) 589-6820', email: '' },
+      { name: 'Jacqueline Patterson', title: 'Treasurer', phone: '(231) 745-3940 ext. 2', email: '' },
+      { name: 'Shawn Coffey', title: 'Trustee', phone: '(231) 510-1637', email: '' },
+      { name: 'Erica Tate', title: 'Trustee', phone: '(231) 745-3940', email: '' }
+    ]
+  },
+  'Lapeer:Almont': {
+    name: 'Almont Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Gary Groesbeck', title: 'Supervisor', phone: '(810) 798-8521', email: '' },
+      { name: 'Bonnie Krauss', title: 'Clerk', phone: '(810) 798-8521', email: '' },
+      { name: 'Kimberly Streeter', title: 'Treasurer', phone: '(810) 798-8521', email: '' },
+      { name: 'Randy Eschenburg', title: 'Trustee', phone: '(810) 798-8521', email: '' },
+      { name: 'Richard Dodge', title: 'Trustee', phone: '(810) 790-5040', email: '' },
+      { name: 'Mike Chriss', title: 'Trustee', phone: '(810) 798-8521', email: '' }
+    ]
+  },
+  'Lapeer:Arcadia': {
+    name: 'Arcadia Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Patricia Lashbrook', title: 'Supervisor', phone: '(810) 724-6565', email: '' },
+      { name: 'Katie Poniatowski', title: 'Clerk', phone: '(810) 724-6565', email: '' },
+      { name: 'Lisa Skovran', title: 'Treasurer', phone: '(810) 724-6565', email: '' },
+      { name: 'Kathleen Howe', title: 'Trustee', phone: '(810) 724-7300', email: '' },
+      { name: 'Tiffany Howell', title: 'Trustee', phone: '(810) 724-6565', email: '' }
+    ]
+  },
+  'Lapeer:Attica': {
+    name: 'Attica Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Austin McLellan', title: 'Supervisor', phone: '(810) 724-8128', email: '' },
+      { name: 'Valerie Schultz', title: 'Clerk', phone: '(810) 724-8128', email: '' },
+      { name: 'Pam Mason', title: 'Treasurer', phone: '(810) 724-8128', email: '' },
+      { name: 'Nancy Herpolsheimer', title: 'Trustee', phone: '(810) 724-8128', email: '' },
+      { name: 'Bill Winslow', title: 'Trustee', phone: '(810) 724-8128', email: '' }
+    ]
+  },
+  'Lapeer:Burlington': {
+    name: 'Burlington Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Robert Howland', title: 'Supervisor', phone: '(810) 614-7085', email: '' },
+      { name: 'Vanessa Hunt', title: 'Clerk', phone: '(810) 614-2854', email: '' },
+      { name: 'Deb Horen', title: 'Treasurer', phone: '(810) 407-0252', email: '' },
+      { name: 'Janet Wilson', title: 'Trustee', phone: '(810) 614-7900', email: '' },
+      { name: 'Jason Castle', title: 'Trustee', phone: '(810) 358-6209', email: '' }
+    ]
+  },
+  'Lapeer:Burnside': {
+    name: 'Burnside Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Chad Dempsey', title: 'Supervisor', phone: '(810) 705-2973', email: '' },
+      { name: 'Bonnie Koning', title: 'Clerk', phone: '(810) 346-3560', email: '' },
+      { name: 'Charlotte Babb', title: 'Treasurer', phone: '(989) 635-6789', email: '' },
+      { name: 'Robert Wilcox', title: 'Trustee', phone: '(810) 656-9408', email: '' },
+      { name: 'Rodney Vislosky', title: 'Trustee', phone: '(810) 346-3559', email: '' }
+    ]
+  },
+  'Lapeer:Deerfield': {
+    name: 'Deerfield Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Keith Merser', title: 'Supervisor', phone: '(810) 793-6700', email: '' },
+      { name: 'Debra Hartley', title: 'Clerk', phone: '(810) 793-6700', email: '' },
+      { name: 'Lisa Haack', title: 'Treasurer', phone: '(810) 793-6700', email: '' },
+      { name: 'Marc Stover', title: 'Trustee', phone: '(810) 793-2334', email: '' },
+      { name: 'Cheryl Howell', title: 'Trustee', phone: '(810) 793-6700', email: '' },
+      { name: 'Jason Parks', title: 'Trustee', phone: '(810) 793-6700', email: '' }
+    ]
+  },
+  'Lapeer:Dryden': {
+    name: 'Dryden Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Tina Papineau', title: 'Supervisor', phone: '(810) 796-2248', email: '' },
+      { name: 'April Smith', title: 'Clerk', phone: '(810) 796-2248', email: '' },
+      { name: 'Sue Lowney', title: 'Treasurer', phone: '(810) 796-2248', email: '' },
+      { name: 'Carol English', title: 'Trustee', phone: '(810) 796-2248', email: '' },
+      { name: 'Brian Hazen', title: 'Trustee', phone: '(810) 796-2248', email: '' }
+    ]
+  },
+  'Lapeer:Elba': {
+    name: 'Elba Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Michael Boskee', title: 'Supervisor', phone: '(810) 664-2332', email: '' },
+      { name: 'Rena Fountain', title: 'Clerk', phone: '(810) 664-2332', email: '' },
+      { name: 'Katie Terry', title: 'Treasurer', phone: '(810) 664-2332', email: '' },
+      { name: 'Tim Lintz', title: 'Trustee', phone: '(810) 667-6959', email: '' },
+      { name: 'Kelly Bales', title: 'Trustee', phone: '(810) 614-6979', email: '' },
+      { name: 'Matthew Dreier', title: 'Trustee', phone: '(810) 664-2332', email: '' },
+      { name: 'Rick Gualdoni', title: 'Trustee', phone: '(810) 664-2332', email: '' }
+    ]
+  },
+  'Lapeer:Goodland': {
+    name: 'Goodland Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Michael Eckardt', title: 'Supervisor', phone: '(810) 724-0169', email: '' },
+      { name: 'Amy Nolin', title: 'Clerk', phone: '(810) 724-0169', email: '' },
+      { name: 'Louis Parsch', title: 'Treasurer', phone: '(810) 724-0169 ext. 13', email: '' },
+      { name: 'Michael Puzzuoli', title: 'Trustee', phone: '(586) 383-6869', email: '' },
+      { name: 'Julie Dockham', title: 'Trustee', phone: '(810) 724-0169', email: '' }
+    ]
+  },
+  'Lapeer:Hadley': {
+    name: 'Hadley Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Jason Harrison', title: 'Supervisor', phone: '(810) 797-2117', email: '' },
+      { name: 'Cynthia Daly', title: 'Clerk', phone: '(810) 797-2117', email: '' },
+      { name: 'Lisa Schultz', title: 'Treasurer', phone: '(810) 797-2117', email: '' },
+      { name: 'Richard Brandt', title: 'Trustee', phone: '(810) 797-4305', email: '' },
+      { name: 'Robert Hartwig', title: 'Trustee', phone: '(810) 797-2117', email: '' }
+    ]
+  },
+  'Lapeer:Imlay': {
+    name: 'Imlay Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Rick Farkas', title: 'Supervisor', phone: '(810) 724-8835', email: '' },
+      { name: 'Carla Jepsen', title: 'Clerk', phone: '(810) 724-8835', email: '' },
+      { name: 'Melanie Priehs', title: 'Treasurer', phone: '(810) 724-8835', email: '' },
+      { name: 'Michael Guerin', title: 'Trustee', phone: '(810) 338-4111', email: '' },
+      { name: 'Chad Stoldt', title: 'Trustee', phone: '(810) 724-8835', email: '' }
+    ]
+  },
+  'Lapeer:Lapeer': {
+    name: 'Lapeer Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Scott Jarvis', title: 'Supervisor', phone: '(810) 664-3700', email: '' },
+      { name: 'Samantha Kesler', title: 'Clerk', phone: '(810) 664-3700 ext. 406', email: '' },
+      { name: 'Nancy Bradford', title: 'Treasurer', phone: '(810) 664-3700', email: '' }
+    ]
+  },
+  'Lapeer:Marathon': {
+    name: 'Marathon Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Dennis Hogan', title: 'Supervisor', phone: '(810) 441-6455', email: '' },
+      { name: 'Michelle Coultas', title: 'Clerk', phone: '(810) 793-2002', email: '' },
+      { name: 'Lori Hollis', title: 'Treasurer', phone: '(810) 793-2002', email: '' },
+      { name: 'William Sickner', title: 'Trustee', phone: '(810) 793-2002', email: '' },
+      { name: 'Justin Church', title: 'Trustee', phone: '(810) 793-2002', email: '' }
+    ]
+  },
+  'Lapeer:Mayfield': {
+    name: 'Mayfield Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Daniel Engelman', title: 'Supervisor', phone: '(810) 664-0821', email: '' },
+      { name: 'Julie Schlaud', title: 'Clerk', phone: '(810) 664-0821', email: '' },
+      { name: 'Daniel Frisch', title: 'Treasurer', phone: '(810) 664-0821', email: '' },
+      { name: 'Cheryl Kile', title: 'Trustee', phone: '(810) 834-7761', email: '' },
+      { name: 'Chris Maasch', title: 'Trustee', phone: '(810) 664-0821', email: '' }
+    ]
+  },
+  'Lapeer:Metamora': {
+    name: 'Metamora Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'David Best', title: 'Supervisor', phone: '(810) 678-2237', email: '' },
+      { name: 'Sue Clark', title: 'Clerk', phone: '(810) 678-2237', email: '' },
+      { name: 'Scott Benscoter', title: 'Treasurer', phone: '', email: '' },
+      { name: 'Ann Derderian', title: 'Trustee', phone: '(810) 678-2237', email: '' },
+      { name: 'Traci Chouinard', title: 'Trustee', phone: '(810) 678-2237', email: '' }
+    ]
+  },
+  'Lapeer:North Branch': {
+    name: 'North Branch Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Ken Jentzen', title: 'Supervisor', phone: '(810) 688-2785', email: '' },
+      { name: 'Jolene Kreiner', title: 'Clerk', phone: '(810) 688-2785', email: '' },
+      { name: 'Marie Curell', title: 'Treasurer', phone: '(810) 688-2785', email: '' },
+      { name: 'Wilfred Deshetsky', title: 'Trustee', phone: '(810) 688-2785', email: '' },
+      { name: 'Lance Walkee', title: 'Trustee', phone: '(810) 688-2785', email: '' }
+    ]
+  },
+  'Lapeer:Oregon': {
+    name: 'Oregon Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'Rich Clemens', title: 'Supervisor', phone: '(810) 664-5971', email: '' },
+      { name: 'Michelle Osip', title: 'Clerk', phone: '(810) 664-5971', email: '' },
+      { name: 'Cheryl Place', title: 'Treasurer', phone: '(810) 664-5971', email: '' },
+      { name: 'Wayne Barber', title: 'Trustee', phone: '(810) 664-5971', email: '' },
+      { name: 'Chris VanBelle', title: 'Trustee', phone: '(810) 664-5971', email: '' }
+    ]
+  },
+  'Lapeer:Rich': {
+    name: 'Rich Township',
+    county: 'Lapeer',
+    officials: [
+      { name: 'David Scheuer', title: 'Supervisor', phone: '(586) 260-2600', email: '' },
+      { name: 'Tricia Kester', title: 'Clerk', phone: '(810) 417-2125', email: '' },
+      { name: 'Gary Curell', title: 'Treasurer', phone: '(810) 845-6781', email: '' },
+      { name: 'Mark Jaruzel', title: 'Trustee', phone: '(810) 417-2125', email: '' },
+      { name: 'Richard Mohr', title: 'Trustee', phone: '(810) 417-2125', email: '' }
+    ]
+  },
+  'Leelanau:Bingham': {
+    name: 'Bingham Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Marian (Midge) Werner', title: 'Supervisor', phone: '(231) 922-6767', email: '' },
+      { name: 'Rachel Amalfitano', title: 'Clerk', phone: '(231) 922-6767', email: '' },
+      { name: 'Mary Ann Korson', title: 'Treasurer', phone: '(231) 922-6767', email: '' },
+      { name: 'Jeff Layman', title: 'Trustee', phone: '(231) 922-6767', email: '' },
+      { name: 'Sandra Grant', title: 'Trustee', phone: '(231) 922-6767', email: '' }
+    ]
+  },
+  'Leelanau:Centerville': {
+    name: 'Centerville Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Ronald Schaub', title: 'Supervisor', phone: '(231) 256-7127', email: '' },
+      { name: 'Beth Chiles', title: 'Clerk', phone: '(231) 620-2130', email: '' },
+      { name: 'Katrina Pleva', title: 'Treasurer', phone: '(231) 835-1188', email: '' },
+      { name: 'Kerry O\'Non', title: 'Trustee', phone: '(231) 463-9484', email: '' },
+      { name: 'Jolyn Arens', title: 'Trustee', phone: '(231) 920-7911', email: '' }
+    ]
+  },
+  'Leelanau:Cleveland': {
+    name: 'Cleveland Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Timothy Stein', title: 'Supervisor', phone: '(231) 228-6984', email: '' },
+      { name: 'Tracy Olsen', title: 'Clerk', phone: '(231) 631-0219', email: '' },
+      { name: 'Angie Diotte', title: 'Treasurer', phone: '(231) 620-0200', email: '' },
+      { name: 'Todd Nowak', title: 'Trustee', phone: '(231) 645-0845', email: '' },
+      { name: 'Jan Nowak', title: 'Trustee', phone: '(231) 342-8700', email: '' }
+    ]
+  },
+  'Leelanau:Elmwood': {
+    name: 'Elmwood charter Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Jeff Shaw', title: 'Supervisor', phone: '(231) 946-0921', email: '' },
+      { name: 'Connie Preston', title: 'Clerk', phone: '(231) 946-0921', email: '' },
+      { name: 'Chris Mikowski', title: 'Treasurer', phone: '(231) 946-0921', email: '' },
+      { name: 'Terry Lautner', title: 'Trustee', phone: '(231) 946-0921', email: '' },
+      { name: 'David Darga', title: 'Trustee', phone: '(231) 946-0921', email: '' },
+      { name: 'Jordan Gallagher', title: 'Trustee', phone: '(231) 946-0921', email: '' },
+      { name: 'Donald Gallagher', title: 'Trustee', phone: '(231) 946-0921', email: '' }
+    ]
+  },
+  'Leelanau:Empire': {
+    name: 'Empire Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Kathy Wiejaczka', title: 'Supervisor', phone: '(231) 883-4418', email: '' },
+      { name: 'Maggie Bacon', title: 'Clerk', phone: '(231) 326-5349', email: '' },
+      { name: 'Robert Price', title: 'Treasurer', phone: '(231) 499-2008', email: '' },
+      { name: 'Elizabeth Wolterink', title: 'Trustee', phone: '(231) 326-5349', email: '' }
+    ]
+  },
+  'Leelanau:Glen Arbor': {
+    name: 'Glen Arbor Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Tom Laureto', title: 'Supervisor', phone: '(231) 334-3539', email: '' },
+      { name: 'Pam Laureto', title: 'Clerk', phone: '(231) 334-3539', email: '' },
+      { name: 'John DePuy', title: 'Trustee', phone: '(231) 649-3000', email: '' }
+    ]
+  },
+  'Leelanau:Kasson': {
+    name: 'Kasson Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Greg Julian', title: 'Supervisor', phone: '(231) 883-2560', email: '' },
+      { name: 'Dana Boomer', title: 'Clerk', phone: '(231) 590-9788', email: '' },
+      { name: 'Julia Carter', title: 'Treasurer', phone: '(231) 206-3258', email: '' },
+      { name: 'Roger Noonan', title: 'Trustee', phone: '(231) 228-5881', email: '' },
+      { name: 'Tad Carter', title: 'Trustee', phone: '(231) 883-1366', email: '' }
+    ]
+  },
+  'Leelanau:Leelanau': {
+    name: 'Leelanau Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Barbara Conley', title: 'Supervisor', phone: '(231) 386-5138', email: '' },
+      { name: 'Jessica Wilson', title: 'Clerk', phone: '(231) 386-5138', email: '' },
+      { name: 'Jolisa Ugalde', title: 'Treasurer', phone: '(231) 386-5138', email: '' },
+      { name: 'Silvia Gans', title: 'Trustee', phone: '(231) 386-5138', email: '' },
+      { name: 'Elizabeth Schwind', title: 'Trustee', phone: '(231) 386-5138', email: '' }
+    ]
+  },
+  'Leelanau:Solon': {
+    name: 'Solon Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Chris Comeaux', title: 'Supervisor', phone: '(231) 228-7578', email: '' },
+      { name: 'Shirley Mikowski', title: 'Clerk', phone: '(231) 228-7578', email: '' },
+      { name: 'Joan Gauthier', title: 'Treasurer', phone: '(231) 228-5810', email: '' },
+      { name: 'Kelly Claar', title: 'Trustee', phone: '(231) 228-7578', email: '' },
+      { name: 'Steve Morgan', title: 'Trustee', phone: '(231) 228-7578', email: '' }
+    ]
+  },
+  'Leelanau:Suttons Bay': {
+    name: 'Suttons Bay Township',
+    county: 'Leelanau',
+    officials: [
+      { name: 'Doug Periard', title: 'Supervisor', phone: '(231) 271-2722', email: '' },
+      { name: 'Jean Moe', title: 'Clerk', phone: '(231) 271-2722', email: '' },
+      { name: 'Dorothy Petroskey', title: 'Treasurer', phone: '(231) 271-2722', email: '' },
+      { name: 'Debbie Slocombe', title: 'Trustee', phone: '(231) 271-2722', email: '' },
+      { name: 'Eric Carlson', title: 'Trustee', phone: '(231) 271-2722', email: '' }
+    ]
+  },
+  'Lenawee:Adrian': {
+    name: 'Adrian Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Stephen May', title: 'Supervisor', phone: '(517) 263-7920', email: '' },
+      { name: 'Sarah Buku', title: 'Clerk', phone: '(517) 263-7920', email: '' },
+      { name: 'James Malarney', title: 'Treasurer', phone: '(517) 263-7920', email: '' },
+      { name: 'Michael Herr', title: 'Trustee', phone: '(517) 902-5282', email: '' },
+      { name: 'Benjamin Ruesink', title: 'Trustee', phone: '(517) 403-2848', email: '' },
+      { name: 'James Koehn', title: 'Trustee', phone: '(517) 403-3229', email: '' }
+    ]
+  },
+  'Lenawee:Blissfield': {
+    name: 'Blissfield Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Alan Dickerson', title: 'Supervisor', phone: '(517) 486-2626', email: '' },
+      { name: 'Diann Paul-Warner', title: 'Clerk', phone: '(517) 486-2626', email: '' },
+      { name: 'Tammy Wynn', title: 'Treasurer', phone: '(517) 486-2626', email: '' },
+      { name: 'Steven Wilson', title: 'Trustee', phone: '(517) 346-0960', email: '' },
+      { name: 'Nancy Cranor', title: 'Trustee', phone: '(517) 486-2626', email: '' }
+    ]
+  },
+  'Lenawee:Cambridge': {
+    name: 'Cambridge Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Tom Kissel', title: 'Supervisor', phone: '(313) 205-9099', email: '' },
+      { name: 'Rick Richardson', title: 'Clerk', phone: '(517) 467-2104', email: '' },
+      { name: 'Diane Higgins', title: 'Treasurer', phone: '(517) 467-2104', email: '' },
+      { name: 'Otis Garrison', title: 'Trustee', phone: '(517) 467-2104', email: '' },
+      { name: 'Dan Hubbard', title: 'Trustee', phone: '(517) 467-2104', email: '' }
+    ]
+  },
+  'Lenawee:Clinton': {
+    name: 'Clinton Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Walter Murphy', title: 'Supervisor', phone: '(517) 456-6701', email: '' },
+      { name: 'Kim Scott', title: 'Clerk', phone: '(517) 456-6701', email: '' },
+      { name: 'Leslie Kovalski', title: 'Treasurer', phone: '(517) 456-6701', email: '' },
+      { name: 'Brian Greenleaf', title: 'Trustee', phone: '(517) 456-6701', email: '' }
+    ]
+  },
+  'Lenawee:Deerfield': {
+    name: 'Deerfield Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Ronald Cousino', title: 'Supervisor', phone: '(517) 403-1265', email: '' },
+      { name: 'Melissa Burnor', title: 'Clerk', phone: '(517) 447-3000', email: '' },
+      { name: 'Pam Witt', title: 'Treasurer', phone: '(517) 447-3298', email: '' },
+      { name: 'Randy Dusseau', title: 'Trustee', phone: '(517) 447-3000', email: '' },
+      { name: 'Stephen Andrix', title: 'Trustee', phone: '(517) 447-3000', email: '' }
+    ]
+  },
+  'Lenawee:Dover': {
+    name: 'Dover Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Dan Borck', title: 'Supervisor', phone: '(517) 445-2770', email: '' },
+      { name: 'Amber Swander', title: 'Clerk', phone: '(517) 445-2444', email: '' },
+      { name: 'Donna Baker', title: 'Treasurer', phone: '(517) 266-2228', email: '' },
+      { name: 'Amanda Butz', title: 'Trustee', phone: '(517) 673-3211', email: '' },
+      { name: 'Mike Birdsell', title: 'Trustee', phone: '(517) 673-3211', email: '' }
+    ]
+  },
+  'Lenawee:Fairfield': {
+    name: 'Fairfield Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Chris McCallister', title: 'Supervisor', phone: '(517) 526-3851', email: '' },
+      { name: 'Debra Keller', title: 'Clerk', phone: '(517) 436-6400', email: '' },
+      { name: 'Kay Rutledge', title: 'Treasurer', phone: '(517) 436-6400', email: '' },
+      { name: 'Bonnie Zenk', title: 'Trustee', phone: '(517) 436-6400', email: '' },
+      { name: 'Paul Green', title: 'Trustee', phone: '(517) 436-6400', email: '' }
+    ]
+  },
+  'Lenawee:Franklin': {
+    name: 'Franklin Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Gordon Whelan', title: 'Supervisor', phone: '(517) 403-7473', email: '' },
+      { name: 'Susan Whitehead', title: 'Clerk', phone: '(517) 431-2848', email: '' },
+      { name: 'Heidi Ross', title: 'Treasurer', phone: '(517) 902-1212', email: '' },
+      { name: 'Mike Kelley', title: 'Trustee', phone: '(517) 206-5677', email: '' },
+      { name: 'Daniel VanValkenburg', title: 'Trustee', phone: '(517) 260-3068', email: '' }
+    ]
+  },
+  'Lenawee:Hudson': {
+    name: 'Hudson Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Matt Smith', title: 'Supervisor', phone: '(517) 448-8150', email: '' },
+      { name: 'Marcy Griffin', title: 'Clerk', phone: '(517) 270-4070', email: '' },
+      { name: 'Nathan Smith', title: 'Treasurer', phone: '(517) 448-3115', email: '' },
+      { name: 'Barry Anderson', title: 'Trustee', phone: '(517) 260-3282', email: '' },
+      { name: 'Doug Cook', title: 'Trustee', phone: '(517) 448-3115', email: '' }
+    ]
+  },
+  'Lenawee:Macon': {
+    name: 'Macon Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Dean Montrief', title: 'Supervisor', phone: '(517) 438-0882', email: '' },
+      { name: 'Julia Marshall', title: 'Clerk', phone: '(517) 451-8074', email: '' },
+      { name: 'Beth Dejonghe', title: 'Treasurer', phone: '(517) 451-8074', email: '' },
+      { name: 'Joe Rine', title: 'Trustee', phone: '(517) 202-1966', email: '' },
+      { name: 'Charles Downing', title: 'Trustee', phone: '(517) 451-8074', email: '' }
+    ]
+  },
+  'Lenawee:Madison': {
+    name: 'Madison charter Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Ryan Rank', title: 'Supervisor', phone: '(517) 263-9313', email: '' },
+      { name: 'Janet Moden', title: 'Clerk', phone: '(517) 263-9313', email: '' },
+      { name: 'Harold Gregg', title: 'Treasurer', phone: '(517) 263-9313', email: '' },
+      { name: 'Norman Schutte', title: 'Trustee', phone: '(517) 263-9313', email: '' },
+      { name: 'Howard Bales', title: 'Trustee', phone: '(517) 215-0811', email: '' },
+      { name: 'Ralph Benschoter', title: 'Trustee', phone: '(517) 263-9313', email: '' },
+      { name: 'Chad Rodgers', title: 'Trustee', phone: '(517) 264-0544', email: '' }
+    ]
+  },
+  'Lenawee:Medina': {
+    name: 'Medina Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Jason Root', title: 'Supervisor', phone: '(517) 286-6879', email: '' },
+      { name: 'Sylvia Damon', title: 'Clerk', phone: '(517) 902-4865', email: '' },
+      { name: 'Jennifer Blaker', title: 'Treasurer', phone: '(517) 605-1835', email: '' },
+      { name: 'Timothy Sword', title: 'Trustee', phone: '(517) 448-0965', email: '' },
+      { name: 'Dwight Mansfield', title: 'Trustee', phone: '(517) 403-1208', email: '' }
+    ]
+  },
+  'Lenawee:Ogden': {
+    name: 'Ogden Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Joshua Van Camp', title: 'Supervisor', phone: '(517) 443-5409', email: '' },
+      { name: 'Leandra Bryan', title: 'Clerk', phone: '(517) 443-5409', email: '' },
+      { name: 'Rick Dennison', title: 'Treasurer', phone: '(517) 443-5574', email: '' },
+      { name: 'Andrew Mills', title: 'Trustee', phone: '(517) 673-4350', email: '' },
+      { name: 'Brian Wilcox', title: 'Trustee', phone: '(517) 443-5409', email: '' }
+    ]
+  },
+  'Lenawee:Palmyra': {
+    name: 'Palmyra Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'David Pixley', title: 'Supervisor', phone: '(517) 605-1121', email: '' },
+      { name: 'Christine Whited', title: 'Clerk', phone: '(517) 260-8628', email: '' },
+      { name: 'Angela Koester', title: 'Treasurer', phone: '(517) 265-2169', email: '' },
+      { name: 'Stephen Papenhagen', title: 'Trustee', phone: '(517) 263-3746', email: '' },
+      { name: 'Mark Crane', title: 'Trustee', phone: '(734) 219-9157', email: '' }
+    ]
+  },
+  'Lenawee:Raisin': {
+    name: 'Raisin Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Debra Brousseau', title: 'Supervisor', phone: '(517) 423-3162', email: '' },
+      { name: 'Susan Bunch', title: 'Clerk', phone: '(517) 423-3162', email: '' },
+      { name: 'Dale Witt', title: 'Treasurer', phone: '(517) 423-3162', email: '' },
+      { name: 'Blaine McDonald', title: 'Trustee', phone: '(517) 423-3162', email: '' },
+      { name: 'Cheryl Witt', title: 'Trustee', phone: '(517) 260-2344', email: '' },
+      { name: 'Shelley Hunt', title: 'Trustee', phone: '(517) 423-3162', email: '' },
+      { name: 'Kelly Williams', title: 'Trustee', phone: '(517) 423-3162', email: '' }
+    ]
+  },
+  'Lenawee:Ridgeway': {
+    name: 'Ridgeway Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Robert Downing', title: 'Supervisor', phone: '(517) 451-8425', email: '' },
+      { name: 'Lora Feldkamp', title: 'Clerk', phone: '(517) 451-4111', email: '' },
+      { name: 'Deborah Marks', title: 'Treasurer', phone: '', email: '' },
+      { name: 'Daniel Prielipp', title: 'Trustee', phone: '(517) 451-8393', email: '' },
+      { name: 'Marc Brown', title: 'Trustee', phone: '(517) 423-5629', email: '' }
+    ]
+  },
+  'Lenawee:Riga': {
+    name: 'Riga Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Gary Kastel', title: 'Supervisor', phone: '(517) 486-2641', email: '' },
+      { name: 'Natalie Thompson', title: 'Clerk', phone: '(419) 260-6203', email: '' },
+      { name: 'Katy Gust', title: 'Treasurer', phone: '(517) 486-4260', email: '' },
+      { name: 'Brenda Delgado', title: 'Trustee', phone: '(517) 486-4260', email: '' },
+      { name: 'David LaMontaine', title: 'Trustee', phone: '(734) 731-1931', email: '' }
+    ]
+  },
+  'Lenawee:Rollin': {
+    name: 'Rollin Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Michael Clark', title: 'Supervisor', phone: '(517) 547-7786 ext. 121', email: '' },
+      { name: 'Irma David', title: 'Clerk', phone: '(517) 547-7786 ext. 120', email: '' },
+      { name: 'Marcia Willett', title: 'Treasurer', phone: '(517) 547-7786 ext. 122', email: '' },
+      { name: 'Denice Combs', title: 'Trustee', phone: '(507) 605-6171', email: '' },
+      { name: 'Olis Burch', title: 'Trustee', phone: '(517) 547-6255', email: '' }
+    ]
+  },
+  'Lenawee:Rome': {
+    name: 'Rome Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Bill Millner', title: 'Supervisor', phone: '(517) 605-5163', email: '' },
+      { name: 'Robin Robertson', title: 'Clerk', phone: '(517) 605-5163', email: '' },
+      { name: 'Roxanne Sweet', title: 'Treasurer', phone: '(517) 918-5967', email: '' },
+      { name: 'Jeremiah Ruttkofsky', title: 'Trustee', phone: '(517) 404-0277', email: '' }
+    ]
+  },
+  'Lenawee:Seneca': {
+    name: 'Seneca Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'John Gould', title: 'Supervisor', phone: '(517) 403-7196', email: '' },
+      { name: 'Allison Ott', title: 'Clerk', phone: '(517) 458-7801', email: '' },
+      { name: 'Anna Simpkins', title: 'Treasurer', phone: '(517) 436-3524', email: '' },
+      { name: 'Chris White', title: 'Trustee', phone: '(517) 458-2854', email: '' },
+      { name: 'David McCowan', title: 'Trustee', phone: '(517) 458-7801', email: '' }
+    ]
+  },
+  'Lenawee:Tecumseh': {
+    name: 'Tecumseh Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'Curtis Brown', title: 'Supervisor', phone: '(517) 423-1837', email: '' },
+      { name: 'Rita Roth', title: 'Clerk', phone: '(517) 423-1837', email: '' },
+      { name: 'Rick Bunch', title: 'Treasurer', phone: '(517) 424-7072', email: '' },
+      { name: 'Mike Feight', title: 'Trustee', phone: '(517) 423-7550', email: '' },
+      { name: 'Gerald Coulter', title: 'Trustee', phone: '(517) 423-2284', email: '' }
+    ]
+  },
+  'Lenawee:Woodstock': {
+    name: 'Woodstock Township',
+    county: 'Lenawee',
+    officials: [
+      { name: 'James Anderson', title: 'Supervisor', phone: '(517) 547-6598', email: '' },
+      { name: 'Ashley Wilson', title: 'Clerk', phone: '(517) 547-6598', email: '' },
+      { name: 'Heidi Perry', title: 'Treasurer', phone: '(517) 547-6598', email: '' },
+      { name: 'Jonie Wheaton', title: 'Trustee', phone: '(517) 547-6598', email: '' },
+      { name: 'James Hassett', title: 'Trustee', phone: '(517) 547-6598', email: '' }
+    ]
+  },
+  'Livingston:Brighton': {
+    name: 'Brighton Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Patrick Michel', title: 'Supervisor', phone: '(810) 229-0550', email: '' },
+      { name: 'Joseph Riker', title: 'Clerk', phone: '(810) 229-0550', email: '' },
+      { name: 'Rose Drouillard', title: 'Treasurer', phone: '(810) 229-0550', email: '' },
+      { name: 'Sam Theis', title: 'Trustee', phone: '(810) 229-0550', email: '' },
+      { name: 'Cathy Doughty', title: 'Trustee', phone: '(810) 229-0550', email: '' },
+      { name: 'Daniel Schifko', title: 'Trustee', phone: '(810) 229-0550', email: '' },
+      { name: 'Brian VanSingel', title: 'Trustee', phone: '(810) 229-0550', email: '' }
+    ]
+  },
+  'Livingston:Cohoctah': {
+    name: 'Cohoctah Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Mark Fosdick', title: 'Supervisor', phone: '(517) 294-1712', email: '' },
+      { name: 'Barb Fear', title: 'Clerk', phone: '(517) 546-0655', email: '' },
+      { name: 'Tamela Bock', title: 'Treasurer', phone: '(517) 546-2510', email: '' },
+      { name: 'Phil Charette', title: 'Trustee', phone: '(517) 546-0655', email: '' },
+      { name: 'Mark Torigian', title: 'Trustee', phone: '(517) 546-0655', email: '' }
+    ]
+  },
+  'Livingston:Conway': {
+    name: 'Conway Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Mike Brown', title: 'Supervisor', phone: '(517) 223-0358', email: '' },
+      { name: 'Tara Foote', title: 'Clerk', phone: '(517) 223-0358', email: '' },
+      { name: 'Debra Grubb', title: 'Treasurer', phone: '(517) 223-0358', email: '' },
+      { name: 'Sarah Porter', title: 'Trustee', phone: '(517) 223-0358', email: '' },
+      { name: 'George Pushies', title: 'Trustee', phone: '(517) 223-0358', email: '' }
+    ]
+  },
+  'Livingston:Deerfield': {
+    name: 'Deerfield Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Alfred Mattioli', title: 'Supervisor', phone: '(517) 546-8760', email: '' },
+      { name: 'Tony Risher', title: 'Clerk', phone: '(517) 546-8760', email: '' },
+      { name: 'Cheryl Petchell', title: 'Treasurer', phone: '(517) 546-8760', email: '' },
+      { name: 'Scott Bonteko', title: 'Trustee', phone: '(517) 546-8760', email: '' },
+      { name: 'Joseph Laier', title: 'Trustee', phone: '(517) 546-8760', email: '' }
+    ]
+  },
+  'Livingston:Genoa': {
+    name: 'Genoa Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Kevin Spicher', title: 'Supervisor', phone: '(810) 227-5225', email: '' },
+      { name: 'Rick Soucy', title: 'Clerk', phone: '(810) 227-5225', email: '' },
+      { name: 'Robin Hunt', title: 'Treasurer', phone: '(810) 227-5225', email: '' },
+      { name: 'Candie Hovarter', title: 'Trustee', phone: '(810) 227-5225', email: '' },
+      { name: 'Bill Reiber', title: 'Trustee', phone: '(810) 227-5225', email: '' },
+      { name: 'Todd Walker', title: 'Trustee', phone: '(810) 227-5225', email: '' },
+      { name: 'Jodie Valenti', title: 'Trustee', phone: '(810) 227-5225', email: '' }
+    ]
+  },
+  'Livingston:Green Oak': {
+    name: 'Green Oak Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Mark St. Charles', title: 'Supervisor', phone: '(810) 231-1333', email: '' },
+      { name: 'Tricia Wiggle-Bazzy', title: 'Treasurer', phone: '(810) 231-1333', email: '' },
+      { name: 'Tracey Edry', title: 'Trustee', phone: '(586) 524-8982', email: '' },
+      { name: 'James Tuthill', title: 'Trustee', phone: '(810) 231-1333', email: '' },
+      { name: 'Daniel Rainko', title: 'Trustee', phone: '(810) 231-1333', email: '' },
+      { name: 'Randall Brake', title: 'Trustee', phone: '(810) 231-1333', email: '' }
+    ]
+  },
+  'Livingston:Hamburg': {
+    name: 'Hamburg Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Jason Negri', title: 'Supervisor', phone: '(810) 231-1000', email: '' },
+      { name: 'Michael Dolan', title: 'Clerk', phone: '(810) 231-1000', email: '' },
+      { name: 'Jennifer Daniels', title: 'Treasurer', phone: '(810) 231-1000', email: '' },
+      { name: 'Charles Menzies', title: 'Trustee', phone: '(810) 231-2399', email: '' },
+      { name: 'Patricia Hughes', title: 'Trustee', phone: '(734) 878-6449', email: '' },
+      { name: 'Joanna Hardesty', title: 'Trustee', phone: '(810) 231-1000', email: '' },
+      { name: 'Nick Miller', title: 'Trustee', phone: '(810) 231-1000', email: '' }
+    ]
+  },
+  'Livingston:Handy': {
+    name: 'Handy Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Linda Hinton', title: 'Supervisor', phone: '(517) 223-3228', email: '' },
+      { name: 'Laura Eisele', title: 'Clerk', phone: '(517) 223-3228', email: '' },
+      { name: 'Connie Shear', title: 'Treasurer', phone: '(517) 223-3228', email: '' },
+      { name: 'Gordon Munsell', title: 'Trustee', phone: '(517) 294-1014', email: '' },
+      { name: 'Bradley Redinger', title: 'Trustee', phone: '(517) 223-3228', email: '' }
+    ]
+  },
+  'Livingston:Hartland': {
+    name: 'Hartland Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'William Fountain', title: 'Supervisor', phone: '(810) 632-7498', email: '' },
+      { name: 'Larry Ciofu', title: 'Clerk', phone: '(810) 632-7498', email: '' },
+      { name: 'Kathleen Horning', title: 'Treasurer', phone: '(810) 632-1030', email: '' },
+      { name: 'Matthew Germane', title: 'Trustee', phone: '(810) 632-7498', email: '' },
+      { name: 'Joseph Petrucci', title: 'Trustee', phone: '(810) 632-7498', email: '' },
+      { name: 'Summer McMullen', title: 'Trustee', phone: '(810) 632-7498', email: '' },
+      { name: 'Denise O\'Connell', title: 'Trustee', phone: '(810) 632-7498', email: '' }
+    ]
+  },
+  'Livingston:Howell': {
+    name: 'Howell Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Sue Daus', title: 'Clerk', phone: '(517) 546-2817', email: '' },
+      { name: 'Jonathan Hohenstein', title: 'Treasurer', phone: '(517) 546-2817', email: '' },
+      { name: 'Matthew Counts', title: 'Trustee', phone: '(517) 546-2817', email: '' },
+      { name: 'Bob Wilson', title: 'Trustee', phone: '(517) 546-2817', email: '' },
+      { name: 'Tim Boal', title: 'Trustee', phone: '(517) 546-2817', email: '' },
+      { name: 'Jodi Fulton', title: 'Trustee', phone: '(517) 546-2817', email: '' }
+    ]
+  },
+  'Livingston:Iosco': {
+    name: 'Iosco Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Joseph Parker', title: 'Supervisor', phone: '(248) 506-8434', email: '' },
+      { name: 'Julie Dailey', title: 'Clerk', phone: '(517) 223-9545', email: '' },
+      { name: 'Amanda Bonnville', title: 'Treasurer', phone: '(517) 223-9545 ext. 103', email: '' },
+      { name: 'Matt Miller', title: 'Trustee', phone: '(517) 223-9545', email: '' },
+      { name: 'Erin Harman', title: 'Trustee', phone: '(517) 223-9545', email: '' }
+    ]
+  },
+  'Livingston:Marion': {
+    name: 'Marion Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Bill Fenton', title: 'Supervisor', phone: '(517) 546-1588', email: '' },
+      { name: 'Tammy Beal', title: 'Clerk', phone: '(517) 546-1588', email: '' },
+      { name: 'Sandy Donovan', title: 'Treasurer', phone: '(517) 546-1588', email: '' },
+      { name: 'Dan Lowe', title: 'Trustee', phone: '(517) 546-1588', email: '' },
+      { name: 'Les Andersen', title: 'Trustee', phone: '(517) 546-1588', email: '' }
+    ]
+  },
+  'Livingston:Oceola': {
+    name: 'Oceola Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Sean Dunleavy', title: 'Supervisor', phone: '(517) 546-3259', email: '' },
+      { name: 'Jaime Clay', title: 'Clerk', phone: '(517) 546-3259', email: '' },
+      { name: 'Christine Andrews', title: 'Treasurer', phone: '(517) 546-3259', email: '' },
+      { name: 'Robert Henshaw', title: 'Trustee', phone: '(517) 546-1719', email: '' },
+      { name: 'Kieth Huff', title: 'Trustee', phone: '(517) 548-1177', email: '' },
+      { name: 'Terrance Philibeck', title: 'Trustee', phone: '(517) 546-3259', email: '' },
+      { name: 'Michael Yenshaw', title: 'Trustee', phone: '(517) 546-3259', email: '' }
+    ]
+  },
+  'Livingston:Putnam': {
+    name: 'Putnam Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Thomas Chambers', title: 'Supervisor', phone: '(734) 878-3131', email: '' },
+      { name: 'Valerie Niemiec', title: 'Clerk', phone: '(734) 878-3131', email: '' },
+      { name: 'Patrick Carney', title: 'Treasurer', phone: '(734) 878-3131', email: '' },
+      { name: 'Robert Press', title: 'Trustee', phone: '(734) 878-6563', email: '' },
+      { name: 'Sean Marhofer', title: 'Trustee', phone: '(734) 878-3131', email: '' },
+      { name: 'Jesse Marhofer', title: 'Trustee', phone: '(734) 878-3131', email: '' },
+      { name: 'Jim Jensen', title: 'Trustee', phone: '(734) 878-3131', email: '' }
+    ]
+  },
+  'Livingston:Tyrone': {
+    name: 'Tyrone Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Gregory Carnes', title: 'Supervisor', phone: '(810) 629-8631', email: '' },
+      { name: 'Pam Moughler', title: 'Clerk', phone: '(810) 629-8631', email: '' },
+      { name: 'Jennifer Eden', title: 'Treasurer', phone: '(810) 629-8631', email: '' },
+      { name: 'Herman Ferguson', title: 'Trustee', phone: '(810) 629-8631', email: '' },
+      { name: 'Christopher Ropeta', title: 'Trustee', phone: '(810) 629-8631', email: '' },
+      { name: 'Dean Haase', title: 'Trustee', phone: '(810) 629-8631', email: '' },
+      { name: 'Zachary Tucker', title: 'Trustee', phone: '(810) 629-8631', email: '' }
+    ]
+  },
+  'Livingston:Unadilla': {
+    name: 'Unadilla Township',
+    county: 'Livingston',
+    officials: [
+      { name: 'Linda Walker', title: 'Supervisor', phone: '(517) 223-8078', email: '' },
+      { name: 'Linda Topping', title: 'Clerk', phone: '(734) 498-2502', email: '' },
+      { name: 'Julie Weiland', title: 'Treasurer', phone: '(734) 498-2502', email: '' },
+      { name: 'Karen Houghtaling', title: 'Trustee', phone: '(734) 498-2502', email: '' },
+      { name: 'Susan Cox', title: 'Trustee', phone: '(734) 498-2502', email: '' }
+    ]
+  },
+  'Luce:Columbus': {
+    name: 'Columbus Township',
+    county: 'Luce',
+    officials: [
+      { name: 'Roger Auble', title: 'Supervisor', phone: '(906) 291-1951', email: '' },
+      { name: 'Jeff Anderson', title: 'Clerk', phone: '', email: '' },
+      { name: 'Emerson Smith', title: 'Trustee', phone: '(906) 293-3949', email: '' },
+      { name: 'Laura Generou', title: 'Trustee', phone: '(906) 322-9572', email: '' }
+    ]
+  },
+  'Luce:Lakefield': {
+    name: 'Lakefield Township',
+    county: 'Luce',
+    officials: [
+      { name: 'Thomas Dennis', title: 'Supervisor', phone: '(906) 586-6971', email: '' },
+      { name: 'Tammy Immel', title: 'Clerk', phone: '(906) 235-2108', email: '' },
+      { name: 'Denise Taylor', title: 'Treasurer', phone: '(906) 291-1189', email: '' },
+      { name: 'Nick Wheeler', title: 'Trustee', phone: '(906) 586-6971', email: '' },
+      { name: 'TJ Plesscher', title: 'Trustee', phone: '(906) 586-6971', email: '' }
+    ]
+  },
+  'Luce:McMillan': {
+    name: 'McMillan Township',
+    county: 'Luce',
+    officials: [
+      { name: 'Arthur Schultz', title: 'Supervisor', phone: '(906) 293-8798', email: '' },
+      { name: 'Marie McNamara', title: 'Clerk', phone: '(906) 293-8798', email: '' },
+      { name: 'Buzz Medelis', title: 'Treasurer', phone: '(906) 293-8798', email: '' },
+      { name: 'Ted Nutkins', title: 'Trustee', phone: '(906) 293-8077', email: '' },
+      { name: 'Matt Perry', title: 'Trustee', phone: '(906) 291-0761', email: '' }
+    ]
+  },
+  'Luce:Pentland': {
+    name: 'Pentland Township',
+    county: 'Luce',
+    officials: [
+      { name: 'Greg Rathje', title: 'Clerk', phone: '(906) 293-9434', email: '' },
+      { name: 'Jon Brown', title: 'Treasurer', phone: '(906) 293-8755', email: '' },
+      { name: 'Roxanna Transit', title: 'Trustee', phone: '(906) 293-8755', email: '' },
+      { name: 'Jeff Dunbar', title: 'Trustee', phone: '(906) 293-8755', email: '' }
+    ]
+  },
+  'Mackinac:Bois Blanc': {
+    name: 'Bois Blanc Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Diane Akright', title: 'Clerk', phone: '(231) 634-7275', email: '' },
+      { name: 'Megan Hawver', title: 'Treasurer', phone: '(231) 634-7275', email: '' },
+      { name: 'Tom Wybranowski', title: 'Trustee', phone: '(231) 634-7275', email: '' },
+      { name: 'Susan Winters', title: 'Trustee', phone: '(231) 634-7275', email: '' }
+    ]
+  },
+  'Mackinac:Brevort': {
+    name: 'Brevort Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Edward Serwach', title: 'Supervisor', phone: '(906) 643-9594', email: '' },
+      { name: 'Kaye Matelski', title: 'Clerk', phone: '(906) 298-1941', email: '' },
+      { name: 'Brian Olsen', title: 'Treasurer', phone: '(989) 464-1571', email: '' },
+      { name: 'William Orr', title: 'Trustee', phone: '(906) 430-5147', email: '' },
+      { name: 'Tabatha Orr', title: 'Trustee', phone: '(906) 430-1502', email: '' }
+    ]
+  },
+  'Mackinac:Clark': {
+    name: 'Clark Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Mark Clymer', title: 'Supervisor', phone: '(906) 484-2672', email: '' },
+      { name: 'Linda Sherlund', title: 'Clerk', phone: '(906) 484-2672', email: '' },
+      { name: 'Lisa Fitzgerald', title: 'Treasurer', phone: '(906) 484-2672', email: '' },
+      { name: 'Patrick Schuster', title: 'Trustee', phone: '(906) 484-2672', email: '' },
+      { name: 'Sandi Fisher', title: 'Trustee', phone: '(906) 484-2672', email: '' }
+    ]
+  },
+  'Mackinac:Garfield': {
+    name: 'Garfield Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Donald Butkovich', title: 'Supervisor', phone: '(906) 477-6481 ext. 4', email: '' },
+      { name: 'Paula Fillman', title: 'Clerk', phone: '(906) 477-6481 ext. 1', email: '' },
+      { name: 'Sue Butkovich', title: 'Treasurer', phone: '(906) 477-6481 ext. 2', email: '' },
+      { name: 'Matt Butkovich', title: 'Trustee', phone: '(906) 287-0650', email: '' },
+      { name: 'Elmer Albright', title: 'Trustee', phone: '(906) 748-1364', email: '' }
+    ]
+  },
+  'Mackinac:Hendricks': {
+    name: 'Hendricks Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Howard Hood', title: 'Supervisor', phone: '(906) 450-5312', email: '' },
+      { name: 'Belynda Lamb', title: 'Clerk', phone: '(906) 292-5545', email: '' },
+      { name: 'Cheryl Hood', title: 'Treasurer', phone: '(906) 430-3210', email: '' },
+      { name: 'Jeffery Dishaw', title: 'Trustee', phone: '(906) 292-5545', email: '' },
+      { name: 'Glenda Derusha', title: 'Trustee', phone: '(906) 292-5545', email: '' }
+    ]
+  },
+  'Mackinac:Hudson': {
+    name: 'Hudson Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Charles Carlson', title: 'Supervisor', phone: '(906) 595-7276', email: '' },
+      { name: 'Barbara Kerridge', title: 'Clerk', phone: '(906) 595-7276', email: '' },
+      { name: 'Jacqueline Prout', title: 'Treasurer', phone: '(906) 595-7322', email: '' },
+      { name: 'Gary Derusha', title: 'Trustee', phone: '(906) 440-5641', email: '' },
+      { name: 'Karen Kerridge', title: 'Trustee', phone: '(906) 595-7305', email: '' }
+    ]
+  },
+  'Mackinac:Marquette': {
+    name: 'Marquette Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Matthew Dost', title: 'Supervisor', phone: '(906) 430-4144', email: '' },
+      { name: 'Renae Leese', title: 'Clerk', phone: '(906) 440-5445', email: '' },
+      { name: 'Jodi Soeltner', title: 'Treasurer', phone: '(906) 440-6577', email: '' },
+      { name: 'Joanne Waybrant', title: 'Trustee', phone: '(906) 647-6103', email: '' },
+      { name: 'Jim Kronemeyer', title: 'Trustee', phone: '(906) 647-6103', email: '' }
+    ]
+  },
+  'Mackinac:Moran': {
+    name: 'Moran Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Susan Dionne', title: 'Supervisor', phone: '(906) 643-8027', email: '' },
+      { name: 'Kristine Vallier', title: 'Clerk', phone: '(906) 643-8027', email: '' },
+      { name: 'Eileen Sovey', title: 'Treasurer', phone: '(906) 643-6688', email: '' },
+      { name: 'Mark Spencer', title: 'Trustee', phone: '(906) 430-8804', email: '' },
+      { name: 'Steven Paquin', title: 'Trustee', phone: '(906) 643-8027', email: '' }
+    ]
+  },
+  'Mackinac:Newton': {
+    name: 'Newton Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Frederick Burton', title: 'Supervisor', phone: '(906) 630-6859', email: '' },
+      { name: 'Amy Zdebski', title: 'Clerk', phone: '(906) 361-2329', email: '' },
+      { name: 'Marilyn Strickland', title: 'Treasurer', phone: '(906) 477-6113', email: '' },
+      { name: 'Ronald O\'Neil', title: 'Trustee', phone: '(906) 430-8654', email: '' },
+      { name: 'Keith Keller', title: 'Trustee', phone: '(734) 478-8292', email: '' }
+    ]
+  },
+  'Mackinac:Portage': {
+    name: 'Portage Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Don Reed', title: 'Supervisor', phone: '(906) 287-0259', email: '' },
+      { name: 'Patricia MacLachlan', title: 'Clerk', phone: '(906) 586-9522', email: '' },
+      { name: 'Andrea McKeage', title: 'Treasurer', phone: '(906) 586-9522', email: '' },
+      { name: 'Patrick Abram', title: 'Trustee', phone: '(906) 586-6751', email: '' },
+      { name: 'Edgar Holbrook', title: 'Trustee', phone: '(906) 586-6440', email: '' }
+    ]
+  },
+  'Mackinac:St. Ignace': {
+    name: 'St. Ignace Township',
+    county: 'Mackinac',
+    officials: [
+      { name: 'Eric Danielson', title: 'Supervisor', phone: '(906) 298-0195', email: '' },
+      { name: 'Sheri Oja', title: 'Clerk', phone: '(906) 430-7476', email: '' },
+      { name: 'Jennifer Goudreau', title: 'Treasurer', phone: '(906) 984-2013', email: '' },
+      { name: 'Allen Mitchell', title: 'Trustee', phone: '(906) 440-1126', email: '' },
+      { name: 'Regina Frazier', title: 'Trustee', phone: '(906) 298-0500', email: '' }
+    ]
+  },
+  'Macomb:Armada': {
+    name: 'Armada Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Christopher Krotche', title: 'Supervisor', phone: '(586) 784-5200', email: '' },
+      { name: 'Mary Swiacki', title: 'Clerk', phone: '(586) 784-5200', email: '' },
+      { name: 'Monica Job', title: 'Treasurer', phone: '(586) 784-5200', email: '' },
+      { name: 'Jim Goetzinger', title: 'Trustee', phone: '(586) 784-5200', email: '' },
+      { name: 'Steve Nikkel', title: 'Trustee', phone: '(586) 784-5200', email: '' }
+    ]
+  },
+  'Macomb:Bruce': {
+    name: 'Bruce Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Mike Fillbrook', title: 'Supervisor', phone: '(586) 623-9495', email: '' },
+      { name: 'Susan Kraft', title: 'Clerk', phone: '(586) 291-6160', email: '' },
+      { name: 'Frank DiGiorgio', title: 'Treasurer', phone: '(586) 344-7977', email: '' },
+      { name: 'Dorothy Sochowicz', title: 'Trustee', phone: '(586) 752-4585 ext. 113', email: '' },
+      { name: 'David Vinson', title: 'Trustee', phone: '(586) 752-4585', email: '' }
+    ]
+  },
+  'Macomb:Chesterfield': {
+    name: 'Chesterfield Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Brad Kersten', title: 'Supervisor', phone: '(586) 949-0400', email: '' },
+      { name: 'Cindy Berry', title: 'Clerk', phone: '(586) 949-0400', email: '' },
+      { name: 'Kathy Elliott', title: 'Treasurer', phone: '(586) 949-0400', email: '' },
+      { name: 'David Joseph', title: 'Trustee', phone: '(586) 949-0400', email: '' },
+      { name: 'Henry Anderson', title: 'Trustee', phone: '(586) 949-0400', email: '' },
+      { name: 'Kathy Vosburg', title: 'Trustee', phone: '(586) 305-6457', email: '' },
+      { name: 'Pamela Hornberger', title: 'Trustee', phone: '(586) 949-0400', email: '' }
+    ]
+  },
+  'Macomb:Clinton': {
+    name: 'Clinton charter Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Paul Gieleghem', title: 'Supervisor', phone: '(586) 286-8000', email: '' },
+      { name: 'Kim Meltzer', title: 'Clerk', phone: '(586) 723-8051', email: '' },
+      { name: 'Mike Aiello', title: 'Treasurer', phone: '(586) 286-9313', email: '' },
+      { name: 'Julie Matuzak', title: 'Trustee', phone: '(586) 286-8000', email: '' },
+      { name: 'Dan Kress', title: 'Trustee', phone: '(586) 286-8000', email: '' },
+      { name: 'Bruce Wade', title: 'Trustee', phone: '(586) 286-9366', email: '' },
+      { name: 'Shannon King', title: 'Trustee', phone: '(586) 286-9366', email: '' }
+    ]
+  },
+  'Macomb:Harrison': {
+    name: 'Harrison charter Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Kenneth Verkest', title: 'Supervisor', phone: '(586) 466-1446', email: '' },
+      { name: 'Adam Wit', title: 'Clerk', phone: '(586) 466-1400', email: '' },
+      { name: 'Lawrence Tomenello', title: 'Treasurer', phone: '(586) 466-1400 ext. 1552', email: '' },
+      { name: 'Brian Batkins', title: 'Trustee', phone: '(586) 466-1400', email: '' },
+      { name: 'David Bratto', title: 'Trustee', phone: '(586) 466-1400', email: '' },
+      { name: 'Dean Olgiati', title: 'Trustee', phone: '(586) 466-1400', email: '' },
+      { name: 'Liza Brown', title: 'Trustee', phone: '(586) 466-1400', email: '' }
+    ]
+  },
+  'Macomb:Lenox': {
+    name: 'Lenox Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Anthony Reeder', title: 'Supervisor', phone: '(586) 727-2085 ext. 118', email: '' },
+      { name: 'Michelle Gurley', title: 'Clerk', phone: '(586) 727-2085', email: '' },
+      { name: 'Jennifer Sutherland', title: 'Treasurer', phone: '(586) 727-2085', email: '' },
+      { name: 'Joseph Rosseel', title: 'Trustee', phone: '(586) 727-2085', email: '' },
+      { name: 'Joseph Marino', title: 'Trustee', phone: '(586) 727-2085', email: '' }
+    ]
+  },
+  'Macomb:Macomb': {
+    name: 'Macomb Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Frank Viviano', title: 'Supervisor', phone: '(586) 992-0710', email: '' },
+      { name: 'Kristi Pozzi', title: 'Clerk', phone: '(586) 992-0710', email: '' },
+      { name: 'Leon Drolet', title: 'Treasurer', phone: '(586) 992-0710', email: '' },
+      { name: 'Charles Oliver', title: 'Trustee', phone: '(586) 992-0710', email: '' },
+      { name: 'Peter Lucido', title: 'Trustee', phone: '(586) 992-0710', email: '' },
+      { name: 'Ron Papa', title: 'Trustee', phone: '(586) 992-0710', email: '' },
+      { name: 'Frank Cusumano', title: 'Trustee', phone: '(586) 992-0710', email: '' }
+    ]
+  },
+  'Macomb:Ray': {
+    name: 'Ray Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Eric Crump', title: 'Supervisor', phone: '(586) 749-5171', email: '' },
+      { name: 'Lori Lascoe', title: 'Clerk', phone: '(586) 749-5171', email: '' },
+      { name: 'Betsy Bart', title: 'Treasurer', phone: '(586) 749-5171', email: '' },
+      { name: 'Betty Grader', title: 'Trustee', phone: '(586) 749-5171', email: '' },
+      { name: 'Joseph Jarzyna', title: 'Trustee', phone: '(586) 749-5171', email: '' }
+    ]
+  },
+  'Macomb:Richmond': {
+    name: 'Richmond Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Cynthia Greenia', title: 'Supervisor', phone: '(586) 727-2568', email: '' },
+      { name: 'Catherine LaFontaine', title: 'Clerk', phone: '(586) 727-8998', email: '' },
+      { name: 'Chris Brickel', title: 'Treasurer', phone: '(586) 727-8998', email: '' },
+      { name: 'Vern Kulman', title: 'Trustee', phone: '(586) 727-8998', email: '' },
+      { name: 'Charles Cryderman', title: 'Trustee', phone: '(586) 727-8998', email: '' }
+    ]
+  },
+  'Macomb:Washington': {
+    name: 'Washington charter Township',
+    county: 'Macomb',
+    officials: [
+      { name: 'Sebastian Previti', title: 'Supervisor', phone: '(586) 786-0010', email: '' },
+      { name: 'Audrey Brown', title: 'Clerk', phone: '(586) 786-0010', email: '' },
+      { name: 'Mike Nicley', title: 'Treasurer', phone: '(586) 677-4218', email: '' },
+      { name: 'Dennis Stevenson', title: 'Trustee', phone: '(586) 786-0010', email: '' },
+      { name: 'John Chaplin', title: 'Trustee', phone: '(586) 855-6450', email: '' },
+      { name: 'Charles Reinhold', title: 'Trustee', phone: '(586) 786-0010', email: '' },
+      { name: 'Michele Milam', title: 'Trustee', phone: '(586) 786-0010', email: '' }
+    ]
+  },
+  'Manistee:Arcadia': {
+    name: 'Arcadia Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Paul Brown', title: 'Supervisor', phone: '(231) 889-4463', email: '' },
+      { name: 'Tracy Catlin', title: 'Clerk', phone: '(231) 889-4463', email: '' },
+      { name: 'Brad Berkshire', title: 'Treasurer', phone: '(616) 644-6528', email: '' },
+      { name: 'Laurel Mason', title: 'Trustee', phone: '(616) 540-5255', email: '' },
+      { name: 'Michael Matteson', title: 'Trustee', phone: '(231) 889-4463', email: '' }
+    ]
+  },
+  'Manistee:Bear Lake': {
+    name: 'Bear Lake Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Jeff Harthun', title: 'Supervisor', phone: '(231) 864-3485', email: '' },
+      { name: 'Deanna Pattison', title: 'Clerk', phone: '(231) 864-3620 ext. 10', email: '' },
+      { name: 'Marsha Wood-Smith', title: 'Treasurer', phone: '(231) 864-3620', email: '' },
+      { name: 'Janette May', title: 'Trustee', phone: '(231) 864-3392', email: '' },
+      { name: 'William Ringel', title: 'Trustee', phone: '(231) 864-3620', email: '' }
+    ]
+  },
+  'Manistee:Brown': {
+    name: 'Brown Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Paul Adamski', title: 'Supervisor', phone: '(231) 510-7887', email: '' },
+      { name: 'Deborah Knutson', title: 'Clerk', phone: '(231) 510-4732', email: '' },
+      { name: 'Melissa Hughey', title: 'Treasurer', phone: '(231) 676-0431', email: '' },
+      { name: 'Timothy Joseph', title: 'Trustee', phone: '(231) 477-5381', email: '' },
+      { name: 'Paul Wondolowski', title: 'Trustee', phone: '(231) 233-6781', email: '' }
+    ]
+  },
+  'Manistee:Cleon': {
+    name: 'Cleon Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Joe Carpenter', title: 'Supervisor', phone: '(231) 378-2616', email: '' },
+      { name: 'Amy Herrst', title: 'Clerk', phone: '(231) 378-2616', email: '' },
+      { name: 'Linda Cudney', title: 'Treasurer', phone: '(231) 378-2616', email: '' },
+      { name: 'Abraham Canfield', title: 'Trustee', phone: '(231) 378-2616', email: '' },
+      { name: 'Todd Humphery', title: 'Trustee', phone: '(231) 378-2616', email: '' }
+    ]
+  },
+  'Manistee:Dickson': {
+    name: 'Dickson Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Sharon Buning', title: 'Supervisor', phone: '(231) 477-5885', email: '' },
+      { name: 'Carissa Smith', title: 'Clerk', phone: '(231) 477-5885', email: '' },
+      { name: 'Renee Asiala', title: 'Treasurer', phone: '(231) 477-5885', email: '' },
+      { name: 'Koreen MacNeil', title: 'Trustee', phone: '(231) 477-5885', email: '' },
+      { name: 'Tracy Wilks', title: 'Trustee', phone: '(231) 477-5885', email: '' }
+    ]
+  },
+  'Manistee:Filer': {
+    name: 'Filer charter Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Terry Walker', title: 'Supervisor', phone: '(231) 723-3138', email: '' },
+      { name: 'Shirley Ball', title: 'Clerk', phone: '(231) 723-7466', email: '' },
+      { name: 'Tom Stege', title: 'Treasurer', phone: '(231) 723-3138', email: '' },
+      { name: 'Dean Kruse', title: 'Trustee', phone: '(231) 723-9023', email: '' },
+      { name: 'Brian Krus', title: 'Trustee', phone: '(216) 571-9666', email: '' },
+      { name: 'Tom Chycinski', title: 'Trustee', phone: '(231) 723-3649', email: '' },
+      { name: 'Dale Kolanowski', title: 'Trustee', phone: '(231) 723-3138', email: '' }
+    ]
+  },
+  'Manistee:Manistee': {
+    name: 'Manistee Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'John Dontz', title: 'Supervisor', phone: '(231) 723-4686', email: '' },
+      { name: 'Dianne Taylor', title: 'Clerk', phone: '(231) 723-6507', email: '' },
+      { name: 'Connie Jankwietz', title: 'Treasurer', phone: '(231) 723-6507', email: '' },
+      { name: 'Guy Finout', title: 'Trustee', phone: '(231) 723-6507', email: '' },
+      { name: 'Gary Madden', title: 'Trustee', phone: '(231) 723-6507', email: '' }
+    ]
+  },
+  'Manistee:Maple Grove': {
+    name: 'Maple Grove Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'H. Wayne Beldo', title: 'Supervisor', phone: '(231) 362-3830', email: '' },
+      { name: 'Fran Beldo', title: 'Clerk', phone: '(231) 362-3825', email: '' },
+      { name: 'Karen Roy', title: 'Treasurer', phone: '(231) 362-3825', email: '' },
+      { name: 'Gary Bowling', title: 'Trustee', phone: '(231) 233-7286', email: '' },
+      { name: 'Joe Barnett', title: 'Trustee', phone: '(231) 362-3825', email: '' }
+    ]
+  },
+  'Manistee:Marilla': {
+    name: 'Marilla Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Allen O\'Shea', title: 'Supervisor', phone: '(231) 362-3555', email: '' },
+      { name: 'Misty Cudney', title: 'Clerk', phone: '(231) 715-9055', email: '' },
+      { name: 'Camie Bay', title: 'Treasurer', phone: '(231) 383-3380', email: '' },
+      { name: 'Bruce Bahr', title: 'Trustee', phone: '(231) 362-3639', email: '' },
+      { name: 'Steven Vegter', title: 'Trustee', phone: '(231) 362-3555', email: '' }
+    ]
+  },
+  'Manistee:Norman': {
+    name: 'Norman Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Richard Mobley', title: 'Supervisor', phone: '(231) 848-4564', email: '' },
+      { name: 'Starr Daniels', title: 'Clerk', phone: '(231) 848-4564', email: '' },
+      { name: 'Merrill Tighe', title: 'Treasurer', phone: '(231) 848-4564', email: '' },
+      { name: 'Jordan Skiera', title: 'Trustee', phone: '(231) 848-4564', email: '' },
+      { name: 'Jason Fraley', title: 'Trustee', phone: '(231) 848-4564', email: '' }
+    ]
+  },
+  'Manistee:Onekama': {
+    name: 'Onekama Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'David Meister', title: 'Supervisor', phone: '(231) 889-4003', email: '' },
+      { name: 'Jennifer Smeltzer', title: 'Clerk', phone: '(231) 889-3308', email: '' },
+      { name: 'Edward Bradford', title: 'Treasurer', phone: '(231) 889-3308', email: '' },
+      { name: 'Matt Kieffer', title: 'Trustee', phone: '(231) 889-3308', email: '' },
+      { name: 'Cyndy Wangbichler', title: 'Trustee', phone: '(231) 510-2890', email: '' }
+    ]
+  },
+  'Manistee:Pleasanton': {
+    name: 'Pleasanton Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Chelsea Harvey', title: 'Supervisor', phone: '(231) 864-2584', email: '' },
+      { name: 'Carol Merrill', title: 'Clerk', phone: '(231) 510-6119', email: '' },
+      { name: 'Judy Girven', title: 'Treasurer', phone: '(231) 864-3470', email: '' },
+      { name: 'Brenda Monk', title: 'Trustee', phone: '(231) 864-2584', email: '' },
+      { name: 'Linda Schweyer', title: 'Trustee', phone: '(231) 864-2584', email: '' }
+    ]
+  },
+  'Manistee:Springdale': {
+    name: 'Springdale Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Brian Moore', title: 'Supervisor', phone: '(231) 383-1405', email: '' },
+      { name: 'Penny Nelson', title: 'Clerk', phone: '(231) 378-2252', email: '' },
+      { name: 'Kimberly Jones', title: 'Treasurer', phone: '(231) 378-2252', email: '' },
+      { name: 'Judy Wheelock', title: 'Trustee', phone: '(231) 383-0549', email: '' },
+      { name: 'Nicholas Brown', title: 'Trustee', phone: '(231) 378-2252', email: '' }
+    ]
+  },
+  'Manistee:Stronach': {
+    name: 'Stronach Township',
+    county: 'Manistee',
+    officials: [
+      { name: 'Philip Vadeboncoeur', title: 'Supervisor', phone: '(231) 723-7648', email: '' },
+      { name: 'Lori Gerber', title: 'Clerk', phone: '(231) 510-0222', email: '' },
+      { name: 'Kari Zoscsak', title: 'Treasurer', phone: '(231) 723-7983', email: '' },
+      { name: 'Terry Lindeman', title: 'Trustee', phone: '(231) 723-7983', email: '' },
+      { name: 'Logan Skiera', title: 'Trustee', phone: '(231) 723-2983', email: '' }
+    ]
+  },
+  'Marquette:Champion': {
+    name: 'Champion Township',
     county: 'Marquette',
-    website: 'https://chocolay.gov',
     officials: [
-      { name: 'David Lynch', title: 'Supervisor', party: null },
-      { name: 'Max Engle', title: 'Clerk', party: null },
-      { name: 'Ben Zyburt', title: 'Treasurer', party: null },
-      { name: 'Linnea Wilson', title: 'Trustee', party: null },
-      { name: 'Don Rhein', title: 'Trustee', party: null },
-      { name: 'Jon LeGalley', title: 'Trustee', party: null },
-      { name: 'Mark Stonerock', title: 'Trustee', party: null },
-    ],
+      { name: 'Tanya Gatewood', title: 'Clerk', phone: '(906) 339-2920', email: '' },
+      { name: 'Lisa Derocha', title: 'Treasurer', phone: '(906) 371-0751', email: '' },
+      { name: 'Jim Belpedio', title: 'Trustee', phone: '(906) 371-2339', email: '' },
+      { name: 'Elizabeth Brotherton', title: 'Trustee', phone: '(906) 339-2920', email: '' }
+    ]
   },
-
-  'Ely Twp': {
+  'Marquette:Chocolay': {
+    name: 'Chocolay charter Township',
+    county: 'Marquette',
+    officials: [
+      { name: 'David Lynch', title: 'Supervisor', phone: '(906) 249-1448', email: '' },
+      { name: 'Max Engle', title: 'Clerk', phone: '(906) 249-1448 ext. 102', email: '' },
+      { name: 'Ben Zyburt', title: 'Treasurer', phone: '(906) 249-1448', email: '' },
+      { name: 'Donald Rhein', title: 'Trustee', phone: '(906) 249-1448', email: '' },
+      { name: 'Jon Le Galley', title: 'Trustee', phone: '(906) 249-1448', email: '' },
+      { name: 'Mark Stonerock', title: 'Trustee', phone: '(906) 249-1448', email: '' },
+      { name: 'Linnea Wilson', title: 'Trustee', phone: '(906) 249-1448', email: '' }
+    ]
+  },
+  'Marquette:Ely': {
     name: 'Ely Township',
     county: 'Marquette',
-    website: 'https://elytownship.com',
     officials: [
-      { name: 'Jeremy Laakso', title: 'Supervisor', party: null },
-      { name: 'Glenn Wing', title: 'Clerk', party: null },
-      { name: 'Dawn Schuhknecht', title: 'Treasurer', party: null },
-      { name: 'Andy Andrews', title: 'Trustee', party: null },
-      { name: 'Julie Hosang', title: 'Trustee', party: null },
-    ],
+      { name: 'Jeremy Laakso', title: 'Supervisor', phone: '(906) 204-5788', email: '' },
+      { name: 'Glenn Wing', title: 'Clerk', phone: '(906) 486-8539', email: '' },
+      { name: 'Dawn Schuhknecht', title: 'Treasurer', phone: '(906) 251-1577', email: '' },
+      { name: 'Andy Andrews', title: 'Trustee', phone: '(608) 434-4494', email: '' },
+      { name: 'Julie Hosang', title: 'Trustee', phone: '(906) 371-1252', email: '' }
+    ]
   },
-
-  'Ewing Twp': {
+  'Marquette:Ewing': {
     name: 'Ewing Township',
     county: 'Marquette',
     officials: [
-      { name: 'Cynthia Haas', title: 'Clerk', party: null },
-      { name: 'Jackie Albaugh', title: 'Treasurer', party: null },
-      { name: 'Frank Haas', title: 'Trustee', party: null },
-      { name: 'Ruth Lund', title: 'Trustee', party: null },
-    ],
+      { name: 'David Hall', title: 'Supervisor', phone: '(906) 356-6162', email: '' },
+      { name: 'Cynthia Haas', title: 'Clerk', phone: '(906) 359-4822', email: '' },
+      { name: 'Jackie Albaugh', title: 'Treasurer', phone: '(906) 356-6135', email: '' },
+      { name: 'Frank Haas', title: 'Trustee', phone: '(906) 359-4822', email: '' },
+      { name: 'Ruth Lund', title: 'Trustee', phone: '(906) 356-6135', email: '' }
+    ]
   },
-
-  'Forsyth Twp': {
+  'Marquette:Forsyth': {
     name: 'Forsyth Township',
     county: 'Marquette',
-    website: 'https://forsythtownship.org',
     officials: [
-      { name: 'Steven Kevern', title: 'Supervisor', party: null },
-      { name: 'Ronald Lauren', title: 'Clerk', party: null },
-      { name: 'Ross Underwood', title: 'Treasurer', party: null },
-      { name: 'Len Fowler', title: 'Trustee', party: null },
-      { name: 'Larry Hammond', title: 'Trustee', party: null },
-    ],
+      { name: 'Steven Kevern', title: 'Supervisor', phone: '(906) 346-9217', email: '' },
+      { name: 'Ronald Lauren', title: 'Clerk', phone: '(906) 346-9217', email: '' },
+      { name: 'Ross Underwood', title: 'Treasurer', phone: '(906) 346-9217', email: '' },
+      { name: 'Larry Hammond', title: 'Trustee', phone: '(906) 346-9217', email: '' },
+      { name: 'Len Fowler', title: 'Trustee', phone: '(906) 346-9217', email: '' }
+    ]
   },
-
-  'Humboldt Twp': {
+  'Marquette:Humboldt': {
     name: 'Humboldt Township',
     county: 'Marquette',
-    website: 'http://www.humboldt.town',
     officials: [
-      { name: 'Jeff Ogea', title: 'Supervisor', party: null },
-      { name: 'Sarah Etelamaki', title: 'Clerk', party: null },
-      { name: 'Betty Grund', title: 'Treasurer', party: null },
-      { name: 'Peter Koski', title: 'Trustee', party: null },
-      { name: 'Chris Grund', title: 'Trustee', party: null },
-    ],
+      { name: 'Jeffrey Ogea', title: 'Supervisor', phone: '(906) 339-2927', email: '' },
+      { name: 'Sarah Etelamaki', title: 'Clerk', phone: '(906) 339-2927', email: '' },
+      { name: 'Betty Grund', title: 'Treasurer', phone: '(906) 339-2927', email: '' },
+      { name: 'Peter Koski', title: 'Trustee', phone: '(906) 339-2927', email: '' },
+      { name: 'Christopher Grund', title: 'Trustee', phone: '(906) 339-2927', email: '' }
+    ]
   },
-
-  'Ishpeming Twp': {
+  'Marquette:Ishpeming': {
     name: 'Ishpeming Township',
     county: 'Marquette',
-    website: 'https://ishpemingtownship.com',
     officials: [
-      { name: 'James Nankervis', title: 'Supervisor', party: null },
-      { name: 'Nicole Hyry', title: 'Clerk', party: null },
-      { name: 'Kristin Thornton', title: 'Treasurer', party: null },
-      { name: 'Curt Sjoholm', title: 'Trustee', party: null },
-      { name: 'Dave Bosio', title: 'Trustee', party: null },
-    ],
+      { name: 'James Nankervis', title: 'Supervisor', phone: '(906) 485-1303', email: '' },
+      { name: 'Nicole Hyry', title: 'Clerk', phone: '(906) 485-5411', email: '' },
+      { name: 'Kristin Thornton', title: 'Treasurer', phone: '(906) 485-5411', email: '' },
+      { name: 'Curtis Sjoholm', title: 'Trustee', phone: '(906) 485-5411', email: '' },
+      { name: 'David Bosio', title: 'Trustee', phone: '(906) 362-3598', email: '' }
+    ]
   },
-
-  'Marquette Charter Twp': {
-    name: 'Marquette Charter Township',
+  'Marquette:Marquette': {
+    name: 'Marquette charter Township',
     county: 'Marquette',
-    website: 'https://www.marquettetownship.org',
     officials: [
-      { name: 'Lyn Durant', title: 'Supervisor', party: null },
-      { name: 'Randy Ritari', title: 'Clerk', party: null },
-      { name: 'Andrew Rickauer', title: 'Treasurer', party: null },
-      { name: 'Linda Winslow', title: 'Trustee', party: 'Democratic' },
-      { name: 'Dan Everson', title: 'Trustee', party: 'Republican' },
-      { name: 'Karl Kytta', title: 'Trustee', party: 'Republican' },
-      { name: 'John Markes', title: 'Trustee', party: null },
-    ],
+      { name: 'Lyn Durant', title: 'Supervisor', phone: '(906) 228-6220', email: '' },
+      { name: 'Randy Ritari', title: 'Clerk', phone: '(906) 228-6220', email: '' },
+      { name: 'Andrew Rickauer', title: 'Treasurer', phone: '(906) 228-6220', email: '' },
+      { name: 'Dan Everson', title: 'Trustee', phone: '(906) 228-6220', email: '' },
+      { name: 'Linda Winslow', title: 'Trustee', phone: '(906) 228-6220', email: '' },
+      { name: 'Karl Kytta', title: 'Trustee', phone: '(906) 362-3789', email: '' },
+      { name: 'John Lehtinen', title: 'Trustee', phone: '(906) 228-6220', email: '' }
+    ]
   },
-
-  'Michigamme Twp': {
+  'Marquette:Michigamme': {
     name: 'Michigamme Township',
     county: 'Marquette',
-    website: 'https://michigammetownship.com',
     officials: [
-      { name: 'Julia M.A. Leake', title: 'Supervisor', party: null },
-      { name: 'Tami Hillis', title: 'Clerk', party: null },
-      { name: 'Marsha McBride', title: 'Treasurer', party: null },
-      { name: 'Trudy Seppanen', title: 'Trustee', party: null },
-      { name: 'John Gregg', title: 'Trustee', party: null },
-    ],
+      { name: 'Julia Leake', title: 'Supervisor', phone: '(906) 235-0935', email: '' },
+      { name: 'Kathi Hanson', title: 'Clerk', phone: '(906) 323-6608', email: '' },
+      { name: 'Marsha McBride', title: 'Treasurer', phone: '(906) 869-6635', email: '' },
+      { name: 'Trudy Seppanen', title: 'Trustee', phone: '(906) 323-6608', email: '' },
+      { name: 'John Gregg', title: 'Trustee', phone: '(906) 323-6608', email: '' }
+    ]
   },
-
-  'Negaunee Twp': {
+  'Marquette:Negaunee': {
     name: 'Negaunee Township',
     county: 'Marquette',
-    website: 'https://www.negauneetownship.org',
     officials: [
-      { name: 'Gary Lee Wommer', title: 'Supervisor', party: null },
-      { name: 'Rachel Sertich', title: 'Clerk', party: null },
-      { name: 'Kathleen Carlson', title: 'Treasurer', party: null },
-      { name: 'Thyra Karlstrom', title: 'Trustee', party: null },
-      { name: 'Patrick Moyle', title: 'Trustee', party: null },
-    ],
+      { name: 'Gary Wommer', title: 'Supervisor', phone: '(906) 475-7869', email: '' },
+      { name: 'Rachel Sertich', title: 'Clerk', phone: '(906) 475-7869', email: '' },
+      { name: 'Kathleen Carlson', title: 'Treasurer', phone: '(906) 475-7869', email: '' },
+      { name: 'Patrick Moyle', title: 'Trustee', phone: '(906) 475-7869', email: '' }
+    ]
   },
-
-  'Powell Twp': {
+  'Marquette:Powell': {
     name: 'Powell Township',
     county: 'Marquette',
-    website: 'https://powelltownship.org',
     officials: [
-      { name: 'Levi Ellis', title: 'Supervisor', party: null },
-      { name: 'Daryl Wilcox', title: 'Treasurer', party: null },
-    ],
+      { name: 'Levi Ellis', title: 'Supervisor', phone: '(906) 345-9345 ext. 14', email: '' },
+      { name: 'Sharon Mattis', title: 'Clerk', phone: '(906) 345-9345', email: '' },
+      { name: 'Daryl Wilcox', title: 'Treasurer', phone: '(906) 345-9345', email: '' },
+      { name: 'Denise Hudson', title: 'Trustee', phone: '(906) 251-1930', email: '' },
+      { name: 'Steve Girard', title: 'Trustee', phone: '(906) 345-9345', email: '' }
+    ]
   },
-
-  'Republic Twp': {
+  'Marquette:Republic': {
     name: 'Republic Township',
     county: 'Marquette',
-    website: 'https://republicmichigan.com',
     officials: [
-      { name: 'John Dulek', title: 'Supervisor', party: null },
-      { name: 'Anna Griepentrog', title: 'Clerk', party: null },
-      { name: 'Kristina Koski', title: 'Treasurer', party: null },
-      { name: 'Duane Saari', title: 'Trustee', party: null },
-    ],
+      { name: 'John Dulek', title: 'Supervisor', phone: '(906) 376-8827', email: '' },
+      { name: 'Anna Griepentrog', title: 'Clerk', phone: '(906) 376-8827', email: '' },
+      { name: 'Kristina Koski', title: 'Treasurer', phone: '(906) 376-8827', email: '' },
+      { name: 'Irene Dishno', title: 'Trustee', phone: '(906) 376-8827', email: '' },
+      { name: 'Duane Saari', title: 'Trustee', phone: '(906) 376-8827', email: '' }
+    ]
   },
-
-  'Richmond Twp': {
+  'Marquette:Richmond': {
     name: 'Richmond Township',
     county: 'Marquette',
-    website: 'https://www.richmondtwp.org',
     officials: [
-      { name: 'Cindi Greenia', title: 'Supervisor', party: null },
-      { name: 'Catherine LaFontaine', title: 'Clerk', party: null },
-      { name: 'Chris Brickel', title: 'Treasurer', party: null },
-      { name: 'Vern Kulman', title: 'Trustee', party: null },
-      { name: 'Charles Cryderman', title: 'Trustee', party: null },
-    ],
+      { name: 'Michael Knight', title: 'Supervisor', phone: '(906) 458-8960', email: '' },
+      { name: 'Ethel Sundberg', title: 'Clerk', phone: '(906) 475-6937', email: '' },
+      { name: 'Mary Shivley', title: 'Treasurer', phone: '(906) 235-4418', email: '' },
+      { name: 'James Korpi', title: 'Trustee', phone: '(906) 475-4269', email: '' },
+      { name: 'Susan Hewitt', title: 'Trustee', phone: '(906) 250-0157', email: '' }
+    ]
   },
-
-  'Sands Twp': {
+  'Marquette:Sands': {
     name: 'Sands Township',
     county: 'Marquette',
-    website: 'https://www.sandstownship.org',
     officials: [
-      { name: 'Darlene Walch', title: 'Supervisor', party: null },
-      { name: 'Carolyn Kerkela', title: 'Clerk', party: null },
-      { name: 'Kent Koehn', title: 'Treasurer', party: null },
-      { name: 'Justin Yelle', title: 'Trustee', party: null },
-      { name: 'David Kallio', title: 'Trustee', party: null },
-    ],
+      { name: 'Darlene Walch', title: 'Supervisor', phone: '(906) 249-9169', email: '' },
+      { name: 'Carolyn Kerkela', title: 'Clerk', phone: '(906) 249-9169', email: '' },
+      { name: 'Lee Yelle', title: 'Treasurer', phone: '', email: '' },
+      { name: 'David Kallio', title: 'Trustee', phone: '(906) 249-3418', email: '' },
+      { name: 'Justin Yelle', title: 'Trustee', phone: '(906) 249-9169', email: '' }
+    ]
   },
-
-  'Skandia Twp': {
+  'Marquette:Skandia': {
     name: 'Skandia Township',
     county: 'Marquette',
-    website: 'https://www.skandiatownship.org',
     officials: [
-      { name: 'Anna Erickson', title: 'Supervisor', party: null },
-      { name: 'Marilyn Keto', title: 'Clerk', party: null },
-      { name: 'Judy McGuire', title: 'Treasurer', party: null },
-      { name: 'Brandon Bray', title: 'Trustee', party: null },
-      { name: 'Larry Linna', title: 'Trustee', party: null },
-    ],
+      { name: 'Anna Erickson', title: 'Supervisor', phone: '(906) 942-7404', email: '' },
+      { name: 'Marilyn Keto', title: 'Clerk', phone: '(906) 942-7404', email: '' },
+      { name: 'Judy McGuire', title: 'Treasurer', phone: '(906) 942-7404', email: '' },
+      { name: 'Brandon Bray', title: 'Trustee', phone: '', email: '' },
+      { name: 'Larry Linna', title: 'Trustee', phone: '(906) 942-7404', email: '' }
+    ]
   },
-
-  'Tilden Twp': {
+  'Marquette:Tilden': {
     name: 'Tilden Township',
     county: 'Marquette',
-    website: 'https://tildentwp.org',
     officials: [
-      { name: 'Fred Van Luven', title: 'Supervisor', party: null },
-      { name: 'Deborah Pellow', title: 'Clerk', party: null },
-      { name: 'Julie Filbrandt', title: 'Treasurer', party: null },
-      { name: 'Craig Marietti', title: 'Trustee', party: null },
-      { name: 'Gary Thibeault', title: 'Trustee', party: null },
-    ],
+      { name: 'Deborah Pellow', title: 'Clerk', phone: '(906) 869-5333', email: '' },
+      { name: 'Julie Filbrandt', title: 'Treasurer', phone: '(906) 486-6580', email: '' },
+      { name: 'Craig Marietti', title: 'Trustee', phone: '(906) 869-0330', email: '' },
+      { name: 'Gary Thibeault', title: 'Trustee', phone: '(906) 486-6580', email: '' }
+    ]
   },
-
-  'Turin Twp': {
+  'Marquette:Turin': {
     name: 'Turin Township',
     county: 'Marquette',
     officials: [
-      { name: 'Gary Brunngraeber', title: 'Supervisor', party: null },
-      { name: 'Priscilla Brunngraeber', title: 'Clerk', party: null },
-      { name: 'Jackie Kayser', title: 'Treasurer', party: null },
-      { name: 'Lori Ledgerwood', title: 'Trustee', party: null },
-      { name: 'Becky Roberts', title: 'Trustee', party: null },
-    ],
+      { name: 'Gary Brunngraeber', title: 'Supervisor', phone: '(906) 356-6872', email: '' },
+      { name: 'Priscilla Brunngraeber', title: 'Clerk', phone: '(906) 356-6872', email: '' },
+      { name: 'Jacklyn Kayser', title: 'Treasurer', phone: '(906) 356-6000', email: '' },
+      { name: 'Lori Ledgerwood', title: 'Trustee', phone: '(906) 458-4105', email: '' },
+      { name: 'Becky Roberts', title: 'Trustee', phone: '(906) 236-1224', email: '' }
+    ]
   },
-
-  'Wells Twp (Marquette)': {
+  'Marquette:Wells': {
     name: 'Wells Township',
     county: 'Marquette',
-    website: 'https://www.wellstownshipmarquettecounty.com',
     officials: [
-      { name: 'Robert Therrian', title: 'Supervisor', party: null },
-      { name: 'Patti Manninen', title: 'Clerk', party: null },
-      { name: 'Dawn Austin', title: 'Treasurer', party: null },
-      { name: 'Josh Hardy', title: 'Trustee', party: null },
-      { name: 'Steve Mileski', title: 'Trustee', party: null },
-    ],
+      { name: 'Robert Therrian', title: 'Supervisor', phone: '(906) 238-4355', email: '' },
+      { name: 'Patti Manninen', title: 'Clerk', phone: '(906) 238-4312', email: '' },
+      { name: 'Waletta Austin', title: 'Treasurer', phone: '(906) 448-9030', email: '' },
+      { name: 'Steve Mileski', title: 'Trustee', phone: '(906) 238-4349', email: '' }
+    ]
   },
-}
+  'Marquette:West Branch': {
+    name: 'West Branch Township',
+    county: 'Marquette',
+    officials: [
+      { name: 'Kris Shaw', title: 'Supervisor', phone: '(906) 942-7400', email: '' },
+      { name: 'Jane Taylor', title: 'Clerk', phone: '(906) 942-7400', email: '' },
+      { name: 'Catherine Shaw', title: 'Treasurer', phone: '(906) 942-7400', email: '' },
+      { name: 'Laurie Beauchamp', title: 'Trustee', phone: '(906) 942-7400', email: '' },
+      { name: 'Lisa Johnson', title: 'Trustee', phone: '(906) 942-7400', email: '' }
+    ]
+  },
+  'Mason:Amber': {
+    name: 'Amber Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Thomas Alway', title: 'Supervisor', phone: '(231) 845-0022', email: '' },
+      { name: 'Theresa Rohde', title: 'Clerk', phone: '(231) 613-5533', email: '' },
+      { name: 'Jeanne Miller', title: 'Treasurer', phone: '(231) 936-1004', email: '' },
+      { name: 'Rita Copenhaver', title: 'Trustee', phone: '', email: '' },
+      { name: 'Noah VanDusen', title: 'Trustee', phone: '(231) 936-1004', email: '' }
+    ]
+  },
+  'Mason:Eden': {
+    name: 'Eden Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Roger Nash', title: 'Supervisor', phone: '(231) 757-2862', email: '' },
+      { name: 'JoAnn Pugh', title: 'Clerk', phone: '(231) 233-6867', email: '' },
+      { name: 'Trudy McCumber', title: 'Treasurer', phone: '(231) 690-2004', email: '' },
+      { name: 'Joe Stickney', title: 'Trustee', phone: '(231) 690-4518', email: '' },
+      { name: 'Brenda Carr', title: 'Trustee', phone: '(231) 757-2102', email: '' }
+    ]
+  },
+  'Mason:Free Soil': {
+    name: 'Free Soil Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Gregg Surma', title: 'Supervisor', phone: '(231) 464-5454', email: '' },
+      { name: 'Lynda Papes', title: 'Clerk', phone: '(231) 690-0226', email: '' },
+      { name: 'Lisa Stankowski', title: 'Treasurer', phone: '(231) 464-7420', email: '' },
+      { name: 'Philip Gajeski', title: 'Trustee', phone: '(231) 464-7141', email: '' },
+      { name: 'Joseph Meyers', title: 'Trustee', phone: '(231) 690-0226', email: '' }
+    ]
+  },
+  'Mason:Grant': {
+    name: 'Grant Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Robert Rakowski', title: 'Supervisor', phone: '(231) 464-5607', email: '' },
+      { name: 'Mary Jo Janowiak', title: 'Clerk', phone: '(231) 464-5473', email: '' },
+      { name: 'Kristen Brandt', title: 'Treasurer', phone: '(231) 299-4939', email: '' },
+      { name: 'Allen Bufka', title: 'Trustee', phone: '(231) 723-7753', email: '' },
+      { name: 'Brenda Kelly', title: 'Trustee', phone: '(231) 723-6972', email: '' }
+    ]
+  },
+  'Mason:Hamlin': {
+    name: 'Hamlin Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Marta Greenslait', title: 'Supervisor', phone: '(231) 794-9272', email: '' },
+      { name: 'Sheila Genter', title: 'Clerk', phone: '(231) 398-8688', email: '' },
+      { name: 'Susan Ptaszenski', title: 'Treasurer', phone: '(231) 510-0062', email: '' },
+      { name: 'Johnaine Gurzynski', title: 'Trustee', phone: '(231) 907-7030', email: '' },
+      { name: 'Chris Cook', title: 'Trustee', phone: '(231) 425-7786', email: '' }
+    ]
+  },
+  'Mason:Logan': {
+    name: 'Logan Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Bruce Burke', title: 'Supervisor', phone: '(231) 898-2201', email: '' },
+      { name: 'John Kampfschulte', title: 'Clerk', phone: '(231) 898-3968', email: '' },
+      { name: 'Tammy Bromley', title: 'Treasurer', phone: '(231) 898-4012', email: '' },
+      { name: 'Robert Burke', title: 'Trustee', phone: '(231) 898-2209', email: '' },
+      { name: 'Dan Stewart', title: 'Trustee', phone: '(231) 898-4479', email: '' }
+    ]
+  },
+  'Mason:Meade': {
+    name: 'Meade Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Harmon Schonfeld', title: 'Supervisor', phone: '(517) 990-2248', email: '' },
+      { name: 'Kirstin Vandevoorde', title: 'Clerk', phone: '(231) 233-7785', email: '' },
+      { name: 'Janice San Miguel', title: 'Treasurer', phone: '(262) 442-5391', email: '' },
+      { name: 'Jim Metzger', title: 'Trustee', phone: '(231) 464-5813', email: '' },
+      { name: 'William Thomas', title: 'Trustee', phone: '(231) 464-5813', email: '' }
+    ]
+  },
+  'Mason:Pere Marquette': {
+    name: 'Pere Marquette charter Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Kelly Smith', title: 'Supervisor', phone: '(231) 845-1277', email: '' },
+      { name: 'Rachelle Enbody', title: 'Clerk', phone: '(231) 845-1277', email: '' },
+      { name: 'Sarah Iteen', title: 'Treasurer', phone: '(231) 845-1277', email: '' },
+      { name: 'Andrew Kmetz', title: 'Trustee', phone: '(231) 843-8164', email: '' },
+      { name: 'James Nordlund', title: 'Trustee', phone: '(231) 843-3161', email: '' },
+      { name: 'Henry Rasmussen', title: 'Trustee', phone: '(231) 845-1277', email: '' },
+      { name: 'Megan Tresnak', title: 'Trustee', phone: '(231) 845-1277', email: '' }
+    ]
+  },
+  'Mason:Riverton': {
+    name: 'Riverton Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Gary Dittmer', title: 'Supervisor', phone: '(231) 845-6536', email: '' },
+      { name: 'Cindy Gerbers', title: 'Clerk', phone: '(231) 425-7518', email: '' },
+      { name: 'Kristi Griffis', title: 'Treasurer', phone: '(231) 742-1761', email: '' },
+      { name: 'Greg Thurow', title: 'Trustee', phone: '(231) 425-7469', email: '' },
+      { name: 'Todd VanNortwick', title: 'Trustee', phone: '(231) 578-6771', email: '' }
+    ]
+  },
+  'Mason:Sheridan': {
+    name: 'Sheridan Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Kelly Crocker', title: 'Supervisor', phone: '(616) 402-8836', email: '' },
+      { name: 'Marlynn Gulembo', title: 'Clerk', phone: '(231) 462-3565', email: '' },
+      { name: 'Jennie Borema', title: 'Treasurer', phone: '(231) 277-8062', email: '' },
+      { name: 'Richard Rouwhorst', title: 'Trustee', phone: '(616) 836-7608', email: '' },
+      { name: 'Jennifer Tyndall', title: 'Trustee', phone: '(231) 690-7386', email: '' }
+    ]
+  },
+  'Mason:Sherman': {
+    name: 'Sherman Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Joseph Mickevich', title: 'Supervisor', phone: '(231) 462-3618', email: '' },
+      { name: 'Kurt Lubben', title: 'Clerk', phone: '(231) 462-3205', email: '' },
+      { name: 'Amanda Stakenas', title: 'Treasurer', phone: '(231) 462-3618', email: '' },
+      { name: 'William Stakenas', title: 'Trustee', phone: '(231) 462-3618', email: '' },
+      { name: 'Chelsea Miszewski', title: 'Trustee', phone: '(231) 462-3618', email: '' }
+    ]
+  },
+  'Mason:Summit': {
+    name: 'Summit Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Wayne Kelly', title: 'Supervisor', phone: '(231) 233-6254', email: '' },
+      { name: 'Kay Deanda', title: 'Clerk', phone: '(231) 843-0430', email: '' },
+      { name: 'Mary Bedker', title: 'Treasurer', phone: '(231) 845-0023', email: '' },
+      { name: 'Ed Chase', title: 'Trustee', phone: '(231) 233-9017', email: '' },
+      { name: 'Todd Jorissen', title: 'Trustee', phone: '(231) 843-0430', email: '' }
+    ]
+  },
+  'Mason:Victory': {
+    name: 'Victory Township',
+    county: 'Mason',
+    officials: [
+      { name: 'Robert Kesling', title: 'Supervisor', phone: '(231) 907-7092', email: '' },
+      { name: 'Sarah Grabowski', title: 'Clerk', phone: '(231) 907-7092', email: '' },
+      { name: 'Patti Geers', title: 'Treasurer', phone: '(231) 845-5298', email: '' },
+      { name: 'Jerome Papes', title: 'Trustee', phone: '(231) 845-5480', email: '' },
+      { name: 'Wayne Andersen', title: 'Trustee', phone: '(231) 843-4618', email: '' }
+    ]
+  },
+  'Mecosta:Aetna': {
+    name: 'Aetna Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Bruce Carey', title: 'Supervisor', phone: '(231) 856-4586', email: '' },
+      { name: 'Beverly McLaughlin', title: 'Clerk', phone: '(231) 856-4480', email: '' },
+      { name: 'Amy Hillis-Ouellette', title: 'Treasurer', phone: '(231) 856-4480', email: '' },
+      { name: 'Barbie Cornell', title: 'Trustee', phone: '(231) 856-7042', email: '' },
+      { name: 'Larry Platt', title: 'Trustee', phone: '(231) 856-4480', email: '' }
+    ]
+  },
+  'Mecosta:Austin': {
+    name: 'Austin Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Billie Barnes', title: 'Clerk', phone: '(231) 823-9704', email: '' },
+      { name: 'Laurie Brockway', title: 'Treasurer', phone: '(231) 823-9704', email: '' },
+      { name: 'John Brockway', title: 'Trustee', phone: '(231) 823-2460', email: '' },
+      { name: 'Charles Sheldon', title: 'Trustee', phone: '(231) 823-9704', email: '' }
+    ]
+  },
+  'Mecosta:Big Rapids': {
+    name: 'Big Rapids charter Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Bruce Borkovich', title: 'Supervisor', phone: '(231) 796-3603', email: '' },
+      { name: 'Hannah Saez', title: 'Clerk', phone: '(231) 796-3603', email: '' },
+      { name: 'Dena Marek', title: 'Treasurer', phone: '(231) 796-3603', email: '' },
+      { name: 'Jerald Everett', title: 'Trustee', phone: '(231) 796-3603', email: '' },
+      { name: 'Christopher Teceno', title: 'Trustee', phone: '(231) 796-3603', email: '' },
+      { name: 'Joseph Bechaz', title: 'Trustee', phone: '(231) 796-3603', email: '' },
+      { name: 'Ron Welch', title: 'Trustee', phone: '(231) 796-3603', email: '' }
+    ]
+  },
+  'Mecosta:Chippewa': {
+    name: 'Chippewa Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Shirley Hazen', title: 'Supervisor', phone: '(231) 867-3777', email: '' },
+      { name: 'Kristin Lytle', title: 'Clerk', phone: '(231) 867-3777', email: '' },
+      { name: 'Julie Austin', title: 'Treasurer', phone: '(231) 867-3777', email: '' },
+      { name: 'Debbie Carmichael-Zielinski', title: 'Trustee', phone: '(231) 734-3373', email: '' },
+      { name: 'Annette Walters', title: 'Trustee', phone: '(231) 649-4849', email: '' }
+    ]
+  },
+  'Mecosta:Colfax': {
+    name: 'Colfax Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Nick Kaye', title: 'Supervisor', phone: '(231) 796-3122', email: '' },
+      { name: 'Susan Olson', title: 'Clerk', phone: '(231) 796-3122', email: '' },
+      { name: 'Julie Johansen', title: 'Treasurer', phone: '(231) 796-3122', email: '' },
+      { name: 'Bill Burmeister', title: 'Trustee', phone: '(231) 796-3122', email: '' },
+      { name: 'Karen Morningstar', title: 'Trustee', phone: '(231) 796-3122', email: '' }
+    ]
+  },
+  'Mecosta:Deerfield': {
+    name: 'Deerfield Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Phil Stier', title: 'Supervisor', phone: '(231) 856-7008', email: '' },
+      { name: 'Michelle Lewis', title: 'Clerk', phone: '(231) 856-7008', email: '' },
+      { name: 'Ramsden Kinsey', title: 'Treasurer', phone: '(231) 856-7008', email: '' },
+      { name: 'Brian Carey', title: 'Trustee', phone: '(231) 856-7008', email: '' },
+      { name: 'Jamey Nelson', title: 'Trustee', phone: '(231) 856-7008', email: '' }
+    ]
+  },
+  'Mecosta:Fork': {
+    name: 'Fork Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Lori Helmer', title: 'Supervisor', phone: '(231) 349-2803', email: '' },
+      { name: 'Roberta Hazen', title: 'Clerk', phone: '(989) 382-7816', email: '' },
+      { name: 'Patti McNeilly', title: 'Treasurer', phone: '(989) 382-7816', email: '' },
+      { name: 'Mitchell Mackersie', title: 'Trustee', phone: '(989) 506-4065', email: '' },
+      { name: 'Dave Dowell', title: 'Trustee', phone: '(989) 330-6086', email: '' }
+    ]
+  },
+  'Mecosta:Grant': {
+    name: 'Grant Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Cheryl Aris', title: 'Supervisor', phone: '(231) 796-2106', email: '' },
+      { name: 'Lisa Cranney', title: 'Clerk', phone: '(231) 796-4713', email: '' },
+      { name: 'Nick Bentley', title: 'Trustee', phone: '(231) 796-4644', email: '' },
+      { name: 'Travis Horstman', title: 'Trustee', phone: '(231) 796-4713', email: '' }
+    ]
+  },
+  'Mecosta:Green': {
+    name: 'Green charter Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Jason Kruse', title: 'Supervisor', phone: '(231) 796-6201', email: '' },
+      { name: 'Corri Riebow', title: 'Clerk', phone: '(231) 796-6201', email: '' },
+      { name: 'Jilliane Walsh', title: 'Treasurer', phone: '(231) 796-6201', email: '' },
+      { name: 'Jeff Thorne', title: 'Trustee', phone: '(231) 796-6201', email: '' },
+      { name: 'Kelly Cushway', title: 'Trustee', phone: '', email: '' },
+      { name: 'Scott MacFarlane', title: 'Trustee', phone: '(231) 796-6201', email: '' },
+      { name: 'Ross Meads', title: 'Trustee', phone: '(231) 796-6201', email: '' }
+    ]
+  },
+  'Mecosta:Hinton': {
+    name: 'Hinton Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Carl Thompson', title: 'Supervisor', phone: '(231) 972-7753', email: '' },
+      { name: 'Cindy Sutherland', title: 'Clerk', phone: '(231) 206-0343', email: '' },
+      { name: 'Jim Helms', title: 'Treasurer', phone: '(989) 352-7318', email: '' },
+      { name: 'Wayne Sutherland', title: 'Trustee', phone: '(989) 352-6698', email: '' },
+      { name: 'Robert Willett', title: 'Trustee', phone: '(989) 352-6423', email: '' }
+    ]
+  },
+  'Mecosta:Martiny': {
+    name: 'Martiny Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Barbara Hampel', title: 'Supervisor', phone: '(231) 867-3387', email: '' },
+      { name: 'Connie Grant', title: 'Clerk', phone: '(231) 867-3387', email: '' },
+      { name: 'Lois Schmidt', title: 'Treasurer', phone: '(231) 867-3387', email: '' },
+      { name: 'William Schoner', title: 'Trustee', phone: '(231) 972-7326', email: '' },
+      { name: 'Cindy Lattimore', title: 'Trustee', phone: '(231) 867-3387', email: '' }
+    ]
+  },
+  'Mecosta:Mecosta': {
+    name: 'Mecosta Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'John Boyd', title: 'Supervisor', phone: '(231) 796-8935', email: '' },
+      { name: 'Stephanie McNeal', title: 'Clerk', phone: '(231) 796-8935', email: '' },
+      { name: 'Mary Quinlan', title: 'Treasurer', phone: '(231) 796-8935', email: '' },
+      { name: 'James Cain', title: 'Trustee', phone: '(231) 796-8935', email: '' },
+      { name: 'Tyler Huntey', title: 'Trustee', phone: '(231) 796-8935', email: '' }
+    ]
+  },
+  'Mecosta:Millbrook': {
+    name: 'Millbrook Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Bruce Eldred', title: 'Supervisor', phone: '(989) 561-2838', email: '' },
+      { name: 'Kaye Wisner', title: 'Clerk', phone: '(989) 330-3976', email: '' },
+      { name: 'Tina Murray', title: 'Treasurer', phone: '(989) 506-7335', email: '' },
+      { name: 'Randy Spayd', title: 'Trustee', phone: '(989) 330-0073', email: '' },
+      { name: 'Lenny Sorsen', title: 'Trustee', phone: '(989) 560-7318', email: '' }
+    ]
+  },
+  'Mecosta:Morton': {
+    name: 'Morton Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Mark Klumpp', title: 'Supervisor', phone: '(231) 972-7138', email: '' },
+      { name: 'Camie Courtright', title: 'Clerk', phone: '(231) 972-7138', email: '' },
+      { name: 'Tracy Snyder', title: 'Treasurer', phone: '(231) 972-7138', email: '' },
+      { name: 'Jeff Ratledge', title: 'Trustee', phone: '(231) 972-7138', email: '' },
+      { name: 'Yulanda Bellingar', title: 'Trustee', phone: '2319727138224 ext. 224', email: '' }
+    ]
+  },
+  'Mecosta:Sheridan': {
+    name: 'Sheridan Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Vern Young', title: 'Supervisor', phone: '(989) 382-8606', email: '' },
+      { name: 'Bridget Hahn', title: 'Clerk', phone: '(989) 382-7007', email: '' },
+      { name: 'Rachel Borders', title: 'Treasurer', phone: '(989) 382-7700', email: '' },
+      { name: 'Harry Hardenburgh', title: 'Trustee', phone: '(989) 382-7985', email: '' },
+      { name: 'Johanna Hopkins', title: 'Trustee', phone: '(989) 382-7646', email: '' }
+    ]
+  },
+  'Mecosta:Wheatland': {
+    name: 'Wheatland Township',
+    county: 'Mecosta',
+    officials: [
+      { name: 'Thomas VanSyckle', title: 'Supervisor', phone: '(231) 250-1403', email: '' },
+      { name: 'Kimberly Thiel', title: 'Clerk', phone: '(989) 967-8252', email: '' },
+      { name: 'Julie Sellers', title: 'Treasurer', phone: '(989) 967-8252', email: '' },
+      { name: 'Lee Carte', title: 'Trustee', phone: '(989) 967-8252', email: '' },
+      { name: 'Ethan McNeal', title: 'Trustee', phone: '(989) 967-8252', email: '' }
+    ]
+  },
+  'Menominee:Cedarville': {
+    name: 'Cedarville Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Linda Peterson', title: 'Supervisor', phone: '(906) 280-2443', email: '' },
+      { name: 'Donna Buechler', title: 'Clerk', phone: '(906) 753-4146', email: '' },
+      { name: 'Kathie Prestin', title: 'Treasurer', phone: '(906) 424-0044', email: '' },
+      { name: 'Dave Buechler', title: 'Trustee', phone: '(906) 753-4146', email: '' },
+      { name: 'William Wotruba', title: 'Trustee', phone: '(414) 507-9787', email: '' }
+    ]
+  },
+  'Menominee:Daggett': {
+    name: 'Daggett Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Jim Revall', title: 'Supervisor', phone: '(906) 753-2782', email: '' },
+      { name: 'Edith Vincent', title: 'Clerk', phone: '(906) 753-6685', email: '' },
+      { name: 'Thomas Kuntze', title: 'Treasurer', phone: '(906) 753-4028', email: '' },
+      { name: 'James Kayser', title: 'Trustee', phone: '(906) 753-4595', email: '' },
+      { name: 'Phillip Revall', title: 'Trustee', phone: '(906) 374-0714', email: '' }
+    ]
+  },
+  'Menominee:Faithorn': {
+    name: 'Faithorn Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Ann Marie Gurgall', title: 'Supervisor', phone: '(906) 438-2284', email: '' },
+      { name: 'Kathleen Branz', title: 'Clerk', phone: '(906) 438-2221', email: '' },
+      { name: 'Amanda Strobel', title: 'Treasurer', phone: '(906) 438-2221', email: '' },
+      { name: 'William DeVoe', title: 'Trustee', phone: '(906) 438-2243', email: '' },
+      { name: 'Rita Bal', title: 'Trustee', phone: '(906) 438-2332', email: '' }
+    ]
+  },
+  'Menominee:Gourley': {
+    name: 'Gourley Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Stephen Wery', title: 'Supervisor', phone: '(906) 639-2812', email: '' },
+      { name: 'Ivy Netzel', title: 'Clerk', phone: '(906) 639-2979', email: '' },
+      { name: 'Stephanie Walechka', title: 'Treasurer', phone: '(906) 639-2647', email: '' },
+      { name: 'Jesse Wery', title: 'Trustee', phone: '(906) 639-2509', email: '' },
+      { name: 'Dan Cordy', title: 'Trustee', phone: '(906) 639-2845', email: '' }
+    ]
+  },
+  'Menominee:Harris': {
+    name: 'Harris Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Peter Kleiman', title: 'Supervisor', phone: '(906) 497-5350', email: '' },
+      { name: 'Thomas Draze', title: 'Clerk', phone: '(906) 466-0143', email: '' },
+      { name: 'Doreen Bower', title: 'Treasurer', phone: '(906) 466-5527', email: '' },
+      { name: 'Alex Jorasz', title: 'Trustee', phone: '(906) 466-5364', email: '' },
+      { name: 'Les Kleiman', title: 'Trustee', phone: '(906) 497-5182', email: '' }
+    ]
+  },
+  'Menominee:Holmes': {
+    name: 'Holmes Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Christian Johnson', title: 'Supervisor', phone: '(906) 639-2024', email: '' },
+      { name: 'Dena Kempf', title: 'Clerk', phone: '(906) 639-2024', email: '' },
+      { name: 'Samantha FoxSparrow', title: 'Treasurer', phone: '(906) 639-3720', email: '' },
+      { name: 'Michael Zemba', title: 'Trustee', phone: '(906) 639-2838', email: '' },
+      { name: 'Raymond Furmanski', title: 'Trustee', phone: '(906) 753-4227', email: '' }
+    ]
+  },
+  'Menominee:Ingallston': {
+    name: 'Ingallston Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Daniel Bartell', title: 'Supervisor', phone: '(906) 863-2885', email: '' },
+      { name: 'Kay Keefer', title: 'Clerk', phone: '(906) 863-2885', email: '' },
+      { name: 'Patricia Cheski', title: 'Treasurer', phone: '(906) 863-7214', email: '' },
+      { name: 'John Lampart', title: 'Trustee', phone: '(906) 863-2885', email: '' }
+    ]
+  },
+  'Menominee:Lake': {
+    name: 'Lake Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Jason Niemi', title: 'Supervisor', phone: '(906) 290-0754', email: '' },
+      { name: 'Misty Bottkol', title: 'Clerk', phone: '(715) 923-4708', email: '' },
+      { name: 'Barbara Peterson', title: 'Treasurer', phone: '(906) 261-1497', email: '' },
+      { name: 'Shannon Linderoth', title: 'Trustee', phone: '(262) 278-1982', email: '' },
+      { name: 'Dave Pomeroy', title: 'Trustee', phone: '14145077196', email: '' }
+    ]
+  },
+  'Menominee:Mellen': {
+    name: 'Mellen Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Tom Philipps', title: 'Supervisor', phone: '(906) 788-4764', email: '' },
+      { name: 'Jessika Thoune', title: 'Clerk', phone: '(906) 424-1827', email: '' },
+      { name: 'Sarah Krzych', title: 'Treasurer', phone: '(906) 788-4146', email: '' },
+      { name: 'Francis Corey', title: 'Trustee', phone: '(906) 753-4509', email: '' },
+      { name: 'Tim Starzynski', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Menominee:Meyer': {
+    name: 'Meyer Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Chad Knodl', title: 'Supervisor', phone: '(906) 498-2251', email: '' },
+      { name: 'Lynda Gurgall', title: 'Clerk', phone: '(906) 498-2251', email: '' },
+      { name: 'Maxine Gatien', title: 'Treasurer', phone: '(906) 295-0813', email: '' },
+      { name: 'Mark Schoen', title: 'Trustee', phone: '(906) 498-2251', email: '' },
+      { name: 'Brenton Ayotte', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Menominee:Nadeau': {
+    name: 'Nadeau Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Lyle Gearhart', title: 'Supervisor', phone: '(906) 639-2393', email: '' },
+      { name: 'Nicholas Kasbohm', title: 'Clerk', phone: '(906) 397-6175', email: '' },
+      { name: 'Kathy Betters', title: 'Treasurer', phone: '(906) 639-2622', email: '' },
+      { name: 'Gerald Piche', title: 'Trustee', phone: '(906) 639-2223', email: '' }
+    ]
+  },
+  'Menominee:Spalding': {
+    name: 'Spalding Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'James Moraska', title: 'Supervisor', phone: '(906) 497-4038', email: '' },
+      { name: 'Connie Wells', title: 'Clerk', phone: '(906) 497-5850', email: '' },
+      { name: 'Jerry Bartnicki', title: 'Treasurer', phone: '(906) 497-5850', email: '' },
+      { name: 'Kevin LaBonte', title: 'Trustee', phone: '(906) 497-5850', email: '' },
+      { name: 'Christopher LeBoeuf', title: 'Trustee', phone: '(906) 497-5850', email: '' }
+    ]
+  },
+  'Menominee:Stephenson': {
+    name: 'Stephenson Township',
+    county: 'Menominee',
+    officials: [
+      { name: 'Mark Marklein', title: 'Supervisor', phone: '(906) 753-6950', email: '' },
+      { name: 'Daniel Carlson', title: 'Clerk', phone: '(906) 290-3217', email: '' },
+      { name: 'Susan Hoijer', title: 'Treasurer', phone: '(906) 753-6404', email: '' },
+      { name: 'Bruce Fellion', title: 'Trustee', phone: '(715) 923-0550', email: '' },
+      { name: 'Mark Solander', title: 'Trustee', phone: '(715) 923-9322', email: '' }
+    ]
+  },
+  'Midland:Edenville': {
+    name: 'Edenville Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Art Peters', title: 'Supervisor', phone: '(989) 600-3920', email: '' },
+      { name: 'Kimberlea Hauser', title: 'Clerk', phone: '(989) 689-3655', email: '' },
+      { name: 'Kathy Peters', title: 'Treasurer', phone: '(989) 689-3655', email: '' },
+      { name: 'James Sperling', title: 'Trustee', phone: '(989) 859-7494', email: '' },
+      { name: 'Crystal Starkey', title: 'Trustee', phone: '(989) 948-4515', email: '' }
+    ]
+  },
+  'Midland:Geneva': {
+    name: 'Geneva Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Josh Murray', title: 'Supervisor', phone: '(989) 615-0141', email: '' },
+      { name: 'Kerry Berthume', title: 'Clerk', phone: '(989) 465-0723', email: '' },
+      { name: 'Nancy Robison', title: 'Treasurer', phone: '(989) 465-0723', email: '' },
+      { name: 'Neil Berthume', title: 'Trustee', phone: '(989) 465-0723', email: '' },
+      { name: 'Jeremy Longstreth', title: 'Trustee', phone: '(989) 465-0723', email: '' }
+    ]
+  },
+  'Midland:Greendale': {
+    name: 'Greendale Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Brian Knopp', title: 'Supervisor', phone: '(989) 317-3337', email: '' },
+      { name: 'Ruth Knapp', title: 'Clerk', phone: '(989) 835-3009', email: '' },
+      { name: 'Angela Brown', title: 'Treasurer', phone: '(989) 317-3337', email: '' },
+      { name: 'Julia Beach', title: 'Trustee', phone: '(989) 317-3337', email: '' },
+      { name: 'Bridget Elkins', title: 'Trustee', phone: '(989) 317-3337', email: '' }
+    ]
+  },
+  'Midland:Hope': {
+    name: 'Hope Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Rita Goul', title: 'Supervisor', phone: '(989) 689-0322', email: '' },
+      { name: 'Carol Coyle', title: 'Clerk', phone: '(989) 689-5158', email: '' },
+      { name: 'Charles Hudler', title: 'Treasurer', phone: '(989) 689-5158', email: '' },
+      { name: 'Dan Mieske', title: 'Trustee', phone: '(989) 313-9406', email: '' },
+      { name: 'Wendy Faber', title: 'Trustee', phone: '(989) 430-0943', email: '' }
+    ]
+  },
+  'Midland:Ingersoll': {
+    name: 'Ingersoll Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Kim Heisler', title: 'Supervisor', phone: '(989) 751-8397', email: '' },
+      { name: 'Mary Ellen Keel', title: 'Clerk', phone: '(989) 695-5200', email: '' },
+      { name: 'James Terwillegar', title: 'Treasurer', phone: '(989) 835-8009', email: '' },
+      { name: 'Ronald Garrett', title: 'Trustee', phone: '(989) 928-1160', email: '' },
+      { name: 'Jacob Terwillegar', title: 'Trustee', phone: '(989) 695-5200', email: '' }
+    ]
+  },
+  'Midland:Jasper': {
+    name: 'Jasper Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Carmen Bajena', title: 'Supervisor', phone: '(989) 681-5570', email: '' },
+      { name: 'Kristina DeBolt', title: 'Clerk', phone: '(989) 681-5570 ext. 2', email: '' },
+      { name: 'Katelynn Hernandez', title: 'Treasurer', phone: '(989) 681-5570 ext. 3', email: '' },
+      { name: 'Roxanne Gibson', title: 'Trustee', phone: '(989) 681-5488', email: '' },
+      { name: 'Deric Wright', title: 'Trustee', phone: '(989) 285-4763', email: '' }
+    ]
+  },
+  'Midland:Jerome': {
+    name: 'Jerome Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Steve Rice', title: 'Supervisor', phone: '(989) 488-3667', email: '' },
+      { name: 'Gil Bernier', title: 'Clerk', phone: '(989) 488-4578', email: '' },
+      { name: 'Jennifer Clever', title: 'Treasurer', phone: '(989) 488-4578', email: '' },
+      { name: 'Sarah Jo Rowley', title: 'Trustee', phone: '(989) 488-4578', email: '' },
+      { name: 'Laura Norcutt', title: 'Trustee', phone: '(989) 488-4578', email: '' },
+      { name: 'Carolyn Konechne', title: 'Trustee', phone: '(989) 488-4578', email: '' },
+      { name: 'Becky Slack', title: 'Trustee', phone: '(989) 488-4578', email: '' }
+    ]
+  },
+  'Midland:Larkin': {
+    name: 'Larkin charter Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Maria Sandow', title: 'Supervisor', phone: '(989) 835-6399', email: '' },
+      { name: 'Greydon Koellmann', title: 'Clerk', phone: '(989) 835-6399', email: '' },
+      { name: 'Mandy Archbold', title: 'Treasurer', phone: '(989) 835-6399', email: '' },
+      { name: 'Todd Draves', title: 'Trustee', phone: '(989) 835-6399', email: '' },
+      { name: 'Erick Forshee', title: 'Trustee', phone: '(989) 835-6399', email: '' },
+      { name: 'Dan Reimer', title: 'Trustee', phone: '(989) 835-6399', email: '' }
+    ]
+  },
+  'Midland:Lee': {
+    name: 'Lee Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Doug Kruger', title: 'Supervisor', phone: '(989) 832-2874', email: '' },
+      { name: 'Laura Dawson', title: 'Clerk', phone: '(989) 832-2874', email: '' },
+      { name: 'Heidi Pitt', title: 'Treasurer', phone: '(989) 832-2874', email: '' },
+      { name: 'Mark List', title: 'Trustee', phone: '(989) 832-2874', email: '' },
+      { name: 'Debra Reiber', title: 'Trustee', phone: '(989) 832-2874', email: '' }
+    ]
+  },
+  'Midland:Lincoln': {
+    name: 'Lincoln Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Brett Fales', title: 'Supervisor', phone: '(989) 687-6658', email: '' },
+      { name: 'Steve King', title: 'Clerk', phone: '(989) 374-2220', email: '' },
+      { name: 'Kim Oswald', title: 'Treasurer', phone: '98937422201 ext. 1', email: '' },
+      { name: 'Brad Wirtz', title: 'Trustee', phone: '(989) 374-2220 ext. 1, 5', email: '' },
+      { name: 'Nate Meredith', title: 'Trustee', phone: '(989) 374-2220 ext. 1, 4', email: '' }
+    ]
+  },
+  'Midland:Midland': {
+    name: 'Midland charter Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Mark Radosa', title: 'Supervisor', phone: '(989) 631-2373', email: '' },
+      { name: 'Shelly Armstrong-Miller', title: 'Clerk', phone: '(989) 835-8866', email: '' },
+      { name: 'Shelley Radosa', title: 'Treasurer', phone: '(989) 835-8866', email: '' },
+      { name: 'Paul Heyse', title: 'Trustee', phone: '(989) 835-8866', email: '' },
+      { name: 'Jeffrey Bourcier', title: 'Trustee', phone: '(989) 835-8866', email: '' },
+      { name: 'Gabrielle Klein', title: 'Trustee', phone: '(989) 835-8866', email: '' }
+    ]
+  },
+  'Midland:Mills': {
+    name: 'Mills Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Ron Kutchey', title: 'Supervisor', phone: '(989) 832-3500', email: '' },
+      { name: 'Kim Sweet', title: 'Clerk', phone: '(989) 948-3992', email: '' },
+      { name: 'Sara Pitch', title: 'Treasurer', phone: '(989) 689-5097', email: '' },
+      { name: 'Alan Wendt', title: 'Trustee', phone: '(989) 689-4403', email: '' },
+      { name: 'Amy Hoover', title: 'Trustee', phone: '(989) 689-5621', email: '' }
+    ]
+  },
+  'Midland:Mount Haley': {
+    name: 'Mount Haley Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Ken Brown', title: 'Supervisor', phone: '(989) 859-0480', email: '' },
+      { name: 'Karen Radosa', title: 'Clerk', phone: '(989) 835-1289', email: '' },
+      { name: 'Leonard Breasbois', title: 'Treasurer', phone: '(989) 643-6703', email: '' },
+      { name: 'Kevin Mudd', title: 'Trustee', phone: '(989) 859-9998', email: '' },
+      { name: 'Nicholas Pelton', title: 'Trustee', phone: '(989) 205-5529', email: '' }
+    ]
+  },
+  'Midland:Porter': {
+    name: 'Porter Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Tom Corbat', title: 'Supervisor', phone: '(989) 928-8079', email: '' },
+      { name: 'Marianne Corbat', title: 'Clerk', phone: '(989) 842-5695', email: '' },
+      { name: 'Pam Garcia', title: 'Treasurer', phone: '(989) 430-9520', email: '' },
+      { name: 'Nancy McCallum', title: 'Trustee', phone: '(989) 842-5695', email: '' },
+      { name: 'Correy Colthorp', title: 'Trustee', phone: '(989) 615-3640', email: '' }
+    ]
+  },
+  'Midland:Warren': {
+    name: 'Warren Township',
+    county: 'Midland',
+    officials: [
+      { name: 'Emily Burgess', title: 'Supervisor', phone: '(989) 465-9811', email: '' },
+      { name: 'Linda Anthony', title: 'Clerk', phone: '(989) 465-9811', email: '' },
+      { name: 'Lyndsy Bock', title: 'Treasurer', phone: '(989) 465-9811', email: '' },
+      { name: 'Blaine Yeager', title: 'Trustee', phone: '(989) 465-9811', email: '' },
+      { name: 'Bella Harsh', title: 'Trustee', phone: '(989) 465-9811', email: '' }
+    ]
+  },
+  'Missaukee:Aetna': {
+    name: 'Aetna Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Keith Dick', title: 'Supervisor', phone: '(231) 826-4494', email: '' },
+      { name: 'Linda Brown', title: 'Clerk', phone: '(734) 634-7831', email: '' },
+      { name: 'Mark Jenema', title: 'Treasurer', phone: '(231) 826-4475', email: '' },
+      { name: 'Steven Burkholder', title: 'Trustee', phone: '(231) 826-2611', email: '' },
+      { name: 'Kim Richards', title: 'Trustee', phone: '(231) 826-2611', email: '' }
+    ]
+  },
+  'Missaukee:Bloomfield': {
+    name: 'Bloomfield Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Tim Bridson', title: 'Supervisor', phone: '(231) 879-2172', email: '' },
+      { name: 'Cherrie Park', title: 'Clerk', phone: '(231) 824-9493', email: '' },
+      { name: 'Helen Potter', title: 'Treasurer', phone: '(231) 824-3067', email: '' },
+      { name: 'Justin Stauffer', title: 'Trustee', phone: '(231) 824-3067', email: '' },
+      { name: 'Clint Bridson', title: 'Trustee', phone: '(231) 633-1601', email: '' }
+    ]
+  },
+  'Missaukee:Butterfield': {
+    name: 'Butterfield Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Michael Rockey', title: 'Supervisor', phone: '(231) 328-2002', email: '' },
+      { name: 'Marilyn Myers', title: 'Clerk', phone: '(231) 328-9490', email: '' },
+      { name: 'Carrie Creger', title: 'Treasurer', phone: '(231) 328-4603', email: '' },
+      { name: 'Jan Hose', title: 'Trustee', phone: '(231) 328-4675', email: '' },
+      { name: 'George Davis', title: 'Trustee', phone: '(231) 499-2053', email: '' }
+    ]
+  },
+  'Missaukee:Caldwell': {
+    name: 'Caldwell Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Mike Lutke', title: 'Supervisor', phone: '(231) 824-3239', email: '' },
+      { name: 'Shelley Sloat', title: 'Clerk', phone: '(231) 839-3293', email: '' },
+      { name: 'Danielle Lutke', title: 'Treasurer', phone: '(231) 839-7105', email: '' },
+      { name: 'Paul Helsel', title: 'Trustee', phone: '(231) 920-2904', email: '' },
+      { name: 'Brad Birgy', title: 'Trustee', phone: '(231) 839-7105', email: '' }
+    ]
+  },
+  'Missaukee:Clam Union': {
+    name: 'Clam Union Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Mark DeZeeuw', title: 'Supervisor', phone: '(231) 826-3700', email: '' },
+      { name: 'Steven Ebels', title: 'Clerk', phone: '(231) 920-4808', email: '' },
+      { name: 'Bob Ebels', title: 'Treasurer', phone: '(231) 826-3700', email: '' },
+      { name: 'Rich Herweyer', title: 'Trustee', phone: '(231) 826-3700', email: '' },
+      { name: 'Judy Jenema', title: 'Trustee', phone: '(231) 825-2886', email: '' }
+    ]
+  },
+  'Missaukee:Enterprise': {
+    name: 'Enterprise Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Wyatt Howey', title: 'Supervisor', phone: '(231) 328-5007', email: '' },
+      { name: 'K. Lynn Pope', title: 'Clerk', phone: '(231) 328-5007', email: '' },
+      { name: 'Carla Baumgardner', title: 'Treasurer', phone: '(231) 328-4996', email: '' },
+      { name: 'Kathleen Hamel', title: 'Trustee', phone: '(989) 302-3238', email: '' },
+      { name: 'Demi Westmass', title: 'Trustee', phone: '(231) 328-5007', email: '' }
+    ]
+  },
+  'Missaukee:Forest': {
+    name: 'Forest Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Samantha Peery', title: 'Supervisor', phone: '(231) 475-9076', email: '' },
+      { name: 'LeAnn Vokes', title: 'Clerk', phone: '(231) 475-0210', email: '' },
+      { name: 'Jennifer Jones', title: 'Treasurer', phone: '(231) 475-9068', email: '' },
+      { name: 'Duane Baldwin', title: 'Trustee', phone: '(231) 740-0362', email: '' },
+      { name: 'Ryan Luhrs', title: 'Trustee', phone: '(231) 434-9104', email: '' }
+    ]
+  },
+  'Missaukee:Holland': {
+    name: 'Holland Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Robert Warson', title: 'Supervisor', phone: '(989) 709-1585', email: '' },
+      { name: 'Donna Bode', title: 'Clerk', phone: '(231) 920-5425', email: '' },
+      { name: 'Madeline Hunter', title: 'Treasurer', phone: '(231) 826-3698', email: '' },
+      { name: 'Todd Wallington', title: 'Trustee', phone: '(989) 302-0618', email: '' },
+      { name: 'Shirley Kregear', title: 'Trustee', phone: '(231) 920-5425', email: '' }
+    ]
+  },
+  'Missaukee:Lake': {
+    name: 'Lake Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Robert Hall', title: 'Supervisor', phone: '(231) 839-7655', email: '' },
+      { name: 'Korinda Winkelmann', title: 'Clerk', phone: '(231) 839-7655', email: '' },
+      { name: 'Becky Gaines', title: 'Treasurer', phone: '(231) 839-7655', email: '' },
+      { name: 'Carol Bradley', title: 'Trustee', phone: '(231) 633-5074', email: '' },
+      { name: 'Randy Norman', title: 'Trustee', phone: '(231) 839-7655', email: '' }
+    ]
+  },
+  'Missaukee:Norwich': {
+    name: 'Norwich Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Lois Whipple', title: 'Supervisor', phone: '(231) 229-4232', email: '' },
+      { name: 'Heather Klein', title: 'Clerk', phone: '(231) 229-2449', email: '' },
+      { name: 'Dawn Jones', title: 'Treasurer', phone: '(231) 229-4650', email: '' },
+      { name: 'Susan Lehr', title: 'Trustee', phone: '(231) 229-4675', email: '' },
+      { name: 'Jason McCoy', title: 'Trustee', phone: '(231) 878-1362', email: '' }
+    ]
+  },
+  'Missaukee:Pioneer': {
+    name: 'Pioneer Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Emily Alexander', title: 'Supervisor', phone: '(231) 394-0309', email: '' },
+      { name: 'Karen Emond', title: 'Clerk', phone: '(231) 394-0309', email: '' },
+      { name: 'Anna Crane', title: 'Treasurer', phone: '(231) 839-5443', email: '' },
+      { name: 'Carol Chaffee', title: 'Trustee', phone: '(231) 839-7361', email: '' },
+      { name: 'Eric Wickstrom', title: 'Trustee', phone: '(231) 229-4262', email: '' }
+    ]
+  },
+  'Missaukee:Reeder': {
+    name: 'Reeder Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Josh Pellow', title: 'Supervisor', phone: '(989) 289-0362', email: '' },
+      { name: 'Ann Roberts', title: 'Clerk', phone: '(231) 920-5105', email: '' },
+      { name: 'Elaine Gallop', title: 'Treasurer', phone: '(231) 394-0209', email: '' },
+      { name: 'Marcia Rackov', title: 'Trustee', phone: '(231) 429-9674', email: '' }
+    ]
+  },
+  'Missaukee:Richland': {
+    name: 'Richland Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Greg Buning', title: 'Supervisor', phone: '(231) 775-6684', email: '' },
+      { name: 'Sarah Lutke', title: 'Clerk', phone: '(231) 429-2316', email: '' },
+      { name: 'Darla Kars', title: 'Treasurer', phone: '(231) 775-3816', email: '' },
+      { name: 'Douglas Benthem', title: 'Trustee', phone: '(231) 884-3098', email: '' },
+      { name: 'Jonathon Schierbeek', title: 'Trustee', phone: '(231) 357-4194', email: '' }
+    ]
+  },
+  'Missaukee:Riverside': {
+    name: 'Riverside Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'David Rozeveld', title: 'Supervisor', phone: '(231) 825-2265', email: '' },
+      { name: 'Jill Geeseman', title: 'Clerk', phone: '(231) 825-2265', email: '' },
+      { name: 'Barbara Henrickson', title: 'Treasurer', phone: '(231) 825-8179', email: '' },
+      { name: 'Kenneth Heuker', title: 'Trustee', phone: '(231) 825-2872', email: '' },
+      { name: 'Gordon Rozeveld', title: 'Trustee', phone: '(231) 825-8059', email: '' }
+    ]
+  },
+  'Missaukee:West Branch': {
+    name: 'West Branch Township',
+    county: 'Missaukee',
+    officials: [
+      { name: 'Kevin Travelbee', title: 'Supervisor', phone: '(231) 846-6000', email: '' },
+      { name: 'Yvonne Ahrens', title: 'Clerk', phone: '(231) 394-0568', email: '' },
+      { name: 'Karrie Loney', title: 'Treasurer', phone: '(231) 229-4659', email: '' },
+      { name: 'Jeannie Wilton', title: 'Trustee', phone: '(231) 229-4847', email: '' },
+      { name: 'Samantha Musselman', title: 'Trustee', phone: '(231) 645-7040', email: '' }
+    ]
+  },
+  'Monroe:Ash': {
+    name: 'Ash Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Robin Carmack', title: 'Supervisor', phone: '(734) 654-6992', email: '' },
+      { name: 'Michele Geiermann', title: 'Clerk', phone: '(734) 654-6992', email: '' },
+      { name: 'Rob Schock', title: 'Treasurer', phone: '(734) 654-6992', email: '' },
+      { name: 'Adam Grabetz', title: 'Trustee', phone: '(734) 654-6992', email: '' },
+      { name: 'Tina Richardson', title: 'Trustee', phone: '(734) 654-6992', email: '' }
+    ]
+  },
+  'Monroe:Bedford': {
+    name: 'Bedford Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Al Prieur', title: 'Supervisor', phone: '(734) 847-6791', email: '' },
+      { name: 'Trudy Hershberger', title: 'Clerk', phone: '(734) 224-7328', email: '' },
+      { name: 'Krista Jandasek', title: 'Treasurer', phone: '(734) 224-7327', email: '' },
+      { name: 'Josh Stump', title: 'Trustee', phone: '', email: '' },
+      { name: 'Craig Montri', title: 'Trustee', phone: '(734) 847-6791', email: '' },
+      { name: 'Todd Bruning', title: 'Trustee', phone: '(734) 847-6791', email: '' },
+      { name: 'Joe Gore', title: 'Trustee', phone: '(734) 847-6791', email: '' }
+    ]
+  },
+  'Monroe:Berlin': {
+    name: 'Berlin charter Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Gina Swiercz', title: 'Clerk', phone: '(734) 586-2187', email: '' },
+      { name: 'Debbie Masserant', title: 'Treasurer', phone: '(734) 586-2187 ext. 4', email: '' },
+      { name: 'Kellie Long', title: 'Trustee', phone: '(734) 586-2187', email: '' },
+      { name: 'Neil Masserant', title: 'Trustee', phone: '(734) 586-2187', email: '' },
+      { name: 'Kyle Long', title: 'Trustee', phone: '(734) 586-2187', email: '' }
+    ]
+  },
+  'Monroe:Dundee': {
+    name: 'Dundee Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Ronald Charter', title: 'Supervisor', phone: '(734) 529-2650', email: '' },
+      { name: 'Karla Ziesmer', title: 'Clerk', phone: '(734) 529-2650', email: '' },
+      { name: 'Gary Lazette', title: 'Trustee', phone: '(734) 529-2650', email: '' },
+      { name: 'Ken Jaworski', title: 'Trustee', phone: '(734) 529-2650', email: '' },
+      { name: 'Alana Horkey', title: 'Trustee', phone: '(734) 529-2650', email: '' },
+      { name: 'Timothy Miles', title: 'Trustee', phone: '(734) 529-2650', email: '' }
+    ]
+  },
+  'Monroe:Erie': {
+    name: 'Erie Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Michael Grodi', title: 'Supervisor', phone: '(734) 848-5915', email: '' },
+      { name: 'Kim Cousino', title: 'Clerk', phone: '(734) 848-5915', email: '' },
+      { name: 'Cynthia Wisbon', title: 'Treasurer', phone: '(734) 848-5915', email: '' },
+      { name: 'Steve Mishka', title: 'Trustee', phone: '(734) 848-5915', email: '' },
+      { name: 'Manny Evola', title: 'Trustee', phone: '(734) 848-5915', email: '' }
+    ]
+  },
+  'Monroe:Exeter': {
+    name: 'Exeter Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Philip Bruck', title: 'Supervisor', phone: '(734) 587-2100', email: '' },
+      { name: 'Christina Bogoski', title: 'Clerk', phone: '', email: '' },
+      { name: 'Charles Bruck', title: 'Trustee', phone: '(734) 587-2100', email: '' },
+      { name: 'Tom Eby', title: 'Trustee', phone: '(734) 587-2100', email: '' }
+    ]
+  },
+  'Monroe:Frenchtown': {
+    name: 'Frenchtown Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Al VanWashenova', title: 'Supervisor', phone: '(734) 242-3282', email: '' },
+      { name: 'Kyle Bryant', title: 'Clerk', phone: '(734) 242-3282', email: '' },
+      { name: 'Julie Ellison', title: 'Treasurer', phone: '(734) 242-3282', email: '' },
+      { name: 'Gary Klemz', title: 'Trustee', phone: '(734) 242-5800', email: '' },
+      { name: 'Chris Collins', title: 'Trustee', phone: '(734) 242-5800', email: '' },
+      { name: 'Kraig Yoas', title: 'Trustee', phone: '(734) 242-3282', email: '' },
+      { name: 'Shelia Bussell', title: 'Trustee', phone: '(734) 242-3282', email: '' }
+    ]
+  },
+  'Monroe:Ida': {
+    name: 'Ida Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Mark Metz', title: 'Supervisor', phone: '(734) 269-3045 ext. 201', email: '' },
+      { name: 'Tera Shaffer', title: 'Clerk', phone: '(734) 269-3045', email: '' },
+      { name: 'Kelli Brandjord', title: 'Treasurer', phone: '(734) 269-3045', email: '' },
+      { name: 'Tim Mata', title: 'Trustee', phone: '(734) 269-3045', email: '' },
+      { name: 'Chris Curry', title: 'Trustee', phone: '(734) 269-3045', email: '' }
+    ]
+  },
+  'Monroe:La Salle': {
+    name: 'La Salle Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Aaron Goldsmith', title: 'Supervisor', phone: '(734) 241-4344', email: '' },
+      { name: 'LaDeana Morr', title: 'Clerk', phone: '(734) 241-4344', email: '' },
+      { name: 'Stefanie Rauch', title: 'Treasurer', phone: '17342693045', email: '' },
+      { name: 'Bob Willis', title: 'Trustee', phone: '(734) 241-4344', email: '' },
+      { name: 'Barry Kinsey', title: 'Trustee', phone: '(734) 241-4344', email: '' }
+    ]
+  },
+  'Monroe:London': {
+    name: 'London Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Penny Turner', title: 'Supervisor', phone: '(734) 735-7984', email: '' },
+      { name: 'Anita Straub', title: 'Clerk', phone: '(734) 215-7951', email: '' },
+      { name: 'Melissa Beauchamp', title: 'Treasurer', phone: '(734) 439-1984', email: '' },
+      { name: 'Michael Pinkowski', title: 'Trustee', phone: '(734) 439-1984', email: '' },
+      { name: 'Darrell Howard', title: 'Trustee', phone: '(734) 439-1984', email: '' }
+    ]
+  },
+  'Monroe:Milan': {
+    name: 'Milan Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Mark Bogi', title: 'Supervisor', phone: '(734) 439-1707', email: '' },
+      { name: 'Stephanie Kozar', title: 'Clerk', phone: '(734) 368-8739', email: '' },
+      { name: 'Joel Gotts', title: 'Treasurer', phone: '(734) 439-1707', email: '' },
+      { name: 'Nick Straub', title: 'Trustee', phone: '(734) 439-1707', email: '' },
+      { name: 'Shelby Kay', title: 'Trustee', phone: '(734) 439-1707', email: '' }
+    ]
+  },
+  'Monroe:Monroe': {
+    name: 'Monroe charter Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'John Manor', title: 'Supervisor', phone: '(734) 241-5501', email: '' },
+      { name: 'Christina Smith', title: 'Clerk', phone: '(734) 241-5501', email: '' },
+      { name: 'Lisa Sulfaro', title: 'Treasurer', phone: '(734) 241-6575 ext. 224', email: '' },
+      { name: 'Kevin Raymo', title: 'Trustee', phone: '(734) 915-6749', email: '' },
+      { name: 'Kevin Shipman', title: 'Trustee', phone: '(734) 241-5501', email: '' },
+      { name: 'William Heck, Jr.', title: 'Trustee', phone: '(734) 241-5501', email: '' },
+      { name: 'Brian Merkle', title: 'Trustee', phone: '(734) 241-5501', email: '' }
+    ]
+  },
+  'Monroe:Raisinville': {
+    name: 'Raisinville Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Gerald Blanchette', title: 'Supervisor', phone: '(734) 269-2506', email: '' },
+      { name: 'Brenda Fetterly', title: 'Clerk', phone: '(734) 269-2506', email: '' },
+      { name: 'Rosemarie Meyer', title: 'Treasurer', phone: '(734) 269-2506', email: '' },
+      { name: 'Tom Woelmer', title: 'Trustee', phone: '(734) 269-2506', email: '' },
+      { name: 'Michael Jaworski', title: 'Trustee', phone: '(734) 269-2506', email: '' }
+    ]
+  },
+  'Monroe:Summerfield': {
+    name: 'Summerfield Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Dominic Lucarelli', title: 'Supervisor', phone: '(419) 360-1705', email: '' },
+      { name: 'Alexa Kolbe', title: 'Clerk', phone: '(734) 279-1214', email: '' },
+      { name: 'Trudy Goodin', title: 'Treasurer', phone: '(734) 347-5144', email: '' },
+      { name: 'Jimi Seegert', title: 'Trustee', phone: '(419) 343-5882', email: '' },
+      { name: 'Mark Strahan', title: 'Trustee', phone: '(517) 202-6375', email: '' }
+    ]
+  },
+  'Monroe:Whiteford': {
+    name: 'Whiteford Township',
+    county: 'Monroe',
+    officials: [
+      { name: 'Jeff Thomas', title: 'Supervisor', phone: '(734) 854-2416', email: '' },
+      { name: 'Christine Bischoff', title: 'Clerk', phone: '(734) 856-5383', email: '' },
+      { name: 'Lee Strahan', title: 'Treasurer', phone: '(734) 568-0260', email: '' },
+      { name: 'Steven Morgan', title: 'Trustee', phone: '(734) 856-5383', email: '' },
+      { name: 'Robert Lloyd', title: 'Trustee', phone: '(419) 392-3592', email: '' }
+    ]
+  },
+  'Montcalm:Belvidere': {
+    name: 'Belvidere Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Wayne Watts', title: 'Supervisor', phone: '(989) 854-2999 ext. 203', email: '' },
+      { name: 'Sheila Smith', title: 'Clerk', phone: '(989) 287-3317 ext. 202', email: '' },
+      { name: 'Nancy Snyder', title: 'Treasurer', phone: '(989) 365-3783 ext. 204', email: '' },
+      { name: 'Brent Dietrich', title: 'Trustee', phone: '(269) 425-0744', email: '' },
+      { name: 'Dustin Andersen', title: 'Trustee', phone: '(919) 818-1082', email: '' }
+    ]
+  },
+  'Montcalm:Bloomer': {
+    name: 'Bloomer Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Dan Ryan', title: 'Supervisor', phone: '(989) 330-3682', email: '' },
+      { name: 'Tara Chapko', title: 'Clerk', phone: '(989) 235-4188', email: '' },
+      { name: 'Colleen Schneider', title: 'Treasurer', phone: '(989) 330-0179', email: '' },
+      { name: 'Lawrence Hummel', title: 'Trustee', phone: '(269) 569-6218', email: '' },
+      { name: 'Dana Gonzales', title: 'Trustee', phone: '(989) 584-3637', email: '' }
+    ]
+  },
+  'Montcalm:Bushnell': {
+    name: 'Bushnell Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Mike Fitzgerald', title: 'Supervisor', phone: '(989) 289-3532', email: '' },
+      { name: 'Louise Belyou', title: 'Clerk', phone: '(989) 248-3349', email: '' },
+      { name: 'Karron Conklin Bliss', title: 'Treasurer', phone: '(989) 637-4262', email: '' },
+      { name: 'Patrick Draper', title: 'Trustee', phone: '(989) 248-3349', email: '' },
+      { name: 'Lori Daly', title: 'Trustee', phone: '(989) 637-4185', email: '' }
+    ]
+  },
+  'Montcalm:Cato': {
+    name: 'Cato Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Brandi Clark-Hubbard', title: 'Supervisor', phone: '(616) 824-4568', email: '' },
+      { name: 'Ginger Imhoff', title: 'Clerk', phone: '(989) 330-5770', email: '' },
+      { name: 'Jamie Boehm', title: 'Treasurer', phone: '(989) 287-3368', email: '' },
+      { name: 'David Behrenwald', title: 'Trustee', phone: '', email: '' },
+      { name: 'Marcy Myers', title: 'Trustee', phone: '(989) 330-5770', email: '' }
+    ]
+  },
+  'Montcalm:Crystal': {
+    name: 'Crystal Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Curt McCracken', title: 'Supervisor', phone: '(989) 235-4800', email: '' },
+      { name: 'Patty Baker-Marek', title: 'Clerk', phone: '(989) 235-4800', email: '' },
+      { name: 'Alisha Little', title: 'Treasurer', phone: '(989) 235-4800', email: '' },
+      { name: 'David Wight', title: 'Trustee', phone: '(989) 235-4800', email: '' },
+      { name: 'Vera Bogart', title: 'Trustee', phone: '(989) 235-4800', email: '' }
+    ]
+  },
+  'Montcalm:Day': {
+    name: 'Day Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Michael Rasmussen', title: 'Supervisor', phone: '(989) 304-0233', email: '' },
+      { name: 'Krysti Perkins', title: 'Clerk', phone: '', email: '' },
+      { name: 'Brandon Gibson', title: 'Trustee', phone: '(989) 763-4551', email: '' },
+      { name: 'Kari Alexander', title: 'Trustee', phone: '(989) 762-5271', email: '' }
+    ]
+  },
+  'Montcalm:Douglass': {
+    name: 'Douglass Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Kathy Rasmussen', title: 'Supervisor', phone: '(989) 762-8014', email: '' },
+      { name: 'Holly Huff', title: 'Clerk', phone: '(989) 762-8014', email: '' },
+      { name: 'Kristi Cordray', title: 'Treasurer', phone: '(989) 762-8014', email: '' },
+      { name: 'Eric Tester', title: 'Trustee', phone: '(989) 807-0213', email: '' },
+      { name: 'Ken Bunting', title: 'Trustee', phone: '(517) 712-3250', email: '' }
+    ]
+  },
+  'Montcalm:Eureka': {
+    name: 'Eureka Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Kristen Lower', title: 'Supervisor', phone: '(989) 891-7784', email: '' },
+      { name: 'Linda Ruwersma', title: 'Clerk', phone: '(616) 516-9184', email: '' },
+      { name: 'Cindy Hanson', title: 'Treasurer', phone: '(616) 835-5459', email: '' },
+      { name: 'Jeremy Austin', title: 'Trustee', phone: '(616) 824-2249', email: '' },
+      { name: 'Tim Johnson', title: 'Trustee', phone: '(616) 712-6674', email: '' },
+      { name: 'Shayne Becher', title: 'Trustee', phone: '(616) 754-5053', email: '' },
+      { name: 'Paul Ruwersma', title: 'Trustee', phone: '(616) 862-6512', email: '' }
+    ]
+  },
+  'Montcalm:Evergreen': {
+    name: 'Evergreen Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Andy Ross', title: 'Supervisor', phone: '(989) 291-3630', email: '' },
+      { name: 'Kelli Greenhoe', title: 'Clerk', phone: '(989) 831-9043', email: '' },
+      { name: 'Annette Fountain', title: 'Treasurer', phone: '(989) 831-9043', email: '' },
+      { name: 'Mark Heintzelman', title: 'Trustee', phone: '(989) 831-9043', email: '' }
+    ]
+  },
+  'Montcalm:Fairplain': {
+    name: 'Fairplain Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Thomas Sova', title: 'Supervisor', phone: '(616) 835-7677', email: '' },
+      { name: 'Stacie Pribble', title: 'Clerk', phone: '(616) 225-1050', email: '' },
+      { name: 'Randy Ross', title: 'Treasurer', phone: '(616) 225-1050', email: '' },
+      { name: 'Brenda Sova', title: 'Trustee', phone: '(616) 225-1050', email: '' },
+      { name: 'Gaylia Ross', title: 'Trustee', phone: '(616) 225-1050', email: '' }
+    ]
+  },
+  'Montcalm:Ferris': {
+    name: 'Ferris Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Randy Stearns', title: 'Supervisor', phone: '(517) 582-9998', email: '' },
+      { name: 'Tammy Carter', title: 'Clerk', phone: '(989) 763-5912', email: '' },
+      { name: 'Jody Waldron', title: 'Treasurer', phone: '(989) 763-6581', email: '' },
+      { name: 'Daniel Calverley', title: 'Trustee', phone: '(231) 590-8692', email: '' },
+      { name: 'Kevin Hills', title: 'Trustee', phone: '(989) 330-0780', email: '' }
+    ]
+  },
+  'Montcalm:Home': {
+    name: 'Home Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Cindy Stratton', title: 'Supervisor', phone: '(989) 427-3092', email: '' },
+      { name: 'Leah Turnbull', title: 'Clerk', phone: '(989) 427-3092', email: '' },
+      { name: 'Karen Nesbitt', title: 'Treasurer', phone: '(989) 427-3092', email: '' },
+      { name: 'Chris Irwin', title: 'Trustee', phone: '(989) 427-3092', email: '' }
+    ]
+  },
+  'Montcalm:Maple Valley': {
+    name: 'Maple Valley Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Bruce Deur', title: 'Supervisor', phone: '(231) 354-6774', email: '' },
+      { name: 'Andi (Andrea) Knapp', title: 'Clerk', phone: '(231) 354-6774', email: '' },
+      { name: 'Meghyn Booth', title: 'Treasurer', phone: '(231) 354-6774', email: '' },
+      { name: 'Lee Frandsen', title: 'Trustee', phone: '(616) 824-9036', email: '' },
+      { name: 'Tim Thornhill', title: 'Trustee', phone: '(231) 354-6774', email: '' }
+    ]
+  },
+  'Montcalm:Montcalm': {
+    name: 'Montcalm Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Brian Blomstrom', title: 'Supervisor', phone: '(616) 835-2701', email: '' },
+      { name: 'Christine Foley', title: 'Clerk', phone: '(616) 754-5133', email: '' },
+      { name: 'Rose Hyde', title: 'Treasurer', phone: '(616) 754-5133', email: '' },
+      { name: 'Edward Hansen', title: 'Trustee', phone: '(616) 754-5133', email: '' },
+      { name: 'Brian Cousineau', title: 'Trustee', phone: '(616) 754-5133', email: '' }
+    ]
+  },
+  'Montcalm:Pine': {
+    name: 'Pine Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'William Drews', title: 'Supervisor', phone: '(616) 443-7442', email: '' },
+      { name: 'Marla Sprague', title: 'Clerk', phone: '(616) 302-1452', email: '' },
+      { name: 'Misty VanGessel', title: 'Treasurer', phone: '(616) 894-2860', email: '' },
+      { name: 'Darcy Krause', title: 'Trustee', phone: '(616) 439-8481', email: '' },
+      { name: 'Rodney Palmer', title: 'Trustee', phone: '(517) 749-2945', email: '' }
+    ]
+  },
+  'Montcalm:Reynolds': {
+    name: 'Reynolds Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Aaron Kindel', title: 'Supervisor', phone: '(231) 937-6739', email: '' },
+      { name: 'Robin Sholty', title: 'Clerk', phone: '(231) 937-6739', email: '' },
+      { name: 'Kami Fleese', title: 'Treasurer', phone: '(231) 937-6739', email: '' },
+      { name: 'Dave Saucier', title: 'Trustee', phone: '(231) 937-6739', email: '' },
+      { name: 'Robert Bergstrom', title: 'Trustee', phone: '(231) 937-6739', email: '' }
+    ]
+  },
+  'Montcalm:Richland': {
+    name: 'Richland Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Jody Penrod', title: 'Supervisor', phone: '(989) 268-5286', email: '' },
+      { name: 'Laurie Darmody', title: 'Clerk', phone: '(989) 833-8022', email: '' },
+      { name: 'Connie Marshall', title: 'Treasurer', phone: '(989) 807-0021', email: '' },
+      { name: 'Scott Marshall', title: 'Trustee', phone: '(989) 268-3116', email: '' },
+      { name: 'Cal Callison', title: 'Trustee', phone: '(989) 268-5286', email: '' }
+    ]
+  },
+  'Montcalm:Sidney': {
+    name: 'Sidney Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Terry Peterman', title: 'Supervisor', phone: '(989) 328-3635', email: '' },
+      { name: 'Carrie Wills', title: 'Clerk', phone: '(989) 506-0860', email: '' },
+      { name: 'Corinda Stover', title: 'Treasurer', phone: '(616) 894-5949', email: '' },
+      { name: 'Ray Leyrer', title: 'Trustee', phone: '(517) 243-6105', email: '' },
+      { name: 'Erik Benko', title: 'Trustee', phone: '(989) 328-3535', email: '' }
+    ]
+  },
+  'Montcalm:Winfield': {
+    name: 'Winfield Township',
+    county: 'Montcalm',
+    officials: [
+      { name: 'Ryan VanSolkema', title: 'Supervisor', phone: '(616) 914-2573', email: '' },
+      { name: 'Carolyn Chase-Stout', title: 'Clerk', phone: '(231) 636-1401', email: '' },
+      { name: 'Susan Majinska', title: 'Treasurer', phone: '(231) 636-1401', email: '' },
+      { name: 'Theresa Bennett-Stratton', title: 'Trustee', phone: '(616) 481-1437', email: '' },
+      { name: 'Kenneth Ek', title: 'Trustee', phone: '(231) 636-1401', email: '' }
+    ]
+  },
+  'Montmorency:Albert': {
+    name: 'Albert Township',
+    county: 'Montmorency',
+    officials: [
+      { name: 'Michael Szukhent', title: 'Supervisor', phone: '(989) 786-2513', email: '' },
+      { name: 'Sandy Raffin', title: 'Clerk', phone: '(989) 786-2513', email: '' },
+      { name: 'John Righi', title: 'Treasurer', phone: '(989) 786-2513', email: '' },
+      { name: 'Marsha McDonald', title: 'Trustee', phone: '(989) 786-2513', email: '' },
+      { name: 'Mark Bowser', title: 'Trustee', phone: '(989) 370-1863', email: '' }
+    ]
+  },
+  'Montmorency:Avery': {
+    name: 'Avery Township',
+    county: 'Montmorency',
+    officials: [
+      { name: 'Thomas Seymour', title: 'Supervisor', phone: '(989) 785-3929', email: '' },
+      { name: 'Rebecca Smith', title: 'Clerk', phone: '(734) 634-8213', email: '' },
+      { name: 'Elizabeth Culham', title: 'Treasurer', phone: '(989) 619-3587', email: '' },
+      { name: 'Gary McMurphy', title: 'Trustee', phone: '(989) 785-4783', email: '' },
+      { name: 'Bernard Yantz', title: 'Trustee', phone: '(231) 620-1958', email: '' }
+    ]
+  },
+  'Montmorency:Briley': {
+    name: 'Briley Township',
+    county: 'Montmorency',
+    officials: [
+      { name: 'Ken Werner', title: 'Supervisor', phone: '(989) 785-4050', email: '' },
+      { name: 'Gordon Green', title: 'Clerk', phone: '(989) 785-4050', email: '' },
+      { name: 'Vanessa Werner', title: 'Treasurer', phone: '(989) 785-4050', email: '' },
+      { name: 'Evelyn White', title: 'Trustee', phone: '(989) 785-4050', email: '' },
+      { name: 'Daniel Kent', title: 'Trustee', phone: '(989) 785-4050', email: '' }
+    ]
+  },
+  'Montmorency:Hillman': {
+    name: 'Hillman Township',
+    county: 'Montmorency',
+    officials: [
+      { name: 'John Burr', title: 'Supervisor', phone: '(989) 657-3029', email: '' },
+      { name: 'Kelli Ableidinger', title: 'Clerk', phone: '(989) 742-3096', email: '' },
+      { name: 'Jody Vanderveer', title: 'Treasurer', phone: '(989) 742-3096', email: '' },
+      { name: 'Steven Achatz', title: 'Trustee', phone: '(989) 255-6126', email: '' },
+      { name: 'Daryl Peterson', title: 'Trustee', phone: '(989) 742-3145', email: '' }
+    ]
+  },
+  'Montmorency:Loud': {
+    name: 'Loud Township',
+    county: 'Montmorency',
+    officials: [
+      { name: 'Beau Williams', title: 'Supervisor', phone: '(989) 785-3751', email: '' },
+      { name: 'Robin Chinavare', title: 'Clerk', phone: '(989) 785-4866', email: '' },
+      { name: 'Kimberly Rippee', title: 'Treasurer', phone: '(734) 891-1937', email: '' },
+      { name: 'Donna Stehle', title: 'Trustee', phone: '(810) 444-4491', email: '' },
+      { name: 'Joel Bixel', title: 'Trustee', phone: '(989) 808-3505', email: '' }
+    ]
+  },
+  'Montmorency:Montmorency': {
+    name: 'Montmorency Township',
+    county: 'Montmorency',
+    officials: [
+      { name: 'Connie Brandt', title: 'Clerk', phone: '(989) 464-0944', email: '' },
+      { name: 'Paula Miller', title: 'Treasurer', phone: '(989) 742-3619', email: '' },
+      { name: 'Gerald Steinke', title: 'Trustee', phone: '(989) 742-7430', email: '' },
+      { name: 'Dwight Hardies', title: 'Trustee', phone: '(989) 742-3619', email: '' }
+    ]
+  },
+  'Montmorency:Rust': {
+    name: 'Rust Township',
+    county: 'Montmorency',
+    officials: [
+      { name: 'Jonathan Schulze', title: 'Supervisor', phone: '(989) 464-6415', email: '' },
+      { name: 'Carleen Klein', title: 'Clerk', phone: '(989) 306-0164', email: '' },
+      { name: 'Lisa Appelgren', title: 'Treasurer', phone: '(989) 742-3535', email: '' },
+      { name: 'James Fifield', title: 'Trustee', phone: '(989) 742-4338', email: '' },
+      { name: 'Janice Richiert', title: 'Trustee', phone: '(989) 742-3535', email: '' }
+    ]
+  },
+  'Montmorency:Vienna': {
+    name: 'Vienna Township',
+    county: 'Montmorency',
+    officials: [
+      { name: 'Jeffery Nowak', title: 'Supervisor', phone: '(989) 370-9954', email: '' },
+      { name: 'Elaine Dixon', title: 'Clerk', phone: '(989) 786-3160', email: '' },
+      { name: 'Peggy Bush', title: 'Treasurer', phone: '(989) 732-0919', email: '' },
+      { name: 'Diane Webber', title: 'Trustee', phone: '(989) 732-8681', email: '' },
+      { name: 'Mayree Payne', title: 'Trustee', phone: '(989) 732-1970', email: '' }
+    ]
+  },
+  'Muskegon:Blue Lake': {
+    name: 'Blue Lake Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Melonie Arbogast', title: 'Supervisor', phone: '(231) 894-5540', email: '' },
+      { name: 'Debbie Therrian', title: 'Treasurer', phone: '(231) 894-9693', email: '' },
+      { name: 'Jackson Wall', title: 'Trustee', phone: '(231) 929-8409', email: '' }
+    ]
+  },
+  'Muskegon:Casnovia': {
+    name: 'Casnovia Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Paul Black', title: 'Supervisor', phone: '(616) 717-1921', email: '' },
+      { name: 'Carrie Marlatt', title: 'Clerk', phone: '(616) 675-4064', email: '' },
+      { name: 'Penny Muma', title: 'Treasurer', phone: '(616) 675-4064', email: '' },
+      { name: 'Jason Jorgensen', title: 'Trustee', phone: '(616) 675-4064', email: '' },
+      { name: 'Todd Willick', title: 'Trustee', phone: '(616) 675-4064', email: '' }
+    ]
+  },
+  'Muskegon:Cedar Creek': {
+    name: 'Cedar Creek Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Chuck Luttrull', title: 'Supervisor', phone: '(231) 821-0014', email: '' },
+      { name: 'Heather Delimata', title: 'Clerk', phone: '(231) 821-0014', email: '' },
+      { name: 'Kris Jefferies', title: 'Treasurer', phone: '(231) 821-0014', email: '' },
+      { name: 'Brian Beeman', title: 'Trustee', phone: '(231) 821-0014', email: '' },
+      { name: 'Gary Meyers', title: 'Trustee', phone: '(231) 821-0014', email: '' }
+    ]
+  },
+  'Muskegon:Dalton': {
+    name: 'Dalton Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Heather Cooley', title: 'Supervisor', phone: '(231) 766-3043', email: '' },
+      { name: 'Amy Brown', title: 'Clerk', phone: '(231) 766-3043', email: '' },
+      { name: 'Kristy Miles', title: 'Treasurer', phone: '(231) 766-3043', email: '' },
+      { name: 'Leeland Witte', title: 'Trustee', phone: '(231) 766-3043', email: '' },
+      { name: 'Nola Twining', title: 'Trustee', phone: '(231) 766-3043', email: '' },
+      { name: 'Michael Bennett', title: 'Trustee', phone: '(231) 766-3043', email: '' },
+      { name: 'Eugene Kooi', title: 'Trustee', phone: '(231) 766-3043', email: '' }
+    ]
+  },
+  'Muskegon:Egelston': {
+    name: 'Egelston Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Amanda Faino', title: 'Supervisor', phone: '(231) 788-2308', email: '' },
+      { name: 'Krista Ritchard', title: 'Clerk', phone: '(231) 788-2308', email: '' },
+      { name: 'Trudy Rosema', title: 'Treasurer', phone: '(231) 788-2308', email: '' },
+      { name: 'Cory Slade', title: 'Trustee', phone: '(231) 788-2308', email: '' },
+      { name: 'Peggy Foster', title: 'Trustee', phone: '(231) 788-2308', email: '' },
+      { name: 'Rhonda Cooper', title: 'Trustee', phone: '(231) 788-2308', email: '' },
+      { name: 'Benj Spencer', title: 'Trustee', phone: '(231) 788-2308', email: '' }
+    ]
+  },
+  'Muskegon:Fruitland': {
+    name: 'Fruitland Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Jeff Marcinkowski', title: 'Supervisor', phone: '(231) 766-3208', email: '' },
+      { name: 'Alexa Steffes', title: 'Clerk', phone: '(231) 766-3208', email: '' },
+      { name: 'Justin Roggero', title: 'Treasurer', phone: '(231) 766-3208', email: '' },
+      { name: 'Mike Holman', title: 'Trustee', phone: '(231) 766-3208', email: '' },
+      { name: 'Christopher VanOosterhout', title: 'Trustee', phone: '(231) 766-3208', email: '' },
+      { name: 'Sondra Cross', title: 'Trustee', phone: '(231) 766-3208', email: '' },
+      { name: 'Brent Brower', title: 'Trustee', phone: '(231) 766-3208', email: '' }
+    ]
+  },
+  'Muskegon:Fruitport': {
+    name: 'Fruitport charter Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Todd Dunham', title: 'Supervisor', phone: '(231) 865-3151', email: '' },
+      { name: 'Andrea Anderson', title: 'Clerk', phone: '(231) 865-3151', email: '' },
+      { name: 'Rose Dillon', title: 'Treasurer', phone: '(231) 865-3151 ext. 1521', email: '' },
+      { name: 'David Henry', title: 'Trustee', phone: '(231) 865-3151', email: '' },
+      { name: 'David Markgraf', title: 'Trustee', phone: '(231) 865-3151', email: '' },
+      { name: 'Jim Fichtel', title: 'Trustee', phone: '(231) 865-3151', email: '' },
+      { name: 'Ron Becklin', title: 'Trustee', phone: '(231) 865-3151', email: '' }
+    ]
+  },
+  'Muskegon:Holton': {
+    name: 'Holton Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Alan Jager', title: 'Supervisor', phone: '(231) 821-0510', email: '' },
+      { name: 'Candy Murat', title: 'Clerk', phone: '(231) 821-2168', email: '' },
+      { name: 'William Halbower', title: 'Treasurer', phone: '(231) 821-2168', email: '' },
+      { name: 'Tammy Jager', title: 'Trustee', phone: '(231) 821-0368', email: '' },
+      { name: 'Deanna Brant', title: 'Trustee', phone: '(231) 821-2168', email: '' }
+    ]
+  },
+  'Muskegon:Laketon': {
+    name: 'Laketon Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Kim Arter', title: 'Supervisor', phone: '(231) 744-2454', email: '' },
+      { name: 'Christina Achterhoff', title: 'Clerk', phone: '(231) 744-2454', email: '' },
+      { name: 'Veronica West', title: 'Treasurer', phone: '(231) 744-2454', email: '' },
+      { name: 'Cindy Zaagman', title: 'Trustee', phone: '(231) 744-2454', email: '' },
+      { name: 'Eric Anderson', title: 'Trustee', phone: '(231) 744-2454', email: '' }
+    ]
+  },
+  'Muskegon:Montague': {
+    name: 'Montague Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Jeffrey King', title: 'Supervisor', phone: '(231) 894-4414', email: '' },
+      { name: 'Drew Roesler', title: 'Clerk', phone: '(231) 894-4414', email: '' },
+      { name: 'Tracy Korthase', title: 'Treasurer', phone: '(231) 730-5848', email: '' },
+      { name: 'Jacob Seaver', title: 'Trustee', phone: '(231) 557-2090', email: '' },
+      { name: 'Jay Goodrich', title: 'Trustee', phone: '(231) 894-4414', email: '' }
+    ]
+  },
+  'Muskegon:Moorland': {
+    name: 'Moorland Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Daniel Nutt', title: 'Supervisor', phone: '(231) 853-2015', email: '' },
+      { name: 'Rose Spoelman', title: 'Clerk', phone: '(231) 853-2015', email: '' },
+      { name: 'Sabra Guy', title: 'Treasurer', phone: '(231) 853-2015', email: '' },
+      { name: 'Anita Knapp', title: 'Trustee', phone: '(231) 853-2015', email: '' },
+      { name: 'Jake Tyers', title: 'Trustee', phone: '(231) 853-2015', email: '' }
+    ]
+  },
+  'Muskegon:Muskegon': {
+    name: 'Muskegon charter Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Jennifer Hodges', title: 'Supervisor', phone: '(231) 286-1620', email: '' },
+      { name: 'Carrie Westbrook', title: 'Clerk', phone: '(231) 777-2555', email: '' },
+      { name: 'Lindsay Theile', title: 'Treasurer', phone: '(231) 777-2555', email: '' },
+      { name: 'Robert Grabinski', title: 'Trustee', phone: '(231) 777-2555', email: '' },
+      { name: 'Jenni Bowen', title: 'Trustee', phone: '(231) 777-2555', email: '' }
+    ]
+  },
+  'Muskegon:Sullivan': {
+    name: 'Sullivan Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Courtney Glavich', title: 'Supervisor', phone: '(231) 853-6900', email: '' },
+      { name: 'Heather Brown', title: 'Clerk', phone: '(231) 853-6900', email: '' },
+      { name: 'Brooke VanHouten', title: 'Treasurer', phone: '(231) 853-6900', email: '' },
+      { name: 'Michael Hazekamp', title: 'Trustee', phone: '(231) 853-6900', email: '' },
+      { name: 'Anglea Himber', title: 'Trustee', phone: '(231) 853-6900', email: '' }
+    ]
+  },
+  'Muskegon:White River': {
+    name: 'White River Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Ron Bailey', title: 'Supervisor', phone: '(231) 292-2194', email: '' },
+      { name: 'Julie Goericke', title: 'Clerk', phone: '(231) 894-9216', email: '' },
+      { name: 'Mary Kriesel', title: 'Treasurer', phone: '(231) 894-9216', email: '' },
+      { name: 'Laura Anderson', title: 'Trustee', phone: '(231) 894-9216', email: '' },
+      { name: 'Deborah Harris', title: 'Trustee', phone: '(231) 894-4611', email: '' }
+    ]
+  },
+  'Muskegon:Whitehall': {
+    name: 'Whitehall Township',
+    county: 'Muskegon',
+    officials: [
+      { name: 'Dennis Kroll', title: 'Supervisor', phone: '(231) 893-2095', email: '' },
+      { name: 'Ilene Nichols', title: 'Clerk', phone: '(231) 893-2095', email: '' },
+      { name: 'Margaret Kraai', title: 'Treasurer', phone: '(231) 893-2095', email: '' },
+      { name: 'Charles Schmitigal', title: 'Trustee', phone: '(231) 893-2095', email: '' },
+      { name: 'David Holly', title: 'Trustee', phone: '(231) 893-2095', email: '' }
+    ]
+  },
+  'Newaygo:Ashland': {
+    name: 'Ashland Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Marv Geers', title: 'Supervisor', phone: '(231) 834-7535', email: '' },
+      { name: 'Shelly Boerema', title: 'Clerk', phone: '(231) 834-7535', email: '' },
+      { name: 'Michelle McKinlay', title: 'Treasurer', phone: '(231) 834-7535', email: '' },
+      { name: 'Gary Nelsen', title: 'Trustee', phone: '(231) 834-7535', email: '' },
+      { name: 'Bill Butchart', title: 'Trustee', phone: '(231) 834-7535', email: '' }
+    ]
+  },
+  'Newaygo:Barton': {
+    name: 'Barton Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Kyle Luce', title: 'Supervisor', phone: '(231) 598-0851', email: '' },
+      { name: 'Cheryl DuKavas', title: 'Clerk', phone: '(231) 735-2136', email: '' },
+      { name: 'Joan Luce', title: 'Treasurer', phone: '(231) 598-0858', email: '' },
+      { name: 'John Wright', title: 'Trustee', phone: '(231) 284-6845', email: '' },
+      { name: 'David Lange', title: 'Trustee', phone: '(231) 349-1654', email: '' }
+    ]
+  },
+  'Newaygo:Beaver': {
+    name: 'Beaver Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Allen Ward', title: 'Supervisor', phone: '(231) 873-2425', email: '' },
+      { name: 'Penny Hernandez', title: 'Clerk', phone: '(231) 873-5795', email: '' },
+      { name: 'Kensington Montgomery', title: 'Treasurer', phone: '(231) 873-5795', email: '' },
+      { name: 'Jed Johansen', title: 'Trustee', phone: '(231) 873-5795', email: '' },
+      { name: 'Judy Peplinski', title: 'Trustee', phone: '(231) 873-5337', email: '' }
+    ]
+  },
+  'Newaygo:Big Prairie': {
+    name: 'Big Prairie Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Raymond Westgate', title: 'Supervisor', phone: '(616) 644-3189', email: '' },
+      { name: 'Judith Baker', title: 'Clerk', phone: '(231) 652-7390', email: '' },
+      { name: 'Julie Scott', title: 'Treasurer', phone: '(231) 689-1385', email: '' },
+      { name: 'Jannifer Anderson', title: 'Trustee', phone: '(231) 689-1385', email: '' },
+      { name: 'Vernon Malloy', title: 'Trustee', phone: '(269) 209-9697', email: '' }
+    ]
+  },
+  'Newaygo:Bridgeton': {
+    name: 'Bridgeton Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Jason Mansfield', title: 'Supervisor', phone: '(231) 834-0014', email: '' },
+      { name: 'Ann Marie Kossen-Priddy', title: 'Clerk', phone: '(231) 888-5233', email: '' },
+      { name: 'Charity Jimenez', title: 'Treasurer', phone: '(231) 834-0014', email: '' },
+      { name: 'Peggy Herman-Hinton', title: 'Trustee', phone: '(231) 834-0014', email: '' },
+      { name: 'Kathleen Clough', title: 'Trustee', phone: '(231) 834-0014', email: '' }
+    ]
+  },
+  'Newaygo:Brooks': {
+    name: 'Brooks Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Cory Nelson', title: 'Supervisor', phone: '(231) 652-6763', email: '' },
+      { name: 'Jennifer Badgero', title: 'Clerk', phone: '(231) 652-6763', email: '' },
+      { name: 'Vivian Miller', title: 'Treasurer', phone: '(231) 652-6763', email: '' },
+      { name: 'Ryan Schultz', title: 'Trustee', phone: '(231) 652-6763', email: '' },
+      { name: 'Danielle Hummel', title: 'Trustee', phone: '(231) 652-6763', email: '' }
+    ]
+  },
+  'Newaygo:Croton': {
+    name: 'Croton Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Morgan Heinzman', title: 'Supervisor', phone: '(231) 225-1288', email: '' },
+      { name: 'Debbra Wright', title: 'Clerk', phone: '(231) 652-4301', email: '' },
+      { name: 'Kim Edwards', title: 'Treasurer', phone: '(231) 652-4301', email: '' },
+      { name: 'John Shepherd', title: 'Trustee', phone: '(231) 652-4301', email: '' },
+      { name: 'Andy Fias', title: 'Trustee', phone: '(231) 652-4301', email: '' }
+    ]
+  },
+  'Newaygo:Dayton': {
+    name: 'Dayton Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Brian Frens', title: 'Supervisor', phone: '(231) 924-4442', email: '' },
+      { name: 'MaryJo Keith', title: 'Clerk', phone: '(231) 928-8225', email: '' },
+      { name: 'William Kunnen', title: 'Treasurer', phone: '(231) 924-6818', email: '' },
+      { name: 'Glen Sparks', title: 'Trustee', phone: '(231) 924-5945', email: '' },
+      { name: 'Marva Zeldenrust', title: 'Trustee', phone: '(231) 924-9509', email: '' }
+    ]
+  },
+  'Newaygo:Denver': {
+    name: 'Denver Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Mike Anderson', title: 'Supervisor', phone: '(231) 421-4689', email: '' },
+      { name: 'Nicki McWilliams', title: 'Clerk', phone: '(231) 854-0480', email: '' },
+      { name: 'Sherrilee Craner', title: 'Treasurer', phone: '(231) 854-0480', email: '' },
+      { name: 'Jeff Rumsey', title: 'Trustee', phone: '(231) 854-0480', email: '' },
+      { name: 'Tom Borgman', title: 'Trustee', phone: '(231) 854-0480', email: '' }
+    ]
+  },
+  'Newaygo:Ensley': {
+    name: 'Ensley Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Patrick Hills', title: 'Supervisor', phone: '(616) 636-8510', email: '' },
+      { name: 'Cynthia Harwood', title: 'Clerk', phone: '(616) 636-8510', email: '' },
+      { name: 'Faye Folkema', title: 'Treasurer', phone: '(616) 636-8616', email: '' },
+      { name: 'Timothy Butler', title: 'Trustee', phone: '(616) 636-8567', email: '' },
+      { name: 'Tim Newton', title: 'Trustee', phone: '(616) 636-8510', email: '' }
+    ]
+  },
+  'Newaygo:Everett': {
+    name: 'Everett Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Judy Maike', title: 'Supervisor', phone: '(231) 519-1435', email: '' },
+      { name: 'Pamela Chaffee', title: 'Clerk', phone: '(231) 689-1082', email: '' },
+      { name: 'Brandy Fleming', title: 'Treasurer', phone: '(231) 689-1082', email: '' },
+      { name: 'Curtis Chaffee', title: 'Trustee', phone: '(231) 689-5484', email: '' },
+      { name: 'Richard Long', title: 'Trustee', phone: '(231) 689-1082', email: '' }
+    ]
+  },
+  'Newaygo:Garfield': {
+    name: 'Garfield Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'George Suchy', title: 'Supervisor', phone: '(231) 519-1027', email: '' },
+      { name: 'Kristin Melvin', title: 'Clerk', phone: '(231) 519-2379', email: '' },
+      { name: 'Ray Troyer', title: 'Treasurer', phone: '(231) 903-4245', email: '' },
+      { name: 'Amy Ekkel', title: 'Trustee', phone: '(231) 333-6210', email: '' },
+      { name: 'Robert Larsen', title: 'Trustee', phone: '(231) 652-4251', email: '' }
+    ]
+  },
+  'Newaygo:Goodwell': {
+    name: 'Goodwell Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Tim Maxson', title: 'Supervisor', phone: '(231) 923-3797', email: '' },
+      { name: 'Leona Harvey', title: 'Clerk', phone: '(231) 923-3797', email: '' },
+      { name: 'Rachel Belcher', title: 'Treasurer', phone: '(231) 689-0953', email: '' },
+      { name: 'Greg Olson', title: 'Trustee', phone: '(231) 923-3797', email: '' }
+    ]
+  },
+  'Newaygo:Grant': {
+    name: 'Grant Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Stanley VanSingel', title: 'Supervisor', phone: '(616) 240-4540', email: '' },
+      { name: 'Gladys VeltKamp', title: 'Clerk', phone: '(231) 834-8033', email: '' },
+      { name: 'Edith Elsenheimer', title: 'Treasurer', phone: '(231) 834-8033', email: '' },
+      { name: 'Max Mellon', title: 'Trustee', phone: '(231) 215-3495', email: '' },
+      { name: 'Laura Rodriguez', title: 'Trustee', phone: '(231) 519-5172', email: '' }
+    ]
+  },
+  'Newaygo:Home': {
+    name: 'Home Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'David Vandergoot', title: 'Supervisor', phone: '(231) 796-2699', email: '' },
+      { name: 'Theresa Ouderkirk', title: 'Clerk', phone: '(231) 349-0073', email: '' },
+      { name: 'Jada Christensen', title: 'Treasurer', phone: '(906) 869-6598', email: '' },
+      { name: 'Leroy Jackson', title: 'Trustee', phone: '(231) 796-2853', email: '' },
+      { name: 'Ronda Shineldecker', title: 'Trustee', phone: '(231) 225-2023', email: '' }
+    ]
+  },
+  'Newaygo:Lilley': {
+    name: 'Lilley Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Bob Bouwens', title: 'Supervisor', phone: '(231) 286-1380', email: '' },
+      { name: 'Fran Nelson', title: 'Clerk', phone: '(231) 745-4095', email: '' },
+      { name: 'Kathryn Way', title: 'Treasurer', phone: '(231) 745-4233', email: '' },
+      { name: 'Judith Hoving', title: 'Trustee', phone: '(231) 745-3375', email: '' },
+      { name: 'Gerald Anderson', title: 'Trustee', phone: '(616) 690-2656', email: '' }
+    ]
+  },
+  'Newaygo:Lincoln': {
+    name: 'Lincoln Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Robin Rodarmer', title: 'Supervisor', phone: '(231) 245-8447', email: '' },
+      { name: 'Jackie Bulson', title: 'Clerk', phone: '(231) 250-3029', email: '' },
+      { name: 'Amy Stockwell', title: 'Treasurer', phone: '(231) 689-1984', email: '' },
+      { name: 'Roger Ungrey', title: 'Trustee', phone: '(231) 349-3356', email: '' },
+      { name: 'Josh Frantz', title: 'Trustee', phone: '(231) 250-7603', email: '' }
+    ]
+  },
+  'Newaygo:Merrill': {
+    name: 'Merrill Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Peter Morgan', title: 'Supervisor', phone: '(231) 629-9317', email: '' },
+      { name: 'Christine Berthume', title: 'Clerk', phone: '(517) 304-1885', email: '' },
+      { name: 'Bonnie St. Amour', title: 'Treasurer', phone: '(231) 580-3932', email: '' },
+      { name: 'Harold Yancy', title: 'Trustee', phone: '', email: '' },
+      { name: 'David Miedema', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Newaygo:Monroe': {
+    name: 'Monroe Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Jacob Bills', title: 'Supervisor', phone: '(616) 647-7407', email: '' },
+      { name: 'Steven Jones', title: 'Clerk', phone: '(231) 580-1171', email: '' },
+      { name: 'Michelle Mills', title: 'Treasurer', phone: '(231) 250-9744', email: '' },
+      { name: 'Gretchen Ochs', title: 'Trustee', phone: '(231) 689-5219', email: '' },
+      { name: 'Valarie Batch', title: 'Trustee', phone: '(231) 250-6000', email: '' }
+    ]
+  },
+  'Newaygo:Norwich': {
+    name: 'Norwich Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Dan Wanink', title: 'Supervisor', phone: '(231) 287-8080', email: '' },
+      { name: 'Stacie Langworthy', title: 'Clerk', phone: '(231) 629-1882', email: '' },
+      { name: 'Phyllis Carlson', title: 'Treasurer', phone: '(231) 796-2107', email: '' },
+      { name: 'Jennifer Kailing', title: 'Trustee', phone: '(231) 349-1033', email: '' },
+      { name: 'Stephanie Morgan', title: 'Trustee', phone: '(231) 629-1882', email: '' }
+    ]
+  },
+  'Newaygo:Sheridan': {
+    name: 'Sheridan charter Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Peter Lance', title: 'Supervisor', phone: '(231) 924-2566', email: '' },
+      { name: 'Maggie Kolk', title: 'Clerk', phone: '(231) 924-2566', email: '' },
+      { name: 'Jennifer Hollowell-Mulder', title: 'Treasurer', phone: '(231) 924-2566', email: '' },
+      { name: 'Jesse Wolfsen', title: 'Trustee', phone: '(231) 924-2566', email: '' },
+      { name: 'Sue Auw', title: 'Trustee', phone: '(231) 924-2566', email: '' },
+      { name: 'Mark Robinson', title: 'Trustee', phone: '(231) 924-2566', email: '' },
+      { name: 'Aaron Bennett', title: 'Trustee', phone: '(231) 924-2566', email: '' }
+    ]
+  },
+  'Newaygo:Sherman': {
+    name: 'Sherman Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Ken Smalligan', title: 'Supervisor', phone: '(231) 924-7164', email: '' },
+      { name: 'Jamie Kukal', title: 'Clerk', phone: '(231) 924-7164', email: '' },
+      { name: 'Karen Berens', title: 'Treasurer', phone: '(231) 924-5205', email: '' },
+      { name: 'Doug Berens', title: 'Trustee', phone: '(231) 924-2061', email: '' },
+      { name: 'Stanley Stroven', title: 'Trustee', phone: '(231) 349-6447', email: '' }
+    ]
+  },
+  'Newaygo:Troy': {
+    name: 'Troy Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Janice Vest', title: 'Supervisor', phone: '(231) 873-9000', email: '' },
+      { name: 'Steven Cochran', title: 'Clerk', phone: '(231) 873-9000', email: '' },
+      { name: 'Susan Hollar', title: 'Treasurer', phone: '(231) 898-4139', email: '' },
+      { name: 'Erica Quick', title: 'Trustee', phone: '(231) 873-9000', email: '' }
+    ]
+  },
+  'Newaygo:Wilcox': {
+    name: 'Wilcox Township',
+    county: 'Newaygo',
+    officials: [
+      { name: 'Pamela Rolfe', title: 'Supervisor', phone: '(231) 689-1825', email: '' },
+      { name: 'Erica Pozas', title: 'Clerk', phone: '(616) 216-0960', email: '' },
+      { name: 'Melissa Jonaitis', title: 'Treasurer', phone: '(231) 335-6832', email: '' },
+      { name: 'Laurie Sytsma', title: 'Trustee', phone: '(231) 689-5396', email: '' },
+      { name: 'Ron Fowler', title: 'Trustee', phone: '(231) 689-1825', email: '' }
+    ]
+  },
+  'Oakland:Addison': {
+    name: 'Addison Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Bruce Pearson', title: 'Supervisor', phone: '(248) 628-3317', email: '' },
+      { name: 'Pauline Bennett', title: 'Clerk', phone: '(248) 628-3317', email: '' },
+      { name: 'Michael McDonald', title: 'Treasurer', phone: '(248) 628-5409', email: '' },
+      { name: 'Ed Brakefield', title: 'Trustee', phone: '(248) 628-5409', email: '' },
+      { name: 'Karen Geibel', title: 'Trustee', phone: '(248) 628-5409', email: '' },
+      { name: 'Mary Frost', title: 'Trustee', phone: '(248) 628-5409', email: '' },
+      { name: 'Jennie Eller', title: 'Trustee', phone: '(248) 628-5409', email: '' }
+    ]
+  },
+  'Oakland:Bloomfield': {
+    name: 'Bloomfield charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Martin Brook', title: 'Clerk', phone: '', email: '' },
+      { name: 'Neal Barnett', title: 'Trustee', phone: '(248) 433-7700', email: '' },
+      { name: 'Valerie Murray', title: 'Trustee', phone: '(248) 433-7700', email: '' }
+    ]
+  },
+  'Oakland:Brandon': {
+    name: 'Brandon charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Jayson Rumball', title: 'Supervisor', phone: '(248) 627-4918', email: '' },
+      { name: 'Roselyn Blair', title: 'Clerk', phone: '(248) 627-2851', email: '' },
+      { name: 'Dana DePalma', title: 'Treasurer', phone: '(248) 627-4918', email: '' },
+      { name: 'Robert Marshall', title: 'Trustee', phone: '(248) 627-4918', email: '' },
+      { name: 'Steve Unruh', title: 'Trustee', phone: '(248) 627-4918', email: '' },
+      { name: 'Scott Stangeland', title: 'Trustee', phone: '(248) 627-4918', email: '' },
+      { name: 'Tony Candiloro', title: 'Trustee', phone: '(248) 627-4918', email: '' }
+    ]
+  },
+  'Oakland:Commerce': {
+    name: 'Commerce charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Larry Gray', title: 'Supervisor', phone: '(248) 960-7070', email: '' },
+      { name: 'Melissa Creech', title: 'Clerk', phone: '(248) 960-7020', email: '' },
+      { name: 'Molly Phillips', title: 'Treasurer', phone: '(248) 960-7044', email: '' },
+      { name: 'Rick Sovel', title: 'Trustee', phone: '(248) 755-1178', email: '' },
+      { name: 'Robert Berkheiser', title: 'Trustee', phone: '(248) 960-7020', email: '' },
+      { name: 'George Weber', title: 'Trustee', phone: '(248) 960-7020', email: '' },
+      { name: 'Rob Long', title: 'Trustee', phone: '(248) 960-7020', email: '' }
+    ]
+  },
+  'Oakland:Groveland': {
+    name: 'Groveland Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Kevin Scramlin', title: 'Supervisor', phone: '(248) 634-4152', email: '' },
+      { name: 'Jenell Keller', title: 'Clerk', phone: '(248) 634-4152', email: '' },
+      { name: 'Theresa Bills', title: 'Treasurer', phone: '(248) 634-4152', email: '' },
+      { name: 'Jim Christopher', title: 'Trustee', phone: '(810) 217-1280', email: '' },
+      { name: 'Keith Wiederhold', title: 'Trustee', phone: '(248) 634-4152', email: '' }
+    ]
+  },
+  'Oakland:Highland': {
+    name: 'Highland charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Rick Hamill', title: 'Supervisor', phone: '(248) 887-3791', email: '' },
+      { name: 'Tami Flowers', title: 'Clerk', phone: '(248) 887-3791', email: '' },
+      { name: 'Jennifer Frederick', title: 'Treasurer', phone: '(248) 887-3791', email: '' },
+      { name: 'Brian Howe', title: 'Trustee', phone: '(248) 889-6101', email: '' },
+      { name: 'Joseph Salvia', title: 'Trustee', phone: '(248) 887-3791', email: '' },
+      { name: 'Grant Charlick', title: 'Trustee', phone: '(248) 887-3791', email: '' }
+    ]
+  },
+  'Oakland:Holly': {
+    name: 'Holly Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'George Kullis', title: 'Supervisor', phone: '(248) 634-9331', email: '' },
+      { name: 'Karin Winchester', title: 'Clerk', phone: '(248) 634-9331 ext. 301', email: '' },
+      { name: 'Jenn Ryan', title: 'Treasurer', phone: '(248) 634-9331', email: '' },
+      { name: 'Derek Burton', title: 'Trustee', phone: '', email: '' },
+      { name: 'Richard Kinnamon', title: 'Trustee', phone: '(248) 634-9331', email: '' }
+    ]
+  },
+  'Oakland:Independence': {
+    name: 'Independence charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Chuck Phyle II', title: 'Supervisor', phone: '(248) 625-5111', email: '' },
+      { name: 'Cari Neubeck', title: 'Clerk', phone: '(248) 625-5111', email: '' },
+      { name: 'Paul Brown', title: 'Treasurer', phone: '(248) 922-6209', email: '' },
+      { name: 'Theresa Nallamothu', title: 'Trustee', phone: '(248) 892-0210', email: '' },
+      { name: 'Sam Moraco', title: 'Trustee', phone: '(248) 625-5111', email: '' },
+      { name: 'David Hayward', title: 'Trustee', phone: '(248) 625-5111', email: '' },
+      { name: 'Jim Tedder', title: 'Trustee', phone: '(248) 625-5111', email: '' }
+    ]
+  },
+  'Oakland:Lyon': {
+    name: 'Lyon charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'John Dolan', title: 'Supervisor', phone: '(248) 437-2240', email: '' },
+      { name: 'Michele Cash', title: 'Clerk', phone: '(248) 437-2240', email: '' },
+      { name: 'Patricia Carcone', title: 'Treasurer', phone: '(248) 437-2240', email: '' },
+      { name: 'Sean O\'Neil', title: 'Trustee', phone: '(248) 437-2240', email: '' },
+      { name: 'Lise Blades', title: 'Trustee', phone: '(248) 437-2240', email: '' },
+      { name: 'Kristofer Enlow', title: 'Trustee', phone: '(248) 437-2240', email: '' },
+      { name: 'Robert Swain', title: 'Trustee', phone: '(248) 667-8762', email: '' }
+    ]
+  },
+  'Oakland:Milford': {
+    name: 'Milford charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Donald Green', title: 'Supervisor', phone: '(248) 685-8731', email: '' },
+      { name: 'Holly Brandt', title: 'Clerk', phone: '(248) 685-8731', email: '' },
+      { name: 'Cynthia Dagenhardt', title: 'Treasurer', phone: '(248) 685-8731', email: '' },
+      { name: 'William Mazzara', title: 'Trustee', phone: '(248) 685-8060', email: '' },
+      { name: 'Dale Wiltse', title: 'Trustee', phone: '(248) 684-2053', email: '' },
+      { name: 'Randal Busick', title: 'Trustee', phone: '(248) 685-0060', email: '' },
+      { name: 'Kimberly McFarland', title: 'Trustee', phone: '(248) 685-8731', email: '' }
+    ]
+  },
+  'Oakland:Novi': {
+    name: 'Novi Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Anthony Galdikas', title: 'Supervisor', phone: '(248) 210-3406', email: '' },
+      { name: 'Janeen Crittenden', title: 'Clerk', phone: '(248) 404-7529', email: '' },
+      { name: 'David Hall', title: 'Treasurer', phone: '(407) 902-9766', email: '' },
+      { name: 'Kevin McCallum', title: 'Trustee', phone: '', email: '' },
+      { name: 'Nathan Foster', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Oakland:Oakland': {
+    name: 'Oakland charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Robin Buxar', title: 'Supervisor', phone: '(248) 651-4440', email: '' },
+      { name: 'Karen Reilly', title: 'Clerk', phone: '(248) 651-4440', email: '' },
+      { name: 'John Giannangeli', title: 'Treasurer', phone: '(248) 935-1642', email: '' },
+      { name: 'Jack Elder', title: 'Trustee', phone: '(248) 651-4440', email: '' },
+      { name: 'Jeanne Langlois', title: 'Trustee', phone: '(248) 651-4440', email: '' },
+      { name: 'John Casadei', title: 'Trustee', phone: '(248) 651-4440', email: '' },
+      { name: 'Emily Campbell', title: 'Trustee', phone: '(248) 651-4440', email: '' }
+    ]
+  },
+  'Oakland:Orion': {
+    name: 'Orion charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Chris Barnett', title: 'Supervisor', phone: '(248) 391-0304', email: '' },
+      { name: 'Julia Dalrymple', title: 'Clerk', phone: '(248) 391-0304', email: '' },
+      { name: 'Matt Pfeiffer', title: 'Treasurer', phone: '(248) 391-0304', email: '' },
+      { name: 'Michael Flood', title: 'Trustee', phone: '(248) 391-1643', email: '' },
+      { name: 'John Carson', title: 'Trustee', phone: '(248) 391-0304', email: '' },
+      { name: 'Carrie Hilgendorf', title: 'Trustee', phone: '(248) 391-0304', email: '' },
+      { name: 'Jack Lovat', title: 'Trustee', phone: '(248) 391-0304', email: '' }
+    ]
+  },
+  'Oakland:Oxford': {
+    name: 'Oxford charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Jack Curtis', title: 'Supervisor', phone: '(248) 628-9787', email: '' },
+      { name: 'Curtis Wright', title: 'Clerk', phone: '(248) 628-9787', email: '' },
+      { name: 'Joseph Ferrari', title: 'Treasurer', phone: '(248) 628-9787 ext. 105', email: '' },
+      { name: 'Rod Charles', title: 'Trustee', phone: '', email: '' },
+      { name: 'Catherine Colvin', title: 'Trustee', phone: '(248) 628-9787', email: '' },
+      { name: 'David Wagner', title: 'Trustee', phone: '(248) 628-9787', email: '' },
+      { name: 'James Lopiccolo', title: 'Trustee', phone: '(248) 628-9787', email: '' }
+    ]
+  },
+  'Oakland:Rose': {
+    name: 'Rose Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Brad Stilwell', title: 'Supervisor', phone: '(810) 569-5727', email: '' },
+      { name: 'Debbie Miller', title: 'Clerk', phone: '(248) 634-7551', email: '' },
+      { name: 'Bill Jobes', title: 'Treasurer', phone: '(248) 634-7551', email: '' },
+      { name: 'Debra Bourdeau', title: 'Trustee', phone: '(248) 634-7551', email: '' },
+      { name: 'Mike Maher', title: 'Trustee', phone: '(248) 634-7551', email: '' }
+    ]
+  },
+  'Oakland:Royal Oak': {
+    name: 'Royal Oak charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Donna Squalls', title: 'Supervisor', phone: '(248) 547-9800', email: '' },
+      { name: 'Gwendolyn Turner', title: 'Clerk', phone: '(248) 547-9804', email: '' },
+      { name: 'Kimberly Reaves', title: 'Treasurer', phone: '(248) 547-9805', email: '' },
+      { name: 'Jefferson Cushingberry', title: 'Trustee', phone: '(313) 743-2273', email: '' },
+      { name: 'Wanda Allen', title: 'Trustee', phone: '(248) 547-9800', email: '' },
+      { name: 'Hebert Welch', title: 'Trustee', phone: '(248) 547-9800', email: '' },
+      { name: 'Derotie Kern', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Oakland:Southfield': {
+    name: 'Southfield Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Janet Mooney', title: 'Supervisor', phone: '(248) 540-3420', email: '' },
+      { name: 'Eileen Giesbrecht', title: 'Clerk', phone: '(248) 540-3420', email: '' },
+      { name: 'Kim Chalifoux', title: 'Treasurer', phone: '(248) 540-3420', email: '' },
+      { name: 'Michael Fayz', title: 'Trustee', phone: '(248) 540-3420', email: '' },
+      { name: 'Vincent Borowski', title: 'Trustee', phone: '(248) 540-3420', email: '' },
+      { name: 'Paul Newitt', title: 'Trustee', phone: '(248) 540-3420', email: '' }
+    ]
+  },
+  'Oakland:Springfield': {
+    name: 'Springfield charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Richard Davis', title: 'Supervisor', phone: '(248) 846-6500', email: '' },
+      { name: 'Sean Miller', title: 'Clerk', phone: '(248) 846-6500', email: '' },
+      { name: 'Jamie Dubre', title: 'Treasurer', phone: '(248) 846-6520', email: '' },
+      { name: 'William Whitley', title: 'Trustee', phone: '(248) 846-6500', email: '' },
+      { name: 'Chris Moore', title: 'Trustee', phone: '(248) 846-6500', email: '' },
+      { name: 'Lori Beatty', title: 'Trustee', phone: '(248) 846-6500', email: '' }
+    ]
+  },
+  'Oakland:Waterford': {
+    name: 'Waterford charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Anthony Bartolotta', title: 'Supervisor', phone: '(248) 980-4677', email: '' },
+      { name: 'Gary Allison', title: 'Clerk', phone: '(248) 674-3111', email: '' },
+      { name: 'Steve Thomas', title: 'Treasurer', phone: '(248) 674-6217', email: '' },
+      { name: 'Marie Hauswirth', title: 'Trustee', phone: '(248) 884-3356', email: '' },
+      { name: 'Gary Wall', title: 'Trustee', phone: '(248) 674-6201', email: '' },
+      { name: 'Sam Harris', title: 'Trustee', phone: '(248) 674-3111', email: '' },
+      { name: 'Jeff Gilbert', title: 'Trustee', phone: '(248) 674-3111', email: '' }
+    ]
+  },
+  'Oakland:West Bloomfield': {
+    name: 'West Bloomfield charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Jonathan Warshay', title: 'Supervisor', phone: '(248) 451-4800', email: '' },
+      { name: 'Debbie Binder', title: 'Clerk', phone: '(248) 451-4800', email: '' },
+      { name: 'Teri Weingarden', title: 'Treasurer', phone: '(248) 451-4860', email: '' },
+      { name: 'Diane Swimmer', title: 'Trustee', phone: '(248) 451-4800', email: '' },
+      { name: 'Jim Manna', title: 'Trustee', phone: '(248) 451-4800', email: '' },
+      { name: 'Michael Patton', title: 'Trustee', phone: '', email: '' },
+      { name: 'Vincent Kirkwood', title: 'Trustee', phone: '(248) 451-4800', email: '' }
+    ]
+  },
+  'Oakland:White Lake': {
+    name: 'White Lake charter Township',
+    county: 'Oakland',
+    officials: [
+      { name: 'Rik Kowall', title: 'Supervisor', phone: '(248) 698-3300', email: '' },
+      { name: 'Anthony Noble', title: 'Clerk', phone: '(248) 459-3703', email: '' },
+      { name: 'Mike Roman', title: 'Treasurer', phone: '(248) 698-3300', email: '' },
+      { name: 'Andrea Voorheis', title: 'Trustee', phone: '(248) 698-3300', email: '' },
+      { name: 'Scott Ruggles', title: 'Trustee', phone: '(248) 698-3300', email: '' },
+      { name: 'Liz Smith', title: 'Trustee', phone: '(248) 698-3300 ext. 141', email: '' },
+      { name: 'Steve Anderson', title: 'Trustee', phone: '(248) 698-3300', email: '' }
+    ]
+  },
+  'Oceana:Benona': {
+    name: 'Benona Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Steve Fleming', title: 'Supervisor', phone: '(231) 861-4775', email: '' },
+      { name: 'Margie Shaw', title: 'Clerk', phone: '(231) 861-2752', email: '' },
+      { name: 'Brandi Neuman', title: 'Treasurer', phone: '(231) 861-2154', email: '' },
+      { name: 'John Smith', title: 'Trustee', phone: '(231) 861-4139', email: '' },
+      { name: 'Warren VanOverbeke', title: 'Trustee', phone: '(231) 861-2154', email: '' }
+    ]
+  },
+  'Oceana:Claybanks': {
+    name: 'Claybanks Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Dan Lombard', title: 'Supervisor', phone: '(231) 861-5957', email: '' },
+      { name: 'Alice Holsomback Smith', title: 'Clerk', phone: '(231) 301-0058', email: '' },
+      { name: 'Cheryl Rabe', title: 'Treasurer', phone: '(231) 301-4386', email: '' },
+      { name: 'David Rabe', title: 'Trustee', phone: '(231) 861-2223', email: '' },
+      { name: 'Peter Shlagor', title: 'Trustee', phone: '(231) 594-0875', email: '' }
+    ]
+  },
+  'Oceana:Colfax': {
+    name: 'Colfax Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'David Leonard', title: 'Supervisor', phone: '(616) 824-8867', email: '' },
+      { name: 'Joni Gerard', title: 'Clerk', phone: '(231) 301-5685', email: '' },
+      { name: 'Shelby Branch', title: 'Treasurer', phone: '(231) 742-8216', email: '' },
+      { name: 'Stephanie Haight', title: 'Trustee', phone: '(231) 742-8216', email: '' }
+    ]
+  },
+  'Oceana:Crystal': {
+    name: 'Crystal Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Lee Hyslop', title: 'Supervisor', phone: '(616) 240-4706', email: '' },
+      { name: 'Jana Boundy', title: 'Clerk', phone: '(231) 873-8336', email: '' },
+      { name: 'Catherine Walker', title: 'Treasurer', phone: '(231) 742-1798', email: '' },
+      { name: 'Kyle Oomen', title: 'Trustee', phone: '(231) 873-8336', email: '' },
+      { name: 'Jon Stevenson', title: 'Trustee', phone: '(231) 873-8336', email: '' }
+    ]
+  },
+  'Oceana:Elbridge': {
+    name: 'Elbridge Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Lance Van Sickle', title: 'Supervisor', phone: '(231) 750-3221', email: '' },
+      { name: 'Stephanie VanSickle', title: 'Clerk', phone: '(231) 750-3477', email: '' },
+      { name: 'Vicki Koch', title: 'Treasurer', phone: '(231) 873-5222', email: '' },
+      { name: 'Eric Herrygers', title: 'Trustee', phone: '(231) 873-3468', email: '' },
+      { name: 'Noah VandeZande', title: 'Trustee', phone: '(231) 873-4740', email: '' }
+    ]
+  },
+  'Oceana:Ferry': {
+    name: 'Ferry Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'David Schmieding', title: 'Supervisor', phone: '(231) 861-0545', email: '' },
+      { name: 'Christopher Ernst', title: 'Clerk', phone: '(231) 861-0545', email: '' },
+      { name: 'Brenda Dickman', title: 'Treasurer', phone: '(231) 861-0545', email: '' },
+      { name: 'Milton Kreigh', title: 'Trustee', phone: '(231) 861-0545', email: '' },
+      { name: 'Reese Lifer', title: 'Trustee', phone: '(231) 861-0545', email: '' }
+    ]
+  },
+  'Oceana:Golden': {
+    name: 'Golden Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Rob Draper', title: 'Supervisor', phone: '(231) 873-7137', email: '' },
+      { name: 'Rachel Iteen', title: 'Clerk', phone: '(231) 873-4413', email: '' },
+      { name: 'Connie Cargill', title: 'Treasurer', phone: '(231) 873-4413', email: '' },
+      { name: 'William Kolenda', title: 'Trustee', phone: '(231) 873-4413', email: '' }
+    ]
+  },
+  'Oceana:Grant': {
+    name: 'Grant Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Shannon Beishuizen', title: 'Clerk', phone: '(231) 893-6336', email: '' },
+      { name: 'Joanne Heck', title: 'Treasurer', phone: '(231) 861-4709', email: '' },
+      { name: 'Joan Brooks', title: 'Trustee', phone: '(231) 861-5039', email: '' },
+      { name: 'William Mischler', title: 'Trustee', phone: '(231) 893-6336', email: '' }
+    ]
+  },
+  'Oceana:Greenwood': {
+    name: 'Greenwood Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Jeff Hunt', title: 'Supervisor', phone: '(231) 250-5769', email: '' },
+      { name: 'Linda Hunt', title: 'Clerk', phone: '(231) 854-0202', email: '' },
+      { name: 'Melissa Stroven', title: 'Treasurer', phone: '(231) 854-0202', email: '' },
+      { name: 'Alan Deater', title: 'Trustee', phone: '(231) 255-8049', email: '' },
+      { name: 'James Kibart', title: 'Trustee', phone: '(616) 843-7311', email: '' }
+    ]
+  },
+  'Oceana:Hart': {
+    name: 'Hart Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Jay McGhan', title: 'Supervisor', phone: '(231) 590-4767', email: '' },
+      { name: 'Steven Freed', title: 'Clerk', phone: '(231) 769-6627', email: '' },
+      { name: 'Todd Metzler', title: 'Treasurer', phone: '(231) 873-2476', email: '' },
+      { name: 'Lois Alvesteffer-Simmons', title: 'Trustee', phone: '(231) 873-2734', email: '' },
+      { name: 'Douglas Fuehring', title: 'Trustee', phone: '(231) 873-5409', email: '' }
+    ]
+  },
+  'Oceana:Leavitt': {
+    name: 'Leavitt Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Brooke Stapel', title: 'Supervisor', phone: '(231) 329-5490', email: '' },
+      { name: 'Naomi Oomen', title: 'Clerk', phone: '(231) 329-5490', email: '' },
+      { name: 'Matthew Thompson', title: 'Treasurer', phone: '(231) 329-5490', email: '' },
+      { name: 'Rosemary Aiken', title: 'Trustee', phone: '(231) 873-3436', email: '' },
+      { name: 'Levi Porter', title: 'Trustee', phone: '(231) 329-5490', email: '' }
+    ]
+  },
+  'Oceana:Newfield': {
+    name: 'Newfield Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Joan David', title: 'Supervisor', phone: '(231) 854-4702', email: '' },
+      { name: 'Nancy Conley', title: 'Clerk', phone: '(231) 854-1432', email: '' },
+      { name: 'Mary Hopkins', title: 'Treasurer', phone: '(231) 854-4702', email: '' },
+      { name: 'Wayne Ferris', title: 'Trustee', phone: '(231) 854-4702', email: '' },
+      { name: 'Micah Johnson', title: 'Trustee', phone: '(231) 854-4702', email: '' }
+    ]
+  },
+  'Oceana:Otto': {
+    name: 'Otto Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Todd VanNett', title: 'Supervisor', phone: '(231) 861-5342', email: '' },
+      { name: 'Patricia Budde', title: 'Clerk', phone: '(231) 861-5342', email: '' },
+      { name: 'Charlene Martin', title: 'Treasurer', phone: '(231) 861-2303', email: '' },
+      { name: 'Mary Justian', title: 'Trustee', phone: '(231) 750-7704', email: '' },
+      { name: 'Kathy Eichenberg', title: 'Trustee', phone: '(231) 923-9609', email: '' }
+    ]
+  },
+  'Oceana:Pentwater': {
+    name: 'Pentwater Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Lynne Cavazos', title: 'Supervisor', phone: '(231) 869-6231', email: '' },
+      { name: 'Maureen Murphy', title: 'Clerk', phone: '(231) 869-6231', email: '' },
+      { name: 'Heather Douglas', title: 'Treasurer', phone: '(231) 869-6231', email: '' },
+      { name: 'Michael Flynn', title: 'Trustee', phone: '(231) 869-5875', email: '' },
+      { name: 'Dean Holub', title: 'Trustee', phone: '(231) 907-8925', email: '' }
+    ]
+  },
+  'Oceana:Shelby': {
+    name: 'Shelby Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Richard Raffaelli', title: 'Supervisor', phone: '(231) 861-5853', email: '' },
+      { name: 'Cathy Anderson', title: 'Clerk', phone: '(231) 861-5853', email: '' },
+      { name: 'Becky Griffin', title: 'Treasurer', phone: '(231) 861-5853', email: '' },
+      { name: 'Scott Meyers', title: 'Trustee', phone: '(231) 578-3695', email: '' },
+      { name: 'Scott Beishuizen', title: 'Trustee', phone: '(231) 861-5853', email: '' }
+    ]
+  },
+  'Oceana:Weare': {
+    name: 'Weare Township',
+    county: 'Oceana',
+    officials: [
+      { name: 'Larry Doran', title: 'Supervisor', phone: '(231) 869-5567', email: '' },
+      { name: 'Melanie Sayles', title: 'Clerk', phone: '(231) 869-4777', email: '' },
+      { name: 'Jill VanderZanden', title: 'Treasurer', phone: '(231) 923-6400', email: '' },
+      { name: 'Gary Hilbert', title: 'Trustee', phone: '(231) 869-5116', email: '' },
+      { name: 'Lane Spotler', title: 'Trustee', phone: '(231) 750-6854', email: '' }
+    ]
+  },
+  'Ogemaw:Churchill': {
+    name: 'Churchill Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Ken Schnautz', title: 'Supervisor', phone: '(989) 345-3781', email: '' },
+      { name: 'Lynn Kavalunas', title: 'Clerk', phone: '(989) 345-5579', email: '' },
+      { name: 'Linda Miller', title: 'Treasurer', phone: '(989) 345-3781', email: '' },
+      { name: 'Larry Lauria', title: 'Trustee', phone: '(989) 345-2213', email: '' },
+      { name: 'Janice Quigley', title: 'Trustee', phone: '(989) 889-1475', email: '' }
+    ]
+  },
+  'Ogemaw:Cumming': {
+    name: 'Cumming Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Ronald Quackenbush', title: 'Supervisor', phone: '(989) 988-2602', email: '' },
+      { name: 'Janice Fritz', title: 'Clerk', phone: '(989) 225-1971', email: '' },
+      { name: 'Teena Chapman', title: 'Treasurer', phone: '(989) 310-6642', email: '' },
+      { name: 'Fred Rosebrugh', title: 'Trustee', phone: '(989) 578-7369', email: '' },
+      { name: 'Jan Thompson', title: 'Trustee', phone: '(989) 473-3376', email: '' }
+    ]
+  },
+  'Ogemaw:Edwards': {
+    name: 'Edwards Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Robert Kowalski', title: 'Supervisor', phone: '(989) 965-2548', email: '' },
+      { name: 'Korey Kripli', title: 'Clerk', phone: '(989) 965-2548', email: '' },
+      { name: 'Eileen Fournier', title: 'Treasurer', phone: '(989) 345-7240', email: '' },
+      { name: 'Dan Zettel', title: 'Trustee', phone: '(989) 965-2548', email: '' }
+    ]
+  },
+  'Ogemaw:Foster': {
+    name: 'Foster Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Dean Coleman', title: 'Supervisor', phone: '(989) 450-1663', email: '' },
+      { name: 'LeAnna Goodrich', title: 'Clerk', phone: '(989) 345-2701', email: '' },
+      { name: 'Colleen Van Goethem', title: 'Treasurer', phone: '(989) 240-7573', email: '' },
+      { name: 'Bob Kaseman', title: 'Trustee', phone: '(703) 472-0076', email: '' },
+      { name: 'Julie Hutchinson', title: 'Trustee', phone: '(989) 345-2799', email: '' }
+    ]
+  },
+  'Ogemaw:Goodar': {
+    name: 'Goodar Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Thomas Czerniak', title: 'Supervisor', phone: '(989) 257-4931', email: '' },
+      { name: 'Larry McNenly', title: 'Clerk', phone: '(989) 257-3835', email: '' },
+      { name: 'Cynthia Weingartz', title: 'Treasurer', phone: '(989) 257-4931', email: '' },
+      { name: 'Robert View', title: 'Trustee', phone: '(989) 257-4931', email: '' },
+      { name: 'Jay Baughman', title: 'Trustee', phone: '(989) 257-3544', email: '' }
+    ]
+  },
+  'Ogemaw:Hill': {
+    name: 'Hill Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Robert Reid', title: 'Supervisor', phone: '(989) 473-4052', email: '' },
+      { name: 'Lorie Williams', title: 'Clerk', phone: '(989) 473-2671', email: '' },
+      { name: 'Ellen Scott', title: 'Treasurer', phone: '(989) 473-2035', email: '' },
+      { name: 'Dale Bortle', title: 'Trustee', phone: '(810) 836-2509', email: '' },
+      { name: 'Melissa Bortle', title: 'Trustee', phone: '(989) 728-5131', email: '' }
+    ]
+  },
+  'Ogemaw:Horton': {
+    name: 'Horton Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Karen Michael', title: 'Supervisor', phone: '(989) 345-8468', email: '' },
+      { name: 'Karen Howard', title: 'Clerk', phone: '(989) 345-2778', email: '' },
+      { name: 'Sara Griffith', title: 'Treasurer', phone: '(989) 965-1704', email: '' },
+      { name: 'Erma Lurvey', title: 'Trustee', phone: '(989) 345-1743', email: '' },
+      { name: 'Mark Lehman', title: 'Trustee', phone: '(989) 345-1743', email: '' }
+    ]
+  },
+  'Ogemaw:Klacking': {
+    name: 'Klacking Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Debra Thomas', title: 'Supervisor', phone: '(989) 329-7069', email: '' },
+      { name: 'Rebecca Ward', title: 'Clerk', phone: '(989) 934-0674', email: '' },
+      { name: 'Carrie Reetz', title: 'Treasurer', phone: '(989) 345-3366', email: '' },
+      { name: 'Lucretia DeRoso', title: 'Trustee', phone: '(989) 345-9130', email: '' },
+      { name: 'Ronald McQuiston', title: 'Trustee', phone: '(989) 390-8606', email: '' }
+    ]
+  },
+  'Ogemaw:Logan': {
+    name: 'Logan Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Kathy David', title: 'Supervisor', phone: '(989) 873-5532', email: '' },
+      { name: 'Nicholas Clark', title: 'Clerk', phone: '(989) 873-5532', email: '' },
+      { name: 'Shirley Parent', title: 'Treasurer', phone: '(989) 820-0623', email: '' },
+      { name: 'Pat Sciotti', title: 'Trustee', phone: '(989) 240-4266', email: '' },
+      { name: 'Caroline Clough', title: 'Trustee', phone: '(989) 873-5532', email: '' }
+    ]
+  },
+  'Ogemaw:Mills': {
+    name: 'Mills Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Bruce Beach', title: 'Supervisor', phone: '(989) 873-4411', email: '' },
+      { name: 'Jackie Allen', title: 'Clerk', phone: '(989) 873-4411', email: '' },
+      { name: 'Mary Moore', title: 'Treasurer', phone: '(989) 873-4411', email: '' },
+      { name: 'Brenda Eymer', title: 'Trustee', phone: '(989) 873-4411', email: '' },
+      { name: 'April Mason', title: 'Trustee', phone: '(989) 578-8768', email: '' }
+    ]
+  },
+  'Ogemaw:Ogemaw': {
+    name: 'Ogemaw Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Bruce Tyree', title: 'Supervisor', phone: '(989) 942-0684', email: '' },
+      { name: 'Tracy Turner', title: 'Clerk', phone: '(989) 345-8732', email: '' },
+      { name: 'Nancy Tyree', title: 'Treasurer', phone: '(231) 675-8599', email: '' },
+      { name: 'Gerlinde Selinski', title: 'Trustee', phone: '(989) 329-0275', email: '' },
+      { name: 'Gary Klacking', title: 'Trustee', phone: '(989) 345-0215', email: '' }
+    ]
+  },
+  'Ogemaw:Richland': {
+    name: 'Richland Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Dale Bronson', title: 'Supervisor', phone: '(989) 873-5133', email: '' },
+      { name: 'Dawn Johnson', title: 'Clerk', phone: '(989) 326-0811', email: '' },
+      { name: 'Ted Matuszak', title: 'Treasurer', phone: '(989) 873-4135', email: '' },
+      { name: 'William Cliff', title: 'Trustee', phone: '(989) 873-4548', email: '' },
+      { name: 'Lee Brown', title: 'Trustee', phone: '(989) 873-4728', email: '' }
+    ]
+  },
+  'Ogemaw:Rose': {
+    name: 'Rose Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Shelley (Dannie) Maleski', title: 'Supervisor', phone: '(989) 685-5636', email: '' },
+      { name: 'April Kangas', title: 'Clerk', phone: '(989) 709-0925', email: '' },
+      { name: 'Pamela McQuarrie', title: 'Treasurer', phone: '(989) 390-5374', email: '' },
+      { name: 'Crystal Harbin', title: 'Trustee', phone: '(989) 473-2001', email: '' },
+      { name: 'Terry Collins', title: 'Trustee', phone: '(989) 473-2001', email: '' }
+    ]
+  },
+  'Ogemaw:West Branch': {
+    name: 'West Branch Township',
+    county: 'Ogemaw',
+    officials: [
+      { name: 'Jim Morris', title: 'Supervisor', phone: '(989) 345-5450 ext. 1', email: '' },
+      { name: 'Jeremy Hickmott', title: 'Clerk', phone: '(989) 345-5450', email: '' },
+      { name: 'Diane Philbrick', title: 'Treasurer', phone: '(989) 345-3815', email: '' },
+      { name: 'Mike Durfee', title: 'Trustee', phone: '(989) 345-5450', email: '' },
+      { name: 'Mike Selinski', title: 'Trustee', phone: '(989) 345-5450', email: '' }
+    ]
+  },
+  'Ontonagon:Bergland': {
+    name: 'Bergland Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Jack Otlewis', title: 'Supervisor', phone: '(906) 575-3522', email: '' },
+      { name: 'Lori Schmidt', title: 'Clerk', phone: '(906) 575-3522', email: '' },
+      { name: 'Susan Barnaby', title: 'Treasurer', phone: '(906) 575-3522', email: '' },
+      { name: 'Jerald Wuorenmaa', title: 'Trustee', phone: '(906) 575-3522', email: '' },
+      { name: 'John Berglund', title: 'Trustee', phone: '(906) 575-3522', email: '' }
+    ]
+  },
+  'Ontonagon:Bohemia': {
+    name: 'Bohemia Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Angie Foley', title: 'Supervisor', phone: '(906) 371-0355', email: '' },
+      { name: 'Nicole DeHaan', title: 'Clerk', phone: '(906) 883-3974', email: '' },
+      { name: 'Carrie Erickson', title: 'Treasurer', phone: '(906) 883-3680', email: '' },
+      { name: 'Brian Taavola', title: 'Trustee', phone: '(906) 288-3188', email: '' },
+      { name: 'Danny Taavola', title: 'Trustee', phone: '(906) 285-0167', email: '' }
+    ]
+  },
+  'Ontonagon:Carp Lake': {
+    name: 'Carp Lake Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Mike Hinrichs', title: 'Supervisor', phone: '(906) 885-5884', email: '' },
+      { name: 'Adoness Turner', title: 'Clerk', phone: '(906) 885-5884', email: '' },
+      { name: 'Doreen Vollmer', title: 'Treasurer', phone: '(906) 885-5884', email: '' },
+      { name: 'Gary Monville', title: 'Trustee', phone: '(906) 885-5884', email: '' },
+      { name: 'Ray Markee', title: 'Trustee', phone: '(906) 885-5884', email: '' }
+    ]
+  },
+  'Ontonagon:Greenland': {
+    name: 'Greenland Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Jennifer Neumann', title: 'Supervisor', phone: '(906) 883-3644', email: '' },
+      { name: 'Corrie Kaarto', title: 'Clerk', phone: '(906) 883-3644', email: '' },
+      { name: 'Katie Carlson-Lynch', title: 'Treasurer', phone: '(906) 883-3644', email: '' },
+      { name: 'Randy Kemppainen', title: 'Trustee', phone: '(906) 883-3693', email: '' },
+      { name: 'Kevin Anttila', title: 'Trustee', phone: '(906) 883-3833', email: '' }
+    ]
+  },
+  'Ontonagon:Haight': {
+    name: 'Haight Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Joseph Pietila', title: 'Supervisor', phone: '(906) 827-3800', email: '' },
+      { name: 'Steve Aho', title: 'Clerk', phone: '(906) 827-3143', email: '' },
+      { name: 'Roxanne Williams', title: 'Treasurer', phone: '(906) 391-0121', email: '' },
+      { name: 'Gerald Mattson', title: 'Trustee', phone: '(906) 852-3217', email: '' },
+      { name: 'Douglas Williams', title: 'Trustee', phone: '(906) 366-0020', email: '' }
+    ]
+  },
+  'Ontonagon:Interior': {
+    name: 'Interior Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Nikki Laitala', title: 'Supervisor', phone: '(906) 852-3415', email: '' },
+      { name: 'Wade Boan', title: 'Clerk', phone: '(906) 852-3415', email: '' },
+      { name: 'Melanie Pelkola', title: 'Treasurer', phone: '(906) 852-3321', email: '' },
+      { name: 'Paul Besonen', title: 'Trustee', phone: '(906) 852-3415', email: '' },
+      { name: 'Kris Peltola', title: 'Trustee', phone: '(906) 852-3415', email: '' }
+    ]
+  },
+  'Ontonagon:Matchwood': {
+    name: 'Matchwood Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Neil Wagner', title: 'Supervisor', phone: '(906) 575-3455', email: '' },
+      { name: 'Gerald Kitzman', title: 'Clerk', phone: '(906) 575-3455', email: '' },
+      { name: 'Lorraine Warsop', title: 'Treasurer', phone: '(906) 250-1278', email: '' },
+      { name: 'Barbara Powell', title: 'Trustee', phone: '(906) 575-3455', email: '' },
+      { name: 'Laura Stewart', title: 'Trustee', phone: '(906) 575-3455', email: '' }
+    ]
+  },
+  'Ontonagon:McMillan': {
+    name: 'McMillan Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Daniel Staff', title: 'Supervisor', phone: '(906) 988-2240', email: '' },
+      { name: 'Kay Richter', title: 'Clerk', phone: '(906) 988-2240', email: '' },
+      { name: 'Jacqueline Pintar', title: 'Treasurer', phone: '(906) 988-2240', email: '' },
+      { name: 'Mike Urbis', title: 'Trustee', phone: '(906) 988-2240', email: '' },
+      { name: 'Mark Voigt', title: 'Trustee', phone: '(906) 988-2240', email: '' }
+    ]
+  },
+  'Ontonagon:Ontonagon': {
+    name: 'Ontonagon Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Steven Store', title: 'Supervisor', phone: '(906) 390-6336', email: '' },
+      { name: 'Pam Chabot', title: 'Clerk', phone: '(906) 884-2415', email: '' },
+      { name: 'Deborah Miles', title: 'Treasurer', phone: '(906) 884-2415', email: '' },
+      { name: 'Dennis O\'Brien', title: 'Trustee', phone: '(906) 884-2415', email: '' },
+      { name: 'Kayln Store', title: 'Trustee', phone: '(906) 884-2415', email: '' }
+    ]
+  },
+  'Ontonagon:Rockland': {
+    name: 'Rockland Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Charles Mott', title: 'Supervisor', phone: '(906) 886-2652', email: '' },
+      { name: 'Brittany Preiss', title: 'Clerk', phone: '(906) 886-2652', email: '' },
+      { name: 'Patty Mott', title: 'Treasurer', phone: '(906) 886-2652', email: '' },
+      { name: 'Charles Pantti', title: 'Trustee', phone: '(906) 886-2652', email: '' },
+      { name: 'Rebecca Pantti', title: 'Trustee', phone: '(906) 886-2652', email: '' }
+    ]
+  },
+  'Ontonagon:Stannard': {
+    name: 'Stannard Township',
+    county: 'Ontonagon',
+    officials: [
+      { name: 'Gabriel Lannet', title: 'Supervisor', phone: '(906) 827-3778', email: '' },
+      { name: 'Crystal Smith', title: 'Clerk', phone: '(906) 827-3778', email: '' },
+      { name: 'Jody Hardes', title: 'Treasurer', phone: '(906) 827-3778', email: '' },
+      { name: 'Kirk Schott', title: 'Trustee', phone: '(906) 827-3778', email: '' }
+    ]
+  },
+  'Osceola:Burdell': {
+    name: 'Burdell Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Dean Molnar', title: 'Supervisor', phone: '(231) 829-4049 ext. Ext. 5', email: '' },
+      { name: 'Nicole Sikkema', title: 'Clerk', phone: '(231) 829-4049', email: '' },
+      { name: 'Mary E Holmes', title: 'Treasurer', phone: '(231) 829-4049 ext. Ext   2', email: '' },
+      { name: 'Donna Molnar', title: 'Trustee', phone: '(231) 829-4049', email: '' },
+      { name: 'Ted Mattson', title: 'Trustee', phone: '(231) 829-4049', email: '' }
+    ]
+  },
+  'Osceola:Cedar': {
+    name: 'Cedar Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Cynthia Gadbois', title: 'Supervisor', phone: '(231) 342-5677', email: '' },
+      { name: 'Mary Clark', title: 'Clerk', phone: '(231) 832-9343', email: '' },
+      { name: 'Heather Battle', title: 'Treasurer', phone: '(231) 679-4764', email: '' },
+      { name: 'Edward Lundborg', title: 'Trustee', phone: '(231) 342-4553', email: '' },
+      { name: 'Kim Cool', title: 'Trustee', phone: '(231) 775-1361', email: '' }
+    ]
+  },
+  'Osceola:Evart': {
+    name: 'Evart Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Doug Derscheid', title: 'Supervisor', phone: '(231) 679-4470', email: '' },
+      { name: 'Denise Custer', title: 'Clerk', phone: '(231) 679-4470', email: '' },
+      { name: 'Martha Hartman', title: 'Treasurer', phone: '(231) 734-3426', email: '' },
+      { name: 'Stephen Campbell', title: 'Trustee', phone: '(231) 734-2651', email: '' },
+      { name: 'Aaron Maney', title: 'Trustee', phone: '(231) 250-5268', email: '' }
+    ]
+  },
+  'Osceola:Hartwick': {
+    name: 'Hartwick Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Randy VanBuren', title: 'Supervisor', phone: '(231) 846-1290', email: '' },
+      { name: 'Shelley Muczynski', title: 'Clerk', phone: '(231) 250-1548', email: '' },
+      { name: 'Mike Ritzer', title: 'Treasurer', phone: '(231) 465-1752', email: '' },
+      { name: 'Bill Davis', title: 'Trustee', phone: '(231) 743-6298', email: '' },
+      { name: 'Jeffrey Neuman', title: 'Trustee', phone: '(231) 743-2939', email: '' }
+    ]
+  },
+  'Osceola:Hersey': {
+    name: 'Hersey Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Marco Menezes', title: 'Supervisor', phone: '(231) 250-6344', email: '' },
+      { name: 'Jennifer Verdi-Stieg', title: 'Clerk', phone: '(231) 872-5396', email: '' },
+      { name: 'Susan Martinez', title: 'Treasurer', phone: '(231) 832-0876', email: '' },
+      { name: 'Diane Leichty', title: 'Trustee', phone: '(231) 832-1301', email: '' },
+      { name: 'Rene Stieg', title: 'Trustee', phone: '(231) 912-1731', email: '' }
+    ]
+  },
+  'Osceola:Highland': {
+    name: 'Highland Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Derek Wing', title: 'Supervisor', phone: '(231) 667-0233', email: '' },
+      { name: 'Larissa Avery', title: 'Clerk', phone: '(231) 388-0321', email: '' },
+      { name: 'Tricia Wing', title: 'Treasurer', phone: '(231) 388-2771', email: '' },
+      { name: 'Greg Hesselink', title: 'Trustee', phone: '(231) 388-0321', email: '' },
+      { name: 'Jed Avery', title: 'Trustee', phone: '(231) 388-0321', email: '' }
+    ]
+  },
+  'Osceola:Le Roy': {
+    name: 'Le Roy Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Anja Wing', title: 'Supervisor', phone: '(231) 580-7953', email: '' },
+      { name: 'Stacie Dvonch', title: 'Clerk', phone: '(231) 912-1522', email: '' },
+      { name: 'Lori Leudeman', title: 'Treasurer', phone: '(231) 768-4024', email: '' },
+      { name: 'Dale Ruppert', title: 'Trustee', phone: '(231) 768-4060', email: '' },
+      { name: 'Daniel Cool', title: 'Trustee', phone: '(231) 768-4060', email: '' }
+    ]
+  },
+  'Osceola:Lincoln': {
+    name: 'Lincoln Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Mark Brock', title: 'Supervisor', phone: '(231) 884-4973', email: '' },
+      { name: 'Sherry Blackrick', title: 'Clerk', phone: '(231) 388-4974', email: '' },
+      { name: 'Brooklyn Cubitt', title: 'Treasurer', phone: '(231) 832-9479', email: '' },
+      { name: 'Rachel Killingbeck', title: 'Trustee', phone: '(231) 287-6423', email: '' },
+      { name: 'Kathaleen Yost', title: 'Trustee', phone: '(231) 590-5805', email: '' }
+    ]
+  },
+  'Osceola:Marion': {
+    name: 'Marion Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Doug Bontekoe', title: 'Supervisor', phone: '(231) 878-8467', email: '' },
+      { name: 'Connie Zuiderveen', title: 'Clerk', phone: '(231) 388-0874', email: '' },
+      { name: 'Joyce Mayle', title: 'Treasurer', phone: '(231) 743-4450', email: '' },
+      { name: 'Shannon Carmody', title: 'Trustee', phone: '(231) 667-0671', email: '' },
+      { name: 'Rose Ballow', title: 'Trustee', phone: '(231) 846-1237', email: '' }
+    ]
+  },
+  'Osceola:Middle Branch': {
+    name: 'Middle Branch Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Glenn Wilson', title: 'Supervisor', phone: '(248) 533-2522', email: '' },
+      { name: 'Richielene Beebe', title: 'Clerk', phone: '(231) 884-6768', email: '' },
+      { name: 'Patricia Michell', title: 'Treasurer', phone: '(231) 743-6636', email: '' },
+      { name: 'Sarah Blackledge', title: 'Trustee', phone: '(231) 734-2959', email: '' },
+      { name: 'Bruce Tower', title: 'Trustee', phone: '(231) 743-6994', email: '' }
+    ]
+  },
+  'Osceola:Orient': {
+    name: 'Orient Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Matt Tiedt', title: 'Supervisor', phone: '(231) 250-3649', email: '' },
+      { name: 'Mark Sochocki', title: 'Clerk', phone: '(231) 250-3454', email: '' },
+      { name: 'Sue Morgan', title: 'Treasurer', phone: '(231) 734-2790', email: '' },
+      { name: 'Gary Earnest', title: 'Trustee', phone: '(989) 544-9676', email: '' },
+      { name: 'Ryan Keathley', title: 'Trustee', phone: '(231) 250-3454', email: '' }
+    ]
+  },
+  'Osceola:Osceola': {
+    name: 'Osceola Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Tim Ladd', title: 'Supervisor', phone: '(231) 250-3224', email: '' },
+      { name: 'Jenny Rounds', title: 'Clerk', phone: '(231) 515-2016', email: '' },
+      { name: 'Martin Nieman', title: 'Treasurer', phone: '(231) 734-3553', email: '' },
+      { name: 'Connie Holmes', title: 'Trustee', phone: '(231) 349-9707', email: '' },
+      { name: 'Sherri Bancrocft', title: 'Trustee', phone: '(231) 515-2016', email: '' }
+    ]
+  },
+  'Osceola:Richmond': {
+    name: 'Richmond Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Maynard Bluhm', title: 'Supervisor', phone: '(231) 349-0680', email: '' },
+      { name: 'Linda Stieg', title: 'Clerk', phone: '(231) 631-4284', email: '' },
+      { name: 'Carrolin Ruppert', title: 'Treasurer', phone: '(231) 342-8137', email: '' },
+      { name: 'Ed Galloup', title: 'Trustee', phone: '(231) 832-3600', email: '' },
+      { name: 'John Woods', title: 'Trustee', phone: '(231) 629-1760', email: '' }
+    ]
+  },
+  'Osceola:Rose Lake': {
+    name: 'Rose Lake Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Morris Langworthy', title: 'Supervisor', phone: '(231) 388-0915', email: '' },
+      { name: 'Vicky Schaefer', title: 'Clerk', phone: '(231) 388-1782', email: '' },
+      { name: 'Patty Gregory', title: 'Treasurer', phone: '(231) 768-4383', email: '' },
+      { name: 'Karrie Maes', title: 'Trustee', phone: '(231) 768-4451', email: '' },
+      { name: 'Franklin Proctor', title: 'Trustee', phone: '(231) 388-3700', email: '' }
+    ]
+  },
+  'Osceola:Sherman': {
+    name: 'Sherman Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'David Eggle', title: 'Supervisor', phone: '(231) 878-1269', email: '' },
+      { name: 'Bethany Bolduc', title: 'Clerk', phone: '(231) 829-3707', email: '' },
+      { name: 'Sharon Black', title: 'Treasurer', phone: '(231) 829-3826', email: '' },
+      { name: 'Dave Johns', title: 'Trustee', phone: '(231) 829-3611', email: '' }
+    ]
+  },
+  'Osceola:Sylvan': {
+    name: 'Sylvan Township',
+    county: 'Osceola',
+    officials: [
+      { name: 'Angela Moore', title: 'Supervisor', phone: '(231) 734-2304', email: '' },
+      { name: 'Terry Pritchard', title: 'Clerk', phone: '(231) 645-9016', email: '' },
+      { name: 'Angela Reagan', title: 'Treasurer', phone: '(231) 878-6998', email: '' },
+      { name: 'Sheila Robinson', title: 'Trustee', phone: '(231) 734-9181', email: '' },
+      { name: 'Jeffrey Reagan', title: 'Trustee', phone: '(231) 878-0357', email: '' }
+    ]
+  },
+  'Oscoda:Big Creek': {
+    name: 'Big Creek Township',
+    county: 'Oscoda',
+    officials: [
+      { name: 'James Booth', title: 'Supervisor', phone: '(989) 826-5992', email: '' },
+      { name: 'Lori Wyman', title: 'Clerk', phone: '(989) 826-5992', email: '' },
+      { name: 'Susan Avery', title: 'Treasurer', phone: '(989) 826-5992', email: '' },
+      { name: 'Debbie Coulon', title: 'Trustee', phone: '(989) 826-5992', email: '' },
+      { name: 'Erwin Ecker', title: 'Trustee', phone: '(989) 826-5992', email: '' }
+    ]
+  },
+  'Oscoda:Clinton': {
+    name: 'Clinton Township',
+    county: 'Oscoda',
+    officials: [
+      { name: 'Christopher Neff', title: 'Supervisor', phone: '(989) 848-5780', email: '' },
+      { name: 'Kurt Lunning', title: 'Clerk', phone: '(989) 848-8138', email: '' },
+      { name: 'Dawn Larrison', title: 'Treasurer', phone: '(989) 619-1301', email: '' },
+      { name: 'Violet Kalbfleisch', title: 'Trustee', phone: '(989) 390-2183', email: '' },
+      { name: 'Lisa Force', title: 'Trustee', phone: '(989) 848-8138', email: '' }
+    ]
+  },
+  'Oscoda:Comins': {
+    name: 'Comins Township',
+    county: 'Oscoda',
+    officials: [
+      { name: 'Lori Lewis', title: 'Supervisor', phone: '(989) 848-5811', email: '' },
+      { name: 'Amanda Barajas', title: 'Clerk', phone: '(989) 848-5811', email: '' },
+      { name: 'Kevin Salsbury', title: 'Treasurer', phone: '(989) 848-5811', email: '' },
+      { name: 'Blake Snyder', title: 'Trustee', phone: '(989) 848-5811', email: '' }
+    ]
+  },
+  'Oscoda:Elmer': {
+    name: 'Elmer Township',
+    county: 'Oscoda',
+    officials: [
+      { name: 'Martin Galbraith', title: 'Supervisor', phone: '(989) 826-3793', email: '' },
+      { name: 'Michelle Hoffman', title: 'Clerk', phone: '(989) 826-3451', email: '' },
+      { name: 'Jenni Layman', title: 'Treasurer', phone: '(989) 826-3451', email: '' },
+      { name: 'Sue Stenson', title: 'Trustee', phone: '(989) 826-3451', email: '' },
+      { name: 'Chad Margita', title: 'Trustee', phone: '(989) 826-3451', email: '' }
+    ]
+  },
+  'Oscoda:Greenwood': {
+    name: 'Greenwood Township',
+    county: 'Oscoda',
+    officials: [
+      { name: 'Fredrick Lindsey', title: 'Supervisor', phone: '(989) 786-7872', email: '' },
+      { name: 'Amy Lake', title: 'Clerk', phone: '(989) 786-7872', email: '' },
+      { name: 'Diane Bissonette', title: 'Treasurer', phone: '(989) 786-7872', email: '' },
+      { name: 'Brandon Watson', title: 'Trustee', phone: '(989) 786-7872', email: '' },
+      { name: 'Annette Chalmers', title: 'Trustee', phone: '(989) 350-2035', email: '' }
+    ]
+  },
+  'Oscoda:Mentor': {
+    name: 'Mentor Township',
+    county: 'Oscoda',
+    officials: [
+      { name: 'Scott Lawrence', title: 'Supervisor', phone: '(989) 826-5414', email: '' },
+      { name: 'Stephanie Hall', title: 'Clerk', phone: '(989) 745-5775', email: '' },
+      { name: 'Joan Trim', title: 'Treasurer', phone: '(989) 826-5414', email: '' },
+      { name: 'Sherri Marble', title: 'Trustee', phone: '(989) 826-5414', email: '' },
+      { name: 'Aleasha Fehler', title: 'Trustee', phone: '(989) 826-5414', email: '' }
+    ]
+  },
+  'Otsego:Bagley': {
+    name: 'Bagley Township',
+    county: 'Otsego',
+    officials: [
+      { name: 'Michelle Noirot', title: 'Supervisor', phone: '(989) 732-5924', email: '' },
+      { name: 'Colleen Gelow', title: 'Clerk', phone: '(989) 732-5924', email: '' },
+      { name: 'Celeste Szymanski', title: 'Treasurer', phone: '(989) 732-5924', email: '' },
+      { name: 'James Szymanski', title: 'Trustee', phone: '(989) 350-3957', email: '' },
+      { name: 'John Hendrickson', title: 'Trustee', phone: '(989) 732-5924', email: '' }
+    ]
+  },
+  'Otsego:Charlton': {
+    name: 'Charlton Township',
+    county: 'Otsego',
+    officials: [
+      { name: 'Matthew Nowak', title: 'Supervisor', phone: '(989) 786-5518', email: '' },
+      { name: 'George Pewinski', title: 'Clerk', phone: '(989) 731-1920', email: '' },
+      { name: 'Kimberly Samkowiak', title: 'Treasurer', phone: '(989) 786-2309', email: '' },
+      { name: 'Michael McCarthy', title: 'Trustee', phone: '(989) 732-1920', email: '' },
+      { name: 'R. Keith Huff', title: 'Trustee', phone: '(989) 732-3180', email: '' }
+    ]
+  },
+  'Otsego:Chester': {
+    name: 'Chester Township',
+    county: 'Otsego',
+    officials: [
+      { name: 'Bonny Miller', title: 'Supervisor', phone: '(989) 732-5886', email: '' },
+      { name: 'Melissa Szymanski', title: 'Clerk', phone: '(989) 731-5526', email: '' },
+      { name: 'Katherine Miller', title: 'Treasurer', phone: '(989) 732-5886', email: '' },
+      { name: 'Preston Casselman', title: 'Trustee', phone: '(989) 732-5886', email: '' },
+      { name: 'Elizabeth Smith', title: 'Trustee', phone: '(989) 350-8717', email: '' }
+    ]
+  },
+  'Otsego:Corwith': {
+    name: 'Corwith Township',
+    county: 'Otsego',
+    officials: [
+      { name: 'Vernon Kassuba', title: 'Supervisor', phone: '(989) 983-3993', email: '' },
+      { name: 'Debbie Whitman', title: 'Clerk', phone: '(989) 619-6943', email: '' },
+      { name: 'Lori Bush', title: 'Treasurer', phone: '(989) 983-2865', email: '' },
+      { name: 'Patrick Coultes', title: 'Trustee', phone: '(989) 370-1372', email: '' },
+      { name: 'Tom Kellogg', title: 'Trustee', phone: '(989) 983-2865', email: '' }
+    ]
+  },
+  'Otsego:Dover': {
+    name: 'Dover Township',
+    county: 'Otsego',
+    officials: [
+      { name: 'Rudi Edel', title: 'Supervisor', phone: '(989) 350-1268', email: '' },
+      { name: 'Janet Kwapis', title: 'Clerk', phone: '(989) 732-1223', email: '' },
+      { name: 'Theresa Taskey', title: 'Treasurer', phone: '(989) 732-1223', email: '' },
+      { name: 'Rebecca House', title: 'Trustee', phone: '(989) 732-4480', email: '' },
+      { name: 'Trevor Boughner', title: 'Trustee', phone: '(989) 732-1223', email: '' }
+    ]
+  },
+  'Otsego:Elmira': {
+    name: 'Elmira Township',
+    county: 'Otsego',
+    officials: [
+      { name: 'Diane Franckowiak', title: 'Supervisor', phone: '(989) 942-7285', email: '' },
+      { name: 'Susan Schaedig', title: 'Clerk', phone: '(989) 732-2920', email: '' },
+      { name: 'Diane Purgiel', title: 'Treasurer', phone: '(989) 732-9702', email: '' },
+      { name: 'Dale Holzschu', title: 'Trustee', phone: '(989) 858-3501', email: '' },
+      { name: 'Jessica Henke', title: 'Trustee', phone: '(989) 619-8195', email: '' }
+    ]
+  },
+  'Otsego:Hayes': {
+    name: 'Hayes Township',
+    county: 'Otsego',
+    officials: [
+      { name: 'Richard Ross', title: 'Clerk', phone: '(989) 732-9576', email: '' },
+      { name: 'Jessie Geiger', title: 'Treasurer', phone: '(231) 585-7184', email: '' },
+      { name: 'Brad Kilbourn', title: 'Trustee', phone: '(989) 858-0855', email: '' },
+      { name: 'Lisa Daly', title: 'Trustee', phone: '(989) 614-1370', email: '' }
+    ]
+  },
+  'Otsego:Livingston': {
+    name: 'Livingston Township',
+    county: 'Otsego',
+    officials: [
+      { name: 'Norm Brecheisen', title: 'Supervisor', phone: '(989) 732-7688', email: '' },
+      { name: 'Elizabeth Mench', title: 'Clerk', phone: '(989) 390-0791', email: '' },
+      { name: 'Cheryl Prusakiewicz', title: 'Treasurer', phone: '(989) 732-3309', email: '' },
+      { name: 'Steve Dipzinski', title: 'Trustee', phone: '(989) 732-3515', email: '' },
+      { name: 'James Vanderveer', title: 'Trustee', phone: '(989) 858-2088', email: '' }
+    ]
+  },
+  'Otsego:Otsego Lake': {
+    name: 'Otsego Lake Township',
+    county: 'Otsego',
+    officials: [
+      { name: 'Dave Matelski', title: 'Supervisor', phone: '(989) 732-6929', email: '' },
+      { name: 'Mary Brown', title: 'Clerk', phone: '(989) 350-8289', email: '' },
+      { name: 'Jerry Brown', title: 'Treasurer', phone: '(989) 614-0461', email: '' }
+    ]
+  },
+  'Ottawa:Allendale': {
+    name: 'Allendale charter Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Adam Elenbaas', title: 'Supervisor', phone: '(616) 895-6295', email: '' },
+      { name: 'Jody Hansen', title: 'Clerk', phone: '(616) 895-6295', email: '' },
+      { name: 'David Vander Wall', title: 'Treasurer', phone: '(616) 895-6295', email: '' },
+      { name: 'Bruce Zeinstra', title: 'Trustee', phone: '(616) 895-6295', email: '' },
+      { name: 'Kris Schuitema', title: 'Trustee', phone: '(616) 895-6295', email: '' },
+      { name: 'Ken Smit', title: 'Trustee', phone: '(616) 895-6295', email: '' }
+    ]
+  },
+  'Ottawa:Blendon': {
+    name: 'Blendon Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Donald Vander Kuyl', title: 'Supervisor', phone: '(616) 875-7707', email: '' },
+      { name: 'Robin Overway', title: 'Clerk', phone: '(616) 875-7707', email: '' },
+      { name: 'Steve O\'Connell', title: 'Treasurer', phone: '(616) 875-7707', email: '' },
+      { name: 'Jeffrey Meyer', title: 'Trustee', phone: '(616) 875-7707', email: '' },
+      { name: 'Trisha Henderson', title: 'Trustee', phone: '(616) 875-7707 ext. 27', email: '' }
+    ]
+  },
+  'Ottawa:Chester': {
+    name: 'Chester Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Troy Goodno', title: 'Supervisor', phone: '(616) 558-8073', email: '' },
+      { name: 'Helen Dietrich', title: 'Clerk', phone: '(616) 899-5544', email: '' },
+      { name: 'Lisa Denhof', title: 'Treasurer', phone: '(616) 899-5544', email: '' },
+      { name: 'Michael Dunnuck', title: 'Trustee', phone: '(616) 899-5544', email: '' },
+      { name: 'Dale Fedewa', title: 'Trustee', phone: '(616) 899-5544', email: '' }
+    ]
+  },
+  'Ottawa:Crockery': {
+    name: 'Crockery Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Erik Erhorn', title: 'Supervisor', phone: '(616) 837-6868', email: '' },
+      { name: 'Kathy Buchanan', title: 'Clerk', phone: '(616) 837-6868', email: '' },
+      { name: 'Judith VanBemmelen', title: 'Treasurer', phone: '(616) 837-6868', email: '' },
+      { name: 'Rich Suchecki', title: 'Trustee', phone: '(616) 837-6868', email: '' },
+      { name: 'Ryan Kelly', title: 'Trustee', phone: '(616) 837-6868', email: '' }
+    ]
+  },
+  'Ottawa:Georgetown': {
+    name: 'Georgetown charter Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Jim Wierenga', title: 'Supervisor', phone: '(616) 457-2340', email: '' },
+      { name: 'Kelly Kuiper', title: 'Clerk', phone: '(616) 457-2340', email: '' },
+      { name: 'Gene DeWitt', title: 'Treasurer', phone: '(616) 457-2340', email: '' },
+      { name: 'John Schwalm', title: 'Trustee', phone: '(616) 457-1628', email: '' },
+      { name: 'Gary Veldink', title: 'Trustee', phone: '(616) 457-2340', email: '' },
+      { name: 'Amy Grasman', title: 'Trustee', phone: '(616) 457-2340', email: '' },
+      { name: 'Kevin Kelly', title: 'Trustee', phone: '(616) 457-2340', email: '' }
+    ]
+  },
+  'Ottawa:Grand Haven': {
+    name: 'Grand Haven charter Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Mark Reenders', title: 'Supervisor', phone: '(616) 842-5988', email: '' },
+      { name: 'Laurie Larsen', title: 'Clerk', phone: '(616) 842-5988', email: '' },
+      { name: 'William Kieft', title: 'Treasurer', phone: '(616) 842-5988', email: '' },
+      { name: 'Howard Behm', title: 'Trustee', phone: '(616) 842-5988', email: '' },
+      { name: 'Bob Wagenmaker', title: 'Trustee', phone: '(616) 842-5988', email: '' },
+      { name: 'Joy Gaasch', title: 'Trustee', phone: '(616) 842-5988', email: '' },
+      { name: 'Andrea Dumbrell', title: 'Trustee', phone: '(616) 842-5988', email: '' }
+    ]
+  },
+  'Ottawa:Holland': {
+    name: 'Holland charter Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Russell Te Slaa', title: 'Supervisor', phone: '(616) 396-2345', email: '' },
+      { name: 'Michael Dalman', title: 'Clerk', phone: '(616) 396-2345', email: '' },
+      { name: 'Vincent Bush', title: 'Treasurer', phone: '(616) 396-2345', email: '' },
+      { name: 'Elliott Church', title: 'Trustee', phone: '(616) 396-2345', email: '' },
+      { name: 'Gretchen Westerhoff-Molotky', title: 'Trustee', phone: '(616) 396-2345', email: '' },
+      { name: 'Dave DeYoung', title: 'Trustee', phone: '(616) 396-2345', email: '' },
+      { name: 'Terry Nienhuis', title: 'Trustee', phone: '(616) 396-2345', email: '' }
+    ]
+  },
+  'Ottawa:Jamestown': {
+    name: 'Jamestown charter Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Laurie Van Haitsma', title: 'Supervisor', phone: '(616) 896-8376', email: '' },
+      { name: 'Candy DeHaan', title: 'Clerk', phone: '(616) 896-8376', email: '' },
+      { name: 'Scott Brouwer', title: 'Treasurer', phone: '(616) 896-8376', email: '' },
+      { name: 'Tim Tacoma', title: 'Trustee', phone: '(616) 896-7164', email: '' },
+      { name: 'Ben Miller', title: 'Trustee', phone: '(616) 240-4381', email: '' },
+      { name: 'Wade Windemuller', title: 'Trustee', phone: '(616) 896-8376', email: '' },
+      { name: 'Thomas Wolfert', title: 'Trustee', phone: '(616) 896-8376', email: '' }
+    ]
+  },
+  'Ottawa:Olive': {
+    name: 'Olive Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Al Nienhuis', title: 'Supervisor', phone: '(616) 786-9996', email: '' },
+      { name: 'Lona Bronkema', title: 'Clerk', phone: '(616) 786-9996', email: '' },
+      { name: 'Randy Vander Zwaag', title: 'Treasurer', phone: '(616) 875-8324', email: '' },
+      { name: 'Matt Nienhuis', title: 'Trustee', phone: '(616) 786-9996', email: '' },
+      { name: 'Dan Raak', title: 'Trustee', phone: '(616) 786-9996', email: '' }
+    ]
+  },
+  'Ottawa:Park': {
+    name: 'Park Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Steve Spoelhof', title: 'Supervisor', phone: '(616) 399-4520', email: '' },
+      { name: 'Joan Zeerip', title: 'Clerk', phone: '(616) 399-4520', email: '' },
+      { name: 'Jan Steggerda', title: 'Treasurer', phone: '(616) 738-4236', email: '' },
+      { name: 'Loran Serne', title: 'Trustee', phone: '(616) 430-7517', email: '' },
+      { name: 'Bryan Jones', title: 'Trustee', phone: '(616) 399-4520', email: '' },
+      { name: 'Jim Gerard', title: 'Trustee', phone: '(616) 738-4232', email: '' },
+      { name: 'Shar Clark', title: 'Trustee', phone: '(616) 399-4520', email: '' }
+    ]
+  },
+  'Ottawa:Polkton': {
+    name: 'Polkton charter Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Ted Costigan', title: 'Supervisor', phone: '(616) 837-6876', email: '' },
+      { name: 'Jamie TenBrink', title: 'Clerk', phone: '(616) 837-6876', email: '' },
+      { name: 'Robin Liszewski', title: 'Treasurer', phone: '(616) 837-6876', email: '' },
+      { name: 'David Biller', title: 'Trustee', phone: '(616) 837-6876', email: '' },
+      { name: 'Jesse Meerman', title: 'Trustee', phone: '(616) 837-6876', email: '' },
+      { name: 'Betsy Meerman', title: 'Trustee', phone: '(616) 837-6876', email: '' }
+    ]
+  },
+  'Ottawa:Port Sheldon': {
+    name: 'Port Sheldon Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Mike Sabatino', title: 'Supervisor', phone: '(616) 399-6121', email: '' },
+      { name: 'Meredith Hemmeke', title: 'Clerk', phone: '(616) 399-6121', email: '' },
+      { name: 'Rachel Frantom', title: 'Treasurer', phone: '(616) 399-6121', email: '' },
+      { name: 'Bill Monhollon', title: 'Trustee', phone: '(616) 399-3967', email: '' },
+      { name: 'Lucas DeVries', title: 'Trustee', phone: '(616) 566-1410 ext. 6165661410', email: '' }
+    ]
+  },
+  'Ottawa:Robinson': {
+    name: 'Robinson Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Adam MacMillan', title: 'Supervisor', phone: '(616) 846-2210', email: '' },
+      { name: 'Victoria Sund', title: 'Clerk', phone: '(616) 846-2210', email: '' },
+      { name: 'Jamie Tubergen', title: 'Treasurer', phone: '(616) 846-2210', email: '' },
+      { name: 'Ben Ipema', title: 'Trustee', phone: '(616) 846-2210', email: '' },
+      { name: 'Steve Ambrose', title: 'Trustee', phone: '(616) 846-2210', email: '' }
+    ]
+  },
+  'Ottawa:Spring Lake': {
+    name: 'Spring Lake Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Jerry Rabideau', title: 'Supervisor', phone: '(616) 844-2101', email: '' },
+      { name: 'Cathy Pavick', title: 'Clerk', phone: '(616) 844-2101', email: '' },
+      { name: 'Jim Koster', title: 'Treasurer', phone: '(616) 638-0291', email: '' },
+      { name: 'Ande Scherf', title: 'Trustee', phone: '(616) 844-2101', email: '' },
+      { name: 'Molly Ziegler', title: 'Trustee', phone: '(616) 844-2101', email: '' },
+      { name: 'Jack Schroeder', title: 'Trustee', phone: '(616) 844-2101', email: '' },
+      { name: 'Christopher Estes', title: 'Trustee', phone: '(616) 844-2101', email: '' }
+    ]
+  },
+  'Ottawa:Tallmadge': {
+    name: 'Tallmadge charter Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Mark Bennett', title: 'Supervisor', phone: '(616) 677-1248', email: '' },
+      { name: 'Karina Rollenhagen', title: 'Clerk', phone: '(616) 677-1248', email: '' },
+      { name: 'Valdyne Schwallier', title: 'Treasurer', phone: '(616) 677-1248', email: '' },
+      { name: 'Michael Eppink', title: 'Trustee', phone: '(616) 677-1248', email: '' },
+      { name: 'Joel Terpstra', title: 'Trustee', phone: '(616) 677-1248', email: '' },
+      { name: 'Kent Bollinger', title: 'Trustee', phone: '(616) 677-1248', email: '' },
+      { name: 'Arlen Bronkema', title: 'Trustee', phone: '(616) 677-1248', email: '' }
+    ]
+  },
+  'Ottawa:Wright': {
+    name: 'Wright Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Steve VanTimmeren', title: 'Supervisor', phone: '(616) 677-3048', email: '' },
+      { name: 'Theresa Frank', title: 'Clerk', phone: '(616) 677-3048 ext. 102', email: '' },
+      { name: 'Sharyl Dietrich', title: 'Treasurer', phone: '(616) 677-3048', email: '' },
+      { name: 'Brad Anderson', title: 'Trustee', phone: '(616) 677-3048', email: '' },
+      { name: 'Rick Schoenborn', title: 'Trustee', phone: '(616) 677-3048', email: '' }
+    ]
+  },
+  'Ottawa:Zeeland': {
+    name: 'Zeeland charter Township',
+    county: 'Ottawa',
+    officials: [
+      { name: 'Thomas Oonk', title: 'Supervisor', phone: '(616) 772-6701', email: '' },
+      { name: 'Brian VanDussen', title: 'Clerk', phone: '(616) 772-6701', email: '' },
+      { name: 'Melissa Veldheer', title: 'Treasurer', phone: '(616) 772-6701 ext. 110', email: '' },
+      { name: 'Jeff Salisbury', title: 'Trustee', phone: '(616) 772-6701', email: '' },
+      { name: 'Kerri Bosma', title: 'Trustee', phone: '(616) 772-6701', email: '' },
+      { name: 'Dave Barry', title: 'Trustee', phone: '(616) 772-6701', email: '' },
+      { name: 'Scott Beute', title: 'Trustee', phone: '(616) 772-6701', email: '' }
+    ]
+  },
+  'Presque Isle:Allis': {
+    name: 'Allis Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Rich Nash', title: 'Supervisor', phone: '(989) 306-3097', email: '' },
+      { name: 'Teresa Splan', title: 'Clerk', phone: '(989) 733-2144', email: '' },
+      { name: 'Dave Schmoldt', title: 'Treasurer', phone: '(989) 733-2144', email: '' },
+      { name: 'Mark Dean', title: 'Trustee', phone: '(989) 733-2347', email: '' },
+      { name: 'Trevor Most', title: 'Trustee', phone: '(989) 619-3818', email: '' }
+    ]
+  },
+  'Presque Isle:Bearinger': {
+    name: 'Bearinger Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Cheryl Watt', title: 'Supervisor', phone: '(989) 938-6515', email: '' },
+      { name: 'Frances Kline', title: 'Clerk', phone: '(248) 933-9373', email: '' },
+      { name: 'James Watt', title: 'Treasurer', phone: '(989) 938-6258', email: '' },
+      { name: 'Lee Stawiarski', title: 'Trustee', phone: '(989) 938-6490', email: '' }
+    ]
+  },
+  'Presque Isle:Belknap': {
+    name: 'Belknap Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Toby Kuznicki', title: 'Supervisor', phone: '(989) 734-4484', email: '' },
+      { name: 'Danielle Wirgau', title: 'Clerk', phone: '(989) 884-1634', email: '' },
+      { name: 'Candy Peltz', title: 'Treasurer', phone: '(989) 370-8413', email: '' },
+      { name: 'Robert Hopp', title: 'Trustee', phone: '(989) 734-4539', email: '' },
+      { name: 'Justin Schalk', title: 'Trustee', phone: '(989) 884-1634', email: '' }
+    ]
+  },
+  'Presque Isle:Bismarck': {
+    name: 'Bismarck Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Lloyd Dullack', title: 'Supervisor', phone: '(989) 734-2625', email: '' },
+      { name: 'Shelby Schwiesow', title: 'Clerk', phone: '(989) 734-2625', email: '' },
+      { name: 'Scott Cordes', title: 'Treasurer', phone: '(989) 734-7012', email: '' },
+      { name: 'Jeffrey Prell', title: 'Trustee', phone: '(989) 766-8832', email: '' },
+      { name: 'Russ Martin', title: 'Trustee', phone: '(989) 734-2625', email: '' }
+    ]
+  },
+  'Presque Isle:Case': {
+    name: 'Case Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Lisa Pochmara', title: 'Supervisor', phone: '(989) 370-8641', email: '' },
+      { name: 'Erin Leach', title: 'Clerk', phone: '(866) 833-1801', email: '' },
+      { name: 'Charles Lewis', title: 'Treasurer', phone: '(989) 733-8899', email: '' },
+      { name: 'Wendy Brooks', title: 'Trustee', phone: '(989) 733-5005', email: '' },
+      { name: 'Luke Ellenberger', title: 'Trustee', phone: '(939) 306-0418', email: '' }
+    ]
+  },
+  'Presque Isle:Krakow': {
+    name: 'Krakow Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Michael Grohowski', title: 'Supervisor', phone: '(989) 306-1101', email: '' },
+      { name: 'Elaine Misiak', title: 'Clerk', phone: '(989) 766-8804', email: '' },
+      { name: 'Diane Mucciante', title: 'Treasurer', phone: '(989) 595-6615', email: '' },
+      { name: 'Mitchell Mulka', title: 'Trustee', phone: '(989) 766-8153', email: '' },
+      { name: 'Michael Smith', title: 'Trustee', phone: '(989) 595-0271', email: '' }
+    ]
+  },
+  'Presque Isle:Metz': {
+    name: 'Metz Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Nyle Wickersham', title: 'Supervisor', phone: '(989) 351-0235', email: '' },
+      { name: 'Nancy Kandow', title: 'Clerk', phone: '(989) 766-8087', email: '' },
+      { name: 'Andrea Konwinski', title: 'Treasurer', phone: '(989) 766-8133', email: '' },
+      { name: 'Denise Kowalewsky', title: 'Trustee', phone: '(989) 370-4439', email: '' },
+      { name: 'David Kowalewsky', title: 'Trustee', phone: '(989) 766-8087', email: '' }
+    ]
+  },
+  'Presque Isle:Moltke': {
+    name: 'Moltke Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Neil Sorgenfrei', title: 'Supervisor', phone: '(989) 734-2697', email: '' },
+      { name: 'Edith Kerr', title: 'Clerk', phone: '(989) 734-3904', email: '' },
+      { name: 'Christine Idalski', title: 'Treasurer', phone: '(989) 734-3904', email: '' },
+      { name: 'Tim Sorgenfrei', title: 'Trustee', phone: '(989) 734-4825', email: '' },
+      { name: 'Andrew LaLonde', title: 'Trustee', phone: '(989) 734-3904', email: '' }
+    ]
+  },
+  'Presque Isle:North Allis': {
+    name: 'North Allis Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Dean Tebo', title: 'Supervisor', phone: '(231) 420-2388', email: '' },
+      { name: 'Roberta Northcott', title: 'Clerk', phone: '(989) 614-7332', email: '' },
+      { name: 'Kristin Tebo', title: 'Treasurer', phone: '(231) 420-3738', email: '' },
+      { name: 'Tim George', title: 'Trustee', phone: '(989) 766-0465', email: '' },
+      { name: 'Dave Kolasa', title: 'Trustee', phone: '(989) 619-0736', email: '' }
+    ]
+  },
+  'Presque Isle:Ocqueoc': {
+    name: 'Ocqueoc Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Jerry Counterman', title: 'Supervisor', phone: '(989) 733-2052', email: '' },
+      { name: 'Pamela Schaedig', title: 'Clerk', phone: '(989) 733-8238', email: '' },
+      { name: 'Shari Pomranke', title: 'Treasurer', phone: '(989) 733-2767', email: '' },
+      { name: 'Jerome Isaacs', title: 'Trustee', phone: '(989) 734-0443', email: '' },
+      { name: 'Joel Jaroch', title: 'Trustee', phone: '(989) 306-4644', email: '' }
+    ]
+  },
+  'Presque Isle:Posen': {
+    name: 'Posen Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'James Zakshesky', title: 'Supervisor', phone: '(989) 766-8237', email: '' },
+      { name: 'Elizabeth Wozniak', title: 'Clerk', phone: '(989) 766-2816', email: '' },
+      { name: 'Lorraine Smigelski', title: 'Treasurer', phone: '(989) 766-2405', email: '' },
+      { name: 'Terry Buczkowski', title: 'Trustee', phone: '(989) 766-2816', email: '' },
+      { name: 'Michael Romanowski', title: 'Trustee', phone: '(989) 766-2816', email: '' }
+    ]
+  },
+  'Presque Isle:Presque Isle': {
+    name: 'Presque Isle Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Kathryn Szydlowski', title: 'Clerk', phone: '(989) 595-2752 ext. 2', email: '' },
+      { name: 'Jennifer Wieczorkowski', title: 'Treasurer', phone: '(989) 884-3144', email: '' },
+      { name: 'Mary O\'Neill', title: 'Trustee', phone: '(989) 595-2448', email: '' },
+      { name: 'Mark Devers', title: 'Trustee', phone: '(989) 595-2752', email: '' }
+    ]
+  },
+  'Presque Isle:Pulawski': {
+    name: 'Pulawski Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Martha Roznowski', title: 'Supervisor', phone: '(989) 766-8043', email: '' },
+      { name: 'Rebecca Strzelecki', title: 'Clerk', phone: '(989) 370-2528', email: '' },
+      { name: 'Carleen Darga', title: 'Treasurer', phone: '(989) 766-2577', email: '' },
+      { name: 'Bonnie Strzelecki', title: 'Trustee', phone: '(989) 351-7797', email: '' },
+      { name: 'Allen Ciarkowski', title: 'Trustee', phone: '(989) 766-2281', email: '' }
+    ]
+  },
+  'Presque Isle:Rogers': {
+    name: 'Rogers Township',
+    county: 'Presque Isle',
+    officials: [
+      { name: 'Randall Smolinski', title: 'Supervisor', phone: '(989) 351-9061', email: '' },
+      { name: 'Kari Ryan', title: 'Clerk', phone: '(937) 499-0317', email: '' },
+      { name: 'Jessica Peacock', title: 'Treasurer', phone: '(989) 306-4020', email: '' },
+      { name: 'David Grulke', title: 'Trustee', phone: '(989) 734-4418', email: '' },
+      { name: 'Mac Lamp', title: 'Trustee', phone: '(989) 734-3509', email: '' }
+    ]
+  },
+  'Roscommon:Au Sable': {
+    name: 'Au Sable Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'Kurtis Norton', title: 'Supervisor', phone: '(989) 275-0993', email: '' },
+      { name: 'Ron Watson', title: 'Clerk', phone: '(989) 389-3541', email: '' },
+      { name: 'Sarah Watson', title: 'Treasurer', phone: '(989) 302-2925', email: '' },
+      { name: 'Erica Wise', title: 'Trustee', phone: '(989) 387-1565', email: '' },
+      { name: 'Mike Carpenter', title: 'Trustee', phone: '(989) 389-3541', email: '' }
+    ]
+  },
+  'Roscommon:Backus': {
+    name: 'Backus Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'Michael Orzechowski', title: 'Supervisor', phone: '(989) 366-6662', email: '' },
+      { name: 'Theresa Downey', title: 'Clerk', phone: '(989) 389-7578', email: '' },
+      { name: 'Christine Tacey', title: 'Treasurer', phone: '(989) 389-7578', email: '' },
+      { name: 'Eldona Doll', title: 'Trustee', phone: '(989) 389-3579', email: '' }
+    ]
+  },
+  'Roscommon:Denton': {
+    name: 'Denton Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'David DenBoer', title: 'Supervisor', phone: '(989) 366-5913', email: '' },
+      { name: 'Theresa Wagner', title: 'Clerk', phone: '(989) 366-5913 ext. 209', email: '' },
+      { name: 'Susan Seaford', title: 'Treasurer', phone: '(989) 366-5913', email: '' },
+      { name: 'Paula Fuller', title: 'Trustee', phone: '(989) 366-7786', email: '' },
+      { name: 'Richard Pedersen', title: 'Trustee', phone: '(989) 366-5913', email: '' }
+    ]
+  },
+  'Roscommon:Gerrish': {
+    name: 'Gerrish Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'Brian Hill', title: 'Supervisor', phone: '(989) 821-9313', email: '' },
+      { name: 'Michelle Squires', title: 'Clerk', phone: '(989) 821-9313', email: '' },
+      { name: 'James Anderson', title: 'Treasurer', phone: '(989) 821-9313', email: '' },
+      { name: 'James Ostling', title: 'Trustee', phone: '(989) 821-9313', email: '' }
+    ]
+  },
+  'Roscommon:Higgins': {
+    name: 'Higgins Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'Steven Doggett', title: 'Supervisor', phone: '(989) 275-8112', email: '' },
+      { name: 'Margaret Borgula', title: 'Clerk', phone: '(989) 275-8112', email: '' },
+      { name: 'Cheri Sullivan', title: 'Treasurer', phone: '(989) 275-8112', email: '' },
+      { name: 'Tom Jennette', title: 'Trustee', phone: '(989) 275-8112', email: '' },
+      { name: 'Randy Hartman', title: 'Trustee', phone: '(989) 275-8112', email: '' }
+    ]
+  },
+  'Roscommon:Lake': {
+    name: 'Lake Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'John Hibbard', title: 'Supervisor', phone: '(586) 260-8263', email: '' },
+      { name: 'Andrea Grabowski', title: 'Clerk', phone: '(989) 202-4684', email: '' },
+      { name: 'Harry Trier', title: 'Treasurer', phone: '(989) 422-6628', email: '' },
+      { name: 'Pam Surprenant', title: 'Trustee', phone: '(989) 202-4684', email: '' },
+      { name: 'Scott Hassler', title: 'Trustee', phone: '(989) 915-3164', email: '' }
+    ]
+  },
+  'Roscommon:Lyon': {
+    name: 'Lyon Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'Paul Bertrand', title: 'Supervisor', phone: '(989) 821-9694', email: '' },
+      { name: 'Gregory Pearn', title: 'Clerk', phone: '(989) 821-9694', email: '' },
+      { name: 'Kevin Hopps', title: 'Treasurer', phone: '(989) 821-9694', email: '' },
+      { name: 'Timonthy Monet', title: 'Trustee', phone: '(989) 821-9694', email: '' },
+      { name: 'Steven Detmer', title: 'Trustee', phone: '(989) 821-9694', email: '' }
+    ]
+  },
+  'Roscommon:Markey': {
+    name: 'Markey Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'Stan Gardner', title: 'Supervisor', phone: '(989) 366-9614', email: '' },
+      { name: 'Sheryl Tussey', title: 'Clerk', phone: '(989) 366-9614', email: '' },
+      { name: 'Wendy Engle', title: 'Treasurer', phone: '(989) 366-9614', email: '' },
+      { name: 'Loretta Bell', title: 'Trustee', phone: '(989) 366-9614', email: '' },
+      { name: 'Christopher DeBaeke', title: 'Trustee', phone: '(989) 366-9614', email: '' }
+    ]
+  },
+  'Roscommon:Nester': {
+    name: 'Nester Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'Mark Kirby', title: 'Supervisor', phone: '(989) 529-2779', email: '' },
+      { name: 'Maryanne Wick', title: 'Clerk', phone: '(989) 389-1199', email: '' },
+      { name: 'Susan Newmyer', title: 'Treasurer', phone: '(989) 389-1199', email: '' },
+      { name: 'Raymond Good', title: 'Trustee', phone: '(989) 426-1151', email: '' },
+      { name: 'Terry Muma', title: 'Trustee', phone: '(989) 389-1199', email: '' }
+    ]
+  },
+  'Roscommon:Richfield': {
+    name: 'Richfield Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'Ray Wlosinski', title: 'Supervisor', phone: '(989) 389-4994', email: '' },
+      { name: 'Carolyn Minton', title: 'Clerk', phone: '(989) 389-4994', email: '' },
+      { name: 'Terri Hidey', title: 'Treasurer', phone: '(989) 389-4994', email: '' },
+      { name: 'Greg Watt', title: 'Trustee', phone: '(989) 389-4994', email: '' },
+      { name: 'Veronica Bridson', title: 'Trustee', phone: '(989) 389-4994', email: '' }
+    ]
+  },
+  'Roscommon:Roscommon': {
+    name: 'Roscommon Township',
+    county: 'Roscommon',
+    officials: [
+      { name: 'Diane Randall', title: 'Supervisor', phone: '(989) 422-4116', email: '' },
+      { name: 'Carie Milburn', title: 'Clerk', phone: '(989) 422-4116', email: '' },
+      { name: 'Mary Ann Hose', title: 'Treasurer', phone: '(989) 422-4116', email: '' },
+      { name: 'Ken Pickard', title: 'Trustee', phone: '(989) 422-4116', email: '' },
+      { name: 'Ace Schwach', title: 'Trustee', phone: '(989) 422-4116', email: '' }
+    ]
+  },
+  'Saginaw:Albee': {
+    name: 'Albee Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Leon Turnwald', title: 'Supervisor', phone: '(989) 770-4844', email: '' },
+      { name: 'Mary Sayles', title: 'Clerk', phone: '(989) 770-4844', email: '' },
+      { name: 'Ronald Kulhanek', title: 'Treasurer', phone: '(989) 770-4844', email: '' },
+      { name: 'Gary Briggs', title: 'Trustee', phone: '(989) 770-4844', email: '' },
+      { name: 'Joe Wasmiller', title: 'Trustee', phone: '(989) 770-4844', email: '' }
+    ]
+  },
+  'Saginaw:Birch Run': {
+    name: 'Birch Run Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Raymond Letterman', title: 'Supervisor', phone: '(989) 624-9773', email: '' },
+      { name: 'Heidi Martinus', title: 'Clerk', phone: '(989) 624-9773', email: '' },
+      { name: 'Annette Letterman', title: 'Treasurer', phone: '(989) 624-9773', email: '' },
+      { name: 'Kurt Kiessling', title: 'Trustee', phone: '(989) 624-9773', email: '' },
+      { name: 'Dale Trinklein, Jr.', title: 'Trustee', phone: '', email: '' },
+      { name: 'Jeanie Herrick', title: 'Trustee', phone: '(989) 624-9773', email: '' },
+      { name: 'John DiBerardino', title: 'Trustee', phone: '(989) 624-9773', email: '' }
+    ]
+  },
+  'Saginaw:Blumfield': {
+    name: 'Blumfield Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Wesley Reinbold', title: 'Supervisor', phone: '(989) 233-9344', email: '' },
+      { name: 'Lisa Roethlisberger', title: 'Clerk', phone: '(989) 868-9512', email: '' },
+      { name: 'Sandra Daenzer', title: 'Treasurer', phone: '(989) 755-3548', email: '' },
+      { name: 'Kenneth Huber', title: 'Trustee', phone: '(989) 754-1548', email: '' },
+      { name: 'Sharon Bierlein', title: 'Trustee', phone: '(989) 522-0444', email: '' }
+    ]
+  },
+  'Saginaw:Brady': {
+    name: 'Brady Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Steve Kienitz', title: 'Supervisor', phone: '(989) 971-0155', email: '' },
+      { name: 'Beverly Wenzlick', title: 'Clerk', phone: '(989) 845-2711', email: '' },
+      { name: 'Patricia Goodrich', title: 'Treasurer', phone: '(989) 845-6075', email: '' },
+      { name: 'Gregory Corrin', title: 'Trustee', phone: '(989) 239-1741', email: '' },
+      { name: 'Brad Haney', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Saginaw:Brant': {
+    name: 'Brant Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Robert Fowler', title: 'Supervisor', phone: '(989) 585-3283', email: '' },
+      { name: 'Theresa Morris', title: 'Clerk', phone: '(989) 865-6484', email: '' },
+      { name: 'Paula Cooper', title: 'Treasurer', phone: '(989) 865-9224', email: '' },
+      { name: 'Ken Smith', title: 'Trustee', phone: '(989) 289-1877', email: '' },
+      { name: 'Barbara Fowler', title: 'Trustee', phone: '(989) 585-3642', email: '' }
+    ]
+  },
+  'Saginaw:Bridgeport': {
+    name: 'Bridgeport charter Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Chad Evans', title: 'Supervisor', phone: '(989) 777-0940', email: '' },
+      { name: 'Eddie Foxx', title: 'Clerk', phone: '(989) 777-0940', email: '' },
+      { name: 'Roberta Placher', title: 'Treasurer', phone: '(989) 777-0940', email: '' },
+      { name: 'Calvin Williams', title: 'Trustee', phone: '(989) 245-2015', email: '' },
+      { name: 'Bruce Kuznicki', title: 'Trustee', phone: '(989) 777-0940', email: '' },
+      { name: 'Mark Schluckrbier', title: 'Trustee', phone: '(989) 777-0940', email: '' },
+      { name: 'Cherie McFarland', title: 'Trustee', phone: '(989) 777-0940', email: '' }
+    ]
+  },
+  'Saginaw:Buena Vista': {
+    name: 'Buena Vista charter Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Christina Dillard', title: 'Supervisor', phone: '(989) 754-6536 ext. 2311', email: '' },
+      { name: 'Alethea Nichols-Taylor', title: 'Clerk', phone: '(989) 754-6536 ext. 2312', email: '' },
+      { name: 'Amy Whitson', title: 'Treasurer', phone: '(989) 754-6536', email: '' },
+      { name: 'Bruce McKinney', title: 'Trustee', phone: '(989) 753-7553', email: '' },
+      { name: 'Alvin Jernigan', title: 'Trustee', phone: '(989) 754-6536', email: '' },
+      { name: 'Regina Jackson', title: 'Trustee', phone: '(989) 754-6536', email: '' },
+      { name: 'Laticia Whitehead', title: 'Trustee', phone: '(989) 754-6536', email: '' }
+    ]
+  },
+  'Saginaw:Carrollton': {
+    name: 'Carrollton Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Phillip Abney', title: 'Supervisor', phone: '(989) 754-4611', email: '' },
+      { name: 'Jerry Fritz', title: 'Clerk', phone: '(989) 754-4611', email: '' },
+      { name: 'Shellene Thurston', title: 'Treasurer', phone: '(989) 754-4611', email: '' },
+      { name: 'Jamie Westphal', title: 'Trustee', phone: '(989) 754-4611', email: '' },
+      { name: 'Loren Fischer', title: 'Trustee', phone: '(989) 754-4611', email: '' }
+    ]
+  },
+  'Saginaw:Chapin': {
+    name: 'Chapin Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Ronald Maynard', title: 'Supervisor', phone: '(989) 661-7928', email: '' },
+      { name: 'Frank Gross', title: 'Clerk', phone: '(989) 661-2215', email: '' },
+      { name: 'Jennifer Clark', title: 'Treasurer', phone: '(989) 274-1093', email: '' },
+      { name: 'Brenda Radabaugh', title: 'Trustee', phone: '(989) 661-2689', email: '' },
+      { name: 'Logan Schultz', title: 'Trustee', phone: '(989) 529-9012', email: '' }
+    ]
+  },
+  'Saginaw:Chesaning': {
+    name: 'Chesaning Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Joseph Ruthig', title: 'Supervisor', phone: '(989) 845-2341', email: '' },
+      { name: 'Daniel Himstedt', title: 'Clerk', phone: '(989) 845-2341', email: '' },
+      { name: 'Cathy Gross', title: 'Treasurer', phone: '(989) 845-2341', email: '' },
+      { name: 'Kevin Carlton', title: 'Trustee', phone: '(989) 598-6702', email: '' },
+      { name: 'Sarah Tomac', title: 'Trustee', phone: '(989) 845-2341', email: '' },
+      { name: 'Russell Krish', title: 'Trustee', phone: '(517) 488-9554', email: '' }
+    ]
+  },
+  'Saginaw:Frankenmuth': {
+    name: 'Frankenmuth Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Jeff Frahm', title: 'Supervisor', phone: '(989) 284-2960', email: '' },
+      { name: 'Luci Valone', title: 'Clerk', phone: '(989) 652-6741 ext. 184', email: '' },
+      { name: 'Kathy Marshall', title: 'Treasurer', phone: '(989) 652-6741 ext. 183', email: '' },
+      { name: 'Thomas Bierlein', title: 'Trustee', phone: '(989) 652-8654', email: '' }
+    ]
+  },
+  'Saginaw:Fremont': {
+    name: 'Fremont Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Donald LaClair', title: 'Supervisor', phone: '(989) 585-3512', email: '' },
+      { name: 'Ernest Delemeester', title: 'Clerk', phone: '(989) 323-9096', email: '' },
+      { name: 'Lynn McCoy', title: 'Treasurer', phone: '(989) 274-0912', email: '' },
+      { name: 'Matt Sobieski', title: 'Trustee', phone: '(989) 213-6059', email: '' },
+      { name: 'Randy Beyersdorf', title: 'Trustee', phone: '(989) 392-7765', email: '' }
+    ]
+  },
+  'Saginaw:James': {
+    name: 'James Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Cara Mackley', title: 'Supervisor', phone: '(989) 781-1353', email: '' },
+      { name: 'Kim Bell', title: 'Clerk', phone: '(989) 781-1353', email: '' },
+      { name: 'Joanne Boehler', title: 'Treasurer', phone: '(989) 781-1353', email: '' },
+      { name: 'Marcia Wieneke', title: 'Trustee', phone: '(989) 781-1353', email: '' },
+      { name: 'Jody Corriveau', title: 'Trustee', phone: '(231) 360-0359', email: '' }
+    ]
+  },
+  'Saginaw:Jonesfield': {
+    name: 'Jonesfield Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Stanley Brown', title: 'Supervisor', phone: '(989) 643-7707', email: '' },
+      { name: 'Kari Clark', title: 'Clerk', phone: '(989) 643-7707', email: '' },
+      { name: 'Dannielle Swarthout', title: 'Treasurer', phone: '(989) 643-7707', email: '' },
+      { name: 'Kathy Nock', title: 'Trustee', phone: '(989) 643-7707', email: '' },
+      { name: 'Scott Foye', title: 'Trustee', phone: '(989) 643-7707', email: '' }
+    ]
+  },
+  'Saginaw:Kochville': {
+    name: 'Kochville Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Alan Malesky', title: 'Supervisor', phone: '(989) 792-7596', email: '' },
+      { name: 'Kevin Machata', title: 'Clerk', phone: '(989) 792-7596', email: '' },
+      { name: 'Michael Comstock', title: 'Treasurer', phone: '(989) 792-7596 ext. 115', email: '' },
+      { name: 'Rhonda Ferrell', title: 'Trustee', phone: '(989) 792-7596', email: '' },
+      { name: 'Ed Thon', title: 'Trustee', phone: '(989) 792-7596', email: '' }
+    ]
+  },
+  'Saginaw:Lakefield': {
+    name: 'Lakefield Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Johnnie Schmidt', title: 'Supervisor', phone: '(989) 326-1354', email: '' },
+      { name: 'Michael Slodowski', title: 'Clerk', phone: '(989) 220-9302', email: '' },
+      { name: 'Beth Foye', title: 'Treasurer', phone: '(989) 643-5165', email: '' },
+      { name: 'Kenneth Bigelow', title: 'Trustee', phone: '(989) 429-4245', email: '' },
+      { name: 'Molly Pickard', title: 'Trustee', phone: '(989) 327-3026', email: '' }
+    ]
+  },
+  'Saginaw:Maple Grove': {
+    name: 'Maple Grove Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Wesley Peterman', title: 'Supervisor', phone: '(989) 845-6155', email: '' },
+      { name: 'Tish Yaros', title: 'Clerk', phone: '', email: '' },
+      { name: 'Ron Jaster', title: 'Treasurer', phone: '(989) 845-6155', email: '' },
+      { name: 'Marc Ebenhoeh', title: 'Trustee', phone: '(989) 845-6155', email: '' },
+      { name: 'Joe Erhardt, Jr', title: 'Trustee', phone: '(989) 845-6155', email: '' }
+    ]
+  },
+  'Saginaw:Marion': {
+    name: 'Marion Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Ron Scholtz', title: 'Supervisor', phone: '(989) 643-5161', email: '' },
+      { name: 'Seth Goschka', title: 'Clerk', phone: '(989) 436-3757', email: '' },
+      { name: 'Kimberly Drews', title: 'Treasurer', phone: '(989) 643-5161', email: '' },
+      { name: 'Brad Becker', title: 'Trustee', phone: '(989) 737-5029', email: '' },
+      { name: 'Gerald Starke', title: 'Trustee', phone: '(989) 585-3446', email: '' }
+    ]
+  },
+  'Saginaw:Richland': {
+    name: 'Richland Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Brian Frederick', title: 'Supervisor', phone: '(989) 642-2097', email: '' },
+      { name: 'Renee Herhold', title: 'Clerk', phone: '(989) 239-0293', email: '' },
+      { name: 'David Earley', title: 'Treasurer', phone: '(989) 642-2097', email: '' },
+      { name: 'Brian Beckrow', title: 'Trustee', phone: '(989) 642-2097', email: '' },
+      { name: 'Mark Hingston', title: 'Trustee', phone: '(989) 642-2097', email: '' }
+    ]
+  },
+  'Saginaw:Saginaw': {
+    name: 'Saginaw charter Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Gary Fahndrich', title: 'Supervisor', phone: '(989) 791-9800', email: '' },
+      { name: 'Lisa Ingram', title: 'Clerk', phone: '(989) 791-9800', email: '' },
+      { name: 'James Wickman', title: 'Treasurer', phone: '(989) 791-9800', email: '' },
+      { name: 'Lori Gorney', title: 'Trustee', phone: '(989) 791-9800', email: '' },
+      { name: 'Peter Ryan', title: 'Trustee', phone: '(989) 791-9800', email: '' },
+      { name: 'Amaya Bradley', title: 'Trustee', phone: '(989) 791-9800', email: '' },
+      { name: 'Travis Hare', title: 'Trustee', phone: '(989) 791-9800', email: '' }
+    ]
+  },
+  'Saginaw:Spaulding': {
+    name: 'Spaulding Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Ed Masters', title: 'Supervisor', phone: '(989) 777-0950', email: '' },
+      { name: 'Mark Seamon', title: 'Clerk', phone: '(989) 777-0950', email: '' },
+      { name: 'Tiffany Fortier', title: 'Treasurer', phone: '(989) 777-0950', email: '' },
+      { name: 'Tracie Prueter', title: 'Trustee', phone: '(989) 777-0950', email: '' },
+      { name: 'Jay Bruns', title: 'Trustee', phone: '(989) 777-0950', email: '' }
+    ]
+  },
+  'Saginaw:St. Charles': {
+    name: 'St. Charles Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Don Ackerman', title: 'Supervisor', phone: '(989) 865-9010', email: '' },
+      { name: 'Regina Smith', title: 'Clerk', phone: '(989) 865-9010', email: '' },
+      { name: 'David Adams', title: 'Treasurer', phone: '(989) 865-9010', email: '' },
+      { name: 'Charles Levens', title: 'Trustee', phone: '(989) 865-9010', email: '' },
+      { name: 'Ann Buck', title: 'Trustee', phone: '(989) 865-9010', email: '' }
+    ]
+  },
+  'Saginaw:Swan Creek': {
+    name: 'Swan Creek Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Richard Fulmer', title: 'Supervisor', phone: '(989) 865-6251', email: '' },
+      { name: 'Leon Larsen', title: 'Clerk', phone: '(989) 865-6251', email: '' },
+      { name: 'Thomas Krzeszewski', title: 'Treasurer', phone: '(989) 865-6251', email: '' },
+      { name: 'Andrew Kushion', title: 'Trustee', phone: '(989) 791-1555', email: '' },
+      { name: 'Ken Mathey', title: 'Trustee', phone: '(989) 642-5000', email: '' }
+    ]
+  },
+  'Saginaw:Taymouth': {
+    name: 'Taymouth Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'James Fulger', title: 'Supervisor', phone: '(989) 225-0994', email: '' },
+      { name: 'Nadine Bosley', title: 'Clerk', phone: '(989) 213-2877', email: '' },
+      { name: 'Melisa Albrecht', title: 'Treasurer', phone: '(989) 624-4159', email: '' },
+      { name: 'Thomas Latty', title: 'Trustee', phone: '(989) 624-4159', email: '' },
+      { name: 'Todd Ferguson', title: 'Trustee', phone: '(989) 624-4159', email: '' }
+    ]
+  },
+  'Saginaw:Thomas': {
+    name: 'Thomas Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'David Sommers', title: 'Supervisor', phone: '(989) 751-8517', email: '' },
+      { name: 'Michael Thayer', title: 'Clerk', phone: '(989) 781-0150', email: '' },
+      { name: 'Steven Witt', title: 'Treasurer', phone: '(989) 798-2334', email: '' },
+      { name: 'Tara Deline', title: 'Trustee', phone: '(989) 781-0150', email: '' },
+      { name: 'Craig Monahan', title: 'Trustee', phone: '(989) 781-1320', email: '' },
+      { name: 'Katie McDonald', title: 'Trustee', phone: '(989) 781-0150', email: '' },
+      { name: 'Nate List', title: 'Trustee', phone: '(989) 781-0150', email: '' }
+    ]
+  },
+  'Saginaw:Tittabawassee': {
+    name: 'Tittabawassee Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Harry Steib', title: 'Supervisor', phone: '(989) 695-9512', email: '' },
+      { name: 'Don Hemgesberg', title: 'Clerk', phone: '(989) 695-9512', email: '' },
+      { name: 'Tracy Reimus', title: 'Treasurer', phone: '(989) 695-9512', email: '' },
+      { name: 'Thomas Metiva', title: 'Trustee', phone: '(989) 695-9512', email: '' },
+      { name: 'Tab Brousseau', title: 'Trustee', phone: '(989) 695-9512', email: '' },
+      { name: 'Bill Wheeler', title: 'Trustee', phone: '(989) 695-9512', email: '' },
+      { name: 'Michael Graebner', title: 'Trustee', phone: '(989) 695-9512', email: '' }
+    ]
+  },
+  'Saginaw:Zilwaukee': {
+    name: 'Zilwaukee Township',
+    county: 'Saginaw',
+    officials: [
+      { name: 'Scott Clark', title: 'Supervisor', phone: '(989) 233-5114', email: '' },
+      { name: 'Tina Gutierrez', title: 'Clerk', phone: '(989) 598-2372', email: '' },
+      { name: 'Catherine VanBlarcom', title: 'Treasurer', phone: '(989) 274-8654', email: '' },
+      { name: 'Kimberly Jinks', title: 'Trustee', phone: '(989) 598-2372', email: '' },
+      { name: 'Brett VanBlarcom', title: 'Trustee', phone: '(989) 598-2372', email: '' }
+    ]
+  },
+  'Sanilac:Argyle': {
+    name: 'Argyle Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Jeromie Foote', title: 'Supervisor', phone: '(810) 672-9278', email: '' },
+      { name: 'Jennifer Grifka', title: 'Clerk', phone: '(810) 837-0998', email: '' },
+      { name: 'Tillie Peruski', title: 'Treasurer', phone: '(810) 429-0398', email: '' },
+      { name: 'Joseph Szymanski', title: 'Trustee', phone: '(810) 404-9470', email: '' },
+      { name: 'Johann Schulz', title: 'Trustee', phone: '(810) 672-9557', email: '' }
+    ]
+  },
+  'Sanilac:Austin': {
+    name: 'Austin Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Payten Briolat', title: 'Supervisor', phone: '(989) 370-8650', email: '' },
+      { name: 'Karen Heilig', title: 'Clerk', phone: '(989) 214-0124', email: '' },
+      { name: 'Tammy Morell', title: 'Treasurer', phone: '(989) 214-0886', email: '' },
+      { name: 'Albert Lemke', title: 'Trustee', phone: '(989) 658-8977', email: '' }
+    ]
+  },
+  'Sanilac:Bridgehampton': {
+    name: 'Bridgehampton Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Leo Sonck', title: 'Supervisor', phone: '(810) 334-4252', email: '' },
+      { name: 'Shelly McCarty', title: 'Clerk', phone: '(810) 650-1756', email: '' },
+      { name: 'Alan Innes', title: 'Treasurer', phone: '(810) 376-8173', email: '' },
+      { name: 'Katherine Kelly', title: 'Trustee', phone: '(810) 537-2844', email: '' },
+      { name: 'David Eggert', title: 'Trustee', phone: '(810) 657-9242', email: '' }
+    ]
+  },
+  'Sanilac:Buel': {
+    name: 'Buel Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Blake Gordon', title: 'Supervisor', phone: '(810) 404-3160', email: '' },
+      { name: 'Tamira Anderson', title: 'Clerk', phone: '(810) 404-4341', email: '' },
+      { name: 'Julie Chapdelaine', title: 'Treasurer', phone: '(810) 705-1922', email: '' },
+      { name: 'Jeff Gordon', title: 'Trustee', phone: '(810) 679-3323', email: '' },
+      { name: 'Adam Chapdelanie', title: 'Trustee', phone: '(810) 662-1765', email: '' }
+    ]
+  },
+  'Sanilac:Custer': {
+    name: 'Custer Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Robert Kirkpatrick', title: 'Supervisor', phone: '(810) 705-9502', email: '' },
+      { name: 'Nancy Rich', title: 'Clerk', phone: '(810) 710-4768', email: '' },
+      { name: 'Rachelle Wadsworth', title: 'Treasurer', phone: '(810) 837-1278', email: '' },
+      { name: 'R. David Miller', title: 'Trustee', phone: '(810) 648-2086', email: '' },
+      { name: 'Michael Gerstenberger', title: 'Trustee', phone: '(810) 705-1303', email: '' }
+    ]
+  },
+  'Sanilac:Delaware': {
+    name: 'Delaware Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Richard Barker', title: 'Supervisor', phone: '(989) 551-9134', email: '' },
+      { name: 'Michael Erdman', title: 'Clerk', phone: '(989) 551-1429', email: '' },
+      { name: 'Tammy Barker', title: 'Treasurer', phone: '(989) 864-8008', email: '' },
+      { name: 'Keith Pierson', title: 'Trustee', phone: '(989) 864-3190', email: '' },
+      { name: 'Kevin Schweitzer', title: 'Trustee', phone: '(989) 551-8819', email: '' }
+    ]
+  },
+  'Sanilac:Elk': {
+    name: 'Elk Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Walter Parke', title: 'Supervisor', phone: '(810) 404-8919', email: '' },
+      { name: 'Wanda Grifka', title: 'Clerk', phone: '(810) 378-5354', email: '' },
+      { name: 'Shawna Lentner', title: 'Treasurer', phone: '(810) 378-5354', email: '' },
+      { name: 'Darlene McClelland', title: 'Trustee', phone: '(810) 378-5770', email: '' },
+      { name: 'Alexandria Burgess', title: 'Trustee', phone: '(810) 404-2910', email: '' }
+    ]
+  },
+  'Sanilac:Elmer': {
+    name: 'Elmer Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Leonard Brown', title: 'Supervisor', phone: '(810) 648-4505', email: '' },
+      { name: 'Heather Baumeister', title: 'Clerk', phone: '(810) 434-7451', email: '' },
+      { name: 'Heidi Strickler', title: 'Treasurer', phone: '(810) 404-9103', email: '' },
+      { name: 'Kevin Smith', title: 'Trustee', phone: '(810) 404-2584', email: '' },
+      { name: 'Gary Radloff', title: 'Trustee', phone: '(810) 404-7016', email: '' }
+    ]
+  },
+  'Sanilac:Flynn': {
+    name: 'Flynn Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Grant Burgess', title: 'Supervisor', phone: '(810) 404-2382', email: '' },
+      { name: 'Robert Vinande', title: 'Clerk', phone: '(810) 705-0922', email: '' },
+      { name: 'Brent Banks', title: 'Treasurer', phone: '(810) 837-2474', email: '' },
+      { name: 'Jeff Keesler', title: 'Trustee', phone: '(810) 656-0759', email: '' },
+      { name: 'Robert Alexander', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Sanilac:Forester': {
+    name: 'Forester Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Gary Daley', title: 'Supervisor', phone: '(810) 376-4359', email: '' },
+      { name: 'Marjorie Hoenicke', title: 'Clerk', phone: '(810) 376-4393', email: '' },
+      { name: 'Stan Grabitz', title: 'Treasurer', phone: '(810) 404-5528', email: '' },
+      { name: 'Allen Daum', title: 'Trustee', phone: '(810) 376-4393', email: '' },
+      { name: 'Carmella Saldana', title: 'Trustee', phone: '(989) 550-5496', email: '' }
+    ]
+  },
+  'Sanilac:Fremont': {
+    name: 'Fremont Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Mark Kenward', title: 'Supervisor', phone: '(810) 679-2035', email: '' },
+      { name: 'Sonya Francis', title: 'Clerk', phone: '(810) 387-0876', email: '' },
+      { name: 'Jessica Onufrak', title: 'Treasurer', phone: '(810) 387-0876', email: '' },
+      { name: 'Karen Kovach', title: 'Trustee', phone: '(810) 404-2811', email: '' },
+      { name: 'Kevin Bradley', title: 'Trustee', phone: '(989) 209-7575', email: '' }
+    ]
+  },
+  'Sanilac:Greenleaf': {
+    name: 'Greenleaf Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Andrew Nahernak', title: 'Supervisor', phone: '(989) 553-0226', email: '' },
+      { name: 'Kaylene Stine', title: 'Clerk', phone: '(989) 977-0529', email: '' },
+      { name: 'Mary Greyerbiehl', title: 'Treasurer', phone: '(989) 550-2122', email: '' },
+      { name: 'Randy Schuette', title: 'Trustee', phone: '(989) 551-7431', email: '' }
+    ]
+  },
+  'Sanilac:Lamotte': {
+    name: 'Lamotte Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'John Gillig', title: 'Supervisor', phone: '(989) 635-0144', email: '' },
+      { name: 'Mickey Strickler', title: 'Clerk', phone: '(810) 837-0159', email: '' },
+      { name: 'Suzanne Reehl', title: 'Treasurer', phone: '(810) 837-0159', email: '' },
+      { name: 'Les Phillips', title: 'Trustee', phone: '(989) 550-0567', email: '' },
+      { name: 'John Darling', title: 'Trustee', phone: '(810) 404-8485', email: '' }
+    ]
+  },
+  'Sanilac:Lexington': {
+    name: 'Lexington Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Kristie Jahn', title: 'Supervisor', phone: '(810) 359-5500', email: '' },
+      { name: 'Katherine Paradoski', title: 'Clerk', phone: '(810) 359-5500', email: '' },
+      { name: 'Davianna McAllister', title: 'Treasurer', phone: '(810) 359-5500', email: '' },
+      { name: 'Chip Milletics', title: 'Trustee', phone: '(810) 359-5500', email: '' },
+      { name: 'Jonathan Kippen', title: 'Trustee', phone: '(810) 359-5500', email: '' }
+    ]
+  },
+  'Sanilac:Maple Valley': {
+    name: 'Maple Valley Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'David Bartle', title: 'Supervisor', phone: '(810) 886-2242', email: '' },
+      { name: 'Janice Bartle', title: 'Clerk', phone: '(810) 404-2589', email: '' },
+      { name: 'Rachel McLeod', title: 'Treasurer', phone: '(810) 404-9234', email: '' },
+      { name: 'Tom Zyrowski', title: 'Trustee', phone: '(810) 346-4630', email: '' },
+      { name: 'Philip Bartle', title: 'Trustee', phone: '(810) 404-4082', email: '' }
+    ]
+  },
+  'Sanilac:Marion': {
+    name: 'Marion Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Kurt Shubel', title: 'Supervisor', phone: '(810) 923-1690', email: '' },
+      { name: 'Janet Nichol', title: 'Clerk', phone: '(810) 376-8322', email: '' },
+      { name: 'Audrey Stolicker', title: 'Treasurer', phone: '(810) 376-9655', email: '' },
+      { name: 'Thomas VanSickle', title: 'Trustee', phone: '(810) 376-9655', email: '' }
+    ]
+  },
+  'Sanilac:Marlette': {
+    name: 'Marlette Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Dale Wood', title: 'Supervisor', phone: '(989) 635-7772', email: '' },
+      { name: 'Cheryl Gould', title: 'Clerk', phone: '(989) 635-7772', email: '' },
+      { name: 'Donald Sager', title: 'Trustee', phone: '(989) 635-2233', email: '' }
+    ]
+  },
+  'Sanilac:Minden': {
+    name: 'Minden Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Terrence O\'Connor', title: 'Supervisor', phone: '(989) 553-3456', email: '' },
+      { name: 'Darcy Hansen', title: 'Clerk', phone: '(810) 550-3177', email: '' },
+      { name: 'Annette Stolicker', title: 'Treasurer', phone: '(810) 376-8541', email: '' },
+      { name: 'Charles Stringer', title: 'Trustee', phone: '(810) 404-4868', email: '' },
+      { name: 'Kevin Klee', title: 'Trustee', phone: '(989) 864-8724', email: '' }
+    ]
+  },
+  'Sanilac:Moore': {
+    name: 'Moore Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Sid Thompson', title: 'Supervisor', phone: '(810) 404-9227', email: '' },
+      { name: 'Naysa Heilig', title: 'Clerk', phone: '(810) 837-0393', email: '' },
+      { name: 'Lesli Billot', title: 'Treasurer', phone: '(810) 404-9950', email: '' },
+      { name: 'Curtis Haskin', title: 'Trustee', phone: '(810) 404-4081', email: '' },
+      { name: 'Keith Rudy', title: 'Trustee', phone: '(810) 404-1673', email: '' }
+    ]
+  },
+  'Sanilac:Sanilac': {
+    name: 'Sanilac Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Daniel Kelly', title: 'Supervisor', phone: '(810) 622-8178', email: '' },
+      { name: 'Suzanne Shagena', title: 'Clerk', phone: '(810) 622-8178 ext. 2', email: '' },
+      { name: 'Dru Moran', title: 'Treasurer', phone: '(810) 622-8178', email: '' },
+      { name: 'Jeffery Lyall', title: 'Trustee', phone: '(810) 404-3682', email: '' },
+      { name: 'Tammy Massman', title: 'Trustee', phone: '(810) 622-8178', email: '' }
+    ]
+  },
+  'Sanilac:Speaker': {
+    name: 'Speaker Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Carolyn Fairman', title: 'Supervisor', phone: '(810) 404-7725', email: '' },
+      { name: 'Michelle Brown', title: 'Clerk', phone: '(810) 387-3356', email: '' },
+      { name: 'Rochelle Stevens', title: 'Treasurer', phone: '(810) 387-3356', email: '' },
+      { name: 'Fred Moss', title: 'Trustee', phone: '(810) 404-9091', email: '' },
+      { name: 'Bill McLarty', title: 'Trustee', phone: '(810) 387-3356', email: '' }
+    ]
+  },
+  'Sanilac:Washington': {
+    name: 'Washington Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'James Surbrook', title: 'Supervisor', phone: '(810) 404-0891', email: '' },
+      { name: 'Nick Lien', title: 'Clerk', phone: '(616) 406-7050', email: '' },
+      { name: 'Susan Heberling', title: 'Treasurer', phone: '(810) 710-0024', email: '' },
+      { name: 'John Hurley', title: 'Trustee', phone: '(810) 404-9794', email: '' },
+      { name: 'Diana Lenk', title: 'Trustee', phone: '(810) 404-8691', email: '' }
+    ]
+  },
+  'Sanilac:Watertown': {
+    name: 'Watertown Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Richard Henderson', title: 'Supervisor', phone: '(810) 648-1999', email: '' },
+      { name: 'Tammy Ross', title: 'Clerk', phone: '(810) 404-1835', email: '' },
+      { name: 'Sheila Coats', title: 'Treasurer', phone: '(810) 404-1836', email: '' },
+      { name: 'Jason Radloff', title: 'Trustee', phone: '(810) 404-9736', email: '' }
+    ]
+  },
+  'Sanilac:Wheatland': {
+    name: 'Wheatland Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Douglas Neumayer', title: 'Supervisor', phone: '(810) 404-8648', email: '' },
+      { name: 'Scott Cameron', title: 'Clerk', phone: '(810) 366-0513', email: '' },
+      { name: 'Susan Nichol', title: 'Treasurer', phone: '(810) 376-8201', email: '' },
+      { name: 'Grant Davidson', title: 'Trustee', phone: '(810) 705-2322', email: '' },
+      { name: 'Daniel Gibbs', title: 'Trustee', phone: '(810) 366-0513', email: '' }
+    ]
+  },
+  'Sanilac:Worth': {
+    name: 'Worth Township',
+    county: 'Sanilac',
+    officials: [
+      { name: 'Walt Badgerow', title: 'Supervisor', phone: '(810) 359-8852 ext. 106', email: '' },
+      { name: 'John Shea', title: 'Treasurer', phone: '(810) 359-8852 ext. 103', email: '' },
+      { name: 'Byron Wilson', title: 'Trustee', phone: '(810) 359-8852', email: '' }
+    ]
+  },
+  'Schoolcraft:Doyle': {
+    name: 'Doyle Township',
+    county: 'Schoolcraft',
+    officials: [
+      { name: 'James Nelson', title: 'Supervisor', phone: '(906) 283-3224', email: '' },
+      { name: 'Julie Norton', title: 'Clerk', phone: '(906) 283-5373', email: '' },
+      { name: 'Loreena King', title: 'Treasurer', phone: '(906) 283-3227', email: '' },
+      { name: 'Debra Huebner', title: 'Trustee', phone: '(906) 283-3227', email: '' },
+      { name: 'Gloria Hansen', title: 'Trustee', phone: '(906) 283-3814', email: '' }
+    ]
+  },
+  'Schoolcraft:Germfask': {
+    name: 'Germfask Township',
+    county: 'Schoolcraft',
+    officials: [
+      { name: 'John Barker', title: 'Supervisor', phone: '(906) 586-9697', email: '' },
+      { name: 'Sandy Glenn', title: 'Clerk', phone: '(906) 586-9697', email: '' },
+      { name: 'Marci Zellar', title: 'Treasurer', phone: '(906) 586-9697', email: '' },
+      { name: 'Marcy Barker', title: 'Trustee', phone: '(906) 630-0886', email: '' },
+      { name: 'J. D. Livemore', title: 'Trustee', phone: '(906) 586-9697', email: '' }
+    ]
+  },
+  'Schoolcraft:Hiawatha': {
+    name: 'Hiawatha Township',
+    county: 'Schoolcraft',
+    officials: [
+      { name: 'Larry Matchinski', title: 'Supervisor', phone: '(906) 450-7417', email: '' },
+      { name: 'Kelly Matchinski', title: 'Clerk', phone: '(906) 450-4542', email: '' },
+      { name: 'Jessica Beckman', title: 'Treasurer', phone: '(906) 341-0297', email: '' },
+      { name: 'Robbin Larson', title: 'Trustee', phone: '(906) 341-6897', email: '' },
+      { name: 'Cindy Jenerou', title: 'Trustee', phone: '(906) 341-6661', email: '' }
+    ]
+  },
+  'Schoolcraft:Inwood': {
+    name: 'Inwood Township',
+    county: 'Schoolcraft',
+    officials: [
+      { name: 'Kelly Silkworth', title: 'Supervisor', phone: '(906) 644-2149', email: '' },
+      { name: 'Robin Double', title: 'Clerk', phone: '(906) 450-0286', email: '' },
+      { name: 'Sherry Boudreau', title: 'Treasurer', phone: '(906) 286-0472', email: '' },
+      { name: 'Bryan Landis', title: 'Trustee', phone: '(906) 644-2869', email: '' },
+      { name: 'Bonnie Elliott', title: 'Trustee', phone: '(906) 644-2191', email: '' }
+    ]
+  },
+  'Schoolcraft:Manistique': {
+    name: 'Manistique Township',
+    county: 'Schoolcraft',
+    officials: [
+      { name: 'George Price', title: 'Supervisor', phone: '(906) 341-5223', email: '' },
+      { name: 'Melissa Wood', title: 'Clerk', phone: '(906) 341-0072', email: '' },
+      { name: 'Laurie McKinney', title: 'Treasurer', phone: '(906) 341-3512', email: '' },
+      { name: 'Sandra Doyle', title: 'Trustee', phone: '(906) 341-6597', email: '' },
+      { name: 'Kenneth Fagan', title: 'Trustee', phone: '(906) 341-5223', email: '' }
+    ]
+  },
+  'Schoolcraft:Mueller': {
+    name: 'Mueller Township',
+    county: 'Schoolcraft',
+    officials: [
+      { name: 'Sam Pfeiffer', title: 'Supervisor', phone: '(248) 613-6810', email: '' },
+      { name: 'Donna Glasscock', title: 'Clerk', phone: '(906) 450-4149', email: '' },
+      { name: 'Mary Lee', title: 'Treasurer', phone: '(517) 270-0600', email: '' },
+      { name: 'Matthew Fischer', title: 'Trustee', phone: '(906) 450-4149', email: '' },
+      { name: 'Kimberly Theodorski', title: 'Trustee', phone: '(906) 450-4149', email: '' }
+    ]
+  },
+  'Schoolcraft:Seney': {
+    name: 'Seney Township',
+    county: 'Schoolcraft',
+    officials: [
+      { name: 'Marc Schooley', title: 'Supervisor', phone: '(906) 499-3332', email: '' },
+      { name: 'Janice Bonifield', title: 'Clerk', phone: '(906) 499-3394', email: '' },
+      { name: 'Todd Pouillon', title: 'Treasurer', phone: '(906) 499-3490', email: '' },
+      { name: 'Melvin Ingison', title: 'Trustee', phone: '(906) 869-2211', email: '' },
+      { name: 'Charles Hollingshead', title: 'Trustee', phone: '(906) 499-3348', email: '' }
+    ]
+  },
+  'Schoolcraft:Thompson': {
+    name: 'Thompson Township',
+    county: 'Schoolcraft',
+    officials: [
+      { name: 'Sara Plante', title: 'Clerk', phone: '', email: '' },
+      { name: 'Rebecca Baker', title: 'Trustee', phone: '(906) 450-0029', email: '' },
+      { name: 'Eric Dombrowski', title: 'Trustee', phone: '(906) 341-7570', email: '' }
+    ]
+  },
+  'Shiawassee:Antrim': {
+    name: 'Antrim Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Tom Coffey', title: 'Supervisor', phone: '(989) 634-9051', email: '' },
+      { name: 'Rita Hooley', title: 'Clerk', phone: '(586) 246-4555', email: '' },
+      { name: 'Lori Godfrey', title: 'Treasurer', phone: '(517) 449-1811', email: '' },
+      { name: 'Mike Godfrey', title: 'Trustee', phone: '(989) 634-5409', email: '' },
+      { name: 'Doug McLennan', title: 'Trustee', phone: '(989) 634-9051', email: '' }
+    ]
+  },
+  'Shiawassee:Bennington': {
+    name: 'Bennington Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Cody Baker', title: 'Supervisor', phone: '(989) 721-7043', email: '' },
+      { name: 'Donna Ash', title: 'Clerk', phone: '(989) 277-5971', email: '' },
+      { name: 'Maria Carlin', title: 'Treasurer', phone: '(989) 723-5555', email: '' },
+      { name: 'Jim Forsythe', title: 'Trustee', phone: '(989) 723-4742', email: '' },
+      { name: 'Larry Johnson', title: 'Trustee', phone: '(989) 723-5555', email: '' }
+    ]
+  },
+  'Shiawassee:Burns': {
+    name: 'Burns Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Casey Glass', title: 'Supervisor', phone: '(810) 516-2372', email: '' },
+      { name: 'Shirley Riley', title: 'Clerk', phone: '(810) 444-3972', email: '' },
+      { name: 'Deborah Adams', title: 'Treasurer', phone: '(810) 614-3157', email: '' },
+      { name: 'Darren Murray', title: 'Trustee', phone: '(810) 459-0576', email: '' },
+      { name: 'Christian McGuire', title: 'Trustee', phone: '(810) 266-6220', email: '' }
+    ]
+  },
+  'Shiawassee:Caledonia': {
+    name: 'Caledonia charter Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Amy Holek', title: 'Supervisor', phone: '(989) 743-3122', email: '' },
+      { name: 'Marcy Brady', title: 'Clerk', phone: '(989) 743-5300', email: '' },
+      { name: 'Jesse Levesque', title: 'Treasurer', phone: '(989) 743-5300', email: '' },
+      { name: 'Geraldine Hagadon', title: 'Trustee', phone: '(989) 743-5300', email: '' },
+      { name: 'Ron Spicer', title: 'Trustee', phone: '(989) 720-3111', email: '' },
+      { name: 'Martin Krhovsky', title: 'Trustee', phone: '', email: '' },
+      { name: 'Shelly Ochodnicky', title: 'Trustee', phone: '(989) 743-5300', email: '' }
+    ]
+  },
+  'Shiawassee:Fairfield': {
+    name: 'Fairfield Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Richard Zemla', title: 'Supervisor', phone: '(989) 666-2159', email: '' },
+      { name: 'Sonya Latz', title: 'Clerk', phone: '(517) 282-1168', email: '' },
+      { name: 'Allison Emelander', title: 'Treasurer', phone: '(989) 307-5754', email: '' },
+      { name: 'Steve Maynard', title: 'Trustee', phone: '(989) 661-7797', email: '' },
+      { name: 'Tim Riegle', title: 'Trustee', phone: '(989) 862-5057', email: '' }
+    ]
+  },
+  'Shiawassee:Hazelton': {
+    name: 'Hazelton Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Joseph Vincke', title: 'Supervisor', phone: '(810) 638-5861', email: '' },
+      { name: 'Kerry Kruske', title: 'Clerk', phone: '(810) 638-5861', email: '' },
+      { name: 'Cheryl Pope', title: 'Treasurer', phone: '(810) 638-5763', email: '' },
+      { name: 'Brad Cesal', title: 'Trustee', phone: '(810) 638-5861', email: '' },
+      { name: 'Ian Anspach', title: 'Trustee', phone: '(810) 638-5861', email: '' }
+    ]
+  },
+  'Shiawassee:Middlebury': {
+    name: 'Middlebury Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Michael Herendeen', title: 'Supervisor', phone: '(517) 719-5582', email: '' },
+      { name: 'Jamie Aldrich', title: 'Clerk', phone: '(989) 834-9900', email: '' },
+      { name: 'Jill Ruess', title: 'Treasurer', phone: '(989) 209-7077', email: '' },
+      { name: 'Gene Ruess', title: 'Trustee', phone: '(989) 277-7514', email: '' },
+      { name: 'Ron Powell', title: 'Trustee', phone: '(517) 242-7999', email: '' }
+    ]
+  },
+  'Shiawassee:New Haven': {
+    name: 'New Haven Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Steven DeLong', title: 'Supervisor', phone: '(715) 409-0918', email: '' },
+      { name: 'Colleen Horton', title: 'Clerk', phone: '(989) 743-4381', email: '' },
+      { name: 'Mary Eickholt', title: 'Treasurer', phone: '(989) 743-4381 ext. 101', email: '' },
+      { name: 'Fred Gray', title: 'Trustee', phone: '(517) 202-3682', email: '' },
+      { name: 'Andrew Richardson', title: 'Trustee', phone: '(989) 721-9596', email: '' }
+    ]
+  },
+  'Shiawassee:Owosso': {
+    name: 'Owosso charter Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'David Johnson', title: 'Supervisor', phone: '(989) 723-4639', email: '' },
+      { name: 'Patricia Skvarenina', title: 'Clerk', phone: '(989) 723-2187', email: '' },
+      { name: 'Kimberly Genovese', title: 'Treasurer', phone: '(989) 723-2187', email: '' },
+      { name: 'Diane Krajcovic', title: 'Trustee', phone: '(989) 723-3539', email: '' },
+      { name: 'Jonathan Archer', title: 'Trustee', phone: '(989) 277-4352', email: '' },
+      { name: 'Dave Chrenka', title: 'Trustee', phone: '(989) 725-7970', email: '' },
+      { name: 'Gary Schultz', title: 'Trustee', phone: '(989) 627-5072', email: '' }
+    ]
+  },
+  'Shiawassee:Perry': {
+    name: 'Perry Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Mark Fulks', title: 'Supervisor', phone: '(517) 285-5702', email: '' },
+      { name: 'Veronica Howard', title: 'Clerk', phone: '(517) 625-4597', email: '' },
+      { name: 'Troy Parmalee', title: 'Treasurer', phone: '(517) 625-7697', email: '' },
+      { name: 'Francis Griffith', title: 'Trustee', phone: '(517) 625-3798', email: '' },
+      { name: 'Mark Fraser', title: 'Trustee', phone: '(517) 625-1290', email: '' }
+    ]
+  },
+  'Shiawassee:Rush': {
+    name: 'Rush Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Brian Santrucek', title: 'Supervisor', phone: '(989) 545-1739', email: '' },
+      { name: 'Linda Grigsby', title: 'Clerk', phone: '(989) 729-2999', email: '' },
+      { name: 'Samantha Santrucek', title: 'Treasurer', phone: '(989) 494-1313', email: '' },
+      { name: 'Steve Hann', title: 'Trustee', phone: '(989) 723-1138', email: '' },
+      { name: 'Taylor Shuster', title: 'Trustee', phone: '(989) 729-2999', email: '' }
+    ]
+  },
+  'Shiawassee:Sciota': {
+    name: 'Sciota Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Phillip Matthews', title: 'Supervisor', phone: '(517) 651-5387', email: '' },
+      { name: 'Jamie Parker', title: 'Clerk', phone: '(517) 651-5286', email: '' },
+      { name: 'Kimberly Palmer', title: 'Treasurer', phone: '(517) 651-6245', email: '' },
+      { name: 'Michael Reed', title: 'Trustee', phone: '(517) 614-1509', email: '' },
+      { name: 'Vaughn Vondrasek', title: 'Trustee', phone: '(517) 881-0798', email: '' }
+    ]
+  },
+  'Shiawassee:Shiawassee': {
+    name: 'Shiawassee Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Matt Harvey', title: 'Supervisor', phone: '(989) 634-9700', email: '' },
+      { name: 'Tracie Burton', title: 'Clerk', phone: '(989) 634-9700', email: '' },
+      { name: 'Tiffany Harvey', title: 'Treasurer', phone: '(989) 634-5621', email: '' },
+      { name: 'John Sedlock', title: 'Trustee', phone: '(989) 634-5184', email: '' },
+      { name: 'Richard Godfrey', title: 'Trustee', phone: '(989) 634-9700', email: '' }
+    ]
+  },
+  'Shiawassee:Venice': {
+    name: 'Venice Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Kevin Kingsbury', title: 'Supervisor', phone: '(810) 621-4096', email: '' },
+      { name: 'Alissa Sumner', title: 'Clerk', phone: '(810) 621-4096', email: '' },
+      { name: 'Kristina Hurd', title: 'Treasurer', phone: '(810) 621-4096', email: '' },
+      { name: 'William Smith', title: 'Trustee', phone: '(810) 621-4096', email: '' },
+      { name: 'Daniel Dasen', title: 'Trustee', phone: '(810) 621-4096', email: '' }
+    ]
+  },
+  'Shiawassee:Vernon': {
+    name: 'Vernon Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Bert DeClerg', title: 'Supervisor', phone: '(989) 288-2388', email: '' },
+      { name: 'Susan Bannister', title: 'Clerk', phone: '(989) 721-9029', email: '' },
+      { name: 'Mary Jane Edwards', title: 'Treasurer', phone: '(989) 288-4403 ext. 103', email: '' },
+      { name: 'Janet Sprague', title: 'Trustee', phone: '(989) 288-4403', email: '' },
+      { name: 'Nathan Charles', title: 'Trustee', phone: '(989) 288-4403', email: '' }
+    ]
+  },
+  'Shiawassee:Woodhull': {
+    name: 'Woodhull Township',
+    county: 'Shiawassee',
+    officials: [
+      { name: 'Stephen Daunt', title: 'Supervisor', phone: '(517) 675-4341', email: '' },
+      { name: 'Carol Maize', title: 'Clerk', phone: '(517) 675-4342', email: '' },
+      { name: 'Dawn Warfle', title: 'Treasurer', phone: '(517) 896-4301', email: '' },
+      { name: 'Mark Turner', title: 'Trustee', phone: '(517) 202-1325', email: '' },
+      { name: 'Craig Ryan', title: 'Trustee', phone: '(517) 881-2645', email: '' }
+    ]
+  },
+  'St. Clair:Berlin': {
+    name: 'Berlin Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Bill Winn', title: 'Supervisor', phone: '(810) 395-4518', email: '' },
+      { name: 'Karen Klos', title: 'Clerk', phone: '(810) 395-4518', email: '' },
+      { name: 'Madeline Parks', title: 'Treasurer', phone: '(810) 395-4518', email: '' },
+      { name: 'Mark Wittstock', title: 'Trustee', phone: '(810) 395-4518', email: '' },
+      { name: 'Robert Christian', title: 'Trustee', phone: '(810) 395-4518', email: '' }
+    ]
+  },
+  'St. Clair:Brockway': {
+    name: 'Brockway Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Bill McMurtrie', title: 'Supervisor', phone: '(810) 387-4192', email: '' },
+      { name: 'Cheryl Wadsworth', title: 'Clerk', phone: '(810) 387-3375', email: '' },
+      { name: 'Terry Wright', title: 'Treasurer', phone: '(810) 387-3375', email: '' },
+      { name: 'Connie True', title: 'Trustee', phone: '(810) 387-4787', email: '' },
+      { name: 'Tim Stasik', title: 'Trustee', phone: '(810) 387-3375', email: '' }
+    ]
+  },
+  'St. Clair:Burtchville': {
+    name: 'Burtchville Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Michael Appel', title: 'Supervisor', phone: '(810) 385-5577', email: '' },
+      { name: 'Robert Bailey', title: 'Clerk', phone: '(810) 385-5577', email: '' },
+      { name: 'Alan Briolat', title: 'Treasurer', phone: '(810) 385-5577', email: '' },
+      { name: 'Cindy Minnie', title: 'Trustee', phone: '(810) 385-5577', email: '' },
+      { name: 'Patrick Janks', title: 'Trustee', phone: '(810) 385-5577', email: '' }
+    ]
+  },
+  'St. Clair:Casco': {
+    name: 'Casco Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Joseph Stevens', title: 'Supervisor', phone: '(810) 543-1838', email: '' },
+      { name: 'Jennifer Andersen', title: 'Clerk', phone: '(586) 727-7524', email: '' },
+      { name: 'Colleen Stover', title: 'Treasurer', phone: '(586) 727-7524', email: '' },
+      { name: 'Daniel Goulston', title: 'Trustee', phone: '(586) 727-2655', email: '' },
+      { name: 'Gina Kaszynski', title: 'Trustee', phone: '(586) 727-7524', email: '' }
+    ]
+  },
+  'St. Clair:China': {
+    name: 'China Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Linda Schweihofer', title: 'Supervisor', phone: '(810) 329-9307', email: '' },
+      { name: 'Sharon Martin', title: 'Clerk', phone: '(810) 765-1145', email: '' },
+      { name: 'Deanna Moran', title: 'Treasurer', phone: '(810) 765-1145 ext. 203', email: '' },
+      { name: 'Edward Neiman', title: 'Trustee', phone: '(586) 855-9565', email: '' },
+      { name: 'Dan Turke', title: 'Trustee', phone: '(810) 765-1145', email: '' },
+      { name: 'Ron Beier', title: 'Trustee', phone: '(810) 765-1145', email: '' },
+      { name: 'Lauren Martin', title: 'Trustee', phone: '(810) 765-1145', email: '' }
+    ]
+  },
+  'St. Clair:Clay': {
+    name: 'Clay Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Roy Martin', title: 'Supervisor', phone: '(810) 794-9303', email: '' },
+      { name: 'Tanya Hogan', title: 'Clerk', phone: '(810) 794-9303', email: '' },
+      { name: 'Beverly St John Rose', title: 'Treasurer', phone: '(810) 794-9303', email: '' },
+      { name: 'Mark Borchardt', title: 'Trustee', phone: '(810) 794-9303', email: '' },
+      { name: 'Jon DeBoyer', title: 'Trustee', phone: '(810) 794-9303', email: '' },
+      { name: 'Donald Raines', title: 'Trustee', phone: '(810) 794-9303', email: '' },
+      { name: 'Sarah Clements', title: 'Trustee', phone: '(810) 794-9303', email: '' }
+    ]
+  },
+  'St. Clair:Clyde': {
+    name: 'Clyde Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Ernie Manoleas', title: 'Supervisor', phone: '(810) 985-7258', email: '' },
+      { name: 'Stacey Smith', title: 'Clerk', phone: '(810) 985-7258', email: '' },
+      { name: 'Jessica Compton', title: 'Treasurer', phone: '(810) 985-7258', email: '' },
+      { name: 'David Dortman', title: 'Trustee', phone: '(810) 985-7258', email: '' },
+      { name: 'Doug Voight', title: 'Trustee', phone: '(810) 985-7258', email: '' },
+      { name: 'Bonnie DeShon', title: 'Trustee', phone: '(810) 985-7258', email: '' },
+      { name: 'Sherry Beiser', title: 'Trustee', phone: '(810) 985-7258', email: '' }
+    ]
+  },
+  'St. Clair:Columbus': {
+    name: 'Columbus Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Brad Smith', title: 'Supervisor', phone: '(586) 727-2055', email: '' },
+      { name: 'Angie Biringer', title: 'Clerk', phone: '(586) 727-2055', email: '' },
+      { name: 'Stan Dudek', title: 'Trustee', phone: '(586) 727-2055', email: '' },
+      { name: 'Jared Greenia', title: 'Trustee', phone: '(586) 727-2055', email: '' }
+    ]
+  },
+  'St. Clair:Cottrellville': {
+    name: 'Cottrellville Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Greg Abbey', title: 'Supervisor', phone: '(810) 765-4730', email: '' },
+      { name: 'Angela Brelinski', title: 'Clerk', phone: '(810) 765-4730', email: '' },
+      { name: 'Sara DiStefano', title: 'Treasurer', phone: '(586) 495-6804', email: '' },
+      { name: 'Kris Rients', title: 'Trustee', phone: '(810) 765-4730', email: '' },
+      { name: 'Lisa Mackenzie', title: 'Trustee', phone: '(810) 765-4730', email: '' }
+    ]
+  },
+  'St. Clair:East China': {
+    name: 'East China Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Verne Westrick', title: 'Supervisor', phone: '(810) 765-8879', email: '' },
+      { name: 'Sandra Smith', title: 'Clerk', phone: '(810) 765-8879', email: '' },
+      { name: 'Gisela Horn', title: 'Treasurer', phone: '(810) 765-8879', email: '' },
+      { name: 'Allen Reichle', title: 'Trustee', phone: '(810) 580-2109', email: '' },
+      { name: 'Deborah Babel', title: 'Trustee', phone: '(810) 278-5211', email: '' },
+      { name: 'James Kline', title: 'Trustee', phone: '(810) 765-8879', email: '' }
+    ]
+  },
+  'St. Clair:Emmett': {
+    name: 'Emmett Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Michael Butler', title: 'Supervisor', phone: '(810) 384-8070', email: '' },
+      { name: 'Stephanie Jackson', title: 'Clerk', phone: '(810) 384-8070', email: '' },
+      { name: 'Carrie Kot', title: 'Treasurer', phone: '(810) 384-8070 ext. 20', email: '' },
+      { name: 'Sandra Reliford', title: 'Trustee', phone: '(810) 384-8070', email: '' },
+      { name: 'Keith Scott', title: 'Trustee', phone: '(810) 304-1230', email: '' }
+    ]
+  },
+  'St. Clair:Fort Gratiot': {
+    name: 'Fort Gratiot charter Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Robert Montgomery', title: 'Supervisor', phone: '(810) 841-8824', email: '' },
+      { name: 'Robert Buechler', title: 'Clerk', phone: '(810) 385-4489', email: '' },
+      { name: 'George Wells', title: 'Treasurer', phone: '(810) 385-4489', email: '' },
+      { name: 'Linda Bruckner', title: 'Trustee', phone: '(810) 982-2377', email: '' },
+      { name: 'Scott Bradley', title: 'Trustee', phone: '(810) 989-9578', email: '' },
+      { name: 'Adam Armbruster', title: 'Trustee', phone: '(810) 531-4880', email: '' },
+      { name: 'Robert Crawford', title: 'Trustee', phone: '(810) 385-4489', email: '' }
+    ]
+  },
+  'St. Clair:Grant': {
+    name: 'Grant Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'William Deater', title: 'Supervisor', phone: '(810) 531-7190', email: '' },
+      { name: 'Nancy Sharum', title: 'Clerk', phone: '(810) 327-6775', email: '' },
+      { name: 'Stacie Hartman', title: 'Treasurer', phone: '(810) 327-6775', email: '' },
+      { name: 'Todd Burch', title: 'Trustee', phone: '(810) 327-6775', email: '' }
+    ]
+  },
+  'St. Clair:Greenwood': {
+    name: 'Greenwood Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Eric Krikorian', title: 'Supervisor', phone: '(810) 387-4044', email: '' },
+      { name: 'Sonya O\'Brien', title: 'Clerk', phone: '(810) 387-4044', email: '' },
+      { name: 'Rebecca Ramsey', title: 'Treasurer', phone: '(810) 300-9977', email: '' },
+      { name: 'Marvin Roberts', title: 'Trustee', phone: '(810) 387-4044', email: '' },
+      { name: 'Douglas Nowicki', title: 'Trustee', phone: '(810) 387-4044', email: '' }
+    ]
+  },
+  'St. Clair:Ira': {
+    name: 'Ira Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'James Endres', title: 'Supervisor', phone: '(586) 725-0263', email: '' },
+      { name: 'Jean Corbat', title: 'Clerk', phone: '(586) 725-0263', email: '' },
+      { name: 'Tom Lauer', title: 'Treasurer', phone: '(586) 725-0263', email: '' },
+      { name: 'Thomas Eder', title: 'Trustee', phone: '(586) 725-0263', email: '' },
+      { name: 'Stella Ruhlman', title: 'Trustee', phone: '(586) 725-0263', email: '' }
+    ]
+  },
+  'St. Clair:Kenockee': {
+    name: 'Kenockee Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Tod Molesworth', title: 'Supervisor', phone: '(810) 324-6126', email: '' },
+      { name: 'Jennifer Francek', title: 'Clerk', phone: '(810) 324-6126', email: '' },
+      { name: 'Patricia Shappee', title: 'Treasurer', phone: '(810) 650-4774', email: '' },
+      { name: 'Joshua Schieweck', title: 'Trustee', phone: '(810) 324-6126', email: '' },
+      { name: 'Jacqueline Robinson', title: 'Trustee', phone: '(810) 705-2021', email: '' }
+    ]
+  },
+  'St. Clair:Kimball': {
+    name: 'Kimball Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Robert Usakowski', title: 'Supervisor', phone: '(810) 637-1537', email: '' },
+      { name: 'Becky Wrubel', title: 'Clerk', phone: '(810) 367-6666', email: '' },
+      { name: 'George Jackson', title: 'Treasurer', phone: '(810) 367-6249', email: '' },
+      { name: 'Karen Deland', title: 'Trustee', phone: '(810) 987-9797', email: '' },
+      { name: 'Thomas Reilly', title: 'Trustee', phone: '(810) 987-9797', email: '' },
+      { name: 'Gary Lokers', title: 'Trustee', phone: '(810) 987-9797', email: '' }
+    ]
+  },
+  'St. Clair:Lynn': {
+    name: 'Lynn Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Steve Kalbfleisch', title: 'Supervisor', phone: '(810) 346-2605', email: '' },
+      { name: 'Annette Ferrett', title: 'Clerk', phone: '(810) 724-8507', email: '' },
+      { name: 'Janice Timmermans', title: 'Treasurer', phone: '(810) 387-3317', email: '' },
+      { name: 'Art Miller', title: 'Trustee', phone: '(810) 395-2319', email: '' },
+      { name: 'Robyn Budd', title: 'Trustee', phone: '(810) 542-1579', email: '' }
+    ]
+  },
+  'St. Clair:Mussey': {
+    name: 'Mussey Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Bruce Downey', title: 'Supervisor', phone: '(810) 395-7804', email: '' },
+      { name: 'Monica Standel', title: 'Clerk', phone: '(810) 650-0982', email: '' },
+      { name: 'Deb Lewis', title: 'Treasurer', phone: '(810) 395-4915', email: '' },
+      { name: 'Jeff Kegler', title: 'Trustee', phone: '(810) 395-4915', email: '' },
+      { name: 'Jacob Nemecek', title: 'Trustee', phone: '(810) 395-4915', email: '' }
+    ]
+  },
+  'St. Clair:Port Huron': {
+    name: 'Port Huron charter Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Robert Lewandowski', title: 'Supervisor', phone: '(810) 987-6600', email: '' },
+      { name: 'Benita Davis', title: 'Clerk', phone: '(810) 987-6600', email: '' },
+      { name: 'Peter Shonka', title: 'Treasurer', phone: '(810) 987-6600', email: '' },
+      { name: 'Donald Dudas', title: 'Trustee', phone: '(810) 987-6600', email: '' },
+      { name: 'John Reno Jr', title: 'Trustee', phone: '(810) 987-6600', email: '' },
+      { name: 'Patrick Pringle', title: 'Trustee', phone: '(810) 987-6600', email: '' },
+      { name: 'Dawn Fulk', title: 'Trustee', phone: '(810) 987-6600', email: '' }
+    ]
+  },
+  'St. Clair:Riley': {
+    name: 'Riley Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Martin Cook', title: 'Supervisor', phone: '(810) 392-2326 ext. 102', email: '' },
+      { name: 'Patricia Gondert', title: 'Clerk', phone: '(810) 392-2326 ext. 102', email: '' },
+      { name: 'Susan Hudema-Evans', title: 'Treasurer', phone: '(810) 392-2326 ext. 102', email: '' },
+      { name: 'Mark Baranowski', title: 'Trustee', phone: '(810) 392-2326', email: '' },
+      { name: 'Duane Hagle', title: 'Trustee', phone: '(810) 392-2326', email: '' }
+    ]
+  },
+  'St. Clair:St. Clair': {
+    name: 'St. Clair Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Brian Mahaffy', title: 'Supervisor', phone: '(810) 625-8845', email: '' },
+      { name: 'Bonnie DiNardo', title: 'Clerk', phone: '(810) 531-6325', email: '' },
+      { name: 'Denise Klieman', title: 'Treasurer', phone: '(810) 300-4641', email: '' },
+      { name: 'Evan Rood', title: 'Trustee', phone: '(810) 329-9042', email: '' },
+      { name: 'William Karas', title: 'Trustee', phone: '(810) 650-8183', email: '' },
+      { name: 'Mike Boulier', title: 'Trustee', phone: '(810) 329-9042', email: '' },
+      { name: 'Ryan Barck', title: 'Trustee', phone: '(810) 329-9042', email: '' }
+    ]
+  },
+  'St. Clair:Wales': {
+    name: 'Wales Township',
+    county: 'St. Clair',
+    officials: [
+      { name: 'Elizabeth Masters', title: 'Supervisor', phone: '(810) 325-1517', email: '' },
+      { name: 'Cynthia Bobcean', title: 'Clerk', phone: '(810) 325-1517', email: '' },
+      { name: 'Joe Trombley', title: 'Treasurer', phone: '(810) 325-1517', email: '' }
+    ]
+  },
+  'St. Joseph:Burr Oak': {
+    name: 'Burr Oak Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'George Letts', title: 'Supervisor', phone: '(269) 625-4839', email: '' },
+      { name: 'Ashley Garl', title: 'Clerk', phone: '(269) 689-5176', email: '' },
+      { name: 'Mary Gould', title: 'Treasurer', phone: '(269) 489-2889', email: '' },
+      { name: 'Richard Baker', title: 'Trustee', phone: '(269) 503-4146', email: '' }
+    ]
+  },
+  'St. Joseph:Colon': {
+    name: 'Colon Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Sandra Jackson', title: 'Supervisor', phone: '(269) 432-3371', email: '' },
+      { name: 'Natalie Wyant', title: 'Clerk', phone: '(269) 432-3371', email: '' },
+      { name: 'Teresa Owsley', title: 'Treasurer', phone: '(269) 432-3371', email: '' },
+      { name: 'Carol Bielski', title: 'Trustee', phone: '(269) 432-3371', email: '' },
+      { name: 'Scott Wyant', title: 'Trustee', phone: '(269) 432-3371', email: '' }
+    ]
+  },
+  'St. Joseph:Fabius': {
+    name: 'Fabius Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Dan Wilkins', title: 'Supervisor', phone: '(269) 244-5376', email: '' },
+      { name: 'Carol Wilkins', title: 'Clerk', phone: '(269) 244-5376', email: '' },
+      { name: 'Cynthia Haradine', title: 'Treasurer', phone: '(269) 244-5376', email: '' },
+      { name: 'Judith Holman', title: 'Trustee', phone: '(269) 244-5376', email: '' },
+      { name: 'April Wooden', title: 'Trustee', phone: '(269) 244-5376', email: '' }
+    ]
+  },
+  'St. Joseph:Fawn River': {
+    name: 'Fawn River Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Mike Himes', title: 'Supervisor', phone: '(269) 651-5823', email: '' },
+      { name: 'Ammara Kanjanayothee', title: 'Clerk', phone: '(269) 503-3109', email: '' },
+      { name: 'Jennifer Schwartz', title: 'Treasurer', phone: '(269) 659-8979', email: '' },
+      { name: 'Jerry Ware', title: 'Trustee', phone: '(269) 651-7938', email: '' },
+      { name: 'Davey Robison', title: 'Trustee', phone: '(269) 651-5823', email: '' }
+    ]
+  },
+  'St. Joseph:Florence': {
+    name: 'Florence Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Tim Carls', title: 'Supervisor', phone: '(269) 251-5575', email: '' },
+      { name: 'Kayla Miller', title: 'Clerk', phone: '(269) 464-0212', email: '' },
+      { name: 'Tonya Ziehm', title: 'Treasurer', phone: '(269) 221-1861', email: '' },
+      { name: 'Ben Russell', title: 'Trustee', phone: '(269) 435-8564', email: '' },
+      { name: 'Don Schrock', title: 'Trustee', phone: '(269) 435-4234', email: '' }
+    ]
+  },
+  'St. Joseph:Flowerfield': {
+    name: 'Flowerfield Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Ronald Shaver', title: 'Supervisor', phone: '(269) 330-4933', email: '' },
+      { name: 'Teresa Ives', title: 'Clerk', phone: '(269) 646-9121', email: '' },
+      { name: 'Nicole Hess', title: 'Treasurer', phone: '(269) 646-9121', email: '' },
+      { name: 'Deborah Spencer', title: 'Trustee', phone: '(269) 646-9121', email: '' },
+      { name: 'Betty Grindel', title: 'Trustee', phone: '(269) 646-9121', email: '' }
+    ]
+  },
+  'St. Joseph:Leonidas': {
+    name: 'Leonidas Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Bernard Saxman', title: 'Supervisor', phone: '(269) 496-7521', email: '' },
+      { name: 'Julie Censke', title: 'Clerk', phone: '(269) 718-6846', email: '' },
+      { name: 'Barry MacDonald', title: 'Treasurer', phone: '(269) 496-7837', email: '' }
+    ]
+  },
+  'St. Joseph:Lockport': {
+    name: 'Lockport Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Mark Major', title: 'Supervisor', phone: '(269) 816-0904', email: '' },
+      { name: 'Theresa Gherna-Ankney', title: 'Clerk', phone: '(269) 278-1911', email: '' },
+      { name: 'Michael Friesner', title: 'Treasurer', phone: '(269) 467-9616', email: '' },
+      { name: 'Donna Grubbs', title: 'Trustee', phone: '(269) 251-1985', email: '' },
+      { name: 'Rick Daniels', title: 'Trustee', phone: '(269) 506-3464', email: '' }
+    ]
+  },
+  'St. Joseph:Mendon': {
+    name: 'Mendon Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Maurice Kline', title: 'Supervisor', phone: '(269) 496-7708', email: '' },
+      { name: 'Donna Cupp', title: 'Clerk', phone: '(269) 496-7708', email: '' },
+      { name: 'Janice Griffith', title: 'Treasurer', phone: '(269) 496-7708', email: '' },
+      { name: 'James Hart', title: 'Trustee', phone: '(269) 496-7708', email: '' },
+      { name: 'Leasa Griffith-Matthews', title: 'Trustee', phone: '(269) 496-7708', email: '' }
+    ]
+  },
+  'St. Joseph:Mottville': {
+    name: 'Mottville Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Douglas DeMeyer', title: 'Supervisor', phone: '(269) 483-9456', email: '' },
+      { name: 'Sherry Medford', title: 'Clerk', phone: '(269) 483-7860', email: '' },
+      { name: 'Jan Mallo', title: 'Treasurer', phone: '(269) 483-2120', email: '' },
+      { name: 'Larry Grindle', title: 'Trustee', phone: '(269) 483-2120', email: '' },
+      { name: 'Glenn Mcnamara', title: 'Trustee', phone: '(269) 483-2120', email: '' }
+    ]
+  },
+  'St. Joseph:Nottawa': {
+    name: 'Nottawa Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Dave Peterson', title: 'Supervisor', phone: '(269) 467-7835', email: '' },
+      { name: 'Bret Lutz', title: 'Clerk', phone: '(269) 467-7835', email: '' },
+      { name: 'Deb Rice', title: 'Treasurer', phone: '(269) 467-7835', email: '' },
+      { name: 'Steven Clark', title: 'Trustee', phone: '(269) 467-7063', email: '' }
+    ]
+  },
+  'St. Joseph:Park': {
+    name: 'Park Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Ed English', title: 'Supervisor', phone: '(269) 506-9831', email: '' },
+      { name: 'Lari Roberts', title: 'Clerk', phone: '(269) 816-1137', email: '' },
+      { name: 'Cindy Fenwick', title: 'Treasurer', phone: '(269) 535-6298', email: '' },
+      { name: 'Tom Springer', title: 'Trustee', phone: '(269) 273-4702', email: '' },
+      { name: 'Mike Kinne', title: 'Trustee', phone: '(269) 967-3407', email: '' }
+    ]
+  },
+  'St. Joseph:Sherman': {
+    name: 'Sherman Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Steve Wolf', title: 'Supervisor', phone: '(269) 651-8620', email: '' },
+      { name: 'Phyllis Lung', title: 'Clerk', phone: '(269) 506-3304', email: '' },
+      { name: 'Laura Schwartz', title: 'Treasurer', phone: '(269) 503-8324', email: '' },
+      { name: 'Josh Kuhl', title: 'Trustee', phone: '(269) 651-8620', email: '' },
+      { name: 'Roger Krontz', title: 'Trustee', phone: '(269) 651-5783', email: '' }
+    ]
+  },
+  'St. Joseph:Sturgis': {
+    name: 'Sturgis Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Von Metzger', title: 'Supervisor', phone: '(269) 651-3676', email: '' },
+      { name: 'Mark Bowen', title: 'Clerk', phone: '(269) 651-3676', email: '' },
+      { name: 'Zeta Metzger', title: 'Treasurer', phone: '(269) 625-2411', email: '' },
+      { name: 'Judith Pappas', title: 'Trustee', phone: '(269) 651-8426', email: '' },
+      { name: 'Rodney Stahl', title: 'Trustee', phone: '(269) 651-3676', email: '' }
+    ]
+  },
+  'St. Joseph:White Pigeon': {
+    name: 'White Pigeon Township',
+    county: 'St. Joseph',
+    officials: [
+      { name: 'Jason Trosper', title: 'Supervisor', phone: '(269) 483-7043', email: '' },
+      { name: 'Lacie Pletcher', title: 'Clerk', phone: '(269) 483-7043', email: '' },
+      { name: 'Amanda Harker', title: 'Treasurer', phone: '(269) 483-7043', email: '' },
+      { name: 'Amy Snook', title: 'Trustee', phone: '(269) 483-7043', email: '' },
+      { name: 'Sheila Kroupa', title: 'Trustee', phone: '(269) 483-7043', email: '' }
+    ]
+  },
+  'Tuscola:Akron': {
+    name: 'Akron Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Steve Linzner', title: 'Supervisor', phone: '(989) 341-3006', email: '' },
+      { name: 'Jamie Schuette', title: 'Clerk', phone: '(989) 674-2334', email: '' },
+      { name: 'Deana Jacoby', title: 'Treasurer', phone: '(989) 691-5505', email: '' },
+      { name: 'Katie Sattelberg', title: 'Trustee', phone: '(989) 674-2280', email: '' },
+      { name: 'Carrie Hines', title: 'Trustee', phone: '(989) 674-2280', email: '' }
+    ]
+  },
+  'Tuscola:Almer': {
+    name: 'Almer Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Jim Mantey', title: 'Supervisor', phone: '(989) 280-0019', email: '' },
+      { name: 'Peggy Reavey', title: 'Clerk', phone: '(989) 286-5600', email: '' },
+      { name: 'Meagan Stevenson', title: 'Treasurer', phone: '(313) 570-9914', email: '' },
+      { name: 'Jim Tussey', title: 'Trustee', phone: '(989) 673-8595', email: '' },
+      { name: 'Art Graff', title: 'Trustee', phone: '(989) 673-6216', email: '' },
+      { name: 'Chris Wilcox', title: 'Trustee', phone: '(989) 239-2766', email: '' },
+      { name: 'Jim Miklovic', title: 'Trustee', phone: '(989) 286-5600', email: '' }
+    ]
+  },
+  'Tuscola:Arbela': {
+    name: 'Arbela Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Edward Hunt', title: 'Supervisor', phone: '(989) 871-2022', email: '' },
+      { name: 'Beth Duet', title: 'Clerk', phone: '(989) 871-2022', email: '' },
+      { name: 'Jody Hunt', title: 'Treasurer', phone: '(989) 871-9212', email: '' },
+      { name: 'Gary Woelzlein', title: 'Trustee', phone: '(989) 871-2022', email: '' },
+      { name: 'Tim Anderson', title: 'Trustee', phone: '(989) 871-2022', email: '' }
+    ]
+  },
+  'Tuscola:Columbia': {
+    name: 'Columbia Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Kathy Trischler', title: 'Supervisor', phone: '(989) 674-2427', email: '' },
+      { name: 'Amy Petiprin', title: 'Clerk', phone: '(989) 550-2174', email: '' },
+      { name: 'Christina Parmenter', title: 'Treasurer', phone: '(989) 674-0174', email: '' },
+      { name: 'Christopher Creguer', title: 'Trustee', phone: '(989) 670-1485', email: '' },
+      { name: 'Lloyd Scharf', title: 'Trustee', phone: '(989) 280-9602', email: '' }
+    ]
+  },
+  'Tuscola:Dayton': {
+    name: 'Dayton Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Travis Klimek', title: 'Supervisor', phone: '(989) 912-5045', email: '' },
+      { name: 'Sandy Wiseman', title: 'Clerk', phone: '(810) 656-6220', email: '' },
+      { name: 'Jodi Barrons', title: 'Treasurer', phone: '(810) 656-6220', email: '' },
+      { name: 'Robert Steele', title: 'Trustee', phone: '(989) 843-6949', email: '' },
+      { name: 'Greg Lotter', title: 'Trustee', phone: '(989) 553-0847', email: '' }
+    ]
+  },
+  'Tuscola:Denmark': {
+    name: 'Denmark Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Danny Bauer', title: 'Supervisor', phone: '(989) 868-9801', email: '' },
+      { name: 'Chris Rogner', title: 'Clerk', phone: '(989) 868-9801', email: '' },
+      { name: 'Theresa Bauer', title: 'Treasurer', phone: '(989) 868-9801', email: '' },
+      { name: 'Steven Schwab', title: 'Trustee', phone: '(989) 213-7369', email: '' },
+      { name: 'James Wilkinson', title: 'Trustee', phone: '(989) 868-9801', email: '' }
+    ]
+  },
+  'Tuscola:Elkland': {
+    name: 'Elkland Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Terry Muntz', title: 'Supervisor', phone: '(989) 325-1776', email: '' },
+      { name: 'Heather Severance', title: 'Clerk', phone: '(989) 439-0265', email: '' },
+      { name: 'Cindy Kruse', title: 'Treasurer', phone: '(989) 872-4529', email: '' },
+      { name: 'Travis Osentoski', title: 'Trustee', phone: '(989) 551-2010', email: '' },
+      { name: 'Steve Wright', title: 'Trustee', phone: '(989) 550-8608', email: '' }
+    ]
+  },
+  'Tuscola:Ellington': {
+    name: 'Ellington Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Russell Speirs', title: 'Supervisor', phone: '(989) 553-1803', email: '' },
+      { name: 'Suzy Rockwell', title: 'Clerk', phone: '(989) 673-8009', email: '' },
+      { name: 'Carmell Pattullo', title: 'Treasurer', phone: '(989) 550-1187', email: '' },
+      { name: 'Gregg Campbell', title: 'Trustee', phone: '(989) 553-1803', email: '' },
+      { name: 'Laura Boyke-Hawes', title: 'Trustee', phone: '(989) 553-1803', email: '' }
+    ]
+  },
+  'Tuscola:Elmwood': {
+    name: 'Elmwood Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Christopher Graff', title: 'Supervisor', phone: '(989) 551-1367', email: '' },
+      { name: 'Michelle Hoppe', title: 'Clerk', phone: '(989) 665-2556', email: '' },
+      { name: 'Cheryl Kilbourn', title: 'Treasurer', phone: '(989) 551-4115', email: '' },
+      { name: 'Daryl Mendrick', title: 'Trustee', phone: '(989) 553-5474', email: '' },
+      { name: 'Tom Lounsbury', title: 'Trustee', phone: '(989) 872-2398', email: '' }
+    ]
+  },
+  'Tuscola:Fairgrove': {
+    name: 'Fairgrove Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Michael Day', title: 'Supervisor', phone: '(616) 916-8423', email: '' },
+      { name: 'Katie Gebhardt', title: 'Clerk', phone: '(616) 916-8423', email: '' },
+      { name: 'Sarah Donovan', title: 'Treasurer', phone: '(989) 928-4483', email: '' },
+      { name: 'Amy Grady', title: 'Trustee', phone: '(616) 916-8423', email: '' },
+      { name: 'Bryan Hadeway', title: 'Trustee', phone: '(616) 916-8423', email: '' }
+    ]
+  },
+  'Tuscola:Fremont': {
+    name: 'Fremont Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Matt Blatt', title: 'Supervisor', phone: '(989) 635-8017', email: '' },
+      { name: 'Amy Prill', title: 'Clerk', phone: '(989) 843-0621', email: '' },
+      { name: 'Candra Franzel', title: 'Treasurer', phone: '(989) 660-0881', email: '' },
+      { name: 'Ronald Curell', title: 'Trustee', phone: '(989) 843-0621', email: '' },
+      { name: 'Brandon Blatt', title: 'Trustee', phone: '(989) 843-0621', email: '' }
+    ]
+  },
+  'Tuscola:Gilford': {
+    name: 'Gilford Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'James Stockmeyer', title: 'Supervisor', phone: '(989) 252-3099', email: '' },
+      { name: 'Diane Spencer', title: 'Clerk', phone: '(989) 693-6394', email: '' },
+      { name: 'Debra Strasz', title: 'Treasurer', phone: '(989) 868-4911', email: '' },
+      { name: 'Kent Houghtaling', title: 'Trustee', phone: '(989) 233-6292', email: '' },
+      { name: 'Amanda Goss', title: 'Trustee', phone: '(989) 239-7310', email: '' }
+    ]
+  },
+  'Tuscola:Indianfields': {
+    name: 'Indianfields Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Ray Rendon', title: 'Supervisor', phone: '(989) 673-3416', email: '' },
+      { name: 'Terry Gast', title: 'Clerk', phone: '(989) 673-3416', email: '' },
+      { name: 'Atessa Gast', title: 'Treasurer', phone: '(989) 673-3416', email: '' },
+      { name: 'Ron Woloshen', title: 'Trustee', phone: '(989) 673-7523', email: '' }
+    ]
+  },
+  'Tuscola:Juniata': {
+    name: 'Juniata Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Nancy Laskowski', title: 'Supervisor', phone: '(989) 325-5339', email: '' },
+      { name: 'Sara Parrott', title: 'Clerk', phone: '(989) 912-0361', email: '' },
+      { name: 'Penny Berry', title: 'Treasurer', phone: '(989) 325-1393', email: '' },
+      { name: 'Chuck Langevin', title: 'Trustee', phone: '(989) 673-1944', email: '' },
+      { name: 'Judy Cockerill', title: 'Trustee', phone: '(989) 225-7104', email: '' }
+    ]
+  },
+  'Tuscola:Kingston': {
+    name: 'Kingston Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Randy Rush', title: 'Supervisor', phone: '(248) 431-5343', email: '' },
+      { name: 'Ellen Marquardt', title: 'Treasurer', phone: '(989) 683-2686', email: '' },
+      { name: 'Gary King', title: 'Trustee', phone: '(989) 683-2940', email: '' },
+      { name: 'Tim Ruggles', title: 'Trustee', phone: '(989) 325-0521', email: '' }
+    ]
+  },
+  'Tuscola:Koylton': {
+    name: 'Koylton Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Justin Boyl', title: 'Supervisor', phone: '(989) 737-7226', email: '' },
+      { name: 'Melissa Kelly', title: 'Clerk', phone: '(810) 614-0918', email: '' },
+      { name: 'Shari Boyl', title: 'Treasurer', phone: '(989) 279-8786', email: '' },
+      { name: 'Larry Sabin', title: 'Trustee', phone: '(810) 441-6049', email: '' }
+    ]
+  },
+  'Tuscola:Millington': {
+    name: 'Millington Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Robert Loomis', title: 'Supervisor', phone: '(989) 871-4418', email: '' },
+      { name: 'Lorah Cameron', title: 'Clerk', phone: '(989) 871-4418', email: '' },
+      { name: 'Sharon Keinath', title: 'Treasurer', phone: '(989) 871-4418', email: '' },
+      { name: 'Luanne Jaruzel', title: 'Trustee', phone: '(989) 871-4418', email: '' },
+      { name: 'Gerald Cook', title: 'Trustee', phone: '(989) 871-4418', email: '' }
+    ]
+  },
+  'Tuscola:Novesta': {
+    name: 'Novesta Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Chad Daniels', title: 'Supervisor', phone: '(989) 551-2251', email: '' },
+      { name: 'Pennie Rienas', title: 'Clerk', phone: '(989) 872-2792', email: '' },
+      { name: 'Deidra Zdrojewski', title: 'Treasurer', phone: '(989) 872-5681', email: '' },
+      { name: 'Jesse Robinson', title: 'Trustee', phone: '(989) 912-0009', email: '' },
+      { name: 'Daniel Bera', title: 'Trustee', phone: '(989) 550-1356', email: '' }
+    ]
+  },
+  'Tuscola:Tuscola': {
+    name: 'Tuscola Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Michelle Hicks', title: 'Clerk', phone: '(989) 871-4507', email: '' },
+      { name: 'Bob Verbeek', title: 'Treasurer', phone: '(989) 823-7074', email: '' },
+      { name: 'Sarah Barber', title: 'Trustee', phone: '(989) 871-4507', email: '' },
+      { name: 'James Rodammer', title: 'Trustee', phone: '(989) 823-4507', email: '' }
+    ]
+  },
+  'Tuscola:Vassar': {
+    name: 'Vassar Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Bruce Foether', title: 'Supervisor', phone: '(989) 529-6529', email: '' },
+      { name: 'Monica Whitburn', title: 'Clerk', phone: '(989) 823-3541', email: '' },
+      { name: 'John Stack', title: 'Treasurer', phone: '(989) 233-5329', email: '' },
+      { name: 'Ben Partridge', title: 'Trustee', phone: '(989) 233-0322', email: '' }
+    ]
+  },
+  'Tuscola:Watertown': {
+    name: 'Watertown Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Dan Quertermous', title: 'Supervisor', phone: '(989) 795-2257', email: '' },
+      { name: 'Malisa Pyles', title: 'Clerk', phone: '(989) 795-2127', email: '' },
+      { name: 'Tina Terbush', title: 'Treasurer', phone: '(989) 795-2127', email: '' },
+      { name: 'Kayla Reed', title: 'Trustee', phone: '(989) 795-2127', email: '' },
+      { name: 'Jamie Thatcher', title: 'Trustee', phone: '(989) 795-2127', email: '' }
+    ]
+  },
+  'Tuscola:Wells': {
+    name: 'Wells Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Carmen Stevens', title: 'Supervisor', phone: '(989) 550-4913', email: '' },
+      { name: 'Bonnie Hergenreder', title: 'Clerk', phone: '(989) 673-4481', email: '' },
+      { name: 'Stefanie Bruce', title: 'Treasurer', phone: '(989) 683-2919', email: '' },
+      { name: 'Jason Koehler', title: 'Trustee', phone: '(989) 551-7142', email: '' },
+      { name: 'Terrie Flikkie', title: 'Trustee', phone: '(989) 284-6485', email: '' }
+    ]
+  },
+  'Tuscola:Wisner': {
+    name: 'Wisner Township',
+    county: 'Tuscola',
+    officials: [
+      { name: 'Tracy Freed', title: 'Supervisor', phone: '(989) 233-3452', email: '' },
+      { name: 'Patrick Mulligan', title: 'Clerk', phone: '(989) 316-9181', email: '' },
+      { name: 'Lisa Valentine', title: 'Treasurer', phone: '(989) 233-2970', email: '' },
+      { name: 'Wade MacFarlane', title: 'Trustee', phone: '(989) 233-0084', email: '' },
+      { name: 'Toni Reese', title: 'Trustee', phone: '(989) 233-3452', email: '' }
+    ]
+  },
+  'Van Buren:Almena': {
+    name: 'Almena Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Joe Leduc', title: 'Supervisor', phone: '(269) 668-6910', email: '' },
+      { name: 'Sandra Rickli', title: 'Clerk', phone: '(269) 668-6910', email: '' },
+      { name: 'Mark Roman', title: 'Treasurer', phone: '(269) 668-6910', email: '' },
+      { name: 'Kelly Redmond', title: 'Trustee', phone: '(269) 668-6910', email: '' },
+      { name: 'Tim Kloosterman', title: 'Trustee', phone: '(269) 668-6910', email: '' },
+      { name: 'John Wagner', title: 'Trustee', phone: '(269) 668-6910', email: '' },
+      { name: 'Pat Denny-Diget', title: 'Trustee', phone: '(269) 668-6910', email: '' }
+    ]
+  },
+  'Van Buren:Arlington': {
+    name: 'Arlington Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Georgette Peterson', title: 'Supervisor', phone: '(269) 427-7300', email: '' },
+      { name: 'Susan Wilson', title: 'Clerk', phone: '(269) 427-7300', email: '' },
+      { name: 'Jeff Douglas', title: 'Treasurer', phone: '(269) 427-7300', email: '' },
+      { name: 'Theodore Swanson', title: 'Trustee', phone: '(269) 760-6657', email: '' },
+      { name: 'Rob Zantello', title: 'Trustee', phone: '(269) 427-7300', email: '' }
+    ]
+  },
+  'Van Buren:Bangor': {
+    name: 'Bangor Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Michael Sullins', title: 'Supervisor', phone: '(269) 214-2932', email: '' },
+      { name: 'Annette Houdek', title: 'Clerk', phone: '(269) 427-8965', email: '' },
+      { name: 'Sandra Karr', title: 'Treasurer', phone: '(269) 427-7302', email: '' },
+      { name: 'David Houdek', title: 'Trustee', phone: '(269) 427-8145', email: '' },
+      { name: 'Regina Hoover', title: 'Trustee', phone: '(269) 427-8965', email: '' }
+    ]
+  },
+  'Van Buren:Bloomingdale': {
+    name: 'Bloomingdale Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Matthew Ashbrook', title: 'Supervisor', phone: '(269) 521-3800', email: '' },
+      { name: 'Melanie Kelly', title: 'Clerk', phone: '(269) 521-3800', email: '' },
+      { name: 'Melissa Blackson', title: 'Treasurer', phone: '(269) 521-3800', email: '' },
+      { name: 'Lindsey Nelson', title: 'Trustee', phone: '(269) 521-3800', email: '' },
+      { name: 'Brett Johnson', title: 'Trustee', phone: '(269) 521-3800', email: '' }
+    ]
+  },
+  'Van Buren:Columbia': {
+    name: 'Columbia Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Kenneth Speicher', title: 'Supervisor', phone: '(269) 434-6227', email: '' },
+      { name: 'Kara Laraway', title: 'Clerk', phone: '(269) 434-6227', email: '' },
+      { name: 'Mary Phelps', title: 'Treasurer', phone: '(269) 434-6229', email: '' },
+      { name: 'Jason Bull', title: 'Trustee', phone: '(269) 434-6227', email: '' },
+      { name: 'Gary Gruss', title: 'Trustee', phone: '(269) 434-6227', email: '' }
+    ]
+  },
+  'Van Buren:Covert': {
+    name: 'Covert Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Daywi Cook', title: 'Supervisor', phone: '(224) 616-8179', email: '' },
+      { name: 'Wednesday Pritchard', title: 'Clerk', phone: '(269) 764-5139', email: '' },
+      { name: 'Marilyn Rendell', title: 'Treasurer', phone: '(269) 764-5142', email: '' },
+      { name: 'Lonzey Taylor', title: 'Trustee', phone: '(269) 764-8319', email: '' },
+      { name: 'Barbara Rose', title: 'Trustee', phone: '(269) 764-8986', email: '' }
+    ]
+  },
+  'Van Buren:Decatur': {
+    name: 'Decatur Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Kevin Kusmack', title: 'Supervisor', phone: '(269) 423-8588', email: '' },
+      { name: 'Julie McKee', title: 'Clerk', phone: '(269) 436-1185', email: '' },
+      { name: 'Katelin Makay', title: 'Treasurer', phone: '(269) 423-6260', email: '' },
+      { name: 'Joshua Hunsberger', title: 'Trustee', phone: '(269) 655-6868', email: '' },
+      { name: 'Zachary Polomcak', title: 'Trustee', phone: '(269) 674-9370', email: '' }
+    ]
+  },
+  'Van Buren:Geneva': {
+    name: 'Geneva Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Nancy Ann Whaley', title: 'Supervisor', phone: '(269) 427-7607', email: '' },
+      { name: 'Brandie Rainey', title: 'Clerk', phone: '(269) 427-7607', email: '' },
+      { name: 'Patti Brinks', title: 'Treasurer', phone: '(269) 427-7607', email: '' },
+      { name: 'Clare Olney', title: 'Trustee', phone: '(269) 906-1230', email: '' },
+      { name: 'Martin Pfaff', title: 'Trustee', phone: '(269) 427-7607', email: '' }
+    ]
+  },
+  'Van Buren:Hamilton': {
+    name: 'Hamilton Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Richard Conway', title: 'Supervisor', phone: '(269) 423-7852', email: '' },
+      { name: 'Rebecca Mott', title: 'Clerk', phone: '(269) 423-7852', email: '' },
+      { name: 'Sandra Hanson', title: 'Treasurer', phone: '(269) 674-8780', email: '' },
+      { name: 'Karen Makay', title: 'Trustee', phone: '(269) 423-7852', email: '' },
+      { name: 'Justin Klein', title: 'Trustee', phone: '(269) 423-7852', email: '' }
+    ]
+  },
+  'Van Buren:Keeler': {
+    name: 'Keeler Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Don Blackmond', title: 'Supervisor', phone: '(574) 532-1794', email: '' },
+      { name: 'Angie Sexton', title: 'Clerk', phone: '(269) 621-4427', email: '' },
+      { name: 'Sharon Clupper', title: 'Treasurer', phone: '(269) 388-2780', email: '' },
+      { name: 'Carl Davis', title: 'Trustee', phone: '(269) 449-4909', email: '' },
+      { name: 'Matthew Sexton', title: 'Trustee', phone: '(269) 621-4427', email: '' }
+    ]
+  },
+  'Van Buren:Lawrence': {
+    name: 'Lawrence Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Donna Spenner', title: 'Supervisor', phone: '(269) 539-2057', email: '' },
+      { name: 'Tracie Rindfield', title: 'Clerk', phone: '(269) 674-4255', email: '' },
+      { name: 'Kimberly Kiley', title: 'Treasurer', phone: '(269) 674-3840', email: '' },
+      { name: 'Mike Carpp', title: 'Trustee', phone: '(269) 217-1990', email: '' },
+      { name: 'Tom Reynnells', title: 'Trustee', phone: '(269) 674-4255', email: '' }
+    ]
+  },
+  'Van Buren:Paw Paw': {
+    name: 'Paw Paw Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Thomas Palenick', title: 'Supervisor', phone: '(269) 657-4340 ext. 141', email: '' },
+      { name: 'Rebecca Payne', title: 'Clerk', phone: '(269) 657-4340', email: '' },
+      { name: 'Lisa Zinkil', title: 'Treasurer', phone: '(269) 657-4340 ext. 122', email: '' },
+      { name: 'James Degroff', title: 'Trustee', phone: '(269) 657-4340', email: '' },
+      { name: 'Dennis Reynolds', title: 'Trustee', phone: '(269) 657-4340', email: '' }
+    ]
+  },
+  'Van Buren:Pine Grove': {
+    name: 'Pine Grove Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Pam Visser', title: 'Supervisor', phone: '(269) 628-4769', email: '' },
+      { name: 'Michelle Meert', title: 'Clerk', phone: '(269) 628-4380', email: '' },
+      { name: 'Trena Sell', title: 'Treasurer', phone: '(269) 628-4488', email: '' },
+      { name: 'Donna Hephner', title: 'Trustee', phone: '', email: '' },
+      { name: 'Ron Huston', title: 'Trustee', phone: '(269) 628-4769', email: '' }
+    ]
+  },
+  'Van Buren:Porter': {
+    name: 'Porter Township',
+    county: 'Van Buren',
+    officials: [
+      { name: 'Chris Oxley', title: 'Supervisor', phone: '(269) 624-4022', email: '' },
+      { name: 'Heather Smith', title: 'Clerk', phone: '(269) 624-4022', email: '' },
+      { name: 'Andrew Nesbitt', title: 'Treasurer', phone: '(269) 624-4022', email: '' },
+      { name: 'Laura Packer', title: 'Trustee', phone: '(269) 624-4022', email: '' },
+      { name: 'Nathan Bitely', title: 'Trustee', phone: '(269) 624-4022', email: '' }
+    ]
+  },
+  'Washtenaw:Ann Arbor': {
+    name: 'Ann Arbor charter Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Diane O\'Connell', title: 'Supervisor', phone: '(734) 663-3418', email: '' },
+      { name: 'Kristine Bolhuis', title: 'Clerk', phone: '(734) 663-3418', email: '' },
+      { name: 'Carlene Colvin-Garcia', title: 'Treasurer', phone: '(734) 663-3418', email: '' },
+      { name: 'John Allison', title: 'Trustee', phone: '(734) 971-3989', email: '' },
+      { name: 'Eric Kaljian', title: 'Trustee', phone: '(734) 663-3418', email: '' },
+      { name: 'Peter Kotila', title: 'Trustee', phone: '(734) 663-3418', email: '' },
+      { name: 'Della DiPietro', title: 'Trustee', phone: '(734) 663-3418', email: '' }
+    ]
+  },
+  'Washtenaw:Augusta': {
+    name: 'Augusta charter Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Todd Waller', title: 'Supervisor', phone: '(734) 461-6117', email: '' },
+      { name: 'Kimberly Gonczy', title: 'Clerk', phone: '(734) 461-6117 ext. 201', email: '' },
+      { name: 'Susan Burek', title: 'Treasurer', phone: '(734) 461-6117 ext. 206', email: '' },
+      { name: 'Linda Adams', title: 'Trustee', phone: '(734) 461-6117', email: '' },
+      { name: 'Michael Green', title: 'Trustee', phone: '(734) 461-6117', email: '' },
+      { name: 'Keith Gipfert', title: 'Trustee', phone: '(734) 461-6117', email: '' },
+      { name: 'Stephanie Prain', title: 'Trustee', phone: '(734) 461-6117', email: '' }
+    ]
+  },
+  'Washtenaw:Bridgewater': {
+    name: 'Bridgewater Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Laurie Fromhart', title: 'Supervisor', phone: '(734) 223-2766', email: '' },
+      { name: 'Michelle McQueer', title: 'Clerk', phone: '(517) 456-7728', email: '' },
+      { name: 'Amy Ahrens', title: 'Treasurer', phone: '(734) 678-9837', email: '' },
+      { name: 'David Faust', title: 'Trustee', phone: '(517) 456-7728', email: '' },
+      { name: 'Geoffrey Oliver', title: 'Trustee', phone: '(517) 456-7728', email: '' }
+    ]
+  },
+  'Washtenaw:Dexter': {
+    name: 'Dexter Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Lonnie Scott', title: 'Supervisor', phone: '(734) 426-3767', email: '' },
+      { name: 'Michelle Stamboulellis', title: 'Clerk', phone: '(734) 476-0956', email: '' },
+      { name: 'Brad Metz', title: 'Treasurer', phone: '(734) 426-3767', email: '' },
+      { name: 'Karen Nolte', title: 'Trustee', phone: '(248) 240-9589', email: '' },
+      { name: 'Laura Sanders', title: 'Trustee', phone: '(734) 678-4814', email: '' },
+      { name: 'Karen Sikkenga', title: 'Trustee', phone: '(734) 426-3767', email: '' },
+      { name: 'Alicia Abbott', title: 'Trustee', phone: '(734) 426-3767', email: '' }
+    ]
+  },
+  'Washtenaw:Freedom': {
+    name: 'Freedom Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Larry Lindemann', title: 'Supervisor', phone: '(734) 428-9687', email: '' },
+      { name: 'Valisa Bristle', title: 'Clerk', phone: '(734) 428-7545 ext. 2', email: '' },
+      { name: 'Rudy Layher', title: 'Treasurer', phone: '(734) 428-9128', email: '' },
+      { name: 'Dan Schaible', title: 'Trustee', phone: '(734) 428-7241', email: '' },
+      { name: 'Dennis Huehl', title: 'Trustee', phone: '(734) 475-1051', email: '' }
+    ]
+  },
+  'Washtenaw:Lima': {
+    name: 'Lima Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'William VanRiper', title: 'Supervisor', phone: '(734) 475-2246', email: '' },
+      { name: 'Ann Kwaske', title: 'Clerk', phone: '(734) 475-2246', email: '' },
+      { name: 'Greg McKenzie', title: 'Trustee', phone: '(734) 475-2246', email: '' },
+      { name: 'Dale Luick', title: 'Trustee', phone: '(734) 475-2246', email: '' }
+    ]
+  },
+  'Washtenaw:Lodi': {
+    name: 'Lodi Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Christina Smith', title: 'Clerk', phone: '(734) 665-7583', email: '' },
+      { name: 'Michelle Foley', title: 'Treasurer', phone: '(734) 665-7583', email: '' },
+      { name: 'Donald Rentschler', title: 'Trustee', phone: '(734) 665-3003', email: '' },
+      { name: 'Leslie Blackburn', title: 'Trustee', phone: '(734) 665-7583', email: '' },
+      { name: 'Steve Marsh', title: 'Trustee', phone: '(734) 665-7583', email: '' }
+    ]
+  },
+  'Washtenaw:Lyndon': {
+    name: 'Lyndon Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Pamela Byrnes Brown', title: 'Supervisor', phone: '(734) 358-8441', email: '' },
+      { name: 'Linda Reilly', title: 'Clerk', phone: '(734) 475-2401', email: '' },
+      { name: 'Robert Mester', title: 'Trustee', phone: '(734) 475-2401', email: '' },
+      { name: 'Tim Eder', title: 'Trustee', phone: '(734) 475-2401', email: '' }
+    ]
+  },
+  'Washtenaw:Manchester': {
+    name: 'Manchester Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Ron Milkey', title: 'Supervisor', phone: '(734) 216-9150', email: '' },
+      { name: 'Danell Proctor', title: 'Clerk', phone: '(734) 428-7090', email: '' },
+      { name: 'Kim Thompson', title: 'Treasurer', phone: '(734) 428-7090', email: '' },
+      { name: 'John Seefeld', title: 'Trustee', phone: '(734) 428-7090', email: '' },
+      { name: 'Lisa Moutinho', title: 'Trustee', phone: '(734) 216-5249', email: '' },
+      { name: 'Mike Fusilier', title: 'Trustee', phone: '(734) 428-7090', email: '' },
+      { name: 'Mike Walter', title: 'Trustee', phone: '(734) 428-7090', email: '' }
+    ]
+  },
+  'Washtenaw:Northfield': {
+    name: 'Northfield Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Larry Roman', title: 'Supervisor', phone: '', email: '' },
+      { name: 'Kathleen Manley', title: 'Clerk', phone: '(734) 449-2880 ext. 22', email: '' },
+      { name: 'Jacqueline Otto', title: 'Treasurer', phone: '(734) 449-2880', email: '' },
+      { name: 'Janet Chick', title: 'Trustee', phone: '(734) 788-4954', email: '' },
+      { name: 'Nate Muchow', title: 'Trustee', phone: '(734) 637-7557', email: '' },
+      { name: 'Jacob Donner', title: 'Trustee', phone: '(734) 449-2880', email: '' },
+      { name: 'Adam Olney', title: 'Trustee', phone: '(734) 449-2880', email: '' }
+    ]
+  },
+  'Washtenaw:Pittsfield': {
+    name: 'Pittsfield charter Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Trish Reilly', title: 'Supervisor', phone: '(734) 822-3101', email: '' },
+      { name: 'Michelle Anzaldi', title: 'Clerk', phone: '(734) 822-3101', email: '' },
+      { name: 'Chris Ekpiken', title: 'Treasurer', phone: '(734) 822-3101', email: '' },
+      { name: 'Yameen Jaffer', title: 'Trustee', phone: '(734) 822-3101', email: '' },
+      { name: 'Andrea Urda-Thompson', title: 'Trustee', phone: '(734) 822-3120', email: '' },
+      { name: 'Courtney Mills', title: 'Trustee', phone: '(734) 822-3101', email: '' },
+      { name: 'David Brabec', title: 'Trustee', phone: '(734) 822-3101', email: '' }
+    ]
+  },
+  'Washtenaw:Salem': {
+    name: 'Salem Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Gary Whittaker', title: 'Supervisor', phone: '(248) 349-1690', email: '' },
+      { name: 'Del Wensley', title: 'Clerk', phone: '(248) 349-1690', email: '' },
+      { name: 'Bruce Reeve', title: 'Treasurer', phone: '(810) 499-4900', email: '' },
+      { name: 'John Daniel', title: 'Trustee', phone: '(248) 349-1690', email: '' },
+      { name: 'TJ McLaughlin', title: 'Trustee', phone: '(248) 349-1690', email: '' },
+      { name: 'David Trent', title: 'Trustee', phone: '(248) 349-1690', email: '' },
+      { name: 'Reggie Deluca', title: 'Trustee', phone: '(248) 349-1690', email: '' }
+    ]
+  },
+  'Washtenaw:Saline': {
+    name: 'Saline Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'James Marion', title: 'Supervisor', phone: '(734) 429-5155', email: '' },
+      { name: 'Kelly Marion', title: 'Clerk', phone: '(734) 429-9968', email: '' },
+      { name: 'Jennifer Zink', title: 'Treasurer', phone: '(734) 645-4168', email: '' },
+      { name: 'Tom Hammond', title: 'Trustee', phone: '(734) 429-9968', email: '' }
+    ]
+  },
+  'Washtenaw:Scio': {
+    name: 'Scio Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Jillian Kerry', title: 'Supervisor', phone: '(734) 369-9400', email: '' },
+      { name: 'Jessica Flintoft', title: 'Clerk', phone: '(734) 369-9400', email: '' },
+      { name: 'Ryan Yaple', title: 'Treasurer', phone: '(734) 369-9400', email: '' },
+      { name: 'Kathleen Knol', title: 'Trustee', phone: '(734) 369-9400', email: '' },
+      { name: 'John Reiser', title: 'Trustee', phone: '(734) 369-9400', email: '' },
+      { name: 'Kathleen Brant', title: 'Trustee', phone: '(734) 369-9400', email: '' },
+      { name: 'David Read', title: 'Trustee', phone: '(734) 369-9400', email: '' }
+    ]
+  },
+  'Washtenaw:Sharon': {
+    name: 'Sharon Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Katharyn Spiegel', title: 'Supervisor', phone: '(734) 395-0225', email: '' },
+      { name: 'Michelle Mrocko', title: 'Clerk', phone: '(734) 428-7591', email: '' },
+      { name: 'Brian Brickley', title: 'Treasurer', phone: '(734) 260-2119', email: '' },
+      { name: 'Trudi Cooper', title: 'Trustee', phone: '(734) 428-7591', email: '' },
+      { name: 'Anna Harvey', title: 'Trustee', phone: '(734) 428-7591', email: '' }
+    ]
+  },
+  'Washtenaw:Superior': {
+    name: 'Superior charter Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Emily Yahkind', title: 'Supervisor', phone: '(734) 482-6099', email: '' },
+      { name: 'Angela Robinson', title: 'Clerk', phone: '(734) 482-6099', email: '' },
+      { name: 'Lisa Lewis', title: 'Treasurer', phone: '(734) 482-6099', email: '' },
+      { name: 'Dana Greene', title: 'Trustee', phone: '(734) 482-6099', email: '' },
+      { name: 'Brenda McKinney', title: 'Trustee', phone: '(734) 482-6099', email: '' },
+      { name: 'Sarah Devereaux', title: 'Trustee', phone: '(734) 482-6099', email: '' },
+      { name: 'Kenneth Schwartz', title: 'Trustee', phone: '(734) 482-6099', email: '' }
+    ]
+  },
+  'Washtenaw:Sylvan': {
+    name: 'Sylvan Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Amanda Nimke', title: 'Supervisor', phone: '(734) 475-8890', email: '' },
+      { name: 'Doug Jackson', title: 'Clerk', phone: '(734) 475-8890', email: '' },
+      { name: 'Sandra Egeler', title: 'Treasurer', phone: '(734) 475-8890', email: '' },
+      { name: 'Sandie Schulze', title: 'Trustee', phone: '(734) 255-3518', email: '' },
+      { name: 'Kurt Koseck', title: 'Trustee', phone: '(734) 475-8890', email: '' }
+    ]
+  },
+  'Washtenaw:Webster': {
+    name: 'Webster Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Tonie Brovont', title: 'Clerk', phone: '(734) 426-5103', email: '' },
+      { name: 'John Scharf', title: 'Treasurer', phone: '(734) 426-5103', email: '' },
+      { name: 'Dan Munzel', title: 'Trustee', phone: '(734) 426-5103', email: '' },
+      { name: 'Shelly Vrsek', title: 'Trustee', phone: '(248) 514-3032', email: '' },
+      { name: 'Jeff Harms', title: 'Trustee', phone: '(734) 426-5103', email: '' },
+      { name: 'Brant Savander', title: 'Trustee', phone: '(734) 426-5103', email: '' }
+    ]
+  },
+  'Washtenaw:York': {
+    name: 'York charter Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Kayleigh Zupi', title: 'Clerk', phone: '(734) 439-8842', email: '' },
+      { name: 'Sally Louis', title: 'Treasurer', phone: '(734) 439-8842 ext. 203', email: '' },
+      { name: 'Asa Swallows', title: 'Trustee', phone: '(734) 439-8842', email: '' },
+      { name: 'John Hargrove', title: 'Trustee', phone: '(734) 439-8842', email: '' },
+      { name: 'Jason McGovern', title: 'Trustee', phone: '(734) 439-8842', email: '' },
+      { name: 'Helen Neill', title: 'Trustee', phone: '(734) 439-8842 ext. 204', email: '' }
+    ]
+  },
+  'Washtenaw:Ypsilanti': {
+    name: 'Ypsilanti charter Township',
+    county: 'Washtenaw',
+    officials: [
+      { name: 'Brenda Stumbo', title: 'Supervisor', phone: '(734) 481-0617', email: '' },
+      { name: 'Debbie Swanson', title: 'Clerk', phone: '(734) 899-0221', email: '' },
+      { name: 'Stan Eldridge', title: 'Treasurer', phone: '(734) 484-4700', email: '' },
+      { name: 'John Newman', title: 'Trustee', phone: '(734) 899-0231', email: '' },
+      { name: 'Gloria Peterson', title: 'Trustee', phone: '(734) 544-4000', email: '' },
+      { name: 'Karen Lovejoy Roe', title: 'Trustee', phone: '(734) 484-4700', email: '' },
+      { name: 'LaResha Thornton', title: 'Trustee', phone: '(734) 544-4000', email: '' }
+    ]
+  },
+  'Wayne:Brownstown': {
+    name: 'Brownstown charter Township',
+    county: 'Wayne',
+    officials: [
+      { name: 'Sherry Berecz', title: 'Supervisor', phone: '(734) 675-0910', email: '' },
+      { name: 'Maureen Brinker', title: 'Clerk', phone: '(734) 675-0910', email: '' },
+      { name: 'Michael Eberth', title: 'Treasurer', phone: '(734) 675-0910', email: '' },
+      { name: 'Patrick Killian', title: 'Trustee', phone: '(734) 675-0910', email: '' },
+      { name: 'Steven Allen', title: 'Trustee', phone: '(734) 675-0910', email: '' },
+      { name: 'David Chapman', title: 'Trustee', phone: '(734) 789-1976', email: '' },
+      { name: 'Roger Jones', title: 'Trustee', phone: '(734) 675-0910', email: '' }
+    ]
+  },
+  'Wayne:Canton': {
+    name: 'Canton charter Township',
+    county: 'Wayne',
+    officials: [
+      { name: 'Anne Marie Graham-Hudak', title: 'Supervisor', phone: '(734) 394-5100', email: '' },
+      { name: 'Michael Siegrist', title: 'Clerk', phone: '(734) 394-5100', email: '' },
+      { name: 'Dian Slavens', title: 'Treasurer', phone: '(734) 394-5100', email: '' },
+      { name: 'Sommer Foster', title: 'Trustee', phone: '(734) 394-5100', email: '' },
+      { name: 'Tania Ganguly', title: 'Trustee', phone: '(734) 394-5100', email: '' },
+      { name: 'Kate Borninski', title: 'Trustee', phone: '(734) 394-5100', email: '' },
+      { name: 'Ammara Ansari', title: 'Trustee', phone: '(734) 394-5100', email: '' }
+    ]
+  },
+  'Wayne:Grosse Ile': {
+    name: 'Grosse Ile Township',
+    county: 'Wayne',
+    officials: [
+      { name: 'Joe Porcarelli', title: 'Supervisor', phone: '(734) 676-4422', email: '' },
+      { name: 'Jamison Yager', title: 'Clerk', phone: '(734) 676-4422', email: '' },
+      { name: 'Kevin Flavin', title: 'Treasurer', phone: '(734) 676-4422', email: '' },
+      { name: 'Michelle Bartlette', title: 'Trustee', phone: '(734) 676-4422', email: '' },
+      { name: 'Bill Heil', title: 'Trustee', phone: '(734) 676-4422', email: '' },
+      { name: 'Mark Mills', title: 'Trustee', phone: '(734) 676-4422', email: '' },
+      { name: 'Margaret Shelton', title: 'Trustee', phone: '(734) 676-4422', email: '' }
+    ]
+  },
+  'Wayne:Huron': {
+    name: 'Huron charter Township',
+    county: 'Wayne',
+    officials: [
+      { name: 'Kelly Trombly', title: 'Supervisor', phone: '(734) 753-4466', email: '' },
+      { name: 'Julie Martin', title: 'Clerk', phone: '(734) 753-4466', email: '' },
+      { name: 'Colleen Lazere', title: 'Treasurer', phone: '(734) 753-4466 ext. 119', email: '' },
+      { name: 'David Patterson', title: 'Trustee', phone: '(734) 753-4466', email: '' },
+      { name: 'Donna Mendrysa', title: 'Trustee', phone: '(734) 753-4466', email: '' },
+      { name: 'Renee Ward', title: 'Trustee', phone: '(734) 753-4466', email: '' },
+      { name: 'Bryan Polce', title: 'Trustee', phone: '(734) 753-4466', email: '' }
+    ]
+  },
+  'Wayne:Northville': {
+    name: 'Northville Township',
+    county: 'Wayne',
+    officials: [
+      { name: 'Mark Abbo', title: 'Supervisor', phone: '(248) 348-5800', email: '' },
+      { name: 'Cynthia Jankowski', title: 'Clerk', phone: '(248) 388-0057', email: '' },
+      { name: 'Jason Rhines', title: 'Treasurer', phone: '(248) 348-5800', email: '' },
+      { name: 'Mindy Herrmann', title: 'Trustee', phone: '(248) 348-5800', email: '' },
+      { name: 'Chris Roosen', title: 'Trustee', phone: '(248) 348-5800', email: '' },
+      { name: 'Roland Hwang', title: 'Trustee', phone: '(248) 348-5800', email: '' },
+      { name: 'Roger Lundberg', title: 'Trustee', phone: '(248) 348-5800', email: '' }
+    ]
+  },
+  'Wayne:Plymouth': {
+    name: 'Plymouth charter Township',
+    county: 'Wayne',
+    officials: [
+      { name: 'Charles Curmi', title: 'Supervisor', phone: '(734) 476-3791', email: '' },
+      { name: 'Kim Gaedeke', title: 'Clerk', phone: '(734) 354-3224', email: '' },
+      { name: 'Bob Doroshewitz', title: 'Treasurer', phone: '(734) 354-3214', email: '' },
+      { name: 'John Stewart', title: 'Trustee', phone: '(734) 354-3224', email: '' },
+      { name: 'Jen Buckley', title: 'Trustee', phone: '(734) 855-5133', email: '' },
+      { name: 'Sandra Groth', title: 'Trustee', phone: '(734) 776-4303', email: '' },
+      { name: 'Mark Clinton', title: 'Trustee', phone: '(734) 354-3214', email: '' }
+    ]
+  },
+  'Wayne:Redford': {
+    name: 'Redford charter Township',
+    county: 'Wayne',
+    officials: [
+      { name: 'Pat McRae', title: 'Supervisor', phone: '(313) 387-2705', email: '' },
+      { name: 'Karla Sanders', title: 'Clerk', phone: '(313) 387-2750', email: '' },
+      { name: 'Lily Cavanagh', title: 'Treasurer', phone: '(313) 387-2746', email: '' },
+      { name: 'Kimberly Taylor', title: 'Trustee', phone: '(313) 387-2750', email: '' },
+      { name: 'Linda Jackson', title: 'Trustee', phone: '(313) 213-6004', email: '' },
+      { name: 'Ed King', title: 'Trustee', phone: '(313) 387-2750', email: '' },
+      { name: 'Gabriel Rees', title: 'Trustee', phone: '(313) 387-2750', email: '' }
+    ]
+  },
+  'Wayne:Sumpter': {
+    name: 'Sumpter Township',
+    county: 'Wayne',
+    officials: [
+      { name: 'Timothy Bowman', title: 'Supervisor', phone: '(734) 461-6201', email: '' },
+      { name: 'Donald LaPorte', title: 'Clerk', phone: '(734) 461-6201', email: '' },
+      { name: 'Bart Patterson', title: 'Treasurer', phone: '(734) 461-6201', email: '' },
+      { name: 'Matthew Oddy', title: 'Trustee', phone: '(734) 461-6201', email: '' },
+      { name: 'John Honey', title: 'Trustee', phone: '(734) 461-6201', email: '' },
+      { name: 'James Frazier', title: 'Trustee', phone: '(734) 461-6201', email: '' }
+    ]
+  },
+  'Wayne:Van Buren': {
+    name: 'Van Buren charter Township',
+    county: 'Wayne',
+    officials: [
+      { name: 'Kevin McNamara', title: 'Supervisor', phone: '(734) 699-8900', email: '' },
+      { name: 'Leon Wright', title: 'Clerk', phone: '(734) 699-8900', email: '' },
+      { name: 'Sharry Budd', title: 'Treasurer', phone: '(734) 699-8906', email: '' },
+      { name: 'Kevin Martin', title: 'Trustee', phone: '(734) 699-8900', email: '' },
+      { name: 'Donald Boynton Jr.', title: 'Trustee', phone: '(734) 309-1250', email: '' },
+      { name: 'Bryon Kelley', title: 'Trustee', phone: '(734) 699-8900', email: '' },
+      { name: 'William Frazier', title: 'Trustee', phone: '(734) 699-8900', email: '' }
+    ]
+  },
+  'Wexford:Antioch': {
+    name: 'Antioch Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Tom Williams', title: 'Supervisor', phone: '(231) 885-2398', email: '' },
+      { name: 'Darby Terpstra', title: 'Clerk', phone: '(231) 885-2398', email: '' },
+      { name: 'Kathy Soerries', title: 'Treasurer', phone: '(231) 885-2398', email: '' },
+      { name: 'Joseph Gardner', title: 'Trustee', phone: '(231) 885-2398', email: '' },
+      { name: 'Bruce Jewett', title: 'Trustee', phone: '(231) 885-2398', email: '' }
+    ]
+  },
+  'Wexford:Boon': {
+    name: 'Boon Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Matthew Beattie', title: 'Supervisor', phone: '(231) 313-7907', email: '' },
+      { name: 'Sheila Pratt', title: 'Clerk', phone: '(231) 878-1182', email: '' },
+      { name: 'Michelle Wing', title: 'Treasurer', phone: '(231) 775-8012', email: '' },
+      { name: 'Beverly Brighton', title: 'Trustee', phone: '(231) 775-8012', email: '' },
+      { name: 'Kenneth Schinke', title: 'Trustee', phone: '(231) 775-8012', email: '' }
+    ]
+  },
+  'Wexford:Cedar Creek': {
+    name: 'Cedar Creek Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Larry Paquette', title: 'Supervisor', phone: '(231) 396-9996', email: '' },
+      { name: 'Elizabeth Edwards', title: 'Clerk', phone: '(231) 878-1825', email: '' },
+      { name: 'Mary Hallett', title: 'Treasurer', phone: '(231) 824-3277', email: '' },
+      { name: 'Jeannie Schnitker', title: 'Trustee', phone: '(231) 920-1905', email: '' },
+      { name: 'Scott Paddock', title: 'Trustee', phone: '(231) 942-1803', email: '' }
+    ]
+  },
+  'Wexford:Cherry Grove': {
+    name: 'Cherry Grove Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Jennifer Sück', title: 'Supervisor', phone: '(231) 775-1138 ext. 102', email: '' },
+      { name: 'Marcy Hall', title: 'Clerk', phone: '(231) 775-1138', email: '' },
+      { name: 'Kari Hanus', title: 'Treasurer', phone: '(231) 775-6669', email: '' },
+      { name: 'Chad Edwards', title: 'Trustee', phone: '(231) 775-1138', email: '' },
+      { name: 'Kathy Adams', title: 'Trustee', phone: '(231) 775-1138', email: '' }
+    ]
+  },
+  'Wexford:Clam Lake': {
+    name: 'Clam Lake Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Steven Kitler', title: 'Supervisor', phone: '(231) 779-4064', email: '' },
+      { name: 'Sara Hurley', title: 'Clerk', phone: '(231) 775-5401 ext. 3', email: '' },
+      { name: 'Lesa Wade', title: 'Treasurer', phone: '(231) 775-5401', email: '' },
+      { name: 'William Benson', title: 'Trustee', phone: '(231) 775-6691', email: '' },
+      { name: 'Linda Stahl', title: 'Trustee', phone: '(231) 775-5401', email: '' }
+    ]
+  },
+  'Wexford:Colfax': {
+    name: 'Colfax Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Michael Mix', title: 'Supervisor', phone: '(231) 824-9889', email: '' },
+      { name: 'Rebecca Stoddard', title: 'Clerk', phone: '(231) 775-6540', email: '' },
+      { name: 'Ruth Reddy', title: 'Treasurer', phone: '(231) 775-4626', email: '' },
+      { name: 'Nancy Wood', title: 'Trustee', phone: '(231) 846-6164', email: '' },
+      { name: 'Jeanne Housler', title: 'Trustee', phone: '(231) 775-6540', email: '' }
+    ]
+  },
+  'Wexford:Greenwood': {
+    name: 'Greenwood Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Shelly Bigelow', title: 'Supervisor', phone: '(231) 510-1188', email: '' },
+      { name: 'Ronda Jonas', title: 'Clerk', phone: '(231) 878-4873', email: '' },
+      { name: 'Terry VanderCook', title: 'Treasurer', phone: '', email: '' },
+      { name: 'Harold Swinehart', title: 'Trustee', phone: '(231) 429-3660', email: '' },
+      { name: 'Melody Baker', title: 'Trustee', phone: '(231) 429-3660', email: '' }
+    ]
+  },
+  'Wexford:Hanover': {
+    name: 'Hanover Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Peter Hansen', title: 'Supervisor', phone: '(231) 590-2679', email: '' },
+      { name: 'Terri Schichtel', title: 'Clerk', phone: '(231) 269-3630', email: '' },
+      { name: 'Michele Beeman', title: 'Treasurer', phone: '(231) 269-4178', email: '' },
+      { name: 'Peggy Benz', title: 'Trustee', phone: '(231) 920-9024', email: '' },
+      { name: 'Kim Manuel', title: 'Trustee', phone: '(734) 718-9506', email: '' }
+    ]
+  },
+  'Wexford:Haring': {
+    name: 'Haring charter Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Robert Scarbrough', title: 'Supervisor', phone: '(231) 775-8822', email: '' },
+      { name: 'Paula Dewey', title: 'Clerk', phone: '(231) 775-8822', email: '' },
+      { name: 'Elizabeth McCain', title: 'Treasurer', phone: '(231) 775-8822', email: '' },
+      { name: 'Ted Dewey', title: 'Trustee', phone: '(231) 775-8822', email: '' },
+      { name: 'Robert Sauder', title: 'Trustee', phone: '(231) 775-8822', email: '' }
+    ]
+  },
+  'Wexford:Henderson': {
+    name: 'Henderson Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Paul Wayrynen', title: 'Supervisor', phone: '(248) 420-4863', email: '' },
+      { name: 'Linda Sours', title: 'Clerk', phone: '(231) 510-1677', email: '' },
+      { name: 'Cathy Knight', title: 'Treasurer', phone: '(231) 862-3241', email: '' },
+      { name: 'Eric Sours', title: 'Trustee', phone: '(231) 510-1677', email: '' },
+      { name: 'Sawyer Renwick', title: 'Trustee', phone: '(231) 510-1677', email: '' }
+    ]
+  },
+  'Wexford:Liberty': {
+    name: 'Liberty Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Bradley Swanson', title: 'Supervisor', phone: '(989) 390-1100', email: '' },
+      { name: 'Amanda Kimbel-Sparks', title: 'Clerk', phone: '(231) 878-7467', email: '' },
+      { name: 'Jennifer Moffit', title: 'Treasurer', phone: '(231) 434-8110', email: '' },
+      { name: 'James Heady', title: 'Trustee', phone: '(231) 824-6329', email: '' },
+      { name: 'Brian Neihardt', title: 'Trustee', phone: '', email: '' }
+    ]
+  },
+  'Wexford:Selma': {
+    name: 'Selma Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Mike Boyd', title: 'Supervisor', phone: '(231) 878-3386', email: '' },
+      { name: 'Carol Perrin', title: 'Clerk', phone: '(231) 775-5071', email: '' },
+      { name: 'Sara Hettich', title: 'Treasurer', phone: '(231) 775-4558', email: '' },
+      { name: 'David Kuyers', title: 'Trustee', phone: '(231) 775-5071', email: '' },
+      { name: 'Lori Wetherell', title: 'Trustee', phone: '(231) 775-5071', email: '' }
+    ]
+  },
+  'Wexford:Slagle': {
+    name: 'Slagle Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Phil Wendel', title: 'Supervisor', phone: '(602) 721-9848', email: '' },
+      { name: 'Tammy Porterfield', title: 'Clerk', phone: '(231) 401-9392', email: '' },
+      { name: 'Connie Roush', title: 'Treasurer', phone: '(231) 401-9392', email: '' },
+      { name: 'Amanda Chandler', title: 'Trustee', phone: '(231) 401-9392', email: '' },
+      { name: 'Norma Kangas', title: 'Trustee', phone: '(231) 401-9392', email: '' }
+    ]
+  },
+  'Wexford:South Branch': {
+    name: 'South Branch Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Lori Goodrich', title: 'Supervisor', phone: '(231) 862-3600', email: '' },
+      { name: 'Julie Cieslak', title: 'Clerk', phone: '(231) 862-3671', email: '' },
+      { name: 'Donna Taylor', title: 'Treasurer', phone: '(231) 862-3600', email: '' },
+      { name: 'Darlene LeVeque', title: 'Trustee', phone: '(231) 920-7144', email: '' },
+      { name: 'Shari Renwick', title: 'Trustee', phone: '(231) 862-3600', email: '' }
+    ]
+  },
+  'Wexford:Springville': {
+    name: 'Springville Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'Timothy Dzikowicz', title: 'Supervisor', phone: '(231) 885-2007', email: '' },
+      { name: 'Tiffani McNalley', title: 'Clerk', phone: '(231) 885-1392', email: '' },
+      { name: 'Wendy Floury', title: 'Treasurer', phone: '(231) 885-1964', email: '' },
+      { name: 'Robert McGregor', title: 'Trustee', phone: '(231) 878-5694', email: '' },
+      { name: 'Charles Maidens', title: 'Trustee', phone: '(231) 878-8900', email: '' }
+    ]
+  },
+  'Wexford:Wexford': {
+    name: 'Wexford Township',
+    county: 'Wexford',
+    officials: [
+      { name: 'David Williams', title: 'Supervisor', phone: '(231) 885-1530', email: '' },
+      { name: 'Kimberly Nyman', title: 'Clerk', phone: '(231) 885-1139', email: '' },
+      { name: 'Christina Hansen', title: 'Treasurer', phone: '(231) 885-2339', email: '' },
+      { name: 'Robert Kellogg', title: 'Trustee', phone: '(231) 269-3830', email: '' },
+      { name: 'Paul Williams', title: 'Trustee', phone: '(231) 885-2900', email: '' }
+    ]
+  }
 
-/* ── School board officials ── */
+}
 
 export const MI_SCHOOL_BOARDS = {
   'Ann Arbor Public Schools': {
@@ -12967,7 +19632,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Lansing School District': {
+  'Lansing Public School District': {
     name: 'Lansing School District Board of Education',
     website: 'https://www.lansingschools.net',
     phone: '517-755-1000',
@@ -12982,7 +19647,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Flint Community Schools': {
+  'Flint City School District': {
     name: 'Flint Community Schools Board of Education',
     website: 'https://www.flintschools.org',
     phone: '810-760-1000',
@@ -12997,7 +19662,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Kalamazoo Public Schools': {
+  'Kalamazoo Public School District': {
     name: 'Kalamazoo Public Schools Board of Education',
     website: 'https://www.kalamazoopublicschools.com',
     phone: '269-337-0100',
@@ -13029,7 +19694,7 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── West Michigan school boards ── */
 
-  'Holland Public Schools': {
+  'Holland City School District': {
     name: 'Holland Public Schools Board of Education',
     website: 'https://www.hollandpublicschools.org',
     phone: '616-494-2005',
@@ -13044,7 +19709,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'West Ottawa Public Schools': {
+  'West Ottawa Public School District': {
     name: 'West Ottawa Public Schools Board of Education',
     website: 'https://www.westottawa.net',
     phone: '616-786-2000',
@@ -13088,21 +19753,6 @@ export const MI_SCHOOL_BOARDS = {
       { name: 'Tanya Powell-May', title: 'Trustee', party: null },
       { name: 'Kim Taboada-Arzate', title: 'Trustee', party: null },
       { name: 'Marlon Brown', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Rockford Public Schools': {
-    name: 'Rockford Public Schools Board of Education',
-    website: 'https://www.rockfordschools.org',
-    superintendent: 'Dr. Steve Matthews',
-    officials: [
-      { name: 'Jarrod Folsom', title: 'President', party: null },
-      { name: 'Christie Ramsey', title: 'Vice President', party: null },
-      { name: 'Andrea Jacobson', title: 'Secretary', party: null },
-      { name: 'Jake Himmelspach', title: 'Treasurer', party: null },
-      { name: 'Tricia Anderson', title: 'Trustee', party: null },
-      { name: 'Kelley Freridge', title: 'Trustee', party: null },
-      { name: 'Barbara Helms', title: 'Trustee', party: null },
     ],
   },
 
@@ -13177,7 +19827,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'East Grand Rapids Public Schools': {
+  'East Grand Rapids Public School District': {
     name: 'East Grand Rapids Public Schools Board of Education',
     website: 'https://www.egrps.org',
     superintendent: 'Dr. Heidi S. Kattula',
@@ -13207,7 +19857,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Muskegon Public Schools': {
+  'Muskegon City School District': {
     name: 'Muskegon Public Schools Board of Education',
     website: 'https://muskegonpublicschools.org',
     phone: '231-720-2004',
@@ -13338,7 +19988,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Rochester Community Schools': {
+  'Rochester Community School District': {
     name: 'Rochester Community Schools Board of Education',
     website: 'https://www.rochester.k12.mi.us',
     phone: '248-726-3000',
@@ -13398,7 +20048,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Wayne-Westland Community Schools': {
+  'Wayne-Westland Community School District': {
     name: 'Wayne-Westland Community Schools Board of Education',
     website: 'https://www.wwcsd.net',
     phone: '734-419-2000',
@@ -13413,7 +20063,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Garden City Public Schools': {
+  'Garden City School District': {
     name: 'Garden City Public Schools Board of Education',
     website: 'https://www.gardencityschools.com',
     phone: '734-762-8300',
@@ -13428,7 +20078,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Southfield Public Schools': {
+  'Southfield Public School District': {
     name: 'Southfield Public Schools Board of Education',
     website: 'https://www.southfield.k12.mi.us',
     phone: '248-746-8500',
@@ -13443,7 +20093,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Pontiac School District': {
+  'Pontiac City School District': {
     name: 'Pontiac School District Board of Education',
     website: 'https://www.pontiacschools.org',
     phone: '248-451-6800',
@@ -13473,7 +20123,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Clarkston Community Schools': {
+  'Clarkston Community School District': {
     name: 'Clarkston Community Schools Board of Education',
     website: 'https://www.clarkston.k12.mi.us',
     phone: '248-623-5400',
@@ -13488,7 +20138,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Oxford Community Schools': {
+  'Oxford Area Community Schools': {
     name: 'Oxford Community Schools Board of Education',
     website: 'https://www.oxfordschools.org',
     phone: '248-969-5000',
@@ -13535,7 +20185,7 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── Mid-Michigan school boards ── */
 
-  'East Lansing Public Schools': {
+  'East Lansing School District': {
     name: 'East Lansing Public Schools Board of Education',
     website: 'https://www.elps.us',
     phone: '517-333-7420',
@@ -13565,7 +20215,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Bay City Public Schools': {
+  'Bay City School District': {
     name: 'Bay City Public Schools Board of Education',
     website: 'https://www.bcschools.net',
     phone: '989-893-5520',
@@ -13610,7 +20260,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Mt. Pleasant Public Schools': {
+  'Mount Pleasant City School District': {
     name: 'Mt. Pleasant Public Schools Board of Education',
     website: 'https://www.mtpleasantschools.net',
     phone: '989-775-2300',
@@ -13658,7 +20308,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Petoskey Public Schools': {
+  'Public Schools of Petoskey': {
     name: 'Petoskey Public Schools Board of Education',
     website: 'https://www.petoskeyschools.org',
     phone: '231-348-2100',
@@ -13675,7 +20325,7 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── Muskegon / Ottawa County school boards ── */
 
-  'Mona Shores Public Schools': {
+  'Mona Shores Public School District': {
     name: 'Mona Shores Public Schools Board of Education',
     website: 'https://www.monashores.net',
     phone: '231-780-4751',
@@ -13755,7 +20405,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Whitehall District Schools': {
+  'Whitehall School District': {
     name: 'Whitehall District Schools Board of Education',
     website: 'https://www.whitehallschools.net',
     phone: '231-893-1010',
@@ -13834,7 +20484,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Hudsonville Public Schools': {
+  'Hudsonville Public School District': {
     name: 'Hudsonville Public Schools Board of Education',
     website: 'https://www.hudsonvillepublicschools.org',
     phone: '616-669-1740',
@@ -13882,7 +20532,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Coopersville Area Public Schools': {
+  'Coopersville Public School District': {
     name: 'Coopersville Area Public Schools',
     county: 'Ottawa',
     website: 'https://coopersvillebroncos.org/',
@@ -13914,7 +20564,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Allendale Public Schools': {
+  'Allendale Public School District': {
     name: 'Allendale Public Schools',
     county: 'Ottawa',
     website: 'https://www.allendale.k12.mi.us/',
@@ -13963,7 +20613,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Dexter Community Schools': {
+  'Dexter Community School District': {
     name: 'Dexter Community Schools Board of Education',
     website: 'https://www.dexterschools.org',
     phone: '734-424-4100',
@@ -14085,7 +20735,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Carson City-Crystal Area Schools': {
+  'Carson City-Crystal Area School District': {
     name: 'Carson City-Crystal Area Schools Board of Education',
     website: 'https://www.carsoncity.k12.mi.us',
     phone: '989-584-3138',
@@ -14238,7 +20888,7 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── Newaygo County school districts ── */
 
-  'Newaygo Public Schools': {
+  'Newaygo Public School District': {
     name: 'Newaygo Public Schools',
     county: 'Newaygo',
     website: 'https://www.newaygo.net/',
@@ -14268,7 +20918,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Fremont Public Schools': {
+  'Fremont Public School District': {
     name: 'Fremont Public Schools',
     county: 'Newaygo',
     website: 'https://www.fremont.net/',
@@ -14283,7 +20933,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Grant Public Schools': {
+  'Grant Public School District': {
     name: 'Grant Public Schools',
     county: 'Newaygo',
     website: 'https://www.grantps.net/',
@@ -14312,7 +20962,7 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── Isabella County school districts ── */
 
-  'Shepherd Public Schools': {
+  'Shepherd Public School District': {
     name: 'Shepherd Public Schools',
     county: 'Isabella',
     website: 'https://www.shepherdschools.net/',
@@ -14359,38 +21009,6 @@ export const MI_SCHOOL_BOARDS = {
       { name: 'Tricia Anderson', title: 'Trustee', party: null },
       { name: 'Kelley Freridge', title: 'Trustee', party: null },
       { name: 'Barbara Helms', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Caledonia Community Schools': {
-    name: 'Caledonia Community Schools Board of Education',
-    county: 'Kent',
-    website: 'https://www.calschools.org',
-    phone: '616-891-8185',
-    officials: [
-      { name: 'Tim Morris', title: 'President', party: null },
-      { name: 'John Brandow', title: 'Vice President', party: null },
-      { name: 'Brittany Barber Garcia', title: 'Treasurer', party: null },
-      { name: 'Jessica Kohn', title: 'Secretary', party: null },
-      { name: 'Kyle Clement', title: 'Trustee', party: null },
-      { name: 'Shawn Collins', title: 'Trustee', party: null },
-      { name: 'Jennifer Nichols', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Byron Center Public Schools': {
-    name: 'Byron Center Public Schools Board of Education',
-    county: 'Kent',
-    website: 'https://www.bcpsk12.net',
-    phone: '616-878-6111',
-    officials: [
-      { name: 'Brenda Hondorp', title: 'President', party: null },
-      { name: 'Amber Swift', title: 'Vice President', party: null },
-      { name: 'Thalia Tilma', title: 'Secretary', party: null },
-      { name: 'Brad Wiechertjes', title: 'Treasurer', party: null },
-      { name: 'Rob Hughes', title: 'Trustee', party: null },
-      { name: 'Tom McCoy', title: 'Trustee', party: null },
-      { name: 'Tim Oberst', title: 'Trustee', party: null },
     ],
   },
 
@@ -14442,7 +21060,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Northview Public Schools': {
+  'Northview Public School District': {
     name: 'Northview Public Schools Board of Education',
     county: 'Kent',
     website: 'https://www.nvps.net',
@@ -14508,7 +21126,7 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── Barry County school boards ── */
 
-  'Hastings Area Schools': {
+  'Hastings Area School District': {
     name: 'Hastings Area Schools',
     county: 'Barry',
     website: 'https://hastingspublicschools.org/',
@@ -14525,7 +21143,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Thornapple Kellogg Schools': {
+  'Thornapple Kellogg School District': {
     name: 'Thornapple Kellogg Schools',
     county: 'Barry',
     website: 'https://www.tkschools.org/',
@@ -14540,7 +21158,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Delton Kellogg Schools': {
+  'Delton-Kellogg School District': {
     name: 'Delton Kellogg Schools',
     county: 'Barry',
     website: 'https://www.dkschools.org/',
@@ -14679,7 +21297,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Portland Public Schools': {
+  'Portland Public School District': {
     name: 'Portland Public Schools',
     county: 'Ionia',
     website: 'https://www.portlandk12.org/',
@@ -14694,7 +21312,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Belding Area Schools': {
+  'Belding Area School District': {
     name: 'Belding Area Schools',
     county: 'Ionia',
     website: 'https://beldingschools.org/',
@@ -14741,7 +21359,7 @@ export const MI_SCHOOL_BOARDS = {
 
   // ── Mason County school boards ──
 
-  'Ludington Area Schools': {
+  'Ludington Area School District': {
     name: 'Ludington Area Schools',
     county: 'Mason',
     website: 'https://www.lasdweb.org/',
@@ -14771,7 +21389,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Mason County Eastern Schools': {
+  'Mason County Eastern District': {
     name: 'Mason County Eastern Schools',
     county: 'Mason',
     website: 'https://www.mceschools.com/',
@@ -14788,7 +21406,7 @@ export const MI_SCHOOL_BOARDS = {
 
   // ── Oceana County school boards ──
 
-  'Hart Public Schools': {
+  'Hart Public School District': {
     name: 'Hart Public School District',
     county: 'Oceana',
     website: 'https://www.hartschools.net/',
@@ -14818,7 +21436,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Pentwater Public Schools': {
+  'Pentwater Public School District': {
     name: 'Pentwater Public School District',
     county: 'Oceana',
     website: 'https://www.pentwaterschools.net/',
@@ -14833,22 +21451,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Hesperia Community Schools': {
-    name: 'Hesperia Community Schools',
-    county: 'Oceana',
-    website: 'https://www.hesp.net/',
-    officials: [
-      { name: 'Al Daniels', title: 'President', party: null },
-      { name: 'Ryan Good', title: 'Vice President', party: null },
-      { name: 'Michelle Allen', title: 'Secretary', party: null },
-      { name: 'Mike Kraus', title: 'Treasurer', party: null },
-      { name: 'Barb Maynard', title: 'Trustee', party: null },
-      { name: 'Scott Rumsey', title: 'Trustee', party: null },
-      { name: 'Jason Newman', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Walkerville Public Schools': {
+  'Walkerville Rural Community School District': {
     name: 'Walkerville Public Schools',
     county: 'Oceana',
     website: 'https://walkervillewildcats.com/',
@@ -14894,21 +21497,7 @@ export const MI_SCHOOL_BOARDS = {
       { name: 'Amber Vranish', title: 'Trustee', party: null },
     ],
   },
-  'Pine River Area Schools': {
-    name: 'Pine River Area Schools',
-    county: 'Wexford',
-    website: 'https://www.pineriver.org/',
-    officials: [
-      { name: 'Kevin Delancey', title: 'President', party: null },
-      { name: 'Heather Smith', title: 'Vice President', party: null },
-      { name: 'Katy Draper', title: 'Secretary', party: null },
-      { name: 'Rob Kulpa', title: 'Treasurer', party: null },
-      { name: 'Kim Dean', title: 'Trustee', party: null },
-      { name: 'Susan Stoll', title: 'Trustee', party: null },
-      { name: 'Wayne Tessman', title: 'Trustee', party: null },
-    ],
-  },
-  'Buckley Community Schools': {
+  'Buckley Community School District': {
     name: 'Buckley Community Schools',
     county: 'Wexford',
     website: 'https://www.buckleyschools.org/',
@@ -14955,7 +21544,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Lake City Area Schools': {
+  'Lake City Area School District': {
     name: 'Lake City Area Schools',
     county: 'Missaukee',
     website: 'https://www.lakecityschools.net/page/board-of-education',
@@ -14972,81 +21561,6 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── Montcalm County school boards ── */
 
-  'Greenville Public Schools': {
-    name: 'Greenville Public Schools',
-    county: 'Montcalm',
-    website: 'https://www.gpsjackets.org/page/board-of-education/',
-    officials: [
-      { name: 'Kire Wierda', title: 'President', party: null },
-      { name: 'Michael Huff', title: 'Vice President', party: null },
-      { name: 'Maureen Wolverton', title: 'Secretary', party: null },
-      { name: 'James Anderson', title: 'Treasurer', party: null },
-      { name: 'Richelle Lentz', title: 'Trustee', party: null },
-      { name: 'Brian Gardner', title: 'Trustee', party: null },
-      { name: 'Charlie Mahar', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Montabella Community Schools': {
-    name: 'Montabella Community Schools',
-    county: 'Montcalm',
-    website: 'https://www.montabella.com/district/board-of-education/',
-    officials: [
-      { name: 'Eylie Foster', title: 'President', party: null },
-      { name: 'Scott Parks', title: 'Vice President', party: null },
-      { name: 'Ivan Renne', title: 'Secretary', party: null },
-      { name: 'Erica Vincent', title: 'Treasurer', party: null },
-      { name: 'Tim Eldred', title: 'Trustee', party: null },
-      { name: 'Jeramee Gilman', title: 'Trustee', party: null },
-      { name: 'Steve Sweet', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Tri County Area Schools': {
-    name: 'Tri County Area Schools',
-    county: 'Montcalm',
-    website: 'https://www.tricountyschools.com/ourdistrict/schoolboard/',
-    officials: [
-      { name: 'Brian Campbell', title: 'President', party: null },
-      { name: 'Jill Fennessy', title: 'Vice President', party: null },
-      { name: 'Jessica Helfmann', title: 'Secretary', party: null },
-      { name: 'MaDonna Princer', title: 'Treasurer', party: null },
-      { name: 'Nick Hall', title: 'Trustee', party: null },
-      { name: 'Brandon Monreal', title: 'Trustee', party: null },
-      { name: 'Heather Shadley', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Lakeview Community Schools': {
-    name: 'Lakeview Community Schools',
-    county: 'Montcalm',
-    website: 'https://www.lakeviewschools.net',
-    officials: [
-      { name: 'Ed Jonaitis', title: 'President', party: null },
-      { name: 'Melissa Stevens', title: 'Vice President', party: null },
-      { name: 'Todd Olson', title: 'Secretary', party: null },
-      { name: 'Brad Peasley', title: 'Treasurer', party: null },
-      { name: 'Tiffany Paden', title: 'Trustee', party: null },
-      { name: 'Andy Powell', title: 'Trustee', party: null },
-      { name: 'Jessica Rader', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Central Montcalm Public Schools': {
-    name: 'Central Montcalm Public Schools',
-    county: 'Montcalm',
-    website: 'https://central-montcalm.org/our-district/board-of-education/',
-    officials: [
-      { name: 'Brennan Bowen', title: 'President', party: null },
-      { name: 'William Simpson', title: 'Vice President', party: null },
-      { name: 'Jamie Hansen-Hopkins', title: 'Secretary', party: null },
-      { name: 'Rob Train', title: 'Treasurer', party: null },
-      { name: 'Lisa Lund', title: 'Trustee', party: null },
-      { name: 'Jim Lingeman', title: 'Trustee', party: null },
-      { name: 'Betty Wakefield', title: 'Trustee', party: null },
-    ],
-  },
-
   'Carson City-Crystal Area Schools': {
     name: 'Carson City-Crystal Area Schools',
     county: 'Montcalm',
@@ -15062,67 +21576,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Vestaburg Community Schools': {
-    name: 'Vestaburg Community Schools',
-    county: 'Montcalm',
-    website: 'https://www.vcs-k12.net/our-district/board-of-education/',
-    officials: [
-      { name: 'Lynn VanSickler', title: 'President', party: null },
-      { name: 'Joann Spry-Virgo', title: 'Vice President', party: null },
-      { name: 'Renae Caudill', title: 'Secretary', party: null },
-      { name: 'Brian Zinn', title: 'Treasurer', party: null },
-      { name: 'Daryl Deverney', title: 'Trustee', party: null },
-      { name: 'Carol Herman', title: 'Trustee', party: null },
-      { name: 'Larry Koutz', title: 'Trustee', party: null },
-    ],
-  },
-
   /* ── Mecosta County school boards ── */
-
-  'Big Rapids Public Schools': {
-    name: 'Big Rapids Public Schools',
-    county: 'Mecosta',
-    website: 'https://www.brps.org/page/board-of-education',
-    officials: [
-      { name: 'Jeff Godfrey', title: 'Board Member', party: null },
-      { name: 'Shavon Jane', title: 'Board Member', party: null },
-      { name: 'Peter Kent', title: 'Board Member', party: null },
-      { name: 'Jeremy Mishler', title: 'Board Member', party: null },
-      { name: 'David Murray', title: 'Board Member', party: null },
-      { name: 'Michelle Rasmussen', title: 'Board Member', party: null },
-      { name: 'Christopher Vennix', title: 'Board Member', party: null },
-    ],
-  },
-
-  'Chippewa Hills School District': {
-    name: 'Chippewa Hills School District',
-    county: 'Mecosta',
-    website: 'https://www.chsd.us/page/board-of-education',
-    officials: [
-      { name: 'Anthony Gibson', title: 'President', party: null },
-      { name: 'Brenda Donley', title: 'Board Member', party: null },
-      { name: 'Julia Ezell', title: 'Board Member', party: null },
-      { name: 'Brian Simon', title: 'Board Member', party: null },
-      { name: 'Sherry Anderson', title: 'Board Member', party: null },
-      { name: 'Amanda Cornell', title: 'Board Member', party: null },
-      { name: 'Lionel MacKenzie', title: 'Board Member', party: null },
-    ],
-  },
-
-  'Morley Stanwood Community Schools': {
-    name: 'Morley Stanwood Community Schools',
-    county: 'Mecosta',
-    website: 'https://www.morleystanwood.org/districtinfo/boardofeducation/',
-    officials: [
-      { name: 'Emily Bongard', title: 'President', party: null },
-      { name: 'Greg Babbitt', title: 'Vice President', party: null },
-      { name: 'Mary Engelsman', title: 'Secretary', party: null },
-      { name: 'Michelle Frisbie', title: 'Treasurer', party: null },
-      { name: 'Randall LaPreze', title: 'Trustee', party: null },
-      { name: 'Brent Beemer', title: 'Trustee', party: null },
-      { name: 'Edward Frisbie', title: 'Trustee', party: null },
-    ],
-  },
 
   'Mecosta-Osceola ISD': {
     name: 'Mecosta-Osceola ISD',
@@ -15140,51 +21594,6 @@ export const MI_SCHOOL_BOARDS = {
   },
 
   /* ── Osceola County school boards ── */
-
-  'Evart Public Schools': {
-    name: 'Evart Public Schools',
-    county: 'Osceola',
-    website: 'https://evartps.org/our-district/board-member-directory/',
-    officials: [
-      { name: 'Todd Bruggema', title: 'President', party: null },
-      { name: 'Bre Grabill', title: 'Vice President', party: null },
-      { name: 'Mark Moody', title: 'Secretary', party: null },
-      { name: 'Eric Schmidt', title: 'Treasurer', party: null },
-      { name: 'Jamie Hulliberger', title: 'Trustee', party: null },
-      { name: 'Gerald Nichols', title: 'Trustee', party: null },
-      { name: 'Ken Wirth', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Marion Public Schools': {
-    name: 'Marion Public Schools',
-    county: 'Osceola',
-    website: 'https://www.marion.k12.mi.us/page/board-of-education',
-    officials: [
-      { name: 'Alicia Michell', title: 'President', party: null },
-      { name: 'Ryan Raymond', title: 'Vice President', party: null },
-      { name: 'Maggie Keller', title: 'Secretary', party: null },
-      { name: 'Terry Kischnick', title: 'Treasurer', party: null },
-      { name: 'Ryan Hoffman', title: 'Trustee', party: null },
-      { name: 'Angela Ahrens', title: 'Trustee', party: null },
-      { name: 'Thomas Krause', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Reed City Area Public Schools': {
-    name: 'Reed City Area Public Schools',
-    county: 'Osceola',
-    website: 'https://www.reedcityschools.org/page/boe',
-    officials: [
-      { name: 'Sherry Franklin', title: 'Board Member', party: null },
-      { name: 'Nathaniel Vanderhoof', title: 'Board Member', party: null },
-      { name: 'Spencer Mund', title: 'Board Member', party: null },
-      { name: 'Nicole Quinn', title: 'Board Member', party: null },
-      { name: 'Heidie Decker-Thomas', title: 'Board Member', party: null },
-      { name: 'Jamie Eichenberg', title: 'Board Member', party: null },
-      { name: 'Christine Mund', title: 'Board Member', party: null },
-    ],
-  },
 
   /* ── Crawford County school boards ── */
 
@@ -15220,7 +21629,7 @@ export const MI_SCHOOL_BOARDS = {
       { name: 'Scott M. Orr', title: 'Trustee', party: null },
     ],
   },
-  'Posen Consolidated Schools': {
+  'Posen Consolidated School District': {
     name: 'Posen Consolidated Schools Board of Education',
     county: 'Presque Isle',
     officials: [
@@ -15233,7 +21642,7 @@ export const MI_SCHOOL_BOARDS = {
       { name: 'Angie Stazkowski', title: 'Trustee', party: null },
     ],
   },
-  'Onaway Area Community Schools': {
+  'Onaway Area Community School District': {
     name: 'Onaway Area Community Schools Board of Education',
     county: 'Presque Isle',
     officials: [
@@ -15248,20 +21657,6 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── Midland County school boards ── */
 
-  'Midland Public Schools': {
-    name: 'Midland Public Schools Board of Education',
-    county: 'Midland',
-    website: 'https://www.midlandps.org',
-    officials: [
-      { name: 'Phillip Rausch', title: 'President', party: null },
-      { name: 'Scott McFarland', title: 'Vice President', party: null },
-      { name: 'Jennifer Ringgold', title: 'Secretary', party: null },
-      { name: 'Jonathan Lauderbach', title: 'Treasurer', party: null },
-      { name: 'Ann Horowitz', title: 'Trustee', party: null },
-      { name: 'Meki Craig', title: 'Trustee', party: null },
-      { name: 'Brad Blasy', title: 'Trustee', party: null },
-    ],
-  },
   'Bullock Creek School District': {
     name: 'Bullock Creek School District Board of Education',
     county: 'Midland',
@@ -15288,7 +21683,7 @@ export const MI_SCHOOL_BOARDS = {
       { name: 'Heather Novak', title: 'Trustee', party: null },
     ],
   },
-  'Coleman Community Schools': {
+  'Coleman Community School District': {
     name: 'Coleman Community Schools Board of Education',
     county: 'Midland',
     officials: [
@@ -15395,7 +21790,7 @@ export const MI_SCHOOL_BOARDS = {
       { name: 'Jeff Wieber', title: 'Trustee', party: null },
     ],
   },
-  'Johannesburg-Lewiston Area Schools': {
+  'Johannesburg-Lewiston Area School District': {
     name: 'Johannesburg-Lewiston Area Schools Board of Education',
     county: 'Otsego',
     officials: [
@@ -15422,7 +21817,7 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── Roscommon County school boards ── */
 
-  'Houghton Lake Community Schools': {
+  'Houghton Lake Community School District': {
     name: 'Houghton Lake Community Schools Board of Education',
     county: 'Roscommon',
     website: 'https://www.hlcsk12.net',
@@ -15599,21 +21994,6 @@ export const MI_SCHOOL_BOARDS = {
 
   /* ── Lake County school boards ── */
 
-  'Baldwin Community Schools': {
-    name: 'Baldwin Community Schools',
-    county: 'Lake',
-    website: 'https://www.baldwin.k12.mi.us/page/board-of-education',
-    officials: [
-      { name: 'Mary Martin', title: 'President', party: null },
-      { name: 'Mary Ann Pieske', title: 'Vice President', party: null },
-      { name: 'Katena Abraham', title: 'Secretary', party: null },
-      { name: 'Marion Carter', title: 'Treasurer', party: null },
-      { name: 'Joseph Brooks Jr.', title: 'Trustee', party: null },
-      { name: 'David VanHorn', title: 'Trustee', party: null },
-      { name: 'Diamond Burrell', title: 'Trustee', party: null },
-    ],
-  },
-
   /* ── Delta County school boards ── */
 
   'Escanaba Area Public Schools': {
@@ -15690,7 +22070,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Bark River-Harris Schools': {
+  'Bark River-Harris School District': {
     name: 'Bark River-Harris Schools Board of Education',
     county: 'Delta',
     website: 'https://www.brhschools.org',
@@ -15812,7 +22192,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Lake Linden-Hubbell Public Schools': {
+  'Lake Linden-Hubbell School District': {
     name: 'Lake Linden-Hubbell Public Schools Board of Education',
     county: 'Houghton',
     website: 'https://www.lakelindenschools.org',
@@ -15842,7 +22222,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'Chassell Township Schools': {
+  'Chassell Township School District': {
     name: 'Chassell Township Schools Board of Education',
     county: 'Houghton',
     website: 'https://www.chassellschools.com',
@@ -15888,7 +22268,7 @@ export const MI_SCHOOL_BOARDS = {
     ],
   },
 
-  'NICE Community Schools': {
+  'N.I.C.E. Community Schools': {
     name: 'NICE Community Schools Board of Education',
     county: 'Marquette',
     website: 'https://nice.k12.mi.us',
@@ -15982,66 +22362,9 @@ export const MI_VILLAGE_OFFICIALS = {
     ],
   },
 
-  'Howard City': {
-    name: 'Village of Howard City',
-    website: 'https://www.howardcity.org',
-    phone: '231-937-4311',
-    officials: [
-      { name: 'Randy Heckman', title: 'Village President', party: null },
-      { name: 'Jean Toner', title: 'Trustee', party: null },
-      { name: 'Mallory Wert', title: 'Trustee', party: null },
-      /* UNVERIFIED: remaining 4 trustees not confirmed via web search — check howardcity.org/village-council */
-    ],
-  },
-
-  Lakeview: {
-    name: 'Village of Lakeview',
-    website: 'https://villageoflakeview.org',
-    phone: '989-352-6322',
-    officials: [
-      { name: 'Emily Griffith', title: 'Village President', party: null },
-      { name: 'Lane Leppink', title: 'Trustee', party: null },
-      { name: 'Jyll Mitchell', title: 'Trustee', party: null },
-      { name: 'Chris Fryover', title: 'Trustee', party: null },
-      { name: 'Chad Carlson', title: 'Trustee', party: null },
-      { name: 'Kate Behrenwald', title: 'Trustee', party: null },
-      { name: 'Dominic Trevino', title: 'Trustee', party: null },
-    ],
-  },
-
-  McBride: {
-    name: 'Village of McBride',
-    website: null,
-    phone: '989-762-3022',
-    officials: [
-      { name: 'Kimberly Jenson', title: 'Village President', party: null },
-      { name: 'Jacque Seidelman', title: 'Village Clerk', party: null },
-      { name: 'Tracy Stratton', title: 'Village Treasurer', party: null },
-      /* UNVERIFIED: trustees not confirmed via web search */
-    ],
-  },
-
-  'Pierson Village': {
-    name: 'Village of Pierson',
-    website: null,
-    phone: '616-636-5101',
-    officials: [
-      /* UNVERIFIED: no current officials found online. Contact villageofpierson@gmail.com */
-    ],
-  },
-
-  Sheridan: {
-    name: 'Village of Sheridan',
-    website: 'https://villageofsheridan.com',
-    phone: '989-291-3485',
-    officials: [
-      /* UNVERIFIED: no current officials found online. Contact Office@villageofsheridan.com */
-    ],
-  },
-
   /* ── Kent County villages ── */
 
-  'Caledonia Village': {
+  'Caledonia': {
     name: 'Village of Caledonia',
     website: 'https://www.villageofcaledonia.org',
     county: 'Kent',
@@ -16069,7 +22392,7 @@ export const MI_VILLAGE_OFFICIALS = {
     ],
   },
 
-  'Sparta Village': {
+  'Sparta': {
     name: 'Village of Sparta',
     website: 'https://spartami.org',
     county: 'Kent',
@@ -16099,7 +22422,7 @@ export const MI_VILLAGE_OFFICIALS = {
 
   /* ── Ottawa County villages ── */
 
-  'Spring Lake Village': {
+  'Spring Lake': {
     name: 'Village of Spring Lake',
     county: 'Ottawa',
     website: 'https://springlakevillage.org/',
@@ -16117,7 +22440,7 @@ export const MI_VILLAGE_OFFICIALS = {
 
   /* ── Muskegon County villages ── */
 
-  'Ravenna Village': {
+  'Ravenna': {
     name: 'Village of Ravenna',
     website: 'https://ravennami.com',
     phone: '231-853-2360',
@@ -16129,7 +22452,7 @@ export const MI_VILLAGE_OFFICIALS = {
     ],
   },
 
-  'Fruitport Village': {
+  'Fruitport': {
     name: 'Village of Fruitport',
     website: 'https://www.fruitportvillage.com',
     phone: '231-865-3153',
@@ -16159,7 +22482,7 @@ export const MI_VILLAGE_OFFICIALS = {
     ],
   },
 
-  'Casnovia Village': {
+  'Casnovia': {
     name: 'Village of Casnovia',
     website: 'https://villageofcasnovia.org',
     phone: '616-675-4636',
@@ -16184,19 +22507,6 @@ export const MI_VILLAGE_OFFICIALS = {
     ],
   },
 
-  Stanwood: {
-    name: 'Village of Stanwood',
-    phone: '231-679-0680',
-    officials: [
-      { name: 'Cody Stilson', title: 'Village President', party: null },
-      { name: 'Michael Fish', title: 'Clerk', party: null },
-      { name: 'William Routley', title: 'Treasurer', party: null },
-      { name: 'Marvin C. Bell', title: 'Trustee', party: null },
-      { name: 'James R. Lyons', title: 'Trustee', party: null },
-      { name: 'Jessica Routley', title: 'Trustee', party: null },
-    ],
-  },
-
   Barryton: {
     name: 'Village of Barryton',
     website: 'https://villageofbarryton.com',
@@ -16212,7 +22522,7 @@ export const MI_VILLAGE_OFFICIALS = {
     ],
   },
 
-  'Mecosta Village': {
+  'Mecosta': {
     name: 'Village of Mecosta',
     website: 'https://villageofmecosta.org',
     phone: '231-972-7614',
@@ -16230,76 +22540,14 @@ export const MI_VILLAGE_OFFICIALS = {
 
   /* ── Osceola County villages ── */
 
-  Tustin: {
-    name: 'Village of Tustin',
-    phone: '231-829-3598',
-    officials: [
-      { name: 'Ryan Erickson', title: 'Village President', party: null },
-      { name: 'Sandra Leach', title: 'Clerk', party: null },
-      { name: 'Teresa Raab', title: 'Treasurer', party: null },
-    ],
-  },
-
-  'Hersey Village': {
+  'Hersey': {
     name: 'Village of Hersey',
     officials: [
       { name: 'Robin Marvel', title: 'Village President', party: null },
     ],
   },
 
-  'LeRoy Village': {
-    name: 'Village of LeRoy',
-    website: 'https://www.leroymi.org',
-    phone: '231-768-4414',
-    officials: [],
-  },
-
-  Marion: {
-    name: 'Village of Marion',
-    website: 'https://marionmichigan.org',
-    phone: '231-743-6801',
-    officials: [
-      { name: 'Flora A. Grundy', title: 'Village President', party: null },
-      { name: 'Jack Nehmer', title: 'President Pro Tem', party: null },
-      { name: 'Cal Ellens', title: 'Trustee', party: null },
-      { name: 'Dave Swiler', title: 'Trustee', party: null },
-      { name: 'Tony Maddox', title: 'Trustee', party: null },
-      { name: 'Bonnie Tenney', title: 'Trustee', party: null },
-      { name: 'Trent Mitchell', title: 'Trustee', party: null },
-    ],
-  },
-
   /* ── Lake County villages ── */
-
-  Baldwin: {
-    name: 'Village of Baldwin',
-    website: 'https://villageofbaldwin.org',
-    officials: [
-      { name: 'Harold Nichols', title: 'Village President', party: null },
-      { name: 'Theresa Lamb', title: 'Clerk', party: null },
-      { name: 'Cassie Smith', title: 'Treasurer', party: null },
-      { name: 'Kelly Zoellner', title: 'Trustee', party: null },
-      { name: 'Curtis Miller', title: 'Trustee', party: null },
-      { name: 'Pam Anderson', title: 'Trustee', party: null },
-      { name: 'Tim Jannereth', title: 'Trustee', party: null },
-    ],
-  },
-
-  Luther: {
-    name: 'Village of Luther',
-    website: 'https://luthermi.org',
-    officials: [
-      { name: 'Andy Treiber', title: 'Village President', party: null },
-      { name: 'Carrie Fansler', title: 'Clerk', party: null },
-      { name: 'Amy Jo DeJesus', title: 'Treasurer', party: null },
-      { name: 'Connie Holmes', title: 'Trustee', party: null },
-      { name: 'Brittany Carlson', title: 'Trustee', party: null },
-      { name: 'Rose Wetherall', title: 'Trustee', party: null },
-      { name: 'Tiffany Clark', title: 'Trustee', party: null },
-      { name: 'James Bacon', title: 'Trustee', party: null },
-      { name: 'Michelle Goodman', title: 'Trustee', party: null },
-    ],
-  },
 
   /* ── Isabella County villages ── */
 
@@ -16399,7 +22647,7 @@ export const MI_VILLAGE_OFFICIALS = {
     ],
   },
 
-  'Martin (Allegan)': {
+  'Martin': {
     name: 'Village of Martin',
     county: 'Allegan',
     website: 'https://villageofmartinmi.org/',
@@ -16915,51 +23163,6 @@ export const MI_VILLAGE_OFFICIALS = {
 
   /* ── Mecosta County villages ── */
 
-  'Barryton': {
-    name: 'Village of Barryton',
-    county: 'Mecosta',
-    website: 'https://villageofbarryton.com/?page_id=125',
-    officials: [
-      { name: 'Daniel Cook', title: 'President', party: null },
-      { name: 'Melissa Lazzaro', title: 'Clerk', party: null },
-      { name: 'Courtney Garchow', title: 'Treasurer', party: null },
-      { name: 'Kathryn Kerr', title: 'Trustee', party: null },
-      { name: 'Michael Kundrat', title: 'Trustee', party: null },
-      { name: 'Michelle Kundrat', title: 'Trustee', party: null },
-      { name: 'Terah Eaton', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Mecosta Village': {
-    name: 'Village of Mecosta',
-    county: 'Mecosta',
-    website: 'https://www.mecostacounty.org/visitors/villages.php',
-    officials: [
-      { name: 'Ann Wrobbel', title: 'President', party: null },
-      { name: 'Joy Moorman', title: 'Clerk', party: null },
-      { name: 'Melissa Moorman', title: 'Treasurer', party: null },
-      { name: 'Alice Ray', title: 'Trustee', party: null },
-      { name: 'Katherine Snider', title: 'Trustee', party: null },
-      { name: 'Pat Sundquist', title: 'Trustee', party: null },
-      { name: 'Colleen Beemer', title: 'Trustee', party: null },
-      { name: 'Kim Wernette', title: 'Trustee', party: null },
-    ],
-  },
-
-  'Morley': {
-    name: 'Village of Morley',
-    county: 'Mecosta',
-    website: 'http://mobile.villageofmorley.com/village-council',
-    officials: [
-      { name: 'Austin Korpal', title: 'President', party: null },
-      { name: 'Terry Stilson', title: 'Clerk', party: null },
-      { name: 'Julie Berry', title: 'Treasurer', party: null },
-      { name: 'Serine Petersen', title: 'Trustee', party: null },
-      { name: 'Paul Block', title: 'Trustee', party: null },
-      { name: 'Sandra Leal', title: 'Trustee', party: null },
-    ],
-  },
-
   'Stanwood': {
     name: 'Village of Stanwood',
     county: 'Mecosta',
@@ -16975,23 +23178,6 @@ export const MI_VILLAGE_OFFICIALS = {
   },
 
   /* ── Montcalm County villages ── */
-
-  'Edmore': {
-    name: 'Village of Edmore',
-    county: 'Montcalm',
-    website: 'https://www.edmore.com',
-    officials: [
-      { name: 'Chet Guild', title: 'President', party: null },
-      { name: 'Tom Colburn', title: 'President Pro-Tem', party: null },
-      { name: 'Kerri Peterson', title: 'Clerk', party: null },
-      { name: 'Shirley Drain', title: 'Treasurer', party: null },
-      { name: 'Stephanie Kanine', title: 'Trustee', party: null },
-      { name: 'Ron Griswold', title: 'Trustee', party: null },
-      { name: 'John Moore', title: 'Trustee', party: null },
-      { name: 'Cristina Pierce', title: 'Trustee', party: null },
-      { name: 'Carla McParland', title: 'Trustee', party: null },
-    ],
-  },
 
   'Howard City': {
     name: 'Village of Howard City',
@@ -17044,17 +23230,6 @@ export const MI_VILLAGE_OFFICIALS = {
     website: 'https://www.montcalm.us/429/Village-of-Pierson',
     officials: [
       { name: 'Mollie Doerr', title: 'President', party: null },
-    ],
-  },
-
-  'McBride': {
-    name: 'Village of McBride',
-    county: 'Montcalm',
-    website: 'https://montcalm.us/426/Village-of-McBride',
-    officials: [
-      { name: 'Kimberly Jenson', title: 'President', party: null },
-      { name: 'Jacque Seidelman', title: 'Clerk', party: null },
-      { name: 'Tracy Stratton', title: 'Treasurer', party: null },
     ],
   },
 
@@ -17785,7 +23960,7 @@ export const MI_VILLAGE_OFFICIALS = {
 
   // UNVERIFIED — no official phone confirmed from village website
   // Village Clerk/Treasurer (Jen Postula) — not on 2024 Chippewa County ballot; appears APPOINTED — omitting per task rules
-  'De Tour Village': {
+  'De Tour': {
     name: 'Village of De Tour',
     website: 'https://detourmi.gov/',
     phone: null,
@@ -18450,7 +24625,7 @@ export async function getMichiganLocalOfficials(geo) {
   // Check county subdivision for township officials (or city if place was empty)
   let township = null
   if (geo.countySubdivision) {
-    township = MI_TOWNSHIP_OFFICIALS[geo.countySubdivision] || null
+    township = MI_TOWNSHIP_OFFICIALS[geo.county + ':' + geo.countySubdivision] || MI_TOWNSHIP_OFFICIALS[geo.countySubdivision] || null
     // If no city found, check if the subdivision name matches a city
     if (!city) {
       const cityFromSub = MI_CITY_OFFICIALS[geo.countySubdivision] || null

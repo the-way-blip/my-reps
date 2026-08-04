@@ -52,14 +52,14 @@ function getLocalStorageCache() {
     if (Date.now() - ts < LS_TTL && Array.isArray(data) && data.length > 0) {
       return data
     }
-  } catch {}
+  } catch { /* ignore */ }
   return null
 }
 
 function setLocalStorageCache(data) {
   try {
     localStorage.setItem(LS_KEY, JSON.stringify({ data, ts: Date.now() }))
-  } catch {}
+  } catch { /* ignore */ }
 }
 
 function getStaleLocalStorageCache() {
@@ -68,7 +68,7 @@ function getStaleLocalStorageCache() {
     if (!raw) return null
     const { data } = JSON.parse(raw)
     if (Array.isArray(data) && data.length > 0) return data
-  } catch {}
+  } catch { /* ignore */ }
   return null
 }
 

@@ -21,7 +21,7 @@ export function getFetchTime(key) {
   try {
     const raw = localStorage.getItem(`${FRESHNESS_PREFIX}${key}`)
     if (raw) return Number(raw)
-  } catch {}
+  } catch { /* ignore */ }
   return null
 }
 
@@ -71,5 +71,5 @@ export function clearAllFetchTimes() {
       if (k && k.startsWith(FRESHNESS_PREFIX)) keys.push(k)
     }
     keys.forEach(k => localStorage.removeItem(k))
-  } catch {}
+  } catch { /* ignore */ }
 }

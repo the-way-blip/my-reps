@@ -15,7 +15,7 @@ async function fetchSuggestions(query) {
       addressdetails: '1',
     })
     const res = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, {
-      headers: { 'Accept': 'application/json' },
+      headers: { 'Accept': 'application/json', 'User-Agent': 'OfForAndByThePeople/1.0 (https://offorandbythepeople.com)' },
     })
     if (!res.ok) throw new Error(`Nominatim ${res.status}`)
     const data = await res.json()

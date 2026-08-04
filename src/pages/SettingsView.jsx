@@ -47,7 +47,6 @@ export default function SettingsView() {
     setSelectedState,
     userAddress,
     setUserAddress,
-    clearState,
     setUserDistricts,
     setLocalGeo,
   } = useApp()
@@ -113,7 +112,7 @@ export default function SettingsView() {
         delete data.districts
         delete data.localGeo
         localStorage.setItem(KEYS.location, JSON.stringify(data))
-      } catch {}
+      } catch { /* localStorage may be unavailable */ }
     }
   }
 

@@ -39,7 +39,7 @@ function AddressHero({ onSubmit, loading, error }) {
         Your vote starts here.
       </h1>
       <p className="home-hero-desc">
-        Enter your address to see your representatives, plan your ballot, find your polling place, and check your registration — all in one place.
+        Enter your address to plan your ballot, find your polling place, and check your registration — all in one place.
       </p>
       <form onSubmit={handleSubmit} className="home-hero-form">
         <AddressAutocomplete
@@ -75,9 +75,19 @@ function AddressHero({ onSubmit, loading, error }) {
         </div>
       )}
       <div className="home-hero-countdown">
-        <span className="home-countdown-num">{daysUntil('2026-08-04')}</span>
-        <span className="home-countdown-label">days until the August 4 primary</span>
+        <span className="home-countdown-num">{new Date().toDateString() === new Date('2026-08-04').toDateString() ? 'TODAY' : daysUntil('2026-08-04')}</span>
+        <span className="home-countdown-label">{new Date().toDateString() === new Date('2026-08-04').toDateString() ? 'is the Michigan Primary' : 'days until the August 4 primary'}</span>
       </div>
+      {new Date().toDateString() === new Date('2026-08-04').toDateString() && (
+        <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="home-hero-reg-nudge">
+          <strong>Polls are open.</strong> Not registered? You can register and vote at your clerk's office today.
+        </a>
+      )}
+      {daysUntil('2026-07-20') > 0 && daysUntil('2026-07-20') <= 45 && (
+        <a href="https://mvic.sos.state.mi.us/RegisterVoter" target="_blank" rel="noopener noreferrer" className="home-hero-reg-nudge">
+          <strong>{daysUntil('2026-07-20')} days</strong> to register (online/mail)
+        </a>
+      )}
     </div>
   )
 }
@@ -133,6 +143,7 @@ function CollapsibleSection({ title, defaultOpen = false, children }) {
 // ── Dashboard (shown after address entry) ──
 function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
   const primaryDays = daysUntil('2026-08-04')
+  const isElectionDay = new Date().toDateString() === new Date('2026-08-04').toDateString()
 
   // Polling location from Google Civic
   const pollingPlace = pollingData?.pollingLocations?.[0] || null
@@ -176,19 +187,18 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
 
       {/* 4 main action panels */}
       <div className="home-panels">
-        {/* 1. Your Representatives */}
+        {/* 1. Find Polling Place (election day) / Request Absentee (pre-election) */}
         <QuickCard
           icon={
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="28" height="28">
-              <path d="M3 21V7l9-4 9 4v14" /><path d="M9 21V11h6v10" /><path d="M3 7h18" />
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
             </svg>
           }
-          title="Your Representatives"
-          desc={repsCount > 0
-            ? `${repsCount} officials represent you — from Congress to your local government.`
-            : 'See every elected official who represents your address.'}
-          to="/my-reps"
+          title="Find Your Polling Place"
+          desc="Look up where to vote today. Polls are open — bring a valid photo ID."
+          href={MI_SOS_VOTER_LOOKUP}
           accent="var(--accent)"
+          badge="Vote Today"
         />
 
         {/* 2. Your Ballot */}
@@ -204,7 +214,7 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
           desc="See who's running in the August primary, compare candidates, and lock in your picks."
           to="/ballot"
           accent="var(--accent-gold)"
-          badge={`${primaryDays}d`}
+          badge={isElectionDay ? 'TODAY' : `${primaryDays}d`}
         />
 
         {/* 3. Polling Place */}
@@ -271,8 +281,8 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
               <circle cx="12" cy="12" r="10" />
             </svg>
           }
-          title="Check Registration"
-          desc="Verify you're registered to vote, request an absentee ballot, or register online."
+          title={isElectionDay ? "Check Registration / Register Today" : "Check Registration"}
+          desc={isElectionDay ? "Verify you're registered. Not registered? You can register and vote today at your local clerk's office with a photo ID and proof of residency." : "Verify you're registered to vote, request an absentee ballot, or register online."}
           href={MI_SOS_VOTER_LOOKUP}
           accent="var(--accent-red)"
         />
@@ -312,9 +322,9 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
           <a href={MI_SOS_SAMPLE_BALLOT} target="_blank" rel="noopener noreferrer" className="home-quick-link">
             Official Sample Ballot
           </a>
-          <Link to="/elections" className="home-quick-link">
-            Full Election Calendar
-          </Link>
+          <a href="https://mvic.sos.state.mi.us/PublicBallot/Index" target="_blank" rel="noopener noreferrer" className="home-quick-link">
+            View Official Ballot
+          </a>
         </div>
       </CollapsibleSection>
     </div>
@@ -323,7 +333,7 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
 
 // ── Main HomeView ──
 export default function HomeView() {
-  usePageTitle('Of For & By The People — Michigan', 'Your Michigan voter hub — reps, ballot, polling place, and registration')
+  usePageTitle('Of For & By The People — Michigan', 'Plan your ballot, find your polling place, and check your registration')
 
   const navigate = useNavigate()
   const {

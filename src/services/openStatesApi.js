@@ -36,7 +36,7 @@ function getCached(stateCode) {
         return data
       }
     }
-  } catch {}
+  } catch { /* ignore */ }
   // Fall back to localStorage (persists across sessions / offline)
   try {
     const raw = localStorage.getItem(`myreps_openstates_${stateCode}`)
@@ -47,7 +47,7 @@ function getCached(stateCode) {
         return data
       }
     }
-  } catch {}
+  } catch { /* ignore */ }
   return null
 }
 
@@ -57,7 +57,7 @@ function setCache(stateCode, data) {
     const payload = JSON.stringify({ data, ts: Date.now() })
     sessionStorage.setItem(`openstates_${stateCode}`, payload)
     localStorage.setItem(`myreps_openstates_${stateCode}`, payload)
-  } catch {}
+  } catch { /* ignore */ }
 }
 
 // Retrieve stale localStorage data when offline (ignores TTL)
@@ -68,7 +68,7 @@ function getStaleCached(stateCode) {
       const { data } = JSON.parse(raw)
       return data
     }
-  } catch {}
+  } catch { /* ignore */ }
   return null
 }
 
