@@ -2440,11 +2440,11 @@ export const STATE_SENATE_RACES = {
             fiscal: 'No public statements or campaign materials found; insufficient information to grade'
           }
         },
-        { name: 'Greg Hill', description: 'Oxford resident; dad, coach, and small business owner; has campaign website (greghillformichigan.com) but limited specific policy positions available', status: 'nominee', grade: 'D', website: 'https://www.greghillformichigan.com/',
-          positions: { proLife: 'D', marriage: 'D', religiousLiberty: 'C', secondAmendment: 'D', limitedGov: 'D', fiscal: 'D' },
+        { name: 'Greg Hill', description: 'Small business owner from Oxford. Uses "responsible capitalism" language, explicitly supports lowering property taxes, and mentions safeguarding parental rights. Most moderate Democrat in the field.', status: 'nominee', grade: 'D', website: 'https://www.greghillformichigan.com/',
+          positions: { proLife: 'D', marriage: 'D', religiousLiberty: 'C', secondAmendment: 'D', limitedGov: 'C', fiscal: 'C' },
           gradeJustifications: {
-            proLife: 'Small business owner running as Democrat; no specific positions found; insufficient information to grade',
-            marriage: 'No specific positions found; insufficient information to grade',
+            proLife: 'Running as Democrat with no explicit pro-life stance. No progressive abortion messaging either.',
+            marriage: 'No explicit position found. Running as Democrat.',
             religiousLiberty: 'No specific positions found; insufficient information to grade',
             secondAmendment: 'No specific positions found; insufficient information to grade',
             limitedGov: 'Small business owner which may signal some private-sector orientation; running as Democrat in traditionally Republican district',
@@ -3930,7 +3930,7 @@ export const STATE_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: 'Brian K. Hakola', description: 'Republican candidate for Michigan State House District 12 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Randell J. Shafer', description: 'Republican candidate for Michigan State House District 12 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Randell J. Shafer', description: 'Retired U.S. Army officer (1982-2002). VFW member and board member. Lutheran. Ran for U.S. House MI-12 (2004, 2006) and Macomb County Executive (2010). Detailed conservative positions documented via VoteSmart.', status: 'nominee', grade: 'A', endorsements: [], positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' }, gradeJustifications: { proLife: 'Restricts abortion to incest, rape, or life of mother; prohibit public funding for abortion providers (VoteSmart 2006).', marriage: 'Supports constitutional amendment defining marriage as man-woman union (VoteSmart 2006).', religiousLiberty: 'Supports directing federal aid through religious and community organizations (VoteSmart 2006).', secondAmendment: 'Concealed carry; opposes semi-auto ban, gun show background checks, and licensing (VoteSmart 2006).', limitedGov: 'Reduce regulation; healthcare not a federal responsibility; supports school vouchers; opposes affirmative action (VoteSmart 2006).', fiscal: 'Permanent Bush tax cuts; repeal estate tax; private Social Security accounts; require 40hr/wk work for welfare (VoteSmart 2006).' } },
       ],
       democratic: [
         { name: 'Kimberly L. Edwards', description: 'Democratic candidate for Michigan State House District 12 in the 2026 primary', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
@@ -4042,15 +4042,15 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Hassan H Nehme', description: 'Republican candidate for Michigan State House District 15 in the 2026 primary', status: 'nominee', grade: 'B',
-          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
+        { name: 'Hassan H Nehme', description: 'Army veteran and business owner (Printworks Industries). America First Arab-American conservative. MiGOP Coalitions Vice-Chair. Ran for U.S. House MI-12 in 2022. iVoterGuide rated "Leans Conservative."', status: 'nominee', grade: 'A', website: 'https://x.com/hassanhnehme',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
-            proLife: 'No information found.',
-            marriage: 'No information found.',
-            religiousLiberty: 'No information found.',
-            secondAmendment: 'No information found.',
-            limitedGov: 'No information found.',
-            fiscal: 'No information found.'
+            proLife: 'Abortion only when life-threatening; strongly opposes taxpayer funding for Planned Parenthood (iVoterGuide 2022).',
+            marriage: 'Opposes SOGI protected-class status; no explicit marriage statement found.',
+            religiousLiberty: 'Strongly supports robust legal protection for religious liberty; opposes compelled service violating beliefs (iVoterGuide 2022).',
+            secondAmendment: 'Opposes ALL gun ownership restrictions; opposes gun manufacturer liability (iVoterGuide 2022).',
+            limitedGov: 'Strongly supports cutting government spending; opposes income redistribution (iVoterGuide 2022).',
+            fiscal: 'Strongly supports cutting spending; opposes redistribution; tiered child tax credits (iVoterGuide 2022).'
           }
         },
       ],
@@ -4178,7 +4178,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Samantha Steckloff (D)",
     candidates: {
       republican: [
-        { name: 'Kevin J. Hammer', description: 'Republican candidate for Michigan State House District 19 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Kevin J. Hammer', description: 'Attorney (Arthur Andersen, Plante Moran, Hammer Homes). Farmington Commissioner 2008-2017. Board member at Marian High School (Catholic). Plaintiff in Thomas More Society federal lawsuit defending pro-life sidewalk advocacy. iVoterGuide Conservative 60/100.', status: 'nominee', grade: 'A', endorsements: ['Thomas More Society'], positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'Plaintiff in Thomas More Society / Sidewalk Advocates for Life federal lawsuit defending pro-life advocacy rights. Demonstrated commitment.', marriage: 'Marian High School (Catholic) board member since 2017 suggests traditional values alignment.', religiousLiberty: 'Federal lawsuit directly defended religious expression and free speech for sidewalk pro-life advocates.', secondAmendment: 'No specific position found. Party-aligned.', limitedGov: 'Farmington Commissioner 2008-2017. No specific limited-gov statements found.', fiscal: 'Conservative donor history (RNC 2006, John James 2024). iVoterGuide 60/100.' } },
         { name: 'Mitch Swoboda', description: 'Republican candidate for Michigan State House District 19 in the 2026 primary', status: 'challenger', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
@@ -4257,8 +4257,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Ross Barranco', description: 'Republican candidate for Michigan State House District 21 in the 2026 primary', status: 'nominee', grade: 'B',
-          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
+        { name: 'Ross Barranco', description: 'Geologist; former DTE Energy Chief Geologist (2008-2017). Active in Southeast Michigan Conservative Grassroots Movement and MAGA America First groups. Opposes government subsidies and clean energy mandates.', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4290,7 +4290,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Casey J. Noce', description: 'Republican candidate for Michigan State House District 22 in the 2026 primary', status: 'nominee', grade: 'B', website: 'https://www.caseynoce.com', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Casey J. Noce', description: 'Pastor at Northville Christian Assembly; middle school history and Bible teacher; licensed realtor. Testified before MI legislature in support of HB 4141 (cellphone ban in schools). Former campaign manager for State Rep. Bronna Kahle.', status: 'nominee', grade: 'A', website: 'https://www.caseynoce.com', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'A' }, gradeJustifications: { proLife: 'Pastor and Bible teacher; references God-given right to life on website. No explicit RTL endorsement.', marriage: 'Assemblies of God pastor; denominational alignment implied. No explicit public statement.', religiousLiberty: 'Pastor and Christian school teacher; references God-given rights. Strong implied alignment.', secondAmendment: 'No specific position found. Party-aligned.', limitedGov: 'Documented: "When Lansing shrinks, our communities grow." Proposes eliminating state property tax. Supports local authority over state mandates.', fiscal: 'Documented: eliminate state property tax and transfer tax; expand small business tax credit; raise child tax credit to $2,000; exempt teachers from state income tax.' } },
       ],
       democratic: [
         { name: 'Lisa McIntyre', description: 'Past President of the Northville Board of Education, currently Treasurer. Mother of three. Lifetime of experience in mental health. Led efforts to stabilize the school district after the pandemic, led school safety initiatives and away-for-the-day personal device policy for K-8, and kept the budget strong while improving educator work experience.', status: 'nominee', grade: 'D',
