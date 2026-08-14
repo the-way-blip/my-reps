@@ -1,7 +1,7 @@
 /**
  * Michigan November 2026 General Election — Local Races
  *
- * School boards, community college boards, ISD boards, library boards,
+ * School boards, community college boards, library boards,
  * judicial races, and select municipal races that appear on the November ballot.
  *
  * School board elections: nonpartisan, 4-year terms, staggered.
@@ -10,8 +10,9 @@
  * Community college boards: nonpartisan, 6-year staggered terms.
  * Michigan has 28 community college districts.
  *
- * ISD/RESA boards: nonpartisan, 6-year terms.
- * Michigan has 56 intermediate school districts.
+ * Note: ISD/RESA boards are NOT on the November ballot — they use a biennial
+ * delegate election (one rep per local school board) on the first Monday in June
+ * of odd years (next: June 2027).
  *
  * Circuit/Probate/District Courts: nonpartisan, 6-year terms.
  *
@@ -627,6 +628,244 @@ export const COMMUNITY_COLLEGE_RACES_2026 = {
       },
     ],
   },
+  Alpena: {
+    colleges: [
+      {
+        id: 'alpena-cc-2026',
+        name: 'Alpena Community College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves Alpena County.',
+        candidates: [
+          { name: 'John Briggs', description: 'Board chair', status: 'incumbent', grade: null },
+          { name: 'Joe Gentry', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Delta: {
+    colleges: [
+      {
+        id: 'bay-college-2026',
+        name: 'Bay College (Bay de Noc Community College)',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves Delta County (Upper Peninsula).',
+        candidates: [
+          { name: 'Eric Lundin', description: 'Board chair', status: 'incumbent', grade: null },
+          { name: 'Nick Chenier', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Terri Mileski', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  'St. Joseph': {
+    colleges: [
+      {
+        id: 'glen-oaks-2026',
+        name: 'Glen Oaks Community College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves St. Joseph County.',
+        candidates: [
+          { name: 'Bruce Gosling', description: 'Board chair', status: 'incumbent', grade: null },
+          { name: 'Carol Higgins', description: 'Vice chair', status: 'incumbent', grade: null },
+          { name: 'Kimberlee Bontrager', description: 'Treasurer', status: 'incumbent', grade: null },
+          { name: 'Rod Lopez', description: 'Secretary', status: 'incumbent', grade: null },
+          { name: 'Rick Cordes', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Elizabeth Datkovic', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'P. Joseph Haas', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Gogebic: {
+    colleges: [
+      {
+        id: 'gogebic-cc-2026',
+        name: 'Gogebic Community College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Upper Peninsula, satellite in Houghton County.',
+        candidates: [
+          { name: 'Eve Komosa', description: 'Trustee (term expires Dec 2026)', status: 'incumbent', grade: null },
+          { name: 'Susan Beals', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Michael McPherson', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'John Lupino', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Calhoun: {
+    colleges: [
+      {
+        id: 'kellogg-cc-2026',
+        name: 'Kellogg Community College',
+        seats: 3,
+        description: 'Three seats on the seven-member board. Serves Calhoun County and portions of Barry, Branch, Hillsdale.',
+        candidates: [
+          { name: 'Darin Aldrich', description: 'Trustee (term expires Dec 2026)', status: 'incumbent', grade: null },
+          { name: 'Patrick O\'Donnell', description: 'Trustee (term expires Dec 2026)', status: 'incumbent', grade: null },
+          { name: 'Matthew Davis', description: 'Trustee (term expires Dec 2026)', status: 'incumbent', grade: null },
+          { name: 'Steve Claywell', description: 'Board chair (term 2030)', status: 'incumbent', grade: null },
+          { name: 'Lisa Mueller', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Crawford: {
+    colleges: [
+      {
+        id: 'kirtland-cc-2026',
+        name: 'Kirtland Community College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves Crawford, Ogemaw, Oscoda, Roscommon counties.',
+        candidates: [
+          { name: 'MaryAnn Ferrigan', description: 'Board chair', status: 'incumbent', grade: null },
+          { name: 'Jack Kramer', description: 'Vice chair', status: 'incumbent', grade: null },
+          { name: 'Ed Pearen', description: 'Secretary/Treasurer', status: 'incumbent', grade: null },
+          { name: 'Alan Bruder', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Amy Knepp', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Tom Ritter', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Roy Spangler', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Berrien: {
+    colleges: [
+      {
+        id: 'lmc-2026',
+        name: 'Lake Michigan College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves Berrien County.',
+        candidates: [
+          { name: 'Jeff Curry', description: 'Board chair', status: 'incumbent', grade: null },
+          { name: 'John Grover', description: 'Vice chair', status: 'incumbent', grade: null },
+          { name: 'Mary Jo Tomasini', description: 'Secretary', status: 'incumbent', grade: null },
+          { name: 'Joan Smith', description: 'Treasurer', status: 'incumbent', grade: null },
+          { name: 'Debra Johnson', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Vicki Burghdoff', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Brian Dissette', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Clare: {
+    colleges: [
+      {
+        id: 'mid-mi-cc-2026',
+        name: 'Mid Michigan College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves Clare, Gladwin, Isabella, Gratiot counties.',
+        candidates: [
+          { name: 'Thomas Metzger', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Richard Allen', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'George Gilmore', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Jane Zdrojewski', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Mike Jankoviak', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Montcalm: {
+    colleges: [
+      {
+        id: 'montcalm-cc-2026',
+        name: 'Montcalm Community College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves Montcalm County.',
+        candidates: [
+          { name: 'Kurt Peterson', description: 'Board chair', status: 'incumbent', grade: null },
+          { name: 'Carol Deuling-Ravell', description: 'Vice chair', status: 'incumbent', grade: null },
+          { name: 'Esther Combs', description: 'Secretary', status: 'incumbent', grade: null },
+          { name: 'Joshua Stump', description: 'Treasurer', status: 'incumbent', grade: null },
+          { name: 'Joyce Kitchenmaster', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Robert Marston', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Robert Byram', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Emmet: {
+    colleges: [
+      {
+        id: 'ncmc-2026',
+        name: 'North Central Michigan College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves Emmet County.',
+        candidates: [
+          { name: 'John Fought', description: 'Interim trustee (term through Dec 2026)', status: 'incumbent', grade: null },
+          { name: 'Jason Kromm', description: 'Interim trustee (term through Dec 2026)', status: 'incumbent', grade: null },
+          { name: 'Melissa Keiswetter', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  'Grand Traverse': {
+    colleges: [
+      {
+        id: 'nmc-2026',
+        name: 'Northwestern Michigan College',
+        seats: 3,
+        description: 'Three seats on the seven-member board. Serves Grand Traverse County.',
+        candidates: [
+          { name: 'Laura Oblinger', description: 'Board chair (term expires Dec 2026)', status: 'incumbent', grade: null },
+          { name: 'Ken Warner', description: 'Trustee (term expires Dec 2026)', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Cass: {
+    colleges: [
+      {
+        id: 'smc-2026',
+        name: 'Southwestern Michigan College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves Cass County.',
+        candidates: [
+          { name: 'Tom Jerdon', description: 'Board chair (trustee since 1991)', status: 'incumbent', grade: null },
+          { name: 'Tracy Hertsel', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Becky Moore', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Elaine Foster', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Dwight Dyes', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Beth Cripe', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  'St. Clair': {
+    colleges: [
+      {
+        id: 'sc4-2026',
+        name: 'St. Clair County Community College (SC4)',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves St. Clair County.',
+        candidates: [
+          { name: 'Marcia Robbins', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Karen Niver-Raetzel', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Penelope Peck', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Kim Brown', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Robert Mitchell', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'John Lusk', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Robert Tansky', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
+  Mason: {
+    colleges: [
+      {
+        id: 'wscc-2026',
+        name: 'West Shore Community College',
+        seats: 2,
+        description: 'Two seats on the seven-member board. Serves Mason, Manistee, and portions of Lake, Oceana, Newaygo counties.',
+        candidates: [
+          { name: 'Sherry Wyman', description: 'Board chair', status: 'incumbent', grade: null },
+          { name: 'Richard Wilson Jr.', description: 'Vice chair (term expires Dec 2028)', status: 'incumbent', grade: null },
+          { name: 'Tom Kaminski', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Anthony Fabaz', description: 'Trustee', status: 'incumbent', grade: null },
+          { name: 'Randy Tomaszewski', description: 'Trustee', status: 'incumbent', grade: null },
+        ],
+      },
+    ],
+  },
 }
 
 // ── Circuit Court Judicial Races (November 2026) ────────────────
@@ -816,152 +1055,255 @@ export const DISTRICT_COURT_RACES_2026 = {
   ],
 }
 
-// ── ISD / RESA Board Races (November 2026) ──────────────────────
-// Intermediate School District boards oversee special education,
-// career/technical education, and support services for local districts.
-
-export const ISD_BOARD_RACES_2026 = {
-  Wayne: {
-    id: 'wayne-resa-2026',
-    name: 'Wayne RESA (Regional Educational Service Agency)',
-    seats: 2,
-    description: 'Two seats on the board. Provides special ed, career/tech ed, and support to 33 local districts.',
-    candidates: [],
-  },
-  Oakland: {
-    id: 'oakland-isd-2026',
-    name: 'Oakland Schools ISD',
-    seats: 2,
-    description: 'Two seats on the board. Serves 28 local districts in Oakland County.',
-    candidates: [],
-  },
-  Macomb: {
-    id: 'macomb-isd-2026',
-    name: 'Macomb ISD',
-    seats: 2,
-    description: 'Two seats on the board. Serves 21 local districts in Macomb County.',
-    candidates: [],
-  },
-  Kent: {
-    id: 'kent-isd-2026',
-    name: 'Kent ISD',
-    seats: 2,
-    description: 'Two seats on the board. Serves 20 local districts in Kent County.',
-    candidates: [],
-  },
-  Washtenaw: {
-    id: 'washtenaw-isd-2026',
-    name: 'Washtenaw ISD',
-    seats: 2,
-    description: 'Two seats on the board. Serves 10 local districts in Washtenaw County.',
-    candidates: [],
-  },
-  Genesee: {
-    id: 'genesee-isd-2026',
-    name: 'Genesee ISD',
-    seats: 2,
-    description: 'Two seats on the board. Serves 21 local districts in Genesee County.',
-    candidates: [],
-  },
-  Ingham: {
-    id: 'ingham-isd-2026',
-    name: 'Ingham ISD',
-    seats: 2,
-    description: 'Two seats on the board. Serves 12 local districts in Ingham County.',
-    candidates: [],
-  },
-  Kalamazoo: {
-    id: 'kalamazoo-resa-2026',
-    name: 'Kalamazoo RESA',
-    seats: 2,
-    description: 'Two seats on the board. Serves 9 local districts in Kalamazoo County.',
-    candidates: [],
-  },
-  Ottawa: {
-    id: 'ottawa-isd-2026',
-    name: 'Ottawa Area ISD',
-    seats: 2,
-    description: 'Two seats on the board. Serves 12 local districts in Ottawa County.',
-    candidates: [],
-  },
-  Saginaw: {
-    id: 'saginaw-isd-2026',
-    name: 'Saginaw ISD',
-    seats: 2,
-    description: 'Two seats on the board.',
-    candidates: [],
-  },
-}
-
 // ── Library Board Races (November 2026) ─────────────────────────
 // District library boards are elected, nonpartisan.
 // Not all libraries are district libraries — many are municipal or township libraries
 // with appointed boards.
 
 export const LIBRARY_BOARD_RACES_2026 = {
-  // Major district libraries with elected boards
   'Ann Arbor District Library': {
     id: 'aadl-2026',
     county: 'Washtenaw',
-    seats: 2,
-    description: 'Two seats on the seven-member board. Serves Ann Arbor.',
-    candidates: [],
+    seats: 3,
+    description: '3 seats on the 7-member elected board. District library serving Ann Arbor. 4-year terms, at-large.',
+    candidates: [
+      { name: 'Aidan Sova', description: 'Incumbent President', status: 'incumbent' },
+      { name: 'Catherine Hadley', description: 'Incumbent Trustee', status: 'incumbent' },
+      { name: 'Cassie Haynes', description: 'Incumbent Trustee (appointed Feb 2026 to fill vacancy)', status: 'incumbent' },
+    ],
   },
-  'Canton Public Library': {
-    id: 'canton-lib-2026',
+  'Ypsilanti District Library': {
+    id: 'ydl-2026',
+    county: 'Washtenaw',
+    seats: 5,
+    description: '5 seats on the 7-member elected board — the largest slate among Michigan library elections this cycle.',
+    candidates: [
+      { name: 'Kristy Cooper', description: 'Incumbent President', status: 'incumbent' },
+      { name: 'Theresa Maddix', description: 'Incumbent Vice President', status: 'incumbent' },
+      { name: 'Bethany Kennedy', description: 'Incumbent Secretary', status: 'incumbent' },
+      { name: 'Patricia J. Horne McGee', description: 'Incumbent Trustee', status: 'incumbent' },
+      { name: 'Paul Leighton', description: 'Incumbent Trustee', status: 'incumbent' },
+    ],
+  },
+  'Northville District Library': {
+    id: 'ndl-2026',
     county: 'Wayne',
-    seats: 2,
-    description: 'Two seats on the board.',
-    candidates: [],
+    seats: 4,
+    description: '4 seats (including all current officers) on the 7-member elected board. Serves Northville Township and City of Northville.',
+    candidates: [
+      { name: 'Carol Doyle', description: 'Incumbent Chair', status: 'incumbent' },
+      { name: 'Deborah Stanifer', description: 'Incumbent Vice-Chair', status: 'incumbent' },
+      { name: 'Alan Somershoe', description: 'Incumbent Secretary', status: 'incumbent' },
+      { name: 'Karren Yurgalite', description: 'Incumbent Treasurer', status: 'incumbent' },
+    ],
   },
-  'Clinton-Macomb Public Library': {
-    id: 'cmpl-2026',
+  'Plymouth District Library': {
+    id: 'pdl-2026',
+    county: 'Wayne',
+    seats: 4,
+    description: '4 seats on the 7-member elected board. Serves Plymouth Township and City of Plymouth.',
+    candidates: [
+      { name: 'Yasir Khogali', description: 'Incumbent Vice-President', status: 'incumbent' },
+      { name: 'Beth Sexton', description: 'Incumbent Treasurer', status: 'incumbent' },
+      { name: 'Jessica Yaser', description: 'Incumbent Secretary', status: 'incumbent' },
+      { name: 'Michael Pappas', description: 'Incumbent Trustee', status: 'incumbent' },
+    ],
+  },
+  'Salem-South Lyon District Library': {
+    id: 'ssldl-2026',
+    county: 'Oakland',
+    seats: 4,
+    description: '4 seats on the 7-member elected board. Serves Salem Township and City of South Lyon.',
+    candidates: [
+      { name: 'Linda Hamilton', description: 'Incumbent Vice-President', status: 'incumbent' },
+      { name: 'Hattie Maguire', description: 'Incumbent Secretary', status: 'incumbent' },
+      { name: 'Russell Sims', description: 'Incumbent Trustee', status: 'incumbent' },
+      { name: 'Erin Petricca', description: 'Incumbent Trustee', status: 'incumbent' },
+    ],
+  },
+  'Cromaine District Library': {
+    id: 'cromaine-2026',
+    county: 'Livingston',
+    seats: 3,
+    description: '3 seats on the 7-member elected board. Contested race with both conservative and progressive slates running.',
+    candidates: [
+      { name: 'Holly Naylor', description: 'Incumbent Trustee (Dem-endorsed)', status: 'incumbent' },
+      { name: 'Kim Armstrong', description: 'Incumbent Secretary (conservative-endorsed)', status: 'incumbent' },
+      { name: 'William Bolin', description: 'Incumbent Trustee (conservative-endorsed)', status: 'incumbent' },
+      { name: 'Mary Cafmeyer', description: 'Challenger (Dem-endorsed)', status: 'challenger' },
+      { name: 'Rebecca Fedewa', description: 'Challenger (Dem-endorsed)', status: 'challenger' },
+      { name: 'Julie Bellanti', description: 'Challenger (conservative-endorsed)', status: 'challenger' },
+    ],
+  },
+  'Brighton District Library': {
+    id: 'bdl-2026',
+    county: 'Livingston',
+    seats: 3,
+    description: '3 seats on the 7-member elected board. Serves Brighton area.',
+    candidates: [
+      { name: 'Daniel Huth', description: 'Incumbent Vice President', status: 'incumbent' },
+      { name: 'Lyndsay Wing', description: 'Incumbent Treasurer', status: 'incumbent' },
+      { name: 'Jim Muzzin', description: 'Incumbent Trustee', status: 'incumbent' },
+    ],
+  },
+  'Chesterfield Township Library': {
+    id: 'ctl-2026',
     county: 'Macomb',
     seats: 2,
-    description: 'Two seats on the board. Serves Clinton Township and Macomb Township.',
-    candidates: [],
+    description: '2 seats on the 6-member elected board. Serves Chesterfield Township.',
+    candidates: [
+      { name: 'Patricia Johnson', description: 'Incumbent Trustee', status: 'incumbent' },
+      { name: 'Lisa Mannino', description: 'Incumbent Trustee', status: 'incumbent' },
+    ],
   },
-  'Rochester Hills Public Library': {
-    id: 'rhpl-2026',
-    county: 'Oakland',
-    seats: 2,
-    description: 'Two seats on the board.',
-    candidates: [],
+}
+
+// ── City Municipal Races (November 2026) ─────────────────────
+// Michigan cities on even-year election cycles. Most MI cities elect in odd years,
+// but cities already on even-year/annual cycles as of Sept 1, 2004 may continue (MCL 168.642).
+// Keyed by city name (matching Census place field).
+
+export const CITY_MUNICIPAL_RACES_2026 = {
+  'Ann Arbor': {
+    county: 'Washtenaw',
+    races: [
+      {
+        office: 'Mayor',
+        candidates: [
+          { name: 'Yousef Rabhi', party: 'Democratic', description: 'Washtenaw County Commissioner; won primary' },
+        ],
+      },
+      {
+        office: 'City Council Ward 1',
+        candidates: [
+          { name: 'Cynthia Harrison', party: 'Democratic', description: 'Incumbent', status: 'incumbent' },
+          { name: 'Lucas King-Cochran', party: 'Independent' },
+        ],
+      },
+      {
+        office: 'City Council Ward 2',
+        candidates: [
+          { name: 'Sandy Aldrich', party: 'Democratic', description: 'Won primary' },
+          { name: 'Jumanah Saadeh', party: 'Independent' },
+        ],
+      },
+      {
+        office: 'City Council Ward 3',
+        candidates: [
+          { name: 'Ryan Bartholomew', party: 'Democratic', description: 'Won primary' },
+          { name: 'Kenneth Arthur Leicht Jr.', party: 'Independent' },
+        ],
+      },
+      {
+        office: 'City Council Ward 4',
+        candidates: [
+          { name: 'Aidan Sova', party: 'Democratic', description: 'Won primary' },
+          { name: 'James Trost', party: 'Independent' },
+        ],
+      },
+      {
+        office: 'City Council Ward 5',
+        candidates: [
+          { name: 'Jenn Cornell', party: 'Democratic', description: 'Incumbent', status: 'incumbent' },
+        ],
+      },
+    ],
   },
-  'Troy Public Library': {
-    id: 'troy-lib-2026',
-    county: 'Oakland',
-    seats: 2,
-    description: 'Two seats on the board.',
-    candidates: [],
-  },
-  'Kent District Library': {
-    id: 'kdl-2026',
+  'Grand Rapids': {
     county: 'Kent',
-    seats: 3,
-    description: 'Three seats on the board. Serves most of Kent County outside Grand Rapids.',
-    candidates: [],
+    races: [
+      {
+        office: 'City Commission Ward 1',
+        candidates: [
+          { name: 'Lindsey Perez-Plescher', party: 'Nonpartisan', description: 'Won primary (59.7%)' },
+          { name: 'Steve Tibbe', party: 'Nonpartisan', description: 'Advanced from primary (25.5%)' },
+        ],
+      },
+      {
+        office: 'City Commission Ward 2',
+        candidates: [
+          { name: 'Lisa Knight', party: 'Nonpartisan', description: 'Incumbent', status: 'incumbent' },
+          { name: 'Bryan Cody', party: 'Nonpartisan' },
+        ],
+      },
+      {
+        office: 'City Commission Ward 3',
+        candidates: [
+          { name: 'Kelsey Perdue', party: 'Nonpartisan', description: 'Incumbent (unopposed)', status: 'incumbent' },
+        ],
+      },
+    ],
   },
-  'Grand Rapids Public Library': {
-    id: 'grpl-2026',
-    county: 'Kent',
-    seats: 2,
-    description: 'Two seats on the board.',
-    candidates: [],
+  'Flint': {
+    county: 'Genesee',
+    races: [
+      {
+        office: 'Mayor',
+        candidates: [
+          { name: 'Sheldon A. Neeley', party: 'Nonpartisan', description: 'Incumbent (42.8%)', status: 'incumbent' },
+          { name: 'Tonya Burns', party: 'Nonpartisan', description: 'City Councilwoman (32.6%)' },
+        ],
+      },
+      {
+        office: 'City Council Ward 1',
+        candidates: [
+          { name: 'Arthur Woodson', party: 'Nonpartisan' },
+          { name: 'Debra J. Coleman', party: 'Nonpartisan' },
+        ],
+      },
+      {
+        office: 'City Council Ward 2',
+        candidates: [
+          { name: 'LaShawn Johnson', party: 'Nonpartisan' },
+          { name: 'Ladel Lewis', party: 'Nonpartisan', description: 'Incumbent', status: 'incumbent' },
+        ],
+      },
+      {
+        office: 'City Council Ward 5',
+        candidates: [
+          { name: 'Joel Arnold', party: 'Nonpartisan' },
+          { name: 'DeWaun E. Robinson', party: 'Nonpartisan' },
+        ],
+      },
+      {
+        office: 'City Council Ward 7',
+        candidates: [
+          { name: 'Candice Mushatt', party: 'Nonpartisan', description: 'City Council President (incumbent)', status: 'incumbent' },
+          { name: 'Darell Brown', party: 'Nonpartisan' },
+        ],
+      },
+      {
+        office: 'City Council Ward 8',
+        candidates: [
+          { name: 'Ezekiel Harris', party: 'Nonpartisan', description: 'Won primary (57.8%)' },
+          { name: 'Casey Lester', party: 'Nonpartisan' },
+        ],
+      },
+    ],
   },
-  'Capital Area District Libraries': {
-    id: 'cadl-2026',
-    county: 'Ingham',
-    seats: 2,
-    description: 'Two seats on the board. Serves greater Lansing area.',
-    candidates: [],
+  'Marquette': {
+    county: 'Marquette',
+    races: [
+      {
+        office: 'City Commission (3 at-large seats)',
+        candidates: [
+          { name: 'Paul Schloegel', party: 'Nonpartisan', description: 'Current mayor (selected by commission)', status: 'incumbent' },
+          { name: 'Fred Stonehouse', party: 'Nonpartisan', description: 'Incumbent', status: 'incumbent' },
+        ],
+      },
+    ],
   },
-  'Traverse Area District Library': {
-    id: 'tadl-2026',
-    county: 'Grand Traverse',
-    seats: 2,
-    description: 'Two seats on the board.',
-    candidates: [],
+  'Jackson': {
+    county: 'Jackson',
+    races: [
+      {
+        office: 'Mayor',
+        candidates: [
+          { name: 'Derek J. Dobies', party: 'Nonpartisan' },
+          { name: 'Dena K. Morgan', party: 'Nonpartisan' },
+        ],
+      },
+    ],
   },
 }
 
@@ -1655,7 +1997,6 @@ export const COUNTY_OFFICER_RACES_2026 = {
 import MI_COUNTIES from './michiganCounties'
 import {
   MI_CITY_OFFICIALS,
-  MI_TOWNSHIP_OFFICIALS,
   MI_SCHOOL_BOARDS,
   MI_VILLAGE_OFFICIALS,
 } from './michiganLocal'
@@ -1742,6 +2083,38 @@ export function getNovemberLocalRaces(geo) {
     })
   }
 
+  // ─── CITY MUNICIPAL (even-year cities only) ──────────────────
+
+  if (place) {
+    const cityKey = Object.keys(CITY_MUNICIPAL_RACES_2026).find(k =>
+      place.toLowerCase().includes(k.toLowerCase()) ||
+      k.toLowerCase() === place.replace(/ city$/i, '').toLowerCase()
+    )
+    const cityData = cityKey ? CITY_MUNICIPAL_RACES_2026[cityKey] : null
+    if (cityData) {
+      cityData.races.forEach(race => {
+        const slug = race.office.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+        races.push({
+          id: `city-${cityKey.toLowerCase().replace(/\s+/g, '-')}-${slug}`,
+          office: `${cityKey} ${race.office}`,
+          level: 'Local',
+          description: `City of ${cityKey} — nonpartisan general election.`,
+          candidates: race.candidates.map(c => ({
+            name: c.name,
+            description: c.description || '',
+            party: c.party,
+            status: c.status || null,
+            grade: null,
+          })),
+          type: 'nonpartisan',
+          allowWrite: true,
+          localOffice: true,
+          category: 'municipal',
+        })
+      })
+    }
+  }
+
   // ─── VILLAGE COUNCIL (even-year elections per MCL 168.642) ──
 
   // Check hardcoded village data first, then fallback to michiganLocal.js
@@ -1771,42 +2144,29 @@ export function getNovemberLocalRaces(geo) {
       const villageData = MI_VILLAGE_OFFICIALS[loc] || MI_VILLAGE_OFFICIALS[locStripped]
       if (villageData) {
         const villageName = place || sub
+        const villageCandidates = villageData.officials
+          ? villageData.officials.map(o => ({
+              name: o.name,
+              description: `Current ${o.title.toLowerCase()}`,
+              status: 'incumbent',
+              grade: null,
+            }))
+          : []
         races.push({
           id: `village-council-${villageName.toLowerCase().replace(/\s+/g, '-')}`,
           office: `Village of ${villageName} — Council`,
           level: 'Local',
           description: 'Village president and trustee seats. Nonpartisan — Michigan villages elect in even-numbered years.',
-          note: 'Village President, Trustee seats',
-          candidates: [],
+          note: villageCandidates.length > 0
+            ? `${villageCandidates.length} current members — check your clerk for which seats are on the ballot`
+            : 'Village President, Trustee seats',
+          candidates: villageCandidates,
           type: 'nonpartisan',
           allowWrite: true,
           localOffice: true,
           category: 'municipal',
         })
       }
-    }
-  }
-
-  // ─── TOWNSHIP BOARD (presidential years only — NOT on 2026 ballot) ──
-  // Township officers serve 4-year terms elected in presidential years (2024, 2028).
-  // We still show this as informational so users know who their township officials are.
-  if (sub) {
-    const subStripped = sub.replace(/ Township$/i, '').replace(/ charter township$/i, '')
-    const twpData = MI_TOWNSHIP_OFFICIALS[sub] || MI_TOWNSHIP_OFFICIALS[subStripped]
-    if (twpData) {
-      races.push({
-        id: `township-info-${sub.toLowerCase().replace(/\s+/g, '-')}`,
-        office: `${twpData.name || sub} — Board`,
-        level: 'Local',
-        description: 'Township officers (supervisor, clerk, treasurer, trustees) serve 4-year terms elected in presidential years. Next election: November 2028.',
-        note: 'Not on the 2026 ballot — next township election is 2028',
-        candidates: [],
-        type: 'nonpartisan',
-        allowWrite: false,
-        localOffice: true,
-        category: 'municipal',
-        infoOnly: true,
-      })
     }
   }
 
@@ -1839,12 +2199,20 @@ export function getNovemberLocalRaces(geo) {
         category: 'education',
       })
     } else {
-      // Dynamic: generate from MI_SCHOOL_BOARDS
+      // Dynamic: generate from MI_SCHOOL_BOARDS with incumbent members as candidates
       const boardKey = Object.keys(MI_SCHOOL_BOARDS).find(k =>
         schoolDist.toLowerCase().includes(k.toLowerCase()) ||
         k.toLowerCase().includes(schoolDist.toLowerCase().replace(/ school district$/i, '').trim())
       )
       const boardData = boardKey ? MI_SCHOOL_BOARDS[boardKey] : null
+      const boardCandidates = boardData?.officials
+        ? boardData.officials.map(o => ({
+            name: o.name,
+            description: `Current ${o.title.toLowerCase()}`,
+            status: 'incumbent',
+            grade: null,
+          }))
+        : []
       races.push({
         id: `school-board-${(boardKey || schoolDist).toLowerCase().replace(/\s+/g, '-')}`,
         office: `${boardKey || schoolDist} — School Board`,
@@ -1852,8 +2220,10 @@ export function getNovemberLocalRaces(geo) {
         description: boardData
           ? `School board election. ${boardData.officials?.length || 7}-member board. Nonpartisan — all voters can vote.`
           : 'School board seats up for election. Nonpartisan — all voters can vote.',
-        note: 'Seats on the ballot — check your local clerk for exact count',
-        candidates: [],
+        note: boardCandidates.length > 0
+          ? `${boardData.officials.length}-member board — check your local clerk for which seats are on the ballot`
+          : 'Seats on the ballot — check your local clerk for exact count',
+        candidates: boardCandidates,
         type: 'nonpartisan',
         allowWrite: true,
         localOffice: true,
@@ -1877,23 +2247,6 @@ export function getNovemberLocalRaces(geo) {
         localOffice: true,
         category: 'education',
       })
-    })
-  }
-
-  // ISD / RESA boards
-  if (county && ISD_BOARD_RACES_2026[county]) {
-    const isd = ISD_BOARD_RACES_2026[county]
-    races.push({
-      id: isd.id,
-      office: `${isd.name} — Board`,
-      level: 'Local',
-      description: isd.description,
-      note: `${isd.seats} seat${isd.seats > 1 ? 's' : ''} on the ballot`,
-      candidates: isd.candidates,
-      type: 'nonpartisan',
-      allowWrite: true,
-      localOffice: true,
-      category: 'education',
     })
   }
 

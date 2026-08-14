@@ -70,18 +70,17 @@ export default function generateBallotPDF({ party, races, choices, address }) {
 
   doc.setFontSize(12)
   doc.setFont('helvetica', 'normal')
-  doc.text('Michigan August 2026 Primary', MARGIN, 24)
+  doc.text('Michigan November 2026 General Election', MARGIN, 24)
 
-  // Party label on the right
-  const partyLabel = party === 'republican' ? 'Republican Primary' : 'Democratic Primary'
+  // Election label on the right
   doc.setFontSize(11)
   doc.setFont('helvetica', 'bold')
-  doc.text(partyLabel, PAGE_WIDTH - MARGIN, 16, { align: 'right' })
+  doc.text('General Election', PAGE_WIDTH - MARGIN, 16, { align: 'right' })
 
   // Date on the right
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(10)
-  doc.text('August 4, 2026', PAGE_WIDTH - MARGIN, 24, { align: 'right' })
+  doc.text('November 3, 2026', PAGE_WIDTH - MARGIN, 24, { align: 'right' })
 
   y = 48
 

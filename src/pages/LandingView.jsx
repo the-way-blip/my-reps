@@ -236,7 +236,7 @@ export default function LandingView() {
             </div>
             <h3>Build My Ballot</h3>
             <p>
-              See every race on your August 4th primary ballot — Governor, US Senate,
+              See every race on your November 3rd general election ballot — Governor, US Senate,
               US House, State Legislature, and more. Every candidate graded A–F.
             </p>
             <span className="landing-ballot-hero-cta">Build My Ballot &rarr;</span>

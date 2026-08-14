@@ -240,7 +240,7 @@
 [data-theme="dark"] .ballot-candidate-desc {
   color: var(--text-muted);
 }
-[data-theme="dark"] .ballot-primary-explainer {
+[data-theme="dark"] .ballot-explainer {
   background: var(--card);
   border-color: var(--border);
   color: var(--text-muted);
@@ -6112,8 +6112,8 @@ button.election-card {
   text-decoration: underline;
 }
 
-/* Primary Explainer */
-.ballot-primary-explainer {
+/* Election Explainer */
+.ballot-explainer {
   display: flex;
   gap: 0.75rem;
   padding: 1rem 1.25rem;
@@ -6126,19 +6126,19 @@ button.election-card {
   line-height: 1.6;
   color: var(--text-secondary);
 }
-.ballot-primary-explainer-icon {
+.ballot-explainer-icon {
   flex-shrink: 0;
   color: var(--accent-gold);
   margin-top: 1px;
 }
-.ballot-primary-explainer-text strong {
+.ballot-explainer-text strong {
   color: var(--text-primary);
   font-size: 0.9rem;
 }
-.ballot-primary-explainer-text p {
+.ballot-explainer-text p {
   margin: 0.5rem 0 0;
 }
-.ballot-primary-explainer-text p:last-child {
+.ballot-explainer-text p:last-child {
   margin-bottom: 0;
 }
 
@@ -6282,8 +6282,8 @@ button.election-card {
 .ballot-dates-chevron { transition: transform 0.2s; }
 .ballot-dates-details[open] .ballot-dates-chevron { transform: rotate(180deg); }
 .ballot-dates-details[open] .ballot-dates-grid { padding: 0 1rem 0.75rem; }
-.ballot-date-primary-item { font-weight: 700; }
-.ballot-date-primary-item .ballot-date-value { color: var(--accent-gold); }
+.ballot-date-highlight-item { font-weight: 700; }
+.ballot-date-highlight-item .ballot-date-value { color: var(--accent-gold); }
 .ballot-dates-grid {
   display: flex;
   flex-direction: column;
@@ -6332,7 +6332,7 @@ button.election-card {
   border-radius: 1rem;
   letter-spacing: 0.03em;
 }
-.ballot-date-primary {
+.ballot-date-general {
   background: rgba(34, 197, 94, 0.12);
   color: #16a34a;
   border: 1px solid rgba(34, 197, 94, 0.25);
@@ -6349,8 +6349,8 @@ button.election-card {
   line-height: 1.4;
 }
 
-/* Primary section highlight */
-.ballot-section-primary {
+/* Main section highlight */
+.ballot-section-main {
   border-left: 3px solid #16a34a;
 }
 
@@ -6631,6 +6631,32 @@ button.election-card {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+.ballot-party-tag {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-left: 0.35rem;
+  vertical-align: middle;
+}
+.ballot-party-tag-r {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+}
+.ballot-party-tag-d {
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+}
+.ballot-party-tag-i {
+  background: rgba(139, 92, 246, 0.15);
+  color: #8b5cf6;
+}
+.ballot-party-badge.badge-general {
+  background: rgba(197, 164, 78, 0.15);
+  color: var(--accent-gold);
 }
 .ballot-candidate-withdrawn {
   opacity: 0.5;

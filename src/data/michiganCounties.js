@@ -18,6 +18,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Elizabeth A. Reed', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Scott Stephenson', title: 'Sheriff', party: 'Republican' },
+      { name: 'Stephany Eller', title: 'Clerk', party: null },
+      { name: 'Cheryl Franks', title: 'Treasurer', party: null },
+      { name: 'Melissa A. Cordes', title: 'Register of Deeds', party: null },
+      { name: 'Jesse Campbell', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -29,6 +33,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Robert T. Steinhoff', title: 'Prosecuting Attorney', party: null },
       { name: 'Todd Brock', title: 'Sheriff', party: null },
+      { name: 'Joel VandeVelde', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Pamela Johnson', title: 'Treasurer', party: null },
+      { name: 'Robert Lindbeck', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -40,6 +47,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Michael Villar', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Frank Baker', title: 'Sheriff', party: 'Republican' },
+      { name: 'Bob Genetski', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Sally Brooks', title: 'Treasurer', party: null },
+      { name: 'Denise Medemar', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -51,6 +61,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Cynthia M. Muszynski', title: 'Prosecuting Attorney', party: null },
       { name: 'Erik Smith', title: 'Sheriff', party: 'Republican' },
+      { name: 'Kari Bertrand', title: 'Clerk', party: null },
+      { name: 'Kimberly Ludlow', title: 'Treasurer', party: null },
+      { name: 'Catherine Murphy', title: 'Register of Deeds', party: null },
+      { name: 'Gerald Fournier', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -62,6 +76,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Wilson D. Brott', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Kevin Hoch', title: 'Sheriff', party: 'Republican' },
+      { name: 'Sheryl Guy', title: 'Clerk', party: null },
+      { name: 'Sherry Comben', title: 'Treasurer', party: null },
+      { name: 'Patricia Niepoth', title: 'Register of Deeds', party: null },
+      { name: 'Mark Stone', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -73,6 +91,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Curtis G. Broughton', title: 'Prosecuting Attorney', party: null },
       { name: 'James Mosciski', title: 'Sheriff', party: null },
+      { name: 'Nancy Selle', title: 'Clerk', party: null },
+      { name: 'Dennis Stawowy', title: 'Treasurer', party: null },
+      { name: 'Darlene Mikkola', title: 'Register of Deeds', party: null },
+      { name: 'Larry Davis', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -84,6 +106,9 @@ const MI_COUNTIES = {
     officials: [
       { name: "Joseph P. O'Leary", title: 'Prosecuting Attorney', party: null },
       { name: 'Joe Brogan', title: 'Sheriff', party: null },
+      { name: 'Wendy Goodreau', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Jill Tollefson', title: 'Treasurer', party: null },
+      { name: 'Douglas Mills', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -95,6 +120,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Julie A. Nakfoor Pratt', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Dar Leaf', title: 'Sheriff', party: 'Republican' },
+      { name: 'Pamela Palmer', title: 'Clerk', party: null },
+      { name: 'Susan VandeCar', title: 'Treasurer', party: null },
+      { name: 'Barbara Hurless', title: 'Register of Deeds', party: null },
+      { name: 'Jim Dull', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -106,6 +135,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Michael P. Kanuszewski', title: 'Prosecuting Attorney', party: null },
       { name: 'Troy Cunningham', title: 'Sheriff', party: null },
+      { name: 'Katie Zanotti', title: 'Clerk', party: null },
+      { name: 'Weston Price', title: 'Treasurer', party: null },
+      { name: 'Brandon Krause', title: 'Register of Deeds', party: null },
+      { name: 'Michael Rivard', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -117,6 +150,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Sara M. Swanson', title: 'Prosecuting Attorney', party: null },
       { name: 'Kyle Rosa', title: 'Sheriff', party: null },
+      { name: 'Tammy Bowers', title: 'Clerk', party: null },
+      { name: 'Michelle Thompson', title: 'Treasurer', party: null },
+      { name: 'Paula Eberhart', title: 'Register of Deeds', party: null },
+      { name: 'Edward Hoogterp', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -128,6 +165,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Amy R. Byrd', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Charles Heit', title: 'Sheriff', party: 'Republican' },
+      { name: 'Sharon Tyler', title: 'Clerk', party: null },
+      { name: 'Shelly Weich', title: 'Treasurer', party: null },
+      { name: 'Lora Freehling', title: 'Register of Deeds', party: null },
+      { name: 'Christopher Quattrin', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -139,6 +180,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Zachary W. Stempien', title: 'Prosecuting Attorney', party: null },
       { name: 'Fred Blankenship', title: 'Sheriff', party: 'Republican' },
+      { name: 'Terry Ann Kubasiak', title: 'Clerk', party: null },
+      { name: 'Steven Rutz', title: 'Treasurer', party: null },
+      { name: 'Nyci DeLoach', title: 'Register of Deeds', party: null },
+      { name: 'Michael Hard', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -150,6 +195,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'David E. Gilbert', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Steve Hinkley', title: 'Sheriff', party: 'Republican' },
+      { name: 'Kimberly Hinkley', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Brian Wensauer', title: 'Treasurer', party: null },
+      { name: 'Ron Smith', title: 'Water Resources Commissioner', party: null },
     ],
   },
 
@@ -161,6 +209,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Victor A. Fitz', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Clinton D. Roach', title: 'Sheriff', party: 'Republican' },
+      { name: 'Monica McMichael', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Hope Anderson', title: 'Treasurer', party: null },
+      { name: 'Jeff VanBelle', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -172,6 +223,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Christopher D. Tholen', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Charles Vondra', title: 'Sheriff', party: 'Republican' },
+      { name: 'Julia Drost', title: 'Clerk', party: null },
+      { name: 'Betty Simon', title: 'Treasurer', party: null },
+      { name: 'Shirley Mae Coblentz', title: 'Register of Deeds', party: null },
+      { name: 'Dennis Jason', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -183,6 +238,8 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Melissa M. Goodrich', title: 'Prosecuting Attorney', party: null },
       { name: 'Todd Ross', title: 'Sheriff', party: 'Republican' },
+      { name: 'Karen Brewster', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Buffy Jo Weldon', title: 'Treasurer', party: null },
     ],
   },
 
@@ -194,6 +251,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Robert L. Stratton III', title: 'Prosecuting Attorney', party: null },
       { name: 'Michael D. Bitnar', title: 'Sheriff', party: null },
+      { name: 'Cathy Maleport', title: 'Clerk', party: null },
+      { name: 'Carmen Fazzari', title: 'Treasurer', party: null },
+      { name: 'Gigi Ferro', title: 'Register of Deeds', party: null },
     ],
   },
 
@@ -205,6 +265,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Andrew J. Santini', title: 'Prosecuting Attorney', party: null },
       { name: 'John Wilson', title: 'Sheriff', party: 'Republican' },
+      { name: 'Lori Martin', title: 'Clerk', party: null },
+      { name: 'Jenny Beemer-Fritzinger', title: 'Treasurer', party: null },
+      { name: 'Lori Mott', title: 'Register of Deeds', party: null },
+      { name: 'Carl Parks', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -227,6 +291,8 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Sierra R. Koch', title: 'Prosecuting Attorney', party: null },
       { name: 'Ryan Swope', title: 'Sheriff', party: 'Republican' },
+      { name: 'Sandra Moore', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Kate Wagner', title: 'Treasurer', party: null },
     ],
   },
 
@@ -238,6 +304,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Lauren M. Wickman', title: 'Prosecuting Attorney', party: null },
       { name: 'Todd Tardiff', title: 'Sheriff', party: null },
+      { name: 'Nancy Przewrocki', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Sherry Godfrey', title: 'Treasurer', party: null },
+      { name: 'Dean Auger', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -249,6 +318,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Abbey Anderson', title: 'Prosecuting Attorney', party: null },
       { name: 'Aaron Rochon', title: 'Sheriff', party: null },
+      { name: 'Carol Bronzyk', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Lorna Carey', title: 'Treasurer', party: null },
+      { name: 'Kevin Trevillian', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -276,6 +348,9 @@ const MI_COUNTIES = {
       { name: 'Nicole Christensen', title: 'Commissioner (District 12)', party: null, district: 12 },
       { name: 'Frank Holmes', title: 'Commissioner (District 14)', party: null, district: 14 },
       { name: 'Keith Barber', title: 'Commissioner (District 15)', party: null, district: 15 },
+      { name: 'Diana Bosworth', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Bob Robinson', title: 'Treasurer', party: null },
+      { name: 'Richard Wagner', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -287,6 +362,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Michael H. Schuitema', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Matt Leirstein', title: 'Sheriff', party: 'Republican' },
+      { name: 'Suzanne Kanine', title: 'Clerk', party: null },
+      { name: 'Mary Mitchell', title: 'Treasurer', party: null },
+      { name: 'Karen Cosens', title: 'Register of Deeds', party: null },
+      { name: 'Arden Bawkey', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -322,6 +401,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Mark A. Toaz', title: 'Prosecuting Attorney', party: null },
       { name: 'Mike Shea', title: 'Sheriff', party: 'Republican' },
+      { name: 'Karrie Hulme', title: 'Clerk', party: null },
+      { name: 'Christy VanTiem', title: 'Treasurer', party: null },
+      { name: 'Ann Manning-Clayton', title: 'Register of Deeds', party: null },
+      { name: 'Terry Walters', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -333,6 +416,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Nicholas J. Jacobs', title: 'Prosecuting Attorney', party: null },
       { name: 'Jorge Cruz', title: 'Sheriff', party: null },
+      { name: 'Ramona Collins', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Lisa Hewitt', title: 'Treasurer', party: null },
+      { name: 'Michael Foley', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -344,6 +430,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Noelle A. Moeggenberg', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Michael D. Shea', title: 'Sheriff', party: 'Republican' },
+      { name: 'Bonnie Scheele', title: 'Clerk', party: null },
+      { name: 'Heidi Scheppe', title: 'Treasurer', party: null },
+      { name: 'Peggie Haines', title: 'Register of Deeds', party: null },
+      { name: 'Andy Smits', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -355,6 +445,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Laura M. Bever', title: 'Prosecuting Attorney', party: null },
       { name: 'Michael Morris', title: 'Sheriff', party: 'Republican' },
+      { name: 'Angie Thompson', title: 'Clerk', party: null },
+      { name: 'Terri Ball', title: 'Treasurer', party: null },
+      { name: 'Kimberlee M. VanHoose', title: 'Register of Deeds', party: null },
+      { name: 'Bernard Barnes', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -366,6 +460,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Jamie J. Wisniewski', title: 'Prosecuting Attorney', party: null },
       { name: 'Scott B. Hodshire', title: 'Sheriff', party: 'Republican' },
+      { name: 'Marney Kast', title: 'Clerk', party: null },
+      { name: 'Stephenie Kyser', title: 'Treasurer', party: null },
+      { name: 'Bambi Somerlott', title: 'Register of Deeds', party: null },
+      { name: 'Matt Word', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -377,6 +475,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Daniel J. Helmer', title: 'Prosecuting Attorney', party: null },
       { name: 'Joshua Saaranen', title: 'Sheriff', party: null },
+      { name: 'Jennifer Kelly', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Lisa Mattila', title: 'Treasurer', party: null },
+      { name: 'John Pekkala', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -388,6 +489,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Timothy J. Rutkowski', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Kelly Hanson', title: 'Sheriff', party: 'Republican' },
+      { name: 'Debra McCollum', title: 'Treasurer', party: null },
+      { name: 'Sarah Holz Durr', title: 'Register of Deeds', party: null },
+      { name: 'Erik Tamlyn', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -428,6 +532,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Kyle B. Butler', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Charlie Noll', title: 'Sheriff', party: 'Republican' },
+      { name: 'Greg Geiger', title: 'Clerk', party: null },
+      { name: 'Judith Clark', title: 'Treasurer', party: null },
+      { name: 'Rhonda Lake', title: 'Register of Deeds', party: null },
+      { name: 'Robert Rose', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -439,6 +547,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'James A. Bacarella', title: 'Prosecuting Attorney', party: null },
       { name: 'Scott Frank', title: 'Sheriff', party: 'Republican' },
+      { name: 'Nancy Huebel', title: 'Clerk', party: null },
+      { name: 'Cathy Anderson', title: 'Treasurer', party: null },
+      { name: 'Ericka Earl', title: 'Register of Deeds', party: null },
+      { name: 'Fred Strauer', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -461,6 +573,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Mark G. Kowalczyk', title: 'Prosecuting Attorney', party: null },
       { name: 'Michael Main', title: 'Sheriff', party: 'Republican' },
+      { name: 'Minde Lux', title: 'Clerk', party: null },
+      { name: 'Steven Pickens', title: 'Treasurer', party: null },
+      { name: 'Karen Jackson', title: 'Register of Deeds', party: null },
+      { name: 'Robert Willoughby', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -472,6 +588,8 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Kelsey A. Guernsey', title: 'Prosecuting Attorney', party: null },
       { name: 'Gary Schuette', title: 'Sheriff', party: 'Republican' },
+      { name: 'Amanda Kirkpatrick', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Karen Coffman', title: 'Treasurer', party: null },
     ],
   },
 
@@ -506,6 +624,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Ryan S. Ziegler', title: 'Prosecuting Attorney', party: null },
       { name: 'Patrick Whiteford', title: 'Sheriff', party: 'Republican' },
+      { name: 'Deborah Hill', title: 'Clerk', party: null },
+      { name: 'Valerie Thornburg', title: 'Treasurer', party: null },
+      { name: 'Jo Ann DeGraaf', title: 'Register of Deeds', party: null },
+      { name: 'Seth Phillips', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -531,6 +653,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Charles W. Miller', title: 'Prosecuting Attorney', party: null },
       { name: 'Curt Pennala', title: 'Sheriff', party: null },
+      { name: 'Julie Carlson', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Eric Hermanson', title: 'Treasurer', party: null },
+      { name: 'Gregg M. Patrick', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -542,6 +667,8 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Thomas E. Evans', title: 'Prosecuting Attorney', party: null },
       { name: 'Rich Martin', title: 'Sheriff', party: 'Republican' },
+      { name: 'Patti Pacola', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Kellie Allen', title: 'Treasurer', party: null },
     ],
   },
 
@@ -553,6 +680,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'John D. Miller', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Scott McKenna', title: 'Sheriff', party: 'Republican' },
+      { name: 'Theresa Spencer', title: 'Clerk', party: null },
+      { name: 'Dana Miller', title: 'Treasurer', party: null },
+      { name: 'Lori Gebhardt', title: 'Register of Deeds', party: null },
+      { name: 'Joseph Suma', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -564,6 +695,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Joseph T. Hubbell', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Michael Borkovich', title: 'Sheriff', party: 'Republican' },
+      { name: 'Michelle Crocker', title: 'Clerk', party: null },
+      { name: 'John Gallagher III', title: 'Treasurer', party: null },
+      { name: 'Jennifer Grant', title: 'Register of Deeds', party: null },
+      { name: 'Steven Christensen', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -575,6 +710,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Jacqueline V. Wyse', title: 'Prosecuting Attorney', party: null },
       { name: 'Troy Bevier', title: 'Sheriff', party: 'Republican' },
+      { name: 'Roxann Holloway', title: 'Clerk', party: null },
+      { name: 'Erin Van Dyke', title: 'Treasurer', party: null },
+      { name: 'Carolyn Bater', title: 'Register of Deeds', party: null },
+      { name: 'Jennifer Escott', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -596,6 +735,10 @@ const MI_COUNTIES = {
       { name: 'Roger Deaton', title: 'Commissioner (District 6)', party: 'Republican', district: 6 },
       { name: 'Melvin Paunovich', title: 'Commissioner (District 7)', party: 'Republican', district: 7 },
       { name: 'Jerome Gross', title: 'Commissioner (District 9)', party: 'Republican', district: 9 },
+      { name: 'Elizabeth Hundley', title: 'Clerk', party: null },
+      { name: 'Jennifer Nash', title: 'Treasurer', party: null },
+      { name: 'Brandon Denby', title: 'Register of Deeds', party: null },
+      { name: 'Brian Jonckheere', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -607,6 +750,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Lauren Dye Clark', title: 'Prosecuting Attorney', party: null },
       { name: 'Eric Gravelle', title: 'Sheriff', party: null },
+      { name: 'Sharon Price', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Darlene Kisro', title: 'Treasurer', party: null },
+      { name: 'Stanley Ronquist', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -618,6 +764,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'J. Stuart Spencer', title: 'Prosecuting Attorney', party: null },
       { name: 'Edward Wilk', title: 'Sheriff', party: null },
+      { name: 'Hillary Vowell', title: 'Clerk', party: null },
+      { name: 'Jennifer Goudreau', title: 'Treasurer', party: null },
+      { name: 'Mary Joe Savard', title: 'Register of Deeds', party: null },
+      { name: 'Lester Livermore', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -643,6 +793,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Jonathon P. Hauswirth', title: 'Prosecuting Attorney', party: null },
       { name: 'Brian Gutowski', title: 'Sheriff', party: 'Republican' },
+      { name: 'Lindsey Marquardt', title: 'Clerk', party: null },
+      { name: 'Rachel Nelson', title: 'Treasurer', party: null },
+      { name: 'Jennifer L. Kirchinger', title: 'Register of Deeds', party: null },
+      { name: 'Gary Schwaiger', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -654,6 +808,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Jenna M. Nelson', title: 'Prosecuting Attorney', party: null },
       { name: 'Greg Zyburt', title: 'Sheriff', party: null },
+      { name: 'Linda Talsma', title: 'Clerk', party: null },
+      { name: 'Jackie Solomon', title: 'Treasurer', party: null },
+      { name: 'Tonya Nelson', title: 'Register of Deeds', party: null },
+      { name: 'Mike Farrell', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -665,6 +823,7 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Beth M. Hand', title: 'Prosecuting Attorney', party: null },
       { name: 'Kim Cole', title: 'Sheriff', party: 'Republican' },
+      { name: 'Diane Engelbrecht', title: 'Register of Deeds', party: null },
     ],
   },
 
@@ -676,6 +835,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Jonathan M. Peterson', title: 'Prosecuting Attorney', party: null },
       { name: 'Brian Miller', title: 'Sheriff', party: 'Republican' },
+      { name: 'Marcee Purcell', title: 'Clerk', party: null },
+      { name: 'Sherry Earnest', title: 'Treasurer', party: null },
+      { name: 'Karen Hahn', title: 'Register of Deeds', party: null },
+      { name: 'Karla Miller', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -687,6 +850,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Jeffrey T. Rogg', title: 'Prosecuting Attorney', party: null },
       { name: 'Darrin Kudwa', title: 'Sheriff', party: null },
+      { name: 'Marc Kleiman', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Barbara Parrett', title: 'Treasurer', party: null },
+      { name: 'Caleb Kleiman', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -700,6 +866,8 @@ const MI_COUNTIES = {
       { name: 'Scott Holzinger', title: 'Sheriff', party: 'Republican' },
       { name: 'Ann Manary', title: 'Clerk', party: 'Republican' },
       { name: 'Cathy Lunsford', title: 'Treasurer', party: 'Republican' },
+      { name: 'Jennifer M. Anway', title: 'Register of Deeds', party: null },
+      { name: 'Joseph Sova', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -711,6 +879,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'David A. DenHouten', title: 'Prosecuting Attorney', party: null },
       { name: 'Wil Yancer', title: 'Sheriff', party: 'Republican' },
+      { name: 'Jessica Nielsen', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Lori Cox', title: 'Treasurer', party: null },
+      { name: 'Brad Siddall', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -722,6 +893,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Jeffery A. Yorkey', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Troy Goodnough', title: 'Sheriff', party: 'Republican' },
+      { name: 'Annamarie Osment', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Jesse Sandford', title: 'Treasurer', party: null },
+      { name: 'David Thompson', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -733,6 +907,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Thomas A. Ginster', title: 'Prosecuting Attorney', party: null },
       { name: 'Mike Williams', title: 'Sheriff', party: 'Republican' },
+      { name: 'Kristen Millard', title: 'Clerk', party: null },
+      { name: 'JoAnne Vukin', title: 'Treasurer', party: null },
+      { name: 'Kimberly Kuhn', title: 'Register of Deeds', party: null },
+      { name: 'Tony Sattler', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -744,6 +922,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Vicki P. Kundinger', title: 'Prosecuting Attorney', party: null },
       { name: 'Chad Brown', title: 'Sheriff', party: 'Republican' },
+      { name: 'Cheryl Neilsen', title: 'Clerk', party: null },
+      { name: 'Cheri Jean Eggett', title: 'Treasurer', party: null },
+      { name: 'Teresa Walker', title: 'Register of Deeds', party: null },
+      { name: 'Todd Behring', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -755,6 +937,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'D.J. Hilson', title: 'Prosecuting Attorney', party: 'Democratic' },
       { name: 'Michael Poulin', title: 'Sheriff', party: 'Democratic' },
+      { name: 'Nancy Waters', title: 'Clerk', party: null },
+      { name: 'Tony Moulatsiotis', title: 'Treasurer', party: null },
+      { name: 'Mark Fairchild', title: 'Register of Deeds', party: null },
+      { name: 'Brenda Moore', title: 'Water Resources Commissioner', party: null },
     ],
   },
 
@@ -766,6 +952,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Rachel F. Robinson', title: 'Prosecuting Attorney', party: null },
       { name: 'Bob Mendham', title: 'Sheriff', party: 'Republican' },
+      { name: 'Jason VanderStelt', title: 'Clerk', party: null },
+      { name: 'Jason O\'Connell', title: 'Treasurer', party: null },
+      { name: 'Stewart Sanders', title: 'Register of Deeds', party: null },
+      { name: 'Dale Twing', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -791,6 +981,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Joseph J. Bizon', title: 'Prosecuting Attorney', party: null },
       { name: 'Craig Mast', title: 'Sheriff', party: 'Republican' },
+      { name: 'Amy Anderson', title: 'Clerk', party: null },
+      { name: 'Mary Lou Phillips', title: 'Treasurer', party: null },
+      { name: 'Richard Hodges', title: 'Register of Deeds', party: null },
+      { name: 'Michelle Martin', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -802,6 +996,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'LaDonna A. Schultz', title: 'Prosecuting Attorney', party: null },
       { name: 'Brian Gilbert', title: 'Sheriff', party: 'Republican' },
+      { name: 'Breck Gildner', title: 'Clerk', party: null },
+      { name: 'Caren Piglowski', title: 'Treasurer', party: null },
+      { name: 'Denise Simmons', title: 'Register of Deeds', party: null },
+      { name: 'Michael DeMatio', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -813,6 +1011,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Rudolph Perhalla', title: 'Prosecuting Attorney', party: null },
       { name: 'Dale Rantala', title: 'Sheriff', party: null },
+      { name: 'Stacy Preiss', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Michele Smith', title: 'Treasurer', party: null },
+      { name: 'Donald Bussiere', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -824,6 +1025,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Anthony J. Badovinac', title: 'Prosecuting Attorney', party: null },
       { name: 'Mark Cool', title: 'Sheriff', party: 'Republican' },
+      { name: 'Tracey Cochran', title: 'Clerk', party: null },
+      { name: 'Tonia Hartline', title: 'Treasurer', party: null },
+      { name: 'Heather Gray', title: 'Register of Deeds', party: null },
+      { name: 'David Belden', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -835,6 +1040,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Kristi L. McGregor', title: 'Prosecuting Attorney', party: null },
       { name: 'Taylor D. Kann', title: 'Sheriff', party: null },
+      { name: 'Ann Galbraith', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'William Kendall', title: 'Treasurer', party: null },
+      { name: 'Steve Defour', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -846,6 +1054,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Michael A. Rola', title: 'Prosecuting Attorney', party: null },
       { name: 'Matthew Nowicki', title: 'Sheriff', party: 'Republican' },
+      { name: 'Susan DeFeyter', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Paula Wright', title: 'Treasurer', party: null },
+      { name: 'Jason Melacon', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -882,6 +1093,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Zakary S. McLennan', title: 'Prosecuting Attorney', party: null },
       { name: 'Joe Brewbaker', title: 'Sheriff', party: 'Republican' },
+      { name: 'Ann Marie Main', title: 'Clerk', party: null },
+      { name: 'Bridget LaLonde', title: 'Treasurer', party: null },
+      { name: 'Vicky Kowalewsky', title: 'Register of Deeds', party: null },
+      { name: 'Robert Macomber', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -893,6 +1108,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Susan M. Dillon', title: 'Prosecuting Attorney', party: null },
       { name: 'Ed Stern', title: 'Sheriff', party: 'Republican' },
+      { name: 'Michelle Stevenson', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Rebecca Ragan', title: 'Treasurer', party: null },
+      { name: 'Rex Wolfsen', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -924,6 +1142,7 @@ const MI_COUNTIES = {
       { name: 'Paul Zeller', title: 'Commissioner (District 5)', party: null, district: 5 },
       { name: 'Dave Rushing', title: 'Commissioner (District 6)', party: null, district: 6 },
       { name: 'Dave Vandenbossche', title: 'Commissioner (District 7)', party: null, district: 7 },
+      { name: 'Robert Wiley', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -935,6 +1154,7 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Deborah J. Davis', title: 'Prosecuting Attorney', party: null },
       { name: 'Chad L. Spence', title: 'Sheriff', party: 'Republican' },
+      { name: 'Lindsay Oswald', title: 'Clerk/Register of Deeds', party: null },
     ],
   },
 
@@ -946,6 +1166,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Mark E. Davidson', title: 'Prosecuting Attorney', party: 'Republican' },
       { name: 'Paul Rich', title: 'Sheriff', party: 'Republican' },
+      { name: 'Lisa Hilgendorf', title: 'Clerk', party: null },
+      { name: 'Trudy Bowers', title: 'Treasurer', party: null },
+      { name: 'Michele VanNorman', title: 'Register of Deeds', party: null },
+      { name: 'Douglas Sweet', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -957,6 +1181,9 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Timothy R. Noble', title: 'Prosecuting Attorney', party: null },
       { name: 'Charlie Willour', title: 'Sheriff', party: null },
+      { name: 'Beth Edwards', title: 'Clerk/Register of Deeds', party: null },
+      { name: 'Jane Couwlier-Bridges', title: 'Treasurer', party: null },
+      { name: 'Jean Frankovich', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -968,6 +1195,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Scott A. Koerner', title: 'Prosecuting Attorney', party: null },
       { name: 'Douglas L. Chapman', title: 'Sheriff', party: 'Republican' },
+      { name: 'Caroline Wilson', title: 'Clerk', party: null },
+      { name: 'Julie Sorenson', title: 'Treasurer', party: null },
+      { name: 'Lori Kimble', title: 'Register of Deeds', party: null },
+      { name: 'Tony Newman', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -979,6 +1210,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Erica K. Walle', title: 'Prosecuting Attorney', party: null },
       { name: 'Ryan Robinson', title: 'Sheriff', party: 'Republican' },
+      { name: 'Jodi Fetting', title: 'Clerk', party: null },
+      { name: 'Ashley Bennett', title: 'Treasurer', party: null },
+      { name: 'John Bishop', title: 'Register of Deeds', party: null },
+      { name: 'Robert Mantey', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -990,6 +1225,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Susan K. Zuiderveen', title: 'Prosecuting Attorney', party: null },
       { name: 'Daniel Abbott', title: 'Sheriff', party: 'Republican' },
+      { name: 'Suzie Roehm', title: 'Clerk', party: null },
+      { name: 'Trisha Nesbitt', title: 'Treasurer', party: null },
+      { name: 'Paul DeYoung', title: 'Register of Deeds', party: null },
+      { name: 'Joe Parman', title: 'Drain Commissioner', party: null },
     ],
   },
 
@@ -1029,6 +1268,10 @@ const MI_COUNTIES = {
     officials: [
       { name: 'Johanna Carey', title: 'Prosecuting Attorney', party: null },
       { name: 'Trent Taylor', title: 'Sheriff', party: 'Republican' },
+      { name: 'Alaina Nyman', title: 'Clerk', party: null },
+      { name: 'Kristi Nottingham', title: 'Treasurer', party: null },
+      { name: 'Roxanne Snyder', title: 'Register of Deeds', party: null },
+      { name: 'Michael Solomon', title: 'Drain Commissioner', party: null },
     ],
   },
 }

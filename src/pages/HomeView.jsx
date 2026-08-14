@@ -7,7 +7,7 @@ import AddressAutocomplete from '../components/ui/AddressAutocomplete'
 import { geocodeToDistrict } from '../services/districtService'
 import { getVoterInfo } from '../services/googleCivicApi'
 import { STATE_BY_CODE } from '../data/states'
-import { PRIMARY_INFO } from '../data/michiganPrimary2026'
+import { GENERAL_INFO } from '../data/michiganPrimary2026'
 
 // ── MI SOS deep links ──
 const MI_SOS_VOTER_LOOKUP = 'https://mvic.sos.state.mi.us/Voter/Index'
@@ -75,17 +75,17 @@ function AddressHero({ onSubmit, loading, error }) {
         </div>
       )}
       <div className="home-hero-countdown">
-        <span className="home-countdown-num">{new Date().toDateString() === new Date('2026-08-04').toDateString() ? 'TODAY' : daysUntil('2026-08-04')}</span>
-        <span className="home-countdown-label">{new Date().toDateString() === new Date('2026-08-04').toDateString() ? 'is the Michigan Primary' : 'days until the August 4 primary'}</span>
+        <span className="home-countdown-num">{new Date().toDateString() === new Date('2026-11-03').toDateString() ? 'TODAY' : daysUntil('2026-11-03')}</span>
+        <span className="home-countdown-label">{new Date().toDateString() === new Date('2026-11-03').toDateString() ? 'is the Michigan General Election' : 'days until the November 3 election'}</span>
       </div>
-      {new Date().toDateString() === new Date('2026-08-04').toDateString() && (
+      {new Date().toDateString() === new Date('2026-11-03').toDateString() && (
         <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="home-hero-reg-nudge">
           <strong>Polls are open.</strong> Not registered? You can register and vote at your clerk's office today.
         </a>
       )}
-      {daysUntil('2026-07-20') > 0 && daysUntil('2026-07-20') <= 45 && (
+      {daysUntil('2026-10-19') > 0 && daysUntil('2026-10-19') <= 45 && (
         <a href="https://mvic.sos.state.mi.us/RegisterVoter" target="_blank" rel="noopener noreferrer" className="home-hero-reg-nudge">
-          <strong>{daysUntil('2026-07-20')} days</strong> to register (online/mail)
+          <strong>{daysUntil('2026-10-19')} days</strong> to register (online/mail)
         </a>
       )}
     </div>
@@ -142,8 +142,8 @@ function CollapsibleSection({ title, defaultOpen = false, children }) {
 
 // ── Dashboard (shown after address entry) ──
 function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
-  const primaryDays = daysUntil('2026-08-04')
-  const isElectionDay = new Date().toDateString() === new Date('2026-08-04').toDateString()
+  const primaryDays = daysUntil('2026-11-03')
+  const isElectionDay = new Date().toDateString() === new Date('2026-11-03').toDateString()
 
   // Polling location from Google Civic
   const pollingPlace = pollingData?.pollingLocations?.[0] || null
@@ -211,7 +211,7 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
             </svg>
           }
           title="Plan Your Ballot"
-          desc="See who's running in the August primary, compare candidates, and lock in your picks."
+          desc="See every race on your November ballot, compare candidates head-to-head, and lock in your picks."
           to="/ballot"
           accent="var(--accent-gold)"
           badge={isElectionDay ? 'TODAY' : `${primaryDays}d`}
@@ -289,23 +289,23 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
       </div>
 
       {/* Key dates — collapsible */}
-      <CollapsibleSection title="Key Dates — August 2026 Primary" defaultOpen={primaryDays <= 60}>
+      <CollapsibleSection title="Key Dates — November 2026 General Election" defaultOpen={primaryDays <= 82}>
         <div className="home-dates-grid">
           <div className="home-date-item">
             <span className="home-date-label">Registration Deadline</span>
-            <span className="home-date-value">{PRIMARY_INFO.registrationDeadline}</span>
+            <span className="home-date-value">{GENERAL_INFO.registrationDeadline}</span>
           </div>
           <div className="home-date-item">
             <span className="home-date-label">Early Voting Begins</span>
-            <span className="home-date-value">{PRIMARY_INFO.earlyVotingStart}</span>
+            <span className="home-date-value">{GENERAL_INFO.earlyVotingStart}</span>
           </div>
           <div className="home-date-item">
             <span className="home-date-label">Absentee Deadline</span>
-            <span className="home-date-value">{PRIMARY_INFO.absenteeDeadline}</span>
+            <span className="home-date-value">{GENERAL_INFO.absenteeDeadline}</span>
           </div>
           <div className="home-date-item home-date-primary">
-            <span className="home-date-label">Primary Election Day</span>
-            <span className="home-date-value">{PRIMARY_INFO.date}</span>
+            <span className="home-date-label">General Election Day</span>
+            <span className="home-date-value">{GENERAL_INFO.date}</span>
           </div>
         </div>
       </CollapsibleSection>
