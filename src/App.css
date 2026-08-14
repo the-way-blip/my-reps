@@ -6531,6 +6531,27 @@ button.election-card {
   padding: 0 0 0 2.8rem;
 }
 
+/* Quick highlights chips */
+.ballot-candidate-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding-left: 2.8rem;
+  margin-top: 0.35rem;
+}
+.ballot-highlight-chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  background: var(--highlight-chip-bg, #e8edf3);
+  color: var(--highlight-chip-text, #334155);
+  white-space: nowrap;
+}
+
 /* Bottom row: mini scores + View Profile */
 .ballot-candidate-bottom {
   display: flex;
@@ -6677,6 +6698,12 @@ button.election-card {
   gap: 0.4rem;
   flex-wrap: wrap;
   align-self: flex-start;
+}
+.candidate-modal-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
 }
 .ballot-term-info-tag {
   display: inline-flex;
@@ -11251,6 +11278,10 @@ select.auth-input {
 }
 [data-theme="dark"] .ballot-candidate-card {
   background: var(--surface);
+}
+[data-theme="dark"] .ballot-highlight-chip {
+  background: #1e293b;
+  color: #cbd5e1;
 }
 [data-theme="dark"] .ballot-candidate-profile-btn {
   color: var(--accent-gold);

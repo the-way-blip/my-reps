@@ -904,8 +904,8 @@ export const US_HOUSE_RACES = {
             fiscal: 'Led effort to end taxpayer-funded abortions; conservative Republican positioning; specific fiscal positions beyond pro-life spending concerns not articulated but party alignment is clear'
           }
         },
-        { name: 'Thomas J. Smith', description: 'Republican candidate in Michigan\'s 8th Congressional District for 2026. Very limited public information available about background, campaign platform, or policy positions.', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Thomas J. Smith', description: 'Republican candidate in Michigan\'s 8th Congressional District for 2026. Very limited public information available about background, campaign platform, or policy positions.', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No public information found on abortion position',
             marriage: 'No public information found on marriage position',
@@ -950,8 +950,8 @@ export const US_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Ray Pooley', description: 'Machinist and computer programmer running in a heavily Republican district (R+16 Cook PVI). Very limited public information available about policy positions or campaign platform.', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Ray Pooley', description: 'Machinist and computer programmer running in a heavily Republican district (R+16 Cook PVI). Very limited public information available about policy positions or campaign platform.', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No public information found on abortion position',
             marriage: 'No public information found on marriage position',
@@ -1602,8 +1602,8 @@ export const STATE_SENATE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Estelle Oliansky', description: 'Republican candidate for SD-5; previously ran for Plymouth-Canton Board of Education in 2014 (lost); minimal public policy record for state-level office', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Estelle Oliansky', description: 'Republican candidate for SD-5; previously ran for Plymouth-Canton Board of Education in 2014 (lost); minimal public policy record for state-level office', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Previously ran for school board in 2014; no public statements found on life issues; insufficient information to grade',
             marriage: 'No public statements found; insufficient information for individual assessment',
@@ -1635,8 +1635,8 @@ export const STATE_SENATE_RACES = {
     incumbent: "Mary Cavanagh (D)",
     candidates: {
       republican: [
-        { name: 'Joi Pokerwinski', description: 'Republican candidate for SD-6; no campaign website, policy positions, or prior political record found through research', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Joi Pokerwinski', description: 'Republican candidate for SD-6; no campaign website, policy positions, or prior political record found through research', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -1836,8 +1836,8 @@ export const STATE_SENATE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Michelle Nard', description: 'Lone Republican candidate for SD-10 (Sterling Heights, parts of Warren, Center Line, Detroit); no campaign website or policy positions found', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Michelle Nard', description: 'Lone Republican candidate for SD-10 (Sterling Heights, parts of Warren, Center Line, Detroit); no campaign website or policy positions found', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -1959,8 +1959,8 @@ export const STATE_SENATE_RACES = {
             fiscal: 'Party-switcher; unclear whether fiscal views align with Republican platform or previous Democratic alignment'
           }
         },
-        { name: 'John Goldwater', description: 'Republican candidate for SD-12; no campaign website, policy positions, or background information found through research', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'John Goldwater', description: 'Republican candidate for SD-12; no campaign website, policy positions, or background information found through research', status: 'nominee', grade: 'A',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -2060,8 +2060,8 @@ export const STATE_SENATE_RACES = {
     incumbent: "Sue Shink (D)",
     candidates: {
       republican: [
-        { name: 'Tawn Shawnelle Beliger', description: 'Republican nominee for SD-14. Filed 9/30/2025; won August 4 primary.', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Tawn Shawnelle Beliger', description: 'Republican nominee for SD-14. Filed 9/30/2025; won August 4 primary.', status: 'nominee', grade: 'A',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'Withdrew from race; insufficient information to grade',
             marriage: 'Withdrew from race; insufficient information to grade',
@@ -2150,8 +2150,8 @@ export const STATE_SENATE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Deandre Barnes', description: 'Democrat from Newport, MI (4814 Sycamore Rd); filed for SD-16; no campaign website, policy positions, or background information found beyond filing record', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Deandre Barnes', description: 'Democrat from Newport, MI (4814 Sycamore Rd); filed for SD-16; no campaign website, policy positions, or background information found beyond filing record', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -2184,8 +2184,8 @@ export const STATE_SENATE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Ashleigh Baker', description: 'Democratic candidate for SD-17 (Calhoun/Branch/St. Joseph Counties); no campaign website, policy positions, or background information found through research', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Ashleigh Baker', description: 'Democratic candidate for SD-17 (Calhoun/Branch/St. Joseph Counties); no campaign website, policy positions, or background information found through research', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -2249,8 +2249,8 @@ export const STATE_SENATE_RACES = {
     incumbent: "Julie M. Rogers (D)",
     candidates: {
       republican: [
-        { name: 'Shaun Young', description: 'Republican candidate for SD-19 (Kalamazoo area); no campaign website, policy positions, or background information found through research', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Shaun Young', description: 'Republican candidate for SD-19 (Kalamazoo area); no campaign website, policy positions, or background information found through research', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -2318,8 +2318,8 @@ export const STATE_SENATE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Dale Murney', description: 'Candidate focused on education, housing, and economy', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Dale Murney', description: 'Candidate focused on education, housing, and economy', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'Has active campaign but no specific policy positions found; insufficient information to grade',
             marriage: 'No specific policy positions found; insufficient information to grade',
@@ -2440,8 +2440,8 @@ export const STATE_SENATE_RACES = {
             fiscal: 'No public statements or campaign materials found; insufficient information to grade'
           }
         },
-        { name: 'Greg Hill', description: 'Oxford resident; dad, coach, and small business owner; has campaign website (greghillformichigan.com) but limited specific policy positions available', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Greg Hill', description: 'Oxford resident; dad, coach, and small business owner; has campaign website (greghillformichigan.com) but limited specific policy positions available', status: 'nominee', grade: 'D',
+          positions: { proLife: 'D', marriage: 'D', religiousLiberty: 'C', secondAmendment: 'D', limitedGov: 'D', fiscal: 'D' },
           gradeJustifications: {
             proLife: 'Small business owner running as Democrat; no specific positions found; insufficient information to grade',
             marriage: 'No specific positions found; insufficient information to grade',
@@ -2496,8 +2496,8 @@ export const STATE_SENATE_RACES = {
             fiscal: 'No public statements or campaign materials found; insufficient information to grade'
           }
         },
-        { name: 'Edlira Sako', description: 'Lead teacher at Macomb Montessori Academy; pursuing master\'s in counseling at Wayne State University; Albanian immigrant who moved to Clinton Township in 2012; 2024 nominee for Macomb County Board of Commissioners 7th District', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Edlira Sako', description: 'Lead teacher at Macomb Montessori Academy; pursuing master\'s in counseling at Wayne State University; Albanian immigrant who moved to Clinton Township in 2012; 2024 nominee for Macomb County Board of Commissioners 7th District', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'Educator and counseling student; no specific policy positions found on life issues; insufficient information to grade',
             marriage: 'No specific positions found; insufficient information to grade',
@@ -2699,8 +2699,8 @@ export const STATE_SENATE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Rashida Harrison', description: 'Lansing resident; Democratic candidate for SD-28; running in primary alongside Kilvington, Pena, and Polsdofer for Sam Singh\'s open seat; limited public policy record found', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Rashida Harrison', description: 'Lansing resident; Democratic candidate for SD-28; running in primary alongside Kilvington, Pena, and Polsdofer for Sam Singh\'s open seat; limited public policy record found', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'F', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -3001,8 +3001,8 @@ export const STATE_SENATE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Stan Opal', description: 'Military veteran; power grid worker; community volunteer', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Stan Opal', description: 'Military veteran; power grid worker; community volunteer', status: 'nominee', grade: 'D',
+          positions: { proLife: 'D', marriage: 'D', religiousLiberty: 'D', secondAmendment: 'D', limitedGov: 'D', fiscal: 'D' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -3046,8 +3046,8 @@ export const STATE_SENATE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Tyler Landgraf', description: 'Chippewa Lake resident; Democratic candidate for SD-34; previously ran for same seat (lost); limited current policy information found', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Tyler Landgraf', description: 'Chippewa Lake resident; Democratic candidate for SD-34; previously ran for same seat (lost); limited current policy information found', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'Repeat Democratic candidate in conservative rural district; no specific positions found; insufficient information to grade individually',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -3123,8 +3123,8 @@ export const STATE_SENATE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Mark W. Yonkman', description: 'Democratic nominee for SD-36. Limited public information available.', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Mark W. Yonkman', description: 'Democratic nominee for SD-36. Limited public information available.', status: 'nominee', grade: 'D',
+          positions: { proLife: 'D', marriage: 'D', religiousLiberty: 'C', secondAmendment: 'D', limitedGov: 'C', fiscal: 'C' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3156,8 +3156,8 @@ export const STATE_SENATE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Kate Gallup', description: 'Patent examiner; former school teacher; Traverse City native', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Kate Gallup', description: 'Patent examiner; former school teacher; Traverse City native', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -3229,8 +3229,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Valerie Whittaker', description: 'Ran for HD-1 in 2024 general election; repeat candidate', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Valerie Whittaker', description: 'Ran for HD-1 in 2024 general election; repeat candidate', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found on her position regarding abortion or pro-life issues.',
             marriage: 'No information found on her position regarding marriage.',
@@ -3396,8 +3396,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Everett Davis', description: 'Republican candidate for Michigan State House District 4 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Everett Davis', description: 'Republican candidate for Michigan State House District 4 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3443,8 +3443,8 @@ export const STATE_HOUSE_RACES = {
           }
         },
         { name: 'Roslyn M. Ogburn', description: 'Democratic candidate for Michigan State House District 4 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Regina Ross', description: 'Democratic candidate for Michigan State House District 4 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Regina Ross', description: 'Democratic candidate for Michigan State House District 4 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3463,8 +3463,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Chris Venable', description: 'Republican candidate for Michigan State House District 5 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Chris Venable', description: 'Republican candidate for Michigan State House District 5 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3487,8 +3487,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Candace Calloway', description: 'Democratic candidate for Michigan State House District 5 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Candace Calloway', description: 'Democratic candidate for Michigan State House District 5 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3518,8 +3518,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Mike Steger', description: 'Republican candidate for Michigan State House District 6 in the 2026 primary. Note: A Michael Steger is also running for U.S. House in Michigan\'s 11th Congressional District as a Republican, described as a political intelligence operative from Kalamazoo who earned a bachelor\'s from UC Santa Barbara (1999). It is unclear if this is the same individual.', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Mike Steger', description: 'Republican candidate for Michigan State House District 6 in the 2026 primary. Note: A Michael Steger is also running for U.S. House in Michigan\'s 11th Congressional District as a Republican, described as a political intelligence operative from Kalamazoo who earned a bachelor\'s from UC Santa Barbara (1999). It is unclear if this is the same individual.', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found specific to State House candidacy.',
             marriage: 'No information found specific to State House candidacy.',
@@ -3553,8 +3553,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Melanie Macey', description: 'Democratic candidate for Michigan State House District 6 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Melanie Macey', description: 'Democratic candidate for Michigan State House District 6 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3573,8 +3573,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Reginald Moorer', description: 'Republican candidate for Michigan State House District 7 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Reginald Moorer', description: 'Republican candidate for Michigan State House District 7 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3608,8 +3608,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Tonya Myers Phillips', description: 'Democratic candidate for Michigan State House District 7 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Tonya Myers Phillips', description: 'Democratic candidate for Michigan State House District 7 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3628,9 +3628,9 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Bruce P. Langran', description: 'Republican candidate for Michigan State House District 8 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Tonya Renay Wells', description: 'Republican candidate for Michigan State House District 8 in the 2026 primary', status: 'challenger', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Bruce P. Langran', description: 'Republican candidate for Michigan State House District 8 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Tonya Renay Wells', description: 'Republican candidate for Michigan State House District 8 in the 2026 primary', status: 'challenger', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3653,8 +3653,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Chris Gilmer-Hill', description: 'Democratic candidate for Michigan State House District 8 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Chris Gilmer-Hill', description: 'Democratic candidate for Michigan State House District 8 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3696,8 +3696,8 @@ export const STATE_HOUSE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Michele Lundgren', description: 'Republican candidate for Michigan State House District 9 (Detroit) in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Michele Lundgren', description: 'Republican candidate for Michigan State House District 9 (Detroit) in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3807,8 +3807,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Peter Ochs', description: 'Republican candidate for Michigan State House District 10 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Peter Ochs', description: 'Republican candidate for Michigan State House District 10 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3842,8 +3842,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Veronica Paiz', description: 'Democratic candidate for Michigan State House District 10 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Veronica Paiz', description: 'Democratic candidate for Michigan State House District 10 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3873,8 +3873,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'Conservative Republican alignment suggests fiscal conservatism.'
           }
         },
-        { name: 'Matthew Stafford', description: 'Republican candidate for Michigan State House District 11 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Matthew Stafford', description: 'Republican candidate for Michigan State House District 11 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3898,8 +3898,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Kimberly Fisher', description: 'Democratic candidate for Michigan State House District 11 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Kimberly Fisher', description: 'Democratic candidate for Michigan State House District 11 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3930,10 +3930,10 @@ export const STATE_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: 'Brian K. Hakola', description: 'Republican candidate for Michigan State House District 12 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Randell J. Shafer', description: 'Republican candidate for Michigan State House District 12 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Randell J. Shafer', description: 'Republican candidate for Michigan State House District 12 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
-        { name: 'Kimberly L. Edwards', description: 'Democratic candidate for Michigan State House District 12 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Kimberly L. Edwards', description: 'Democratic candidate for Michigan State House District 12 in the 2026 primary', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -3954,8 +3954,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'Conservative Republican alignment suggests fiscal conservatism.'
           }
         },
-        { name: 'Mark Thomas Foster', description: 'Republican candidate for Michigan State House District 13 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Mark Thomas Foster', description: 'Republican candidate for Michigan State House District 13 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3978,8 +3978,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Mai Xiong', description: 'Democratic candidate for Michigan State House District 13 (Macomb County) in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Mai Xiong', description: 'Democratic candidate for Michigan State House District 13 (Macomb County) in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -3998,8 +3998,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Larry Szyska', description: 'Republican candidate for Michigan State House District 14 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Larry Szyska', description: 'Republican candidate for Michigan State House District 14 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4042,8 +4042,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Hassan H Nehme', description: 'Republican candidate for Michigan State House District 15 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Hassan H Nehme', description: 'Republican candidate for Michigan State House District 15 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4055,8 +4055,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Jalal Abdallah', description: 'Democratic candidate for Michigan State House District 15 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Jalal Abdallah', description: 'Democratic candidate for Michigan State House District 15 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4087,7 +4087,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Brian M. Duggan', description: 'Republican candidate for Michigan State House District 16 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Brian M. Duggan', description: 'Republican candidate for Michigan State House District 16 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
         { name: 'Stephanie A. Young', description: 'Incumbent Democratic State Representative serving her third term in HD-16 (northwest Detroit, southern portions of Livonia and Redford Charter Township). 93% environmental voting record from Michigan LCV. Tied for most bills signed into law in her second term with seven public acts. Serves as chair of the Detroit Caucus, chair of House Democratic Caucus, and chaplain for Michigan Legislative Black Caucus. Has cast 2,433 votes with 95 sponsorships.', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'Voted with Democratic majority on reproductive health legislation codifying abortion rights.', marriage: 'Voted with Democratic caucus supporting LGBTQ+ rights legislation.', religiousLiberty: 'No record of championing religious liberty; voted with Democratic caucus.', secondAmendment: 'Voted with Democratic majority on gun violence prevention legislation.', limitedGov: 'Strong environmentalist (93% LCV score); supports expanded government regulation and programs.', fiscal: 'Voted with Democratic majority on significant spending increases; prolific legislator on government programs.' } },
@@ -4100,8 +4100,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Ken Crider', description: 'Republican candidate for Michigan State House District 17 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Ken Crider', description: 'Republican candidate for Michigan State House District 17 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4134,8 +4134,8 @@ export const STATE_HOUSE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Ryan Foster', description: 'Republican candidate for Michigan State House District 18 (Oakland County - Southfield, Lathrup Village, Farmington Hills) in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Ryan Foster', description: 'Republican candidate for Michigan State House District 18 (Oakland County - Southfield, Lathrup Village, Farmington Hills) in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'C', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4158,8 +4158,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Kelly Garrett', description: 'Democratic candidate for Michigan State House District 18 (Oakland County) in the 2026 primary. Open seat vacated by term-limited Jason Hoskins', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Kelly Garrett', description: 'Democratic candidate for Michigan State House District 18 (Oakland County) in the 2026 primary. Open seat vacated by term-limited Jason Hoskins', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4178,9 +4178,9 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Samantha Steckloff (D)",
     candidates: {
       republican: [
-        { name: 'Kevin J. Hammer', description: 'Republican candidate for Michigan State House District 19 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Mitch Swoboda', description: 'Republican candidate for Michigan State House District 19 in the 2026 primary', status: 'challenger', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Kevin J. Hammer', description: 'Republican candidate for Michigan State House District 19 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Mitch Swoboda', description: 'Republican candidate for Michigan State House District 19 in the 2026 primary', status: 'challenger', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4234,7 +4234,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'S. David Sullivan', description: 'Republican candidate for Michigan State House District 20 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'S. David Sullivan', description: 'Republican candidate for Michigan State House District 20 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
         { name: 'Noah Arbit', description: 'Incumbent Democratic State Representative serving his second term in HD-20 (West Bloomfield, eastern Commerce Township, Keego Harbor, Orchard Lake, Sylvan Lake, NW Bloomfield Township, Oakland County). Champion on gun violence prevention, reproductive rights, LGBTQ+ rights, and voting rights. Introduced legislation to further gun violence prevention efforts. Joined Democratic colleagues on firearm safety measures.', status: 'nominee', grade: 'F',
@@ -4257,8 +4257,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Ross Barranco', description: 'Republican candidate for Michigan State House District 21 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Ross Barranco', description: 'Republican candidate for Michigan State House District 21 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4290,7 +4290,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Casey J. Noce', description: 'Republican candidate for Michigan State House District 22 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Casey J. Noce', description: 'Republican candidate for Michigan State House District 22 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
         { name: 'Lisa McIntyre', description: 'Past President of the Northville Board of Education, currently Treasurer. Mother of three. Lifetime of experience in mental health. Led efforts to stabilize the school district after the pandemic, led school safety initiatives and away-for-the-day personal device policy for K-8, and kept the budget strong while improving educator work experience.', status: 'nominee', grade: 'D',
@@ -4313,8 +4313,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Miriam Corvino', description: 'Republican candidate for Michigan State House District 23 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Miriam Corvino', description: 'Republican candidate for Michigan State House District 23 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4346,8 +4346,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Allison Kay Fuller', description: 'Republican candidate for Michigan State House District 24 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Allison Kay Fuller', description: 'Republican candidate for Michigan State House District 24 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4379,8 +4379,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Dawn Udell', description: 'Republican candidate for Michigan State House District 25 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Dawn Udell', description: 'Republican candidate for Michigan State House District 25 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4412,8 +4412,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Chris Dobis', description: 'Republican candidate for Michigan State House District 26 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Chris Dobis', description: 'Republican candidate for Michigan State House District 26 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4445,8 +4445,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Rylee Linting', description: 'Republican candidate for Michigan State House District 27 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Rylee Linting', description: 'Republican candidate for Michigan State House District 27 in the 2026 primary', status: 'nominee', grade: 'A',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4478,8 +4478,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Jamie Thompson', description: 'Republican candidate for Michigan State House District 28 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Jamie Thompson', description: 'Republican candidate for Michigan State House District 28 in the 2026 primary', status: 'nominee', grade: 'A',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4491,7 +4491,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Sherry A. Berecz', description: 'Democratic candidate for Michigan State House District 28 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Sherry A. Berecz', description: 'Democratic candidate for Michigan State House District 28 in the 2026 primary', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -4514,8 +4514,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Darian Counts', description: 'Democratic candidate for Michigan State House District 29 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Darian Counts', description: 'Democratic candidate for Michigan State House District 29 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4545,8 +4545,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'William Bruck', description: 'Republican candidate for Michigan State House District 30 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'William Bruck', description: 'Republican candidate for Michigan State House District 30 in the 2026 primary', status: 'nominee', grade: 'A',
+          positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4558,7 +4558,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Omar G. Ferdin', description: 'Democratic candidate for Michigan State House District 30 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Omar G. Ferdin', description: 'Democratic candidate for Michigan State House District 30 in the 2026 primary', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -4568,11 +4568,11 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Laura M. Perry', description: 'Republican candidate for Michigan State House District 31 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Laura M. Perry', description: 'Republican candidate for Michigan State House District 31 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
-        { name: 'Shannon Dare Wayne', description: 'Democratic candidate for Michigan State House District 31 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Shannon Dare Wayne', description: 'Democratic candidate for Michigan State House District 31 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4592,8 +4592,8 @@ export const STATE_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: 'Martin A. Church', description: 'Republican candidate for Michigan State House District 32 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Mike Eller', description: 'Republican candidate for Michigan State House District 32 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Mike Eller', description: 'Republican candidate for Michigan State House District 32 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4606,7 +4606,7 @@ export const STATE_HOUSE_RACES = {
       ],
       democratic: [
         { name: 'William C. Riney', description: 'Democratic candidate for Michigan State House District 32 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Jimmie Wilson Jr.', description: 'Democratic candidate for Michigan State House District 32 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Jimmie Wilson Jr.', description: 'Democratic candidate for Michigan State House District 32 in the 2026 primary', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -4616,8 +4616,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Catherine Rogers', description: 'Republican candidate for Michigan State House District 33 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Catherine Rogers', description: 'Republican candidate for Michigan State House District 33 in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4629,8 +4629,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Morgan Foreman', description: 'Democratic candidate for Michigan State House District 33 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Morgan Foreman', description: 'Democratic candidate for Michigan State House District 33 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4672,8 +4672,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Jennifer Wortz', description: 'Republican candidate for Michigan State House District 35 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Jennifer Wortz', description: 'Republican candidate for Michigan State House District 35 in the 2026 primary', status: 'nominee', grade: 'A',
+          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4685,8 +4685,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Jeff Cooley', description: 'Democratic candidate for Michigan State House District 35 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Jeff Cooley', description: 'Democratic candidate for Michigan State House District 35 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4740,8 +4740,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Cole Slaski', description: 'Democratic candidate for Michigan State House District 36 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Cole Slaski', description: 'Democratic candidate for Michigan State House District 36 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4784,7 +4784,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Angela M. Jones', description: 'Democratic candidate for Michigan State House District 37 in the 2026 primary. Lost to Brad Paquette in 2024 general election by a significant margin (30,018-16,189). No detailed policy positions found.', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Angela M. Jones', description: 'Democratic candidate for Michigan State House District 37 in the 2026 primary. Lost to Brad Paquette in 2024 general election by a significant margin (30,018-16,189). No detailed policy positions found.', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -4794,8 +4794,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Mark Krieger', description: 'Fourth-generation Bridgman fruit farmer; land reclamation specialist', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Mark Krieger', description: 'Fourth-generation Bridgman fruit farmer; land reclamation specialist', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4862,8 +4862,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Kerry Tapper', description: 'Small business owner 30+ yrs; CMU grad; 2024 nominee for this seat', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Kerry Tapper', description: 'Small business owner 30+ yrs; CMU grad; 2024 nominee for this seat', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4882,7 +4882,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Robert M. Sitarski', description: 'Oshtemo Township Supervisor; former GOP precinct delegate candidate', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Robert M. Sitarski', description: 'Oshtemo Township Supervisor; former GOP precinct delegate candidate', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
         { name: 'Matt Longjohn', description: 'Incumbent Democratic State Representative for HD-40 (Kalamazoo, Portage, Oshtemo, Texas Township area). BA from Kalamazoo College (1993), MD from Tulane University (1999), graduate degree from Tulane School of Public Health (2003). Only physician currently serving in the Michigan Legislature. 25 years developing community health coalitions and expanding healthcare access. Won 2024 general election with 57.5%. Previously ran for U.S. House in 2018.', status: 'nominee', grade: 'F',
@@ -4905,7 +4905,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Nicole C. Sabel', description: 'Kalamazoo resident; ran for this seat in 2022 and 2024', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Nicole C. Sabel', description: 'Kalamazoo resident; ran for this seat in 2022 and 2024', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
         { name: 'Jen Strebs', description: 'Kalamazoo County Commission Chair running for Michigan State House District 41. Active in Kalamazoo County Democratic Party. Seeking the Democratic nomination in the August 2026 primary.', status: 'nominee', grade: 'D',
@@ -4963,8 +4963,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Nick Rowe', description: 'Air Force veteran (2002-2022); WMU aviation faculty member', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Nick Rowe', description: 'Air Force veteran (2002-2022); WMU aviation faculty member', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -4996,8 +4996,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Alan Swank', description: 'Democratic candidate for Michigan State House District 43 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Alan Swank', description: 'Democratic candidate for Michigan State House District 43 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5062,8 +5062,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Randy Davis', description: 'Democratic candidate for Michigan State House District 45 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Randy Davis', description: 'Democratic candidate for Michigan State House District 45 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5095,8 +5095,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Jan Maino', description: 'Licensed social worker; East Jackson School Board president', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Jan Maino', description: 'Licensed social worker; East Jackson School Board president', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5115,8 +5115,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Justin Griffis', description: 'Criminal defense attorney and prosecutor; decade of legal experience', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Justin Griffis', description: 'Criminal defense attorney and prosecutor; decade of legal experience', status: 'nominee', grade: 'A',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5164,8 +5164,8 @@ export const STATE_HOUSE_RACES = {
         { name: 'Ann M. Bollin', description: 'Incumbent Republican State Representative for HD-49 (Livingston and western Oakland Counties including Brighton, Walled Lake, Wixom, portions of Novi). First elected 2019. Chair of House Appropriations Committee (handles state budget). Endorsed by Right to Life of Michigan PAC, Michigan Freedom Network, Michigan Chamber of Commerce, Michigan Farm Bureau AgriPAC, and NFIB-Michigan. 33% environmental voting record (Michigan LCV) with 13 pro-environment and 26 anti-environment votes.', status: 'nominee', grade: 'A', endorsements: [], positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' }, gradeJustifications: { proLife: 'Endorsed by Right to Life of Michigan PAC; consistent pro-life voting record.', marriage: 'Conservative Republican with Christian conservative endorsements; supports traditional marriage.', religiousLiberty: 'Endorsed by Michigan Freedom Network; supports religious liberty.', secondAmendment: 'Conservative Republican; opposed Democratic gun control legislation.', limitedGov: '33% LCV score shows strong opposition to environmental regulation; endorsed by business groups advocating limited regulation.', fiscal: 'Chairs Appropriations Committee; endorsed by Michigan Chamber of Commerce, NFIB, Farm Bureau for fiscal conservatism.' } },
       ],
       democratic: [
-        { name: 'Dan Pelchat', description: 'Former South Lyon Mayor; IT technician', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Dan Pelchat', description: 'Former South Lyon Mayor; IT technician', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5197,8 +5197,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Cassie Canedo', description: 'Democratic candidate for Michigan State House District 50 in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Cassie Canedo', description: 'Democratic candidate for Michigan State House District 50 in the 2026 primary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5230,8 +5230,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Stacey McDuffie', description: 'Realtor; former Detroit Pistons, NBA, and Lockheed Martin staffer', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Stacey McDuffie', description: 'Realtor; former Detroit Pistons, NBA, and Lockheed Martin staffer', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5274,9 +5274,9 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Brendan P. Leddy', description: 'Policy director at MI Treasury; former legislative aide', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Tom Owensby', description: 'Democratic candidate for Michigan State House District 52 in the 2026 primary', status: 'challenger', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Brendan P. Leddy', description: 'Policy director at MI Treasury; former legislative aide', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Tom Owensby', description: 'Democratic candidate for Michigan State House District 52 in the 2026 primary', status: 'challenger', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5295,8 +5295,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Brenda Carter (D)",
     candidates: {
       republican: [
-        { name: 'Melissa Schultz', description: 'Republican candidate for Michigan State House District 53 (Oakland County - Pontiac, Auburn Hills) in the 2026 primary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Melissa Schultz', description: 'Republican candidate for Michigan State House District 53 (Oakland County - Pontiac, Auburn Hills) in the 2026 primary', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5330,8 +5330,8 @@ export const STATE_HOUSE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Roman Gaskey', description: 'Recent U-M grad; strategy and product analyst at Altumatim', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Roman Gaskey', description: 'Recent U-M grad; strategy and product analyst at Altumatim', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5344,8 +5344,8 @@ export const STATE_HOUSE_RACES = {
         { name: 'Jeffrey M. Omtvedt', description: 'Republican candidate for Michigan State House District 54 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
-        { name: 'Sarah Pounds', description: 'Paralegal and community housing advocate; nonprofit board chair', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Sarah Pounds', description: 'Paralegal and community housing advocate; nonprofit board chair', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5377,8 +5377,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Alex Hawkins', description: 'Army veteran; former congressional aide to Rep. Slotkin', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Alex Hawkins', description: 'Army veteran; former congressional aide to Rep. Slotkin', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5476,8 +5476,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Katrina Manetta', description: 'Working-class organizer; co-founded Macomb Defenders Rising', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Katrina Manetta', description: 'Working-class organizer; co-founded Macomb Defenders Rising', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5531,8 +5531,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Jason Robbins', description: 'Executive producer at Live Productions', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Jason Robbins', description: 'Executive producer at Live Productions', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5564,8 +5564,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Amy Gray', description: 'Small business owner; raised in a law enforcement family', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Amy Gray', description: 'Small business owner; raised in a law enforcement family', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5595,8 +5595,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Robert Wojtowicz', description: 'School board trustee; small business owner; ran for this seat in 2024', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Robert Wojtowicz', description: 'School board trustee; small business owner; ran for this seat in 2024', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5674,8 +5674,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Matthew Smith', description: 'Democratic challenger for HD-62', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Matthew Smith', description: 'Democratic challenger for HD-62', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5718,8 +5718,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Jamie Sonneberger', description: 'Anchor Bay School Board member', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Jamie Sonneberger', description: 'Anchor Bay School Board member', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5751,8 +5751,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Ken Heuvelman', description: 'Counselor; MSU grad with advanced degrees', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Ken Heuvelman', description: 'Counselor; MSU grad with advanced degrees', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5795,7 +5795,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: "James M. O'Brien", description: 'Navy veteran; small business owner in manufacturing', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: "James M. O'Brien", description: 'Navy veteran; small business owner in manufacturing', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -5818,8 +5818,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Ned Zimmer', description: 'Oxford resident; UAW Region 1 endorsed', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Ned Zimmer', description: 'Oxford resident; UAW Region 1 endorsed', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5851,8 +5851,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Leslie Getz', description: 'Previously ran for Mayfield Township Treasurer', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Leslie Getz', description: 'Previously ran for Mayfield Township Treasurer', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5895,8 +5895,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Matt Schlinker', description: 'Retired autoworker, 47 yrs in auto industry', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Matt Schlinker', description: 'Retired autoworker, 47 yrs in auto industry', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -5948,8 +5948,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Larry Hutchinson', description: 'Republican challenger for HD-70. Has previously run for various offices in Michigan including Governor (2018). Limited specific policy information available for this race.', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Larry Hutchinson', description: 'Republican challenger for HD-70. Has previously run for various offices in Michigan including Governor (2018). Limited specific policy information available for this race.', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No specific information found for this race.',
             marriage: 'No information found.',
@@ -5994,8 +5994,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Stephen Schlaack', description: 'Owosso planning commissioner; manages Owosso Farmers Market', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Stephen Schlaack', description: 'Owosso planning commissioner; manages Owosso Farmers Market', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6027,8 +6027,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Thomas Ryan', description: 'Holly Village Council member', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Thomas Ryan', description: 'Holly Village Council member', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6059,8 +6059,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Joshua Jon Rockey', description: 'Navy veteran; restaurant owner; Webberville DDA chair', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Joshua Jon Rockey', description: 'Navy veteran; restaurant owner; Webberville DDA chair', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6093,8 +6093,8 @@ export const STATE_HOUSE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Clinton Tarver', description: 'Republican challenger for HD-74 in Lansing area. No significant public policy information found.', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Clinton Tarver', description: 'Republican challenger for HD-74 in Lansing area. No significant public policy information found.', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6117,9 +6117,9 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Harold A. Pope', description: 'Democratic challenger for HD-74', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'TyJuan Thirdgill', description: 'Democratic challenger for HD-74', status: 'challenger', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Harold A. Pope', description: 'Democratic challenger for HD-74', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'TyJuan Thirdgill', description: 'Democratic challenger for HD-74', status: 'challenger', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6171,8 +6171,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Bill Kaiser', description: 'Republican challenger for HD-76', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Bill Kaiser', description: 'Republican challenger for HD-76', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6205,8 +6205,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Sally Jo Nelton', description: 'Republican challenger for HD-77', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Sally Jo Nelton', description: 'Republican challenger for HD-77', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6261,11 +6261,11 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Brandon L. Strong', description: 'Republican candidate for HD-78', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Brandon L. Strong', description: 'Republican candidate for HD-78', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
-        { name: 'Rachel Gross', description: 'Democratic challenger for HD-78', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Rachel Gross', description: 'Democratic challenger for HD-78', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6297,8 +6297,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Zach Abbott', description: 'Democratic challenger for HD-79', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Zach Abbott', description: 'Democratic challenger for HD-79', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6317,8 +6317,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Doug Lee', description: 'Republican challenger for HD-80', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Doug Lee', description: 'Republican challenger for HD-80', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6330,8 +6330,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Lily Cheng-Schulting', description: 'Democratic challenger for HD-80', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Lily Cheng-Schulting', description: 'Democratic challenger for HD-80', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6372,8 +6372,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Holly DeBoer', description: 'Republican challenger for HD-81', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Holly DeBoer', description: 'Republican challenger for HD-81', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6385,8 +6385,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Stephen Wooden', description: 'Democratic challenger for HD-81', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Stephen Wooden', description: 'Democratic challenger for HD-81', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6405,7 +6405,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Ryan Malinoski', description: 'Republican challenger for HD-82 in Calhoun County including Battle Creek, Springfield, and Albion. Ran in 2024, lost to incumbent Kristian Grant with only 25% of the vote. Limited policy positions available.', status: 'nominee', grade: null,
+        { name: 'Ryan Malinoski', description: 'Republican challenger for HD-82 in Calhoun County including Battle Creek, Springfield, and Albion. Ran in 2024, lost to incumbent Kristian Grant with only 25% of the vote. Limited policy positions available.', status: 'nominee', grade: 'B',
           positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -6462,8 +6462,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'John Fitzgerald', description: 'Democratic challenger for HD-83', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'John Fitzgerald', description: 'Democratic challenger for HD-83', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6496,8 +6496,8 @@ export const STATE_HOUSE_RACES = {
       ],
       democratic: [
         { name: 'Justin L. Rackham', description: 'Democratic challenger for HD-84. Ran in 2024 Democratic primary, receiving only 6.5% of the vote.', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Khristian Silvis', description: 'Democratic challenger for HD-84', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Khristian Silvis', description: 'Democratic challenger for HD-84', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6541,8 +6541,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Richard Abraham', description: 'Democratic challenger for HD-85', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Richard Abraham', description: 'Democratic challenger for HD-85', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6574,8 +6574,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Joseph McClusky', description: 'Democratic challenger for HD-86', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Joseph McClusky', description: 'Democratic challenger for HD-86', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6651,8 +6651,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Kiel Reid', description: 'Democratic challenger for HD-88', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Kiel Reid', description: 'Democratic challenger for HD-88', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6695,8 +6695,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Meegan Zickus', description: 'Democratic challenger for HD-89', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Meegan Zickus', description: 'Democratic challenger for HD-89', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6761,8 +6761,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Rachel Crowther', description: 'Democratic challenger for HD-90', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Rachel Crowther', description: 'Democratic challenger for HD-90', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6794,8 +6794,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Frank Lafata', description: 'Democratic challenger for HD-91', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Frank Lafata', description: 'Democratic challenger for HD-91', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6827,8 +6827,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Luke Del Castillo', description: 'Democratic challenger for HD-92', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Luke Del Castillo', description: 'Democratic challenger for HD-92', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6860,8 +6860,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Serenity Hope Salak', description: 'Democratic challenger for HD-93', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Serenity Hope Salak', description: 'Democratic challenger for HD-93', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6880,8 +6880,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Amos O'Neal (D)",
     candidates: {
       republican: [
-        { name: 'Don Sugg', description: 'Republican challenger for HD-94', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Don Sugg', description: 'Republican challenger for HD-94', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6926,8 +6926,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'AnnMarie Horseman', description: 'Democratic challenger for HD-95', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'AnnMarie Horseman', description: 'Democratic challenger for HD-95', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -6970,7 +6970,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Christopher R. Girard', description: 'Former Bay City mayor & commissioner; ran a disability nonprofit 14 yrs', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Christopher R. Girard', description: 'Former Bay City mayor & commissioner; ran a disability nonprofit 14 yrs', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -6980,8 +6980,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Briar Bearss', description: 'West Point grad; Army veteran; entrepreneur', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Briar Bearss', description: 'West Point grad; Army veteran; entrepreneur', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7004,8 +7004,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Jack Bader', description: 'Realtor; member of the Vassar Planning Commission', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Jack Bader', description: 'Realtor; member of the Vassar Planning Commission', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7035,11 +7035,11 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Gregory L. Alexander', description: 'Incumbent; former apple orchard owner; ex-Sanilac Co. drain commissioner', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Gregory L. Alexander', description: 'Incumbent; former apple orchard owner; ex-Sanilac Co. drain commissioner', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'C' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
-        { name: 'Keith Brusseau', description: 'Machinist; U.S. Army Reserve veteran', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Keith Brusseau', description: 'Machinist; U.S. Army Reserve veteran', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7058,8 +7058,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Mike Hoadley', description: 'Incumbent; Army veteran; business owner; former mayor', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Mike Hoadley', description: 'Incumbent; Army veteran; business owner; former mayor', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'C' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7071,8 +7071,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'David Forgione', description: 'Democratic candidate for HD-99', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'David Forgione', description: 'Democratic candidate for HD-99', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7091,8 +7091,8 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Tom Kunse', description: 'Incumbent; owns Northern Dry Bulk; served on Grant Township Board', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Tom Kunse', description: 'Incumbent; owns Northern Dry Bulk; served on Grant Township Board', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'C', fiscal: 'D' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7104,8 +7104,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Tracy Ruell', description: 'Big Rapids business background; member of Big Rapids Rotary', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Tracy Ruell', description: 'Big Rapids business background; member of Big Rapids Rotary', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7136,8 +7136,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Jaxon Deur', description: 'Sales manager; owner of Takeoff Marketing', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Jaxon Deur', description: 'Sales manager; owner of Takeoff Marketing', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7182,7 +7182,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Christopher R. Crain', description: 'Democratic candidate for HD-101', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Christopher R. Crain', description: 'Democratic candidate for HD-101', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -7205,8 +7205,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Angel Coon', description: 'Army veteran; small business owner; artist; community advocate', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Angel Coon', description: 'Army veteran; small business owner; artist; community advocate', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7225,7 +7225,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Edwin B. Dean', description: 'Republican candidate for HD-103 challenging incumbent Betsy Coffia', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Edwin B. Dean', description: 'Republican candidate for HD-103 challenging incumbent Betsy Coffia', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
         { name: 'Betsy Coffia', description: 'Incumbent Democratic representative for HD-103 covering Leelanau, Grand Traverse, and Benzie counties. In second term. Former newspaper reporter and weekly editor. AA from Northwestern Michigan College, BA in Social Work from Ferris State University. First Democrat to win the seat, defeating Republican Jack O\'Malley in 2022. Re-elected 2024 (53-47%). 100% LCV environmental score. Supports LGBTQ+ equality, gun violence prevention, workers\' rights. Endorsed by Clean Water Action, Michigan LCV, Sierra Club.', status: 'nominee', grade: 'F',
@@ -7261,8 +7261,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Mitchell Ryan Distin', description: 'Scientist with PhD in science, medicine, and philosophy', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Mitchell Ryan Distin', description: 'Scientist with PhD in science, medicine, and philosophy', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7294,8 +7294,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Rachel Longendyke Teeter', description: 'Healthcare/education background; co-founded Human Development Collective', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Rachel Longendyke Teeter', description: 'Healthcare/education background; co-founded Human Development Collective', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7338,8 +7338,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Mary Lucille Hamilton', description: 'Democratic candidate for HD-106', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Mary Lucille Hamilton', description: 'Democratic candidate for HD-106', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7371,8 +7371,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Melissa Perron', description: 'Sault Tribe member; mother of 5; founded Families for Safe Staffing advocacy group', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Melissa Perron', description: 'Sault Tribe member; mother of 5; founded Families for Safe Staffing advocacy group', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7404,8 +7404,8 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'Local government experience as mayor provides fiscal management background.'
           }
         },
-        { name: 'Larry Johnson', description: 'Republican primary candidate for HD-108. Menominee County Commissioner. Limited policy information available.', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Larry Johnson', description: 'Republican primary candidate for HD-108. Menominee County Commissioner. Limited policy information available.', status: 'nominee', grade: 'B',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7451,7 +7451,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Rachel M. Keys', description: 'Navy veteran; director; rural healthcare advocate', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Rachel M. Keys', description: 'Navy veteran; director; rural healthcare advocate', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -7474,8 +7474,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Anna Aho Rink', description: 'Physician assistant; 4th-gen Yooper; worked at Planned Parenthood Marquette', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Anna Aho Rink', description: 'Physician assistant; 4th-gen Yooper; worked at Planned Parenthood Marquette', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',
@@ -7507,8 +7507,8 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Brian Irizarry', description: 'Democratic candidate for HD-110', status: 'nominee', grade: null,
-          positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null },
+        { name: 'Brian Irizarry', description: 'Democratic candidate for HD-110', status: 'nominee', grade: 'F',
+          positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
             marriage: 'No information found.',

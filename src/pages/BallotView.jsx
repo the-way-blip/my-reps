@@ -45,6 +45,26 @@ function saveBallot(data) {
   } catch {}
 }
 
+function getHighlights(c) {
+  if (c.highlights && c.highlights.length > 0) return c.highlights
+  if (!c.positions) return []
+  const h = []
+  const p = c.positions
+  const good = g => g === 'A' || g === 'B'
+  const bad = g => g === 'D' || g === 'F'
+  if (good(p.proLife)) h.push('Pro-life')
+  else if (bad(p.proLife)) h.push('Pro-choice')
+  if (good(p.secondAmendment)) h.push('Pro-2A')
+  else if (bad(p.secondAmendment)) h.push('Gun reform')
+  if (good(p.fiscal)) h.push('Lower taxes')
+  else if (bad(p.fiscal)) h.push('Higher spending')
+  if (good(p.limitedGov)) h.push('Limited gov\'t')
+  else if (bad(p.limitedGov)) h.push('Bigger gov\'t')
+  if (good(p.religiousLiberty)) h.push('Religious liberty')
+  if (good(p.marriage)) h.push('Traditional marriage')
+  return h
+}
+
 // ── Step 1: Address Entry ──
 
 function AddressStep({ address, onSubmit }) {
@@ -328,6 +348,13 @@ function CandidateDetailModal({ candidate, onClose }) {
               </span>
             )}
           </div>
+          {getHighlights(candidate).length > 0 && (
+            <div className="candidate-modal-highlights">
+              {getHighlights(candidate).map((h, i) => (
+                <span key={i} className="ballot-highlight-chip">{h}</span>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Evidence Level */}
@@ -919,6 +946,15 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                     {c.description && <span className="ballot-candidate-desc">{c.description}</span>}
                   </div>
                 </div>
+
+                {/* Quick highlights chips */}
+                {getHighlights(c).length > 0 && (
+                  <div className="ballot-candidate-highlights">
+                    {getHighlights(c).map((h, hi) => (
+                      <span key={hi} className="ballot-highlight-chip">{h}</span>
+                    ))}
+                  </div>
+                )}
 
                 {/* Mini scorecard preview + View Profile link */}
                 <div className="ballot-candidate-bottom">
