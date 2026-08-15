@@ -440,6 +440,7 @@ body {
   background: linear-gradient(135deg, #002868 0%, #001845 100%);
   border-bottom: 3px solid var(--accent-gold);
   padding: 0.875rem 1.5rem;
+  padding-top: calc(env(safe-area-inset-top, 0px) + 0.875rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11404,6 +11405,7 @@ select.auth-input {
 .landing-header {
   background: #0B2E59;
   padding: 0 2rem;
+  padding-top: env(safe-area-inset-top, 0px);
   position: sticky;
   top: 0;
   z-index: 100;

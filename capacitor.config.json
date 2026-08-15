@@ -8,15 +8,13 @@
   "ios": {
     "contentInset": "automatic",
     "preferredContentMode": "mobile",
-    "backgroundColor": "#0b1221"
+    "backgroundColor": "#F7F3E8"
   },
   "plugins": {
     "SplashScreen": {
       "launchAutoHide": true,
-      "backgroundColor": "#0b1221",
-      "showSpinner": false,
-      "androidSpinnerStyle": "small",
-      "spinnerColor": "#c5a44e"
+      "backgroundColor": "#F7F3E8",
+      "showSpinner": false
     }
   }
 }
