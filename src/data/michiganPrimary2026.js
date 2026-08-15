@@ -1082,17 +1082,6 @@ export const US_HOUSE_RACES = {
             fiscal: 'Businessman with 35 years experience; term limits advocate; fiscally conservative America First platform focused on economic prosperity'
           }
         },
-        { name: 'Anthony Paesano', description: 'Small business owner and attorney. Bachelor\'s degree from Purdue University (1994), law degree from University of Detroit Mercy School of Law (1999). Has been counseling small businesses on financial and growth issues for 23 years. Previously ran for Michigan House District 19 in 2022 (lost in general election). Self-described voice for small business.', status: 'challenger', grade: 'B',
-          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'A' },
-          gradeJustifications: {
-            proLife: 'Republican candidate with prior state house candidacy; no specific pro-life statements found but consistent conservative alignment',
-            marriage: 'No specific statements found; Republican candidate who ran for state house in 2022 suggesting conservative social values',
-            religiousLiberty: 'No specific positions found; Republican alignment suggests general support for religious freedom',
-            secondAmendment: 'No specific statements found; Republican candidate alignment and prior state house candidacy suggest pro-2A positioning',
-            limitedGov: 'Small business owner and attorney focused on reducing government burden on businesses; 23 years counseling small businesses on growth; strong limited government orientation',
-            fiscal: 'Small business advocate; attorney focused on business growth and financial issues; fiscally conservative approach consistent with business background'
-          }
-        },
         { name: 'Michael Steger', description: 'Conservative activist dedicated to rebuilding American industry since 9/11. Opposes endless wars, globalization, and offshoring of American industry. Advocates for reviving American manufacturing, farming, scientific research, and education. Long-time opponent of Federal Reserve bailouts.', status: 'challenger', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
@@ -1959,8 +1948,8 @@ export const STATE_SENATE_RACES = {
             fiscal: 'Party-switcher; unclear whether fiscal views align with Republican platform or previous Democratic alignment'
           }
         },
-        { name: 'John Goldwater', description: 'Republican candidate for SD-12; no campaign website, policy positions, or background information found through research', status: 'nominee', grade: 'A', website: 'https://www.goldwaterforstatesenate.com',
-          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+        { name: 'John Goldwater', description: 'Republican nominee for SD-12. No campaign website, policy positions, or background information found through research.', status: 'nominee', grade: 'B', website: 'https://www.goldwaterforstatesenate.com',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No public statements or campaign materials found; insufficient information to grade',
             marriage: 'No public statements or campaign materials found; insufficient information to grade',
@@ -2060,15 +2049,15 @@ export const STATE_SENATE_RACES = {
     incumbent: "Sue Shink (D)",
     candidates: {
       republican: [
-        { name: 'Tawn Shawnelle Beliger', description: 'Republican nominee for SD-14. Filed 9/30/2025; won August 4 primary.', status: 'nominee', grade: 'A', website: 'https://votetawn.com',
-          positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
+        { name: 'Tawn Shawnelle Beliger', description: 'Republican nominee for SD-14. Filed 9/30/2025; won August 4 primary.', status: 'nominee', grade: 'B', website: 'https://votetawn.com',
+          positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
-            proLife: 'Withdrew from race; insufficient information to grade',
-            marriage: 'Withdrew from race; insufficient information to grade',
-            religiousLiberty: 'Withdrew from race; insufficient information to grade',
-            secondAmendment: 'Withdrew from race; insufficient information to grade',
-            limitedGov: 'Withdrew from race; insufficient information to grade',
-            fiscal: 'Withdrew from race; insufficient information to grade'
+            proLife: 'No specific policy positions found; graded on party alignment',
+            marriage: 'No specific policy positions found; graded on party alignment',
+            religiousLiberty: 'No specific policy positions found; graded on party alignment',
+            secondAmendment: 'No specific policy positions found; graded on party alignment',
+            limitedGov: 'No specific policy positions found; graded on party alignment',
+            fiscal: 'No specific policy positions found; graded on party alignment'
           }
         },
       ],
@@ -2631,7 +2620,7 @@ export const STATE_SENATE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Martin L. Cousineau', description: 'Democratic candidate for SD-26; previously ran for Michigan House District 48 in 2022 (did not appear on ballot); limited public record', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'Previous House candidate who did not make ballot; no policy positions found; insufficient information to grade', marriage: 'No public statements or campaign materials found; insufficient information to grade', religiousLiberty: 'No public statements or campaign materials found; insufficient information to grade', secondAmendment: 'No public statements or campaign materials found; insufficient information to grade', limitedGov: 'No public statements or campaign materials found; insufficient information to grade', fiscal: 'No public statements or campaign materials found; insufficient information to grade' } },
+        { name: 'Martin L. Cousineau', description: 'Democratic candidate for SD-26; previously ran for Michigan House District 48 in 2022 (did not appear on ballot); limited public record', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'Previous House candidate who did not make ballot; no policy positions found; insufficient information to grade', marriage: 'No public statements or campaign materials found; insufficient information to grade', religiousLiberty: 'No public statements or campaign materials found; insufficient information to grade', secondAmendment: 'No public statements or campaign materials found; insufficient information to grade', limitedGov: 'No public statements or campaign materials found; insufficient information to grade', fiscal: 'No public statements or campaign materials found; insufficient information to grade' } },
         { name: "Brendan J. Johnson", description: "Democratic candidate for SD-26; Georgetown grad; former State Department analyst; former Elissa Slotkin staff", status: "nominee", grade: 'D',
           positions: { proLife: 'D', marriage: 'D', religiousLiberty: null, secondAmendment: 'D', limitedGov: 'D', fiscal: 'C' },
           gradeJustifications: {
@@ -3443,7 +3432,7 @@ export const STATE_HOUSE_RACES = {
           }
         },
         { name: 'Roslyn M. Ogburn', description: 'Democratic candidate for Michigan State House District 4 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Regina Ross', description: 'Democratic candidate for Michigan State House District 4 in the 2026 primary', status: 'nominee', grade: 'F', website: 'https://reginaross.com/',
+        { name: 'Regina Ross', description: 'Detroit educator with a Ph.D. in education from Ashford University and master\'s degrees from Wayne State University. Three-time Teacher of the Year in Detroit Public Schools, BCP Block Club president, and director of Keri\'s Korner Community Group.', status: 'nominee', grade: 'F', website: 'https://reginaross.com/',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -3487,7 +3476,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Candace Calloway', description: 'Democratic candidate for Michigan State House District 5 in the 2026 primary', status: 'nominee', grade: 'F', website: 'https://www.votecandacecalloway.com/',
+        { name: 'Candace Calloway', description: 'Construction Manager with the City of Detroit General Services Department and founder of a workforce organization focused on environmental conservation jobs. Prior leadership roles with Detroit Public Schools, The Nature Conservancy, and city government.', status: 'nominee', grade: 'F', website: 'https://www.votecandacecalloway.com/',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -3553,7 +3542,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Melanie Macey', description: 'Democratic candidate for Michigan State House District 6 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Melanie Macey', description: 'Attorney, former Royal Oak City Commissioner, and Policy and Government Affairs Director for Promote the Vote. BA from Haverford College and JD from University of Michigan Law School.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -3608,7 +3597,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Tonya Myers Phillips', description: 'Democratic candidate for Michigan State House District 7 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Tonya Myers Phillips', description: 'Incumbent state representative (since 2025), attorney, and co-founder of the Detroit Right to Counsel Coalition. Former housing attorney with Michigan Legal Services. BA and JD from the University of Michigan.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -3653,7 +3642,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Chris Gilmer-Hill', description: 'Democratic candidate for Michigan State House District 8 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Chris Gilmer-Hill', description: 'Democratic socialist, lifelong Detroiter, and policy manager for the Michigan Environmental Justice Coalition. Defeated incumbent Rep. Helena Scott in the Democratic primary. Endorsed by Metro Detroit DSA.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -3842,7 +3831,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Veronica Paiz', description: 'Democratic candidate for Michigan State House District 10 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Veronica Paiz', description: 'Incumbent state representative serving her second term. Second-generation Mexican American, former Harper Woods City Council member. BFA from Wayne State University and MA from New York University.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -3873,7 +3862,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'Conservative Republican alignment suggests fiscal conservatism.'
           }
         },
-        { name: 'Matthew Stafford', description: 'Republican candidate for Michigan State House District 11 in the 2026 primary', status: 'nominee', grade: 'B',
+        { name: 'Matthew Stafford', description: 'U.S. Marine Corps veteran from Warren who runs RumBai Family Services, a nonprofit helping struggling families with food, housing assistance, and job training.', status: 'nominee', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -3898,7 +3887,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'Kimberly Fisher', description: 'Democratic candidate for Michigan State House District 11 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Kimberly Fisher', description: '37-year resident of the 11th House District with deep generational Detroit roots. Endorsed by the Michigan Chronicle, running on public safety, clean water, and economic opportunity.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -3933,7 +3922,7 @@ export const STATE_HOUSE_RACES = {
         { name: 'Randell J. Shafer', description: 'Retired U.S. Army officer (1982-2002). VFW member and board member. Lutheran. Ran for U.S. House MI-12 (2004, 2006) and Macomb County Executive (2010). Detailed conservative positions documented via VoteSmart.', status: 'nominee', grade: 'A', endorsements: [], positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' }, gradeJustifications: { proLife: 'Restricts abortion to incest, rape, or life of mother; prohibit public funding for abortion providers (VoteSmart 2006).', marriage: 'Supports constitutional amendment defining marriage as man-woman union (VoteSmart 2006).', religiousLiberty: 'Supports directing federal aid through religious and community organizations (VoteSmart 2006).', secondAmendment: 'Concealed carry; opposes semi-auto ban, gun show background checks, and licensing (VoteSmart 2006).', limitedGov: 'Reduce regulation; healthcare not a federal responsibility; supports school vouchers; opposes affirmative action (VoteSmart 2006).', fiscal: 'Permanent Bush tax cuts; repeal estate tax; private Social Security accounts; require 40hr/wk work for welfare (VoteSmart 2006).' } },
       ],
       democratic: [
-        { name: 'Kimberly L. Edwards', description: 'Democratic candidate for Michigan State House District 12 in the 2026 primary', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Kimberly L. Edwards', description: 'Incumbent state representative serving her second term (since 2023), a social worker by profession. BA in Psychology from Bennett College and MSW from Walden University.', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -3954,7 +3943,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'Conservative Republican alignment suggests fiscal conservatism.'
           }
         },
-        { name: 'Mark Thomas Foster', description: 'Republican candidate for Michigan State House District 13 in the 2026 primary', status: 'nominee', grade: 'B',
+        { name: 'Mark Thomas Foster', description: 'Medical assistant with a B.A. in Public Service Administration from Siena Heights University. Served on the Detroit Board of Education (2015-2016), election inspector for over 30 years, and caregiver for the mentally disabled.', status: 'nominee', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4055,7 +4044,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Jalal Abdallah', description: 'Democratic candidate for Michigan State House District 15 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Jalal Abdallah', description: 'Family law attorney and member of the Dearborn Historical Commission. Won decisive Democratic primary with 51% of the vote, defeating former Wayne County Commissioner Gary Woronchak.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4087,7 +4076,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Brian M. Duggan', description: 'Republican candidate for Michigan State House District 16 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Brian M. Duggan', description: 'Livonia resident who works in real estate. Previously ran for this seat in 2024, winning the Republican primary but losing the general election to incumbent Stephanie Young.', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
         { name: 'Stephanie A. Young', description: 'Incumbent Democratic State Representative serving her third term in HD-16 (northwest Detroit, southern portions of Livonia and Redford Charter Township). 93% environmental voting record from Michigan LCV. Tied for most bills signed into law in her second term with seven public acts. Serves as chair of the Detroit Caucus, chair of House Democratic Caucus, and chaplain for Michigan Legislative Black Caucus. Has cast 2,433 votes with 95 sponsorships.', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'Voted with Democratic majority on reproductive health legislation codifying abortion rights.', marriage: 'Voted with Democratic caucus supporting LGBTQ+ rights legislation.', religiousLiberty: 'No record of championing religious liberty; voted with Democratic caucus.', secondAmendment: 'Voted with Democratic majority on gun violence prevention legislation.', limitedGov: 'Strong environmentalist (93% LCV score); supports expanded government regulation and programs.', fiscal: 'Voted with Democratic majority on significant spending increases; prolific legislator on government programs.' } },
@@ -4100,7 +4089,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Ken Crider', description: 'Republican candidate for Michigan State House District 17 in the 2026 primary', status: 'nominee', grade: 'B',
+        { name: 'Ken Crider', description: 'Livonia tradesman in the commercial HVAC industry. Previously ran for State House District 19 in 2014 and State Senate District 6 in 2022.', status: 'nominee', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4234,7 +4223,7 @@ export const STATE_HOUSE_RACES = {
             fiscal: 'No information found.'
           }
         },
-        { name: 'S. David Sullivan', description: 'Republican candidate for Michigan State House District 20 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'S. David Sullivan', description: 'Repeat Republican candidate who previously ran for State House District 29 in 2020, winning the primary but losing the general. Now running in District 20 against incumbent Noah Arbit.', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
         { name: 'Noah Arbit', description: 'Incumbent Democratic State Representative serving his second term in HD-20 (West Bloomfield, eastern Commerce Township, Keego Harbor, Orchard Lake, Sylvan Lake, NW Bloomfield Township, Oakland County). Champion on gun violence prevention, reproductive rights, LGBTQ+ rights, and voting rights. Introduced legislation to further gun violence prevention efforts. Joined Democratic colleagues on firearm safety measures.', status: 'nominee', grade: 'F',
@@ -4313,7 +4302,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Miriam Corvino', description: 'Republican candidate for Michigan State House District 23 in the 2026 primary', status: 'nominee', grade: 'B', website: 'https://www.miriamcorvino.com',
+        { name: 'Miriam Corvino', description: 'Canton resident and treasurer of the Washtenaw County Republican Party (2025-2026). Previously ran for this seat in 2024 but lost the Republican primary.', status: 'nominee', grade: 'B', website: 'https://www.miriamcorvino.com',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4412,7 +4401,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Chris Dobis', description: 'Republican candidate for Michigan State House District 26 in the 2026 primary', status: 'nominee', grade: 'B', website: 'https://www.chrisdobis.com',
+        { name: 'Chris Dobis', description: 'Engineer with over 25 years of experience in Michigan\'s auto industry. Has lived in District 26 since 1988.', status: 'nominee', grade: 'B', website: 'https://www.chrisdobis.com',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4445,7 +4434,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Rylee Linting', description: 'Republican candidate for Michigan State House District 27 in the 2026 primary', status: 'nominee', grade: 'A', website: 'https://votelinting.com',
+        { name: 'Rylee Linting', description: 'Incumbent state representative first elected in 2024. Attended Grand Valley State University and Liberty University. Former Motor City Field Representative for Turning Point Action and Michigan Republican Party Youth Chair.', status: 'nominee', grade: 'A', website: 'https://votelinting.com',
           positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4478,7 +4467,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Jamie Thompson', description: 'Republican candidate for Michigan State House District 28 in the 2026 primary', status: 'nominee', grade: 'A',
+        { name: 'Jamie Thompson', description: 'Incumbent state representative first elected in 2022, now in her second term. Licensed practical nurse and Vice Chair of the House Health Policy Committee.', status: 'nominee', grade: 'A',
           positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4491,7 +4480,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Sherry A. Berecz', description: 'Democratic candidate for Michigan State House District 28 in the 2026 primary', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Sherry A. Berecz', description: 'Current Brownstown Township Supervisor with over 25 years in local government. BA in English from Madonna University and MPA from Central Michigan University.', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -4514,7 +4503,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Darian Counts', description: 'Democratic candidate for Michigan State House District 29 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Darian Counts', description: 'Entrepreneur and founder of Detroit Live Magazine who works at Southgate Ford. Studied marketing and business management.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4545,7 +4534,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'William Bruck', description: 'Republican candidate for Michigan State House District 30 in the 2026 primary', status: 'nominee', grade: 'A', website: 'https://gophouse.org/member/RepWilliamBruck/about',
+        { name: 'William Bruck', description: 'Incumbent state representative (since 2023) and U.S. Army chief warrant officer 4 with 30+ years of service. Lifelong Monroe County resident who lives on a hobby farm in Erie with his wife and nine children.', status: 'nominee', grade: 'A', website: 'https://gophouse.org/member/RepWilliamBruck/about',
           positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4558,7 +4547,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Omar G. Ferdin', description: 'Democratic candidate for Michigan State House District 30 in the 2026 primary', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Omar G. Ferdin', description: 'Community organizer from Monroe\'s Orchard East Neighborhood. Founding member of the Orchard Food Co-Op, involved with Summer Rankins Community Garden and Aid In Milan food pantry.', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -4568,10 +4557,10 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Laura M. Perry', description: 'Republican candidate for Michigan State House District 31 in the 2026 primary', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Laura M. Perry', description: 'Small business owner of All Heart Athletics from Dundee Township. Served on the Dundee and Monroe Downtown Development Authorities. Endorsed by Congressman Tim Walberg.', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
-        { name: 'Shannon Dare Wayne', description: 'Democratic candidate for Michigan State House District 31 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Shannon Dare Wayne', description: 'Milan City Council Mayor Pro Tem and Senior Manager in Global Quality at Ford Motor Company with nearly 30 years at Ford. Ph.D. in Industrial Engineering from Wayne State University.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4592,7 +4581,7 @@ export const STATE_HOUSE_RACES = {
     candidates: {
       republican: [
         { name: 'Martin A. Church', description: 'Republican candidate for Michigan State House District 32 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Mike Eller', description: 'Republican candidate for Michigan State House District 32 in the 2026 primary', status: 'nominee', grade: 'B', website: 'https://www.ellerformichigan.com',
+        { name: 'Mike Eller', description: 'Lifelong Ypsilanti resident and Washtenaw County Republican Party Executive Committee member and Michigan GOP state committeeman. Campaigns on cutting government spending and eliminating the state income tax.', status: 'nominee', grade: 'B', website: 'https://www.ellerformichigan.com',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4606,7 +4595,7 @@ export const STATE_HOUSE_RACES = {
       ],
       democratic: [
         { name: 'William C. Riney', description: 'Democratic candidate for Michigan State House District 32 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
-        { name: 'Jimmie Wilson Jr.', description: 'Democratic candidate for Michigan State House District 32 in the 2026 primary', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'Jimmie Wilson Jr.', description: 'Incumbent state representative (since 2023) seeking a third term. U.S. Navy veteran and former United Auto Workers electrician focused on public education and economic opportunities for working families.', status: 'nominee', grade: 'F', endorsements: [], positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -4629,7 +4618,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Morgan Foreman', description: 'Democratic candidate for Michigan State House District 33 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Morgan Foreman', description: 'Incumbent state representative (since January 2025). Former constituent services director for Rep. Felicia Brabec. Graduate of the Michigan Political Leadership Program.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4662,7 +4651,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'John E. Dahlgren', description: 'Democratic candidate for Michigan State House District 34 in the 2026 primary', status: 'challenger', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
+        { name: 'John E. Dahlgren', description: 'Democratic candidate for Michigan State House District 34 in the 2026 primary', status: 'nominee', grade: null, endorsements: [], positions: { proLife: null, marriage: null, religiousLiberty: null, secondAmendment: null, limitedGov: null, fiscal: null }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
     },
   },
@@ -4672,7 +4661,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Jennifer Wortz', description: 'Republican candidate for Michigan State House District 35 in the 2026 primary', status: 'nominee', grade: 'A', website: 'https://gophouse.org/member/RepJenniferWortz/about',
+        { name: 'Jennifer Wortz', description: 'Incumbent state representative (since January 2025) and MSU graduate in Agricultural Communications. Former manager of the Branch County Conservation District. Vice Chair of the House Agriculture Committee.', status: 'nominee', grade: 'A', website: 'https://gophouse.org/member/RepJenniferWortz/about',
           positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4685,7 +4674,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Jeff Cooley', description: 'Democratic candidate for Michigan State House District 35 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Jeff Cooley', description: 'Quality engineer from Hillsdale who has lived in HD-35 his entire life. Describes himself as a Christian conservative Democrat.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -5062,7 +5051,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Randy Davis', description: 'Democratic candidate for Michigan State House District 45 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Randy Davis', description: 'Lifelong Calhoun County resident from Marshall. Served 20 years as school superintendent for Athens, Marshall, Mar-Lee, and Albion school districts, plus 25 years at a local non-profit serving children and families.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -5115,7 +5104,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Justin Griffis', description: 'Criminal defense attorney and prosecutor; decade of legal experience', status: 'nominee', grade: 'A', website: 'https://justin47.com',
+        { name: 'Justin Griffis', description: 'Criminal defense attorney and prosecutor; decade of legal experience', status: 'nominee', grade: 'B', website: 'https://justin47.com',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'A' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -5197,7 +5186,7 @@ export const STATE_HOUSE_RACES = {
         },
       ],
       democratic: [
-        { name: 'Cassie Canedo', description: 'Democratic candidate for Michigan State House District 50 in the 2026 primary', status: 'nominee', grade: 'F',
+        { name: 'Cassie Canedo', description: 'Nurse practitioner from Fowlerville with a BSN from University of Michigan and MSN from University of Pennsylvania. Focused on education, healthcare, and opposing the Howell Township hyperscale data center.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'F', limitedGov: 'F', fiscal: 'F' },
           gradeJustifications: {
             proLife: 'No information found.',
