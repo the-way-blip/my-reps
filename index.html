@@ -53,6 +53,17 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){ dataLayer.push(arguments); }
     </script>
+
+    <!-- Suppress service worker + GTM inside native Capacitor shell -->
+    <script>
+      if (location.protocol === 'capacitor:' || window.Capacitor) {
+        window.__CAPACITOR_NATIVE__ = true;
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations().then(function(r) { r.forEach(function(sw) { sw.unregister(); }); });
+          navigator.serviceWorker.register = function() { return Promise.resolve(); };
+        }
+      }
+    </script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
