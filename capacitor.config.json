@@ -1,6 +1,6 @@
 {
-  "appId": "com.myreps.app",
-  "appName": "MyReps",
+  "appId": "com.offorandbythepeople.app",
+  "appName": "Of For & By The People",
   "webDir": "dist",
   "server": {
     "androidScheme": "https"

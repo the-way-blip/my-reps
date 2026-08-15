@@ -119,11 +119,9 @@ export default defineConfig({
       },
     }),
   ],
-  optimizeDeps: {
-    exclude: ['react-simple-maps'],
-  },
+  optimizeDeps: {},
   build: {
-    sourcemap: true,
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks(id) {
