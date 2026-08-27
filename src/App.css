@@ -1,56 +1,55 @@
 /* ── Design tokens — Build My Ballot ── */
-/* "If the Constitution were redesigned as a premium modern civic app." */
 :root {
-  --bg: #F7F3E8;
-  --surface: #FFFDF7;
-  --card: #FEFCF6;
-  --hover: #F0EBE0;
-  --border: #C8BDAA;
-  --text: #0B2E59;
-  --text-muted: #5A6B7E;
-  --muted: #5A6B7E;
-  --accent: #0B2E59;
-  --accent-light: #E8EDF5;
-  --accent-red: #B22234;
-  --accent-gold: #C9A96E;
-  --party-d: #1a56db;
-  --party-r: #b91c1c;
-  --party-i: #4b5563;
-  --radius: 8px;
-  --radius-sm: 4px;
-  --shadow: 0 1px 3px rgba(11,46,89,0.06), 0 2px 8px rgba(11,46,89,0.04);
-  --shadow-lg: 0 4px 20px rgba(11,46,89,0.10);
-  --transition: 0.2s ease;
-  --text-secondary: #4A5B6F;
-  --font-heading: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif;
+  --bg: #F8FAFB;
+  --surface: #FFFFFF;
+  --card: #FFFFFF;
+  --hover: #F1F5F9;
+  --border: #E2E8F0;
+  --text: #0F172A;
+  --text-muted: #64748B;
+  --muted: #64748B;
+  --accent: #1E3A5F;
+  --accent-light: #EFF6FF;
+  --accent-red: #DC2626;
+  --accent-gold: #B45309;
+  --party-d: #2563EB;
+  --party-r: #DC2626;
+  --party-i: #6B7280;
+  --radius: 12px;
+  --radius-sm: 6px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,0.08);
+  --transition: 0.15s ease;
+  --text-secondary: #475569;
+  --font-heading: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --grade-a: #22c55e;
-  --grade-b: #84cc16;
-  --grade-c: #ca8a04;
-  --grade-d: #f97316;
-  --grade-f: #ef4444;
+  --grade-a: #16A34A;
+  --grade-b: #65A30D;
+  --grade-c: #CA8A04;
+  --grade-d: #EA580C;
+  --grade-f: #DC2626;
 }
 
 /* ── Dark mode tokens ── */
 [data-theme="dark"] {
-  --bg: #0D1B2A;
-  --surface: #152238;
-  --card: #1A2B45;
-  --hover: #223650;
-  --border: #334D6E;
-  --text: #F0ECE2;
-  --text-muted: #A0B0C4;
-  --muted: #8899B0;
-  --text-secondary: #A8BACE;
-  --accent: #7EC4E8;
-  --accent-light: #1A3050;
-  --accent-red: #F06060;
-  --accent-gold: #E0C050;
-  --party-d: #5B9BF0;
-  --party-r: #F06060;
-  --party-i: #8899B0;
-  --shadow: 0 2px 8px rgba(0,0,0,0.4), 0 4px 20px rgba(0,0,0,0.25);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
+  --bg: #0C1220;
+  --surface: #141E30;
+  --card: #1A2640;
+  --hover: #1F2E48;
+  --border: #2A3A54;
+  --text: #F1F5F9;
+  --text-muted: #94A3B8;
+  --muted: #94A3B8;
+  --text-secondary: #94A3B8;
+  --accent: #60A5FA;
+  --accent-light: #172554;
+  --accent-red: #F87171;
+  --accent-gold: #F59E0B;
+  --party-d: #60A5FA;
+  --party-r: #F87171;
+  --party-i: #94A3B8;
+  --shadow: 0 2px 8px rgba(0,0,0,0.5), 0 4px 20px rgba(0,0,0,0.3);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.6);
 }
 
 [data-theme="dark"] .error-box {
@@ -437,10 +436,10 @@ body {
 
 /* ── Header ── */
 .app-header {
-  background: linear-gradient(135deg, #002868 0%, #001845 100%);
-  border-bottom: 3px solid var(--accent-gold);
-  padding: 0.875rem 1.5rem;
-  padding-top: calc(env(safe-area-inset-top, 0px) + 0.875rem);
+  background: #0F172A;
+  border-bottom: none;
+  padding: 0.75rem 1.5rem;
+  padding-top: calc(env(safe-area-inset-top, 0px) + 0.75rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -448,7 +447,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 50;
-  box-shadow: 0 2px 8px rgba(0,40,104,0.3);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
 }
 
 .header-brand {
@@ -1918,35 +1917,36 @@ body {
 .nav-bar {
   display: flex;
   background: var(--surface);
-  border-bottom: 2px solid var(--border);
+  border-bottom: 1px solid var(--border);
   padding: 0 1.5rem;
-  gap: 0;
+  gap: 0.25rem;
 }
 
 .nav-item {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.7rem 1.25rem;
+  padding: 0.75rem 1.25rem;
   text-decoration: none;
   color: var(--muted);
-  font-size: 0.85rem;
-  font-weight: 600;
-  border-bottom: 3px solid transparent;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
   transition: color var(--transition), border-color var(--transition);
-  font-family: var(--font-heading);
-  letter-spacing: 0.01em;
+  font-family: var(--font-body);
+  letter-spacing: -0.01em;
 }
 
 .nav-item:hover { color: var(--text); }
 .nav-item:focus-visible {
-  outline: 2px solid var(--accent-gold);
+  outline: 2px solid var(--accent);
   outline-offset: -2px;
 }
 
 .nav-item.active {
-  color: var(--accent-red);
-  border-bottom-color: var(--accent-red);
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
 }
 
 .nav-icon {
@@ -8784,75 +8784,78 @@ button.election-card {
 /* Hero */
 .home-hero {
   text-align: center;
-  padding: 2.5rem 1rem 2rem;
-  max-width: 32rem;
+  padding: 3rem 1.5rem 2.5rem;
+  max-width: 36rem;
   margin: 0 auto;
 }
 .home-hero-badge {
   display: inline-block;
-  font-size: 0.65rem;
-  font-weight: 700;
+  font-size: 0.6875rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 0.25rem 0.75rem;
+  letter-spacing: 0.06em;
+  padding: 0.3rem 0.875rem;
   border-radius: 2rem;
-  background: rgba(201, 169, 110, 0.15);
-  color: var(--accent-gold);
-  margin-bottom: 1rem;
+  background: var(--accent-light);
+  color: var(--accent);
+  margin-bottom: 1.25rem;
 }
 .home-hero-title {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 700;
   color: var(--text);
-  margin: 0 0 0.75rem;
-  line-height: 1.15;
+  margin: 0 0 0.875rem;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
 }
 .home-hero-desc {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-muted);
-  line-height: 1.55;
-  margin: 0 0 1.5rem;
+  line-height: 1.6;
+  margin: 0 0 2rem;
 }
 .home-hero-form {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.625rem;
 }
 .home-hero-input {
   background: var(--card);
-  border: 2px solid var(--border);
-  border-radius: 0.75rem;
-  padding: 0.85rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9375rem 1.125rem;
   font-size: 1rem;
   color: var(--text);
   outline: none;
   text-align: center;
-  transition: border-color var(--transition);
+  transition: border-color var(--transition), box-shadow var(--transition);
   width: 100%;
   box-sizing: border-box;
+  box-shadow: var(--shadow);
 }
 .home-hero-input:focus {
-  border-color: var(--accent-gold);
-  box-shadow: 0 0 0 3px rgba(201, 169, 110, 0.15);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.1);
 }
-.home-hero-input::placeholder { color: var(--text-muted); opacity: 0.6; }
+.home-hero-input::placeholder { color: var(--text-muted); opacity: 0.5; }
 .home-hero-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background: var(--accent-gold);
-  color: #000;
+  background: var(--accent);
+  color: #fff;
   border: none;
-  padding: 0.85rem 1.5rem;
-  border-radius: 0.75rem;
+  padding: 0.9375rem 1.5rem;
+  border-radius: var(--radius);
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
   transition: all var(--transition);
+  letter-spacing: -0.01em;
 }
-.home-hero-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+.home-hero-btn:hover { background: #162E4A; transform: translateY(-1px); box-shadow: var(--shadow-lg); }
 .home-hero-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 .home-spinner {
   width: 16px;
@@ -8905,22 +8908,24 @@ button.election-card {
 
 .home-countdown-num {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 800;
-  color: var(--accent-gold);
+  color: var(--accent);
   line-height: 1;
+  letter-spacing: -0.02em;
 }
 .home-countdown-label {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--text-muted);
   text-align: left;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 /* Dashboard */
 .home-dashboard {
-  max-width: 36rem;
+  max-width: 44rem;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 .home-address-bar {
   display: flex;
@@ -8928,52 +8933,56 @@ button.election-card {
   justify-content: space-between;
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 0.75rem;
-  padding: 0.6rem 0.85rem;
-  margin-bottom: 0.75rem;
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow);
 }
 .home-address-info {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.625rem;
   color: var(--text);
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   font-weight: 500;
   min-width: 0;
 }
-.home-address-info svg { flex-shrink: 0; color: var(--accent-gold); }
+.home-address-info svg { flex-shrink: 0; color: var(--accent); }
 .home-address-text {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .home-address-change {
-  background: none;
-  border: none;
-  color: var(--accent-gold);
-  font-size: 0.7rem;
-  font-weight: 600;
+  background: var(--hover);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
   cursor: pointer;
   white-space: nowrap;
-  padding: 0.25rem 0.5rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition);
 }
-.home-address-change:hover { text-decoration: underline; }
+.home-address-change:hover { background: var(--border); color: var(--text); }
 
 /* District badges */
 .home-districts {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-bottom: 0.75rem;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 .home-district-badge {
-  font-size: 0.65rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 1rem;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 2rem;
   background: var(--accent-light);
   color: var(--accent);
   display: inline-flex;
   gap: 0.3rem;
+  font-weight: 500;
 }
 .home-district-badge strong { font-weight: 700; }
 
@@ -8981,64 +8990,71 @@ button.election-card {
 .home-panels {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+  gap: 0.625rem;
+  margin-bottom: 1.25rem;
 }
 
 .home-card {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.85rem 1rem;
+  padding: 1rem 1.25rem;
   cursor: pointer;
   transition: all var(--transition);
   text-decoration: none;
   color: var(--text);
+  box-shadow: var(--shadow);
 }
 .home-card:hover {
-  border-color: var(--accent-gold);
-  box-shadow: var(--shadow);
-  transform: translateY(-1px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
 }
 .home-card-icon {
   flex-shrink: 0;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.75rem;
-  background: var(--bg);
+  border-radius: var(--radius);
+  background: var(--accent-light);
 }
 .home-card-body { flex: 1; min-width: 0; }
 .home-card-title {
-  font-size: 0.85rem;
-  font-weight: 700;
-  margin: 0 0 0.15rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.5rem;
+  letter-spacing: -0.01em;
 }
 .home-card-badge {
-  font-size: 0.55rem;
-  padding: 0.1rem 0.4rem;
+  font-size: 0.625rem;
+  padding: 0.15rem 0.5rem;
   border-radius: 1rem;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
 }
 .home-card-desc {
-  font-size: 0.7rem;
+  font-size: 0.8125rem;
   color: var(--text-muted);
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 .home-card-arrow {
   flex-shrink: 0;
   color: var(--text-muted);
-  opacity: 0.5;
+  opacity: 0.4;
+  transition: opacity var(--transition), transform var(--transition);
+}
+.home-card:hover .home-card-arrow {
+  opacity: 0.8;
+  transform: translateX(2px);
 }
 
 /* Polling place panel */
@@ -11403,7 +11419,7 @@ select.auth-input {
 
 /* ── Header ── */
 .landing-header {
-  background: #0B2E59;
+  background: #0F172A;
   padding: 0 2rem;
   padding-top: env(safe-area-inset-top, 0px);
   position: sticky;
@@ -11416,7 +11432,7 @@ select.auth-input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 60px;
 }
 .landing-brand {
   display: flex;
@@ -11460,19 +11476,19 @@ select.auth-input {
   padding: 2px;
 }
 .landing-signin-btn {
-  background: transparent;
+  background: rgba(255,255,255,0.08);
   color: #fff;
-  border: 1.5px solid rgba(255,255,255,0.4);
-  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius-sm);
   padding: 0.5rem 1.25rem;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
   transition: var(--transition);
 }
 .landing-signin-btn:hover {
-  background: rgba(255,255,255,0.1);
-  border-color: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.4);
 }
 
 /* ── Hero ── */
@@ -11532,25 +11548,25 @@ select.auth-input {
   align-items: center;
 }
 .landing-cta-primary {
-  background: #B22234;
+  background: #1E3A5F;
   color: #fff;
   border: none;
-  border-radius: 8px;
-  padding: 0.9rem 2.25rem;
-  font-size: 1.1rem;
+  border-radius: var(--radius);
+  padding: 1rem 2.5rem;
+  font-size: 1.0625rem;
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
   font-family: var(--font-body);
-  letter-spacing: 0.01em;
+  letter-spacing: -0.01em;
 }
 .landing-cta-primary:hover {
-  background: #9A1D2E;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 16px rgba(178, 34, 52, 0.3);
+  background: #162E4A;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(30, 58, 95, 0.25);
 }
 .landing-cta-sub {
-  font-size: 0.82rem;
+  font-size: 0.8125rem;
   color: var(--text-muted);
   margin: 0;
 }
@@ -11558,11 +11574,13 @@ select.auth-input {
 /* ── Hero Headline ── */
 .landing-hero-headline {
   font-family: var(--font-heading);
-  font-size: 2.6rem;
-  line-height: 1.2;
-  color: var(--accent);
+  font-size: 2.75rem;
+  line-height: 1.15;
+  color: var(--text);
   margin: 0 0 1.25rem;
   max-width: 720px;
+  letter-spacing: -0.03em;
+  font-weight: 700;
 }
 
 /* ══════════════════════════════════════
@@ -11571,8 +11589,6 @@ select.auth-input {
 .landing-problem {
   background: var(--surface);
   padding: 5rem 2rem;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
 }
 .landing-problem-inner {
   max-width: 1100px;
@@ -11581,21 +11597,27 @@ select.auth-input {
 .landing-problem-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.75rem;
+  gap: 1.5rem;
 }
 .landing-problem-card {
-  background: var(--bg);
+  background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 0.75rem;
+  border-radius: var(--radius);
   padding: 2rem 1.5rem;
   text-align: left;
+  box-shadow: var(--shadow);
+  transition: all var(--transition);
+}
+.landing-problem-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
 }
 .landing-problem-icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
-  background: #FEF3F2;
-  color: #B22234;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius);
+  background: var(--accent-light);
+  color: var(--accent);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11649,7 +11671,7 @@ select.auth-input {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--accent-gold);
+  color: var(--accent);
   margin: 0 0 0.75rem;
 }
 .landing-guide-title {
@@ -12130,13 +12152,13 @@ select.auth-input {
   max-width: 800px;
   margin: 0 auto;
   background: var(--surface);
-  border: 2px solid var(--accent-gold);
+  border: 2px solid var(--accent);
   border-radius: 16px;
   padding: 2.5rem;
   position: relative;
   cursor: pointer;
   transition: var(--transition);
-  box-shadow: 0 2px 12px rgba(201, 169, 110, 0.15);
+  box-shadow: 0 2px 12px rgba(30, 58, 95, 0.12);
 }
 .landing-ballot-hero-card:hover {
   box-shadow: 0 6px 24px rgba(201, 169, 110, 0.25);
@@ -12274,7 +12296,7 @@ select.auth-input {
   align-items: center;
   gap: 0.35rem;
   padding: 0.75rem 1.5rem;
-  background: var(--accent-gold);
+  background: var(--accent);
   color: #fff;
   font-weight: 600;
   font-size: 0.9rem;
@@ -12291,14 +12313,14 @@ select.auth-input {
 
 /* ── Bottom CTA ── */
 .landing-bottom-cta {
-  background: #0B2E59 url('/hero-flag-draped.jpg') center/cover no-repeat;
+  background: #0F172A url('/hero-flag-draped.jpg') center/cover no-repeat;
   position: relative;
   text-align: center;
   padding: 0;
 }
 .landing-bottom-cta-overlay {
-  background: rgba(11, 46, 89, 0.85);
-  padding: 5rem 2rem;
+  background: rgba(15, 23, 42, 0.88);
+  padding: 4rem 2rem;
 }
 .landing-bottom-cta h2 {
   font-family: var(--font-heading);

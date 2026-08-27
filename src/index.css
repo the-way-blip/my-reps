@@ -1,22 +1,22 @@
 :root {
-  --text: #5A6B7E;
-  --text-h: #0B2E59;
-  --bg: #F7F3E8;
-  --border: #C8BDAA;
-  --code-bg: #F0EBE0;
-  --accent: #0B2E59;
-  --accent-bg: rgba(11, 46, 89, 0.08);
-  --accent-border: rgba(11, 46, 89, 0.3);
-  --social-bg: rgba(247, 243, 232, 0.5);
+  --text: #64748B;
+  --text-h: #0F172A;
+  --bg: #F8FAFB;
+  --border: #E2E8F0;
+  --code-bg: #F1F5F9;
+  --accent: #1E3A5F;
+  --accent-bg: rgba(30, 58, 95, 0.06);
+  --accent-border: rgba(30, 58, 95, 0.15);
+  --social-bg: rgba(241, 245, 249, 0.5);
   --shadow:
-    rgba(11, 46, 89, 0.06) 0 10px 15px -3px, rgba(11, 46, 89, 0.04) 0 4px 6px -2px;
+    rgba(0, 0, 0, 0.04) 0 10px 15px -3px, rgba(0, 0, 0, 0.03) 0 4px 6px -2px;
 
   --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --heading: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif;
+  --heading: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
-  font: 18px/155% var(--sans);
-  letter-spacing: 0.01em;
+  font: 16px/160% var(--sans);
+  letter-spacing: -0.01em;
   color-scheme: light dark;
   color: var(--text);
   background: var(--bg);
@@ -24,25 +24,21 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #8A96A8;
-    --text-h: #EDE9DD;
-    --bg: #0A1628;
-    --border: #253A55;
-    --code-bg: #162340;
-    --accent: #6BAED6;
-    --accent-bg: rgba(107, 174, 214, 0.12);
-    --accent-border: rgba(107, 174, 214, 0.4);
-    --social-bg: rgba(22, 35, 64, 0.5);
+    --text: #94A3B8;
+    --text-h: #F1F5F9;
+    --bg: #0C1220;
+    --border: #2A3A54;
+    --code-bg: #1A2640;
+    --accent: #60A5FA;
+    --accent-bg: rgba(96, 165, 250, 0.1);
+    --accent-border: rgba(96, 165, 250, 0.25);
+    --social-bg: rgba(26, 38, 64, 0.5);
     --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+      rgba(0, 0, 0, 0.5) 0 10px 15px -3px, rgba(0, 0, 0, 0.3) 0 4px 6px -2px;
   }
 
   #social .button-icon {
@@ -55,11 +51,9 @@ body {
 }
 
 #root {
-  width: 1126px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -69,23 +63,22 @@ body {
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
+  font-weight: 700;
   color: var(--text-h);
+  letter-spacing: -0.025em;
 }
 
 h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
+  font-size: 48px;
   margin: 32px 0;
   @media (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 32px;
     margin: 20px 0;
   }
 }
 h2 {
   font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
+  line-height: 130%;
   margin: 0 0 8px;
   @media (max-width: 1024px) {
     font-size: 20px;
@@ -99,13 +92,13 @@ code,
 .counter {
   font-family: var(--mono);
   display: inline-flex;
-  border-radius: 4px;
+  border-radius: 6px;
   color: var(--text-h);
 }
 
 code {
-  font-size: 15px;
-  line-height: 135%;
+  font-size: 14px;
+  line-height: 140%;
   padding: 4px 8px;
   background: var(--code-bg);
 }
