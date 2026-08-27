@@ -1,13 +1,74 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import AuthModal from '../components/auth/AuthModal'
+
+function useReveal() {
+  const ref = useRef(null)
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const obs = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { el.classList.add('revealed'); obs.unobserve(el) } },
+      { threshold: 0.15 }
+    )
+    obs.observe(el)
+    return () => obs.disconnect()
+  }, [])
+  return ref
+}
+
+function useCountUp(end, duration = 1600) {
+  const [value, setValue] = useState(0)
+  const ref = useRef(null)
+  const started = useRef(false)
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !started.current) {
+          started.current = true
+          const start = performance.now()
+          const tick = (now) => {
+            const t = Math.min((now - start) / duration, 1)
+            const eased = 1 - Math.pow(1 - t, 3)
+            setValue(Math.round(eased * end))
+            if (t < 1) requestAnimationFrame(tick)
+          }
+          requestAnimationFrame(tick)
+          obs.unobserve(el)
+        }
+      },
+      { threshold: 0.3 }
+    )
+    obs.observe(el)
+    return () => obs.disconnect()
+  }, [end, duration])
+  return { ref, value }
+}
 
 export default function LandingView() {
   const { user } = useAuth()
   const navigate = useNavigate()
   const [authOpen, setAuthOpen] = useState(false)
   const [authTab, setAuthTab] = useState('signup')
+
+  const heroRef = useReveal()
+  const problemRef = useReveal()
+  const guideRef = useReveal()
+  const planRef = useReveal()
+  const ctaRef = useReveal()
+  const toolsRef = useReveal()
+  const successRef = useReveal()
+  const stakesRef = useReveal()
+  const bannerRef = useReveal()
+  const bottomRef = useReveal()
+
+  const stat1 = useCountUp(73)
+  const stat2 = useCountUp(62)
+  const stat3Whole = useCountUp(1, 800)
+  const stat3Denom = useCountUp(3, 1200)
 
   // If already logged in, redirect to ballot
   if (user) {
@@ -43,7 +104,7 @@ export default function LandingView() {
          SB7 Element 1: CHARACTER
          The voter is the hero. Open with their desire.
          ══════════════════════════════════════ */}
-      <section className="landing-hero">
+      <section className="landing-hero reveal-section" ref={heroRef}>
         <div className="landing-hero-content landing-hero-centered">
           <img src="/logo.png" alt="Of For & By The People" className="landing-hero-logo" />
           <h1 className="landing-hero-headline">
@@ -69,7 +130,7 @@ export default function LandingView() {
          SB7 Element 2: PROBLEM
          External, Internal, and Philosophical layers
          ══════════════════════════════════════ */}
-      <section className="landing-problem">
+      <section className="landing-problem reveal-section" ref={problemRef}>
         <div className="landing-problem-inner">
           <h2 className="landing-section-title">Voting Shouldn't Require a Research Project</h2>
           <p className="landing-section-subtitle">
@@ -126,7 +187,7 @@ export default function LandingView() {
          SB7 Element 3: GUIDE
          Position the platform as the empathetic authority
          ══════════════════════════════════════ */}
-      <section className="landing-guide">
+      <section className="landing-guide reveal-section" ref={guideRef}>
         <div className="landing-guide-inner">
           <div className="landing-guide-content">
             <p className="landing-guide-eyebrow">We Understand</p>
@@ -169,7 +230,7 @@ export default function LandingView() {
          SB7 Element 4: PLAN
          Give a clear 3-step path
          ══════════════════════════════════════ */}
-      <section className="landing-plan">
+      <section className="landing-plan reveal-section" ref={planRef}>
         <h2 className="landing-section-title">Three Steps to Voting Your Values</h2>
         <p className="landing-section-subtitle">
           It takes under two minutes. Here's how it works.
@@ -206,7 +267,7 @@ export default function LandingView() {
       {/* ══════════════════════════════════════
          SB7 Element 5: CALL TO ACTION (Direct)
          ══════════════════════════════════════ */}
-      <section className="landing-direct-cta">
+      <section className="landing-direct-cta reveal-section" ref={ctaRef}>
         <div className="landing-direct-cta-inner">
           <h2>Ready to See Your Ballot?</h2>
           <p>Know exactly which candidates align with your values before election day.</p>
@@ -220,7 +281,7 @@ export default function LandingView() {
          SB7 Element 5b: TRANSITIONAL CTA
          Lower commitment — explore the tools
          ══════════════════════════════════════ */}
-      <section className="landing-tools">
+      <section className="landing-tools reveal-section" ref={toolsRef}>
         <h2 className="landing-section-title">What's On Your Ballot?</h2>
         <p className="landing-section-subtitle">
           Enter your address and see every race you'll vote on — candidates graded
@@ -270,7 +331,7 @@ export default function LandingView() {
          SB7 Element 6: SUCCESS
          Paint the picture of life after using the platform
          ══════════════════════════════════════ */}
-      <section className="landing-success">
+      <section className="landing-success reveal-section" ref={successRef}>
         <h2 className="landing-section-title">Imagine Walking Into the Polls Prepared</h2>
         <div className="landing-success-grid">
           <div className="landing-success-item">
@@ -316,20 +377,20 @@ export default function LandingView() {
          SB7 Element 7: FAILURE
          What's at stake if they don't act
          ══════════════════════════════════════ */}
-      <section className="landing-stakes">
+      <section className="landing-stakes reveal-section" ref={stakesRef}>
         <div className="landing-stakes-inner">
           <h2 className="landing-section-title landing-stakes-title">What Happens When We Stay Home?</h2>
           <div className="landing-stakes-grid">
             <div className="landing-stakes-item">
-              <span className="landing-stakes-num">73%</span>
+              <span className="landing-stakes-num" ref={stat1.ref}>{stat1.value}%</span>
               <p>of eligible voters skip primary elections — the races where your vote has the biggest impact.</p>
             </div>
             <div className="landing-stakes-item">
-              <span className="landing-stakes-num">62%</span>
+              <span className="landing-stakes-num" ref={stat2.ref}>{stat2.value}%</span>
               <p>of Americans can't name their state representative — let alone hold them accountable.</p>
             </div>
             <div className="landing-stakes-item">
-              <span className="landing-stakes-num">1 in 3</span>
+              <span className="landing-stakes-num" ref={stat3Whole.ref}>{stat3Whole.value} in {stat3Denom.value}</span>
               <p>voters say they've voted for a candidate whose positions they later disagreed with.</p>
             </div>
           </div>
@@ -341,7 +402,7 @@ export default function LandingView() {
       </section>
 
       {/* State Coverage Banner */}
-      <section className="landing-state-banner">
+      <section className="landing-state-banner reveal-section" ref={bannerRef}>
         <div className="landing-state-banner-inner">
           <div className="landing-state-banner-text">
             <h3>Growing Across America</h3>
@@ -359,7 +420,7 @@ export default function LandingView() {
       {/* ══════════════════════════════════════
          Final CTA — repeat the direct call to action
          ══════════════════════════════════════ */}
-      <section className="landing-bottom-cta">
+      <section className="landing-bottom-cta reveal-section" ref={bottomRef}>
         <div className="landing-bottom-cta-overlay">
           <h2>Government of the people, by the people, for the people.</h2>
           <p>Stand for Faith, Family, and our Founding Principles. Join the movement.</p>
