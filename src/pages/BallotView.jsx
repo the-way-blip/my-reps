@@ -1566,19 +1566,19 @@ export default function BallotView() {
             <div className="ballot-dates-grid">
               <div className="ballot-date-item">
                 <span className="ballot-date-label">Registration Deadline</span>
-                <span className="ballot-date-value">{PRIMARY_INFO.registrationDeadline}</span>
+                <span className="ballot-date-value">{GENERAL_INFO.registrationDeadline}</span>
               </div>
               <div className="ballot-date-item">
                 <span className="ballot-date-label">Early Voting Begins</span>
-                <span className="ballot-date-value">{PRIMARY_INFO.earlyVotingStart}</span>
+                <span className="ballot-date-value">{GENERAL_INFO.earlyVotingStart}</span>
               </div>
               <div className="ballot-date-item">
                 <span className="ballot-date-label">Absentee Ballot Deadline</span>
-                <span className="ballot-date-value">{PRIMARY_INFO.absenteeDeadline}</span>
+                <span className="ballot-date-value">{GENERAL_INFO.absenteeDeadline}</span>
               </div>
               <div className="ballot-date-item ballot-date-highlight-item">
                 <span className="ballot-date-label">Election Day</span>
-                <span className="ballot-date-value">{PRIMARY_INFO.date}</span>
+                <span className="ballot-date-value">{GENERAL_INFO.date}</span>
               </div>
             </div>
           </details>
