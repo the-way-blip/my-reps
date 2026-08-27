@@ -4,18 +4,18 @@
   --surface: #FFFFFF;
   --card: #FFFFFF;
   --hover: #F1F5F9;
-  --border: #E2E8F0;
+  --border: #D6DEE8;
   --text: #0F172A;
   --text-muted: #64748B;
   --muted: #64748B;
-  --accent: #1E3A5F;
-  --accent-light: #EFF6FF;
-  --accent-red: #DC2626;
-  --accent-gold: #B45309;
+  --accent: #002868;
+  --accent-light: #EBF0FA;
+  --accent-red: #BF0A30;
+  --accent-gold: #B5A267;
   --party-d: #2563EB;
   --party-r: #DC2626;
   --party-i: #6B7280;
-  --radius: 12px;
+  --radius: 10px;
   --radius-sm: 6px;
   --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
   --shadow-lg: 0 8px 30px rgba(0,0,0,0.08);
@@ -32,19 +32,19 @@
 
 /* ── Dark mode tokens ── */
 [data-theme="dark"] {
-  --bg: #0C1220;
-  --surface: #141E30;
-  --card: #1A2640;
+  --bg: #0A0F1C;
+  --surface: #111827;
+  --card: #1A2236;
   --hover: #1F2E48;
   --border: #2A3A54;
   --text: #F1F5F9;
   --text-muted: #94A3B8;
   --muted: #94A3B8;
   --text-secondary: #94A3B8;
-  --accent: #60A5FA;
+  --accent: #5B9BF5;
   --accent-light: #172554;
   --accent-red: #F87171;
-  --accent-gold: #F59E0B;
+  --accent-gold: #D4C478;
   --party-d: #60A5FA;
   --party-r: #F87171;
   --party-i: #94A3B8;
@@ -436,8 +436,9 @@ body {
 
 /* ── Header ── */
 .app-header {
-  background: #0F172A;
+  background: #002868;
   border-bottom: none;
+  border-top: 4px solid #BF0A30;
   padding: 0.75rem 1.5rem;
   padding-top: calc(env(safe-area-inset-top, 0px) + 0.75rem);
   display: flex;
@@ -447,7 +448,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 50;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0,40,104,0.2);
 }
 
 .header-brand {
@@ -1944,8 +1945,8 @@ body {
 }
 
 .nav-item.active {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
+  color: #BF0A30;
+  border-bottom-color: #BF0A30;
   font-weight: 600;
 }
 
@@ -8844,18 +8845,19 @@ button.election-card {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background: var(--accent);
+  background: #BF0A30;
   color: #fff;
   border: none;
   padding: 0.9375rem 1.5rem;
   border-radius: var(--radius);
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   transition: all var(--transition);
-  letter-spacing: -0.01em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
-.home-hero-btn:hover { background: #162E4A; transform: translateY(-1px); box-shadow: var(--shadow-lg); }
+.home-hero-btn:hover { background: #9B0828; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(191, 10, 48, 0.25); }
 .home-hero-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 .home-spinner {
   width: 16px;
@@ -11419,12 +11421,14 @@ select.auth-input {
 
 /* ── Header ── */
 .landing-header {
-  background: #0F172A;
+  background: #002868;
+  border-top: 4px solid #BF0A30;
   padding: 0 2rem;
   padding-top: env(safe-area-inset-top, 0px);
   position: sticky;
   top: 0;
   z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,40,104,0.2);
 }
 .landing-header-inner {
   max-width: 1100px;
@@ -11495,10 +11499,10 @@ select.auth-input {
 .landing-hero {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 5rem 2rem 4rem;
+  padding: 4rem 2rem 3.5rem;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 4rem;
+  gap: 3rem;
   align-items: center;
 }
 .landing-hero-centered {
@@ -11548,22 +11552,24 @@ select.auth-input {
   align-items: center;
 }
 .landing-cta-primary {
-  background: #1E3A5F;
+  background: #BF0A30;
   color: #fff;
   border: none;
   border-radius: var(--radius);
   padding: 1rem 2.5rem;
   font-size: 1.0625rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   transition: var(--transition);
   font-family: var(--font-body);
   letter-spacing: -0.01em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 .landing-cta-primary:hover {
-  background: #162E4A;
+  background: #9B0828;
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(30, 58, 95, 0.25);
+  box-shadow: 0 8px 24px rgba(191, 10, 48, 0.3);
 }
 .landing-cta-sub {
   font-size: 0.8125rem;
@@ -11576,19 +11582,26 @@ select.auth-input {
   font-family: var(--font-heading);
   font-size: 2.75rem;
   line-height: 1.15;
-  color: var(--text);
+  color: #002868;
   margin: 0 0 1.25rem;
   max-width: 720px;
   letter-spacing: -0.03em;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 /* ══════════════════════════════════════
    StoryBrand: PROBLEM Section
    ══════════════════════════════════════ */
 .landing-problem {
-  background: var(--surface);
+  background: #002868;
   padding: 5rem 2rem;
+  color: #fff;
+}
+.landing-problem .landing-section-title {
+  color: #fff;
+}
+.landing-problem .landing-section-subtitle {
+  color: rgba(255,255,255,0.75);
 }
 .landing-problem-inner {
   max-width: 1100px;
@@ -11600,24 +11613,25 @@ select.auth-input {
   gap: 1.5rem;
 }
 .landing-problem-card {
-  background: var(--card);
-  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.15);
   border-radius: var(--radius);
   padding: 2rem 1.5rem;
   text-align: left;
-  box-shadow: var(--shadow);
+  box-shadow: none;
   transition: all var(--transition);
+  backdrop-filter: blur(8px);
 }
 .landing-problem-card:hover {
-  box-shadow: var(--shadow-lg);
+  background: rgba(255,255,255,0.15);
   transform: translateY(-2px);
 }
 .landing-problem-icon {
   width: 48px;
   height: 48px;
   border-radius: var(--radius);
-  background: var(--accent-light);
-  color: var(--accent);
+  background: rgba(255,255,255,0.15);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11628,19 +11642,19 @@ select.auth-input {
   font-size: 1.1rem;
   font-weight: 700;
   margin: 0 0 0.35rem;
-  color: var(--text);
+  color: #fff;
 }
 .landing-problem-type {
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #B22234;
+  color: #F87171;
   margin: 0 0 0.85rem;
 }
 .landing-problem-card > p:last-child {
   font-size: 0.9rem;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.7);
   line-height: 1.65;
   margin: 0;
 }
@@ -11671,7 +11685,7 @@ select.auth-input {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--accent);
+  color: #BF0A30;
   margin: 0 0 0.75rem;
 }
 .landing-guide-title {
@@ -11753,7 +11767,7 @@ select.auth-input {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background: var(--accent);
+  background: #BF0A30;
   color: #fff;
   font-family: var(--font-heading);
   font-size: 1.1rem;
@@ -11799,8 +11813,9 @@ select.auth-input {
 .landing-direct-cta h2 {
   font-family: var(--font-heading);
   font-size: 1.8rem;
-  color: var(--accent);
+  color: #002868;
   margin: 0 0 0.75rem;
+  font-weight: 800;
 }
 .landing-direct-cta p {
   font-size: 1.05rem;
@@ -11813,10 +11828,10 @@ select.auth-input {
    StoryBrand: SUCCESS Section
    ══════════════════════════════════════ */
 .landing-success {
-  background: var(--surface);
+  background: #EBF0FA;
   padding: 5rem 2rem;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
+  border-top: none;
+  border-bottom: none;
 }
 .landing-success-grid {
   max-width: 1000px;
@@ -11829,8 +11844,8 @@ select.auth-input {
   display: flex;
   gap: 1rem;
   padding: 1.5rem;
-  background: var(--bg);
-  border: 1px solid var(--border);
+  background: #fff;
+  border: 1px solid rgba(0,40,104,0.1);
   border-radius: 0.75rem;
   align-items: flex-start;
 }
@@ -11839,8 +11854,8 @@ select.auth-input {
   height: 44px;
   min-width: 44px;
   border-radius: 50%;
-  background: #EFF8EE;
-  color: #2E7D32;
+  background: #002868;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11890,8 +11905,8 @@ select.auth-input {
   display: block;
   font-family: var(--font-heading);
   font-size: 2.8rem;
-  font-weight: 700;
-  color: #B22234;
+  font-weight: 800;
+  color: #BF0A30;
   line-height: 1;
   margin-bottom: 0.75rem;
 }
@@ -11985,8 +12000,10 @@ select.auth-input {
   font-family: var(--font-heading);
   font-size: 2rem;
   text-align: center;
-  color: var(--accent);
+  color: #002868;
   margin: 0 0 1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 .landing-section-subtitle {
   text-align: center;
@@ -12152,17 +12169,18 @@ select.auth-input {
   max-width: 800px;
   margin: 0 auto;
   background: var(--surface);
-  border: 2px solid var(--accent);
+  border: 2px solid #002868;
   border-radius: 16px;
   padding: 2.5rem;
   position: relative;
   cursor: pointer;
   transition: var(--transition);
-  box-shadow: 0 2px 12px rgba(30, 58, 95, 0.12);
+  box-shadow: 0 2px 12px rgba(0, 40, 104, 0.12);
 }
 .landing-ballot-hero-card:hover {
-  box-shadow: 0 6px 24px rgba(201, 169, 110, 0.25);
+  box-shadow: 0 6px 24px rgba(0, 40, 104, 0.2);
   transform: translateY(-3px);
+  border-color: #BF0A30;
 }
 .landing-tool-badge {
   position: absolute;
@@ -12313,13 +12331,13 @@ select.auth-input {
 
 /* ── Bottom CTA ── */
 .landing-bottom-cta {
-  background: #0F172A url('/hero-flag-draped.jpg') center/cover no-repeat;
+  background: #002868 url('/hero-flag-draped.jpg') center/cover no-repeat;
   position: relative;
   text-align: center;
   padding: 0;
 }
 .landing-bottom-cta-overlay {
-  background: rgba(15, 23, 42, 0.88);
+  background: rgba(0, 40, 104, 0.88);
   padding: 4rem 2rem;
 }
 .landing-bottom-cta h2 {
