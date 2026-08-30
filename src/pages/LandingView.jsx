@@ -67,8 +67,7 @@ export default function LandingView() {
 
   const stat1 = useCountUp(73)
   const stat2 = useCountUp(62)
-  const stat3Whole = useCountUp(1, 800)
-  const stat3Denom = useCountUp(3, 1200)
+  const stat3 = useCountUp(3, 1200)
 
   // If already logged in, redirect to ballot
   if (user) {
@@ -390,7 +389,7 @@ export default function LandingView() {
               <p>of Americans can't name their state representative — let alone hold them accountable.</p>
             </div>
             <div className="landing-stakes-item">
-              <span className="landing-stakes-num" ref={stat3Whole.ref}>{stat3Whole.value} in {stat3Denom.value}</span>
+              <span className="landing-stakes-num" ref={stat3.ref}>1 in {stat3.value}</span>
               <p>voters say they've voted for a candidate whose positions they later disagreed with.</p>
             </div>
           </div>
