@@ -176,7 +176,11 @@ export default function PrivacyView() {
           </li>
         </ul>
         <p>
-          To exercise any of these rights, please contact us at the email address below.
+          You can delete your account and all associated data directly from the app by
+          going to your Profile page and tapping "Delete Account." This permanently removes
+          your authentication record, profile information, ballot plans, and community votes
+          from our servers. You may also contact us at the email address below to exercise
+          any of these rights.
         </p>
 
         <h3>8. Children's Privacy</h3>

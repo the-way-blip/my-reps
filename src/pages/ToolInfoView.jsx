@@ -49,7 +49,7 @@ const TOOLS = {
   reps: {
     name: 'Find My Reps',
     tagline: 'Know who represents you — and how they score.',
-    status: 'live',
+    status: 'coming',
     hero: 'From your city council to the U.S. Senate — see every elected official and how they measure up on faith, family, and the Constitution.',
     description:
       'Find My Reps connects you directly to the people who represent you in government and shows you whether they\'re actually fighting for your values. Enter your address and instantly see your elected officials at every level — federal, state, and local. View their photos, party affiliation, contact information, and how they score on Christian and Constitutional values. Hold them accountable. Our republic only works when the people pay attention.',
@@ -90,7 +90,7 @@ const TOOLS = {
   founding: {
     name: 'Founding Documents',
     tagline: 'The principles that started it all.',
-    status: 'live',
+    status: 'coming',
     hero: 'America\'s founding documents, the Christian principles behind them, and how today\'s leaders measure up.',
     description:
       'The Founding Documents tool is your civic reference library rooted in America\'s Christian heritage. Read the full text of the U.S. Constitution, the Bill of Rights, all 27 amendments, and key historical documents that shaped our republic. But it goes beyond just reading — we connect these founding principles to modern governance by showing how today\'s elected officials align with the values the founders established. Understand what they believed, why they built the system they did, and whether your representatives are honoring that legacy.',
@@ -131,7 +131,7 @@ const TOOLS = {
   analytics: {
     name: 'Alignment Analytics',
     tagline: 'Data-driven insights into your representation.',
-    status: 'live',
+    status: 'coming',
     hero: 'The big picture — how your representatives score on Christian and Constitutional values across every issue.',
     description:
       'Alignment Analytics takes all of our representative grading data and presents it in a clear, visual format. See grade distributions across all scored officials, break down alignment by individual issues like religious liberty, life, the Second Amendment, and fiscal responsibility. Compare how federal vs. state representatives perform. It\'s the 30,000-foot view of how well your government actually upholds the Christian and Constitutional values that built this nation.',

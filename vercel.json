@@ -38,6 +38,7 @@
     { "source": "/api/congress/:path*", "destination": "/api/congress/[...path]" },
     { "source": "/api/openstates/:path*", "destination": "/api/openstates/[...path]" },
     { "source": "/api/ghl/contact", "destination": "/api/ghl/contact" },
+    { "source": "/api/delete-account", "destination": "/api/delete-account" },
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ],
   "headers": [

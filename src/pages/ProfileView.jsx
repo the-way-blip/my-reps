@@ -301,23 +301,26 @@ export default function ProfileView() {
   async function handleDeleteAccount() {
     try {
       const { supabase } = await import('../lib/supabase.js')
-      // Delete profile data first
-      try {
-        const svc = await tryLoadProfileService()
-        if (svc?.deleteProfile) {
-          await svc.deleteProfile(user.id)
+      const { data: { session } } = await supabase.auth.getSession()
+      if (session?.access_token) {
+        const resp = await fetch('/api/delete-account', {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${session.access_token}` },
+        })
+        if (!resp.ok) {
+          const body = await resp.json().catch(() => ({}))
+          throw new Error(body.error || 'Delete failed')
         }
-      } catch { /* ignore */ }
-      // Clear local data
+      }
       Object.keys(localStorage).forEach(key => {
         if (key.startsWith('myreps')) localStorage.removeItem(key)
       })
-      // Sign out
       if (supabase) await supabase.auth.signOut()
       setShowDeleteModal(false)
       window.location.href = '/'
     } catch (err) {
       console.error('Delete account error:', err)
+      alert('Failed to delete account. Please try again or contact support.')
       setShowDeleteModal(false)
     }
   }
