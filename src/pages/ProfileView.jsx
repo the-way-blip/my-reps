@@ -303,7 +303,10 @@ export default function ProfileView() {
       const { supabase } = await import('../lib/supabase.js')
       const { data: { session } } = await supabase.auth.getSession()
       if (session?.access_token) {
-        const resp = await fetch('/api/delete-account', {
+        const deleteUrl = window.Capacitor
+          ? 'https://www.offorandbythepeople.com/api/delete-account'
+          : '/api/delete-account'
+        const resp = await fetch(deleteUrl, {
           method: 'POST',
           headers: { 'Authorization': `Bearer ${session.access_token}` },
         })
