@@ -42,7 +42,7 @@ function layout({ title, description, canonical, body, breadcrumbs }) {
 <link rel="icon" href="/favicon.png">${bc}<style>${CSS}</style></head><body>
 <header><a class="brand" href="${SITE}/">Of For &amp; By The People</a><a class="cta" href="${SITE}/ballot?utm_source=seo&utm_medium=ballot-page">Build my ballot →</a></header>
 <main>${body}</main>
-<footer>Local races and proposals are taken from the official Michigan Secretary of State sample ballots (<a href="https://mvic.sos.state.mi.us/PublicBallot/Index">Voter Information Center</a>). Grades and summaries are the opinion of Of For &amp; By The People. Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a></footer>
+<footer><p style="max-width:760px;margin:0 auto 10px">Of For &amp; By The People is an independent, personally funded voter-education tool. It has no party or candidate affiliation, is not paid for or authorized by any candidate, party, or political committee, and does not coordinate with any campaign. Grades are our opinion of how each candidate&#39;s public record aligns with constitutional and Christian values.</p>Local races and proposals are taken from the official Michigan Secretary of State sample ballots (<a href="https://mvic.sos.state.mi.us/PublicBallot/Index">Voter Information Center</a>). Grades and summaries are the opinion of Of For &amp; By The People. Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a></footer>
 </body></html>`
 }
 
