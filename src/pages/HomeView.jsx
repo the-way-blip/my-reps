@@ -196,6 +196,33 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
         </div>
       )}
 
+      {/* Election-week plan (last 10 days) */}
+      {primaryDays > 0 && primaryDays <= 10 && (
+        <div className="home-election-week">
+          <div className="home-election-week-title">Your election-week plan</div>
+          <ol>
+            <li>
+              <strong>Vote early or return your absentee ballot.</strong>{' '}
+              {daysUntil('2026-11-01') >= 0
+                ? 'Early voting runs through Sunday, Nov 1 at your early-voting site (hours vary — check with your clerk).'
+                : 'Early voting has ended.'}{' '}
+              Absentee ballots should no longer be mailed — hand them to your clerk or a drop box by 8 p.m. on Nov 3.
+            </li>
+            <li>
+              <strong>Or vote on Election Day</strong> — Tuesday, Nov 3, 7 a.m.–8 p.m. at your polling place
+              {pollingPlace?.address ? ` (${pollingPlace.address})` : ''}. Bring photo ID; if you don't have it you can sign an affidavit and still vote.
+            </li>
+            <li>
+              <strong>Not registered?</strong> Online registration closed Oct 19, but you can still register and vote in person at your city or township clerk's office through 8 p.m. on Election Day with proof of residency.
+            </li>
+            <li>
+              <strong>Finish your ballot plan</strong> and bring it with you — paper notes are allowed in the booth.{' '}
+              <Link to="/ballot">Open my ballot →</Link>
+            </li>
+          </ol>
+        </div>
+      )}
+
       {/* 4 main action panels */}
       <div className="home-panels">
         {/* 1. Find Polling Place (election day) / Request Absentee (pre-election) */}
@@ -295,7 +322,11 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
             </svg>
           }
           title={isElectionDay ? "Check Registration / Register Today" : "Check Registration"}
-          desc={isElectionDay ? "Verify you're registered. Not registered? You can register and vote today at your local clerk's office with a photo ID and proof of residency." : "Verify you're registered to vote, request an absentee ballot, or register online."}
+          desc={isElectionDay
+            ? "Verify you're registered. Not registered? You can register and vote today at your local clerk's office with a photo ID and proof of residency."
+            : daysUntil('2026-10-19') > 0
+              ? "Verify you're registered to vote, request an absentee ballot, or register online."
+              : "Verify you're registered. Online registration has closed — you can still register and vote in person at your city or township clerk's office through 8 p.m. on Election Day."}
           href={MI_SOS_VOTER_LOOKUP}
           accent="var(--accent-red)"
         />

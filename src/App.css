@@ -13896,3 +13896,42 @@ a.landing-tool-card {
   white-space: pre-line;
   color: var(--text-secondary);
 }
+
+/* Research links for unrated candidates */
+.candidate-research-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+.candidate-research-links a {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--border, rgba(0,0,0,0.15));
+  color: var(--accent, #1d3557);
+  text-decoration: none;
+  background: var(--bg, #fff);
+}
+.candidate-research-links a:hover { text-decoration: underline; }
+
+/* Election-week plan */
+.home-election-week {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  border: 1px solid var(--accent-red, #b22234);
+  background: var(--bg-secondary, rgba(178,34,52,0.05));
+}
+.home-election-week-title {
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-red, #b22234);
+  margin-bottom: 0.5rem;
+}
+.home-election-week ol { margin: 0; padding-left: 1.25rem; display: grid; gap: 0.5rem; }
+.home-election-week li { font-size: 0.92rem; line-height: 1.5; color: var(--text-primary); }
+.home-election-week a { color: var(--accent, #1d3557); font-weight: 600; }

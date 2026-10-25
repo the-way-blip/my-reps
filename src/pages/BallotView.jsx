@@ -32,6 +32,11 @@ import { MI_ELECTIONS } from '../data/electionData'
 
 const STORAGE_KEY = 'myreps-ballot-plan-2026'
 
+function researchSearchUrl(name, office) {
+  const q = `"${name}" ${(office || '').replace(/—/g, ' ')} Michigan 2026`
+  return `https://www.google.com/search?q=${encodeURIComponent(q.replace(/\s+/g, ' ').trim())}`
+}
+
 function loadBallot() {
   try {
     const saved = localStorage.getItem(STORAGE_KEY)
@@ -391,10 +396,16 @@ function CandidateDetailModal({ candidate, onClose }) {
                 <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
               </svg>
               <div>
-                <strong>Not Rated</strong> — No public information was found for this candidate.
-                We searched voting records, endorsements, questionnaire responses, campaign websites, public statements,
-                social media, signed pledges, professional background, endorsements received, and prior campaigns.
-                If you have information about this candidate, please contact us.
+                <strong>Not Rated</strong> — We haven't completed a values review of this candidate yet.
+                {candidate.incumbentDesignation ? ` The ballot lists them as "${candidate.incumbentDesignation}" (incumbent).` : ''}
+                {candidate.runningMate ? ` Running mate: ${candidate.runningMate}.` : ''}
+                {' '}Use the links below to research them, and if you know something about this candidate, please contact us.
+                <div className="candidate-research-links">
+                  <a href={researchSearchUrl(candidate.name, candidate.raceOffice)} target="_blank" rel="noopener noreferrer">Search news &amp; campaign info</a>
+                  <a href={`https://ballotpedia.org/wiki/index.php?search=${encodeURIComponent(candidate.name + ' Michigan')}`} target="_blank" rel="noopener noreferrer">Ballotpedia</a>
+                  <a href={`https://www.google.com/search?q=${encodeURIComponent(`"${candidate.name}" site:facebook.com OR site:linkedin.com`)}`} target="_blank" rel="noopener noreferrer">Social profiles</a>
+                  {candidate.website && <a href={candidate.website} target="_blank" rel="noopener noreferrer">Campaign site</a>}
+                </div>
               </div>
             </div>
           </div>
@@ -945,7 +956,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                       </span>
                     </span>
                   )}
-                  <div className="ballot-candidate-header" onClick={() => onCandidateDetail(c)} role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onCandidateDetail(c) } }}>
+                  <div className="ballot-candidate-header" onClick={() => onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level })} role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level }) } }}>
                     <span className="ballot-candidate-name">
                       {c.name}
                       <GradeBadge grade={c.grade} size="sm" showUnrated={!c.grade} />
@@ -1005,7 +1016,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                   <div className="ballot-candidate-links">
                     <button
                       className="ballot-candidate-profile-btn"
-                      onClick={() => onCandidateDetail(c)}
+                      onClick={() => onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level })}
                       aria-label={`View full profile for ${c.name}`}
                     >
                       View Profile
@@ -1014,7 +1025,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                       </svg>
                     </button>
                     <a
-                      href={`https://ballotpedia.org/${c.name.replace(/\s+/g, '_')}`}
+                      href={c.grade ? `https://ballotpedia.org/${c.name.replace(/\s+/g, '_')}` : `https://ballotpedia.org/wiki/index.php?search=${encodeURIComponent(c.name + ' Michigan')}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ballot-candidate-source-link"
@@ -1026,6 +1037,20 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                         <polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
                       </svg>
                     </a>
+                    {!c.grade && (
+                      <a
+                        href={researchSearchUrl(c.name, race.office)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ballot-candidate-source-link"
+                        onClick={e => e.stopPropagation()}
+                      >
+                        Research
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="11" height="11">
+                          <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
+                        </svg>
+                      </a>
+                    )}
                     {c.website && (
                       <a
                         href={c.website}
