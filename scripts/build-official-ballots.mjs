@@ -79,7 +79,7 @@ const OVERRIDES = new Map()
     for (const o of arr) {
       if (!o?.name) continue
       const k = `${nameKey(o.name)}|${String(o.county || '').replace(/ county$/i, '').toLowerCase()}`
-      OVERRIDES.set(k, { name: o.name, grade: o.grade && o.grade !== 'null' ? o.grade : null, gradeNote: o.gradeNote || null, description: o.description || null, website: o.website || null, officeTokens: tokens(o.office || '').filter(t => !tokens(o.county || '').includes(t)), sources: o.sources || [] })
+      OVERRIDES.set(k, { name: o.name, status: o.status || null, grade: o.grade && o.grade !== 'null' ? o.grade : null, gradeNote: o.gradeNote || null, description: o.description || null, website: o.website || null, officeTokens: tokens(o.office || '').filter(t => !tokens(o.county || '').includes(t)), sources: o.sources || [] })
     }
   }
   console.log(`grade overrides: ${OVERRIDES.size} candidates from ${files.length} files`)
@@ -88,7 +88,7 @@ const OVERRIDES = new Map()
 function enrich(cand, raceKind, ctxTokens, countyName) {
   const ov = OVERRIDES.get(`${nameKey(cand.n)}|${String(countyName || '').replace(/ county$/i, '').toLowerCase()}`)
   if (ov && (ov.officeTokens.length === 0 || ov.officeTokens.some(t => ctxTokens.includes(t)))) {
-    return { grade: ov.grade, gradeNote: ov.gradeNote, description: ov.description, website: ov.website, status: null, pool: 'override', researched: true }
+    return { grade: ov.grade, gradeNote: ov.gradeNote, description: ov.description, website: ov.website, status: ov.status, pool: 'override', researched: true }
   }
   const list = index.get(nameKey(cand.n))
   if (!list || list.length === 0) return null
@@ -164,7 +164,7 @@ function shapeRace(r, jur, countyName, cov) {
   const ctxTokens = tokens(`${countyName} ${jur.name} ${bodyLine || ''} ${r.o}`)
   const candidates = r.c.map(c => {
     const e = enrich(c, kind, ctxTokens, countyName)
-    const cand = { name: c.n, party: PARTY[c.p] || (c.p ? slug(c.p) : null), status: c.inc ? 'incumbent' : (e?.status === 'incumbent' ? 'incumbent' : 'candidate'), grade: e?.grade || null }
+    const cand = { name: c.n, party: PARTY[c.p] || (c.p ? slug(c.p) : null), status: e?.status === 'withdrawn' ? 'withdrawn' : c.inc ? 'incumbent' : (e?.status === 'incumbent' ? 'incumbent' : 'candidate'), grade: e?.grade || null }
     if (c.m) cand.runningMate = c.m
     if (c.inc) cand.incumbentDesignation = c.inc
     if (e?.gradeNote) cand.gradeNote = e.gradeNote
