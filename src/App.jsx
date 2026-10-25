@@ -1,3 +1,4 @@
+import ResultsView from './pages/ResultsView'
 import React, { Suspense } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AppProvider } from './contexts/AppContext'
@@ -43,6 +44,9 @@ export default function App() {
             <Route path="states" element={<StateCoverageView />} />
             <Route path="methodology" element={<MethodologyView />} />
             <Route path="about" element={<AboutView />} />
+            <Route path="results" element={<AppLayout />}>
+              <Route index element={<ResultsView />} />
+            </Route>
             <Route path="privacy" element={<AppLayout />}>
               <Route index element={<PrivacyView />} />
             </Route>

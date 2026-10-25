@@ -274,6 +274,14 @@ function proposalJurisdiction(p, jur, countyName) {
   const t = cleanTitle(p.title)
   if (/^County$/i.test(d)) return `${countyName}`
   if (/^(Township|City|Village)$/i.test(d)) return titleCase(jur.name.replace(/^Village Of /i, ''))
+  // School/college proposals often omit the district from the title but open the body with it
+  if (/school district|community college|intermediate/i.test(d)) {
+    const first = (p.body || '').split('\n').map(x => x.trim()).find(Boolean) || ''
+    const m0 = first.match(/^([A-Z][A-Za-z.'&\- ]{3,60}?(Schools|School District|Public Schools|Community Schools|Area Schools|Community College|College|Educational Service Agency|Intermediate School District|ISD|RESA))\b/i)
+    if (m0 && !/^(shall|this|the )/i.test(first)) return titleCase(m0[1])
+    const m1 = (p.body || '').slice(0, 400).match(/shall (?:the )?([A-Z][A-Za-z.'&\- ]{3,60}?(Schools|School District|Public Schools|Community Schools|Area Schools|Community College|College|Educational Service Agency|Intermediate School District|ISD|RESA))\b/i)
+    if (m1) return titleCase(m1[1])
+  }
   const stripped = t.replace(/^(RENEWAL OF|PROPOSED|PROPOSAL (FOR|TO)|RENEWAL|RESTORATION OF|CHARTER AMENDMENT FOR( RENEWAL OF)?|RENEW(AL)? OF THE)\s+/i, '')
   const m = stripped.match(/^(.*?)(?=\s+(BOND|MILLAGE|OPERATING|SINKING|BUILDING|SPECIAL|AREA|CAREER|PROPOSAL|PROPOSITION|RENEWAL|RESTORATION|ANNEXATION|CHARTER|HEADLEE|PUBLIC SAFETY|FIRE|POLICE|ROAD|LIBRARY|SENIOR|PARKS?)\b)/i)
   if (m && m[1].length > 3 && !/^(the|a|an)$/i.test(m[1])) return titleCase(m[1])

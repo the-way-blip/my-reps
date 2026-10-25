@@ -1,0 +1,11 @@
+{
+  "updatedAt": null,
+  "status": "pre-election",
+  "note": "Polls close at 8 p.m. on Tuesday, November 3. Results appear here as counties report.",
+  "sources": [
+    { "label": "Michigan Secretary of State — official results", "url": "https://mielections.us/election/results/2026GEN_CENR.html" },
+    { "label": "Michigan Voter Information Center", "url": "https://mvic.sos.state.mi.us/" }
+  ],
+  "races": [],
+  "proposals": []
+}

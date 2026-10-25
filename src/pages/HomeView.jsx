@@ -266,6 +266,13 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
       {/* iOS app nudge (Safari on iPhone only) */}
       <IOSAppBanner />
 
+      {/* Results (Election Day and after) */}
+      {daysUntil('2026-11-03') <= 0 && (
+        <Link to="/results" className="home-results-link">
+          <strong>Election results</strong> — statewide races and proposals as counties report →
+        </Link>
+      )}
+
       {/* Reminder opt-in */}
       <ReminderPrompt county={districts?.county} />
 
