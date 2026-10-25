@@ -67,7 +67,29 @@ function walk(v, pool, ctx, incumbentPool) {
 }
 console.log(`enrichment index: ${index.size} distinct names`)
 
-function enrich(cand, raceKind, ctxTokens) {
+// Hand-researched grade overrides (data-raw/grades/*.json) take precedence over the name index
+const OVERRIDES = new Map()
+{
+  const dir = path.join(ROOT, 'data-raw/grades')
+  let files = []
+  try { files = readdirSync(dir).filter(f => f.endsWith('.json')) } catch { files = [] }
+  for (const f of files) {
+    let arr = []
+    try { arr = JSON.parse(readFileSync(path.join(dir, f), 'utf8')) } catch (e) { console.warn('bad grades file', f, e.message); continue }
+    for (const o of arr) {
+      if (!o?.name) continue
+      const k = `${nameKey(o.name)}|${String(o.county || '').replace(/ county$/i, '').toLowerCase()}`
+      OVERRIDES.set(k, { name: o.name, grade: o.grade && o.grade !== 'null' ? o.grade : null, gradeNote: o.gradeNote || null, description: o.description || null, website: o.website || null, officeTokens: tokens(o.office || '').filter(t => !tokens(o.county || '').includes(t)), sources: o.sources || [] })
+    }
+  }
+  console.log(`grade overrides: ${OVERRIDES.size} candidates from ${files.length} files`)
+}
+
+function enrich(cand, raceKind, ctxTokens, countyName) {
+  const ov = OVERRIDES.get(`${nameKey(cand.n)}|${String(countyName || '').replace(/ county$/i, '').toLowerCase()}`)
+  if (ov && (ov.officeTokens.length === 0 || ov.officeTokens.some(t => ctxTokens.includes(t)))) {
+    return { grade: ov.grade, gradeNote: ov.gradeNote, description: ov.description, website: ov.website, status: null, pool: 'override', researched: true }
+  }
   const list = index.get(nameKey(cand.n))
   if (!list || list.length === 0) return null
   const poolPref = raceKind === 'judicial' ? ['judicial', 'nov', 'incumbent'] : ['nov', 'incumbent', 'judicial']
@@ -141,7 +163,7 @@ function shapeRace(r, jur, countyName, cov) {
   for (const t of terms) descParts.push(titleCase(t).replace(/(\d{1,2})\/(\d{1,2})\/(\d{4})/, '$1/$2/$3') + '.')
   const ctxTokens = tokens(`${countyName} ${jur.name} ${bodyLine || ''} ${r.o}`)
   const candidates = r.c.map(c => {
-    const e = enrich(c, kind, ctxTokens)
+    const e = enrich(c, kind, ctxTokens, countyName)
     const cand = { name: c.n, party: PARTY[c.p] || (c.p ? slug(c.p) : null), status: c.inc ? 'incumbent' : (e?.status === 'incumbent' ? 'incumbent' : 'candidate'), grade: e?.grade || null }
     if (c.m) cand.runningMate = c.m
     if (c.inc) cand.incumbentDesignation = c.inc
@@ -149,6 +171,7 @@ function shapeRace(r, jur, countyName, cov) {
     if (e?.description) cand.description = e.description
     else if (c.inc) cand.description = `Incumbent — ${c.inc}`
     if (e?.website) cand.website = e.website
+    if (e?.researched) cand.researched = true
     return cand
   })
   const id = 'off-' + slug(`${countyName}-${jur.name}-${r.d}-${r.o}-${extra.join('-')}`)
