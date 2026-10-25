@@ -5,6 +5,7 @@ import { useApp } from '../contexts/AppContext'
 import { useAuth } from '../contexts/AuthContext'
 import AppStoreBadge from '../components/ui/AppStoreBadge'
 import { isIOSBrowser } from '../utils/platform'
+import { pushAvailability, isSubscribed, enableReminders } from '../utils/push'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
 import { geocodeToDistrict } from '../services/districtService'
 import { getVoterInfo } from '../services/googleCivicApi'
@@ -153,6 +154,51 @@ function CollapsibleSection({ title, defaultOpen = false, children }) {
   )
 }
 
+// ── Push reminder prompt ──
+function ReminderPrompt({ county }) {
+  const [state, setState] = useState(() => {
+    try { if (localStorage.getItem('myreps_reminder_prompt_dismissed') === '1') return 'dismissed' } catch { /* ignore */ }
+    return 'checking'
+  })
+  useEffect(() => {
+    if (state !== 'checking') return undefined
+    let alive = true
+    const avail = pushAvailability()
+    if (avail !== 'available') { setState(avail === 'ios-needs-homescreen' ? 'ios' : 'hidden'); return undefined }
+    isSubscribed().then(on => { if (alive) setState(on ? 'hidden' : 'offer') })
+    return () => { alive = false }
+  }, [state])
+  const dismiss = () => { try { localStorage.setItem('myreps_reminder_prompt_dismissed', '1') } catch { /* ignore */ } setState('dismissed') }
+  if (state !== 'offer' && state !== 'ios' && state !== 'busy' && state !== 'done') return null
+  return (
+    <div className="home-reminder-card" role="region" aria-label="Election reminders">
+      <div className="home-reminder-text">
+        <strong>{state === 'done' ? 'Reminders on' : 'Want a nudge before the deadlines?'}</strong>
+        <span>
+          {state === 'done'
+            ? 'We\'ll remind you about early voting, the absentee deadline and Election Day.'
+            : state === 'ios'
+              ? 'On iPhone: tap Share → Add to Home Screen, then turn on reminders in Settings — or download the app.'
+              : 'Early voting, the absentee deadline, Election Day morning — and a reminder if your ballot plan isn\'t finished.'}
+        </span>
+      </div>
+      {state === 'offer' || state === 'busy' ? (
+        <button
+          className="home-reminder-btn"
+          disabled={state === 'busy'}
+          onClick={async () => {
+            setState('busy')
+            try { const r = await enableReminders({ county }); setState(r.ok ? 'done' : 'hidden') } catch { setState('hidden') }
+          }}
+        >
+          {state === 'busy' ? 'Turning on…' : 'Turn on reminders'}
+        </button>
+      ) : null}
+      {state !== 'done' && <button className="home-ios-banner-close" aria-label="Dismiss" onClick={dismiss}>×</button>}
+    </div>
+  )
+}
+
 // ── iOS app banner ──
 function IOSAppBanner() {
   const [dismissed, setDismissed] = useState(() => {
@@ -219,6 +265,9 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
 
       {/* iOS app nudge (Safari on iPhone only) */}
       <IOSAppBanner />
+
+      {/* Reminder opt-in */}
+      <ReminderPrompt county={districts?.county} />
 
       {/* Election-week plan (last 10 days) */}
       {primaryDays > 0 && primaryDays <= 10 && (

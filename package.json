@@ -21,10 +21,12 @@
     "@supabase/supabase-js": "^2.101.1",
     "d3-geo": "^3.1.1",
     "jspdf": "^4.2.1",
+    "pg": "^8.23.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.13.2",
-    "topojson-client": "^3.1.0"
+    "topojson-client": "^3.1.0",
+    "web-push": "^3.6.7"
   },
   "engines": {
     "node": ">=20.0.0"

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import usePageTitle from '../hooks/usePageTitle'
 import { useTextSize, TEXT_SIZES } from '../hooks/useTextSize'
+import { pushAvailability, isSubscribed, enableReminders, disableReminders } from '../utils/push'
 import { useApp } from '../contexts/AppContext'
 import { STATES } from '../data/states'
 import { openOnboarding } from '../components/ui/Onboarding'
@@ -76,6 +77,23 @@ export default function SettingsView() {
   } = useApp()
 
   const [textSize, setTextSize] = useTextSize()
+  const [pushStatus, setPushStatus] = useState('checking') // checking | on | off | ios-needs-homescreen | unsupported | denied | native
+  const [pushBusy, setPushBusy] = useState(false)
+  useEffect(() => {
+    let alive = true
+    const avail = pushAvailability()
+    if (avail !== 'available') { setPushStatus(avail); return undefined }
+    isSubscribed().then(on => { if (alive) setPushStatus(on ? 'on' : 'off') })
+    return () => { alive = false }
+  }, [])
+  async function togglePush() {
+    setPushBusy(true)
+    try {
+      if (pushStatus === 'on') { await disableReminders(); setPushStatus('off') }
+      else { const r = await enableReminders(); setPushStatus(r.ok ? 'on' : (r.permission === 'denied' ? 'denied' : 'off')) }
+    } catch { setPushStatus(pushAvailability() === 'available' ? 'off' : pushAvailability()) }
+    setPushBusy(false)
+  }
 
   /* ── Theme state (mirrors Header useTheme logic) ── */
   const [themeMode, setThemeMode] = useState(() => {
@@ -302,6 +320,31 @@ export default function SettingsView() {
           Notifications
         </h3>
         <div className="settings-card">
+          <div className="settings-row">
+            <div>
+              <span className="settings-label">Election Reminders</span>
+              <span className={`settings-badge ${pushStatus === 'on' ? 'granted' : pushStatus === 'denied' ? 'denied' : 'default'}`}>
+                {pushStatus === 'on' ? 'On' : pushStatus === 'denied' ? 'Blocked' : pushStatus === 'checking' ? '…' : 'Off'}
+              </span>
+              <p className="settings-muted" style={{ margin: '0.35rem 0 0' }}>
+                {pushStatus === 'ios-needs-homescreen'
+                  ? 'On iPhone, reminders work after you add this site to your Home Screen (Share → Add to Home Screen), or get the iPhone app.'
+                  : pushStatus === 'native'
+                    ? 'Reminders arrive by email and text for app users this election.'
+                    : pushStatus === 'unsupported'
+                      ? 'This browser does not support reminders.'
+                      : 'Early voting, the absentee deadline, Election Day — and a nudge if your ballot plan isn\'t finished.'}
+              </p>
+            </div>
+            {(pushStatus === 'on' || pushStatus === 'off') && (
+              <button className="settings-btn" onClick={togglePush} disabled={pushBusy}>
+                {pushBusy ? '…' : pushStatus === 'on' ? 'Turn off' : 'Turn on'}
+              </button>
+            )}
+          </div>
+
+          <div className="settings-divider" />
+
           <div className="settings-row">
             <div>
               <span className="settings-label">Browser Notifications</span>

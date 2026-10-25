@@ -21,6 +21,7 @@ import { getNovemberLocalRaces } from '../data/michiganNovember2026'
 import { getCategoryIcon } from '../data/michiganProposals2026'
 import { loadOfficialCounty, getOfficialBallot } from '../data/officialBallot'
 import generateBallotPDF from '../utils/generateBallotPDF'
+import { markBallotDone } from '../utils/push'
 import { trackAddressEntered, trackPartySelected, trackCandidateSelected, trackBallotComplete, trackProposalVoted, trackChecklistItem, trackShareTool, trackShareBallot } from '../utils/analytics'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
 import useFocusTrap from '../hooks/useFocusTrap'
@@ -1259,6 +1260,7 @@ export default function BallotView() {
     if (totalItems > 0 && decidedCount === totalItems && !completionTracked.current) {
       completionTracked.current = true
       trackBallotComplete(totalItems)
+      markBallotDone(true)
     }
   }, [choices, races, localRaces, proposals])
 
