@@ -34,12 +34,16 @@ details{margin-top:6px}summary{cursor:pointer;font-size:.85rem;color:#0a2342;fon
 .note{font-size:.82rem;color:#666}.links{columns:2;column-gap:24px;font-size:.92rem}.links a{color:#0a2342}footer{padding:24px 20px;text-align:center;color:#666;font-size:.8rem}
 @media(max-width:600px){.yn{grid-template-columns:1fr}.links{columns:1}}`
 
-function layout({ title, description, canonical, body, breadcrumbs }) {
+function layout({ title, description, canonical, body, breadcrumbs, pageType }) {
   const bc = breadcrumbs ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: breadcrumbs.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: b.name, item: b.url })) })}</script>` : ''
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}"><link rel="canonical" href="${canonical}">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="article"><meta property="og:url" content="${canonical}"><meta property="og:site_name" content="Of For &amp; By The People">
-<link rel="icon" href="/favicon.png">${bc}<style>${CSS}</style></head><body>
+<link rel="icon" href="/favicon.png">${bc}
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MDN3Z57G');</script>
+<script>window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'ballot_page_view',page_type:'${esc(pageType || 'jurisdiction')}'});document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="/ballot"]');if(a){window.dataLayer.push({event:'seo_cta_click',link_url:a.href})}},true);</script>
+<style>${CSS}</style></head><body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDN3Z57G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header><a class="brand" href="${SITE}/">Of For &amp; By The People</a><a class="cta" href="${SITE}/ballot?utm_source=seo&utm_medium=ballot-page">Build my ballot →</a></header>
 <main>${body}</main>
 <footer><p style="max-width:760px;margin:0 auto 10px">Of For &amp; By The People is an independent, personally funded voter-education tool. It has no party or candidate affiliation, is not paid for or authorized by any candidate, party, or political committee, and does not coordinate with any campaign. Grades are our opinion of how each candidate&#39;s public record aligns with constitutional and Christian values.</p>Local races and proposals are taken from the official Michigan Secretary of State sample ballots (<a href="https://mvic.sos.state.mi.us/PublicBallot/Index">Voter Information Center</a>). Grades and summaries are the opinion of Of For &amp; By The People. Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a></footer>
@@ -96,7 +100,7 @@ ${j.proposals.length ? j.proposals.map(propHtml).join('') : '<p class="note">No 
 <div class="cta-box"><strong>Plan your vote in two minutes.</strong><br><a href="${SITE}/ballot?utm_source=seo&utm_medium=ballot-page&utm_campaign=${cSlug}-${jSlug}">Open the free ballot builder →</a></div>
 <h2>Other communities in ${esc(countyName)} County</h2><p class="links">${others}</p>`
     mkdirSync(path.join(OUT, cSlug, jSlug), { recursive: true })
-    writeFileSync(path.join(OUT, cSlug, jSlug, 'index.html'), layout({ title, description, canonical: url, body, breadcrumbs: [{ name: 'Michigan', url: `${SITE}/michigan/` }, { name: `${countyName} County`, url: `${SITE}/michigan/${cSlug}/` }, { name: j.name, url }] }))
+    writeFileSync(path.join(OUT, cSlug, jSlug, 'index.html'), layout({ title, description, canonical: url, body, breadcrumbs: [{ name: 'Michigan', url: `${SITE}/michigan/` }, { name: `${countyName} County`, url: `${SITE}/michigan/${cSlug}/` }, { name: j.name, url }], pageType: 'jurisdiction' }))
   }
   // county index
   const cUrl = `${SITE}/michigan/${cSlug}/`
@@ -105,7 +109,7 @@ ${j.proposals.length ? j.proposals.map(propHtml).join('') : '<p class="note">No 
   writeFileSync(path.join(OUT, cSlug, 'index.html'), layout({
     title: `${countyName} County, MI ballot — ${ELECTION}: every city & township`,
     description: `What's on the ballot in ${countyName} County, Michigan for ${ELECTION}: local races, candidates and ${props} local proposals for all ${jurs.length} cities and townships, plus statewide races.`,
-    canonical: cUrl,
+    canonical: cUrl, pageType: 'county',
     body: `<p class="note"><a href="${SITE}/michigan/">Michigan</a> › ${esc(countyName)} County</p><h1>${esc(countyName)} County ballot — ${ELECTION}</h1><p class="lede">Choose your city or township to see every local race and proposal on your official sample ballot.</p><p class="links">${jurs.map(j => `<a href="${SITE}/michigan/${cSlug}/${slug(j.name)}/">${esc(j.name)}</a>`).join(' · ')}</p><div class="cta-box"><strong>Or enter your address and get your exact ballot, graded.</strong><br><a href="${SITE}/ballot?utm_source=seo&utm_medium=county-page">Build my ballot →</a></div>`,
   }))
 }
@@ -115,7 +119,7 @@ urls.push(sUrl)
 writeFileSync(path.join(OUT, 'index.html'), layout({
   title: `Michigan ballot by county — ${ELECTION} General Election`,
   description: `Every local race and proposal on the ${ELECTION} ballot for all 83 Michigan counties and ${counties.reduce((a, c) => a + c.n, 0)} cities and townships, from the official Secretary of State sample ballots.`,
-  canonical: sUrl,
+  canonical: sUrl, pageType: 'state',
   body: `<h1>Michigan ballot — ${ELECTION}</h1><p class="lede">Pick your county, then your city or township, to see what's on your ballot.</p><p class="links">${counties.map(c => `<a href="${SITE}/michigan/${c.slug}/">${esc(c.name)} County</a>`).join(' · ')}</p><div class="cta-box"><strong>Faster: enter your address.</strong><br><a href="${SITE}/ballot?utm_source=seo&utm_medium=state-page">Build my ballot →</a></div>`,
 }))
 writeFileSync(path.join(ROOT, 'public/sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[`${SITE}/`, `${SITE}/ballot`, `${SITE}/welcome`, ...urls].map(u => `  <url><loc>${u}</loc><lastmod>${new Date().toISOString().slice(0, 10)}</lastmod></url>`).join('\n')}\n</urlset>\n`)
