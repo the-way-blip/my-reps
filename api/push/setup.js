@@ -5,8 +5,10 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end()
   const auth = req.headers.authorization || ''
   if (!process.env.CRON_SECRET || auth !== `Bearer ${process.env.CRON_SECRET}`) return res.status(401).json({ error: 'unauthorized' })
-  const conn = process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL
-  if (!conn) return res.status(500).json({ error: 'no POSTGRES_URL' })
+  const raw = process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL
+  if (!raw) return res.status(500).json({ error: 'no POSTGRES_URL' })
+  // Supabase's pooler cert chain isn't in Node's store; drop sslmode from the URL so our ssl option wins
+  const conn = raw.replace(/([?&])sslmode=[^&]*&?/, '$1').replace(/[?&]$/, '')
   const client = new pg.Client({ connectionString: conn, ssl: { rejectUnauthorized: false } })
   try {
     await client.connect()
