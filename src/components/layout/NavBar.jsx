@@ -20,7 +20,7 @@ const icons = {
 
 // Days until November 3 2026 general election
 const daysUntilElection = (() => {
-  const diff = Math.ceil((new Date('2026-11-03') - new Date()) / (1000 * 60 * 60 * 24))
+  const diff = Math.ceil((new Date('2026-11-03T12:00:00') - new Date()) / (1000 * 60 * 60 * 24))
   return diff > 0 ? diff : 0
 })()
 

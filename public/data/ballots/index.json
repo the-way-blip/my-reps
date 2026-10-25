@@ -1,0 +1,670 @@
+{
+  "generatedAt": "2026-10-25T03:20:11.749Z",
+  "source": "Michigan Secretary of State — Voter Information Center sample ballots (election 707, Nov 3 2026)",
+  "counties": [
+    {
+      "county": "Alcona County",
+      "file": "alcona.json",
+      "jurisdictions": 12,
+      "precincts": 12,
+      "races": 96,
+      "proposals": 33
+    },
+    {
+      "county": "Alger County",
+      "file": "alger.json",
+      "jurisdictions": 9,
+      "precincts": 9,
+      "races": 59,
+      "proposals": 1
+    },
+    {
+      "county": "Allegan County",
+      "file": "allegan.json",
+      "jurisdictions": 33,
+      "precincts": 44,
+      "races": 263,
+      "proposals": 108
+    },
+    {
+      "county": "Alpena County",
+      "file": "alpena.json",
+      "jurisdictions": 9,
+      "precincts": 14,
+      "races": 45,
+      "proposals": 30
+    },
+    {
+      "county": "Antrim County",
+      "file": "antrim.json",
+      "jurisdictions": 15,
+      "precincts": 16,
+      "races": 117,
+      "proposals": 10
+    },
+    {
+      "county": "Arenac County",
+      "file": "arenac.json",
+      "jurisdictions": 15,
+      "precincts": 15,
+      "races": 93,
+      "proposals": 9
+    },
+    {
+      "county": "Baraga County",
+      "file": "baraga.json",
+      "jurisdictions": 5,
+      "precincts": 6,
+      "races": 31,
+      "proposals": 4
+    },
+    {
+      "county": "Barry County",
+      "file": "barry.json",
+      "jurisdictions": 17,
+      "precincts": 24,
+      "races": 134,
+      "proposals": 19
+    },
+    {
+      "county": "Bay County",
+      "file": "bay.json",
+      "jurisdictions": 18,
+      "precincts": 35,
+      "races": 175,
+      "proposals": 28
+    },
+    {
+      "county": "Benzie County",
+      "file": "benzie.json",
+      "jurisdictions": 13,
+      "precincts": 13,
+      "races": 102,
+      "proposals": 65
+    },
+    {
+      "county": "Berrien County",
+      "file": "berrien.json",
+      "jurisdictions": 30,
+      "precincts": 55,
+      "races": 354,
+      "proposals": 25
+    },
+    {
+      "county": "Branch County",
+      "file": "branch.json",
+      "jurisdictions": 18,
+      "precincts": 21,
+      "races": 169,
+      "proposals": 1
+    },
+    {
+      "county": "Calhoun County",
+      "file": "calhoun.json",
+      "jurisdictions": 23,
+      "precincts": 47,
+      "races": 270,
+      "proposals": 3
+    },
+    {
+      "county": "Cass County",
+      "file": "cass.json",
+      "jurisdictions": 16,
+      "precincts": 21,
+      "races": 113,
+      "proposals": 2
+    },
+    {
+      "county": "Charlevoix County",
+      "file": "charlevoix.json",
+      "jurisdictions": 18,
+      "precincts": 20,
+      "races": 120,
+      "proposals": 29
+    },
+    {
+      "county": "Cheboygan County",
+      "file": "cheboygan.json",
+      "jurisdictions": 20,
+      "precincts": 22,
+      "races": 130,
+      "proposals": 40
+    },
+    {
+      "county": "Chippewa County",
+      "file": "chippewa.json",
+      "jurisdictions": 17,
+      "precincts": 19,
+      "races": 94,
+      "proposals": 31
+    },
+    {
+      "county": "Clare County",
+      "file": "clare.json",
+      "jurisdictions": 18,
+      "precincts": 19,
+      "races": 155,
+      "proposals": 32
+    },
+    {
+      "county": "Clinton County",
+      "file": "clinton.json",
+      "jurisdictions": 20,
+      "precincts": 32,
+      "races": 168,
+      "proposals": 28
+    },
+    {
+      "county": "Crawford County",
+      "file": "crawford.json",
+      "jurisdictions": 7,
+      "precincts": 9,
+      "races": 61,
+      "proposals": 1
+    },
+    {
+      "county": "Delta County",
+      "file": "delta.json",
+      "jurisdictions": 16,
+      "precincts": 21,
+      "races": 110,
+      "proposals": 5
+    },
+    {
+      "county": "Dickinson County",
+      "file": "dickinson.json",
+      "jurisdictions": 10,
+      "precincts": 15,
+      "races": 56,
+      "proposals": 3
+    },
+    {
+      "county": "Eaton County",
+      "file": "eaton.json",
+      "jurisdictions": 22,
+      "precincts": 39,
+      "races": 212,
+      "proposals": 55
+    },
+    {
+      "county": "Emmet County",
+      "file": "emmet.json",
+      "jurisdictions": 18,
+      "precincts": 22,
+      "races": 129,
+      "proposals": 24
+    },
+    {
+      "county": "Genesee County",
+      "file": "genesee.json",
+      "jurisdictions": 28,
+      "precincts": 142,
+      "races": 294,
+      "proposals": 122
+    },
+    {
+      "county": "Gladwin County",
+      "file": "gladwin.json",
+      "jurisdictions": 17,
+      "precincts": 17,
+      "races": 143,
+      "proposals": 27
+    },
+    {
+      "county": "Gogebic County",
+      "file": "gogebic.json",
+      "jurisdictions": 9,
+      "precincts": 10,
+      "races": 51,
+      "proposals": 5
+    },
+    {
+      "county": "Grand Traverse County",
+      "file": "grand-traverse.json",
+      "jurisdictions": 14,
+      "precincts": 36,
+      "races": 96,
+      "proposals": 60
+    },
+    {
+      "county": "Gratiot County",
+      "file": "gratiot.json",
+      "jurisdictions": 19,
+      "precincts": 21,
+      "races": 149,
+      "proposals": 17
+    },
+    {
+      "county": "Hillsdale County",
+      "file": "hillsdale.json",
+      "jurisdictions": 22,
+      "precincts": 26,
+      "races": 196,
+      "proposals": 17
+    },
+    {
+      "county": "Houghton County",
+      "file": "houghton.json",
+      "jurisdictions": 16,
+      "precincts": 29,
+      "races": 113,
+      "proposals": 42
+    },
+    {
+      "county": "Huron County",
+      "file": "huron.json",
+      "jurisdictions": 31,
+      "precincts": 31,
+      "races": 239,
+      "proposals": 40
+    },
+    {
+      "county": "Ingham County",
+      "file": "ingham.json",
+      "jurisdictions": 21,
+      "precincts": 81,
+      "races": 225,
+      "proposals": 24
+    },
+    {
+      "county": "Ionia County",
+      "file": "ionia.json",
+      "jurisdictions": 19,
+      "precincts": 27,
+      "races": 161,
+      "proposals": 4
+    },
+    {
+      "county": "Iosco County",
+      "file": "iosco.json",
+      "jurisdictions": 14,
+      "precincts": 16,
+      "races": 63,
+      "proposals": 5
+    },
+    {
+      "county": "Iron County",
+      "file": "iron.json",
+      "jurisdictions": 11,
+      "precincts": 12,
+      "races": 73,
+      "proposals": 4
+    },
+    {
+      "county": "Isabella County",
+      "file": "isabella.json",
+      "jurisdictions": 17,
+      "precincts": 23,
+      "races": 169,
+      "proposals": 29
+    },
+    {
+      "county": "Jackson County",
+      "file": "jackson.json",
+      "jurisdictions": 20,
+      "precincts": 56,
+      "races": 227,
+      "proposals": 32
+    },
+    {
+      "county": "Kalamazoo County",
+      "file": "kalamazoo.json",
+      "jurisdictions": 19,
+      "precincts": 85,
+      "races": 223,
+      "proposals": 23
+    },
+    {
+      "county": "Kalkaska County",
+      "file": "kalkaska.json",
+      "jurisdictions": 12,
+      "precincts": 13,
+      "races": 55,
+      "proposals": 14
+    },
+    {
+      "county": "Kent County",
+      "file": "kent.json",
+      "jurisdictions": 30,
+      "precincts": 202,
+      "races": 343,
+      "proposals": 85
+    },
+    {
+      "county": "Keweenaw County",
+      "file": "keweenaw.json",
+      "jurisdictions": 5,
+      "precincts": 5,
+      "races": 39,
+      "proposals": 5
+    },
+    {
+      "county": "Lake County",
+      "file": "lake.json",
+      "jurisdictions": 15,
+      "precincts": 15,
+      "races": 111,
+      "proposals": 38
+    },
+    {
+      "county": "Lapeer County",
+      "file": "lapeer.json",
+      "jurisdictions": 20,
+      "precincts": 32,
+      "races": 188,
+      "proposals": 20
+    },
+    {
+      "county": "Leelanau County",
+      "file": "leelanau.json",
+      "jurisdictions": 12,
+      "precincts": 13,
+      "races": 92,
+      "proposals": 16
+    },
+    {
+      "county": "Lenawee County",
+      "file": "lenawee.json",
+      "jurisdictions": 26,
+      "precincts": 40,
+      "races": 286,
+      "proposals": 13
+    },
+    {
+      "county": "Livingston County",
+      "file": "livingston.json",
+      "jurisdictions": 18,
+      "precincts": 65,
+      "races": 166,
+      "proposals": 39
+    },
+    {
+      "county": "Luce County",
+      "file": "luce.json",
+      "jurisdictions": 4,
+      "precincts": 4,
+      "races": 27,
+      "proposals": 13
+    },
+    {
+      "county": "Mackinac County",
+      "file": "mackinac.json",
+      "jurisdictions": 13,
+      "precincts": 14,
+      "races": 77,
+      "proposals": 18
+    },
+    {
+      "county": "Macomb County",
+      "file": "macomb.json",
+      "jurisdictions": 24,
+      "precincts": 249,
+      "races": 289,
+      "proposals": 86
+    },
+    {
+      "county": "Manistee County",
+      "file": "manistee.json",
+      "jurisdictions": 15,
+      "precincts": 16,
+      "races": 103,
+      "proposals": 61
+    },
+    {
+      "county": "Marquette County",
+      "file": "marquette.json",
+      "jurisdictions": 22,
+      "precincts": 28,
+      "races": 122,
+      "proposals": 12
+    },
+    {
+      "county": "Mason County",
+      "file": "mason.json",
+      "jurisdictions": 17,
+      "precincts": 22,
+      "races": 129,
+      "proposals": 20
+    },
+    {
+      "county": "Mecosta County",
+      "file": "mecosta.json",
+      "jurisdictions": 17,
+      "precincts": 19,
+      "races": 133,
+      "proposals": 13
+    },
+    {
+      "county": "Menominee County",
+      "file": "menominee.json",
+      "jurisdictions": 16,
+      "precincts": 19,
+      "races": 105,
+      "proposals": 2
+    },
+    {
+      "county": "Midland County",
+      "file": "midland.json",
+      "jurisdictions": 18,
+      "precincts": 33,
+      "races": 183,
+      "proposals": 33
+    },
+    {
+      "county": "Missaukee County",
+      "file": "missaukee.json",
+      "jurisdictions": 17,
+      "precincts": 17,
+      "races": 117,
+      "proposals": 7
+    },
+    {
+      "county": "Monroe County",
+      "file": "monroe.json",
+      "jurisdictions": 19,
+      "precincts": 63,
+      "races": 212,
+      "proposals": 17
+    },
+    {
+      "county": "Montcalm County",
+      "file": "montcalm.json",
+      "jurisdictions": 23,
+      "precincts": 27,
+      "races": 254,
+      "proposals": 43
+    },
+    {
+      "county": "Montmorency County",
+      "file": "montmorency.json",
+      "jurisdictions": 8,
+      "precincts": 9,
+      "races": 49,
+      "proposals": 20
+    },
+    {
+      "county": "Muskegon County",
+      "file": "muskegon.json",
+      "jurisdictions": 23,
+      "precincts": 52,
+      "races": 180,
+      "proposals": 27
+    },
+    {
+      "county": "Newaygo County",
+      "file": "newaygo.json",
+      "jurisdictions": 28,
+      "precincts": 29,
+      "races": 188,
+      "proposals": 43
+    },
+    {
+      "county": "Oakland County",
+      "file": "oakland.json",
+      "jurisdictions": 51,
+      "precincts": 404,
+      "races": 578,
+      "proposals": 176
+    },
+    {
+      "county": "Oceana County",
+      "file": "oceana.json",
+      "jurisdictions": 17,
+      "precincts": 17,
+      "races": 142,
+      "proposals": 5
+    },
+    {
+      "county": "Ogemaw County",
+      "file": "ogemaw.json",
+      "jurisdictions": 16,
+      "precincts": 17,
+      "races": 146,
+      "proposals": 53
+    },
+    {
+      "county": "Ontonagon County",
+      "file": "ontonagon.json",
+      "jurisdictions": 11,
+      "precincts": 11,
+      "races": 69,
+      "proposals": 19
+    },
+    {
+      "county": "Osceola County",
+      "file": "osceola.json",
+      "jurisdictions": 18,
+      "precincts": 18,
+      "races": 133,
+      "proposals": 19
+    },
+    {
+      "county": "Oscoda County",
+      "file": "oscoda.json",
+      "jurisdictions": 6,
+      "precincts": 7,
+      "races": 46,
+      "proposals": 19
+    },
+    {
+      "county": "Otsego County",
+      "file": "otsego.json",
+      "jurisdictions": 10,
+      "precincts": 13,
+      "races": 45,
+      "proposals": 20
+    },
+    {
+      "county": "Ottawa County",
+      "file": "ottawa.json",
+      "jurisdictions": 23,
+      "precincts": 98,
+      "races": 142,
+      "proposals": 51
+    },
+    {
+      "county": "Presque Isle County",
+      "file": "presque-isle.json",
+      "jurisdictions": 16,
+      "precincts": 16,
+      "races": 84,
+      "proposals": 91
+    },
+    {
+      "county": "Roscommon County",
+      "file": "roscommon.json",
+      "jurisdictions": 11,
+      "precincts": 13,
+      "races": 108,
+      "proposals": 7
+    },
+    {
+      "county": "Saginaw County",
+      "file": "saginaw.json",
+      "jurisdictions": 30,
+      "precincts": 71,
+      "races": 315,
+      "proposals": 94
+    },
+    {
+      "county": "Sanilac County",
+      "file": "sanilac.json",
+      "jurisdictions": 30,
+      "precincts": 30,
+      "races": 258,
+      "proposals": 12
+    },
+    {
+      "county": "Schoolcraft County",
+      "file": "schoolcraft.json",
+      "jurisdictions": 9,
+      "precincts": 9,
+      "races": 46,
+      "proposals": 2
+    },
+    {
+      "county": "Shiawassee County",
+      "file": "shiawassee.json",
+      "jurisdictions": 21,
+      "precincts": 30,
+      "races": 169,
+      "proposals": 46
+    },
+    {
+      "county": "St. Clair County",
+      "file": "st-clair.json",
+      "jurisdictions": 30,
+      "precincts": 61,
+      "races": 271,
+      "proposals": 18
+    },
+    {
+      "county": "St. Joseph County",
+      "file": "st-joseph.json",
+      "jurisdictions": 18,
+      "precincts": 23,
+      "races": 164,
+      "proposals": 10
+    },
+    {
+      "county": "Tuscola County",
+      "file": "tuscola.json",
+      "jurisdictions": 25,
+      "precincts": 26,
+      "races": 189,
+      "proposals": 60
+    },
+    {
+      "county": "Van Buren County",
+      "file": "van-buren.json",
+      "jurisdictions": 22,
+      "precincts": 31,
+      "races": 210,
+      "proposals": 21
+    },
+    {
+      "county": "Washtenaw County",
+      "file": "washtenaw.json",
+      "jurisdictions": 27,
+      "precincts": 112,
+      "races": 281,
+      "proposals": 22
+    },
+    {
+      "county": "Wayne County",
+      "file": "wayne.json",
+      "jurisdictions": 43,
+      "precincts": 720,
+      "races": 499,
+      "proposals": 132
+    },
+    {
+      "county": "Wexford County",
+      "file": "wexford.json",
+      "jurisdictions": 18,
+      "precincts": 20,
+      "races": 135,
+      "proposals": 16
+    }
+  ]
+}

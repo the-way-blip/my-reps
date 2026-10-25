@@ -204,7 +204,7 @@ export const MI_ELECTIONS = [
     date: 'November 3, 2026',
     description: 'Local races on the November general election ballot across Michigan. Includes city councils, township boards, county commissioners, judges, and local ballot proposals. Held concurrently with state and federal races.',
     registrationDeadline: 'October 19, 2026 (by mail/online) or November 3, 2026 (in person at clerk)',
-    earlyVotingStart: 'October 25, 2026',
+    earlyVotingStart: 'October 24, 2026 (through November 1)',
     absenteeDeadline: 'October 30, 2026 (by mail, 5 p.m.) or November 2, 2026 (in person, 4 p.m.)',
     offices: [
       'City council seats',
@@ -224,7 +224,7 @@ export const MI_ELECTIONS = [
     date: 'November 3, 2026',
     description: 'Major election year: Governor (open seat), U.S. Senate (open seat), all 13 U.S. House seats, full state legislature, two Supreme Court seats, and statewide executive offices.',
     registrationDeadline: 'October 19, 2026 (by mail/online) or November 3, 2026 (in person at clerk)',
-    earlyVotingStart: 'October 25, 2026',
+    earlyVotingStart: 'October 24, 2026 (through November 1)',
     absenteeDeadline: 'October 30, 2026 (by mail, 5 p.m.) or November 2, 2026 (in person, 4 p.m.)',
     offices: [
       'Governor and Lieutenant Governor (open — Whitmer term-limited)',

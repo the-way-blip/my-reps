@@ -13874,3 +13874,25 @@ a.landing-tool-card {
     transform: none;
   }
 }
+
+/* Official ballot language (collapsible) on proposal cards */
+.ballot-proposal-language {
+  margin: 0.5rem 0 0.75rem;
+  border: 1px solid var(--border, rgba(0,0,0,0.12));
+  border-radius: 8px;
+  padding: 0.4rem 0.75rem;
+  background: var(--bg-secondary, rgba(0,0,0,0.03));
+}
+.ballot-proposal-language summary {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.ballot-proposal-language p {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  white-space: pre-line;
+  color: var(--text-secondary);
+}

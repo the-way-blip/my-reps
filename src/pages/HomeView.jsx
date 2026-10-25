@@ -17,7 +17,8 @@ const MI_SOS_SAMPLE_BALLOT = 'https://mvic.sos.state.mi.us/Voter/Index'
 
 // ── Countdown helper ──
 function daysUntil(dateStr) {
-  const target = new Date(dateStr)
+  // Bare YYYY-MM-DD parses as UTC midnight (previous evening in Michigan); anchor to local noon
+  const target = new Date(dateStr.includes('T') ? dateStr : `${dateStr}T12:00:00`)
   const now = new Date()
   const diff = Math.ceil((target - now) / (1000 * 60 * 60 * 24))
   return diff > 0 ? diff : 0
@@ -75,10 +76,10 @@ function AddressHero({ onSubmit, loading, error }) {
         </div>
       )}
       <div className="home-hero-countdown">
-        <span className="home-countdown-num">{new Date().toDateString() === new Date('2026-11-03').toDateString() ? 'TODAY' : daysUntil('2026-11-03')}</span>
-        <span className="home-countdown-label">{new Date().toDateString() === new Date('2026-11-03').toDateString() ? 'is the Michigan General Election' : 'days until the November 3 election'}</span>
+        <span className="home-countdown-num">{new Date().toDateString() === new Date('2026-11-03T12:00:00').toDateString() ? 'TODAY' : daysUntil('2026-11-03')}</span>
+        <span className="home-countdown-label">{new Date().toDateString() === new Date('2026-11-03T12:00:00').toDateString() ? 'is the Michigan General Election' : 'days until the November 3 election'}</span>
       </div>
-      {new Date().toDateString() === new Date('2026-11-03').toDateString() && (
+      {new Date().toDateString() === new Date('2026-11-03T12:00:00').toDateString() && (
         <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="home-hero-reg-nudge">
           <strong>Polls are open.</strong> Not registered? You can register and vote at your clerk's office today.
         </a>
@@ -86,6 +87,16 @@ function AddressHero({ onSubmit, loading, error }) {
       {daysUntil('2026-10-19') > 0 && daysUntil('2026-10-19') <= 45 && (
         <a href="https://mvic.sos.state.mi.us/RegisterVoter" target="_blank" rel="noopener noreferrer" className="home-hero-reg-nudge">
           <strong>{daysUntil('2026-10-19')} days</strong> to register (online/mail)
+        </a>
+      )}
+      {daysUntil('2026-10-19') <= 0 && daysUntil('2026-11-01') >= 0 && daysUntil('2026-11-03') > 0 && (
+        <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="home-hero-reg-nudge">
+          <strong>Early voting is open</strong> through Sunday, Nov 1 — find your early voting site. Not registered? Register and vote in person at your clerk's office through Election Day.
+        </a>
+      )}
+      {daysUntil('2026-11-01') < 0 && daysUntil('2026-11-03') > 0 && (
+        <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="home-hero-reg-nudge">
+          <strong>Early voting has ended.</strong> Return absentee ballots to your clerk or drop box — do not mail them. Polls open Tuesday 7 a.m. – 8 p.m.
         </a>
       )}
     </div>
@@ -143,7 +154,7 @@ function CollapsibleSection({ title, defaultOpen = false, children }) {
 // ── Dashboard (shown after address entry) ──
 function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
   const primaryDays = daysUntil('2026-11-03')
-  const isElectionDay = new Date().toDateString() === new Date('2026-11-03').toDateString()
+  const isElectionDay = new Date().toDateString() === new Date('2026-11-03T12:00:00').toDateString()
 
   // Polling location from Google Civic
   const pollingPlace = pollingData?.pollingLocations?.[0] || null
@@ -194,11 +205,13 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
             </svg>
           }
-          title="Find Your Polling Place"
-          desc="Look up where to vote today. Polls are open — bring a valid photo ID."
+          title={isElectionDay ? 'Find Your Polling Place' : 'Vote Early or Absentee'}
+          desc={isElectionDay
+            ? 'Look up where to vote today. Polls are open 7 a.m. – 8 p.m. — bring a valid photo ID.'
+            : 'Early voting runs October 24 – November 1 at your early voting site. Absentee ballots can be returned to your clerk or drop box until 8 p.m. on Election Day.'}
           href={MI_SOS_VOTER_LOOKUP}
           accent="var(--accent)"
-          badge="Vote Today"
+          badge={isElectionDay ? 'Vote Today' : 'Early Voting Open'}
         />
 
         {/* 2. Your Ballot */}

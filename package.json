@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "ios": "vite build && cap sync ios && cap open ios",
-    "ios:sync": "vite build && cap sync ios",
+    "ios": "vite build && rm -rf dist/data && cap sync ios && cap open ios",
+    "ios:sync": "vite build && rm -rf dist/data && cap sync ios",
     "fetch-legislators": "node scripts/fetch-legislators.js"
   },
   "dependencies": {

@@ -1062,7 +1062,7 @@ export default function ElectionsView() {
             <section className="elections-section">
               <h3 className="section-heading">Statewide Races</h3>
               <p className="detail-meta" style={{ marginBottom: '1rem' }}>
-                Primary: August 4, 2026 &middot; General: November 3, 2026
+                General Election: Tuesday, November 3, 2026 &middot; Polls open 7 a.m. – 8 p.m.
               </p>
               <div className="elections-grid">
                 <RaceCard race={MI_2026_GOVERNOR} title="Governor" />

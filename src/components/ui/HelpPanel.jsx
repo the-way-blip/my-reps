@@ -58,7 +58,7 @@ const FAQS = [
   {
     category: 'Build My Ballot',
     question: 'What elections are covered?',
-    answer: 'We currently cover the Michigan August 2026 primary election with full candidate data. More states and elections are being added. Check the State Coverage page to see what\'s available.',
+    answer: 'We cover the Michigan November 3, 2026 general election — every statewide, congressional, and legislative race with graded candidates, plus every local race and ballot proposal for all 83 counties straight from the official Michigan Secretary of State sample ballots. More states and elections are being added. Check the State Coverage page to see what\'s available.',
     keywords: ['election', 'state', 'coverage', 'michigan', 'primary', 'which'],
   },
   {

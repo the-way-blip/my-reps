@@ -1,4 +1,6 @@
-// Michigan August 4, 2026 Primary — Local Ballot Proposals & Millages
+// LEGACY: Michigan August 4, 2026 Primary — Local Ballot Proposals & Millages (already decided).
+// The November 3, 2026 ballot uses official SOS sample-ballot data via src/data/officialBallot.js;
+// this file now only supplies the shared category labels/icons.
 //
 // Sources: County clerk offices, MI SOS, Ballotpedia, news coverage.
 // Proposals vary by jurisdiction — users see only proposals for their location.
@@ -419,7 +421,13 @@ const CATEGORY_LABELS = {
   'roads': 'Roads',
   'parks': 'Parks & Recreation',
   'senior-services': 'Senior Services',
-  'mental-health': 'Mental Health',
+  'mental-health': 'Health',
+  'transit': 'Public Transit',
+  'veterans': 'Veterans',
+  'governance': 'Government & Charter',
+  'taxes': 'Taxes',
+  'cemetery': 'Cemetery',
+  'other': 'Local Proposal',
 }
 
 const CATEGORY_ICONS = {
@@ -433,6 +441,12 @@ const CATEGORY_ICONS = {
   'parks': '🌲',
   'senior-services': '👴',
   'mental-health': '🧠',
+  'transit': '🚌',
+  'veterans': '🎖️',
+  'governance': '🏛️',
+  'taxes': '💵',
+  'cemetery': '🪦',
+  'other': '📋',
 }
 
 export function getCategoryLabel(category) {

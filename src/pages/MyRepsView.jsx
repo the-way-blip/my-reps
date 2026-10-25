@@ -606,7 +606,7 @@ export default function MyRepsView() {
           {/* Data freshness banner */}
           {userAddress && !isLoading && (countyReps.length > 0 || cityReps.length > 0 || townshipReps.length > 0 || villageReps.length > 0 || schoolReps.length > 0) && (
             <div className="myreps-freshness-banner">
-              <p>Local government data last verified: <strong>April 2026</strong>. Federal and state data is fetched live from Congress.gov and OpenStates.</p>
+              <p>Local government data last verified: <strong>October 2026</strong>. Federal and state data is fetched live from Congress.gov and OpenStates.</p>
             </div>
           )}
         </div>

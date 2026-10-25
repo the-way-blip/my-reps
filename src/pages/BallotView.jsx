@@ -18,7 +18,8 @@ import {
   getGradeColor,
 } from '../data/michiganPrimary2026'
 import { getNovemberLocalRaces } from '../data/michiganNovember2026'
-import { getProposalsForLocation, getCategoryLabel, getCategoryIcon } from '../data/michiganProposals2026'
+import { getCategoryIcon } from '../data/michiganProposals2026'
+import { loadOfficialCounty, getOfficialBallot } from '../data/officialBallot'
 import generateBallotPDF from '../utils/generateBallotPDF'
 import { trackAddressEntered, trackPartySelected, trackCandidateSelected, trackBallotComplete, trackProposalVoted, trackChecklistItem, trackShareTool, trackShareBallot } from '../utils/analytics'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
@@ -597,6 +598,17 @@ function ProposalCard({ proposal, choice, onVote }) {
 
           <p className="ballot-proposal-desc">{proposal.description}</p>
 
+          {proposal.ballotLanguage && proposal.ballotLanguage !== proposal.description && (
+            <details className="ballot-proposal-language">
+              <summary>Official ballot language</summary>
+              <p>{proposal.ballotLanguage}</p>
+            </details>
+          )}
+
+          {proposal.precinctNote && (
+            <p className="ballot-race-note">{proposal.precinctNote}</p>
+          )}
+
           {proposal.taxImpact && (
             <div className="ballot-proposal-tax">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
@@ -623,6 +635,7 @@ function ProposalCard({ proposal, choice, onVote }) {
             </button>
           </div>
 
+          {(proposal.conservativeView || proposal.progressiveView) && (
           <div className="ballot-proposal-views">
             <div className="ballot-proposal-view ballot-proposal-view-conservative">
               <span className="ballot-proposal-view-label">Conservative View</span>
@@ -633,6 +646,7 @@ function ProposalCard({ proposal, choice, onVote }) {
               <p>{proposal.progressiveView}</p>
             </div>
           </div>
+          )}
 
           {proposal.recommendation && (
             <div className="ballot-proposal-recommendation">
@@ -658,7 +672,7 @@ function ProposalCard({ proposal, choice, onVote }) {
 
 function DeadlineBanner() {
   const now = new Date()
-  const electionDate = new Date('2026-11-03')
+  const electionDate = new Date('2026-11-03T12:00:00')
   const isElectionDay = now.toDateString() === electionDate.toDateString()
   const isPastElection = now > electionDate && !isElectionDay
 
@@ -688,11 +702,11 @@ function DeadlineBanner() {
   }
 
   const deadlines = [
-    { date: new Date('2026-10-19'), label: 'Registration deadline (online/mail)', action: 'Register now', href: 'https://mvic.sos.state.mi.us/RegisterVoter' },
-    { date: new Date('2026-10-25'), label: 'Early voting begins', action: 'Find early voting site', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
-    { date: new Date('2026-10-30'), label: 'Absentee ballot deadline (mail)', action: 'Request absentee ballot', href: 'https://mvic.sos.state.mi.us/AVApplication/Index' },
-    { date: new Date('2026-11-02'), label: 'Last day for in-person absentee', action: 'Find your clerk', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
-    { date: new Date('2026-11-03'), label: 'General Election Day', action: 'Find your polling place', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
+    { date: new Date('2026-10-19T12:00:00'), label: 'Registration deadline (online/mail)', action: 'Register now', href: 'https://mvic.sos.state.mi.us/RegisterVoter' },
+    { date: new Date('2026-10-24T12:00:00'), label: 'Early voting begins', action: 'Find early voting site', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
+    { date: new Date('2026-10-30T12:00:00'), label: 'Absentee ballot deadline (mail)', action: 'Request absentee ballot', href: 'https://mvic.sos.state.mi.us/AVApplication/Index' },
+    { date: new Date('2026-11-02T12:00:00'), label: 'Last day for in-person absentee', action: 'Find your clerk', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
+    { date: new Date('2026-11-03T12:00:00'), label: 'General Election Day', action: 'Find your polling place', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
   ]
 
   const next = deadlines.find(d => d.date >= now)
@@ -1164,17 +1178,34 @@ export default function BallotView() {
     return getGeneralLocalRaces(localGeo)
   }, [localGeo])
 
-  // November local races (school boards, county officers, etc.)
-  const novemberLocalRaces = useMemo(() => {
-    if (!localGeo) return []
-    return getNovemberLocalRaces(localGeo)
-  }, [localGeo])
+  // Official SOS sample-ballot data for the user's county (every local race + proposal)
+  const [officialResult, setOfficialResult] = useState(null)
+  const geoCounty = localGeo?.county || null
+  useEffect(() => {
+    if (!geoCounty) return undefined
+    let cancelled = false
+    loadOfficialCounty(geoCounty).then(data => {
+      if (!cancelled) setOfficialResult({ county: geoCounty, data })
+    })
+    return () => { cancelled = true }
+  }, [geoCounty])
+  const officialCounty = officialResult?.county === geoCounty ? officialResult.data : null
+  const officialLoading = !!geoCounty && officialResult?.county !== geoCounty
+  const official = useMemo(() => getOfficialBallot(officialCounty, localGeo), [officialCounty, localGeo])
 
-  // Statewide + local ballot proposals
-  const proposals = useMemo(() => {
-    const local = localGeo ? getProposalsForLocation(localGeo) : []
-    return [...BALLOT_PROPOSALS, ...local]
-  }, [localGeo])
+  // Legacy hand-entered local races — only when the address can't be matched to an official ballot
+  const novemberLocalRaces = useMemo(() => {
+    if (!localGeo || official.matched || officialLoading) return []
+    return getNovemberLocalRaces(localGeo)
+  }, [localGeo, official.matched, officialLoading])
+
+  const combinedLocalRaces = useMemo(
+    () => (official.matched ? official.races : [...localRaces, ...novemberLocalRaces]),
+    [official, localRaces, novemberLocalRaces]
+  )
+
+  // Statewide + official local ballot proposals
+  const proposals = useMemo(() => [...BALLOT_PROPOSALS, ...official.proposals], [official])
 
   const [showStickyBar, setShowStickyBar] = useState(false)
   const progressRef = useRef(null)
@@ -1246,7 +1277,7 @@ export default function BallotView() {
       delete next[proposalId]
     }
     setChoices(next)
-    persist(next, party, address)
+    persist(next, null, address)
   }
 
   const handleAddressSubmit = (addr) => {
@@ -1270,7 +1301,7 @@ export default function BallotView() {
   }
 
   // Summary stats
-  const allRaces = useMemo(() => [...races, ...localRaces, ...novemberLocalRaces], [races, localRaces, novemberLocalRaces])
+  const allRaces = useMemo(() => [...races, ...combinedLocalRaces], [races, combinedLocalRaces])
   const totalItems = allRaces.length + proposals.length
   const decidedCount = Object.keys(choices).filter(k => choices[k]?.name).length
   const totalRaces = allRaces.length
@@ -1303,14 +1334,14 @@ export default function BallotView() {
 
   // Countdown to election
   const daysUntil = useMemo(() => {
-    const election = new Date('2026-11-03')
+    const election = new Date('2026-11-03T12:00:00')
     const now = new Date()
     const diff = Math.ceil((election - now) / (1000 * 60 * 60 * 24))
     return diff > 0 ? diff : 0
   }, [])
 
   const isElectionDay = useMemo(() => {
-    return new Date().toDateString() === new Date('2026-11-03').toDateString()
+    return new Date().toDateString() === new Date('2026-11-03T12:00:00').toDateString()
   }, [])
 
   return (
@@ -1611,7 +1642,7 @@ export default function BallotView() {
           <div className="ballot-jump-nav">
             <span className="ballot-jump-label">Jump to:</span>
             <button onClick={() => document.getElementById('section-races')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Races</button>
-            {(localRaces.length > 0 || novemberLocalRaces.length > 0) && (
+            {combinedLocalRaces.length > 0 && (
               <button onClick={() => document.getElementById('section-local')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Local</button>
             )}
             {proposals.length > 0 && (
@@ -1661,7 +1692,7 @@ export default function BallotView() {
           </section>
 
           {/* Local Races (County Executive, Judicial, School Boards, County Officers, etc.) */}
-          {(localRaces.length > 0 || novemberLocalRaces.length > 0) && (
+          {combinedLocalRaces.length > 0 && (
             <section id="section-local" className="ballot-section ballot-section-local">
               <h3 className="ballot-section-title">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18">
@@ -1670,9 +1701,11 @@ export default function BallotView() {
                 Local Races
               </h3>
               <p className="ballot-local-note">
-                These local races appear on your November general election ballot.
+                {official.matched
+                  ? `From the official Michigan Secretary of State sample ballot for ${official.jurisdiction}${official.precincts > 1 ? ` (${official.precincts} precincts)` : ''}. Where a race appears only in some precincts, a note says so — confirm with your precinct's sample ballot.`
+                  : 'These local races appear on your November general election ballot.'}
               </p>
-              {[...localRaces, ...novemberLocalRaces].some(r => r.type === 'nonpartisan') && (
+              {combinedLocalRaces.some(r => r.type === 'nonpartisan') && (
                 <div className="ballot-judicial-explainer">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16" style={{ flexShrink: 0, marginTop: '0.1rem' }}>
                     <path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" />
@@ -1684,7 +1717,7 @@ export default function BallotView() {
                 </div>
               )}
               <div className="ballot-races">
-                {[...localRaces, ...novemberLocalRaces].map(race => (
+                {combinedLocalRaces.map(race => (
                   <RaceCard
                     key={race.id}
                     race={race}
@@ -1699,7 +1732,7 @@ export default function BallotView() {
           )}
 
           {/* Note about county/township offices NOT on this ballot */}
-          {localGeo?.county && (
+          {localGeo?.county && !official.matched && !officialLoading && (
             <div className="ballot-not-on-ballot-note">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
                 <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
@@ -1740,12 +1773,23 @@ export default function BallotView() {
                   </svg>
                 </div>
                 <div className="ballot-explainer-text">
-                  <strong>More local proposals coming soon</strong>
-                  <p>
-                    School bonds, road millages, park millages, police/fire millages, and other hyperlocal proposals
-                    are typically published by county clerks about 60 days before the election. We'll add them to your
-                    personalized ballot as soon as they're available (early September 2026).
-                  </p>
+                  {official.matched ? (
+                    <>
+                      <strong>Source: your official sample ballot</strong>
+                      <p>
+                        Local proposals above are taken from the Michigan Secretary of State sample ballot for {official.jurisdiction}.
+                        Tap any proposal to read the full official ballot language. Plain-English summaries and perspectives are ours.
+                      </p>
+                    </>
+                  ) : (
+                    <>
+                      <strong>Local proposals not shown</strong>
+                      <p>
+                        We couldn't match this address to an official sample ballot, so only statewide proposals are listed.
+                        Check your official sample ballot at the Michigan Voter Information Center for local millages and bonds.
+                      </p>
+                    </>
+                  )}
                 </div>
               </div>
               <div className="ballot-proposals-disclaimer">
