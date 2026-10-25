@@ -3,60 +3,140 @@
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "vite",
   "functions": {
-    "api/congress/[...path].js": { "maxDuration": 30 },
-    "api/openstates/[...path].js": { "maxDuration": 30 },
-    "api/census/[...path].js": { "maxDuration": 30 }
+    "api/congress/[...path].js": {
+      "maxDuration": 30
+    },
+    "api/openstates/[...path].js": {
+      "maxDuration": 30
+    },
+    "api/census/[...path].js": {
+      "maxDuration": 30
+    }
   },
   "redirects": [
     {
+      "source": "/vote",
+      "destination": "/?utm_source=billboard&utm_medium=outdoor&utm_campaign=nov3",
+      "permanent": false
+    },
+    {
+      "source": "/billboard",
+      "destination": "/?utm_source=billboard&utm_medium=outdoor&utm_campaign=nov3",
+      "permanent": false
+    },
+    {
+      "source": "/qr",
+      "destination": "/?utm_source=billboard&utm_medium=qr&utm_campaign=nov3",
+      "permanent": false
+    },
+    {
       "source": "/:path(.*)",
-      "has": [{ "type": "host", "value": "buildmyballot.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "buildmyballot.com"
+        }
+      ],
       "destination": "https://www.offorandbythepeople.com/:path?utm_source=buildmyballot&utm_medium=redirect",
       "permanent": true
     },
     {
       "source": "/:path(.*)",
-      "has": [{ "type": "host", "value": "www.buildmyballot.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.buildmyballot.com"
+        }
+      ],
       "destination": "https://www.offorandbythepeople.com/:path?utm_source=buildmyballot&utm_medium=redirect",
       "permanent": true
     },
     {
       "source": "/:path(.*)",
-      "has": [{ "type": "host", "value": "myreps.vote" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "myreps.vote"
+        }
+      ],
       "destination": "https://www.offorandbythepeople.com/:path?utm_source=myreps&utm_medium=redirect",
       "permanent": true
     },
     {
       "source": "/:path(.*)",
-      "has": [{ "type": "host", "value": "www.myreps.vote" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.myreps.vote"
+        }
+      ],
       "destination": "https://www.offorandbythepeople.com/:path?utm_source=myreps&utm_medium=redirect",
       "permanent": true
     }
   ],
   "rewrites": [
-    { "source": "/api/census/:path*", "destination": "/api/census/[...path]" },
-    { "source": "/api/congress/:path*", "destination": "/api/congress/[...path]" },
-    { "source": "/api/openstates/:path*", "destination": "/api/openstates/[...path]" },
-    { "source": "/api/ghl/contact", "destination": "/api/ghl/contact" },
-    { "source": "/api/delete-account", "destination": "/api/delete-account" },
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
+    {
+      "source": "/api/census/:path*",
+      "destination": "/api/census/[...path]"
+    },
+    {
+      "source": "/api/congress/:path*",
+      "destination": "/api/congress/[...path]"
+    },
+    {
+      "source": "/api/openstates/:path*",
+      "destination": "/api/openstates/[...path]"
+    },
+    {
+      "source": "/api/ghl/contact",
+      "destination": "/api/ghl/contact"
+    },
+    {
+      "source": "/api/delete-account",
+      "destination": "/api/delete-account"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
   ],
   "headers": [
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(self)" },
-        { "key": "X-XSS-Protection", "value": "1; mode=block" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(self)"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
       ]
     }
   ]
