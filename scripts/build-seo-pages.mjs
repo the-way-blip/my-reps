@@ -30,13 +30,13 @@ ul.cands{list-style:none;padding:0;margin:0;display:grid;gap:4px}ul.cands li{dis
 .prop{background:#fff;border:1px solid #e3e5ee;border-left:4px solid #b22234;border-radius:10px;padding:12px 14px;margin:10px 0}.prop h3{margin:0 0 4px;font-size:1.02rem}.prop .tags span{display:inline-block;background:#eef1f7;border-radius:999px;padding:2px 9px;font-size:.78rem;margin:0 6px 6px 0;color:#0a2342}
 .yn{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}.yn div{background:#f4f6fa;border-radius:8px;padding:8px 10px;font-size:.88rem}.yn b{display:block;margin-bottom:2px}.tax{font-size:.88rem;color:#444}
 details{margin-top:6px}summary{cursor:pointer;font-size:.85rem;color:#0a2342;font-weight:600}details p{white-space:pre-line;font-size:.85rem;color:#444}
-.cta-box{background:#0a2342;color:#fff;border-radius:12px;padding:18px;margin:24px 0;text-align:center}.cta-box a{display:inline-block;background:#b22234;color:#fff;padding:12px 18px;border-radius:8px;font-weight:700;text-decoration:none;margin-top:8px}
+.cta-box{background:#0a2342;color:#fff;border-radius:12px;padding:18px;margin:24px 0;text-align:center}.cta-box a{display:inline-block;background:#b22234;color:#fff;padding:12px 18px;border-radius:8px;font-weight:700;text-decoration:none;margin-top:8px}.cta-box a.appstore{background:#111;border:1px solid #444;font-size:.95rem}
 .note{font-size:.82rem;color:#666}.links{columns:2;column-gap:24px;font-size:.92rem}.links a{color:#0a2342}footer{padding:24px 20px;text-align:center;color:#666;font-size:.8rem}
 @media(max-width:600px){.yn{grid-template-columns:1fr}.links{columns:1}}`
 
 function layout({ title, description, canonical, body, breadcrumbs, pageType }) {
   const bc = breadcrumbs ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: breadcrumbs.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: b.name, item: b.url })) })}</script>` : ''
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="apple-itunes-app" content="app-id=6802903783">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}"><link rel="canonical" href="${canonical}">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="article"><meta property="og:url" content="${canonical}"><meta property="og:site_name" content="Of For &amp; By The People">
 <link rel="icon" href="/favicon.png">${bc}
@@ -96,7 +96,7 @@ for (const f of readdirSync(DATA).filter(f => f.endsWith('.json') && f !== 'inde
 ${j.races.length ? j.races.map(raceHtml).join('') : '<p class="note">No local races beyond the statewide ballot.</p>'}
 <h2>Local proposals &amp; millages (${j.proposals.length})</h2>
 ${j.proposals.length ? j.proposals.map(propHtml).join('') : '<p class="note">No local proposals on this ballot.</p>'}
-<div class="cta-box"><strong>Plan your vote in two minutes.</strong><br><a href="${SITE}/ballot?utm_source=seo&utm_medium=ballot-page&utm_campaign=${cSlug}-${jSlug}">Open the free ballot builder →</a></div>
+<div class="cta-box"><strong>Plan your vote in two minutes.</strong><br><a href="${SITE}/ballot?utm_source=seo&utm_medium=ballot-page&utm_campaign=${cSlug}-${jSlug}">Open the free ballot builder →</a><br><a class="appstore" href="https://apps.apple.com/us/app/of-for-by-the-people/id6802903783?utm_source=seo&utm_medium=ballot-page">&#63743; Download the iPhone app</a></div>
 <h2>Other communities in ${esc(countyName)} County</h2><p class="links">${others}</p>`
     mkdirSync(path.join(OUT, cSlug, jSlug), { recursive: true })
     writeFileSync(path.join(OUT, cSlug, jSlug, 'index.html'), layout({ title, description, canonical: url, body, breadcrumbs: [{ name: 'Michigan', url: `${SITE}/michigan/` }, { name: `${countyName} County`, url: `${SITE}/michigan/${cSlug}/` }, { name: j.name, url }], pageType: 'jurisdiction' }))

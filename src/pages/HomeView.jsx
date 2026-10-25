@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import usePageTitle from '../hooks/usePageTitle'
 import { useApp } from '../contexts/AppContext'
 import { useAuth } from '../contexts/AuthContext'
+import AppStoreBadge from '../components/ui/AppStoreBadge'
+import { isIOSBrowser } from '../utils/platform'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
 import { geocodeToDistrict } from '../services/districtService'
 import { getVoterInfo } from '../services/googleCivicApi'
@@ -151,6 +153,25 @@ function CollapsibleSection({ title, defaultOpen = false, children }) {
   )
 }
 
+// ── iOS app banner ──
+function IOSAppBanner() {
+  const [dismissed, setDismissed] = useState(() => {
+    try { return localStorage.getItem('myreps_ios_banner_dismissed') === '1' } catch { return false }
+  })
+  const standalone = typeof window !== 'undefined' && (window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches)
+  if (dismissed || standalone || !isIOSBrowser()) return null
+  return (
+    <div className="home-ios-banner" role="region" aria-label="Get the iPhone app">
+      <div className="home-ios-banner-text">
+        <strong>Get the free iPhone app</strong>
+        <span>Your ballot, polling place and election-day reminders — one tap away.</span>
+      </div>
+      <AppStoreBadge placement="home-banner" size="sm" />
+      <button className="home-ios-banner-close" aria-label="Dismiss" onClick={() => { try { localStorage.setItem('myreps_ios_banner_dismissed', '1') } catch { /* ignore */ } setDismissed(true) }}>×</button>
+    </div>
+  )
+}
+
 // ── Dashboard (shown after address entry) ──
 function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
   const primaryDays = daysUntil('2026-11-03')
@@ -195,6 +216,9 @@ function Dashboard({ address, districts, pollingData, repsCount, onReset }) {
           )}
         </div>
       )}
+
+      {/* iOS app nudge (Safari on iPhone only) */}
+      <IOSAppBanner />
 
       {/* Election-week plan (last 10 days) */}
       {primaryDays > 0 && primaryDays <= 10 && (
