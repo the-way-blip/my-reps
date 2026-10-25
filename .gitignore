@@ -40,3 +40,7 @@ scripts/mta_townships_js_output.txt
 *.tiff
 *.bmp
 AdobeStock_*
+
+# generated at build time by scripts/build-seo-pages.mjs
+public/michigan/
+public/sitemap.xml

@@ -6,7 +6,7 @@
   --hover: #F1F5F9;
   --border: #D6DEE8;
   --text: #0F172A;
-  --text-muted: #64748B;
+  --text-muted: #526275;
   --muted: #64748B;
   --accent: #002868;
   --accent-light: #EBF0FA;
@@ -13935,3 +13935,22 @@ a.landing-tool-card {
 .home-election-week ol { margin: 0; padding-left: 1.25rem; display: grid; gap: 0.5rem; }
 .home-election-week li { font-size: 0.92rem; line-height: 1.5; color: var(--text-primary); }
 .home-election-week a { color: var(--accent, #1d3557); font-weight: 600; }
+
+/* ── Larger, easier tap targets (older users, shaky hands) ── */
+.ballot-candidate-select-btn { min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
+.theme-toggle, .text-size-toggle { min-width: 44px; min-height: 44px; }
+.text-size-toggle { background: none; border: 1px solid rgba(255,255,255,0.35); color: #fff; border-radius: 999px; font-weight: 800; font-size: 0.95rem; cursor: pointer; margin-right: 0.5rem; display: inline-flex; align-items: center; justify-content: center; gap: 2px; }
+.text-size-toggle small { font-size: 0.7em; font-weight: 700; opacity: 0.85; }
+.text-size-toggle:hover { background: rgba(255,255,255,0.12); }
+.home-quick-link, .ballot-filter-tab, .ballot-jump-nav button, .ballot-candidate-profile-btn, .ballot-candidate-source-link, .settings-seg-btn { min-height: 40px; display: inline-flex; align-items: center; }
+.ballot-proposal-vote-btn { min-height: 56px; }
+.ballot-proposal-header { min-height: 56px; }
+
+/* ── Text size preference (Settings → Appearance, or the "AA" button in the header) ──
+   index.css is not imported by the app, so these live here. rem-based sizes scale with html. */
+html[data-text="large"] { font-size: 112.5%; }
+html[data-text="xl"] { font-size: 125%; }
+html[data-text] [class*="ballot-mini-score"],
+html[data-text] .ballot-highlight-chip,
+html[data-text] .ballot-party-tag,
+html[data-text] .ballot-incumbent-tag { font-size: 0.8rem !important; }

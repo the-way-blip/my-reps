@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import usePageTitle from '../hooks/usePageTitle'
+import { useTextSize, TEXT_SIZES } from '../hooks/useTextSize'
 import { useApp } from '../contexts/AppContext'
 import { STATES } from '../data/states'
 import { openOnboarding } from '../components/ui/Onboarding'
@@ -73,6 +74,8 @@ export default function SettingsView() {
     setUserDistricts,
     setLocalGeo,
   } = useApp()
+
+  const [textSize, setTextSize] = useTextSize()
 
   /* ── Theme state (mirrors Header useTheme logic) ── */
   const [themeMode, setThemeMode] = useState(() => {
@@ -271,6 +274,24 @@ export default function SettingsView() {
               </button>
             ))}
           </div>
+        </div>
+        <div className="settings-card" style={{ marginTop: '0.75rem' }}>
+          <p className="settings-card-label" style={{ margin: '0 0 0.5rem', fontWeight: 700 }}>Text size</p>
+          <div className="settings-segmented" role="radiogroup" aria-label="Text size">
+            {TEXT_SIZES.map(t => (
+              <button
+                key={t.id}
+                role="radio"
+                aria-checked={textSize === t.id}
+                className={`settings-seg-btn${textSize === t.id ? ' active' : ''}`}
+                onClick={() => setTextSize(t.id)}
+                style={{ fontSize: t.id === 'xl' ? '1.15em' : t.id === 'large' ? '1.05em' : undefined }}
+              >
+                {t.label}
+              </button>
+            ))}
+          </div>
+          <p style={{ margin: '0.5rem 0 0', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Makes every page easier to read. You can also tap the "AA" button at the top of the screen.</p>
         </div>
       </section>
 

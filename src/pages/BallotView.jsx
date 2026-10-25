@@ -153,7 +153,7 @@ function GradeBadge({ grade, size = 'sm', onClick, showUnrated = false }) {
     const sizes = {
       sm: { width: '1.35rem', height: '1.35rem', fontSize: '0.5rem' },
       md: { width: '1.8rem', height: '1.8rem', fontSize: '0.6rem' },
-      lg: { width: '2.4rem', height: '2.4rem', fontSize: '0.75rem' },
+      lg: { width: 'auto', minWidth: '2.4rem', height: '2.4rem', fontSize: '0.8rem', padding: '0 0.6rem', borderRadius: '999px' },
     }
     const s = sizes[size] || sizes.sm
     return (
@@ -162,14 +162,18 @@ function GradeBadge({ grade, size = 'sm', onClick, showUnrated = false }) {
         style={{
           background: '#6b7280',
           width: s.width,
+          minWidth: s.minWidth,
           height: s.height,
           fontSize: s.fontSize,
-          opacity: 0.7,
+          padding: s.padding,
+          borderRadius: s.borderRadius,
+          opacity: 0.85,
         }}
         onClick={onClick}
-        title="Not Rated — no public information found"
+        title="Not rated yet — tap the name to research this candidate"
+        aria-label="Not rated yet"
       >
-        N/R
+        {size === 'lg' ? 'Not rated' : 'N/R'}
       </span>
     )
   }

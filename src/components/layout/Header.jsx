@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useApp } from '../../contexts/AppContext'
 import { useAuth } from '../../contexts/AuthContext'
 import AuthModal from '../auth/AuthModal'
+import { useTextSize, TEXT_SIZES } from '../../hooks/useTextSize'
 
 function useTheme() {
   const [dark, setDark] = useState(() => {
@@ -71,6 +72,8 @@ export default function Header() {
   const { user, loading: authLoading, signOut } = useAuth()
   const [authModalOpen, setAuthModalOpen] = useState(false)
   const [dark, toggleTheme] = useTheme()
+  const [textSize, , cycleTextSize] = useTextSize()
+  const textLabel = TEXT_SIZES.find(t => t.id === textSize)?.label || 'Normal'
 
   return (
     <header className="app-header">
@@ -82,6 +85,15 @@ export default function Header() {
         </div>
       </div>
 
+
+      <button
+        className="text-size-toggle"
+        onClick={cycleTextSize}
+        aria-label={`Text size: ${textLabel}. Tap to change.`}
+        title={`Text size: ${textLabel} — tap to change`}
+      >
+        <small>A</small>A
+      </button>
 
       <button
         className="theme-toggle"

@@ -37,6 +37,9 @@ export default defineConfig({
       },
       workbox: {
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // 5 MiB
+        // Static SEO pages, county ballot JSON and API routes must bypass the SPA shell
+        navigateFallbackDenylist: [/^\/michigan\//, /^\/data\//, /^\/api\//, /^\/sitemap\.xml$/, /^\/robots\.txt$/],
+        globIgnores: ['**/michigan/**', '**/data/ballots/**'],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
