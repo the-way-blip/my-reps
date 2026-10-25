@@ -10,6 +10,29 @@ import {
   requestNotificationPermission,
 } from '../utils/reminders'
 
+/* ── Delete-account confirmation modal ── */
+function DeleteAccountModal({ onConfirm, onCancel }) {
+  return (
+    <div className="profile-modal-overlay" onClick={onCancel}>
+      <div className="profile-modal" onClick={e => e.stopPropagation()}>
+        <h3 className="profile-modal-title">Delete Account</h3>
+        <p className="settings-muted">
+          This action is permanent. All your data, ballot plans, and profile information
+          will be permanently deleted and cannot be recovered.
+        </p>
+        <div className="profile-modal-actions">
+          <button className="settings-btn-outline" onClick={onCancel}>
+            Cancel
+          </button>
+          <button className="settings-btn-danger confirming" onClick={onConfirm}>
+            Yes, Delete My Account
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 /* ── localStorage keys used by the app ── */
 const KEYS = {
   location: 'myreps_location',
@@ -94,6 +117,55 @@ export default function SettingsView() {
 
   /* ── Data management ── */
   const [confirmClearAll, setConfirmClearAll] = useState(false)
+
+  /* ── Account deletion ── */
+  const [user, setUser] = useState(null)
+  const [showDeleteModal, setShowDeleteModal] = useState(false)
+
+  useEffect(() => {
+    ;(async () => {
+      try {
+        const { supabase } = await import('../lib/supabase.js')
+        if (!supabase) return
+        const { data: { session } } = await supabase.auth.getSession()
+        if (session) setUser(session.user)
+        const { data: { subscription } } = supabase.auth.onAuthStateChange((_e, s) => {
+          setUser(s?.user ?? null)
+        })
+        return () => subscription?.unsubscribe()
+      } catch { /* supabase not ready */ }
+    })()
+  }, [])
+
+  async function handleDeleteAccount() {
+    try {
+      const { supabase } = await import('../lib/supabase.js')
+      const { data: { session } } = await supabase.auth.getSession()
+      if (session?.access_token) {
+        const deleteUrl = window.Capacitor
+          ? 'https://www.offorandbythepeople.com/api/delete-account'
+          : '/api/delete-account'
+        const resp = await fetch(deleteUrl, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${session.access_token}` },
+        })
+        if (!resp.ok) {
+          const body = await resp.json().catch(() => ({}))
+          throw new Error(body.error || 'Delete failed')
+        }
+      }
+      Object.keys(localStorage).forEach(key => {
+        if (key.startsWith('myreps')) localStorage.removeItem(key)
+      })
+      if (supabase) await supabase.auth.signOut()
+      setShowDeleteModal(false)
+      window.location.href = '/'
+    } catch (err) {
+      console.error('Delete account error:', err)
+      alert('Failed to delete account. Please try again or contact support.')
+      setShowDeleteModal(false)
+    }
+  }
 
   function handleClearBallot() {
     localStorage.removeItem(KEYS.ballotPlan)
@@ -286,6 +358,46 @@ export default function SettingsView() {
         </div>
       </section>
 
+      {/* ── Account ── */}
+      {user && (
+        <section className="settings-section">
+          <h3 className="settings-section-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            Account
+          </h3>
+          <div className="settings-card">
+            <div className="settings-row">
+              <div>
+                <span className="settings-label">Signed in as</span>
+                <p className="settings-muted">{user.email}</p>
+              </div>
+              <Link to="/profile" className="settings-btn-outline">
+                View Profile
+              </Link>
+            </div>
+
+            <div className="settings-divider" />
+
+            <div className="settings-card settings-danger-zone">
+              <div className="settings-danger-row">
+                <div>
+                  <strong className="settings-danger-text">Delete Account</strong>
+                  <p className="settings-muted">
+                    Permanently delete your account and all associated data. This action cannot be undone.
+                  </p>
+                </div>
+                <button
+                  className="settings-btn-danger"
+                  onClick={() => setShowDeleteModal(true)}
+                >
+                  Delete Account
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ── About ── */}
       <section className="settings-section">
         <h3 className="settings-section-title">
@@ -342,6 +454,13 @@ export default function SettingsView() {
           </FaqItem>
         </div>
       </section>
+
+      {showDeleteModal && (
+        <DeleteAccountModal
+          onConfirm={handleDeleteAccount}
+          onCancel={() => setShowDeleteModal(false)}
+        />
+      )}
     </div>
   )
 }
