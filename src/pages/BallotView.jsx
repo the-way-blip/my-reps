@@ -22,7 +22,9 @@ import { getCategoryIcon } from '../data/michiganProposals2026'
 import { loadOfficialCounty, getOfficialBallot } from '../data/officialBallot'
 import generateBallotPDF from '../utils/generateBallotPDF'
 import { markBallotDone } from '../utils/push'
-import { trackAddressEntered, trackPartySelected, trackCandidateSelected, trackBallotComplete, trackProposalVoted, trackChecklistItem, trackShareTool, trackShareBallot } from '../utils/analytics'
+import { recordBallotSession, attachSessionContact } from '../utils/ballotSession'
+import { syncUserToGHL } from '../services/ghlService'
+import { trackEvent, trackAddressEntered, trackPartySelected, trackCandidateSelected, trackBallotComplete, trackProposalVoted, trackChecklistItem, trackShareTool, trackShareBallot } from '../utils/analytics'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
 import useFocusTrap from '../hooks/useFocusTrap'
 import { getRatingsForCandidate, getRatingsForIssue, getEvidenceLevel } from '../data/externalRatings'
@@ -32,6 +34,43 @@ import { geocodeToDistrict } from '../services/districtService'
 import { MI_ELECTIONS } from '../data/electionData'
 
 const STORAGE_KEY = 'myreps-ballot-plan-2026'
+
+// Logged-out visitors: capture an email so they can get reminders + keep their plan (no account wall)
+function SaveBallotCard({ address }) {
+  const [state, setState] = useState(() => { try { return localStorage.getItem('myreps_lead_captured') ? 'done' : 'idle' } catch { return 'idle' } })
+  const [email, setEmail] = useState('')
+  const [name, setName] = useState('')
+  if (state === 'done') return null
+  const submit = async (e) => {
+    e.preventDefault()
+    const em = email.trim()
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) { setState('error'); return }
+    setState('busy')
+    const zip = (address.match(/\b(4[89]\d{3})\b/) || [])[1] || ''
+    await Promise.all([
+      syncUserToGHL({ email: em, name: name.trim(), state: 'MI', zipCode: zip, source: 'ballot-page' }),
+      attachSessionContact({ email: em, name: name.trim() }),
+    ])
+    trackEvent('lead_capture', { placement: 'ballot' })
+    try { localStorage.setItem('myreps_lead_captured', '1') } catch { /* ignore */ }
+    setState('done')
+  }
+  return (
+    <form className="ballot-save-card" onSubmit={submit}>
+      <div className="ballot-save-text">
+        <strong>Keep this ballot &amp; get election-week reminders</strong>
+        <span>We&apos;ll email your plan link plus the early-voting and Election Day reminders. No account needed.</span>
+      </div>
+      <div className="ballot-save-fields">
+        <input type="text" placeholder="First name (optional)" value={name} onChange={e => setName(e.target.value)} aria-label="First name" />
+        <input type="email" placeholder="you@example.com" value={email} onChange={e => setEmail(e.target.value)} aria-label="Email address" required />
+        <button type="submit" disabled={state === 'busy'}>{state === 'busy' ? 'Saving…' : 'Save my ballot'}</button>
+      </div>
+      {state === 'error' && <p className="ballot-save-error">Please enter a valid email address.</p>}
+      <p className="ballot-save-fine">Independent &amp; personally funded · no party or candidate ties · unsubscribe any time.</p>
+    </form>
+  )
+}
 
 function researchSearchUrl(name, office) {
   const q = `"${name}" ${(office || '').replace(/—/g, ' ')} Michigan 2026`
@@ -1261,6 +1300,7 @@ export default function BallotView() {
       completionTracked.current = true
       trackBallotComplete(totalItems)
       markBallotDone(true)
+      attachSessionContact({ ballotDone: true })
     }
   }, [choices, races, localRaces, proposals])
 
@@ -1321,7 +1361,8 @@ export default function BallotView() {
       if (geo && selectedState) {
         handleSearchDistrict(selectedState, geo.district, geo.matchedAddress, geo)
       }
-    }).catch(() => {})
+      recordBallotSession(addr, geo, user?.id)
+    }).catch(() => { recordBallotSession(addr, null, user?.id) })
   }
 
   const handleRestart = () => {
@@ -1865,6 +1906,8 @@ export default function BallotView() {
               Start Over
             </button>
           </div>
+
+          {!user && <SaveBallotCard address={address} />}
 
           <div className="ballot-disclaimer">
             <p>

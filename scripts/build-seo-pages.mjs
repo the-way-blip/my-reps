@@ -51,7 +51,8 @@ details{margin-top:6px}summary{cursor:pointer;font-size:.88rem;color:#0a2342;fon
 .cta-box{background:#0a2342;color:#fff;border-radius:12px;padding:18px;margin:24px 0;text-align:center}.cta-box a{display:inline-block;background:#b22234;color:#fff;padding:12px 18px;border-radius:8px;font-weight:700;text-decoration:none;margin-top:8px}.cta-box a.appstore{background:#111;border:1px solid #444;font-size:.95rem}
 .note{font-size:.85rem;color:#666}.links{columns:2;column-gap:24px;font-size:.95rem}.links a{color:#0a2342}.links li{margin:2px 0}.dates{list-style:none;padding:0}.dates li{background:#fff;border:1px solid #e3e5ee;border-radius:10px;padding:10px 14px;margin:8px 0}.dates b{display:block;color:#0a2342}
 footer{padding:24px 20px;text-align:center;color:#666;font-size:.82rem}footer a{color:#0a2342}
-@media(max-width:600px){.yn{grid-template-columns:1fr}.links{columns:1}}`
+@media(max-width:600px){.yn{grid-template-columns:1fr}.links{columns:1}}
+.sticky-cta{display:none}@media(max-width:700px){.sticky-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:50;background:#0a2342;color:#fff;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;padding-bottom:calc(10px + env(safe-area-inset-bottom));font-size:.92rem;box-shadow:0 -4px 16px rgba(0,0,0,.2)}.sticky-cta a{background:#b22234;color:#fff;text-decoration:none;font-weight:700;padding:10px 14px;border-radius:8px;white-space:nowrap}main{padding-bottom:80px}}`
 
 const pages = [] // { url, lastmod }
 function layout({ url, title, description, body, breadcrumbs, pageType = 'page', ogImage = DEFAULT_OG, jsonld = [] }) {
@@ -67,6 +68,7 @@ function layout({ url, title, description, body, breadcrumbs, pageType = 'page',
 <style>${CSS}</style></head><body>
 <header><a class="brand" href="${SITE}/">Of For &amp; By The People</a><a class="cta" href="${SITE}/ballot?utm_source=seo&utm_medium=${pageType}">Build my ballot →</a></header>
 <main>${crumbs}${body}</main>
+${['jurisdiction', 'local-proposal', 'school-board', 'race', 'proposal'].includes(pageType) ? `<div class="sticky-cta"><span>See your full ballot, graded</span><a href="${SITE}/ballot?utm_source=seo&utm_medium=sticky&utm_campaign=${pageType}">Build my ballot →</a></div>` : ''}
 <footer><p style="max-width:760px;margin:0 auto 10px">${DISCLAIMER}</p>Local races and proposals are taken from the official Michigan Secretary of State sample ballots (<a href="https://mvic.sos.state.mi.us/PublicBallot/Index">Voter Information Center</a>). Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/michigan/">Michigan ballot by county</a> · <a href="${SITE}/michigan/races/">Statewide races</a> · <a href="${SITE}/michigan/key-dates/">Key dates</a> · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a></footer>
 </body></html>`
 }
@@ -157,6 +159,10 @@ const races = [...raceMap.values()].sort((a, b) => {
   return grp(a.id) - grp(b.id) || num(a.id) - num(b.id)
 })
 for (const r of races) r._pageUrl = `${SITE}/michigan/race/${raceSlug(r.id)}/`
+function topRacesHtml() {
+  const ids = ['governor', 'us-senate', 'secretaryOfState', 'attorneyGeneral']
+  return ids.map(id => raceMap.get(id)).filter(Boolean).map(r => `<div class="race"><h3><a href="${r._pageUrl}" style="color:#0a2342">${esc(r.office)}</a></h3><ul class="cands">${r.candidates.filter(c => c.party === 'republican' || c.party === 'democratic' || c.party === 'independent' || c.grade).map(candidateLi).join('')}</ul></div>`).join('')
+}
 const raceLinkList = rs => `<ul class="links">${rs.map(r => `<li><a href="${r._pageUrl}">${esc(r.office)}</a></li>`).join('')}</ul>`
 for (const r of races) {
   const graded = r.candidates.filter(c => c.grade).length
@@ -218,7 +224,7 @@ ${ctaBox('See this race with everything else on your ballot.', `${SITE}/ballot?u
 // ───────────────────────── counties, jurisdictions, local proposals ─────────────────────────
 for (const c of counties) {
   const cUrl = `${SITE}/michigan/${c.slug}/`
-  const ogCounty = existsSync(path.join(ROOT, 'public/og/county', `${c.slug}.png`)) ? `${SITE}/og/county/${c.slug}.png` : DEFAULT_OG
+  const ogCounty = existsSync(path.join(ROOT, 'public/og/county', `${c.slug}.jpg`)) ? `${SITE}/og/county/${c.slug}.jpg` : DEFAULT_OG
   const cProps = [...localProps.values()].filter(e => e.county === c).sort((a, b) => b.jurs.size - a.jurs.size)
   for (const j of c.jurisdictions) {
     const jSlug = slug(j.name)
@@ -230,7 +236,7 @@ for (const c of counties) {
     const body = `<h1>What's on the ballot in ${esc(j.name)}, ${esc(c.name)} County</h1>
 <p class="lede">Michigan General Election · Tuesday, ${ELECTION} · Polls open 7 a.m.–8 p.m. · <a href="${SITE}/michigan/key-dates/">Early voting Oct 24–Nov 1</a>. Every local race and proposal on the official ${esc(j.name)} sample ballot${j.precincts > 1 ? ` (${j.precincts} precincts${j.ballotVariants > 1 ? '; some items vary by precinct' : ''})` : ''}. Enter your address in the app to see your exact ballot with every candidate graded.</p>
 ${ctaBox(`See every candidate on your ${esc(j.name)} ballot, graded on faith, family and the Constitution.`, `${SITE}/ballot?utm_source=seo&utm_medium=ballot-page&utm_campaign=${c.slug}-${jSlug}`)}
-<h2>Statewide &amp; federal races (every Michigan ballot)</h2><div class="race"><p class="meta">${races.filter(r => !/^(us-house|state-senate|state-house)/.test(r.id)).map(r => `<a href="${r._pageUrl}" style="color:#0a2342">${esc(r.office)}</a>`).join(' · ')} · <a href="${SITE}/michigan/proposal/proposal-26-1/" style="color:#0a2342"><b>Proposal 26-1</b></a> · <a href="${SITE}/michigan/proposal/proposal-26-2/" style="color:#0a2342"><b>Proposal 26-2</b></a> · your <a href="${SITE}/michigan/races/" style="color:#0a2342">U.S. House, State Senate and State House</a> districts.</p></div>
+<h2>Statewide races (every Michigan ballot)</h2>${topRacesHtml()}<div class="race"><p class="meta">Also on your ballot: ${races.filter(r => !/^(us-house|state-senate|state-house)/.test(r.id)).map(r => `<a href="${r._pageUrl}" style="color:#0a2342">${esc(r.office)}</a>`).join(' · ')} · <a href="${SITE}/michigan/proposal/proposal-26-1/" style="color:#0a2342"><b>Proposal 26-1</b></a> · <a href="${SITE}/michigan/proposal/proposal-26-2/" style="color:#0a2342"><b>Proposal 26-2</b></a> · your <a href="${SITE}/michigan/races/" style="color:#0a2342">U.S. House, State Senate and State House</a> districts.</p></div>
 <h2>Local races in ${esc(j.name)} (${j.races.length})</h2>${j.races.length ? j.races.map(raceHtml).join('') : '<p class="note">No local races beyond the statewide ballot.</p>'}
 <h2>Local proposals &amp; millages (${j.proposals.length})</h2>${j.proposals.length ? j.proposals.map(p => propHtml(p)).join('') : '<p class="note">No local proposals on this ballot.</p>'}
 ${ctaBox('Plan your vote in two minutes.', `${SITE}/ballot?utm_source=seo&utm_medium=ballot-page&utm_campaign=${c.slug}-${jSlug}`)}

@@ -29,9 +29,36 @@ export default async function handler(req, res) {
         last_sent_key text
       );
       alter table public.push_subscriptions enable row level security;
+      create table if not exists public.ballot_sessions (
+        id bigserial primary key,
+        session_key text,
+        user_id uuid,
+        address text not null,
+        zip text,
+        county text,
+        jurisdiction text,
+        place text,
+        school_district text,
+        congressional int,
+        state_senate int,
+        state_house int,
+        email text,
+        name text,
+        phone text,
+        ballot_done boolean default false,
+        source text,
+        referrer text,
+        user_agent text,
+        ip_hash text,
+        created_at timestamptz default now(),
+        updated_at timestamptz default now()
+      );
+      create index if not exists ballot_sessions_created_idx on public.ballot_sessions (created_at desc);
+      create index if not exists ballot_sessions_email_idx on public.ballot_sessions (email);
+      alter table public.ballot_sessions enable row level security;
     `)
-    const { rows } = await client.query('select count(*)::int as n from public.push_subscriptions')
-    return res.status(200).json({ ok: true, subscriptions: rows[0].n })
+    const { rows } = await client.query('select (select count(*) from public.push_subscriptions)::int as subs, (select count(*) from public.ballot_sessions)::int as sessions')
+    return res.status(200).json({ ok: true, subscriptions: rows[0].subs, ballotSessions: rows[0].sessions })
   } catch (e) {
     return res.status(500).json({ error: e.message })
   } finally {

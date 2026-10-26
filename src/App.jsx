@@ -44,6 +44,9 @@ export default function App() {
             <Route path="states" element={<StateCoverageView />} />
             <Route path="methodology" element={<MethodologyView />} />
             <Route path="about" element={<AboutView />} />
+            <Route path="ballot" element={<AppLayout />}>
+              <Route index element={<BallotView />} />
+            </Route>
             <Route path="results" element={<AppLayout />}>
               <Route index element={<ResultsView />} />
             </Route>
@@ -61,7 +64,6 @@ export default function App() {
             <Route element={<ProtectedRoute><AppLayout /></ProtectedRoute>}>
               <Route index element={<HomeView />} />
               <Route path="home" element={<HomeView />} />
-              <Route path="ballot" element={<BallotView />} />
               <Route path="explore" element={<Navigate to="/" replace />} />
               <Route path="my-reps" element={<Navigate to="/" replace />} />
               <Route path="elections" element={<Navigate to="/" replace />} />

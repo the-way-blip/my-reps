@@ -14013,3 +14013,16 @@ html[data-text] .ballot-incumbent-tag { font-size: 0.8rem !important; }
 .results-error { color: var(--accent-red, #b22234); font-size: 0.9rem; }
 .home-results-link { display: block; background: var(--accent, #002868); color: #fff; border-radius: 12px; padding: 0.9rem 1rem; margin: 0 0 1rem; text-decoration: none; }
 .home-results-link:hover { text-decoration: underline; }
+
+/* ── Save-my-ballot capture (logged-out visitors) ── */
+.ballot-save-card { background: var(--card, #fff); border: 2px solid var(--accent, #002868); border-radius: 14px; padding: 1rem 1.1rem; margin: 1.25rem 0; }
+.ballot-save-text { display: flex; flex-direction: column; gap: 0.2rem; margin-bottom: 0.75rem; }
+.ballot-save-text strong { font-size: 1.05rem; color: var(--accent, #002868); }
+.ballot-save-text span { font-size: 0.9rem; color: var(--text-secondary); }
+.ballot-save-fields { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 0.5rem; }
+.ballot-save-fields input { min-height: 46px; padding: 0 0.75rem; border: 1px solid var(--border); border-radius: 8px; font-size: 1rem; background: var(--bg, #fff); color: var(--text, #0F172A); }
+.ballot-save-fields button { min-height: 46px; padding: 0 1rem; background: var(--accent-red, #b22234); color: #fff; border: none; border-radius: 8px; font-weight: 700; font-size: 1rem; cursor: pointer; white-space: nowrap; }
+.ballot-save-fields button:disabled { opacity: 0.7; }
+.ballot-save-error { color: var(--accent-red, #b22234); font-size: 0.85rem; margin: 0.4rem 0 0; }
+.ballot-save-fine { font-size: 0.75rem; color: var(--text-muted); margin: 0.5rem 0 0; }
+@media (max-width: 600px) { .ballot-save-fields { grid-template-columns: 1fr; } }
