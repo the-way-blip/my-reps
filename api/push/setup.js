@@ -56,6 +56,7 @@ export default async function handler(req, res) {
       create index if not exists ballot_sessions_created_idx on public.ballot_sessions (created_at desc);
       create index if not exists ballot_sessions_email_idx on public.ballot_sessions (email);
       alter table public.ballot_sessions enable row level security;
+      notify pgrst, 'reload schema';
     `)
     const { rows } = await client.query('select (select count(*) from public.push_subscriptions)::int as subs, (select count(*) from public.ballot_sessions)::int as sessions')
     return res.status(200).json({ ok: true, subscriptions: rows[0].subs, ballotSessions: rows[0].sessions })
