@@ -252,13 +252,14 @@ function extractDuration(text) {
 }
 function extractBond(text) {
   if (!/bond/i.test(text)) return null
-  // Bonds quote several dollar figures (annual debt service, first-year levy); the principal is the largest one
+  // Principal is the "not to exceed … ($N)" figure; other dollar amounts are debt service / outstanding debt
+  const nte = text.match(/not\s+to\s+exceed\s+[^$]{0,160}?\$\s?([\d,]{7,})/i)
   const figs = [...text.matchAll(/\$\s?([\d,]{7,})(?:\.\d+)?/g)].map(x => parseFloat(x[1].replace(/,/g, ''))).filter(Number.isFinite)
-  const words = text.match(/not\s+to\s+exceed\s+\$?\s?([\d,]{7,})/i)
-  const n = words ? Math.max(parseFloat(words[1].replace(/,/g, '')), ...figs) : (figs.length ? Math.max(...figs) : null)
+  const n = nte ? parseFloat(nte[1].replace(/,/g, '')) : (figs.length ? Math.max(...figs) : null)
   if (!n) return null
-  if (!n) return null
-  return n >= 1e6 ? `$${(n / 1e6).toFixed(n % 1e6 ? 2 : 0).replace(/\.?0+$/, '')} million` : `$${n.toLocaleString()}`
+  if (n < 1e6) return `$${n.toLocaleString()}`
+  const m = n / 1e6
+  return `$${Number.isInteger(m) ? m : m.toFixed(2).replace(/\.?0+$/, '')} million`
 }
 function extractRevenue(text) {
   const m = text.match(/estimat\w*[^$]{0,120}\$\s?([\d,]{5,})(?:\.\d+)?/i)
