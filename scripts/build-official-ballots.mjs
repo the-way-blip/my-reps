@@ -434,9 +434,17 @@ for (const countyName of Object.keys(counties).sort()) {
     const ballotPrec = {}
     for (const p of jur.precincts) if (p.ballot) ballotPrec[p.ballot] = (ballotPrec[p.ballot] || 0) + 1
     const raceMap = new Map(), propMap = new Map()
+    const districtSets = {}
     for (const [hk, b] of Object.entries(jur.ballots)) {
       const n = ballotPrec[hk] || 0
       for (const r of b.races) {
+        if (/^(Congressional|Legislative)$/i.test(r.d)) {
+          const dm = r.t.join(' ').match(/(\d+)(?:st|nd|rd|th) DISTRICT/i)
+          if (dm) {
+            const k = /Congress/i.test(r.o) ? 'congressional' : /SENATOR/i.test(r.o) ? 'stateSenate' : /REPRESENTATIVE/i.test(r.o) ? 'stateHouse' : null
+            if (k) { districtSets[k] = districtSets[k] || new Set(); districtSets[k].add(Number(dm[1])) }
+          }
+        }
         if (SKIP_DIV.test(r.d)) continue
         if (/JUSTICE OF SUPREME COURT/i.test(r.o)) continue // already in the graded statewide ballot
         const key = `${r.d}|${r.o}|${r.t.join('|')}`
@@ -470,6 +478,7 @@ for (const countyName of Object.keys(counties).sort()) {
     jurisdictions.push({
       name: titleCase(jur.name.replace(/^Village Of /i, '')), mvicName: jur.name, kind: isCity ? 'city' : 'township', key: normJur(jur.name),
       precincts: precTotal, ballotVariants: Object.keys(jur.ballots).length, races, proposals,
+      districts: Object.fromEntries(Object.entries(districtSets).map(([k, v]) => [k, [...v].sort((a, b) => a - b)])),
     })
     totals.jurisdictions++; totals.precincts += precTotal; totals.races += races.length; totals.proposals += proposals.length
     totals.candidates += races.reduce((a, r) => a + r.candidates.length, 0)
