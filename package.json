@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node --import ./scripts/ext-loader.mjs scripts/build-seo-pages.mjs && vite build",
+    "build": "node --import ./scripts/ext-loader.mjs scripts/build-seo-pages.mjs && node --import ./scripts/ext-loader.mjs scripts/build-seo-indiana.mjs && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "ios": "vite build && rm -rf dist/data && cap sync ios && cap open ios",
