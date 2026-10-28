@@ -1,0 +1,992 @@
+[
+ {
+  "office": "State Representative, District 070",
+  "name": "Sarah Blessing",
+  "grade": "F",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Moms Demand Action (Gun Sense Candidate); NRA F and rated Liberal by iVoterGuide.",
+  "description": "Candidate for State Representative, District 70 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC, signaling support for abortion access.",
+   "marriage": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No specific positions found; rated Liberal by iVoterGuide.",
+   "secondAmendment": "Moms Demand Action Gun Sense Candidate and NRA-PVF F rating.",
+   "limitedGov": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition to school choice and deregulation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 070",
+  "name": "Scott L. Fluhr",
+  "grade": "B",
+  "gradeNote": "IRTL-endorsed, NRA A-rated (questionnaire) and endorsed, and rated Conservative by iVoterGuide; no voting record.",
+  "description": "Candidate for State Representative, District 70 (Republican).",
+  "website": null,
+  "sources": [
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for 2026; no voting record.",
+   "marriage": "No specific positions found; Conservative iVoterGuide rating and Republican affiliation suggest support.",
+   "religiousLiberty": "No specific positions found; rated Conservative by iVoterGuide.",
+   "secondAmendment": "NRA-PVF AQ (A based on questionnaire) rating and endorsement.",
+   "limitedGov": "No specific positions found; graded on Republican affiliation and Conservative iVoterGuide rating.",
+   "fiscal": "No specific positions found; graded on Republican affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 070",
+  "name": "Brandi Tibben",
+  "grade": null,
+  "gradeNote": "Not rated: no positions, endorsements or ratings found; iVoterGuide lists insufficient information.",
+  "description": "Candidate for State Representative, District 70 (Libertarian).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "State Representative, District 071",
+  "name": "Wendy Dant Chesser",
+  "grade": "D",
+  "gradeNote": "Endorsed by Planned Parenthood, 33% on the IFI 2026 scorecard and rated Leans Liberal by iVoterGuide; voted yes on SB 1 (2025) property-tax relief; no NRA rating.",
+  "description": "Incumbent Democratic state representative for District 71.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Planned Parenthood Alliance Advocates-Indiana PAC, signaling support for abortion access.",
+   "marriage": "No captured votes on family/gender bills; Leans Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "Scored 33% on the Indiana Family Institute 2026 scorecard, voting against IFI on HB 1389 religious-liberty protections for adoption/foster providers.",
+   "secondAmendment": "No NRA-PVF questionnaire returned (unrated); no gun-policy vote captured.",
+   "limitedGov": "No school-choice vote captured; graded on Democratic affiliation.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief."
+  }
+ },
+ {
+  "office": "State Representative, District 071",
+  "name": "James R. McClure, Jr.",
+  "grade": "B",
+  "gradeNote": "IRTL-endorsed and rated Conservative by iVoterGuide; no NRA questionnaire returned and no voting record.",
+  "description": "Candidate for State Representative, District 71 (Republican).",
+  "website": null,
+  "sources": [
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for 2026; no voting record.",
+   "marriage": "No specific positions found; Conservative iVoterGuide rating and Republican affiliation suggest support.",
+   "religiousLiberty": "No specific positions found; rated Conservative by iVoterGuide.",
+   "secondAmendment": "No NRA-PVF questionnaire returned (unrated); graded on Republican affiliation.",
+   "limitedGov": "No specific positions found; graded on Republican affiliation.",
+   "fiscal": "No specific positions found; graded on Republican affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 072",
+  "name": "Michele (Shelly) Henry",
+  "grade": "F",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood and Moms Demand Action (Gun Sense Candidate); NRA F and rated Liberal by iVoterGuide.",
+  "description": "Candidate for State Representative, District 72 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood, signaling support for abortion access.",
+   "marriage": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No specific positions found; rated Liberal by iVoterGuide.",
+   "secondAmendment": "Moms Demand Action Gun Sense Candidate and NRA-PVF F rating.",
+   "limitedGov": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition to school choice and deregulation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 072",
+  "name": "Darrell Neeley",
+  "grade": "B",
+  "gradeNote": "IRTL-endorsed and NRA A-rated (questionnaire) and endorsed; no voting record and iVoterGuide lists insufficient information.",
+  "description": "Candidate for State Representative, District 72 (Republican).",
+  "website": null,
+  "sources": [
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for 2026; no voting record.",
+   "marriage": "No specific positions found; graded on Republican affiliation.",
+   "religiousLiberty": "No specific positions found; graded on Republican affiliation.",
+   "secondAmendment": "NRA-PVF AQ (A based on questionnaire) rating and endorsement.",
+   "limitedGov": "No specific positions found; graded on Republican affiliation.",
+   "fiscal": "No specific positions found; graded on Republican affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 073",
+  "name": "Allen J. (A.J.) Miller",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and rated Liberal by iVoterGuide; no NRA questionnaire returned and no voting record.",
+  "description": "Candidate for State Representative, District 73 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC, signaling support for abortion access.",
+   "marriage": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No specific positions found; rated Liberal by iVoterGuide.",
+   "secondAmendment": "No NRA-PVF questionnaire returned (unrated); no gun-policy position found.",
+   "limitedGov": "No specific positions found; graded on Democratic affiliation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 073",
+  "name": "Jennifer Meltzer",
+  "grade": "B",
+  "gradeNote": "Voted yes on SB 480, HB 1608, the 2023 school-choice budget and SB 1 (2025) property-tax relief; IRTL- and NRA-endorsed (A); 83% on the IFI 2026 scorecard; was not in office for the 2022 abortion and gun votes.",
+  "description": "Incumbent Republican state representative for District 73, with House roll-call votes on record since 2023.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for 2026; no abortion roll call captured (took office after SB 1 of 2022).",
+   "marriage": "Voted yes on SB 480 (2023) gender-transition ban for minors and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "Scored 83% on the Indiana Family Institute 2026 scorecard (one not-voting mark), including support for HB 1389 religious-liberty protections; rated Leans Conservative by iVoterGuide.",
+   "secondAmendment": "NRA-PVF A rating and endorsement.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal Choice Scholarship expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief; no broader low-tax/spending record captured."
+  }
+ },
+ {
+  "office": "State Representative, District 074",
+  "name": "Lena Goffinet",
+  "grade": "D",
+  "gradeNote": "Rated Leans Liberal by iVoterGuide; no endorsements, ratings or voting record found beyond party affiliation.",
+  "description": "Candidate for State Representative, District 74 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No specific positions found; Leans Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No religious-liberty positions found; graded on party alignment.",
+   "secondAmendment": "No NRA-PVF questionnaire returned (unrated); no gun-policy position found.",
+   "limitedGov": "No specific positions found; graded on Democratic affiliation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 074",
+  "name": "Stephen R. Bartels",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 1 (2022) abortion ban, permitless carry, girls' sports, SB 480 and the 2023 school-choice budget; NRA A-rated/endorsed; 83% on the IFI 2026 scorecard; not on the IRTL 2026 list and excused on SB 1 (2025).",
+  "description": "Incumbent Republican state representative for District 74, with House roll-call votes on record since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.64_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.382_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.135_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.402_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on SB 1 (2022) near-total abortion ban.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override, SB 480 (2023) and HB 1608 (2023) at third reading (excused on final concurrence).",
+   "religiousLiberty": "Scored 83% on the Indiana Family Institute 2026 scorecard (voted against IFI only on HB 1038 casino relocation); rated Leans Conservative by iVoterGuide.",
+   "secondAmendment": "NRA-PVF A rating and endorsement; voted yes on HB 1296 (2022) permitless carry.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal Choice Scholarship expansion.",
+   "fiscal": "Excused on SB 1 (2025) property-tax relief; voted for the 2023 budget; graded on Republican caucus record."
+  }
+ },
+ {
+  "office": "State Representative, District 075",
+  "name": "Mason Barclay",
+  "grade": "D",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate and rated Liberal by iVoterGuide; no abortion-group endorsement found and no voting record.",
+  "description": "Candidate for State Representative, District 75 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No specific positions found; rated Liberal by iVoterGuide.",
+   "secondAmendment": "Moms Demand Action Gun Sense Candidate.",
+   "limitedGov": "No specific positions found; graded on Democratic affiliation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 075",
+  "name": "Cindy Ledbetter",
+  "grade": "B",
+  "gradeNote": "Voted no on SB 1 (2022) abortion ban but is IRTL-endorsed for 2026; voted yes on permitless carry, girls' sports, SB 480, HB 1608, the 2023 school-choice budget and SB 1 (2025); NRA A-rated/endorsed; 80% on the IFI 2026 scorecard.",
+  "description": "Incumbent Republican state representative for District 75, with House roll-call votes on record since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.64_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.382_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.135_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.402_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "C",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on SB 1 (2022) near-total abortion ban, yet is endorsed by Indiana Right to Life PAC for 2026; mixed record.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override, SB 480 (2023) and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "Scored 80% on the Indiana Family Institute 2026 scorecard (against IFI on HB 1038 casino relocation, excused on one item); rated Leans Conservative by iVoterGuide.",
+   "secondAmendment": "NRA-PVF A rating and endorsement; voted yes on HB 1296 (2022) permitless carry.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal Choice Scholarship expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief; no broader low-tax/spending record captured."
+  }
+ },
+ {
+  "office": "State Representative, District 076",
+  "name": "Logan A. Patberg",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Moms Demand Action (Gun Sense Candidate) with an NRA F; no voting record and iVoterGuide lists insufficient information.",
+  "description": "Candidate for State Representative, District 76 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC, signaling support for abortion access.",
+   "marriage": "No specific positions found; running as Democrat suggests opposition.",
+   "religiousLiberty": "No religious-liberty positions found; graded on party alignment.",
+   "secondAmendment": "Moms Demand Action Gun Sense Candidate and NRA-PVF F rating.",
+   "limitedGov": "No specific positions found; graded on Democratic affiliation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 076",
+  "name": "Wendy (Mac) McNamara",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 1 (2022) abortion ban, permitless carry, girls' sports, SB 480, HB 1608 and the 2023 school-choice budget; IRTL- and NRA-endorsed (A); 83% on the IFI 2026 scorecard.",
+  "description": "Incumbent Republican state representative for District 76, with House roll-call votes on record since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.64_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.382_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.135_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.402_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on SB 1 (2022) near-total abortion ban and endorsed by Indiana Right to Life PAC for 2026.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override, SB 480 (2023) gender-transition ban for minors and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "Scored 83% on the Indiana Family Institute 2026 scorecard (voted against IFI only on HB 1038 casino relocation), including support for HB 1389 religious-liberty protections.",
+   "secondAmendment": "NRA-PVF A rating and endorsement; voted yes on HB 1296 (2022) permitless carry.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal Choice Scholarship expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief; no broader low-tax/spending record captured."
+  }
+ },
+ {
+  "office": "State Representative, District 077",
+  "name": "Alex Burton",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood; 33% on the IFI 2026 scorecard and voted no on SB 1 (2025) property-tax relief; no NRA rating.",
+  "description": "Incumbent Democratic state representative for District 77.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood, signaling support for abortion access.",
+   "marriage": "No captured votes on family/gender bills; Democratic affiliation and IFI score suggest opposition.",
+   "religiousLiberty": "Scored 33% on the Indiana Family Institute 2026 scorecard, voting against IFI on HB 1389 religious-liberty protections for adoption/foster providers.",
+   "secondAmendment": "No NRA-PVF questionnaire returned (unrated); no gun-policy vote captured.",
+   "limitedGov": "No school-choice vote captured; graded on Democratic affiliation.",
+   "fiscal": "Voted no on SB 1 (2025) property-tax relief."
+  }
+ },
+ {
+  "office": "State Representative, District 078",
+  "name": "Sally Busby",
+  "grade": "F",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood and Moms Demand Action (Gun Sense Candidate); NRA F and rated Liberal by iVoterGuide.",
+  "description": "Candidate for State Representative, District 78 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood, signaling support for abortion access.",
+   "marriage": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No specific positions found; rated Liberal by iVoterGuide.",
+   "secondAmendment": "Moms Demand Action Gun Sense Candidate and NRA-PVF F rating.",
+   "limitedGov": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition to school choice and deregulation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 078",
+  "name": "Tim O'Brien",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 1 (2022) abortion ban, permitless carry, girls' sports, SB 480, HB 1608 and the 2023 school-choice budget; IRTL- and NRA-endorsed (A); 83% on the IFI 2026 scorecard.",
+  "description": "Incumbent Republican state representative for District 78, with House roll-call votes on record since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.64_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.382_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.135_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.402_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on SB 1 (2022) near-total abortion ban and endorsed by Indiana Right to Life PAC for 2026.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override, SB 480 (2023) gender-transition ban for minors and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "Scored 83% on the Indiana Family Institute 2026 scorecard (voted against IFI only on HB 1038 casino relocation), including support for HB 1389 religious-liberty protections.",
+   "secondAmendment": "NRA-PVF A rating and endorsement; voted yes on HB 1296 (2022) permitless carry.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal Choice Scholarship expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief; no broader low-tax/spending record captured."
+  }
+ },
+ {
+  "office": "State Representative, District 079",
+  "name": "Ian G. Richardson",
+  "grade": "F",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC; NRA F and rated Liberal by iVoterGuide.",
+  "description": "Candidate for State Representative, District 79 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC, signaling support for abortion access.",
+   "marriage": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No specific positions found; rated Liberal by iVoterGuide.",
+   "secondAmendment": "NRA-PVF F rating.",
+   "limitedGov": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition to school choice and deregulation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 079",
+  "name": "Matthew S. Lehman",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 1 (2022) abortion ban, HB 1296 permitless carry, HB 1041 girls' sports (and veto override), SB 480 and the 2023 school-choice budget; IRTL-endorsed, NRA A-rated/endorsed and 100% on the IFI 2026 scorecard.",
+  "description": "Incumbent Republican state representative for District 79, with House roll-call votes on record since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.64_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.382_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.135_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.402_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on SB 1 (2022) near-total abortion ban and endorsed by Indiana Right to Life PAC for 2026.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override and on SB 480 (2023) gender-transition ban for minors; voted yes on HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "Scored 100% on the Indiana Family Institute 2026 scorecard, including HB 1389 religious-liberty protections for adoption/foster providers; rated Conservative by iVoterGuide.",
+   "secondAmendment": "NRA-PVF A rating and endorsement; voted yes on HB 1296 (2022) permitless carry.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal Choice Scholarship (school choice) expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief and the 2023 budget; no broader low-tax/spending record captured."
+  }
+ },
+ {
+  "office": "State Representative, District 080",
+  "name": "Phil GiaQuinta",
+  "grade": "F",
+  "gradeNote": "Voted no on SB 1 (2022) abortion ban, permitless carry, girls' sports, SB 480, HB 1608 and the 2023 school-choice budget; endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood; NRA D; 40% on the IFI 2026 scorecard.",
+  "description": "Incumbent Democratic state representative for District 80, with House roll-call votes on record since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.64_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.382_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.135_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.402_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "D",
+   "secondAmendment": "D",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on SB 1 (2022) near-total abortion ban; endorsed for 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood.",
+   "marriage": "Voted no on HB 1041 (2022) girls' sports and its veto override, SB 480 (2023) gender-transition ban for minors and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "Scored 40% on the Indiana Family Institute 2026 scorecard, voting against IFI on HB 1389 religious-liberty protections for adoption/foster providers.",
+   "secondAmendment": "NRA-PVF D rating; voted no on HB 1296 (2022) permitless carry.",
+   "limitedGov": "Voted no on HB 1001 (2023) budget with near-universal Choice Scholarship expansion.",
+   "fiscal": "Voted no on SB 1 (2025) property-tax relief."
+  }
+ },
+ {
+  "office": "State Representative, District 081",
+  "name": "Sharon L Wight",
+  "grade": "F",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood and Moms Demand Action (Gun Sense Candidate); NRA F and rated Liberal by iVoterGuide.",
+  "description": "Candidate for State Representative, District 81 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood, signaling support for abortion access.",
+   "marriage": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No specific positions found; rated Liberal by iVoterGuide.",
+   "secondAmendment": "Moms Demand Action Gun Sense Candidate and NRA-PVF F rating.",
+   "limitedGov": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition to school choice and deregulation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 081",
+  "name": "Martin Carbaugh",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 1 (2022) abortion ban, HB 1296 permitless carry, HB 1041 girls' sports (and veto override), SB 480 and the 2023 school-choice budget; IRTL-endorsed, NRA A-rated/endorsed and 100% on the IFI 2026 scorecard.",
+  "description": "Incumbent Republican state representative for District 81, with House roll-call votes on record since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.64_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.382_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.135_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.402_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on SB 1 (2022) near-total abortion ban and endorsed by Indiana Right to Life PAC for 2026.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override and on SB 480 (2023) gender-transition ban for minors; voted yes on HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "Scored 100% on the Indiana Family Institute 2026 scorecard, including HB 1389 religious-liberty protections for adoption/foster providers; rated Conservative by iVoterGuide.",
+   "secondAmendment": "NRA-PVF A rating and endorsement; voted yes on HB 1296 (2022) permitless carry.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal Choice Scholarship (school choice) expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief and the 2023 budget; no broader low-tax/spending record captured."
+  }
+ },
+ {
+  "office": "State Representative, District 082",
+  "name": "Kyle Miller",
+  "grade": "F",
+  "gradeNote": "Voted no on SB 480, HB 1608, the 2023 school-choice budget and SB 1 (2025) property-tax relief; endorsed by Indiana Reproductive Freedom PAC; NRA F; 40% on the IFI 2026 scorecard.",
+  "description": "Incumbent Democratic state representative for District 82, with House roll-call votes on record since 2023.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC, signaling support for abortion access.",
+   "marriage": "Voted no on SB 480 (2023) gender-transition ban for minors and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "Scored 40% on the Indiana Family Institute 2026 scorecard, voting against IFI on HB 1389 religious-liberty protections for adoption/foster providers.",
+   "secondAmendment": "NRA-PVF F rating.",
+   "limitedGov": "Voted no on HB 1001 (2023) budget with near-universal Choice Scholarship expansion.",
+   "fiscal": "Voted no on SB 1 (2025) property-tax relief."
+  }
+ },
+ {
+  "office": "State Representative, District 083",
+  "name": "Wesley Haffenden",
+  "grade": "F",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood and Moms Demand Action (Gun Sense Candidate); NRA F and rated Liberal by iVoterGuide.",
+  "description": "Candidate for State Representative, District 83 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood, signaling support for abortion access.",
+   "marriage": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No specific positions found; rated Liberal by iVoterGuide.",
+   "secondAmendment": "Moms Demand Action Gun Sense Candidate and NRA-PVF F rating.",
+   "limitedGov": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition to school choice and deregulation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 083",
+  "name": "Christopher Judy",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 1 (2022) abortion ban, HB 1296 permitless carry, HB 1041 girls' sports (and veto override), SB 480 and the 2023 school-choice budget; NRA A-rated/endorsed and 100% on the IFI 2026 scorecard.",
+  "description": "Incumbent Republican state representative for District 83, with House roll-call votes on record since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.64_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.382_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.135_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.402_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on SB 1 (2022) near-total abortion ban.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override and on SB 480 (2023) gender-transition ban for minors; voted yes on HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "Scored 100% on the Indiana Family Institute 2026 scorecard, including HB 1389 religious-liberty protections for adoption/foster providers; rated Conservative by iVoterGuide.",
+   "secondAmendment": "NRA-PVF A rating and endorsement; voted yes on HB 1296 (2022) permitless carry.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal Choice Scholarship (school choice) expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief and the 2023 budget; no broader low-tax/spending record captured."
+  }
+ },
+ {
+  "office": "State Representative, District 084",
+  "name": "Misti Meehan",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and rated Liberal by iVoterGuide; no NRA questionnaire returned and no voting record.",
+  "description": "Candidate for State Representative, District 84 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "D",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed for 2026 by Indiana Reproductive Freedom PAC, signaling support for abortion access.",
+   "marriage": "No specific positions found; Liberal iVoterGuide rating and Democratic affiliation suggest opposition.",
+   "religiousLiberty": "No specific positions found; rated Liberal by iVoterGuide.",
+   "secondAmendment": "No NRA-PVF questionnaire returned (unrated); no gun-policy position found.",
+   "limitedGov": "No specific positions found; graded on Democratic affiliation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 084",
+  "name": "Bob Morris",
+  "grade": "B",
+  "gradeNote": "NRA A-rated/endorsed, rated Conservative by iVoterGuide and 100% on the IFI 2026 scorecard; not on the IRTL 2026 list and no 2022-2025 roll calls were captured for him in the evidence file.",
+  "description": "Incumbent Republican state representative for District 84.",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Not on the Indiana Right to Life PAC 2026 list and no abortion roll call captured; Conservative iVoterGuide rating and IFI support suggest pro-life alignment.",
+   "marriage": "Scored 100% on IFI 2026 family-policy items; no captured votes on the girls' sports, SB 480 or HB 1608 bills.",
+   "religiousLiberty": "Scored 100% on the Indiana Family Institute 2026 scorecard, including HB 1389 religious-liberty protections for adoption/foster providers.",
+   "secondAmendment": "NRA-PVF A rating and endorsement.",
+   "limitedGov": "No school-choice or deregulation roll call captured; graded on Republican caucus record and Conservative iVoterGuide rating.",
+   "fiscal": "No tax or budget roll call captured; graded on Republican caucus record."
+  }
+ },
+ {
+  "office": "State Representative, District 085",
+  "name": "Mark (Bird) Wehrle",
+  "grade": "D",
+  "gradeNote": "No endorsements, ratings or voting record found; graded on Democratic party affiliation.",
+  "description": "Candidate for State Representative, District 85 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No specific positions found; running as Democrat suggests opposition.",
+   "religiousLiberty": "No religious-liberty positions found; graded on party alignment.",
+   "secondAmendment": "No NRA-PVF questionnaire returned (unrated); no gun-policy position found.",
+   "limitedGov": "No specific positions found; graded on Democratic affiliation.",
+   "fiscal": "No specific positions found; graded on Democratic affiliation."
+  }
+ },
+ {
+  "office": "State Representative, District 085",
+  "name": "Dave Heine",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 1 (2022) abortion ban, HB 1296 permitless carry, HB 1041 girls' sports (and veto override), SB 480 and the 2023 school-choice budget; IRTL-endorsed, NRA A-rated/endorsed and 100% on the IFI 2026 scorecard.",
+  "description": "Incumbent Republican state representative for District 85, with House roll-call votes on record since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.64_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.382_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.135_H.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.402_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.306_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.220_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.489_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.234_H.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.565_H.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.433_H.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on SB 1 (2022) near-total abortion ban and endorsed by Indiana Right to Life PAC for 2026.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override and on SB 480 (2023) gender-transition ban for minors; voted yes on HB 1608 (2023) at third reading.",
+   "religiousLiberty": "Scored 100% on the Indiana Family Institute 2026 scorecard, including HB 1389 religious-liberty protections for adoption/foster providers; rated Conservative by iVoterGuide.",
+   "secondAmendment": "NRA-PVF A rating and endorsement; voted yes on HB 1296 (2022) permitless carry.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal Choice Scholarship (school choice) expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief and the 2023 budget; no broader low-tax/spending record captured."
+  }
+ }
+]

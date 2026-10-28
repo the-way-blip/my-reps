@@ -1,0 +1,211 @@
+[
+ {
+  "office": "State Representative, District 008",
+  "candidates": [
+   {
+    "name": "Ryan M Dvorak",
+    "party": "democratic"
+   },
+   {
+    "name": "Eric Harris",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 009",
+  "candidates": [
+   {
+    "name": "Randy Novak",
+    "party": "democratic"
+   },
+   {
+    "name": "Chris Cleveland",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 010",
+  "candidates": [
+   {
+    "name": "Charles Chuck Moseley",
+    "party": "democratic"
+   },
+   {
+    "name": "Ted Uzelac",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 011",
+  "candidates": [
+   {
+    "name": "Tyler Thomas Bridges",
+    "party": "democratic"
+   },
+   {
+    "name": "Michael J. Aylesworth",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 012",
+  "candidates": [
+   {
+    "name": "Mike Andrade",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 013",
+  "candidates": [
+   {
+    "name": "Brenna Geswein",
+    "party": "democratic"
+   },
+   {
+    "name": "Matt Commons",
+    "party": "republican"
+   },
+   {
+    "name": "Ben Davis",
+    "party": "Socialist Party of Indiana"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 014",
+  "candidates": [
+   {
+    "name": "Vernon G. Smith",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 015",
+  "candidates": [
+   {
+    "name": "Anthony Oberman",
+    "party": "democratic"
+   },
+   {
+    "name": "Hal Slager",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 016",
+  "candidates": [
+   {
+    "name": "Ashley Hammac",
+    "party": "democratic"
+   },
+   {
+    "name": "Kendell Culp",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 017",
+  "candidates": [
+   {
+    "name": "Mary E. Gibson",
+    "party": "democratic"
+   },
+   {
+    "name": "Jack Jordan",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 018",
+  "candidates": [
+   {
+    "name": "David H. Abbott",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 019",
+  "candidates": [
+   {
+    "name": "Nick Neal",
+    "party": "democratic"
+   },
+   {
+    "name": "Julie Olthoff",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 020",
+  "candidates": [
+   {
+    "name": "Laura Liskey",
+    "party": "democratic"
+   },
+   {
+    "name": "Jim Pressel",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 021",
+  "candidates": [
+   {
+    "name": "Charles Burkley",
+    "party": "democratic"
+   },
+   {
+    "name": "Timothy Wesco",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 022",
+  "candidates": [
+   {
+    "name": "Craig Snow",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 023",
+  "candidates": [
+   {
+    "name": "Austin D. Meives",
+    "party": "democratic"
+   },
+   {
+    "name": "Ethan Manning",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 024",
+  "candidates": [
+   {
+    "name": "Racheal Bleicher",
+    "party": "democratic"
+   },
+   {
+    "name": "Hunter Smith",
+    "party": "republican"
+   }
+  ]
+ }
+]

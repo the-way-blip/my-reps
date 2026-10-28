@@ -1,0 +1,201 @@
+[
+ {
+  "office": "State Senator, District 01",
+  "candidates": [
+   {
+    "name": "Scott Houldieson",
+    "party": "democratic"
+   },
+   {
+    "name": "Trevor G. De Vries",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 04",
+  "candidates": [
+   {
+    "name": "Rodney Pol",
+    "party": "democratic"
+   },
+   {
+    "name": "Nate Uldricks",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 06",
+  "candidates": [
+   {
+    "name": "Kate-Lynn Holley",
+    "party": "democratic"
+   },
+   {
+    "name": "James (Jay) Starkey",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 11",
+  "candidates": [
+   {
+    "name": "Gabrianna Gratzol",
+    "party": "democratic"
+   },
+   {
+    "name": "Brian S. Schmutzler",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 14",
+  "candidates": [
+   {
+    "name": "Blaine Sefton",
+    "party": "democratic"
+   },
+   {
+    "name": "Tyler Johnson",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 15",
+  "candidates": [
+   {
+    "name": "Julie McGill",
+    "party": "democratic"
+   },
+   {
+    "name": "Liz Brown",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 17",
+  "candidates": [
+   {
+    "name": "Cynthia M. Wehr",
+    "party": "democratic"
+   },
+   {
+    "name": "Chris Parker",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 19",
+  "candidates": [
+   {
+    "name": "Timothy C. Murphy",
+    "party": "democratic"
+   },
+   {
+    "name": "Blake Fiechter",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 21",
+  "candidates": [
+   {
+    "name": "Kirsten Root",
+    "party": "democratic"
+   },
+   {
+    "name": "Tracey Powell",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 22",
+  "candidates": [
+   {
+    "name": "Natasha Baker",
+    "party": "democratic"
+   },
+   {
+    "name": "Ron Alting",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 23",
+  "candidates": [
+   {
+    "name": "David A Sanders",
+    "party": "democratic"
+   },
+   {
+    "name": "Spencer R. Deery",
+    "party": "republican"
+   },
+   {
+    "name": "Joshua Brant",
+    "party": "Independent"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 25",
+  "candidates": [
+   {
+    "name": "Tamie Dixon-Tatum",
+    "party": "democratic"
+   },
+   {
+    "name": "Mike Gaskill",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 26",
+  "candidates": [
+   {
+    "name": "Andrew Dale",
+    "party": "democratic"
+   },
+   {
+    "name": "Scott A. Alexander",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 27",
+  "candidates": [
+   {
+    "name": "Ronald Itnyre",
+    "party": "democratic"
+   },
+   {
+    "name": "Jeff Raatz",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 29",
+  "candidates": [
+   {
+    "name": "Kristina Moorhead",
+    "party": "democratic"
+   },
+   {
+    "name": "John Ruckelshaus",
+    "party": "republican"
+   }
+  ]
+ }
+]

@@ -1,0 +1,986 @@
+[
+ {
+  "office": "State Senator, District 01",
+  "name": "Scott Houldieson",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana; iVoterGuide rates the candidate \"Liberal\"; no voting record or gun-policy signal found.",
+  "description": "Candidate for State Senator, District 1 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "No NRA-PVF grade (questionnaire not returned) and no Second Amendment position found.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 01",
+  "name": "Trevor G. De Vries",
+  "grade": "B",
+  "gradeNote": "Endorsed by Indiana Right to Life PAC and by NRA-PVF (AQ grade); iVoterGuide rates the candidate \"Conservative\"; no legislative voting record, so most values rest on endorsements and party.",
+  "description": "Candidate for State Senator, District 1 (Republican).",
+  "website": null,
+  "sources": [
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for the 2026 general election; no voting record yet.",
+   "marriage": "No voting record; iVoterGuide rates the candidate \"Conservative\" and the candidate is running as a Republican.",
+   "religiousLiberty": "No voting record on religious-liberty bills; iVoterGuide rating \"Conservative\".",
+   "secondAmendment": "Rated AQ (A based on candidate questionnaire) and endorsed by NRA-PVF; no voting record.",
+   "limitedGov": "No record on school choice or deregulation; party and iVoterGuide signals suggest support for Indiana's school-choice program.",
+   "fiscal": "No tax or spending record; running as a Republican with conservative ratings."
+  }
+ },
+ {
+  "office": "State Senator, District 04",
+  "name": "Rodney Pol",
+  "grade": "F",
+  "gradeNote": "Voted no on SB 1 (2022) abortion ban, permitless carry, the girls' sports bill and veto override, SB 480 and HB 1608; endorsed by Indiana Reproductive Freedom PAC; NRA-PVF F; IFI 2026 scorecard 25%.",
+  "description": "Incumbent Democratic state senator from District 4 with Senate votes recorded since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.53_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.58_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.364_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.278_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.382_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.207_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.345_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.455_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.538_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.132_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.417_S.pdf",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf",
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on SB 1 (2022) at both Senate stages and no on SB 236 (2026) abortion-pill liability; endorsed by Indiana Reproductive Freedom PAC in 2026.",
+   "marriage": "Voted no on HB 1041 (2022) girls' sports and its veto override, SB 480 (2023) gender-transition ban for minors and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "IFI 2026 scorecard 25%, did not vote on HB 1389 religious liberty in adoption/foster care; iVoterGuide \"Verified Liberal\".",
+   "secondAmendment": "Voted no on HB 1296 (2022) permitless carry; rated F by NRA-PVF.",
+   "limitedGov": "Voted no on HB 1001 (2023) budget with near-universal school-choice expansion.",
+   "fiscal": "Voted no on SB 1 (2025) property-tax relief at both Senate stages."
+  }
+ },
+ {
+  "office": "State Senator, District 04",
+  "name": "Nate Uldricks",
+  "grade": "B",
+  "gradeNote": "Endorsed by NRA-PVF (AQ grade) but not on Indiana Right to Life PAC's 2026 list; iVoterGuide rates the candidate \"Conservative\"; no legislative voting record, so most values rest on endorsements and party.",
+  "description": "Candidate for State Senator, District 4 (Republican).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Not on Indiana Right to Life PAC's 2026 endorsement list; running as a Republican with an iVoterGuide \"Conservative\" rating, but no explicit pro-life record found.",
+   "marriage": "No voting record; iVoterGuide rates the candidate \"Conservative\" and the candidate is running as a Republican.",
+   "religiousLiberty": "No voting record on religious-liberty bills; iVoterGuide rating \"Conservative\".",
+   "secondAmendment": "Rated AQ (A based on candidate questionnaire) and endorsed by NRA-PVF; no voting record.",
+   "limitedGov": "No record on school choice or deregulation; party and iVoterGuide signals suggest support for Indiana's school-choice program.",
+   "fiscal": "No tax or spending record; running as a Republican with conservative ratings."
+  }
+ },
+ {
+  "office": "State Senator, District 06",
+  "name": "Kate-Lynn Holley",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC; iVoterGuide rates the candidate \"Liberal\"; no voting record or gun-policy signal found.",
+  "description": "Candidate for State Senator, District 6 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "No NRA-PVF grade (questionnaire not returned) and no Second Amendment position found.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 06",
+  "name": "James (Jay) Starkey",
+  "grade": "B",
+  "gradeNote": "Endorsed by Indiana Right to Life PAC and by NRA-PVF (AQ grade); iVoterGuide rates the candidate \"Conservative\"; no legislative voting record, so most values rest on endorsements and party.",
+  "description": "Candidate for State Senator, District 6 (Republican).",
+  "website": null,
+  "sources": [
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for the 2026 general election; no voting record yet.",
+   "marriage": "No voting record; iVoterGuide rates the candidate \"Conservative\" and the candidate is running as a Republican.",
+   "religiousLiberty": "No voting record on religious-liberty bills; iVoterGuide rating \"Conservative\".",
+   "secondAmendment": "Rated AQ (A based on candidate questionnaire) and endorsed by NRA-PVF; no voting record.",
+   "limitedGov": "No record on school choice or deregulation; party and iVoterGuide signals suggest support for Indiana's school-choice program.",
+   "fiscal": "No tax or spending record; running as a Republican with conservative ratings."
+  }
+ },
+ {
+  "office": "State Senator, District 11",
+  "name": "Gabrianna Gratzol",
+  "grade": "D",
+  "gradeNote": "Party-only signals: NRA-PVF grade D and iVoterGuide rating \"Liberal\"; no abortion-group endorsement or voting record found.",
+  "description": "Candidate for State Senator, District 11 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as a Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "Rated D by NRA-PVF.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 11",
+  "name": "Brian S. Schmutzler",
+  "grade": "B",
+  "gradeNote": "Endorsed by Indiana Right to Life PAC and by NRA-PVF (AQ grade); iVoterGuide rates the candidate \"Conservative\"; no legislative voting record, so most values rest on endorsements and party.",
+  "description": "Candidate for State Senator, District 11 (Republican).",
+  "website": null,
+  "sources": [
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for the 2026 general election; no voting record yet.",
+   "marriage": "No voting record; iVoterGuide rates the candidate \"Conservative\" and the candidate is running as a Republican.",
+   "religiousLiberty": "No voting record on religious-liberty bills; iVoterGuide rating \"Conservative\".",
+   "secondAmendment": "Rated AQ (A based on candidate questionnaire) and endorsed by NRA-PVF; no voting record.",
+   "limitedGov": "No record on school choice or deregulation; party and iVoterGuide signals suggest support for Indiana's school-choice program.",
+   "fiscal": "No tax or spending record; running as a Republican with conservative ratings."
+  }
+ },
+ {
+  "office": "State Senator, District 14",
+  "name": "Blaine Sefton",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC; iVoterGuide rates the candidate \"Liberal\"; no voting record or gun-policy signal found.",
+  "description": "Candidate for State Senator, District 14 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "No NRA-PVF grade (questionnaire not returned) and no Second Amendment position found.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 14",
+  "name": "Tyler Johnson",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 480, HB 1608, the 2023 school-choice budget, SB 1 (2025) property-tax relief and SB 236 abortion-pill liability; IRTL-endorsed, NRA-PVF A and endorsed, IFI 2026 scorecard 100%.",
+  "description": "Incumbent Republican state senator from District 14 with Senate votes recorded since 2023.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.207_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.345_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.455_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.538_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.132_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.417_S.pdf",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC (2026) and voted yes on SB 236 (2026) civil liability for abortion-inducing drugs.",
+   "marriage": "Voted yes on SB 480 (2023) gender-transition ban for minors and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "IFI 2026 scorecard 100%, including HB 1389 religious liberty in adoption/foster care; iVoterGuide \"Conservative\".",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal school-choice expansion; 100% IFI record includes SB 76 immigration enforcement.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief at both Senate stages; no tax or spending scorecard available."
+  }
+ },
+ {
+  "office": "State Senator, District 15",
+  "name": "Julie McGill",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC; iVoterGuide rates the candidate \"Leans Liberal\"; no voting record or gun-policy signal found.",
+  "description": "Candidate for State Senator, District 15 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Leans Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Leans Liberal\".",
+   "secondAmendment": "No NRA-PVF grade (questionnaire not returned) and no Second Amendment position found.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 15",
+  "name": "Liz Brown",
+  "grade": "B",
+  "gradeNote": "Voted yes on SB 1 (2022) abortion ban, SB 480, HB 1608 and the 2023 school-choice budget, IRTL-endorsed with a 100% IFI score, but voted no on permitless carry and the girls' sports bill and is rated D by NRA-PVF.",
+  "description": "Incumbent Republican state senator from District 15 with Senate votes recorded since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.53_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.58_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.364_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.278_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.382_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.207_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.345_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.455_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.538_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.132_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.417_S.pdf",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "A",
+   "secondAmendment": "D",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on SB 1 (2022) at both Senate stages and on SB 236 (2026); endorsed by Indiana Right to Life PAC.",
+   "marriage": "Voted yes on SB 480 (2023) and HB 1608 (2023), but voted no on HB 1041 (2022) girls' sports and was excused for the veto override.",
+   "religiousLiberty": "IFI 2026 scorecard 100%, including HB 1389 religious liberty in adoption/foster care; iVoterGuide \"Conservative\".",
+   "secondAmendment": "Voted no on HB 1296 (2022) permitless carry; rated D by NRA-PVF.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal school-choice expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief at both Senate stages; no tax or spending scorecard available."
+  }
+ },
+ {
+  "office": "State Senator, District 17",
+  "name": "Cynthia M. Wehr",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC; iVoterGuide rates the candidate \"Liberal\"; no voting record or gun-policy signal found.",
+  "description": "Candidate for State Senator, District 17 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "No NRA-PVF grade (questionnaire not returned) and no Second Amendment position found.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 17",
+  "name": "Chris Parker",
+  "grade": "B",
+  "gradeNote": "Endorsed by Indiana Right to Life PAC and by NRA-PVF (AQ grade); iVoterGuide rates the candidate \"Conservative\"; no legislative voting record, so most values rest on endorsements and party.",
+  "description": "Candidate for State Senator, District 17 (Republican).",
+  "website": null,
+  "sources": [
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for the 2026 general election; no voting record yet.",
+   "marriage": "No voting record; iVoterGuide rates the candidate \"Conservative\" and the candidate is running as a Republican.",
+   "religiousLiberty": "No voting record on religious-liberty bills; iVoterGuide rating \"Conservative\".",
+   "secondAmendment": "Rated AQ (A based on candidate questionnaire) and endorsed by NRA-PVF; no voting record.",
+   "limitedGov": "No record on school choice or deregulation; party and iVoterGuide signals suggest support for Indiana's school-choice program.",
+   "fiscal": "No tax or spending record; running as a Republican with conservative ratings."
+  }
+ },
+ {
+  "office": "State Senator, District 19",
+  "name": "Timothy C. Murphy",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana; a Moms Demand Action Gun Sense Candidate (NRA-PVF F); iVoterGuide rates the candidate \"Liberal\".",
+  "description": "Candidate for State Senator, District 19 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "Was designated a Moms Demand Action Gun Sense Candidate and rated F by NRA-PVF.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 19",
+  "name": "Blake Fiechter",
+  "grade": "B",
+  "gradeNote": "Endorsed by Indiana Right to Life PAC and by NRA-PVF (AQ grade); iVoterGuide rates the candidate \"Conservative\"; no legislative voting record, so most values rest on endorsements and party.",
+  "description": "Candidate for State Senator, District 19 (Republican).",
+  "website": null,
+  "sources": [
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for the 2026 general election; no voting record yet.",
+   "marriage": "No voting record; iVoterGuide rates the candidate \"Conservative\" and the candidate is running as a Republican.",
+   "religiousLiberty": "No voting record on religious-liberty bills; iVoterGuide rating \"Conservative\".",
+   "secondAmendment": "Rated AQ (A based on candidate questionnaire) and endorsed by NRA-PVF; no voting record.",
+   "limitedGov": "No record on school choice or deregulation; party and iVoterGuide signals suggest support for Indiana's school-choice program.",
+   "fiscal": "No tax or spending record; running as a Republican with conservative ratings."
+  }
+ },
+ {
+  "office": "State Senator, District 21",
+  "name": "Kirsten Root",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana; a Moms Demand Action Gun Sense Candidate (NRA-PVF F); iVoterGuide rates the candidate \"Liberal\".",
+  "description": "Candidate for State Senator, District 21 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "Was designated a Moms Demand Action Gun Sense Candidate and rated F by NRA-PVF.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 21",
+  "name": "Tracey Powell",
+  "grade": "B",
+  "gradeNote": "Endorsed by Indiana Right to Life PAC and by NRA-PVF (AQ grade); iVoterGuide rates the candidate \"Conservative\"; no legislative voting record, so most values rest on endorsements and party.",
+  "description": "Candidate for State Senator, District 21 (Republican).",
+  "website": null,
+  "sources": [
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC for the 2026 general election; no voting record yet.",
+   "marriage": "No voting record; iVoterGuide rates the candidate \"Conservative\" and the candidate is running as a Republican.",
+   "religiousLiberty": "No voting record on religious-liberty bills; iVoterGuide rating \"Conservative\".",
+   "secondAmendment": "Rated AQ (A based on candidate questionnaire) and endorsed by NRA-PVF; no voting record.",
+   "limitedGov": "No record on school choice or deregulation; party and iVoterGuide signals suggest support for Indiana's school-choice program.",
+   "fiscal": "No tax or spending record; running as a Republican with conservative ratings."
+  }
+ },
+ {
+  "office": "State Senator, District 22",
+  "name": "Natasha Baker",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC; a Moms Demand Action Gun Sense Candidate; iVoterGuide rates the candidate \"Liberal\".",
+  "description": "Candidate for State Senator, District 22 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "Was designated a Moms Demand Action Gun Sense Candidate.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 22",
+  "name": "Ron Alting",
+  "grade": "C",
+  "gradeNote": "Voted no on SB 1 (2022) abortion ban, the girls' sports bill and override, SB 480 and HB 1608, but yes on permitless carry and the 2023 school-choice budget; NRA-PVF A, IFI 2026 scorecard 78%, iVoterGuide \"Moderate\".",
+  "description": "Incumbent Republican state senator from District 22 with Senate votes recorded since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.53_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.58_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.364_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.278_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.382_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.207_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.345_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.455_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.538_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.132_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.417_S.pdf",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on SB 1 (2022) at both Senate stages and is not on Indiana Right to Life PAC's 2026 list, though he voted yes on SB 236 (2026) abortion-pill liability.",
+   "marriage": "Voted no on HB 1041 (2022) girls' sports and its veto override, SB 480 (2023) and HB 1608 (2023).",
+   "religiousLiberty": "IFI 2026 scorecard 78%, did not vote on HB 1389 religious liberty in adoption/foster care; iVoterGuide \"Moderate\".",
+   "secondAmendment": "Voted yes on HB 1296 (2022) permitless carry; rated A and endorsed by NRA-PVF.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal school-choice expansion.",
+   "fiscal": "Did not vote on SB 1 (2025) property-tax relief at 3rd reading and voted no on final passage."
+  }
+ },
+ {
+  "office": "State Senator, District 23",
+  "name": "David A Sanders",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC; iVoterGuide rates the candidate \"Liberal\"; no voting record or gun-policy signal found.",
+  "description": "Candidate for State Senator, District 23 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "No NRA-PVF grade (questionnaire not returned) and no Second Amendment position found.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 23",
+  "name": "Spencer R. Deery",
+  "grade": "B",
+  "gradeNote": "Voted yes on SB 480, HB 1608, the 2023 school-choice budget and SB 236; IRTL-endorsed, NRA-PVF A, IFI 2026 scorecard 89%, but voted no on final passage of SB 1 (2025) property-tax relief.",
+  "description": "Incumbent Republican state senator from District 23 with Senate votes recorded since 2023.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.207_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.345_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.455_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.538_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.132_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.417_S.pdf",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC (2026) and voted yes on SB 236 (2026) civil liability for abortion-inducing drugs.",
+   "marriage": "Voted yes on SB 480 (2023) gender-transition ban for minors and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "IFI 2026 scorecard 89% (only dissent on the casino relocation bill), including HB 1389 religious liberty in adoption/foster care; iVoterGuide \"Conservative\".",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal school-choice expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief at 3rd reading but no on final passage."
+  }
+ },
+ {
+  "office": "State Senator, District 23",
+  "name": "Joshua Brant",
+  "grade": null,
+  "gradeNote": "Not rated: independent candidate with no voting record, endorsements or stated positions found beyond an iVoterGuide \"Leans Liberal\" label.",
+  "description": "Candidate for State Senator, District 23 (Independent).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "State Senator, District 25",
+  "name": "Tamie Dixon-Tatum",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC; iVoterGuide rates the candidate \"Leans Liberal\"; no voting record or gun-policy signal found.",
+  "description": "Candidate for State Senator, District 25 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Leans Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Leans Liberal\".",
+   "secondAmendment": "No NRA-PVF grade (questionnaire not returned) and no Second Amendment position found.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 25",
+  "name": "Mike Gaskill",
+  "grade": "A",
+  "gradeNote": "Voted yes on final SB 1 (2022) abortion ban, permitless carry, the girls' sports bill and override, SB 480, HB 1608, the 2023 school-choice budget and SB 1 (2025); IRTL-endorsed, NRA-PVF A, IFI 2026 scorecard 100%.",
+  "description": "Incumbent Republican state senator, now District 25 (District 26 before 2022 redistricting).",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.53_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.58_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.364_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.278_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.382_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.207_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.345_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.455_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.538_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.132_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.417_S.pdf",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on SB 1 (2022) at Senate 3rd reading but yes on final concurrence, and yes on SB 236 (2026); endorsed by Indiana Right to Life PAC.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override, SB 480 (2023) and HB 1608 (2023).",
+   "religiousLiberty": "IFI 2026 scorecard 100%, including HB 1389 religious liberty in adoption/foster care; iVoterGuide \"Conservative\".",
+   "secondAmendment": "Voted yes on HB 1296 (2022) permitless carry; rated A and endorsed by NRA-PVF.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal school-choice expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief at both Senate stages; no tax or spending scorecard available."
+  }
+ },
+ {
+  "office": "State Senator, District 26",
+  "name": "Andrew Dale",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana; a Moms Demand Action Gun Sense Candidate (NRA-PVF F); iVoterGuide rates the candidate \"Liberal\".",
+  "description": "Candidate for State Senator, District 26 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "Was designated a Moms Demand Action Gun Sense Candidate and rated F by NRA-PVF.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 26",
+  "name": "Scott A. Alexander",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 480, HB 1608, the 2023 school-choice budget, SB 1 (2025) property-tax relief and SB 236; IRTL-endorsed, NRA-PVF A and endorsed, IFI 2026 scorecard 100%.",
+  "description": "Incumbent Republican state senator from District 26 with Senate votes recorded since 2023.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.207_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.345_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.455_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.538_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.132_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.417_S.pdf",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Indiana Right to Life PAC (2026) and voted yes on SB 236 (2026) civil liability for abortion-inducing drugs.",
+   "marriage": "Voted yes on SB 480 (2023) gender-transition ban for minors and HB 1608 (2023) parental-rights/pronoun bill.",
+   "religiousLiberty": "IFI 2026 scorecard 100%, including HB 1389 religious liberty in adoption/foster care; iVoterGuide \"Conservative\".",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal school-choice expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief at both Senate stages; no tax or spending scorecard available."
+  }
+ },
+ {
+  "office": "State Senator, District 27",
+  "name": "Ronald Itnyre",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC; iVoterGuide rates the candidate \"Liberal\"; no voting record or gun-policy signal found.",
+  "description": "Candidate for State Senator, District 27 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "No NRA-PVF grade (questionnaire not returned) and no Second Amendment position found.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 27",
+  "name": "Jeff Raatz",
+  "grade": "A",
+  "gradeNote": "Voted yes on SB 1 (2022) abortion ban, permitless carry, the girls' sports bill and override, SB 480, HB 1608, the 2023 school-choice budget and SB 1 (2025); IRTL-endorsed, NRA-PVF A, IFI 2026 scorecard 100%.",
+  "description": "Incumbent Republican state senator from District 27 with Senate votes recorded since 2022.",
+  "website": null,
+  "sources": [
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.53_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022ss1/senate/bills/SB0001/rollcalls/SB0001.58_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1296/rollcalls/HB1296.364_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.278_S.pdf",
+   "https://iga.in.gov/pdf-documents/122/2022/house/bills/HB1041/rollcalls/HB1041.382_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0480/rollcalls/SB0480.207_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1608/rollcalls/HB1608.345_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.455_S.pdf",
+   "https://iga.in.gov/pdf-documents/123/2023/house/bills/HB1001/rollcalls/HB1001.538_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.132_S.pdf",
+   "https://iga.in.gov/pdf-documents/124/2025/senate/bills/SB0001/rollcalls/SB0001.417_S.pdf",
+   "https://hoosierfamily.org/wp-content/uploads/2026/07/Legislative-Scorecard-2026.pdf",
+   "https://irtl.org/elections/",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on SB 1 (2022) at both Senate stages and on SB 236 (2026); endorsed by Indiana Right to Life PAC.",
+   "marriage": "Voted yes on HB 1041 (2022) girls' sports and its veto override, SB 480 (2023) and HB 1608 (2023).",
+   "religiousLiberty": "IFI 2026 scorecard 100%, including HB 1389 religious liberty in adoption/foster care; iVoterGuide \"Conservative\".",
+   "secondAmendment": "Voted yes on HB 1296 (2022) permitless carry; rated A and endorsed by NRA-PVF.",
+   "limitedGov": "Voted yes on HB 1001 (2023) budget with near-universal school-choice expansion.",
+   "fiscal": "Voted yes on SB 1 (2025) property-tax relief at both Senate stages; no tax or spending scorecard available."
+  }
+ },
+ {
+  "office": "State Senator, District 29",
+  "name": "Kristina Moorhead",
+  "grade": "D",
+  "gradeNote": "Endorsed by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana; a Moms Demand Action Gun Sense Candidate (NRA-PVF F); iVoterGuide rates the candidate \"Liberal\".",
+  "description": "Candidate for State Senator, District 29 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.inreproductivefreedompac.org/2026-endorsements",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-alliance-advocates/elections/candidate-endorsements-in",
+   "https://gunsensevoter.org/candidates/?state=IN",
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed in 2026 by Indiana Reproductive Freedom PAC and Planned Parenthood Advocates of Indiana, which back abortion access.",
+   "marriage": "No explicit positions on marriage, parental rights or gender-identity policy found; iVoterGuide rates the candidate \"Liberal\" and the candidate is running as a Democrat.",
+   "religiousLiberty": "No position on religious-liberty issues found; iVoterGuide rates the candidate \"Liberal\".",
+   "secondAmendment": "Was designated a Moms Demand Action Gun Sense Candidate and rated F by NRA-PVF.",
+   "limitedGov": "No position found on school choice or deregulation; running as a Democrat suggests opposition to Indiana's voucher expansion.",
+   "fiscal": "No tax or spending position found; running as a Democrat suggests support for higher public spending."
+  }
+ },
+ {
+  "office": "State Senator, District 29",
+  "name": "John Ruckelshaus",
+  "grade": "C",
+  "gradeNote": "Thin record: iVoterGuide rates him \"Leans Conservative\", but he is not on Indiana Right to Life PAC's 2026 list and returned no NRA-PVF questionnaire.",
+  "description": "Candidate for State Senator, District 29 (Republican).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/indiana/",
+   "https://ivoterguide.com/voter-guide/state/in"
+  ],
+  "positions": {
+   "proLife": "C",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "C",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No position found; not on Indiana Right to Life PAC's 2026 endorsement list.",
+   "marriage": "No record found; iVoterGuide \"Leans Conservative\" and running as a Republican.",
+   "religiousLiberty": "No record found; iVoterGuide \"Leans Conservative\".",
+   "secondAmendment": "No position found; NRA-PVF lists him without a grade (no questionnaire returned).",
+   "limitedGov": "No record found; running as a Republican with an iVoterGuide \"Leans Conservative\" rating.",
+   "fiscal": "No record found; running as a Republican with an iVoterGuide \"Leans Conservative\" rating."
+  }
+ }
+]

@@ -53,7 +53,7 @@ for (const h of arr(sw.List)) for (const it of arr(h.Items?.Item)) categories.pu
 const GRADES_DIR = path.join(ROOT, 'data-raw/grades-in')
 const nameKey = n => String(n).toLowerCase().replace(/\(.*?\)/g, ' ').replace(/[^a-z ]+/g, ' ').replace(/\b(jr|sr|ii|iii)\b/g, ' ').trim().split(/\s+/).filter(Boolean)
 // Later files win: six-value regrades (regrade-*, sixvalue-*) override the first-pass files
-const gradeFiles = existsSync(GRADES_DIR) ? readdirSync(GRADES_DIR).filter(f => f.endsWith('.json'))
+const gradeFiles = existsSync(GRADES_DIR) ? readdirSync(GRADES_DIR).filter(f => f.endsWith('.json') && !f.startsWith('_'))
   .sort((a, b) => (/^(regrade|sixvalue)/.test(a) ? 1 : 0) - (/^(regrade|sixvalue)/.test(b) ? 1 : 0) || a.localeCompare(b)) : []
 const gradeMap = new Map()
 for (const f of gradeFiles) for (const g of JSON.parse(readFileSync(path.join(GRADES_DIR, f), 'utf8'))) {

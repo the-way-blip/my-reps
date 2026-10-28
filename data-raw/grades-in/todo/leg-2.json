@@ -1,0 +1,207 @@
+[
+ {
+  "office": "State Senator, District 31",
+  "candidates": [
+   {
+    "name": "Kerry J Forestal",
+    "party": "democratic"
+   },
+   {
+    "name": "Juanita Albright",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 38",
+  "candidates": [
+   {
+    "name": "Kacey Blundell",
+    "party": "democratic"
+   },
+   {
+    "name": "Greg Goode",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 39",
+  "candidates": [
+   {
+    "name": "Jeff Ellington",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 41",
+  "candidates": [
+   {
+    "name": "Ross Thomas",
+    "party": "democratic"
+   },
+   {
+    "name": "Michelle Davis",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 43",
+  "candidates": [
+   {
+    "name": "Byron E. Holland",
+    "party": "democratic"
+   },
+   {
+    "name": "Randall D. Maxwell",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 45",
+  "candidates": [
+   {
+    "name": "Nick Marshall",
+    "party": "democratic"
+   },
+   {
+    "name": "Chris Garten",
+    "party": "republican"
+   },
+   {
+    "name": "Larry Mahaney",
+    "party": "libertarian"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 46",
+  "candidates": [
+   {
+    "name": "Allissa Impink",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 47",
+  "candidates": [
+   {
+    "name": "Ethan Sweetland-May",
+    "party": "democratic"
+   },
+   {
+    "name": "Gary Byrne",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 48",
+  "candidates": [
+   {
+    "name": "Bradley (Brad) Hochgesang",
+    "party": "democratic"
+   },
+   {
+    "name": "Daryl Schmitt",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 49",
+  "candidates": [
+   {
+    "name": "Cindi Clayton",
+    "party": "democratic"
+   },
+   {
+    "name": "Jim Tomes",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 001",
+  "candidates": [
+   {
+    "name": "Carolyn B. Jackson",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 002",
+  "candidates": [
+   {
+    "name": "Earl Harris, Jr.",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 003",
+  "candidates": [
+   {
+    "name": "Ragen Hatcher",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 004",
+  "candidates": [
+   {
+    "name": "Ryan Kominakis",
+    "party": "democratic"
+   },
+   {
+    "name": "Ed Soliday",
+    "party": "republican"
+   },
+   {
+    "name": "Travis Gearhart",
+    "party": "libertarian"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 005",
+  "candidates": [
+   {
+    "name": "Alex Wait",
+    "party": "democratic"
+   },
+   {
+    "name": "Dale DeVon",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 006",
+  "candidates": [
+   {
+    "name": "Maureen Bauer",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 007",
+  "candidates": [
+   {
+    "name": "Oliver Davis",
+    "party": "democratic"
+   },
+   {
+    "name": "Jake Teshka",
+    "party": "republican"
+   }
+  ]
+ }
+]
