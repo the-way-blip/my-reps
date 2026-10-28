@@ -155,6 +155,28 @@ function getHighlights(c) {
   return h
 }
 
+// ── Ballot grouping: Federal → Statewide → Legislature → Courts → County → Township → City/Town → Schools ──
+const RACE_GROUPS = ['Federal', 'Statewide', 'State Legislature', 'State Courts', 'County', 'Courts & Judges', 'Township', 'City, Village & Town', 'Schools & Colleges', 'Other Local']
+function raceGroup(race) {
+  const o = race.office || ''
+  const lvl = race.level || ''
+  if (/U\.S\.|United States/i.test(o) || lvl === 'Federal') return 'Federal'
+  if (/State Senat|State Represent|State House/i.test(o) || lvl === 'State Legislature') return 'State Legislature'
+  if (/Supreme Court/i.test(o)) return 'State Courts'
+  if (lvl === 'State' || lvl === 'Statewide' || race.scope === 'state') return 'Statewide'
+  if (lvl === 'Judicial' || /\bJudge|\bCourt\b|Prosecut|Constable/i.test(o)) return 'Courts & Judges'
+  if (lvl === 'Township' || race.scope === 'township') return 'Township'
+  if (['City', 'Village', 'Town'].includes(lvl) || ['town', 'city'].includes(race.scope)) return 'City, Village & Town'
+  if (lvl === 'School Board' || lvl === 'Community College' || race.scope === 'school') return 'Schools & Colleges'
+  if (lvl === 'County' || race.scope === 'county' || /County/i.test(o)) return 'County'
+  return 'Other Local'
+}
+function groupRaces(list) {
+  const by = new Map()
+  for (const r of list) { const g = raceGroup(r); if (!by.has(g)) by.set(g, []); by.get(g).push(r) }
+  return RACE_GROUPS.filter(g => by.has(g)).map(g => ({ label: g, races: by.get(g) }))
+}
+
 // ── Step 1: Address Entry ──
 
 function AddressStep({ address, onSubmit, daysLeft }) {
@@ -1740,25 +1762,28 @@ export default function BallotView() {
               </span>
             </div>
             <h3 className="ballot-section-title">
-              General Election Races
+              Federal &amp; State Races
             </h3>
             <p className="ballot-section-subtitle">Choose one candidate per race. Candidates from all parties are shown together.</p>
             <div className="ballot-races">
-              {races
-                .filter(race => {
-                  if (raceFilter === 'undecided') return !choices[race.id]?.name
-                  if (raceFilter === 'decided') return !!choices[race.id]?.name
-                  return true
-                })
-                .map(race => (
-                <RaceCard
-                  key={race.id}
-                  race={race}
-                  choice={choices[race.id]}
-                  onSelect={selectCandidate}
-                  onWriteIn={writeInCandidate}
-                  onCandidateDetail={setDetailCandidate}
-                />
+              {groupRaces(races.filter(race => {
+                if (raceFilter === 'undecided') return !choices[race.id]?.name
+                if (raceFilter === 'decided') return !!choices[race.id]?.name
+                return true
+              })).map(group => (
+                <React.Fragment key={group.label}>
+                  <h4 className="ballot-group-title">{group.label}</h4>
+                  {group.races.map(race => (
+                    <RaceCard
+                      key={race.id}
+                      race={race}
+                      choice={choices[race.id]}
+                      onSelect={selectCandidate}
+                      onWriteIn={writeInCandidate}
+                      onCandidateDetail={setDetailCandidate}
+                    />
+                  ))}
+                </React.Fragment>
               ))}
               {raceFilter === 'undecided' && races.every(race => choices[race.id]?.name) && (
                 <p className="ballot-filter-empty">All races decided!</p>
@@ -1797,15 +1822,20 @@ export default function BallotView() {
                 </div>
               )}
               <div className="ballot-races">
-                {combinedLocalRaces.map(race => (
-                  <RaceCard
-                    key={race.id}
-                    race={race}
-                    choice={choices[race.id]}
-                    onSelect={selectCandidate}
-                    onWriteIn={writeInCandidate}
-                    onCandidateDetail={setDetailCandidate}
-                  />
+                {groupRaces(combinedLocalRaces).map(group => (
+                  <React.Fragment key={group.label}>
+                    <h4 className="ballot-group-title">{group.label}</h4>
+                    {group.races.map(race => (
+                      <RaceCard
+                        key={race.id}
+                        race={race}
+                        choice={choices[race.id]}
+                        onSelect={selectCandidate}
+                        onWriteIn={writeInCandidate}
+                        onCandidateDetail={setDetailCandidate}
+                      />
+                    ))}
+                  </React.Fragment>
                 ))}
               </div>
               {isIndiana && indiana?.maybeRaces?.length > 0 && (

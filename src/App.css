@@ -14138,3 +14138,16 @@ html[data-text] .ballot-incumbent-tag { font-size: 0.8rem !important; }
   color: var(--accent-red);
   text-wrap: balance;
 }
+
+/* Race group headings inside ballot sections (Federal, Statewide, County, ...) */
+.ballot-group-title {
+  margin: 1.5rem 0 0.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--accent-gold);
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+.ballot-group-title:first-child { margin-top: 0.5rem; }
