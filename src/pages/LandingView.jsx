@@ -66,7 +66,7 @@ export default function LandingView() {
   const bannerRef = useReveal()
   const bottomRef = useReveal()
 
-  const stat1 = useCountUp(73)
+  const stat1 = useCountUp(53)
   const stat2 = useCountUp(62)
   const stat3 = useCountUp(3, 1200)
 
@@ -76,10 +76,8 @@ export default function LandingView() {
     return null
   }
 
-  const openSignUp = () => {
-    setAuthTab('signup')
-    setAuthOpen(true)
-  }
+  // Every "Build My Ballot" CTA goes straight to the ballot — no sign-up wall
+  const goToBallot = () => navigate('/ballot')
 
   const openSignIn = () => {
     setAuthTab('signin')
@@ -107,6 +105,7 @@ export default function LandingView() {
       <section className="landing-hero reveal-section" ref={heroRef}>
         <div className="landing-hero-content landing-hero-centered">
           <img src="/logo.png" alt="Of For & By The People" className="landing-hero-logo" />
+          <p className="landing-hero-eyebrow">General Election · Tuesday, November 3 · Michigan &amp; Indiana</p>
           <h1 className="landing-hero-headline">
             Walk Into Every Election Confident You're Voting Your Values
           </h1>
@@ -116,11 +115,11 @@ export default function LandingView() {
             issues that matter, ready in under two minutes.
           </p>
           <div className="landing-cta-group landing-cta-centered">
-            <button className="landing-cta-primary" onClick={openSignUp}>
+            <button className="landing-cta-primary" onClick={goToBallot}>
               Build My Ballot
             </button>
             <p className="landing-cta-sub">
-              Takes 30 seconds &middot; No credit card required
+              Free &middot; No sign-up needed &middot; Just enter your address
             </p>
             <div className="landing-app-row">
               <span className="landing-app-row-label">On your iPhone? Get the app:</span>
@@ -242,8 +241,8 @@ export default function LandingView() {
         <div className="landing-plan-grid">
           <div className="landing-plan-step">
             <div className="landing-plan-number">1</div>
-            <h3>Create Your Account</h3>
-            <p>Sign up in 30 seconds and get instant access to your personalized ballot.</p>
+            <h3>Enter Your Address</h3>
+            <p>No account needed. Type your home address and we find your exact ballot.</p>
           </div>
           <div className="landing-plan-connector" aria-hidden="true">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -252,8 +251,8 @@ export default function LandingView() {
           </div>
           <div className="landing-plan-step">
             <div className="landing-plan-number">2</div>
-            <h3>Enter Your Address</h3>
-            <p>We show you every race on your ballot with candidates graded A through F.</p>
+            <h3>See Every Race</h3>
+            <p>Congress down to school board, plus every ballot question — with candidate grades where we&apos;ve reviewed them.</p>
           </div>
           <div className="landing-plan-connector" aria-hidden="true">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -275,7 +274,7 @@ export default function LandingView() {
         <div className="landing-direct-cta-inner">
           <h2>Ready to See Your Ballot?</h2>
           <p>Know exactly which candidates align with your values before election day.</p>
-          <button className="landing-cta-primary" onClick={openSignUp}>
+          <button className="landing-cta-primary" onClick={goToBallot}>
             Build My Ballot
           </button>
         </div>
@@ -291,7 +290,7 @@ export default function LandingView() {
           Enter your address and see every race you'll vote on — candidates graded
           on the values that matter most.
         </p>
-        <div className="landing-ballot-hero-card" onClick={openSignUp}>
+        <div className="landing-ballot-hero-card" onClick={goToBallot}>
           <div className="landing-ballot-hero-left">
             <div className="landing-tool-badge">Live Now</div>
             <div className="landing-ballot-hero-icon">
@@ -301,15 +300,15 @@ export default function LandingView() {
             </div>
             <h3>Build My Ballot</h3>
             <p>
-              See every race on your November 3rd general election ballot — Governor, US Senate,
-              US House, State Legislature, and more. Every candidate graded A–F.
+              See every race on your November 3 general election ballot in Michigan or Indiana —
+              Congress, state legislature, county, township, school board and every ballot question.
             </p>
             <span className="landing-ballot-hero-cta">Build My Ballot &rarr;</span>
           </div>
           <ul className="landing-ballot-hero-features">
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" strokeWidth="2" width="18" height="18"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              Every candidate in your district
+              Every race on your exact ballot
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" strokeWidth="2" width="18" height="18"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18"/><path d="M12 3v18"/></svg>
@@ -387,7 +386,7 @@ export default function LandingView() {
           <div className="landing-stakes-grid">
             <div className="landing-stakes-item">
               <span className="landing-stakes-num" ref={stat1.ref}>{stat1.value}%</span>
-              <p>of eligible voters skip primary elections — the races where your vote has the biggest impact.</p>
+              <p>of eligible voters skipped the last midterm election — and down-ballot races are decided by the few who show up.</p>
             </div>
             <div className="landing-stakes-item">
               <span className="landing-stakes-num" ref={stat2.ref}>{stat2.value}%</span>
@@ -428,11 +427,11 @@ export default function LandingView() {
         <div className="landing-bottom-cta-overlay">
           <h2>Government of the people, by the people, for the people.</h2>
           <p>Stand for Faith, Family, and our Founding Principles. Join the movement.</p>
-          <button className="landing-cta-primary" onClick={openSignUp}>
+          <button className="landing-cta-primary" onClick={goToBallot}>
             Build My Ballot
           </button>
           <p className="landing-bottom-reassurance">
-            30-second signup &middot; No credit card required
+            Free &middot; No sign-up needed
           </p>
           <div className="landing-app-row landing-app-row-dark">
             <AppStoreBadge placement="landing-bottom" size="lg" />
