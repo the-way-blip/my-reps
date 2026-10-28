@@ -2,17 +2,22 @@ import { useState, useRef, useEffect, useCallback } from 'react'
 
 /**
  * Fetch address suggestions from Nominatim (OpenStreetMap) — free, no API key.
- * Restricted to Michigan (state=Michigan) for this Michigan-specific app.
+ * Limited to the states the app has ballots for.
  */
+const SUPPORTED_STATES = { 'US-MI': 'Michigan', 'US-IN': 'Indiana' }
+
 async function fetchSuggestions(query) {
   if (query.length < 3) return []
   try {
     const params = new URLSearchParams({
-      q: query + ', Michigan',
+      q: query,
       format: 'json',
       countrycodes: 'us',
-      limit: '5',
+      limit: '10',
       addressdetails: '1',
+      // Box around Michigan + Indiana (lon/lat); results outside the two states are filtered below
+      viewbox: '-90.5,48.4,-82.0,37.7',
+      bounded: '1',
     })
     const res = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, {
       headers: { 'Accept': 'application/json', 'User-Agent': 'OfForAndByThePeople/1.0 (https://offorandbythepeople.com)' },
@@ -21,9 +26,10 @@ async function fetchSuggestions(query) {
     const data = await res.json()
     return data
       .filter(r => {
-        const st = r.address?.state_code?.toUpperCase()
-        return st === 'MI' || !st // Keep Michigan results or results without state info
+        const iso = r.address?.['ISO3166-2-lvl4']
+        return iso ? iso in SUPPORTED_STATES : Object.values(SUPPORTED_STATES).includes(r.address?.state)
       })
+      .slice(0, 5)
       .map(r => {
         // Build a clean display address
         const addr = r.address || {}
@@ -45,7 +51,7 @@ async function fetchSuggestions(query) {
           lat: r.lat,
           lon: r.lon,
           city: addr.city || addr.town || addr.village || addr.hamlet || '',
-          state: addr.state || 'Michigan',
+          state: addr.state || '',
           zip: addr.postcode || '',
         }
       })

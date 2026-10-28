@@ -15,6 +15,9 @@
       "launchAutoHide": true,
       "backgroundColor": "#FFFFFF",
       "showSpinner": false
+    },
+    "CapacitorHttp": {
+      "enabled": true
     }
   }
 }
