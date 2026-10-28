@@ -14127,3 +14127,4 @@ html[data-text] .ballot-incumbent-tag { font-size: 0.8rem !important; }
   align-items: center;
 }
 .ballot-explainer-details[open] > summary { margin-bottom: 0.25rem; }
+.ballot-maybe-title { margin: 1.5rem 0 0.25rem; font-size: 1.05rem; color: var(--accent); }

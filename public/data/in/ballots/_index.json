@@ -1,0 +1,649 @@
+{
+ "sourceVersion": "20261020_174230",
+ "counties": [
+  {
+   "county": "Adams",
+   "slug": "adams",
+   "fips": "18001",
+   "races": 43,
+   "referendums": 6
+  },
+  {
+   "county": "Allen",
+   "slug": "allen",
+   "fips": "18003",
+   "races": 72,
+   "referendums": 6
+  },
+  {
+   "county": "Bartholomew",
+   "slug": "bartholomew",
+   "fips": "18005",
+   "races": 51,
+   "referendums": 6
+  },
+  {
+   "county": "Benton",
+   "slug": "benton",
+   "fips": "18007",
+   "races": 44,
+   "referendums": 5
+  },
+  {
+   "county": "Blackford",
+   "slug": "blackford",
+   "fips": "18009",
+   "races": 23,
+   "referendums": 6
+  },
+  {
+   "county": "Boone",
+   "slug": "boone",
+   "fips": "18011",
+   "races": 47,
+   "referendums": 8
+  },
+  {
+   "county": "Brown",
+   "slug": "brown",
+   "fips": "18013",
+   "races": 23,
+   "referendums": 5
+  },
+  {
+   "county": "Carroll",
+   "slug": "carroll",
+   "fips": "18015",
+   "races": 40,
+   "referendums": 6
+  },
+  {
+   "county": "Cass",
+   "slug": "cass",
+   "fips": "18017",
+   "races": 43,
+   "referendums": 6
+  },
+  {
+   "county": "Clark",
+   "slug": "clark",
+   "fips": "18019",
+   "races": 46,
+   "referendums": 5
+  },
+  {
+   "county": "Clay",
+   "slug": "clay",
+   "fips": "18021",
+   "races": 37,
+   "referendums": 6
+  },
+  {
+   "county": "Clinton",
+   "slug": "clinton",
+   "fips": "18023",
+   "races": 50,
+   "referendums": 6
+  },
+  {
+   "county": "Crawford",
+   "slug": "crawford",
+   "fips": "18025",
+   "races": 20,
+   "referendums": 5
+  },
+  {
+   "county": "Daviess",
+   "slug": "daviess",
+   "fips": "18027",
+   "races": 41,
+   "referendums": 6
+  },
+  {
+   "county": "Dearborn",
+   "slug": "dearborn",
+   "fips": "18029",
+   "races": 47,
+   "referendums": 5
+  },
+  {
+   "county": "Decatur",
+   "slug": "decatur",
+   "fips": "18031",
+   "races": 34,
+   "referendums": 5
+  },
+  {
+   "county": "Dekalb",
+   "slug": "dekalb",
+   "fips": "18033",
+   "races": 53,
+   "referendums": 6
+  },
+  {
+   "county": "Delaware",
+   "slug": "delaware",
+   "fips": "18035",
+   "races": 55,
+   "referendums": 6
+  },
+  {
+   "county": "Dubois",
+   "slug": "dubois",
+   "fips": "18037",
+   "races": 45,
+   "referendums": 6
+  },
+  {
+   "county": "Elkhart",
+   "slug": "elkhart",
+   "fips": "18039",
+   "races": 65,
+   "referendums": 6
+  },
+  {
+   "county": "Fayette",
+   "slug": "fayette",
+   "fips": "18041",
+   "races": 34,
+   "referendums": 5
+  },
+  {
+   "county": "Floyd",
+   "slug": "floyd",
+   "fips": "18043",
+   "races": 29,
+   "referendums": 5
+  },
+  {
+   "county": "Fountain",
+   "slug": "fountain",
+   "fips": "18045",
+   "races": 52,
+   "referendums": 5
+  },
+  {
+   "county": "Franklin",
+   "slug": "franklin",
+   "fips": "18047",
+   "races": 47,
+   "referendums": 5
+  },
+  {
+   "county": "Fulton",
+   "slug": "fulton",
+   "fips": "18049",
+   "races": 47,
+   "referendums": 6
+  },
+  {
+   "county": "Gibson",
+   "slug": "gibson",
+   "fips": "18051",
+   "races": 38,
+   "referendums": 5
+  },
+  {
+   "county": "Grant",
+   "slug": "grant",
+   "fips": "18053",
+   "races": 60,
+   "referendums": 8
+  },
+  {
+   "county": "Greene",
+   "slug": "greene",
+   "fips": "18055",
+   "races": 59,
+   "referendums": 6
+  },
+  {
+   "county": "Hamilton",
+   "slug": "hamilton",
+   "fips": "18057",
+   "races": 56,
+   "referendums": 11
+  },
+  {
+   "county": "Hancock",
+   "slug": "hancock",
+   "fips": "18059",
+   "races": 42,
+   "referendums": 5
+  },
+  {
+   "county": "Harrison",
+   "slug": "harrison",
+   "fips": "18061",
+   "races": 43,
+   "referendums": 5
+  },
+  {
+   "county": "Hendricks",
+   "slug": "hendricks",
+   "fips": "18063",
+   "races": 61,
+   "referendums": 5
+  },
+  {
+   "county": "Henry",
+   "slug": "henry",
+   "fips": "18065",
+   "races": 50,
+   "referendums": 5
+  },
+  {
+   "county": "Howard",
+   "slug": "howard",
+   "fips": "18067",
+   "races": 44,
+   "referendums": 6
+  },
+  {
+   "county": "Huntington",
+   "slug": "huntington",
+   "fips": "18069",
+   "races": 43,
+   "referendums": 6
+  },
+  {
+   "county": "Jackson",
+   "slug": "jackson",
+   "fips": "18071",
+   "races": 41,
+   "referendums": 5
+  },
+  {
+   "county": "Jasper",
+   "slug": "jasper",
+   "fips": "18073",
+   "races": 47,
+   "referendums": 5
+  },
+  {
+   "county": "Jay",
+   "slug": "jay",
+   "fips": "18075",
+   "races": 35,
+   "referendums": 6
+  },
+  {
+   "county": "Jefferson",
+   "slug": "jefferson",
+   "fips": "18077",
+   "races": 36,
+   "referendums": 5
+  },
+  {
+   "county": "Jennings",
+   "slug": "jennings",
+   "fips": "18079",
+   "races": 34,
+   "referendums": 5
+  },
+  {
+   "county": "Johnson",
+   "slug": "johnson",
+   "fips": "18081",
+   "races": 46,
+   "referendums": 7
+  },
+  {
+   "county": "Knox",
+   "slug": "knox",
+   "fips": "18083",
+   "races": 44,
+   "referendums": 5
+  },
+  {
+   "county": "Kosciusko",
+   "slug": "kosciusko",
+   "fips": "18085",
+   "races": 70,
+   "referendums": 6
+  },
+  {
+   "county": "Lagrange",
+   "slug": "lagrange",
+   "fips": "18087",
+   "races": 46,
+   "referendums": 5
+  },
+  {
+   "county": "Lake",
+   "slug": "lake",
+   "fips": "18089",
+   "races": 78,
+   "referendums": 13
+  },
+  {
+   "county": "Laporte",
+   "slug": "laporte",
+   "fips": "18091",
+   "races": 69,
+   "referendums": 6
+  },
+  {
+   "county": "Lawrence",
+   "slug": "lawrence",
+   "fips": "18093",
+   "races": 32,
+   "referendums": 5
+  },
+  {
+   "county": "Madison",
+   "slug": "madison",
+   "fips": "18095",
+   "races": 65,
+   "referendums": 9
+  },
+  {
+   "county": "Marion",
+   "slug": "marion",
+   "fips": "18097",
+   "races": 51,
+   "referendums": 25
+  },
+  {
+   "county": "Marshall",
+   "slug": "marshall",
+   "fips": "18099",
+   "races": 53,
+   "referendums": 6
+  },
+  {
+   "county": "Martin",
+   "slug": "martin",
+   "fips": "18101",
+   "races": 28,
+   "referendums": 5
+  },
+  {
+   "county": "Miami",
+   "slug": "miami",
+   "fips": "18103",
+   "races": 50,
+   "referendums": 7
+  },
+  {
+   "county": "Monroe",
+   "slug": "monroe",
+   "fips": "18105",
+   "races": 40,
+   "referendums": 6
+  },
+  {
+   "county": "Montgomery",
+   "slug": "montgomery",
+   "fips": "18107",
+   "races": 47,
+   "referendums": 5
+  },
+  {
+   "county": "Morgan",
+   "slug": "morgan",
+   "fips": "18109",
+   "races": 60,
+   "referendums": 5
+  },
+  {
+   "county": "Newton",
+   "slug": "newton",
+   "fips": "18111",
+   "races": 47,
+   "referendums": 5
+  },
+  {
+   "county": "Noble",
+   "slug": "noble",
+   "fips": "18113",
+   "races": 56,
+   "referendums": 6
+  },
+  {
+   "county": "Ohio",
+   "slug": "ohio",
+   "fips": "18115",
+   "races": 21,
+   "referendums": 5
+  },
+  {
+   "county": "Orange",
+   "slug": "orange",
+   "fips": "18117",
+   "races": 39,
+   "referendums": 5
+  },
+  {
+   "county": "Owen",
+   "slug": "owen",
+   "fips": "18119",
+   "races": 42,
+   "referendums": 5
+  },
+  {
+   "county": "Parke",
+   "slug": "parke",
+   "fips": "18121",
+   "races": 46,
+   "referendums": 5
+  },
+  {
+   "county": "Perry",
+   "slug": "perry",
+   "fips": "18123",
+   "races": 24,
+   "referendums": 5
+  },
+  {
+   "county": "Pike",
+   "slug": "pike",
+   "fips": "18125",
+   "races": 31,
+   "referendums": 6
+  },
+  {
+   "county": "Porter",
+   "slug": "porter",
+   "fips": "18127",
+   "races": 62,
+   "referendums": 8
+  },
+  {
+   "county": "Posey",
+   "slug": "posey",
+   "fips": "18129",
+   "races": 34,
+   "referendums": 5
+  },
+  {
+   "county": "Pulaski",
+   "slug": "pulaski",
+   "fips": "18131",
+   "races": 46,
+   "referendums": 6
+  },
+  {
+   "county": "Putnam",
+   "slug": "putnam",
+   "fips": "18133",
+   "races": 43,
+   "referendums": 5
+  },
+  {
+   "county": "Randolph",
+   "slug": "randolph",
+   "fips": "18135",
+   "races": 44,
+   "referendums": 5
+  },
+  {
+   "county": "Ripley",
+   "slug": "ripley",
+   "fips": "18137",
+   "races": 52,
+   "referendums": 5
+  },
+  {
+   "county": "Rush",
+   "slug": "rush",
+   "fips": "18139",
+   "races": 41,
+   "referendums": 5
+  },
+  {
+   "county": "Scott",
+   "slug": "scott",
+   "fips": "18143",
+   "races": 22,
+   "referendums": 5
+  },
+  {
+   "county": "Shelby",
+   "slug": "shelby",
+   "fips": "18145",
+   "races": 62,
+   "referendums": 6
+  },
+  {
+   "county": "Spencer",
+   "slug": "spencer",
+   "fips": "18147",
+   "races": 36,
+   "referendums": 5
+  },
+  {
+   "county": "St. Joseph",
+   "slug": "st-joseph",
+   "fips": "18141",
+   "races": 58,
+   "referendums": 7
+  },
+  {
+   "county": "Starke",
+   "slug": "starke",
+   "fips": "18149",
+   "races": 40,
+   "referendums": 7
+  },
+  {
+   "county": "Steuben",
+   "slug": "steuben",
+   "fips": "18151",
+   "races": 56,
+   "referendums": 6
+  },
+  {
+   "county": "Sullivan",
+   "slug": "sullivan",
+   "fips": "18153",
+   "races": 34,
+   "referendums": 5
+  },
+  {
+   "county": "Switzerland",
+   "slug": "switzerland",
+   "fips": "18155",
+   "races": 26,
+   "referendums": 5
+  },
+  {
+   "county": "Tippecanoe",
+   "slug": "tippecanoe",
+   "fips": "18157",
+   "races": 57,
+   "referendums": 7
+  },
+  {
+   "county": "Tipton",
+   "slug": "tipton",
+   "fips": "18159",
+   "races": 29,
+   "referendums": 8
+  },
+  {
+   "county": "Union",
+   "slug": "union",
+   "fips": "18161",
+   "races": 21,
+   "referendums": 5
+  },
+  {
+   "county": "Vanderburgh",
+   "slug": "vanderburgh",
+   "fips": "18163",
+   "races": 29,
+   "referendums": 5
+  },
+  {
+   "county": "Vermillion",
+   "slug": "vermillion",
+   "fips": "18165",
+   "races": 36,
+   "referendums": 5
+  },
+  {
+   "county": "Vigo",
+   "slug": "vigo",
+   "fips": "18167",
+   "races": 37,
+   "referendums": 5
+  },
+  {
+   "county": "Wabash",
+   "slug": "wabash",
+   "fips": "18169",
+   "races": 28,
+   "referendums": 6
+  },
+  {
+   "county": "Warren",
+   "slug": "warren",
+   "fips": "18171",
+   "races": 45,
+   "referendums": 5
+  },
+  {
+   "county": "Warrick",
+   "slug": "warrick",
+   "fips": "18173",
+   "races": 45,
+   "referendums": 5
+  },
+  {
+   "county": "Washington",
+   "slug": "washington",
+   "fips": "18175",
+   "races": 47,
+   "referendums": 5
+  },
+  {
+   "county": "Wayne",
+   "slug": "wayne",
+   "fips": "18177",
+   "races": 53,
+   "referendums": 5
+  },
+  {
+   "county": "Wells",
+   "slug": "wells",
+   "fips": "18179",
+   "races": 40,
+   "referendums": 6
+  },
+  {
+   "county": "White",
+   "slug": "white",
+   "fips": "18181",
+   "races": 43,
+   "referendums": 7
+  },
+  {
+   "county": "Whitley",
+   "slug": "whitley",
+   "fips": "18183",
+   "races": 36,
+   "referendums": 6
+  }
+ ]
+}
