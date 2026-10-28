@@ -1,4 +1,5 @@
 import AppStoreBadge from '../components/ui/AppStoreBadge'
+import { isNativeApp } from '../utils/platform'
 import { useState, useEffect, useRef } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
@@ -121,10 +122,10 @@ export default function LandingView() {
             <p className="landing-cta-sub">
               Free &middot; No sign-up needed &middot; Just enter your address
             </p>
-            <div className="landing-app-row">
+            {!isNativeApp() && <div className="landing-app-row">
               <span className="landing-app-row-label">On your iPhone? Get the app:</span>
               <AppStoreBadge placement="landing-hero" />
-            </div>
+            </div>}
           </div>
         </div>
       </section>
