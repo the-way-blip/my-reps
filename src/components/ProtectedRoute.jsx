@@ -1,8 +1,9 @@
-import { Navigate, Outlet } from 'react-router-dom'
+import { Navigate, Outlet, useLocation } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 
 export default function ProtectedRoute({ children }) {
   const { user, loading } = useAuth()
+  const location = useLocation()
 
   if (loading) return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', background: '#F7F3E8' }}>
@@ -14,6 +15,9 @@ export default function ProtectedRoute({ children }) {
   )
 
   if (!user) {
+    // buildmyballot.com / billboard traffic (incl. browsers holding the old cached redirect) goes straight to the ballot
+    const src = new URLSearchParams(location.search).get('utm_source')
+    if (src === 'buildmyballot' || src === 'billboard') return <Navigate to={`/ballot${location.search}`} replace />
     return <Navigate to="/welcome" replace />
   }
 
