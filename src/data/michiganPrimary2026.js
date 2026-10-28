@@ -593,7 +593,7 @@ export const US_HOUSE_RACES = {
     incumbent: 'John Moolenaar (R)',
     candidates: {
       republican: [
-        { name: 'John Moolenaar', description: 'Incumbent U.S. Representative for Michigan\'s 2nd District. Former Michigan state senator and state representative. Strong conservative voting record. Serves on the House Appropriations Committee.', status: 'nominee', grade: 'B',
+        { name: 'John Moolenaar', description: 'Incumbent U.S. Representative for Michigan\'s 2nd District. Former Michigan state senator and state representative. Strong conservative voting record. Serves on the House Appropriations Committee.', status: 'nominee', grade: 'A',
           positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Strong pro-life voting record; co-sponsored multiple pro-life bills; 100% SBA Pro-Life scorecard',
@@ -2899,7 +2899,7 @@ export const STATE_SENATE_RACES = {
     note: "Open seat",
     candidates: {
       republican: [
-        { name: 'Kim Cole', description: 'Mason County Sheriff since 2012; 40 years in law enforcement; fifth-generation Mason County resident; second-generation sheriff (great-great-grandfather served 1899-1902); seeking Republican nomination for open SD-32 seat', status: 'nominee', grade: 'A',
+        { name: 'Kim Cole', description: 'Mason County Sheriff since 2012; 40 years in law enforcement; fifth-generation Mason County resident; second-generation sheriff (great-great-grandfather served 1899-1902); seeking Republican nomination for open SD-32 seat', status: 'nominee', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Long-serving Republican sheriff in conservative rural Michigan; party alignment signals pro-life but no specific endorsements found',
@@ -4167,7 +4167,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "Samantha Steckloff (D)",
     candidates: {
       republican: [
-        { name: 'Kevin J. Hammer', description: 'Attorney (Arthur Andersen, Plante Moran, Hammer Homes). Farmington Commissioner 2008-2017. Board member at Marian High School (Catholic). Plaintiff in Thomas More Society federal lawsuit defending pro-life sidewalk advocacy. iVoterGuide Conservative 60/100.', status: 'nominee', grade: 'A', endorsements: ['Thomas More Society'], positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'Plaintiff in Thomas More Society / Sidewalk Advocates for Life federal lawsuit defending pro-life advocacy rights. Demonstrated commitment.', marriage: 'Marian High School (Catholic) board member since 2017 suggests traditional values alignment.', religiousLiberty: 'Federal lawsuit directly defended religious expression and free speech for sidewalk pro-life advocates.', secondAmendment: 'No specific position found. Party-aligned.', limitedGov: 'Farmington Commissioner 2008-2017. No specific limited-gov statements found.', fiscal: 'Conservative donor history (RNC 2006, John James 2024). iVoterGuide 60/100.' } },
+        { name: 'Kevin J. Hammer', description: 'Attorney (Arthur Andersen, Plante Moran, Hammer Homes). Farmington Commissioner 2008-2017. Board member at Marian High School (Catholic). Plaintiff in Thomas More Society federal lawsuit defending pro-life sidewalk advocacy. iVoterGuide Conservative 60/100.', status: 'nominee', grade: 'B', endorsements: ['Thomas More Society'], positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'A', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'Plaintiff in Thomas More Society / Sidewalk Advocates for Life federal lawsuit defending pro-life advocacy rights. Demonstrated commitment.', marriage: 'Marian High School (Catholic) board member since 2017 suggests traditional values alignment.', religiousLiberty: 'Federal lawsuit directly defended religious expression and free speech for sidewalk pro-life advocates.', secondAmendment: 'No specific position found. Party-aligned.', limitedGov: 'Farmington Commissioner 2008-2017. No specific limited-gov statements found.', fiscal: 'Conservative donor history (RNC 2006, John James 2024). iVoterGuide 60/100.' } },
         { name: 'Mitch Swoboda', description: 'Republican candidate for Michigan State House District 19 in the 2026 primary', status: 'challenger', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
@@ -4279,7 +4279,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Casey J. Noce', description: 'Pastor at Northville Christian Assembly; middle school history and Bible teacher; licensed realtor. Testified before MI legislature in support of HB 4141 (cellphone ban in schools). Former campaign manager for State Rep. Bronna Kahle.', status: 'nominee', grade: 'A', website: 'https://www.caseynoce.com', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'A' }, gradeJustifications: { proLife: 'Pastor and Bible teacher; references God-given right to life on website. No explicit RTL endorsement.', marriage: 'Assemblies of God pastor; denominational alignment implied. No explicit public statement.', religiousLiberty: 'Pastor and Christian school teacher; references God-given rights. Strong implied alignment.', secondAmendment: 'No specific position found. Party-aligned.', limitedGov: 'Documented: "When Lansing shrinks, our communities grow." Proposes eliminating state property tax. Supports local authority over state mandates.', fiscal: 'Documented: eliminate state property tax and transfer tax; expand small business tax credit; raise child tax credit to $2,000; exempt teachers from state income tax.' } },
+        { name: 'Casey J. Noce', description: 'Pastor at Northville Christian Assembly; middle school history and Bible teacher; licensed realtor. Testified before MI legislature in support of HB 4141 (cellphone ban in schools). Former campaign manager for State Rep. Bronna Kahle.', status: 'nominee', grade: 'B', website: 'https://www.caseynoce.com', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'A' }, gradeJustifications: { proLife: 'Pastor and Bible teacher; references God-given right to life on website. No explicit RTL endorsement.', marriage: 'Assemblies of God pastor; denominational alignment implied. No explicit public statement.', religiousLiberty: 'Pastor and Christian school teacher; references God-given rights. Strong implied alignment.', secondAmendment: 'No specific position found. Party-aligned.', limitedGov: 'Documented: "When Lansing shrinks, our communities grow." Proposes eliminating state property tax. Supports local authority over state mandates.', fiscal: 'Documented: eliminate state property tax and transfer tax; expand small business tax credit; raise child tax credit to $2,000; exempt teachers from state income tax.' } },
       ],
       democratic: [
         { name: 'Lisa McIntyre', description: 'Past President of the Northville Board of Education, currently Treasurer. Mother of three. Lifetime of experience in mental health. Led efforts to stabilize the school district after the pandemic, led school safety initiatives and away-for-the-day personal device policy for K-8, and kept the budget strong while improving educator work experience.', status: 'nominee', grade: 'D',
@@ -4434,7 +4434,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Rylee Linting', description: 'Incumbent state representative first elected in 2024. Attended Grand Valley State University and Liberty University. Former Motor City Field Representative for Turning Point Action and Michigan Republican Party Youth Chair.', status: 'nominee', grade: 'A', website: 'https://votelinting.com',
+        { name: 'Rylee Linting', description: 'Incumbent state representative first elected in 2024. Attended Grand Valley State University and Liberty University. Former Motor City Field Representative for Turning Point Action and Michigan Republican Party Youth Chair.', status: 'nominee', grade: 'B', website: 'https://votelinting.com',
           positions: { proLife: 'A', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'A', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -4897,7 +4897,7 @@ export const STATE_HOUSE_RACES = {
         { name: 'Nicole C. Sabel', description: 'Kalamazoo resident; ran for this seat in 2022 and 2024', status: 'nominee', grade: 'B', endorsements: [], positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' }, gradeJustifications: { proLife: 'No information found.', marriage: 'No information found.', religiousLiberty: 'No information found.', secondAmendment: 'No information found.', limitedGov: 'No information found.', fiscal: 'No information found.' } },
       ],
       democratic: [
-        { name: 'Jen Strebs', description: 'Kalamazoo County Commission Chair running for Michigan State House District 41. Active in Kalamazoo County Democratic Party. Seeking the Democratic nomination in the August 2026 primary.', status: 'nominee', grade: 'D',
+        { name: 'Jen Strebs', description: 'Kalamazoo County Commission Chair running for Michigan State House District 41. Active in Kalamazoo County Democratic Party. Seeking the Democratic nomination in the August 2026 primary.', status: 'nominee', grade: 'F',
           positions: { proLife: 'F', marriage: 'F', religiousLiberty: 'D', secondAmendment: 'D', limitedGov: 'D', fiscal: 'D' },
           gradeJustifications: {
             proLife: 'Kalamazoo County Democratic leader; aligned with party platform on abortion rights.',
@@ -5727,7 +5727,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Joseph G. Pavlov', description: 'Republican representative for HD-64 covering Port Huron and St. Clair County areas. First elected November 2024, defeating incumbent Democrat Nate Shannon by 450 votes. Served 12 years as president of Right to Life of St. Clair County. Also serves as executive board member of the People\'s Political Action Committee for the Election of Responsible Representatives. On the House Election Integrity committee and Commerce and Tourism committee. Career public school teacher with nearly 50 years of marriage.', status: 'nominee', grade: 'A',
+        { name: 'Joseph G. Pavlov', description: 'Republican representative for HD-64 covering Port Huron and St. Clair County areas. First elected November 2024, defeating incumbent Democrat Nate Shannon by 450 votes. Served 12 years as president of Right to Life of St. Clair County. Also serves as executive board member of the People\'s Political Action Committee for the Election of Responsible Representatives. On the House Election Integrity committee and Commerce and Tourism committee. Career public school teacher with nearly 50 years of marriage.', status: 'nominee', grade: 'B',
           positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Served 12 years as president of Right to Life of St. Clair County. This is the strongest pro-life credential among HD-64 candidates.',
@@ -5970,7 +5970,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Brian BeGole', description: 'Incumbent Republican representative for HD-71 covering Shiawassee County including Corunna, Durand, Owosso, and Perry. In second term, first elected 2022. Former Shiawassee County Sheriff with 32 years in law enforcement, including 6 as Sheriff. Chairs House Government Operations Committee. Vice Chair of House Judiciary Committee. Also serves on Economic Competitiveness and Energy committees. 14% LCV environmental score.', status: 'nominee', grade: 'A',
+        { name: 'Brian BeGole', description: 'Incumbent Republican representative for HD-71 covering Shiawassee County including Corunna, Durand, Owosso, and Perry. In second term, first elected 2022. Former Shiawassee County Sheriff with 32 years in law enforcement, including 6 as Sheriff. Chairs House Government Operations Committee. Vice Chair of House Judiciary Committee. Also serves on Economic Competitiveness and Energy committees. 14% LCV environmental score.', status: 'nominee', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'A', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Conservative Republican incumbent; votes with caucus. No specific pro-life endorsements documented.',
@@ -6003,7 +6003,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Mike Mueller', description: 'Incumbent Republican representative for HD-72 covering Fenton, Linden, portions of Grand Blanc and Mundy townships in Genesee County, Holly area in Oakland County, and Tyrone Township in Livingston County. First elected 2022, re-elected 2024. Linden High School graduate (1992). U.S. Navy veteran. Degree in Criminology and Criminal Justice from Eastern Michigan University. Operates Mueller\'s Orchard and Cider Mill, owns wedding venue. Former road patrol deputy and SWAT team member. Chairs House Appropriations Subcommittee on Michigan State Police.', status: 'nominee', grade: 'A',
+        { name: 'Mike Mueller', description: 'Incumbent Republican representative for HD-72 covering Fenton, Linden, portions of Grand Blanc and Mundy townships in Genesee County, Holly area in Oakland County, and Tyrone Township in Livingston County. First elected 2022, re-elected 2024. Linden High School graduate (1992). U.S. Navy veteran. Degree in Criminology and Criminal Justice from Eastern Michigan University. Operates Mueller\'s Orchard and Cider Mill, owns wedding venue. Former road patrol deputy and SWAT team member. Chairs House Appropriations Subcommittee on Michigan State Police.', status: 'nominee', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Conservative Republican incumbent; votes with caucus. Limited specific pro-life statements.',
@@ -6550,7 +6550,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Nancy DeBoer', description: 'Incumbent Republican representative for HD-86 covering greater Holland area in Allegan and Ottawa counties. First elected 2022, re-elected 2024 with 56%. Former middle and high school English teacher. First woman elected mayor of Holland in 2015, serving two terms. Holland City Council member since 2005. Co-founded West Michigan Character Council in 2002, served as executive director 17 years. Chairs House Education and Workforce Committee. Also serves on Energy, Health Policy, and Rules committees.', status: 'nominee', grade: 'A',
+        { name: 'Nancy DeBoer', description: 'Incumbent Republican representative for HD-86 covering greater Holland area in Allegan and Ottawa counties. First elected 2022, re-elected 2024 with 56%. Former middle and high school English teacher. First woman elected mayor of Holland in 2015, serving two terms. Holland City Council member since 2005. Co-founded West Michigan Character Council in 2002, served as executive director 17 years. Chairs House Education and Workforce Committee. Also serves on Energy, Health Policy, and Rules committees.', status: 'nominee', grade: 'B',
           positions: { proLife: 'A', marriage: 'A', religiousLiberty: 'A', secondAmendment: 'B', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Conservative Republican in deeply conservative Holland/Ottawa County area. Character Council co-founder suggesting strong values orientation. Dutch Reformed community.',
@@ -7080,7 +7080,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Tom Kunse', description: 'Incumbent; owns Northern Dry Bulk; served on Grant Township Board', status: 'nominee', grade: 'B',
+        { name: 'Tom Kunse', description: 'Incumbent; owns Northern Dry Bulk; served on Grant Township Board', status: 'nominee', grade: 'C',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'C', fiscal: 'D' },
           gradeJustifications: {
             proLife: 'No information found.',
@@ -7483,7 +7483,7 @@ export const STATE_HOUSE_RACES = {
     incumbent: "TBD",
     candidates: {
       republican: [
-        { name: 'Gregory Markkanen', description: 'Incumbent Republican representative for HD-110 covering Gogebic, Houghton, Iron, Keweenaw, and Ontonagon counties plus parts of Dickinson County in the Upper Peninsula. Serving since 2019, re-elected in 2020, 2022, and 2024. Endowed Life Member of the National Rifle Association. Former Army medical Corpsman with 82nd Airborne Division, 452nd Combat Support Hospital US Army Reserve, and 107th Engineer Battalion Michigan Army National Guard. Former high school civics, history, and geography teacher at Baraga Area Schools. Former Hancock City Council Ward II representative. Endorsed Donald Trump for president.', status: 'nominee', grade: 'A',
+        { name: 'Gregory Markkanen', description: 'Incumbent Republican representative for HD-110 covering Gogebic, Houghton, Iron, Keweenaw, and Ontonagon counties plus parts of Dickinson County in the Upper Peninsula. Serving since 2019, re-elected in 2020, 2022, and 2024. Endowed Life Member of the National Rifle Association. Former Army medical Corpsman with 82nd Airborne Division, 452nd Combat Support Hospital US Army Reserve, and 107th Engineer Battalion Michigan Army National Guard. Former high school civics, history, and geography teacher at Baraga Area Schools. Former Hancock City Council Ward II representative. Endorsed Donald Trump for president.', status: 'nominee', grade: 'B',
           positions: { proLife: 'B', marriage: 'B', religiousLiberty: 'B', secondAmendment: 'A', limitedGov: 'B', fiscal: 'B' },
           gradeJustifications: {
             proLife: 'Conservative Republican; votes with caucus. No specific pro-life endorsements documented but longtime conservative voting record.',
@@ -7914,7 +7914,7 @@ export function getGeneralBallot(districts = {}) {
         status: 'major',
         party: 'independent',
         website: 'https://mikeduggan.com',
-        grade: 'C',
+        grade: 'D',
         positions: { proLife: 'D', marriage: 'D', religiousLiberty: 'C', secondAmendment: 'D', limitedGov: 'C', fiscal: 'C' },
         gradeJustifications: {
           proLife: 'Has not made abortion a campaign issue; governed Detroit without taking strong pro-life positions',
