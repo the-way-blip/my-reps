@@ -8,7 +8,7 @@
 // that county, tagged with a scope (district / county / township / town / city / school) so the
 // app can pick the ones for a voter's address — plus that county's public questions.
 
-import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs'
+import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -48,6 +48,23 @@ const sw = (await getJson(`statewideElectionsC_${V}`)).Root
 
 const categories = []
 for (const h of arr(sw.List)) for (const it of arr(h.Items?.Item)) categories.push({ id: it.OFFICECATEGORYID, name: it.OFFICE_CATEGORY_NAME, heading: h.Heading, description: it.OFFICE_CATEGORY_DESCRIPTION })
+
+// Hand-researched grades (data-raw/grades-in/*.json), matched by candidate name + office
+const GRADES_DIR = path.join(ROOT, 'data-raw/grades-in')
+const nameKey = n => String(n).toLowerCase().replace(/\(.*?\)/g, ' ').replace(/[^a-z ]+/g, ' ').replace(/\b(jr|sr|ii|iii)\b/g, ' ').trim().split(/\s+/).filter(Boolean)
+const GRADES = []
+if (existsSync(GRADES_DIR)) for (const f of readdirSync(GRADES_DIR).filter(f => f.endsWith('.json'))) {
+  for (const g of JSON.parse(readFileSync(path.join(GRADES_DIR, f), 'utf8'))) GRADES.push({ ...g, key: nameKey(g.name), officeKey: String(g.office || '').toLowerCase() })
+}
+let gradesApplied = 0
+function gradeFor(name, office) {
+  const k = nameKey(name), o = office.toLowerCase()
+  // same office, and first + last name tokens match
+  const g = GRADES.find(g => g.officeKey && o.includes(g.officeKey.replace(/\s*\(.*\)$/, '')) && g.key[0] === k[0] && g.key.at(-1) === k.at(-1))
+  if (!g) return {}
+  gradesApplied++
+  return { ...(g.grade ? { grade: g.grade } : {}), ...(g.gradeNote ? { gradeNote: g.gradeNote } : {}), ...(g.description ? { description: g.description } : {}), ...(g.website ? { website: g.website } : {}), ...(g.sources?.length ? { sources: g.sources } : {}) }
+}
 
 function partyOf(c) {
   const ab = c.PARTY ?? c.PARTY_ABBREV
@@ -115,7 +132,11 @@ function raceFrom(cat, r, countyName) {
   // Declared write-ins ("(W/I)") are not printed on the ballot — keep them out of the candidate list
   const all = arr(r.Candidates?.Candidate)
   const isWriteIn = c => /\(W\/I\)/i.test(c.NAME_ON_BALLOT)
-  const cands = all.filter(c => !isWriteIn(c)).map(c => ({ name: fixCase(c.NAME_ON_BALLOT.replace(/\s+/g, ' ').trim()), party: partyOf(c), status: 'candidate' }))
+  const officeTitle = cleanOffice(cat, r.OFFICE_TITLE)
+  const cands = all.filter(c => !isWriteIn(c)).map(c => {
+    const name = fixCase(c.NAME_ON_BALLOT.replace(/\s+/g, ' ').trim())
+    return { name, party: partyOf(c), status: 'candidate', ...gradeFor(name, officeTitle) }
+  })
   const writeIns = all.filter(isWriteIn).length
   const partisan = cands.some(c => c.party)
   let office = cleanOffice(cat, r.OFFICE_TITLE)
@@ -181,7 +202,7 @@ for (const c of counties.values()) {
 for (const c of counties.values()) for (const [id, r] of c.races) if (['state', 'congressional', 'stateSenate', 'stateHouse'].includes(r.scope)) { if (!districtRaces.has(id)) districtRaces.set(id, { ...r, id: `in-${id}` }); c.races.delete(id) }
 const statewide = [...districtRaces.values()].map(r => ({ ...r, id: `in-${r.officeId}` })).sort((a, b) => a.ballotOrder - b.ballotOrder || (a.district ?? 0) - (b.district ?? 0))
 writeFileSync(path.join(OUT, '_statewide.json'), JSON.stringify({ state: 'IN', sourceVersion: settings.VersionCode, generatedAt: new Date().toISOString(), sourceWriteTime: settings.WriteTime, races: statewide }))
-console.log(`statewide/district races: ${statewide.length}`)
+console.log(`statewide/district races: ${statewide.length}; grades applied: ${gradesApplied} of ${GRADES.length}`)
 
 // ── Write ──
 let nRaces = 0, nCands = 0

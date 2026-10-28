@@ -33,7 +33,6 @@ import { getRatingsForCandidate, getRatingsForIssue, getEvidenceLevel } from '..
 import { getSource, RATING_SOURCES, ISSUE_AREA_LABELS, RATING_TYPE_LABELS, RATING_TYPE_DESCRIPTIONS } from '../data/ratingSources'
 import { getVoterInfo } from '../services/googleCivicApi'
 import { geocodeToDistrict } from '../services/districtService'
-import { MI_ELECTIONS } from '../data/electionData'
 
 const STORAGE_KEY = 'myreps-ballot-plan-2026'
 
@@ -873,11 +872,11 @@ function GradeLegend() {
           <div className="grade-legend-sources-grid">
             <div className="grade-legend-source-group">
               <span className="grade-legend-source-label">Pro-Life</span>
-              <span className="grade-legend-source-orgs">SBA Pro-Life America, NRLC, Right to Life of Michigan, Students for Life Action, March for Life Action</span>
+              <span className="grade-legend-source-orgs">SBA Pro-Life America, NRLC, state Right to Life groups, Students for Life Action, March for Life Action</span>
             </div>
             <div className="grade-legend-source-group">
               <span className="grade-legend-source-label">Marriage & Family</span>
-              <span className="grade-legend-source-orgs">FRC Action, Family Policy Alliance, Michigan Family Forum, Eagle Forum, Concerned Women for America</span>
+              <span className="grade-legend-source-orgs">FRC Action, Family Policy Alliance, state family policy councils, Eagle Forum, Concerned Women for America</span>
             </div>
             <div className="grade-legend-source-group">
               <span className="grade-legend-source-label">Religious Liberty</span>
@@ -1522,49 +1521,6 @@ export default function BallotView() {
         <>
           <AddressStep address={address} onSubmit={handleAddressSubmit} daysLeft={daysUntil} />
 
-          {/* Upcoming Elections */}
-          <section className="ballot-section ballot-elections-preview">
-            <h3 className="ballot-section-title">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18">
-                <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" />
-              </svg>
-              Upcoming Michigan Elections
-            </h3>
-            <div className="ballot-elections-list">
-              {MI_ELECTIONS.filter(e => new Date(e.date) >= new Date()).slice(0, 4).map(e => (
-                <div key={e.id} className="ballot-election-item">
-                  <div className="ballot-election-date">
-                    <span className="ballot-election-month">{new Date(e.date).toLocaleString('en-US', { month: 'short' })}</span>
-                    <span className="ballot-election-day">{new Date(e.date).getDate()}</span>
-                  </div>
-                  <div className="ballot-election-info">
-                    <strong>{e.name}</strong>
-                    <p>{e.description?.slice(0, 120)}{e.description?.length > 120 ? '...' : ''}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="ballot-elections-links">
-              <a href="https://mvic.sos.state.mi.us/RegisterVoter" target="_blank" rel="noopener noreferrer" className="ballot-elections-link">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
-                  <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="8.5" cy="7" r="4" /><line x1="20" y1="8" x2="20" y2="14" /><line x1="23" y1="11" x2="17" y2="11" />
-                </svg>
-                Register to Vote
-              </a>
-              <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-elections-link">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
-                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
-                </svg>
-                Check Registration
-              </a>
-              <a href="https://mvic.sos.state.mi.us/AVApplication/Index" target="_blank" rel="noopener noreferrer" className="ballot-elections-link">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
-                  <rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                </svg>
-                Absentee Ballot
-              </a>
-            </div>
-          </section>
         </>
       )}
 
@@ -1703,7 +1659,7 @@ export default function BallotView() {
             <BallotSummaryCard choices={choices} races={allRaces} />
           )}
 
-          {!isIndiana && <GradeLegend />}
+          <GradeLegend />
 
           {/* Key dates — collapsible since DeadlineBanner handles the urgent one */}
           <details className="ballot-dates-details">
