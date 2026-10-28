@@ -1207,7 +1207,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
 // ── Main BallotView ──
 
 export default function BallotView() {
-  usePageTitle('Build My Ballot — November 2026 Michigan General Election', 'Every candidate on your ballot, graded A through F on Constitutional values')
+  usePageTitle('Build My Ballot — November 3, 2026 General Election', 'Every candidate on your ballot, graded A through F on Constitutional values')
 
   const { selectedState, userAddress, userDistricts, localGeo, setUserAddress, handleSearchDistrict } = useApp()
   const { user, syncBallot, ballotPlan, loading: profileLoading } = useProfile()
@@ -1703,7 +1703,7 @@ export default function BallotView() {
             <BallotSummaryCard choices={choices} races={allRaces} />
           )}
 
-          <GradeLegend />
+          {!isIndiana && <GradeLegend />}
 
           {/* Key dates — collapsible since DeadlineBanner handles the urgent one */}
           <details className="ballot-dates-details">
@@ -1824,7 +1824,7 @@ export default function BallotView() {
               </h3>
               <p className="ballot-local-note">
                 {isIndiana
-                  ? `From the Indiana Election Division's official candidate list for ${localGeo?.county} County. Township, town and school board races are matched to your address; seats elected by district are noted — confirm with your sample ballot at IndianaVoters.in.gov.`
+                  ? `From the Indiana Election Division's official candidate list for ${localGeo?.county} County${indiana?.dataAsOf ? ` (data as of ${new Date(indiana.dataAsOf).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })})` : ''}. Township, town and school board races are matched to your address. Always confirm with your official sample ballot at IndianaVoters.in.gov.`
                   : official.matched
                   ? `From the official Michigan Secretary of State sample ballot for ${official.jurisdiction}${official.precincts > 1 ? ` (${official.precincts} precincts)` : ''}. Where a race appears only in some precincts, a note says so — confirm with your precinct's sample ballot.`
                   : 'These local races appear on your November general election ballot.'}
@@ -1852,11 +1852,32 @@ export default function BallotView() {
                   />
                 ))}
               </div>
+              {isIndiana && indiana?.maybeRaces?.length > 0 && (
+                <>
+                  <h4 className="ballot-maybe-title">May be on your ballot ({indiana.maybeRaces.length})</h4>
+                  <p className="ballot-local-note">
+                    These seats are elected by district. Public data can&apos;t tell which district your address is in, so check your{' '}
+                    <a href={stateInfo.voterSite} target="_blank" rel="noopener noreferrer">official sample ballot at {stateInfo.voterSiteName}</a>.
+                  </p>
+                  <div className="ballot-races">
+                    {indiana.maybeRaces.map(race => (
+                      <RaceCard
+                        key={race.id}
+                        race={race}
+                        choice={choices[race.id]}
+                        onSelect={selectCandidate}
+                        onWriteIn={writeInCandidate}
+                        onCandidateDetail={setDetailCandidate}
+                      />
+                    ))}
+                  </div>
+                </>
+              )}
             </section>
           )}
 
           {/* Note about county/township offices NOT on this ballot */}
-          {localGeo?.county && !official.matched && !officialLoading && (
+          {localGeo?.county && !isIndiana && !official.matched && !officialLoading && (
             <div className="ballot-not-on-ballot-note">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
                 <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />

@@ -91,10 +91,13 @@ function classify(cat, title) {
 }
 // Districted local seats: not every voter in the county/school corporation votes on every one
 function districtNote(scope, catName, title) {
-  if (!/District|Dist\b/i.test(title)) return ''
-  if (catName === 'County Council Member') return 'Only voters in this council district vote on this seat — check your sample ballot.'
-  if (scope === 'school') return 'Some school boards elect district seats only by voters in that district — check your sample ballot.'
-  return ''
+  return isMaybe(scope, catName, title) ? 'May be on your ballot: only voters in this district vote on this seat. Check your official sample ballot at IndianaVoters.in.gov.' : ''
+}
+// Seats elected by sub-district (county council districts, school board member districts, town/city wards)
+// can't be pinned to an address from public data — show them as "may be on your ballot"
+function isMaybe(scope, catName, title) {
+  if (!/District|Dist\b|Ward/i.test(title)) return false
+  return catName === 'County Council Member' || catName === 'County Commissioner' || scope === 'school' || scope === 'town' || scope === 'city'
 }
 const num = t => { const m = t.match(/District\s+0*(\d+)/i); return m ? Number(m[1]) : null }
 const ORD = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth']
@@ -130,6 +133,7 @@ function raceFrom(cat, r, countyName) {
     seats,
     type: partisan ? 'partisan' : 'nonpartisan',
     description: [seats > 1 ? `Vote for up to ${seats}.` : '', districtNote(cls.scope, cat.name, r.OFFICE_TITLE)].filter(Boolean).join(' '),
+    ...(isMaybe(cls.scope, cat.name, r.OFFICE_TITLE) ? { maybe: true } : {}),
     ballotOrder: Number(r.BALLOT_ORDER) || 999,
     candidates: cands,
     ...(writeIns ? { declaredWriteIns: writeIns } : {}),
@@ -176,7 +180,7 @@ for (const c of counties.values()) {
 // Statewide + district races (same for every county) live in one file
 for (const c of counties.values()) for (const [id, r] of c.races) if (['state', 'congressional', 'stateSenate', 'stateHouse'].includes(r.scope)) { if (!districtRaces.has(id)) districtRaces.set(id, { ...r, id: `in-${id}` }); c.races.delete(id) }
 const statewide = [...districtRaces.values()].map(r => ({ ...r, id: `in-${r.officeId}` })).sort((a, b) => a.ballotOrder - b.ballotOrder || (a.district ?? 0) - (b.district ?? 0))
-writeFileSync(path.join(OUT, '_statewide.json'), JSON.stringify({ state: 'IN', sourceVersion: settings.VersionCode, generatedAt: new Date().toISOString(), races: statewide }))
+writeFileSync(path.join(OUT, '_statewide.json'), JSON.stringify({ state: 'IN', sourceVersion: settings.VersionCode, generatedAt: new Date().toISOString(), sourceWriteTime: settings.WriteTime, races: statewide }))
 console.log(`statewide/district races: ${statewide.length}`)
 
 // ── Write ──
