@@ -20,6 +20,8 @@ import {
 import { getNovemberLocalRaces } from '../data/michiganNovember2026'
 import { getCategoryIcon } from '../data/michiganProposals2026'
 import { loadOfficialCounty, getOfficialBallot } from '../data/officialBallot'
+import { INDIANA_ENABLED, loadIndianaBallotData, getIndianaBallot } from '../data/indianaBallot'
+import { getStateVotingInfo } from '../data/stateVotingInfo'
 import generateBallotPDF from '../utils/generateBallotPDF'
 import { markBallotDone } from '../utils/push'
 import { recordBallotSession, attachSessionContact } from '../utils/ballotSession'
@@ -113,8 +115,10 @@ function PdfGateModal({ address, onDone, onClose }) {
   )
 }
 
-function researchSearchUrl(name, office) {
-  const q = `"${name}" ${(office || '').replace(/—/g, ' ')} Michigan 2026`
+// Indiana race ids start with "in-"; everything else is Michigan
+const stateNameForRace = raceId => (String(raceId || '').startsWith('in-') ? 'Indiana' : 'Michigan')
+function researchSearchUrl(name, office, raceId) {
+  const q = `"${name}" ${(office || '').replace(/—/g, ' ')} ${stateNameForRace(raceId)} 2026`
   return `https://www.google.com/search?q=${encodeURIComponent(q.replace(/\s+/g, ' ').trim())}`
 }
 
@@ -170,7 +174,7 @@ function AddressStep({ address, onSubmit, daysLeft }) {
 
   return (
     <div className="ballot-step ballot-step-address ballot-step-quick">
-      <h1 className="ballot-quick-title">See your Michigan ballot</h1>
+      <h1 className="ballot-quick-title">{INDIANA_ENABLED ? 'See your Michigan or Indiana ballot' : 'See your Michigan ballot'}</h1>
       <p className="ballot-quick-sub">
         Every race and proposal for your address. Free, no sign-up.
       </p>
@@ -480,8 +484,8 @@ function CandidateDetailModal({ candidate, onClose }) {
                 {candidate.runningMate ? ` Running mate: ${candidate.runningMate}.` : ''}
                 {' '}Use the links below to research them, and if you know something about this candidate, please contact us.
                 <div className="candidate-research-links">
-                  <a href={researchSearchUrl(candidate.name, candidate.raceOffice)} target="_blank" rel="noopener noreferrer">Search news &amp; campaign info</a>
-                  <a href={`https://ballotpedia.org/wiki/index.php?search=${encodeURIComponent(candidate.name + ' Michigan')}`} target="_blank" rel="noopener noreferrer">Ballotpedia</a>
+                  <a href={researchSearchUrl(candidate.name, candidate.raceOffice, candidate.raceId)} target="_blank" rel="noopener noreferrer">Search news &amp; campaign info</a>
+                  <a href={`https://ballotpedia.org/wiki/index.php?search=${encodeURIComponent(`${candidate.name} ${stateNameForRace(candidate.raceId)}`)}`} target="_blank" rel="noopener noreferrer">Ballotpedia</a>
                   <a href={`https://www.google.com/search?q=${encodeURIComponent(`"${candidate.name}" site:facebook.com OR site:linkedin.com`)}`} target="_blank" rel="noopener noreferrer">Social profiles</a>
                   {candidate.website && <a href={candidate.website} target="_blank" rel="noopener noreferrer">Campaign site</a>}
                 </div>
@@ -760,7 +764,7 @@ function ProposalCard({ proposal, choice, onVote }) {
 
 // ── Deadline Banner ──
 
-function DeadlineBanner() {
+function DeadlineBanner({ info }) {
   const now = new Date()
   const electionDate = new Date('2026-11-03T12:00:00')
   const isElectionDay = now.toDateString() === electionDate.toDateString()
@@ -777,10 +781,10 @@ function DeadlineBanner() {
         <div className="ballot-deadline-info">
           <strong>General Election Day</strong>
           <span className="ballot-deadline-date">
-            Polls are open. You can still register at your clerk's office and vote today.
+            {info.electionDayText}
           </span>
         </div>
-        <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-deadline-action">
+        <a href={info.voterSite} target="_blank" rel="noopener noreferrer" className="ballot-deadline-action">
           Find your polling place
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="12" height="12">
             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
@@ -791,13 +795,7 @@ function DeadlineBanner() {
     )
   }
 
-  const deadlines = [
-    { date: new Date('2026-10-19T12:00:00'), label: 'Registration deadline (online/mail)', action: 'Register now', href: 'https://mvic.sos.state.mi.us/RegisterVoter' },
-    { date: new Date('2026-10-24T12:00:00'), label: 'Early voting begins', action: 'Find early voting site', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
-    { date: new Date('2026-10-30T12:00:00'), label: 'Absentee ballot deadline (mail)', action: 'Request absentee ballot', href: 'https://mvic.sos.state.mi.us/AVApplication/Index' },
-    { date: new Date('2026-11-02T12:00:00'), label: 'Last day for in-person absentee', action: 'Find your clerk', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
-    { date: new Date('2026-11-03T12:00:00'), label: 'General Election Day', action: 'Find your polling place', href: 'https://mvic.sos.state.mi.us/Voter/Index' },
-  ]
+  const deadlines = info.deadlines.map(d => ({ ...d, date: new Date(d.date) }))
 
   const next = deadlines.find(d => d.date >= now)
   if (!next) return null
@@ -1035,7 +1033,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                       </span>
                     </span>
                   )}
-                  <div className="ballot-candidate-header" onClick={() => onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level })} role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level }) } }}>
+                  <div className="ballot-candidate-header" onClick={() => onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level, raceId: race.id })} role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level, raceId: race.id }) } }}>
                     <span className="ballot-candidate-name">
                       {c.name}
                       <GradeBadge grade={c.grade} size="sm" showUnrated={!c.grade} />
@@ -1095,7 +1093,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                   <div className="ballot-candidate-links">
                     <button
                       className="ballot-candidate-profile-btn"
-                      onClick={() => onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level })}
+                      onClick={() => onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level, raceId: race.id })}
                       aria-label={`View full profile for ${c.name}`}
                     >
                       View Profile
@@ -1118,7 +1116,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                     </a>
                     {!c.grade && (
                       <a
-                        href={researchSearchUrl(c.name, race.office)}
+                        href={researchSearchUrl(c.name, race.office, race.id)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="ballot-candidate-source-link"
@@ -1271,20 +1269,37 @@ export default function BallotView() {
     return () => { cancelled = true }
   }, [address, step])
 
+  // Indiana (preview only until launch): official Indiana Election Division ballot data
+  const isIndiana = INDIANA_ENABLED && localGeo?.stateCode === 'IN'
+  const stateInfo = getStateVotingInfo(isIndiana ? 'IN' : 'MI')
+  const [indianaResult, setIndianaResult] = useState(null)
+  const inCounty = isIndiana ? localGeo.county : null
+  useEffect(() => {
+    if (!inCounty) return undefined
+    let cancelled = false
+    loadIndianaBallotData(inCounty).then(data => { if (!cancelled) setIndianaResult({ county: inCounty, data }) })
+    return () => { cancelled = true }
+  }, [inCounty])
+  const indiana = useMemo(
+    () => (isIndiana && indianaResult?.county === inCounty ? getIndianaBallot(indianaResult.data, localGeo, userDistricts) : null),
+    [isIndiana, indianaResult, inCounty, localGeo, userDistricts]
+  )
+
   // Get ballot races for the general election
   const races = useMemo(() => {
+    if (isIndiana) return indiana?.stateRaces || []
     return getGeneralBallot(userDistricts || {})
-  }, [userDistricts])
+  }, [userDistricts, isIndiana, indiana])
 
   // Get local ballot races (county executive, judicial) based on geography
   const localRaces = useMemo(() => {
-    if (!localGeo) return []
+    if (!localGeo || isIndiana) return []
     return getGeneralLocalRaces(localGeo)
-  }, [localGeo])
+  }, [localGeo, isIndiana])
 
   // Official SOS sample-ballot data for the user's county (every local race + proposal)
   const [officialResult, setOfficialResult] = useState(null)
-  const geoCounty = localGeo?.county || null
+  const geoCounty = !isIndiana ? (localGeo?.county || null) : null
   useEffect(() => {
     if (!geoCounty) return undefined
     let cancelled = false
@@ -1299,17 +1314,20 @@ export default function BallotView() {
 
   // Legacy hand-entered local races — only when the address can't be matched to an official ballot
   const novemberLocalRaces = useMemo(() => {
-    if (!localGeo || official.matched || officialLoading) return []
+    if (!localGeo || isIndiana || official.matched || officialLoading) return []
     return getNovemberLocalRaces(localGeo)
-  }, [localGeo, official.matched, officialLoading])
+  }, [localGeo, isIndiana, official.matched, officialLoading])
 
   const combinedLocalRaces = useMemo(
-    () => (official.matched ? official.races : [...localRaces, ...novemberLocalRaces]),
-    [official, localRaces, novemberLocalRaces]
+    () => (isIndiana ? (indiana?.races || []) : official.matched ? official.races : [...localRaces, ...novemberLocalRaces]),
+    [isIndiana, indiana, official, localRaces, novemberLocalRaces]
   )
 
   // Statewide + official local ballot proposals
-  const proposals = useMemo(() => [...BALLOT_PROPOSALS, ...official.proposals], [official])
+  const proposals = useMemo(
+    () => (isIndiana ? (indiana?.proposals || []) : [...BALLOT_PROPOSALS, ...official.proposals]),
+    [isIndiana, indiana, official]
+  )
 
   const [showStickyBar, setShowStickyBar] = useState(false)
   const progressRef = useRef(null)
@@ -1426,7 +1444,7 @@ export default function BallotView() {
   const summaryText = useMemo(() => {
     if (allRaces.length === 0 && proposals.length === 0) return ''
     const lines = [
-      `My Ballot Plan — Michigan General Election`,
+      `My Ballot Plan — ${stateInfo.name} General Election`,
       `November 3, 2026\n`,
     ]
     allRaces.forEach(race => {
@@ -1446,7 +1464,7 @@ export default function BallotView() {
     }
     lines.push('\nCreated with Of For & By The People — buildmyballot.com')
     return lines.join('\n')
-  }, [allRaces, proposals, choices])
+  }, [allRaces, proposals, choices, stateInfo.name])
 
   // Countdown to election
   const daysUntil = useMemo(() => {
@@ -1467,7 +1485,7 @@ export default function BallotView() {
         <h2 className="page-title">My Ballot Plan</h2>
         <div className="ballot-countdown">
           <span className="ballot-countdown-number">{isElectionDay ? 'TODAY' : daysUntil}</span>
-          <span className="ballot-countdown-label">{isElectionDay ? 'is the Michigan General Election' : 'days until the General Election'}</span>
+          <span className="ballot-countdown-label">{isElectionDay ? `is the ${stateInfo.name} General Election` : 'days until the General Election'}</span>
         </div>
         <p className="ballot-date-line">
           <strong>{GENERAL_INFO.date}</strong> &middot; {GENERAL_INFO.type}
@@ -1475,7 +1493,7 @@ export default function BallotView() {
       </div>}
 
       {/* Election day same-day registration note */}
-      {isElectionDay && (
+      {isElectionDay && stateInfo.sameDayRegistration && (
         <div className="ballot-deadline-alert urgent">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
             <circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" />
@@ -1578,7 +1596,7 @@ export default function BallotView() {
           </div>
 
           {/* Key deadline */}
-          <DeadlineBanner />
+          <DeadlineBanner info={stateInfo} />
 
           {/* General election explainer (collapsed so races come first) */}
           <details className="ballot-explainer-details">
@@ -1805,7 +1823,9 @@ export default function BallotView() {
                 Local Races
               </h3>
               <p className="ballot-local-note">
-                {official.matched
+                {isIndiana
+                  ? `From the Indiana Election Division's official candidate list for ${localGeo?.county} County. Township, town and school board races are matched to your address; seats elected by district are noted — confirm with your sample ballot at IndianaVoters.in.gov.`
+                  : official.matched
                   ? `From the official Michigan Secretary of State sample ballot for ${official.jurisdiction}${official.precincts > 1 ? ` (${official.precincts} precincts)` : ''}. Where a race appears only in some precincts, a note says so — confirm with your precinct's sample ballot.`
                   : 'These local races appear on your November general election ballot.'}
               </p>
@@ -1877,7 +1897,15 @@ export default function BallotView() {
                   </svg>
                 </div>
                 <div className="ballot-explainer-text">
-                  {official.matched ? (
+                  {isIndiana ? (
+                    <>
+                      <strong>Source: Indiana Election Division</strong>
+                      <p>
+                        Public questions above come from the Indiana Election Division&apos;s official list for {localGeo?.county} County.
+                        Tap any question to read the full official ballot language. Plain-English summaries are ours.
+                      </p>
+                    </>
+                  ) : official.matched ? (
                     <>
                       <strong>Source: your official sample ballot</strong>
                       <p>
@@ -1902,7 +1930,7 @@ export default function BallotView() {
                 </svg>
                 <span>
                   Proposals are matched to your address. Your actual ballot may include additional proposals not yet in our database.
-                  Always verify with your <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer">official sample ballot</a>.
+                  Always verify with your <a href={stateInfo.voterSite} target="_blank" rel="noopener noreferrer">official sample ballot</a>.
                 </span>
               </div>
             </section>
@@ -1962,8 +1990,8 @@ export default function BallotView() {
               Disclaimer: All information is kept as current as possible but may not reflect the latest developments. Candidate grades reflect our editorial assessment based on publicly available records and are inherently subjective. We encourage all voters to conduct their own research before making final voting decisions.
             </p>
             <p style={{ marginTop: '0.25rem' }}>
-              <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-mvic-link">
-                View your official sample ballot on Michigan.gov
+              <a href={stateInfo.voterSite} target="_blank" rel="noopener noreferrer" className="ballot-mvic-link">
+                View your official sample ballot at {stateInfo.voterSiteName}
               </a>
             </p>
           </div>
@@ -2054,12 +2082,12 @@ export default function BallotView() {
                 <div>
                   <p>Polling places are typically published 4-6 weeks before an election.</p>
                   <a
-                    href="https://mvic.sos.state.mi.us/Voter/Index"
+                    href={stateInfo.voterSite}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="ballot-polling-sos-link"
                   >
-                    Check the Michigan Secretary of State voter lookup for updates
+                    Check {stateInfo.voterSiteName} for updates
                   </a>
                 </div>
               </div>
@@ -2077,9 +2105,9 @@ export default function BallotView() {
             <p className="ballot-checklist-subtitle">Make sure you're ready before you head to the polls.</p>
             <div className="ballot-checklist-items">
               {[
-                { key: 'id', label: 'Bring a valid photo ID', detail: 'Michigan requires a photo ID to vote. If you don\'t have one, you can sign an affidavit at the polls and still cast a ballot.' },
-                { key: 'registration', label: 'Confirm your registration is active', detail: 'Check your registration status at the Michigan Voter Information Center — you can register or update your address on Election Day at your clerk\'s office.', link: 'https://mvic.sos.state.mi.us/Voter/Index', linkLabel: 'Check status' },
-                { key: 'polling', label: 'Know your polling place', detail: 'Michigan polls are open 7:00 AM – 8:00 PM. If you\'re in line by 8 PM, you will be allowed to vote.', link: 'https://mvic.sos.state.mi.us/Voter/Index', linkLabel: 'Find location' },
+                { key: 'id', label: 'Bring a valid photo ID', detail: stateInfo.checklist.id },
+                { key: 'registration', label: 'Confirm your registration is active', detail: stateInfo.checklist.registration, link: stateInfo.voterSite, linkLabel: 'Check status' },
+                { key: 'polling', label: 'Know your polling place', detail: stateInfo.checklist.polling, link: stateInfo.voterSite, linkLabel: 'Find location' },
                 { key: 'ballot', label: 'Save your ballot plan to your phone', detail: 'Screenshot your completed ballot above or bookmark this page. Cell service can be spotty at polling locations.' },
                 { key: 'research', label: 'Review your ballot proposals', detail: 'Proposals and millages are the races voters are least prepared for. Scroll up to read the plain-English YES/NO explainers.' },
                 { key: 'friend', label: 'Remind a friend to vote', detail: 'Share this free tool with someone who wants to vote their values but doesn\'t have time to research every race.' },
@@ -2137,25 +2165,25 @@ export default function BallotView() {
               Voter Resources
             </h3>
             <div className="ballot-resources-grid">
-              <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
+              <a href={stateInfo.voterSite} target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
                 </svg>
                 <span className="ballot-resource-label">Check Registration</span>
               </a>
-              <a href="https://mvic.sos.state.mi.us/RegisterVoter" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
+              <a href={stateInfo.registerUrl} target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
                   <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="8.5" cy="7" r="4" /><line x1="20" y1="8" x2="20" y2="14" /><line x1="23" y1="11" x2="17" y2="11" />
                 </svg>
                 <span className="ballot-resource-label">Register to Vote</span>
               </a>
-              <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
+              <a href={stateInfo.voterSite} target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
                 </svg>
                 <span className="ballot-resource-label">Find Your Polling Place</span>
               </a>
-              <a href="https://mvic.sos.state.mi.us/Voter/Index" target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
+              <a href={stateInfo.voterSite} target="_blank" rel="noopener noreferrer" className="ballot-resource-card">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
                   <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                   <polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" />
