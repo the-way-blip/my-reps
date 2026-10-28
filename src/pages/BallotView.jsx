@@ -174,7 +174,7 @@ function AddressStep({ address, onSubmit, daysLeft }) {
 
   return (
     <div className="ballot-step ballot-step-address ballot-step-quick">
-      <h1 className="ballot-quick-title">{INDIANA_ENABLED ? 'See your Michigan or Indiana ballot' : 'See your Michigan ballot'}</h1>
+      <h1 className="ballot-quick-title">See Your Ballot</h1>
       <p className="ballot-quick-sub">
         Every race and proposal for your address. Free, no sign-up.
       </p>
