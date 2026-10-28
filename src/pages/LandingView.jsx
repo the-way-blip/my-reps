@@ -105,7 +105,7 @@ export default function LandingView() {
       <section className="landing-hero reveal-section" ref={heroRef}>
         <div className="landing-hero-content landing-hero-centered">
           <img src="/logo.png" alt="Of For & By The People" className="landing-hero-logo" />
-          <p className="landing-hero-eyebrow">General Election · Tuesday, November 3 · Michigan &amp; Indiana</p>
+          <p className="landing-hero-eyebrow">General Election · Tuesday, November 3</p>
           <h1 className="landing-hero-headline">
             Walk Into Every Election Confident You're Voting Your Values
           </h1>
@@ -300,7 +300,7 @@ export default function LandingView() {
             </div>
             <h3>Build My Ballot</h3>
             <p>
-              See every race on your November 3 general election ballot in Michigan or Indiana —
+              See every race on your November 3 general election ballot —
               Congress, state legislature, county, township, school board and every ballot question.
             </p>
             <span className="landing-ballot-hero-cta">Build My Ballot &rarr;</span>
