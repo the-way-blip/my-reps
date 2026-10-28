@@ -19,17 +19,29 @@
   "redirects": [
     {
       "source": "/vote",
-      "destination": "/?utm_source=billboard&utm_medium=outdoor&utm_campaign=nov3",
+      "destination": "/ballot?utm_source=billboard&utm_medium=outdoor&utm_campaign=nov3",
       "permanent": false
     },
     {
       "source": "/billboard",
-      "destination": "/?utm_source=billboard&utm_medium=outdoor&utm_campaign=nov3",
+      "destination": "/ballot?utm_source=billboard&utm_medium=outdoor&utm_campaign=nov3",
       "permanent": false
     },
     {
       "source": "/qr",
-      "destination": "/?utm_source=billboard&utm_medium=qr&utm_campaign=nov3",
+      "destination": "/ballot?utm_source=billboard&utm_medium=qr&utm_campaign=nov3",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "buildmyballot.com" }],
+      "destination": "https://www.offorandbythepeople.com/ballot?utm_source=billboard&utm_medium=outdoor&utm_campaign=nov3&utm_content=buildmyballot",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.buildmyballot.com" }],
+      "destination": "https://www.offorandbythepeople.com/ballot?utm_source=billboard&utm_medium=outdoor&utm_campaign=nov3&utm_content=buildmyballot",
       "permanent": false
     },
     {

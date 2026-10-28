@@ -72,6 +72,47 @@ function SaveBallotCard({ address }) {
   )
 }
 
+// Email step before the PDF download — the ballot itself stays open to everyone
+function PdfGateModal({ address, onDone, onClose }) {
+  const [email, setEmail] = useState('')
+  const [name, setName] = useState('')
+  const [state, setState] = useState('idle')
+  const ref = useFocusTrap(true)
+  useEffect(() => {
+    const handler = (e) => { if (e.key === 'Escape') onClose() }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [onClose])
+  const submit = async (e) => {
+    e.preventDefault()
+    const em = email.trim()
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) { setState('error'); return }
+    setState('busy')
+    const zip = (address.match(/\b(4[89]\d{3})\b/) || [])[1] || ''
+    await Promise.all([
+      syncUserToGHL({ email: em, name: name.trim(), state: 'MI', zipCode: zip, source: 'ballot-pdf' }),
+      attachSessionContact({ email: em, name: name.trim() }),
+    ]).catch(() => {})
+    trackEvent('lead_capture', { placement: 'pdf_gate' })
+    try { localStorage.setItem('myreps_lead_captured', '1') } catch { /* ignore */ }
+    onDone()
+  }
+  return (
+    <div className="pdf-gate-overlay" onClick={onClose}>
+      <form ref={ref} className="pdf-gate" role="dialog" aria-modal="true" aria-labelledby="pdf-gate-title" onSubmit={submit} onClick={e => e.stopPropagation()}>
+        <button type="button" className="pdf-gate-close" onClick={onClose} aria-label="Close">×</button>
+        <h3 id="pdf-gate-title">Get your printable ballot</h3>
+        <p>Enter your email and your PDF downloads right away. We&apos;ll also send early-voting and Election Day reminders.</p>
+        <input type="email" placeholder="you@example.com" value={email} onChange={e => setEmail(e.target.value)} aria-label="Email address" autoFocus required />
+        <input type="text" placeholder="First name (optional)" value={name} onChange={e => setName(e.target.value)} aria-label="First name" />
+        {state === 'error' && <p className="ballot-save-error">Please enter a valid email address.</p>}
+        <button type="submit" className="pdf-gate-btn" disabled={state === 'busy'}>{state === 'busy' ? 'Preparing…' : 'Download my ballot'}</button>
+        <p className="ballot-save-fine">Independent &amp; personally funded · no party or candidate ties · unsubscribe any time.</p>
+      </form>
+    </div>
+  )
+}
+
 function researchSearchUrl(name, office) {
   const q = `"${name}" ${(office || '').replace(/—/g, ' ')} Michigan 2026`
   return `https://www.google.com/search?q=${encodeURIComponent(q.replace(/\s+/g, ' ').trim())}`
@@ -113,7 +154,7 @@ function getHighlights(c) {
 
 // ── Step 1: Address Entry ──
 
-function AddressStep({ address, onSubmit }) {
+function AddressStep({ address, onSubmit, daysLeft }) {
   const [input, setInput] = useState(address || '')
 
   const handleSubmit = (e) => {
@@ -128,32 +169,26 @@ function AddressStep({ address, onSubmit }) {
   }
 
   return (
-    <div className="ballot-step ballot-step-address">
-      <div className="ballot-step-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="48" height="48">
-          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-          <circle cx="12" cy="10" r="3" />
-        </svg>
-      </div>
-      <h3 className="ballot-step-title">Where Do You Vote?</h3>
-      <p className="ballot-step-desc">
-        Enter your address to see the exact races and candidates on your ballot.
+    <div className="ballot-step ballot-step-address ballot-step-quick">
+      <h1 className="ballot-quick-title">See your Michigan ballot</h1>
+      <p className="ballot-quick-sub">
+        Every race and proposal for your address. Free, no sign-up.
       </p>
       <form onSubmit={handleSubmit} className="ballot-address-form">
         <AddressAutocomplete
           value={input}
           onChange={setInput}
           onSelect={handleSuggestionSelect}
-          placeholder="Enter your address"
+          placeholder="Your home address"
           className="ballot-address-input"
           autoFocus
         />
         <button type="submit" className="ballot-address-btn" disabled={!input.trim()}>
-          Find My Ballot
+          Show My Ballot
         </button>
       </form>
-      <p className="ballot-step-note">
-        Enter your home address to see every race on your ballot.
+      <p className="ballot-quick-meta">
+        Election Day: <strong>Tuesday, Nov 3</strong>{daysLeft > 0 ? ` · ${daysLeft} day${daysLeft === 1 ? '' : 's'} away` : ''}
       </p>
 
       <div className="ballot-preview-features">
@@ -1374,6 +1409,15 @@ export default function BallotView() {
 
   // Summary stats
   const allRaces = useMemo(() => [...races, ...combinedLocalRaces], [races, combinedLocalRaces])
+  const [pdfGateOpen, setPdfGateOpen] = useState(false)
+  const runPdf = () => generateBallotPDF({ party: 'general', races: allRaces, choices, address })
+  const handleDownloadPdf = () => {
+    let captured = false
+    try { captured = !!localStorage.getItem('myreps_lead_captured') } catch { /* ignore */ }
+    if (user || captured) { runPdf(); return }
+    trackEvent('pdf_gate_shown')
+    setPdfGateOpen(true)
+  }
   const totalItems = allRaces.length + proposals.length
   const decidedCount = Object.keys(choices).filter(k => choices[k]?.name).length
   const totalRaces = allRaces.length
@@ -1418,8 +1462,8 @@ export default function BallotView() {
 
   return (
     <div className="page-container ballot-page">
-      {/* Header with countdown */}
-      <div className="ballot-header">
+      {/* Header with countdown (ballot step only — address step stays minimal) */}
+      {step === 'ballot' && <div className="ballot-header">
         <h2 className="page-title">My Ballot Plan</h2>
         <div className="ballot-countdown">
           <span className="ballot-countdown-number">{isElectionDay ? 'TODAY' : daysUntil}</span>
@@ -1428,7 +1472,7 @@ export default function BallotView() {
         <p className="ballot-date-line">
           <strong>{GENERAL_INFO.date}</strong> &middot; {GENERAL_INFO.type}
         </p>
-      </div>
+      </div>}
 
       {/* Election day same-day registration note */}
       {isElectionDay && (
@@ -1454,23 +1498,11 @@ export default function BallotView() {
         </div>
       )}
 
-      {/* Step indicator — always visible */}
-      <div className="ballot-steps-indicator">
-        <div className={`ballot-step-dot ${step === 'address' || step === 'ballot' ? 'active' : ''}`}>
-          <span>1</span>
-          <label>Address</label>
-        </div>
-        <div className={`ballot-step-line ${step === 'ballot' ? 'active' : ''}`} />
-        <div className={`ballot-step-dot ${step === 'ballot' ? 'active' : ''}`}>
-          <span>2</span>
-          <label>Ballot</label>
-        </div>
-      </div>
 
       {/* ── Step 1: Address ── */}
       {step === 'address' && (
         <>
-          <AddressStep address={address} onSubmit={handleAddressSubmit} />
+          <AddressStep address={address} onSubmit={handleAddressSubmit} daysLeft={daysUntil} />
 
           {/* Upcoming Elections */}
           <section className="ballot-section ballot-elections-preview">
@@ -1548,7 +1580,9 @@ export default function BallotView() {
           {/* Key deadline */}
           <DeadlineBanner />
 
-          {/* General election explainer */}
+          {/* General election explainer (collapsed so races come first) */}
+          <details className="ballot-explainer-details">
+            <summary>How does the general election work?</summary>
           <div className="ballot-explainer">
             <div className="ballot-explainer-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="20" height="20">
@@ -1556,7 +1590,6 @@ export default function BallotView() {
               </svg>
             </div>
             <div className="ballot-explainer-text">
-              <strong>How does the general election work?</strong>
               <p>
                 In the general election, every race appears on one ballot — there are no party
                 columns. For partisan races, you choose between the Republican nominee, Democratic
@@ -1572,6 +1605,7 @@ export default function BallotView() {
               </p>
             </div>
           </div>
+          </details>
 
           {/* Progress bar */}
           {totalItems > 0 && (
@@ -1620,7 +1654,7 @@ export default function BallotView() {
               <div className="ballot-complete-actions">
                 <button
                   className="ballot-complete-pdf"
-                  onClick={() => generateBallotPDF({ party: 'general', races: allRaces, choices, address })}
+                  onClick={handleDownloadPdf}
                 >
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
@@ -1645,8 +1679,6 @@ export default function BallotView() {
               </div>
             </div>
           )}
-
-          <FounderQuoteBanner quotes={VOTING_QUOTES} />
 
           {/* Quick picks summary */}
           {decidedCount > 0 && (
@@ -1877,6 +1909,14 @@ export default function BallotView() {
           )}
 
           {/* Candidate Detail Modal */}
+          {pdfGateOpen && (
+            <PdfGateModal
+              address={address}
+              onClose={() => setPdfGateOpen(false)}
+              onDone={() => { setPdfGateOpen(false); runPdf() }}
+            />
+          )}
+
           {detailCandidate && (
             <CandidateDetailModal
               candidate={detailCandidate}
@@ -1893,7 +1933,7 @@ export default function BallotView() {
             />
             <button
               className="ballot-share-btn ballot-pdf-btn"
-              onClick={() => generateBallotPDF({ party: 'general', races: allRaces, choices, address })}
+              onClick={handleDownloadPdf}
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
@@ -1908,6 +1948,8 @@ export default function BallotView() {
           </div>
 
           {!user && <SaveBallotCard address={address} />}
+
+          <FounderQuoteBanner quotes={VOTING_QUOTES} />
 
           <div className="ballot-disclaimer">
             <p>
@@ -2201,7 +2243,7 @@ export default function BallotView() {
           ) : (
             <button
               className="ballot-sticky-next ballot-sticky-done"
-              onClick={() => generateBallotPDF({ party: 'general', races: allRaces, choices, address })}
+              onClick={handleDownloadPdf}
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
