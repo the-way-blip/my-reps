@@ -52,10 +52,15 @@ for (const h of arr(sw.List)) for (const it of arr(h.Items?.Item)) categories.pu
 // Hand-researched grades (data-raw/grades-in/*.json), matched by candidate name + office
 const GRADES_DIR = path.join(ROOT, 'data-raw/grades-in')
 const nameKey = n => String(n).toLowerCase().replace(/\(.*?\)/g, ' ').replace(/[^a-z ]+/g, ' ').replace(/\b(jr|sr|ii|iii)\b/g, ' ').trim().split(/\s+/).filter(Boolean)
-const GRADES = []
-if (existsSync(GRADES_DIR)) for (const f of readdirSync(GRADES_DIR).filter(f => f.endsWith('.json'))) {
-  for (const g of JSON.parse(readFileSync(path.join(GRADES_DIR, f), 'utf8'))) GRADES.push({ ...g, key: nameKey(g.name), officeKey: String(g.office || '').toLowerCase() })
+// Later files win: six-value regrades (regrade-*, sixvalue-*) override the first-pass files
+const gradeFiles = existsSync(GRADES_DIR) ? readdirSync(GRADES_DIR).filter(f => f.endsWith('.json'))
+  .sort((a, b) => (/^(regrade|sixvalue)/.test(a) ? 1 : 0) - (/^(regrade|sixvalue)/.test(b) ? 1 : 0) || a.localeCompare(b)) : []
+const gradeMap = new Map()
+for (const f of gradeFiles) for (const g of JSON.parse(readFileSync(path.join(GRADES_DIR, f), 'utf8'))) {
+  const key = nameKey(g.name), officeKey = String(g.office || '').toLowerCase().replace(/\s*\(.*\)\s*$/, '').trim()
+  gradeMap.set(`${key[0]}|${key.at(-1)}|${officeKey}`, { ...g, key, officeKey })
 }
+const GRADES = [...gradeMap.values()]
 let gradesApplied = 0
 function gradeFor(name, office) {
   const k = nameKey(name), o = office.toLowerCase()
@@ -63,7 +68,9 @@ function gradeFor(name, office) {
   const g = GRADES.find(g => g.officeKey && o.includes(g.officeKey.replace(/\s*\(.*\)$/, '')) && g.key[0] === k[0] && g.key.at(-1) === k.at(-1))
   if (!g) return {}
   gradesApplied++
-  return { ...(g.grade ? { grade: g.grade } : {}), ...(g.gradeNote ? { gradeNote: g.gradeNote } : {}), ...(g.description ? { description: g.description } : {}), ...(g.website ? { website: g.website } : {}), ...(g.sources?.length ? { sources: g.sources } : {}) }
+  const valid = v => /^[A-F]$/.test(v || '')
+  return { ...(valid(g.grade) ? { grade: g.grade } : {}), ...(g.gradeNote ? { gradeNote: g.gradeNote } : {}),
+    ...(g.positions && Object.values(g.positions).some(valid) ? { positions: g.positions, gradeJustifications: g.gradeJustifications || {} } : {}), ...(g.description ? { description: g.description } : {}), ...(g.website ? { website: g.website } : {}), ...(g.sources?.length ? { sources: g.sources } : {}) }
 }
 
 function partyOf(c) {
