@@ -1,0 +1,259 @@
+[
+ {
+  "office": "State Senator, District 1",
+  "candidates": [
+   {
+    "name": "Christopher Prosch",
+    "party": "republican"
+   },
+   {
+    "name": "Catelin Drey",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 3",
+  "candidates": [
+   {
+    "name": "Lynn Evans",
+    "party": "republican"
+   },
+   {
+    "name": "Mike Frantz",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 5",
+  "candidates": [
+   {
+    "name": "Dave Rowley",
+    "party": "republican"
+   },
+   {
+    "name": "Rachel Gravert",
+    "party": null
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 7",
+  "candidates": [
+   {
+    "name": "Kevin Alons",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 9",
+  "candidates": [
+   {
+    "name": "James Uhlenkamp",
+    "party": "democratic"
+   },
+   {
+    "name": "Steve Baier",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 11",
+  "candidates": [
+   {
+    "name": "Hollie Arlene Zajicek",
+    "party": "republican"
+   },
+   {
+    "name": "Sinikka Waugh",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 13",
+  "candidates": [
+   {
+    "name": "Jeff Kulmatycki",
+    "party": "republican"
+   },
+   {
+    "name": "Brenda Case",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 15",
+  "candidates": [
+   {
+    "name": "Tony Bisignano",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 17",
+  "candidates": [
+   {
+    "name": "Ronald Langston",
+    "party": "republican"
+   },
+   {
+    "name": "Samy El-Baroudi",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 19",
+  "candidates": [
+   {
+    "name": "Barb Kniff McCulla",
+    "party": "republican"
+   },
+   {
+    "name": "Zachary Mecham",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 21",
+  "candidates": [
+   {
+    "name": "John Hollinrake",
+    "party": "republican"
+   },
+   {
+    "name": "Heather Matson",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 23",
+  "candidates": [
+   {
+    "name": "Tony Thompson",
+    "party": "democratic"
+   },
+   {
+    "name": "Wes Enos",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 25",
+  "candidates": [
+   {
+    "name": "Paul Wacker",
+    "party": "republican"
+   },
+   {
+    "name": "Herman C Quirmbach",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 27",
+  "candidates": [
+   {
+    "name": "Annette Sweeney",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 29",
+  "candidates": [
+   {
+    "name": "Sandy Salmon",
+    "party": "republican"
+   },
+   {
+    "name": "Jim Vowels",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 31",
+  "candidates": [
+   {
+    "name": "Timi Brown Powers",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 33",
+  "candidates": [
+   {
+    "name": "Carrie Koelker",
+    "party": "republican"
+   },
+   {
+    "name": "Mary Ungs-Sogaard",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 35",
+  "candidates": [
+   {
+    "name": "Joe Stutting",
+    "party": "republican"
+   },
+   {
+    "name": "Mike Zimmer",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 37",
+  "candidates": [
+   {
+    "name": "Randy Marzen",
+    "party": "republican"
+   },
+   {
+    "name": "Molly Donahue",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 39",
+  "candidates": [
+   {
+    "name": "Edward Bernie Hayes",
+    "party": "republican"
+   },
+   {
+    "name": "Liz Bennett",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 41",
+  "candidates": [
+   {
+    "name": "Kerry Gruenhagen",
+    "party": "republican"
+   },
+   {
+    "name": "Tom Wieck",
+    "party": "democratic"
+   }
+  ]
+ }
+]

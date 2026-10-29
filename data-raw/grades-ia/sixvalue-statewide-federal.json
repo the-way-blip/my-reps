@@ -1,0 +1,825 @@
+[
+ {
+  "office": "United States Senator",
+  "name": "Ashley Hinson",
+  "grade": "B",
+  "gradeNote": "Rated A+ by SBA Pro-Life America and A+ (endorsed) by NRA-PVF; endorsed by AFP Action with a 2025 Club for Growth score of 84% and Heritage Action 119th Congress score of 87%.",
+  "description": "Sitting member of the U.S. House and former Iowa legislator; Republican candidate for U.S. Senate.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://afpaction.com/endorsements/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=IA&rep",
+   "https://heritageaction.com/scorecard",
+   "https://thefamilyleader.com/election-impact-supporting-iowa-pro-life-candidates/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated A+ by SBA Pro-Life America and named by The FAMiLY Leader as a pro-life candidate.",
+   "marriage": "Named by The FAMiLY Leader as a pro-life and pro-family candidate; no specific votes on these issues captured.",
+   "religiousLiberty": "No specific record found; conservative ratings (iVoterGuide 'Leans Conservative') suggest general support.",
+   "secondAmendment": "Rated A+ and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "Endorsed by AFP Action; Heritage Action score of 87% (119th Congress), 77% lifetime.",
+   "fiscal": "Club for Growth score of 84% (2025) and endorsement by AFP Action indicate a consistent pro-taxpayer record."
+  }
+ },
+ {
+  "office": "United States Senator",
+  "name": "Josh Turek",
+  "grade": "D",
+  "gradeNote": "State House record includes votes against school choice (HF 68), parental-rights (SF 496) and Civil Rights Act gender-identity (SF 418) bills; NRA-PVF rates him C and iVoterGuide rates him Liberal.",
+  "description": "State representative (House District 20); Democratic candidate for U.S. Senate.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Recorded absent on the 2023 heartbeat bill (HF 732); no pro-life positions found and running as Democrat suggests pro-choice alignment.",
+   "marriage": "Voted no on SF 496 (2023 parental rights/curriculum) and SF 418 (2025 removing gender identity from the Civil Rights Act).",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "Rated C by NRA-PVF for 2026; Iowa Firearms Coalition vote index of 29.4%.",
+   "limitedGov": "Voted no on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on SF 2442 (2024 income-tax rate cut), which passed with broad bipartisan support; no other tax votes captured."
+  }
+ },
+ {
+  "office": "United States Senator",
+  "name": "Thomas Laehn",
+  "grade": "C",
+  "gradeNote": "Listed on Iowa Right to Life's 2026 questionnaire A+ list (not an endorsement); iVoterGuide rates him Moderate and no other positions were found.",
+  "description": "Candidate for U.S. Senate (Libertarian).",
+  "website": null,
+  "sources": [
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "C",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "C",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "On Iowa Right to Life's 2026 questionnaire A+ list (answered yes to all three pro-life questions; IRTL notes this is not an endorsement).",
+   "marriage": "No position found.",
+   "religiousLiberty": "No position found.",
+   "secondAmendment": "No position found.",
+   "limitedGov": "No position found.",
+   "fiscal": "No position found."
+  }
+ },
+ {
+  "office": "United States Representative, District 1",
+  "name": "Mariannette Miller-Meeks",
+  "grade": "B",
+  "gradeNote": "Rated A+ by SBA Pro-Life America and A (endorsed) by NRA-PVF; endorsed by AFP Action with a 2025 Club for Growth score of 84% and Heritage Action 119th Congress score of 85%.",
+  "description": "Incumbent U.S. Representative for District 1 and former Iowa legislator; Republican.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://afpaction.com/endorsements/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=IA&rep",
+   "https://heritageaction.com/scorecard",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated A+ by SBA Pro-Life America.",
+   "marriage": "No specific votes captured on marriage or gender issues; Republican with conservative ratings (iVoterGuide 'Leans Conservative').",
+   "religiousLiberty": "No specific record found; conservative ratings suggest general support.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "Endorsed by AFP Action; Heritage Action score of 85% (119th Congress), 76% lifetime.",
+   "fiscal": "Club for Growth score of 84% (2025) and AFP Action endorsement indicate a consistent pro-taxpayer record."
+  }
+ },
+ {
+  "office": "United States Representative, District 1",
+  "name": "Christina Bohannan",
+  "grade": "D",
+  "gradeNote": "Voted against permitless carry (HF 756) and the girls' sports bill (HF 2416) as a state representative; rated F by NRA-PVF and named a Moms Demand Gun Sense Candidate.",
+  "description": "Former state representative (House District 85); Democratic candidate for U.S. House District 1.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "Voted no on HF 2416 (2022 girls' sports limited to biological females).",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "Rated F by NRA-PVF, named a 2026 Moms Demand Gun Sense Candidate, and voted no on HF 756 (2021 permitless carry).",
+   "limitedGov": "iVoterGuide rates her Verified Liberal; no support for school choice or deregulation found.",
+   "fiscal": "Recorded absent on HF 2317 (2022 flat income tax); no pro-taxpayer positions found and Democratic platform alignment suggested."
+  }
+ },
+ {
+  "office": "United States Representative, District 1",
+  "name": "Michael Bridgford",
+  "grade": null,
+  "gradeNote": "No meaningful positions found beyond an iVoterGuide rating of Leans Liberal.",
+  "description": "Candidate for U.S. House District 1 (no party).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "United States Representative, District 2",
+  "name": "Joe Mitchell",
+  "grade": "B",
+  "gradeNote": "As a state representative voted for permitless carry (HF 756), the girls' sports bill (HF 2416) and the flat income tax (HF 2317); rated A and endorsed by NRA-PVF.",
+  "description": "Former state representative (House District 84); Republican candidate for U.S. House District 2.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Not in office for the 2023 heartbeat vote and not on the IRTL A+ list; Republican with conservative ratings.",
+   "marriage": "Voted yes on HF 2416 (2022 girls' sports limited to biological females).",
+   "religiousLiberty": "No specific record found; conservative ratings (iVoterGuide 'Leans Conservative') suggest general support.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF; voted yes on HF 756 (2021 permitless carry).",
+   "limitedGov": "No school-choice vote captured; Republican with conservative ratings.",
+   "fiscal": "Voted yes on HF 2317 (2022 flat income tax)."
+  }
+ },
+ {
+  "office": "United States Representative, District 2",
+  "name": "Lindsay James",
+  "grade": "F",
+  "gradeNote": "Voted against the gender-transition ban for minors (SF 538), parental rights (SF 496), school choice (HF 68), permitless carry (HF 756) and both flat-tax bills; rated F by NRA-PVF and named a Moms Demand Gun Sense Candidate.",
+  "description": "State representative (House District 71); Democratic candidate for U.S. House District 2.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "Recorded absent on the 2023 heartbeat bill (HF 732); no pro-life positions found and running as Democrat suggests pro-choice alignment.",
+   "marriage": "Voted no on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights), HF 2416 (2022 girls' sports) and SF 418 (2025).",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "Rated F by NRA-PVF, named a 2026 Moms Demand Gun Sense Candidate, voted no on HF 756 (2021 permitless carry); IFC vote index 26.6%.",
+   "limitedGov": "Voted no on HF 68 (2023 school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted no on both HF 2317 (2022 flat income tax) and SF 2442 (2024 income-tax cut)."
+  }
+ },
+ {
+  "office": "United States Representative, District 2",
+  "name": "Rick Stewart",
+  "grade": null,
+  "gradeNote": "No meaningful positions found beyond an iVoterGuide rating of Leans Liberal.",
+  "description": "Candidate for U.S. House District 2 (Libertarian).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "United States Representative, District 2",
+  "name": "Dave Bushaw",
+  "grade": null,
+  "gradeNote": "No meaningful positions found beyond an iVoterGuide rating of Liberal.",
+  "description": "Candidate for U.S. House District 2 (no party).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "United States Representative, District 3",
+  "name": "Zach Nunn",
+  "grade": "B",
+  "gradeNote": "Rated A and endorsed by NRA-PVF and B by SBA Pro-Life America; as a state senator voted for the girls' sports bill (HF 2416) and flat income tax (HF 2317), with a 2025 Club for Growth score of 89%.",
+  "description": "Incumbent U.S. Representative for District 3 and former state senator (Senate District 15); Republican.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=IA&rep",
+   "https://heritageaction.com/scorecard",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20220302_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20220224_SJNL.pdf",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated B by SBA Pro-Life America.",
+   "marriage": "Voted yes on HF 2416 (2022 girls' sports limited to biological females) in the Iowa Senate.",
+   "religiousLiberty": "No specific record found; conservative ratings (iVoterGuide 'Leans Conservative') suggest general support.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF for 2026 (recorded absent on HF 756 in 2021).",
+   "limitedGov": "Heritage Action score of 66% (119th Congress), 62% lifetime.",
+   "fiscal": "Voted yes on HF 2317 (2022 flat income tax); Club for Growth score of 89% (2025)."
+  }
+ },
+ {
+  "office": "United States Representative, District 3",
+  "name": "Sarah Trone Garriott",
+  "grade": "D",
+  "gradeNote": "Voted against the heartbeat abortion law (HF 732), the minors' gender-transition ban (SF 538), school choice (HF 68) and permitless carry (HF 756); rated F by NRA-PVF and named a Moms Demand Gun Sense Candidate.",
+  "description": "State senator (Senate District 14); Democratic candidate for U.S. House District 3.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20230711_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20230307_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20230419_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20220302_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20250227_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20230123_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20250509_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20210322_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20220224_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20240419_SJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on HF 732 (2023 fetal heartbeat abortion law).",
+   "marriage": "Voted no on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights), HF 2416 (2022 girls' sports) and SF 418 (2025).",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "Rated F by NRA-PVF, named a 2026 Moms Demand Gun Sense Candidate, voted no on HF 756 (2021 permitless carry); IFC vote index 37.5%.",
+   "limitedGov": "Voted no on HF 68 (2023 school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Mixed: voted no on HF 2317 (2022 flat income tax) but yes on SF 2442 (2024 income-tax cut, passed 39-7)."
+  }
+ },
+ {
+  "office": "United States Representative, District 4",
+  "name": "Chris McGowan",
+  "grade": "B",
+  "gradeNote": "Listed on Iowa Right to Life's 2026 A+ questionnaire list and rated AQ (endorsed) by NRA-PVF; iVoterGuide rates him Conservative.",
+  "description": "Candidate for U.S. House District 4 (Republican).",
+  "website": null,
+  "sources": [
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "On Iowa Right to Life's 2026 questionnaire A+ list (answered yes to all three pro-life questions; IRTL notes this is not an endorsement).",
+   "marriage": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "religiousLiberty": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "secondAmendment": "Rated AQ (A based on questionnaire) and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "fiscal": "No specific positions found; Republican rated Conservative by iVoterGuide."
+  }
+ },
+ {
+  "office": "United States Representative, District 4",
+  "name": "Dave Dawson",
+  "grade": "D",
+  "gradeNote": "Rated F by NRA-PVF and named a Moms Demand Gun Sense Candidate; iVoterGuide rates him Liberal and no other explicit positions were found.",
+  "description": "Candidate for U.S. House District 4 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, family or parental rights; Democratic platform alignment suggested.",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "Rated F by NRA-PVF and named a 2026 Moms Demand Gun Sense Candidate.",
+   "limitedGov": "No explicit positions found on school choice or deregulation; Democratic platform alignment suggested.",
+   "fiscal": "No explicit tax or spending positions found; Democratic platform alignment suggested."
+  }
+ },
+ {
+  "office": "Governor and Lieutenant Governor",
+  "name": "Zach Lahn",
+  "grade": "B",
+  "gradeNote": "Listed on Iowa Right to Life's 2026 A+ questionnaire list, rated AQ (endorsed) by NRA-PVF, and named by The FAMiLY Leader as a pro-life and pro-family candidate.",
+  "description": "Candidate for Governor (Republican); running mate Derek Wulf.",
+  "website": null,
+  "sources": [
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://thefamilyleader.com/election-impact-supporting-iowa-pro-life-candidates/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "On Iowa Right to Life's 2026 questionnaire A+ list and named by The FAMiLY Leader as a pro-life candidate.",
+   "marriage": "Named by The FAMiLY Leader as a pro-family candidate; no specific record captured.",
+   "religiousLiberty": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "secondAmendment": "Rated AQ (A based on questionnaire) and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "fiscal": "No specific positions found; Republican rated Conservative by iVoterGuide."
+  }
+ },
+ {
+  "office": "Lieutenant Governor",
+  "name": "Derek Wulf",
+  "grade": "A",
+  "gradeNote": "As a state representative voted for the heartbeat abortion law (HF 732), the minors' gender-transition ban (SF 538), parental rights (SF 496), school choice (HF 68) and the 2024 income-tax cut (SF 2442); rated A (endorsed) by NRA-PVF with a 100% IFC vote index.",
+  "description": "State representative (House District 76); Republican running mate of Zach Lahn.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on HF 732 (2023 fetal heartbeat abortion law).",
+   "marriage": "Voted yes on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights) and SF 418 (2025).",
+   "religiousLiberty": "No specific religious-liberty votes captured; consistent socially conservative record.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF; Iowa Firearms Coalition vote index of 100%.",
+   "limitedGov": "Voted yes on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on SF 2442 (2024 income-tax cut toward a flat tax)."
+  }
+ },
+ {
+  "office": "Governor and Lieutenant Governor",
+  "name": "Rob Sand",
+  "grade": "D",
+  "gradeNote": "Rated C by NRA-PVF and Liberal by iVoterGuide; no explicit positions found on the other values.",
+  "description": "Candidate for Governor (Democratic); running mate Dave Muhlbauer.",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, family or parental rights; Democratic platform alignment suggested.",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "Rated C by NRA-PVF for 2026.",
+   "limitedGov": "No explicit positions found on school choice or deregulation; Democratic platform alignment suggested.",
+   "fiscal": "No explicit tax or spending positions found; Democratic platform alignment suggested."
+  }
+ },
+ {
+  "office": "Secretary of State",
+  "name": "Paul D. Pate",
+  "grade": "B",
+  "gradeNote": "Listed on Iowa Right to Life's 2026 A+ questionnaire list; iVoterGuide rates him Conservative.",
+  "description": "Candidate for Secretary of State (Republican).",
+  "website": null,
+  "sources": [
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "On Iowa Right to Life's 2026 questionnaire A+ list (IRTL notes this is not an endorsement).",
+   "marriage": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "religiousLiberty": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "secondAmendment": "No NRA-PVF rating found; Republican rated Conservative by iVoterGuide.",
+   "limitedGov": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "fiscal": "No specific positions found; Republican rated Conservative by iVoterGuide."
+  }
+ },
+ {
+  "office": "Secretary of State",
+  "name": "Ryan Peterman",
+  "grade": "D",
+  "gradeNote": "No explicit positions found; iVoterGuide rates him Liberal.",
+  "description": "Candidate for Secretary of State (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, family or parental rights; Democratic platform alignment suggested.",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "No specific Second Amendment record or rating found.",
+   "limitedGov": "No explicit positions found on school choice or deregulation; Democratic platform alignment suggested.",
+   "fiscal": "No explicit tax or spending positions found; Democratic platform alignment suggested."
+  }
+ },
+ {
+  "office": "Auditor of State",
+  "name": "Chris Cournoyer",
+  "grade": "A",
+  "gradeNote": "As a state senator voted for the heartbeat abortion law (HF 732), the minors' gender-transition ban (SF 538), parental rights (SF 496), school choice (HF 68), permitless carry (HF 756) and both flat-tax bills; listed on Iowa Right to Life's 2026 A+ list.",
+  "description": "Former state senator (Senate Districts 49 and 35); Republican candidate for Auditor of State.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20230711_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20230307_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20230419_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20220302_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20230123_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20210322_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20220224_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20240419_SJNL.pdf",
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on HF 732 (2023 fetal heartbeat abortion law) and is on Iowa Right to Life's 2026 A+ list.",
+   "marriage": "Voted yes on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights) and HF 2416 (2022 girls' sports).",
+   "religiousLiberty": "No specific religious-liberty votes captured; consistent socially conservative record.",
+   "secondAmendment": "Voted yes on HF 756 (2021 permitless carry).",
+   "limitedGov": "Voted yes on HF 68 (2023 Students First school-choice accounts).",
+   "fiscal": "Voted yes on HF 2317 (2022 flat income tax) and SF 2442 (2024 income-tax cut)."
+  }
+ },
+ {
+  "office": "Auditor of State",
+  "name": "Taylor Wettach",
+  "grade": "D",
+  "gradeNote": "No explicit positions found; iVoterGuide rates him Liberal.",
+  "description": "Candidate for Auditor of State (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, family or parental rights; Democratic platform alignment suggested.",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "No specific Second Amendment record or rating found.",
+   "limitedGov": "No explicit positions found on school choice or deregulation; Democratic platform alignment suggested.",
+   "fiscal": "No explicit tax or spending positions found; Democratic platform alignment suggested."
+  }
+ },
+ {
+  "office": "Treasurer of State",
+  "name": "Roby Smith",
+  "grade": "B",
+  "gradeNote": "As a state senator voted for permitless carry (HF 756), the girls' sports bill (HF 2416) and the flat income tax (HF 2317); iVoterGuide rates him Conservative.",
+  "description": "Former state senator (Senate District 47); Republican candidate for Treasurer of State.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20210322_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20220302_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20220224_SJNL.pdf",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Not in office for the 2023 heartbeat vote and not on the IRTL A+ list; Republican rated Conservative by iVoterGuide.",
+   "marriage": "Voted yes on HF 2416 (2022 girls' sports limited to biological females).",
+   "religiousLiberty": "No specific record found; Republican rated Conservative by iVoterGuide.",
+   "secondAmendment": "Voted yes on HF 756 (2021 permitless carry).",
+   "limitedGov": "No school-choice vote captured; Republican rated Conservative by iVoterGuide.",
+   "fiscal": "Voted yes on HF 2317 (2022 flat income tax)."
+  }
+ },
+ {
+  "office": "Treasurer of State",
+  "name": "John Norwood",
+  "grade": "D",
+  "gradeNote": "No explicit positions found; iVoterGuide rates him Liberal.",
+  "description": "Candidate for Treasurer of State (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, family or parental rights; Democratic platform alignment suggested.",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "No specific Second Amendment record or rating found.",
+   "limitedGov": "No explicit positions found on school choice or deregulation; Democratic platform alignment suggested.",
+   "fiscal": "No explicit tax or spending positions found; Democratic platform alignment suggested."
+  }
+ },
+ {
+  "office": "Secretary of Agriculture",
+  "name": "Mike Naig",
+  "grade": "B",
+  "gradeNote": "Rated Conservative by iVoterGuide; no votes, questionnaire responses or ratings on specific values were found.",
+  "description": "Candidate for Secretary of Agriculture (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "marriage": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "religiousLiberty": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "secondAmendment": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "limitedGov": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "fiscal": "No specific positions found; Republican rated Conservative by iVoterGuide."
+  }
+ },
+ {
+  "office": "Secretary of Agriculture",
+  "name": "Chris Jones",
+  "grade": "D",
+  "gradeNote": "No explicit positions found; iVoterGuide rates him Liberal.",
+  "description": "Candidate for Secretary of Agriculture (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, family or parental rights; Democratic platform alignment suggested.",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "No specific Second Amendment record or rating found.",
+   "limitedGov": "No explicit positions found on school choice or deregulation; Democratic platform alignment suggested.",
+   "fiscal": "No explicit tax or spending positions found; Democratic platform alignment suggested."
+  }
+ },
+ {
+  "office": "Attorney General",
+  "name": "Brenna Bird",
+  "grade": "B",
+  "gradeNote": "Listed on Iowa Right to Life's 2026 A+ questionnaire list and rated A (endorsed) by NRA-PVF; iVoterGuide rates her Conservative.",
+  "description": "Candidate for Attorney General (Republican).",
+  "website": null,
+  "sources": [
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "On Iowa Right to Life's 2026 questionnaire A+ list (IRTL notes this is not an endorsement).",
+   "marriage": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "religiousLiberty": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "No specific positions found; Republican rated Conservative by iVoterGuide.",
+   "fiscal": "No specific positions found; Republican rated Conservative by iVoterGuide."
+  }
+ },
+ {
+  "office": "Attorney General",
+  "name": "Nate Willems",
+  "grade": "D",
+  "gradeNote": "Rated F by NRA-PVF and named a Moms Demand Gun Sense Candidate; iVoterGuide rates him Liberal and no other explicit positions were found.",
+  "description": "Candidate for Attorney General (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, family or parental rights; Democratic platform alignment suggested.",
+   "religiousLiberty": "No specific religious-liberty record or statements found.",
+   "secondAmendment": "Rated F by NRA-PVF and named a 2026 Moms Demand Gun Sense Candidate.",
+   "limitedGov": "No explicit positions found on school choice or deregulation; Democratic platform alignment suggested.",
+   "fiscal": "No explicit tax or spending positions found; Democratic platform alignment suggested."
+  }
+ }
+]

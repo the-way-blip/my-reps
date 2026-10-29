@@ -1,0 +1,260 @@
+[
+ {
+  "office": "State Senator, District 43",
+  "candidates": [
+   {
+    "name": "Meghann Foster",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 45",
+  "candidates": [
+   {
+    "name": "Janice Weiner",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 47",
+  "candidates": [
+   {
+    "name": "Scott Webster",
+    "party": "republican"
+   },
+   {
+    "name": "Nikhil Wagle",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Senator, District 49",
+  "candidates": [
+   {
+    "name": "Cynthia Mensendick",
+    "party": "republican"
+   },
+   {
+    "name": "Cindy Winckler",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 1",
+  "candidates": [
+   {
+    "name": "Josh Steinhoff",
+    "party": "republican"
+   },
+   {
+    "name": "Shawn Olorundami",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 2",
+  "candidates": [
+   {
+    "name": "Robert Henderson",
+    "party": "republican"
+   },
+   {
+    "name": "Jessica Lopez-Walker",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 3",
+  "candidates": [
+   {
+    "name": "Robert Driesen",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 4",
+  "candidates": [
+   {
+    "name": "Skyler Wheeler",
+    "party": "republican"
+   },
+   {
+    "name": "Garth Van Donselaar",
+    "party": null
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 5",
+  "candidates": [
+   {
+    "name": "Keith Glienke",
+    "party": "republican"
+   },
+   {
+    "name": "Stephanie Steiner",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 6",
+  "candidates": [
+   {
+    "name": "Megan Jones",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 7",
+  "candidates": [
+   {
+    "name": "Wendy Larson",
+    "party": "republican"
+   },
+   {
+    "name": "Rachel Burns",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 8",
+  "candidates": [
+   {
+    "name": "Ann Meyer",
+    "party": "republican"
+   },
+   {
+    "name": "Kristofer Williams",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 9",
+  "candidates": [
+   {
+    "name": "Henry Stone",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 10",
+  "candidates": [
+   {
+    "name": "John H Wills",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 11",
+  "candidates": [
+   {
+    "name": "Craig Williams",
+    "party": "republican"
+   },
+   {
+    "name": "Bill Owen",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 12",
+  "candidates": [
+   {
+    "name": "Steven Holt",
+    "party": "republican"
+   },
+   {
+    "name": "Dustin Durbin",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 13",
+  "candidates": [
+   {
+    "name": "Travis M. Sitzmann",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 14",
+  "candidates": [
+   {
+    "name": "Jacob Bossman",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 15",
+  "candidates": [
+   {
+    "name": "Jason Sherer",
+    "party": "republican"
+   },
+   {
+    "name": "Benjamin Schauer",
+    "party": "democratic"
+   },
+   {
+    "name": "Blake Johnson",
+    "party": null
+   },
+   {
+    "name": "Marilyn J Mentzer",
+    "party": null
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 16",
+  "candidates": [
+   {
+    "name": "David A. Sieck",
+    "party": "republican"
+   },
+   {
+    "name": "Jack Goodman",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 17",
+  "candidates": [
+   {
+    "name": "Devon Wood",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 18",
+  "candidates": [
+   {
+    "name": "Thomas Jay Moore",
+    "party": "republican"
+   },
+   {
+    "name": "Tripp Narup",
+    "party": "democratic"
+   }
+  ]
+ }
+]
