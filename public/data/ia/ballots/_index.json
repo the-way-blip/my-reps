@@ -25,14 +25,14 @@
   {
    "county": "Appanoose",
    "slug": "appanoose",
-   "races": 17,
+   "races": 24,
    "referendums": 9,
    "localFound": true
   },
   {
    "county": "Audubon",
    "slug": "audubon",
-   "races": 7,
+   "races": 19,
    "referendums": 13,
    "localFound": true
   },
@@ -270,7 +270,7 @@
   {
    "county": "Guthrie",
    "slug": "guthrie",
-   "races": 20,
+   "races": 28,
    "referendums": 9,
    "localFound": true
   },
@@ -397,7 +397,7 @@
    "county": "Linn",
    "slug": "linn",
    "races": 16,
-   "referendums": 11,
+   "referendums": 13,
    "localFound": true
   },
   {

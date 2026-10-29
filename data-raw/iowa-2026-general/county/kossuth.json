@@ -1,18 +1,23 @@
 {
  "county": "Kossuth",
  "found": true,
- "partial": true,
+ "partial": false,
  "sources": [
   "https://www.kossuthcounty.iowa.gov/election-information/",
   "https://www.kossuthcounty.iowa.gov/general-election-notice-2026/",
-  "https://www.kossuthcounty.iowa.gov/wp-content/uploads/2026/10/General-Election-Notice-2026.pdf"
+  "https://www.kossuthcounty.iowa.gov/wp-content/uploads/2026/10/General-Election-Notice-2026.pdf",
+  "https://www.kossuthcounty.iowa.gov/wp-content/uploads/2025/05/Supervisors_20250124_Letter.pdf",
+  "https://www.kossuthcounty.iowa.gov/wp-content/uploads/2025/01/VotingPrecincts_Algona_Effective2022.pdf",
+  "https://ballotpedia.org/Kossuth_County,_Iowa,_elections,_2026",
+  "https://electionresults.iowa.gov/IA/Kossuth/122377/354949/json/en/summary.json (2024 general contest list)",
+  "https://electionresults.iowa.gov/IA/Kossuth/126137/ (2026 primary)"
  ],
  "asOf": "2026-10-06",
  "races": [
   {
    "office": "Board of Supervisors, District 1",
    "scope": "county",
-   "area": "District 1",
+   "area": "District 1: precincts 10 Prairie-Wesley, 11 Garfield-Whittemore, 12 Cresco-Riverdale, 13 Irvington, 14 LuVerne-Sherman",
    "seats": 1,
    "candidates": [
     {
@@ -25,14 +30,14 @@
     },
     {
      "name": "Lara Cram",
-     "party": null
+     "party": "no party"
     }
    ]
   },
   {
    "office": "Board of Supervisors, District 3",
    "scope": "county",
-   "area": "District 3",
+   "area": "District 3: precincts 15 Cresco 1, 18 Algona 2nd Ward, 19 Algona 3rd Ward",
    "seats": 1,
    "candidates": [
     {
@@ -44,7 +49,7 @@
   {
    "office": "Board of Supervisors, District 4",
    "scope": "county",
-   "area": "District 4",
+   "area": "District 4: precincts 1 Eagle-Grant-Harrison-Swea, 2 Hebron-Ledyard-Lincoln-Springfield, 3 Greenwood-Seneca, 4 Ramsey",
    "seats": 1,
    "candidates": [
     {
@@ -89,7 +94,7 @@
   {
    "office": "County Hospital Board of Trustees",
    "scope": "county",
-   "seats": null,
+   "seats": 3,
    "candidates": [
     {
      "name": "Brenda Bormann",
@@ -108,7 +113,7 @@
   {
    "office": "Soil and Water Conservation District Commissioner",
    "scope": "county",
-   "seats": null,
+   "seats": 2,
    "candidates": [
     {
      "name": "Luke Snyder",
@@ -123,7 +128,7 @@
   {
    "office": "County Agricultural Extension Council",
    "scope": "county",
-   "seats": null,
+   "seats": 5,
    "candidates": [
     {
      "name": "Phil Divis",
@@ -155,5 +160,5 @@
    "ballotLanguage": "Shall the Board of Directors of the North Union Community School District in the Counties of Emmet, Kossuth and Palo Alto, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $12,000,000 to provide funds to build, furnish, and equip additions to the school building, including a gymnasium, multipurpose room, and related spaces, and to improve the site?"
   }
  ],
- "notes": "Source is the official Public Notice of the General Election (dated Oct 6, 2026). Supervisor seats are by district (notice says 'depending on the precinct ... may contain a County Supervisor'); Districts 1, 3 and 4 are up. Lara Cram is listed under District 1 with no party label (likely no-party/nominated by petition). The notice does not give vote-for counts for Hospital Trustees, SWCD Commissioners or Ag Extension Council, so seats is null. No township offices are listed in the notice. 'No Candidate Filed' Democratic entries appear only in state legislative races (not collected). Marked partial: the notice lists no township offices (Iowa townships normally elect trustees/clerks at this election) and no per-precinct sample ballots are posted on the county site, so township races could not be collected."
+ "notes": "Contests and candidates from the official Public Notice of the General Election (dated Oct 6, 2026; re-posted Oct 23 as 'UPDATED' polling places), read in a real browser. No per-precinct sample ballots are posted (the 'Sample Ballots' section of the election page is empty). Vote-for counts are from Ballotpedia's Kossuth 2026 page (secondary source; its candidate list matches the official notice exactly): Hospital Trustees vote for 3, SWCD vote for 2, Ag Extension vote for 5. Lara Cram (District 1) has no party label in the notice and is listed as Independent by Ballotpedia (recorded as 'no party'). Supervisors are elected by district (only voters in the district see the race). Precinct assignment was READ VISUALLY from the county's 'County Supervisor District Boundaries' map (Jan 2025) together with the Algona-area precinct map: District 4 (north: Eagle, Grant, Springfield, Hebron, Swea, Harrison, Ledyard, Lincoln, Seneca, Greenwood, Ramsey townships) = precincts 1-4; District 1 (south/southeast rural: Whittemore, Garfield, Riverdale, Sherman, LuVerne, Irvington, Prairie, Wesley and most of Cresco) = precincts 10-14; District 3 (east half of Algona plus the strip of Cresco Twp south of Algona) = precincts 15 (Cresco 1), 18 (Algona Ward 2), 19 (Algona Ward 3). Precincts 5-9, 16, 17 and 20 (Burt, Buffalo-German-Portland, Fenton-Lotts Creek, Union-Cresco, Plum Creek, Cresco 2, Algona Wards 1 and 4) are in Districts 2/5 and have no supervisor race. No township offices: the notice says all ballots contain federal, state, county offices, judges and public measures (no township offices), and the 2024 general-election contest list for Kossuth on the state results site likewise had no township contests (Kossuth township officers are not on the ballot). Public Measure HF (North Union CSD bond) applies only to North Union CSD precincts (notice does not list which). No other county/local measures."
 }
