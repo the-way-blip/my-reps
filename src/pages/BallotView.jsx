@@ -1073,7 +1073,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                 {/* Mini scorecard preview + View Profile link */}
                 <div className="ballot-candidate-bottom">
                   {c.positions && (
-                    <div className="ballot-candidate-mini-scores" aria-label="Issue grades at a glance">
+                    <div className="ballot-candidate-mini-scores" role="button" tabIndex={0} aria-label="Issue grades at a glance — open profile" title="See the evidence behind each grade" onClick={() => onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level, raceId: race.id })} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onCandidateDetail({ ...c, raceOffice: race.office, raceLevel: race.level, raceId: race.id }) } }}>
                       {Object.entries(ISSUE_LABELS).map(([key, { label }]) => {
                         const g = c.positions[key]
                         const shortLabels = {
@@ -1352,10 +1352,11 @@ export default function BallotView() {
   useEffect(() => {
     const onScroll = () => {
       setShowScrollTop(window.scrollY > 600)
-      if (progressRef.current) {
-        const rect = progressRef.current.getBoundingClientRect()
-        setShowStickyBar(rect.bottom < 0)
-      }
+      // Sticky progress/Next bar while the voter is inside the races, i.e. past the top of the races
+      // section and before the plan tools (progress bar, key dates, filters) at the bottom come into view
+      const racesTop = document.getElementById('section-races')?.getBoundingClientRect().top
+      const toolsTop = progressRef.current?.getBoundingClientRect().top
+      setShowStickyBar(racesTop != null && racesTop < 120 && (toolsTop == null || toolsTop > window.innerHeight))
     }
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
@@ -1572,63 +1573,6 @@ export default function BallotView() {
           {/* Key deadline */}
           <DeadlineBanner info={stateInfo} />
 
-          {/* General election explainer (collapsed so races come first) */}
-          <details className="ballot-explainer-details">
-            <summary>How does the general election work?</summary>
-          <div className="ballot-explainer">
-            <div className="ballot-explainer-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="20" height="20">
-                <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
-              </svg>
-            </div>
-            <div className="ballot-explainer-text">
-              <p>
-                In the general election, every race appears on one ballot — there are no party
-                columns. For partisan races, you choose between the Republican nominee, Democratic
-                nominee, and any independent or third-party candidates. Nonpartisan races (judges,
-                school boards) and ballot proposals appear for all voters.
-              </p>
-              <p>
-                Each candidate below is shown with their party affiliation
-                (<span className="ballot-party-tag ballot-party-tag-r" style={{ display: 'inline', verticalAlign: 'middle' }}>R</span>{' '}
-                <span className="ballot-party-tag ballot-party-tag-d" style={{ display: 'inline', verticalAlign: 'middle' }}>D</span>{' '}
-                <span className="ballot-party-tag ballot-party-tag-i" style={{ display: 'inline', verticalAlign: 'middle' }}>I</span>)
-                and graded A through F on constitutional values.
-              </p>
-            </div>
-          </div>
-          </details>
-
-          {/* Progress bar */}
-          {totalItems > 0 && (
-            <div className="ballot-progress" ref={progressRef}>
-              <div className="ballot-progress-bar">
-                <div
-                  className="ballot-progress-fill"
-                  style={{ width: `${totalItems > 0 ? (decidedCount / totalItems) * 100 : 0}%` }}
-                />
-              </div>
-              <span className="ballot-progress-text">
-                <span><strong>{decidedCount}</strong> of {totalItems} decided</span>
-                {decidedCount === totalItems && <span className="ballot-progress-done">All set!</span>}
-                {decidedCount > 0 && decidedCount < totalItems && (
-                  <button
-                    className="ballot-next-undecided"
-                    onClick={() => {
-                      const el = document.querySelector('.ballot-race:not(.ballot-race-decided)')
-                      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' })
-                    }}
-                  >
-                    Next undecided
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" width="12" height="12">
-                      <polyline points="6 9 12 15 18 9" />
-                    </svg>
-                  </button>
-                )}
-              </span>
-            </div>
-          )}
-
 
           {/* Ballot complete celebration */}
           {decidedCount === totalItems && totalItems > 0 && (
@@ -1677,62 +1621,6 @@ export default function BallotView() {
             <BallotSummaryCard choices={choices} races={allRaces} />
           )}
 
-          <GradeLegend />
-
-          {/* Key dates — collapsible since DeadlineBanner handles the urgent one */}
-          <details className="ballot-dates-details">
-            <summary className="ballot-dates-summary">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
-                <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18" /><path d="M8 2v4" /><path d="M16 2v4" />
-              </svg>
-              All Key Dates
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="12" height="12" className="ballot-dates-chevron">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </summary>
-            <div className="ballot-dates-grid">
-              <div className="ballot-date-item">
-                <span className="ballot-date-label">Registration Deadline</span>
-                <span className="ballot-date-value">{GENERAL_INFO.registrationDeadline}</span>
-              </div>
-              <div className="ballot-date-item">
-                <span className="ballot-date-label">Early Voting Begins</span>
-                <span className="ballot-date-value">{GENERAL_INFO.earlyVotingStart}</span>
-              </div>
-              <div className="ballot-date-item">
-                <span className="ballot-date-label">Absentee Ballot Deadline</span>
-                <span className="ballot-date-value">{GENERAL_INFO.absenteeDeadline}</span>
-              </div>
-              <div className="ballot-date-item ballot-date-highlight-item">
-                <span className="ballot-date-label">Election Day</span>
-                <span className="ballot-date-value">{GENERAL_INFO.date}</span>
-              </div>
-            </div>
-          </details>
-
-          {/* Race filter tabs */}
-          {totalRaces > 3 && (
-            <div className="ballot-filter-tabs">
-              <button
-                className={`ballot-filter-tab ${raceFilter === 'all' ? 'active' : ''}`}
-                onClick={() => setRaceFilter('all')}
-              >
-                All ({totalRaces})
-              </button>
-              <button
-                className={`ballot-filter-tab ${raceFilter === 'undecided' ? 'active' : ''}`}
-                onClick={() => setRaceFilter('undecided')}
-              >
-                Undecided ({totalRaces - decidedCount})
-              </button>
-              <button
-                className={`ballot-filter-tab ${raceFilter === 'decided' ? 'active' : ''}`}
-                onClick={() => setRaceFilter('decided')}
-              >
-                Decided ({decidedCount})
-              </button>
-            </div>
-          )}
 
           {/* Section jump nav */}
           <div className="ballot-jump-nav">
@@ -2170,6 +2058,97 @@ export default function BallotView() {
               {Object.values(checklist).filter(Boolean).length} of 6 complete
             </div>
           </section>
+
+          {/* Plan tools: progress, grade key, key dates and race filter (kept at the bottom, under the races) */}
+          <div className="ballot-plan-tools">
+          {/* Progress bar */}
+          {totalItems > 0 && (
+            <div className="ballot-progress" ref={progressRef}>
+              <div className="ballot-progress-bar">
+                <div
+                  className="ballot-progress-fill"
+                  style={{ width: `${totalItems > 0 ? (decidedCount / totalItems) * 100 : 0}%` }}
+                />
+              </div>
+              <span className="ballot-progress-text">
+                <span><strong>{decidedCount}</strong> of {totalItems} decided</span>
+                {decidedCount === totalItems && <span className="ballot-progress-done">All set!</span>}
+                {decidedCount > 0 && decidedCount < totalItems && (
+                  <button
+                    className="ballot-next-undecided"
+                    onClick={() => {
+                      const el = document.querySelector('.ballot-race:not(.ballot-race-decided)')
+                      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+                    }}
+                  >
+                    Next undecided
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" width="12" height="12">
+                      <polyline points="6 9 12 15 18 9" />
+                    </svg>
+                  </button>
+                )}
+              </span>
+            </div>
+          )}
+
+
+          <GradeLegend />
+
+          {/* Key dates — collapsible since DeadlineBanner handles the urgent one */}
+          <details className="ballot-dates-details">
+            <summary className="ballot-dates-summary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
+                <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18" /><path d="M8 2v4" /><path d="M16 2v4" />
+              </svg>
+              All Key Dates
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="12" height="12" className="ballot-dates-chevron">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </summary>
+            <div className="ballot-dates-grid">
+              <div className="ballot-date-item">
+                <span className="ballot-date-label">Registration Deadline</span>
+                <span className="ballot-date-value">{GENERAL_INFO.registrationDeadline}</span>
+              </div>
+              <div className="ballot-date-item">
+                <span className="ballot-date-label">Early Voting Begins</span>
+                <span className="ballot-date-value">{GENERAL_INFO.earlyVotingStart}</span>
+              </div>
+              <div className="ballot-date-item">
+                <span className="ballot-date-label">Absentee Ballot Deadline</span>
+                <span className="ballot-date-value">{GENERAL_INFO.absenteeDeadline}</span>
+              </div>
+              <div className="ballot-date-item ballot-date-highlight-item">
+                <span className="ballot-date-label">Election Day</span>
+                <span className="ballot-date-value">{GENERAL_INFO.date}</span>
+              </div>
+            </div>
+          </details>
+          {/* Race filter tabs */}
+          {totalRaces > 3 && (
+            <div className="ballot-filter-tabs">
+              <button
+                className={`ballot-filter-tab ${raceFilter === 'all' ? 'active' : ''}`}
+                onClick={() => setRaceFilter('all')}
+              >
+                All ({totalRaces})
+              </button>
+              <button
+                className={`ballot-filter-tab ${raceFilter === 'undecided' ? 'active' : ''}`}
+                onClick={() => setRaceFilter('undecided')}
+              >
+                Undecided ({totalRaces - decidedCount})
+              </button>
+              <button
+                className={`ballot-filter-tab ${raceFilter === 'decided' ? 'active' : ''}`}
+                onClick={() => setRaceFilter('decided')}
+              >
+                Decided ({decidedCount})
+              </button>
+            </div>
+          )}
+
+          </div>
 
           {/* ── Voter Resources Section ── */}
           <section id="section-resources" className="ballot-section ballot-section-resources">

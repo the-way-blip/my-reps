@@ -14209,3 +14209,21 @@ html[data-text] .ballot-incumbent-tag { font-size: 0.8rem !important; }
 .ballot-quick-values-title { font-size: 0.82rem; font-weight: 600; color: var(--text-secondary); margin: 0 0 0.5rem; }
 .ballot-quick-values-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; }
 .ballot-quick-values-list li { font-size: 0.78rem; font-weight: 500; color: var(--text-primary, inherit); background: var(--surface-alt, rgba(148, 163, 184, 0.12)); border: 1px solid var(--border); border-radius: 999px; padding: 0.3rem 0.65rem; white-space: nowrap; }
+
+/* ── Phone spacing: give text in sections, race cards and candidate cards some room from the edges ── */
+@media (max-width: 768px) {
+  .ballot-section { padding: 0.9rem 0.85rem; }
+  .ballot-race { padding: 0.85rem 0.8rem; }
+  .ballot-candidate-card { padding: 0.7rem 0.75rem; }
+  .ballot-plan-tools { margin-top: 1.5rem; }
+  /* Floating buttons sit above the sticky "Next" bar (which itself sits above the bottom nav) instead of on top of it */
+  body:has(.ballot-sticky-bar) .help-fab { bottom: calc(59px + 64px + env(safe-area-inset-bottom, 0px)); }
+  body:has(.ballot-sticky-bar) .ballot-scroll-top { bottom: calc(59px + 64px + 52px + env(safe-area-inset-bottom, 0px)); }
+}
+.ballot-plan-tools { margin-top: 2rem; }
+.ballot-candidate-mini-scores { cursor: pointer; }
+@media (max-width: 768px) {
+  /* Stack the scroll-to-top button above the help button instead of on top of it */
+  .ballot-scroll-top { bottom: calc(4.5rem + 52px); right: 0.75rem; }
+  body:has(.ballot-sticky-bar) .ballot-scroll-top { bottom: calc(59px + 64px + 52px + env(safe-area-inset-bottom, 0px)); }
+}

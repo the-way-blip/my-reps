@@ -19,7 +19,7 @@ const FAQS = [
   {
     category: 'Getting Started',
     question: 'How do I get started?',
-    answer: 'Create a free account, then enter your address. You\'ll immediately see your ballot with graded candidates, your elected representatives, and more.',
+    answer: 'Tap Ballot and enter your home address — no account needed. You\'ll see every race and proposal on your ballot with graded candidates. Sign in only if you want your picks saved across devices.',
     keywords: ['start', 'begin', 'setup', 'new', 'account'],
   },
 
@@ -33,7 +33,7 @@ const FAQS = [
   {
     category: 'Build My Ballot',
     question: 'How are candidates graded?',
-    answer: 'Every candidate is evaluated on a 6-issue rubric using voting records, interest group scorecards from 30+ conservative organizations, questionnaire responses, endorsements, and public statements. Voting records carry the most weight. See our full methodology page for details.',
+    answer: 'Every candidate is graded on the same six values using voting records, interest-group scorecards and endorsements (NRA-PVF, SBA Pro-Life America, state right-to-life and family-policy groups, Americans for Prosperity and others), questionnaire answers, campaign websites and public statements. Voting records carry the most weight. Each candidate\'s profile shows the evidence behind every sub-grade.',
     keywords: ['grade', 'score', 'rating', 'evaluate', 'methodology', 'rubric'],
     link: { text: 'View full methodology', to: '/methodology' },
   },
@@ -46,7 +46,7 @@ const FAQS = [
   {
     category: 'Build My Ballot',
     question: 'What is the data confidence indicator?',
-    answer: 'The signal-strength bars next to each grade show how much evidence backs the score. "Extensive Record" means 4+ scorecards from 3+ organizations. "Minimal Record" means the grade is based on stated positions only, with no external ratings found.',
+    answer: 'The signal-strength bars next to each grade show how much evidence backs the score — from "Extensive Record" (several scorecards and votes) down to "Minimal Record." A "Mostly party-based" tag means we found no public record on most issues, so those sub-grades use the party default (Republican B, Democrat D). Treat those grades as a starting point and open the profile to see which issues have real evidence.',
     keywords: ['confidence', 'evidence', 'data', 'bars', 'signal', 'record', 'indicator'],
   },
   {
@@ -58,13 +58,25 @@ const FAQS = [
   {
     category: 'Build My Ballot',
     question: 'What elections are covered?',
-    answer: 'We cover the Michigan November 3, 2026 general election — every statewide, congressional, and legislative race with graded candidates, plus every local race and ballot proposal for all 83 counties straight from the official Michigan Secretary of State sample ballots. More states and elections are being added. Check the State Coverage page to see what\'s available.',
-    keywords: ['election', 'state', 'coverage', 'michigan', 'primary', 'which'],
+    answer: 'The November 3, 2026 general election in Michigan, Indiana, Iowa, Wisconsin, Minnesota and Ohio — every statewide, congressional and legislative race with graded candidates, from each state\'s official election source. Michigan, Indiana, Iowa, Wisconsin and Minnesota also include county, township, city and school board races and local proposals. Ohio includes county offices and local levies for its ten largest counties; other Ohio counties get the statewide races plus a link to their county board of elections.',
+    keywords: ['election', 'state', 'coverage', 'michigan', 'indiana', 'iowa', 'wisconsin', 'minnesota', 'ohio', 'which'],
+  },
+  {
+    category: 'Build My Ballot',
+    question: 'Why doesn\'t it show my polling place?',
+    answer: 'Where to Vote shows your Election Day polling place, early-voting sites and drop boxes when they\'re published for your address. If they aren\'t available yet, use the link to your state\'s official voter lookup.',
+    keywords: ['polling', 'place', 'where', 'vote', 'early', 'drop box', 'location'],
+  },
+  {
+    category: 'Build My Ballot',
+    question: 'Some of my local races are missing. Why?',
+    answer: 'Local races come from each state\'s official sample ballots or candidate lists. Where a county hasn\'t been added yet (most Ohio counties, and three Iowa counties), the page says so and links to your county board or auditor\'s sample ballot. Seats elected by a district we can\'t pin to your address are shown as "may be on your ballot."',
+    keywords: ['missing', 'local', 'county', 'township', 'school', 'levy', 'ohio', 'iowa'],
   },
   {
     category: 'Build My Ballot',
     question: 'How do I compare candidates?',
-    answer: 'Tap any candidate card to see their full profile including per-issue grades, justifications, endorsements, and background. Use the side-by-side comparison within each race to evaluate candidates against each other.',
+    answer: 'Tap a candidate\'s name or their row of issue grades to open the full profile: the grade on each of the six values, the evidence behind it, sources, and links to their campaign site and Ballotpedia page. Candidates in the same race are listed together so you can compare them.',
     keywords: ['compare', 'side by side', 'versus', 'difference', 'candidate'],
   },
 
@@ -72,7 +84,7 @@ const FAQS = [
   {
     category: 'Find My Reps',
     question: 'How does Find My Reps work?',
-    answer: 'Enter your address and we show you every elected official who represents you — U.S. Senators, House member, state legislators, county commissioners, city council, and school board. You can see their party, contact info, and more.',
+    answer: 'Enter your address and we show the officials who currently represent you — your U.S. Senators and House member, your state legislators, and statewide officeholders — with party and contact details where available.',
     keywords: ['reps', 'representative', 'who represents', 'official', 'elected'],
   },
   {
@@ -84,7 +96,7 @@ const FAQS = [
   {
     category: 'Find My Reps',
     question: 'What levels of government are shown?',
-    answer: 'Federal (U.S. Senators and House members), statewide officials (Governor, AG, SOS), state legislature (State Senate and House), county government, city/township government, and school boards. Coverage varies by state.',
+    answer: 'Federal (U.S. Senators and House member), statewide officials (Governor, Attorney General, Secretary of State) and the state legislature (State Senate and House). Local officeholders aren\'t listed yet; local races appear on your ballot instead.',
     keywords: ['level', 'federal', 'state', 'local', 'county', 'city', 'school'],
   },
 
@@ -147,7 +159,7 @@ const FAQS = [
   {
     category: 'Transparency',
     question: 'Where does the grading data come from?',
-    answer: 'Voting records, scorecards from 30+ conservative organizations (Heritage Action, NRA-PVF, FRC Action, SBA Pro-Life America, Club for Growth, etc.), candidate questionnaires, campaign websites, endorsements, and public statements.',
+    answer: 'Voting records, interest-group scorecards and endorsements (Heritage Action, NRA-PVF, FRC Action, SBA Pro-Life America, Club for Growth, state right-to-life and family-policy groups, Americans for Prosperity and others), candidate questionnaires such as iVoterGuide, campaign websites, and public statements. Every profile lists its sources.',
     keywords: ['source', 'data', 'where', 'come from', 'organization', 'scorecard'],
     link: { text: 'View full methodology', to: '/methodology' },
   },
