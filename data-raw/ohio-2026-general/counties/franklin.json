@@ -1,0 +1,422 @@
+{
+  "county": "Franklin",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://vote.franklincountyohio.gov/election-info/2026",
+    "https://vote.franklincountyohio.gov/getmedia/e0a4ca45-6893-45c1-8190-87696f8804b4/2026-General-Candidate-List-5",
+    "https://vote.franklincountyohio.gov/getmedia/4001b052-1b90-4f73-b030-2d981e6ec8fa/2026-General-Certified-Questions-and-Issues"
+  ],
+  "notes": "Races from the board's '2026 General Election Candidates' list (revised October 16, 2026); issues from the board's 'Certified Questions and Issues, November 3, 2026 General Election' (revised 9/4/2026). Statewide, congressional, legislative, Court of Appeals (10th District) and State Issue 3 omitted per RULES. No municipal, township or school-board candidate races appear on the Franklin County 2026 general ballot (those are odd-year elections); county-run contests are County Auditor, one County Commissioner seat and nine Common Pleas judgeships (all judges run without a party label on the general ballot). Issue numbers follow the board's list; the board skips #4 and #39 and uses letter suffixes (10A/10b etc.) for weekday/Sunday liquor options. Three school issues (Delaware Area Career Center, Pickerington Local School District income tax, Pickerington Public Library levy) carry no Franklin issue number because the districts are headquartered in Delaware/Fairfield County, which assigns the number; they are listed without a number. The Pickerington Public Library is a school-district library whose taxing territory is the Pickerington Local School District, so it is filed under scope 'school'. Franklin's issues list gives purpose and rate rather than full ballot text, so ballotLanguage for levies/bonds is a close paraphrase of the board's purpose/rate columns; charter amendments use the board's summary text verbatim. Governor write-in pairs and other write-ins are not included. The board's per-voter sample ballot requires a voter lookup and was not used.",
+  "races": [
+    {
+      "office": "County Auditor",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael Stinziano",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Commissioner (Full Term Commencing 01/01/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Erica C. Crawley",
+          "party": "democratic"
+        },
+        {
+          "name": "Eric Terford",
+          "party": "libertarian"
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 01/01/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Carl Aveni",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 02/09/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Andy Miller",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 07/01/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Young",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 07/02/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Chris Brown",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Domestic Relations Division (Full Term Commencing 01/02/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kelley Gabrielle Boller",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Domestic Relations Division (Full Term Commencing 01/03/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lasheyl N. Stroud",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Probate Division (Full Term Commencing 02/09/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kelly Green",
+          "party": null
+        },
+        {
+          "name": "Chris Junga",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "name": "Issue 5 — Bexley City School District proposed income tax and bond issue",
+      "scope": "school",
+      "area": "Bexley City School District",
+      "ballotLanguage": "Proposed income tax of 0.5% for current expenses, for a continuing period of time; and proposed bond issue of $29,250,000 for school construction, 2.05 mills, $72 for each $100,000 of the county auditor's market value, 30 years, commencing in 2026."
+    },
+    {
+      "name": "Delaware Area Career Center proposed tax levy (renewal and decrease)",
+      "scope": "school",
+      "area": "Delaware Area Career Center",
+      "ballotLanguage": "Proposed tax levy (renewal and decrease) for school maintenance and current expenses, 0.75 mill (a reduction of .95 mill), $18 for each $100,000 of the county auditor's market value, 10 years, commencing in 2026."
+    },
+    {
+      "name": "Pickerington Local School District proposed income tax increase",
+      "scope": "school",
+      "area": "Pickerington Local School District",
+      "ballotLanguage": "Proposed income tax increase for current expenses, 0.75% on the school district income of individuals, 10 years."
+    },
+    {
+      "name": "Pickerington Public Library proposed tax levy (additional)",
+      "scope": "school",
+      "area": "Pickerington Local School District",
+      "ballotLanguage": "Proposed tax levy (additional) for the Pickerington Public Library for current expenses, 1.5 mills, $53 for each $100,000 of the county auditor's market value, continuing period of time, commencing in 2026."
+    },
+    {
+      "name": "Issue 6 — South-Western City School District proposed bond issue",
+      "scope": "school",
+      "area": "South-Western City School District",
+      "ballotLanguage": "Proposed bond issue for school construction, $220,000,000; 2.26 mills, $79 for each $100,000 of the county auditor's market value, 38 years, commencing in 2026."
+    },
+    {
+      "name": "Issue 7 — Upper Arlington City School District proposed tax levy and bond issue",
+      "scope": "school",
+      "area": "Upper Arlington City School District",
+      "ballotLanguage": "Proposed tax levy for current operating expenses, 4.9 mills, $172 for each $100,000 of the county auditor's market value, continuing period of time, commencing in 2026; and proposed bond issue for school construction, $273,500,000; 4.84 mills, $169 for each $100,000 of the county auditor's market value, 38 years, commencing in 2026."
+    },
+    {
+      "name": "Issue 8 — City of Columbus proposed charter amendment (by petition)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "This proposed amendment would limit the ability to vote for candidates for Columbus City Council to only those electors living within the districts that those candidates seek to represent."
+    },
+    {
+      "name": "Issue 9 — City of Columbus proposed charter amendment (by Council)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "This proposed amendment would limit the ability to vote for candidates for Columbus City Council to only those electors living within the districts that those candidates seek to represent. The amendment adds two (2) at-large council representatives to be elected in 2027, and an additional two (2) at-large council representatives to be elected in 2029. All at-large council representatives will be elected for four (4) year terms. The amendment includes provisions for transitioning from the current nine (9) member Council to an eleven (11) member Council and then subsequently to a thirteen (13) member Council, allowing for the ongoing staggering of terms."
+    },
+    {
+      "name": "Issue 10A — Columbus 07-D local option (weekday sales (beer, wine and mixed beverages): Neubite, L.L.C., (dba Aveneu))",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 07-D: weekday sales (beer, wine and mixed beverages) by Neubite, L.L.C., (dba Aveneu), 1017 Mt. Vernon Avenue, Columbus, Ohio 43203."
+    },
+    {
+      "name": "Issue 10b — Columbus 07-D local option (Sunday sales (wine and mixed beverages): Neubite, L.L.C., (dba Aveneu))",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 07-D: Sunday sales (wine and mixed beverages) by Neubite, L.L.C., (dba Aveneu), 1017 Mt. Vernon Avenue, Columbus, Ohio 43203."
+    },
+    {
+      "name": "Issue 11b — Columbus 10-A local option (Sunday sales (wine and mixed beverages): Dublin & Grandview Duchess)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 10-A: Sunday sales (wine and mixed beverages) by Dublin & Grandview Duchess, 1090 Dublin Road, Columbus, Ohio 43215."
+    },
+    {
+      "name": "Issue 12b — Columbus 10-D local option (Sunday sales (wine and mixed beverages and spirituous liquor): Born on Third)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 10-D: Sunday sales (wine and mixed beverages and spirituous liquor) by Born on Third, 3411 Trabue Rd, Columbus, OH 43204."
+    },
+    {
+      "name": "Issue 13b — Columbus 22-D local option (Sunday sales (wine and mixed beverages): Englefield, Inc., dba Morse Rd. Duchess)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 22-D: Sunday sales (wine and mixed beverages) by Englefield, Inc., dba Morse Rd. Duchess, 927 Morse Road, Columbus, Ohio 43229."
+    },
+    {
+      "name": "Issue 14b — Columbus 32-A local option (Sunday sales (wine and mixed beverages, and spirituous liquor): Third Way Café LLC)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 32-A: Sunday sales (wine and mixed beverages, and spirituous liquor) by Third Way Café LLC, 3059 W. Broad Street, Columbus, OH 43204."
+    },
+    {
+      "name": "Issue 15b — Columbus 49-F local option (Sunday sales (wine and mixed beverages): RaceTrac, Inc.)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 49-F: Sunday sales (wine and mixed beverages) by RaceTrac, Inc., 30 Rathmell Road, Columbus, Ohio 43207."
+    },
+    {
+      "name": "Issue 16A — Columbus 55-D local option (weekday sales (beer, wine and mixed beverages): Englefield, Inc., dba E. Broad St. Duchess)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 55-D: weekday sales (beer, wine and mixed beverages) by Englefield, Inc., dba E. Broad St. Duchess, 825 E. Broad Street, Columbus, Ohio 43205."
+    },
+    {
+      "name": "Issue 16b — Columbus 55-D local option (Sunday sales (wine and mixed beverages): Englefield, Inc., dba E. Broad St. Duchess)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 55-D: Sunday sales (wine and mixed beverages) by Englefield, Inc., dba E. Broad St. Duchess, 825 E. Broad Street, Columbus, Ohio 43205."
+    },
+    {
+      "name": "Issue 17b — Columbus 68-A local option (Sunday sales (wine and mixed beverages): Convenient Plus Food Mart)",
+      "scope": "city",
+      "area": "Columbus",
+      "ballotLanguage": "Local option, particular location, precinct Columbus 68-A: Sunday sales (wine and mixed beverages) by Convenient Plus Food Mart, 5435 E. Livingston Avenue, Columbus, Ohio 43232."
+    },
+    {
+      "name": "Issue 18 — City of Gahanna proposed charter amendment (Section 3.01, mayoral primary)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Section 3.01, Election and Term, of Article III, Mayor, be amended to eliminate the mayoral primary election when no more than two candidates have filed for the office of Mayor?"
+    },
+    {
+      "name": "Issue 19 — City of Gahanna proposed charter amendment (qualifications / conflicts with other public offices)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Section 3.02, Qualifications, of Article III, Mayor; Section 4.03, Qualifications, of Article IV, The Council; and Section 10.02, Qualifications, of Article X, Department of Law, be amended to establish a consistent standard regarding conflicts with other public offices and public employment for the Mayor, Council Members and the City Attorney?"
+    },
+    {
+      "name": "Issue 20 — City of Gahanna proposed charter amendment (Section 4.02, ward boundaries)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Section 4.02, Composition and Term, of Article IV, The Council, be amended to revise the process for adjusting ward boundaries to base it on federal decennial census population data and specified population disparity criteria?"
+    },
+    {
+      "name": "Issue 21 — City of Gahanna proposed charter amendment (Section 4.12, improper voting abstention)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Section 4.12, Legislative Procedure, of Article IV, The Council, be amended to require that an alleged improper voting abstention by a Council member be subject to the notice and hearing procedures for removal established in the Charter?"
+    },
+    {
+      "name": "Issue 22 — City of Gahanna proposed charter amendment (Article V, administrative departments)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Article V, Administrative Departments, be amended to remove department listings, preserving the Charter duties of the Director of Finance, and making related organizational changes?"
+    },
+    {
+      "name": "Issue 23 — City of Gahanna proposed charter amendment (Sections 10.01 and 10.03, City Attorney)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Sections 10.01, City Attorney, and 10.03, General Powers and Duties, of Article X, Department of Law, be amended to clarify the process for filling vacancies in the office of the City Attorney, update the powers and duties of the office, and make related grammatical revisions?"
+    },
+    {
+      "name": "Issue 24 — City of Gahanna proposed charter amendment (Section 11.02, Planning Commission attendance)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Section 11.02, Planning Commission - Organization, of Article XI, Planning Commission, be amended to authorize the Planning Commission to establish attendance requirements for its members though its rules of operation?"
+    },
+    {
+      "name": "Issue 25 — City of Gahanna proposed charter amendment (Section 11.03 / Article XII, zoning and building appeals)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Section 11.03, Planning Commission - Powers and Duties, of Article XI, Planning Commission, be amended and Article XII, Board of Zoning and Building Appeals, be repealed to transfer zoning, building, and landscaping appeal functions to the Planning Commission and to transfer Planning Commission appeals to Franklin County courts?"
+    },
+    {
+      "name": "Issue 26 — City of Gahanna proposed charter amendment (Section 22.01, Charter Review Commission)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Section 22.01, Composition and Term, of Article XXII, Charter Review Commission, be amended to require that the Charter Review Commission be convened every ten years instead of every five years?"
+    },
+    {
+      "name": "Issue 27 — City of Gahanna proposed charter amendment (Section 23.07, non-discrimination clause)",
+      "scope": "city",
+      "area": "Gahanna",
+      "ballotLanguage": "Shall Section 23.07, Non Discrimination Clause, of Article XXIII, General Provisions, be amended to update the Charter's nondiscrimination provisions to align with the City's Codified Ordinances and applicable federal, state, and local law?"
+    },
+    {
+      "name": "Issue 28 — City of Grove City proposed charter amendment (by petition) — Community Consent Amendment",
+      "scope": "city",
+      "area": "Grove City",
+      "ballotLanguage": "Community Consent Amendment – Creates a public referendum process for large developments."
+    },
+    {
+      "name": "Issue 29b — Grove City 01-A local option (Sunday sales (wine and mixed beverages, and spirituous liquor): Dapper Dog Tavern)",
+      "scope": "city",
+      "area": "Grove City",
+      "ballotLanguage": "Local option, particular location, precinct Grove City 01-A: Sunday sales (wine and mixed beverages, and spirituous liquor) by Dapper Dog Tavern, 4057 Broadway, Grove City, Ohio 43123."
+    },
+    {
+      "name": "Issue 30b — Hilliard 2-D local option (Sunday sales (wine and mixed beverages, and spirituous liquor): Drunch)",
+      "scope": "city",
+      "area": "Hilliard",
+      "ballotLanguage": "Local option, particular location, precinct Hilliard 2-D: Sunday sales (wine and mixed beverages, and spirituous liquor) by Drunch, 3997 Truepointe Blvd., Hilliard, OH 43026."
+    },
+    {
+      "name": "Issue 31b — Hilliard 2-D local option (Sunday sales (wine and mixed beverages, and spirituous liquor): Medley Kitchen)",
+      "scope": "city",
+      "area": "Hilliard",
+      "ballotLanguage": "Local option, particular location, precinct Hilliard 2-D: Sunday sales (wine and mixed beverages, and spirituous liquor) by Medley Kitchen, 3986 Truepointe Blvd. Suite 101, Hilliard, OH 43026."
+    },
+    {
+      "name": "Issue 32b — Hilliard 2-D local option (Sunday sales (wine and mixed beverages, and spirituous liquor): Old Scratch Pizza)",
+      "scope": "city",
+      "area": "Hilliard",
+      "ballotLanguage": "Local option, particular location, precinct Hilliard 2-D: Sunday sales (wine and mixed beverages, and spirituous liquor) by Old Scratch Pizza, 3998 Truepointe Blvd., Hilliard, OH 43026."
+    },
+    {
+      "name": "Issue 33b — Hilliard 2-D local option (Sunday sales (wine and mixed beverages, and spirituous liquor): Smoked Lick BBQ Burgers and Booze)",
+      "scope": "city",
+      "area": "Hilliard",
+      "ballotLanguage": "Local option, particular location, precinct Hilliard 2-D: Sunday sales (wine and mixed beverages, and spirituous liquor) by Smoked Lick BBQ Burgers and Booze, 3997 Truepointe Blvd., Suite 101, Hilliard, OH 43026."
+    },
+    {
+      "name": "Issue 34 — City of Upper Arlington proposed tax levy (renewal and increase) — police and fire pension",
+      "scope": "city",
+      "area": "Upper Arlington",
+      "ballotLanguage": "Proposed tax levy (renewal and increase) for payment of the police officer and firefighter employer's pension contribution, 1.13 mills (0.89 + 0.24), $26 for each $100,000 of the county auditor's market value, 5 years, commencing in 2027."
+    },
+    {
+      "name": "Issue 35 — City of Worthington proposed charter amendment — effective date of ordinances",
+      "scope": "city",
+      "area": "Worthington",
+      "ballotLanguage": "Proposed charter amendment: Effective Date of Ordinances, recommended by the Charter Review Commission."
+    },
+    {
+      "name": "Issue 36 — City of Worthington proposed charter amendment — referendum petition signature requirement (Commission)",
+      "scope": "city",
+      "area": "Worthington",
+      "ballotLanguage": "Proposed charter amendment: Referendum Petition Signature Requirement, recommended by the Charter Review Commission."
+    },
+    {
+      "name": "Issue 37 — City of Worthington proposed charter amendment — various amendments (Commission)",
+      "scope": "city",
+      "area": "Worthington",
+      "ballotLanguage": "Proposed charter amendment: Various Amendments, recommended by the Charter Review Commission."
+    },
+    {
+      "name": "Issue 38 — City of Worthington proposed charter amendment (by petition) — referendum petition signature requirement",
+      "scope": "city",
+      "area": "Worthington",
+      "ballotLanguage": "Proposed charter amendment: Referendum Petition Signature Requirement, proposed by petition."
+    },
+    {
+      "name": "Issue 40 — Brown Township (unincorporated area) proposed zoning plan",
+      "scope": "township",
+      "area": "Brown",
+      "ballotLanguage": "A proposed zoning plan for the unincorporated area of Brown Township."
+    },
+    {
+      "name": "Issue 41 — Hamilton Township Road District (unincorporated areas) proposed tax levy (additional) — road maintenance",
+      "scope": "township",
+      "area": "Hamilton",
+      "ballotLanguage": "Proposed tax levy (additional) for road maintenance, 0.8 mill, $28 for each $100,000 of the county auditor's market value, continuing period of time, commencing in 2026."
+    },
+    {
+      "name": "Issue 42 — Madison Township proposed tax levy (additional) — fire protection",
+      "scope": "township",
+      "area": "Madison",
+      "ballotLanguage": "Proposed tax levy (additional) for fire protection, 4.89 mills, $171 for each $100,000 of the county auditor's market value, continuing period of time, commencing in 2026."
+    },
+    {
+      "name": "Issue 43 — Madison Township proposed tax levy (additional) — police protection",
+      "scope": "township",
+      "area": "Madison",
+      "ballotLanguage": "Proposed tax levy (additional) for police protection, 1.99 mills, $70 for each $100,000 of the county auditor's market value, continuing period of time, commencing in 2026."
+    },
+    {
+      "name": "Issue 44A — Madison-A local option (weekday sales (wine and mixed beverages): RaceTrac)",
+      "scope": "township",
+      "area": "Madison",
+      "ballotLanguage": "Local option, particular location, precinct Madison-A: weekday sales (wine and mixed beverages) by RaceTrac, 2555 London Groveport Road, Columbus (Madison Township), Ohio 43217."
+    },
+    {
+      "name": "Issue 44b — Madison-A local option (Sunday sales (wine and mixed beverages): RaceTrac)",
+      "scope": "township",
+      "area": "Madison",
+      "ballotLanguage": "Local option, particular location, precinct Madison-A: Sunday sales (wine and mixed beverages) by RaceTrac, 2555 London Groveport Road, Columbus (Madison Township), Ohio 43217."
+    },
+    {
+      "name": "Issue 45 — Mifflin Township Police District (unincorporated area) proposed tax levy (additional) — police protection",
+      "scope": "township",
+      "area": "Mifflin",
+      "ballotLanguage": "Proposed tax levy (additional) for police protection, 6.96 mills, $244 for each $100,000 of the county auditor's market value, continuing period of time, commencing in 2026."
+    },
+    {
+      "name": "Issue 46A — Plain-A local option (weekday sales (beer, wine and mixed beverages, and spirituous liquor): The Golf Club Company)",
+      "scope": "township",
+      "area": "Plain",
+      "ballotLanguage": "Local option, particular location, precinct Plain-A: weekday sales (beer, wine and mixed beverages, and spirituous liquor) by The Golf Club Company, 4522 Kitzmiller Road, New Albany (Plain Township), Ohio 43054."
+    },
+    {
+      "name": "Issue 46b — Plain-A local option (Sunday sales (wine and mixed beverages, and spirituous liquor): The Golf Club Company)",
+      "scope": "township",
+      "area": "Plain",
+      "ballotLanguage": "Local option, particular location, precinct Plain-A: Sunday sales (wine and mixed beverages, and spirituous liquor) by The Golf Club Company, 4522 Kitzmiller Road, New Albany (Plain Township), Ohio 43054."
+    },
+    {
+      "name": "Issue 47 — Sharon Township Road District (unincorporated area) proposed tax levy (additional) — road maintenance",
+      "scope": "township",
+      "area": "Sharon",
+      "ballotLanguage": "Proposed tax levy (additional) for road maintenance, 2.46 mills, $86 for each $100,000 of the county auditor's market value, continuing period of time, commencing in 2026."
+    },
+    {
+      "name": "Issue 48 — Truro Township proposed tax levy (renewal and decrease) — current expenses",
+      "scope": "township",
+      "area": "Truro",
+      "ballotLanguage": "Proposed tax levy (renewal and decrease) for current expenses, 1 mill (1.5 – 0.5), $17 for each $100,000 of the county auditor's market value, 5 years, commencing in 2026."
+    }
+  ]
+}

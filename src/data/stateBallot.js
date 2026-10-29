@@ -138,6 +138,8 @@ export function getStateBallot(data, geo, districts) {
   // "Town of X" is only the town's voters, not residents of the city or village of X
   const areaMatch = q => q.scope === 'county' ||
     (q.scope === 'school' && schoolTokens(q.area, county.county).some(t => target.includes(t))) ||
+    (q.scope === 'township' && !!twp && norm(q.area) === twp) ||
+    (q.scope === 'city' && !!place && norm(q.area) === place) ||
     (q.scope === 'municipal' && (/^town of /i.test(q.area)
       ? !!twp && norm(q.area) === twp && norm(q.area) !== place
       : !!place && norm(q.area) === place))

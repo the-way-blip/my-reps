@@ -1,0 +1,267 @@
+{
+  "county": "Stark",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.starkcountyohio.gov/Board%20of%20Elections/Candidates%20List%20General.pdf",
+    "https://www.starkcountyohio.gov/Board%20of%20Elections/General%202026_issues%20list_w%20numbers.pdf",
+    "https://www.starkcountyohio.gov/Board%20of%20Elections/Nov%2026_46_updated.pdf"
+  ],
+  "notes": "Source: Stark County BOE 'Candidates List' dated 10/15/2026, 'Questions and Issues List' (numbered) and the board's updated FWAB 46-day election notice (Nov 26_46_updated.pdf), all linked from starkcountyohio.gov/government/offices/board_of_elections. No municipal, township or school-board candidate races appear on the Nov 3, 2026 ballot (Ohio elects those in odd years); only county offices and county judgeships are listed. The board's candidate list shows a nominating party for each Common Pleas judge (Farmer R; Forchione D; Moore D and Dave R for the 2-9-2027 seat; Werren R) but Ohio common pleas judicial races appear on the ballot without party, so party is null per RULES. County Commissioner is the seat with full term commencing 1-1-2027. Issue 4 (Stark County Library District renewal + increase) is a library-district levy, not a countywide vote: it covers the district's precincts across Stark, Carroll, Portage and Summit counties (Canton, parts of Massillon/North Canton, Meyers Lake and most townships; see FWAB notice for the precinct list) — scope set to county with area null because the schema has no special-district scope. Issue 9 (SARTA sales tax) is countywide. The Wayne County Joint Vocational School District renewal levy carries no Stark issue number (numbered by Wayne County BOE) and appears only in Sugarcreek Twp. precinct 2 (part); included without a number. Issue 5 Plain Local bond amount is $116,802,000 on the issues list and $116,800,000 (rounded) on the FWAB notice; the issues-list figure is used. Issues 10/11 East Sparta, 13 Beach City, 17 Magnolia, 18 Navarre and 19 Wilmot are villages (scope city). Liquor options use the board's precinct names. Issue 3 (state constitutional amendment) omitted per RULES. No write-in-only county races.",
+  "races": [
+    {
+      "office": "County Commissioner",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tony M. Townsend",
+          "party": "democratic"
+        },
+        {
+          "name": "Alan Harold",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Auditor",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Chalice E. Brown",
+          "party": "democratic"
+        },
+        {
+          "name": "Angela Kinsey",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 1-1-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kristin G. Farmer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 1-4-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Frank G. Forchione",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 2-9-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kristen S. Moore",
+          "party": null
+        },
+        {
+          "name": "Jennifer L. Dave",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Probate Division (Full Term Commencing 2-9-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Curt Werren",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "name": "Issue 4 — Stark County Library District renewal and increase levy (2 mills renewal + 0.3 mill increase, 8 years)",
+      "scope": "county",
+      "area": null,
+      "ballotLanguage": "Renewal of 2 mills and increase of 0.3 mill, current expenses, 8 years, commencing in 2027 (Stark County Library District; Stark, Carroll, Portage and Summit counties)."
+    },
+    {
+      "name": "Wayne County Joint Vocational School District renewal levy (0.5 mill, 5 years) — no Stark issue number",
+      "scope": "school",
+      "area": "Wayne County Joint Vocational School District",
+      "ballotLanguage": "Renewal, 0.5 mill, general permanent improvements, 5 years, commencing in 2027 (Wayne, Ashland, Holmes, Medina and Stark counties; Stark precinct Sugarcreek Twp. 2 (part) only)."
+    },
+    {
+      "name": "Issue 5 — Plain Local School District bond issue ($116,802,000, 3.5 mills, 37 years)",
+      "scope": "school",
+      "area": "Plain Local School District",
+      "ballotLanguage": "Bond Issue, $116,802,000, 3.5 mills, maximum 37 years, constructing, furnishing, equipping, renovating, rehabilitating, remodeling, adding to and otherwise improving School District buildings and facilities, acquiring, clearing, equipping and otherwise improving sites therefor, demolishing existing buildings and facilities, commencing in 2026."
+    },
+    {
+      "name": "Issue 6 — Sandy Valley Local School District renewal levy (2.3 mills, 5 years)",
+      "scope": "school",
+      "area": "Sandy Valley Local School District",
+      "ballotLanguage": "Renewal, 2.3 mills, current expenses, 5 years, commencing in 2027 (Stark, Carroll and Tuscarawas counties)."
+    },
+    {
+      "name": "Issue 7 — Massillon City School District renewal levy (4.9 mills, 5 years)",
+      "scope": "school",
+      "area": "Massillon City School District",
+      "ballotLanguage": "Renewal, 4.9 mills, current expenses, 5 years, commencing in 2027."
+    },
+    {
+      "name": "Issue 8 — Alliance City School District renewal levy (2 mills, 5 years)",
+      "scope": "school",
+      "area": "Alliance City School District",
+      "ballotLanguage": "Renewal, 2 mills, general permanent improvements, 5 years, commencing in 2027 (Stark, Columbiana and Mahoning counties)."
+    },
+    {
+      "name": "Issue 9 — Stark Area Regional Transit Authority (SARTA) continuation of sales and use tax (0.25%, 10 years)",
+      "scope": "county",
+      "area": null,
+      "ballotLanguage": "Continuation of sales and use tax, 0.25%, all transit purposes, 10 years."
+    },
+    {
+      "name": "Issue 10 — Village of East Sparta renewal current expense levy (6.5 mills, 5 years)",
+      "scope": "city",
+      "area": "East Sparta",
+      "ballotLanguage": "Renewal, 6.5 mills, current expenses, 5 years, commencing in 2026."
+    },
+    {
+      "name": "Issue 11 — Village of East Sparta renewal police levy (3 mills, 5 years)",
+      "scope": "city",
+      "area": "East Sparta",
+      "ballotLanguage": "Renewal, 3 mills, police, 5 years, commencing in 2026."
+    },
+    {
+      "name": "Issue 12 — Local liquor option, Alliance 1-B (Mom's Drive Thru, Sunday sales)",
+      "scope": "city",
+      "area": "Alliance",
+      "ballotLanguage": "Sunday sales, wine and mixed beverages, Hanny Rahi, L.L.C., dba Mom's Drive Thru, 840 Diehl Court, Alliance, Ohio 44601 (precinct Alliance 1-B)."
+    },
+    {
+      "name": "Issue 13 — Village of Beach City additional road levy (5 mills, 5 years)",
+      "scope": "city",
+      "area": "Beach City",
+      "ballotLanguage": "Additional, 5 mills, road levy, 5 years, commencing in 2026."
+    },
+    {
+      "name": "Issue 14 — Local liquor option, Lake Township A (Hartville Mini Mart, wine and mixed beverages)",
+      "scope": "township",
+      "area": "Lake",
+      "ballotLanguage": "Sale of wine and mixed beverages, CNEPAL, L.L.C., dba Hartville Mini Mart, 260 S. Prospect Avenue, Hartville, Ohio 44632 (precinct Lake Twp. A)."
+    },
+    {
+      "name": "Issue 15 — Local liquor option, Lake Township A (Hartville Mini Mart, beer)",
+      "scope": "township",
+      "area": "Lake",
+      "ballotLanguage": "Sale of beer, CNEPAL, L.L.C., dba Hartville Mini Mart, 260 S. Prospect Avenue, Hartville, Ohio 44632 (precinct Lake Twp. A)."
+    },
+    {
+      "name": "Issue 16 — Local liquor option, Paris Township A (Tipsy Teller Urban Winery, Sunday sales)",
+      "scope": "township",
+      "area": "Paris",
+      "ballotLanguage": "Sunday sales, wine and mixed beverages, Tipsy Farmer Winery LLC, DBA: Tipsy Teller Urban Winery LLC, 123 N. Main Street, Minerva, Ohio 44657 (precinct Paris Twp. A)."
+    },
+    {
+      "name": "Issue 17 — Village of Magnolia renewal police levy (4 mills, 5 years)",
+      "scope": "city",
+      "area": "Magnolia",
+      "ballotLanguage": "Renewal, 4 mills, police levy, 5 years, commencing in 2027 (Stark and Carroll counties)."
+    },
+    {
+      "name": "Issue 18 — Village of Navarre additional income tax (0.25%, police)",
+      "scope": "city",
+      "area": "Navarre",
+      "ballotLanguage": "Additional 1/4% (0.25%) income tax, for police purposes."
+    },
+    {
+      "name": "Issue 19 — Village of Wilmot additional income tax (0.25%, general operations and capital improvements)",
+      "scope": "city",
+      "area": "Wilmot",
+      "ballotLanguage": "Additional 1/4% (0.25%) income tax, for general use of operations, maintenance, new equipment, extension, enlargement of village services and facilities and capital improvements."
+    },
+    {
+      "name": "Issue 20 — Local liquor option, Canal Fulton B (Dragonfly Tea Room & Gift Shop, Sunday sales)",
+      "scope": "city",
+      "area": "Canal Fulton",
+      "ballotLanguage": "Sunday sales, beer, wine and mixed beverages, Dragonfly Tea Room & Gift Shop, LLC, 215 Market St. W, Canal Fulton, Ohio 44614 (precinct Canal Fulton B)."
+    },
+    {
+      "name": "Issue 21 — Local liquor option, Massillon 5-B (9th St Event Center, Sunday sales)",
+      "scope": "city",
+      "area": "Massillon",
+      "ballotLanguage": "Sunday sales, wine and mixed beverages and spirituous liquor, Lamoore Enterprises Inc, DBA 9th St Event Center, 1008 9th St. SW, 1st Fl Unit C only, Massillon, Ohio 44647 (precinct Massillon 5-B)."
+    },
+    {
+      "name": "Issue 22 — Pike Township Fire District renewal fire levy (1 mill, 5 years)",
+      "scope": "township",
+      "area": "Pike",
+      "ballotLanguage": "Renewal, 1 mill, fire levy, 5 years, commencing in 2027."
+    },
+    {
+      "name": "Issue 23 — Nimishillen Township additional fire levy (3 mills, 5 years)",
+      "scope": "township",
+      "area": "Nimishillen",
+      "ballotLanguage": "Additional, 3 mills, fire levy, 5 years, commencing in 2027."
+    },
+    {
+      "name": "Issue 24 — Lake Township Fire District additional fire levy (2.75 mills, 5 years)",
+      "scope": "township",
+      "area": "Lake",
+      "ballotLanguage": "Additional, 2.75 mills, fire levy, 5 years, commencing in 2026."
+    },
+    {
+      "name": "Issue 25 — Lawrence Township Fire District renewal fire levy (0.5 mill, 5 years)",
+      "scope": "township",
+      "area": "Lawrence",
+      "ballotLanguage": "Renewal, 0.5 mill, fire levy, 5 years, commencing in 2027."
+    },
+    {
+      "name": "Issue 26 — Plain Township Road District renewal road levy (1.5 mills, 5 years)",
+      "scope": "township",
+      "area": "Plain",
+      "ballotLanguage": "Renewal, 1.5 mills, road levy, 5 years, commencing in 2027."
+    },
+    {
+      "name": "Issue 27 — Marlboro Township renewal road levy (2 mills, 5 years)",
+      "scope": "township",
+      "area": "Marlboro",
+      "ballotLanguage": "Renewal, 2 mills, road levy, 5 years, commencing in 2027."
+    },
+    {
+      "name": "Issue 28 — Paris Township Road District Number One additional road levy (2 mills, 5 years)",
+      "scope": "township",
+      "area": "Paris",
+      "ballotLanguage": "Additional, 2 mills, road levy, 5 years, commencing in 2026."
+    },
+    {
+      "name": "Issue 29 — Lexington Township additional road levy (1.5 mills, 5 years)",
+      "scope": "township",
+      "area": "Lexington",
+      "ballotLanguage": "Additional, 1.5 mills, road levy, 5 years, commencing in 2027."
+    },
+    {
+      "name": "Issue 30 — Perry Township renewal road levy (2 mills, 5 years)",
+      "scope": "township",
+      "area": "Perry",
+      "ballotLanguage": "Renewal, 2 mills, road levy, 5 years, commencing in 2026."
+    },
+    {
+      "name": "Issue 31 — Local liquor option, Lake Township 10 (The Cedar Room, beer, wine and mixed beverages)",
+      "scope": "township",
+      "area": "Lake",
+      "ballotLanguage": "Sale of beer, wine and mixed beverages, The Boyd Wholesale Group, LLC d/b/a The Cedar Room, 13069 Cleveland Ave., Uniontown, Ohio 44685 (precinct Lake Twp. 10)."
+    }
+  ]
+}

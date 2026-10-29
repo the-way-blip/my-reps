@@ -1,0 +1,280 @@
+{
+  "county": "Lucas",
+  "found": true,
+  "partial": true,
+  "sources": [
+    "https://www.lucascountyohiovotes.gov/current_election/index.php",
+    "https://theballotbrief.com/state/ohio/lucas-county",
+    "https://www.toledoblade.com/local/politics/2026/09/09/lucas-county-board-elections-approves-12-issues-november-ballot/stories/20260909119",
+    "https://irp.cdn-website.com/d7003120/files/uploaded/November+2026+General+Election+Slate+Card+Updated.pdf",
+    "https://bluevoterguide.org/district/OH/Lucas_County_Court_of_Common_Pleas,_Ohio/46892/777",
+    "https://bluevoterguide.org/endorser-org/Lucas_County_(OH)_Democratic_Party/OH/7321",
+    "https://www.northwestsignal.net/news/article_3100d019-0d6c-41ef-8346-0f50fe1d806e.html",
+    "https://www.13abc.com/2026/07/14/toledo-lucas-county-public-library-continues-see-impact-state-funding-cut/"
+  ],
+  "notes": "The Lucas County Board of Elections site (lucascountyohiovotes.gov; co.lucas.oh.us/boe now 404) is behind a Cloudflare 'Performing security verification' check that never cleared for curl, WebFetch or the built-in browser (no CAPTCHA was attempted), and the Wayback Machine was unreachable, so the board's certified candidate list and '2026 November General Issue List' could not be read directly. Fallbacks: (1) The Ballot Brief's Lucas County page and its 26 per-question pages, which cite and number from the board's issue list; (2) The Blade, Sept. 9, 2026 ('Board of elections approves 13 issues for the November ballot'), which states 27 local issues are on the ballot and lists the Sept. 9 batch including two local options not in the Ballot Brief; (3) Lucas County Republican Party Nov 3, 2026 slate card (confirms Brown, Munn, Agnew, Goulding, Kamm, McGowan) and Blue Voter Guide/Lucas County Democratic Party endorsements (confirm Sobecki, Moline, English, Stoner, Puffenberger; judicial term dates from Blue Voter Guide). Issue numbers 4-30 account for all 27 local issues (Issues 1-3 are statewide numbering); numbers 11 and 12 are therefore the two local options, but which is which is not confirmed. The Ballot Brief also lists a 'Lucas County 9-1-1 System Levy (0.8 mill)' as a November question; that levy was on the May 5, 2026 primary ballot and passed (commissioners adopted the final resolution June 2, 2026), and The Blade's 27-issue count has no room for it, so it is omitted. Nedal Adya is a certified WRITE-IN candidate for Domestic Relations judge (Blue Voter Guide), so only Lisa D. McGowan appears on the ballot. Maumee City Council: one unexpired seat (the seat Andrew Huyghe was appointed to on 1/5/2026, term through 12/31/2029); seat count and candidates from the Ballot Brief citing the certified list. Ballot language is paraphrased from summaries, not the certified text; terms (years) are mostly unavailable. Sixth District Court of Appeals (Goulding; Duhart v. Kamm), U.S. House 9, State Senate 11, State Reps 41-44 and State Issue 3 are omitted per RULES.md.",
+  "races": [
+    {
+      "office": "County Commissioner (Term Commencing 1-1-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Laura Brown",
+          "party": "republican"
+        },
+        {
+          "name": "Brenden Johnson",
+          "party": "libertarian"
+        },
+        {
+          "name": "Lisa A. Sobecki",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Auditor",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Katie Moline",
+          "party": "democratic"
+        },
+        {
+          "name": "Carolyn Munn",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Term Commencing 2-9-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ian B. English",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Domestic Relations Division (Term Commencing 1-1-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lisa D. McGowan",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Juvenile Division (Term Commencing 1-2-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Amy E. Stoner",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Probate Division (Term Commencing 2-9-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jaime Agnew",
+          "party": null
+        },
+        {
+          "name": "Tom Puffenberger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Member of Council (Unexpired Term Ending 12-31-2029)",
+      "scope": "city",
+      "area": "Maumee",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Philip A. Leinbach",
+          "party": null
+        },
+        {
+          "name": "John A. Scott",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "name": "Issue 4 — Evergreen Local School District income tax renewal (0.25%)",
+      "scope": "school",
+      "area": "Evergreen Local School District",
+      "ballotLanguage": "Renewal of the Evergreen Local School District's 0.25% school district income tax (district spans Fulton and Lucas counties; the current 0.25% tax expires 12/31/2027). The Blade's Sept. 9 report printed the rate as 1.25 percent; the district and Fulton County coverage give 0.25%."
+    },
+    {
+      "name": "Issue 5 — Maumee City School District income tax (1.25%)",
+      "scope": "school",
+      "area": "Maumee City School District",
+      "ballotLanguage": "A 1.25% school district income tax for Maumee City School District."
+    },
+    {
+      "name": "Issue 6 — Springfield Local School District income tax (0.50%)",
+      "scope": "school",
+      "area": "Springfield Local School District",
+      "ballotLanguage": "A 0.50% school district income tax for Springfield Local School District."
+    },
+    {
+      "name": "Issue 7 — Sylvania City School District income tax (1%) with 3.2-mill property tax reduction",
+      "scope": "school",
+      "area": "Sylvania City School District",
+      "ballotLanguage": "A 1% school district income tax for Sylvania City School District combined with a 3.2-mill reduction in the district's existing property tax."
+    },
+    {
+      "name": "Issue 8 — Toledo-Lucas County Public Library additional levy (3 mills, 5 years)",
+      "scope": "county",
+      "area": null,
+      "ballotLanguage": "An additional property tax levy of 3 mills for the Toledo Lucas County Public Library (countywide library district), for 5 years."
+    },
+    {
+      "name": "Issue 9 — Toledo City School District additional levy (6.9 mills)",
+      "scope": "school",
+      "area": "Toledo City School District",
+      "ballotLanguage": "An additional property tax levy of 6.9 mills for Toledo Public Schools (Toledo City School District) operating expenses."
+    },
+    {
+      "name": "Issue 10 — Swanton Public Library renewal levy (1 mill)",
+      "scope": "township",
+      "area": "Swanton",
+      "ballotLanguage": "A renewal property tax levy of 1 mill for the Swanton Public Library (library district spanning Fulton and Lucas counties; Lucas County portion is the Swanton area)."
+    },
+    {
+      "name": "Issue 11/12 — Springfield Township local option (Sunday sales)",
+      "scope": "township",
+      "area": "Springfield",
+      "ballotLanguage": "Local option on Sunday sales of intoxicating liquor in Springfield Township (one precinct; the board's issue number — 11 or 12 — and the precinct/permit holder were not available from the sources reached)."
+    },
+    {
+      "name": "Issue 11/12 — City of Waterville local option (Buffalo Wild Wings, Sunday sales)",
+      "scope": "city",
+      "area": "Waterville",
+      "ballotLanguage": "Local option on Sunday sales of intoxicating liquor for Buffalo Wild Wings in the City of Waterville (one precinct; the board's issue number — 11 or 12 — was not available from the sources reached)."
+    },
+    {
+      "name": "Issue 13 — Lucas County Imagination Station renewal levy (0.17 mill)",
+      "scope": "county",
+      "area": null,
+      "ballotLanguage": "A renewal of a 0.17 mill property tax levy for the benefit of the County of Lucas for Imagination Station."
+    },
+    {
+      "name": "Issue 14 — City of Sylvania Resource Conservation and Equal Access Ordinance",
+      "scope": "city",
+      "area": "Sylvania",
+      "ballotLanguage": "A proposed (initiative) ordinance for the City of Sylvania on resource conservation and equal access."
+    },
+    {
+      "name": "Issue 15 — City of Oregon senior citizens additional levy (0.5 mill)",
+      "scope": "city",
+      "area": "Oregon",
+      "ballotLanguage": "An additional property tax levy of 0.5 mill for senior citizens services in the City of Oregon."
+    },
+    {
+      "name": "Issue 16 — City of Toledo temporary income tax (0.25%)",
+      "scope": "city",
+      "area": "Toledo",
+      "ballotLanguage": "A temporary 0.25% municipal income tax for the City of Toledo."
+    },
+    {
+      "name": "Issue 17 — City of Toledo charter amendment (Ordinance 302-26)",
+      "scope": "city",
+      "area": "Toledo",
+      "ballotLanguage": "Proposed amendment to the Charter of the City of Toledo submitted by Ordinance 302-26."
+    },
+    {
+      "name": "Issue 18 — City of Toledo charter amendment (Ordinance 304-26)",
+      "scope": "city",
+      "area": "Toledo",
+      "ballotLanguage": "Proposed amendment to the Charter of the City of Toledo submitted by Ordinance 304-26."
+    },
+    {
+      "name": "Issue 19 — City of Toledo charter amendment (Ordinance 305-26)",
+      "scope": "city",
+      "area": "Toledo",
+      "ballotLanguage": "Proposed amendment to the Charter of the City of Toledo submitted by Ordinance 305-26. (Per The Blade, one of the three Toledo amendments would allow City Council to determine the terms of employment for officers and employees, including hiring, discipline and termination.)"
+    },
+    {
+      "name": "Issue 20 — City of Maumee charter amendment (Article VIII, Sections 2 and 3)",
+      "scope": "city",
+      "area": "Maumee",
+      "ballotLanguage": "Proposed amendment to Article VIII, Sections 2 and 3 of the Charter of the City of Maumee."
+    },
+    {
+      "name": "Issue 21 — City of Maumee charter amendment (Article XIII, Section 5)",
+      "scope": "city",
+      "area": "Maumee",
+      "ballotLanguage": "Proposed amendment to Article XIII, Section 5 of the Charter of the City of Maumee."
+    },
+    {
+      "name": "Issue 22 — City of Maumee charter amendment (Article IX, Section 3)",
+      "scope": "city",
+      "area": "Maumee",
+      "ballotLanguage": "Proposed amendment to Article IX, Section 3 of the Charter of the City of Maumee. (Per The Blade, one of the Maumee amendments would add a recall mechanism allowing citizens to remove elected officials from office.)"
+    },
+    {
+      "name": "Issue 23 — Village of Berkey 911 operating expenses renewal levy (3 mills)",
+      "scope": "city",
+      "area": "Berkey",
+      "ballotLanguage": "A renewal property tax levy of 3 mills for 911 operating expenses in the Village of Berkey."
+    },
+    {
+      "name": "Issue 24 — Village of Berkey operating expenses renewal levy (3 mills)",
+      "scope": "city",
+      "area": "Berkey",
+      "ballotLanguage": "A renewal property tax levy of 3 mills for operating expenses in the Village of Berkey."
+    },
+    {
+      "name": "Issue 25 — City of Oregon charter amendment (Article XIII, Section 8, data centers)",
+      "scope": "city",
+      "area": "Oregon",
+      "ballotLanguage": "Proposed amendment to Article XIII, Section 8 of the Charter of the City of Oregon, which would limit the size of data centers allowed in the city to 25 megawatts of power."
+    },
+    {
+      "name": "Issue 26 — City of Oregon charter amendment (Article VIII, Section 2, nonpartisan primaries)",
+      "scope": "city",
+      "area": "Oregon",
+      "ballotLanguage": "Proposed amendment to Article VIII, Section 2 of the Charter of the City of Oregon regarding the timing of nonpartisan primaries."
+    },
+    {
+      "name": "Issue 27 — City of Oregon charter amendment (Article VIII, Section 3, nominations by petition)",
+      "scope": "city",
+      "area": "Oregon",
+      "ballotLanguage": "Proposed amendment to Article VIII, Section 3 of the Charter of the City of Oregon providing that nominations for elective office can be made only by petition filed with election authorities 90 days prior to the date of holding a primary election."
+    },
+    {
+      "name": "Issue 28 — Springfield Township fire and EMS renewal levy (1.8 mills)",
+      "scope": "township",
+      "area": "Springfield",
+      "ballotLanguage": "A renewal property tax levy of 1.8 mills for fire and emergency medical services in Springfield Township."
+    },
+    {
+      "name": "Issue 29 — Washington Township police additional levy (3.25 mills)",
+      "scope": "township",
+      "area": "Washington",
+      "ballotLanguage": "An additional property tax levy of 3.25 mills for police services in Washington Township."
+    },
+    {
+      "name": "Issue 30 — Monclova Township limited home rule government",
+      "scope": "township",
+      "area": "Monclova",
+      "ballotLanguage": "Shall Monclova Township adopt a limited home rule government?"
+    }
+  ]
+}

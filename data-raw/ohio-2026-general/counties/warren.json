@@ -1,0 +1,93 @@
+{
+  "county": "Warren",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://vote.warrencountyohio.gov/doc/Voting/46_Day_notice_for_November_3_2026.pdf",
+    "https://vote.warrencountyohio.gov/doc/Voting/100_Day_notice_for_November_3_2026.pdf",
+    "https://vote.warrencountyohio.gov/CandIssues/UpcomingIssues/Index",
+    "https://vote.warrencountyohio.gov/doc/CandIssues/Elections/20261103/Issues/04_Franklin_Schools_1.25_percent_Income_Tax_5_yrs.pdf",
+    "https://vote.warrencountyohio.gov/doc/CandIssues/Elections/20261103/Issues/05_Lebanon_Schools_Income_Tax_1_percent_10_yrs.pdf",
+    "https://vote.warrencountyohio.gov/doc/CandIssues/Elections/20261103/Issues/06_Mental_Health_Recovery_Board_Ren_1_Mil_5_yrs.pdf",
+    "https://vote.warrencountyohio.gov/doc/CandIssues/Elections/20261103/Issues/07_Warren_County_Senior_Services_Ren_1.21_mills_5_Yrs.pdf",
+    "https://vote.warrencountyohio.gov/doc/CandIssues/Elections/20261103/Issues/08_Franklin_Twp_Senior_Ren_.25_mil_5_yrs.pdf",
+    "https://vote.warrencountyohio.gov/doc/CandIssues/Elections/20261103/Issues/09_Turtlecreek_Twp_Fire_Add_4.5_mills_CPT.pdf",
+    "https://vote.warrencountyohio.gov/doc/CandIssues/List_of_Offices.pdf",
+    "https://vote.warrencountyohio.gov/doc/CandIssues/Certified_Write_In_List.pdf"
+  ],
+  "notes": "Candidates taken from the board's 46 Day Notice (FWAB election notice, revised 10/15/2026), cross-checked against the 100 Day Notice and the board's List of Offices. The board's interactive certified candidate list (lookup.boe.ohio.gov/vtrapp/warren/cfis.aspx) sits behind a Cloudflare security check that was not bypassed. No municipal, township or school-board candidate races appear on this county's Nov 3, 2026 ballot (only county offices below the statewide/legislative/appellate contests). Judges: Ohio common pleas judges appear on the general-election ballot without a party label, so party is null; the board's notice tags Loxley and Kirby as the Republican nominees. Issue numbering follows the board's Upcoming Issues page (Issue 3 is the statewide amendment and is excluded). Issue 4 (Franklin City Schools income tax) is on the board's Upcoming Issues page with full ballot text but is not repeated in the 46 Day Notice's issue summary; included because the board publishes it as a Nov 3, 2026 ballot issue. Ballot language for every issue is verbatim from the board's issue PDFs. No local liquor options are listed by the board for this election. Precinct coverage per the 46 Day Notice: Issue 8 = Franklin City A-I, Springboro City 3A, Carlisle Village 1A-3A (Franklin Township excluding the City of Middletown); Issue 5 = Lebanon City A-N, Mason City A&B, Clearcreek Twp H-I/K-M, South Lebanon B, Turtlecreek Twp A-K, Union Twp A-B, Washington Twp A, Wayne Twp C; Issue 9 = Lebanon City E, Turtlecreek Twp A-K.",
+  "races": [
+    {
+      "office": "County Commissioner (Full 4 Year Term Commencing 01/01/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        { "name": "Ian Logan", "party": "democratic" },
+        { "name": "Katherine Bowles", "party": "libertarian" },
+        { "name": "Tom Grossmann", "party": "republican" }
+      ]
+    },
+    {
+      "office": "County Auditor (Full 4 Year Term Commencing 03/08/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        { "name": "Matt Nolan", "party": "republican" }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas (General Division) (Full 6 Year Term Commencing 02/08/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        { "name": "Gary A. Loxley", "party": null }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas (Probate & Juvenile Division) (Full 6 Year Term Commencing 02/01/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        { "name": "Joseph W. Kirby", "party": null }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "name": "Issue 4 — Franklin City School District proposed income tax (1.25%, 5 years, current expenses)",
+      "scope": "school",
+      "area": "Franklin City School District",
+      "ballotLanguage": "Shall an annual income tax of 1.25 per cent on the earned income of individuals residing in the school district be imposed by Franklin City School District, for 5 years, beginning January 1, 2027, for the purpose of current expenses? FOR THE TAX / AGAINST THE TAX"
+    },
+    {
+      "name": "Issue 5 — Lebanon City School District proposed income tax (1%, 10 years, current expenses)",
+      "scope": "school",
+      "area": "Lebanon City School District",
+      "ballotLanguage": "Shall an annual income tax of 1 per cent on the earned income of individuals residing in the school district be imposed by Lebanon City School District, for 10 years, beginning January 1, 2027, for the purpose of current expenses? FOR THE TAX / AGAINST THE TAX"
+    },
+    {
+      "name": "Issue 6 — Mental Health Recovery Board Serving Warren and Clinton Counties renewal levy (1 mill, 5 years)",
+      "scope": "county",
+      "area": null,
+      "ballotLanguage": "A renewal of a tax for the benefit of Mental Health Recovery Board Serving Warren and Clinton Counties for the purpose of current expenses, that the county auditor estimates will collect $7,677,198 annually, at a rate not exceeding 1 mill for each $1 of taxable value, which amounts to $16 for each $100,000 of the county auditor's market value, for 5 years, commencing in 2027, first due in calendar year 2028. FOR THE TAX LEVY / AGAINST THE TAX LEVY"
+    },
+    {
+      "name": "Issue 7 — Warren County senior citizens services renewal levy (1.21 mills, 5 years)",
+      "scope": "county",
+      "area": null,
+      "ballotLanguage": "A renewal of a tax for the benefit of Warren County for the purpose of providing or maintaining senior citizens services, that the county auditor estimates will collect $9,016,446 annually, at a rate not exceeding 1.21 mills for each $1 of taxable value, which amounts to $22 for each $100,000 of the county auditor's market value, for 5 years, commencing in 2026, first due in calendar year 2027. FOR THE TAX LEVY / AGAINST THE TAX LEVY"
+    },
+    {
+      "name": "Issue 8 — Franklin Township (excluding the City of Middletown) senior services renewal levy (0.25 mill, 5 years)",
+      "scope": "township",
+      "area": "Franklin",
+      "ballotLanguage": "A renewal of a tax for the benefit of Township of Franklin (Excluding the City of Middletown) for the purpose of providing or maintaining senior services or facilities, that the county auditor estimates will collect $143,801 annually, at a rate not exceeding .250 mill for each $1 of taxable value, which amounts to $5.00 for each $100,000 of the county auditor's market value, for 5 years, commencing in 2027, first due in calendar year 2028. FOR THE TAX LEVY / AGAINST THE TAX LEVY"
+    },
+    {
+      "name": "Issue 9 — Turtlecreek Township fire/EMS additional levy (4.5 mills, continuing period of time)",
+      "scope": "township",
+      "area": "Turtlecreek",
+      "ballotLanguage": "An additional tax for the benefit of Township of Turtlecreek for the purpose of providing and maintaining fire apparatus, mechanical resuscitators, underwater rescue and recovery equipment, or other fire equipment and appliances, buildings and sites therefor, or sources of water supply and materials therefor, for the establishment and maintenance of lines of fire-alarm communications, for the payment of firefighting companies or permanent, part-time, or volunteer firefighting, emergency medical service, administrative, or communications personnel to operate the same, including the payment of any employer contributions required for such personnel under Section 145.48 or 742.34 of the Revised Code, for the purchase of ambulance equipment, for the provision of ambulance, paramedic, or other emergency medical services operated by a fire department or firefighting company, or for the payment of other related costs that the county auditor estimates will collect $3,592,748 annually, at a rate not exceeding 4.5 mills for each $1 of taxable value, which amounts to $158 for each $100,000 of the county auditor's market value, for a continuing period of time, commencing in 2026, first due in calendar year 2027. FOR THE TAX LEVY / AGAINST THE TAX LEVY"
+    }
+  ]
+}

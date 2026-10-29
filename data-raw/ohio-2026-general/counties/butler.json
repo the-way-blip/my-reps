@@ -1,0 +1,197 @@
+{
+  "county": "Butler",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://elections.bcohio.gov/2026/November/PetitionActivityReport.pdf",
+    "https://cms2.revize.com/revize/butlercountyboe/2026/November/FWAB%2046%20day.pdf",
+    "https://elections.bcohio.gov/2026/November/NovemberBallotList.pdf",
+    "https://elections.bcohio.gov/2026/November/Writeincandidates.pdf"
+  ],
+  "notes": "Source: Butler County BOE 'Candidate & Petition Activity' report dated 10/6/2026 (all county candidates marked certified (C) 08-20-2026; issues certified 08-17-2026, Issue 17 certified 09-09-2026) cross-checked against the board's FWAB 46-day election notice dated 10/2/2026. No municipal, township or school-board candidate races appear on the Nov 3, 2026 ballot (Ohio elects those in odd years); only county offices and county judgeships are listed. The 'Withdrawn 9/16/2026' note on page 3 of the petition report refers to a 12th District Court of Appeals write-in candidate, not to the County Auditor race (both Auditor candidates appear on the FWAB notice). Common Pleas judges appear on the ballot without party (board lists them as (N)); the board's petition report does not say 'General Division' but its FWAB notice does, so 'General Division' is included in the office name. Butler publishes no ballot text for issues beyond the title/mills/term lines in the petition report and FWAB notice, so ballotLanguage is a one-sentence description built from those. Issues 4, 5 and 9 are filed with Hamilton County (Northwest and Southwest Local SDs) and Preble County (Village of College Corner) but appear on Butler ballots in the overlapping precincts under Butler's numbering. Issue 3 (state constitutional amendment) is omitted per RULES. Local liquor options: Issue 15 precinct MIDD2WD3 is in the City of Middletown; Issue 16 precinct WC39 is in West Chester Township. No write-in-only county races (write-in filings are only for Governor, U.S. Senate and 12th District Court of Appeals).",
+  "races": [
+    {
+      "office": "County Commissioner",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mike Miller",
+          "party": "democratic"
+        },
+        {
+          "name": "Michael V. Ryan",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Auditor",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Amy Hines",
+          "party": "democratic"
+        },
+        {
+          "name": "Nancy Nix",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 1-1-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jennifer McElfresh",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 1-3-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Daniel Haughey",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, General Division (Full Term Commencing 2-9-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael A. Oster, Jr.",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Juvenile Division (Full Term Commencing 1-2-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Erik D. Niehaus",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Probate Division (Full Term Commencing 2-9-2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John M. Holcomb",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "name": "Issue 1 — Fairfield City School District earnings tax (1.25%, 5 years)",
+      "scope": "school",
+      "area": "Fairfield City School District",
+      "ballotLanguage": "Proposed school district income (earnings) tax of 1.25% for 5 years for current expenses of the Fairfield City School District."
+    },
+    {
+      "name": "Issue 2 — Lakota Local School District bond issue ($223,483,492, 37 years)",
+      "scope": "school",
+      "area": "Lakota Local School District",
+      "ballotLanguage": "Proposed bond issue of $223,483,492 for school facilities, to be repaid over a maximum of 37 years, for the Lakota Local School District."
+    },
+    {
+      "name": "Issue 4 — Northwest Local School District earnings tax (1.5%, continuing)",
+      "scope": "school",
+      "area": "Northwest Local School District",
+      "ballotLanguage": "Proposed school district income (earnings) tax of 1.5% for a continuing period of time for current expenses of the Northwest Local School District (filed with Hamilton County)."
+    },
+    {
+      "name": "Issue 5 — Southwest Local School District earnings tax (0.25%, continuing)",
+      "scope": "school",
+      "area": "Southwest Local School District",
+      "ballotLanguage": "Proposed school district income (earnings) tax of 0.25% for a continuing period of time for current expenses of the Southwest Local School District (filed with Hamilton County)."
+    },
+    {
+      "name": "Issue 6 — Butler County renewal mental health levy (1 mill, 10 years)",
+      "scope": "county",
+      "area": null,
+      "ballotLanguage": "Proposed renewal of a 1-mill tax levy for 10 years for mental health services in Butler County."
+    },
+    {
+      "name": "Issue 7 — City of Oxford charter amendments (Sections 2.12, 3.05, 4.01, 4.02(7), 9.07 and 10.01)",
+      "scope": "city",
+      "area": "Oxford",
+      "ballotLanguage": "Proposed amendments to the Charter of the City of Oxford, Sections 2.12, 3.05, 4.01, 4.02(7), 9.07 and 10.01."
+    },
+    {
+      "name": "Issue 8 — City of Oxford charter amendment (Section 2.11(4))",
+      "scope": "city",
+      "area": "Oxford",
+      "ballotLanguage": "Proposed amendment to the Charter of the City of Oxford, Section 2.11(4)."
+    },
+    {
+      "name": "Issue 9 — Village of College Corner renewal fire levy (5.2 mills, 5 years)",
+      "scope": "city",
+      "area": "College Corner",
+      "ballotLanguage": "Proposed renewal of a 5.2-mill tax levy for 5 years for fire protection in the Village of College Corner (filed with Preble County)."
+    },
+    {
+      "name": "Issue 10 — Village of New Miami additional police levy (5 mills, 5 years)",
+      "scope": "city",
+      "area": "New Miami",
+      "ballotLanguage": "Proposed additional 5-mill tax levy for 5 years for police protection in the Village of New Miami."
+    },
+    {
+      "name": "Issue 11 — Village of New Miami additional fire levy (3 mills, continuing)",
+      "scope": "city",
+      "area": "New Miami",
+      "ballotLanguage": "Proposed additional 3-mill tax levy for a continuing period of time for fire protection in the Village of New Miami."
+    },
+    {
+      "name": "Issue 12 — Fairfield Township Police District additional levy (2.99 mills, continuing)",
+      "scope": "township",
+      "area": "Fairfield",
+      "ballotLanguage": "Proposed additional 2.99-mill tax levy for a continuing period of time for police protection in the Fairfield Township Police District."
+    },
+    {
+      "name": "Issue 13 — Hanover Township Fire District additional levy (3.5 mills, 5 years)",
+      "scope": "township",
+      "area": "Hanover",
+      "ballotLanguage": "Proposed additional 3.5-mill tax levy for 5 years for fire protection in the Hanover Township Fire District."
+    },
+    {
+      "name": "Issue 14 — Madison Township Fire District renewal fire & EMS levy (3 mills, 5 years)",
+      "scope": "township",
+      "area": "Madison",
+      "ballotLanguage": "Proposed renewal of a 3-mill tax levy for 5 years for fire and emergency medical services in the Madison Township Fire District."
+    },
+    {
+      "name": "Issue 15 — Local liquor option, Middletown precinct MIDD2WD3 (Broken Barrel Bar & Grill, Sunday sales)",
+      "scope": "city",
+      "area": "Middletown",
+      "ballotLanguage": "Shall the sale of intoxicating liquor be permitted on Sunday by Broken Barrel Bar & Grill in precinct MIDD2WD3 (Middletown Ward 2, Precinct 3)?"
+    },
+    {
+      "name": "Issue 16 — Local liquor option, West Chester Township precinct WC39 (Wawa 7229, Sunday sales)",
+      "scope": "township",
+      "area": "West Chester",
+      "ballotLanguage": "Shall the sale of intoxicating liquor be permitted on Sunday by Wawa 7229 in precinct WC39 (West Chester Township)?"
+    },
+    {
+      "name": "Issue 17 — City of Trenton charter amendment (Article IX, Section 9.06, Prohibition of Construction of a Data Center)",
+      "scope": "city",
+      "area": "Trenton",
+      "ballotLanguage": "Proposed amendment to the Charter of the City of Trenton adding Article IX, Section 9.06, \"Prohibition of Construction of a Data Center\"."
+    }
+  ]
+}

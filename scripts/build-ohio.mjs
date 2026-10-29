@@ -1,8 +1,9 @@
 // Ohio Nov 3, 2026 general-election ballot data in the shared multi-state schema (see src/data/stateBallot.js).
 // Phase one: every contest the Secretary of State runs statewide — Governor and other statewide offices,
 // Supreme Court, U.S. Senate, U.S. House, Ohio Senate and House, Court of Appeals — plus State Issue 3.
-// County offices and local issues are run by the 88 county boards of elections and aren't included yet
-// (localComplete: false, so the ballot page points voters to their county board's sample ballot).
+// County offices and local issues come from each county board of elections where we've collected them
+// (data-raw/ohio-2026-general/counties/<slug>.json, see RULES.md there); other counties get localComplete: false,
+// so the ballot page points those voters to their county board's sample ballot.
 // Inputs (data-raw/ohio-2026-general/):
 //   contests.json   parsed from the SOS election-night results workbook (all contests + candidates, 0 votes)
 //   issue-3.json    Ohio Ballot Board certified ballot language for State Issue 3
@@ -105,12 +106,49 @@ const generatedAt = new Date().toISOString()
 writeFileSync(path.join(OUT, '_statewide.json'), JSON.stringify({ state: 'OH', source: src.source, sourceWriteTime: generatedAt, generatedAt, races }))
 
 const issue = { id: 'oh-state-issue-3', name: `State Issue 3 — ${issue3.title.replace(/^./, s => s.toUpperCase())}`, type: 'Ratification Of State Constitutional Amendment', statewide: true, ballotLanguage: issue3.ballotLanguage }
+// ── county boards of elections: county offices, municipal/township/school races, local issues ──
+const COUNTY_DIR = path.join(RAW, 'counties')
+const LEVEL = { county: 'County', city: 'City', township: 'Township', school: 'School' }
+const PARTY_WORD = { republican: 'republican', democratic: 'democratic', libertarian: 'Libertarian', green: 'Green', independent: 'independent' }
+function localFor(county) {
+  const f = path.join(COUNTY_DIR, `${slug(county)}.json`)
+  if (!existsSync(f)) return { found: false, races: [], issues: [], sources: [] }
+  const c = JSON.parse(readFileSync(f, 'utf8'))
+  const races = (c.races || []).filter(r => r.candidates?.length || r.writeInOnly).map((r, i) => {
+    const scope = LEVEL[r.scope] ? r.scope : 'county'
+    const office = scope !== 'county' || new RegExp(`^${county}\\b`).test(r.office) ? r.office
+      : /^County\b/.test(r.office) ? `${county} ${r.office}` : `${county} County ${r.office}`
+    const seats = r.seats || 1
+    // Seats elected by a sub-county district (county council, ward) can't be pinned to an address
+    const maybe = scope === 'county' && /\b(District|Ward)\s+\d+/i.test(r.office)
+    return {
+      id: `oh-${slug(county)}-${slug(r.office)}${r.area ? '-' + slug(r.area) : ''}-${i}`, office, category: r.office, level: LEVEL[scope], scope,
+      ...(r.area ? { area: r.area } : {}), seats, type: r.candidates.some(x => x.party) ? 'partisan' : 'nonpartisan',
+      description: [seats > 1 ? `Vote for up to ${seats}.` : '', r.writeInOnly ? 'Write-in candidates only.' : r.candidates.length === 1 ? 'Unopposed.' : '', maybe ? 'May be on your ballot: only voters in this district vote on this seat. Check your county board of elections\' sample ballot.' : ''].filter(Boolean).join(' '),
+      ...(maybe ? { maybe: true } : {}),
+      ballotOrder: 500 + i,
+      candidates: r.candidates.map(x => ({ name: x.name, party: x.party ? (PARTY_WORD[x.party] || x.party) : null, status: 'candidate' })),
+    }
+  })
+  const issues = (c.issues || []).map((q, i) => ({
+    id: `oh-${slug(county)}-q-${i}`, name: q.name, type: 'Local Public Question', statewide: false,
+    scope: LEVEL[q.scope] ? q.scope : 'county', ...(q.area ? { area: q.area } : {}), ballotLanguage: q.ballotLanguage || '',
+  }))
+  return { found: !!c.found, partial: !!c.partial, races, issues, sources: c.sources || [] }
+}
+
 const index = []
+let withLocal = 0
 for (const county of counties) {
   const district = Object.entries(APPEALS).find(([, cs]) => cs.includes(county))[0]
-  const countyRaces = appeals.filter(x => x.info.district === Number(district)).map(x => race(x.c, x.info, x.i))
-  writeFileSync(path.join(OUT, `${slug(county)}.json`), JSON.stringify({ state: 'OH', county, source: 'Ohio Secretary of State', generatedAt, localComplete: false, races: countyRaces, referendums: [issue] }))
-  index.push({ county, slug: slug(county), appealsDistrict: Number(district), races: countyRaces.length })
+  const local = localFor(county)
+  if (local.found) withLocal++
+  const countyRaces = [...appeals.filter(x => x.info.district === Number(district)).map(x => race(x.c, x.info, x.i)), ...local.races]
+  writeFileSync(path.join(OUT, `${slug(county)}.json`), JSON.stringify({
+    state: 'OH', county, source: local.found ? 'Ohio Secretary of State; county board of elections' : 'Ohio Secretary of State', generatedAt,
+    localComplete: local.found && !local.partial, localSources: local.sources, races: countyRaces, referendums: [issue, ...local.issues],
+  }))
+  index.push({ county, slug: slug(county), appealsDistrict: Number(district), races: countyRaces.length, referendums: 1 + local.issues.length, localFound: local.found })
 }
 writeFileSync(path.join(OUT, '_index.json'), JSON.stringify({ counties: index }, null, 1))
-console.log(`Ohio: ${races.length} statewide/district races (${races.reduce((a, r) => a + r.candidates.length, 0)} candidates, ${graded} graded), ${appeals.length} Court of Appeals races across 12 districts, Issue 3, ${counties.length} counties`)
+console.log(`Ohio: ${withLocal} counties with board-of-elections data; ${races.length} statewide/district races (${races.reduce((a, r) => a + r.candidates.length, 0)} candidates, ${graded} graded), ${appeals.length} Court of Appeals races across 12 districts, Issue 3, ${counties.length} counties`)

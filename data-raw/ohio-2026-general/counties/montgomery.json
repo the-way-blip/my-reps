@@ -1,0 +1,291 @@
+{
+  "county": "Montgomery",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.montgomery.boe.ohio.gov/wp-content/uploads/2023/10/10.16.2026-Candidate-Petition-Report.pdf",
+    "https://www.montgomery.boe.ohio.gov/wp-content/uploads/2021/02/9.11.2026-Issues-List.pdf",
+    "https://www.montgomery.boe.ohio.gov/",
+    "https://www.daytondailynews.com/local/montgomery-county-voters-face-9-tax-issues-in-november-election-2026/article_79bf34b4-b607-5d05-8f38-5776d8cb855e.html"
+  ],
+  "notes": "Primary source: Montgomery County Board of Elections '2026 Montgomery County Candidate Report' (dated Friday, October 16, 2026) and 'November 3, 2026 Ballot Issues' list (dated Friday, September 11, 2026). The board site (mcboe.org redirects to montgomery.boe.ohio.gov) sits behind a Cloudflare check that blocks curl/WebFetch; it cleared on its own in the built-in browser (no CAPTCHA was clicked) and the two PDFs were downloaded from there. Judicial office names are as the board prints them ('Judge of the Court of Common Pleas (1) Term Begins ...'); the board does not label the General Division seats. The board lists judges, the New Lebanon council race and all judicial candidates without party. Statewide offices, U.S. House (10th), State Senate 5, State Reps 36-40, 2nd District Court of Appeals and State Issue 3 are omitted per RULES.md. Local option 'Question 2' = Sunday sales; 'Question 1' = sale of intoxicating liquor (standard Ohio 5-R local-option question numbering; the board list gives only the question number). Dayton Daily News (Aug 5, 2026) corroborates the nine tax issues and reports Jackson Twp levy ~$275,842/yr, Jefferson Twp ~$337,882/yr, DPS ~$14.6M/yr.",
+  "races": [
+    {
+      "office": "County Commissioner (Term Begins 1/1/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Carolyn Rice",
+          "party": "democratic"
+        },
+        {
+          "name": "Margie Christie",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Auditor",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Karl Keith",
+          "party": "democratic"
+        },
+        {
+          "name": "Tammy L. Murphy",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas (Term Begins 1/1/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Susan D. Solle",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas (Term Begins 1/2/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Anne Keeton",
+          "party": null
+        },
+        {
+          "name": "Derek Muncy",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas (Term Begins 1/3/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michele S.H. Henne",
+          "party": null
+        },
+        {
+          "name": "Kelly D. Madzey",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas (Term Begins 7/1/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Abshire",
+          "party": null
+        },
+        {
+          "name": "Richard Glennon",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas (Term Begins 7/2/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Elizabeth A. Ellis",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Probate Division (Term Begins 2/9/2027)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Brannon",
+          "party": null
+        },
+        {
+          "name": "Cassandra A. Rice",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Judge of the Court of Common Pleas, Juvenile Division (Unexpired Term Ending 12/31/2028)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Hope L. Smalls",
+          "party": null
+        },
+        {
+          "name": "Nicholas Sylvain",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Member of Council (Unexpired Term Ending 12/31/2029)",
+      "scope": "city",
+      "area": "New Lebanon",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Nicole Adkins",
+          "party": null
+        },
+        {
+          "name": "Rob Dennis",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "name": "Issue 4 — Dayton City School District additional levy (7 mills, continuing)",
+      "scope": "school",
+      "area": "Dayton City School District",
+      "ballotLanguage": "Additional 7 mill levy; 5 mills for current operating expenses and 2 mills for general permanent improvements, for a continuing period of time, commencing 2026, first due 2027."
+    },
+    {
+      "name": "Issue 5 — Miamisburg City School District income tax (0.50%, continuing)",
+      "scope": "school",
+      "area": "Miamisburg City School District",
+      "ballotLanguage": "Income tax of 0.50% on the school district income of individuals for current expenses, for a continuing period of time, commencing 1/1/2027."
+    },
+    {
+      "name": "Issue 6 — Oakwood City School District renewal levy (1.8 mills, continuing)",
+      "scope": "school",
+      "area": "Oakwood City School District",
+      "ballotLanguage": "Renewal of 1.8 mills for general permanent improvements, for a continuing period of time, commencing 2027, first due 2028."
+    },
+    {
+      "name": "Issue 7 — Northridge Local School District additional levy (2.2 mills, continuing)",
+      "scope": "school",
+      "area": "Northridge Local School District",
+      "ballotLanguage": "Additional 2.2 mill levy for general permanent improvements, for a continuing period of time, commencing 2026, first due 2027."
+    },
+    {
+      "name": "Issue 8 — City of Brookville charter amendment (Preamble, Sections 1, 2 and 3)",
+      "scope": "city",
+      "area": "Brookville",
+      "ballotLanguage": "Proposed charter amendment to amend the Preamble and parts of Sections 1, 2 and 3 of the Brookville City Charter."
+    },
+    {
+      "name": "Issue 9 — City of Brookville charter amendment (Sections 4, 5 and 6)",
+      "scope": "city",
+      "area": "Brookville",
+      "ballotLanguage": "Proposed charter amendment to amend parts of Sections 4, 5 and 6 of the Brookville City Charter."
+    },
+    {
+      "name": "Issue 10 — City of Brookville charter amendment (Sections 7, 8, 9 and 12)",
+      "scope": "city",
+      "area": "Brookville",
+      "ballotLanguage": "Proposed charter amendment to amend parts of Sections 7, 8, 9 and 12 of the Brookville City Charter."
+    },
+    {
+      "name": "Issue 11 — City of Brookville charter amendment (Sections 10 and 11)",
+      "scope": "city",
+      "area": "Brookville",
+      "ballotLanguage": "Proposed charter amendment to amend parts of Sections 10 and 11 of the Brookville City Charter."
+    },
+    {
+      "name": "Issue 12 — City of Dayton local option, precinct DAY 12-C (Shamrock Athletic Club)",
+      "scope": "city",
+      "area": "Dayton",
+      "ballotLanguage": "Local Option-5-R Question 2 (Sunday sales of intoxicating liquor) for Shamrock Athletic Club, 820 Linden Ave, Dayton, Ohio; precinct DAY 12-C only."
+    },
+    {
+      "name": "Issue 13 — City of Dayton local option, precinct DAY 13-A (University of Dayton)",
+      "scope": "city",
+      "area": "Dayton",
+      "ballotLanguage": "Local Option-5-R Question 2 (Sunday sales of intoxicating liquor) for University of Dayton, 1801 Edwin C. Moses Boulevard S., Dayton, Ohio 45469; precinct DAY 13-A only."
+    },
+    {
+      "name": "Issue 14 — City of Huber Heights local option, precinct HUB 1-D (Villa Tavern)",
+      "scope": "city",
+      "area": "Huber Heights",
+      "ballotLanguage": "Local Option-5-R Question 2 (Sunday sales of intoxicating liquor) for CWA Management, L.L.C., dba Villa Tavern, 6303 Rip Rap Road, Huber Heights, Ohio 45424; precinct HUB 1-D only."
+    },
+    {
+      "name": "Issue 15 — City of Kettering charter amendment (Sections 7-3 and 7-5, appeals to Council)",
+      "scope": "city",
+      "area": "Kettering",
+      "ballotLanguage": "Proposed charter amendment to amend Section 7-3 Appeals from the Planning Commission To Council and Section 7-5 Appeals from Board of Zoning Appeals to Council."
+    },
+    {
+      "name": "Issue 16 — City of Kettering charter amendment (gender-specific pronouns)",
+      "scope": "city",
+      "area": "Kettering",
+      "ballotLanguage": "Proposed charter amendment to amend Sections 3-2, 3-3, 3-6, 3-8, 5-1, 5-2, 5-3, 5-4, 5-5, 5-6, 5-7, 8-3, and 8-4 to change the use of gender specific pronouns to the corresponding nouns."
+    },
+    {
+      "name": "Issue 17 — City of Kettering charter amendment (Section 4-3, passage of ordinances)",
+      "scope": "city",
+      "area": "Kettering",
+      "ballotLanguage": "Proposed charter amendment to amend Section 4-3 Procedure of Passage of Ordinances."
+    },
+    {
+      "name": "Issue 18 — City of Kettering charter amendment (Section 7-2, powers and duties)",
+      "scope": "city",
+      "area": "Kettering",
+      "ballotLanguage": "Proposed charter amendment to amend Section 7-2 Powers and Duties."
+    },
+    {
+      "name": "Issue 19 — City of Kettering charter amendment (Sections 5-2 and 6-2, manager and department directors)",
+      "scope": "city",
+      "area": "Kettering",
+      "ballotLanguage": "Proposed charter amendment to amend Article V, Section 5-2 The Manager and Article VI, Section 6-2 Department Directors."
+    },
+    {
+      "name": "Issue 20 — City of Oakwood renewal levy (2.72 mills, 5 years)",
+      "scope": "city",
+      "area": "Oakwood",
+      "ballotLanguage": "Renewal of a 2.72 mill levy for current expenses, for 5 years, commencing 2026, first due 2027."
+    },
+    {
+      "name": "Issue 21 — City of Union municipal income tax increase (additional 1%, continuing)",
+      "scope": "city",
+      "area": "Union",
+      "ballotLanguage": "Additional 1% levy increase on income for police and fire department operations, for a continuing period of time, commencing 1/1/2027."
+    },
+    {
+      "name": "Issue 22 — Village of New Lebanon local option, precinct PNLB (AL Post 762)",
+      "scope": "city",
+      "area": "New Lebanon",
+      "ballotLanguage": "Local Option-5-R Question 1 (sale of intoxicating liquor) for AL Post 762, 519 E. Main St., New Lebanon, OH; precinct PNLB only."
+    },
+    {
+      "name": "Issue 23 — German Township senior services renewal levy (1 mill, 5 years)",
+      "scope": "township",
+      "area": "German",
+      "ballotLanguage": "Renewal of a 1 mill levy providing or maintaining senior citizens services or facilities, for 5 years, commencing 2027, first due 2028 (incorporated and unincorporated areas)."
+    },
+    {
+      "name": "Issue 24 — Jackson Township parks and recreation additional levy (2 mills, 10 years)",
+      "scope": "township",
+      "area": "Jackson",
+      "ballotLanguage": "Additional 2 mill levy for parks and recreational purposes, for 10 years, commencing 2026, first due 2027 (unincorporated area and Village of Farmersville)."
+    },
+    {
+      "name": "Issue 25 — Jefferson Township current expenses additional levy (3 mills, 5 years)",
+      "scope": "township",
+      "area": "Jefferson",
+      "ballotLanguage": "Additional 3 mill levy for current expenses, for 5 years, commencing 2026, first due 2027."
+    }
+  ]
+}

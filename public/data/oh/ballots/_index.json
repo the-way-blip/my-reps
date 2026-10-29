@@ -4,529 +4,705 @@
    "county": "Adams",
    "slug": "adams",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Allen",
    "slug": "allen",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Ashland",
    "slug": "ashland",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Ashtabula",
    "slug": "ashtabula",
    "appealsDistrict": 11,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Athens",
    "slug": "athens",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Auglaize",
    "slug": "auglaize",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Belmont",
    "slug": "belmont",
    "appealsDistrict": 7,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Brown",
    "slug": "brown",
    "appealsDistrict": 12,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Butler",
    "slug": "butler",
    "appealsDistrict": 12,
-   "races": 2
+   "races": 9,
+   "referendums": 17,
+   "localFound": true
   },
   {
    "county": "Carroll",
    "slug": "carroll",
    "appealsDistrict": 7,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Champaign",
    "slug": "champaign",
    "appealsDistrict": 2,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Clark",
    "slug": "clark",
    "appealsDistrict": 2,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Clermont",
    "slug": "clermont",
    "appealsDistrict": 12,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Clinton",
    "slug": "clinton",
    "appealsDistrict": 12,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Columbiana",
    "slug": "columbiana",
    "appealsDistrict": 7,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Coshocton",
    "slug": "coshocton",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Crawford",
    "slug": "crawford",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Cuyahoga",
    "slug": "cuyahoga",
    "appealsDistrict": 8,
-   "races": 5
+   "races": 25,
+   "referendums": 105,
+   "localFound": true
   },
   {
    "county": "Darke",
    "slug": "darke",
    "appealsDistrict": 2,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Defiance",
    "slug": "defiance",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Delaware",
    "slug": "delaware",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Erie",
    "slug": "erie",
    "appealsDistrict": 6,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Fairfield",
    "slug": "fairfield",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Fayette",
    "slug": "fayette",
    "appealsDistrict": 12,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Franklin",
    "slug": "franklin",
    "appealsDistrict": 10,
-   "races": 2
+   "races": 11,
+   "referendums": 51,
+   "localFound": true
   },
   {
    "county": "Fulton",
    "slug": "fulton",
    "appealsDistrict": 6,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Gallia",
    "slug": "gallia",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Geauga",
    "slug": "geauga",
    "appealsDistrict": 11,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Greene",
    "slug": "greene",
    "appealsDistrict": 2,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Guernsey",
    "slug": "guernsey",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Hamilton",
    "slug": "hamilton",
    "appealsDistrict": 1,
-   "races": 1
+   "races": 17,
+   "referendums": 31,
+   "localFound": true
   },
   {
    "county": "Hancock",
    "slug": "hancock",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Hardin",
    "slug": "hardin",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Harrison",
    "slug": "harrison",
    "appealsDistrict": 7,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Henry",
    "slug": "henry",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Highland",
    "slug": "highland",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Hocking",
    "slug": "hocking",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Holmes",
    "slug": "holmes",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Huron",
    "slug": "huron",
    "appealsDistrict": 6,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Jackson",
    "slug": "jackson",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Jefferson",
    "slug": "jefferson",
    "appealsDistrict": 7,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Knox",
    "slug": "knox",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Lake",
    "slug": "lake",
    "appealsDistrict": 11,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Lawrence",
    "slug": "lawrence",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Licking",
    "slug": "licking",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Logan",
    "slug": "logan",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Lorain",
    "slug": "lorain",
    "appealsDistrict": 9,
-   "races": 2
+   "races": 5,
+   "referendums": 36,
+   "localFound": true
   },
   {
    "county": "Lucas",
    "slug": "lucas",
    "appealsDistrict": 6,
-   "races": 2
+   "races": 9,
+   "referendums": 28,
+   "localFound": true
   },
   {
    "county": "Madison",
    "slug": "madison",
    "appealsDistrict": 12,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Mahoning",
    "slug": "mahoning",
    "appealsDistrict": 7,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Marion",
    "slug": "marion",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Medina",
    "slug": "medina",
    "appealsDistrict": 9,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Meigs",
    "slug": "meigs",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Mercer",
    "slug": "mercer",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Miami",
    "slug": "miami",
    "appealsDistrict": 2,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Monroe",
    "slug": "monroe",
    "appealsDistrict": 7,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Montgomery",
    "slug": "montgomery",
    "appealsDistrict": 2,
-   "races": 1
+   "races": 11,
+   "referendums": 23,
+   "localFound": true
   },
   {
    "county": "Morgan",
    "slug": "morgan",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Morrow",
    "slug": "morrow",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Muskingum",
    "slug": "muskingum",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Noble",
    "slug": "noble",
    "appealsDistrict": 7,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Ottawa",
    "slug": "ottawa",
    "appealsDistrict": 6,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Paulding",
    "slug": "paulding",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Perry",
    "slug": "perry",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Pickaway",
    "slug": "pickaway",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Pike",
    "slug": "pike",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Portage",
    "slug": "portage",
    "appealsDistrict": 11,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Preble",
    "slug": "preble",
    "appealsDistrict": 12,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Putnam",
    "slug": "putnam",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Richland",
    "slug": "richland",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Ross",
    "slug": "ross",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Sandusky",
    "slug": "sandusky",
    "appealsDistrict": 6,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Scioto",
    "slug": "scioto",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Seneca",
    "slug": "seneca",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Shelby",
    "slug": "shelby",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Stark",
    "slug": "stark",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 7,
+   "referendums": 30,
+   "localFound": true
   },
   {
    "county": "Summit",
    "slug": "summit",
    "appealsDistrict": 9,
-   "races": 2
+   "races": 12,
+   "referendums": 54,
+   "localFound": true
   },
   {
    "county": "Trumbull",
    "slug": "trumbull",
    "appealsDistrict": 11,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Tuscarawas",
    "slug": "tuscarawas",
    "appealsDistrict": 5,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Union",
    "slug": "union",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Van Wert",
    "slug": "van-wert",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Vinton",
    "slug": "vinton",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Warren",
    "slug": "warren",
    "appealsDistrict": 12,
-   "races": 2
+   "races": 6,
+   "referendums": 7,
+   "localFound": true
   },
   {
    "county": "Washington",
    "slug": "washington",
    "appealsDistrict": 4,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Wayne",
    "slug": "wayne",
    "appealsDistrict": 9,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Williams",
    "slug": "williams",
    "appealsDistrict": 6,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Wood",
    "slug": "wood",
    "appealsDistrict": 6,
-   "races": 2
+   "races": 2,
+   "referendums": 1,
+   "localFound": false
   },
   {
    "county": "Wyandot",
    "slug": "wyandot",
    "appealsDistrict": 3,
-   "races": 1
+   "races": 1,
+   "referendums": 1,
+   "localFound": false
   }
  ]
 }
