@@ -198,8 +198,19 @@ function normalizeContest(contest) {
   }
 }
 
+// Without an electionId Google answers "Election unknown" (400) for every address,
+// so default to the Nov 3, 2026 general election (looked up, 12000 as a fallback).
+const GENERAL_DAY = '2026-11-03'
+let generalIdPromise = null
+function generalElectionId() {
+  generalIdPromise ??= getElections()
+    .then(list => list.find(e => e.electionDay === GENERAL_DAY && !/test/i.test(e.name))?.id || '12000')
+    .catch(() => '12000')
+  return generalIdPromise
+}
+
 export async function getVoterInfo(address, electionId) {
-  const data = await apiFetch('/voterinfo', { address, electionId })
+  const data = await apiFetch('/voterinfo', { address, electionId: electionId ?? await generalElectionId() })
 
   return {
     election: data.election

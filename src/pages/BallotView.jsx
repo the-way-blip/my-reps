@@ -2018,7 +2018,7 @@ export default function BallotView() {
               <div className="ballot-polling-loading">Loading polling place information...</div>
             )}
 
-            {!pollingLoading && pollingData && pollingData.pollingLocations?.length > 0 && (
+            {!pollingLoading && pollingData && (pollingData.pollingLocations?.length || pollingData.earlyVoteSites?.length || pollingData.dropOffLocations?.length) > 0 && (
               <div className="ballot-polling-cards">
                 {pollingData.pollingLocations.map((loc, i) => (
                   <div key={`poll-${i}`} className="ballot-polling-card">
@@ -2088,14 +2088,14 @@ export default function BallotView() {
                   <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
                 </svg>
                 <div>
-                  <p>Polling places are typically published 4-6 weeks before an election.</p>
+                  <p>{pollingData && (pollingData.pollingLocations?.length || pollingData.earlyVoteSites?.length || pollingData.dropOffLocations?.length) ? "We couldn't find your Election Day polling place yet." : "We couldn't find your polling place automatically."}</p>
                   <a
                     href={stateInfo.voterSite}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="ballot-polling-sos-link"
                   >
-                    Check {stateInfo.voterSiteName} for updates
+                    Look it up at {stateInfo.voterSiteName}
                   </a>
                 </div>
               </div>
@@ -2207,7 +2207,7 @@ export default function BallotView() {
             <p className="ballot-spread-desc">Help your friends and family vote their values — share this free tool.</p>
             <ShareButton
               title="Of For & By The People"
-              text="Plan your ballot for Michigan's November 3 general election — every race, every candidate, graded on Constitutional values. Free at buildmyballot.com"
+              text={`Plan your ballot for ${stateInfo.name}'s November 3 general election — every race, every candidate, graded on Constitutional values. Free at buildmyballot.com`}
               url="https://www.buildmyballot.com/ballot"
               className="ballot-spread-btn"
               onShare={trackShareTool}
