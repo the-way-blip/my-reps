@@ -1793,7 +1793,7 @@ export default function BallotView() {
               </h3>
               <p className="ballot-local-note">
                 {isStateBallot
-                  ? `From the ${stateInfo.sourceName}'s official candidate list for ${localGeo?.county} County${stateBallot?.dataAsOf ? ` (data as of ${new Date(stateBallot.dataAsOf).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })})` : ''}. Township, town and school board races are matched to your address. Always confirm with your official sample ballot at ${stateInfo.voterSiteName}.`
+                  ? `From the ${stateInfo.sourceName}'s official candidate list for ${localGeo?.county} County${stateBallot?.dataAsOf ? ` (data as of ${new Date(stateBallot.dataAsOf).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })})` : ''}.${stateBallot?.localComplete === false ? '' : ' Township, town and school board races are matched to your address.'} Always confirm with your official sample ballot at ${stateInfo.voterSiteName}.`
                   : official.matched
                   ? `From the official Michigan Secretary of State sample ballot for ${official.jurisdiction}${official.precincts > 1 ? ` (${official.precincts} precincts)` : ''}. Where a race appears only in some precincts, a note says so — confirm with your precinct's sample ballot.`
                   : 'These local races appear on your November general election ballot.'}
