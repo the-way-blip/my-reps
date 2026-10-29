@@ -85,8 +85,8 @@ const LEVEL = { state: 'Statewide', congressional: 'Federal', stateSenate: 'Stat
 const stateContests = [...collect([...rows('ussenate.txt'), ...rows('Governor.txt'), ...rows('secofstate.txt'), ...rows('attorneygen.txt'),
   ...rows('ushouse.txt'), ...rows('LegislativeByDistrict.txt')]).values()]
 const precinctRows = rows('allracesbyprecinct.txt')
-// statewide offices not in a separate file (State Auditor, Supreme Court, Court of Appeals)
-for (const c of collect(precinctRows, r => /^(0333|70\d\d)$/.test(r[3])).values()) if (!stateContests.some(s => s.officeId === c.officeId)) stateContests.push({ ...c, county: '' })
+// statewide offices and races not in a separate file (State Auditor, Supreme Court, Court of Appeals, State Senate)
+for (const c of collect(precinctRows, r => /^(0333|70\d\d)$/.test(r[3]) || /^State Senator District/.test(r[4])).values()) if (!stateContests.some(s => s.officeId === c.officeId && s.district === c.district)) stateContests.push({ ...c, county: '' })
 const races = stateContests.filter(c => c.candidates.length).map((c, i) => {
   const scope = /^70/.test(c.officeId) ? 'state' : SCOPE(c)
   const office = officeTitle(c)
