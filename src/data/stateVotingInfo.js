@@ -74,6 +74,30 @@ export const STATE_VOTING_INFO = {
       polling: 'Iowa polls are open 7:00 AM – 8:00 PM. Absentee ballots must reach your county auditor before polls close — a postmark is not enough.',
     },
   },
+  WI: {
+    code: 'WI',
+    name: 'Wisconsin',
+    sourceName: 'Wisconsin Elections Commission',
+    voterSite: 'https://myvote.wi.gov/en-us/',
+    voterSiteName: 'MyVote Wisconsin',
+    registerUrl: 'https://myvote.wi.gov/en-us/Register-To-Vote',
+    absenteeUrl: 'https://myvote.wi.gov/en-us/Vote-Absentee-By-Mail',
+    sameDayRegistration: true,
+    electionDayText: 'Polls are open 7 a.m. – 8 p.m. Bring a photo ID. You can still register at your polling place with proof of residence.',
+    deadlines: [
+      { date: '2026-10-14T12:00:00', label: 'Online & mail registration deadline', action: 'Check registration', href: 'https://myvote.wi.gov/en-us/My-Voter-Info' },
+      { date: '2026-10-20T12:00:00', label: 'In-person absentee (early) voting may begin', action: 'Find early voting', href: 'https://myvote.wi.gov/en-us/Vote-Absentee-In-Person' },
+      { date: '2026-10-29T12:00:00', label: 'Absentee-by-mail request deadline (5 p.m.)', action: 'Request absentee ballot', href: 'https://myvote.wi.gov/en-us/Vote-Absentee-By-Mail' },
+      { date: '2026-10-30T12:00:00', label: "Last day to register at your clerk's office", action: 'Find your clerk', href: 'https://myvote.wi.gov/en-us/' },
+      { date: '2026-11-01T12:00:00', label: 'Last possible day of early voting (varies by town)', action: 'Find early voting', href: 'https://myvote.wi.gov/en-us/Vote-Absentee-In-Person' },
+      { date: '2026-11-03T12:00:00', label: 'General Election Day', action: 'Find your polling place', href: 'https://myvote.wi.gov/en-us/Find-My-Polling-Place' },
+    ],
+    checklist: {
+      id: 'Wisconsin requires an acceptable photo ID to vote: a Wisconsin driver license or state ID, U.S. passport, military ID, tribal ID, or certain college IDs. The DMV issues a free state ID for voting.',
+      registration: 'Online and mail registration closed October 14. You can still register at your municipal clerk\'s office through October 30, or at your polling place on Election Day, with proof of residence.',
+      polling: 'Wisconsin polls are open 7:00 AM – 8:00 PM. If you\'re in line by 8 PM, you will be allowed to vote. Absentee ballots must be received by 8 PM on Election Day — postmarks do not count.',
+    },
+  },
 }
 
 export const getStateVotingInfo = code => STATE_VOTING_INFO[code] || STATE_VOTING_INFO.MI

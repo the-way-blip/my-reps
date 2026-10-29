@@ -1,0 +1,437 @@
+{
+ "sourceVersion": "2026-10-06T20:13:17Z",
+ "counties": [
+  {
+   "county": "Adams",
+   "slug": "adams",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Ashland",
+   "slug": "ashland",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Barron",
+   "slug": "barron",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Bayfield",
+   "slug": "bayfield",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Brown",
+   "slug": "brown",
+   "races": 2,
+   "referendums": 6
+  },
+  {
+   "county": "Buffalo",
+   "slug": "buffalo",
+   "races": 3,
+   "referendums": 4
+  },
+  {
+   "county": "Burnett",
+   "slug": "burnett",
+   "races": 2,
+   "referendums": 7
+  },
+  {
+   "county": "Calumet",
+   "slug": "calumet",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Chippewa",
+   "slug": "chippewa",
+   "races": 3,
+   "referendums": 5
+  },
+  {
+   "county": "Clark",
+   "slug": "clark",
+   "races": 3,
+   "referendums": 7
+  },
+  {
+   "county": "Columbia",
+   "slug": "columbia",
+   "races": 2,
+   "referendums": 6
+  },
+  {
+   "county": "Crawford",
+   "slug": "crawford",
+   "races": 3,
+   "referendums": 4
+  },
+  {
+   "county": "Dane",
+   "slug": "dane",
+   "races": 3,
+   "referendums": 6
+  },
+  {
+   "county": "Dodge",
+   "slug": "dodge",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Door",
+   "slug": "door",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Douglas",
+   "slug": "douglas",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Dunn",
+   "slug": "dunn",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Eau Claire",
+   "slug": "eau-claire",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Florence",
+   "slug": "florence",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Fond du Lac",
+   "slug": "fond-du-lac",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Forest",
+   "slug": "forest",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Grant",
+   "slug": "grant",
+   "races": 3,
+   "referendums": 3
+  },
+  {
+   "county": "Green",
+   "slug": "green",
+   "races": 3,
+   "referendums": 3
+  },
+  {
+   "county": "Green Lake",
+   "slug": "green-lake",
+   "races": 2,
+   "referendums": 6
+  },
+  {
+   "county": "Iowa",
+   "slug": "iowa",
+   "races": 3,
+   "referendums": 5
+  },
+  {
+   "county": "Iron",
+   "slug": "iron",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Jackson",
+   "slug": "jackson",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Jefferson",
+   "slug": "jefferson",
+   "races": 3,
+   "referendums": 6
+  },
+  {
+   "county": "Juneau",
+   "slug": "juneau",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Kenosha",
+   "slug": "kenosha",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Kewaunee",
+   "slug": "kewaunee",
+   "races": 3,
+   "referendums": 4
+  },
+  {
+   "county": "La Crosse",
+   "slug": "la-crosse",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Lafayette",
+   "slug": "lafayette",
+   "races": 3,
+   "referendums": 5
+  },
+  {
+   "county": "Langlade",
+   "slug": "langlade",
+   "races": 3,
+   "referendums": 3
+  },
+  {
+   "county": "Lincoln",
+   "slug": "lincoln",
+   "races": 3,
+   "referendums": 5
+  },
+  {
+   "county": "Manitowoc",
+   "slug": "manitowoc",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Marathon",
+   "slug": "marathon",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Marinette",
+   "slug": "marinette",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Marquette",
+   "slug": "marquette",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Menominee",
+   "slug": "menominee",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Milwaukee",
+   "slug": "milwaukee",
+   "races": 2,
+   "referendums": 9
+  },
+  {
+   "county": "Monroe",
+   "slug": "monroe",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Oconto",
+   "slug": "oconto",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Oneida",
+   "slug": "oneida",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Outagamie",
+   "slug": "outagamie",
+   "races": 2,
+   "referendums": 6
+  },
+  {
+   "county": "Ozaukee",
+   "slug": "ozaukee",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Pepin",
+   "slug": "pepin",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Pierce",
+   "slug": "pierce",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Polk",
+   "slug": "polk",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Portage",
+   "slug": "portage",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Price",
+   "slug": "price",
+   "races": 4,
+   "referendums": 3
+  },
+  {
+   "county": "Racine",
+   "slug": "racine",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Richland",
+   "slug": "richland",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Rock",
+   "slug": "rock",
+   "races": 2,
+   "referendums": 6
+  },
+  {
+   "county": "Rusk",
+   "slug": "rusk",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Sauk",
+   "slug": "sauk",
+   "races": 3,
+   "referendums": 5
+  },
+  {
+   "county": "Sawyer",
+   "slug": "sawyer",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Shawano",
+   "slug": "shawano",
+   "races": 3,
+   "referendums": 3
+  },
+  {
+   "county": "Sheboygan",
+   "slug": "sheboygan",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "St. Croix",
+   "slug": "st-croix",
+   "races": 2,
+   "referendums": 7
+  },
+  {
+   "county": "Taylor",
+   "slug": "taylor",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Trempealeau",
+   "slug": "trempealeau",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Vernon",
+   "slug": "vernon",
+   "races": 3,
+   "referendums": 7
+  },
+  {
+   "county": "Vilas",
+   "slug": "vilas",
+   "races": 2,
+   "referendums": 4
+  },
+  {
+   "county": "Walworth",
+   "slug": "walworth",
+   "races": 2,
+   "referendums": 7
+  },
+  {
+   "county": "Washburn",
+   "slug": "washburn",
+   "races": 3,
+   "referendums": 3
+  },
+  {
+   "county": "Washington",
+   "slug": "washington",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Waukesha",
+   "slug": "waukesha",
+   "races": 2,
+   "referendums": 8
+  },
+  {
+   "county": "Waupaca",
+   "slug": "waupaca",
+   "races": 2,
+   "referendums": 5
+  },
+  {
+   "county": "Waushara",
+   "slug": "waushara",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Winnebago",
+   "slug": "winnebago",
+   "races": 2,
+   "referendums": 3
+  },
+  {
+   "county": "Wood",
+   "slug": "wood",
+   "races": 4,
+   "referendums": 5
+  }
+ ]
+}

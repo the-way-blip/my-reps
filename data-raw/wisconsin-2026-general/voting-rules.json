@@ -1,0 +1,94 @@
+{
+  "state": "WI",
+  "election": "2026 General Election",
+  "electionDate": "2026-11-03",
+  "fetchedAt": "2026-10-28T00:00:00-05:00",
+  "pollHours": {
+    "open": "7:00 a.m.",
+    "close": "8:00 p.m.",
+    "timezone": "America/Chicago",
+    "inLineAtCloseMayVote": true,
+    "detail": "Wis. Stat. 6.78(1m): \"The polls at every election shall be open from 7 a.m. until 8 p.m.\" 6.78(4): any elector waiting to vote at the time the polls officially close shall be permitted to vote.",
+    "sources": ["https://docs.legis.wisconsin.gov/statutes/statutes/6/iii/78", "https://myvote.wi.gov/en-us/Voter-Deadlines"]
+  },
+  "registration": {
+    "onlineDeadline": "2026-10-14",
+    "mailDeadline": "2026-10-14",
+    "mailDeadlineDetail": "Registration form with proof of residence must be postmarked no later than October 14, 2026.",
+    "onlineDetail": "Online registration at MyVote requires a valid Wisconsin DMV driver license or state ID matching DMV records.",
+    "inPersonClerkDeadline": "2026-10-30T17:00:00-05:00",
+    "inPersonClerkDetail": "In the municipal clerk's office until 5:00 p.m. (or close of business, whichever is later) on Friday, October 30, 2026. No registration the Saturday, Sunday or Monday before the election.",
+    "electionDayRegistration": true,
+    "electionDayRegistrationDetail": "Voters may register at their polling place on Election Day, November 3, 2026, 7:00 a.m.-8:00 p.m.",
+    "proofOfResidenceRequired": true,
+    "proofOfResidenceDetail": "A Proof of Residence document (with name and current residential address) is always required to register by mail, at the clerk's office, or at the polls; a DMV license/ID used for online registration satisfies it. Paper or electronic copies accepted. Corroborating witnesses no longer allowed. Photo ID is never required to register.",
+    "acceptedProofOfResidence": [
+      "Current and valid State of Wisconsin driver license or state ID card",
+      "Any other official identification card or license issued by a Wisconsin governmental body or unit",
+      "Employer-issued identification card bearing a photo of the card holder (not a business card)",
+      "Real estate tax bill or receipt for the current year or the year preceding the election",
+      "Residential lease effective on date of registration (not valid if registering by mail)",
+      "Gas, electric, or telephone service statement (utility bill) for a period commencing no earlier than 90 days before registration",
+      "University, college, or technical college photo ID ONLY with a fee receipt dated within the last 9 months or if the institution provides a certified housing list to the clerk",
+      "Intake document from a residential care facility",
+      "Bank or credit union statement, or any credit card statement",
+      "Identification card issued by a federally recognized Indian tribe in Wisconsin",
+      "Documents from a government agency (e.g., hunting/fishing licenses, vehicle registrations, Social Security/Medicare notices, public school/university correspondence) - WEC lists these as examples"
+    ],
+    "residencyRequirement": "Must reside at the address at least 28 days by Election Day.",
+    "sources": ["https://elections.wi.gov/Register", "https://myvote.wi.gov/en-us/Voter-Deadlines"]
+  },
+  "photoId": {
+    "required": true,
+    "detail": "An original acceptable photo ID must be shown to vote at the polling place or to cast an in-person absentee ballot; a photocopy is required for absentee by mail (exceptions for military, permanent overseas, confidential, indefinitely confined and care-facility voters, and a non-photo DMV ID for sincere religious objection). WI DOT offers a free state ID for voting.",
+    "acceptedIdsUnexpiredOrExpiredAfterLastGeneralElection": [
+      "Wisconsin DOT-issued driver license (even if driving privileges revoked or suspended; with or without star)",
+      "Wisconsin DOT-issued identification card (with or without star)",
+      "Military ID card issued by a U.S. uniformed service",
+      "U.S. passport",
+      "Identification card issued by a federally recognized Indian tribe in Wisconsin (may be used even if expired before the most recent general election)",
+      "Photo ID card from a Wisconsin accredited university or college with issuance date, student signature, and expiration no later than two years after issuance (if expired, must be accompanied by proof of current enrollment)"
+    ],
+    "acceptedIdsMustBeUnexpired": [
+      "Veteran's photo ID card issued by the Veterans Health Administration (U.S. Department of Veterans Affairs)",
+      "Certificate of naturalization issued not earlier than two years before the election",
+      "Driving receipt issued by Wisconsin DOT (valid 45 days)",
+      "Identification card receipt issued by Wisconsin DOT (valid 45 days)"
+    ],
+    "sources": ["https://elections.wi.gov/photoid"]
+  },
+  "inPersonAbsentee": {
+    "allowed": true,
+    "label": "In-person absentee voting (IPAV / early voting)",
+    "earliestStart": "2026-10-20",
+    "latestEnd": "2026-11-01",
+    "detail": "Clerks may offer IPAV starting Tuesday, October 20 (two weeks before Election Day) through Sunday, November 1, 2026. Each municipal clerk sets its own dates, hours and locations; some may not offer additional hours. Photo ID required. Ballot must be voted on site.",
+    "lookup": "https://myvote.wi.gov/en-us/Vote-Absentee-In-Person",
+    "sources": ["https://elections.wi.gov/news/early-voting-person-absentee-begins-tuesday", "https://myvote.wi.gov/en-us/Voter-Deadlines", "https://docs.legis.wisconsin.gov/statutes/statutes/6/iv/86"]
+  },
+  "absenteeByMail": {
+    "noExcuseRequired": true,
+    "mustBeRegistered": true,
+    "photoIdCopyRequired": true,
+    "requestDeadline": "2026-10-29T17:00:00-05:00",
+    "requestDeadlineDetail": "Regular and overseas voters: request must be received by the municipal clerk by 5:00 p.m. Thursday, October 29, 2026 (Wis. Stat. 6.86(1)(b): 5 p.m. on the 5th day preceding the election).",
+    "requestDeadlineIndefinitelyConfinedAndMilitaryNotAway": "2026-10-30T17:00:00-05:00",
+    "requestDeadlineMilitaryAway": "2026-11-03T17:00:00-06:00",
+    "hospitalizedVoters": "May request between October 27 and 5:00 p.m. November 3, 2026 via appointed agent.",
+    "returnDeadline": "2026-11-03T20:00:00-06:00",
+    "returnDeadlineDetail": "Ballot must be RECEIVED by the municipal clerk (or delivered to the polling place / central count location) by 8:00 p.m. on Election Day, November 3, 2026. Postmarks do not count.",
+    "requestUrl": "https://myvote.wi.gov/en-us/Vote-Absentee-By-Mail",
+    "trackUrl": "https://myvote.wi.gov/en-us/Track-My-Ballot",
+    "sources": ["https://myvote.wi.gov/en-us/Voter-Deadlines", "https://elections.wi.gov/voters/voting-absentee", "https://elections.wi.gov/news/early-voting-person-absentee-begins-tuesday", "https://docs.legis.wisconsin.gov/statutes/statutes/6/iv/86"]
+  },
+  "lookup": {
+    "myVote": "https://myvote.wi.gov/en-us/",
+    "whatsOnMyBallot": "https://myvote.wi.gov/en-us/Whats-On-My-Ballot",
+    "findMyPollingPlace": "https://myvote.wi.gov/en-us/Find-My-Polling-Place",
+    "myVoterInfo": "https://myvote.wi.gov/en-us/My-Voter-Info",
+    "registerToVote": "https://myvote.wi.gov/en-us/Register-To-Vote",
+    "deadlines": "https://myvote.wi.gov/en-us/Voter-Deadlines",
+    "helpline": "1-866-VOTE-WIS (866-868-3947)",
+    "source": "https://myvote.wi.gov/en-us/"
+  }
+}

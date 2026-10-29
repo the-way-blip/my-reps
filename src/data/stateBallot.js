@@ -1,5 +1,5 @@
 // Ballot data for states beyond Michigan (public/data/<dir>/ballots/), one file per county plus
-// _statewide.json, all in the same schema (built by scripts/build-indiana.mjs, scripts/build-iowa.mjs).
+// _statewide.json, all in the same schema (built by scripts/build-indiana.mjs, scripts/build-iowa.mjs, scripts/build-wisconsin.mjs).
 // Adding a state = a data build + one entry here + its voting rules in stateVotingInfo.js.
 
 import { countySlug } from './officialBallot'
@@ -12,6 +12,7 @@ export const STATE_BALLOTS = {
   IN: { code: 'IN', name: 'Indiana', dir: 'in', idPrefix: 'in-', live: import.meta.env?.VITE_ENABLE_INDIANA !== '0' },
   // Preview only until approved for launch.
   IA: { code: 'IA', name: 'Iowa', dir: 'ia', idPrefix: 'ia-', live: false },
+  WI: { code: 'WI', name: 'Wisconsin', dir: 'wi', idPrefix: 'wi-', live: false },
 }
 
 // The state's config when its ballot is available on this host, else null (Michigan uses its own pipeline)
@@ -43,7 +44,7 @@ export async function loadStateBallotData(code, county) {
   return countyData && statewide ? { county: countyData, statewide } : null
 }
 
-const norm = s => String(s || '').toLowerCase().replace(/\b(township|twp|town|city|of|the)\b/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim()
+const norm = s => String(s || '').toLowerCase().replace(/\b(township|twp|town|city|village|of|the)\b/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim()
 const GENERIC = /\b(community|consolidated|school|schools|corporation|corp|metropolitan|district|of|the|county|united|public|msd|csc|sc|cs)\b/g
 const schoolTokens = (s, county) => norm(s).replace(GENERIC, ' ').split(/\s+/)
   .filter(t => t.length >= 3 && t !== norm(county))
@@ -101,9 +102,16 @@ export function getStateBallot(data, geo, districts) {
   // Local questions: keep the ones whose name matches the voter's city, school district or county
   const mine = new Set([...target, ...schoolTokens(geo.place, county.county)])
   const countyWide = q => new RegExp(`\\b${county.county}\\s+County\\b`, 'i').test(q.name) && !/school|city|town/i.test(q.name)
+  // Questions tagged with the jurisdiction that votes on them (Wisconsin) match on it directly;
+  // "Town of X" is only the town's voters, not residents of the city or village of X
+  const areaMatch = q => q.scope === 'county' ||
+    (q.scope === 'school' && schoolTokens(q.area, county.county).some(t => target.includes(t))) ||
+    (q.scope === 'municipal' && (/^town of /i.test(q.area)
+      ? !!twp && norm(q.area) === twp && norm(q.area) !== place
+      : !!place && norm(q.area) === place))
   const proposals = county.referendums
-    .filter(q => q.statewide || /retention/i.test(q.type) || countyWide(q) ||
-      schoolTokens(q.name, county.county).some(t => mine.has(t)))
+    .filter(q => q.statewide || /retention/i.test(q.type) || (q.area ? areaMatch(q) : countyWide(q) ||
+      schoolTokens(q.name, county.county).some(t => mine.has(t))))
     .map(q => toProposal(q, `${county.county} County`))
     .sort((a, b) => (a.division === 'State' ? 0 : 1) - (b.division === 'State' ? 0 : 1))
 
