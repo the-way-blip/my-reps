@@ -1850,6 +1850,19 @@ export default function BallotView() {
             </section>
           )}
 
+          {/* States whose county/township races aren't loaded yet (Iowa): point to the official sample ballot */}
+          {isStateBallot && stateInfo.localNote && stateBallot && !stateBallot.localComplete && (
+            <div className="ballot-not-on-ballot-note">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
+                <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
+              </svg>
+              <span>
+                {stateInfo.localNote}{' '}
+                <a href={stateInfo.localNoteUrl} target="_blank" rel="noopener noreferrer">Find your county auditor</a>
+              </span>
+            </div>
+          )}
+
           {/* Note about county/township offices NOT on this ballot */}
           {localGeo?.county && !isStateBallot && !official.matched && !officialLoading && (
             <div className="ballot-not-on-ballot-note">

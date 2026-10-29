@@ -1,0 +1,888 @@
+[
+ {
+  "office": "Governor and Lieutenant Governor",
+  "name": "Tom Tiffany",
+  "grade": "A",
+  "gradeNote": "Rated A+ by SBA Pro-Life America and A+ (endorsed) by NRA-PVF; endorsed by Wisconsin Right to Life and AFP-Wisconsin, with a 95% lifetime Club for Growth score and a no vote on the Respect for Marriage Act.",
+  "description": "U.S. Representative for Wisconsin's 7th District and former state senator; Republican candidate for governor.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=WI&rep",
+   "https://wisconsinrighttolife.org/wp-content/uploads/2026/09/Gubernatorial-Comparison.pdf",
+   "https://www.wispolitics.com/?p=430523",
+   "https://urbanmilwaukee.com/pressrelease/afp-wisconsin-endorses-tom-tiffany-in-high-stakes-governors-race/",
+   "https://wpr.org/politics/wisconsin-us-house-votes-respect-marriage-act-equality",
+   "https://clerk.house.gov/Votes/202512",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated A+ by SBA Pro-Life America and endorsed by Wisconsin Right to Life for 2026; WRTL notes support for born-alive protections and opposition to taxpayer funding of abortion.",
+   "marriage": "Voted no on the Respect for Marriage Act (2022) and yes on H.R. 28, the Protection of Women and Girls in Sports Act (2025).",
+   "religiousLiberty": "No specific religious-liberty votes captured; iVoterGuide rates him Verified Conservative.",
+   "secondAmendment": "Rated A+ and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "Endorsed by AFP-Wisconsin for governor; no further limited-government scorecard captured.",
+   "fiscal": "Club for Growth score of 95% (2025) and 95% lifetime."
+  }
+ },
+ {
+  "office": "Governor and Lieutenant Governor",
+  "name": "David Crowley",
+  "grade": "D",
+  "gradeNote": "Endorsed by Planned Parenthood Advocates of Wisconsin and Giffords PAC, rated F by NRA-PVF, and has pledged to support a state constitutional amendment protecting abortion.",
+  "description": "Milwaukee County Executive; Democratic candidate for governor.",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://wisconsinrighttolife.org/wp-content/uploads/2026/09/Gubernatorial-Comparison.pdf",
+   "https://www.wispolitics.com/2026/planned-parenthood-advocates-of-wisconsin-planned-parenthood-advocates-of-wisconsin-endorses-statewide-slate-to-protect-reproductive-freedom/",
+   "https://www.wpr.org/news/crowley-tiffany-abortion-issue-2026-election",
+   "https://giffords.org/press-release/2026/08/giffords-pac-endorses-david-crowley-for-governor-and-sarah-godlewski-for-lieutenant-governor-in-wisconsin/",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin; says he will back a state constitutional amendment protecting abortion, and WRTL reports he has pledged to veto pro-life legislation.",
+   "marriage": "No specific position found; running as a Democrat with a Verified Liberal iVoterGuide rating.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026 and endorsed by Giffords PAC.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "No specific position found; party inference."
+  }
+ },
+ {
+  "office": "Attorney General",
+  "name": "Eric Toney",
+  "grade": "B",
+  "gradeNote": "Endorsed in 2022 by SBA Pro-Life America and Wisconsin Right to Life, which says he supports defending the state's pro-life laws; held an NRA 'AQ' rating in 2022 and supports constitutional carry.",
+  "description": "Fond du Lac County District Attorney and 2022 Republican AG nominee; Republican candidate for attorney general.",
+  "website": null,
+  "sources": [
+   "https://wisconsinrighttolife.org/wp-content/uploads/2026/09/Draft-AG.pdf",
+   "https://www.wispolitics.com/2022/toney-campaign-eric-toney-proud-to-announce-endorsement-from-sba-pro-life-america/",
+   "https://wisconsinrighttolife.org/?p=121074",
+   "https://www.wispolitics.com/2022/wisdems-eric-toneys-nra-questionnaire/",
+   "https://politiquote.gigafact.org/quotes/eric-toney-13e68b/i-support-constitutional-carry-03bf0c/",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by SBA Pro-Life America's Candidate Fund and Wisconsin Right to Life in 2022; WRTL's 2026 guide says he supports defending Wisconsin's pro-life laws.",
+   "marriage": "No specific position found; iVoterGuide rates him Conservative.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Held an NRA 'AQ' rating with NRA endorsement in 2022 and has said he supports constitutional carry; his 2026 NRA-PVF grade is listed as '?'.",
+   "limitedGov": "No specific position found.",
+   "fiscal": "No specific position found."
+  }
+ },
+ {
+  "office": "Attorney General",
+  "name": "Josh Kaul",
+  "grade": "D",
+  "gradeNote": "Challenged Wisconsin's 1849 abortion law and is endorsed by Planned Parenthood Advocates of Wisconsin; rated F by NRA-PVF and has pushed for universal background checks and a red-flag law.",
+  "description": "Wisconsin Attorney General (incumbent since 2019); Democrat.",
+  "website": null,
+  "sources": [
+   "https://wisconsinrighttolife.org/wp-content/uploads/2026/09/Draft-AG.pdf",
+   "https://www.wispolitics.com/2026/planned-parenthood-advocates-of-wisconsin-planned-parenthood-advocates-of-wisconsin-endorses-statewide-slate-to-protect-reproductive-freedom/",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.wispolitics.com/2019/kaul-calls-for-universal-background-checks-in-inaugural-remarks/",
+   "https://wisconsinexaminer.com/2021/09/24/attorney-general-and-lawmakers-introduce-gun-control-bills/",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Challenged Wisconsin's 1849 abortion law in court and is endorsed by Planned Parenthood Advocates of Wisconsin.",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF; has pushed for universal background checks and a red-flag law since taking office.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "No specific position found; party inference."
+  }
+ },
+ {
+  "office": "Secretary of State",
+  "name": "Jay Schroeder",
+  "grade": "A",
+  "gradeNote": "Endorsed by Pro-Life Wisconsin Victory Fund PAC; iVoterGuide survey answers (which appear to date from a 2022 survey) back no-exception abortion limits, one-man-one-woman marriage and no new gun restrictions.",
+  "description": "Businessman and former legislative candidate; Republican candidate for secretary of state.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/7553/race/34174/election/1497",
+   "https://wisconsinexaminer.com/2026/08/11/maga-activist-who-wants-to-eliminate-elections-commission-wins-gop-nod-for-secretary-of-state/",
+   "https://wpr.org/news/wisconsin-secretary-state-jay-schroeder-jocasta-zamarripa-pete-karas-2026"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Pro-Life Wisconsin Victory Fund PAC; on his iVoterGuide survey he said elective abortion should be allowed under none of the listed circumstances and life deserves protection from conception.",
+   "marriage": "On his iVoterGuide survey he strongly agreed marriage is between one man and one woman and that biological males should not compete in women's sports.",
+   "religiousLiberty": "Said 'separation of church and state' was meant to protect religious institutions from government, not remove religious influence from public life.",
+   "secondAmendment": "Answered that the Second Amendment guarantees the right to bear arms 'Period,' proposing no restrictions.",
+   "limitedGov": "Strongly agreed with eliminating the U.S. Department of Education and with free enterprise and private property.",
+   "fiscal": "Said government should not grow spending faster than taxpayers' wages; no tax position stated."
+  }
+ },
+ {
+  "office": "Secretary of State",
+  "name": "JoCasta Zamarripa",
+  "grade": "F",
+  "gradeNote": "Endorsed by Planned Parenthood Advocates of Wisconsin; as a legislator she scored 8% with Wisconsin Family Action, 7% with the American Conservative Union and 0% with NFIB.",
+  "description": "Milwaukee alder and former state representative (Assembly District 8); Democrat.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/1610/race/34174/election/1497",
+   "https://www.wispolitics.com/2026/planned-parenthood-advocates-of-wisconsin-planned-parenthood-advocates-of-wisconsin-endorses-statewide-slate-to-protect-reproductive-freedom/",
+   "https://wpr.org/news/wisconsin-secretary-state-jay-schroeder-jocasta-zamarripa-pete-karas-2026"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "F",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin in 2026; NARAL Pro-Choice Wisconsin grade of A (2012).",
+   "marriage": "Wisconsin Family Action legislative score of 8% (2017-18).",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "No specific position found; party inference.",
+   "limitedGov": "American Conservative Union Wisconsin score of 7% (2019).",
+   "fiscal": "NFIB-Wisconsin score of 0% (2018)."
+  }
+ },
+ {
+  "office": "Secretary of State",
+  "name": "Pete Karas",
+  "grade": null,
+  "gradeNote": "No meaningful positions found beyond an iVoterGuide rating of Liberal.",
+  "description": "Wisconsin Green Party candidate for secretary of state.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/97381/race/34174/election/1497"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "State Treasurer",
+  "name": "John S. Leiber",
+  "grade": "B",
+  "gradeNote": "Incumbent treasurer rated Conservative by iVoterGuide and campaigning as a fiscal conservative; no specific records found on the six values, so grades rest mostly on party inference.",
+  "description": "Wisconsin State Treasurer (incumbent since 2023); Republican.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/41703/race/34176/election/1497",
+   "https://www.wispolitics.com/?p=394391",
+   "https://ballotpedia.org/John_Leiber"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; party inference.",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "No specific position found; party inference.",
+   "limitedGov": "No specific position found; iVoterGuide rates him Conservative.",
+   "fiscal": "Campaigns as a fiscal conservative focused on safeguarding state investments; no tax or spending record captured."
+  }
+ },
+ {
+  "office": "State Treasurer",
+  "name": "Yee Leng Xiong",
+  "grade": "D",
+  "gradeNote": "No specific records found on the six values; iVoterGuide rates him Liberal and grades rest on party inference.",
+  "description": "Marathon County Board supervisor and 2024 Assembly candidate; Democrat.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/86680/race/34176/election/1497",
+   "https://wisconsinexaminer.com/2026/06/11/two-democrats-seek-to-challenge-treasurer-john-leiber-wisconsins-only-gop-state-office-holder/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; party inference.",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "No specific position found; party inference.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "No specific position found; party inference."
+  }
+ },
+ {
+  "office": "United States Representative, District 1",
+  "name": "Bryan Steil",
+  "grade": "B",
+  "gradeNote": "Rated A+ by SBA Pro-Life America and A (endorsed) by NRA-PVF with a 90% Club for Growth score, but voted for the Respect for Marriage Act in 2022.",
+  "description": "U.S. Representative for Wisconsin's 1st District (incumbent since 2019); Republican.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=WI&rep",
+   "https://wpr.org/politics/wisconsin-us-house-votes-respect-marriage-act-equality",
+   "https://thebadgerproject.org/2022/12/09/gallagher-joins-steil-and-all-wisconsin-democrats-to-approve-same-sex-marriage-protections/",
+   "https://clerk.house.gov/Votes/202512",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "C",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated A+ by SBA Pro-Life America.",
+   "marriage": "Voted yes on the Respect for Marriage Act in July and December 2022, the only Wisconsin Republican to back the July version; voted yes on H.R. 28 (2025) restricting women's sports to biological females.",
+   "religiousLiberty": "No specific religious-liberty record found; iVoterGuide rates him Conservative.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "No limited-government scorecard captured beyond Club for Growth.",
+   "fiscal": "Club for Growth score of 90% (2025), 84% lifetime."
+  }
+ },
+ {
+  "office": "United States Representative, District 1",
+  "name": "Mitchell Berman",
+  "grade": "D",
+  "gradeNote": "Rated F by NRA-PVF and Liberal by iVoterGuide; no other specific records found.",
+  "description": "Nurse; Democratic candidate for U.S. House District 1.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/96907/race/34164/election/1497",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; party inference.",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "No specific position found; party inference."
+  }
+ },
+ {
+  "office": "United States Representative, District 2",
+  "name": "Mark Pocan",
+  "grade": "F",
+  "gradeNote": "Rated F by SBA Pro-Life America and NRA-PVF, voted for the Respect for Marriage Act and against H.R. 28, and holds a 7% lifetime Club for Growth score.",
+  "description": "U.S. Representative for Wisconsin's 2nd District (incumbent since 2013); Democrat.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=WI&rep",
+   "https://wpr.org/politics/wisconsin-us-house-votes-respect-marriage-act-equality",
+   "https://clerk.house.gov/Votes/202512",
+   "https://plannedparenthoodaction.org/pressroom/planned-parenthood-action-fund-endorses-mark-pocan"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated F by SBA Pro-Life America; previously endorsed by Planned Parenthood Action Fund.",
+   "marriage": "Voted yes on the Respect for Marriage Act (2022) and no on H.R. 28 (2025).",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "Club for Growth score of 0% (2025), 7% lifetime."
+  }
+ },
+ {
+  "office": "United States Representative, District 3",
+  "name": "Derrick Van Orden",
+  "grade": "B",
+  "gradeNote": "Rated B by SBA Pro-Life America and A (endorsed) by NRA-PVF, with a 95% Club for Growth score for 2025 (75% lifetime).",
+  "description": "U.S. Representative for Wisconsin's 3rd District (incumbent since 2023); Republican.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=WI&rep",
+   "https://clerk.house.gov/Votes/202512",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated B by SBA Pro-Life America.",
+   "marriage": "Voted yes on H.R. 28 (2025) restricting women's sports to biological females; no marriage votes captured.",
+   "religiousLiberty": "No specific religious-liberty record found; iVoterGuide rates him Conservative.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "No limited-government scorecard captured beyond Club for Growth.",
+   "fiscal": "Club for Growth score of 95% (2025), 75% lifetime."
+  }
+ },
+ {
+  "office": "United States Representative, District 3",
+  "name": "Rebecca Cooke",
+  "grade": "D",
+  "gradeNote": "Pro-choice and endorsed by EMILY's List and the Brady Campaign, rated F by NRA-PVF; the Blue Dog PAC endorsement suggests a more moderate fiscal stance.",
+  "description": "Small-business owner and 2024 Democratic nominee; Democratic candidate for U.S. House District 3.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/73090/race/34166/election/1497",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://en.wikipedia.org/wiki/Rebecca_Cooke_(politician)",
+   "https://emilyslist.org/news/emilys-list-endorses-rebecca-cooke-for-wisconsins-3rd-congressional-district-2/",
+   "https://bluedogdems.com/blue-dog-pac-endorses-rebecca-cooke-in-wisconsins-third-congressional-district/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Describes herself as pro-choice, saying abortion should be free from governmental interference; endorsed by EMILY's List.",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026; endorsed by the Brady Campaign per iVoterGuide.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "Endorsed by the Blue Dog PAC, a fiscally moderate Democratic group; no tax or spending record captured."
+  }
+ },
+ {
+  "office": "United States Representative, District 3",
+  "name": "Alexander Valiensi Kent",
+  "grade": null,
+  "gradeNote": "No meaningful positions found beyond an iVoterGuide rating of Liberal.",
+  "description": "Independent candidate for U.S. House District 3.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/97375/race/34166/election/1497"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "United States Representative, District 3",
+  "name": "Rustin Provance",
+  "grade": null,
+  "gradeNote": "No meaningful positions found beyond an iVoterGuide rating of Leans Liberal.",
+  "description": "Independent candidate for U.S. House District 3.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/81666/race/34166/election/1497"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "United States Representative, District 4",
+  "name": "Tim Rogers",
+  "grade": "B",
+  "gradeNote": "Rated Conservative by iVoterGuide and campaigns on universal school choice and lower taxes; no specific records found on life, marriage or guns.",
+  "description": "Milwaukee native and repeat Republican nominee (2020-2024); Republican candidate for U.S. House District 4.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/42023/race/34167/election/1497",
+   "https://www.wuwm.com/wisconsins-4th-congressional-district-candidates-2026",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; party inference.",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "No specific position found; his 2026 NRA-PVF grade is listed as '?'.",
+   "limitedGov": "Lists universal school choice among his priorities.",
+   "fiscal": "Lists lower taxes among his priorities."
+  }
+ },
+ {
+  "office": "United States Representative, District 4",
+  "name": "Gwen Moore",
+  "grade": "F",
+  "gradeNote": "Rated F by SBA Pro-Life America and NRA-PVF, voted against H.R. 28, and holds an 8% lifetime Club for Growth score.",
+  "description": "U.S. Representative for Wisconsin's 4th District (incumbent since 2005); Democrat.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=WI&rep",
+   "https://clerk.house.gov/Votes/202512",
+   "https://wpr.org/politics/wisconsin-us-house-votes-respect-marriage-act-equality",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated F by SBA Pro-Life America.",
+   "marriage": "Voted yes on the Respect for Marriage Act (2022) and no on H.R. 28 (2025).",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026.",
+   "limitedGov": "No specific position found; iVoterGuide rates her Verified Liberal.",
+   "fiscal": "Club for Growth score of 6% (2025), 8% lifetime."
+  }
+ },
+ {
+  "office": "United States Representative, District 4",
+  "name": "Arthur Burks",
+  "grade": null,
+  "gradeNote": "No meaningful positions found; iVoterGuide lists insufficient information.",
+  "description": "Independent candidate for U.S. House District 4.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/97377/race/34167/election/1497"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "United States Representative, District 5",
+  "name": "Scott Fitzgerald",
+  "grade": "A",
+  "gradeNote": "Rated A+ by SBA Pro-Life America and A (endorsed) by NRA-PVF, voted against the Respect for Marriage Act, and holds a 95% Club for Growth score for 2025.",
+  "description": "U.S. Representative for Wisconsin's 5th District (incumbent since 2021) and former state Senate majority leader; Republican.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=WI&rep",
+   "https://wpr.org/politics/wisconsin-us-house-votes-respect-marriage-act-equality",
+   "https://clerk.house.gov/Votes/202512",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated A+ by SBA Pro-Life America.",
+   "marriage": "Voted no on the Respect for Marriage Act (2022) and yes on H.R. 28 (2025).",
+   "religiousLiberty": "No specific religious-liberty record found; iVoterGuide rates him Conservative.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "No limited-government scorecard captured beyond Club for Growth.",
+   "fiscal": "Club for Growth score of 95% (2025), 87% lifetime."
+  }
+ },
+ {
+  "office": "United States Representative, District 5",
+  "name": "Andrew Beck",
+  "grade": "D",
+  "gradeNote": "Rated F by NRA-PVF and Liberal by iVoterGuide; no other specific records found.",
+  "description": "Democratic candidate for U.S. House District 5.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/96912/race/34168/election/1497",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; party inference.",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "No specific position found; party inference."
+  }
+ },
+ {
+  "office": "United States Representative, District 6",
+  "name": "Glenn Grothman",
+  "grade": "A",
+  "gradeNote": "Rated A+ by SBA Pro-Life America and A (endorsed) by NRA-PVF, voted against the Respect for Marriage Act, and scored 100% with Club for Growth in 2025.",
+  "description": "U.S. Representative for Wisconsin's 6th District (incumbent since 2015); Republican.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=WI&rep",
+   "https://wpr.org/politics/wisconsin-us-house-votes-respect-marriage-act-equality",
+   "https://clerk.house.gov/Votes/202512",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated A+ by SBA Pro-Life America.",
+   "marriage": "Voted no on the Respect for Marriage Act (2022) and yes on H.R. 28 (2025).",
+   "religiousLiberty": "No specific religious-liberty record found; iVoterGuide rates him Verified Conservative.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "No limited-government scorecard captured beyond Club for Growth.",
+   "fiscal": "Club for Growth score of 100% (2025), 87% lifetime."
+  }
+ },
+ {
+  "office": "United States Representative, District 6",
+  "name": "Brad Smith",
+  "grade": "F",
+  "gradeNote": "His own survey answers support taxpayer funding for abortion providers, same-sex civil marriage, universal background checks and red-flag laws, and higher taxes on those who can afford them.",
+  "description": "Wisconsin National Guard veteran and business consultant; Democratic candidate for U.S. House District 6.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/96922/race/34169/election/1497"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "On his iVoterGuide survey he strongly disagreed that life deserves legal protection from conception and supported taxpayer funding for abortion providers including Planned Parenthood.",
+   "marriage": "Strongly disagreed that marriage is limited to one man and one woman and opposed a blanket rule keeping biological males out of women's sports.",
+   "religiousLiberty": "Said neither individuals nor businesses should have a blanket right to refuse services on religious grounds, while protecting religious institutions.",
+   "secondAmendment": "Supports universal background checks, safe-storage requirements and extreme-risk (red-flag) protections.",
+   "limitedGov": "Strongly disagreed with eliminating the U.S. Department of Education; supports a government insurance option for all who want it.",
+   "fiscal": "Strongly agreed that those who can afford it should pay more in taxes, while supporting spending cuts that spare family programs."
+  }
+ },
+ {
+  "office": "United States Representative, District 6",
+  "name": "Matthew Arndt",
+  "grade": null,
+  "gradeNote": "No meaningful positions found beyond an iVoterGuide rating of Liberal.",
+  "description": "Wisconsin Green Party candidate for U.S. House District 6.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/97380/race/34169/election/1497"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "United States Representative, District 6",
+  "name": "Elizabeth Anne Fitzgibbon",
+  "grade": null,
+  "gradeNote": "No meaningful positions found beyond an iVoterGuide rating of Leans Conservative.",
+  "description": "Independent candidate for U.S. House District 6.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/97378/race/34169/election/1497"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "United States Representative, District 6",
+  "name": "Mike Thurow",
+  "grade": null,
+  "gradeNote": "No meaningful positions found beyond an iVoterGuide rating of Liberal.",
+  "description": "Independent candidate for U.S. House District 6.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/97379/race/34169/election/1497"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "United States Representative, District 7",
+  "name": "Michael Alfonso",
+  "grade": "B",
+  "gradeNote": "Endorsed by NRA-PVF (AQ), Pro-Life Wisconsin Victory Fund PAC, Wisconsin Family Action PAC and CatholicVote; no voting record.",
+  "description": "Former podcast producer; Republican nominee for the open 7th District seat.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/89067/race/34170/election/1497",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://wisconsinexaminer.com/2026/08/11/alfonso-carries-gop-primary-in-wisconsins-7th-cd/"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Pro-Life Wisconsin Victory Fund PAC.",
+   "marriage": "Endorsed by Wisconsin Family Action PAC; no specific statements captured.",
+   "religiousLiberty": "Endorsed by CatholicVote; no specific statements captured.",
+   "secondAmendment": "Rated AQ and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "No specific position found; iVoterGuide rates him Conservative.",
+   "fiscal": "No specific position found; party inference."
+  }
+ },
+ {
+  "office": "United States Representative, District 7",
+  "name": "Fred Clark",
+  "grade": "D",
+  "gradeNote": "Scored 100% with Planned Parenthood Advocates of Wisconsin and A with NARAL as a legislator; rated F by NRA-PVF, with low ACU (20%) and NFIB (33%) scores.",
+  "description": "Former state representative; Democratic candidate for U.S. House District 7.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/1682/race/34170/election/1497",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "NARAL Pro-Choice Wisconsin grade of A and Planned Parenthood Advocates of Wisconsin score of 100% (2012).",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026.",
+   "limitedGov": "American Conservative Union score of 20% (2013).",
+   "fiscal": "NFIB-Wisconsin score of 33% (2013-14)."
+  }
+ },
+ {
+  "office": "United States Representative, District 8",
+  "name": "Tony Wied",
+  "grade": "B",
+  "gradeNote": "Rated A+ by SBA Pro-Life America and A (endorsed) by NRA-PVF, with a 95% Club for Growth score.",
+  "description": "U.S. Representative for Wisconsin's 8th District (incumbent since 2024); Republican.",
+  "website": null,
+  "sources": [
+   "https://sbaprolife.org/scorecard",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.clubforgrowth.org/scorecards/app/?party=all&chamber=H&yr=2025&state=WI&rep",
+   "https://clerk.house.gov/Votes/202512",
+   "https://ivoterguide.com/voter-guide/state/wisconsin"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Rated A+ by SBA Pro-Life America.",
+   "marriage": "Voted yes on H.R. 28 (2025) restricting women's sports to biological females; no marriage votes captured.",
+   "religiousLiberty": "No specific religious-liberty record found; iVoterGuide rates him Conservative.",
+   "secondAmendment": "Rated A and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "No limited-government scorecard captured beyond Club for Growth.",
+   "fiscal": "Club for Growth score of 95% (2025), 95% lifetime."
+  }
+ },
+ {
+  "office": "United States Representative, District 8",
+  "name": "Rick Crosson",
+  "grade": "D",
+  "gradeNote": "Rated F by NRA-PVF and Liberal by iVoterGuide; no other specific records found.",
+  "description": "2025 Green Bay school board candidate; Democratic candidate for U.S. House District 8.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/87036/race/34171/election/1497",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; party inference.",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "No specific position found; party inference."
+  }
+ }
+]
