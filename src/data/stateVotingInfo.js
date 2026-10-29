@@ -98,6 +98,28 @@ export const STATE_VOTING_INFO = {
       polling: 'Wisconsin polls are open 7:00 AM – 8:00 PM. If you\'re in line by 8 PM, you will be allowed to vote. Absentee ballots must be received by 8 PM on Election Day — postmarks do not count.',
     },
   },
+  MN: {
+    code: 'MN',
+    name: 'Minnesota',
+    sourceName: 'Minnesota Secretary of State',
+    voterSite: 'https://www.sos.state.mn.us/elections-voting/',
+    voterSiteName: 'the Minnesota Secretary of State',
+    registerUrl: 'https://mnvotes.sos.mn.gov/VoterRegistration/index',
+    absenteeUrl: 'https://mnvotes.sos.mn.gov/ABRegistration/index',
+    sameDayRegistration: true,
+    electionDayText: 'Polls are open 7 a.m. – 8 p.m. (some small townships open as late as 10 a.m.). You can register at your polling place with proof of residence.',
+    deadlines: [
+      { date: '2026-09-18T12:00:00', label: 'Early voting begins', action: 'Find early voting', href: 'https://www.sos.state.mn.us/elections-voting/other-ways-to-vote/vote-early-in-person/' },
+      { date: '2026-10-13T12:00:00', label: 'Pre-registration deadline', action: 'Check registration', href: 'https://mnvotes.sos.mn.gov/VoterStatus.aspx' },
+      { date: '2026-11-02T12:00:00', label: 'Last day of early voting', action: 'Find early voting', href: 'https://www.sos.state.mn.us/elections-voting/other-ways-to-vote/vote-early-in-person/' },
+      { date: '2026-11-03T12:00:00', label: 'General Election Day', action: 'Find your polling place', href: 'https://pollfinder.sos.mn.gov/' },
+    ],
+    checklist: {
+      id: "Minnesota does not require ID to vote if you're already registered. If you register at the polls, bring proof of residence, such as a Minnesota driver's license or ID with your current address.",
+      registration: 'Pre-registration closed October 13, but Minnesota allows Election Day registration at your polling place with proof of residence.',
+      polling: "Minnesota polls are open 7:00 AM – 8:00 PM. If you're in line by 8 PM, you will be allowed to vote. Absentee ballots must be received by Election Day — check the deadline with your county.",
+    },
+  },
 }
 
 export const getStateVotingInfo = code => STATE_VOTING_INFO[code] || STATE_VOTING_INFO.MI

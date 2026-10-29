@@ -1,0 +1,527 @@
+{
+ "sourceWriteTime": "2026-10-29T03:27:29.258Z",
+ "counties": [
+  {
+   "county": "Aitkin",
+   "slug": "aitkin",
+   "races": 97,
+   "referendums": 4
+  },
+  {
+   "county": "Anoka",
+   "slug": "anoka",
+   "races": 76,
+   "referendums": 6
+  },
+  {
+   "county": "Becker",
+   "slug": "becker",
+   "races": 56,
+   "referendums": 11
+  },
+  {
+   "county": "Beltrami",
+   "slug": "beltrami",
+   "races": 48,
+   "referendums": 2
+  },
+  {
+   "county": "Benton",
+   "slug": "benton",
+   "races": 44,
+   "referendums": 1
+  },
+  {
+   "county": "Big Stone",
+   "slug": "big-stone",
+   "races": 51,
+   "referendums": 3
+  },
+  {
+   "county": "Blue Earth",
+   "slug": "blue-earth",
+   "races": 101,
+   "referendums": 2
+  },
+  {
+   "county": "Brown",
+   "slug": "brown",
+   "races": 52,
+   "referendums": 1
+  },
+  {
+   "county": "Carlton",
+   "slug": "carlton",
+   "races": 73,
+   "referendums": 1
+  },
+  {
+   "county": "Carver",
+   "slug": "carver",
+   "races": 72,
+   "referendums": 2
+  },
+  {
+   "county": "Cass",
+   "slug": "cass",
+   "races": 161,
+   "referendums": 13
+  },
+  {
+   "county": "Chippewa",
+   "slug": "chippewa",
+   "races": 40,
+   "referendums": 4
+  },
+  {
+   "county": "Chisago",
+   "slug": "chisago",
+   "races": 55,
+   "referendums": 1
+  },
+  {
+   "county": "Clay",
+   "slug": "clay",
+   "races": 56,
+   "referendums": 4
+  },
+  {
+   "county": "Clearwater",
+   "slug": "clearwater",
+   "races": 58,
+   "referendums": 1
+  },
+  {
+   "county": "Cook",
+   "slug": "cook",
+   "races": 15,
+   "referendums": 1
+  },
+  {
+   "county": "Cottonwood",
+   "slug": "cottonwood",
+   "races": 72,
+   "referendums": 6
+  },
+  {
+   "county": "Crow Wing",
+   "slug": "crow-wing",
+   "races": 113,
+   "referendums": 6
+  },
+  {
+   "county": "Dakota",
+   "slug": "dakota",
+   "races": 81,
+   "referendums": 4
+  },
+  {
+   "county": "Dodge",
+   "slug": "dodge",
+   "races": 28,
+   "referendums": 3
+  },
+  {
+   "county": "Douglas",
+   "slug": "douglas",
+   "races": 72,
+   "referendums": 4
+  },
+  {
+   "county": "Faribault",
+   "slug": "faribault",
+   "races": 49,
+   "referendums": 5
+  },
+  {
+   "county": "Fillmore",
+   "slug": "fillmore",
+   "races": 46,
+   "referendums": 4
+  },
+  {
+   "county": "Freeborn",
+   "slug": "freeborn",
+   "races": 65,
+   "referendums": 7
+  },
+  {
+   "county": "Goodhue",
+   "slug": "goodhue",
+   "races": 60,
+   "referendums": 3
+  },
+  {
+   "county": "Grant",
+   "slug": "grant",
+   "races": 59,
+   "referendums": 5
+  },
+  {
+   "county": "Hennepin",
+   "slug": "hennepin",
+   "races": 117,
+   "referendums": 5
+  },
+  {
+   "county": "Houston",
+   "slug": "houston",
+   "races": 33,
+   "referendums": 3
+  },
+  {
+   "county": "Hubbard",
+   "slug": "hubbard",
+   "races": 83,
+   "referendums": 10
+  },
+  {
+   "county": "Isanti",
+   "slug": "isanti",
+   "races": 63,
+   "referendums": 2
+  },
+  {
+   "county": "Itasca",
+   "slug": "itasca",
+   "races": 148,
+   "referendums": 4
+  },
+  {
+   "county": "Jackson",
+   "slug": "jackson",
+   "races": 37,
+   "referendums": 2
+  },
+  {
+   "county": "Kanabec",
+   "slug": "kanabec",
+   "races": 59,
+   "referendums": 3
+  },
+  {
+   "county": "Kandiyohi",
+   "slug": "kandiyohi",
+   "races": 50,
+   "referendums": 2
+  },
+  {
+   "county": "Kittson",
+   "slug": "kittson",
+   "races": 93,
+   "referendums": 2
+  },
+  {
+   "county": "Koochiching",
+   "slug": "koochiching",
+   "races": 38,
+   "referendums": 3
+  },
+  {
+   "county": "Lac Qui Parle",
+   "slug": "lac-qui-parle",
+   "races": 54,
+   "referendums": 6
+  },
+  {
+   "county": "Lake",
+   "slug": "lake",
+   "races": 26,
+   "referendums": 1
+  },
+  {
+   "county": "Lake Of The Woods",
+   "slug": "lake-of-the-woods",
+   "races": 27,
+   "referendums": 1
+  },
+  {
+   "county": "Le Sueur",
+   "slug": "le-sueur",
+   "races": 76,
+   "referendums": 2
+  },
+  {
+   "county": "Lincoln",
+   "slug": "lincoln",
+   "races": 36,
+   "referendums": 1
+  },
+  {
+   "county": "Lyon",
+   "slug": "lyon",
+   "races": 66,
+   "referendums": 2
+  },
+  {
+   "county": "Mahnomen",
+   "slug": "mahnomen",
+   "races": 36,
+   "referendums": 2
+  },
+  {
+   "county": "Marshall",
+   "slug": "marshall",
+   "races": 160,
+   "referendums": 4
+  },
+  {
+   "county": "Martin",
+   "slug": "martin",
+   "races": 45,
+   "referendums": 5
+  },
+  {
+   "county": "Mcleod",
+   "slug": "mcleod",
+   "races": 61,
+   "referendums": 7
+  },
+  {
+   "county": "Meeker",
+   "slug": "meeker",
+   "races": 46,
+   "referendums": 7
+  },
+  {
+   "county": "Mille Lacs",
+   "slug": "mille-lacs",
+   "races": 52,
+   "referendums": 1
+  },
+  {
+   "county": "Morrison",
+   "slug": "morrison",
+   "races": 97,
+   "referendums": 4
+  },
+  {
+   "county": "Mower",
+   "slug": "mower",
+   "races": 63,
+   "referendums": 3
+  },
+  {
+   "county": "Murray",
+   "slug": "murray",
+   "races": 46,
+   "referendums": 2
+  },
+  {
+   "county": "Nicollet",
+   "slug": "nicollet",
+   "races": 65,
+   "referendums": 5
+  },
+  {
+   "county": "Nobles",
+   "slug": "nobles",
+   "races": 80,
+   "referendums": 1
+  },
+  {
+   "county": "Norman",
+   "slug": "norman",
+   "races": 44,
+   "referendums": 1
+  },
+  {
+   "county": "Olmsted",
+   "slug": "olmsted",
+   "races": 41,
+   "referendums": 4
+  },
+  {
+   "county": "Otter Tail",
+   "slug": "otter-tail",
+   "races": 129,
+   "referendums": 14
+  },
+  {
+   "county": "Pennington",
+   "slug": "pennington",
+   "races": 41,
+   "referendums": 1
+  },
+  {
+   "county": "Pine",
+   "slug": "pine",
+   "races": 79,
+   "referendums": 3
+  },
+  {
+   "county": "Pipestone",
+   "slug": "pipestone",
+   "races": 34,
+   "referendums": 3
+  },
+  {
+   "county": "Polk",
+   "slug": "polk",
+   "races": 91,
+   "referendums": 5
+  },
+  {
+   "county": "Pope",
+   "slug": "pope",
+   "races": 66,
+   "referendums": 6
+  },
+  {
+   "county": "Ramsey",
+   "slug": "ramsey",
+   "races": 44,
+   "referendums": 5
+  },
+  {
+   "county": "Red Lake",
+   "slug": "red-lake",
+   "races": 51,
+   "referendums": 1
+  },
+  {
+   "county": "Redwood",
+   "slug": "redwood",
+   "races": 64,
+   "referendums": 2
+  },
+  {
+   "county": "Renville",
+   "slug": "renville",
+   "races": 49,
+   "referendums": 5
+  },
+  {
+   "county": "Rice",
+   "slug": "rice",
+   "races": 33,
+   "referendums": 1
+  },
+  {
+   "county": "Rock",
+   "slug": "rock",
+   "races": 45,
+   "referendums": 5
+  },
+  {
+   "county": "Roseau",
+   "slug": "roseau",
+   "races": 99,
+   "referendums": 2
+  },
+  {
+   "county": "Scott",
+   "slug": "scott",
+   "races": 60,
+   "referendums": 3
+  },
+  {
+   "county": "Sherburne",
+   "slug": "sherburne",
+   "races": 62,
+   "referendums": 2
+  },
+  {
+   "county": "Sibley",
+   "slug": "sibley",
+   "races": 67,
+   "referendums": 5
+  },
+  {
+   "county": "St. Louis",
+   "slug": "st-louis",
+   "races": 139,
+   "referendums": 7
+  },
+  {
+   "county": "Stearns",
+   "slug": "stearns",
+   "races": 110,
+   "referendums": 8
+  },
+  {
+   "county": "Steele",
+   "slug": "steele",
+   "races": 26,
+   "referendums": 2
+  },
+  {
+   "county": "Stevens",
+   "slug": "stevens",
+   "races": 39,
+   "referendums": 4
+  },
+  {
+   "county": "Swift",
+   "slug": "swift",
+   "races": 57,
+   "referendums": 3
+  },
+  {
+   "county": "Todd",
+   "slug": "todd",
+   "races": 75,
+   "referendums": 5
+  },
+  {
+   "county": "Traverse",
+   "slug": "traverse",
+   "races": 64,
+   "referendums": 5
+  },
+  {
+   "county": "Wabasha",
+   "slug": "wabasha",
+   "races": 61,
+   "referendums": 3
+  },
+  {
+   "county": "Wadena",
+   "slug": "wadena",
+   "races": 42,
+   "referendums": 2
+  },
+  {
+   "county": "Waseca",
+   "slug": "waseca",
+   "races": 34,
+   "referendums": 2
+  },
+  {
+   "county": "Washington",
+   "slug": "washington",
+   "races": 86,
+   "referendums": 3
+  },
+  {
+   "county": "Watonwan",
+   "slug": "watonwan",
+   "races": 53,
+   "referendums": 1
+  },
+  {
+   "county": "Wilkin",
+   "slug": "wilkin",
+   "races": 33,
+   "referendums": 3
+  },
+  {
+   "county": "Winona",
+   "slug": "winona",
+   "races": 59,
+   "referendums": 3
+  },
+  {
+   "county": "Wright",
+   "slug": "wright",
+   "races": 75,
+   "referendums": 5
+  },
+  {
+   "county": "Yellow Medicine",
+   "slug": "yellow-medicine",
+   "races": 45,
+   "referendums": 2
+  }
+ ]
+}

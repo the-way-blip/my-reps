@@ -1,0 +1,135 @@
+MN;;;6003;Hospital District Board Member (Bruno);08290;9001;Douglas Blechinger;;;NP;1;1;1;33.33;3
+MN;;;6003;Hospital District Board Member (Bruno);08290;9901;WRITE-IN;;;WI;1;1;2;66.67;3
+MN;;;6003;Hospital District Board Member (Clover Township);12268;9901;WRITE-IN;;;WI;1;1;2;100.00;2
+MN;;;6001;Hospital District Board Member At Large (North Pine Area);1410;9901;WRITE-IN;;;WI;18;18;40;100.00;40
+MN;;;6003;Hospital District Board Member (Dell Grove Township);15598;9001;Catherine VonRueden;;;NP;1;1;1;33.33;3
+MN;;;6003;Hospital District Board Member (Dell Grove Township);15598;9901;WRITE-IN;;;WI;1;1;2;66.67;3
+MN;;;6003;Hospital District Board Member (Finlayson Township);21140;9901;WRITE-IN;;;WI;1;1;4;100.00;4
+MN;;;6003;Hospital District Board Member (Hinckley);29294;9001;Douglas Paul Driver;;;NP;1;1;1;33.33;3
+MN;;;6003;Hospital District Board Member (Hinckley);29294;9901;WRITE-IN;;;WI;1;1;2;66.67;3
+MN;;;6003;Hospital District Board Member (Hinckley Township);29312;9001;Robert Springer;;;NP;1;1;1;33.33;3
+MN;;;6003;Hospital District Board Member (Hinckley Township);29312;9901;WRITE-IN;;;WI;1;1;2;66.67;3
+MN;;;6003;Special Election for Hospital District Board Member (New Dosey Township);45484;9001;Don Eddy;;;NP;1;1;1;33.33;3
+MN;;;6003;Special Election for Hospital District Board Member (New Dosey Township);45484;9901;WRITE-IN;;;WI;1;1;2;66.67;3
+MN;;;6003;Hospital District Board Member (Ogema Township);48148;9001;Michael Waggoner;;;NP;1;1;1;33.33;3
+MN;;;6003;Hospital District Board Member (Ogema Township);48148;9901;WRITE-IN;;;WI;1;1;2;66.67;3
+MN;;;6003;Hospital District Board Member (Partridge Township);49876;9001;Tony Ecklund;;;NP;1;1;1;33.33;3
+MN;;;6003;Hospital District Board Member (Partridge Township);49876;9901;WRITE-IN;;;WI;1;1;2;66.67;3
+MN;;;6003;Hospital District Board Member (Pine Lake Township);51226;9001;Tracey L Tokheim;;;NP;1;1;1;33.33;3
+MN;;;6003;Hospital District Board Member (Pine Lake Township);51226;9901;WRITE-IN;;;WI;1;1;2;66.67;3
+MN;;;6003;Hospital District Board Member (Willow River);70492;9901;WRITE-IN;;;WI;1;1;2;100.00;2
+MN;;;6003;Hospital District Board Member (Big Falls);05680;9001;Dan (Casey) Sursely;;;NP;1;1;2;33.33;6
+MN;;;6003;Hospital District Board Member (Big Falls);05680;9901;WRITE-IN;;;WI;1;1;4;66.67;6
+MN;;;6003;Hospital District Board Member (Bigfork);05698;9001;Daniel Heinecke;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Bigfork);05698;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Carpenter Township);10072;9001;Christina Renner;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Carpenter Township);10072;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6000;Hospital District Board Member At Large Itasca (Northern Itasca);1430;9001;Ellen Bomstad;;;NP;0;11;0;0.00;0
+MN;;;6000;Hospital District Board Member At Large Itasca (Northern Itasca);1430;9002;Carol Ann Gilbertson;;;NP;0;11;0;0.00;0
+MN;;;6000;Hospital District Board Member At Large Koochiching (Northern Itasca);1430;9901;WRITE-IN;;;WI;2;2;12;100.00;12
+MN;;;6000;Hospital District Board Member At Large Itasca (Northern Itasca);1430;9901;WRITE-IN;;;WI;0;11;0;0.00;0
+MN;;;6003;Hospital District Board Member (Marcell Township);40472;9001;Tracy Boldt;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Marcell Township);40472;9002;Matthew Niemala;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Marcell Township);40472;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Pomroy Township);51856;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6000;Hospital District Board Member At Large (Pelican Valley);1630;9001;Shannon Erickson;;;NP;9;9;39;33.33;117
+MN;;;6000;Hospital District Board Member At Large (Pelican Valley);1630;9901;WRITE-IN;;;WI;9;9;78;66.67;117
+MN;;;6003;Hospital District Board Member (Lida Township);36980;9001;Colleen Moerke;;;NP;1;1;3;33.33;9
+MN;;;6003;Hospital District Board Member (Lida Township);36980;9901;WRITE-IN;;;WI;1;1;6;66.67;9
+MN;;;6003;Hospital District Board Member (Maplewood Township);40364;9001;Brian Evenson;;;NP;1;1;3;33.33;9
+MN;;;6003;Hospital District Board Member (Maplewood Township);40364;9901;WRITE-IN;;;WI;1;1;6;66.67;9
+MN;;;6003;Hospital District Board Member (Pelican Rapids);50164;9901;WRITE-IN;;;WI;1;1;4;100.00;4
+MN;;;6003;Hospital District Board Member (Scambler Township);58864;9001;Margaret (Peg) Gilbertson;;;NP;1;1;3;33.33;9
+MN;;;6003;Hospital District Board Member (Scambler Township);58864;9901;WRITE-IN;;;WI;1;1;6;66.67;9
+MN;;;6003;Hospital District Board Member (Dent);15724;9001;Jared Bachelder;;;NP;1;1;3;33.33;9
+MN;;;6003;Hospital District Board Member (Dent);15724;9901;WRITE-IN;;;WI;1;1;6;66.67;9
+MN;;;6003;Hospital District Board Member (Dora Township);16120;9001;Thomas P. Meyer;;;NP;1;1;6;33.33;18
+MN;;;6003;Hospital District Board Member (Dora Township);16120;9901;WRITE-IN;;;WI;1;1;12;66.67;18
+MN;;;6003;Hospital District Board Member (Gorman Township);24632;9001;Alisyn Keil;;;NP;1;1;6;33.33;18
+MN;;;6003;Hospital District Board Member (Gorman Township);24632;9901;WRITE-IN;;;WI;1;1;12;66.67;18
+MN;;;6003;Hospital District Board Member (Otter Tail Township);49228;9001;Cyndy Rastedt;;;NP;1;1;9;33.33;27
+MN;;;6003;Hospital District Board Member (Otter Tail Township);49228;9901;WRITE-IN;;;WI;1;1;18;66.67;27
+MN;;;6003;Hospital District Board Member (Perham);50470;9001;Susan Huebsch;;;NP;1;1;3;33.33;9
+MN;;;6003;Hospital District Board Member (Perham);50470;9901;WRITE-IN;;;WI;1;1;6;66.67;9
+MN;;;6003;Hospital District Board Member (Perham Township);50488;9001;Richard Richter;;;NP;1;1;3;33.33;9
+MN;;;6003;Hospital District Board Member (Perham Township);50488;9901;WRITE-IN;;;WI;1;1;6;66.67;9
+MN;;;6003;Hospital District Board Member (Richville);54340;9901;WRITE-IN;;;WI;1;1;3;100.00;3
+MN;;;6003;Hospital District Board Member (Canby) (Elect 2);09604;9001;Levi Bollerud;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Canby) (Elect 2);09604;9002;Kathy Merrill;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Canby) (Elect 2);09604;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6000;Hospital District Board Member at Large (Canby Community) (Elect 3);310;9001;David Hentges;;;NP;0;10;0;0.00;0
+MN;;;6000;Hospital District Board Member at Large (Canby Community) (Elect 3);310;9002;Chris Nemitz;;;NP;0;10;0;0.00;0
+MN;;;6000;Hospital District Board Member at Large (Canby Community) (Elect 3);310;9003;Diana Fliss;;;NP;0;10;0;0.00;0
+MN;;;6000;Hospital District Board Member at Large (Canby Community) (Elect 3);310;9901;WRITE-IN;;;WI;0;10;0;0.00;0
+MN;;;6003;Hospital District Board Member 1 (Cook County);340;9001;Patricia Winchell-Dahl;;;NP;3;3;19;100.00;19
+MN;;;6003;Hospital District Board Member 1 (Cook County);340;9901;WRITE-IN;;;WI;3;3;0;0.00;19
+MN;;;6005;Hospital District Board Member 3 (Cook County);340;9001;Steven Frykman;;;NP;2;2;13;39.39;33
+MN;;;6005;Hospital District Board Member 3 (Cook County);340;9002;Sharon Graif Berglund;;;NP;2;2;19;57.58;33
+MN;;;6005;Hospital District Board Member 3 (Cook County);340;9901;WRITE-IN;;;WI;2;2;1;3.03;33
+MN;;;6007;Hospital District Board Member 5 (Cook County);340;9001;Randy Wiitala;;;NP;4;4;17;38.64;44
+MN;;;6007;Hospital District Board Member 5 (Cook County);340;9002;Pat Campanaro;;;NP;4;4;27;61.36;44
+MN;;;6007;Hospital District Board Member 5 (Cook County);340;9901;WRITE-IN;;;WI;4;4;0;0.00;44
+MN;;;6003;Hospital District Board Member (Bay Lake Township);04096;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Cuyuna);14428;9001;Rebecca Pakarinen;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Cuyuna);14428;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Deerwood);15346;9001;Julie Mohs;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Deerwood);15346;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Emily);19286;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Irondale Township);31202;9001;Brian Biever;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Irondale Township);31202;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Ironton);31274;9001;Michael Domin;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Ironton);31274;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Dean Lake);350;9001;Lori Burgstaler;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Dean Lake);350;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Perry Lake Township);50542;9001;Ray Montzka;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Perry Lake Township);50542;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Riverton);54736;9001;Mary A. Peterson;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Riverton);54736;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Trommald);65506;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Wolford Township);71374;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Beatty Township);04294;9001;Philip C. Simensen;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Beatty Township);04294;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Camp 5 Township);09482;9001;Lisa Tosel;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Camp 5 Township);09482;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Field Township);20996;9001;Michael Enzmann;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Field Township);20996;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Goodwill Township);24533;9001;Don Potter;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Goodwill Township);24533;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Kabetogama Township);32252;9001;John Stegmeir;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Kabetogama Township);32252;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Leiding Township);36332;9001;Wendy Long;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Leiding Township);36332;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Linden Grove Township);37250;9001;Elizabeth Dahl;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Linden Grove Township);37250;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Dawson);14968;9001;Musarrat Virji;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Dawson);14968;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Lac Qui Parle Township);33848;9001;Jay Kleven;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Lac Qui Parle Township);33848;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6000;Special Election for Hospital District Board Member At Large (Dawson Area);410;9001;Kiona Hermanson;;;NP;0;8;0;0.00;0
+MN;;;6000;Special Election for Hospital District Board Member At Large (Dawson Area);410;9901;WRITE-IN;;;WI;0;8;0;0.00;0
+MN;;;6003;Hospital District Board Member (Maxwell Township);41084;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Providence Township);52702;9001;Todd Bach;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Providence Township);52702;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Gilchrist Township);23750;9001;Laurie Rothers;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Gilchrist Township);23750;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Grove Lake Township);26162;9001;June Helen Wheeler;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Grove Lake Township);26162;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Leven Township);36764;9001;Dorothy A. Gaffaney;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Leven Township);36764;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Long Beach);37970;9001;Mary Sturm Krueger;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Long Beach);37970;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Reno Township);53854;9001;Ivan Fossen;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Reno Township);53854;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Sedan);59188;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Westport Township);69646;9001;Bruce Harvey;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Westport Township);69646;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6000;Hospital District Board Member At Large (Glacial Ridge);710;9001;Dennis Martinson;;;NP;1;17;5;33.33;15
+MN;;;6000;Hospital District Board Member At Large (Glacial Ridge);710;9901;WRITE-IN;;;WI;1;17;10;66.67;15
+MN;;;6003;Hospital District Board Member (Becker Township);04600;9001;Mary Fitcher;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Becker Township);04600;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Byron Township);09136;9001;Bev Hoemberg;;;NP;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Byron Township);09136;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Moran Township);44062;9901;WRITE-IN;;;WI;1;1;18;100.00;18
+MN;;;6003;Hospital District Board Member (Motley Township);44440;9901;WRITE-IN;;;WI;0;1;0;0.00;0
+MN;;;6003;Hospital District Board Member (Staples);62446;9901;WRITE-IN;;;WI;2;2;10;100.00;10
+MN;;;6003;Hospital District Board Member (Thomastown Township);64624;9901;WRITE-IN;;;WI;1;1;8;100.00;8

@@ -176,7 +176,7 @@ export async function geocodeToDistrict(query) {
     }
     if (lower === 'county subdivisions' && val?.[0]) {
       countySubdivision = val[0].BASENAME || val[0].NAME || null
-      countySubFips = val[0].COUSUBFP || null
+      countySubFips = val[0].COUSUB || val[0].COUSUBFP || null
     }
     if (lower.includes('school district') && val?.[0]) {
       schoolDistrict = val[0].BASENAME || val[0].NAME || null

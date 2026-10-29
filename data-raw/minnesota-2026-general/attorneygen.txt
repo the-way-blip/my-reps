@@ -1,0 +1,3 @@
+MN;;;0335;Attorney General;;0401;Keith Ellison;;;DFL;1663;4105;14562;27.02;53899
+MN;;;0335;Attorney General;;0302;Ronald J. Schutz;;;R;1663;4105;17294;32.09;53899
+MN;;;0335;Attorney General;;9901;WRITE-IN;;;WI;1663;4105;22043;40.90;53899
