@@ -108,7 +108,7 @@ const issue = { id: 'oh-state-issue-3', name: `State Issue 3 — ${issue3.title.
 const index = []
 for (const county of counties) {
   const district = Object.entries(APPEALS).find(([, cs]) => cs.includes(county))[0]
-  const countyRaces = appeals.filter(x => x.info.district === district).map(x => race(x.c, x.info, x.i))
+  const countyRaces = appeals.filter(x => x.info.district === Number(district)).map(x => race(x.c, x.info, x.i))
   writeFileSync(path.join(OUT, `${slug(county)}.json`), JSON.stringify({ state: 'OH', county, source: 'Ohio Secretary of State', generatedAt, localComplete: false, races: countyRaces, referendums: [issue] }))
   index.push({ county, slug: slug(county), appealsDistrict: Number(district), races: countyRaces.length })
 }
