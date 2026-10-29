@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- viewport-fit=cover is added at runtime for the native app / home-screen install only (src/main.jsx):
+         in Safari it pushes Safari's Smart App Banner under the status bar. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Of For & By The People — Vote Your Values</title>
     <meta name="description" content="See every race on your November 3 ballot — candidates graded on Christian and Constitutional values. Free, independent, no sign-up." />
     <meta name="theme-color" content="#0B2E59" />
