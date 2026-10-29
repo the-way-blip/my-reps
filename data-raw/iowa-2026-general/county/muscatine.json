@@ -1,0 +1,449 @@
+{
+ "county": "Muscatine",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.muscatinecountyiowa.gov/elections/2026_general_election_1969_12_31/",
+  "https://www.muscatinecountyiowa.gov/files/sample_ballots/1242_cedar_township_57426.pdf",
+  "https://www.muscatinecountyiowa.gov/files/public_notice/2026_general_election_54511.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Danny Chick Jr.",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kurt Kirchner",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 5",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nick Doy",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kim Olson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sarah Bodman Hearst",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Korie Talkington",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Bloomington Township Trustee",
+   "scope": "township",
+   "area": "Bloomington",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Scott Carver",
+     "party": null
+    },
+    {
+     "name": "Gerald L. Rieke Jr.",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bloomington Township Clerk",
+   "scope": "township",
+   "area": "Bloomington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jerry L. Timm",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Randall Eichelberger",
+     "party": null
+    },
+    {
+     "name": "Robert L. Beatty",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kelsey Meyers",
+     "party": null
+    },
+    {
+     "name": "Sara Fitzer-Huston",
+     "party": null
+    },
+    {
+     "name": "Katelyn S. Ellenberg",
+     "party": null
+    },
+    {
+     "name": "Amber Marolf",
+     "party": null
+    },
+    {
+     "name": "Tyler Feldman",
+     "party": null
+    },
+    {
+     "name": "Mary Ann Danner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Trustee",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Cedar Township Clerk",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dana Pittman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fruitland Township Clerk",
+   "scope": "township",
+   "area": "Fruitland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David B. Carstens",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fulton Township Trustee",
+   "scope": "township",
+   "area": "Fulton",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Keith Martz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fulton Township Clerk",
+   "scope": "township",
+   "area": "Fulton",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rick Riessen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Goshen Township Trustee",
+   "scope": "township",
+   "area": "Goshen",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Chad D. Morrison",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Goshen Township Clerk",
+   "scope": "township",
+   "area": "Goshen",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lake Township Trustee",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lake Township Clerk",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Randall Eichelberger",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Montpelier Township Trustee",
+   "scope": "township",
+   "area": "Montpelier",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Terry Ferkel",
+     "party": null
+    },
+    {
+     "name": "Clyde Gibson",
+     "party": null
+    },
+    {
+     "name": "Martin Paul",
+     "party": null
+    },
+    {
+     "name": "Antonio D. Harrington Jr",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Montpelier Township Clerk",
+   "scope": "township",
+   "area": "Montpelier",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James Bina",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Moscow Township Trustee",
+   "scope": "township",
+   "area": "Moscow",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dennis Anderson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Moscow Township Clerk",
+   "scope": "township",
+   "area": "Moscow",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kortney L. Denkman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Orono Township Trustee",
+   "scope": "township",
+   "area": "Orono",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Don McCullough Sr.",
+     "party": null
+    },
+    {
+     "name": "Terry A. Westaway",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Orono Township Clerk",
+   "scope": "township",
+   "area": "Orono",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Susan O'Donnell",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pike Township Trustee",
+   "scope": "township",
+   "area": "Pike",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Casey Hudson",
+     "party": null
+    },
+    {
+     "name": "Gene Hammons",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pike Township Clerk",
+   "scope": "township",
+   "area": "Pike",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jeff Chown",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Seventy-Six Township Trustee",
+   "scope": "township",
+   "area": "Seventy-Six",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Gary Hepker",
+     "party": null
+    },
+    {
+     "name": "Matthew Guldenpfennig",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Seventy-Six Township Clerk",
+   "scope": "township",
+   "area": "Seventy-Six",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Sweetland Township Trustee",
+   "scope": "township",
+   "area": "Sweetland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Daniel Dipple",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sweetland Township Clerk",
+   "scope": "township",
+   "area": "Sweetland",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Wapsinonic Township Trustee",
+   "scope": "township",
+   "area": "Wapsinonic",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Austin Maas",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wapsinonic Township Clerk",
+   "scope": "township",
+   "area": "Wapsinonic",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jerry Anderson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wilton Township Trustee",
+   "scope": "township",
+   "area": "Wilton",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Daniel Oien",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wilton Township Clerk",
+   "scope": "township",
+   "area": "Wilton",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [],
+ "notes": "Parsed from all 35 precinct sample ballots on the auditor's 2026 General Election page. Supervisor Districts 1, 2 and 5 appear on every precinct ballot, so supervisors are elected countywide (at-large with district residency), not district-only. Township contests appear only on that township's ballot; contests with empty candidate lists are write-in only. Fruitland Township shows a clerk contest only. Township spelled 'WAPSINONIC' on the ballot (precinct file named Wapsinonoc). The only public measure on the ballots is statewide Constitutional Amendment 1; no county/local measures."
+}

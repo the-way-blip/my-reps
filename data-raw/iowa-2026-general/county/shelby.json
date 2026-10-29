@@ -1,0 +1,347 @@
+{
+  "county": "Shelby",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://shelbycounty.iowa.gov/elections/november_3_2026_general_elections_2026_11_03/",
+    "https://shelbycounty.iowa.gov/files/sample_ballots/1142_township_cass_78903.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bryce Schaben",
+          "party": "republican"
+        },
+        {
+          "name": "Rick Kiesel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Carolyn Blum",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Geralyn S. Greer",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Marcus Gross Jr.",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Hospital Trustees",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Jim Zimmerman",
+          "party": null
+        },
+        {
+          "name": "Janis Norgaard",
+          "party": null
+        },
+        {
+          "name": "Heather Kohles",
+          "party": null
+        },
+        {
+          "name": "Kathleen Kohorst",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Allan A. Reinig",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Brenda Arkfeld",
+          "party": null
+        },
+        {
+          "name": "Elaine M. Baughman",
+          "party": null
+        },
+        {
+          "name": "Michael Joseph Rueschenberg",
+          "party": null
+        },
+        {
+          "name": "Mollie Hack",
+          "party": null
+        },
+        {
+          "name": "Amy M McLaughlin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cass Township Trustee",
+      "scope": "township",
+      "area": "Cass",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Cass Township Clerk",
+      "scope": "township",
+      "area": "Cass",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Center Township Trustee",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Center Township Clerk",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Clay Township Trustee",
+      "scope": "township",
+      "area": "Clay",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Clay Township Clerk",
+      "scope": "township",
+      "area": "Clay",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Douglas Township Trustee",
+      "scope": "township",
+      "area": "Douglas",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Douglas Township Clerk",
+      "scope": "township",
+      "area": "Douglas",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Fairview Township Trustee",
+      "scope": "township",
+      "area": "Fairview",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Fairview Township Clerk",
+      "scope": "township",
+      "area": "Fairview",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Greeley Township Trustee",
+      "scope": "township",
+      "area": "Greeley",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Greeley Township Clerk",
+      "scope": "township",
+      "area": "Greeley",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Grove Township Trustee",
+      "scope": "township",
+      "area": "Grove",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Grove Township Clerk",
+      "scope": "township",
+      "area": "Grove",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Jefferson Township Trustee",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Jefferson Township Clerk",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Monroe Township Trustee",
+      "scope": "township",
+      "area": "Monroe",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Monroe Township Clerk",
+      "scope": "township",
+      "area": "Monroe",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Polk Township Trustee",
+      "scope": "township",
+      "area": "Polk",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Polk Township Clerk",
+      "scope": "township",
+      "area": "Polk",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Shelby Township Trustee",
+      "scope": "township",
+      "area": "Shelby",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Shelby Township Clerk",
+      "scope": "township",
+      "area": "Shelby",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Union Township Trustee",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Union Township Clerk",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Westphalia Township Trustee",
+      "scope": "township",
+      "area": "Westphalia",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Westphalia Township Clerk",
+      "scope": "township",
+      "area": "Westphalia",
+      "seats": 1,
+      "candidates": []
+    }
+  ],
+  "measures": [],
+  "notes": "All 26 sample ballot styles are scanned images; contests transcribed visually (fronts and backs of every style checked). Board of Supervisors: one seat, vote for one, no district label, same race on every style (county-wide/at-large). Rick Kiesel is printed without a party abbreviation (party null; likely nominated by petition). All 16 township trustee/clerk races (vote for one each) have no printed candidates (write-in only). No county-level public measures (back of every style ends with Constitutional Amendment 1)."
+}

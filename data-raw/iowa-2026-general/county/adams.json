@@ -1,0 +1,142 @@
+{
+  "county": "Adams",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://adamscounty.iowa.gov/files/public_notice/general_election_40621.pdf",
+    "https://adamscounty.iowa.gov/elections/info/general_election_2026_11_03/",
+    "https://adamscounty.iowa.gov/files/sample_ballots/1107_adams_precinct_1_46627.pdf",
+    "https://adamscounty.iowa.gov/files/sample_ballots/1107_adams_precinct_2_70836.pdf",
+    "https://adamscounty.iowa.gov/files/sample_ballots/1107_adams_precinct_3_74085.pdf",
+    "https://adamscounty.iowa.gov/files/sample_ballots/1107_adams_precinct_4_94954.pdf",
+    "https://adamscounty.iowa.gov/files/sample_ballots/1107_adams_precinct_5_22872.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 1",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bobbi J. Maynes",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Scott Akin",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 4",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Leland Shipley",
+          "party": "republican"
+        },
+        {
+          "name": "Juli Cooper",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Holly Schafer",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jamie Stargell",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Andrew J. Knuth",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Auditor (To Fill a Vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Betsy Stormer",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Michael R. Olive",
+          "party": null
+        },
+        {
+          "name": "Rob Tucker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Brandie Kannas",
+          "party": null
+        },
+        {
+          "name": "Kim Pegg",
+          "party": null
+        },
+        {
+          "name": "Ashley Kahler",
+          "party": null
+        },
+        {
+          "name": "Kyle Shipley",
+          "party": null
+        },
+        {
+          "name": "Travis West",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Supervisor seats are by district; Districts 1, 3 and 4 are on the 2026 ballot (precincts Adams 1, 3, 4 respectively); voters see only their own district. Juli Cooper (District 4) is listed with no party. No township offices, hospital trustees or county/local public measures appear on any of the five precinct sample ballots."
+}

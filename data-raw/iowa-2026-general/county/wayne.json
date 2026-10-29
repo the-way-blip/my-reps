@@ -1,0 +1,578 @@
+{
+ "county": "Wayne",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://waynecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+  "https://waynecountyelections.iowa.gov/files/sample_ballots/1206_a01_allerton_cities_ballot00101_16701.pdf",
+  "https://waynecountyelections.iowa.gov/files/sample_ballots/1206_a01_allerton_precinct_clinton_township_ballot00102_55052.pdf",
+  "(plus the other 18 per-precinct sample ballot PDFs linked on the election page)"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, At-Large",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Lance K. Lange",
+     "party": "republican"
+    },
+    {
+     "name": "Christopher Moore",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Amanda Cooper",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Angie Horton",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Alan M. Wilson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Public Hospital Trustee",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Darrell Cook",
+     "party": null
+    },
+    {
+     "name": "Jason Gibbs",
+     "party": null
+    },
+    {
+     "name": "Misty Smotherman",
+     "party": null
+    },
+    {
+     "name": "Jill Tueth",
+     "party": null
+    },
+    {
+     "name": "DeWayne Watters",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Justin Hopkins",
+     "party": null
+    },
+    {
+     "name": "Mary Ellen Miller",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner, To Fill Vacancy",
+   "scope": "county",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Dave Daughton",
+     "party": null
+    },
+    {
+     "name": "Kristy Knutson",
+     "party": null
+    },
+    {
+     "name": "Julie Rector",
+     "party": null
+    },
+    {
+     "name": "Lindsey Westphal",
+     "party": null
+    },
+    {
+     "name": "Amy Wood",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clinton Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jerry Clow",
+     "party": null
+    },
+    {
+     "name": "Ralph Richardson",
+     "party": null
+    }
+   ],
+   "area": "Clinton"
+  },
+  {
+   "office": "Clinton Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jennie Clow",
+     "party": null
+    }
+   ],
+   "area": "Clinton"
+  },
+  {
+   "office": "Grand River Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Cole Ellis",
+     "party": null
+    },
+    {
+     "name": "Mike Ellis",
+     "party": null
+    }
+   ],
+   "area": "Grand River"
+  },
+  {
+   "office": "Grand River Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jani Ellis",
+     "party": null
+    }
+   ],
+   "area": "Grand River"
+  },
+  {
+   "office": "Howard Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Don Liggett",
+     "party": null
+    },
+    {
+     "name": "Arthur Snider",
+     "party": null
+    }
+   ],
+   "area": "Howard"
+  },
+  {
+   "office": "Howard Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lois Phillips",
+     "party": null
+    }
+   ],
+   "area": "Howard"
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Gabe Hook",
+     "party": null
+    },
+    {
+     "name": "Tyson Polsdofer",
+     "party": null
+    }
+   ],
+   "area": "Jackson"
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nick Sulser",
+     "party": null
+    }
+   ],
+   "area": "Jackson"
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Richard Casey",
+     "party": null
+    },
+    {
+     "name": "Zachary Robinson",
+     "party": null
+    }
+   ],
+   "area": "Jefferson"
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sheena Robinson",
+     "party": null
+    }
+   ],
+   "area": "Jefferson"
+  },
+  {
+   "office": "Warren Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Rhonda Bennett",
+     "party": null
+    },
+    {
+     "name": "Tim Couchman",
+     "party": null
+    }
+   ],
+   "area": "Warren"
+  },
+  {
+   "office": "Warren Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jean Wampler",
+     "party": null
+    }
+   ],
+   "area": "Warren"
+  },
+  {
+   "office": "Benton Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jane Cooley",
+     "party": null
+    },
+    {
+     "name": "Richard Crawford",
+     "party": null
+    }
+   ],
+   "area": "Benton"
+  },
+  {
+   "office": "Benton Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Denise Goben",
+     "party": null
+    }
+   ],
+   "area": "Benton"
+  },
+  {
+   "office": "Corydon Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dennis Campbell",
+     "party": null
+    },
+    {
+     "name": "Chase Clark",
+     "party": null
+    }
+   ],
+   "area": "Corydon"
+  },
+  {
+   "office": "Corydon Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brenda Dodson",
+     "party": null
+    }
+   ],
+   "area": "Corydon"
+  },
+  {
+   "office": "Clay Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Eric Couchman",
+     "party": null
+    },
+    {
+     "name": "Chuck McCullough",
+     "party": null
+    }
+   ],
+   "area": "Clay"
+  },
+  {
+   "office": "Clay Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Logan Wallace",
+     "party": null
+    }
+   ],
+   "area": "Clay"
+  },
+  {
+   "office": "Richman Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Tyler Anderson",
+     "party": null
+    },
+    {
+     "name": "Sheri Shanks",
+     "party": null
+    }
+   ],
+   "area": "Richman"
+  },
+  {
+   "office": "Richman Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Amy Peplinski",
+     "party": null
+    }
+   ],
+   "area": "Richman"
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Chad Lukavsky",
+     "party": null
+    },
+    {
+     "name": "Brent Werts",
+     "party": null
+    }
+   ],
+   "area": "Union"
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Union"
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Randy Hullinger",
+     "party": null
+    }
+   ],
+   "area": "Washington"
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cheri Nyberg",
+     "party": null
+    }
+   ],
+   "area": "Washington"
+  },
+  {
+   "office": "Monroe Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Donna Keller",
+     "party": null
+    },
+    {
+     "name": "Tom Lenig",
+     "party": null
+    }
+   ],
+   "area": "Monroe"
+  },
+  {
+   "office": "Monroe Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Stacey Westphal",
+     "party": null
+    }
+   ],
+   "area": "Monroe"
+  },
+  {
+   "office": "South Fork Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dale Clark",
+     "party": null
+    },
+    {
+     "name": "Doug Kent",
+     "party": null
+    }
+   ],
+   "area": "South Fork"
+  },
+  {
+   "office": "South Fork Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lisa Kent",
+     "party": null
+    }
+   ],
+   "area": "South Fork"
+  },
+  {
+   "office": "Walnut Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Don DeVore",
+     "party": null
+    },
+    {
+     "name": "Thomas E Sager",
+     "party": null
+    }
+   ],
+   "area": "Walnut"
+  },
+  {
+   "office": "Walnut Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ray Cook",
+     "party": null
+    }
+   ],
+   "area": "Walnut"
+  },
+  {
+   "office": "Wright Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Timothy Alexander",
+     "party": null
+    },
+    {
+     "name": "Doug Carpenter",
+     "party": null
+    }
+   ],
+   "area": "Wright"
+  },
+  {
+   "office": "Wright Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Angie Carpenter",
+     "party": null
+    }
+   ],
+   "area": "Wright"
+  }
+ ],
+ "measures": [],
+ "notes": "Source: 20 per-precinct official sample ballot PDFs (image-only scans; read via OCR and visually verified). Board of Supervisors is at-large: same 'vote for no more than two' contest with the same two candidates on every precinct ballot. Wayne County Public Hospital trustees (5) and an SWCD commissioner vacancy (no printed candidate, write-in only) are on all ballots. Township offices with empty candidate lists are write-in only. No county/local public measure on the general ballot (a separate LOST special election was held 2026-09-08)."
+}

@@ -1,0 +1,23 @@
+{
+ "county": "Carroll",
+ "found": false,
+ "partial": false,
+ "sources": [],
+ "triedUrls": [
+  "https://carrollcounty.iowa.gov/",
+  "https://carrollcounty.iowa.gov/elections/",
+  "https://carrollcounty.iowa.gov/wp-json/wp/v2/media",
+  "https://www.carrollcountyiowa.gov/",
+  "https://carrollcountyia.gov/",
+  "https://co.carroll.ia.us/",
+  "https://www.co.carroll.ia.us/",
+  "https://elections.carrollcounty.iowa.gov/",
+  "https://carrollcountyelections.iowa.gov/",
+  "https://auditor.carrollcounty.iowa.gov/",
+  "https://sos.iowa.gov/elections/auditors/auditorslist.html"
+ ],
+ "asOf": null,
+ "races": [],
+ "measures": [],
+ "notes": "carrollcounty.iowa.gov (and www.carrollcountyiowa.gov) return HTTP 403 with a Cloudflare 'Just a moment...' JavaScript challenge to curl, so no candidate list or sample ballot could be read; other hostname guesses do not resolve; SOS auditor directory returned 403; Firecrawl fallback search failed (account out of credits). No contests recorded - needs manual retrieval from the Carroll County Auditor site in a browser."
+}

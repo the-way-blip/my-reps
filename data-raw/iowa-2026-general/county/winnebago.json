@@ -1,0 +1,121 @@
+{
+ "county": "Winnebago",
+ "found": true,
+ "partial": true,
+ "sources": [
+  "https://winnebagocountyiowa.gov/elections/info/general_election_november_3_2026_2026_11_03/",
+  "https://winnebagocountyiowa.gov/files/candidate_list/general_election_november_3_2026_56726.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Terry Durby",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brent Swenson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Julie A Swenson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Shanna Eastvold",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kelsey A. Beenken",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Lori Bertram",
+     "party": null
+    },
+    {
+     "name": "Paul Bartelt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Lori Dontje",
+     "party": null
+    },
+    {
+     "name": "MacKenzie Ree",
+     "party": null
+    },
+    {
+     "name": "Allison Greenfield",
+     "party": null
+    },
+    {
+     "name": "Robin Kettwick",
+     "party": null
+    },
+    {
+     "name": "Katie Bosma",
+     "party": null
+    },
+    {
+     "name": "Tiffany Olson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member, To Fill Vacancy",
+   "scope": "county",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [],
+ "notes": "Source: the county's official General Election 'Certification of Candidates' PDF. No sample ballots are posted. Supervisor contests are labeled District 1 and District 3; the source does not say whether voting is by district or countywide (Winnebago is understood to elect by district, but that is not confirmed here). Marked partial because the county's township page says township trustees and clerks are elected on the General Election ballot, yet the certification lists no township offices. The certification lists no county or local public measures (only statewide Amendment 1)."
+}

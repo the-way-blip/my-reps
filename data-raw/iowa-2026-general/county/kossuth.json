@@ -1,0 +1,159 @@
+{
+ "county": "Kossuth",
+ "found": true,
+ "partial": true,
+ "sources": [
+  "https://www.kossuthcounty.iowa.gov/election-information/",
+  "https://www.kossuthcounty.iowa.gov/general-election-notice-2026/",
+  "https://www.kossuthcounty.iowa.gov/wp-content/uploads/2026/10/General-Election-Notice-2026.pdf"
+ ],
+ "asOf": "2026-10-06",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "area": "District 1",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mike Genrich",
+     "party": "republican"
+    },
+    {
+     "name": "Lany Mitchell",
+     "party": "democratic"
+    },
+    {
+     "name": "Lara Cram",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "area": "District 3",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gary David Miller",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 4",
+   "scope": "county",
+   "area": "District 4",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Barry L Boland",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Constance A. Ludwig",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Karen M. Benschoter",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Todd M. Holmes",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Hospital Board of Trustees",
+   "scope": "county",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Brenda Bormann",
+     "party": null
+    },
+    {
+     "name": "Greg Penning",
+     "party": null
+    },
+    {
+     "name": "Conley Nelson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Luke Snyder",
+     "party": null
+    },
+    {
+     "name": "Nancy Bohl Bormann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Phil Divis",
+     "party": null
+    },
+    {
+     "name": "Charles M Bormann",
+     "party": null
+    },
+    {
+     "name": "Kory Kuecker",
+     "party": null
+    },
+    {
+     "name": "Troy D Kane",
+     "party": null
+    },
+    {
+     "name": "Julie Larsen",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure HF (North Union Community School District GO Bond)",
+   "jurisdiction": "North Union Community School District (Emmet, Kossuth and Palo Alto counties) — applicable precincts only",
+   "ballotLanguage": "Shall the Board of Directors of the North Union Community School District in the Counties of Emmet, Kossuth and Palo Alto, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $12,000,000 to provide funds to build, furnish, and equip additions to the school building, including a gymnasium, multipurpose room, and related spaces, and to improve the site?"
+  }
+ ],
+ "notes": "Source is the official Public Notice of the General Election (dated Oct 6, 2026). Supervisor seats are by district (notice says 'depending on the precinct ... may contain a County Supervisor'); Districts 1, 3 and 4 are up. Lara Cram is listed under District 1 with no party label (likely no-party/nominated by petition). The notice does not give vote-for counts for Hospital Trustees, SWCD Commissioners or Ag Extension Council, so seats is null. No township offices are listed in the notice. 'No Candidate Filed' Democratic entries appear only in state legislative races (not collected). Marked partial: the notice lists no township offices (Iowa townships normally elect trustees/clerks at this election) and no per-precinct sample ballots are posted on the county site, so township races could not be collected."
+}

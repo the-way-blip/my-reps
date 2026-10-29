@@ -1,0 +1,298 @@
+{
+  "county": "Guthrie",
+  "found": true,
+  "partial": true,
+  "sources": [
+    "https://guthriecounty.gov/files/sample_ballots/1216_guthrie_center_precinct_28639.pdf",
+    "https://guthriecounty.gov/files/sample_ballots/1216_bayard_precinct_20484.pdf",
+    "https://guthriecounty.gov/files/sample_ballots/1216_stuart_precinct_27210.pdf",
+    "https://guthriecounty.gov/elections/2026_general_election_2026_11_03/ (403 Cloudflare block; not readable)"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 1",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Phil Brown",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 4",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Smith",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brenda Campbell",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tristen Richard",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Charles Abel",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Sheyrl Clark",
+          "party": null
+        },
+        {
+          "name": "Doris Terwilliger",
+          "party": null
+        },
+        {
+          "name": "Michael Underwood",
+          "party": null
+        },
+        {
+          "name": "Dana Tews",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Jamie Patrick",
+          "party": null
+        },
+        {
+          "name": "Alan Wedemeyer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner (to fill vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Adam Ebert",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Rylee Jacobe",
+          "party": null
+        },
+        {
+          "name": "Carrie Dideriksen",
+          "party": null
+        },
+        {
+          "name": "Abigail Frels",
+          "party": null
+        },
+        {
+          "name": "William Messinger",
+          "party": null
+        },
+        {
+          "name": "Rachel Downing",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Seely Township Trustee",
+      "scope": "township",
+      "area": "Seely",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Caroline Kness",
+          "party": null
+        },
+        {
+          "name": "Joe Arrasmith",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Seely Township Clerk",
+      "scope": "township",
+      "area": "Seely",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cathy Sheeder",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Trustee",
+      "scope": "township",
+      "area": "Union",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Bret Hodges",
+          "party": null
+        },
+        {
+          "name": "David Royer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Clerk",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sheyrl Clark",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Trudi Tam",
+          "party": null
+        },
+        {
+          "name": "Rick Long",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cindy Lyons",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Valley Township Trustee",
+      "scope": "township",
+      "area": "Valley",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ron Carper",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Valley Township Trustee (to fill vacancy)",
+      "scope": "township",
+      "area": "Valley",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Marcia Koeppe",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Valley Township Clerk",
+      "scope": "township",
+      "area": "Valley",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Arlene Harwood",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Beaver Township Trustee",
+      "scope": "township",
+      "area": "Beaver",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dan Christensen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Beaver Township Clerk",
+      "scope": "township",
+      "area": "Beaver",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Janet Dickson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Diamondhead Sanitary District Trustee",
+      "scope": "special district",
+      "area": "Diamondhead Sanitary District",
+      "seats": 2,
+      "candidates": []
+    }
+  ],
+  "measures": [],
+  "notes": "PARTIAL. The county website (guthriecounty.gov) returns a Cloudflare 'you have been blocked' 403 for HTML pages, so the 2026 General Election page and its full list of sample ballots could not be read; one Firecrawl search surfaced three official sample-ballot PDF URLs (Bayard, Guthrie Center, Stuart precincts), which downloaded directly and were parsed (9 ballot styles: Bayard, Seeley Twp, Union Twp, Guthrie Center, Jackson Twp, Valley Twp, Stuart, Beaver Twp, Diamondhead Sanitary District). Remaining precincts (e.g., Panora, Casey/Adair, Menlo, Yale/Bagley area townships) are NOT covered, so other township contests and possibly other supervisor districts/local measures may be missing. Supervisors are elected BY DISTRICT (District 1 seen on Bayard-area styles, District 4 on Guthrie Center-area styles). Township name printed as 'Seely Township' in contest titles (ballot-style header says 'Seeley Township'). Jackson Twp Trustee is printed 'Vote for no more than One' with two candidates. Diamondhead Sanitary District Trustee (vote for two) has no printed candidates. No local public measures on the three ballots read."
+}

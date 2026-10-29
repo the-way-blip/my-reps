@@ -1,0 +1,499 @@
+{
+ "county": "Wapello",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://wapellocounty.iowa.gov/elections/info/general_2026_11_03/",
+  "https://wapellocounty.iowa.gov/files/sample_ballots/1238_general_34567.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, At-Large",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Laurie L. Fountain",
+     "party": "democratic"
+    },
+    {
+     "name": "Dennis Willhoit",
+     "party": "democratic"
+    },
+    {
+     "name": "Darren Batterson",
+     "party": "republican"
+    },
+    {
+     "name": "Bryan Ziegler",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Valerie McElroy",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Autum L. Wonderlin",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steviee Grove",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Auditor, To Fill Vacancy",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Danielle Weller",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Keith Lewis",
+     "party": null
+    },
+    {
+     "name": "Connie Beinhart",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Angela Mach",
+     "party": null
+    },
+    {
+     "name": "Tierney Lain",
+     "party": null
+    },
+    {
+     "name": "Melissa J. Reed-Appel",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jerry Angle",
+     "party": null
+    },
+    {
+     "name": "David Yeager",
+     "party": null
+    }
+   ],
+   "area": "Center"
+  },
+  {
+   "office": "Center Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Carolyn J. Walker",
+     "party": null
+    }
+   ],
+   "area": "Center"
+  },
+  {
+   "office": "Adams Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Mike Orman",
+     "party": null
+    },
+    {
+     "name": "Scott Sandeen",
+     "party": null
+    }
+   ],
+   "area": "Adams"
+  },
+  {
+   "office": "Adams Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lori Orman",
+     "party": null
+    }
+   ],
+   "area": "Adams"
+  },
+  {
+   "office": "Polk Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Charles Harris",
+     "party": null
+    },
+    {
+     "name": "Aaron Angle",
+     "party": null
+    }
+   ],
+   "area": "Polk"
+  },
+  {
+   "office": "Polk Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Laura See",
+     "party": null
+    }
+   ],
+   "area": "Polk"
+  },
+  {
+   "office": "Agency Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Carleton Leigh Dial",
+     "party": null
+    }
+   ],
+   "area": "Agency"
+  },
+  {
+   "office": "Agency Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Danielle Batterson",
+     "party": null
+    }
+   ],
+   "area": "Agency"
+  },
+  {
+   "office": "Pleasant Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [],
+   "area": "Pleasant"
+  },
+  {
+   "office": "Pleasant Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Pleasant"
+  },
+  {
+   "office": "Cass Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Randal Maloy",
+     "party": null
+    },
+    {
+     "name": "Glenn E. Harter",
+     "party": null
+    }
+   ],
+   "area": "Cass"
+  },
+  {
+   "office": "Cass Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Cass"
+  },
+  {
+   "office": "Columbia Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Duane Akers",
+     "party": null
+    },
+    {
+     "name": "Brad Lehman",
+     "party": null
+    }
+   ],
+   "area": "Columbia"
+  },
+  {
+   "office": "Columbia Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Megan Lehman",
+     "party": null
+    }
+   ],
+   "area": "Columbia"
+  },
+  {
+   "office": "Competine Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "William S. Wilkening",
+     "party": null
+    },
+    {
+     "name": "James D. Sterling",
+     "party": null
+    }
+   ],
+   "area": "Competine"
+  },
+  {
+   "office": "Competine Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joan Sterling",
+     "party": null
+    }
+   ],
+   "area": "Competine"
+  },
+  {
+   "office": "Dahlonega Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dan Quinn",
+     "party": null
+    },
+    {
+     "name": "Jon Simplot",
+     "party": null
+    }
+   ],
+   "area": "Dahlonega"
+  },
+  {
+   "office": "Dahlonega Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nancy Manson",
+     "party": null
+    }
+   ],
+   "area": "Dahlonega"
+  },
+  {
+   "office": "Green Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Caleb Ziegler",
+     "party": null
+    }
+   ],
+   "area": "Green"
+  },
+  {
+   "office": "Green Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Derek Ziegler",
+     "party": null
+    }
+   ],
+   "area": "Green"
+  },
+  {
+   "office": "Highland Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Tony Bayliss",
+     "party": null
+    },
+    {
+     "name": "Rusty Zook",
+     "party": null
+    }
+   ],
+   "area": "Highland"
+  },
+  {
+   "office": "Highland Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Julie Bayliss",
+     "party": null
+    }
+   ],
+   "area": "Highland"
+  },
+  {
+   "office": "Keokuk Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Edward E. McDowell",
+     "party": null
+    }
+   ],
+   "area": "Keokuk"
+  },
+  {
+   "office": "Keokuk Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tasha Robertson",
+     "party": null
+    }
+   ],
+   "area": "Keokuk"
+  },
+  {
+   "office": "Keokuk Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Keokuk"
+  },
+  {
+   "office": "Richland Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Tom Doyle",
+     "party": null
+    },
+    {
+     "name": "Perry Middlesworth",
+     "party": null
+    }
+   ],
+   "area": "Richland"
+  },
+  {
+   "office": "Richland Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Charlene Doyle",
+     "party": null
+    }
+   ],
+   "area": "Richland"
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dave Weir",
+     "party": null
+    },
+    {
+     "name": "Doug Manley",
+     "party": null
+    }
+   ],
+   "area": "Washington"
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lori Ann Franklin",
+     "party": null
+    }
+   ],
+   "area": "Washington"
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure \"A\"",
+   "jurisdiction": "Wapello County",
+   "ballotLanguage": "\"Shall the county of Wapello, state of Iowa, issue its general obligation bonds or capital loan notes in an amount not exceeding the amount of $45,000,000 for the purpose of designing, erecting, reconstructing, extending, equipping, and furnishing of the existing jail facility including expansion of the existing jail facility and related grounds and site improvements?\""
+  },
+  {
+   "name": "Public Measure \"MN\"",
+   "jurisdiction": "Pekin Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Pekin Community School District in the Counties of Jefferson, Keokuk, Wapello, and Washington, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $9,200,000 to provide funds to build, furnish, and equip additions to the school building, including classroom and commons area spaces; to remodel, repair, improve, and equip the school building, including a secure entrance, HVAC, mechanical, electrical, plumbing, parking, accessibility, and site improvements?"
+  },
+  {
+   "name": "Public Measure \"LR\"",
+   "jurisdiction": "Fairfield Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Fairfield Community School District in the Counties of Jefferson, Henry, Van Buren, Wapello and Washington, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $24,850,000 to provide funds to build furnish, and equip additions to and to remodel, repair, improve, and equip the middle school building, including fine arts, career and technical education, library, commons area, kitchen, and gymnasium spaces, including related site improvements?"
+  }
+ ],
+ "notes": "Source: combined official sample ballot PDF (all precinct styles). Board of Supervisors is at-large (same 2-seat contest, same four candidates on every ballot style). County Auditor to fill vacancy also on ballot. Some township offices have no printed candidates (write-in only): Pleasant Township Trustee/Clerk, Cass Township Clerk, Keokuk Township Trustee (to fill vacancy). Measures MN and LR are school-district bond questions appearing only on ballots for precincts within those districts."
+}

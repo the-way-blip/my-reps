@@ -1,0 +1,565 @@
+{
+ "county": "Mitchell",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://mitchellcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+  "https://mitchellcountyelections.iowa.gov/files/sample_ballots/1301_p12_west_lincoln_township_14336.pdf",
+  "https://mitchellcountyelections.iowa.gov/files/sample_ballots/20261103_p11_osage_township_48886.pdf",
+  "https://mitchellcountyelections.iowa.gov/files/sample_ballots/20261103_p6_wayne_township_21151.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Todd Frein",
+     "party": "democratic"
+    },
+    {
+     "name": "Dean J. Betts",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nathan Hale",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Shannon Dee Paulus",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Hannah Elliott",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Aaron R. Murphy",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Sheriff (To Fill a Vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Justin Trees",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Public Hospital Trustees",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Jean A. Brumm",
+     "party": null
+    },
+    {
+     "name": "Neil Hernan",
+     "party": null
+    },
+    {
+     "name": "Corrina Follmuth",
+     "party": null
+    },
+    {
+     "name": "Betty McCarthy",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation Commissioners",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dana Norby",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Members",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kirk W. Phelps",
+     "party": null
+    },
+    {
+     "name": "Sydney Eastman",
+     "party": null
+    },
+    {
+     "name": "Keith Meitner",
+     "party": null
+    },
+    {
+     "name": "Jason Rice",
+     "party": null
+    },
+    {
+     "name": "Mary Klaes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Burr Oak Township Trustee",
+   "scope": "township",
+   "area": "Burr Oak",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Charlotte Barker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Burr Oak Township Clerk",
+   "scope": "township",
+   "area": "Burr Oak",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dale Hemann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Trustee",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Vince Morische",
+     "party": null
+    },
+    {
+     "name": "Abby Larson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Clerk",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Douglas Township Trustee",
+   "scope": "township",
+   "area": "Douglas",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "David Smalley",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Douglas Township Clerk",
+   "scope": "township",
+   "area": "Douglas",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "East Lincoln Township Trustee",
+   "scope": "township",
+   "area": "East Lincoln",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kevin Fox",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "East Lincoln Township Clerk",
+   "scope": "township",
+   "area": "East Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Marilyn Wright",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jenkins Township Trustee",
+   "scope": "township",
+   "area": "Jenkins",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Leland Minnis",
+     "party": null
+    },
+    {
+     "name": "Randy Kephart",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jenkins Township Clerk",
+   "scope": "township",
+   "area": "Jenkins",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Deanna Eastman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Trustee",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Brian Juenger",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Clerk",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Audrey Barker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Mitchell Township Trustee",
+   "scope": "township",
+   "area": "Mitchell",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Karl Jensen",
+     "party": null
+    },
+    {
+     "name": "Mark Hendrickson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Mitchell Township Clerk",
+   "scope": "township",
+   "area": "Mitchell",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Beverly Hendrickson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Newburg Township Trustee",
+   "scope": "township",
+   "area": "Newburg",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Skylar Thorson",
+     "party": null
+    },
+    {
+     "name": "Dennis Sponheim",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Newburg Township Clerk",
+   "scope": "township",
+   "area": "Newburg",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ben Kruse",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Osage Township Trustee",
+   "scope": "township",
+   "area": "Osage",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kevin Popp",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Osage Township Clerk",
+   "scope": "township",
+   "area": "Osage",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joe Malecek",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Otranto Township Trustee",
+   "scope": "township",
+   "area": "Otranto",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "John Jahr",
+     "party": null
+    },
+    {
+     "name": "Rick Thurnau",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Otranto Township Clerk",
+   "scope": "township",
+   "area": "Otranto",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Greg Goplerud",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Rock Township Trustee",
+   "scope": "township",
+   "area": "Rock",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dennis Popp",
+     "party": null
+    },
+    {
+     "name": "Bryan Fossey",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Rock Township Clerk",
+   "scope": "township",
+   "area": "Rock",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cassie Fossey",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "St. Ansgar Township Trustee",
+   "scope": "township",
+   "area": "St. Ansgar",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Betty Neeley",
+     "party": null
+    },
+    {
+     "name": "John Groth",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "St. Ansgar Township Clerk",
+   "scope": "township",
+   "area": "St. Ansgar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steve Neeley",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Stacyville Township Trustee",
+   "scope": "township",
+   "area": "Stacyville",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kurt Hemann",
+     "party": null
+    },
+    {
+     "name": "Sam Kruse",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Stacyville Township Clerk",
+   "scope": "township",
+   "area": "Stacyville",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joseph W. Smith",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dale Hoffman",
+     "party": null
+    },
+    {
+     "name": "Lawrence Bissen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Michael Mullenbach",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wayne Township Trustee",
+   "scope": "township",
+   "area": "Wayne",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dan Adams",
+     "party": null
+    },
+    {
+     "name": "Steve McCarthy",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wayne Township Clerk",
+   "scope": "township",
+   "area": "Wayne",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "William Hemann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Lincoln Township Trustee",
+   "scope": "township",
+   "area": "West Lincoln",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Michael Stricker",
+     "party": null
+    },
+    {
+     "name": "Dwight Meerdink",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Lincoln Township Clerk",
+   "scope": "township",
+   "area": "West Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Pat Rogers",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "Source: 33 official precinct sample ballot PDFs from mitchellcountyelections.iowa.gov (scanned images; read via macOS Vision OCR and spot-checked visually, so some name spellings may need verification). Supervisors are elected by district - voters see only their district: District 1 on Osage Wards 2-3 and Osage/Cedar Twp P11 ballots; District 3 on P5/P6 precincts (Burr Oak, Douglas, East/West Lincoln, Orchard, Jenkins, Liberty, Wayne, McIntire/Riceville); other precincts have no supervisor contest. County Attorney candidate shows no party label. Cedar Township Clerk and Douglas Township Clerk have no printed candidates. No local public measures found. The older mitchellcounty.iowa.gov auditor page has no 2026 material."
+}

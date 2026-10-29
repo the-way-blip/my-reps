@@ -1,0 +1,18 @@
+{
+  "county": "Pottawattamie",
+  "found": false,
+  "partial": false,
+  "sources": [
+    "https://pottcounty-ia.gov/",
+    "https://www.pottcounty-ia.gov/auditor",
+    "https://www.pottcounty-ia.gov/departments/auditor/elections/",
+    "https://elections.pottcounty-ia.gov/",
+    "https://pottawattamie.iowa.gov/",
+    "https://pottawattamiecounty.iowa.gov/",
+    "https://pottcounty.iowa.gov/"
+  ],
+  "asOf": null,
+  "races": [],
+  "measures": [],
+  "notes": "Official site pottcounty-ia.gov (elections.pottcounty-ia.gov redirects to /auditor/elections/) sits behind a Cloudflare challenge ('Just a moment...', HTTP 403), so it could not be read with curl. Firecrawl search was tried but the account is out of credits. No contests collected. Retry from a regular browser."
+}

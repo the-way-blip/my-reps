@@ -1,0 +1,16 @@
+{"county":"Des Moines","found":true,"partial":false,
+ "sources":["https://dmcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/","https://dmcountyelections.iowa.gov/files/candidate_list/2026_general_election_36984.pdf","https://dmcountyelections.iowa.gov/files/sample_ballots/1223_2026_general_election_24275.pdf"],
+ "asOf":"2026-11-03 (sample ballot for election date)",
+ "races":[
+  {"office":"County Supervisor","scope":"county","seats":1,"candidates":[{"name":"Brian Thie","party":"republican"},{"name":"Bob Bartles","party":"democratic"}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Janelle Nalley-Londquist","party":null}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Natalie Steffener","party":null}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[{"name":"Travis A Inghram","party":null}]},
+  {"office":"Soil and Water Conservation District Commissioner","scope":"county","seats":2,"candidates":[{"name":"June Morgan","party":null},{"name":"Brian Messer","party":null}]},
+  {"office":"County Agricultural Extension Council","scope":"county","seats":5,"candidates":[{"name":"Andrea Wright","party":null},{"name":"Dwight Byerly","party":null},{"name":"Brenda Wischmeier","party":null},{"name":"Ericka Breuer","party":null},{"name":"Sara McClure","party":null}]},
+  {"office":"County Agricultural Extension Council (To Fill a Vacancy)","scope":"county","seats":1,"candidates":[{"name":"Stefanie Riley","party":null}]}
+ ],
+ "measures":[
+  {"name":"Public Measure GM","jurisdiction":"City of Burlington","ballotLanguage":"Shall the City of Burlington, in Des Moines County, State of Iowa, enter into a loan agreement and issue general obligation bonds in an amount not exceeding $7,000,000 for the purpose of paying the cost, to that extent, of constructing, renovating and improving municipal swimming pool facilities?"}
+ ],
+ "notes":"Supervisor contest is identical on every precinct's sample ballot (single seat, no district shown) - effectively at-large/countywide. Treasurer/Recorder/Attorney candidates appear without party labels on the ballot. No township offices on any precinct ballot. Burlington pool bond (Public Measure GM) appears only on Burlington precincts 1-8."}

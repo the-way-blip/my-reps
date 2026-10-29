@@ -1,0 +1,162 @@
+{
+  "county": "Buchanan",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://buchanancounty.iowa.gov/11-26%20Local%20Candidates.pdf",
+    "https://buchanancounty.iowa.gov/Candidate%20List%20Adkins-2026%20General.pdf",
+    "https://buchanancounty.iowa.gov/Public%20Measure%20and%20School%20vacancy.pdf",
+    "https://buchanancounty.iowa.gov/Sample%20ballots%20for%20website%202_Redacted.pdf",
+    "https://buchanancounty.iowa.gov/departments/june_3_2014_primary_election.php"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors (at-large)",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Rick Wulfekuhle",
+          "party": "democratic"
+        },
+        {
+          "name": "Dawn Vogel",
+          "party": "republican"
+        },
+        {
+          "name": "John Lynch",
+          "party": "republican"
+        },
+        {
+          "name": "Ben Trumblee",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tammy Jones",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michelle Mangrich",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Shawn Harden",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "Buchanan County Health Hospital Trustee",
+      "scope": "county",
+      "seats": 3,
+      "candidates": [
+        {
+          "name": "Cynthia Horn",
+          "party": null
+        },
+        {
+          "name": "Donald Bloes",
+          "party": null
+        },
+        {
+          "name": "Dennis Donlea",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Tim Halligan",
+          "party": null
+        },
+        {
+          "name": "Dale Priebe",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Janel Rathbun",
+          "party": null
+        },
+        {
+          "name": "Craig Sperfslage",
+          "party": null
+        },
+        {
+          "name": "Whitney Holt",
+          "party": null
+        },
+        {
+          "name": "Paul Short",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Independence Community School District Director District 1 (To Fill Vacancy)",
+      "scope": "school",
+      "area": "Independence Community School District",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ranger Reed",
+          "party": null
+        },
+        {
+          "name": "Erika Schmitt",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure CD",
+      "jurisdiction": "City of Independence",
+      "ballotLanguage": "Shall the City of Independence, in Buchanan County, State of Iowa, enter into a loan agreement and issue general obligation bonds in an amount not exceeding $14,500,000 for the purpose of paying the cost, to that extent, of undertaking fire protection facilities improvements, including the expansion, renovation, furnishing and equipping of existing facilities and the acquisition and improvement of real estate for the development of additional facilities?"
+    },
+    {
+      "name": "Public Measure CE",
+      "jurisdiction": "Independence Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the Independence Community School District in the Counties of Buchanan and Benton, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in the amount not to exceed $24,990,000 to provide funds to build, furnish, and equip additions to East and West Elementary Schools; and to remodel, repair, improve, and equip East and West Elementary Schools and to improve the sites, including related demolition at West Elementary?"
+    },
+    {
+      "name": "Public Measure NC",
+      "jurisdiction": "Kirkwood Community College (Merged Area X)",
+      "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+    }
+  ],
+  "notes": "Supervisor seats are at-large (vote for two, 4-year term; all county voters see the contest). Ben Trumblee listed as NP (party null). Ag Extension Council lists 4 candidates for 5 seats. The scanned 50-page sample-ballot PDF (25 ballot styles) was OCR-checked: no township trustee/clerk contests appear on any style, and no measures beyond CD, CE and NC."
+}

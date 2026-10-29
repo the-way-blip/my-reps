@@ -1,0 +1,17 @@
+{
+  "county": "Hardin",
+  "found": false,
+  "partial": false,
+  "sources": [
+    "https://www.hardincountyia.gov/ (403 Cloudflare block)",
+    "https://hardincountyia.gov/ (403)",
+    "https://www.hardincounty.iowa.gov/ (no DNS)",
+    "https://hardincounty.iowa.gov/ (no DNS)",
+    "https://elections.hardincountyia.gov/ (no DNS)",
+    "https://sos.iowa.gov/elections/auditors/auditorslist.html (403)"
+  ],
+  "asOf": null,
+  "races": [],
+  "measures": [],
+  "notes": "NOT FOUND. The county site (hardincountyia.gov) returns a Cloudflare 403 block to curl for all pages; one Firecrawl search found no directly downloadable official Hardin County sample-ballot or candidate-list file (only third-party guides, which were not used). A Facebook post from the City of Ackley indicates public measures are on the Hardin County ballot (likely including the AGWSR Community School District bond, Public Measure IR, which also appears in Franklin and Grundy counties), but this could not be confirmed from an official Hardin source. Bot-detection was not bypassed."
+}

@@ -1,0 +1,18 @@
+{"county":"O'Brien","found":true,"partial":false,
+ "sources":["https://obriencounty.iowa.gov/wp-content/uploads/2026/09/General-Ballot-Candidates-and-Measures-1.pdf","https://obriencounty.iowa.gov/wp-content/uploads/2026/09/DOC091126-09112026164923-1.pdf","https://obriencounty.iowa.gov/departments/auditor/"],
+ "asOf":"2026-09 (upload date)",
+ "races":[
+  {"office":"Board of Supervisors, District 4","scope":"county","seats":1,"candidates":[{"name":"Dennis Vanden Hull","party":"republican"}]},
+  {"office":"Board of Supervisors, District 5","scope":"county","seats":1,"candidates":[{"name":"Dan Friedrichsen","party":"republican"}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Marcella Missy Hattermann","party":"republican"}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Susan Smith","party":"republican"}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[{"name":"Katie F. Morgan","party":"republican"}]},
+  {"office":"Grant Township Trustee","scope":"township","area":"Grant","seats":1,"candidates":[]},
+  {"office":"Highland Township Trustee","scope":"township","area":"Highland","seats":1,"candidates":[]},
+  {"office":"Grant Township Clerk","scope":"township","area":"Grant","seats":1,"candidates":[]},
+  {"office":"Highland Township Clerk","scope":"township","area":"Highland","seats":1,"candidates":[{"name":"Turner Hicks","party":null}]},
+  {"office":"Soil and Water Conservation District Commissioner","scope":"county","seats":2,"candidates":[{"name":"Carmen Billick","party":null}]},
+  {"office":"County Agricultural Extension Council","scope":"county","seats":5,"candidates":[{"name":"Ryan McCarty","party":null},{"name":"Michael Schmalen","party":null},{"name":"Stephanie Rehder","party":null},{"name":"Wyatt Sickelka","party":null},{"name":"Alicia Poduska","party":null}]}
+ ],
+ "measures":[],
+ "notes":"Source is the auditor's candidate/measures list plus a scanned Carroll-Floyd precinct sample ballot. No Democratic candidates for county offices. Township races with 'No Candidate' listed are write-in only (empty candidates). The Carroll-Floyd sample ballot shows BOTH the District 4 and District 5 supervisor contests, so supervisors appear to be elected countywide (district-residency / at-large voting) rather than voters seeing only their own district. No county-level public measures listed; only Constitutional Amendment (Question 1)."}

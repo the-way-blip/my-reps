@@ -1,0 +1,419 @@
+{
+ "county": "Humboldt",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.humboldtcounty.iowa.gov/news_detail_T46_R194.php",
+  "https://www.humboldtcounty.iowa.gov/102-Corinth FOR WEBSITE.pdf (and 21 other per-precinct/township sample ballot PDFs linked from the '2026 GENERAL ELECTION' news page)"
+ ],
+ "asOf": "sample ballots posted 2026-10-07",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "area": "District 2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dennis Thompson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jana Pettinger",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nicole Niemeyer",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jon Beaty",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Humboldt County Memorial Hospital Board of Trustees",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "David Boswell",
+     "party": null
+    },
+    {
+     "name": "Karen Berte",
+     "party": null
+    },
+    {
+     "name": "Scott Curran",
+     "party": null
+    },
+    {
+     "name": "Kevin Bornhoft",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "James Sayers",
+     "party": null
+    },
+    {
+     "name": "Jeff Helvick",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Ethan Murrow",
+     "party": null
+    },
+    {
+     "name": "Chelsea Nostrom",
+     "party": null
+    },
+    {
+     "name": "Brad Frerk",
+     "party": null
+    },
+    {
+     "name": "Robert Abens",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council (to fill a vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joel Rasmussen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Corinth Township Trustee",
+   "scope": "township",
+   "area": "Corinth",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Corinth Township Clerk",
+   "scope": "township",
+   "area": "Corinth",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Weaver Township Trustee",
+   "scope": "township",
+   "area": "Weaver",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Weaver Township Clerk",
+   "scope": "township",
+   "area": "Weaver",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "area": "District 3",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rick Pedersen",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Beaver Township Trustee",
+   "scope": "township",
+   "area": "Beaver",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Adam Parle",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Beaver Township Clerk",
+   "scope": "township",
+   "area": "Beaver",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Pat Hill",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "area": "District 1",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bruce Reimers",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Rutland Township Trustee",
+   "scope": "township",
+   "area": "Rutland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gary D. Jensen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Rutland Township Trustee (to fill a vacancy)",
+   "scope": "township",
+   "area": "Rutland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joel Tille",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Rutland Township Clerk",
+   "scope": "township",
+   "area": "Rutland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brett Kampen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Avery Township Trustee",
+   "scope": "township",
+   "area": "Avery",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Avery Township Clerk",
+   "scope": "township",
+   "area": "Avery",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James Day",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wacousta Township Trustee",
+   "scope": "township",
+   "area": "Wacousta",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Blaine Thompson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wacousta Township Clerk",
+   "scope": "township",
+   "area": "Wacousta",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Delana Township Trustee",
+   "scope": "township",
+   "area": "Delana",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Delana Township Trustee (to fill a vacancy)",
+   "scope": "township",
+   "area": "Delana",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Delana Township Clerk",
+   "scope": "township",
+   "area": "Delana",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Humboldt Township Trustee",
+   "scope": "township",
+   "area": "Humboldt",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ryan Foth",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Humboldt Township Clerk",
+   "scope": "township",
+   "area": "Humboldt",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Shawna Crahan",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Vernon Township Trustee",
+   "scope": "township",
+   "area": "Vernon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Daniel J. Anliker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Vernon Township Clerk",
+   "scope": "township",
+   "area": "Vernon",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Grove Township Trustee",
+   "scope": "township",
+   "area": "Grove",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Grove Township Clerk",
+   "scope": "township",
+   "area": "Grove",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lake Township Trustee",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark Hansen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lake Township Trustee (to fill a vacancy)",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Matthew Nervig",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lake Township Clerk",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Robert A. Rasmussen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Norway Township Trustee",
+   "scope": "township",
+   "area": "Norway",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gordy Mersch",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Norway Township Clerk",
+   "scope": "township",
+   "area": "Norway",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nick Torkelson",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "Parsed from official per-precinct/township sample ballots (22 styles). Supervisor seats are by district: District 2 appears only on Precinct 1 ballots, District 3 only on Precinct 2, District 1 only on Precinct 3; Precincts 4-6 have no supervisor race. Hospital trustee race is for Humboldt County Memorial Hospital Board of Trustees. Empty candidate lists = no candidate printed (write-in only). Ballot style 504 (Precinct 5) is labeled 'P5 - Rutland' and shows Rutland Township races identical to Precinct 3's Rutland ballot (the auditor page lists 'North Rutland Township' under Precinct 5). No county/local public measures appear on any Humboldt sample ballot."
+}

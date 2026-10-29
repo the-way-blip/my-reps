@@ -1,0 +1,509 @@
+{
+ "county": "Mahaska",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://elections.mahaskacountyia.gov/elections/info/2026_general_election_2026_11_03/",
+  "https://elections.mahaskacountyia.gov/files/sample_ballots/20261103_east_des_moines_township_12805.pdf",
+  "https://elections.mahaskacountyia.gov/files/sample_ballots/20261103_garfield_township_68464.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors (at-large)",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Chuck Webb",
+     "party": "republican"
+    },
+    {
+     "name": "Steve Wanders",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Shauna Hol",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tracey Ver Steegh",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Andrew J Ritland",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Auditor (To Fill Vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Madison Garden",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Public Hospital Trustees (Four Year Term)",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Joette Stout",
+     "party": null
+    },
+    {
+     "name": "David Langkamp",
+     "party": null
+    },
+    {
+     "name": "Marsha Riordan",
+     "party": null
+    },
+    {
+     "name": "Donna Arendt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioners",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Steven Plate",
+     "party": null
+    },
+    {
+     "name": "Gene De Bruin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Merle Lee Mann",
+     "party": null
+    },
+    {
+     "name": "Shirley Goemaat",
+     "party": null
+    },
+    {
+     "name": "Joy Prothero",
+     "party": null
+    },
+    {
+     "name": "Gary Engel",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Adams Township Trustee",
+   "scope": "township",
+   "area": "Adams",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Adams Township Clerk",
+   "scope": "township",
+   "area": "Adams",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Black Oak Township Trustee",
+   "scope": "township",
+   "area": "Black Oak",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jerry De Bruin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Black Oak Township Clerk",
+   "scope": "township",
+   "area": "Black Oak",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Cedar Township Trustee",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Sean Hedge",
+     "party": null
+    },
+    {
+     "name": "Ronald Reed",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Clerk",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jennifer Van Zante",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "East Des Moines Township Trustee",
+   "scope": "township",
+   "area": "East Des Moines",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Roger Rodwell",
+     "party": null
+    },
+    {
+     "name": "Brent DeRonde",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "East Des Moines Township Clerk",
+   "scope": "township",
+   "area": "East Des Moines",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Linda DeRonde",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Garfield Township Trustee",
+   "scope": "township",
+   "area": "Garfield",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Garfield Township Clerk",
+   "scope": "township",
+   "area": "Garfield",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Garfield Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Garfield",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Harrison Township Trustee",
+   "scope": "township",
+   "area": "Harrison",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Harrison Township Clerk",
+   "scope": "township",
+   "area": "Harrison",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Karen Fynaardt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jerry Parker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jayne Rozenboom",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Madison Township Trustee",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "John Bandstra",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Clerk",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Monroe Township Trustee",
+   "scope": "township",
+   "area": "Monroe",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Monroe Township Clerk",
+   "scope": "township",
+   "area": "Monroe",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Pleasant Grove Township Trustee",
+   "scope": "township",
+   "area": "Pleasant Grove",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Pleasant Grove Township Clerk",
+   "scope": "township",
+   "area": "Pleasant Grove",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Prairie Township Trustee",
+   "scope": "township",
+   "area": "Prairie",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Laurel DeJong",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Prairie Township Clerk",
+   "scope": "township",
+   "area": "Prairie",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christopher Ver Steegh",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Richland Township Trustee",
+   "scope": "township",
+   "area": "Richland",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Lawrence Roose",
+     "party": null
+    },
+    {
+     "name": "Mike Vander Hart",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Richland Township Clerk",
+   "scope": "township",
+   "area": "Richland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sandy Vander Hart",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Scott Township Trustee",
+   "scope": "township",
+   "area": "Scott",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Michael R Johnson",
+     "party": null
+    },
+    {
+     "name": "Jack Rempe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Scott Township Clerk",
+   "scope": "township",
+   "area": "Scott",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Adrienne Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Spring Creek Township Trustee",
+   "scope": "township",
+   "area": "Spring Creek",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Spring Creek Township Clerk",
+   "scope": "township",
+   "area": "Spring Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "West Des Moines Township Trustee",
+   "scope": "township",
+   "area": "West Des Moines",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dennis Antolik",
+     "party": null
+    },
+    {
+     "name": "Wayne Ver Steegh",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Des Moines Township Clerk",
+   "scope": "township",
+   "area": "West Des Moines",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lois Harris",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "White Oak Township Trustee",
+   "scope": "township",
+   "area": "White Oak",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Carroll Hol",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "White Oak Township Clerk",
+   "scope": "township",
+   "area": "White Oak",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Vickie Cope",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "Source: 28 official precinct sample ballot PDFs (text-based). Supervisors: one 'County Supervisor' vote-for-two race with the same two candidates on every precinct ballot = at-large. County Auditor appears as a To Fill Vacancy race. Township trustee races are vote-for-two; many townships show the race with no printed candidates (empty candidate arrays = write-in only). Note the Agricultural Extension Council race is vote-for-four on the ballot. No county/local public measures on any Mahaska ballot."
+}

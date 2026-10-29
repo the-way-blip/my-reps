@@ -1,0 +1,553 @@
+{
+ "county": "Pocahontas",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://pocahontascounty.iowa.gov/wp-content/uploads/2026-General-Election-Sample-Ballots.pdf",
+  "https://pocahontascounty.iowa.gov/elections/"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Clarence Siepker",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Amy Johnson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Catherine Frerk",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Daniel Feistner",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ronald Lampe",
+     "party": null
+    },
+    {
+     "name": "Brian Hoffman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Andrew Frerk",
+     "party": null
+    },
+    {
+     "name": "Sheila Akridge",
+     "party": null
+    },
+    {
+     "name": "Lola DeWall",
+     "party": null
+    },
+    {
+     "name": "Hannah Zylstra",
+     "party": null
+    },
+    {
+     "name": "Cody Peterson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Swan Lake Township Trustee",
+   "scope": "township",
+   "area": "Swan Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tessa Roewe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Swan Lake Township Clerk",
+   "scope": "township",
+   "area": "Swan Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Carla Gustafson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cummins Township Trustee",
+   "scope": "township",
+   "area": "Cummins",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sidney J Davis",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cummins Township Clerk",
+   "scope": "township",
+   "area": "Cummins",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Barb Hauswirth",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Trustee",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rhonda J Stoulil",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Clerk",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Powhatan Township Trustee",
+   "scope": "township",
+   "area": "Powhatan",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Wayne L Hulsebus",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Powhatan Township Clerk",
+   "scope": "township",
+   "area": "Powhatan",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Karen Minkler",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sherman Township Trustee",
+   "scope": "township",
+   "area": "Sherman",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark Vosika",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sherman Township Clerk",
+   "scope": "township",
+   "area": "Sherman",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Des Moines Township Trustee",
+   "scope": "township",
+   "area": "Des Moines",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James Frerk",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Des Moines Township Clerk",
+   "scope": "township",
+   "area": "Des Moines",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dan Savery",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Garfield Township Trustee",
+   "scope": "township",
+   "area": "Garfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Robert Brinkman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Garfield Township Clerk",
+   "scope": "township",
+   "area": "Garfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Erin Siefken",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Roosevelt Township Trustee",
+   "scope": "township",
+   "area": "Roosevelt",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kyle P. Brinkman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Roosevelt Township Clerk",
+   "scope": "township",
+   "area": "Roosevelt",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Cedar Township Trustee",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brian P. Wells",
+     "party": null
+    },
+    {
+     "name": "Ron L McLaughlin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Trustee To Fill a Vacancy",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Chris Mercer",
+     "party": null
+    },
+    {
+     "name": "Maralyn McLaughlin",
+     "party": null
+    },
+    {
+     "name": "Greg Baskerville",
+     "party": null
+    },
+    {
+     "name": "Hanna Davis",
+     "party": null
+    },
+    {
+     "name": "Brian D Larsen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Clerk",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rayne Dull",
+     "party": null
+    },
+    {
+     "name": "Hanna Davis",
+     "party": null
+    },
+    {
+     "name": "Jackie Moss",
+     "party": null
+    },
+    {
+     "name": "Melissa Devereaux",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Colfax Township Trustee",
+   "scope": "township",
+   "area": "Colfax",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ronald Dirks",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Colfax Township Clerk",
+   "scope": "township",
+   "area": "Colfax",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Larry Heschke",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dover Township Trustee",
+   "scope": "township",
+   "area": "Dover",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jeff Halder",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dover Township Clerk",
+   "scope": "township",
+   "area": "Dover",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Thomas Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grant Township Trustee",
+   "scope": "township",
+   "area": "Grant",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Larry Peters",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grant Township Clerk",
+   "scope": "township",
+   "area": "Grant",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Johnston",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marshall Township Trustee",
+   "scope": "township",
+   "area": "Marshall",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Marshall Township Clerk",
+   "scope": "township",
+   "area": "Marshall",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "John Pohlman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 4",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brent Aden",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Lake Township Trustee",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James D Peters",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lake Township Trustee To Fill a Vacancy",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Allan Poppen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lake Township Clerk",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sarah Janssen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Robert Kaiser",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dean Christoffers",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bellville Township Trustee",
+   "scope": "township",
+   "area": "Bellville",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Bellville Township Trustee To Fill a Vacancy",
+   "scope": "township",
+   "area": "Bellville",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Bellville Township Clerk",
+   "scope": "township",
+   "area": "Bellville",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Talia Condon",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lizard Township Trustee",
+   "scope": "township",
+   "area": "Lizard",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lizard Township Clerk",
+   "scope": "township",
+   "area": "Lizard",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure RQ - Pocahontas Area Community School District General Obligation Bonds",
+   "jurisdiction": "Pocahontas Area Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Pocahontas Area Community School District in the Counties of Pocahontas, Calhoun and Palo Alto, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $20,000,000 to provide funds to remodel, repair, improve, and equip the middle/high school and elementary school, including career and technical education and classroom spaces; to build, furnish, and equip additions to the middle/high school and elementary school, including site improvements; for playground improvements at the elementary school; and to build, furnish, and equip a central office and regional learning center building and a transportation facility, including site improvements?"
+  }
+ ],
+ "notes": "Parsed from the auditor's 88-page sample ballot PDF (44 precinct/ballot styles). Supervisors are elected by district: District 2 appears only on the Laurens and Swan Lake Township styles, District 4 only on 14 styles in that district. Township offices appear only on that township's ballot styles; contests with empty candidates are write-in only. Cedar Township Trustee is printed as 'Vote for no more than One' with two candidates, and Cedar Township Trustee To Fill a Vacancy as 'Vote for no more than Two' (Hanna Davis appears in both the vacancy trustee and clerk contests) - copied as printed. Public Measure RQ appears on Pocahontas Area CSD styles only."
+}

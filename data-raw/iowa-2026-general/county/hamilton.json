@@ -1,0 +1,443 @@
+{
+  "county": "Hamilton",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.hamiltoncounty.iowa.gov/residents/emergency_resources/index.php",
+    "https://www.hamiltoncounty.iowa.gov/Sample%20Ballots%20General.pdf?t=202610081214070"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rick Young",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Matt Matteson",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kim Anderson",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bridget A. Chambers",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Darcy Swon",
+          "party": null
+        },
+        {
+          "name": "Carroll Ose",
+          "party": null
+        },
+        {
+          "name": "Kyle Heffernan",
+          "party": null
+        },
+        {
+          "name": "Kirk L. McCollough",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Cynthia McCollough",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Tyler Burton",
+          "party": null
+        },
+        {
+          "name": "Amber Widick",
+          "party": null
+        },
+        {
+          "name": "Liz Collins",
+          "party": null
+        },
+        {
+          "name": "Luke Ahrens",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Blairsburg Township Trustee",
+      "scope": "township",
+      "area": "Blairsburg",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ole Wibholm",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Blairsburg Township Clerk",
+      "scope": "township",
+      "area": "Blairsburg",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Noel Singer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cass Township Trustee",
+      "scope": "township",
+      "area": "Cass",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Struchen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cass Township Clerk",
+      "scope": "township",
+      "area": "Cass",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Clear Lake Township Trustee",
+      "scope": "township",
+      "area": "Clear Lake",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Clear Lake Township Clerk",
+      "scope": "township",
+      "area": "Clear Lake",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Ellsworth Township Trustee",
+      "scope": "township",
+      "area": "Ellsworth",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Ellsworth Township Clerk",
+      "scope": "township",
+      "area": "Ellsworth",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lynn Knutson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Freedom Township Trustee",
+      "scope": "township",
+      "area": "Freedom",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Freedom Township Clerk",
+      "scope": "township",
+      "area": "Freedom",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Fremont Township Trustee",
+      "scope": "township",
+      "area": "Fremont",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Fremont Township Clerk",
+      "scope": "township",
+      "area": "Fremont",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ryan Davison",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hamilton Township Trustee",
+      "scope": "township",
+      "area": "Hamilton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Hamilton Township Clerk",
+      "scope": "township",
+      "area": "Hamilton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Independence Township Trustee",
+      "scope": "township",
+      "area": "Independence",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John T. Tapper",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Independence Township Clerk",
+      "scope": "township",
+      "area": "Independence",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Liberty Township Trustee",
+      "scope": "township",
+      "area": "Liberty",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Liberty Township Clerk",
+      "scope": "township",
+      "area": "Liberty",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Linda Pruismann",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randy Hinderaker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Janet Lindseth",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lyon Township Trustee",
+      "scope": "township",
+      "area": "Lyon",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Roger Barkema",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lyon Township Clerk",
+      "scope": "township",
+      "area": "Lyon",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Osmundson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Marion Township Trustee",
+      "scope": "township",
+      "area": "Marion",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Marion Township Clerk",
+      "scope": "township",
+      "area": "Marion",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Larry Runyan",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Rose Grove Township Trustee",
+      "scope": "township",
+      "area": "Rose Grove",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Rose Grove Township Trustee (to fill a vacancy)",
+      "scope": "township",
+      "area": "Rose Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kyle Sweedler",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Rose Grove Township Clerk",
+      "scope": "township",
+      "area": "Rose Grove",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Scott Township Trustee",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Scott Township Clerk",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Webster Township Trustee",
+      "scope": "township",
+      "area": "Webster",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jenny Roe",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Webster Township Clerk",
+      "scope": "township",
+      "area": "Webster",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dawn Kesler",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Williams Township Trustee",
+      "scope": "township",
+      "area": "Williams",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John M. Wibholm",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Williams Township Trustee (to fill a vacancy)",
+      "scope": "township",
+      "area": "Williams",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "David W. Russell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Williams Township Clerk",
+      "scope": "township",
+      "area": "Williams",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Elizabeth Sweedler",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Parsed from the official combined sample ballot PDF ('Sample Ballot General Election 11/3/2026', 50 pages / 25 ballot styles) linked on the county Election Information page. Supervisors are elected BY DISTRICT; only District 3 is on the ballot this cycle (10 of 25 ballot styles). Township trustee contests are 'Vote for no more than One' in this county. Empty candidate lists = contest printed with write-in line(s) only. Williams Twp Trustee to Fill a Vacancy is printed 'Vote for no more than Two'. No county or local public measures appear on any sample ballot."
+}

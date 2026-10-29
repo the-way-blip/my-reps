@@ -1,0 +1,434 @@
+{
+ "county": "Clarke",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://clarkecounty.iowa.gov/elections/election-info/"
+ ],
+ "asOf": "Page last modified 2026-10-19",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "district": "2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Randy Dunbar",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jessica Smith",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Selena Dawn Humphrey",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Johanna Olson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Public Hospital Trustee",
+   "scope": "county",
+   "seats": 3,
+   "candidates": [
+    {
+     "name": "Lindsey Redman",
+     "party": null
+    },
+    {
+     "name": "Kelly Blanchard",
+     "party": null
+    },
+    {
+     "name": "Elizabeth Herrera",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Gabriel Crawford",
+     "party": null
+    },
+    {
+     "name": "Chris George",
+     "party": null
+    },
+    {
+     "name": "Ethan Abbott",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Calleen Allen",
+     "party": null
+    },
+    {
+     "name": "Leslie Ruby",
+     "party": null
+    },
+    {
+     "name": "Jolleen Thacker",
+     "party": null
+    },
+    {
+     "name": "Diana Moffitt-Robins",
+     "party": null
+    },
+    {
+     "name": "Linda Abbott",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Green Bay Township Trustee",
+   "scope": "township",
+   "area": "Green Bay",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Brian V. Mateer",
+     "party": null
+    },
+    {
+     "name": "Kolton Dudney",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Green Bay Township Clerk",
+   "scope": "township",
+   "area": "Green Bay",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Knox Township Trustee",
+   "scope": "township",
+   "area": "Knox",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Matt McCann",
+     "party": null
+    },
+    {
+     "name": "Kelly Curnes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Knox Township Clerk",
+   "scope": "township",
+   "area": "Knox",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christopher George",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Ward Township Trustee",
+   "scope": "township",
+   "area": "Ward",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Arthur A. Pontier",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Ward Township Clerk",
+   "scope": "township",
+   "area": "Ward",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Marcia Pontier",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Doyle Township Trustee",
+   "scope": "township",
+   "area": "Doyle",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Doyle Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Doyle",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "Doyle Township Clerk",
+   "scope": "township",
+   "area": "Doyle",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Madison Township Trustee",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Andy Keller",
+     "party": null
+    },
+    {
+     "name": "Mark Bright",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Clerk",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rita Griffith",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Troy Township Trustee",
+   "scope": "township",
+   "area": "Troy",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jerod Flaherty",
+     "party": null
+    },
+    {
+     "name": "Randy Callison",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Troy Township Clerk",
+   "scope": "township",
+   "area": "Troy",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Janet Robins",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Steven J. Sandquist",
+     "party": null
+    },
+    {
+     "name": "Gene Snyder",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Patty Snyder",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Trustee",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Randy Barnard",
+     "party": null
+    },
+    {
+     "name": "Justin Bever",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Clerk",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sandra Logemann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Osceola Township Trustee",
+   "scope": "township",
+   "area": "Osceola",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Linda Abbott",
+     "party": null
+    },
+    {
+     "name": "Gregory Lynn Kent",
+     "party": null
+    },
+    {
+     "name": "Jerry Van Der Kamp",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Osceola Township Clerk",
+   "scope": "township",
+   "area": "Osceola",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Liberty Township Trustee",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Robert Asmus",
+     "party": null
+    },
+    {
+     "name": "Cindy Henry",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Clerk",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Judy Barber",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Franklin Township Trustee",
+   "scope": "township",
+   "area": "Franklin",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "James Whitham",
+     "party": null
+    },
+    {
+     "name": "Jason Boyer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Franklin Township Clerk",
+   "scope": "township",
+   "area": "Franklin",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Donald L. Heck",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "I-35 Community School District Public Measure Z",
+   "jurisdiction": "Interstate 35 Community School District (Clarke, Madison, Warren counties)",
+   "ballotLanguage": "Shall the Board of Directors of the Interstate 35 Community School District in the Counties of Clarke, Madison, and Warren, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $12,3000,000 to provide funds to remodel, repair, improve, and equip the school building, including reconfiguration of academic spaces, HVAC, mechanical and exterior improvements; to build, furnish, and equip athletic facilities, including a new stadium and track, parking, and site improvements, and for related improvements to repurpose the existing track and field, bleachers, and press box; and for site and access improvements to the school campus?"
+  }
+ ],
+ "notes": "Source: Clarke County Auditor 'General Election - November 3, 2026' candidate listing on the county elections page (HTML; no sample ballot PDF posted). Supervisors elected by district: only District 2 is on the ballot (Randy Dunbar, R; no Democratic candidate); voters see only their district. Township header states 'Vote for two trustees and one clerk in your township'; '(None)' entries recorded as empty slots (write-in). Doyle Township also has a Trustee TFV (to fill vacancy) race with no candidate; its seat count is not stated. Measure amount '$12,3000,000' is copied verbatim as printed on the county page (likely a typo for $12,300,000)."
+}

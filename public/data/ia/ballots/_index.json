@@ -4,93 +4,93 @@
   {
    "county": "Adair",
    "slug": "adair",
-   "races": 0,
+   "races": 16,
    "referendums": 6,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Adams",
    "slug": "adams",
-   "races": 0,
+   "races": 9,
    "referendums": 6,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Allamakee",
    "slug": "allamakee",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 45,
+   "referendums": 9,
+   "localFound": true
   },
   {
    "county": "Appanoose",
    "slug": "appanoose",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 17,
+   "referendums": 9,
+   "localFound": true
   },
   {
    "county": "Audubon",
    "slug": "audubon",
-   "races": 0,
+   "races": 7,
    "referendums": 13,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Benton",
    "slug": "benton",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 36,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Black Hawk",
    "slug": "black-hawk",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 41,
+   "referendums": 9,
+   "localFound": true
   },
   {
    "county": "Boone",
    "slug": "boone",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 9,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Bremer",
    "slug": "bremer",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 28,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Buchanan",
    "slug": "buchanan",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 8,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Buena Vista",
    "slug": "buena-vista",
-   "races": 0,
+   "races": 25,
    "referendums": 10,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Butler",
    "slug": "butler",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 38,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Calhoun",
    "slug": "calhoun",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 32,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Carroll",
@@ -102,58 +102,58 @@
   {
    "county": "Cass",
    "slug": "cass",
-   "races": 0,
+   "races": 8,
    "referendums": 13,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Cedar",
    "slug": "cedar",
-   "races": 0,
-   "referendums": 12,
-   "localFound": false
+   "races": 39,
+   "referendums": 14,
+   "localFound": true
   },
   {
    "county": "Cerro Gordo",
    "slug": "cerro-gordo",
-   "races": 0,
+   "races": 17,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Cherokee",
    "slug": "cherokee",
-   "races": 0,
+   "races": 13,
    "referendums": 10,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Chickasaw",
    "slug": "chickasaw",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 24,
+   "referendums": 9,
+   "localFound": true
   },
   {
    "county": "Clarke",
    "slug": "clarke",
-   "races": 0,
-   "referendums": 6,
-   "localFound": false
+   "races": 25,
+   "referendums": 7,
+   "localFound": true
   },
   {
    "county": "Clay",
    "slug": "clay",
-   "races": 0,
+   "races": 32,
    "referendums": 10,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Clayton",
    "slug": "clayton",
-   "races": 0,
+   "races": 8,
    "referendums": 8,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Clinton",
@@ -165,23 +165,23 @@
   {
    "county": "Crawford",
    "slug": "crawford",
-   "races": 0,
+   "races": 7,
    "referendums": 10,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Dallas",
    "slug": "dallas",
-   "races": 0,
-   "referendums": 9,
-   "localFound": false
+   "races": 12,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Davis",
    "slug": "davis",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 28,
+   "referendums": 9,
+   "localFound": true
   },
   {
    "county": "Decatur",
@@ -193,65 +193,65 @@
   {
    "county": "Delaware",
    "slug": "delaware",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 7,
+   "referendums": 10,
+   "localFound": true
   },
   {
    "county": "Des Moines",
    "slug": "des-moines",
-   "races": 0,
-   "referendums": 6,
-   "localFound": false
+   "races": 7,
+   "referendums": 7,
+   "localFound": true
   },
   {
    "county": "Dickinson",
    "slug": "dickinson",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 10,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Dubuque",
    "slug": "dubuque",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 9,
+   "referendums": 10,
+   "localFound": true
   },
   {
    "county": "Emmet",
    "slug": "emmet",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 5,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Fayette",
    "slug": "fayette",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 39,
+   "referendums": 10,
+   "localFound": true
   },
   {
    "county": "Floyd",
    "slug": "floyd",
-   "races": 0,
+   "races": 22,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Franklin",
    "slug": "franklin",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 30,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Fremont",
    "slug": "fremont",
-   "races": 0,
+   "races": 30,
    "referendums": 13,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Greene",
@@ -263,30 +263,30 @@
   {
    "county": "Grundy",
    "slug": "grundy",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 6,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Guthrie",
    "slug": "guthrie",
-   "races": 0,
+   "races": 20,
    "referendums": 9,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Hamilton",
    "slug": "hamilton",
-   "races": 0,
+   "races": 25,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Hancock",
    "slug": "hancock",
-   "races": 0,
+   "races": 34,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Hardin",
@@ -298,184 +298,184 @@
   {
    "county": "Harrison",
    "slug": "harrison",
-   "races": 0,
+   "races": 36,
    "referendums": 13,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Henry",
    "slug": "henry",
-   "races": 0,
-   "referendums": 6,
-   "localFound": false
+   "races": 24,
+   "referendums": 8,
+   "localFound": true
   },
   {
    "county": "Howard",
    "slug": "howard",
-   "races": 0,
+   "races": 34,
    "referendums": 8,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Humboldt",
    "slug": "humboldt",
-   "races": 0,
+   "races": 25,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Ida",
    "slug": "ida",
-   "races": 0,
+   "races": 29,
    "referendums": 10,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Iowa",
    "slug": "iowa",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 7,
+   "referendums": 13,
+   "localFound": true
   },
   {
    "county": "Jackson",
    "slug": "jackson",
-   "races": 0,
-   "referendums": 12,
-   "localFound": false
+   "races": 41,
+   "referendums": 15,
+   "localFound": true
   },
   {
    "county": "Jasper",
    "slug": "jasper",
-   "races": 0,
-   "referendums": 9,
-   "localFound": false
+   "races": 43,
+   "referendums": 29,
+   "localFound": true
   },
   {
    "county": "Jefferson",
    "slug": "jefferson",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 23,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Johnson",
    "slug": "johnson",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 52,
+   "referendums": 15,
+   "localFound": true
   },
   {
    "county": "Jones",
    "slug": "jones",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 35,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Keokuk",
    "slug": "keokuk",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 32,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Kossuth",
    "slug": "kossuth",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 9,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Lee",
    "slug": "lee",
-   "races": 0,
-   "referendums": 6,
-   "localFound": false
+   "races": 33,
+   "referendums": 7,
+   "localFound": true
   },
   {
    "county": "Linn",
    "slug": "linn",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 16,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Louisa",
    "slug": "louisa",
-   "races": 0,
-   "referendums": 6,
-   "localFound": false
+   "races": 26,
+   "referendums": 8,
+   "localFound": true
   },
   {
    "county": "Lucas",
    "slug": "lucas",
-   "races": 0,
+   "races": 14,
    "referendums": 6,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Lyon",
    "slug": "lyon",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 8,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Madison",
    "slug": "madison",
-   "races": 0,
-   "referendums": 9,
-   "localFound": false
+   "races": 32,
+   "referendums": 10,
+   "localFound": true
   },
   {
    "county": "Mahaska",
    "slug": "mahaska",
-   "races": 0,
+   "races": 27,
    "referendums": 8,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Marion",
    "slug": "marion",
-   "races": 0,
-   "referendums": 9,
-   "localFound": false
+   "races": 29,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Marshall",
    "slug": "marshall",
-   "races": 0,
+   "races": 35,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Mills",
    "slug": "mills",
-   "races": 0,
-   "referendums": 13,
-   "localFound": false
+   "races": 6,
+   "referendums": 14,
+   "localFound": true
   },
   {
    "county": "Mitchell",
    "slug": "mitchell",
-   "races": 0,
+   "races": 39,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Monona",
    "slug": "monona",
-   "races": 0,
+   "races": 16,
    "referendums": 10,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Monroe",
    "slug": "monroe",
-   "races": 0,
+   "races": 10,
    "referendums": 8,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Montgomery",
@@ -487,58 +487,58 @@
   {
    "county": "Muscatine",
    "slug": "muscatine",
-   "races": 0,
+   "races": 29,
    "referendums": 12,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "O'Brien",
    "slug": "o-brien",
-   "races": 0,
+   "races": 8,
    "referendums": 10,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Osceola",
    "slug": "osceola",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 8,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Page",
    "slug": "page",
-   "races": 0,
+   "races": 11,
    "referendums": 13,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Palo Alto",
    "slug": "palo-alto",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 15,
+   "referendums": 16,
+   "localFound": true
   },
   {
    "county": "Plymouth",
    "slug": "plymouth",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 11,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Pocahontas",
    "slug": "pocahontas",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 36,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Polk",
    "slug": "polk",
-   "races": 0,
-   "referendums": 18,
-   "localFound": false
+   "races": 38,
+   "referendums": 21,
+   "localFound": true
   },
   {
    "county": "Pottawattamie",
@@ -550,37 +550,37 @@
   {
    "county": "Poweshiek",
    "slug": "poweshiek",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 34,
+   "referendums": 9,
+   "localFound": true
   },
   {
    "county": "Ringgold",
    "slug": "ringgold",
-   "races": 0,
-   "referendums": 6,
-   "localFound": false
+   "races": 16,
+   "referendums": 7,
+   "localFound": true
   },
   {
    "county": "Sac",
    "slug": "sac",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 15,
+   "referendums": 13,
+   "localFound": true
   },
   {
    "county": "Scott",
    "slug": "scott",
-   "races": 0,
+   "races": 27,
    "referendums": 12,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Shelby",
    "slug": "shelby",
-   "races": 0,
+   "races": 7,
    "referendums": 13,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Sioux",
@@ -592,65 +592,65 @@
   {
    "county": "Story",
    "slug": "story",
-   "races": 0,
+   "races": 39,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Tama",
    "slug": "tama",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 42,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Taylor",
    "slug": "taylor",
-   "races": 0,
+   "races": 29,
    "referendums": 6,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Union",
    "slug": "union",
-   "races": 0,
-   "referendums": 6,
-   "localFound": false
+   "races": 8,
+   "referendums": 8,
+   "localFound": true
   },
   {
    "county": "Van Buren",
    "slug": "van-buren",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 26,
+   "referendums": 10,
+   "localFound": true
   },
   {
    "county": "Wapello",
    "slug": "wapello",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 32,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Warren",
    "slug": "warren",
-   "races": 0,
-   "referendums": 9,
-   "localFound": false
+   "races": 37,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Washington",
    "slug": "washington",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 8,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Wayne",
    "slug": "wayne",
-   "races": 0,
+   "races": 38,
    "referendums": 6,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Webster",
@@ -662,37 +662,37 @@
   {
    "county": "Winnebago",
    "slug": "winnebago",
-   "races": 0,
+   "races": 7,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Winneshiek",
    "slug": "winneshiek",
-   "races": 0,
-   "referendums": 8,
-   "localFound": false
+   "races": 49,
+   "referendums": 10,
+   "localFound": true
   },
   {
    "county": "Woodbury",
    "slug": "woodbury",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 44,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Worth",
    "slug": "worth",
-   "races": 0,
+   "races": 27,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Wright",
    "slug": "wright",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 14,
+   "referendums": 14,
+   "localFound": true
   }
  ]
 }

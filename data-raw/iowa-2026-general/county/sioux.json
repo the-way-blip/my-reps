@@ -1,0 +1,18 @@
+{
+  "county": "Sioux",
+  "found": false,
+  "partial": false,
+  "sources": [
+    "https://www.siouxcountyia.gov/",
+    "https://www.siouxcountyia.gov/auditor",
+    "https://siouxcountyia.gov/",
+    "https://siouxcounty.org/",
+    "https://siouxcounty.iowa.gov/",
+    "https://elections.siouxcountyia.gov/",
+    "https://siouxcountyiowa.gov/"
+  ],
+  "asOf": null,
+  "races": [],
+  "measures": [],
+  "notes": "Official site www.siouxcountyia.gov (siouxcounty.org redirects there) returns HTTP 403 to scripted requests (bot protection); other candidate hosts don't resolve. Firecrawl search was tried but the account is out of credits. No contests collected. Retry from a regular browser or the Iowa SOS auditor directory."
+}

@@ -1,0 +1,230 @@
+{
+  "county": "Sac",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.saccountyiowa.gov/elections/2026_general_election_2026_11_03/",
+    "https://www.saccountyiowa.gov/files/public_notice/2026_general_election_73194.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mike Fischer",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James L. Wissler",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tina Roth",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bethany Burns",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Benjamin Smith",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Auditor - To Fill a Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Renee Roland",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Sheriff - To Fill a Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Joel Suggitt",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "James Frederick",
+          "party": null
+        },
+        {
+          "name": "Steven Pickhinke",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Aaron Jacobson",
+          "party": null
+        },
+        {
+          "name": "Jacob Joe Petzenhauser",
+          "party": null
+        },
+        {
+          "name": "Julie Steinkamp",
+          "party": null
+        },
+        {
+          "name": "Marsha Phillips",
+          "party": null
+        },
+        {
+          "name": "Kristine Spotts",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eden Township Trustee",
+      "scope": "township",
+      "area": "Eden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Alan Movall",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eden Township Clerk",
+      "scope": "township",
+      "area": "Eden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Laura Foell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eureka Township Trustee",
+      "scope": "township",
+      "area": "Eureka",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jarid Currie",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eureka Township Clerk",
+      "scope": "township",
+      "area": "Eureka",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Pamela Currie",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Loren Burbach",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Sac Township Trustee",
+      "scope": "township",
+      "area": "Sac",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Robert Kent",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sac Township Clerk",
+      "scope": "township",
+      "area": "Sac",
+      "seats": 1,
+      "candidates": []
+    }
+  ],
+  "measures": [
+    {
+      "name": "County of Sac - Public Measure A",
+      "jurisdiction": "Sac County",
+      "ballotLanguage": "Shall the County of Sac, State of Iowa, enter into a loan agreement and issue its general obligation bonds in a principal amount not exceeding $10,000,000 for the purpose of paying the costs, to that extent, of constructing, furnishing and equipping a new County Jail?"
+    },
+    {
+      "name": "Jackson Township - Public Measure B",
+      "jurisdiction": "Jackson Township, Sac County",
+      "ballotLanguage": "Shall the Sac County Board of Supervisors fill the offices of Trustee and Clerk of Jackson Township by appointment as the terms of the office of the incumbent township officers expire?"
+    }
+  ],
+  "notes": "Source is the county's official public notice of election (lists every contest in ballot order). The 13 precinct sample ballot PDFs are image-only (no extractable text), so per-precinct mapping was not verified. Supervisors elected BY DISTRICT: District 2 and District 3 seats on the 2026 ballot (voters see only their district's race). Vacancy offices: County Auditor and County Sheriff (to fill a vacancy). Township clerk races in Jackson and Sac townships show 'No Candidate'. Measures: County Public Measure A (jail bond, county-wide) and Jackson Township Public Measure B (Jackson Township voters only). Ballot heading on both reads 'Shall the following amendment to the Public Measure X be adopted?' (as printed)."
+}

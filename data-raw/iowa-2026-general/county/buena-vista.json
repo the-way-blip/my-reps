@@ -1,0 +1,493 @@
+{
+  "county": "Buena Vista",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://bvcountyelections.iowa.gov/elections/info/2026_buena_vista_county_general_election_2026_11_03/",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_bbll_barnes_township_00101_67338.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_bbll_brooke_township_00102_14079.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_bbll_lee_township_00103_80890.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_bbll_lincoln_township_00104_79820.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_bbll_linn_grove_rembrandt_sioux_rapids_00105_82560.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_cfnp_albert_city_marathon_newell_00205_44530.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_cfnp_coon_township_00201_98279.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_cfnp_fairfield_township_00202_41114.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_cfnp_newell_township_00203_62062.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_cfnp_poland_township_00204_75601.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_emns_alta_00305_21794.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_emns_elk_township_00301_56967.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_emns_maple_valley_township_00302_26784.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_emns_nokomis_township_00303_18472.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_emns_scott_township_00304_10508.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_ghpw_grant_township_00401_80319.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_ghpw_hayes_township_00402_81746.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_ghpw_lakeside_and_truesdale_00405_33282.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_ghpw_providence_township_00403_96202.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_ghpw_washington_township_00404_68162.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_sl01_storm_lake_city_00501_15792.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_sl02_storm_lake_city_00601_47224.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_sl03_hayes_township_00702_69472.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_sl03_storm_lake_city_00701_10465.pdf",
+    "https://bvcountyelections.iowa.gov/files/sample_ballots/20261103_sl04_storm_lake_city_00801_14275.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 1",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kathy Croker",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kelly Snyder",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Paul Merten",
+          "party": "republican"
+        },
+        {
+          "name": "Tom Grau",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Danelle Haberman",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Curtis J. Reis",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Paul Allen",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Brenda Halverson",
+          "party": null
+        },
+        {
+          "name": "Duane Miller",
+          "party": null
+        },
+        {
+          "name": "Richard Lampe",
+          "party": null
+        },
+        {
+          "name": "Tara Radke",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Sean Waldstein",
+          "party": null
+        },
+        {
+          "name": "Robert R. Donahoo",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner (To Fill Vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "John Wilson",
+          "party": null
+        },
+        {
+          "name": "Annie Millard",
+          "party": null
+        },
+        {
+          "name": "Salli Nichols",
+          "party": null
+        },
+        {
+          "name": "Neira Ek Rodriguez",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Barnes Township Trustee",
+      "scope": "township",
+      "area": "Barnes",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ralph Warkentin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Barnes Township Clerk",
+      "scope": "township",
+      "area": "Barnes",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Josh Jessen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Brooke Township Trustee",
+      "scope": "township",
+      "area": "Brooke",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Brooke Township Clerk",
+      "scope": "township",
+      "area": "Brooke",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lee Township Trustee",
+      "scope": "township",
+      "area": "Lee",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lee Township Trustee (To Fill Vacancy)",
+      "scope": "township",
+      "area": "Lee",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lee Township Clerk",
+      "scope": "township",
+      "area": "Lee",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Coon Township Trustee",
+      "scope": "township",
+      "area": "Coon",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Joel Ehlers",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Coon Township Clerk",
+      "scope": "township",
+      "area": "Coon",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randy Richter",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fairfield Township Trustee",
+      "scope": "township",
+      "area": "Fairfield",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Scott Loving",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fairfield Township Clerk",
+      "scope": "township",
+      "area": "Fairfield",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Balder",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Newell Township Trustee",
+      "scope": "township",
+      "area": "Newell",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Newell Township Clerk",
+      "scope": "township",
+      "area": "Newell",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brad Mahler",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Poland Township Trustee",
+      "scope": "township",
+      "area": "Poland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steven Lind",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Poland Township Clerk",
+      "scope": "township",
+      "area": "Poland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Julie Schultze",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Elk Township Trustee",
+      "scope": "township",
+      "area": "Elk",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Elk Township Clerk",
+      "scope": "township",
+      "area": "Elk",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Linda Mattson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Maple Valley Township Trustee",
+      "scope": "township",
+      "area": "Maple Valley",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Maple Valley Township Clerk",
+      "scope": "township",
+      "area": "Maple Valley",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Nokomis Township Trustee",
+      "scope": "township",
+      "area": "Nokomis",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Nokomis Township Trustee (To Fill Vacancy)",
+      "scope": "township",
+      "area": "Nokomis",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Nokomis Township Clerk",
+      "scope": "township",
+      "area": "Nokomis",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Megan Peterson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scott Township Trustee",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Scott Township Clerk",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Anna Mae Robbins",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Trustee",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Matthew D. Richardson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Clerk",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Andrew J. Kelly",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hayes Township Trustee",
+      "scope": "township",
+      "area": "Hayes",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Doug Imming",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hayes Township Clerk",
+      "scope": "township",
+      "area": "Hayes",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Thomas L. Rice",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Providence Township Trustee",
+      "scope": "township",
+      "area": "Providence",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Providence Township Clerk",
+      "scope": "township",
+      "area": "Providence",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": []
+    }
+  ],
+  "measures": [],
+  "notes": "Sample ballots are scanned images; contests and names were transcribed via OCR of all 25 precinct sample ballots (names consistent across all styles). Supervisor seats are at-large with residency districts: Districts 1, 2 and 3 all appear on every precinct ballot countywide. Ag Extension Council lists 4 candidates for 5 seats. Township contests with no printed candidate (write-in only) are included with empty candidate arrays; township contests only appear on rural township precinct ballots. No candidate list PDF is posted (candidates page links to SOS). No county/local public measures appear on any sample ballot."
+}

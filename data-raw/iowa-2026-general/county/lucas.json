@@ -1,0 +1,211 @@
+{
+ "county": "Lucas",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://lucascountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+  "https://lucascountyelections.iowa.gov/files/sample_ballots/1197_chariton_city_hall_precinct_32914.pdf",
+  "https://lucascountyelections.iowa.gov/files/sample_ballots/1197_lc_extension_precinct_warren_township_37456.pdf",
+  "https://lucascountyelections.iowa.gov/files/sample_ballots/1197_lucas_community_center_precinct_ottercreek_township_43947.pdf",
+  "https://lucascountyelections.iowa.gov/files/sample_ballots/1197_pin_oak_marsh_precinct_lincoln_township_91044.pdf",
+  "https://lucascountyelections.iowa.gov/files/sample_ballots/1197_williamson_community_center_precinct_liberty_township_92330.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Larry Davis",
+     "party": "republican"
+    }
+   ],
+   "note": "appears on every precinct ballot (at-large)"
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Hanna Gwinn",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rebecca Bittner",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brandon Shelton",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Public Hospital Trustees",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Lana Kuball",
+     "party": null
+    },
+    {
+     "name": "John Curran",
+     "party": null
+    },
+    {
+     "name": "Natalie McGee",
+     "party": null
+    },
+    {
+     "name": "Sheila Laing",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation Commissioners",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Richard Arnold",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Members",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Branigan Head",
+     "party": null
+    },
+    {
+     "name": "Amber Hall",
+     "party": null
+    },
+    {
+     "name": "Kimberly Head",
+     "party": null
+    },
+    {
+     "name": "Krista LaFollette",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Warren Township Trustee",
+   "scope": "township",
+   "area": "Warren",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Beatty",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Warren Township Clerk",
+   "scope": "township",
+   "area": "Warren",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Ottercreek Township Trustee",
+   "scope": "township",
+   "area": "Ottercreek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Harold Pennington",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Ottercreek Township Clerk",
+   "scope": "township",
+   "area": "Ottercreek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Juli Pennington",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rodney Bortz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Colleen Grgurich",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Trustee",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Chad Masters",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Clerk",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Carie Masters",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "Source: 11 official precinct sample ballot PDFs (scanned images; text read via OCR and spot-checked visually, so spelling of some names may need verification). Supervisor seat: one 'County Board of Supervisor' race appears identically on every precinct ballot = at-large. Township races appear only on Warren, Ottercreek, Lincoln and Liberty township ballots (no township contests printed on Chariton, Whitebreast, Jackson/Union, Benton, Cedar/Washington, English/Pleasant ballots). Warren Township Clerk has no candidate. No county public measures on any ballot."
+}

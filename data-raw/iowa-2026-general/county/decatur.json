@@ -1,0 +1,5 @@
+{"county":"Decatur","found":false,"partial":false,
+ "sources":[],
+ "triedUrls":["https://decaturcounty.iowa.gov/ (403 Cloudflare 'DNS points to prohibited IP')","https://www.decaturcountyiowa.gov/ (403 Cloudflare challenge)","https://decaturcountyiowa.gov/ (403)","https://www.decaturcountyiowa.org/ (403 Cloudflare challenge)","https://web.archive.org/web/20261016232658/https://www.decaturcountyiowa.gov/ (archived homepage; links to /56281/11032026-general-election and news item 'General Election News: Sample Ballots now available to view' - neither archived)","https://www.decaturcountyiowa.gov/56281/11032026-general-election (403)","https://sos.iowa.gov/elections/auditors/auditorslist.html (403)","Firecrawl search (account out of credits)"],
+ "asOf":null,"races":[],"measures":[],
+ "notes":"Decatur County's official site (www.decaturcountyiowa.gov) is behind a Cloudflare challenge that blocks curl. An archived 2026-10-16 homepage confirms a '11/03/2026 General Election' page and posted sample ballots exist, but those pages were not archived. Needs a real browser or manual download."}

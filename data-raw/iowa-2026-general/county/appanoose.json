@@ -1,0 +1,226 @@
+{
+  "county": "Appanoose",
+  "found": true,
+  "partial": true,
+  "sources": [
+    "https://appanoosecounty.iowa.gov/wp-content/uploads/2026/10/Legal-Notice-2026.pdf",
+    "https://appanoosecounty.iowa.gov/news/legal-notice-notice-of-regular-general-election-november-3-2026/",
+    "https://appanoosecounty.iowa.gov/departments/auditor/",
+    "https://appanoosecounty.iowa.gov/wp-json/wp/v2/search?search=general%20election"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Franklin Township Trustee",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Craig Sebolt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Independence Township Clerk",
+      "scope": "township",
+      "area": "Independence",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sherry Murphy",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Johns Township Trustee",
+      "scope": "township",
+      "area": "Johns",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mark McDanolds",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John Sulser",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Martha Furlin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Township Trustee",
+      "scope": "township",
+      "area": "Pleasant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John Wright",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sharon Township Trustee",
+      "scope": "township",
+      "area": "Sharon",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Deb Tarbell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sharon Township Clerk",
+      "scope": "township",
+      "area": "Sharon",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tanya Labertew",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Taylor Township Clerk",
+      "scope": "township",
+      "area": "Taylor",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Denise Hawk",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Udell Township Trustee",
+      "scope": "township",
+      "area": "Udell",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jerry W. Hinote",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Udell Township Clerk",
+      "scope": "township",
+      "area": "Udell",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Richard Burger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Trustee",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Nathan Proctor",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Clerk",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Floyd Proctor",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Vermillion Township Trustee",
+      "scope": "township",
+      "area": "Vermillion",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bruce Frevert",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Vermillion Township Clerk",
+      "scope": "township",
+      "area": "Vermillion",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jay R. Phillips",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Walnut Township Clerk",
+      "scope": "township",
+      "area": "Walnut",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sara Tait",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Wells Township Trustee",
+      "scope": "township",
+      "area": "Wells",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jerry Probasco",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure AM",
+      "jurisdiction": "Appanoose County (unincorporated areas)",
+      "ballotLanguage": "Shall the following Public Measure be adopted? Question: Shall Appanoose County, Iowa, repeal its existing seven percent (7%) local hotel and motel tax, said repeal being effective December 31, 2026, and impose a replacement seven percent (7%) local hotel and motel tax, beginning January 1, 2027, on the sales price from the renting of lodging in the unincorporated areas of Appanoose County, as authorized by Iowa Code chapter 423A, with the revenues expended in accordance with Iowa Code section 423A.7?"
+    }
+  ],
+  "notes": "PARTIAL: The only official 2026 general-election document found on the county site is the Notice of Regular General Election (legal notice PDF). It lists township trustee/clerk candidates and the county hotel/motel tax measure, but the referenced published sample ballot (Centerville Ward 1) is not included in the PDF and no candidate list or sample ballots are posted, so Board of Supervisors, Treasurer, Recorder, Attorney, SWCD, Ag Extension and hospital trustee contests could not be collected. Supervisor district vs at-large status not determined from source. The notice states some townships have openings with no candidates; only township contests with named candidates are listed."
+}

@@ -1,0 +1,565 @@
+{
+ "county": "Jackson",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://jacksoncounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+  "https://jacksoncounty.iowa.gov/files/sample_ballots/1240_candidate_listing_36256.pdf",
+  "https://jacksoncounty.iowa.gov/files/sample_ballots/1240_pct_3_butler_township_17804.pdf (and 36 other per-precinct/township sample ballot PDFs)"
+ ],
+ "asOf": "sample ballots / candidate listing (no date printed)",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "area": "District 2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joe Kettmann",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "area": "District 3",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Donald L. Schwenker",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Beth Gerlach",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jennifer Phillips Jones",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "John L. Kies",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Hospital Trustees",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Kevin L Burns",
+     "party": null
+    },
+    {
+     "name": "Matthew C. Osterhaus",
+     "party": null
+    },
+    {
+     "name": "William Schwenker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Terri McCulley",
+     "party": null
+    },
+    {
+     "name": "William Bevan",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner (to fill vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Michelle Turner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Jebidiah Miller",
+     "party": null
+    },
+    {
+     "name": "Karen L. Till",
+     "party": null
+    },
+    {
+     "name": "Kathy Kunde",
+     "party": null
+    },
+    {
+     "name": "Brandt Moore",
+     "party": null
+    },
+    {
+     "name": "John C Stender",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bellevue Township Trustee",
+   "scope": "township",
+   "area": "Bellevue",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Hunter Zeimet",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bellevue Township Clerk",
+   "scope": "township",
+   "area": "Bellevue",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Troy Patzner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Prairie Springs Township Trustee",
+   "scope": "township",
+   "area": "Prairie Springs",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joseph Kies",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Prairie Springs Township Clerk",
+   "scope": "township",
+   "area": "Prairie Springs",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kathleen Reiss",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Richland Township Trustee",
+   "scope": "township",
+   "area": "Richland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ronald Manders",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Richland Township Clerk",
+   "scope": "township",
+   "area": "Richland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mary Ann Kunde",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Tete Des Morts Township Trustee",
+   "scope": "township",
+   "area": "Tete Des Morts",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Tete Des Morts Township Clerk",
+   "scope": "township",
+   "area": "Tete Des Morts",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Larry Herrig",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Brandon Township Trustee",
+   "scope": "township",
+   "area": "Brandon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Scott Flagel",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Brandon Township Clerk",
+   "scope": "township",
+   "area": "Brandon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jerry Schau",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Butler Township Trustee",
+   "scope": "township",
+   "area": "Butler",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bob Noonan",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Butler Township Clerk",
+   "scope": "township",
+   "area": "Butler",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mike Burke",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Otter Creek Township Trustee",
+   "scope": "township",
+   "area": "Otter Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "John Gansen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Otter Creek Township Clerk",
+   "scope": "township",
+   "area": "Otter Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mary Gansen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Farmers Creek Township Trustee",
+   "scope": "township",
+   "area": "Farmers Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Pat Veach",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Farmers Creek Township Clerk",
+   "scope": "township",
+   "area": "Farmers Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sandra Gerlach",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Perry Township Trustee",
+   "scope": "township",
+   "area": "Perry",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Chris Hoerschelman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Perry Township Clerk",
+   "scope": "township",
+   "area": "Perry",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christopher M. Dunn",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kevin Lundin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lester Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark E Banowetz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brenda Tebbe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Maquoketa Township Trustee",
+   "scope": "township",
+   "area": "Maquoketa",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jeff Holtz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Maquoketa Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Maquoketa",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brandon Moore",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Maquoketa Township Clerk",
+   "scope": "township",
+   "area": "Maquoketa",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bill Deppe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Monmouth Township Trustee",
+   "scope": "township",
+   "area": "Monmouth",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Andrew Thordsen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Monmouth Township Clerk",
+   "scope": "township",
+   "area": "Monmouth",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Deb DeVore",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "South Fork Township Trustee",
+   "scope": "township",
+   "area": "South Fork",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Josh Dostal",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "South Fork Township Clerk",
+   "scope": "township",
+   "area": "South Fork",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Craig Schnoor",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Iowa Township Trustee",
+   "scope": "township",
+   "area": "Iowa",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gregory Jepsen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Iowa Township Clerk",
+   "scope": "township",
+   "area": "Iowa",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Melanie Macy",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Van Buren Township Trustee",
+   "scope": "township",
+   "area": "Van Buren",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Warren Moeller",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Van Buren Township Clerk",
+   "scope": "township",
+   "area": "Van Buren",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Carolyn A. Grant",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure LI (City of Bellevue GO Bond — swimming pool)",
+   "jurisdiction": "City of Bellevue (Precinct 1 Bellevue City ballot)",
+   "ballotLanguage": "Shall the City of Bellevue, in Jackson County, State of Iowa, enter into a loan agreement and issue general obligation bonds in an amount not exceeding $3,000,000 for the purpose of paying the cost, to that extent, of undertaking the construction, furnishing & equipping a new municipal swimming pool, including a splash pad?"
+  },
+  {
+   "name": "Public Measure LJ (Easton Valley Community School District GO Bond)",
+   "jurisdiction": "Easton Valley Community School District (8 Jackson ballot styles)",
+   "ballotLanguage": "Shall the Board of Directors of the Easton Valley Community School District, in the Counties of Clinton and Jackson, State of Iowa, be authorized to contract indebtedness and issue general obligation bonds in an amount not exceeding $7,500,000 for the purposes of acquiring, furnishing, equipping, constructing, and improving the School District's school buildings to include a new gymnasium and new locker room facilities that include a FEMA-rated storm shelter, performing arts upgrades to the existing gym, ADA updates, and other related building, site and land improvements?"
+  },
+  {
+   "name": "Public Measure NC (Kirkwood Community College GO Bond)",
+   "jurisdiction": "Kirkwood Community College (Merged Area X) (3 Jackson ballot styles: pct_3_brandon_township_kirkwood, pct_6_monmouth_city, pct_6_monmouth_township_kirkwood)",
+   "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+  }
+ ],
+ "notes": "Parsed from official per-precinct/township sample ballots (37 styles), consistent with the county candidate listing. Supervisor Districts 2 and 3 appear on every ballot style countywide, so supervisors are elected at-large (residency districts). All county partisan offices have only a Republican candidate. Empty candidate lists = 'No candidates filed' (Tete Des Morts Twp Trustee, Union Twp Trustee and Clerk). Fairfield Township ballot has no township races. Hospital trustee race: vote for four, three candidates."
+}

@@ -1,0 +1,19 @@
+{
+  "county": "Greene",
+  "found": false,
+  "partial": false,
+  "sources": [
+    "https://www.greenecounty.iowa.gov/ (403 Cloudflare challenge)",
+    "https://www.greenecounty.iowa.gov/documentlist.aspx?categoryid=13427 (Sample Ballots list; 403)",
+    "https://www.greenecounty.iowa.gov/docview.aspx?docid=50371 (City of Churdan Ballot; 403)",
+    "https://www.greenecounty.iowa.gov/docview.aspx?docid=50379 (Willow Township Ballot; 403)",
+    "https://www.greenecounty.iowa.gov/docview.aspx?docid=50362 (Greenbrier Township Ballot; 403)",
+    "https://www.greenecounty.iowa.gov/docview.aspx?docid=50364 (City of Dana Ballot; 403)",
+    "https://www.greenecounty.iowa.gov/docview.aspx?docid=50360 (Franklin Township Ballot; 403)",
+    "https://sos.iowa.gov/elections/auditors/auditorslist.html (403)"
+  ],
+  "asOf": null,
+  "races": [],
+  "measures": [],
+  "notes": "NOT FOUND (readable). The county site serves per-precinct 2026 General Election sample ballots (a Firecrawl search surfaced the 'Sample Ballots' document list and several docview.aspx ballot URLs listed in sources), but every page and document on www.greenecounty.iowa.gov returns a Cloudflare challenge (403, cf-mitigated: challenge) to curl, so no contests could be read. Bot-detection was not bypassed. Retry from a normal browser session."
+}

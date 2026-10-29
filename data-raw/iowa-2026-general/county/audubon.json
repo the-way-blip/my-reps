@@ -1,0 +1,123 @@
+{
+  "county": "Audubon",
+  "found": true,
+  "partial": true,
+  "sources": [
+    "https://www.auduboncountyia.gov/webres/File/Auditor/Election/Sample%20Ballot.pdf",
+    "https://www.auduboncountyia.gov/county-information/auditor.aspx"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Paul R.N. Nielsen",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Debbie Campbell",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Miranda Bills",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Christopher R. Swensen",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Sam Graeve",
+          "party": null
+        },
+        {
+          "name": "Genelle Deist",
+          "party": null
+        },
+        {
+          "name": "Marlene Ballou",
+          "party": null
+        },
+        {
+          "name": "Anne Bomstad Miller",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Jonnie Meislahn",
+          "party": null
+        },
+        {
+          "name": "Lora L. Anthofer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Julie McVay",
+          "party": null
+        },
+        {
+          "name": "Tonya Vetter",
+          "party": null
+        },
+        {
+          "name": "Amanda Warnaca",
+          "party": null
+        },
+        {
+          "name": "Nathan Paulsen",
+          "party": null
+        },
+        {
+          "name": "Brooke Wegner",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Official county site is auduboncountyia.gov (found via one web search). Only a single countywide sample ballot (scanned image, transcribed via OCR) is posted; no candidate list or per-precinct ballots, so township trustee/clerk contests and any precinct-specific measures could not be determined (partial). The supervisor contest is printed as 'County Board of Supervisors' with no district number, consistent with at-large election, but this is inferred from one sample ballot. No county public measure appears on the sample ballot."
+}

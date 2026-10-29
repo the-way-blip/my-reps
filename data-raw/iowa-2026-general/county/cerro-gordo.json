@@ -1,0 +1,268 @@
+{
+ "county": "Cerro Gordo",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://cerrogordo.gov/elections/2026_general_election_2026_11_03/",
+  "https://cerrogordo.gov/files/candidate_list/2026_general_election_38511.pdf",
+  "https://cerrogordo.gov/files/sample_ballots/1135_00502_falls_twp_74779.pdf",
+  "https://cerrogordo.gov/files/sample_ballots/1135_00101_clear_lake_ward_1_clsd_72148.pdf"
+ ],
+ "asOf": "Candidate list revised 2026-09-03",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "district": "2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Casey M. Callanan",
+     "party": "republican"
+    },
+    {
+     "name": "Cody Williams",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nikki Fessler",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "AnnMarie Legler",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kaitlyn Kemna Ausborn",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jill Bale",
+     "party": null
+    },
+    {
+     "name": "Phillip Dougherty",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Todd Cash",
+     "party": null
+    },
+    {
+     "name": "Paige Grabe",
+     "party": null
+    },
+    {
+     "name": "Colette Sampson",
+     "party": null
+    },
+    {
+     "name": "Dalton Cullinan",
+     "party": null
+    },
+    {
+     "name": "Lucinda Sheriff",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clear Lake Sanitary District Trustee",
+   "scope": "special district",
+   "area": "Clear Lake Sanitary District",
+   "seats": 3,
+   "candidates": [
+    {
+     "name": "Larry Adams",
+     "party": null
+    },
+    {
+     "name": "Ron Loudenburg",
+     "party": null
+    },
+    {
+     "name": "Tracy Kay Peterson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clear Lake Township Trustee",
+   "scope": "township",
+   "area": "Clear Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Anna Jones",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clear Lake Township Clerk",
+   "scope": "township",
+   "area": "Clear Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kent Thoe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Falls Township Trustee",
+   "scope": "township",
+   "area": "Falls",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Falls Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Falls",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jordan Davison",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Falls Township Clerk",
+   "scope": "township",
+   "area": "Falls",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Grant Township Trustee",
+   "scope": "township",
+   "area": "Grant",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Craig Kennedy",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grant Township Clerk",
+   "scope": "township",
+   "area": "Grant",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kenneth Asbe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Todd Cash",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Pam Pitkin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Portland Township Trustee",
+   "scope": "township",
+   "area": "Portland",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Portland Township Clerk",
+   "scope": "township",
+   "area": "Portland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dave Luett",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sarah Lewis",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kathy Hinrichs",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "Sources: official Cerro Gordo County candidate list (revised 9/3/2026) cross-checked against all 34 precinct sample ballots. Supervisors are elected by district: only District 2 is on the ballot, appearing on 19 of 34 ballot styles (Clear Lake wards, Ventura, Clear Lake/Grant/Union/Lake/Lincoln/Grimes/Portland/Geneseo-Dougherty/Mason South-Bath-Owen/Mt Vernon-Pleasant Valley townships); voters see only their district. No candidate filed for one party in Treasurer/Recorder/Attorney (single candidate each). Falls Township Trustee (regular), Falls Township Clerk and Portland Township Trustee have no filed candidates (write-in only). Clear Lake Sanitary District Trustee race (vote for 3) appears on the 5 '_clsd' ballot styles. No county hospital trustee race and no local public measures on any sample ballot."
+}

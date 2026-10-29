@@ -1,0 +1,275 @@
+{
+ "county": "Mills",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://millscountyiowa.gov/385/General-Election",
+  "https://millscountyiowa.gov/DocumentCenter/View/1799/2026_General_Ballots_Sample-Ballots_00102_001",
+  "https://millscountyiowa.gov/DocumentCenter/View/1798/2026_General_Ballots_Sample-Ballots_00101_001"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Farmer",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Melissa Loghry",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lori Murphy",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "DeShawne Bird-Sell",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Carol Vinton",
+     "party": null
+    },
+    {
+     "name": "Stephen McGrew",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Melissa Smith",
+     "party": null
+    },
+    {
+     "name": "Lori Rew",
+     "party": null
+    },
+    {
+     "name": "Shirley Miller",
+     "party": null
+    },
+    {
+     "name": "Jennifer Graalfs",
+     "party": null
+    },
+    {
+     "name": "Joe Goerge",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Anderson Township Trustee",
+   "scope": "township",
+   "area": "Anderson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Anderson Township Clerk",
+   "scope": "township",
+   "area": "Anderson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Deer Creek Township Trustee",
+   "scope": "township",
+   "area": "Deer Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Deer Creek Township Clerk",
+   "scope": "township",
+   "area": "Deer Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Glenwood Township Trustee",
+   "scope": "township",
+   "area": "Glenwood",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Glenwood Township Clerk",
+   "scope": "township",
+   "area": "Glenwood",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Indian Creek Township Trustee",
+   "scope": "township",
+   "area": "Indian Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Indian Creek Township Clerk",
+   "scope": "township",
+   "area": "Indian Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Ingraham Township Trustee",
+   "scope": "township",
+   "area": "Ingraham",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Ingraham Township Clerk",
+   "scope": "township",
+   "area": "Ingraham",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lyons Township Trustee",
+   "scope": "township",
+   "area": "Lyons",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lyons Township Clerk",
+   "scope": "township",
+   "area": "Lyons",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Oak Township Trustee",
+   "scope": "township",
+   "area": "Oak",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Oak Township Clerk",
+   "scope": "township",
+   "area": "Oak",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Plattville Township Trustee",
+   "scope": "township",
+   "area": "Plattville",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Plattville Township Clerk",
+   "scope": "township",
+   "area": "Plattville",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Rawles Township Trustee",
+   "scope": "township",
+   "area": "Rawles",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Rawles Township Clerk",
+   "scope": "township",
+   "area": "Rawles",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "St Marys Township Trustee",
+   "scope": "township",
+   "area": "St Marys",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "St Marys Township Clerk",
+   "scope": "township",
+   "area": "St Marys",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Silver Creek Township Trustee",
+   "scope": "township",
+   "area": "Silver Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Silver Creek Township Clerk",
+   "scope": "township",
+   "area": "Silver Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "White Cloud Township Trustee",
+   "scope": "township",
+   "area": "White Cloud",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "White Cloud Township Clerk",
+   "scope": "township",
+   "area": "White Cloud",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "County of Mills Public Measure O",
+   "jurisdiction": "Mills County",
+   "ballotLanguage": "Shall the County of Mills, State of Iowa, increase the number of County Supervisors from three to five?"
+  }
+ ],
+ "notes": "Source: 22 official precinct sample ballot PDFs (scanned; read via OCR with visual spot-checks). Supervisor: a single vote-for-one 'Board of Supervisor' race appears on every precinct ballot = at-large (Mills currently has three at-large supervisors; Public Measure O asks whether to increase to five). Township trustee and clerk races (vote-for-one) appear on the 12 rural township ballots, all printed with no candidate names (write-in only). No county hospital trustee race. Public Measure O appears on every ballot."
+}

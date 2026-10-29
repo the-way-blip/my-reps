@@ -88,8 +88,9 @@ export function getStateBallot(data, geo, districts) {
   const schoolMatch = r => schoolTokens(r.area, county.county).some(t => target.includes(t))
   const schoolKnown = target.length && schoolRaces.some(schoolMatch)
 
+  const inCityMaybe = r => r.cityMaybe && !!place && r.scope === 'township' && norm(r.area) === twp
   const local = county.races.filter(r => {
-    if (r.maybe) return false
+    if (r.maybe || inCityMaybe(r)) return false
     if (r.scope === 'county') return true
     if (r.scope === 'township') return !!twp && norm(r.area) === twp
     if (r.scope === 'town' || r.scope === 'city') return !!place && norm(r.area) === place
@@ -97,9 +98,12 @@ export function getStateBallot(data, geo, districts) {
     return false
   })
 
+  // Local questions: keep the ones whose name matches the voter's city, school district or county
+  const mine = new Set([...target, ...schoolTokens(geo.place, county.county)])
+  const countyWide = q => new RegExp(`\\b${county.county}\\s+County\\b`, 'i').test(q.name) && !/school|city|town/i.test(q.name)
   const proposals = county.referendums
-    .filter(q => q.statewide || /retention/i.test(q.type) ||
-      (schoolKnown ? schoolTokens(q.name, county.county).some(t => target.includes(t)) : true))
+    .filter(q => q.statewide || /retention/i.test(q.type) || countyWide(q) ||
+      schoolTokens(q.name, county.county).some(t => mine.has(t)))
     .map(q => toProposal(q, `${county.county} County`))
     .sort((a, b) => (a.division === 'State' ? 0 : 1) - (b.division === 'State' ? 0 : 1))
 
@@ -107,7 +111,7 @@ export function getStateBallot(data, geo, districts) {
   const inArea = r => r.scope === 'county' ||
     (r.scope === 'school' && (schoolKnown ? schoolMatch(r) : false)) ||
     ((r.scope === 'town' || r.scope === 'city') && !!place && norm(r.area).startsWith(place))
-  const maybeRaces = county.races.filter(r => r.maybe && inArea(r))
+  const maybeRaces = county.races.filter(r => (r.maybe && inArea(r)) || inCityMaybe(r))
 
   return {
     matched: true,

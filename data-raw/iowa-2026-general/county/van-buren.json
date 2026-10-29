@@ -1,0 +1,472 @@
+{
+ "county": "Van Buren",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.vanburencounty.iowa.gov/offices/administrative/elections.php",
+  "https://www.vanburencounty.iowa.gov/Candidate%20Names%20%26%20Addresses.pdf",
+  "https://www.vanburencounty.iowa.gov/Notice%20of%20General%20Election-2026.pdf",
+  "https://www.vanburencounty.iowa.gov/Central%20City%20Sample%20Ballot.pdf",
+  "https://www.vanburencounty.iowa.gov/Central%20Henry%20Twp%20Sample%20Ballot.pdf"
+ ],
+ "asOf": "2026-10-20 (Notice of General Election posted); candidate list posted 2026-09-29",
+ "races": [
+  {
+   "office": "Board of Supervisors, At-Large",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dale J House",
+     "party": "republican"
+    },
+    {
+     "name": "Mark Meek",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Linda Whitten",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lisa Crane",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "H. Craig Miller",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Hospital Trustee",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Michael William Thomas",
+     "party": null
+    },
+    {
+     "name": "Ann McBride",
+     "party": null
+    },
+    {
+     "name": "Kayla Scheuers",
+     "party": null
+    },
+    {
+     "name": "Quenton Dodson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dennis Gratz",
+     "party": null
+    },
+    {
+     "name": "Rodney Peck",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kelly Gordy",
+     "party": null
+    },
+    {
+     "name": "Hannah Wells",
+     "party": null
+    },
+    {
+     "name": "Patrick Thomas",
+     "party": null
+    },
+    {
+     "name": "Mary Jane Mast",
+     "party": null
+    },
+    {
+     "name": "Jennifer Gardner",
+     "party": null
+    },
+    {
+     "name": "Jasmine Padget",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member, To Fill Vacancy",
+   "scope": "county",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Bonaparte Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Bonaparte"
+  },
+  {
+   "office": "Bonaparte Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Richard Eden",
+     "party": null
+    }
+   ],
+   "area": "Bonaparte"
+  },
+  {
+   "office": "Cedar Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Hoaglin",
+     "party": null
+    }
+   ],
+   "area": "Cedar"
+  },
+  {
+   "office": "Cedar Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Carol Deao",
+     "party": null
+    }
+   ],
+   "area": "Cedar"
+  },
+  {
+   "office": "Chequest Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [],
+   "area": "Chequest"
+  },
+  {
+   "office": "Chequest Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Chequest"
+  },
+  {
+   "office": "Des Moines Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "William I Helling",
+     "party": null
+    },
+    {
+     "name": "Corby Troutman",
+     "party": null
+    }
+   ],
+   "area": "Des Moines"
+  },
+  {
+   "office": "Des Moines Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Des Moines"
+  },
+  {
+   "office": "Farmington Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [],
+   "area": "Farmington"
+  },
+  {
+   "office": "Farmington Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kathy J. Hood",
+     "party": null
+    }
+   ],
+   "area": "Farmington"
+  },
+  {
+   "office": "Harrisburg Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [],
+   "area": "Harrisburg"
+  },
+  {
+   "office": "Harrisburg Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Wayne Phelps",
+     "party": null
+    }
+   ],
+   "area": "Harrisburg"
+  },
+  {
+   "office": "Henry Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ken M Hornbaker",
+     "party": null
+    }
+   ],
+   "area": "Henry"
+  },
+  {
+   "office": "Henry Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kathy Bartholomew",
+     "party": null
+    }
+   ],
+   "area": "Henry"
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Loren Weatherington",
+     "party": null
+    }
+   ],
+   "area": "Jackson"
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Benjamin W. Koellner",
+     "party": null
+    }
+   ],
+   "area": "Jackson"
+  },
+  {
+   "office": "Lick Creek Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steven E. Kisling",
+     "party": null
+    }
+   ],
+   "area": "Lick Creek"
+  },
+  {
+   "office": "Lick Creek Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dennis Syfert",
+     "party": null
+    }
+   ],
+   "area": "Lick Creek"
+  },
+  {
+   "office": "Lick Creek Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Lick Creek"
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Troy Lyon",
+     "party": null
+    },
+    {
+     "name": "Steven Unkrich",
+     "party": null
+    }
+   ],
+   "area": "Union"
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark Carter",
+     "party": null
+    }
+   ],
+   "area": "Union"
+  },
+  {
+   "office": "Van Buren Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Van Buren"
+  },
+  {
+   "office": "Van Buren Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mike Plecker",
+     "party": null
+    }
+   ],
+   "area": "Van Buren"
+  },
+  {
+   "office": "Vernon Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [],
+   "area": "Vernon"
+  },
+  {
+   "office": "Vernon Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Vernon"
+  },
+  {
+   "office": "Vernon Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Vernon"
+  },
+  {
+   "office": "Village Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Terry Hostetler",
+     "party": null
+    },
+    {
+     "name": "Doug Pool",
+     "party": null
+    }
+   ],
+   "area": "Village"
+  },
+  {
+   "office": "Village Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Donald Gene Pool",
+     "party": null
+    }
+   ],
+   "area": "Village"
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Christy Barker Vickerman",
+     "party": null
+    },
+    {
+     "name": "Keith Morris",
+     "party": null
+    }
+   ],
+   "area": "Washington"
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Twila Westercamp",
+     "party": null
+    }
+   ],
+   "area": "Washington"
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure US",
+   "jurisdiction": "Van Buren County Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Van Buren County Community School District in the Counties of Van Buren, Davis, Henry and Lee, State of Iowa, be authorized to issue approximately $13,800,000 School Infrastructure Sales, Services and Use Tax Revenue and Refunding Bonds, which may be issued in one or more series over multiple fiscal years pursuant to Iowa Code Section 423F.2 and 423E.5, in the approximate amount of $13,800,000 for the purpose of providing funds to build, furnish, and equip an addition to the Keosauqua campus, including a secure entrance, classrooms, commons, and office space, and to improve the site; and to currently refund the outstanding School Infrastructure Sales, Services and Use Tax Revenue Bonds, Series 2022A, dated July 15, 2022, including costs of issuance and a debt service reserve fund if required by the purchaser; with any bond proceeds remaining after completion of this project used for other school infrastructure projects as authorized by the School District's Revenue Purpose Statement?"
+  },
+  {
+   "name": "Public Measure LR",
+   "jurisdiction": "Fairfield Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Fairfield Community School District in the Counties of Jefferson, Henry, Van Buren, Wapello and Washington, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $24,850,000 to provide funds to build furnish, and equip additions to and to remodel, repair, improve, and equip the middle school building, including fine arts, career and technical education, library, commons area, kitchen, and gymnasium spaces, including related site improvements?"
+  }
+ ],
+ "notes": "Sources: official 2026 General Election candidate list (names/parties), Notice of General Election, and per-precinct sample ballots (image scans; county/nonpartisan sections visually verified). Board of Supervisors is at-large: 2 seats, both candidates on every ballot. Supervisor printed on ballot as 'Dale J House' (candidate list: 'Dale House'). County Attorney H. Craig Miller has no party affiliation. Township seat counts are from the candidate list; empty candidate lists mean no candidate filed (write-in only). Township candidate names are from the candidate list and election notice (township ballot sections not individually verified). Measures appear only for voters within the respective school districts."
+}

@@ -1,0 +1,154 @@
+{
+ "county": "Clayton",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://elections.claytoncountyia.gov/elections/info/2026_clayton_county_general_election_2026_11_03/",
+  "https://elections.claytoncountyia.gov/files/candidate_list/2026_clayton_county_general_election_70085.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors (at-large)",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Eric Grau",
+     "party": "democratic"
+    },
+    {
+     "name": "Randall Laughead",
+     "party": "democratic"
+    },
+    {
+     "name": "Brian Harbaugh",
+     "party": "republican"
+    },
+    {
+     "name": "Doug Reimer",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Linda Zuercher",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Josie Fettkether",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Zach Herrmann",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Travis Anderson",
+     "party": null
+    },
+    {
+     "name": "Scott Hilgerson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kaitlin Landon",
+     "party": null
+    },
+    {
+     "name": "Beth Lincoln",
+     "party": null
+    },
+    {
+     "name": "Cindy Schoulte Petsche",
+     "party": null
+    },
+    {
+     "name": "Steve J. Ruzicka",
+     "party": null
+    },
+    {
+     "name": "Jeremy Schultz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cass Township Trustee",
+   "scope": "township",
+   "area": "Cass",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ben Putz",
+     "party": null
+    },
+    {
+     "name": "Rande Moeller",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cass Township Clerk",
+   "scope": "township",
+   "area": "Cass",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Terri E. Gould",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Mallory Township Trustee",
+   "scope": "township",
+   "area": "Mallory",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Mallory Township Clerk",
+   "scope": "township",
+   "area": "Mallory",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [],
+ "notes": "Source: official Clayton County 'Candidate List - General Election November 3, 2026'. Board of Supervisors is at-large ('vote for 2', county-wide). 'No Candidate Filed' entries (Democratic Treasurer/Recorder/Attorney; all Mallory Township offices) recorded as empty/omitted (write-in only). The list lists Cass and Mallory as the only township races. 'Cindy Schoulte Petsche' wraps across two lines in the PDF and is joined here. The county election site posts precinct maps but no general-election sample ballots, so local public measures (school/merged-area bonds etc.) could not be verified; none appear on the candidate list. No county hospital trustee race listed."
+}

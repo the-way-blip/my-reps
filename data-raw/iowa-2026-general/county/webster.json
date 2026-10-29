@@ -1,0 +1,26 @@
+{
+ "county": "Webster",
+ "found": false,
+ "partial": false,
+ "sources": [],
+ "asOf": null,
+ "races": [],
+ "measures": [],
+ "triedUrls": [
+  "https://webstercounty.iowa.gov/ (Cloudflare 403: DNS points to prohibited IP)",
+  "https://webstercountyia.gov/ (Cloudflare 'Attention Required' bot challenge, not bypassed)",
+  "https://webstercountyia.gov/auditor/elections/ (403)",
+  "https://www.webstercountyia.gov/",
+  "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+  "https://www.webstercountyia.gov/services/voter_registration/index.php",
+  "https://www.webstercountyia.gov/services/voter_registration/absentee_voting.php",
+  "https://www.webstercountyia.gov/services/voter_registration/links.php",
+  "https://www.webstercountyia.gov/services/voter_registration/voter_forms.php",
+  "https://www.webstercountyia.gov/services/voter_registration/precinct_maps.php",
+  "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/elections.php (404)",
+  "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/sample_ballots.php (404)",
+  "https://www.webstercounty.org/ (parked domain)",
+  "Firecrawl search (failed: account out of credits)"
+ ],
+ "notes": "Not found. The Webster County auditor/voter-information pages at www.webstercountyia.gov do not link a 2026 General Election candidate list or sample ballot, and the bare webstercountyia.gov / webstercounty.iowa.gov hosts are behind Cloudflare blocks. No contests recorded."
+}

@@ -99,7 +99,8 @@ function countyRaces(county) {
   const c = JSON.parse(readFileSync(f, 'utf8'))
   const races = (c.races || []).filter(r => r.candidates?.length).map((r, i) => {
     const scope = r.scope === 'township' ? 'township' : 'county'
-    const office = scope === 'county' && !/county/i.test(r.office) ? `${county} County ${r.office}` : r.office
+    const office = scope !== 'county' || r.office.startsWith(county) ? r.office
+      : /^County\b/.test(r.office) ? `${county} ${r.office}` : `${county} County ${r.office}`
     // Supervisor (and similar) seats elected by district can't be pinned to an address
     const maybe = scope === 'county' && /Supervisor/i.test(r.office) && BY_DISTRICT.test(r.office)
     return {
@@ -107,7 +108,10 @@ function countyRaces(county) {
       scope, ...(r.area ? { area: r.area } : {}), seats: r.seats || 1,
       type: r.candidates.some(x => x.party) ? 'partisan' : 'nonpartisan',
       description: [r.seats > 1 ? `Vote for up to ${r.seats}.` : '', maybe ? 'May be on your ballot: only voters in this supervisor district vote on this seat. Check your county auditor\'s sample ballot.' : ''].filter(Boolean).join(' '),
-      ...(maybe ? { maybe: true } : {}), ballotOrder: 500 + i,
+      ...(maybe ? { maybe: true } : {}),
+      // Not confirmed whether residents of an incorporated city vote in township races, so city addresses see them as "may be on your ballot"
+      ...(scope === 'township' ? { cityMaybe: true } : {}),
+      ballotOrder: 500 + i,
       candidates: r.candidates.map(x => ({ name: x.name, party: x.party || null, status: 'candidate' })),
     }
   })

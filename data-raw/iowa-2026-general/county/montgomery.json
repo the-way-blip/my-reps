@@ -1,0 +1,5 @@
+{"county":"Montgomery","found":false,"partial":false,
+ "sources":[],
+ "triedUrls":["https://montgomerycounty.iowa.gov/","https://www.montgomerycountyia.gov/","https://montgomerycountyia.gov/auditor","https://www.montgomerycountyia.gov/auditor/elections","https://www.montgomerycountyia.gov/sitemap.xml","https://www.co.montgomery.ia.us/","https://montgomerycoiowa.com/","https://www.montgomerycountyiowa.gov/","https://sos.iowa.gov/elections/auditors/auditorslist.html"],
+ "asOf":null,"races":[],"measures":[],
+ "notes":"County website (www.montgomerycountyia.gov) returns HTTP 403 behind a Cloudflare bot challenge for every path, so no candidate list or sample ballot could be retrieved by curl; other domain guesses do not resolve. The one allowed Firecrawl search failed (account out of credits). Needs manual retrieval in a real browser."}

@@ -1,0 +1,661 @@
+{
+ "county": "Woodbury",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://elections.woodburycountyiowa.gov/elections/info/2026_general_election_2026_11_03/",
+  "https://elections.woodburycountyiowa.gov/files/sample_ballots/20261103_precinct_10_loess_hills_elementary_school_51837.pdf",
+  "(plus the other 72 per-precinct sample ballot PDFs linked on the election page)"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Daniel A. Bittinger II",
+     "party": "republican"
+    },
+    {
+     "name": "Jody House",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 4",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kolby DeWitt",
+     "party": "republican"
+    },
+    {
+     "name": "Brittney Wilson",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tina M. Bertrand",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James D. Loomis",
+     "party": "republican"
+    },
+    {
+     "name": "Benjamin J. Mulford",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Gary Walters",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kerri Weaver",
+     "party": null
+    },
+    {
+     "name": "Ben Uhl",
+     "party": null
+    },
+    {
+     "name": "Paul Boyle",
+     "party": null
+    },
+    {
+     "name": "Kevin Pottebaum",
+     "party": null
+    },
+    {
+     "name": "Rashelle Jensen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member Member, To Fill Vacancy",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mia Heilman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Banner Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Banner"
+  },
+  {
+   "office": "Banner Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Banner"
+  },
+  {
+   "office": "Concord Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Karl Braun",
+     "party": null
+    }
+   ],
+   "area": "Concord"
+  },
+  {
+   "office": "Concord Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nancy Flammang",
+     "party": null
+    }
+   ],
+   "area": "Concord"
+  },
+  {
+   "office": "Woodbury Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jerry D. Holder",
+     "party": null
+    }
+   ],
+   "area": "Woodbury"
+  },
+  {
+   "office": "Woodbury Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tina M. Kilpatrick",
+     "party": null
+    }
+   ],
+   "area": "Woodbury"
+  },
+  {
+   "office": "Liberty Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Adam Lee",
+     "party": null
+    }
+   ],
+   "area": "Liberty"
+  },
+  {
+   "office": "Liberty Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Barbara Parker",
+     "party": null
+    }
+   ],
+   "area": "Liberty"
+  },
+  {
+   "office": "Wolf Creek Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Roger L. Wilson",
+     "party": null
+    }
+   ],
+   "area": "Wolf Creek"
+  },
+  {
+   "office": "Wolf Creek Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Shona Klingensmith",
+     "party": null
+    }
+   ],
+   "area": "Wolf Creek"
+  },
+  {
+   "office": "Arlington Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Pamela M. Clark",
+     "party": null
+    }
+   ],
+   "area": "Arlington"
+  },
+  {
+   "office": "Arlington Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Blake Stratton",
+     "party": null
+    }
+   ],
+   "area": "Arlington"
+  },
+  {
+   "office": "Arlington Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Vicki Hulse",
+     "party": null
+    }
+   ],
+   "area": "Arlington"
+  },
+  {
+   "office": "Moville Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Moville"
+  },
+  {
+   "office": "Moville Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Karen Bennar",
+     "party": null
+    }
+   ],
+   "area": "Moville"
+  },
+  {
+   "office": "Rutland Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Wayne Rieckmann",
+     "party": null
+    }
+   ],
+   "area": "Rutland"
+  },
+  {
+   "office": "Rutland Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kevin Reinking",
+     "party": null
+    }
+   ],
+   "area": "Rutland"
+  },
+  {
+   "office": "Kedron Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ron Cockburn",
+     "party": null
+    }
+   ],
+   "area": "Kedron"
+  },
+  {
+   "office": "Kedron Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bill O'Connell",
+     "party": null
+    }
+   ],
+   "area": "Kedron"
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Keith Goodwin",
+     "party": null
+    }
+   ],
+   "area": "Union"
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Andrew J Linn",
+     "party": null
+    }
+   ],
+   "area": "Union"
+  },
+  {
+   "office": "Grange Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cody Williams",
+     "party": null
+    }
+   ],
+   "area": "Grange"
+  },
+  {
+   "office": "Grange Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Grange"
+  },
+  {
+   "office": "Grange Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Grange"
+  },
+  {
+   "office": "Floyd Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Noel Plummer",
+     "party": null
+    }
+   ],
+   "area": "Floyd"
+  },
+  {
+   "office": "Floyd Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Amanda Bennett",
+     "party": null
+    }
+   ],
+   "area": "Floyd"
+  },
+  {
+   "office": "Rock Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jason Meins",
+     "party": null
+    }
+   ],
+   "area": "Rock"
+  },
+  {
+   "office": "Rock Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Rock"
+  },
+  {
+   "office": "Westfork Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Charles Holst",
+     "party": null
+    }
+   ],
+   "area": "Westfork"
+  },
+  {
+   "office": "Westfork Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Michael Baird",
+     "party": null
+    }
+   ],
+   "area": "Westfork"
+  },
+  {
+   "office": "Willow Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sylvia Dietrich",
+     "party": null
+    }
+   ],
+   "area": "Willow"
+  },
+  {
+   "office": "Willow Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Folsom",
+     "party": null
+    }
+   ],
+   "area": "Willow"
+  },
+  {
+   "office": "Grant Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Derek Kollbaum",
+     "party": null
+    }
+   ],
+   "area": "Grant"
+  },
+  {
+   "office": "Grant Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jennifer Benson",
+     "party": null
+    }
+   ],
+   "area": "Grant"
+  },
+  {
+   "office": "Miller Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brett Baldwin",
+     "party": null
+    }
+   ],
+   "area": "Miller"
+  },
+  {
+   "office": "Miller Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jason Mahrt",
+     "party": null
+    }
+   ],
+   "area": "Miller"
+  },
+  {
+   "office": "Miller Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Barbara K. Ludwig",
+     "party": null
+    }
+   ],
+   "area": "Miller"
+  },
+  {
+   "office": "Morgan Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jason Hamann",
+     "party": null
+    }
+   ],
+   "area": "Morgan"
+  },
+  {
+   "office": "Morgan Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Morgan"
+  },
+  {
+   "office": "Liston Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Adam Cameron",
+     "party": null
+    }
+   ],
+   "area": "Liston"
+  },
+  {
+   "office": "Liston Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Liston"
+  },
+  {
+   "office": "Sloan Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Todd Copple",
+     "party": null
+    }
+   ],
+   "area": "Sloan"
+  },
+  {
+   "office": "Sloan Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Victoria J. Eliason",
+     "party": null
+    }
+   ],
+   "area": "Sloan"
+  },
+  {
+   "office": "Lakeport Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christopher Fred Pepin",
+     "party": null
+    }
+   ],
+   "area": "Lakeport"
+  },
+  {
+   "office": "Lakeport Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Robert Gay",
+     "party": null
+    }
+   ],
+   "area": "Lakeport"
+  },
+  {
+   "office": "Little Sioux Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Little Sioux"
+  },
+  {
+   "office": "Little Sioux Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Little Sioux"
+  },
+  {
+   "office": "Oto Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Oto"
+  },
+  {
+   "office": "Oto Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Oto"
+  },
+  {
+   "office": "Oto Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Oto"
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure WD",
+   "jurisdiction": "Sergeant Bluff-Luton Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Sergeant Bluff-Luton Community School District in the County of Woodbury, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $38,000,000 to provide funds to build, furnish, and equip a new Primary School building as an addition to the Elementary building (including demolition of the existing Primary building) and improve the site?"
+  }
+ ],
+ "notes": "Source: 73 per-precinct official sample ballot PDFs (text-extractable). Board of Supervisors District 2 and District 4 contests both appear on every precinct ballot in the county, i.e. supervisors are elected countywide (at-large) with district residency requirements; all voters see both. Township offices appear only on ballots of precincts in that township; empty candidate lists are write-in only (Banner, Moville trustee, Grange clerk/vacancy, Rock clerk, Morgan clerk, Liston clerk, Little Sioux, Oto). Public Measure WD (SBL school bond) appears on 8 precinct ballots (29B, 29C, 30, 31, 32C, 32D, 33B, 37C). No county-level measure."
+}

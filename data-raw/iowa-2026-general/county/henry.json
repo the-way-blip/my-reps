@@ -1,0 +1,402 @@
+{
+  "county": "Henry",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.henrycounty.iowa.gov/election/",
+    "https://cap.gmdsolutions.com/viewfile.aspx?id=03B82594C8834044BF00BBD662791449&dir=Objects",
+    "https://cap.gmdsolutions.com/viewfile.aspx?id=58CC9BF357494FD2B2B91C512294B2D4&dir=Objects"
+  ],
+  "asOf": "2026-10-15",
+  "races": [
+    {
+      "office": "Board of Supervisors (at-large)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sam Riepe",
+          "party": "democratic"
+        },
+        {
+          "name": "Heidi Zenk",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kellie Sloan",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lynnae Buffington",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Becky Wilson",
+          "party": "republican"
+        },
+        {
+          "name": "Abbie Liechty (No Party)",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Henry County Health Center Board of Trustees (county public hospital trustee)",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Rebecca Bender",
+          "party": null
+        },
+        {
+          "name": "Mary Liechty",
+          "party": null
+        },
+        {
+          "name": "Amy J. Mclaughlin",
+          "party": null
+        },
+        {
+          "name": "Joel D. Prottsman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Ricky M. Mallams",
+          "party": null
+        },
+        {
+          "name": "Harlan Miller",
+          "party": null
+        },
+        {
+          "name": "Andrew John Woline",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Marc Benson",
+          "party": null
+        },
+        {
+          "name": "Amanda McArtor-Morin",
+          "party": null
+        },
+        {
+          "name": "Brooke Kelley-McArtor",
+          "party": null
+        },
+        {
+          "name": "Theresa Rose",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council (to fill vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jason Liechty",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Baltimore Township Clerk",
+      "scope": "township",
+      "area": "Baltimore",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Josh Lair",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Baltimore Township Trustee",
+      "scope": "township",
+      "area": "Baltimore",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kenton Buchholz",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Canaan Township Clerk",
+      "scope": "township",
+      "area": "Canaan",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kate Byczek",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Canaan Township Trustee",
+      "scope": "township",
+      "area": "Canaan",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Center Township Clerk",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Debbie Smith",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Center Township Trustee",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randy Detrick",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James Dean",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jefferson Township Clerk",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dwain Alvine",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jefferson Township Trustee",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Paul VonTersch",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Marion Township Clerk",
+      "scope": "township",
+      "area": "Marion",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sara Mertens",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Marion Township Trustee",
+      "scope": "township",
+      "area": "Marion",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jermiah Greiner",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "New London Township Clerk",
+      "scope": "township",
+      "area": "New London",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "New London Township Trustee",
+      "scope": "township",
+      "area": "New London",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Salem Township Clerk",
+      "scope": "township",
+      "area": "Salem",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Salem Township Trustee",
+      "scope": "township",
+      "area": "Salem",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Scott Township Clerk",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Patti Gerling",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scott Township Trustee",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brian Haymond",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Tippecanoe Township Clerk",
+      "scope": "township",
+      "area": "Tippecanoe",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Gary E. Oldt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Tippecanoe Township Trustee",
+      "scope": "township",
+      "area": "Tippecanoe",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mike Kerr",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Trenton Township Clerk",
+      "scope": "township",
+      "area": "Trenton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Trenton Township Trustee",
+      "scope": "township",
+      "area": "Trenton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Wayne Township Clerk",
+      "scope": "township",
+      "area": "Wayne",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brad Benson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Wayne Township Trustee",
+      "scope": "township",
+      "area": "Wayne",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Allen Rodgers",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Van Buren County Community School District Public Measure US",
+      "jurisdiction": "Van Buren County Community School District (Van Buren, Davis, Henry, Lee counties); Henry County voters in the district only",
+      "ballotLanguage": "Shall the Board of Directors of the Van Buren County Community School District in the Counties of Van Buren, Davis, Henry and Lee, State of Iowa, be authorized to issue approximately $13,800,000 School Infrastructure Sales, Services and Use Tax Revenue and Refunding Bonds, which may be issued in one or more series over multiple fiscal years pursuant to Iowa Code Section 423F.2 and 423E.5, in the approximate amount of $13,800,000 for the purpose of providing funds to build, furnish, and equip an addition to the Keosauqua campus, including a secure entrance, classrooms, commons, and office space, and to improve the site; and to currently refund the outstanding School Infrastructure Sales, Services and Use Tax Revenue Bonds, Series 2022A, dated July 15, 2022, including costs of issuance and a debt service reserve fund if required by the purchaser; with any bond proceeds remaining after completion of this project used for other school infrastructure projects as authorized by the School District's Revenue Purpose Statement?"
+    },
+    {
+      "name": "Fairfield Community School District Public Measure LR",
+      "jurisdiction": "Fairfield Community School District (Jefferson, Henry, Van Buren, Wapello, Washington counties); Henry County voters in the district only",
+      "ballotLanguage": "Shall the Board of Directors of the Fairfield Community School District in the Counties of Jefferson, Henry, Van Buren, Wapello and Washington, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $24,850,000 to provide funds to build furnish, and equip additions to and to remodel, repair, improve, and equip the middle school building, including fine arts, career and technical education, library, commons area, kitchen and gymnasium spaces, including related site improvements?"
+    }
+  ],
+  "notes": "From the official Notice of Election with candidate list (Auditor Robin Detrick, dated Oct 15, 2026) and the 46-page scanned sample-ballot PDF (OCR + visual check), both linked from the county election page and hosted on cap.gmdsolutions.com. Supervisor contest is county-wide 'Vote for no more than One' with no district shown (at-large). Parties (Riepe DEM, Zenk REP) taken from the sample ballot; the notice lists Abbie Liechty as 'No Party'. Candidate names copied as printed on the sample ballot where it differs from the notice (notice spells 'Rick M. Mallams', 'Andrew Woline', 'Brooke Kelly-McArtor', 'Theresa K. Rose', 'Amy Mclaughlin', 'Joel Prottsman'). Township clerk and trustee contests are each 'Vote for One' (4-yr terms); empty candidate lists were printed as 'Write In' on the notice. Measure text is from the notice; it appears on separate Fairfield / Van Buren ballot styles."
+}

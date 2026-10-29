@@ -1,0 +1,17 @@
+{"county":"Monroe","found":true,"partial":false,
+ "sources":["https://monroecounty.iowa.gov/offices/elections/","https://cap.gmdsolutions.com/viewfile.aspx?id=10843DAAD31B4259B5151DAD9FA4E325&dir=Objects","https://cap.gmdsolutions.com/viewfile.aspx?id=501F574A333D45CFAEAA9A146306933&dir=Objects"],
+ "asOf":null,
+ "races":[
+  {"office":"Board of Supervisors","scope":"county","seats":1,"candidates":[{"name":"Sonny Schroeder","party":"republican"}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Faith Powless","party":"republican"}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Christine DeMoss","party":"republican"}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[{"name":"Laura Davis","party":"republican"}]},
+  {"office":"County Public Hospital Trustee","scope":"county","seats":4,"candidates":[{"name":"Tiffany Havard","party":null},{"name":"Jason Summers","party":null},{"name":"Matthew Foster","party":null},{"name":"Joseph Bates","party":null}]},
+  {"office":"Soil and Water Conservation District Commissioner","scope":"county","seats":2,"candidates":[{"name":"Raymond Joseph Pyle","party":null},{"name":"Robert R. Scott","party":null}]},
+  {"office":"County Agricultural Extension Council","scope":"county","seats":5,"candidates":[{"name":"Kari Knowles","party":null},{"name":"Jerri A. Bettis","party":null},{"name":"Christy Lautner","party":null},{"name":"Wendy Dyson","party":null},{"name":"Jill Kosman","party":null}]},
+  {"office":"County Agricultural Extension Council Member (To Fill Vacancy)","scope":"county","seats":1,"candidates":[{"name":"Chris Knowles","party":null},{"name":"Chelsea Caye Bachman","party":null}]},
+  {"office":"Pleasant Township Trustee","scope":"township","area":"Pleasant","seats":1,"candidates":[{"name":"David Fynaardt","party":null}]},
+  {"office":"Pleasant Township Clerk","scope":"township","area":"Pleasant","seats":1,"candidates":[{"name":"Warren McGlothlen","party":null}]}
+ ],
+ "measures":[],
+ "notes":"Source is the 16-page image-only sample ballot PDF (8 ballot styles) linked from the auditor's Elections page (hosted on the county's GMD Solutions document portal), plus the Notice of General Election. Names transcribed visually from rendered pages. Supervisors are elected at-large: a single 'For County Board of Supervisors' contest with no district number appears on every ballot style. Pleasant Township offices appear only on one ballot style. The notice says the only public measure is the statewide Constitutional Amendment; no county/local measures."}

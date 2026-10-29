@@ -1,0 +1,457 @@
+{
+  "county": "Fremont",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.fremontcountyia.gov/vimages/shared/vnews/stories/51dc101896399/2026%20General%20Publication%20with%20signature.pdf",
+    "https://www.fremontcountyia.gov/vnews/display.v/SEC/County%7CAuditor%3E%3E2026%20General%20Election%20Info"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors (at-large)",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Clint Blackburn",
+          "party": "republican"
+        },
+        {
+          "name": "Dustin Sheldon",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Alise Snyder",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tarah Berry",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Peter Johnson",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "Benton Township Trustee",
+      "scope": "township",
+      "area": "Benton",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Brian Spurlock",
+          "party": null
+        },
+        {
+          "name": "Philip K. Penney",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fisher Township Trustee",
+      "scope": "township",
+      "area": "Fisher",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Phillip Wing",
+          "party": null
+        },
+        {
+          "name": "Thomas F. Troxel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Green Township Trustee",
+      "scope": "township",
+      "area": "Green",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Lawrence L. Crom",
+          "party": null
+        },
+        {
+          "name": "Adam Malcom",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Locust Grove Township Trustee",
+      "scope": "township",
+      "area": "Locust Grove",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Brenda Sue Frank",
+          "party": null
+        },
+        {
+          "name": "Mandy Whipple",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Madison Township Trustee",
+      "scope": "township",
+      "area": "Madison",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Randy Owen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Monroe Township Trustee",
+      "scope": "township",
+      "area": "Monroe",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Thomas Joseph Martin",
+          "party": null
+        },
+        {
+          "name": "Paul Head",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Prairie Township Trustee",
+      "scope": "township",
+      "area": "Prairie",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Tom Lorimor",
+          "party": null
+        },
+        {
+          "name": "Joel David Magel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Riverside Township Trustee",
+      "scope": "township",
+      "area": "Riverside",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Duane Aistrope",
+          "party": null
+        },
+        {
+          "name": "Carl Focht",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Riverton Township Trustee",
+      "scope": "township",
+      "area": "Riverton",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Darwin Bugg",
+          "party": null
+        },
+        {
+          "name": "Rick R. Mount",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scott Township Trustee",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Larry Ratashak",
+          "party": null
+        },
+        {
+          "name": "Steve Howe",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sidney Township Trustee",
+      "scope": "township",
+      "area": "Sidney",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Ronald L. Loewe",
+          "party": null
+        },
+        {
+          "name": "Nick Golden",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Walnut Township Trustee",
+      "scope": "township",
+      "area": "Walnut",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Todd Bonnes",
+          "party": null
+        },
+        {
+          "name": "Robert Lightfoot",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Greg Phillips",
+          "party": null
+        },
+        {
+          "name": "David E. Mincer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Riverton Township Trustee (to fill vacancy)",
+      "scope": "township",
+      "area": "Riverton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Benton Township Clerk",
+      "scope": "township",
+      "area": "Benton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Roxanne Daffer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fisher Township Clerk",
+      "scope": "township",
+      "area": "Fisher",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Carl Eugene Shelton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Green Township Clerk",
+      "scope": "township",
+      "area": "Green",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Erin Smith",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Locust Grove Township Clerk",
+      "scope": "township",
+      "area": "Locust Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Roger Jones",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Madison Township Clerk",
+      "scope": "township",
+      "area": "Madison",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jeannie Chastain",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Monroe Township Clerk",
+      "scope": "township",
+      "area": "Monroe",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jake McGargill",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Prairie Township Clerk",
+      "scope": "township",
+      "area": "Prairie",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Teresa A. Johnson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Riverside Township Clerk",
+      "scope": "township",
+      "area": "Riverside",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Grant Schaaf",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Riverton Township Clerk",
+      "scope": "township",
+      "area": "Riverton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Scott Township Clerk",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Elijah F. Forney",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sidney Township Clerk",
+      "scope": "township",
+      "area": "Sidney",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David C. Roberts",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Walnut Township Clerk",
+      "scope": "township",
+      "area": "Walnut",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kathy Lightfoot",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "David Carter",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Colton Moore",
+          "party": null
+        },
+        {
+          "name": "Kayla Walter",
+          "party": null
+        },
+        {
+          "name": "Abby Pendleton",
+          "party": null
+        },
+        {
+          "name": "Kristi Shiner",
+          "party": null
+        },
+        {
+          "name": "Janet Burkhiser",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Source: official Notice of Fremont County 2026 General Election (scanned PDF, read via OCR + visual check). Supervisors appear as a single county-wide 'Vote for no more than Two' contest (at-large; no district shown). Races with empty candidate lists were printed as 'No Candidate' (write-in only); a second 'No Candidate' slot also printed for Madison Twp Trustee and SWCD Commissioner. No county public hospital trustee contest and no local public measures appear in the notice. Per-precinct sample ballots also posted (SampleBallot2026redo.pdf, 36 image pages) but not individually parsed."
+}

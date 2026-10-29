@@ -1,0 +1,397 @@
+{
+ "county": "Chickasaw",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://chickasawcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+  "https://chickasawcountyelections.iowa.gov/files/candidate_list/2026_general_election_73901.pdf",
+  "https://chickasawcountyelections.iowa.gov/files/sample_ballots/20261103_lafredfr3_00403_14072.pdf",
+  "https://chickasawcountyelections.iowa.gov/files/sample_ballots/20261103_nh_ward_1_00600_20530.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "district": "2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Scott Cerwinske",
+     "party": "republican"
+    },
+    {
+     "name": "James G. Ashley",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 5",
+   "scope": "county",
+   "district": "5",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Travis Suckow",
+     "party": "republican"
+    },
+    {
+     "name": "Jason Byrne",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Matthew Ysbrand",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gina Fangman",
+     "party": "republican"
+    },
+    {
+     "name": "Shirley M. Troyna",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David C. Laudner",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kim Leichtman",
+     "party": null
+    },
+    {
+     "name": "Steven Mashek",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Tara Lee Underwood",
+     "party": null
+    },
+    {
+     "name": "Logan Litchfield",
+     "party": null
+    },
+    {
+     "name": "Heather Maurer",
+     "party": null
+    },
+    {
+     "name": "Jim Russ",
+     "party": null
+    },
+    {
+     "name": "Emily Bailey",
+     "party": null
+    },
+    {
+     "name": "Diane K. Brown",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bradford Township Clerk",
+   "scope": "township",
+   "area": "Bradford",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Adam Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bradford Township Trustee",
+   "scope": "township",
+   "area": "Bradford",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Matthew Bailey",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Chickasaw Township Clerk",
+   "scope": "township",
+   "area": "Chickasaw",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "Chickasaw Township Trustee",
+   "scope": "township",
+   "area": "Chickasaw",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "Chickasaw Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Chickasaw",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "Dayton Township Clerk",
+   "scope": "township",
+   "area": "Dayton",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Julie A. Eckenrod",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dayton Township Trustee",
+   "scope": "township",
+   "area": "Dayton",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Andrew Zweibohmer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Deerfield Township Clerk",
+   "scope": "township",
+   "area": "Deerfield",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "Deerfield Township Trustee",
+   "scope": "township",
+   "area": "Deerfield",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Tom Boehmer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dresden Township Clerk",
+   "scope": "township",
+   "area": "Dresden",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Austin Niewoehner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dresden Township Trustee",
+   "scope": "township",
+   "area": "Dresden",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Patrick Langreck",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fredericksburg Township Clerk",
+   "scope": "township",
+   "area": "Fredericksburg",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Bradley Ellison",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fredericksburg Township Trustee",
+   "scope": "township",
+   "area": "Fredericksburg",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "Jacksonville Township Clerk",
+   "scope": "township",
+   "area": "Jacksonville",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "Jacksonville Township Trustee",
+   "scope": "township",
+   "area": "Jacksonville",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Mark Schmitt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "New Hampton Township Clerk",
+   "scope": "township",
+   "area": "New Hampton",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Brad Nelson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "New Hampton Township Trustee",
+   "scope": "township",
+   "area": "New Hampton",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Nathan Underwood",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Richland Township Clerk",
+   "scope": "township",
+   "area": "Richland",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Janice Edson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Richland Township Trustee",
+   "scope": "township",
+   "area": "Richland",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Troy Gilbert",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Stapleton Township Clerk",
+   "scope": "township",
+   "area": "Stapleton",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Donald F. Arens",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Stapleton Township Trustee",
+   "scope": "township",
+   "area": "Stapleton",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Tom Brincks",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Utica Township Clerk",
+   "scope": "township",
+   "area": "Utica",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "Utica Township Trustee",
+   "scope": "township",
+   "area": "Utica",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "area": "Washington",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Heather Maurer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "area": "Washington",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Tony Schwickerath",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Sumner-Fredericksburg Community School District Public Measure BW",
+   "jurisdiction": "Sumner-Fredericksburg Community School District (Chickasaw County portion)",
+   "ballotLanguage": "Shall the Board of Directors of the Sumner-Fredericksburg Community School District in the Counties of Bremer, Chickasaw, and Fayette, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $16,300,000 to provide funds to construct, build, furnish, and equip additions to the High School building; and to remodel, repair, improve, and equip the existing High School, Middle School, and Fredericksburg Elementary buildings, including playground, parking, and site improvements?"
+  }
+ ],
+ "notes": "Candidates from the official Chickasaw County 2026 general election candidate list (text PDF); seat counts for SWCD (vote for two) and Ag Extension (vote for five) and the public measure text were read from the scanned precinct sample ballots (image PDFs). Supervisors are elected by district: District 2 and District 5 seats are on separate ballot styles (e.g., Fredericksburg precinct shows only District 5); voters see only their district. 'No Candidate' listings (Democratic Treasurer/Attorney; several township offices) are recorded as empty candidate lists (write-in only). Township seat counts are not stated on the candidate list, so they are null. Sumner-Fredericksburg CSD Public Measure BW appears on 8 of 31 ballot styles; no other local measures. No county hospital trustee race."
+}

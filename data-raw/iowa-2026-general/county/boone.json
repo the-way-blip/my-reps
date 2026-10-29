@@ -1,0 +1,180 @@
+{
+  "county": "Boone",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://boonecounty.iowa.gov/elections/info/2026_general_election_november_3_2026_2026_11_03/",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_boone_5th_ward_81576.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_boone_precinct_1_14589.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_boone_ward_2_15581.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_boone_ward_3_36202.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_boone_ward_4_62180.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_madrid_1st_ward_92524.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_madrid_2nd_ward_46658.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_madrid_3rd_ward_47987.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_ogden_32600.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_rural_precinct_1_72154.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_rural_precinct_2_97095.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_rural_precinct_2_madrid_school_district_38958.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_rural_precinct_3_20856.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_rural_precinct_3_madrid_school_district_90351.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_rural_precinct_4_84097.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_rural_precinct_5_48551.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_rural_precinct_5_pilot_mound_township_11740.pdf",
+    "https://boonecounty.iowa.gov/files/sample_ballots/1239_rural_precinct_6_71889.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors (at-large)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Shawn Bryant",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lauren Novak",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "MacKenzie M. Davis",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Matthew Speers",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Brian Reimers",
+          "party": null
+        },
+        {
+          "name": "Lisa Kobernusz",
+          "party": null
+        },
+        {
+          "name": "Meredith Nerem",
+          "party": null
+        },
+        {
+          "name": "Robert Getschman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Steve Carlson",
+          "party": null
+        },
+        {
+          "name": "Melissa Sturgeon-Bice",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Jennifer Barnum",
+          "party": null
+        },
+        {
+          "name": "Ramona Satre",
+          "party": null
+        },
+        {
+          "name": "Ronald D Swanson",
+          "party": null
+        },
+        {
+          "name": "Matthew Swanson",
+          "party": null
+        },
+        {
+          "name": "Jeff Erb",
+          "party": null
+        },
+        {
+          "name": "Tom Kauffman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member (To Fill Vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Pilot Mound Township Trustee",
+      "scope": "township",
+      "area": "Pilot Mound",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Al Lingren",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pilot Mound Township Clerk",
+      "scope": "township",
+      "area": "Pilot Mound",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tabitha Nelson",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure BQ",
+      "jurisdiction": "Madrid Community School District",
+      "ballotLanguage": "Shall the following Public Measure be adopted? Shall the Board of Directors of the Madrid Community School District in the Counties of Boone, Dallas, and Polk, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $4,300,000 to provide funds to build, furnish and equip additions to its existing Junior-Senior High School, including a Career Academy addition, with related remodeling and improvements and site improvements?"
+    }
+  ],
+  "notes": "Supervisor seat is at-large (ballot shows 'County Board of Supervisors' with no district on every precinct ballot; all voters see it). Ag Extension Council To Fill Vacancy contest appears on ballot with no printed candidates (write-in only). Township offices only appear on the Rural Precinct 5 - Pilot Mound Township ballot. Public Measure BQ appears only on Madrid ward and Madrid School District rural precinct ballots. Names transcribed from sample-ballot PDFs (18 precinct styles). No candidate list PDF was posted."
+}

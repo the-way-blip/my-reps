@@ -1,0 +1,382 @@
+{
+ "county": "Louisa",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://elections.louisacountyia.gov/elections/info/2026_louisa_county_general_election_2026_11_03/",
+  "https://elections.louisacountyia.gov/files/public_notice/2026_louisa_county_general_election_19316.pdf",
+  "https://elections.louisacountyia.gov/files/sample_ballots/1225_404wapello_township_37796.pdf",
+  "https://elections.louisacountyia.gov/files/sample_ballots/1225_503columbus_citykirkwood_bond_44342.pdf",
+  "https://elections.louisacountyia.gov/files/sample_ballots/1225_507oakland_townshipkirkwood_lone_tree_bond_27331.pdf"
+ ],
+ "asOf": "2026-10-14",
+ "races": [
+  {
+   "office": "Board of Supervisors",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Shawn M. Maine",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Beth Hardin",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tammy Hayes",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Adam D. Parsons",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kathy Dice",
+     "party": null
+    },
+    {
+     "name": "Tim Knutson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Jackson Soy",
+     "party": null
+    },
+    {
+     "name": "Kasey Heindel",
+     "party": null
+    },
+    {
+     "name": "Sam Willson",
+     "party": null
+    },
+    {
+     "name": "Marsha Gerot",
+     "party": null
+    },
+    {
+     "name": "Anthony Wellington",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Columbus City Township Trustee",
+   "scope": "township",
+   "area": "Columbus City",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ben Beukenhorst",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Columbus City Township Clerk",
+   "scope": "township",
+   "area": "Columbus City",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Concord Township Trustee",
+   "scope": "township",
+   "area": "Concord",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Concord Township Clerk",
+   "scope": "township",
+   "area": "Concord",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jennifer Scorpil",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Eliot Township Trustee",
+   "scope": "township",
+   "area": "Eliot",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Trent Kuntz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Eliot Township Clerk",
+   "scope": "township",
+   "area": "Eliot",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Linda Avery",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Elm Grove Township Trustee",
+   "scope": "township",
+   "area": "Elm Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Chris Buffington",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Elm Grove Township Clerk",
+   "scope": "township",
+   "area": "Elm Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dallas Davis",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grandview Township Trustee",
+   "scope": "township",
+   "area": "Grandview",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kevin Schaper",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grandview Township Clerk",
+   "scope": "township",
+   "area": "Grandview",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Monica J. Bieri",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Marlin Spitznogle",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Selena Gerst",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marshall Township Trustee",
+   "scope": "township",
+   "area": "Marshall",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Duane Boysen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marshall Township Clerk",
+   "scope": "township",
+   "area": "Marshall",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rhonda Pritchard",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Morning Sun Township Trustee",
+   "scope": "township",
+   "area": "Morning Sun",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Trent Samuels",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Morning Sun Township Clerk",
+   "scope": "township",
+   "area": "Morning Sun",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Roger J. Wyss",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oakland Township Trustee",
+   "scope": "township",
+   "area": "Oakland",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Oakland Township Clerk",
+   "scope": "township",
+   "area": "Oakland",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Port Louisa Township Trustee",
+   "scope": "township",
+   "area": "Port Louisa",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Edward Yotter",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Port Louisa Township Clerk",
+   "scope": "township",
+   "area": "Port Louisa",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jasey Moore",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Thomas Donald Stewart",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Burdette E. Baker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wapello Township Trustee",
+   "scope": "township",
+   "area": "Wapello",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Fred Weyrick Jr.",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wapello Township Clerk",
+   "scope": "township",
+   "area": "Wapello",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Anne Ball",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Kirkwood Community College (Merged Area X) Bond - Public Measure NC",
+   "jurisdiction": "Kirkwood Community College (Merged Area X)",
+   "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+  },
+  {
+   "name": "Lone Tree Community School District Bond - Public Measure MA",
+   "jurisdiction": "Lone Tree Community School District (Johnson, Louisa counties)",
+   "ballotLanguage": "Shall the Board of Directors of the Lone Tree Community School District in the Counties of Johnson and Louisa, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $6,900,000 to provide funds to remodel, repair, and improve the school building for energy efficiency, including HVAC, mechanical, electrical, and site improvements?"
+  }
+ ],
+ "notes": "Sources: official 2026 General Election public notice (text PDF, release date October 14, 2026, lists all contests/candidates and measure text) cross-checked against 19 precinct sample ballot PDFs (scanned; read via OCR) for parties and vote-for counts. Supervisor: a single vote-for-one race appears on every precinct ballot = at-large. Township trustee and clerk races are vote-for-one; Columbus City Township Clerk, Concord Township Trustee and Oakland Township (trustee and clerk) have no candidates. Measure NC (Kirkwood bond) appears only on the Kirkwood-area ballot styles (503 Columbus City-Kirkwood, 507 Oakland Twp-Kirkwood & Lone Tree); Measure MA (Lone Tree CSD bond) only on 507."
+}

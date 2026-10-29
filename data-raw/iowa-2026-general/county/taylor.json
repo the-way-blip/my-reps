@@ -1,0 +1,484 @@
+{
+  "county": "Taylor",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://taylorcounty.iowa.gov/election-information/",
+    "https://taylorcounty.iowa.gov/wp-content/uploads/2026/10/Precinct-1-Sample-Ballots-2026-General-Election.pdf",
+    "https://taylorcounty.iowa.gov/wp-content/uploads/2026/10/Precinct-2-Sample-Ballots-2026-General-Election.pdf",
+    "https://taylorcounty.iowa.gov/wp-content/uploads/2026/10/Precinct-3-Sample-Ballots-2026-General-Election.pdf",
+    "https://taylorcounty.iowa.gov/wp-content/uploads/2026/10/Precinct-4-Sample-Ballots-2026-General-Election.pdf",
+    "https://taylorcounty.iowa.gov/wp-content/uploads/2026/10/Precinct-5-Sample-Ballots-2026-General-Election.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 1",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rick Cabbage",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jack Beggs",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dana Davis",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Janel Irvin",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Steve Wright",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner - To Fill Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bailie Walters",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Tina McMillin",
+          "party": null
+        },
+        {
+          "name": "Aleigh Beaman",
+          "party": null
+        },
+        {
+          "name": "Kerri Sargent",
+          "party": null
+        },
+        {
+          "name": "Tiana McKee",
+          "party": null
+        },
+        {
+          "name": "Aubrey Norris",
+          "party": null
+        },
+        {
+          "name": "Ryan Wilson",
+          "party": null
+        },
+        {
+          "name": "Trisha Moore",
+          "party": null
+        },
+        {
+          "name": "Lynn Stamps",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Klint Bissell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Benton Township Trustee",
+      "scope": "township",
+      "area": "Benton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Benton Township Clerk",
+      "scope": "township",
+      "area": "Benton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Erik S. Wiard",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Aimee Bissell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Polk Township Trustee",
+      "scope": "township",
+      "area": "Polk",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Polk Township Clerk",
+      "scope": "township",
+      "area": "Polk",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Ross Township Trustee",
+      "scope": "township",
+      "area": "Ross",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Ross Township Clerk",
+      "scope": "township",
+      "area": "Ross",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Louis Els",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bedford Township Trustee",
+      "scope": "township",
+      "area": "Bedford",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dennis White",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bedford Township Clerk",
+      "scope": "township",
+      "area": "Bedford",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James Donald Offenbacker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Clayton Township Trustee",
+      "scope": "township",
+      "area": "Clayton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Garry Dean Rankin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Clayton Township Clerk",
+      "scope": "township",
+      "area": "Clayton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Patty Rankin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Gay Township Trustee",
+      "scope": "township",
+      "area": "Gay",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Gay Township Clerk",
+      "scope": "township",
+      "area": "Gay",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Jefferson Township Trustee",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "G. Charles Kreitlow",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jefferson Township Clerk",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David L. Loutzenhiser",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Trustee",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Doug England",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Clerk",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Nickie Henderson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grove Township Trustee",
+      "scope": "township",
+      "area": "Grove",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Grove Township Clerk",
+      "scope": "township",
+      "area": "Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jamie David",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Platte Township Trustee",
+      "scope": "township",
+      "area": "Platte",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Platte Township Clerk",
+      "scope": "township",
+      "area": "Platte",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Holt Township Trustee",
+      "scope": "township",
+      "area": "Holt",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Shane Bennett",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Holt Township Clerk",
+      "scope": "township",
+      "area": "Holt",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sharon Dalton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Marshall Township Trustee",
+      "scope": "township",
+      "area": "Marshall",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Paul Norton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Marshall Township Clerk",
+      "scope": "township",
+      "area": "Marshall",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Amanda Mains",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jesse Beemer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cindy M. Coleman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Dallas Township Trustee",
+      "scope": "township",
+      "area": "Dallas",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Wright",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Dallas Township Clerk",
+      "scope": "township",
+      "area": "Dallas",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lee Haug",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Mason Township Trustee",
+      "scope": "township",
+      "area": "Mason",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Mason Township Clerk",
+      "scope": "township",
+      "area": "Mason",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Nodaway Township Trustee",
+      "scope": "township",
+      "area": "Nodaway",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Nodaway Township Clerk",
+      "scope": "township",
+      "area": "Nodaway",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jeff L. Fulton",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Sample ballot PDFs are scanned images (no text layer); contests were transcribed visually from all 23 ballot styles across 5 precincts. Supervisors elected BY DISTRICT: District 1 (Rick Cabbage, on Precinct 1, 4 and 5 ballots) and District 3 (Jack Beggs, Precinct 3 ballots); Precinct 2 ballots carry no supervisor race. County Attorney has no printed candidate (write-in only). Township races vote-for-one; no printed candidates for Benton, Polk, Gay, Platte, Mason Twp trustee and clerk, and Ross, Grove, Nodaway Twp trustee. No county-level public measures seen (only Constitutional Amendment 1). No county hospital race on ballot."
+}

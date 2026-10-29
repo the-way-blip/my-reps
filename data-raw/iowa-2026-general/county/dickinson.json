@@ -1,0 +1,20 @@
+{"county":"Dickinson","found":true,"partial":false,
+ "sources":["https://dickinsoncountyiowa.gov/2026/09/2026-general-election-candidate-list/","https://dickinsoncountyiowa.gov/wp-content/uploads/2026/09/2026-General-Election-Candidate-List.pdf","https://dickinsoncountyiowa.gov/2026/10/2026-general-election-ballot-styles/","https://dickinsoncountyiowa.gov/wp-content/uploads/2026/10/2026-General-Election-Ballot-Styles.pdf"],
+ "asOf":"2026-09-04 (proofing ballot styles timestamp)",
+ "races":[
+  {"office":"Board of Supervisors, District 1","scope":"county","district":"1","seats":1,"candidates":[{"name":"Dan Taylor","party":"republican"}]},
+  {"office":"Board of Supervisors, District 2","scope":"county","district":"2","seats":1,"candidates":[{"name":"Curtis Rouse","party":"republican"}]},
+  {"office":"Board of Supervisors, District 4","scope":"county","district":"4","seats":1,"candidates":[{"name":"Thaddeus Cook","party":"republican"}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Kris Rowley","party":"republican"}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Ann Ditsworth","party":"republican"}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[{"name":"Bethany Brands-Lampe","party":"republican"}]},
+  {"office":"County Public Hospital Trustees","scope":"county","seats":4,"candidates":[{"name":"Kathryn Fahy","party":null},{"name":"Randy Heikens","party":null},{"name":"Debra Leners","party":null},{"name":"Jed Jensen","party":null}]},
+  {"office":"Soil and Water Conservation District Commissioners","scope":"county","seats":2,"candidates":[{"name":"Susan Vance Hjelm","party":null}]},
+  {"office":"County Agricultural Extension Council Members","scope":"county","seats":5,"candidates":[{"name":"Casey Jones","party":null},{"name":"Patrick Kenaley","party":null}]},
+  {"office":"Iowa Great Lakes Sanitary Sewer Trustees","scope":"special-district","area":"Iowa Great Lakes Sanitary District","seats":1,"candidates":[{"name":"Tom E. Kuhlman","party":null}]}
+ ],
+ "measures":[
+  {"name":"Public Measure GX","jurisdiction":"City of Lake Park","ballotLanguage":"Shall the City of Lake Park, State of Iowa, issue its General Obligation Bonds or Capital Loan Notes in an amount not exceeding the amount of $4,600,000 for the purpose of paying costs of designing, constructing, equipping, and furnishing a new Emergency Services Facility, with related site improvements and acquisition of real estate therefor?"},
+  {"name":"Public Measure GW","jurisdiction":"Spirit Lake Community School District","ballotLanguage":"Shall the Board of Directors of the Spirit Lake Community School District in the County of Dickinson, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $69,990,000 to provide funds to remodel, repair, improve, and equip existing school buildings, including academic, common, and extracurricular spaces at the high school, middle school, and elementary school; to build, furnish, and equip additions to the high school, middle school, and elementary school; to build a new bus barn; and to improve the sites, including improvements to existing athletic facilities and the elementary playground?"}
+ ],
+ "notes":"Supervisors elected by district; voters see only their district (Districts 1, 2, 4 on ballot in 2026). Source is the 28 proofing ballot styles PDF (2026-09-04). Candidate list PDF prints the SWCD candidate as 'S. Vance Hjelm'; ballot styles print 'Susan Vance Hjelm' (ballot used). Only 1 SWCD candidate for 2 seats and 2 Ag Extension candidates for 5 seats. Sanitary sewer trustee appears on 11 styles (Iowa Great Lakes Sanitary District area). No township offices on ballot."}

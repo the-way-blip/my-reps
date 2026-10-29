@@ -1,0 +1,602 @@
+{
+  "county": "Harrison",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://harrisoncounty.iowa.gov/election/",
+    "https://cap.gmdsolutions.com/viewfile.aspx?id=058AE331C6F04C2497C8C97F1A10083&dir=Objects"
+  ],
+  "asOf": "2026-10-14",
+  "races": [
+    {
+      "office": "Board of Supervisors (at-large)",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Brian Rife",
+          "party": "republican"
+        },
+        {
+          "name": "Michele Stirtz",
+          "party": "republican"
+        },
+        {
+          "name": "Jesica Santana Col\u00f3n",
+          "party": "democratic"
+        },
+        {
+          "name": "Jackson Summers",
+          "party": "independent"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Shelia K. Phillips",
+          "party": "republican"
+        },
+        {
+          "name": "Barrett White",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Felicia Geith",
+          "party": "republican"
+        },
+        {
+          "name": "Lynn Goodrich",
+          "party": "MAGA"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sarah Delanty",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Wilbur Bruce Busing",
+          "party": null
+        },
+        {
+          "name": "Rolland A. Roberts",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Kara Dickinson",
+          "party": null
+        },
+        {
+          "name": "Casey Pape",
+          "party": null
+        },
+        {
+          "name": "Andy E. Dickinson",
+          "party": null
+        },
+        {
+          "name": "Amanda Lawrenson",
+          "party": null
+        },
+        {
+          "name": "Deborah Mether",
+          "party": null
+        },
+        {
+          "name": "Melanie Pryor",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Allen Township Clerk",
+      "scope": "township",
+      "area": "Allen",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Russell Hansen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Boyer Township Clerk",
+      "scope": "township",
+      "area": "Boyer",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rebecca R Colwell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Calhoun Township Clerk",
+      "scope": "township",
+      "area": "Calhoun",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lyla Olson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cass Township Clerk",
+      "scope": "township",
+      "area": "Cass",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cynthia Sue Dickinson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cincinnati Township Clerk",
+      "scope": "township",
+      "area": "Cincinnati",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Patricia Mahoney",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Clay Township Clerk",
+      "scope": "township",
+      "area": "Clay",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Alyxandria M. Hirst",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Douglas Township Clerk",
+      "scope": "township",
+      "area": "Douglas",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Harrison Township Clerk",
+      "scope": "township",
+      "area": "Harrison",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Marilyn Kepford",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Jefferson Township Clerk",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "LaGrange Township Clerk",
+      "scope": "township",
+      "area": "LaGrange",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kimberly A Clark",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Little Sioux Township Clerk",
+      "scope": "township",
+      "area": "Little Sioux",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Peggy Jo Shearer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Magnolia Township Clerk",
+      "scope": "township",
+      "area": "Magnolia",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Morgan Township Clerk",
+      "scope": "township",
+      "area": "Morgan",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Raglan Township Clerk",
+      "scope": "township",
+      "area": "Raglan",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "St John Township Clerk",
+      "scope": "township",
+      "area": "St John",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rene Gochenour",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Taylor Township Clerk",
+      "scope": "township",
+      "area": "Taylor",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Union Township Clerk",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jay D. Heim",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lynn Stamp",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Allen Township Trustee",
+      "scope": "township",
+      "area": "Allen",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Laura Hansen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Boyer Township Trustee",
+      "scope": "township",
+      "area": "Boyer",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "James Andersen",
+          "party": null
+        },
+        {
+          "name": "Gary J. Hall",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Calhoun Township Trustee",
+      "scope": "township",
+      "area": "Calhoun",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Patsy Beck",
+          "party": null
+        },
+        {
+          "name": "Martin Sertterh",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cass Township Trustee",
+      "scope": "township",
+      "area": "Cass",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Jay Johnsen",
+          "party": null
+        },
+        {
+          "name": "Gene McGinn",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cincinnati Township Trustee",
+      "scope": "township",
+      "area": "Cincinnati",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Clay Township Trustee",
+      "scope": "township",
+      "area": "Clay",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Tina Hirst",
+          "party": null
+        },
+        {
+          "name": "Alan W. Hirst",
+          "party": null
+        },
+        {
+          "name": "Kevin M. Hirst",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Douglas Township Trustee",
+      "scope": "township",
+      "area": "Douglas",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Harrison Township Trustee",
+      "scope": "township",
+      "area": "Harrison",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Tony Casperson",
+          "party": null
+        },
+        {
+          "name": "Brian McGinn",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Jeff Clark",
+          "party": null
+        },
+        {
+          "name": "Gary Jensen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jefferson Township Trustee",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Ronald Koenig",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "LaGrange Township Trustee",
+      "scope": "township",
+      "area": "LaGrange",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Ryan Kastner",
+          "party": null
+        },
+        {
+          "name": "Kenneth McIntosh",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Brian Donn",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Little Sioux Township Trustee",
+      "scope": "township",
+      "area": "Little Sioux",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Lance A. Baldwin",
+          "party": null
+        },
+        {
+          "name": "Danny Mathison",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Magnolia Township Trustee",
+      "scope": "township",
+      "area": "Magnolia",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Curtis Mether",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Morgan Township Trustee",
+      "scope": "township",
+      "area": "Morgan",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Connie Ehlert",
+          "party": null
+        },
+        {
+          "name": "Keaton King",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Raglan Township Trustee",
+      "scope": "township",
+      "area": "Raglan",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "D. Roger Spooner",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "St John Township Trustee",
+      "scope": "township",
+      "area": "St John",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Forrest Gochenour",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Taylor Township Trustee",
+      "scope": "township",
+      "area": "Taylor",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Mark Flint",
+          "party": null
+        },
+        {
+          "name": "Michael E. Stolz",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Trustee",
+      "scope": "township",
+      "area": "Union",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Sharon E. Heim",
+          "party": null
+        },
+        {
+          "name": "Lynn Kline",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Randy Zacharias",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "From the official Notice of Election (Auditor Megan Reffett, dated Oct 14, 2026), linked as 'Election Public Notice' on the county election page (hosted on the county's cap.gmdsolutions.com document system). Supervisors: a single county-wide 'Vote for no more than Two' contest (at-large; no districts shown). Parties as printed: Jackson Summers (Ind), Lynn Goodrich (MAGA); Barrett White and Sarah Delanty printed with no party. Township trustees vote for no more than two, clerks one; empty candidate lists = 'No Candidate' (write-in only). No county hospital trustee contest. The notice header mentions a 'public measure', but the only measure listed is statewide Constitutional Amendment 1 (already covered); no local measure text appears. Per-precinct sample ballots were not found on the county site."
+}

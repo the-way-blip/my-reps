@@ -1,0 +1,198 @@
+{
+ "county": "Cherokee",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.cherokeecounty.iowa.gov/departments/offices_a_-_e/elections/upcoming_elections_.php",
+  "https://www.cherokeecounty.iowa.gov/2026%20General%20Election%20Candidates.pdf",
+  "https://www.cherokeecounty.iowa.gov/702%20Amherst%20Twp-Marcus.pdf",
+  "https://www.cherokeecounty.iowa.gov/400%20Cherokee%20Township.pdf"
+ ],
+ "asOf": "Candidate list last updated 2026-09-03; sample ballots posted 2026-10-05",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "district": "3",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David L Skou",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 4",
+   "scope": "county",
+   "district": "4",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cheryl R. Ellis",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rob Byers",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Samantha Boothby",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ryan R. Kolpin",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ginger Walker",
+     "party": null
+    },
+    {
+     "name": "Jay Magnussen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Jacob Wetter",
+     "party": null
+    },
+    {
+     "name": "Brady Pingel",
+     "party": null
+    },
+    {
+     "name": "Kristi Letsche",
+     "party": null
+    },
+    {
+     "name": "Dylan Kohn",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Amherst Township Trustee",
+   "scope": "township",
+   "area": "Amherst",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "David Whited",
+     "party": null
+    },
+    {
+     "name": "Galen Rupp",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grand Meadow Township Trustee",
+   "scope": "township",
+   "area": "Grand Meadow",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "William Sokolowski",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Rock Township Trustee",
+   "scope": "township",
+   "area": "Rock",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Tilden Township Trustee",
+   "scope": "township",
+   "area": "Tilden",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tony Simons",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Tilden Township Clerk",
+   "scope": "township",
+   "area": "Tilden",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ed Schlenger",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marcus Township Trustee",
+   "scope": "township",
+   "area": "Marcus",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jeff Letsche",
+     "party": null
+    },
+    {
+     "name": "Steve Hueser",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marcus Township Clerk",
+   "scope": "township",
+   "area": "Marcus",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Patrick Bird",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "Sources: county 'Candidate List - November 3, 2026 General Election' (text PDF) plus the official precinct sample ballots (scanned image PDFs, read visually). Names follow the printed sample ballots where they differ from the earlier candidate list (list had 'William Sikolowski' and 'Pat Bird'; ballot prints 'William Sokolowski' and 'Patrick Bird'; ballot adds Tilden Township Trustee Tony Simons, absent from the 9/3 list). Supervisors: both 'Board of Supervisors District 3' and 'District 4' appear on every sample ballot checked (e.g., Amherst Township), so supervisors appear to be elected county-wide with district residency (all voters vote on both seats). Rock Township Trustee has no candidate (write-in). Ag Extension: 4 candidates for 5 seats. No hospital trustee race or local public measures appeared on the sample ballots viewed (Wards 1-3, Cherokee Twp, Aurelia, Grand Meadow, Rock, Tilden, Amherst, Marcus Twp, Marcus); the posted Quimby city ballot PDF (#601) was unreadable/corrupt."
+}

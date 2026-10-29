@@ -1,0 +1,533 @@
+{
+ "county": "Marshall",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://elections.marshallcountyia.gov/elections/info/2026_general_election_2026_11_03/",
+  "https://elections.marshallcountyia.gov/files/sample_ballots/20261103_all_ballot_styles_92227.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors (at-large)",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "DeMorris Dean",
+     "party": "democratic"
+    },
+    {
+     "name": "Jarret P. Heil",
+     "party": "republican"
+    },
+    {
+     "name": "Carol Hibbs",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors (To Fill Vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christian Goodman",
+     "party": "republican"
+    },
+    {
+     "name": "Kyle Hall",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Deann S. Tomlinson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jordan Gaffney",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioners",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Roger Lutes",
+     "party": null
+    },
+    {
+     "name": "Tyler Kelley",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Thomas Hemesath",
+     "party": null
+    },
+    {
+     "name": "Sharon R. Blood",
+     "party": null
+    },
+    {
+     "name": "Kathryn M. Robbins",
+     "party": null
+    },
+    {
+     "name": "Linda Jean Von Holten",
+     "party": null
+    },
+    {
+     "name": "Andrew Smith",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bangor Township Trustee",
+   "scope": "township",
+   "area": "Bangor",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kevin Fiscus",
+     "party": null
+    },
+    {
+     "name": "Doug Huston",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bangor Township Clerk",
+   "scope": "township",
+   "area": "Bangor",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Norman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Eden Township Trustee",
+   "scope": "township",
+   "area": "Eden",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Norman Steward Buck",
+     "party": null
+    },
+    {
+     "name": "Tom J. Malloy",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Eden Township Clerk",
+   "scope": "township",
+   "area": "Eden",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sandy Halter",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Green Castle Township Trustee",
+   "scope": "township",
+   "area": "Green Castle",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Brent Jacobson",
+     "party": null
+    },
+    {
+     "name": "Eric Burchland",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Green Castle Township Clerk",
+   "scope": "township",
+   "area": "Green Castle",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Arthur Crandon",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "LeGrand Township Trustee",
+   "scope": "township",
+   "area": "LeGrand",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Charles Grove",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "LeGrand Township Clerk",
+   "scope": "township",
+   "area": "LeGrand",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rhonda Hendricks",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Trustee",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Stanley Norman",
+     "party": null
+    },
+    {
+     "name": "Roger Howe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Clerk",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kent Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liscomb Township Trustee",
+   "scope": "township",
+   "area": "Liscomb",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jared Gould",
+     "party": null
+    },
+    {
+     "name": "Kirk Stackhouse",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liscomb Township Clerk",
+   "scope": "township",
+   "area": "Liscomb",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brittney Gould",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Logan Township Trustee",
+   "scope": "township",
+   "area": "Logan",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Logan Township Clerk",
+   "scope": "township",
+   "area": "Logan",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Stacy Porter",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marietta Township Trustee",
+   "scope": "township",
+   "area": "Marietta",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jeffrey Hibbs",
+     "party": null
+    },
+    {
+     "name": "Kevin Whitaker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marietta Township Clerk",
+   "scope": "township",
+   "area": "Marietta",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christy Hibbs",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marion Township Trustee",
+   "scope": "township",
+   "area": "Marion",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Chris Braye",
+     "party": null
+    },
+    {
+     "name": "Delores M. Dunham",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marion Township Clerk",
+   "scope": "township",
+   "area": "Marion",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nicole Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Minerva Township Trustee",
+   "scope": "township",
+   "area": "Minerva",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Brian Larsen",
+     "party": null
+    },
+    {
+     "name": "Kenneth Smith",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Minerva Township Clerk",
+   "scope": "township",
+   "area": "Minerva",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Elizabeth L. Smith",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "State Center Township Trustee",
+   "scope": "township",
+   "area": "State Center",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Douglas D. Honeck",
+     "party": null
+    },
+    {
+     "name": "Richard Phillips",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "State Center Township Clerk",
+   "scope": "township",
+   "area": "State Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Randy Henze",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Taylor Township Trustee",
+   "scope": "township",
+   "area": "Taylor",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Glen E. Mann",
+     "party": null
+    },
+    {
+     "name": "Marcella Stewart",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Taylor Township Clerk",
+   "scope": "township",
+   "area": "Taylor",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gina Fisher",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Timber Creek Township Trustee",
+   "scope": "township",
+   "area": "Timber Creek",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "David Hesmer",
+     "party": null
+    },
+    {
+     "name": "Thomas L. Crane",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Timber Creek Township Clerk",
+   "scope": "township",
+   "area": "Timber Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bill Schendel",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Vienna Township Trustee",
+   "scope": "township",
+   "area": "Vienna",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Justin Adelmund",
+     "party": null
+    },
+    {
+     "name": "John Ruopp",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Vienna Township Clerk",
+   "scope": "township",
+   "area": "Vienna",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cynthia A. Degner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jay Benson",
+     "party": null
+    },
+    {
+     "name": "Don Wiley",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "April Mumm",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "Source: official 'All Ballot Styles' sample ballot PDF (30 ballot styles, text-based). Supervisors: the regular vote-for-two race and the vote-for-one To Fill Vacancy race appear identically on all 30 styles = at-large. Kyle Hall has no party label on the ballot (party null). No County Recorder contest on the ballot. Township contests appear only on the 16 rural township ballot styles; Jefferson Township (trustee and clerk) and Logan Township trustee have no printed candidates. No county public hospital trustee race and no local public measures (only statewide Amendment 1) on any style."
+}

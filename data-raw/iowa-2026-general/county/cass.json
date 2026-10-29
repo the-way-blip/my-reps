@@ -1,0 +1,169 @@
+{
+ "county": "Cass",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.casscountyia.gov/county-government/elections/",
+  "https://www.casscountyia.gov/wp-content/uploads/2019/10/Sample-Ballots-November-3-2026-General-Election.pdf",
+  "https://www.casscountyia.gov/wp-content/uploads/2019/10/2026.10.14-Public-Notice-of-Election-Cass-County-REVISED.pdf"
+ ],
+ "asOf": "2026-10-14 (revised public notice of election)",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "district": "2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark T. O'Brien",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "district": "3",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Wendy Richter",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tracey J Marshall",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mary Ward",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Vanessa Strazdas",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Hospital Board Trustee",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Mary Strong",
+     "party": null
+    },
+    {
+     "name": "Julie Pollock",
+     "party": null
+    },
+    {
+     "name": "Joanne Lorence",
+     "party": null
+    },
+    {
+     "name": "Mike Klocke",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "John J. Hansen",
+     "party": null
+    },
+    {
+     "name": "Gregory D Zellmer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kim Tibken",
+     "party": null
+    },
+    {
+     "name": "Chad Becker",
+     "party": null
+    },
+    {
+     "name": "Beth Ann McDermott",
+     "party": null
+    },
+    {
+     "name": "Coleen Babe",
+     "party": null
+    },
+    {
+     "name": "Michelle Behrends",
+     "party": null
+    },
+    {
+     "name": "Todd M. Weppler",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Edna Township Trustee",
+   "scope": "township",
+   "area": "Edna",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Edna Township Clerk",
+   "scope": "township",
+   "area": "Edna",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [],
+ "notes": "Parsed from the combined official sample ballot PDF (all precinct styles) plus the revised Public Notice of Election. Supervisors are elected by district: District 2 appears only on the Atlantic Ward 2 and Ward 3 ballots, District 3 only on Atlantic Ward 4 and Ward 5 ballots; voters see only their district. Township races (Union and Edna) have no filed candidates - write-in lines only. Hospital Board Trustee (county hospital) vote for four. No county-level public measures appear on the sample ballots."
+}

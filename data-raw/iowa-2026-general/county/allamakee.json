@@ -1,0 +1,609 @@
+{
+  "county": "Allamakee",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://allamakeecountyelections.iowa.gov/files/candidate_list/2026_general_election_76436.pdf",
+    "https://allamakeecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors (at-large)",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Joseph Manning",
+          "party": "republican"
+        },
+        {
+          "name": "Pat Stone",
+          "party": "republican"
+        },
+        {
+          "name": "Jim Pladsen",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Nicki Smedsrud",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Karen Mathis",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Anthony Gericke",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Donald Elsbernd",
+          "party": null
+        },
+        {
+          "name": "Scott Dougherty",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Joseph Swizdor",
+          "party": null
+        },
+        {
+          "name": "Tim Bulman",
+          "party": null
+        },
+        {
+          "name": "George L. Bieber",
+          "party": null
+        },
+        {
+          "name": "Jeannine Hisel",
+          "party": null
+        },
+        {
+          "name": "Jared Winkie",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member (To Fill A Vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ann Deering",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Hospital Board of Trustees",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Patty Nordheim",
+          "party": null
+        },
+        {
+          "name": "John D. Ellingson",
+          "party": null
+        },
+        {
+          "name": "Larry Schellhammer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Center Township Trustee",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dennis Nebendahl",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Center Township Clerk",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michele Troendle",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fairview Township Trustee",
+      "scope": "township",
+      "area": "Fairview",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jared L. Landt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fairview Township Trustee (To Fill A Vacancy)",
+      "scope": "township",
+      "area": "Fairview",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mike W. Moody",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fairview Township Clerk",
+      "scope": "township",
+      "area": "Fairview",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Samantha Donahue",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Franklin Township Trustee",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Doug Zieman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Franklin Township Clerk",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Diane Kraus",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "French Creek Township Trustee",
+      "scope": "township",
+      "area": "French Creek",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "French Creek Township Trustee (To Fill A Vacancy)",
+      "scope": "township",
+      "area": "French Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Todd Wild",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "French Creek Township Clerk",
+      "scope": "township",
+      "area": "French Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tyler Plein",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hanover Township Trustee",
+      "scope": "township",
+      "area": "Hanover",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mark D. Howe",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hanover Township Clerk",
+      "scope": "township",
+      "area": "Hanover",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Robert Larkin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Iowa Township Trustee",
+      "scope": "township",
+      "area": "Iowa",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Donald Zoll",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Iowa Township Clerk",
+      "scope": "township",
+      "area": "Iowa",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Robin Harmon",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jefferson Township Trustee",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bradley L. Winkie",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jefferson Township Clerk",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michelle Donahue",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lafayette Township Trustee",
+      "scope": "township",
+      "area": "Lafayette",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Thomas P. Gavin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lafayette Township Trustee (To Fill A Vacancy)",
+      "scope": "township",
+      "area": "Lafayette",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Daniel D. Conway",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lafayette Township Clerk",
+      "scope": "township",
+      "area": "Lafayette",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lansing Township Trustee",
+      "scope": "township",
+      "area": "Lansing",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ben Mettille",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lansing Township Clerk",
+      "scope": "township",
+      "area": "Lansing",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Joshua Aldrich",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Linton Township Trustee",
+      "scope": "township",
+      "area": "Linton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dan Cahoon",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Linton Township Clerk",
+      "scope": "township",
+      "area": "Linton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David D. Cahoon",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Ludlow Township Trustee",
+      "scope": "township",
+      "area": "Ludlow",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lars Palmer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Ludlow Township Clerk",
+      "scope": "township",
+      "area": "Ludlow",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Audrey Peterson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Makee Township Trustee",
+      "scope": "township",
+      "area": "Makee",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Adam Bieber",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Makee Township Clerk",
+      "scope": "township",
+      "area": "Makee",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brad G. Berns",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Paint Creek Township Trustee",
+      "scope": "township",
+      "area": "Paint Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kent McCormick",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Paint Creek Township Clerk",
+      "scope": "township",
+      "area": "Paint Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jamie Cahalan",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Post Township Trustee",
+      "scope": "township",
+      "area": "Post",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "William Christofferson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Post Township Trustee (To Fill A Vacancy)",
+      "scope": "township",
+      "area": "Post",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cory Miner",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Post Township Clerk",
+      "scope": "township",
+      "area": "Post",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cindy Berns",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Taylor Township Trustee",
+      "scope": "township",
+      "area": "Taylor",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ron Cota",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Taylor Township Clerk",
+      "scope": "township",
+      "area": "Taylor",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tom Cota",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union City Township Trustee",
+      "scope": "township",
+      "area": "Union City",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Renee Hammell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union City Township Clerk",
+      "scope": "township",
+      "area": "Union City",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Charlene Paus",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Prairie Township Trustee",
+      "scope": "township",
+      "area": "Union Prairie",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Perry P. Fahey",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Prairie Township Clerk",
+      "scope": "township",
+      "area": "Union Prairie",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tony Baxter",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Waterloo Township Trustee",
+      "scope": "township",
+      "area": "Waterloo",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Waterloo Township Clerk",
+      "scope": "township",
+      "area": "Waterloo",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Schulte",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure AM",
+      "jurisdiction": "City of Waukon",
+      "ballotLanguage": "Shall Chapter 22 Library Board of Trustees of the City of Waukon Code of Ordinances be amended as follows: Amending the residency requirements of Trustees, which is currently eight resident members and one nonresident member, to seven resident members, one nonresident member, and one member that could either be a resident or nonresident member, where resident members would continue to be appointed by the City Council with any nonresident members continuing to be appointed by the Allamakee County Board of Supervisors, with Library Trustee terms to be reduced from six (6) years to three (3) years?"
+    }
+  ],
+  "notes": "Supervisor seats are at-large (vote for no more than 2; all county voters see the contest). Karen Mathis (Recorder) is listed as No Party (party null). County Hospital Board lists 3 candidates for 4 seats. Contests marked 'No Candidate' (French Creek and Waterloo Township Trustee, Lafayette Township Clerk) are included with empty candidate arrays. Source is the official candidate list PDF; 31 per-precinct sample ballots are also posted but were not parsed."
+}

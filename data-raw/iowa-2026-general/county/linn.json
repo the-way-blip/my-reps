@@ -1,0 +1,301 @@
+{
+ "county": "Linn",
+ "found": true,
+ "partial": true,
+ "sources": [
+  "https://gis.linncountyiowa.gov/web-data/elections/year/2026/20261103GE/candidates.pdf",
+  "https://www.linncountyiowa.gov/1794/November-3-2026-General-Election",
+  "https://elections.louisacountyia.gov/files/public_notice/2026_louisa_county_general_election_19316.pdf"
+ ],
+ "asOf": "2026-10-07",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kirsten Running-Marquardt",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rex W. Meyer",
+     "party": "republican"
+    },
+    {
+     "name": "Sami Scheetz",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brent C. Oleson",
+     "party": "democratic"
+    },
+    {
+     "name": "Paul Talley",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Carolyn Siebrecht",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nicholas G. Maybanks",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kim Bowen",
+     "party": null
+    },
+    {
+     "name": "Kevin Bruns",
+     "party": null
+    },
+    {
+     "name": "Jennifer Dunn",
+     "party": null
+    },
+    {
+     "name": "JaLea Horning",
+     "party": null
+    },
+    {
+     "name": "Kassandra Rice",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Member",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Joshua O'Connell",
+     "party": null
+    },
+    {
+     "name": "Emmaly Renshaw",
+     "party": null
+    },
+    {
+     "name": "Sean Stokes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Boulder Township Trustee",
+   "scope": "township",
+   "area": "Boulder",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Boulder Township Clerk",
+   "scope": "township",
+   "area": "Boulder",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Brown Township Trustee",
+   "scope": "township",
+   "area": "Brown",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Brown Township Clerk",
+   "scope": "township",
+   "area": "Brown",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Buffalo Township Trustee",
+   "scope": "township",
+   "area": "Buffalo",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Buffalo Township Clerk",
+   "scope": "township",
+   "area": "Buffalo",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Grant Township Trustee",
+   "scope": "township",
+   "area": "Grant",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Larry D. Bridgewater",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grant Township Clerk",
+   "scope": "township",
+   "area": "Grant",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Yvette Bridgewater",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Maine Township Trustee",
+   "scope": "township",
+   "area": "Maine",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Maine Township Clerk",
+   "scope": "township",
+   "area": "Maine",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Wesley Nelson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Otter Creek Township Trustee",
+   "scope": "township",
+   "area": "Otter Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ron Hoover",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Otter Creek Township Clerk",
+   "scope": "township",
+   "area": "Otter Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ginny Maier",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Putnam Township Trustee",
+   "scope": "township",
+   "area": "Putnam",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Butch Wieneke",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Putnam Township Clerk",
+   "scope": "township",
+   "area": "Putnam",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Elli Netolicky",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Spring Grove Township Trustee",
+   "scope": "township",
+   "area": "Spring Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bert Aberle",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Spring Grove Township Clerk",
+   "scope": "township",
+   "area": "Spring Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dawn Aberle",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Kirkwood Community College (Merged Area X) Bond - Public Measure NC",
+   "jurisdiction": "Kirkwood Community College (Merged Area X) - includes Linn County",
+   "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+  }
+ ],
+ "notes": "Source: Linn County Election Services official 'November 3, 2026 General Election - Candidate Listing' PDF (timestamp 10/7/2026 10:20:15 AM) hosted on gis.linncountyiowa.gov; parties verified by row position in the PDF. Supervisors are elected by district - voters see only their district (Districts 1 and 2 up in 2026). Township offices are vote-for-one; townships listed with 'No Candidate' have empty candidate arrays. Marked partial: www.linncountyiowa.gov (CivicPlus) returns 403 'you have been blocked' to curl, so the Public Measure text PDF and sample ballots could not be read, and Firecrawl credits ran out before the page could be scraped. The only measure recorded is the Kirkwood Community College bond, whose official text names Linn County; its wording is taken from Louisa County's official election notice (same district-wide measure). Other Linn-only measures (city/school/LOST) may exist and are NOT captured. Tried: https://www.linncountyiowa.gov/, https://www.linncountyiowa.gov/1794/November-3-2026-General-Election, https://www.linncountyiowa.gov/157/Election-Services, https://www.linncountyelections.org/lookup, guessed gis.linncountyiowa.gov measure PDF names (404)."
+}

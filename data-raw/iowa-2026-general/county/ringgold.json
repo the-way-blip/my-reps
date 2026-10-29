@@ -1,0 +1,241 @@
+{
+  "county": "Ringgold",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://ringgoldcountyelections.iowa.gov/elections/info/november_3_2026_2026_11_03/",
+    "https://ringgoldcountyelections.iowa.gov/files/candidate_list/november_3_2026_50330.pdf",
+    "https://ringgoldcountyelections.iowa.gov/files/sample_ballots/1293_union_rural_improvement_zone_42656.pdf",
+    "https://ringgoldcountyelections.iowa.gov/files/sample_ballots/20261103_lamoni_school_district_90634.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randy Taylor",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Debra A. Cannon",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kisha Martin",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael Wells",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Hospital Board Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Dane Johnson",
+          "party": null
+        },
+        {
+          "name": "Steve Roe",
+          "party": null
+        },
+        {
+          "name": "Darla Sobotka",
+          "party": null
+        },
+        {
+          "name": "Norma Wolfe",
+          "party": null
+        },
+        {
+          "name": "Kathleen Schuster",
+          "party": null
+        },
+        {
+          "name": "Bruce Ricker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hospital Board Trustee - To Fill Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Clinton L. Spurrier",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Vickie Jeanes",
+          "party": null
+        },
+        {
+          "name": "Joyce Frost",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Agricultural Extension Council",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Jenifer Breneman",
+          "party": null
+        },
+        {
+          "name": "Adam M. Triggs",
+          "party": null
+        },
+        {
+          "name": "Joshua L. Waske",
+          "party": null
+        },
+        {
+          "name": "Logan Stackhouse",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Agricultural Extension Council - To Fill Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Neva Nachtrieb",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sun Valley Rural Improvement Zone Board",
+      "scope": "district",
+      "area": "Sun Valley Rural Improvement Zone",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael Chapman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Trustee",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Daniel Greenland",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Clerk",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Angela Slee Hynek",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lotts Creek Township Trustee",
+      "scope": "township",
+      "area": "Lotts Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Danny Karr",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lotts Creek Township Clerk",
+      "scope": "township",
+      "area": "Lotts Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Stacy Jones",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Trustee",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ryan Bailey",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Clerk",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tammy Rychnovsky",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Lamoni Community School District Public Measure GB",
+      "jurisdiction": "Lamoni Community School District (Ringgold County portion)",
+      "ballotLanguage": "Shall the following Public Measure be adopted? Shall the Board of Directors of the Lamoni Community School District in the Counties of Decatur and Ringgold, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $5,750,000 to be used together with sales tax revenue bonds to provide funds to build, furnish and equip an addition to its Elementary School, with related remodeling and improvements and related site improvements; to remodel, repair, improve, furnish, and equip the Elementary School, including HVAC, mechanical, electrical, and plumbing improvements; to remodel, repair, and improve the Middle School, including exterior façade restoration; and to remodel, repair, improve, and equip the High School, including fire suppression, HVAC improvements and a new secured entry?"
+    }
+  ],
+  "notes": "Supervisors: one seat, vote for one, same race on every ballot style (county-wide/at-large). All 12 sample ballot styles parsed and cross-checked with candidate list. Democratic side for all county offices: no candidate filed. Township races only on styles that include those townships (Union, Lotts Creek, Grant). Sun Valley Rural Improvement Zone Board appears only on the Union - Rural Improvement Zone style (ballot prints \"lmprovement\"). Lamoni Community School District Public Measure GB appears only on the Athens - Lamoni School District style."
+}

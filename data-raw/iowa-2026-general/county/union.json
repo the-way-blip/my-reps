@@ -1,0 +1,145 @@
+{
+  "county": "Union",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://unioncountyiowa.gov/departments/auditor/elections/",
+    "https://unioncountyiowa.gov/wp-content/uploads/2026/10/SAMPLE-BALLOTS-NOVEMBER-3-2026.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dennis Hopkins",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kelly Busch",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Katie Carlton",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Shane Patrick O'Toole",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustees",
+      "scope": "county",
+      "seats": 3,
+      "candidates": [
+        {
+          "name": "Raymond Jack Davis",
+          "party": null
+        },
+        {
+          "name": "Thomas Lesan",
+          "party": null
+        },
+        {
+          "name": "Kenneth Stults",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioners",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Cody Purdum",
+          "party": null
+        },
+        {
+          "name": "Roger Baker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Members",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Amy Studer",
+          "party": null
+        },
+        {
+          "name": "Jodi Nixon",
+          "party": null
+        },
+        {
+          "name": "Drew Hardisty",
+          "party": null
+        },
+        {
+          "name": "Shiloh Gennaro",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Township Trustee",
+      "scope": "township",
+      "area": "Pleasant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kami Raney",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Township Clerk",
+      "scope": "township",
+      "area": "Pleasant",
+      "seats": 1,
+      "candidates": []
+    }
+  ],
+  "measures": [
+    {
+      "name": "County of Union Public Measure UH",
+      "jurisdiction": "Union County (unincorporated areas)",
+      "ballotLanguage": "Shall the following public measure be adopted? Shall Union County, Iowa be authorized to impose a Local Hotel and Motel Tax at the rate of seven percent (7%),* upon the sales price for the renting of any lodging located within Union County and outside incorporated areas of Union County, effective January 1, 2027, with at least fifty percent (50%) of the revenues derived from the Local Hotel and Motel Tax to be used for the acquisition of sites for, or constructing, improving, enlarging, equipping, repairing, operating, or maintaining of recreation, convention, cultural, or entertainment facilities including but not limited to memorial buildings, halls and monuments, civic center convention buildings, auditoriums, coliseums, and parking areas or facilities located at those recreation, convention, cultural, or entertainment facilities or the payment of principal and interest, when due, on bonds or other evidence of indebtedness issued by the county for those recreation, convention, cultural, or entertainment facilities; or for the promotion and encouragement of tourist and convention business in the county and surrounding areas; and the remaining revenues derived from the Local Hotel and Motel Tax to be used for all other purposes permitted by Chapter 423A of the Code of Iowa?"
+    },
+    {
+      "name": "Township of Pleasant Public Measure UI",
+      "jurisdiction": "Pleasant Township, Union County",
+      "ballotLanguage": "Shall the following public measure be adopted? Shall the Offices of Trustees and Clerk within a Township be filled by appointment by the Board?"
+    }
+  ],
+  "notes": "The combined sample ballot PDF (15 styles, 30 pages) is scanned images; contests were transcribed visually. Board of Supervisor: one seat, vote for one, no district label, same candidate on every style (county-wide/at-large). Only township race found: Pleasant Township (trustee and clerk; clerk has no printed candidate). County Public Measure UH (hotel/motel tax) appears only on styles covering unincorporated areas; Pleasant Township Public Measure UI only on the Pleasant Township style. Measure UH text includes an asterisk after '(7%)' as printed; any footnote it refers to was not captured."
+}

@@ -1,0 +1,421 @@
+{
+ "county": "Worth",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://elections.worthcountyiowa.gov/elections/info/2026_general_election_2026_11_03/",
+  "https://elections.worthcountyiowa.gov/files/sample_ballots/20261103_00101_barton_township_93038.pdf",
+  "https://elections.worthcountyiowa.gov/files/sample_ballots/_00201_lincoln_township_93712.pdf",
+  "(plus the other 19 per-precinct sample ballot PDFs linked on the election page)"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Marena Henkle",
+     "party": "republican"
+    },
+    {
+     "name": "Amy Jorgensen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mike Hanson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jake Hanson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jolene Hickle",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dexter Banks",
+     "party": "democratic"
+    },
+    {
+     "name": "Jeffrey H. Greve",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Russell Olson",
+     "party": null
+    },
+    {
+     "name": "Cary Van Veldhuizen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Jennifer Klooster",
+     "party": null
+    },
+    {
+     "name": "Wayde Willand",
+     "party": null
+    },
+    {
+     "name": "Sarah Hagen",
+     "party": null
+    },
+    {
+     "name": "Sarah Stevens",
+     "party": null
+    },
+    {
+     "name": "Ann Heggestad",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Barton Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dennis Meyer",
+     "party": null
+    },
+    {
+     "name": "Joseph Nydegger",
+     "party": null
+    }
+   ],
+   "area": "Barton"
+  },
+  {
+   "office": "Barton Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Pamela A. Meyer",
+     "party": null
+    }
+   ],
+   "area": "Barton"
+  },
+  {
+   "office": "Grove Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Daniel J. Hendrikson",
+     "party": null
+    },
+    {
+     "name": "Annika Schreiber",
+     "party": null
+    }
+   ],
+   "area": "Grove"
+  },
+  {
+   "office": "Grove Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Erin Ducommun",
+     "party": null
+    }
+   ],
+   "area": "Grove"
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Justin Kruger",
+     "party": null
+    },
+    {
+     "name": "Paul Hackbart",
+     "party": null
+    }
+   ],
+   "area": "Union"
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "William H. Borchardt",
+     "party": null
+    }
+   ],
+   "area": "Union"
+  },
+  {
+   "office": "Hartland Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [],
+   "area": "Hartland"
+  },
+  {
+   "office": "Hartland Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Carol Bergo",
+     "party": null
+    }
+   ],
+   "area": "Hartland"
+  },
+  {
+   "office": "Deer Creek Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Martin Cotter",
+     "party": null
+    }
+   ],
+   "area": "Deer Creek"
+  },
+  {
+   "office": "Deer Creek Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Deer Creek"
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Brad Dietrich",
+     "party": null
+    },
+    {
+     "name": "Dennis L. Kruger",
+     "party": null
+    }
+   ],
+   "area": "Lincoln"
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Eythan Blair",
+     "party": null
+    }
+   ],
+   "area": "Lincoln"
+  },
+  {
+   "office": "Bristol Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Eliot Evans",
+     "party": null
+    },
+    {
+     "name": "Daniel L. Martinson",
+     "party": null
+    }
+   ],
+   "area": "Bristol"
+  },
+  {
+   "office": "Bristol Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Eric Johnson",
+     "party": null
+    }
+   ],
+   "area": "Bristol"
+  },
+  {
+   "office": "Silver Lake Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Curtis Singelstad",
+     "party": null
+    },
+    {
+     "name": "Rob Nelson",
+     "party": null
+    }
+   ],
+   "area": "Silver Lake"
+  },
+  {
+   "office": "Silver Lake Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Allan Wogen",
+     "party": null
+    }
+   ],
+   "area": "Silver Lake"
+  },
+  {
+   "office": "Brookfield Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Randy Hengesteg",
+     "party": null
+    }
+   ],
+   "area": "Brookfield"
+  },
+  {
+   "office": "Brookfield Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Theresa M. Cooper",
+     "party": null
+    }
+   ],
+   "area": "Brookfield"
+  },
+  {
+   "office": "Kensett Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ken Parcher",
+     "party": null
+    }
+   ],
+   "area": "Kensett"
+  },
+  {
+   "office": "Kensett Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Kensett"
+  },
+  {
+   "office": "Danville Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Justin Faber",
+     "party": null
+    },
+    {
+     "name": "Joe Thompson",
+     "party": null
+    }
+   ],
+   "area": "Danville"
+  },
+  {
+   "office": "Danville Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kevin Knudson",
+     "party": null
+    }
+   ],
+   "area": "Danville"
+  },
+  {
+   "office": "Fertile Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Randy Oswald",
+     "party": null
+    },
+    {
+     "name": "Andy Hansen",
+     "party": null
+    }
+   ],
+   "area": "Fertile"
+  },
+  {
+   "office": "Fertile Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Fertile"
+  }
+ ],
+ "measures": [],
+ "notes": "Source: 21 per-precinct official sample ballot PDFs (image-only scans; text read via OCR and visually verified against rendered crops). Board of Supervisors elected by district: voters see only their district. District 1 appears in precincts 00101-00105 (Barton, Deer Creek, Grafton/Grove, Union townships, City of Grafton); District 3 in 00701-00703 (Grove, Hartland, City of Northwood). District 2 is not on the 2026 ballot. Amy Jorgensen printed with no party label. Hartland Township appears in two precincts (00302, 00702). Township offices with empty candidate lists are write-in only. No county or local public measures on the ballot (only statewide amendment)."
+}
