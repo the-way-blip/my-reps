@@ -1,5 +1,154 @@
-{"county":"Montgomery","found":false,"partial":false,
- "sources":[],
- "triedUrls":["https://montgomerycounty.iowa.gov/","https://www.montgomerycountyia.gov/","https://montgomerycountyia.gov/auditor","https://www.montgomerycountyia.gov/auditor/elections","https://www.montgomerycountyia.gov/sitemap.xml","https://www.co.montgomery.ia.us/","https://montgomerycoiowa.com/","https://www.montgomerycountyiowa.gov/","https://sos.iowa.gov/elections/auditors/auditorslist.html"],
- "asOf":null,"races":[],"measures":[],
- "notes":"County website (www.montgomerycountyia.gov) returns HTTP 403 behind a Cloudflare bot challenge for every path, so no candidate list or sample ballot could be retrieved by curl; other domain guesses do not resolve. The one allowed Firecrawl search failed (account out of credits). Needs manual retrieval in a real browser."}
+{
+  "county": "Montgomery",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.montgomerycountyia.gov/pview.aspx?id=56357&catid=45",
+    "https://www.montgomerycountyia.gov/docview.aspx?docid=51747 (2026 General Election sample ballots, all 7 precincts)",
+    "https://www.montgomerycountyia.gov/docview.aspx?doctype=fd&docid=51754 (Notice of 11-3-2026 General Election)"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 1",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Charla A. Schmid",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mike Olson",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 4",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dwayne Adams",
+          "party": "republican"
+        },
+        {
+          "name": "Jan Norris",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jackie Porter",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Carleen Bruning",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Drew B. Swanson",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Christopher Keith Gilbert",
+          "party": null
+        },
+        {
+          "name": "Jill Carter Bergstrom",
+          "party": null
+        },
+        {
+          "name": "Jeffrey Focht",
+          "party": null
+        },
+        {
+          "name": "Jason Poston",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Maggie McQuown",
+          "party": null
+        },
+        {
+          "name": "Kirk Baird",
+          "party": null
+        },
+        {
+          "name": "Roger Cerven",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Karlee Fulton",
+          "party": null
+        },
+        {
+          "name": "Bret Anthony Hultman",
+          "party": null
+        },
+        {
+          "name": "Erin Taylor",
+          "party": null
+        },
+        {
+          "name": "Macey Ellis",
+          "party": null
+        },
+        {
+          "name": "Cory Bomer",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Read in a real browser (www.montgomerycountyia.gov). Sample ballots for all 7 precincts (text PDF) and the published notice agree. Supervisors elected by district: District 1 on Precinct 1, District 2 on Precinct 2, District 4 on Precincts 4 and 6; Precincts 3, 5 and 7 have no supervisor race. Ballot labels the soil and water race 'Soil and Water Conservation Board' (vote for two). No township offices and no public measures appear on any ballot style."
+}

@@ -1,26 +1,643 @@
 {
- "county": "Webster",
- "found": false,
- "partial": false,
- "sources": [],
- "asOf": null,
- "races": [],
- "measures": [],
- "triedUrls": [
-  "https://webstercounty.iowa.gov/ (Cloudflare 403: DNS points to prohibited IP)",
-  "https://webstercountyia.gov/ (Cloudflare 'Attention Required' bot challenge, not bypassed)",
-  "https://webstercountyia.gov/auditor/elections/ (403)",
-  "https://www.webstercountyia.gov/",
-  "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
-  "https://www.webstercountyia.gov/services/voter_registration/index.php",
-  "https://www.webstercountyia.gov/services/voter_registration/absentee_voting.php",
-  "https://www.webstercountyia.gov/services/voter_registration/links.php",
-  "https://www.webstercountyia.gov/services/voter_registration/voter_forms.php",
-  "https://www.webstercountyia.gov/services/voter_registration/precinct_maps.php",
-  "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/elections.php (404)",
-  "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/sample_ballots.php (404)",
-  "https://www.webstercounty.org/ (parked domain)",
-  "Firecrawl search (failed: account out of credits)"
- ],
- "notes": "Not found. The Webster County auditor/voter-information pages at www.webstercountyia.gov do not link a 2026 General Election candidate list or sample ballot, and the bare webstercountyia.gov / webstercounty.iowa.gov hosts are behind Cloudflare blocks. No contests recorded."
+  "county": "Webster",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.webstercountyia.gov/",
+    "https://www.webstercountyia.gov/document_center/Departments/Auditor%20Commissioner%20of%20Elections/2026%20General%20Election%20Publication.pdf (served from cms7files.revize.com)"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 1",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Austin V. Hayek",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 4",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Niki Conrad",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brenda Angstrom",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Courtney Bender Balkenende",
+          "party": "democratic"
+        },
+        {
+          "name": "Tina Eldal",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Darren D. Driscoll",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Auditor - To Fill Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Krystal K. Lloyd",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": null,
+      "candidates": [
+        {
+          "name": "Dale Peterson",
+          "party": null
+        },
+        {
+          "name": "Kenneth Anderson",
+          "party": null
+        },
+        {
+          "name": "Cory Lundgren",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": null,
+      "candidates": [
+        {
+          "name": "Anthony Martin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Badger Township Trustee",
+      "scope": "township",
+      "area": "Badger",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Badger Township Clerk",
+      "scope": "township",
+      "area": "Badger",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Burnside Township Trustee",
+      "scope": "township",
+      "area": "Burnside",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tyler Anderson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Burnside Township Clerk",
+      "scope": "township",
+      "area": "Burnside",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Todd Anderson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Clay Township Trustee",
+      "scope": "township",
+      "area": "Clay",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Allan Wicklein",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Clay Township Clerk",
+      "scope": "township",
+      "area": "Clay",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mollie Cushenbery",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Colfax Township Trustee",
+      "scope": "township",
+      "area": "Colfax",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Matt Anderson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Colfax Township Clerk",
+      "scope": "township",
+      "area": "Colfax",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Curtis W. Dencklau",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cooper Township Trustee",
+      "scope": "township",
+      "area": "Cooper",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Angela Pratt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cooper Township Clerk",
+      "scope": "township",
+      "area": "Cooper",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Natalie Newell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Dayton Township Trustee",
+      "scope": "township",
+      "area": "Dayton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jeffrey Peterson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Dayton Township Clerk",
+      "scope": "township",
+      "area": "Dayton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Georgene Hanson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Deer Creek Township Trustee",
+      "scope": "township",
+      "area": "Deer Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dana Hotz",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Deer Creek Township Clerk",
+      "scope": "township",
+      "area": "Deer Creek",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Douglas Township Trustee",
+      "scope": "township",
+      "area": "Douglas",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ben Rogers",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Douglas Township Clerk",
+      "scope": "township",
+      "area": "Douglas",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dalton Rasch",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Elkhorn Township Trustee",
+      "scope": "township",
+      "area": "Elkhorn",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randy Steinkamp",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Elkhorn Township Clerk",
+      "scope": "township",
+      "area": "Elkhorn",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Irvy Badger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fulton Township Trustee",
+      "scope": "township",
+      "area": "Fulton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James Johnson Jr.",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fulton Township Clerk",
+      "scope": "township",
+      "area": "Fulton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Aaron Newell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Gowrie Township Trustee",
+      "scope": "township",
+      "area": "Gowrie",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tanner Carlson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Gowrie Township Clerk",
+      "scope": "township",
+      "area": "Gowrie",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lacey Spece",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hardin Township Trustee",
+      "scope": "township",
+      "area": "Hardin",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Hardin Township Clerk",
+      "scope": "township",
+      "area": "Hardin",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kendra Stumpenhorst",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dave Doyen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "William Patz",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Johnson Township Trustee",
+      "scope": "township",
+      "area": "Johnson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Thomas E. Condon",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Johnson Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Johnson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Johnson Township Clerk",
+      "scope": "township",
+      "area": "Johnson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sarah Black",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lost Grove Township Trustee",
+      "scope": "township",
+      "area": "Lost Grove",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lost Grove Township Clerk",
+      "scope": "township",
+      "area": "Lost Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Robert N. Anderson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Newark Township Trustee",
+      "scope": "township",
+      "area": "Newark",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Thomas Kist",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Newark Township Clerk",
+      "scope": "township",
+      "area": "Newark",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Daphne Willwerth",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Otho Township Trustee",
+      "scope": "township",
+      "area": "Otho",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Otho Township Clerk",
+      "scope": "township",
+      "area": "Otho",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brooke Hart",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Valley Township Trustee",
+      "scope": "township",
+      "area": "Pleasant Valley",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Amanda Lemke",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Valley Township Clerk",
+      "scope": "township",
+      "area": "Pleasant Valley",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jodi Arends",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Roland Township Trustee",
+      "scope": "township",
+      "area": "Roland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Pat Peterson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Roland Township Clerk",
+      "scope": "township",
+      "area": "Roland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John Hanson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sumner Township Trustee",
+      "scope": "township",
+      "area": "Sumner",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James R. Behrens",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sumner Township Clerk",
+      "scope": "township",
+      "area": "Sumner",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jon Anderson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Scott Burnett",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Darrell Moenck",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Webster Township Trustee",
+      "scope": "township",
+      "area": "Webster",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael Christianson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Webster Township Clerk",
+      "scope": "township",
+      "area": "Webster",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dana Housken",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Yell Township Trustee",
+      "scope": "township",
+      "area": "Yell",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Troy Ferrari",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Yell Township Clerk",
+      "scope": "township",
+      "area": "Yell",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lori Ferrari",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Read in a real browser from the official Public Notice of the 2026 General Election (Auditor Krystal Lloyd, dated Oct 14, 2026), linked from the www.webstercountyia.gov homepage; the bare webstercountyia.gov host returns Cloudflare error 526. No sample ballots are posted. Supervisor District 1 is on Fort Dodge 10, Fort Dodge 11, Badger/Cooper/Newark and Colfax/Hardin/Washington/Webster/Yell; District 4 on Fort Dodge 1, 2, 3 and 6. The notice does not print vote-for counts, so seats are null for Soil & Water (3 candidates) and Ag Extension (1 candidate); township offices assumed vote-for-one. Township offices listed as 'No Candidate' are recorded with empty candidate arrays (Badger trustee and clerk, Deer Creek clerk, Hardin, Lost Grove and Otho trustees, Johnson trustee vacancy). Notice lists no hospital trustee race and no county, city or school public measures (only Constitutional Amendment 1). Names copied as printed with stray PDF spacing removed (e.g., 'Jeff rey' -> Jeffrey, 'Dav e' -> Dave, 'T homas' -> Thomas)."
 }

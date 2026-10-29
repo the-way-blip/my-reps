@@ -60,7 +60,7 @@ export const STATE_VOTING_INFO = {
     absenteeUrl: 'https://sos.iowa.gov/amiregistered',
     sameDayRegistration: true,
     electionDayText: 'Polls are open 7 a.m. – 8 p.m. You can still register at your polling place with ID and proof of residence.',
-    localNote: 'County races (supervisors, treasurer, recorder, county attorney) and township offices are not listed here yet — see your county auditor\'s sample ballot.',
+    localNote: "Some county and township races in this county aren't listed yet — check your county auditor's sample ballot.",
     localNoteUrl: 'https://sos.iowa.gov/elections/auditors/auditorslist.html',
     deadlines: [
       { date: '2026-10-14T12:00:00', label: 'Early in-person voting begins', action: 'Find your county auditor', href: 'https://sos.iowa.gov/elections/auditors/auditorslist.html' },

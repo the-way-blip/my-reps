@@ -1,10 +1,16 @@
 {
  "county": "Winnebago",
  "found": true,
- "partial": true,
+ "partial": false,
  "sources": [
   "https://winnebagocountyiowa.gov/elections/info/general_election_november_3_2026_2026_11_03/",
-  "https://winnebagocountyiowa.gov/files/candidate_list/general_election_november_3_2026_56726.pdf"
+  "https://winnebagocountyiowa.gov/files/candidate_list/general_election_november_3_2026_56726.pdf",
+  "https://winnebagocountyiowa.gov/about/elected_officials/township/center/",
+  "https://www.winnebagocountyiowa.gov/about/township_information/",
+  "https://www.winnebagocountyiowa.gov/files/meetings/2011-10-10_minutes_board_of_supervisors_93156.pdf",
+  "https://northiowanow.com/2026/06/02/the-winnebago-county-primary-election-results/",
+  "https://ballotpedia.org/Winnebago_County,_Iowa,_elections,_2026",
+  "https://electionresults.iowa.gov/IA/Winnebago/122417/354921/json/en/summary.json (2024 general contest list)"
  ],
  "asOf": null,
  "races": [
@@ -17,7 +23,8 @@
      "name": "Terry Durby",
      "party": "republican"
     }
-   ]
+   ],
+   "area": "District 1"
   },
   {
    "office": "Board of Supervisors, District 3",
@@ -28,7 +35,8 @@
      "name": "Brent Swenson",
      "party": "republican"
     }
-   ]
+   ],
+   "area": "District 3"
   },
   {
    "office": "County Treasurer",
@@ -117,5 +125,5 @@
   }
  ],
  "measures": [],
- "notes": "Source: the county's official General Election 'Certification of Candidates' PDF. No sample ballots are posted. Supervisor contests are labeled District 1 and District 3; the source does not say whether voting is by district or countywide (Winnebago is understood to elect by district, but that is not confirmed here). Marked partial because the county's township page says township trustees and clerks are elected on the General Election ballot, yet the certification lists no township offices. The certification lists no county or local public measures (only statewide Amendment 1)."
+ "notes": "Source: the county's official General Election 'Certification of Candidates' PDF. No sample ballots are posted (the election page lists only the candidate list and the 11 voting precincts). Township offices: none on the ballot. The county's Elected Officials > Township page states 'All township officers in Winnebago County are appointed.' (The generic Township Information page still says officers are elected on the general ballot, but the certification lists no township offices and the 2024 general contest list on the state results site had none either.) Supervisors: elected by district (single-member districts). Evidence: the county redistricting ordinance (#37, Oct 2011) defines three supervisor districts by precinct; the June 2, 2026 Republican primary drew only ~206 votes in District 1 and ~283 in District 3 (district-only electorates); and Ballotpedia lists the contests as District 1 and District 3. Which of the current 11 precincts are in Districts 1 and 3 is not published on the county site (2011 ordinance precinct names no longer match) - not determined. Vote-for: SWCD vote for 2, Ag Extension vote for 5 (6 candidates), Ag Extension To Fill Vacancy vote for 1 with no candidate. No county or local public measures (only statewide Amendment 1)."
 }

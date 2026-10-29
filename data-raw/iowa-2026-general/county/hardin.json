@@ -1,17 +1,145 @@
 {
   "county": "Hardin",
-  "found": false,
+  "found": true,
   "partial": false,
   "sources": [
-    "https://www.hardincountyia.gov/ (403 Cloudflare block)",
-    "https://hardincountyia.gov/ (403)",
-    "https://www.hardincounty.iowa.gov/ (no DNS)",
-    "https://hardincounty.iowa.gov/ (no DNS)",
-    "https://elections.hardincountyia.gov/ (no DNS)",
-    "https://sos.iowa.gov/elections/auditors/auditorslist.html (403)"
+    "https://www.hardincountyia.gov/2026-General-election-0",
+    "https://www.hardincountyia.gov/media/Elections/2026%20General/Hardin%20County%20Race%20List%202026%20General%20(002).pdf",
+    "https://www.hardincountyia.gov/media/Elections/2026%20General/PUBLIC%20NOTICE%20TO%20THE%20VOTERS%20OF%20HARDIN%20COUNTY1.pdf",
+    "https://www.hardincountyia.gov/media/Elections/2026%20General/Sample%20Ballots/ConcordShermanGrantTipton.pdf"
   ],
   "asOf": null,
-  "races": [],
-  "measures": [],
-  "notes": "NOT FOUND. The county site (hardincountyia.gov) returns a Cloudflare 403 block to curl for all pages; one Firecrawl search found no directly downloadable official Hardin County sample-ballot or candidate-list file (only third-party guides, which were not used). A Facebook post from the City of Ackley indicates public measures are on the Hardin County ballot (likely including the AGWSR Community School District bond, Public Measure IR, which also appears in Franklin and Grundy counties), but this could not be confirmed from an official Hardin source. Bot-detection was not bypassed."
+  "races": [
+    {
+      "office": "Board of Supervisors, At-Large",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Lisa Lawler",
+          "party": "democratic"
+        },
+        {
+          "name": "Lance A. Granzow",
+          "party": "republican"
+        },
+        {
+          "name": "Roger Sutton",
+          "party": "republican"
+        },
+        {
+          "name": "Thomas A Craighton",
+          "party": "independent"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jessica Wright",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cheryl A. Lawrence",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Darrell G. Meyer",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Jo Duncan",
+          "party": null
+        },
+        {
+          "name": "John Everly",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Paige Granzow",
+          "party": null
+        },
+        {
+          "name": "Natalie Mosch",
+          "party": null
+        },
+        {
+          "name": "Melanie Kinsinger",
+          "party": null
+        },
+        {
+          "name": "Korey DeBerg",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Buckeye Township Trustee",
+      "scope": "township",
+      "area": "Buckeye",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Merlyn Hall",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Buckeye Township Clerk",
+      "scope": "township",
+      "area": "Buckeye",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Julia Hall",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure JN - Hardin County Emergency Medical Services Property Tax Levy",
+      "jurisdiction": "Hardin County",
+      "ballotLanguage": "SHALL THE FOLLOWING PUBLIC MEASURE BE ADOPTED? The Board of Supervisors in the County of Hardin, State of Iowa, for the purpose of raising $1,200,000 annually to support Emergency Medical Services in the county pursuant to Iowa Code Chapter 422D, for a period of seven (7) years, shall impose an Emergency Medical Services ad valorem property tax Levy annually in an amount not to exceed One Dollar ($1.00) per One Thousand Dollars ($1,000) of assessed valuation on all taxable property within the county, beginning the first fiscal year after the fiscal year in which the election was held; Hardin County shall establish an emergency medical services trust fund into which revenues received from the taxes shall be deposited; the resulting revenues collected by Hardin County from each township and city in the county, respectively, shall be distributed by Hardin County to each township and city in the county, respectively, to be expended by each township and city in the county, respectively, as determined by each township and city in the county for purposes authorized under Iowa Code Chapter 422D."
+    },
+    {
+      "name": "Public Measure IR - AGWSR Community School District General Obligation Bonds",
+      "jurisdiction": "AGWSR Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the AGWSR Community School District in the Counties of Butler, Franklin, Grundy, and Hardin, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $10,820,000 to provide funds to remodel, repair, improve, and equip the high school, including science and family & consumer science classrooms and heating, ventilation, and air conditioning (HVAC), mechanical, plumbing, electrical, roofing, and site improvements; to build, furnish, and equip a multipurpose activities/recess facility, including site improvements; and to remodel, repair, improve, and equip the middle school locker rooms?"
+    }
+  ],
+  "notes": "Read in a real browser from the county's official 2026 General Election Race List (text PDF), cross-checked visually against the scanned sample ballots for Concord/Sherman/Grant/Tipton and Hardin/Ellis/Jackson (no township offices on those). Supervisors elected at large, vote for two. The race list shows 'No Candidate' for the Democratic line of Treasurer/Recorder/Attorney and only four Ag Extension candidates for five seats. Buckeye Township trustee and clerk are the only township offices on the ballot. No county hospital trustee race. Measures: JN (countywide EMS levy) and IR (AGWSR CSD bonds, AGWSR ballot styles only)."
 }
