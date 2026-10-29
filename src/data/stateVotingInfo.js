@@ -50,6 +50,30 @@ export const STATE_VOTING_INFO = {
       polling: 'Indiana polls are open 6:00 AM – 6:00 PM local time. If you\'re in line by 6 PM, you will be allowed to vote. Mailed absentee ballots must arrive by 6 PM on Election Day.',
     },
   },
+  IA: {
+    code: 'IA',
+    name: 'Iowa',
+    sourceName: 'Iowa Secretary of State',
+    voterSite: 'https://sos.iowa.gov/amiregistered',
+    voterSiteName: 'the Iowa Secretary of State voter lookup',
+    registerUrl: 'https://sos.iowa.gov/voters/voter-registration',
+    absenteeUrl: 'https://sos.iowa.gov/amiregistered',
+    sameDayRegistration: true,
+    electionDayText: 'Polls are open 7 a.m. – 8 p.m. You can still register at your polling place with ID and proof of residence.',
+    localNote: 'County races (supervisors, treasurer, recorder, county attorney) and township offices are not listed here yet — see your county auditor\'s sample ballot.',
+    localNoteUrl: 'https://sos.iowa.gov/elections/auditors/auditorslist.html',
+    deadlines: [
+      { date: '2026-10-14T12:00:00', label: 'Early in-person voting begins', action: 'Find your county auditor', href: 'https://sos.iowa.gov/elections/auditors/auditorslist.html' },
+      { date: '2026-10-19T12:00:00', label: 'Registration & absentee request deadline (5 p.m.)', action: 'Check registration', href: 'https://sos.iowa.gov/amiregistered' },
+      { date: '2026-11-02T12:00:00', label: 'Last day to vote early at your county auditor', action: 'Find your county auditor', href: 'https://sos.iowa.gov/elections/auditors/auditorslist.html' },
+      { date: '2026-11-03T12:00:00', label: 'General Election Day', action: 'Find your polling place', href: 'https://apps.sos.iowa.gov/elections/voterreg/pollingplace/search.aspx' },
+    ],
+    checklist: {
+      id: 'Iowa requires ID: an Iowa driver\'s license or nonoperator ID, U.S. passport, military or veterans ID, tribal ID, or your signed Iowa Voter ID card. Without one, a registered voter from your precinct can vouch for you, or you can vote a provisional ballot.',
+      registration: 'Pre-registration closed October 19, but Iowa allows Election Day registration at your polling place with ID and proof of residence.',
+      polling: 'Iowa polls are open 7:00 AM – 8:00 PM. Absentee ballots must reach your county auditor before polls close — a postmark is not enough.',
+    },
+  },
 }
 
 export const getStateVotingInfo = code => STATE_VOTING_INFO[code] || STATE_VOTING_INFO.MI

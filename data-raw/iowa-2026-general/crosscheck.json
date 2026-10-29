@@ -1,0 +1,278 @@
+{
+  "primarySource": "https://electionresults.iowa.gov/IA/126082/377216/json/en/summary.json",
+  "generalSource": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+  "fetchedAt": "2026-10-29T00:42:33+00:00",
+  "note": "Report only. candidates.json follows the SOS general-election list, which is authoritative. Primary JSON covers Republican and Democratic primaries only (136 contests each).",
+  "primaryContestsCompared": 272,
+  "matches": 257,
+  "differences": [
+    {
+      "contest": "State Senator District 23",
+      "district": 23,
+      "party": "republican",
+      "primaryWinner": "Mike Bousselot",
+      "primaryCandidatesOnBallot": [
+        "Mike Bousselot",
+        "Wes Enos"
+      ],
+      "sosNominee": "Wes Enos",
+      "type": "different nominee than primary winner (replacement after withdrawal / convention)",
+      "explanation": "Mike Bousselot won the SD 23 GOP primary but is not on the SOS general list; Wes Enos filed 8/19/2026. Reason for vacancy not stated in either official source."
+    },
+    {
+      "contest": "State Senator District 25",
+      "district": 25,
+      "party": "republican",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Paul Wacker",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 76,
+        "Blank": 26
+      }
+    },
+    {
+      "contest": "State Senator District 39",
+      "district": 39,
+      "party": "republican",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Edward Bernie Hayes",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 78
+      }
+    },
+    {
+      "contest": "State Representative District 36",
+      "district": 36,
+      "party": "republican",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Bruce A Michalowski",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 73
+      }
+    },
+    {
+      "contest": "State Representative District 76",
+      "district": 76,
+      "party": "republican",
+      "primaryWinner": "Derek Wulf",
+      "primaryCandidatesOnBallot": [
+        "Derek Wulf"
+      ],
+      "sosNominee": "Matt Reisetter",
+      "type": "different nominee than primary winner (replacement after withdrawal / convention)",
+      "explanation": "Derek Wulf won the HD 76 GOP primary but appears on the SOS list as the Republican Lieutenant Governor nominee (filed 6/15/2026); Matt Reisetter filed 7/23/2026 as the HD 76 replacement."
+    },
+    {
+      "contest": "State Representative District 97",
+      "district": 97,
+      "party": "republican",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Charlie Helmick",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 72
+      }
+    },
+    {
+      "contest": "State Senator District 9",
+      "district": 9,
+      "party": "democratic",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "James Uhlenkamp",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 129
+      }
+    },
+    {
+      "contest": "State Senator District 33",
+      "district": 33,
+      "party": "democratic",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Mary Ungs-Sogaard",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 174
+      }
+    },
+    {
+      "contest": "State Representative District 5",
+      "district": 5,
+      "party": "democratic",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Stephanie Steiner",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 49
+      }
+    },
+    {
+      "contest": "State Representative District 25",
+      "district": 25,
+      "party": "democratic",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Kolton Jones",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 82
+      }
+    },
+    {
+      "contest": "State Representative District 53",
+      "district": 53,
+      "party": "democratic",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [
+        "Tommy Hexter"
+      ],
+      "sosNominee": "Berleen Wobeter",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 83,
+        "Tommy Hexter": 32
+      },
+      "explanation": "Tommy Hexter (printed on Dem primary ballot) got 27.8%, below the 35% threshold; write-ins 72.2%. SOS list shows Berleen Wobeter (filed 8/14/2026)."
+    },
+    {
+      "contest": "State Representative District 83",
+      "district": 83,
+      "party": "democratic",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Mike Bergman",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 226
+      }
+    },
+    {
+      "contest": "State Representative District 91",
+      "district": 91,
+      "party": "democratic",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Mark Divitt",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 139
+      }
+    },
+    {
+      "contest": "State Representative District 94",
+      "district": 94,
+      "party": "democratic",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Karen Roebuck",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 147
+      }
+    },
+    {
+      "contest": "State Representative District 95",
+      "district": 95,
+      "party": "democratic",
+      "primaryWinner": null,
+      "primaryCandidatesOnBallot": [],
+      "sosNominee": "Carrie Trevino",
+      "type": "no primary winner (no candidate or no one reached 35%); nominee chosen by party convention",
+      "primaryVotes": {
+        "Write-in": 55
+      }
+    }
+  ],
+  "nameFormatDifferences": [],
+  "notOnPrimaryBallot": [
+    {
+      "contest": "United States Senator",
+      "district": null,
+      "party": "libertarian",
+      "name": "Thomas Laehn",
+      "type": "Libertarian nominee (Libertarian Party did not hold a state-run primary for this office)"
+    },
+    {
+      "contest": "United States Representative",
+      "district": 1,
+      "party": null,
+      "name": "Michael Bridgford",
+      "type": "No Party (independent) candidate filed by nomination petition; not in a primary"
+    },
+    {
+      "contest": "United States Representative",
+      "district": 2,
+      "party": "libertarian",
+      "name": "Rick Stewart",
+      "type": "Libertarian nominee (Libertarian Party did not hold a state-run primary for this office)"
+    },
+    {
+      "contest": "United States Representative",
+      "district": 2,
+      "party": null,
+      "name": "Dave Bushaw",
+      "type": "No Party (independent) candidate filed by nomination petition; not in a primary"
+    },
+    {
+      "contest": "State Senator",
+      "district": 5,
+      "party": null,
+      "name": "Rachel Gravert",
+      "type": "No Party (independent) candidate filed by nomination petition; not in a primary"
+    },
+    {
+      "contest": "State Representative",
+      "district": 4,
+      "party": null,
+      "name": "Garth Van Donselaar",
+      "type": "No Party (independent) candidate filed by nomination petition; not in a primary"
+    },
+    {
+      "contest": "State Representative",
+      "district": 15,
+      "party": null,
+      "name": "Blake Johnson",
+      "type": "No Party (independent) candidate filed by nomination petition; not in a primary"
+    },
+    {
+      "contest": "State Representative",
+      "district": 15,
+      "party": null,
+      "name": "Marilyn J Mentzer",
+      "type": "No Party (independent) candidate filed by nomination petition; not in a primary"
+    },
+    {
+      "contest": "State Representative",
+      "district": 61,
+      "party": null,
+      "name": "Lucas Hewitt",
+      "type": "No Party (independent) candidate filed by nomination petition; not in a primary"
+    },
+    {
+      "contest": "State Representative",
+      "district": 89,
+      "party": null,
+      "name": "Daniel Arch",
+      "type": "No Party (independent) candidate filed by nomination petition; not in a primary"
+    },
+    {
+      "contest": "Lieutenant Governor",
+      "type": "Not a primary office in Iowa; running mates named after the primary",
+      "runningMates": {
+        "republican": "Derek Wulf",
+        "democratic": "Dave Muhlbauer"
+      }
+    }
+  ],
+  "matchesNote": "matches counts party-contests where the primary winner equals the SOS nominee, or where there was no primary winner and no SOS nominee."
+}

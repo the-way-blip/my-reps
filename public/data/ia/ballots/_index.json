@@ -1,0 +1,599 @@
+{
+ "sourceVersion": "2026 General - Candidate List Database - All Elections_1.pdf (uploaded 2026-08; latest entry filing date 8/19/2026); still the only list linked from https://sos.iowa.gov/general-election as of 2026-10-28",
+ "counties": [
+  {
+   "county": "Adair",
+   "slug": "adair",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Adams",
+   "slug": "adams",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Allamakee",
+   "slug": "allamakee",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Appanoose",
+   "slug": "appanoose",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Audubon",
+   "slug": "audubon",
+   "races": 0,
+   "referendums": 13
+  },
+  {
+   "county": "Benton",
+   "slug": "benton",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Black Hawk",
+   "slug": "black-hawk",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Boone",
+   "slug": "boone",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Bremer",
+   "slug": "bremer",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Buchanan",
+   "slug": "buchanan",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Buena Vista",
+   "slug": "buena-vista",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Butler",
+   "slug": "butler",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Calhoun",
+   "slug": "calhoun",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Carroll",
+   "slug": "carroll",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Cass",
+   "slug": "cass",
+   "races": 0,
+   "referendums": 13
+  },
+  {
+   "county": "Cedar",
+   "slug": "cedar",
+   "races": 0,
+   "referendums": 12
+  },
+  {
+   "county": "Cerro Gordo",
+   "slug": "cerro-gordo",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Cherokee",
+   "slug": "cherokee",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Chickasaw",
+   "slug": "chickasaw",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Clarke",
+   "slug": "clarke",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Clay",
+   "slug": "clay",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Clayton",
+   "slug": "clayton",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Clinton",
+   "slug": "clinton",
+   "races": 0,
+   "referendums": 12
+  },
+  {
+   "county": "Crawford",
+   "slug": "crawford",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Dallas",
+   "slug": "dallas",
+   "races": 0,
+   "referendums": 9
+  },
+  {
+   "county": "Davis",
+   "slug": "davis",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Decatur",
+   "slug": "decatur",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Delaware",
+   "slug": "delaware",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Des Moines",
+   "slug": "des-moines",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Dickinson",
+   "slug": "dickinson",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Dubuque",
+   "slug": "dubuque",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Emmet",
+   "slug": "emmet",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Fayette",
+   "slug": "fayette",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Floyd",
+   "slug": "floyd",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Franklin",
+   "slug": "franklin",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Fremont",
+   "slug": "fremont",
+   "races": 0,
+   "referendums": 13
+  },
+  {
+   "county": "Greene",
+   "slug": "greene",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Grundy",
+   "slug": "grundy",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Guthrie",
+   "slug": "guthrie",
+   "races": 0,
+   "referendums": 9
+  },
+  {
+   "county": "Hamilton",
+   "slug": "hamilton",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Hancock",
+   "slug": "hancock",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Hardin",
+   "slug": "hardin",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Harrison",
+   "slug": "harrison",
+   "races": 0,
+   "referendums": 13
+  },
+  {
+   "county": "Henry",
+   "slug": "henry",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Howard",
+   "slug": "howard",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Humboldt",
+   "slug": "humboldt",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Ida",
+   "slug": "ida",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Iowa",
+   "slug": "iowa",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Jackson",
+   "slug": "jackson",
+   "races": 0,
+   "referendums": 12
+  },
+  {
+   "county": "Jasper",
+   "slug": "jasper",
+   "races": 0,
+   "referendums": 9
+  },
+  {
+   "county": "Jefferson",
+   "slug": "jefferson",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Johnson",
+   "slug": "johnson",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Jones",
+   "slug": "jones",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Keokuk",
+   "slug": "keokuk",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Kossuth",
+   "slug": "kossuth",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Lee",
+   "slug": "lee",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Linn",
+   "slug": "linn",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Louisa",
+   "slug": "louisa",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Lucas",
+   "slug": "lucas",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Lyon",
+   "slug": "lyon",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Madison",
+   "slug": "madison",
+   "races": 0,
+   "referendums": 9
+  },
+  {
+   "county": "Mahaska",
+   "slug": "mahaska",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Marion",
+   "slug": "marion",
+   "races": 0,
+   "referendums": 9
+  },
+  {
+   "county": "Marshall",
+   "slug": "marshall",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Mills",
+   "slug": "mills",
+   "races": 0,
+   "referendums": 13
+  },
+  {
+   "county": "Mitchell",
+   "slug": "mitchell",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Monona",
+   "slug": "monona",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Monroe",
+   "slug": "monroe",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Montgomery",
+   "slug": "montgomery",
+   "races": 0,
+   "referendums": 13
+  },
+  {
+   "county": "Muscatine",
+   "slug": "muscatine",
+   "races": 0,
+   "referendums": 12
+  },
+  {
+   "county": "O'Brien",
+   "slug": "o-brien",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Osceola",
+   "slug": "osceola",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Page",
+   "slug": "page",
+   "races": 0,
+   "referendums": 13
+  },
+  {
+   "county": "Palo Alto",
+   "slug": "palo-alto",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Plymouth",
+   "slug": "plymouth",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Pocahontas",
+   "slug": "pocahontas",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Polk",
+   "slug": "polk",
+   "races": 0,
+   "referendums": 18
+  },
+  {
+   "county": "Pottawattamie",
+   "slug": "pottawattamie",
+   "races": 0,
+   "referendums": 13
+  },
+  {
+   "county": "Poweshiek",
+   "slug": "poweshiek",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Ringgold",
+   "slug": "ringgold",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Sac",
+   "slug": "sac",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Scott",
+   "slug": "scott",
+   "races": 0,
+   "referendums": 12
+  },
+  {
+   "county": "Shelby",
+   "slug": "shelby",
+   "races": 0,
+   "referendums": 13
+  },
+  {
+   "county": "Sioux",
+   "slug": "sioux",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Story",
+   "slug": "story",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Tama",
+   "slug": "tama",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Taylor",
+   "slug": "taylor",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Union",
+   "slug": "union",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Van Buren",
+   "slug": "van-buren",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Wapello",
+   "slug": "wapello",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Warren",
+   "slug": "warren",
+   "races": 0,
+   "referendums": 9
+  },
+  {
+   "county": "Washington",
+   "slug": "washington",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Wayne",
+   "slug": "wayne",
+   "races": 0,
+   "referendums": 6
+  },
+  {
+   "county": "Webster",
+   "slug": "webster",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Winnebago",
+   "slug": "winnebago",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Winneshiek",
+   "slug": "winneshiek",
+   "races": 0,
+   "referendums": 8
+  },
+  {
+   "county": "Woodbury",
+   "slug": "woodbury",
+   "races": 0,
+   "referendums": 10
+  },
+  {
+   "county": "Worth",
+   "slug": "worth",
+   "races": 0,
+   "referendums": 11
+  },
+  {
+   "county": "Wright",
+   "slug": "wright",
+   "races": 0,
+   "referendums": 11
+  }
+ ]
+}

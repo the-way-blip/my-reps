@@ -1,0 +1,90 @@
+{
+  "state": "IA",
+  "election": "2026-11-03 General Election",
+  "fetchedAt": "2026-10-29T00:54:28+00:00",
+  "pollHours": {
+    "open": "7:00 a.m.",
+    "close": "8:00 p.m.",
+    "timezone": "America/Chicago",
+    "detail": "Polls open at 7:00 a.m. and close at 8:00 p.m. for all elections.",
+    "sources": [
+      "https://www.legis.iowa.gov/docs/code/49.73.pdf"
+    ]
+  },
+  "registrationDeadline": {
+    "date": "2026-10-19",
+    "time": "5:00 p.m.",
+    "detail": "Pre-registration closes at 5:00 p.m. fifteen days before the election. A mailed form counts if postmarked by the 15th day before the election. Forms submitted at DOT/driver's license stations or voter registration agencies count if received by 11:59 p.m. that day. Online registration is through the Iowa DOT.",
+    "sources": [
+      "https://www.legis.iowa.gov/docs/code/48A.9.pdf",
+      "https://sos.iowa.gov/voters/voter-registration"
+    ]
+  },
+  "electionDayRegistration": {
+    "allowed": true,
+    "detail": "An eligible person may register and vote on Election Day in person at the polling place for the precinct where they live. They fill out a registration application, sign a written oath, and prove identity and residence. Either (a) a current, valid Iowa driver's license or Iowa nonoperator ID, or (b) a current, valid photo ID with expiration date: out-of-state driver's license/nonoperator ID, U.S. passport, U.S. military or veterans ID, employer ID, Iowa high school or Iowa college student ID, or a signed tribal ID. If the photo ID lacks a current precinct address, the person must also show a residential lease, property tax statement, utility bill, bank statement, paycheck, government check or other government document with name and current address, dated within 45 days. Alternatively, a registered voter of the precinct can attest by written oath. After the pre-registration deadline, people may also register and vote absentee in person at the county auditor's office or a satellite station using the same procedure.",
+    "sources": [
+      "https://www.legis.iowa.gov/docs/code/48A.7A.pdf"
+    ]
+  },
+  "voterId": {
+    "required": true,
+    "acceptedPrimary": [
+      "Iowa driver's license",
+      "Iowa nonoperator ID card",
+      "U.S. passport",
+      "U.S. military or veterans ID card",
+      "Current, valid tribal ID card or tribal enrollment document with photo, signature and expiration date"
+    ],
+    "alternatives": [
+      "Signed current Iowa Voter Identification Card (voter ID number)",
+      "Other ID sufficient under 48A.7A(1)(b) (photo ID plus proof of residence)",
+      "Written oath by a registered voter of the same precinct who shows their own ID"
+    ],
+    "ifNoId": "A registered voter who cannot establish identity may cast a provisional ballot (Iowa Code 49.81).",
+    "sources": [
+      "https://www.legis.iowa.gov/docs/code/49.78.pdf"
+    ]
+  },
+  "earlyInPersonVoting": {
+    "start": "2026-10-14",
+    "end": "2026-11-02",
+    "detail": "In-person absentee voting at the county auditor's office begins no more than 20 days before the general election (Wednesday, Oct. 14, 2026) and runs through the day before Election Day. Hours, closing time on Nov. 2, and any satellite sites are set by each county auditor.",
+    "sources": [
+      "https://www.legis.iowa.gov/docs/code/53.10.pdf",
+      "https://sos.iowa.gov/voters/absentee-voting",
+      "https://sos.iowa.gov/elections/pdf/candidates/gencandguide.pdf (SOS calendar entry: 'Wed, Oct 14 - Absentee Ballots Ready')"
+    ]
+  },
+  "absenteeRequestDeadline": {
+    "date": "2026-10-19",
+    "time": "5:00 p.m.",
+    "detail": "A written absentee ballot request must be received by the county auditor by 5:00 p.m. on the voter registration deadline (15 days before the election). Requests cannot be accepted more than 70 days before the election. This deadline does not apply to ballots requested and voted in person at the auditor's office.",
+    "sources": [
+      "https://www.legis.iowa.gov/docs/code/53.2.pdf",
+      "https://www.legis.iowa.gov/docs/code/48A.9.pdf"
+    ]
+  },
+  "absenteeReturnDeadline": {
+    "date": "2026-11-03",
+    "time": "8:00 p.m. (polls close)",
+    "detail": "For the ballot to count, the return envelope must be received in the county auditor's office before polls close on Election Day. A postmark alone is not enough. Ballots may be returned by mail, in person, by a designee (within 72 hours of pickup, or before polls close if sooner), or in the county's secure ballot drop box.",
+    "sources": [
+      "https://www.legis.iowa.gov/docs/code/53.17.pdf",
+      "https://www.legis.iowa.gov/docs/code/49.73.pdf"
+    ]
+  },
+  "voterLookup": {
+    "registrationStatus": "https://sos.iowa.gov/amiregistered",
+    "registrationStatusApp": "https://apps.sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
+    "pollingPlace": "https://apps.sos.iowa.gov/elections/voterreg/pollingplace/search.aspx",
+    "sources": [
+      "https://sos.iowa.gov/voters/voter-registration",
+      "https://sos.iowa.gov/voters/find-my-precinctpolling-place"
+    ]
+  },
+  "notes": [
+    "Dates were computed from Iowa Code 2026 for Election Day 2026-11-03. Oct. 19 is 15 days before the election and Oct. 14 is 20 days before it.",
+    "sos.iowa.gov refuses direct curl requests. SOS page URLs come from search results; the statute text was downloaded directly from legis.iowa.gov."
+  ]
+}

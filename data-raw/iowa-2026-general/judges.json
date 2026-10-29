@@ -1,0 +1,1784 @@
+{
+  "fetchedAt": "2026-10-29T00:52:26+00:00",
+  "election": "2026-11-03 Iowa General Election - judicial retention",
+  "totals": {
+    "appellate": 3,
+    "trial": 84,
+    "all": 87,
+    "note": "Iowa Judicial Branch: 'Three appellate judges and 84 trial court judges will stand for retention' (no Supreme Court justices on the 2026 ballot)."
+  },
+  "sources": {
+    "count": "https://www.iowacourts.gov/announcements/information-about-iowas-2026-judicial-retention-elections",
+    "judgeList": "https://www.iowabar.org/docDownload/3133274 (Iowa State Bar Association 2026 Judicial Performance Review; linked from iowacourts.gov). The SOS final judge list for 2026 was not found on sos.iowa.gov (only the 2024 list at sos.iowa.gov/elections/pdf/Candidates/judgeretentionlist.pdf).",
+    "courtType": "ISBA 2026 Judicial Performance Review biography headings, cross-checked against county ballot section headings where available",
+    "ballotNames": "Official county auditor sample ballots (see ballotSource per judge)",
+    "districtCounties": [
+      "https://www.iowacourts.gov/iowa-courts/district-court/judicial-district-1/ ... judicial-district-8/ (counties per judicial district)",
+      "Governor press releases naming sub-district counties, e.g. https://governor.iowa.gov/press-release/2024-08-21/gov-reynolds-appoints-michelle-jungers-district-associate-judge (1B), .../2024-08-30/gov-reynolds-appoints-mark-milder-district-associate-judge (2A), .../2022-11-30/gov-reynolds-appoints-kathryn-austin-district-associate-judge (2B), .../2024-11-26/gov-reynolds-appoints-kristi-busse-district-associate-judge (3A), .../2022-10-04/gov-reynolds-appoints-jessica-noll-district-associate-judge (3B), .../2023-06-16/gov-reynolds-appoints-michael-carpenter-eric-nelson-and-patrick-smith (4, 5C, 8A), .../2022-11-23/gov-reynolds-appoints-charles-sinnard-district-judge (5A), .../2024-11-26/gov-reynolds-appoints-andrew-zimmerman-district-associate-judge (5B), .../2021-12-03/gov-reynolds-appoints-clinton-boddicker-district-court-judge (8B)",
+      "ISBA 2026 review table of contents lists the same county sets for every election district",
+      "1A has no governor page fetched; it is the remainder of District 1 and matches the ISBA list and the Winneshiek County ballot label 'District 1A'"
+    ]
+  },
+  "electionDistricts": {
+    "1A": {
+      "judicialDistrict": 1,
+      "counties": [
+        "Allamakee",
+        "Clayton",
+        "Delaware",
+        "Dubuque",
+        "Winneshiek"
+      ]
+    },
+    "1B": {
+      "judicialDistrict": 1,
+      "counties": [
+        "Black Hawk",
+        "Buchanan",
+        "Chickasaw",
+        "Fayette",
+        "Grundy",
+        "Howard"
+      ]
+    },
+    "2A": {
+      "judicialDistrict": 2,
+      "counties": [
+        "Bremer",
+        "Butler",
+        "Cerro Gordo",
+        "Floyd",
+        "Franklin",
+        "Hancock",
+        "Mitchell",
+        "Winnebago",
+        "Worth"
+      ]
+    },
+    "2B": {
+      "judicialDistrict": 2,
+      "counties": [
+        "Boone",
+        "Calhoun",
+        "Carroll",
+        "Greene",
+        "Hamilton",
+        "Hardin",
+        "Humboldt",
+        "Marshall",
+        "Pocahontas",
+        "Sac",
+        "Story",
+        "Webster",
+        "Wright"
+      ]
+    },
+    "3A": {
+      "judicialDistrict": 3,
+      "counties": [
+        "Buena Vista",
+        "Cherokee",
+        "Clay",
+        "Dickinson",
+        "Emmet",
+        "Kossuth",
+        "Lyon",
+        "O'Brien",
+        "Osceola",
+        "Palo Alto"
+      ]
+    },
+    "3B": {
+      "judicialDistrict": 3,
+      "counties": [
+        "Crawford",
+        "Ida",
+        "Monona",
+        "Plymouth",
+        "Sioux",
+        "Woodbury"
+      ]
+    },
+    "4": {
+      "judicialDistrict": 4,
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ]
+    },
+    "5A": {
+      "judicialDistrict": 5,
+      "counties": [
+        "Dallas",
+        "Guthrie",
+        "Jasper",
+        "Madison",
+        "Marion",
+        "Warren"
+      ]
+    },
+    "5B": {
+      "judicialDistrict": 5,
+      "counties": [
+        "Adair",
+        "Adams",
+        "Clarke",
+        "Decatur",
+        "Lucas",
+        "Ringgold",
+        "Taylor",
+        "Union",
+        "Wayne"
+      ]
+    },
+    "5C": {
+      "judicialDistrict": 5,
+      "counties": [
+        "Polk"
+      ]
+    },
+    "6": {
+      "judicialDistrict": 6,
+      "counties": [
+        "Benton",
+        "Iowa",
+        "Johnson",
+        "Jones",
+        "Linn",
+        "Tama"
+      ]
+    },
+    "7": {
+      "judicialDistrict": 7,
+      "counties": [
+        "Cedar",
+        "Clinton",
+        "Jackson",
+        "Muscatine",
+        "Scott"
+      ]
+    },
+    "8A": {
+      "judicialDistrict": 8,
+      "counties": [
+        "Appanoose",
+        "Davis",
+        "Jefferson",
+        "Keokuk",
+        "Mahaska",
+        "Monroe",
+        "Poweshiek",
+        "Van Buren",
+        "Wapello",
+        "Washington"
+      ]
+    },
+    "8B": {
+      "judicialDistrict": 8,
+      "counties": [
+        "Des Moines",
+        "Henry",
+        "Lee",
+        "Louisa"
+      ]
+    }
+  },
+  "notes": [
+    "Iowa Code 602.6305 / 46.24: district associate, associate juvenile and associate probate judges stand for retention in their judicial election district, same as district judges.",
+    "Lee County is split into Lee North and Lee South for court administration but is one county for voting; listed as 'Lee'.",
+    "One governor press release (2024-09-06, Melinda Wicks) lists Buena Vista, Cherokee and Clay under 3B. Two other governor releases (2024-11-26 Busse, 2025-07-15 Bennett Finn) and the ISBA review put them in 3A, so 3A is used here.",
+    "Polk County's candidate-list PDF (polkcountyiowa.gov/media/4xehjvif/candidate-list.pdf) omits District Judge Scott J. Beattie, but Polk's official sample ballot includes him; he is included here.",
+    "The ISBA introduction says '85 trial court judges' but its results list 84 names, which matches the Judicial Branch count of 84."
+  ],
+  "judges": [
+    {
+      "name": "John M. Sandy",
+      "isbaName": "John M. Sandy",
+      "court": "Court of Appeals",
+      "judicialDistrict": null,
+      "subDistrict": null,
+      "electionDistrict": "statewide",
+      "counties": "all",
+      "ballotVerified": true
+    },
+    {
+      "name": "Julie A. Schumacher",
+      "isbaName": "Julie A. Schumacher",
+      "court": "Court of Appeals",
+      "judicialDistrict": null,
+      "subDistrict": null,
+      "electionDistrict": "statewide",
+      "counties": "all",
+      "ballotVerified": true
+    },
+    {
+      "name": "Sharon Soorholtz Greer",
+      "isbaName": "Sharon Soorholtz Greer",
+      "court": "Court of Appeals",
+      "judicialDistrict": null,
+      "subDistrict": null,
+      "electionDistrict": "statewide",
+      "counties": "all",
+      "ballotVerified": true
+    },
+    {
+      "name": "Alan Heavens",
+      "isbaName": "Alan Heavens",
+      "court": "District Court",
+      "judicialDistrict": 1,
+      "subDistrict": "1A",
+      "electionDistrict": "1A",
+      "counties": [
+        "Allamakee",
+        "Clayton",
+        "Delaware",
+        "Dubuque",
+        "Winneshiek"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://winneshiekcounty.iowa.gov/wp-content/uploads/2026/09/PCT-1-Burr-Oak-TWP.pdf"
+    },
+    {
+      "name": "Mark T. Hostager",
+      "isbaName": "Mark T. Hostager",
+      "court": "District Associate",
+      "judicialDistrict": 1,
+      "subDistrict": "1A",
+      "electionDistrict": "1A",
+      "counties": [
+        "Allamakee",
+        "Clayton",
+        "Delaware",
+        "Dubuque",
+        "Winneshiek"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://winneshiekcounty.iowa.gov/wp-content/uploads/2026/09/PCT-1-Burr-Oak-TWP.pdf"
+    },
+    {
+      "name": "Stephanie C. Rattenborg",
+      "isbaName": "Stephanie C. Rattenborg",
+      "court": "District Associate",
+      "judicialDistrict": 1,
+      "subDistrict": "1A",
+      "electionDistrict": "1A",
+      "counties": [
+        "Allamakee",
+        "Clayton",
+        "Delaware",
+        "Dubuque",
+        "Winneshiek"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://winneshiekcounty.iowa.gov/wp-content/uploads/2026/09/PCT-1-Burr-Oak-TWP.pdf"
+    },
+    {
+      "name": "Thomas J. Straka",
+      "isbaName": "Thomas J. Straka",
+      "court": "Associate Juvenile",
+      "judicialDistrict": 1,
+      "subDistrict": "1A",
+      "electionDistrict": "1A",
+      "counties": [
+        "Allamakee",
+        "Clayton",
+        "Delaware",
+        "Dubuque",
+        "Winneshiek"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://winneshiekcounty.iowa.gov/wp-content/uploads/2026/09/PCT-1-Burr-Oak-TWP.pdf"
+    },
+    {
+      "name": "Joel A. Dalrymple",
+      "isbaName": "Joel A. Dalrymple",
+      "court": "District Court",
+      "judicialDistrict": 1,
+      "subDistrict": "1B",
+      "electionDistrict": "1B",
+      "counties": [
+        "Black Hawk",
+        "Buchanan",
+        "Chickasaw",
+        "Fayette",
+        "Grundy",
+        "Howard"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://blackhawkcountyelections.iowa.gov/files/sample_ballots/1304_style_8_22994.pdf"
+    },
+    {
+      "name": "Patrice Jaye Eichman",
+      "isbaName": "Patrice Jaye Eichman",
+      "court": "District Associate",
+      "judicialDistrict": 1,
+      "subDistrict": "1B",
+      "electionDistrict": "1B",
+      "counties": [
+        "Black Hawk",
+        "Buchanan",
+        "Chickasaw",
+        "Fayette",
+        "Grundy",
+        "Howard"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://blackhawkcountyelections.iowa.gov/files/sample_ballots/1304_style_8_22994.pdf"
+    },
+    {
+      "name": "Michelle Jungers",
+      "isbaName": "Michelle Jungers",
+      "court": "District Associate",
+      "judicialDistrict": 1,
+      "subDistrict": "1B",
+      "electionDistrict": "1B",
+      "counties": [
+        "Black Hawk",
+        "Buchanan",
+        "Chickasaw",
+        "Fayette",
+        "Grundy",
+        "Howard"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://blackhawkcountyelections.iowa.gov/files/sample_ballots/1304_style_8_22994.pdf"
+    },
+    {
+      "name": "Linnea M.N. Nicol",
+      "isbaName": "Linnea M.N. Nicol",
+      "court": "District Associate",
+      "judicialDistrict": 1,
+      "subDistrict": "1B",
+      "electionDistrict": "1B",
+      "counties": [
+        "Black Hawk",
+        "Buchanan",
+        "Chickasaw",
+        "Fayette",
+        "Grundy",
+        "Howard"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://blackhawkcountyelections.iowa.gov/files/sample_ballots/1304_style_8_22994.pdf"
+    },
+    {
+      "name": "Christopher Foy",
+      "isbaName": "Christopher C. Foy",
+      "court": "District Court",
+      "judicialDistrict": 2,
+      "subDistrict": "2A",
+      "electionDistrict": "2A",
+      "counties": [
+        "Bremer",
+        "Butler",
+        "Cerro Gordo",
+        "Floyd",
+        "Franklin",
+        "Hancock",
+        "Mitchell",
+        "Winnebago",
+        "Worth"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.franklincountyia.gov/files/sample_ballots/20261103_all_sample_ballots_61605.pdf"
+    },
+    {
+      "name": "Karen Kaufman Salic",
+      "isbaName": "Karen Kaufman Salic",
+      "court": "District Associate",
+      "judicialDistrict": 2,
+      "subDistrict": "2A",
+      "electionDistrict": "2A",
+      "counties": [
+        "Bremer",
+        "Butler",
+        "Cerro Gordo",
+        "Floyd",
+        "Franklin",
+        "Hancock",
+        "Mitchell",
+        "Winnebago",
+        "Worth"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.franklincountyia.gov/files/sample_ballots/20261103_all_sample_ballots_61605.pdf"
+    },
+    {
+      "name": "Mark Milder",
+      "isbaName": "Mark Milder",
+      "court": "District Associate",
+      "judicialDistrict": 2,
+      "subDistrict": "2A",
+      "electionDistrict": "2A",
+      "counties": [
+        "Bremer",
+        "Butler",
+        "Cerro Gordo",
+        "Floyd",
+        "Franklin",
+        "Hancock",
+        "Mitchell",
+        "Winnebago",
+        "Worth"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.franklincountyia.gov/files/sample_ballots/20261103_all_sample_ballots_61605.pdf"
+    },
+    {
+      "name": "Gregg R. Rosenbladt",
+      "isbaName": "Gregg R. Rosenbladt",
+      "court": "District Court",
+      "judicialDistrict": 2,
+      "subDistrict": "2A",
+      "electionDistrict": "2A",
+      "counties": [
+        "Bremer",
+        "Butler",
+        "Cerro Gordo",
+        "Floyd",
+        "Franklin",
+        "Hancock",
+        "Mitchell",
+        "Winnebago",
+        "Worth"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.franklincountyia.gov/files/sample_ballots/20261103_all_sample_ballots_61605.pdf"
+    },
+    {
+      "name": "Adam Sauer",
+      "isbaName": "Adam Sauer",
+      "court": "District Associate",
+      "judicialDistrict": 2,
+      "subDistrict": "2A",
+      "electionDistrict": "2A",
+      "counties": [
+        "Bremer",
+        "Butler",
+        "Cerro Gordo",
+        "Floyd",
+        "Franklin",
+        "Hancock",
+        "Mitchell",
+        "Winnebago",
+        "Worth"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.franklincountyia.gov/files/sample_ballots/20261103_all_sample_ballots_61605.pdf"
+    },
+    {
+      "name": "DeDra Schroeder",
+      "isbaName": "DeDra L. Schroeder",
+      "court": "District Court",
+      "judicialDistrict": 2,
+      "subDistrict": "2A",
+      "electionDistrict": "2A",
+      "counties": [
+        "Bremer",
+        "Butler",
+        "Cerro Gordo",
+        "Floyd",
+        "Franklin",
+        "Hancock",
+        "Mitchell",
+        "Winnebago",
+        "Worth"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.franklincountyia.gov/files/sample_ballots/20261103_all_sample_ballots_61605.pdf"
+    },
+    {
+      "name": "Colleen D. Weiland",
+      "isbaName": "Colleen D. Weiland",
+      "court": "District Court",
+      "judicialDistrict": 2,
+      "subDistrict": "2A",
+      "electionDistrict": "2A",
+      "counties": [
+        "Bremer",
+        "Butler",
+        "Cerro Gordo",
+        "Floyd",
+        "Franklin",
+        "Hancock",
+        "Mitchell",
+        "Winnebago",
+        "Worth"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.franklincountyia.gov/files/sample_ballots/20261103_all_sample_ballots_61605.pdf"
+    },
+    {
+      "name": "Bethany J. Currie",
+      "isbaName": "Bethany Currie",
+      "court": "District Court",
+      "judicialDistrict": 2,
+      "subDistrict": "2B",
+      "electionDistrict": "2B",
+      "counties": [
+        "Boone",
+        "Calhoun",
+        "Carroll",
+        "Greene",
+        "Hamilton",
+        "Hardin",
+        "Humboldt",
+        "Marshall",
+        "Pocahontas",
+        "Sac",
+        "Story",
+        "Webster",
+        "Wright"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.storycountyiowa.gov/DocumentCenter/View/18175/26252-Sample-FRONT"
+    },
+    {
+      "name": "Angela L. Doyle",
+      "isbaName": "Angela L. Doyle",
+      "court": "District Court",
+      "judicialDistrict": 2,
+      "subDistrict": "2B",
+      "electionDistrict": "2B",
+      "counties": [
+        "Boone",
+        "Calhoun",
+        "Carroll",
+        "Greene",
+        "Hamilton",
+        "Hardin",
+        "Humboldt",
+        "Marshall",
+        "Pocahontas",
+        "Sac",
+        "Story",
+        "Webster",
+        "Wright"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.storycountyiowa.gov/DocumentCenter/View/18175/26252-Sample-FRONT"
+    },
+    {
+      "name": "Amy Moore",
+      "isbaName": "Amy Moore",
+      "court": "District Court",
+      "judicialDistrict": 2,
+      "subDistrict": "2B",
+      "electionDistrict": "2B",
+      "counties": [
+        "Boone",
+        "Calhoun",
+        "Carroll",
+        "Greene",
+        "Hamilton",
+        "Hardin",
+        "Humboldt",
+        "Marshall",
+        "Pocahontas",
+        "Sac",
+        "Story",
+        "Webster",
+        "Wright"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.storycountyiowa.gov/DocumentCenter/View/18175/26252-Sample-FRONT"
+    },
+    {
+      "name": "Stephen A. Owen",
+      "isbaName": "Stephen A. Owen",
+      "court": "District Associate",
+      "judicialDistrict": 2,
+      "subDistrict": "2B",
+      "electionDistrict": "2B",
+      "counties": [
+        "Boone",
+        "Calhoun",
+        "Carroll",
+        "Greene",
+        "Hamilton",
+        "Hardin",
+        "Humboldt",
+        "Marshall",
+        "Pocahontas",
+        "Sac",
+        "Story",
+        "Webster",
+        "Wright"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.storycountyiowa.gov/DocumentCenter/View/18175/26252-Sample-FRONT"
+    },
+    {
+      "name": "Christopher Polking",
+      "isbaName": "Christopher C. Polking",
+      "court": "District Court",
+      "judicialDistrict": 2,
+      "subDistrict": "2B",
+      "electionDistrict": "2B",
+      "counties": [
+        "Boone",
+        "Calhoun",
+        "Carroll",
+        "Greene",
+        "Hamilton",
+        "Hardin",
+        "Humboldt",
+        "Marshall",
+        "Pocahontas",
+        "Sac",
+        "Story",
+        "Webster",
+        "Wright"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.storycountyiowa.gov/DocumentCenter/View/18175/26252-Sample-FRONT"
+    },
+    {
+      "name": "Ashley Sparks",
+      "isbaName": "Ashley Sparks",
+      "court": "District Court",
+      "judicialDistrict": 2,
+      "subDistrict": "2B",
+      "electionDistrict": "2B",
+      "counties": [
+        "Boone",
+        "Calhoun",
+        "Carroll",
+        "Greene",
+        "Hamilton",
+        "Hardin",
+        "Humboldt",
+        "Marshall",
+        "Pocahontas",
+        "Sac",
+        "Story",
+        "Webster",
+        "Wright"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.storycountyiowa.gov/DocumentCenter/View/18175/26252-Sample-FRONT"
+    },
+    {
+      "name": "Joseph L. Tofilon",
+      "isbaName": "Joseph L. Tofilon",
+      "court": "District Associate",
+      "judicialDistrict": 2,
+      "subDistrict": "2B",
+      "electionDistrict": "2B",
+      "counties": [
+        "Boone",
+        "Calhoun",
+        "Carroll",
+        "Greene",
+        "Hamilton",
+        "Hardin",
+        "Humboldt",
+        "Marshall",
+        "Pocahontas",
+        "Sac",
+        "Story",
+        "Webster",
+        "Wright"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.storycountyiowa.gov/DocumentCenter/View/18175/26252-Sample-FRONT"
+    },
+    {
+      "name": "Charles K. Borth",
+      "isbaName": "Charles K. Borth",
+      "court": "District Court",
+      "judicialDistrict": 3,
+      "subDistrict": "3A",
+      "electionDistrict": "3A",
+      "counties": [
+        "Buena Vista",
+        "Cherokee",
+        "Clay",
+        "Dickinson",
+        "Emmet",
+        "Kossuth",
+        "Lyon",
+        "O'Brien",
+        "Osceola",
+        "Palo Alto"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Kristi Busse",
+      "isbaName": "Kristi Busse",
+      "court": "District Associate",
+      "judicialDistrict": 3,
+      "subDistrict": "3A",
+      "electionDistrict": "3A",
+      "counties": [
+        "Buena Vista",
+        "Cherokee",
+        "Clay",
+        "Dickinson",
+        "Emmet",
+        "Kossuth",
+        "Lyon",
+        "O'Brien",
+        "Osceola",
+        "Palo Alto"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Jennifer Bennett Finn",
+      "isbaName": "Jennifer Bennett Finn",
+      "court": "District Associate",
+      "judicialDistrict": 3,
+      "subDistrict": "3A",
+      "electionDistrict": "3A",
+      "counties": [
+        "Buena Vista",
+        "Cherokee",
+        "Clay",
+        "Dickinson",
+        "Emmet",
+        "Kossuth",
+        "Lyon",
+        "O'Brien",
+        "Osceola",
+        "Palo Alto"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Adam Miller",
+      "isbaName": "Adam Miller",
+      "court": "District Court",
+      "judicialDistrict": 3,
+      "subDistrict": "3A",
+      "electionDistrict": "3A",
+      "counties": [
+        "Buena Vista",
+        "Cherokee",
+        "Clay",
+        "Dickinson",
+        "Emmet",
+        "Kossuth",
+        "Lyon",
+        "O'Brien",
+        "Osceola",
+        "Palo Alto"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Carl J. Petersen",
+      "isbaName": "Carl J. Petersen",
+      "court": "District Court",
+      "judicialDistrict": 3,
+      "subDistrict": "3A",
+      "electionDistrict": "3A",
+      "counties": [
+        "Buena Vista",
+        "Cherokee",
+        "Clay",
+        "Dickinson",
+        "Emmet",
+        "Kossuth",
+        "Lyon",
+        "O'Brien",
+        "Osceola",
+        "Palo Alto"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Andrew Smith",
+      "isbaName": "Andrew Smith",
+      "court": "District Court",
+      "judicialDistrict": 3,
+      "subDistrict": "3A",
+      "electionDistrict": "3A",
+      "counties": [
+        "Buena Vista",
+        "Cherokee",
+        "Clay",
+        "Dickinson",
+        "Emmet",
+        "Kossuth",
+        "Lyon",
+        "O'Brien",
+        "Osceola",
+        "Palo Alto"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Mark C. Cord",
+      "isbaName": "Mark Cord",
+      "court": "District Associate",
+      "judicialDistrict": 3,
+      "subDistrict": "3B",
+      "electionDistrict": "3B",
+      "counties": [
+        "Crawford",
+        "Ida",
+        "Monona",
+        "Plymouth",
+        "Sioux",
+        "Woodbury"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.woodburycountyiowa.gov/files/sample_ballots/20261103_precinct_3_loess_hills_elementary_school_46127.pdf"
+    },
+    {
+      "name": "Tod J. Deck",
+      "isbaName": "Tod J. Deck",
+      "court": "District Court",
+      "judicialDistrict": 3,
+      "subDistrict": "3B",
+      "electionDistrict": "3B",
+      "counties": [
+        "Crawford",
+        "Ida",
+        "Monona",
+        "Plymouth",
+        "Sioux",
+        "Woodbury"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.woodburycountyiowa.gov/files/sample_ballots/20261103_precinct_3_loess_hills_elementary_school_46127.pdf"
+    },
+    {
+      "name": "Zachary S. Hindman",
+      "isbaName": "Zachary S. Hindman",
+      "court": "District Court",
+      "judicialDistrict": 3,
+      "subDistrict": "3B",
+      "electionDistrict": "3B",
+      "counties": [
+        "Crawford",
+        "Ida",
+        "Monona",
+        "Plymouth",
+        "Sioux",
+        "Woodbury"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.woodburycountyiowa.gov/files/sample_ballots/20261103_precinct_3_loess_hills_elementary_school_46127.pdf"
+    },
+    {
+      "name": "John C. Nelson",
+      "isbaName": "John C. Nelson",
+      "court": "District Associate",
+      "judicialDistrict": 3,
+      "subDistrict": "3B",
+      "electionDistrict": "3B",
+      "counties": [
+        "Crawford",
+        "Ida",
+        "Monona",
+        "Plymouth",
+        "Sioux",
+        "Woodbury"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.woodburycountyiowa.gov/files/sample_ballots/20261103_precinct_3_loess_hills_elementary_school_46127.pdf"
+    },
+    {
+      "name": "Daniel P. Vakulskas",
+      "isbaName": "Daniel P. Vakulskas",
+      "court": "District Associate",
+      "judicialDistrict": 3,
+      "subDistrict": "3B",
+      "electionDistrict": "3B",
+      "counties": [
+        "Crawford",
+        "Ida",
+        "Monona",
+        "Plymouth",
+        "Sioux",
+        "Woodbury"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.woodburycountyiowa.gov/files/sample_ballots/20261103_precinct_3_loess_hills_elementary_school_46127.pdf"
+    },
+    {
+      "name": "Melinda Wicks",
+      "isbaName": "Melinda Wicks",
+      "court": "District Associate",
+      "judicialDistrict": 3,
+      "subDistrict": "3B",
+      "electionDistrict": "3B",
+      "counties": [
+        "Crawford",
+        "Ida",
+        "Monona",
+        "Plymouth",
+        "Sioux",
+        "Woodbury"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.woodburycountyiowa.gov/files/sample_ballots/20261103_precinct_3_loess_hills_elementary_school_46127.pdf"
+    },
+    {
+      "name": "Donna Bothwell",
+      "isbaName": "Donna Bothwell",
+      "court": "District Court",
+      "judicialDistrict": 4,
+      "subDistrict": null,
+      "electionDistrict": "4",
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Craig Michael Dreismeier",
+      "isbaName": "Craig Michael Dreismeier",
+      "court": "District Court",
+      "judicialDistrict": 4,
+      "subDistrict": null,
+      "electionDistrict": "4",
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Michael Donn Hooper",
+      "isbaName": "Michael Donn Hooper",
+      "court": "District Court",
+      "judicialDistrict": 4,
+      "subDistrict": null,
+      "electionDistrict": "4",
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Margaret J. Reyes",
+      "isbaName": "Margaret J. Reyes",
+      "court": "District Court",
+      "judicialDistrict": 4,
+      "subDistrict": null,
+      "electionDistrict": "4",
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Matthew A. Schuling",
+      "isbaName": "Matthew A. Schuling",
+      "court": "District Associate",
+      "judicialDistrict": 4,
+      "subDistrict": null,
+      "electionDistrict": "4",
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Scott D. Strait",
+      "isbaName": "Scott D. Strait",
+      "court": "District Associate",
+      "judicialDistrict": 4,
+      "subDistrict": null,
+      "electionDistrict": "4",
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Ashley West-Joons",
+      "isbaName": "Ashley West-Joons",
+      "court": "District Associate",
+      "judicialDistrict": 4,
+      "subDistrict": null,
+      "electionDistrict": "4",
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Justin Wyatt",
+      "isbaName": "Justin Wyatt",
+      "court": "District Court",
+      "judicialDistrict": 4,
+      "subDistrict": null,
+      "electionDistrict": "4",
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Amy L. Zacharias",
+      "isbaName": "Amy L. Zacharias",
+      "court": "District Court",
+      "judicialDistrict": 4,
+      "subDistrict": null,
+      "electionDistrict": "4",
+      "counties": [
+        "Audubon",
+        "Cass",
+        "Fremont",
+        "Harrison",
+        "Mills",
+        "Montgomery",
+        "Page",
+        "Pottawattamie",
+        "Shelby"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Nicholas Bailey",
+      "isbaName": "Nicholas Bailey",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5A",
+      "electionDistrict": "5A",
+      "counties": [
+        "Dallas",
+        "Guthrie",
+        "Jasper",
+        "Madison",
+        "Marion",
+        "Warren"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.warrencountyia.gov/wp-content/uploads/2026/09/Combined-Samples.pdf"
+    },
+    {
+      "name": "Steven W. Guiter",
+      "isbaName": "Steven W. Guiter",
+      "court": "District Associate",
+      "judicialDistrict": 5,
+      "subDistrict": "5A",
+      "electionDistrict": "5A",
+      "counties": [
+        "Dallas",
+        "Guthrie",
+        "Jasper",
+        "Madison",
+        "Marion",
+        "Warren"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.warrencountyia.gov/wp-content/uploads/2026/09/Combined-Samples.pdf"
+    },
+    {
+      "name": "Michael K. Jacobsen",
+      "isbaName": "Michael K. Jacobsen",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5A",
+      "electionDistrict": "5A",
+      "counties": [
+        "Dallas",
+        "Guthrie",
+        "Jasper",
+        "Madison",
+        "Marion",
+        "Warren"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.warrencountyia.gov/wp-content/uploads/2026/09/Combined-Samples.pdf"
+    },
+    {
+      "name": "Thomas P. Murphy",
+      "isbaName": "Thomas P. Murphy",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5A",
+      "electionDistrict": "5A",
+      "counties": [
+        "Dallas",
+        "Guthrie",
+        "Jasper",
+        "Madison",
+        "Marion",
+        "Warren"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.warrencountyia.gov/wp-content/uploads/2026/09/Combined-Samples.pdf"
+    },
+    {
+      "name": "Mark F. Schlenker",
+      "isbaName": "Mark F. Schlenker",
+      "court": "District Associate",
+      "judicialDistrict": 5,
+      "subDistrict": "5A",
+      "electionDistrict": "5A",
+      "counties": [
+        "Dallas",
+        "Guthrie",
+        "Jasper",
+        "Madison",
+        "Marion",
+        "Warren"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.warrencountyia.gov/wp-content/uploads/2026/09/Combined-Samples.pdf"
+    },
+    {
+      "name": "Elisabeth Reynoldson",
+      "isbaName": "Elisabeth Reynoldson",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5B",
+      "electionDistrict": "5B",
+      "counties": [
+        "Adair",
+        "Adams",
+        "Clarke",
+        "Decatur",
+        "Lucas",
+        "Ringgold",
+        "Taylor",
+        "Union",
+        "Wayne"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Andrew Zimmerman",
+      "isbaName": "Andrew Zimmerman",
+      "court": "District Associate",
+      "judicialDistrict": 5,
+      "subDistrict": "5B",
+      "electionDistrict": "5B",
+      "counties": [
+        "Adair",
+        "Adams",
+        "Clarke",
+        "Decatur",
+        "Lucas",
+        "Ringgold",
+        "Taylor",
+        "Union",
+        "Wayne"
+      ],
+      "ballotVerified": false
+    },
+    {
+      "name": "Kimberly Ayotte",
+      "isbaName": "Kimberly Ayotte",
+      "court": "District Associate",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Scott J. Beattie",
+      "isbaName": "Scott J. Beattie",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Jordan Brackey",
+      "isbaName": "Jordan Brackey",
+      "court": "District Associate",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Sarah Crane",
+      "isbaName": "Sarah Crane",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Celene Gogerty",
+      "isbaName": "Celene M. Gogerty",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Brendan L. Greiner",
+      "isbaName": "Brendan Greiner",
+      "court": "District Associate",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Samantha J. Gronewald",
+      "isbaName": "Samantha J. Gronewald",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Christopher Kemp",
+      "isbaName": "Christopher Kemp",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Coleman McAllister",
+      "isbaName": "Coleman McAllister",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Lawrence P. McLellan",
+      "isbaName": "Lawrence P. McLellan",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Lynn Poschner",
+      "isbaName": "Lynn Poschner",
+      "court": "District Associate",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Joseph W. Seidlin",
+      "isbaName": "Joseph W. Seidlin",
+      "court": "District Court",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Ashley Stewart",
+      "isbaName": "Ashley Stewart",
+      "court": "District Associate",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Tabitha Turner",
+      "isbaName": "Tabitha Turner",
+      "court": "District Associate",
+      "judicialDistrict": 5,
+      "subDistrict": "5C",
+      "electionDistrict": "5C",
+      "counties": [
+        "Polk"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.polkcountyiowa.gov/media/ytodwqre/des_moines_26-sample.pdf"
+    },
+    {
+      "name": "Jason D. Besler",
+      "isbaName": "Jason D. Besler",
+      "court": "District Court",
+      "judicialDistrict": 6,
+      "subDistrict": null,
+      "electionDistrict": "6",
+      "counties": [
+        "Benton",
+        "Iowa",
+        "Johnson",
+        "Jones",
+        "Linn",
+        "Tama"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.tamacounty.iowa.gov/files/sample_ballots/1202_sample_ballot_57956.pdf"
+    },
+    {
+      "name": "Mark Fisher",
+      "isbaName": "Mark Fisher",
+      "court": "District Court",
+      "judicialDistrict": 6,
+      "subDistrict": null,
+      "electionDistrict": "6",
+      "counties": [
+        "Benton",
+        "Iowa",
+        "Johnson",
+        "Jones",
+        "Linn",
+        "Tama"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.tamacounty.iowa.gov/files/sample_ballots/1202_sample_ballot_57956.pdf"
+    },
+    {
+      "name": "Michael Harris",
+      "isbaName": "Michael Harris",
+      "court": "District Court",
+      "judicialDistrict": 6,
+      "subDistrict": null,
+      "electionDistrict": "6",
+      "counties": [
+        "Benton",
+        "Iowa",
+        "Johnson",
+        "Jones",
+        "Linn",
+        "Tama"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.tamacounty.iowa.gov/files/sample_ballots/1202_sample_ballot_57956.pdf"
+    },
+    {
+      "name": "Angie Johnston",
+      "isbaName": "Angeline M. Johnston",
+      "court": "District Associate",
+      "judicialDistrict": 6,
+      "subDistrict": null,
+      "electionDistrict": "6",
+      "counties": [
+        "Benton",
+        "Iowa",
+        "Johnson",
+        "Jones",
+        "Linn",
+        "Tama"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.tamacounty.iowa.gov/files/sample_ballots/1202_sample_ballot_57956.pdf"
+    },
+    {
+      "name": "Casey D. Jones",
+      "isbaName": "Casey D. Jones",
+      "court": "District Associate",
+      "judicialDistrict": 6,
+      "subDistrict": null,
+      "electionDistrict": "6",
+      "counties": [
+        "Benton",
+        "Iowa",
+        "Johnson",
+        "Jones",
+        "Linn",
+        "Tama"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.tamacounty.iowa.gov/files/sample_ballots/1202_sample_ballot_57956.pdf"
+    },
+    {
+      "name": "Kristin Schneider",
+      "isbaName": "Kristin Denniger Schneider",
+      "court": "District Associate",
+      "judicialDistrict": 6,
+      "subDistrict": null,
+      "electionDistrict": "6",
+      "counties": [
+        "Benton",
+        "Iowa",
+        "Johnson",
+        "Jones",
+        "Linn",
+        "Tama"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://www.tamacounty.iowa.gov/files/sample_ballots/1202_sample_ballot_57956.pdf"
+    },
+    {
+      "name": "Joel William Barrows",
+      "isbaName": "Joel William Barrows",
+      "court": "District Court",
+      "judicialDistrict": 7,
+      "subDistrict": null,
+      "electionDistrict": "7",
+      "counties": [
+        "Cedar",
+        "Clinton",
+        "Jackson",
+        "Muscatine",
+        "Scott"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_pioneer_township_85209.pdf"
+    },
+    {
+      "name": "Henry William Latham II",
+      "isbaName": "Henry William Latham II",
+      "court": "District Court",
+      "judicialDistrict": 7,
+      "subDistrict": null,
+      "electionDistrict": "7",
+      "counties": [
+        "Cedar",
+        "Clinton",
+        "Jackson",
+        "Muscatine",
+        "Scott"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_pioneer_township_85209.pdf"
+    },
+    {
+      "name": "Mark Ray Lawson",
+      "isbaName": "Mark Ray Lawson",
+      "court": "District Court",
+      "judicialDistrict": 7,
+      "subDistrict": null,
+      "electionDistrict": "7",
+      "counties": [
+        "Cedar",
+        "Clinton",
+        "Jackson",
+        "Muscatine",
+        "Scott"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_pioneer_township_85209.pdf"
+    },
+    {
+      "name": "Jeffrey McDaniel",
+      "isbaName": "Jeffrey McDaniel",
+      "court": "District Court",
+      "judicialDistrict": 7,
+      "subDistrict": null,
+      "electionDistrict": "7",
+      "counties": [
+        "Cedar",
+        "Clinton",
+        "Jackson",
+        "Muscatine",
+        "Scott"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_pioneer_township_85209.pdf"
+    },
+    {
+      "name": "Patrick A. McElyea",
+      "isbaName": "Patrick A. McElyea",
+      "court": "District Court",
+      "judicialDistrict": 7,
+      "subDistrict": null,
+      "electionDistrict": "7",
+      "counties": [
+        "Cedar",
+        "Clinton",
+        "Jackson",
+        "Muscatine",
+        "Scott"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_pioneer_township_85209.pdf"
+    },
+    {
+      "name": "Elizabeth O'Donnell",
+      "isbaName": "Elizabeth O'Donnell",
+      "court": "District Court",
+      "judicialDistrict": 7,
+      "subDistrict": null,
+      "electionDistrict": "7",
+      "counties": [
+        "Cedar",
+        "Clinton",
+        "Jackson",
+        "Muscatine",
+        "Scott"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_pioneer_township_85209.pdf"
+    },
+    {
+      "name": "Tamra J. Roberts",
+      "isbaName": "Tamra J. Roberts",
+      "court": "District Court",
+      "judicialDistrict": 7,
+      "subDistrict": null,
+      "electionDistrict": "7",
+      "counties": [
+        "Cedar",
+        "Clinton",
+        "Jackson",
+        "Muscatine",
+        "Scott"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_pioneer_township_85209.pdf"
+    },
+    {
+      "name": "Cheryl E. Traum",
+      "isbaName": "Cheryl E. Traum",
+      "court": "District Associate",
+      "judicialDistrict": 7,
+      "subDistrict": null,
+      "electionDistrict": "7",
+      "counties": [
+        "Cedar",
+        "Clinton",
+        "Jackson",
+        "Muscatine",
+        "Scott"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_pioneer_township_85209.pdf"
+    },
+    {
+      "name": "Susan Cole",
+      "isbaName": "Susan Cole",
+      "court": "District Associate",
+      "judicialDistrict": 8,
+      "subDistrict": "8A",
+      "electionDistrict": "8A",
+      "counties": [
+        "Appanoose",
+        "Davis",
+        "Jefferson",
+        "Keokuk",
+        "Mahaska",
+        "Monroe",
+        "Poweshiek",
+        "Van Buren",
+        "Wapello",
+        "Washington"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.mahaskacountyia.gov/files/sample_ballots/20261103_east_des_moines_township_12805.pdf"
+    },
+    {
+      "name": "Dustin Hite",
+      "isbaName": "Dustin Hite",
+      "court": "District Court",
+      "judicialDistrict": 8,
+      "subDistrict": "8A",
+      "electionDistrict": "8A",
+      "counties": [
+        "Appanoose",
+        "Davis",
+        "Jefferson",
+        "Keokuk",
+        "Mahaska",
+        "Monroe",
+        "Poweshiek",
+        "Van Buren",
+        "Wapello",
+        "Washington"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.mahaskacountyia.gov/files/sample_ballots/20261103_east_des_moines_township_12805.pdf"
+    },
+    {
+      "name": "Jennifer Nicole Jensen",
+      "isbaName": "Jennifer Jensen",
+      "court": "District Associate",
+      "judicialDistrict": 8,
+      "subDistrict": "8A",
+      "electionDistrict": "8A",
+      "counties": [
+        "Appanoose",
+        "Davis",
+        "Jefferson",
+        "Keokuk",
+        "Mahaska",
+        "Monroe",
+        "Poweshiek",
+        "Van Buren",
+        "Wapello",
+        "Washington"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.mahaskacountyia.gov/files/sample_ballots/20261103_east_des_moines_township_12805.pdf"
+    },
+    {
+      "name": "Amber L. Thompson",
+      "isbaName": "Amber Thompson",
+      "court": "District Court",
+      "judicialDistrict": 8,
+      "subDistrict": "8A",
+      "electionDistrict": "8A",
+      "counties": [
+        "Appanoose",
+        "Davis",
+        "Jefferson",
+        "Keokuk",
+        "Mahaska",
+        "Monroe",
+        "Poweshiek",
+        "Van Buren",
+        "Wapello",
+        "Washington"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://elections.mahaskacountyia.gov/files/sample_ballots/20261103_east_des_moines_township_12805.pdf"
+    },
+    {
+      "name": "Emily S. Dean",
+      "isbaName": "Emily S. Dean",
+      "court": "District Associate",
+      "judicialDistrict": 8,
+      "subDistrict": "8B",
+      "electionDistrict": "8B",
+      "counties": [
+        "Des Moines",
+        "Henry",
+        "Lee",
+        "Louisa"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://dmcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/"
+    },
+    {
+      "name": "Wyatt P. Peterson",
+      "isbaName": "Wyatt P. Peterson",
+      "court": "District Court",
+      "judicialDistrict": 8,
+      "subDistrict": "8B",
+      "electionDistrict": "8B",
+      "counties": [
+        "Des Moines",
+        "Henry",
+        "Lee",
+        "Louisa"
+      ],
+      "ballotVerified": true,
+      "ballotSource": "https://dmcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/"
+    }
+  ]
+}
