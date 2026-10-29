@@ -14203,3 +14203,9 @@ html[data-text] .ballot-incumbent-tag { font-size: 0.8rem !important; }
   .ballot-sticky-bar { bottom: calc(59px + env(safe-area-inset-bottom, 0px)); }
 }
 .ballot-save-fields .ballot-save-secondary { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+
+/* ── Address step: the six graded values ── */
+.ballot-quick-values { margin: 1.25rem auto 0; max-width: 420px; text-align: center; }
+.ballot-quick-values-title { font-size: 0.82rem; font-weight: 600; color: var(--text-secondary); margin: 0 0 0.5rem; }
+.ballot-quick-values-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; }
+.ballot-quick-values-list li { font-size: 0.78rem; font-weight: 500; color: var(--text-primary, inherit); background: var(--surface-alt, rgba(148, 163, 184, 0.12)); border: 1px solid var(--border); border-radius: 999px; padding: 0.3rem 0.65rem; white-space: nowrap; }

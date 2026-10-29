@@ -178,10 +178,7 @@ function AddressStep({ address, onSubmit, daysLeft }) {
 
   return (
     <div className="ballot-step ballot-step-address ballot-step-quick">
-      <h1 className="ballot-quick-title">See Your Ballot</h1>
-      <p className="ballot-quick-sub">
-        Every race and proposal for your address. Free, no sign-up.
-      </p>
+      <h1 className="ballot-quick-title">Enter Your Address to See Your Ballot</h1>
       <form onSubmit={handleSubmit} className="ballot-address-form">
         <AddressAutocomplete
           value={input}
@@ -208,17 +205,20 @@ function AddressStep({ address, onSubmit, daysLeft }) {
         </div>
         <div className="ballot-preview-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" strokeWidth="2" width="20" height="20">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
-          </svg>
-          <span>Values alignment grades (A–F)</span>
-        </div>
-        <div className="ballot-preview-item">
-          <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" strokeWidth="2" width="20" height="20">
             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
             <polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" />
           </svg>
           <span>Printable ballot plan for election day</span>
         </div>
+      </div>
+
+      <div className="ballot-quick-values" aria-label="Candidates are graded on six values">
+        <p className="ballot-quick-values-title">Every candidate graded A–F on six values</p>
+        <ul className="ballot-quick-values-list">
+          {Object.values(ISSUE_LABELS).map(({ label, icon }) => (
+            <li key={label}><span aria-hidden="true">{icon}</span> {label}</li>
+          ))}
+        </ul>
       </div>
     </div>
   )
