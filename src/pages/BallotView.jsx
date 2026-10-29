@@ -28,6 +28,7 @@ import { recordBallotSession, attachSessionContact } from '../utils/ballotSessio
 import { syncUserToGHL } from '../services/ghlService'
 import { trackEvent, trackAddressEntered, trackPartySelected, trackCandidateSelected, trackBallotComplete, trackProposalVoted, trackChecklistItem, trackShareTool, trackShareBallot } from '../utils/analytics'
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
+import AuthModal from '../components/auth/AuthModal'
 import useFocusTrap from '../hooks/useFocusTrap'
 import { getRatingsForCandidate, getRatingsForIssue, getEvidenceLevel } from '../data/externalRatings'
 import { getSource, RATING_SOURCES, ISSUE_AREA_LABELS, RATING_TYPE_LABELS, RATING_TYPE_DESCRIPTIONS } from '../data/ratingSources'
@@ -36,40 +37,22 @@ import { geocodeToDistrict } from '../services/districtService'
 
 const STORAGE_KEY = 'myreps-ballot-plan-2026'
 
-// Logged-out visitors: capture an email so they can get reminders + keep their plan (no account wall)
-function SaveBallotCard({ address }) {
-  const [state, setState] = useState(() => { try { return localStorage.getItem('myreps_lead_captured') ? 'done' : 'idle' } catch { return 'idle' } })
-  const [email, setEmail] = useState('')
-  const [name, setName] = useState('')
-  if (state === 'done') return null
-  const submit = async (e) => {
-    e.preventDefault()
-    const em = email.trim()
-    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) { setState('error'); return }
-    setState('busy')
-    const zip = (address.match(/\b(4[89]\d{3})\b/) || [])[1] || ''
-    await Promise.all([
-      syncUserToGHL({ email: em, name: name.trim(), state: 'MI', zipCode: zip, source: 'ballot-page' }),
-      attachSessionContact({ email: em, name: name.trim() }),
-    ])
-    trackEvent('lead_capture', { placement: 'ballot' })
-    try { localStorage.setItem('myreps_lead_captured', '1') } catch { /* ignore */ }
-    setState('done')
-  }
+// Logged-out visitors: offer a free account to save the ballot (the ballot itself has no account wall)
+function SaveBallotPrompt() {
+  const [authView, setAuthView] = useState(null)
   return (
-    <form className="ballot-save-card" onSubmit={submit}>
+    <div className="ballot-save-card">
       <div className="ballot-save-text">
-        <strong>Stay connected</strong>
-        <span>Add your email to stay connected with Of For &amp; By The People. No account needed.</span>
+        <strong>Save your ballot</strong>
+        <span>Create a free account or sign in to keep your picks and pick up where you left off on any device.</span>
       </div>
       <div className="ballot-save-fields">
-        <input type="text" placeholder="First name (optional)" value={name} onChange={e => setName(e.target.value)} aria-label="First name" />
-        <input type="email" placeholder="you@example.com" value={email} onChange={e => setEmail(e.target.value)} aria-label="Email address" required />
-        <button type="submit" disabled={state === 'busy'}>{state === 'busy' ? 'Saving…' : 'Stay connected'}</button>
+        <button type="button" onClick={() => { trackEvent('save_ballot_prompt', { action: 'signup' }); setAuthView('signup') }}>Create free account</button>
+        <button type="button" className="ballot-save-secondary" onClick={() => { trackEvent('save_ballot_prompt', { action: 'signin' }); setAuthView('signin') }}>Sign in</button>
       </div>
-      {state === 'error' && <p className="ballot-save-error">Please enter a valid email address.</p>}
-      <p className="ballot-save-fine">Independent &amp; personally funded · no party or candidate ties · unsubscribe any time.</p>
-    </form>
+      <p className="ballot-save-fine">Independent &amp; personally funded · no party or candidate ties.</p>
+      <AuthModal open={!!authView} initialView={authView} onClose={() => setAuthView(null)} />
+    </div>
   )
 }
 
@@ -1260,7 +1243,10 @@ export default function BallotView() {
   useEffect(() => {
     if (profileLoading) return
 
-    const saved = (user && ballotPlan) ? ballotPlan : loadBallot()
+    const local = loadBallot()
+    const saved = (user && ballotPlan) ? ballotPlan : local
+    // First sign-in after building a ballot: upload the picks made while signed out
+    if (user && !ballotPlan && local?.choices && Object.keys(local.choices).length && syncBallot) syncBallot(local).catch(() => {})
     if (saved) {
       if (saved.choices) setChoices(saved.choices)
       if (saved.address) {
@@ -1268,7 +1254,7 @@ export default function BallotView() {
         setStep('ballot')
       }
     }
-  }, [user, ballotPlan, profileLoading])
+  }, [user, ballotPlan, profileLoading, syncBallot])
 
   // If address already exists in AppContext, skip to ballot
   useEffect(() => {
@@ -1984,7 +1970,7 @@ export default function BallotView() {
             </button>
           </div>
 
-          {!user && <SaveBallotCard address={address} />}
+          {!user && <SaveBallotPrompt />}
 
           <FounderQuoteBanner quotes={VOTING_QUOTES} />
 
