@@ -1,0 +1,2439 @@
+[
+ {
+  "office": "State Senator, District 1",
+  "name": "Nic Cravillion",
+  "grade": "A",
+  "gradeNote": "Non-incumbent Republican with no legislative voting record in 2023-26. Endorsed by Wisconsin Right to Life, Wisconsin Family Action PAC, NRA-PVF (AQ) (2026). iVoterGuide rates Conservative. Evidence pass (2026-10-29): limitedGov A, fiscal A from iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for State Senator, District 1 (Republican).",
+  "website": null,
+  "sources": [
+   "https://www.wispolitics.com/2026/cravillion-campaign-wisconsin-right-to-life-endorses-nic-cravillion/",
+   "https://urbanmilwaukee.com/pressrelease/wisconsin-family-action-pac-endorsements/",
+   "https://www.wispolitics.com/?p=430035",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/93609/race/34177/election/1497"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Wisconsin Right to Life (2026). Endorsed by Wisconsin Family Action PAC (2026).",
+   "marriage": "Endorsed by Wisconsin Family Action PAC (2026); no specific votes or statements captured.",
+   "religiousLiberty": "Endorsed by Wisconsin Family Action PAC (2026); no specific votes or statements captured.",
+   "secondAmendment": "Endorsed by NRA-PVF with an AQ rating (2026).",
+   "limitedGov": "iVoterGuide questionnaire: chose option C on healthcare (keep Medicare/Medicaid, no other taxpayer-funded programs) and strongly agreed with eliminating the U.S. Department of Education.",
+   "fiscal": "iVoterGuide questionnaire: \"A strong economy, not government mandates, drives wage growth\"; strongly agreed free enterprise and private property are essential."
+  }
+ },
+ {
+  "office": "State Senator, District 7",
+  "name": "Mike Moeller",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Leans Conservative. Evidence pass (2026-10-29): secondAmendment A, limitedGov A, fiscal A from NRA-PVF, candidate statements; remaining values party default.",
+  "description": "Candidate for State Senator, District 7 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.wuwm.com/wisconsin-state-senate-district-7-candidates"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "WUWM candidate Q&A (2026): running on \"curbing government overreach\" and reducing \"red tape and regulations.\"",
+   "fiscal": "WUWM candidate Q&A (2026): \"opposing bloated, deficit-driving state budgets\"; \"slashing the tax burden.\""
+  }
+ },
+ {
+  "office": "State Senator, District 11",
+  "name": "Adam Duda",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, fiscal C from Planned Parenthood Advocates of WI, candidate statements; remaining values party default.",
+  "description": "Candidate for State Senator, District 11 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://www.wuwm.com/Wisconsin-State-Senate-District-11-candidates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "WUWM candidate Q&A (2026): use the surplus to \"increase shared revenue and fully fund public schools\" and \"expand the Homestead Tax Credit\" (mixed)."
+  }
+ },
+ {
+  "office": "State Senator, District 13",
+  "name": "Sasha Ripley",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no recorded votes or issue ratings found. iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F from Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for State Senator, District 13 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "State Senator, District 15",
+  "name": "Scott Fleming",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Conservative. Evidence pass (2026-10-29): secondAmendment A from NRA-PVF; remaining values party default.",
+  "description": "Candidate for State Senator, District 15 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "fiscal": "No specific position found; Republican; iVoterGuide rates Conservative."
+  }
+ },
+ {
+  "office": "State Senator, District 19",
+  "name": "Emily Daniels Tseffos",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, fiscal C from candidate statements; remaining values party default.",
+  "description": "Candidate for State Senator, District 19 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ballotpedia.org/Emily_Tseffos"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Ballotpedia candidate survey (2024 Assembly race): \"I will fight for bodily autonomy for all.\"",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "Ballotpedia candidate survey (2024): corporations \"paying their fair share in taxes\" and fully funding schools, but also \"tax breaks for middle class families\" (mixed)."
+  }
+ },
+ {
+  "office": "State Senator, District 21",
+  "name": "Jim Croft",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no legislative voting record in 2023-26. Endorsed by AFP-Wisconsin (2026). iVoterGuide rates Conservative. Evidence pass (2026-10-29): secondAmendment A from NRA-PVF; remaining values party default.",
+  "description": "Candidate for State Senator, District 21 (Republican).",
+  "website": null,
+  "sources": [
+   "https://urbanmilwaukee.com/pressrelease/afp-wisconsin-celebrates-tom-tiffany-ellen-schutt-as-full-slate-of-endorsements-looks-to-victory-in-november/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "Endorsed by AFP-Wisconsin (2026); no votes or scorecard captured.",
+   "fiscal": "Endorsed by AFP-Wisconsin (2026); no votes or scorecard captured."
+  }
+ },
+ {
+  "office": "State Senator, District 21",
+  "name": "Trevor Jung",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, marriage F, limitedGov F, fiscal C from Fair Wisconsin PAC, Planned Parenthood Advocates of WI, candidate statements; remaining values party default.",
+  "description": "Candidate for State Senator, District 21 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://fairwisconsin.com/fair-wisconsin-political-action-committee/",
+   "https://ballotpedia.org/Trevor_Jung"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "F",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "Ballotpedia candidate survey (2025): first bill would give the state authority to negotiate prescription prices; supports subsidized child care and housing.",
+   "fiscal": "Ballotpedia candidate survey (2025): refundable low-income tax credit alongside more funding for schools, health care and infrastructure (mixed)."
+  }
+ },
+ {
+  "office": "State Senator, District 23",
+  "name": "Jeff Foster",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, limitedGov F from candidate statements; remaining values party default.",
+  "description": "Candidate for State Senator, District 23 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ballotpedia.org/Jeff_Foster_(Wisconsin)"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "F",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Ballotpedia candidate survey (2024 Assembly race): \"Freedoms under threat include reproductive freedom.\"",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "Ballotpedia candidate survey (2024): \"Accessible and affordable health care is a human right\"; supports paid medical leave.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "State Senator, District 25",
+  "name": "Erik Severson",
+  "grade": "A",
+  "gradeNote": "Non-incumbent Republican with no legislative voting record in 2023-26. Endorsed by Pro-Life Wisconsin Victory Fund PAC, Wisconsin Family Action PAC (2026). iVoterGuide rates Conservative. Evidence pass (2026-10-29): secondAmendment A, limitedGov A, fiscal A from NRA-PVF, candidate statements; remaining values party default.",
+  "description": "Candidate for State Senator, District 25 (Republican).",
+  "website": null,
+  "sources": [
+   "https://www.wispolitics.com/2026/severson-campaign-erik-severson-endorsed-by-pro-life-wisconsin-victory-fund-pac/",
+   "https://urbanmilwaukee.com/pressrelease/wisconsin-family-action-pac-endorsements/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://severson4senate.com/issues/"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Pro-Life Wisconsin Victory Fund PAC (2026). Endorsed by Wisconsin Family Action PAC (2026).",
+   "marriage": "Endorsed by Wisconsin Family Action PAC (2026); no specific votes or statements captured.",
+   "religiousLiberty": "Endorsed by Wisconsin Family Action PAC (2026); no specific votes or statements captured.",
+   "secondAmendment": "Rated A by NRA-PVF (2026).",
+   "limitedGov": "Campaign site: would oppose \"new fees, regulations, and mandates that raise the cost of doing business.\"",
+   "fiscal": "Campaign site: \"Cut wasteful state spending before asking taxpayers for another dime\"; lower property taxes."
+  }
+ },
+ {
+  "office": "State Senator, District 25",
+  "name": "Charly Ray",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no recorded votes or issue ratings found. iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, limitedGov F, fiscal C from Planned Parenthood Advocates of WI, candidate statements; remaining values party default.",
+  "description": "Candidate for State Senator, District 25 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://www.wpr.org/?p=489764"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "F",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "limitedGov": "WPR interview (2026): \"We can accept the federal expansion of (Medicaid).\"",
+   "fiscal": "WPR interview (2026): larger state share of school costs and less voucher funding, framed as property-tax relief (mixed)."
+  }
+ },
+ {
+  "office": "State Senator, District 29",
+  "name": "Gillian Battino",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, marriage C, limitedGov F, fiscal C from Planned Parenthood Advocates of WI, iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for State Senator, District 29 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://ivoterguide.com/candidate/73329/race/34182/election/1497"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "C",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "F",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026). iVoterGuide questionnaire: opposed 4 of 4 answered abortion items (supports legal abortion before viability; opposes defunding abortion providers, embryo protection, Comstock enforcement).",
+   "marriage": "iVoterGuide questionnaire: split on 5 family items (opposed one-man-one-woman marriage, minor-transition and girls'-sports items; agreed on parental rights and opposed mandatory affirmation therapy).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "iVoterGuide questionnaire: supports a government public-option health plan (option B); disagreed with eliminating the U.S. Department of Education.",
+   "fiscal": "iVoterGuide questionnaire: supports a gradual minimum-wage increase; agreed free enterprise and private property are essential."
+  }
+ },
+ {
+  "office": "State Senator, District 31",
+  "name": "Michele Magadance Skinner",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no legislative voting record in 2023-26. Endorsed by AFP-Wisconsin (2026). iVoterGuide rates Conservative. Evidence pass (2026-10-29): secondAmendment B from NRA-PVF; remaining values party default.",
+  "description": "Candidate for State Senator, District 31 (Republican).",
+  "website": null,
+  "sources": [
+   "https://urbanmilwaukee.com/pressrelease/afp-wisconsin-celebrates-tom-tiffany-ellen-schutt-as-full-slate-of-endorsements-looks-to-victory-in-november/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated B by NRA-PVF (2026).",
+   "limitedGov": "Endorsed by AFP-Wisconsin (2026); no votes or scorecard captured.",
+   "fiscal": "Endorsed by AFP-Wisconsin (2026); no votes or scorecard captured."
+  }
+ },
+ {
+  "office": "State Senator, District 33",
+  "name": "Mike Van Someren",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no recorded votes or issue ratings found. iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, marriage F, fiscal C, limitedGov C from Fair Wisconsin PAC, Planned Parenthood Advocates of WI, candidate statements; remaining values party default.",
+  "description": "Candidate for State Senator, District 33 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://fairwisconsin.com/fair-wisconsin-political-action-committee/",
+   "https://ballotpedia.org/Mike_Van_Someren"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "C",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "limitedGov": "Ballotpedia candidate survey (2026): government should act as \"a referee\" enforcing competition (mixed).",
+   "fiscal": "Ballotpedia candidate survey (2026): \"fixing the systems that shape prices and pay, not just spending more money\"; ease property-tax pressure (mixed)."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 1",
+  "name": "Renee A. Paplham",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no recorded votes or issue ratings found. iVoterGuide rates Liberal. Evidence pass (2026-10-29): secondAmendment F from NRA-PVF; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 1 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Rated F by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 2",
+  "name": "Alicia Saunders",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F from Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 2 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 4",
+  "name": "Alexia Unertl",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, marriage F from Fair Wisconsin PAC, Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 4 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://fairwisconsin.com/fair-wisconsin-political-action-committee/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 5",
+  "name": "Justin Schumacher",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no recorded votes or issue ratings found. iVoterGuide lists Insufficient Information. Evidence pass (2026-10-29): secondAmendment F from NRA-PVF; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 5 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide lists Insufficient Information.",
+   "marriage": "No specific position found; Democrat; iVoterGuide lists Insufficient Information.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide lists Insufficient Information.",
+   "secondAmendment": "Rated F by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide lists Insufficient Information.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide lists Insufficient Information."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 7",
+  "name": "Lee Whiting",
+  "grade": "C",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Moderate. Evidence pass (2026-10-29): proLife B, marriage B, secondAmendment B, limitedGov C, fiscal C from iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 7 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/81240/race/34200/election/1497"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "C",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "iVoterGuide questionnaire: elective abortion only for \"life of the mother or child\"; agreed life deserves protection from conception; neutral on 3 other items.",
+   "marriage": "iVoterGuide questionnaire: strongly agreed on parental rights, minor-transition and girls'-sports items; neutral on marriage definition and affirmation-therapy items.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Moderate.",
+   "secondAmendment": "iVoterGuide questionnaire: on gun restrictions: \"Stop criminals from having one\" (no other restrictions named).",
+   "limitedGov": "iVoterGuide questionnaire: neutral on eliminating the U.S. Department of Education; healthcare answer did not pick an option.",
+   "fiscal": "iVoterGuide questionnaire: minimum wage \"should be raised\"; agreed free enterprise and private property are essential."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 8",
+  "name": "Angel Sanchez",
+  "grade": "C",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Moderate. Evidence pass (2026-10-29): secondAmendment F from NRA-PVF; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 8 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "F",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Moderate.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Moderate.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Moderate.",
+   "secondAmendment": "Rated F by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Moderate.",
+   "fiscal": "No specific position found; Republican; iVoterGuide rates Moderate."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 8",
+  "name": "Ismael Luna",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, marriage F from Fair Wisconsin PAC, Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 8 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://fairwisconsin.com/fair-wisconsin-political-action-committee/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 9",
+  "name": "Sam Guerrero",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Leans Conservative. Evidence pass (2026-10-29): fiscal A, limitedGov A, marriage A from candidate statements; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 9 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://guerreroforwisconsin.com/issues"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "marriage": "Campaign site: \"Parents — not bureaucrats — know what's best for their children\"; supports school choice.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "limitedGov": "Campaign site: \"Cut red tape for food trucks, street vendors, and neighborhood small businesses.\"",
+   "fiscal": "Campaign site: \"No tax on tips. No tax on overtime\"; repeal the gas emissions tax."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 11",
+  "name": "Shandowlyon Reaves",
+  "grade": "C",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Moderate. Evidence pass (2026-10-29): proLife C, marriage C, secondAmendment C, limitedGov D, fiscal C from iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 11 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/92937/race/34204/election/1497"
+  ],
+  "positions": {
+   "proLife": "C",
+   "marriage": "C",
+   "religiousLiberty": "B",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "iVoterGuide questionnaire: neutral on all 4 abortion statements; elective-abortion answer non-committal (\"deeply held and differing ... considerations\").",
+   "marriage": "iVoterGuide questionnaire: strongly agreed on parental rights; neutral on the other 4 family items.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Moderate.",
+   "secondAmendment": "iVoterGuide questionnaire: restrictions \"should be carefully targeted ... while remaining consistent with constitutional protections.\"",
+   "limitedGov": "iVoterGuide questionnaire: supports government-funded insurance alongside private options plus additional public options; neutral on eliminating the U.S. Department of Education.",
+   "fiscal": "iVoterGuide questionnaire: \"balanced approach\" on minimum wage; neutral on free-enterprise statement."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 13",
+  "name": "Mike Morgan",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide lists Insufficient Information. Evidence pass (2026-10-29): fiscal A, limitedGov C from candidate statements; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 13 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.wuwm.com/wisconsin-state-assembly-district-13-candidates"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "C",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide lists Insufficient Information.",
+   "marriage": "No specific position found; Republican; iVoterGuide lists Insufficient Information.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide lists Insufficient Information.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide lists Insufficient Information.",
+   "limitedGov": "WUWM candidate Q&A (2026): calls for \"better regulating of utility rates\" (more regulation in one area).",
+   "fiscal": "WUWM candidate Q&A (2026): return \"a significant amount of the $2.5 billion budget surplus to taxpayers,\" decreasing \"tax and fee burdens.\""
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 13",
+  "name": "Amy Zimmerman",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, marriage F, limitedGov F from Fair Wisconsin PAC, Planned Parenthood Advocates of WI, iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 13 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://ivoterguide.com/candidate/96228/race/34206/election/1497",
+   "https://fairwisconsin.com/fair-wisconsin-political-action-committee/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "F",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026). iVoterGuide questionnaire: opposed defunding abortion providers; elective abortion \"should be left to the discretion of the mother and her medical professionals.\"",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026). iVoterGuide questionnaire: strongly disagreed that marriage is the union of one man and one woman.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "iVoterGuide questionnaire: supports a single-payer/universal healthcare system; strongly disagreed with eliminating the U.S. Department of Education.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 14",
+  "name": "AmyRose Murphy",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Conservative. Evidence pass (2026-10-29): secondAmendment B from NRA-PVF; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 14 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated B by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "fiscal": "No specific position found; Republican; iVoterGuide rates Conservative."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 15",
+  "name": "Stephen Tryon",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat with no recorded votes or issue ratings found. iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F from Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 15 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 17",
+  "name": "Charlene Abughrin",
+  "grade": "C",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Moderate. Evidence pass (2026-10-29): secondAmendment C, proLife B, marriage A, limitedGov D, fiscal C from NRA-PVF, iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 17 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://ivoterguide.com/candidate/93807/race/34210/election/1497"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "iVoterGuide questionnaire: agreed abortion providers should not get taxpayer funds and that life deserves protection from conception; neutral on embryo and Comstock items.",
+   "marriage": "iVoterGuide questionnaire: conservative on all 4 answered family items (parental rights, minor transition, affirmation therapy, girls' sports); declined marriage-definition item.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Moderate.",
+   "secondAmendment": "Rated C by NRA-PVF (2026).",
+   "limitedGov": "iVoterGuide questionnaire: chose option B (government-funded insurance available to all alongside private); neutral on eliminating the U.S. Department of Education.",
+   "fiscal": "iVoterGuide questionnaire: minimum wage \"needs to be raised to a living wage\"; agreed free enterprise and private property are essential."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 19",
+  "name": "Yasmine B. Outlaw",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Leans Liberal. Evidence pass (2026-10-29): proLife A, marriage B, limitedGov C, fiscal A from iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 19 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/92780/race/34212/election/1497"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "C",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "iVoterGuide questionnaire: agreed abortion providers should not get taxpayer funds; strongly agreed life deserves protection from conception; elective abortion only for rape or threat to the mother's life.",
+   "marriage": "iVoterGuide questionnaire: strongly agreed on marriage definition, minor-transition and girls'-sports items; neutral on parental-rights item.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Leans Liberal.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide rates Leans Liberal.",
+   "limitedGov": "iVoterGuide questionnaire: chose healthcare option B (government-funded insurance available to all); agreed with eliminating the U.S. Department of Education.",
+   "fiscal": "iVoterGuide questionnaire: agreed free enterprise and private property are essential; would \"deflate government administration.\""
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 20",
+  "name": "Kyle Cleary",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide lists Insufficient Information. Evidence pass (2026-10-29): secondAmendment B from NRA-PVF; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 20 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide lists Insufficient Information.",
+   "marriage": "No specific position found; Republican; iVoterGuide lists Insufficient Information.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide lists Insufficient Information.",
+   "secondAmendment": "Rated B by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide lists Insufficient Information.",
+   "fiscal": "No specific position found; Republican; iVoterGuide lists Insufficient Information."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 21",
+  "name": "Dylan Pfaffenbach",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican with no recorded votes or issue ratings found. iVoterGuide rates Conservative. Evidence pass (2026-10-29): fiscal A, limitedGov C from candidate statements; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 21 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.dylanforassembly.com/priorities"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "C",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "limitedGov": "Campaign site: backs hospital price-posting requirements and data-center regulation alongside lower taxes (mixed).",
+   "fiscal": "Campaign site: \"will prioritize lowering your tax burden, especially property taxes\"; opposes taxpayer subsidies for data centers."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 21",
+  "name": "Daniel J. Bukiewicz",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, marriage F from Fair Wisconsin PAC, Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 21 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://fairwisconsin.com/fair-wisconsin-political-action-committee/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 22",
+  "name": "Dana Glasstein",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat with no legislative voting record in 2023-26. Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, marriage F from Fair Wisconsin PAC, Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 22 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates",
+   "https://fairwisconsin.com/fair-wisconsin-political-action-committee/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 23",
+  "name": "Aleaner Pabonnie",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; no voting record or group endorsements found. iVoterGuide rates Insufficient Information. Evidence pass (2026-10-29): secondAmendment A from NRA-PVF; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 23 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "fiscal": "No specific position found; Republican; iVoterGuide rates Insufficient Information."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 25",
+  "name": "Christopher Able",
+  "grade": "D",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, marriage D, limitedGov F, fiscal C from iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 25 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/96964/race/34218/election/1497"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "F",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "iVoterGuide questionnaire: opposed all 5 abortion items; elective abortion \"should be decided by the patient.\"",
+   "marriage": "iVoterGuide questionnaire: disagreed on marriage definition and minor-transition items; neutral on 3 other family items.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "iVoterGuide questionnaire: supports a government health plan available to all (option B); strongly disagreed with eliminating the U.S. Department of Education.",
+   "fiscal": "iVoterGuide questionnaire: minimum wage is \"ridiculously low\" and should be indexed to COLA; strongly agreed free enterprise and private property are essential."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 26",
+  "name": "John Belanger",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; no voting record or group endorsements found. iVoterGuide rates Conservative. Evidence pass (2026-10-29): secondAmendment A from NRA-PVF; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 26 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "fiscal": "No specific position found; Republican; iVoterGuide rates Conservative."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 30",
+  "name": "Kevin Knoke",
+  "grade": "D",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F from Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 30 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 31",
+  "name": "John Perryman",
+  "grade": "D",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F from Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 31 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 32",
+  "name": "Greg Miller",
+  "grade": "D",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Insufficient Information. Evidence pass (2026-10-29): proLife F from Planned Parenthood Advocates of WI; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 32 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-wisconsin/elections-copy-2/endorsed-candidates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin (2026).",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Insufficient Information.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Insufficient Information.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Insufficient Information.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Insufficient Information."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 33",
+  "name": "Steve Wicklund",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; no voting record or group endorsements found. iVoterGuide rates Leans Conservative. Evidence pass (2026-10-29): secondAmendment A, proLife B, marriage B, limitedGov A, fiscal B from NRA-PVF, iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 33 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://ivoterguide.com/candidate/92743/race/34226/election/1497"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "iVoterGuide questionnaire: strongly agreed on defunding abortion providers and protection from conception, agreed on embryo protection; abortion only for rape, incest or life of the mother; neutral on Comstock.",
+   "marriage": "iVoterGuide questionnaire: conservative on parental rights, minor transition, affirmation therapy and girls' sports; neutral on marriage definition.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "iVoterGuide questionnaire: healthcare option C (government care should not replace private options); strongly agreed with eliminating the U.S. Department of Education.",
+   "fiscal": "iVoterGuide questionnaire: supports \"maintaining a reasonable minimum wage\"; strongly agreed free enterprise and private property are essential."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 33",
+  "name": "Maria Elena Bisabarros",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat; no voting record or group endorsements found. iVoterGuide rates Leans Liberal. Evidence pass (2026-10-29): fiscal F, limitedGov C from candidate statements; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 33 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://bisabarrosforassembly33.com/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "C",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Leans Liberal.",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Leans Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Leans Liberal.",
+   "secondAmendment": "No specific position found; Democrat; iVoterGuide rates Leans Liberal.",
+   "limitedGov": "Campaign site: \"Open state employee insurance to lower premiums,\" but also \"Reduce bureaucratic rules and regulations\" (mixed).",
+   "fiscal": "Campaign site: \"End the $1.5 billion sales-tax giveaway on construction materials\"; \"Fully fund public schools through our state taxes.\""
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 35",
+  "name": "Elizabeth McCrank",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat; no voting record or group endorsements found. iVoterGuide rates Liberal. Evidence pass (2026-10-29): limitedGov F from candidate statements; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 35 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.aol.com/elizabeth-mccrank-challenger-running-wisconsins-095927771.html"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "F",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "limitedGov": "2024 candidate profile: \"Expanding BadgerCare is the single most important step in reducing pressure on families.\"",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 37",
+  "name": "LaToya Bates",
+  "grade": "F",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Evidence pass (2026-10-29): proLife F, fiscal F from candidate statements; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 37 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ballotpedia.org/LaToya_Bates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "Ballotpedia candidate survey (2024): \"ensure we have agency in matters of health and control of our medical and reproductive decisions.\"",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "Ballotpedia candidate survey (2024): \"Let's stop giving tax breaks to big business.\""
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 40",
+  "name": "Julie Helmer",
+  "grade": "C",
+  "gradeNote": "Non-incumbent Republican; no voting record or group endorsements found. iVoterGuide rates Conservative. Evidence pass (2026-10-29): secondAmendment F from NRA-PVF; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 40 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "F",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated F by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "fiscal": "No specific position found; Republican; iVoterGuide rates Conservative."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 42",
+  "name": "Keith F. Miller",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; no voting record or group endorsements found. iVoterGuide rates Conservative. Evidence pass (2026-10-29): secondAmendment A from NRA-PVF; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 42 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "fiscal": "No specific position found; Republican; iVoterGuide rates Conservative."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 44",
+  "name": "Ron Woodman",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; no voting record or group endorsements found. iVoterGuide rates Conservative. Evidence pass (2026-10-29): proLife C, marriage A, secondAmendment B, limitedGov A, fiscal A from iVoterGuide questionnaire; remaining values party default.",
+  "description": "Candidate for Representative to the Assembly, District 44 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/92969/race/34237/election/1497"
+  ],
+  "positions": {
+   "proLife": "C",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "iVoterGuide questionnaire: strongly agreed on defunding abortion providers and agreed on protection from conception, but said abortions \"are legal in Wisconsin, but they should be rare\"; neutral on 2 items.",
+   "marriage": "iVoterGuide questionnaire: conservative on all 5 family items (marriage definition, parental rights, minor transition, affirmation therapy, girls' sports).",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "iVoterGuide questionnaire: on gun restrictions: \"Current laws are adequate.\"",
+   "limitedGov": "iVoterGuide questionnaire: healthcare option C; strongly agreed with eliminating the U.S. Department of Education.",
+   "fiscal": "iVoterGuide questionnaire: \"The free market should set wages, not a government mandate\"; zero-based budgeting."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 50",
+  "name": "Jon Aleckson",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from NRA-PVF C, Wisconsin Watch Q&A. 3 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 50 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/j-aleckson1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "C",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated C by NRA-PVF (2026).",
+   "limitedGov": "Wisconsin Watch Q&A: promises practical solutions 'not more government bureaucracy.'",
+   "fiscal": "Wisconsin Watch Q&A: government 'should operate with fiscal discipline... instead of endless spending.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 51",
+  "name": "Ben Gruber",
+  "grade": "D",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Added evidence from Fair Wisconsin PAC endorsement. 4 of six values remain party defaults.",
+  "description": "Candidate for Representative to the Assembly, District 51 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://fairwisconsin.com/?p=63"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 52",
+  "name": "Reive Pullen",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from Wisconsin Watch Q&A. 5 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 52 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/r-pullen1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "fiscal": "Wisconsin Watch Q&A: wants a 'multifaceted approach' to the surplus, prioritizing investments while also providing tax relief."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 53",
+  "name": "David Daniels",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from NRA-PVF B, iVoterGuide questionnaire answers, Wisconsin Watch Q&A. No values rest on party defaults. iVoterGuide rates Moderate.",
+  "description": "Candidate for Representative to the Assembly, District 53 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://ivoterguide.com/candidate/93864/race/34246/election/1497",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/d-daniels1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "A",
+   "religiousLiberty": "A",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Answered iVoterGuide questionnaire: strongly agreed on defunding abortion providers, legal protection from conception and enforcing the Comstock Act, but would allow abortion for rape, incest or the mother's life.",
+   "marriage": "Answered iVoterGuide questionnaire: strongly agreed that marriage is the union of one man and one woman.",
+   "religiousLiberty": "Answered iVoterGuide questionnaire: separation of church and state means government may not force a religion on anyone, and 'did not mean that faith should not be part of our government.'",
+   "secondAmendment": "Rated B by NRA-PVF (2026). Answered iVoterGuide questionnaire: only felons, people with documented mental-health issues and those allied with enemies should be barred from owning firearms. Signals conflict; lower grade (B) used.",
+   "limitedGov": "Answered iVoterGuide questionnaire: strongly agreed on free enterprise and parental rights, opposed a government medical database and sanctuary cities; neutral on eliminating the U.S. Department of Education.",
+   "fiscal": "Answered iVoterGuide questionnaire: calls for repealing the '400-year' property tax increase and auditing government spending, and describes himself as 'very conservative on taxes,' but supports a state-set 'livable wage.' Wisconsin Watch Q&A: says the budget surplus 'should be returned to the taxpayers. It is their money.' Signals conflict; lower grade (B) used."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 53",
+  "name": "Becky Nichols",
+  "grade": "D",
+  "gradeNote": "Endorsed by EMILY's List (2026). Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Added evidence from Fair Wisconsin PAC endorsement, Wisconsin Watch Q&A. 2 of six values remain party defaults.",
+  "description": "Candidate for Representative to the Assembly, District 53 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://emilyslist.org/news/emilys-list-endorsed-candidates-secure-democratic-nominations-in-critical-wisconsin-legislative-races/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://fairwisconsin.com/?p=63",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/b-nichols1/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by EMILY's List (pro-abortion-rights PAC), 2026.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "Wisconsin Watch Q&A: supports targeted tax cuts and property tax relief from the surplus but opposes tax relief for the wealthiest and wants a higher minimum wage."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 55",
+  "name": "Alex Corrigan",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat; evidence from Wisconsin Watch Q&A. 5 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 55 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/a-corrigan1/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "Wisconsin Watch Q&A: wants to fund schools and infrastructure from the surplus but says 'we should not spend every available dollar' and should keep reserves."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 56",
+  "name": "Anthony W. Phillips",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from Wisconsin Watch Q&A. 4 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 56 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/a-phillips1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "limitedGov": "Wisconsin Watch Q&A: says 'Limiting the growth of government in general would ease property taxes' and backs work requirements and cutting regulatory barriers.",
+   "fiscal": "Wisconsin Watch Q&A: would return the surplus to taxpayers through a rebate or income/property tax cut and opposes using it for new programs."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 56",
+  "name": "Grace Abitz",
+  "grade": "F",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate (2026). iVoterGuide rates Liberal. Added evidence from Wisconsin Watch Q&A. 3 of six values remain party defaults.",
+  "description": "Candidate for Representative to the Assembly, District 56 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/g-abitz1/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "F",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "Wisconsin Watch Q&A: proposes a 2%-of-income cap on utility bills and 'shifting for-profit energy to a public service.'",
+   "fiscal": "Wisconsin Watch Q&A: 'Multi-millionaires must contribute their fair share' and backs shifting school funding onto the highest earners."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 57",
+  "name": "Joey Marschall",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat; evidence from Wisconsin Watch Q&A. 5 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 57 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/j-marschall1/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "F",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "limitedGov": "Wisconsin Watch Q&A: supports a BadgerCare public option and raising the minimum wage to a 'living wage.'",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 61",
+  "name": "Ben Brist",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat; a Moms Demand Action Gun Sense Candidate; evidence from Fair Wisconsin PAC endorsement. 4 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 61 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://fairwisconsin.com/?p=63"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 62",
+  "name": "Mike Bellagio",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from Wisconsin Watch Q&A. 4 of six values remain party defaults. iVoterGuide rates Insufficient Information.",
+  "description": "Candidate for Representative to the Assembly, District 62 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/m-bellagio1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "limitedGov": "Wisconsin Watch Q&A: 'The extent of government intervention in the lives of American citizens has become excessive.'",
+   "fiscal": "Wisconsin Watch Q&A: wants to 'eliminate waste and fraudulent activities, and reallocate funds to the residents of Wisconsin.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 64",
+  "name": "Ed Hibsch",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from WUWM candidate guide. 4 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 64 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.wuwm.com/wisconsin-assembly-district-64-candidates"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "limitedGov": "WUWM candidate guide (from his Facebook page): cites 'bureaucratic overreach.'",
+   "fiscal": "WUWM candidate guide (from his Facebook page): cites 'the impact of increasing taxes' and 'unnecessary programs that waste money.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 65",
+  "name": "Valerie Kretchmer",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from campaign site via WUWM. 5 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 65 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.wuwm.com/wisconsin-state-assembly-district-65-candidates"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "fiscal": "Campaign site (via WUWM): promises 'real tax relief that puts money back in your pocket' and 'responsible spending.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 66",
+  "name": "Gina Cefalu Paulick",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from iVoterGuide questionnaire answers. No values rest on party defaults. iVoterGuide rates Leans Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 66 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/93872/race/34259/election/1497"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "A",
+   "secondAmendment": "C",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Answered iVoterGuide questionnaire: agreed on defunding abortion providers, legal protection from conception, protecting embryos and enforcing the Comstock Act; would allow abortion for rape, incest or the mother's life.",
+   "marriage": "Answered iVoterGuide questionnaire: agreed that marriage is the union of one man and one woman, while saying same-sex partners 'can have a union.'",
+   "religiousLiberty": "Answered iVoterGuide questionnaire: separation of church and state means 'the freedom to practice my religion without the government interference.'",
+   "secondAmendment": "Answered iVoterGuide questionnaire: supports a waiting period to purchase a firearm along with a background check.",
+   "limitedGov": "Answered iVoterGuide questionnaire: strongly agreed on free enterprise, eliminating the U.S. Department of Education and parental rights; opposed a government medical database and sanctuary cities.",
+   "fiscal": "Answered iVoterGuide questionnaire: opposes large mandated minimum-wage increases but is open to a modest adjustment; lists audits of state programs to cut waste and fraud."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 68",
+  "name": "Elisha King",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat; evidence from NRA-PVF F, Wisconsin Watch Q&A. 4 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 68 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/e-king1/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Rated F by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "Wisconsin Watch Q&A: government should help the working class 'not giving the top 2% tax breaks.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 70",
+  "name": "Stephanie Stuve Bodeen",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat; a Moms Demand Action Gun Sense Candidate; evidence from Fair Wisconsin PAC endorsement, Wisconsin Watch Q&A. 2 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 70 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://fairwisconsin.com/?p=63",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/s-bodeen1/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "F",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "Wisconsin Watch Q&A: supports universal daycare and raising the minimum wage.",
+   "fiscal": "Wisconsin Watch Q&A: supports 'a large, sustainable tax revenue through a wealth tax.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 71",
+  "name": "Jeff Disher",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from NRA-PVF AQ. 5 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 71 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "fiscal": "No specific position found; Republican; iVoterGuide rates Conservative."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 73",
+  "name": "Frank Kostka",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from NRA-PVF AQ, Wisconsin Watch Q&A. 4 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 73 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/f-kostka1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "fiscal": "Wisconsin Watch Q&A: 'we're being overtaxed' and 'if the state has more money than budgeted for, it should be returned to the taxpayers.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 75",
+  "name": "Keith Mogel",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat; a Moms Demand Action Gun Sense Candidate; evidence from Fair Wisconsin PAC endorsement, iVoterGuide questionnaire answers. No values rest on party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 75 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://fairwisconsin.com/?p=63",
+   "https://ivoterguide.com/candidate/97002/race/34268/election/1497"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "D",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "Answered iVoterGuide questionnaire: strongly disagreed with all four abortion restrictions asked and said 'Life begins at first breath.'",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026). Answered iVoterGuide questionnaire: strongly disagreed that marriage is the union of one man and one woman.",
+   "religiousLiberty": "Answered iVoterGuide questionnaire: says 'Religion will not be used as a criterion for any law or educational requirements.'",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "Answered iVoterGuide questionnaire: supports single-payer health care, strongly opposed eliminating the U.S. Department of Education and disagreed on parental rights; agreed on free enterprise.",
+   "fiscal": "Answered iVoterGuide questionnaire: supports a minimum wage around $22/hour and shifting taxes onto 'wealthy citizens.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 76",
+  "name": "Dina Nina Martinez-Rutherford",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat; a Moms Demand Action Gun Sense Candidate; evidence from Fair Wisconsin PAC endorsement, Wisconsin Watch Q&A. 3 of six values remain party defaults. iVoterGuide rates Verified Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 76 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://fairwisconsin.com/?p=63",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/d-martinezrutherford1/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "F",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Verified Liberal.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Verified Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "Wisconsin Watch Q&A: wants to raise the minimum wage, tie it to inflation and 'cap healthcare and utility costs.'",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Verified Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 79",
+  "name": "John Fons",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from iVoterGuide questionnaire answers. 1 of six values remain party defaults. iVoterGuide rates Insufficient Information.",
+  "description": "Candidate for Representative to the Assembly, District 79 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/93927/race/34272/election/1497"
+  ],
+  "positions": {
+   "proLife": "C",
+   "marriage": "C",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Answered iVoterGuide questionnaire: strongly agreed on defunding abortion providers, protection from conception and protecting embryos, but disagreed with enforcing the Comstock Act and would leave other abortions to 'patient and qualified medical doctor.'",
+   "marriage": "Answered iVoterGuide questionnaire: agreed with the one-man-one-woman definition but added that governments may construct other forms of marriage and asked 'Why try?' to stop them.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "secondAmendment": "Answered iVoterGuide questionnaire: quoted 'shall not be infringed' and supports only existing prohibitions for felons and the violently mentally ill.",
+   "limitedGov": "Answered iVoterGuide questionnaire: strongly agreed on free enterprise, eliminating the U.S. Department of Education and parental rights, but supports a government-funded insurance option and a government medical database.",
+   "fiscal": "Answered iVoterGuide questionnaire: wants minimum wage left to states, independent audits of all programs, mandatory competitive bidding and an end to non-disclosure agreements in public contracts."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 80",
+  "name": "Simran Arora",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from NRA-PVF AQ, Wisconsin Watch Q&A. 3 of six values remain party defaults. iVoterGuide rates Leans Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 80 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/s-arora1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Leans Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "Wisconsin Watch Q&A: calls for eliminating duplicate programs to 'create a smaller, smarter government.'",
+   "fiscal": "Wisconsin Watch Q&A: 'The surplus belongs to the people of Wisconsin, and it's time to return those dollars to families.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 81",
+  "name": "Mark S. Maier",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from NRA-PVF AQ, Wisconsin Watch Q&A. 3 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 81 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/m-maier1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "Wisconsin Watch Q&A: government should have 'Less new programs' and make existing ones work.",
+   "fiscal": "Wisconsin Watch Q&A: wants accountability for tax dollars and says 'we cannot spend our way to better test scores.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 82",
+  "name": "Bryson Reyes",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from NRA-PVF AQ, WUWM/Wisconsin Watch Q&A. 3 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 82 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.wuwm.com/wisconsin-state-assembly-district-82-candidates",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/b-reyes1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "Wisconsin Watch Q&A: wants to 'reshape our regulatory environment and reduce the tax burden' instead of growing government.",
+   "fiscal": "WUWM and Wisconsin Watch Q&A: 'We should be reducing the tax burden on working families, homeowners, retirees, and small businesses.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 82",
+  "name": "Rico Camacho",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat; a Moms Demand Action Gun Sense Candidate; evidence from WUWM/Wisconsin Watch Q&A. 4 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 82 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.wuwm.com/wisconsin-state-assembly-district-82-candidates"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "WUWM and Wisconsin Watch Q&A: plans to cut taxes for families earning under $83,000 and suspend the gas tax, while increasing state aid to municipalities."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 85",
+  "name": "John Kroll",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat; evidence from Fair Wisconsin PAC endorsement. 5 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 85 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://fairwisconsin.com/?p=63"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "D",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 86",
+  "name": "Andy Wuethrich",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat; a Moms Demand Action Gun Sense Candidate; evidence from Fair Wisconsin PAC endorsement, Wisconsin Watch Q&A. 3 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 86 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://fairwisconsin.com/?p=63",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/a-wuethrich1/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "Wisconsin Watch Q&A: 'We need to begin to tax the top 1% of earners appropriately.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 88",
+  "name": "Brandy Tollefson",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat; endorsed by EMILY's List and a Moms Demand Action Gun Sense Candidate; evidence from Wisconsin Watch Q&A. 2 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 88 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://emilyslist.org/news/emilys-list-endorsed-candidates-secure-democratic-nominations-in-critical-wisconsin-legislative-races/",
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/b-tollefson1/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "F",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by EMILY's List (2026), which backs pro-abortion-rights Democratic women.",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "Wisconsin Watch Q&A: supports a BadgerCare public option and expanded child-care subsidies.",
+   "fiscal": "Wisconsin Watch Q&A: wants the surplus reinvested in communities 'while increasing spending on public services.'"
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 89",
+  "name": "Bobby R. Lindsey",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; endorsed by AFP-Wisconsin; evidence from NRA-PVF AQ. 3 of six values remain party defaults. iVoterGuide rates Conservative.",
+  "description": "Candidate for Representative to the Assembly, District 89 (Republican).",
+  "website": null,
+  "sources": [
+   "https://urbanmilwaukee.com/pressrelease/afp-wisconsin-celebrates-tom-tiffany-ellen-schutt-as-full-slate-of-endorsements-looks-to-victory-in-november/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://www.nrapvf.org/grades/wisconsin/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Conservative.",
+   "secondAmendment": "Rated AQ by NRA-PVF (2026).",
+   "limitedGov": "Endorsed by Americans for Prosperity-Wisconsin (2026).",
+   "fiscal": "Endorsed by Americans for Prosperity-Wisconsin (2026)."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 90",
+  "name": "Jessica Henderson",
+  "grade": "B",
+  "gradeNote": "Non-incumbent Republican; evidence from Wisconsin Watch Q&A. 5 of six values remain party defaults. iVoterGuide rates Insufficient Information.",
+  "description": "Candidate for Representative to the Assembly, District 90 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://voterguide26.wisconsinwatch.org/race/assembly/candidate/j-henderson1/"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "marriage": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "religiousLiberty": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "secondAmendment": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "limitedGov": "No specific position found; Republican; iVoterGuide rates Insufficient Information.",
+   "fiscal": "Wisconsin Watch Q&A: would vote to end the '400 year' property tax increase and refund part of the surplus to taxpayers."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 92",
+  "name": "Jeremiah Fredrickson",
+  "grade": "D",
+  "gradeNote": "Non-incumbent Democrat; a Moms Demand Action Gun Sense Candidate; evidence from iVoterGuide questionnaire answers. 4 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 92 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/97008/race/34285/election/1497"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Answered iVoterGuide questionnaire: strongly disagreed that abortion providers should lose taxpayer funding (the only abortion question answered).",
+   "marriage": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "fiscal": "No specific position found; Democrat; iVoterGuide rates Liberal."
+  }
+ },
+ {
+  "office": "Representative to the Assembly, District 98",
+  "name": "Matt Philibert",
+  "grade": "F",
+  "gradeNote": "Non-incumbent Democrat; a Moms Demand Action Gun Sense Candidate; evidence from iVoterGuide questionnaire answers. 1 of six values remain party defaults. iVoterGuide rates Liberal.",
+  "description": "Candidate for Representative to the Assembly, District 98 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://ivoterguide.com/all-in-state/Wisconsin",
+   "https://ivoterguide.com/candidate/97004/race/34291/election/1497"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Answered iVoterGuide questionnaire: strongly disagreed with all four abortion restrictions asked and would allow abortion under 'Any' circumstances.",
+   "marriage": "Answered iVoterGuide questionnaire: strongly disagreed that marriage is the union of one man and one woman.",
+   "religiousLiberty": "No specific position found; Democrat; iVoterGuide rates Liberal.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "Answered iVoterGuide questionnaire: supports a government-funded insurance option and strongly opposed eliminating the U.S. Department of Education; neutral on free enterprise, opposed a government medical database.",
+   "fiscal": "Answered iVoterGuide questionnaire: wants a higher minimum wage, higher taxes on 'billionaires and corporations' and an end to school vouchers, alongside auditing the Pentagon and ending no-bid contracts."
+  }
+ },
+ {
+  "office": "Governor and Lieutenant Governor",
+  "name": "David Crowley",
+  "grade": "F",
+  "gradeNote": "Endorsed by Planned Parenthood Advocates of Wisconsin and Giffords PAC, rated F by NRA-PVF, and has pledged to support a state constitutional amendment protecting abortion. Added evidence from Fair Wisconsin PAC endorsement. 3 of six values remain party defaults.",
+  "description": "Milwaukee County Executive; Democratic candidate for governor.",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://wisconsinrighttolife.org/wp-content/uploads/2026/09/Gubernatorial-Comparison.pdf",
+   "https://www.wispolitics.com/2026/planned-parenthood-advocates-of-wisconsin-planned-parenthood-advocates-of-wisconsin-endorses-statewide-slate-to-protect-reproductive-freedom/",
+   "https://www.wpr.org/news/crowley-tiffany-abortion-issue-2026-election",
+   "https://giffords.org/press-release/2026/08/giffords-pac-endorses-david-crowley-for-governor-and-sarah-godlewski-for-lieutenant-governor-in-wisconsin/",
+   "https://ivoterguide.com/voter-guide/state/wisconsin",
+   "https://fairwisconsin.com/?p=63"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Wisconsin; says he will back a state constitutional amendment protecting abortion, and WRTL reports he has pledged to veto pro-life legislation.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026 and endorsed by Giffords PAC.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "No specific position found; party inference."
+  }
+ },
+ {
+  "office": "Attorney General",
+  "name": "Josh Kaul",
+  "grade": "F",
+  "gradeNote": "Challenged Wisconsin's 1849 abortion law and is endorsed by Planned Parenthood Advocates of Wisconsin; rated F by NRA-PVF and has pushed for universal background checks and a red-flag law. Added evidence from Fair Wisconsin PAC endorsement. 3 of six values remain party defaults.",
+  "description": "Wisconsin Attorney General (incumbent since 2019); Democrat.",
+  "website": null,
+  "sources": [
+   "https://wisconsinrighttolife.org/wp-content/uploads/2026/09/Draft-AG.pdf",
+   "https://www.wispolitics.com/2026/planned-parenthood-advocates-of-wisconsin-planned-parenthood-advocates-of-wisconsin-endorses-statewide-slate-to-protect-reproductive-freedom/",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.wispolitics.com/2019/kaul-calls-for-universal-background-checks-in-inaugural-remarks/",
+   "https://wisconsinexaminer.com/2021/09/24/attorney-general-and-lawmakers-introduce-gun-control-bills/",
+   "https://ivoterguide.com/voter-guide/state/wisconsin",
+   "https://fairwisconsin.com/?p=63"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Challenged Wisconsin's 1849 abortion law in court and is endorsed by Planned Parenthood Advocates of Wisconsin.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF; has pushed for universal background checks and a red-flag law since taking office.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "No specific position found; party inference."
+  }
+ },
+ {
+  "office": "State Treasurer",
+  "name": "Yee Leng Xiong",
+  "grade": "D",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate and endorsed by Fair Wisconsin PAC (2026); iVoterGuide rates him Liberal. 4 of six values remain party defaults.",
+  "description": "Marathon County Board supervisor and 2024 Assembly candidate; Democrat.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/86680/race/34176/election/1497",
+   "https://wisconsinexaminer.com/2026/06/11/two-democrats-seek-to-challenge-treasurer-john-leiber-wisconsins-only-gop-state-office-holder/",
+   "https://gunsensevoter.org/states/wi/voterguide/",
+   "https://fairwisconsin.com/?p=63"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No specific position found; party inference.",
+   "marriage": "Endorsed by Fair Wisconsin PAC (2026).",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Designated a Moms Demand Action Gun Sense Candidate (2026).",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "No specific position found; party inference."
+  }
+ },
+ {
+  "office": "United States Representative, District 5",
+  "name": "Andrew Beck",
+  "grade": "F",
+  "gradeNote": "Rated F by NRA-PVF and Liberal by iVoterGuide; WUWM candidate guide shows he would codify abortion rights and raise or eliminate the Social Security tax ceiling. 3 of six values remain party defaults.",
+  "description": "Democratic candidate for U.S. House District 5.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/96912/race/34168/election/1497",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://www.wuwm.com/wisconsins-5th-congressional-district-election-candidates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "WUWM candidate guide: says he will 'codify reproductive freedoms.'",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "WUWM candidate guide: would raise or eliminate the Social Security tax ceiling."
+  }
+ },
+ {
+  "office": "United States Representative, District 7",
+  "name": "Michael Alfonso",
+  "grade": "A",
+  "gradeNote": "Endorsed by NRA-PVF (AQ), Pro-Life Wisconsin Victory Fund PAC, Wisconsin Family Action PAC and CatholicVote; no voting record. Added evidence from 2026 debate coverage.",
+  "description": "Former podcast producer; Republican nominee for the open 7th District seat.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/89067/race/34170/election/1497",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://wisconsinexaminer.com/2026/08/11/alfonso-carries-gop-primary-in-wisconsins-7th-cd/",
+   "https://www.wpr.org/news/wisconsin-7th-district-debate-fred-clark-michael-alfonso-congress-2026"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Pro-Life Wisconsin Victory Fund PAC.",
+   "marriage": "Endorsed by Wisconsin Family Action PAC; no specific statements captured.",
+   "religiousLiberty": "Endorsed by CatholicVote; no specific statements captured.",
+   "secondAmendment": "Rated AQ and endorsed by NRA-PVF for 2026.",
+   "limitedGov": "Oct. 2026 debate (WPR): 'we need to get the federal government out of the way of business.'",
+   "fiscal": "Oct. 2026 debate (WPR): 'We don't need to be the world's policeman anymore when we're $40 trillion in debt.'"
+  }
+ },
+ {
+  "office": "United States Representative, District 8",
+  "name": "Rick Crosson",
+  "grade": "F",
+  "gradeNote": "Rated F by NRA-PVF and Liberal by iVoterGuide; at an Aug. 2026 forum he backed codifying abortion rights in federal law and a tax on billionaires. 3 of six values remain party defaults.",
+  "description": "2025 Green Bay school board candidate; Democratic candidate for U.S. House District 8.",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/candidate/87036/race/34171/election/1497",
+   "https://www.nrapvf.org/grades/wisconsin/",
+   "https://wisconsinwatch.org/2026/08/wisconsin-democrats-election-primary-8th-congressional-district-seat-crosson-deville-scheffler-wied/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "Wisconsin Watch (Aug. 2026 forum): said he would vote to codify the right to an abortion in federal law.",
+   "marriage": "No specific position found; party inference.",
+   "religiousLiberty": "No specific position found.",
+   "secondAmendment": "Rated F by NRA-PVF for 2026.",
+   "limitedGov": "No specific position found; party inference.",
+   "fiscal": "Wisconsin Watch (Aug. 2026 forum): supports a tax on billionaires."
+  }
+ }
+]
