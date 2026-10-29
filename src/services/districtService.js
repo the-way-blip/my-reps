@@ -1,4 +1,4 @@
-import { STATE_FIPS } from '../data/stateFips'
+import { STATE_FIPS, FIPS_TO_STATE } from '../data/stateFips'
 import { recordFetchTime } from '../utils/freshness'
 
 // TIGERweb Legislative MapServer layers
@@ -85,24 +85,48 @@ export async function getStateHouseDistricts(stateCode) {
 }
 
 // Geocode an address/zip and return the congressional district
-export async function geocodeToDistrict(query) {
-  // Use proxy to avoid CORS issues with Census geocoder
+// Census one-line geocoder (via our proxy) → { geos, stateAbbr, matchedAddress, coordinates } or null
+async function censusGeocode(query) {
   const url = new URL('/api/census/geocoder/geographies/onelineaddress', window.location.origin)
   url.searchParams.set('address', query)
   url.searchParams.set('benchmark', 'Public_AR_Current')
   url.searchParams.set('vintage', 'Current_Current')
   url.searchParams.set('layers', 'all')
   url.searchParams.set('format', 'json')
-
-  const res = await fetch(url)
-  if (!res.ok) return null
-
-  const data = await res.json()
-  const match = data.result?.addressMatches?.[0]
+  // The Census geocoder sometimes hangs or returns 502s; give up quickly and use the fallback
+  const res = await fetch(url, { signal: AbortSignal.timeout?.(8000) }).catch(() => null)
+  if (!res?.ok) return null
+  const match = (await res.json().catch(() => null))?.result?.addressMatches?.[0]
   if (!match) return null
+  return { geos: match.geographies || {}, stateAbbr: match.addressComponents?.state, matchedAddress: match.matchedAddress, coordinates: match.coordinates }
+}
 
-  const geos = match.geographies || {}
-  const stateAbbr = match.addressComponents?.state
+// Fallback: OpenStreetMap finds the point, TIGERweb returns the same Census layers for it
+async function pointGeocode(query) {
+  const params = new URLSearchParams({ q: query, format: 'json', countrycodes: 'us', limit: '1' })
+  const hits = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, { headers: { Accept: 'application/json' } })
+    .then(r => (r.ok ? r.json() : [])).catch(() => [])
+  const hit = hits[0]
+  if (!hit) return null
+  const x = Number(hit.lon), y = Number(hit.lat)
+  const idParams = new URLSearchParams({
+    geometry: `${x},${y}`, geometryType: 'esriGeometryPoint', sr: '4326', layers: 'all', tolerance: '0',
+    mapExtent: `${x - 0.01},${y - 0.01},${x + 0.01},${y + 0.01}`, imageDisplay: '100,100,96', returnGeometry: 'false', f: 'json',
+  })
+  const data = await fetch(`https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer/identify?${idParams}`)
+    .then(r => (r.ok ? r.json() : null)).catch(() => null)
+  if (!data?.results?.length) return null
+  const geos = {}
+  for (const r of data.results) if (!/Labels$/.test(r.layerName)) (geos[r.layerName] ||= []).push(r.attributes)
+  const fips = geos.States?.[0]?.STATE
+  return { geos, stateAbbr: FIPS_TO_STATE[fips] || null, matchedAddress: hit.display_name, coordinates: { x, y } }
+}
+
+export async function geocodeToDistrict(query) {
+  const found = (await censusGeocode(query)) || (await pointGeocode(query))
+  if (!found) return null
+  const { geos, stateAbbr } = found
+  const match = { matchedAddress: found.matchedAddress, coordinates: found.coordinates }
 
   // Find congressional district
   let cdInfo = null

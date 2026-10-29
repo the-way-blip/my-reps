@@ -1,10 +1,12 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
+import { enabledStateCodes } from '../../data/stateBallot'
 
 /**
  * Fetch address suggestions from Nominatim (OpenStreetMap) — free, no API key.
- * Limited to the states the app has ballots for.
+ * Limited to the states the app has ballots for on this host.
  */
-const SUPPORTED_STATES = { 'US-MI': 'Michigan', 'US-IN': 'Indiana' }
+const STATE_NAMES = { MI: 'Michigan', IN: 'Indiana', IA: 'Iowa' }
+const supportedIso = () => enabledStateCodes().map(c => `US-${c}`)
 
 async function fetchSuggestions(query) {
   if (query.length < 3) return []
@@ -15,8 +17,8 @@ async function fetchSuggestions(query) {
       countrycodes: 'us',
       limit: '10',
       addressdetails: '1',
-      // Box around Michigan + Indiana (lon/lat); results outside the two states are filtered below
-      viewbox: '-90.5,48.4,-82.0,37.7',
+      // Box around Michigan, Indiana and Iowa (lon/lat); results outside enabled states are filtered below
+      viewbox: '-96.7,48.4,-82.0,37.7',
       bounded: '1',
     })
     const res = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, {
@@ -27,7 +29,8 @@ async function fetchSuggestions(query) {
     return data
       .filter(r => {
         const iso = r.address?.['ISO3166-2-lvl4']
-        return iso ? iso in SUPPORTED_STATES : Object.values(SUPPORTED_STATES).includes(r.address?.state)
+        const ok = supportedIso()
+        return iso ? ok.includes(iso) : ok.some(c => STATE_NAMES[c.slice(3)] === r.address?.state)
       })
       .slice(0, 5)
       .map(r => {

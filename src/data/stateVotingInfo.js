@@ -8,6 +8,7 @@ export const STATE_VOTING_INFO = {
   MI: {
     code: 'MI',
     name: 'Michigan',
+    sourceName: 'Michigan Secretary of State',
     voterSite: MI_SITE,
     voterSiteName: 'Michigan Voter Information Center',
     registerUrl: 'https://mvic.sos.state.mi.us/RegisterVoter',
@@ -30,6 +31,7 @@ export const STATE_VOTING_INFO = {
   IN: {
     code: 'IN',
     name: 'Indiana',
+    sourceName: 'Indiana Election Division',
     voterSite: IN_SITE,
     voterSiteName: 'IndianaVoters.in.gov',
     registerUrl: IN_SITE,

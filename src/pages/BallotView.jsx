@@ -20,7 +20,7 @@ import {
 import { getNovemberLocalRaces } from '../data/michiganNovember2026'
 import { getCategoryIcon } from '../data/michiganProposals2026'
 import { loadOfficialCounty, getOfficialBallot } from '../data/officialBallot'
-import { INDIANA_ENABLED, loadIndianaBallotData, getIndianaBallot } from '../data/indianaBallot'
+import { STATE_BALLOTS, stateBallotFor, loadStateBallotData, getStateBallot } from '../data/stateBallot'
 import { getStateVotingInfo } from '../data/stateVotingInfo'
 import generateBallotPDF from '../utils/generateBallotPDF'
 import { markBallotDone } from '../utils/push'
@@ -114,8 +114,8 @@ function PdfGateModal({ address, onDone, onClose }) {
   )
 }
 
-// Indiana race ids start with "in-"; everything else is Michigan
-const stateNameForRace = raceId => (String(raceId || '').startsWith('in-') ? 'Indiana' : 'Michigan')
+// Non-Michigan race ids carry their state's prefix ("in-", "ia-"); everything else is Michigan
+const stateNameForRace = raceId => Object.values(STATE_BALLOTS).find(st => String(raceId || '').startsWith(st.idPrefix))?.name || 'Michigan'
 function researchSearchUrl(name, office, raceId) {
   const q = `"${name}" ${(office || '').replace(/—/g, ' ')} ${stateNameForRace(raceId)} 2026`
   return `https://www.google.com/search?q=${encodeURIComponent(q.replace(/\s+/g, ' ').trim())}`
@@ -1290,37 +1290,39 @@ export default function BallotView() {
     return () => { cancelled = true }
   }, [address, step])
 
-  // Indiana (preview only until launch): official Indiana Election Division ballot data
-  const isIndiana = INDIANA_ENABLED && localGeo?.stateCode === 'IN'
-  const stateInfo = getStateVotingInfo(isIndiana ? 'IN' : 'MI')
-  const [indianaResult, setIndianaResult] = useState(null)
-  const inCounty = isIndiana ? localGeo.county : null
+  // States beyond Michigan (Indiana live, Iowa preview): official state ballot data in one shared schema
+  const extState = stateBallotFor(localGeo?.stateCode)
+  const isStateBallot = !!extState
+  const stateInfo = getStateVotingInfo(extState ? extState.code : 'MI')
+  const [stateBallotResult, setStateBallotResult] = useState(null)
+  const inKey = extState ? `${extState.code}|${localGeo.county}` : null
   useEffect(() => {
-    if (!inCounty) return undefined
+    if (!inKey) return undefined
     let cancelled = false
-    loadIndianaBallotData(inCounty).then(data => { if (!cancelled) setIndianaResult({ county: inCounty, data }) })
+    const [code, county] = inKey.split('|')
+    loadStateBallotData(code, county).then(data => { if (!cancelled) setStateBallotResult({ key: inKey, data }) })
     return () => { cancelled = true }
-  }, [inCounty])
-  const indiana = useMemo(
-    () => (isIndiana && indianaResult?.county === inCounty ? getIndianaBallot(indianaResult.data, localGeo, userDistricts) : null),
-    [isIndiana, indianaResult, inCounty, localGeo, userDistricts]
+  }, [inKey])
+  const stateBallot = useMemo(
+    () => (extState && stateBallotResult?.key === inKey ? getStateBallot(stateBallotResult.data, localGeo, userDistricts) : null),
+    [extState, stateBallotResult, inKey, localGeo, userDistricts]
   )
 
   // Get ballot races for the general election
   const races = useMemo(() => {
-    if (isIndiana) return indiana?.stateRaces || []
+    if (isStateBallot) return stateBallot?.stateRaces || []
     return getGeneralBallot(userDistricts || {})
-  }, [userDistricts, isIndiana, indiana])
+  }, [userDistricts, isStateBallot, stateBallot])
 
   // Get local ballot races (county executive, judicial) based on geography
   const localRaces = useMemo(() => {
-    if (!localGeo || isIndiana) return []
+    if (!localGeo || isStateBallot) return []
     return getGeneralLocalRaces(localGeo)
-  }, [localGeo, isIndiana])
+  }, [localGeo, isStateBallot])
 
   // Official SOS sample-ballot data for the user's county (every local race + proposal)
   const [officialResult, setOfficialResult] = useState(null)
-  const geoCounty = !isIndiana ? (localGeo?.county || null) : null
+  const geoCounty = !isStateBallot ? (localGeo?.county || null) : null
   useEffect(() => {
     if (!geoCounty) return undefined
     let cancelled = false
@@ -1335,19 +1337,19 @@ export default function BallotView() {
 
   // Legacy hand-entered local races — only when the address can't be matched to an official ballot
   const novemberLocalRaces = useMemo(() => {
-    if (!localGeo || isIndiana || official.matched || officialLoading) return []
+    if (!localGeo || isStateBallot || official.matched || officialLoading) return []
     return getNovemberLocalRaces(localGeo)
-  }, [localGeo, isIndiana, official.matched, officialLoading])
+  }, [localGeo, isStateBallot, official.matched, officialLoading])
 
   const combinedLocalRaces = useMemo(
-    () => (isIndiana ? (indiana?.races || []) : official.matched ? official.races : [...localRaces, ...novemberLocalRaces]),
-    [isIndiana, indiana, official, localRaces, novemberLocalRaces]
+    () => (isStateBallot ? (stateBallot?.races || []) : official.matched ? official.races : [...localRaces, ...novemberLocalRaces]),
+    [isStateBallot, stateBallot, official, localRaces, novemberLocalRaces]
   )
 
   // Statewide + official local ballot proposals
   const proposals = useMemo(
-    () => (isIndiana ? (indiana?.proposals || []) : [...BALLOT_PROPOSALS, ...official.proposals]),
-    [isIndiana, indiana, official]
+    () => (isStateBallot ? (stateBallot?.proposals || []) : [...BALLOT_PROPOSALS, ...official.proposals]),
+    [isStateBallot, stateBallot, official]
   )
 
   const [showStickyBar, setShowStickyBar] = useState(false)
@@ -1804,8 +1806,8 @@ export default function BallotView() {
                 Local Races
               </h3>
               <p className="ballot-local-note">
-                {isIndiana
-                  ? `From the Indiana Election Division's official candidate list for ${localGeo?.county} County${indiana?.dataAsOf ? ` (data as of ${new Date(indiana.dataAsOf).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })})` : ''}. Township, town and school board races are matched to your address. Always confirm with your official sample ballot at IndianaVoters.in.gov.`
+                {isStateBallot
+                  ? `From the ${stateInfo.sourceName}'s official candidate list for ${localGeo?.county} County${stateBallot?.dataAsOf ? ` (data as of ${new Date(stateBallot.dataAsOf).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })})` : ''}. Township, town and school board races are matched to your address. Always confirm with your official sample ballot at ${stateInfo.voterSiteName}.`
                   : official.matched
                   ? `From the official Michigan Secretary of State sample ballot for ${official.jurisdiction}${official.precincts > 1 ? ` (${official.precincts} precincts)` : ''}. Where a race appears only in some precincts, a note says so — confirm with your precinct's sample ballot.`
                   : 'These local races appear on your November general election ballot.'}
@@ -1838,15 +1840,15 @@ export default function BallotView() {
                   </React.Fragment>
                 ))}
               </div>
-              {isIndiana && indiana?.maybeRaces?.length > 0 && (
+              {isStateBallot && stateBallot?.maybeRaces?.length > 0 && (
                 <>
-                  <h4 className="ballot-maybe-title">May be on your ballot ({indiana.maybeRaces.length})</h4>
+                  <h4 className="ballot-maybe-title">May be on your ballot ({stateBallot.maybeRaces.length})</h4>
                   <p className="ballot-local-note">
                     These seats are elected by district. Public data can&apos;t tell which district your address is in, so check your{' '}
                     <a href={stateInfo.voterSite} target="_blank" rel="noopener noreferrer">official sample ballot at {stateInfo.voterSiteName}</a>.
                   </p>
                   <div className="ballot-races">
-                    {indiana.maybeRaces.map(race => (
+                    {stateBallot.maybeRaces.map(race => (
                       <RaceCard
                         key={race.id}
                         race={race}
@@ -1863,7 +1865,7 @@ export default function BallotView() {
           )}
 
           {/* Note about county/township offices NOT on this ballot */}
-          {localGeo?.county && !isIndiana && !official.matched && !officialLoading && (
+          {localGeo?.county && !isStateBallot && !official.matched && !officialLoading && (
             <div className="ballot-not-on-ballot-note">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
                 <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
@@ -1904,11 +1906,11 @@ export default function BallotView() {
                   </svg>
                 </div>
                 <div className="ballot-explainer-text">
-                  {isIndiana ? (
+                  {isStateBallot ? (
                     <>
-                      <strong>Source: Indiana Election Division</strong>
+                      <strong>Source: {stateInfo.sourceName}</strong>
                       <p>
-                        Public questions above come from the Indiana Election Division&apos;s official list for {localGeo?.county} County.
+                        Public questions above come from the {stateInfo.sourceName}&apos;s official list for {localGeo?.county} County.
                         Tap any question to read the full official ballot language. Plain-English summaries are ours.
                       </p>
                     </>
