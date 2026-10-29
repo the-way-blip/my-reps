@@ -1,0 +1,474 @@
+{
+  "county": "Decatur",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.decaturcountyiowa.gov/56281/11032026-general-election",
+    "https://www.decaturcountyiowa.gov/document/50473 (High Point Township sample ballot; 34 precinct-style ballots 50440-50473, served from files.municipalone.com/decaturcounty-ia/)"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, At-Large",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Fulkerson",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Janet Pierson",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Erica Cook",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Sheri Frost",
+          "party": null
+        },
+        {
+          "name": "Larry Griffin",
+          "party": null
+        },
+        {
+          "name": "Guy Clark",
+          "party": null
+        },
+        {
+          "name": "Denise Elefson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "David Brennecke",
+          "party": null
+        },
+        {
+          "name": "Brad Funk",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner - To Fill Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Hofmann",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Jamie Patterson",
+          "party": null
+        },
+        {
+          "name": "Zach Mendenhall",
+          "party": null
+        },
+        {
+          "name": "Leigh Ann Coffey",
+          "party": null
+        },
+        {
+          "name": "Amy Hamilton",
+          "party": null
+        },
+        {
+          "name": "Bobette Lindsey",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bloomington Township Trustee",
+      "scope": "township",
+      "area": "Bloomington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bill Salsman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bloomington Township Clerk",
+      "scope": "township",
+      "area": "Bloomington",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Burrell Township Trustee",
+      "scope": "township",
+      "area": "Burrell",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bill Hill",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Burrell Township Clerk",
+      "scope": "township",
+      "area": "Burrell",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Center Township Trustee",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Merlin Bell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Center Township Clerk",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Juanita Yutzy",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Decatur Township Trustee",
+      "scope": "township",
+      "area": "Decatur",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tim Andrew",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Decatur Township Clerk",
+      "scope": "township",
+      "area": "Decatur",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Eden Township Trustee",
+      "scope": "township",
+      "area": "Eden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Daryn Yoder",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eden Township Clerk",
+      "scope": "township",
+      "area": "Eden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Anne Akers",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fayette Township Trustee",
+      "scope": "township",
+      "area": "Fayette",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ron Mickelson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fayette Township Clerk",
+      "scope": "township",
+      "area": "Fayette",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Franklin Township Trustee",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sam Brimm",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Franklin Township Clerk",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Garden Grove Township Trustee",
+      "scope": "township",
+      "area": "Garden Grove",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Garden Grove Township Clerk",
+      "scope": "township",
+      "area": "Garden Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sandra Stripe",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grand River Township Trustee",
+      "scope": "township",
+      "area": "Grand River",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ty Hunt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grand River Township Clerk",
+      "scope": "township",
+      "area": "Grand River",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Susan M. Griffin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hamilton Township Trustee",
+      "scope": "township",
+      "area": "Hamilton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Hill",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hamilton Township Clerk",
+      "scope": "township",
+      "area": "Hamilton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Amy Hamilton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "High Point Township Trustee",
+      "scope": "township",
+      "area": "High Point",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Zach Mendenhall",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "High Point Township Clerk",
+      "scope": "township",
+      "area": "High Point",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Mendenhall",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Long Creek Township Trustee",
+      "scope": "township",
+      "area": "Long Creek",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Long Creek Township Clerk",
+      "scope": "township",
+      "area": "Long Creek",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Morgan Township Trustee",
+      "scope": "township",
+      "area": "Morgan",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Benji Hullinger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Morgan Township Clerk",
+      "scope": "township",
+      "area": "Morgan",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael G. Andrew",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "New Buda Township Trustee",
+      "scope": "township",
+      "area": "New Buda",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "New Buda Township Clerk",
+      "scope": "township",
+      "area": "New Buda",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Richland Township Trustee",
+      "scope": "township",
+      "area": "Richland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Galen Jimmerson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Richland Township Clerk",
+      "scope": "township",
+      "area": "Richland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Patti Jimmerson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Woodland Township Trustee",
+      "scope": "township",
+      "area": "Woodland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bill Hamaker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Woodland Township Clerk",
+      "scope": "township",
+      "area": "Woodland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sharon Hamaker",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure GA - Central Decatur Community School District General Obligation Bonds",
+      "jurisdiction": "Central Decatur Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the Central Community School District of Decatur County in the County of Decatur, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $11,955,000 to provide funds to build, furnish and equip an elementary addition to its North Elementary School, with related remodeling and improvements and site improvements; to remodel, repair, improve, furnish, and equip the North Elementary school for consolidated elementary programming; to demolish the existing South Elementary School; and to remodel, repair, improve, and equip the Junior-Senior High School, including replacement of its exterior doors, secure entry vestibule upgrades, and HVAC improvements?"
+    },
+    {
+      "name": "Public Measure GB - Lamoni Community School District General Obligation Bonds",
+      "jurisdiction": "Lamoni Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the Lamoni Community School District in the Counties of Decatur and Ringgold, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $5,750,000 to be used together with sales tax revenue bonds to provide funds to build, furnish and equip an addition to its Elementary School, with related remodeling and improvements and related site improvements; to remodel, repair, improve, furnish, and equip the Elementary School, including HVAC, mechanical, electrical, and plumbing improvements; to remodel, repair, and improve the Middle School, including exterior façade restoration; and to remodel, repair, improve, and equip the High School, including fire suppression, HVAC improvements, and a new secured entry?"
+    }
+  ],
+  "notes": "Read in a real browser. All 34 sample ballots are scanned image PDFs (no text layer); they were rendered and read visually. County races are the same on every ballot style; township rows read from each township's ballot (all 16 townships covered). Supervisor seat is At-Large, vote for one. County Attorney has no printed candidate (write-in only). Township offices with no printed candidate (write-in only): Bloomington, Burrell, Decatur, Fayette, Franklin clerks; Garden Grove trustee; Long Creek and New Buda trustee and clerk. Public measures: Central Decatur CSD (GA) and Lamoni CSD (GB); no city or county measures seen on the Lamoni, Davis City-Pleasanton, Van Wert-Weldon-Garden Grove, Decatur-Leon or Grand River ballots."
+}

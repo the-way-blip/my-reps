@@ -1,0 +1,583 @@
+{
+ "county": "Polk",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/general-election-november-3-2026-voter-information/",
+  "https://www.polkcountyiowa.gov/media/0a2hmz52/bondurant_1_twp-sample.pdf",
+  "https://www.polkcountyiowa.gov/media/4a2nwpc3/madison_1_mad-sample.pdf",
+  "https://www.polkcountyiowa.gov/media/l2va0cr5/ankeny_21_say-sample.pdf",
+  "https://www.polkcountyiowa.gov/media/kaqhl12j/urbandale_1-sample.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "John Forbes",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 4",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Alyson DeMoss",
+     "party": "republican"
+    },
+    {
+     "name": "Heather Jones-Brown",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 5",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Izaah Knox",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Angela Hilbert",
+     "party": null
+    },
+    {
+     "name": "Cynthia Twedt",
+     "party": null
+    },
+    {
+     "name": "Emma Runde",
+     "party": null
+    },
+    {
+     "name": "Dennis H. Goering",
+     "party": null
+    },
+    {
+     "name": "Jennifer Quiner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council (To Fill Vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Harrison Furlow",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jonah Dyer",
+     "party": "republican"
+    },
+    {
+     "name": "Kimberly Graham",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Hospital Trustee",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Emily Webb",
+     "party": null
+    },
+    {
+     "name": "Emily Westergaard",
+     "party": null
+    },
+    {
+     "name": "Abu Bakarr Sillah",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lisa J. Chiodo",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mary L. Wells",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Deborah Neustadt",
+     "party": null
+    },
+    {
+     "name": "Douglas R. Zehr",
+     "party": null
+    },
+    {
+     "name": "Kirk Norris",
+     "party": null
+    },
+    {
+     "name": "Autumn L. Ogden",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Allen Township Clerk",
+   "scope": "township",
+   "area": "Allen",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mildred A. Kruse",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Allen Township Trustee",
+   "scope": "township",
+   "area": "Allen",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Donald Rothfus",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Beaver Township Clerk",
+   "scope": "township",
+   "area": "Beaver",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Maureen Ryan",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Beaver Township Trustee",
+   "scope": "township",
+   "area": "Beaver",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Michael Sweeney",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bloomfield Township Clerk",
+   "scope": "township",
+   "area": "Bloomfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "JoAnn McKibben",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bloomfield Township Trustee",
+   "scope": "township",
+   "area": "Bloomfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark D. Fargo",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Camp Township Clerk",
+   "scope": "township",
+   "area": "Camp",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Josie Lehman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Camp Township Trustee",
+   "scope": "township",
+   "area": "Camp",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dawn Refsell",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clay Township Clerk",
+   "scope": "township",
+   "area": "Clay",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Barbara Timmins",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clay Township Trustee",
+   "scope": "township",
+   "area": "Clay",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steven F. Hanson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Crocker Township Clerk",
+   "scope": "township",
+   "area": "Crocker",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ryan Thrailkill",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Crocker Township Trustee",
+   "scope": "township",
+   "area": "Crocker",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Delaware Township Clerk",
+   "scope": "township",
+   "area": "Delaware",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mickey Wise",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Delaware Township Trustee",
+   "scope": "township",
+   "area": "Delaware",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ted J. Griffieon",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Douglas Township Clerk",
+   "scope": "township",
+   "area": "Douglas",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mary Ellen Cory",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Douglas Township Trustee",
+   "scope": "township",
+   "area": "Douglas",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Terry M. Adamson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Elkhart Township Clerk",
+   "scope": "township",
+   "area": "Elkhart",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Elkhart Township Trustee",
+   "scope": "township",
+   "area": "Elkhart",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Four Mile Township Clerk",
+   "scope": "township",
+   "area": "Four Mile",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sheila J. Stefani",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Four Mile Township Trustee",
+   "scope": "township",
+   "area": "Four Mile",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Alan Pasker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Franklin Township Clerk",
+   "scope": "township",
+   "area": "Franklin",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kurt D. Bailey",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Franklin Township Trustee",
+   "scope": "township",
+   "area": "Franklin",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kim G. Bailey",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Janna Colvin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jeff Colvin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cindy L. Twedt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James C. Fausch",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Clerk",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Madison Township Trustee",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Saylor Township Clerk",
+   "scope": "township",
+   "area": "Saylor",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Marcy Cross",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Saylor Township Trustee",
+   "scope": "township",
+   "area": "Saylor",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Terry Shafer",
+     "party": null
+    },
+    {
+     "name": "Mark Shelton",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Elizabeth Cline",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Daniel E. Lee",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Webster Township Clerk",
+   "scope": "township",
+   "area": "Webster",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Evan Trainer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Webster Township Trustee",
+   "scope": "township",
+   "area": "Webster",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure U - City Of Urbandale",
+   "jurisdiction": "City Of Urbandale",
+   "ballotLanguage": "Shall the City of Urbandale, State of Iowa, issue its General Obligation Bonds or Capital Loan Notes in an amount not exceeding the amount of $25,000,000 for the purpose of paying costs of designing, constructing, equipping, and furnishing a new police station, with related site improvements?"
+  },
+  {
+   "name": "Public Measure BQ - Madrid Community School District",
+   "jurisdiction": "Madrid Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Madrid Community School District in the Counties of Boone, Dallas, and Polk, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $4,300,000 to provide funds to build, furnish and equip additions to its existing Junior-Senior High School, including a Career Academy addition, with related remodeling and improvements and site improvements?"
+  },
+  {
+   "name": "Public Measure S - Saydel Community School District",
+   "jurisdiction": "Saydel Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Saydel Community School District in the County of Polk, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $26,900,000 to provide funds to build, furnish, and equip an addition to Cornell Elementary for kindergarten and early childhood education, including a playground and site improvements; to remodel, repair, furnish, and equip Cornell Elementary, Woodside Middle School, and the High School, including HVAC, electrical, and building improvements; for improvements to the High School emergency generator system and sewer line; and to remodel, repair, furnish, and equip athletic facilities, including improvements to the softball concession and restrooms facility, football field turf replacement, and softball and baseball field turf installation?"
+  }
+ ],
+ "notes": "Parsed from all 201 per-precinct sample ballot PDFs linked on the Polk County Auditor's 2026 General Election voter-information page. Supervisors are elected by district (voters see only their own district): District 1 appears on 35 precinct ballots, District 4 on 42, District 5 on 34; Districts 2 and 3 are not on the ballot. Township trustee/clerk contests appear only on that township's precinct ballots; contests with empty candidate lists have no printed candidate (write-in only). Saylor Township Trustee is vote-for-two. Measures: Urbandale city measure U (12 Urbandale precincts), Saydel CSD measure S (7 precincts), Madrid CSD measure BQ (Madison 1 MAD and Sheldahl 1 MAD precincts). Names copied as printed (title case for office names only)."
+}

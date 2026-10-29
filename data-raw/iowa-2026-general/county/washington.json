@@ -1,0 +1,195 @@
+{
+ "county": "Washington",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.washingtoncounty.iowa.gov/344/Elections",
+  "https://www.washingtoncounty.iowa.gov/DocumentCenter/View/3063",
+  "https://www.washingtoncounty.iowa.gov/DocumentCenter/View/3064",
+  "https://www.washingtoncounty.iowa.gov/DocumentCenter/View/3065",
+  "https://www.washingtoncounty.iowa.gov/DocumentCenter/View/3072",
+  "(plus sample ballots DocumentCenter/View/3066-3071, 3073)"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "JoAnn Whitmore",
+     "party": "democratic"
+    },
+    {
+     "name": "Marcus Fedler",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 5",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lynette Iles",
+     "party": "democratic"
+    },
+    {
+     "name": "Brendan DeLong",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lindsay Greiner Adam",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Teresa Mangold",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nathan Repp",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Brighton Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Brighton"
+  },
+  {
+   "office": "Brighton Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Brighton"
+  },
+  {
+   "office": "Clay Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Clay"
+  },
+  {
+   "office": "Clay Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Clay"
+  },
+  {
+   "office": "County Hospital Trustee",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Cathy Rich",
+     "party": null
+    },
+    {
+     "name": "Susan M. Basten",
+     "party": null
+    },
+    {
+     "name": "Luke A Horak",
+     "party": null
+    },
+    {
+     "name": "David Mitchell",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Illa Mae Earnest",
+     "party": null
+    },
+    {
+     "name": "Darrell Steele",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Rhonda Clough",
+     "party": null
+    },
+    {
+     "name": "Tad TeBockhorst",
+     "party": null
+    },
+    {
+     "name": "Marianne Reha-Van Roekel",
+     "party": null
+    },
+    {
+     "name": "Scott Sieren",
+     "party": null
+    },
+    {
+     "name": "Deidra Baker",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure NC",
+   "jurisdiction": "Kirkwood Community College (Merged Area X)",
+   "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+  },
+  {
+   "name": "Public Measure ML",
+   "jurisdiction": "Keota Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Keota Community School District in the Counties of Keokuk and Washington, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $6,400,000 to provide funds to remodel, repair, equip, and improve the Jr-Sr High School, including a secure entrance, educational spaces, HVAC, mechanical, electrical, and plumbing improvements; to remodel, repair, equip, and improve the Elementary School, including a secure entrance and plumbing improvements; and for fire alarm upgrades throughout the school building?"
+  },
+  {
+   "name": "Public Measure VF",
+   "jurisdiction": "Mid-Prairie Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Mid-Prairie Community School District in the Counties of Washington, Iowa, and Johnson, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $19,000,000 to provide funds to build, furnish, and equip an addition to the high school, including a new events entrance, auditorium, and fine arts classrooms, with related remodeling and improvements and related site improvements; and to renovate, improve, furnish and equip several existing special education and general education classrooms?"
+  },
+  {
+   "name": "Public Measure LR",
+   "jurisdiction": "Fairfield Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Fairfield Community School District in the Counties of Jefferson, Henry, Van Buren, Wapello and Washington, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $24,850,000 to provide funds to build furnish, and equip additions to and to remodel, repair, improve, and equip the middle school building, including fine arts, career and technical education, library, commons area, kitchen, and gymnasium spaces, including related site improvements?"
+  }
+ ],
+ "notes": "Sources: official General Election Candidate Listing (DocumentCenter 3063) and 10 precinct sample-ballot PDFs (all image scans; read visually/OCR). Board of Supervisors elected by district: District 3 appears on Riverside and Ainsworth precinct ballots, District 5 on Washington Ward 1 and Ward 2 ballots; other voters see no supervisor race. Brighton and Clay are the only townships with offices on the ballot and have no filed candidates (write-in only). Measure NC (Kirkwood bond) appears on nearly all ballot styles; ML (Keota), VF (Mid-Prairie) and LR (Fairfield) only on styles within those school districts. Measure LR text read from OCR of the Brighton ballot style and matches the identical Fairfield measure published by Van Buren/Wapello counties."
+}

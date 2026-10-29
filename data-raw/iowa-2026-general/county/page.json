@@ -1,0 +1,19 @@
+{"county":"Page","found":true,"partial":false,
+ "sources":["https://pagecounty.iowa.gov/offices/auditor/elections/","https://cap.gmdsolutions.com/viewfile.aspx?id=EB39941F02344722B449D132D20094C0&dir=Objects"],
+ "asOf":null,
+ "races":[
+  {"office":"Board of Supervisors, District 1","scope":"county","seats":1,"candidates":[{"name":"Michael Anderson","party":"republican"},{"name":"Alan Armstrong","party":"democratic"}]},
+  {"office":"Board of Supervisors, District 2","scope":"county","seats":1,"candidates":[{"name":"Todd Maher","party":"republican"}]},
+  {"office":"Board of Supervisors, District 3","scope":"county","seats":1,"candidates":[{"name":"Seth S Stimson","party":"republican"}]},
+  {"office":"Board of Supervisors, District 4","scope":"county","seats":1,"candidates":[{"name":"Judy Clark","party":"republican"}]},
+  {"office":"Board of Supervisors, District 5","scope":"county","seats":1,"candidates":[{"name":"Brian Rogers","party":"republican"}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Angie Dow","party":"republican"}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Brenda L. Esaias","party":"republican"}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[{"name":"Michelle R. Foss","party":"republican"}]},
+  {"office":"Soil and Water Conservation District Commissioner","scope":"county","seats":2,"candidates":[{"name":"Brandon Pease","party":null},{"name":"Curtis Davison","party":null}]},
+  {"office":"County Agricultural Extension Council","scope":"county","seats":5,"candidates":[{"name":"Tammy Johnson","party":null},{"name":"Diane Ferguson","party":null},{"name":"Rosanne Cavin","party":null},{"name":"Shad Swanson","party":null},{"name":"Jon Stripe","party":null},{"name":"Cheryl Beaver","party":null}]},
+  {"office":"Buchanan Township Trustee","scope":"township","area":"Buchanan","seats":1,"candidates":[]},
+  {"office":"Buchanan Township Clerk","scope":"township","area":"Buchanan","seats":1,"candidates":[{"name":"Gary Davison","party":null}]}
+ ],
+ "measures":[],
+ "notes":"Source is the 20-page image-only 'General Election - sample ballots' PDF (10 ballot styles) linked from the auditor's Elections page (hosted on the county's GMD Solutions document portal); names transcribed visually. All five supervisor district contests (Districts 1-5) appear on every ballot style, so supervisors are elected countywide (at-large with district residency). Buchanan Township offices appear only on the Buchanan Township style; the trustee contest has no printed candidate (write-in only). Ballot backs contain only the Extension Council, judicial retention and Constitutional Amendment 1; no county/local measures."}

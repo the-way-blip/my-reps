@@ -1,0 +1,550 @@
+{
+ "county": "Butler",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://butlercounty.iowa.gov/departments/elections/ballots",
+  "https://butlercounty.iowa.gov/images/docs/departments/elections/CANDIDATE%20FILINGS-to%20ADKINS-2026.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "district": "2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Wayne Dralle",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "district": "3",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rusty Eddy",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Roxanne Nicolaus",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Janice Jacobs",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Kuehner",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": null,
+   "candidates": []
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Patty Hummel",
+     "party": null
+    },
+    {
+     "name": "Jessica Lovrien",
+     "party": null
+    },
+    {
+     "name": "Rachel Jensen",
+     "party": null
+    },
+    {
+     "name": "Andrea Schrage",
+     "party": null
+    },
+    {
+     "name": "Bryce Bruns",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Albion Township Trustee",
+   "scope": "township",
+   "area": "Albion",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Jeremiah D. Saul",
+     "party": null
+    },
+    {
+     "name": "Chad Meyer",
+     "party": null
+    },
+    {
+     "name": "Rick Morgan",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Albion Township Clerk",
+   "scope": "township",
+   "area": "Albion",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Bryon Aswegen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Beaver Township Trustee",
+   "scope": "township",
+   "area": "Beaver",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Lane M. Bass",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Beaver Township Clerk",
+   "scope": "township",
+   "area": "Beaver",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Steven Koop",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bennezette Township Trustee",
+   "scope": "township",
+   "area": "Bennezette",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Bruce E. Miller",
+     "party": null
+    },
+    {
+     "name": "Mark D. Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bennezette Township Clerk",
+   "scope": "township",
+   "area": "Bennezette",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Dennis Cassmann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Butler Township Trustee",
+   "scope": "township",
+   "area": "Butler",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Paul Leerhoff",
+     "party": null
+    },
+    {
+     "name": "Will Backer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Butler Township Clerk",
+   "scope": "township",
+   "area": "Butler",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Eric Litterer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Coldwater Township Trustee",
+   "scope": "township",
+   "area": "Coldwater",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Michael Salge",
+     "party": null
+    },
+    {
+     "name": "Patrick Zimmerman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Coldwater Township Clerk",
+   "scope": "township",
+   "area": "Coldwater",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Fred Meyne",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dayton Township Trustee",
+   "scope": "township",
+   "area": "Dayton",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Troy Feldman",
+     "party": null
+    },
+    {
+     "name": "Chad Shultz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dayton Township Clerk",
+   "scope": "township",
+   "area": "Dayton",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Donald Feldman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Trustee",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Keith Lovrien",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Clerk",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Ron D. Leerhoff",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Eric Bixby",
+     "party": null
+    },
+    {
+     "name": "Mervin Edeker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Deb McWhirter",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Dusty Miller",
+     "party": null
+    },
+    {
+     "name": "Todd C. Reiher",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Mary Brouwer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Trustee",
+   "scope": "township",
+   "area": "Madison",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "William W. Nolte",
+     "party": null
+    },
+    {
+     "name": "Jason Schipper",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Clerk",
+   "scope": "township",
+   "area": "Madison",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Deb Eisentrager",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Monroe Township Trustee",
+   "scope": "township",
+   "area": "Monroe",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Jeff Johnson",
+     "party": null
+    },
+    {
+     "name": "Randy Williamson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Monroe Township Clerk",
+   "scope": "township",
+   "area": "Monroe",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Gaylen Mulder",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pittsford Township Trustee",
+   "scope": "township",
+   "area": "Pittsford",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Bob Aukes",
+     "party": null
+    },
+    {
+     "name": "Michael Lindaman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pittsford Township Clerk",
+   "scope": "township",
+   "area": "Pittsford",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Jill Wiegmann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Ripley Township Trustee",
+   "scope": "township",
+   "area": "Ripley",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Jon Oltmann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Ripley Township Clerk",
+   "scope": "township",
+   "area": "Ripley",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Joan Becker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Shell Rock Township Trustee",
+   "scope": "township",
+   "area": "Shell Rock",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Christopher Lursen",
+     "party": null
+    },
+    {
+     "name": "Keith Kramer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Shell Rock Township Clerk",
+   "scope": "township",
+   "area": "Shell Rock",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Ryan Neuhaus",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "area": "Washington",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Grant Kampman",
+     "party": null
+    },
+    {
+     "name": "Jeff Mohwinkle",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "area": "Washington",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Melinda Sue Miller",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Point Township Trustee",
+   "scope": "township",
+   "area": "West Point",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Dave Eberline",
+     "party": null
+    },
+    {
+     "name": "Tom Wubbena",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Point Township Clerk",
+   "scope": "township",
+   "area": "West Point",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Suzanne Wubbena",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "AGWSR Public Measure IR",
+   "jurisdiction": "AGWSR Community School District (Butler, Franklin, Grundy, Hardin counties)",
+   "ballotLanguage": "Shall the Board of Directors of the AGWSR Community School District in the Counties of Butler, Franklin, Grundy, and Hardin, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $10,820,000 to provide funds to remodel, repair, improve, and equip the high school, including science and family & consumer science classrooms and heating, ventilation, and air conditioning (HVAC), mechanical, plumbing, electrical, roofing, and site improvements; to build, furnish, and equip a multipurpose activities/recess facility, including site improvements; and to remodel, repair, improve, and equip the middle school locker rooms?"
+  }
+ ],
+ "notes": "Source is the county's 'General Election - November 3, 2026 Butler County Candidate Filings' list (incumbent asterisks stripped from names). Supervisor seats listed by district (District 2, District 3) - voters see only their district. The filing list does not state vote-for/seat counts, so seats are null for nonpartisan offices; Soil and Water Conservation District Commissioner has no filed candidates (write-in only). No county hospital trustee race listed. The posted 'Sample Ballots for Website.pdf' is the June 2, 2026 primary sample ballot (not the general), so it was not used."
+}

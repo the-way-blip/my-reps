@@ -1,0 +1,15 @@
+{"county":"Emmet","found":true,"partial":false,
+ "sources":["https://emmetcountyia.gov/county-offices/auditor/election-information/","https://emmetcountyia.gov/wp-content/uploads/2026/09/Armstrong-AG-IL-NU-Sample-Ballot.pdf","https://emmetcountyia.gov/wp-content/uploads/2026/09/PublicMeasure32-HF.pdf","https://emmetcountyia.gov/wp-content/uploads/2026/09/ (all 14 precinct sample ballots on the election page)"],
+ "asOf":"2026-11-03 (sample ballots posted 2026-09)",
+ "races":[
+  {"office":"Board of Supervisors, At Large","scope":"county","district":"at-large","seats":2,"candidates":[{"name":"John Pluth","party":"republican"},{"name":"Jeff Quastad","party":null}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Lisa M. Rosburg","party":"republican"}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Diann Quastad Minion","party":"republican"}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[]},
+  {"office":"Soil and Water Conservation District Commissioners","scope":"county","seats":2,"candidates":[{"name":"Carson Glasnapp","party":null}]},
+  {"office":"County Agricultural Extension Council","scope":"county","seats":5,"candidates":[{"name":"Dean Gesche","party":null},{"name":"Clyve Jensen","party":null},{"name":"Chantel Kloucek","party":null},{"name":"Leah Smith","party":null}]}
+ ],
+ "measures":[
+  {"name":"Public Measure 32-HF","jurisdiction":"North Union Community School District","ballotLanguage":"Shall the Board of Directors of the North Union Community School District in the Counties of Emmet, Kossuth, and Palo Alto, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $12,000,000 to provide funds to build, furnish, and equip additions to the school building, including a gymnasium, multipurpose room, and related spaces, and to improve the site?"}
+ ],
+ "notes":"Supervisors elected at-large ('For County Board of Supervisors At Large, Vote for no more than Two' on every ballot). Jeff Quastad printed with no party label; John Pluth REP. County Attorney appears with a write-in line only (no printed candidate). Sample ballots are scanned images (read visually/OCR). No township offices or hospital trustees on any ballot. North Union CSD measure 32-HF appears on the NU ballot styles (Armstrong/AG/IL, Swan Lake 2.3, Ringsted/DNK/JC, Lincoln 4.3)."}

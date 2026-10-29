@@ -1,0 +1,125 @@
+{
+  "county": "Sioux",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://siouxcountyia.gov/elections/",
+    "https://siouxcountyia.gov/wp-content/uploads/2026/10/00202-Capel.Grant_.Lynn_.Sheridan.GLR_.pdf (one of 18 precinct sample ballots in /wp-content/uploads/2026/10/)"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jerry Muilenburg",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 4",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Carl L. Vande Weerd",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Daniel D. Zomermaand",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jessica Kooiker",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Thomas Kunstle",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Allan Reinders",
+          "party": null
+        },
+        {
+          "name": "Kendall Roetman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Brent Oolman",
+          "party": null
+        },
+        {
+          "name": "Amy Cleveringa",
+          "party": null
+        },
+        {
+          "name": "Jeremy Jansen",
+          "party": null
+        },
+        {
+          "name": "Cheryl Buntsma",
+          "party": null
+        },
+        {
+          "name": "Brent Hooyer",
+          "party": null
+        },
+        {
+          "name": "Calvin Bomgaars",
+          "party": null
+        },
+        {
+          "name": "Martina Scholtens",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure NV - George-Little Rock Community School District General Obligation Bonds",
+      "jurisdiction": "George-Little Rock Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the George-Little Rock Community School District in the Counties of Lyon, Osceola and Sioux, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $14,950,000 to provide funds to build, furnish and equip additions to its Elementary School and Middle School / High School facilities, including related remodeling and improvements; to remodel, repair, and improve the Elementary School and Middle School / High School facilities, including HVAC and bathroom improvements, and site improvements, exterior improvements to the Middle School / High School; to build, furnish, and equip a new bus barn; and to remodel, repair, and improve the Middle School / High School track?"
+    }
+  ],
+  "notes": "Read in a real browser (site is siouxcountyia.gov, no www). All 18 sample ballots are scanned image PDFs; each was rendered and read visually. Supervisors elected by district: District 2 appears on Orange City 1/Holland SW, Orange City 2/Holland SE and West Branch ballots; District 4 on Plato/Rock/Settlers/Sioux, Rock Valley 1 and 2, and Sioux Center 1/Welcome; other precincts have no supervisor race. Ag Extension: 7 candidates for 5 seats. No township trustee/clerk offices, no hospital trustee race and no county or city measures appear on any ballot style; the only local measure is George-Little Rock CSD Public Measure NV (Capel/Grant/Lynn/Sheridan GLR ballot style)."
+}

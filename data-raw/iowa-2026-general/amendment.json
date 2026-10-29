@@ -1,0 +1,47 @@
+{
+  "fetchedAt": "2026-10-29T00:44:36+00:00",
+  "amendments": [
+    {
+      "number": 1,
+      "ballotHeading": "Statewide Public Measure 1",
+      "ballotQuestion": "Shall the following amendment to the Constitution be adopted?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "shortTitle": "Requirements for Certain State Tax Law Changes",
+      "commonName": "Amendment 1 - two-thirds legislative vote for income tax increases",
+      "resolutions": [
+        {
+          "id": "HJR 2006",
+          "generalAssembly": 90,
+          "finalPassage": "2024-04-10",
+          "url": "https://www.legis.iowa.gov/legislation/BillBook?ba=HJR2006&ga=90"
+        },
+        {
+          "id": "SJR 11",
+          "generalAssembly": 91,
+          "finalPassage": "2026-05-03",
+          "url": "https://www.legis.iowa.gov/legislation/BillBook?ba=SJR11&ga=91"
+        }
+      ],
+      "summary": "Provides that any bill to increase the individual income tax rate or the corporate income tax rate, or the rate of any other type of tax based upon income or legal and special reserves, shall require the affirmative votes of at least two-thirds of the members elected to each house of the legislature for passage. Further, the two-thirds majority vote requirement applies to the passage of a bill to establish a new tax on any type of income or legal and special reserves imposed by the state. The requirement excludes taxes imposed at the option of a local government. A lawsuit challenging the proper enactment of a bill under this section must be filed no later than one year following the enactment.",
+      "summarySource": {
+        "author": "Iowa Secretary of State (Iowa Code 49.44), proposed subrule 721 IAC 21.200(4)",
+        "url": "https://www.legis.iowa.gov/docs/aco/bulletincontent/06-24-2026.Regulatory%20Analysis_1780517797265.pdf",
+        "confirmedOnBallot": "https://iowacounty.iowa.gov/elections/2026_general_election_2026_11_03/ (Iowa County Auditor official sample ballot; summary text identical)"
+      },
+      "fullTextAsPrinted": "The Constitution of the State of Iowa is amended by adding the following new section to new Article XIII: Passage of a bill that increases the individual income tax rate or the corporate income tax rate, or the rate of any other type of tax based upon income or legal and special reserves, shall require the affirmative votes of at least two-thirds of the members elected to each house of the general assembly. This requirement does not apply to taxes imposed at the option of a local government. Passage of a bill that establishes a new tax on any type of income or legal and special reserves imposed by the state shall require the affirmative votes of at least two-thirds of the members elected to each house of the general assembly. A lawsuit challenging the proper enactment of a bill under this section must be filed no later than one year following the enactment. If such a lawsuit is not filed within the one-year limit, the bill shall be considered properly enacted under this section. Each bill to which this section applies must include a separate provision describing the requirements for enactment prescribed by this section. The general assembly shall enact laws to implement this section.",
+      "fullTextResolution": {
+        "articleHeading": "ARTICLE XIII. TAXATION LIMITATIONS.",
+        "sectionHeading": "Section 1. Two-thirds majority vote for state tax law changes.",
+        "text": "Passage of a bill that increases the individual income tax rate or the corporate income tax rate, or the rate of any other type of tax based upon income or legal and special reserves, shall require the affirmative votes of at least two-thirds of the members elected to each house of the general assembly. This requirement does not apply to taxes imposed at the option of a local government. Passage of a bill that establishes a new tax on any type of income or legal and special reserves imposed by the state shall require the affirmative votes of at least two-thirds of the members elected to each house of the general assembly. A lawsuit challenging the proper enactment of a bill under this section must be filed no later than one year following the enactment. If such a lawsuit is not filed within the one-year limit, the bill shall be considered properly enacted under this section. Each bill to which this section applies must include a separate provision describing the requirements for enactment prescribed by this section. The general assembly shall enact laws to implement this section.",
+        "source": "https://www.legis.iowa.gov/docs/publications/LGE/91/SJR11.pdf"
+      },
+      "notes": [
+        "Only amendment on the 2026 general ballot: legis.iowa.gov Proposed Constitutional Amendment page lists SJR 9 (91st GA, Right of Accused to Confront Children and Other Witnesses) as a FIRST-passage publication only; it is not on the 2026 ballot.",
+        "Ratification requires a simple majority of those voting on the question (Iowa Const. Art. X, sec. 1)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "county": "Story",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.storycountyiowa.gov/1754/General-Election-11032026",
+    "https://www.storycountyiowa.gov/DocumentCenter/View/18219",
+    "https://www.storycountyiowa.gov/DocumentCenter/View/18210/A_Back-of-Sample-Ballots",
+    "https://www.storycountyiowa.gov/DocumentCenter/View/18213/supervisor-districts-info"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 1",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Linda Murken",
+          "party": "democratic"
+        },
+        {
+          "name": "Jeff Staton",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ross Eveland",
+          "party": "democratic"
+        },
+        {
+          "name": "Martin Chitty",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Latifah Faisal",
+          "party": "democratic"
+        },
+        {
+          "name": "Kirk W. Nesset",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ted Rasmusson",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Stacie Herridge",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Timothy Meals",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Pamela Elliott Cain",
+          "party": null
+        },
+        {
+          "name": "Patrick Sheets",
+          "party": null
+        },
+        {
+          "name": "Austin Vier",
+          "party": null
+        },
+        {
+          "name": "Elizabeth Hertz",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Stephen Riggins",
+          "party": null
+        },
+        {
+          "name": "Selden Spencer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Erik Christian",
+          "party": null
+        },
+        {
+          "name": "Tina Beavers",
+          "party": null
+        },
+        {
+          "name": "Pam Kahler",
+          "party": null
+        },
+        {
+          "name": "Marisue Hartung",
+          "party": null
+        },
+        {
+          "name": "Mark Licht",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member - To Fill Vacancy",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Doug Sampson",
+          "party": null
+        },
+        {
+          "name": "Jacob M. Ness",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Collins Township Trustee",
+      "scope": "township",
+      "area": "Collins",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Mark Atwood",
+          "party": null
+        },
+        {
+          "name": "Jeff Titus",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Collins Township Clerk",
+      "scope": "township",
+      "area": "Collins",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kristy Armentrout",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Franklin Township Trustee",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Arthur L. Fleener",
+          "party": null
+        },
+        {
+          "name": "Thomas Hackett",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Franklin Township Clerk",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mary J. Buchman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Trustee",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Jerry J. Linn",
+          "party": null
+        },
+        {
+          "name": "Michael Wright",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Clerk",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John Clough",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Howard Township Trustee",
+      "scope": "township",
+      "area": "Howard",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Paul Teig",
+          "party": null
+        },
+        {
+          "name": "Mark Tjernagel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Howard Township Clerk",
+      "scope": "township",
+      "area": "Howard",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "BJ Schaben",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Indian Creek Township Trustee",
+      "scope": "township",
+      "area": "Indian Creek",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Indian Creek Township Clerk",
+      "scope": "township",
+      "area": "Indian Creek",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lafayette Township Trustee",
+      "scope": "township",
+      "area": "Lafayette",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Nick Hermanson",
+          "party": null
+        },
+        {
+          "name": "Donald E. Hoffmann",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lafayette Township Clerk",
+      "scope": "township",
+      "area": "Lafayette",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James Oberender",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Dennis M. Anderson",
+          "party": null
+        },
+        {
+          "name": "David Perry",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cecelia Christianson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Milford Township Trustee",
+      "scope": "township",
+      "area": "Milford",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Cole Engelhardt",
+          "party": null
+        },
+        {
+          "name": "Michael Jacobson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Milford Township Clerk",
+      "scope": "township",
+      "area": "Milford",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Loren Book",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Nevada Township Trustee",
+      "scope": "township",
+      "area": "Nevada",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Kenneth Grant",
+          "party": null
+        },
+        {
+          "name": "Amber Nusbaum",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Nevada Township Clerk",
+      "scope": "township",
+      "area": "Nevada",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Douglas P. Anderson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "New Albany Township Trustee",
+      "scope": "township",
+      "area": "New Albany",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Patrick Peakin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "New Albany Township Clerk",
+      "scope": "township",
+      "area": "New Albany",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Palestine Township Trustee",
+      "scope": "township",
+      "area": "Palestine",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Donald Alan Stensland",
+          "party": null
+        },
+        {
+          "name": "Timothy Wayne Wilson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Palestine Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Palestine",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Palestine Township Clerk",
+      "scope": "township",
+      "area": "Palestine",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mike Kalsem",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Richland Township Trustee",
+      "scope": "township",
+      "area": "Richland",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Derrick Black",
+          "party": null
+        },
+        {
+          "name": "Robert Meimann",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Richland Township Clerk",
+      "scope": "township",
+      "area": "Richland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Debra K. Thompson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sherman Township Trustee",
+      "scope": "township",
+      "area": "Sherman",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Robert Meller",
+          "party": null
+        },
+        {
+          "name": "James H. Riese",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sherman Township Clerk",
+      "scope": "township",
+      "area": "Sherman",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Edythe Lounsbury Meller",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Trustee",
+      "scope": "township",
+      "area": "Union",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Rodney Heintz",
+          "party": null
+        },
+        {
+          "name": "Wade Kahler",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Clerk",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Carl W. Link",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Warren Township Trustee",
+      "scope": "township",
+      "area": "Warren",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "David Granzow",
+          "party": null
+        },
+        {
+          "name": "Merle Olson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Warren Township Clerk",
+      "scope": "township",
+      "area": "Warren",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Alan Knaphus",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Kim F. Christiansen",
+          "party": null
+        },
+        {
+          "name": "Kevin Winchell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Pamela S. Iasevoli",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Supervisors now elected BY DISTRICT (new plan approved Jan 27, 2026; all three seats on 2026 ballot; voters vote for only one supervisor candidate — their district). Initial term lengths staggered by lot (District 1: two years per county notice). Candidate list marked FINAL. Township trustee races are vote-for-two; Indian Creek Twp trustee/clerk, New Albany Twp clerk, and Palestine Twp trustee (to fill vacancy) have no printed candidates (write-in only). Sample ballots for all 65 precinct styles checked: no county-level public measures (only Statewide Public Measure 1). Asterisks (incumbent) removed from names."
+}

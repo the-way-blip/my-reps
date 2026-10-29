@@ -1,0 +1,17 @@
+{"county":"Delaware","found":true,"partial":false,
+ "sources":["https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/","https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_colony_80631.pdf","https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_adams_hazel_green_kirkwood_89985.pdf","https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_milo_prairie_lake_17048.pdf","https://delawarecountyelections.iowa.gov/files/sample_ballots/ (all 15 precinct sample ballots on the election page)"],
+ "asOf":"2026-11-03 (sample ballots for election date)",
+ "races":[
+  {"office":"Board of Supervisors, District 3","scope":"county","district":"3","seats":1,"candidates":[{"name":"Shirley E. Helmrichs","party":"republican"}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Jenny Eschen","party":"republican"}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Peggy A. Hildebrand","party":"republican"}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[{"name":"John W. Bernau","party":"republican"}]},
+  {"office":"County Public Hospital Trustees","scope":"county","seats":4,"candidates":[{"name":"John Zietlow","party":null},{"name":"Kathy Swift","party":null},{"name":"Cathy Lilienthal","party":null},{"name":"Mitch Peyton","party":null}]},
+  {"office":"Soil and Water Conservation District Commissioners","scope":"county","seats":2,"candidates":[{"name":"Steve Lueken","party":null},{"name":"Nathan M. Goedken","party":null}]},
+  {"office":"County Agricultural Extension Council Members","scope":"county","seats":5,"candidates":[{"name":"Kelly Goldsmith","party":null},{"name":"Patty Conrad","party":null},{"name":"Parker Hunt","party":null},{"name":"Jill Knipper","party":null},{"name":"Janelle Tucker","party":null}]}
+ ],
+ "measures":[
+  {"name":"Public Measure NC","jurisdiction":"Kirkwood Community College (Merged Area X)","ballotLanguage":"Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"},
+  {"name":"Public Measure A","jurisdiction":"Lake Delhi Combined Recreational Facility and Water Quality District","ballotLanguage":"Shall the Lake Delhi Combined Recreational Facility and Water Quality District, in Delaware County, State of Iowa, enter into a loan agreement and issue general obligation bonds in an amount not exceeding $9,200,000 for the purpose of paying the cost, to that extent, of undertaking lake improvements, including but not limited to lake dredging?"}
+ ],
+ "notes":"Sample ballots are scanned images; read via OCR/visual inspection. 'Board of Supervisors District 3' appears identically on all 15 precinct ballots, i.e. voted countywide (at-large election with a residency district). Kirkwood measure NC only on the '- Kirkwood' ballot styles (Adams-Hazel Green, South Fork-Union); Lake Delhi measure A only on '- Lake' styles (Delhi-Delaware Corp, Milo-Prairie). No township offices on the ballot."}

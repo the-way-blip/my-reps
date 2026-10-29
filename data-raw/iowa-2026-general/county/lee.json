@@ -1,0 +1,503 @@
+{
+ "county": "Lee",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.leecounty.iowa.gov/docview.aspx?docid=29749 (-> /files/documents/2026GeneralElectionSampleBallot1485014149091826PM.pdf, 78 pages / 39 ballot styles)",
+  "https://www.leecounty.iowa.gov/docview.aspx?docid=29753",
+  "https://www.leecounty.iowa.gov/files/documents/NoticeofGeneralElection20261488045158101626PM.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Chris Greenwald",
+     "party": "democratic"
+    },
+    {
+     "name": "Tom Schulz",
+     "party": "republican"
+    }
+   ],
+   "area": "District 2: Fort Madison precincts FM1, FM2, FM3, FM4B"
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christopher Brown Seeley",
+     "party": "republican"
+    }
+   ],
+   "area": "District 3: Fort Madison FM4A and FM5 (incl. Jefferson Twp and Madison Twp splits), Cedar-Charleston-Harrison-Van Buren precinct (all splits incl. City of Houghton), Jefferson-West Montrose precinct"
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Becky Gaylord",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nancy Booten",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ross J. Braden",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Stanley Sanders",
+     "party": null
+    },
+    {
+     "name": "Ralph Krogmeier",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Miles Wellman",
+     "party": null
+    },
+    {
+     "name": "Russ Schwartz",
+     "party": null
+    },
+    {
+     "name": "Lizabeth Moeller",
+     "party": null
+    },
+    {
+     "name": "Roger Fullenkamp",
+     "party": null
+    },
+    {
+     "name": "Jamie Kramer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Trustee",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Philip Peitz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Clerk",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Robert W. Moeller",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Charleston Township Trustee",
+   "scope": "township",
+   "area": "Charleston",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Charleston Township Clerk",
+   "scope": "township",
+   "area": "Charleston",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joan Crowe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Charleston Township Trustee (To Fill a Vacancy)",
+   "scope": "township",
+   "area": "Charleston",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Denmark Township Trustee",
+   "scope": "township",
+   "area": "Denmark",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Todd Ross",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Denmark Township Clerk",
+   "scope": "township",
+   "area": "Denmark",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Randolph Woodroffe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Denmark Township Trustee (To Fill a Vacancy)",
+   "scope": "township",
+   "area": "Denmark",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Des Moines Township Trustee",
+   "scope": "township",
+   "area": "Des Moines",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joseph M. Bryant",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Des Moines Township Clerk",
+   "scope": "township",
+   "area": "Des Moines",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jason Newberry",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Franklin Township Trustee",
+   "scope": "township",
+   "area": "Franklin",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Franklin Township Clerk",
+   "scope": "township",
+   "area": "Franklin",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Green Bay Township Trustee",
+   "scope": "township",
+   "area": "Green Bay",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Thomas K. Gregg",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Green Bay Township Clerk",
+   "scope": "township",
+   "area": "Green Bay",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Charles Rump",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Harrison Township Trustee",
+   "scope": "township",
+   "area": "Harrison",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Leon Schau",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Harrison Township Clerk",
+   "scope": "township",
+   "area": "Harrison",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Barb Schau",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Robert E. Fox",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Paul E. Rule, Jr.",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rusty Robbins",
+     "party": null
+    },
+    {
+     "name": "Sam Wilson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Linda Wheeler",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Trustee",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Janet DenAdel",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Clerk",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jeff Vorhies",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marion Township Trustee",
+   "scope": "township",
+   "area": "Marion",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jason J. Brune",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marion Township Clerk",
+   "scope": "township",
+   "area": "Marion",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Miles Stanley Wellman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Montrose Township Trustee",
+   "scope": "township",
+   "area": "Montrose",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark Klesner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Montrose Township Clerk",
+   "scope": "township",
+   "area": "Montrose",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Pleasant Ridge Township Trustee",
+   "scope": "township",
+   "area": "Pleasant Ridge",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Pleasant Ridge Township Clerk",
+   "scope": "township",
+   "area": "Pleasant Ridge",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Roger Fullenkamp",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Van Buren Township Trustee",
+   "scope": "township",
+   "area": "Van Buren",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jeff Horsey",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Van Buren Township Clerk",
+   "scope": "township",
+   "area": "Van Buren",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Darren Sturdivant",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Warren J. Rickelman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Larry Buechel",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Point Township Trustee",
+   "scope": "township",
+   "area": "West Point",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Adrian Steffensmeier Jr.",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Point Township Clerk",
+   "scope": "township",
+   "area": "West Point",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "West Point Township Trustee (To Fill a Vacancy)",
+   "scope": "township",
+   "area": "West Point",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure US (Van Buren County Community School District)",
+   "jurisdiction": "Van Buren County Community School District - only the Van Buren CSD splits of Cedar, Harrison and Van Buren townships (ballot styles CE-VB, HR-VB, VB-VB)",
+   "ballotLanguage": "Shall the Board of Directors of the Van Buren County Community School District in the Counties of Van Buren, Davis, Henry and Lee, State of Iowa, be authorized to issue approximately $13,800,000 School Infrastructure Sales, Services and Use Tax Revenue and Refunding Bonds, which may be issued in one or more series over multiple fiscal years pursuant to Iowa Code Section 423F.2 and 423E.5, in the approximate amount of $13,800,000 for the purpose of providing funds to build, furnish, and equip an addition to the Keosauqua campus, including a secure entrance, classrooms, commons, and office space, and to improve the site; and to currently refund the outstanding School Infrastructure Sales, Services and Use Tax Revenue Bonds, Series 2022A, dated July 15, 2022, including costs of issuance and a debt service reserve fund if required by the purchaser; with any bond proceeds remaining after completion of this project used for other school infrastructure projects as authorized by the School District's Revenue Purpose Statement?"
+  }
+ ],
+ "notes": "COMPLETE. Source: Lee County Auditor's official 2026 General Election sample ballot book (all 39 ballot styles, 78 pages, text PDF; opened in a real browser, then downloaded directly) cross-checked with the official Notice of General Election. Supervisors are elected by district (only Districts 2 and 3 up). District 2 (Greenwald D / Schulz R): Fort Madison FM1, FM2, FM3, FM4B. District 3 (Seeley R): FM4A, FM5 (city, Jefferson Twp and Madison Twp splits), the Cedar/Charleston/Harrison/Van Buren precinct (all its township, Houghton city and Van Buren CSD splits) and the Jefferson/West Montrose precinct. Keokuk (KE1-KE7), Des Moines/Jackson, East Montrose/Montrose city, Green Bay/Denmark/Pleasant Ridge, Marion/Franklin/Donnellson-Franklin-St. Paul, West Point and Washington styles have no supervisor contest. Vote-for counts from the ballots: SWCD vote for two; Ag Extension vote for five; every township trustee (incl. To Fill A Vacancy) and clerk is vote for one. Contests with no printed candidate (Charleston Twp Trustee and Trustee-vacancy, Denmark Twp Trustee-vacancy, Franklin Twp Trustee and Clerk, Montrose Twp Clerk, Pleasant Ridge Twp Trustee, West Point Twp Clerk and Trustee-vacancy) are write-in only. Montrose Township contests appear on both East Montrose and West Montrose styles; Jefferson Township contests on FM5-Jefferson and Jefferson/West Montrose styles. Public Measure US (Van Buren County CSD) appears only on the CE-VB, HR-VB and VB-VB styles. No other county or local measures. Party labels from the ballot."
+}

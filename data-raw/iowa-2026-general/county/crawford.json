@@ -1,0 +1,16 @@
+{"county":"Crawford","found":true,"partial":false,
+ "sources":["https://www.crawfordcounty.iowa.gov/elections/info/2026_general_election_2026_11_03/","https://www.crawfordcounty.iowa.gov/files/sample_ballots/1100_charter_oak_58836.pdf","https://www.crawfordcounty.iowa.gov/files/sample_ballots/1100_dcab_71744.pdf","https://www.crawfordcounty.iowa.gov/files/sample_ballots/ (all 8 precinct sample ballots on the election page)"],
+ "asOf":"2026-11-03 (sample ballots for election date)",
+ "races":[
+  {"office":"Board of Supervisors","scope":"county","district":"at-large","seats":3,"candidates":[{"name":"Dan Mundt","party":"democratic"},{"name":"Craig Dozark","party":"republican"},{"name":"Brian J. Rank","party":"republican"},{"name":"Kyle R. Schultz","party":"republican"}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Sheri Neddermeyer","party":"republican"}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Sara Meseck","party":"republican"}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[{"name":"Colin Johnson","party":"democratic"}]},
+  {"office":"County Hospital Trustee","scope":"county","seats":2,"candidates":[{"name":"Jason Mendlik","party":null},{"name":"John Quandt","party":null},{"name":"Rich Knowles","party":null}]},
+  {"office":"Soil and Water Conservation District Commissioner","scope":"county","seats":2,"candidates":[{"name":"David Gress","party":null}]},
+  {"office":"County Agricultural Extension Council","scope":"county","seats":5,"candidates":[{"name":"Sophie Sonnichsen","party":null},{"name":"Collette Huntley","party":null},{"name":"Christy Welch","party":null},{"name":"Alexis Miller","party":null},{"name":"Carolyn Boeck","party":null}]},
+  {"office":"Boyer Township Trustee","scope":"township","area":"Boyer","seats":2,"candidates":[]},
+  {"office":"Boyer Township Clerk","scope":"township","area":"Boyer","seats":1,"candidates":[]}
+ ],
+ "measures":[],
+ "notes":"Supervisors elected at-large: 'Vote for no more than Three' appears identically on every precinct ballot (candidate order rotates). Boyer Township Trustee (2) and Clerk (1) appear on the Boyer Township ballot style within the DCAB precinct with no printed candidates (write-in only). No public measures beyond Amendment 1."}

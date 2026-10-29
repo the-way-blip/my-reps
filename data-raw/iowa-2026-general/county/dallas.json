@@ -1,0 +1,240 @@
+{
+ "county": "Dallas",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.dallascountyiowa.gov/524/2026-General-Election-Sample-Ballots",
+  "https://www.dallascountyiowa.gov/DocumentCenter/View/7620/2026-General-Election-Ballots",
+  "https://www.dallascountyiowa.gov/491/Candidate-Filing",
+  "https://www.dallascountyiowa.gov/DocumentCenter/View/7309"
+ ],
+ "asOf": "2026-11-03 (official sample ballots, 49 ballot styles)",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "district": "1",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Robert Greenway",
+     "party": "republican"
+    },
+    {
+     "name": "Jason Benell",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "district": "2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Julia Helm",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "district": "3",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kim Chapman",
+     "party": "republican"
+    },
+    {
+     "name": "Patricia K. Tice",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 4 - 2 Year Term",
+   "scope": "county",
+   "district": "4",
+   "seats": 1,
+   "term": "2 years",
+   "candidates": [
+    {
+     "name": "Lance Farrell",
+     "party": "republican"
+    },
+    {
+     "name": "Ben Nizzi",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 5 - 2 Year Term",
+   "scope": "county",
+   "district": "5",
+   "seats": 1,
+   "term": "2 years",
+   "candidates": [
+    {
+     "name": "Dave Roszak",
+     "party": "republican"
+    },
+    {
+     "name": "Julie Bautista",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Summer Portzen",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "ReNae Arnold",
+     "party": "republican"
+    },
+    {
+     "name": "Lexi Farber",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Matt Schultz",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Public Hospital Trustees",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Kari Boyens",
+     "party": null
+    },
+    {
+     "name": "Joelle Miner",
+     "party": null
+    },
+    {
+     "name": "Pat Steele",
+     "party": null
+    },
+    {
+     "name": "Dennis Cochran",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Craig Fleishman",
+     "party": null
+    },
+    {
+     "name": "Veronica M. Lack",
+     "party": null
+    },
+    {
+     "name": "James P Beni",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner (To Fill Vacancy)",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ken Herring",
+     "party": null
+    },
+    {
+     "name": "Jerry Vos",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Michael James Sandquist",
+     "party": null
+    },
+    {
+     "name": "Linda Kinkennon",
+     "party": null
+    },
+    {
+     "name": "Ashley E. Anderson",
+     "party": null
+    },
+    {
+     "name": "Jessica S. Drake",
+     "party": null
+    },
+    {
+     "name": "Jonatha J. Basye",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Linn Township Trustee",
+   "scope": "township",
+   "area": "Linn",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Linn Township Clerk",
+   "scope": "township",
+   "area": "Linn",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure U",
+   "jurisdiction": "City of Urbandale",
+   "ballotLanguage": "Shall the City of Urbandale, State of Iowa, issue its General Obligation Bonds or Capital Loan Notes in an amount not exceeding the amount of $25,000,000 for the purpose of paying costs of designing, constructing, equipping, and furnishing a new police station, with related site improvements?"
+  },
+  {
+   "name": "Public Measure BQ",
+   "jurisdiction": "Madrid Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Madrid Community School District in the counties of Boone, Dallas, and Polk, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $4,300,000 to provide funds to build, furnish and equip additions to its existing Junior-Senior High School, including a Career Academy addition, with related remodeling and improvements and site improvements?"
+  }
+ ],
+ "notes": "All five supervisor contests (Districts 1-5) appear on every one of the 49 ballot styles, i.e. supervisors are voted on countywide (at-large election with residency districts); Districts 4 and 5 are printed as '2 Year Term'. Linn Township Trustee (vote for 2) and Clerk (vote for 1) appear only on the Linn Township ballot with no printed candidates (write-in only). Urbandale measure U on Urbandale 14-18 precincts; Madrid CSD measure BQ only on 'Des Moines Twp-Madrid School' style."
+}

@@ -1,0 +1,163 @@
+[
+ {
+  "office": "United States Senator",
+  "candidates": [
+   {
+    "name": "Ashley Hinson",
+    "party": "republican"
+   },
+   {
+    "name": "Josh Turek",
+    "party": "democratic"
+   },
+   {
+    "name": "Thomas Laehn",
+    "party": "libertarian"
+   }
+  ]
+ },
+ {
+  "office": "United States Representative, District 1",
+  "candidates": [
+   {
+    "name": "Mariannette Miller-Meeks",
+    "party": "republican"
+   },
+   {
+    "name": "Christina Bohannan",
+    "party": "democratic"
+   },
+   {
+    "name": "Michael Bridgford",
+    "party": null
+   }
+  ]
+ },
+ {
+  "office": "United States Representative, District 2",
+  "candidates": [
+   {
+    "name": "Joe Mitchell",
+    "party": "republican"
+   },
+   {
+    "name": "Lindsay James",
+    "party": "democratic"
+   },
+   {
+    "name": "Rick Stewart",
+    "party": "libertarian"
+   },
+   {
+    "name": "Dave Bushaw",
+    "party": null
+   }
+  ]
+ },
+ {
+  "office": "United States Representative, District 3",
+  "candidates": [
+   {
+    "name": "Zach Nunn",
+    "party": "republican"
+   },
+   {
+    "name": "Sarah Trone Garriott",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "United States Representative, District 4",
+  "candidates": [
+   {
+    "name": "Chris McGowan",
+    "party": "republican"
+   },
+   {
+    "name": "Dave Dawson",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "Governor and Lieutenant Governor",
+  "candidates": [
+   {
+    "name": "Zach Lahn",
+    "party": "republican",
+    "runningMate": "Derek Wulf"
+   },
+   {
+    "name": "Rob Sand",
+    "party": "democratic",
+    "runningMate": "Dave Muhlbauer"
+   }
+  ]
+ },
+ {
+  "office": "Secretary of State",
+  "candidates": [
+   {
+    "name": "Paul D. Pate",
+    "party": "republican"
+   },
+   {
+    "name": "Ryan Peterman",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "Auditor of State",
+  "candidates": [
+   {
+    "name": "Chris Cournoyer",
+    "party": "republican"
+   },
+   {
+    "name": "Taylor Wettach",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "Treasurer of State",
+  "candidates": [
+   {
+    "name": "Roby Smith",
+    "party": "republican"
+   },
+   {
+    "name": "John Norwood",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "Secretary of Agriculture",
+  "candidates": [
+   {
+    "name": "Mike Naig",
+    "party": "republican"
+   },
+   {
+    "name": "Chris Jones",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "Attorney General",
+  "candidates": [
+   {
+    "name": "Brenna Bird",
+    "party": "republican"
+   },
+   {
+    "name": "Nate Willems",
+    "party": "democratic"
+   }
+  ]
+ }
+]

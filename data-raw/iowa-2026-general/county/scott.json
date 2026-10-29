@@ -1,0 +1,441 @@
+{
+  "county": "Scott",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://elections.scottcountyiowa.gov/elections/info/2026_gubernatorial_general_election_2026_11_03/",
+    "https://elections.scottcountyiowa.gov/files/sample_ballots/1291_ag_township_style_2_98600.pdf",
+    "https://elections.scottcountyiowa.gov/files/sample_ballots/1291_pkv_sanitary_style_70_60815.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors (at-large)",
+      "scope": "county",
+      "seats": 3,
+      "candidates": [
+        {
+          "name": "Tim Carr",
+          "party": "democratic"
+        },
+        {
+          "name": "Stephen Doerscher",
+          "party": "democratic"
+        },
+        {
+          "name": "Kevin Randle",
+          "party": "democratic"
+        },
+        {
+          "name": "Jean Dickson",
+          "party": "republican"
+        },
+        {
+          "name": "John Maxwell",
+          "party": "republican"
+        },
+        {
+          "name": "Luana Stoltenberg",
+          "party": "republican"
+        },
+        {
+          "name": "Wendy Walljasper",
+          "party": "no party"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Samuel Samara",
+          "party": "democratic"
+        },
+        {
+          "name": "Gregory T Guy",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Toby Paone",
+          "party": "democratic"
+        },
+        {
+          "name": "Michael E Wulf",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kelly Cunningham-Haan",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Christine Bolte",
+          "party": null
+        },
+        {
+          "name": "Marty Larson",
+          "party": null
+        },
+        {
+          "name": "Chad Dexter",
+          "party": null
+        },
+        {
+          "name": "Alexandra Dermody",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Steve Gustafson",
+          "party": null
+        },
+        {
+          "name": "Julianne M. Fischer",
+          "party": null
+        },
+        {
+          "name": "Tom Monroe",
+          "party": null
+        },
+        {
+          "name": "Honey Bedell",
+          "party": null
+        },
+        {
+          "name": "Connie Nagel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council - To Fill A Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kathryn Fiscus",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Park View Water & Sanitary District Trustee",
+      "scope": "district",
+      "area": "Park View Water & Sanitary District",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Paul Conklin",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Allen's Grove Township Trustee",
+      "scope": "township",
+      "area": "Allen's Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Madden",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Allen's Grove Township Clerk",
+      "scope": "township",
+      "area": "Allen's Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steven Van Muenster",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Blue Grass Township Trustee",
+      "scope": "township",
+      "area": "Blue Grass",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Moeller",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Blue Grass Township Clerk",
+      "scope": "township",
+      "area": "Blue Grass",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Buffalo Township Trustee",
+      "scope": "township",
+      "area": "Buffalo",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Buffalo Township Clerk",
+      "scope": "township",
+      "area": "Buffalo",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dale A. Moses",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Butler Township Trustee",
+      "scope": "township",
+      "area": "Butler",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Andrea Baetke",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Butler Township Clerk",
+      "scope": "township",
+      "area": "Butler",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Meg Flenker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cleona Township Trustee",
+      "scope": "township",
+      "area": "Cleona",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mark Rathjen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cleona Township Clerk",
+      "scope": "township",
+      "area": "Cleona",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Joel S. Ralfs",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hickory Grove Township Trustee",
+      "scope": "township",
+      "area": "Hickory Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Terry Ralfs",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hickory Grove Township Clerk",
+      "scope": "township",
+      "area": "Hickory Grove",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "LeClaire Township Trustee",
+      "scope": "township",
+      "area": "LeClaire",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tom Moffit",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "LeClaire Township Clerk",
+      "scope": "township",
+      "area": "LeClaire",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "William Patterson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Liberty Township Trustee",
+      "scope": "township",
+      "area": "Liberty",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Gary Pingel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Liberty Township Clerk",
+      "scope": "township",
+      "area": "Liberty",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sally J. Howell",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Diane Holst",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Thomas P. Knapper",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Valley Township Trustee",
+      "scope": "township",
+      "area": "Pleasant Valley",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael VenHorst",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Valley Township Clerk",
+      "scope": "township",
+      "area": "Pleasant Valley",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Joy Peterson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Princeton Township Trustee",
+      "scope": "township",
+      "area": "Princeton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Princeton Township Clerk",
+      "scope": "township",
+      "area": "Princeton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Terry O'Neill",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sheridan Township Trustee",
+      "scope": "township",
+      "area": "Sheridan",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Sheridan Township Clerk",
+      "scope": "township",
+      "area": "Sheridan",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Winfield Township Trustee",
+      "scope": "township",
+      "area": "Winfield",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Keith Krambeck",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Winfield Township Clerk",
+      "scope": "township",
+      "area": "Winfield",
+      "seats": 1,
+      "candidates": []
+    }
+  ],
+  "measures": [],
+  "notes": "Supervisors elected AT-LARGE (every ballot style: Board of Supervisors, vote for no more than three). All 80 official sample ballot styles parsed. No county-level public measures (only the statewide constitutional amendment). Township trustee/clerk races are vote-for-one; several have no printed candidate (write-in only): Buffalo Twp Trustee, Blue Grass Twp Clerk, Hickory Grove Twp Clerk, Sheridan Twp Trustee and Clerk, Princeton Twp Trustee, Winfield Twp Clerk. Also on ballot style 70 only: Park View Water & Sanitary District Trustee (special district). Brendan O'Brien listed on county candidate page as WITHDRAWN."
+}

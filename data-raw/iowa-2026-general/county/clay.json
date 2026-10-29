@@ -1,0 +1,463 @@
+{
+ "county": "Clay",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://claycounty.iowa.gov/auditor/elections/",
+  "https://cap.gmdsolutions.com/viewfile.aspx?id=C798EB52C14748EB851EBAA4D8D6DB7B&dir=Objects",
+  "https://cap.gmdsolutions.com/viewfile.aspx?id=4638408F0CE84F6D84A1A2AE1FCCCCC1&dir=Objects"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors (at-large)",
+   "scope": "county",
+   "seats": 3,
+   "candidates": [
+    {
+     "name": "Barry G. Anderson",
+     "party": "republican"
+    },
+    {
+     "name": "Sharon Johannsen",
+     "party": "republican"
+    },
+    {
+     "name": "Brent W. Trierweiler",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "LeAnn Black",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sheila Weeks",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Travis Sumner Johnson",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Rick G Steuben",
+     "party": null
+    },
+    {
+     "name": "Leo Stephas",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Liz Biedenfeld",
+     "party": null
+    },
+    {
+     "name": "Gary L Johnson",
+     "party": null
+    },
+    {
+     "name": "Dirk Benson",
+     "party": null
+    },
+    {
+     "name": "Casey Schomaker",
+     "party": null
+    },
+    {
+     "name": "Renee Juza",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clay Township Trustee",
+   "scope": "township",
+   "area": "Clay",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gary Graham",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clay Township Clerk",
+   "scope": "township",
+   "area": "Clay",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Alice Roghair",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Douglas Township Trustee",
+   "scope": "township",
+   "area": "Douglas",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Stewart Lewis",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Douglas Township Clerk",
+   "scope": "township",
+   "area": "Douglas",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Marcia Larson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Freeman Township Trustee",
+   "scope": "township",
+   "area": "Freeman",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ryan Hoffman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Freeman Township Clerk",
+   "scope": "township",
+   "area": "Freeman",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nick Sorenson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Garfield Township Trustee",
+   "scope": "township",
+   "area": "Garfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Wayne Williams",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Garfield Township Clerk",
+   "scope": "township",
+   "area": "Garfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Karen Greene",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Gillett Grove Township Trustee",
+   "scope": "township",
+   "area": "Gillett Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "John Hargens",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Gillett Grove Township Clerk",
+   "scope": "township",
+   "area": "Gillett Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Janel Maurer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Herdland Township Trustee",
+   "scope": "township",
+   "area": "Herdland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kyle Patten",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Herdland Township Clerk",
+   "scope": "township",
+   "area": "Herdland",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lake Township Trustee",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Craig VonEhwegen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lake Township Clerk",
+   "scope": "township",
+   "area": "Lake",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jim T Eldridge",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Matt Hagedorn",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Logan Township Trustee",
+   "scope": "township",
+   "area": "Logan",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brett Smith",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Logan Township Clerk",
+   "scope": "township",
+   "area": "Logan",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lone Tree Township Trustee",
+   "scope": "township",
+   "area": "Lone Tree",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Keith R. Kruse",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lone Tree Township Clerk",
+   "scope": "township",
+   "area": "Lone Tree",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kathy Day",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Meadow Township Trustee",
+   "scope": "township",
+   "area": "Meadow",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ken Lawrence",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Meadow Township Clerk",
+   "scope": "township",
+   "area": "Meadow",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kimberley Maclean",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Peterson Township Trustee",
+   "scope": "township",
+   "area": "Peterson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mike Nims",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Peterson Township Clerk",
+   "scope": "township",
+   "area": "Peterson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Riverton Township Trustee",
+   "scope": "township",
+   "area": "Riverton",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Larsen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Riverton Township Clerk",
+   "scope": "township",
+   "area": "Riverton",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Michael Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sioux Township Trustee",
+   "scope": "township",
+   "area": "Sioux",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Beverly Hummel",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sioux Township Clerk",
+   "scope": "township",
+   "area": "Sioux",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bev Salton Dudziak",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Summit Township Trustee",
+   "scope": "township",
+   "area": "Summit",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Summit Township Clerk",
+   "scope": "township",
+   "area": "Summit",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Waterford Township Trustee",
+   "scope": "township",
+   "area": "Waterford",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jay Pearson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Waterford Township Clerk",
+   "scope": "township",
+   "area": "Waterford",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Debra Jessen",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "Source: Clay County Auditor's 'What is on the Ballot? General Election, Clay County, Iowa, Tuesday, November 3, 2026' (6-page PDF hosted on the county's GMD Solutions document service, linked from the county elections page), with the candidate list also downloaded. Board of Supervisors is at-large: vote for no more than 3, county-wide (precinct rotation required). Township offices with empty candidate lists are on the ballot with write-in lines only. No county hospital trustee race and no local public measures are listed (only the statewide constitutional amendment)."
+}

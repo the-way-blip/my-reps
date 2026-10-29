@@ -1,0 +1,538 @@
+{
+ "county": "Cedar",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://elections.cedarcounty.iowa.gov/elections/info/general_2026_11_03/",
+  "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_springdale_township_kcc_90105.pdf",
+  "https://elections.cedarcounty.iowa.gov/files/sample_ballots/1097_tipton_1_37393.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors (at-large)",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Michael Bixler",
+     "party": "republican"
+    },
+    {
+     "name": "Warren Wethington",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sandra Delaney",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Melissa Bahnsen",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Adam Blank",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner (To Fill Vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James Pelzer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Jeffrey T. Lafrenz",
+     "party": null
+    },
+    {
+     "name": "Alan Beyer",
+     "party": null
+    },
+    {
+     "name": "Finn Bendixen",
+     "party": null
+    },
+    {
+     "name": "Katerina Storjohann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cass Township Trustee",
+   "scope": "township",
+   "area": "Cass",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David F. Swan",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cass Township Clerk",
+   "scope": "township",
+   "area": "Cass",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kelly C. Thomas",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Trustee",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "William Schwitzer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Loren Mohr",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Clerk",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Devalyn Wilson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dayton Township Trustee",
+   "scope": "township",
+   "area": "Dayton",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Dayton Township Clerk",
+   "scope": "township",
+   "area": "Dayton",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Fairfield Township Trustee",
+   "scope": "township",
+   "area": "Fairfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Scott Tholen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fairfield Township Clerk",
+   "scope": "township",
+   "area": "Fairfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Duane C. Stonerook",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Farmington Township Trustee",
+   "scope": "township",
+   "area": "Farmington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "John Kirkman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Farmington Township Clerk",
+   "scope": "township",
+   "area": "Farmington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Greg Shuger",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Trustee",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dennis E. Coppess",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Clerk",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Linda K. Coppess",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Gower Township Trustee",
+   "scope": "township",
+   "area": "Gower",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dale R Slach",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Gower Township Clerk",
+   "scope": "township",
+   "area": "Gower",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Douglas Klein",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Inland Township Trustee",
+   "scope": "township",
+   "area": "Inland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lori Dunn",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Inland Township Clerk",
+   "scope": "township",
+   "area": "Inland",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Logan Peitscher",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Iowa Township Trustee",
+   "scope": "township",
+   "area": "Iowa",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Iowa Township Clerk",
+   "scope": "township",
+   "area": "Iowa",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sara Yoder",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Linn Township Trustee",
+   "scope": "township",
+   "area": "Linn",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Russ Cook",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Linn Township Clerk",
+   "scope": "township",
+   "area": "Linn",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Julie Broulik",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Massillon Township Trustee",
+   "scope": "township",
+   "area": "Massillon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Penny Vacek",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Massillon Township Clerk",
+   "scope": "township",
+   "area": "Massillon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brenda Hansen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pioneer Township Trustee",
+   "scope": "township",
+   "area": "Pioneer",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Glen D Weber",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pioneer Township Clerk",
+   "scope": "township",
+   "area": "Pioneer",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christine Weber",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Red Oak Township Trustee",
+   "scope": "township",
+   "area": "Red Oak",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Paul A Urmie",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Red Oak Township Clerk",
+   "scope": "township",
+   "area": "Red Oak",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Barbara J. Haynes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Rochester Township Trustee",
+   "scope": "township",
+   "area": "Rochester",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jacie Thomsen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Rochester Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Rochester",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jon L Zobel",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Rochester Township Clerk",
+   "scope": "township",
+   "area": "Rochester",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Terry A. LeDoux",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Springdale Township Trustee",
+   "scope": "township",
+   "area": "Springdale",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mike Lodge",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Springdale Township Clerk",
+   "scope": "township",
+   "area": "Springdale",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Trent Hansen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Springfield Township Trustee",
+   "scope": "township",
+   "area": "Springfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bill Urmie",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Springfield Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Springfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Niermeyer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Springfield Township Clerk",
+   "scope": "township",
+   "area": "Springfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Julie Schroeder",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sugar Creek Township Trustee",
+   "scope": "township",
+   "area": "Sugar Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Matt Bowers",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sugar Creek Township Clerk",
+   "scope": "township",
+   "area": "Sugar Creek",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "Tipton Community School District Public Measure A",
+   "jurisdiction": "Tipton Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Tipton Community School District in the County of Cedar, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $16,100,000 to provide funds to build, furnish, and equip additions to the high school, including a secure entrance, gymnasium, and commons area; to remodel, repair, improve, and equip the high school, including educational and administrative spaces; and to improve the site, including parking?"
+  },
+  {
+   "name": "Kirkwood Community College (Merged Area X) Public Measure NC",
+   "jurisdiction": "Kirkwood Community College Merged Area X (Cedar County portion)",
+   "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+  }
+ ],
+ "notes": "Parsed from all 38 official precinct/ballot-style sample ballots on the Cedar County elections site. Board of Supervisors is at-large: every ballot shows 'County Board of Supervisors - Vote for no more than two' (candidate order rotates between styles). Regular Soil and Water Conservation District race (vote for two) has no filed candidates (write-in only); separate SWCD vacancy race. Ag Extension: 4 candidates for 5 seats. No county hospital trustee race. Tipton CSD bond appears on 11 ballot styles; Kirkwood Community College bond on 27 ballot styles (all styles marked kcc/tiptonkcc plus Tipton precincts)."
+}

@@ -1,0 +1,1220 @@
+[
+ {
+  "office": "State Representative, District 61",
+  "name": "Vincent Collis",
+  "grade": "D",
+  "gradeNote": "No voting record or group ratings beyond an iVoterGuide 'Liberal' rating; grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 61 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa",
+   "https://www.nrapvf.org/grades/iowa/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "No position or rating found on gun rights.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 61",
+  "name": "Lucas Hewitt",
+  "grade": null,
+  "gradeNote": "No party affiliation listed; iVoterGuide rates as 'Insufficient Information' and no votes, endorsements or stated positions were found.",
+  "description": "Candidate for State Representative, District 61 (no party affiliation).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  },
+  "gradeJustifications": {
+   "proLife": null,
+   "marriage": null,
+   "religiousLiberty": null,
+   "secondAmendment": null,
+   "limitedGov": null,
+   "fiscal": null
+  }
+ },
+ {
+  "office": "State Representative, District 62",
+  "name": "Jerome Amos Jr",
+  "grade": "D",
+  "gradeNote": "Incumbent voted no on HF 732, SF 538, SF 496, SF 418, HF 68 and SF 2442; NRA-PVF grade C.",
+  "description": "Incumbent state representative for District 62; Democratic.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on HF 732 (2023 six-week heartbeat abortion law).",
+   "marriage": "Voted no on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights) and SF 418 (2025 gender identity removed from Civil Rights Act).",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade C; Iowa Firearms Coalition vote index 20.6%.",
+   "limitedGov": "Voted no on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted no on SF 2442 (2024 flat income tax)."
+  }
+ },
+ {
+  "office": "State Representative, District 63",
+  "name": "Michael R. Bergan",
+  "grade": "C",
+  "gradeNote": "Incumbent with NRA A endorsement and yes votes on both flat-tax bills, but no votes on HF 68 school choice, SF 496, HF 2416 and SF 418, and absent on HF 732.",
+  "description": "Incumbent state representative for District 63; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "A",
+   "limitedGov": "D",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Recorded absent on HF 732 (2023 heartbeat law); no IRTL questionnaire listing; Republican nominee suggests pro-life alignment.",
+   "marriage": "Voted yes on SF 538 (2023 minors' gender-transition ban) but no on SF 496 (2023 parental rights), HF 2416 (2022 girls' sports) and SF 418 (2025).",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed; voted yes on HF 756 (2021 permitless carry); IFC vote index 93.6%.",
+   "limitedGov": "Voted no on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on HF 2317 (2022) and SF 2442 (2024) flat income tax bills."
+  }
+ },
+ {
+  "office": "State Representative, District 63",
+  "name": "Jeff Thurlow",
+  "grade": "D",
+  "gradeNote": "No voting record or group ratings beyond an iVoterGuide 'Liberal' rating; grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 63 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "No position or rating found on gun rights.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 64",
+  "name": "Jason Gearhart",
+  "grade": "B",
+  "gradeNote": "IRTL 2026 A+ questionnaire list, NRA A+ endorsement, AFP-Iowa endorsement, and yes votes on SF 418 and HF 856.",
+  "description": "Incumbent state representative for District 64; Republican.",
+  "website": null,
+  "sources": [
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://americansforprosperity.org/press-release/afp-iowa-expands-slate-of-state-legislative-endorsements/",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Listed on Iowa Right to Life's 2026 questionnaire A+ list (answered yes to all pro-life questions; IRTL notes this is not an endorsement).",
+   "marriage": "Voted yes on SF 418 (2025 gender identity removed from Iowa Civil Rights Act).",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A+ and endorsed.",
+   "limitedGov": "Endorsed by AFP-Iowa 2026; voted yes on HF 856 (2025 DEI ban).",
+   "fiscal": "Endorsed by AFP-Iowa 2026; no flat-tax vote (not in office in 2022/2024)."
+  }
+ },
+ {
+  "office": "State Representative, District 64",
+  "name": "Brian Bruening",
+  "grade": "D",
+  "gradeNote": "Endorsed by Planned Parenthood Advocates of Iowa PAC; NRA grade F and Moms Demand Gun Sense Candidate.",
+  "description": "Candidate for State Representative, District 64 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-iowa/election/endorsed-candidates",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Iowa PAC in 2026.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade F; Moms Demand Action 2026 Gun Sense Candidate.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 65",
+  "name": "Shannon Lundgren",
+  "grade": "A",
+  "gradeNote": "Incumbent voted yes on HF 732, SF 538, SF 496, HF 2416, SF 418, HF 68 and both flat-tax bills; NRA A endorsement and IRTL 2026 A+ list.",
+  "description": "Incumbent state representative for District 65; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa",
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on HF 732 (2023 six-week heartbeat abortion law); also on Iowa Right to Life's 2026 questionnaire A+ list (not an endorsement).",
+   "marriage": "Voted yes on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights), HF 2416 (2022 girls' sports) and SF 418 (2025).",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed; voted yes on HF 756 (2021 permitless carry); IFC vote index 94.1%.",
+   "limitedGov": "Voted yes on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on HF 2317 (2022) and SF 2442 (2024) flat income tax bills."
+  }
+ },
+ {
+  "office": "State Representative, District 65",
+  "name": "Carolyn Wiezorek",
+  "grade": "D",
+  "gradeNote": "Moms Demand Action Gun Sense Candidate; other grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 65 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "Moms Demand Action 2026 Gun Sense Candidate.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 66",
+  "name": "Steven Bradley",
+  "grade": "A",
+  "gradeNote": "Incumbent voted yes on HF 732, SF 538, SF 496, HF 2416, SF 418, HF 68 and both flat-tax bills; NRA A endorsement, AFP-Iowa endorsement and IRTL 2026 A+ list.",
+  "description": "Incumbent state representative for District 66; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa",
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://americansforprosperity.org/press-release/afp-iowa-expands-slate-of-state-legislative-endorsements/"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on HF 732 (2023 six-week heartbeat abortion law); also on Iowa Right to Life's 2026 questionnaire A+ list (not an endorsement).",
+   "marriage": "Voted yes on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights), HF 2416 (2022 girls' sports) and SF 418 (2025).",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed; voted yes on HF 756 (2021 permitless carry); IFC vote index 97.1%.",
+   "limitedGov": "Voted yes on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on HF 2317 (2022) and SF 2442 (2024) flat income tax bills."
+  }
+ },
+ {
+  "office": "State Representative, District 66",
+  "name": "Matt English",
+  "grade": "D",
+  "gradeNote": "NRA grade F and Moms Demand Gun Sense Candidate; other grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 66 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade F; Moms Demand Action 2026 Gun Sense Candidate.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 67",
+  "name": "Craig Johnson",
+  "grade": "A",
+  "gradeNote": "Incumbent voted yes on HF 732, SF 538, SF 496, HF 2416, SF 418, HF 68 and both flat-tax bills; NRA A endorsement and IRTL 2026 A+ list.",
+  "description": "Incumbent state representative for District 67; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20210322_SJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/SJNL/20220224_SJNL.pdf",
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on HF 732 (2023 six-week heartbeat abortion law); also on Iowa Right to Life's 2026 questionnaire A+ list (not an endorsement).",
+   "marriage": "Voted yes on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights), HF 2416 (2022 girls' sports) and SF 418 (2025).",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed; voted yes on HF 756 (2021 permitless carry, as a senator); IFC vote index 95.9%.",
+   "limitedGov": "Voted yes on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on HF 2317 (2022) and SF 2442 (2024) flat income tax bills."
+  }
+ },
+ {
+  "office": "State Representative, District 67",
+  "name": "Michael Coonrad",
+  "grade": "D",
+  "gradeNote": "NRA grade F and Moms Demand Gun Sense Candidate; other grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 67 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade F; Moms Demand Action 2026 Gun Sense Candidate.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 68",
+  "name": "Chad Ingels",
+  "grade": "B",
+  "gradeNote": "Incumbent voted yes on HF 732, HF 756 and both flat-tax bills, but no on HF 68 school choice, SF 538 and SF 496.",
+  "description": "Incumbent state representative for District 68; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "D",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "D",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on HF 732 (2023 six-week heartbeat abortion law).",
+   "marriage": "Voted yes on HF 2416 (2022 girls' sports) but no on SF 538 (2023 minors' gender-transition ban) and SF 496 (2023 parental rights); absent on SF 418.",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed; voted yes on HF 756 (2021 permitless carry); IFC vote index 92.0%.",
+   "limitedGov": "Voted no on HF 68 (2023 Students First school-choice accounts), though yes on HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on HF 2317 (2022) and SF 2442 (2024) flat income tax bills."
+  }
+ },
+ {
+  "office": "State Representative, District 68",
+  "name": "Scott Bodley",
+  "grade": "D",
+  "gradeNote": "No voting record or group ratings beyond an iVoterGuide 'Liberal' rating; grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 68 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "No position or rating found on gun rights.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 69",
+  "name": "Tom Determann",
+  "grade": "A",
+  "gradeNote": "Incumbent voted yes on SF 538, SF 496, SF 418, HF 68 and SF 2442 with an NRA A endorsement; absent on HF 732.",
+  "description": "Incumbent state representative for District 69; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Recorded absent on HF 732 (2023 heartbeat law); no IRTL questionnaire listing; Republican nominee suggests pro-life alignment.",
+   "marriage": "Voted yes on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights) and SF 418 (2025).",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed; IFC vote index 100%.",
+   "limitedGov": "Voted yes on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on SF 2442 (2024 flat income tax)."
+  }
+ },
+ {
+  "office": "State Representative, District 69",
+  "name": "Randy Meier",
+  "grade": "D",
+  "gradeNote": "No voting record or group ratings beyond an iVoterGuide 'Liberal' rating; grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 69 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "No position or rating found on gun rights.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 70",
+  "name": "Norlin Mommsen",
+  "grade": "A",
+  "gradeNote": "Incumbent voted yes on HF 732, HF 68, HF 756 and both flat-tax bills with an NRA A endorsement; voted no on SF 418.",
+  "description": "Incumbent state representative for District 70; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on HF 732 (2023 six-week heartbeat abortion law).",
+   "marriage": "Voted yes on SF 538 (2023), SF 496 (2023) and HF 2416 (2022) but no on SF 418 (2025 gender identity removed from Civil Rights Act).",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed; voted yes on HF 756 (2021 permitless carry); IFC vote index 100%.",
+   "limitedGov": "Voted yes on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on HF 2317 (2022) and SF 2442 (2024) flat income tax bills."
+  }
+ },
+ {
+  "office": "State Representative, District 70",
+  "name": "George Pickup",
+  "grade": "D",
+  "gradeNote": "No voting record or group ratings beyond an iVoterGuide 'Liberal' rating; grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 70 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "No position or rating found on gun rights.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 71",
+  "name": "Sam Wooden",
+  "grade": "D",
+  "gradeNote": "No voting record, endorsements or ratings found (no NRA-PVF rating); grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 71 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "No position or rating found on gun rights.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 72",
+  "name": "Jennifer Smith",
+  "grade": "B",
+  "gradeNote": "Incumbent first seated in 2025; NRA A endorsement, AFP-Iowa endorsement, and yes votes on SF 418 and HF 856.",
+  "description": "Incumbent state representative for District 72; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://americansforprosperity.org/press-release/afp-iowa-expands-slate-of-state-legislative-endorsements/",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No recorded vote or questionnaire found; Republican nominee suggests pro-life alignment.",
+   "marriage": "Voted yes on SF 418 (2025 gender identity removed from Iowa Civil Rights Act).",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed.",
+   "limitedGov": "Endorsed by AFP-Iowa 2026; voted yes on HF 856 (2025 DEI ban).",
+   "fiscal": "Endorsed by AFP-Iowa 2026; not in office for the 2022/2024 flat-tax votes."
+  }
+ },
+ {
+  "office": "State Representative, District 72",
+  "name": "Matt Robinson",
+  "grade": "D",
+  "gradeNote": "NRA grade F and Moms Demand Gun Sense Candidate; other grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 72 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade F; Moms Demand Action 2026 Gun Sense Candidate.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 73",
+  "name": "Elizabeth Wilson",
+  "grade": "D",
+  "gradeNote": "Incumbent voted no on HF 732, SF 538, SF 496, SF 418 and HF 68, with NRA grade F; voted yes on SF 2442.",
+  "description": "Incumbent state representative for District 73; Democratic.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on HF 732 (2023 six-week heartbeat abortion law).",
+   "marriage": "Voted no on SF 538 (2023), SF 496 (2023) and SF 418 (2025).",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade F; IFC vote index 36.5%.",
+   "limitedGov": "Voted no on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on SF 2442 (2024 flat income tax)."
+  }
+ },
+ {
+  "office": "State Representative, District 74",
+  "name": "Eric Gjerde",
+  "grade": "D",
+  "gradeNote": "Incumbent voted no on HF 732, SF 538, SF 496, HF 2416, SF 418, HF 68 and HF 756, with NRA grade F; split on the two flat-tax bills.",
+  "description": "Incumbent state representative for District 74; Democratic.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "C"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on HF 732 (2023 six-week heartbeat abortion law).",
+   "marriage": "Voted no on SF 538 (2023), SF 496 (2023), HF 2416 (2022) and SF 418 (2025).",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade F; voted no on HF 756 (2021 permitless carry); IFC vote index 28.2%.",
+   "limitedGov": "Voted no on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted no on HF 2317 (2022 flat tax) but yes on SF 2442 (2024 flat tax)."
+  }
+ },
+ {
+  "office": "State Representative, District 75",
+  "name": "Drew Stensland",
+  "grade": "D",
+  "gradeNote": "No voting record, endorsements or ratings found (no NRA-PVF rating); grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 75 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "No position or rating found on gun rights.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 76",
+  "name": "Matt Reisetter",
+  "grade": "B",
+  "gradeNote": "Non-incumbent with an iVoterGuide 'Conservative' rating; no votes, NRA grade or questionnaire listing found, so grades reflect Republican nominee signals.",
+  "description": "Candidate for State Representative, District 76 (Republican).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "B",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "No recorded vote or questionnaire found; Republican nominee suggests pro-life alignment.",
+   "marriage": "No recorded votes found; Republican nominee suggests support for parental rights and traditional family positions.",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "No rating or votes found; Republican nominee suggests support for gun rights.",
+   "limitedGov": "No recorded votes found; Republican nominee suggests support for school choice and limited government.",
+   "fiscal": "No recorded votes found; Republican nominee suggests support for lower taxes."
+  }
+ },
+ {
+  "office": "State Representative, District 76",
+  "name": "Calvin Horn",
+  "grade": "D",
+  "gradeNote": "NRA grade F and Moms Demand Gun Sense Candidate; other grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 76 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade F; Moms Demand Action 2026 Gun Sense Candidate.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 77",
+  "name": "Jeff Cooling",
+  "grade": "D",
+  "gradeNote": "Incumbent voted no on HF 732, SF 538, SF 496, SF 418, HF 68 and SF 2442; NRA grade C.",
+  "description": "Incumbent state representative for District 77; Democratic.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on HF 732 (2023 six-week heartbeat abortion law).",
+   "marriage": "Voted no on SF 538 (2023), SF 496 (2023) and SF 418 (2025).",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade C; IFC vote index 28.6%.",
+   "limitedGov": "Voted no on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted no on SF 2442 (2024 flat income tax)."
+  }
+ },
+ {
+  "office": "State Representative, District 78",
+  "name": "Angel Ramirez",
+  "grade": "D",
+  "gradeNote": "Incumbent seated during the 2025 session whose only captured vote is no on HF 856; other grades reflect Democratic party-platform inference.",
+  "description": "Incumbent state representative for District 78; Democratic.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "No position or rating found on gun rights.",
+   "limitedGov": "Voted no on HF 856 (2025 DEI ban); Democratic platform alignment suggests opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 79",
+  "name": "Barclay Woerner",
+  "grade": "B",
+  "gradeNote": "IRTL 2026 A+ questionnaire list, NRA grade B and iVoterGuide 'Conservative' rating.",
+  "description": "Candidate for State Representative, District 79 (Republican).",
+  "website": null,
+  "sources": [
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "B",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Listed on Iowa Right to Life's 2026 questionnaire A+ list (answered yes to all pro-life questions; IRTL notes this is not an endorsement).",
+   "marriage": "No recorded votes found; Republican nominee suggests support for parental rights and traditional family positions.",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade B.",
+   "limitedGov": "No recorded votes found; Republican nominee suggests support for school choice and limited government.",
+   "fiscal": "No recorded votes found; Republican nominee suggests support for lower taxes."
+  }
+ },
+ {
+  "office": "State Representative, District 79",
+  "name": "Tracy Ehlert",
+  "grade": "F",
+  "gradeNote": "Incumbent voted no on HF 732, SF 538, HF 2416, SF 418, HF 68, HF 756 and both flat-tax bills; endorsed by Planned Parenthood Advocates of Iowa PAC.",
+  "description": "Incumbent state representative for District 79; Democratic.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa",
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-iowa/election/endorsed-candidates"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "F"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted no on HF 732 (2023 heartbeat abortion law); endorsed by Planned Parenthood Advocates of Iowa PAC in 2026.",
+   "marriage": "Voted no on SF 538 (2023), HF 2416 (2022) and SF 418 (2025).",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade F; voted no on HF 756 (2021 permitless carry).",
+   "limitedGov": "Voted no on HF 68 (2023 Students First school-choice accounts).",
+   "fiscal": "Voted no on HF 2317 (2022) and SF 2442 (2024) flat income tax bills."
+  }
+ },
+ {
+  "office": "State Representative, District 80",
+  "name": "Aime J Wichtendahl",
+  "grade": "F",
+  "gradeNote": "Incumbent endorsed by Planned Parenthood Advocates of Iowa PAC and Moms Demand; voted no on SF 418 and HF 856.",
+  "description": "Incumbent state representative for District 80; Democratic.",
+  "website": null,
+  "sources": [
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-iowa/election/endorsed-candidates",
+   "https://gunsensevoter.org/states/ia/voterguide/",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "F",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Iowa PAC in 2026.",
+   "marriage": "Voted no on SF 418 (2025 gender identity removed from Iowa Civil Rights Act).",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade F; Moms Demand Action 2026 Gun Sense Candidate.",
+   "limitedGov": "Voted no on HF 856 (2025 DEI ban).",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 81",
+  "name": "Dillon Fillion",
+  "grade": "B",
+  "gradeNote": "IRTL 2026 A+ questionnaire list, NRA AQ grade and iVoterGuide 'Conservative' rating.",
+  "description": "Candidate for State Representative, District 81 (Republican).",
+  "website": null,
+  "sources": [
+   "https://iowartl.org/wp-content/uploads/2026/09/Pro-Life-A-Plus-List-as-of-Oct15.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "B",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "B",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Listed on Iowa Right to Life's 2026 questionnaire A+ list (answered yes to all pro-life questions; IRTL notes this is not an endorsement).",
+   "marriage": "No recorded votes found; Republican nominee suggests support for parental rights and traditional family positions.",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade AQ (A based on questionnaire).",
+   "limitedGov": "No recorded votes found; Republican nominee suggests support for school choice and limited government.",
+   "fiscal": "No recorded votes found; Republican nominee suggests support for lower taxes."
+  }
+ },
+ {
+  "office": "State Representative, District 81",
+  "name": "Daniel Gosa",
+  "grade": "D",
+  "gradeNote": "Incumbent endorsed by both Planned Parenthood Advocates of Iowa PAC and the NRA-PVF (grade A); voted no on SF 418 and HF 856.",
+  "description": "Incumbent state representative for District 81; Democratic.",
+  "website": null,
+  "sources": [
+   "https://www.plannedparenthoodaction.org/planned-parenthood-advocates-iowa/election/endorsed-candidates",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "F",
+   "marriage": "F",
+   "religiousLiberty": "C",
+   "secondAmendment": "A",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "Endorsed by Planned Parenthood Advocates of Iowa PAC in 2026.",
+   "marriage": "Voted no on SF 418 (2025 gender identity removed from Iowa Civil Rights Act).",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed.",
+   "limitedGov": "Voted no on HF 856 (2025 DEI ban).",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 82",
+  "name": "Bobby Kaufmann",
+  "grade": "A",
+  "gradeNote": "Incumbent voted yes on HF 732, SF 538, SF 496, HF 2416, SF 418, HF 68, HF 756 and both flat-tax bills; NRA A endorsement.",
+  "description": "Incumbent state representative for District 82; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220221_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20220224_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "A"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on HF 732 (2023 six-week heartbeat abortion law).",
+   "marriage": "Voted yes on SF 538 (2023 minors' gender-transition ban), SF 496 (2023 parental rights), HF 2416 (2022 girls' sports) and SF 418 (2025).",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed; voted yes on HF 756 (2021 permitless carry); IFC vote index 100%.",
+   "limitedGov": "Voted yes on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Voted yes on HF 2317 (2022) and SF 2442 (2024) flat income tax bills."
+  }
+ },
+ {
+  "office": "State Representative, District 82",
+  "name": "James Behrmann",
+  "grade": "D",
+  "gradeNote": "NRA grade C and iVoterGuide 'Liberal' rating; other grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 82 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade C.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ },
+ {
+  "office": "State Representative, District 83",
+  "name": "Cindy Golding",
+  "grade": "A",
+  "gradeNote": "Incumbent voted yes on HF 732, SF 538, SF 496, SF 418 and HF 68; NRA A and AFP-Iowa endorsements.",
+  "description": "Incumbent state representative for District 83; Republican.",
+  "website": null,
+  "sources": [
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230711_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230308_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230420_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250227_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20230123_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20250513_HJNL.pdf",
+   "https://www.legis.iowa.gov/docs/publications/HJNL/20240419_HJNL.pdf",
+   "https://www.nrapvf.org/grades/iowa/",
+   "https://americansforprosperity.org/press-release/afp-iowa-expands-slate-of-state-legislative-endorsements/",
+   "https://www.ifcpac.org/legislative-scorecard/",
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "A",
+   "marriage": "A",
+   "religiousLiberty": "B",
+   "secondAmendment": "A",
+   "limitedGov": "A",
+   "fiscal": "B"
+  },
+  "gradeJustifications": {
+   "proLife": "Voted yes on HF 732 (2023 six-week heartbeat abortion law).",
+   "marriage": "Voted yes on SF 538 (2023), SF 496 (2023) and SF 418 (2025).",
+   "religiousLiberty": "No direct position found; Republican nominee suggests support for religious liberty.",
+   "secondAmendment": "NRA-PVF 2026 grade A and endorsed; IFC vote index 92.1%.",
+   "limitedGov": "Voted yes on HF 68 (2023 Students First school-choice accounts) and HF 856 (2025 DEI ban).",
+   "fiscal": "Recorded absent on SF 2442 (2024 flat tax); endorsed by AFP-Iowa 2026."
+  }
+ },
+ {
+  "office": "State Representative, District 83",
+  "name": "Mike Bergman",
+  "grade": "D",
+  "gradeNote": "No voting record or group ratings beyond an iVoterGuide 'Liberal' rating; grades reflect Democratic party-platform inference.",
+  "description": "Candidate for State Representative, District 83 (Democratic).",
+  "website": null,
+  "sources": [
+   "https://ivoterguide.com/voter-guide/state/iowa"
+  ],
+  "positions": {
+   "proLife": "D",
+   "marriage": "D",
+   "religiousLiberty": "C",
+   "secondAmendment": "C",
+   "limitedGov": "D",
+   "fiscal": "D"
+  },
+  "gradeJustifications": {
+   "proLife": "No explicit pro-life positions found; running as Democrat suggests pro-choice alignment.",
+   "marriage": "No explicit positions found on marriage, parental rights or gender ideology; Democratic platform alignment suggests opposition to related conservative measures.",
+   "religiousLiberty": "No position found on religious liberty.",
+   "secondAmendment": "No position or rating found on gun rights.",
+   "limitedGov": "No explicit positions found; Democratic platform alignment suggests support for expanded government programs and opposition to school choice.",
+   "fiscal": "No explicit positions found; Democratic platform alignment suggests support for higher taxes and spending."
+  }
+ }
+]

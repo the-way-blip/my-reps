@@ -1,0 +1,113 @@
+{
+ "county": "Carroll",
+ "found": true,
+ "partial": true,
+ "sources": [
+  "https://www.carrollcountyiowa.gov/pview.aspx?catid=563&id=20988",
+  "https://www.carrollcountyiowa.gov/docview.aspx?docid=32022 (110326SampleBallot...pdf)",
+  "https://www.carrollcountyiowa.gov/docview.aspx?docid=31877 (2022 General Election Results)",
+  "https://ballotpedia.org/Carroll_County,_Iowa,_elections,_2026",
+  "https://electionresults.iowa.gov/IA/Carroll/122336/354157/json/en/summary.json (2024 general contest list)"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mary Wittry",
+     "party": "republican"
+    }
+   ],
+   "area": "countywide (residency district)"
+  },
+  {
+   "office": "Board of Supervisors, District 4",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kenneth E. Pingrey",
+     "party": "republican"
+    }
+   ],
+   "area": "countywide (residency district)"
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lisa Wagner",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ashten Wittrock",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Curt S. Steger",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kristina Whitver Soyer",
+     "party": null
+    },
+    {
+     "name": "Brett Greve",
+     "party": null
+    },
+    {
+     "name": "David Slechta",
+     "party": null
+    },
+    {
+     "name": "Ashley Wilson",
+     "party": null
+    },
+    {
+     "name": "Julie A. Clancy",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure DA - Carroll Community School District General Obligation Bonds",
+   "jurisdiction": "Carroll Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Carroll Community School District in the County of Carroll, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $51,000,000 to provide funds to build, furnish, and equip additions to the high school and to remodel, repair, improve, furnish, and equip the high school and middle school, including site improvements, to facilitate the closure of Adams Elementary School?"
+  }
+ ],
+ "notes": "PARTIAL. The official site (www.carrollcountyiowa.gov) posts a single 2-page scanned sample ballot (rendered and read visually); no candidate list, notice of election, or other ballot styles are posted (checked all county documents uploaded Aug-Oct 2026), and the newspaper notice could not be opened (iowapublicnotices.com blocks viewing). Supervisors: CONFIRMED countywide vote with residency districts - in the 2022 general (same Districts 2 and 4) both district contests were reported from all 13 precincts with ~8,000 votes each, and both appear on the 2026 sample ballot. Each is vote for one. SWCD is vote for two with no printed candidates (write-in only). The posted ballot style carries the Carroll CSD measure (Public Measure DA). STILL MISSING: township contests. In the 2022 general (same cycle) all 12 townships - Arcadia, Eden, Ewoldt, Glidden, Grant, Jasper, Newton, Richland, Sheridan, Union, Washington, Wheatland - elected a trustee and a clerk, so 2026 township trustee/clerk contests are expected countywide, but no 2026 candidate names were found (Ballotpedia lists no Carroll township contests). Also unknown: any other precinct-specific measures on styles outside the Carroll CSD."
+}

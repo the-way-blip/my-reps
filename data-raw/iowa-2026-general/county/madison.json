@@ -1,0 +1,522 @@
+{
+ "county": "Madison",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://madisoncounty.iowa.gov/offices/auditor/elections/",
+  "https://cap.gmdsolutions.com/viewfile.aspx?id=3AEFC9BC40D44311A70022E7BD693C9C&dir=Objects",
+  "https://cap.gmdsolutions.com/viewfile.aspx?id=5493C0EFBD01433EB8EBF5E45900EB8&dir=Objects"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Allen Todd Anderson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dan Miller Hutton",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Stephen J Swanson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kylee Barber",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brandy Macumber",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Hospital Trustees",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Brian Gibson",
+     "party": null
+    },
+    {
+     "name": "Shari Carlson",
+     "party": null
+    },
+    {
+     "name": "Jacque Mohs",
+     "party": null
+    },
+    {
+     "name": "Jared McDonald",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioners",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Thomas Moss",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Amy Warnke",
+     "party": null
+    },
+    {
+     "name": "Lisa Jones",
+     "party": null
+    },
+    {
+     "name": "Donna Bane",
+     "party": null
+    },
+    {
+     "name": "Tiffany Jensen",
+     "party": null
+    },
+    {
+     "name": "Mitzi Berkland",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Agricultural Extension Council (To Fill Vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jennifer Katzer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Crawford Township Trustee",
+   "scope": "township",
+   "area": "Crawford",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dennis Schrodt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Crawford Township Clerk",
+   "scope": "township",
+   "area": "Crawford",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sherry Ruth",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Douglas Township Trustee",
+   "scope": "township",
+   "area": "Douglas",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Douglas Township Clerk",
+   "scope": "township",
+   "area": "Douglas",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Grand River Township Trustee",
+   "scope": "township",
+   "area": "Grand River",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Brandon Brimm",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grand River Township Clerk",
+   "scope": "township",
+   "area": "Grand River",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kepler Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "William Jensen",
+     "party": null
+    },
+    {
+     "name": "Jeff Koch",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Teresa Boston",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lee Township Trustee",
+   "scope": "township",
+   "area": "Lee",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Lee Township Clerk",
+   "scope": "township",
+   "area": "Lee",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Colton Eyerly",
+     "party": null
+    },
+    {
+     "name": "Brad Gibson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Julie Waltz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Trustee",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Keith M Williamson",
+     "party": null
+    },
+    {
+     "name": "Frederick Martens",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Clerk",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Don Brittain",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Monroe Township Trustee",
+   "scope": "township",
+   "area": "Monroe",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Gary Leopold",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Monroe Township Clerk",
+   "scope": "township",
+   "area": "Monroe",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "William Coverdale",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Ohio Township Trustee",
+   "scope": "township",
+   "area": "Ohio",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Ohio Township Clerk",
+   "scope": "township",
+   "area": "Ohio",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Penn Township Trustee",
+   "scope": "township",
+   "area": "Penn",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Charles Lenze",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Penn Township Clerk",
+   "scope": "township",
+   "area": "Penn",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Patricia Hochstetler",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Penn Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Penn",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mason M. Neal",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Scott Township Trustee",
+   "scope": "township",
+   "area": "Scott",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jeff Manny",
+     "party": null
+    },
+    {
+     "name": "Evan Hollingsworth",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Scott Township Clerk",
+   "scope": "township",
+   "area": "Scott",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Connie Manny",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "South Township Trustee",
+   "scope": "township",
+   "area": "South",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Richard Burhans",
+     "party": null
+    },
+    {
+     "name": "Ron Stout",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "South Township Clerk",
+   "scope": "township",
+   "area": "South",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ron Lyon",
+     "party": null
+    },
+    {
+     "name": "Daniel K. Ryner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ted Benshoof",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Walnut Township Trustee",
+   "scope": "township",
+   "area": "Walnut",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Steve Agan",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Walnut Township Clerk",
+   "scope": "township",
+   "area": "Walnut",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Webster Township Trustee",
+   "scope": "township",
+   "area": "Webster",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ken Klingaman",
+     "party": null
+    },
+    {
+     "name": "Susie R. Shipman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Webster Township Clerk",
+   "scope": "township",
+   "area": "Webster",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rachel Eivins",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Interstate 35 Community School District Public Measure Z",
+   "jurisdiction": "Interstate 35 Community School District (Clarke, Madison, Warren counties)",
+   "ballotLanguage": "Shall the Board of Directors of the Interstate 35 Community School District in the Counties of Clarke, Madison, and Warren, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $12,300,000 to provide funds to remodel, repair, improve, and equip the school building, including reconfiguration of academic spaces, HVAC, mechanical and exterior improvements; to build, furnish, and equip athletic facilities, including a new stadium and track, parking, and site improvements, and for related improvements to repurpose the existing track and field, bleachers, and press box; and for site and access improvements to the school campus?"
+  }
+ ],
+ "notes": "Sources: 'Madison County 2026 General Election-Final List of Races and Public Measures' PDF plus the combined 'Sample Ballots General Election 2026' PDF (parties taken from sample ballots). Supervisors are elected by district - voters see only their district (Districts 1 and 3 up in 2026). Township trustee races are vote-for-two; townships with no candidate filed are listed with empty candidate arrays. The races list PDF prints the bond amount as '$12,300,00' (typo); the sample ballot prints $12,300,000, used here. Public Measure Z appears only on I-35 CSD ballot styles."
+}

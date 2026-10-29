@@ -1,0 +1,1939 @@
+{
+  "source": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+  "sourceVersion": "2026 General - Candidate List Database - All Elections_1.pdf (uploaded 2026-08; latest entry filing date 8/19/2026); still the only list linked from https://sos.iowa.gov/general-election as of 2026-10-28",
+  "fetchedAt": "2026-10-29T00:41:59+00:00",
+  "notes": [
+    "Page 1 phone/email columns are shifted in the source; only office, party and ballot name were used.",
+    "Rows with '--' (no candidate for that party) omitted.",
+    "party null = No Party (independent) candidate.",
+    "Firecrawl PDF text extraction may drop quotation marks around nicknames (e.g. Ray Bubba Sorensen, Edward Bernie Hayes); names kept as extracted."
+  ],
+  "contests": [
+    {
+      "office": "United States Senator",
+      "scope": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ashley Hinson",
+          "party": "republican"
+        },
+        {
+          "name": "Josh Turek",
+          "party": "democratic"
+        },
+        {
+          "name": "Thomas Laehn",
+          "party": "libertarian"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative",
+      "scope": "congressional",
+      "district": 1,
+      "candidates": [
+        {
+          "name": "Mariannette Miller-Meeks",
+          "party": "republican"
+        },
+        {
+          "name": "Christina Bohannan",
+          "party": "democratic"
+        },
+        {
+          "name": "Michael Bridgford",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "United States Representative",
+      "scope": "congressional",
+      "district": 2,
+      "candidates": [
+        {
+          "name": "Joe Mitchell",
+          "party": "republican"
+        },
+        {
+          "name": "Lindsay James",
+          "party": "democratic"
+        },
+        {
+          "name": "Rick Stewart",
+          "party": "libertarian"
+        },
+        {
+          "name": "Dave Bushaw",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "United States Representative",
+      "scope": "congressional",
+      "district": 3,
+      "candidates": [
+        {
+          "name": "Zach Nunn",
+          "party": "republican"
+        },
+        {
+          "name": "Sarah Trone Garriott",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "United States Representative",
+      "scope": "congressional",
+      "district": 4,
+      "candidates": [
+        {
+          "name": "Chris McGowan",
+          "party": "republican"
+        },
+        {
+          "name": "Dave Dawson",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "Governor and Lieutenant Governor",
+      "scope": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Zach Lahn",
+          "party": "republican",
+          "runningMate": "Derek Wulf"
+        },
+        {
+          "name": "Rob Sand",
+          "party": "democratic",
+          "runningMate": "Dave Muhlbauer"
+        }
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "scope": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Paul D. Pate",
+          "party": "republican"
+        },
+        {
+          "name": "Ryan Peterman",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "Auditor of State",
+      "scope": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Chris Cournoyer",
+          "party": "republican"
+        },
+        {
+          "name": "Taylor Wettach",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "Treasurer of State",
+      "scope": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Roby Smith",
+          "party": "republican"
+        },
+        {
+          "name": "John Norwood",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "Secretary of Agriculture",
+      "scope": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mike Naig",
+          "party": "republican"
+        },
+        {
+          "name": "Chris Jones",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "scope": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Brenna Bird",
+          "party": "republican"
+        },
+        {
+          "name": "Nate Willems",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 1,
+      "candidates": [
+        {
+          "name": "Christopher Prosch",
+          "party": "republican"
+        },
+        {
+          "name": "Catelin Drey",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 3,
+      "candidates": [
+        {
+          "name": "Lynn Evans",
+          "party": "republican"
+        },
+        {
+          "name": "Mike Frantz",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 5,
+      "candidates": [
+        {
+          "name": "Dave Rowley",
+          "party": "republican"
+        },
+        {
+          "name": "Rachel Gravert",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 7,
+      "candidates": [
+        {
+          "name": "Kevin Alons",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 9,
+      "candidates": [
+        {
+          "name": "James Uhlenkamp",
+          "party": "democratic"
+        },
+        {
+          "name": "Steve Baier",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 11,
+      "candidates": [
+        {
+          "name": "Hollie Arlene Zajicek",
+          "party": "republican"
+        },
+        {
+          "name": "Sinikka Waugh",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 13,
+      "candidates": [
+        {
+          "name": "Jeff Kulmatycki",
+          "party": "republican"
+        },
+        {
+          "name": "Brenda Case",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 15,
+      "candidates": [
+        {
+          "name": "Tony Bisignano",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 17,
+      "candidates": [
+        {
+          "name": "Ronald Langston",
+          "party": "republican"
+        },
+        {
+          "name": "Samy El-Baroudi",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 19,
+      "candidates": [
+        {
+          "name": "Barb Kniff McCulla",
+          "party": "republican"
+        },
+        {
+          "name": "Zachary Mecham",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 21,
+      "candidates": [
+        {
+          "name": "John Hollinrake",
+          "party": "republican"
+        },
+        {
+          "name": "Heather Matson",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 23,
+      "candidates": [
+        {
+          "name": "Tony Thompson",
+          "party": "democratic"
+        },
+        {
+          "name": "Wes Enos",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 25,
+      "candidates": [
+        {
+          "name": "Paul Wacker",
+          "party": "republican"
+        },
+        {
+          "name": "Herman C Quirmbach",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 27,
+      "candidates": [
+        {
+          "name": "Annette Sweeney",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 29,
+      "candidates": [
+        {
+          "name": "Sandy Salmon",
+          "party": "republican"
+        },
+        {
+          "name": "Jim Vowels",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 31,
+      "candidates": [
+        {
+          "name": "Timi Brown Powers",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 33,
+      "candidates": [
+        {
+          "name": "Carrie Koelker",
+          "party": "republican"
+        },
+        {
+          "name": "Mary Ungs-Sogaard",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 35,
+      "candidates": [
+        {
+          "name": "Joe Stutting",
+          "party": "republican"
+        },
+        {
+          "name": "Mike Zimmer",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 37,
+      "candidates": [
+        {
+          "name": "Randy Marzen",
+          "party": "republican"
+        },
+        {
+          "name": "Molly Donahue",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 39,
+      "candidates": [
+        {
+          "name": "Edward Bernie Hayes",
+          "party": "republican"
+        },
+        {
+          "name": "Liz Bennett",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 41,
+      "candidates": [
+        {
+          "name": "Kerry Gruenhagen",
+          "party": "republican"
+        },
+        {
+          "name": "Tom Wieck",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 43,
+      "candidates": [
+        {
+          "name": "Meghann Foster",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 45,
+      "candidates": [
+        {
+          "name": "Janice Weiner",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 47,
+      "candidates": [
+        {
+          "name": "Scott Webster",
+          "party": "republican"
+        },
+        {
+          "name": "Nikhil Wagle",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Senator",
+      "scope": "stateSenate",
+      "district": 49,
+      "candidates": [
+        {
+          "name": "Cynthia Mensendick",
+          "party": "republican"
+        },
+        {
+          "name": "Cindy Winckler",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 1,
+      "candidates": [
+        {
+          "name": "Josh Steinhoff",
+          "party": "republican"
+        },
+        {
+          "name": "Shawn Olorundami",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 2,
+      "candidates": [
+        {
+          "name": "Robert Henderson",
+          "party": "republican"
+        },
+        {
+          "name": "Jessica Lopez-Walker",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 3,
+      "candidates": [
+        {
+          "name": "Robert Driesen",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 4,
+      "candidates": [
+        {
+          "name": "Skyler Wheeler",
+          "party": "republican"
+        },
+        {
+          "name": "Garth Van Donselaar",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 5,
+      "candidates": [
+        {
+          "name": "Keith Glienke",
+          "party": "republican"
+        },
+        {
+          "name": "Stephanie Steiner",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 6,
+      "candidates": [
+        {
+          "name": "Megan Jones",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 7,
+      "candidates": [
+        {
+          "name": "Wendy Larson",
+          "party": "republican"
+        },
+        {
+          "name": "Rachel Burns",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 8,
+      "candidates": [
+        {
+          "name": "Ann Meyer",
+          "party": "republican"
+        },
+        {
+          "name": "Kristofer Williams",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 9,
+      "candidates": [
+        {
+          "name": "Henry Stone",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 10,
+      "candidates": [
+        {
+          "name": "John H Wills",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 11,
+      "candidates": [
+        {
+          "name": "Craig Williams",
+          "party": "republican"
+        },
+        {
+          "name": "Bill Owen",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 12,
+      "candidates": [
+        {
+          "name": "Steven Holt",
+          "party": "republican"
+        },
+        {
+          "name": "Dustin Durbin",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 13,
+      "candidates": [
+        {
+          "name": "Travis M. Sitzmann",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 14,
+      "candidates": [
+        {
+          "name": "Jacob Bossman",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 15,
+      "candidates": [
+        {
+          "name": "Jason Sherer",
+          "party": "republican"
+        },
+        {
+          "name": "Benjamin Schauer",
+          "party": "democratic"
+        },
+        {
+          "name": "Blake Johnson",
+          "party": null
+        },
+        {
+          "name": "Marilyn J Mentzer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 16,
+      "candidates": [
+        {
+          "name": "David A. Sieck",
+          "party": "republican"
+        },
+        {
+          "name": "Jack Goodman",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 17,
+      "candidates": [
+        {
+          "name": "Devon Wood",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 18,
+      "candidates": [
+        {
+          "name": "Thomas Jay Moore",
+          "party": "republican"
+        },
+        {
+          "name": "Tripp Narup",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 19,
+      "candidates": [
+        {
+          "name": "Brent Siegrist",
+          "party": "republican"
+        },
+        {
+          "name": "Benjamin Thomas Larson",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 20,
+      "candidates": [
+        {
+          "name": "Keith Jones",
+          "party": "republican"
+        },
+        {
+          "name": "Eric Armstrong",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 21,
+      "candidates": [
+        {
+          "name": "Brooke Boden",
+          "party": "republican"
+        },
+        {
+          "name": "Spencer A Waugh",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 22,
+      "candidates": [
+        {
+          "name": "Samantha Fett",
+          "party": "republican"
+        },
+        {
+          "name": "Rory Taylor",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 23,
+      "candidates": [
+        {
+          "name": "Ray Bubba Sorensen",
+          "party": "republican"
+        },
+        {
+          "name": "Karen Varley",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 24,
+      "candidates": [
+        {
+          "name": "Sam Wengryn",
+          "party": "republican"
+        },
+        {
+          "name": "Sonya Hicks",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 25,
+      "candidates": [
+        {
+          "name": "Hans C. Wilz",
+          "party": "republican"
+        },
+        {
+          "name": "Kolton Jones",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 26,
+      "candidates": [
+        {
+          "name": "Austin Harris",
+          "party": "republican"
+        },
+        {
+          "name": "Brett Mohler",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 27,
+      "candidates": [
+        {
+          "name": "Kenan Judge",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 28,
+      "candidates": [
+        {
+          "name": "David Young",
+          "party": "republican"
+        },
+        {
+          "name": "Tom Walton",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 29,
+      "candidates": [
+        {
+          "name": "Brian Meyer",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 30,
+      "candidates": [
+        {
+          "name": "Megan L. Srinivas",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 31,
+      "candidates": [
+        {
+          "name": "Kevin W. DuBay",
+          "party": "republican"
+        },
+        {
+          "name": "Mary Madison",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 32,
+      "candidates": [
+        {
+          "name": "Mike Jones",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 33,
+      "candidates": [
+        {
+          "name": "Lynn Hammel",
+          "party": "republican"
+        },
+        {
+          "name": "Ivette Muhammad",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 34,
+      "candidates": [
+        {
+          "name": "Rob Johnson",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 35,
+      "candidates": [
+        {
+          "name": "Sean Bagniewski",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 36,
+      "candidates": [
+        {
+          "name": "Bruce A Michalowski",
+          "party": "republican"
+        },
+        {
+          "name": "Austin Baeth",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 37,
+      "candidates": [
+        {
+          "name": "Jason Sandholdt",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 38,
+      "candidates": [
+        {
+          "name": "Matthew Oleson",
+          "party": "republican"
+        },
+        {
+          "name": "Brad Magg",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 39,
+      "candidates": [
+        {
+          "name": "Troy Clark",
+          "party": "republican"
+        },
+        {
+          "name": "Nate Boulton",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 40,
+      "candidates": [
+        {
+          "name": "Bill Gustoff",
+          "party": "republican"
+        },
+        {
+          "name": "Heather Sievers",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 41,
+      "candidates": [
+        {
+          "name": "Ryan Weldon",
+          "party": "republican"
+        },
+        {
+          "name": "Molly Buck",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 42,
+      "candidates": [
+        {
+          "name": "Heather Stephenson",
+          "party": "republican"
+        },
+        {
+          "name": "Amy Tagliareni",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 43,
+      "candidates": [
+        {
+          "name": "Nicole Hasso",
+          "party": "republican"
+        },
+        {
+          "name": "Jill Alesch",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 44,
+      "candidates": [
+        {
+          "name": "Larry McBurney",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 45,
+      "candidates": [
+        {
+          "name": "Austin Stubbs",
+          "party": "republican"
+        },
+        {
+          "name": "Kendra Haug",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 46,
+      "candidates": [
+        {
+          "name": "Dan Gehlbach",
+          "party": "republican"
+        },
+        {
+          "name": "Mandy Newton Rosenow",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 47,
+      "candidates": [
+        {
+          "name": "Carter F. Nordman",
+          "party": "republican"
+        },
+        {
+          "name": "Chris New",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 48,
+      "candidates": [
+        {
+          "name": "Chad Behn",
+          "party": "republican"
+        },
+        {
+          "name": "Benjamin Olsen",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 49,
+      "candidates": [
+        {
+          "name": "Beth Wessel-Kroeschell",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 50,
+      "candidates": [
+        {
+          "name": "Ross Wilburn",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 51,
+      "candidates": [
+        {
+          "name": "Brett Barker",
+          "party": "republican"
+        },
+        {
+          "name": "Teresa Perin",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 52,
+      "candidates": [
+        {
+          "name": "David Blom",
+          "party": "republican"
+        },
+        {
+          "name": "Mike Tupper",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 53,
+      "candidates": [
+        {
+          "name": "Dean Fisher",
+          "party": "republican"
+        },
+        {
+          "name": "Berleen Wobeter",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 54,
+      "candidates": [
+        {
+          "name": "Joshua Meggers",
+          "party": "republican"
+        },
+        {
+          "name": "Leila Ann Staton",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 55,
+      "candidates": [
+        {
+          "name": "Beau Klaver",
+          "party": "republican"
+        },
+        {
+          "name": "Cynthia Oppedal Paschen",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 56,
+      "candidates": [
+        {
+          "name": "Mark I. Thompson",
+          "party": "republican"
+        },
+        {
+          "name": "Kyle Kruse",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 57,
+      "candidates": [
+        {
+          "name": "Pat Grassley",
+          "party": "republican"
+        },
+        {
+          "name": "Shawn Ellerbroek",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 58,
+      "candidates": [
+        {
+          "name": "Charley Thomson",
+          "party": "republican"
+        },
+        {
+          "name": "India May",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 59,
+      "candidates": [
+        {
+          "name": "Christian Hermanson",
+          "party": "republican"
+        },
+        {
+          "name": "Jacob Welper",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 60,
+      "candidates": [
+        {
+          "name": "Dani Ollenburg",
+          "party": "republican"
+        },
+        {
+          "name": "Alexander Schmidt",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 61,
+      "candidates": [
+        {
+          "name": "Vincent Collis",
+          "party": "democratic"
+        },
+        {
+          "name": "Lucas Hewitt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 62,
+      "candidates": [
+        {
+          "name": "Jerome Amos Jr",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 63,
+      "candidates": [
+        {
+          "name": "Michael R. Bergan",
+          "party": "republican"
+        },
+        {
+          "name": "Jeff Thurlow",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 64,
+      "candidates": [
+        {
+          "name": "Jason Gearhart",
+          "party": "republican"
+        },
+        {
+          "name": "Brian Bruening",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 65,
+      "candidates": [
+        {
+          "name": "Shannon Lundgren",
+          "party": "republican"
+        },
+        {
+          "name": "Carolyn Wiezorek",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 66,
+      "candidates": [
+        {
+          "name": "Steven Bradley",
+          "party": "republican"
+        },
+        {
+          "name": "Matt English",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 67,
+      "candidates": [
+        {
+          "name": "Craig Johnson",
+          "party": "republican"
+        },
+        {
+          "name": "Michael Coonrad",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 68,
+      "candidates": [
+        {
+          "name": "Chad Ingels",
+          "party": "republican"
+        },
+        {
+          "name": "Scott Bodley",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 69,
+      "candidates": [
+        {
+          "name": "Tom Determann",
+          "party": "republican"
+        },
+        {
+          "name": "Randy Meier",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 70,
+      "candidates": [
+        {
+          "name": "Norlin Mommsen",
+          "party": "republican"
+        },
+        {
+          "name": "George Pickup",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 71,
+      "candidates": [
+        {
+          "name": "Sam Wooden",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 72,
+      "candidates": [
+        {
+          "name": "Jennifer Smith",
+          "party": "republican"
+        },
+        {
+          "name": "Matt Robinson",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 73,
+      "candidates": [
+        {
+          "name": "Elizabeth Wilson",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 74,
+      "candidates": [
+        {
+          "name": "Eric Gjerde",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 75,
+      "candidates": [
+        {
+          "name": "Drew Stensland",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 76,
+      "candidates": [
+        {
+          "name": "Matt Reisetter",
+          "party": "republican"
+        },
+        {
+          "name": "Calvin Horn",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 77,
+      "candidates": [
+        {
+          "name": "Jeff Cooling",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 78,
+      "candidates": [
+        {
+          "name": "Angel Ramirez",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 79,
+      "candidates": [
+        {
+          "name": "Barclay Woerner",
+          "party": "republican"
+        },
+        {
+          "name": "Tracy Ehlert",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 80,
+      "candidates": [
+        {
+          "name": "Aime J Wichtendahl",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 81,
+      "candidates": [
+        {
+          "name": "Dillon Fillion",
+          "party": "republican"
+        },
+        {
+          "name": "Daniel Gosa",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 82,
+      "candidates": [
+        {
+          "name": "Bobby Kaufmann",
+          "party": "republican"
+        },
+        {
+          "name": "James Behrmann",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 83,
+      "candidates": [
+        {
+          "name": "Cindy Golding",
+          "party": "republican"
+        },
+        {
+          "name": "Mike Bergman",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 84,
+      "candidates": [
+        {
+          "name": "Thomas Gerhold",
+          "party": "republican"
+        },
+        {
+          "name": "Polly Denison",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 85,
+      "candidates": [
+        {
+          "name": "Amy Nielsen",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 86,
+      "candidates": [
+        {
+          "name": "Dave Jacoby",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 87,
+      "candidates": [
+        {
+          "name": "Jeff Shipley",
+          "party": "republican"
+        },
+        {
+          "name": "Thomas R. O'Donnell",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 88,
+      "candidates": [
+        {
+          "name": "Helena Hayes",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 89,
+      "candidates": [
+        {
+          "name": "Elinor A. Levin",
+          "party": "democratic"
+        },
+        {
+          "name": "Daniel Arch",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 90,
+      "candidates": [
+        {
+          "name": "Adam Zabner",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 91,
+      "candidates": [
+        {
+          "name": "Judd Lawler",
+          "party": "republican"
+        },
+        {
+          "name": "Mark Divitt",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 92,
+      "candidates": [
+        {
+          "name": "Heather Hora",
+          "party": "republican"
+        },
+        {
+          "name": "Brittany Erickson",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 93,
+      "candidates": [
+        {
+          "name": "Gary M. Mohr",
+          "party": "republican"
+        },
+        {
+          "name": "Keith Soko",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 94,
+      "candidates": [
+        {
+          "name": "Mike Vondran",
+          "party": "republican"
+        },
+        {
+          "name": "Karen Roebuck",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 95,
+      "candidates": [
+        {
+          "name": "Taylor Collins",
+          "party": "republican"
+        },
+        {
+          "name": "Carrie Trevino",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 96,
+      "candidates": [
+        {
+          "name": "Mark Cisneros",
+          "party": "republican"
+        },
+        {
+          "name": "Nick Salazar",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 97,
+      "candidates": [
+        {
+          "name": "Charlie Helmick",
+          "party": "republican"
+        },
+        {
+          "name": "Adam Peters",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 98,
+      "candidates": [
+        {
+          "name": "Nathan Ramker",
+          "party": "republican"
+        },
+        {
+          "name": "Andrew Fitzgerald",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 99,
+      "candidates": [
+        {
+          "name": "Matthew Rinker",
+          "party": "republican"
+        },
+        {
+          "name": "Jennifer Kirkman",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "State Representative",
+      "scope": "stateHouse",
+      "district": 100,
+      "candidates": [
+        {
+          "name": "Blaine Watkins",
+          "party": "republican"
+        },
+        {
+          "name": "Matthew Mohrfeld",
+          "party": "democratic"
+        }
+      ]
+    }
+  ]
+}

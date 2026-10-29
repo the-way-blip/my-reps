@@ -1,0 +1,538 @@
+{
+  "county": "Franklin",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://elections.franklincountyia.gov/elections/info/november_3rd_2026_general_election_2026_11_03/",
+    "https://elections.franklincountyia.gov/files/candidate_list/november_3rd_2026_general_election_12097.pdf",
+    "https://elections.franklincountyia.gov/files/sample_ballots/20261103_all_sample_ballots_61605.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 1",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Larry Sailer",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Richard Lukensmeyer",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Chad W Murray",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Heather Bushbaum",
+          "party": "republican"
+        },
+        {
+          "name": "Nancy Knipfel (No Party)",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Andrea Miller",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Hospital Trustee",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Nancy Showalter",
+          "party": null
+        },
+        {
+          "name": "Tracy Shreckengost",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Jeff Burkley",
+          "party": null
+        },
+        {
+          "name": "Dawn Collins",
+          "party": null
+        },
+        {
+          "name": "Kari Subbert",
+          "party": null
+        },
+        {
+          "name": "Becky Dohlman",
+          "party": null
+        },
+        {
+          "name": "Amanda Peterson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council (to fill a vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Geneva Township Trustee",
+      "scope": "township",
+      "area": "Geneva",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Jeremy Arends",
+          "party": null
+        },
+        {
+          "name": "Kent Horner",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Geneva Township Clerk",
+      "scope": "township",
+      "area": "Geneva",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cindy Horner",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Trustee",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Bruce Balvanz",
+          "party": null
+        },
+        {
+          "name": "Brad Lehmann",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Clerk",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Seth Rickel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hamilton Township Trustee",
+      "scope": "township",
+      "area": "Hamilton",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Elijah Dohrmann",
+          "party": null
+        },
+        {
+          "name": "Karen McVicker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hamilton Township Clerk",
+      "scope": "township",
+      "area": "Hamilton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Ingham Township Trustee",
+      "scope": "township",
+      "area": "Ingham",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Ingham Township Clerk",
+      "scope": "township",
+      "area": "Ingham",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lee Township Trustee",
+      "scope": "township",
+      "area": "Lee",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "J. Kurt Johnson",
+          "party": null
+        },
+        {
+          "name": "Landon Aldinger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lee Township Clerk",
+      "scope": "township",
+      "area": "Lee",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Joel Etnier",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Marion Township Trustee",
+      "scope": "township",
+      "area": "Marion",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Brian Borcherding",
+          "party": null
+        },
+        {
+          "name": "Scott Strother",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Marion Township Clerk",
+      "scope": "township",
+      "area": "Marion",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dennis Abbas",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Marion Township Trustee (to fill a vacancy)",
+      "scope": "township",
+      "area": "Marion",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Morgan Township Trustee",
+      "scope": "township",
+      "area": "Morgan",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Chris Chambers",
+          "party": null
+        },
+        {
+          "name": "John Coombs",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Morgan Township Clerk",
+      "scope": "township",
+      "area": "Morgan",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Heather Chambers",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Mott Township Trustee",
+      "scope": "township",
+      "area": "Mott",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Steve Sliter",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Mott Township Clerk",
+      "scope": "township",
+      "area": "Mott",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Oakland Township Trustee",
+      "scope": "township",
+      "area": "Oakland",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Oakland Township Clerk",
+      "scope": "township",
+      "area": "Oakland",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Osceola Township Trustee",
+      "scope": "township",
+      "area": "Osceola",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Joe Wessels",
+          "party": null
+        },
+        {
+          "name": "Patricia Hofmeister",
+          "party": null
+        },
+        {
+          "name": "Mike Keninger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Osceola Township Trustee (to fill a vacancy)",
+      "scope": "township",
+      "area": "Osceola",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Osceola Township Clerk",
+      "scope": "township",
+      "area": "Osceola",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Angela Scallon",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Reeve Township Trustee",
+      "scope": "township",
+      "area": "Reeve",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Alan Brandt",
+          "party": null
+        },
+        {
+          "name": "Torie Korth",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Reeve Township Clerk",
+      "scope": "township",
+      "area": "Reeve",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Richland Township Trustee",
+      "scope": "township",
+      "area": "Richland",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Alvin J. Schaefer",
+          "party": null
+        },
+        {
+          "name": "Scott Heilskov",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Richland Township Clerk",
+      "scope": "township",
+      "area": "Richland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Wayne Pralle",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Ross Township Trustee",
+      "scope": "township",
+      "area": "Ross",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Ross Township Clerk",
+      "scope": "township",
+      "area": "Ross",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jed W. Allen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Ross Township Trustee (to fill a vacancy)",
+      "scope": "township",
+      "area": "Ross",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kevin Craighton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scott Township Trustee",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Dennis Vanness",
+          "party": null
+        },
+        {
+          "name": "Jerry Passehl",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scott Township Clerk",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Marilyn Hamilton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "West Fork Township Trustee",
+      "scope": "township",
+      "area": "West Fork",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "West Fork Township Clerk",
+      "scope": "township",
+      "area": "West Fork",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Pam Meints",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Wisner Township Trustee",
+      "scope": "township",
+      "area": "Wisner",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Wisner Township Clerk",
+      "scope": "township",
+      "area": "Wisner",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steven Bruns",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "AGWSR Community School District Public Measure IR",
+      "jurisdiction": "AGWSR Community School District (Butler, Franklin, Grundy, Hardin counties); Franklin County AGWSR precincts only",
+      "ballotLanguage": "Shall the Board of Directors of the AGWSR Community School District in the Counties of Butler, Franklin, Grundy, and Hardin, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $10,820,000 to provide funds to remodel, repair, improve, and equip the high school, including science and family & consumer science classrooms and heating, ventilation, and air conditioning (HVAC), mechanical, plumbing, electrical, roofing, and site improvements; to build, furnish, and equip a multipurpose activities/recess facility, including site improvements; and to remodel, repair, improve, and equip the middle school locker rooms?"
+    }
+  ],
+  "notes": "From official candidate list PDF + combined sample ballots PDF on the county elections site (elections.franklincountyia.gov). Supervisors are elected BY DISTRICT (District 1 and District 2 on the ballot this cycle; voters see only their district). Nancy Knipfel (Recorder) listed as 'No Party'. Empty candidate lists = 'No Candidate(s)' on the official list (write-in only). The candidate list spells 'Mott Township' (sample ballot precincts East Mott / West Mott). The AGWSR school bond (Public Measure IR on the sample ballot; labeled 'IF' on the candidate list) appears only on AGWSR-district ballot styles (Geneva Twp, City of Geneva, Osceola Twp, Grant Twp, Reeve Twp, City of Ackley portions)."
+}

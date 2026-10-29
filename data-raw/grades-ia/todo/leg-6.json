@@ -1,0 +1,207 @@
+[
+ {
+  "office": "State Representative, District 84",
+  "candidates": [
+   {
+    "name": "Thomas Gerhold",
+    "party": "republican"
+   },
+   {
+    "name": "Polly Denison",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 85",
+  "candidates": [
+   {
+    "name": "Amy Nielsen",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 86",
+  "candidates": [
+   {
+    "name": "Dave Jacoby",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 87",
+  "candidates": [
+   {
+    "name": "Jeff Shipley",
+    "party": "republican"
+   },
+   {
+    "name": "Thomas R. O'Donnell",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 88",
+  "candidates": [
+   {
+    "name": "Helena Hayes",
+    "party": "republican"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 89",
+  "candidates": [
+   {
+    "name": "Elinor A. Levin",
+    "party": "democratic"
+   },
+   {
+    "name": "Daniel Arch",
+    "party": null
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 90",
+  "candidates": [
+   {
+    "name": "Adam Zabner",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 91",
+  "candidates": [
+   {
+    "name": "Judd Lawler",
+    "party": "republican"
+   },
+   {
+    "name": "Mark Divitt",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 92",
+  "candidates": [
+   {
+    "name": "Heather Hora",
+    "party": "republican"
+   },
+   {
+    "name": "Brittany Erickson",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 93",
+  "candidates": [
+   {
+    "name": "Gary M. Mohr",
+    "party": "republican"
+   },
+   {
+    "name": "Keith Soko",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 94",
+  "candidates": [
+   {
+    "name": "Mike Vondran",
+    "party": "republican"
+   },
+   {
+    "name": "Karen Roebuck",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 95",
+  "candidates": [
+   {
+    "name": "Taylor Collins",
+    "party": "republican"
+   },
+   {
+    "name": "Carrie Trevino",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 96",
+  "candidates": [
+   {
+    "name": "Mark Cisneros",
+    "party": "republican"
+   },
+   {
+    "name": "Nick Salazar",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 97",
+  "candidates": [
+   {
+    "name": "Charlie Helmick",
+    "party": "republican"
+   },
+   {
+    "name": "Adam Peters",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 98",
+  "candidates": [
+   {
+    "name": "Nathan Ramker",
+    "party": "republican"
+   },
+   {
+    "name": "Andrew Fitzgerald",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 99",
+  "candidates": [
+   {
+    "name": "Matthew Rinker",
+    "party": "republican"
+   },
+   {
+    "name": "Jennifer Kirkman",
+    "party": "democratic"
+   }
+  ]
+ },
+ {
+  "office": "State Representative, District 100",
+  "candidates": [
+   {
+    "name": "Blaine Watkins",
+    "party": "republican"
+   },
+   {
+    "name": "Matthew Mohrfeld",
+    "party": "democratic"
+   }
+  ]
+ }
+]

@@ -1,0 +1,118 @@
+{
+  "county": "Grundy",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.grundycountyiowa.gov/images/documents/announcements/NOTICE%20OF%20ELECTION--General%202026.pdf",
+    "https://www.grundycountyiowa.gov/images/documents/announcements/SAMPLE%20BALLOTS%20-%20WITHOUT%20MARKS.pdf"
+  ],
+  "asOf": "2026-10-16",
+  "races": [
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Heidi Nederhoff",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 4",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Barry Ehrig",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lori K. Kruse",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Travis Case",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Erika L. Allen",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Ryan Bakker",
+          "party": null
+        },
+        {
+          "name": "Ruth Wilcox",
+          "party": null
+        },
+        {
+          "name": "Jacob Triplett",
+          "party": null
+        },
+        {
+          "name": "Derek Kruger",
+          "party": null
+        },
+        {
+          "name": "Bill Noteboom",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "City of Dike Public Measure IO",
+      "jurisdiction": "City of Dike",
+      "ballotLanguage": "Shall the City of Dike, State of Iowa, issue its General Obligation Bonds or Capital Loan Notes in an amount not exceeding the amount of $1,500,000 for the purpose of paying costs of the acquisition, construction, demolition, reconstruction, enlargement, improvement, and equipping of swimming pool and pool facilities, including parking lot and related site improvements?"
+    },
+    {
+      "name": "City of Reinbeck Public Measure IP",
+      "jurisdiction": "City of Reinbeck",
+      "ballotLanguage": "Shall the City of Reinbeck, in Grundy County, State of Iowa, enter into a loan agreement and issue general obligation bonds in an amount not exceeding $4,000,000 for the purpose of paying the cost, to that extent, of constructing, furnishing and equipping a new municipal fire station?"
+    },
+    {
+      "name": "AGWSR Community School District Public Measure IR",
+      "jurisdiction": "AGWSR Community School District (Butler, Franklin, Grundy, Hardin counties)",
+      "ballotLanguage": "Shall the Board of Directors of the AGWSR Community School District in the Counties of Butler, Franklin, Grundy, and Hardin, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $10,820,000 to provide funds to remodel, repair, improve, and equip the high school, including science and family & consumer science classrooms and heating, ventilation, and air conditioning (HVAC), mechanical, plumbing, electrical, roofing, and site improvements; to build, furnish, and equip a multipurpose activities/recess facility, including site improvements; and to remodel, repair, improve, and equip the middle school locker rooms?"
+    }
+  ],
+  "notes": "From the official General Election Notice (certified by Auditor Alan T. Tscherter, dated Oct 16, 2026) and the combined sample ballots PDF. Supervisors are elected BY DISTRICT (Districts 2 and 4 on the ballot this cycle; voters see only their district). SWCD Commissioner printed 'No Candidates' (write-in only). No township offices, county hospital trustee contest, or vacancy offices appear on the notice or any sample ballot."
+}

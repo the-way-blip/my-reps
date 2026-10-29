@@ -1,0 +1,736 @@
+{
+ "county": "Winneshiek",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://winneshiekcounty.iowa.gov/departments/auditor/election-information",
+  "https://winneshiekcounty.iowa.gov/wp-content/uploads/2026/09/PCT-1-Bluffton-TWP.pdf",
+  "https://winneshiekcounty.iowa.gov/wp-content/uploads/2026/09/PCT-3-Decorah-Ward-1.pdf",
+  "https://winneshiekcounty.iowa.gov/wp-content/uploads/2026/09/PCT-11-City-of-Spillville.pdf",
+  "(plus the other 28 PCT-* general-election sample ballot PDFs in wp-content/uploads/2026/09/, located via the site's WordPress media index)"
+ ],
+ "asOf": "2026-09 (upload folder date)",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Patrick E. Ryan",
+     "party": "democratic"
+    },
+    {
+     "name": "Mark Vick",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Timothy Neil Keli'i Smock",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jayne Schultz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Charles W. Crain",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bluffton Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Randy Logsdon",
+     "party": null
+    },
+    {
+     "name": "Brody Courtney",
+     "party": null
+    }
+   ],
+   "area": "Bluffton"
+  },
+  {
+   "office": "Bluffton Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ben Lange",
+     "party": null
+    }
+   ],
+   "area": "Bluffton"
+  },
+  {
+   "office": "County Hospital Trustee",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Justin Gullekson",
+     "party": null
+    },
+    {
+     "name": "Mark Jensen",
+     "party": null
+    },
+    {
+     "name": "Rebekah Krueger",
+     "party": null
+    },
+    {
+     "name": "Britt Rhodes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jason Ward Opheim",
+     "party": null
+    },
+    {
+     "name": "Scott J. Holthaus",
+     "party": null
+    },
+    {
+     "name": "Isaac Luzum",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Stacy Bushman",
+     "party": null
+    },
+    {
+     "name": "Jill Imoehl",
+     "party": null
+    },
+    {
+     "name": "Chris Wicklund",
+     "party": null
+    },
+    {
+     "name": "Lexi Schmitt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member, To Fill Vacancy",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Isaac Luzum",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Burr Oak Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Sharon L. Borcherding",
+     "party": null
+    },
+    {
+     "name": "Myron Rediske",
+     "party": null
+    }
+   ],
+   "area": "Burr Oak"
+  },
+  {
+   "office": "Burr Oak Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James Olson",
+     "party": null
+    }
+   ],
+   "area": "Burr Oak"
+  },
+  {
+   "office": "Fremont Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kendall Curtis",
+     "party": null
+    },
+    {
+     "name": "LeRoy R. Webb",
+     "party": null
+    }
+   ],
+   "area": "Fremont"
+  },
+  {
+   "office": "Fremont Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Lewis",
+     "party": null
+    }
+   ],
+   "area": "Fremont"
+  },
+  {
+   "office": "Madison Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dale K. Johnson",
+     "party": null
+    },
+    {
+     "name": "John F. Lubke",
+     "party": null
+    }
+   ],
+   "area": "Madison"
+  },
+  {
+   "office": "Madison Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Carleton M. Haugen",
+     "party": null
+    }
+   ],
+   "area": "Madison"
+  },
+  {
+   "office": "Orleans Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Larry Iverson",
+     "party": null
+    },
+    {
+     "name": "Jason Ryan",
+     "party": null
+    }
+   ],
+   "area": "Orleans"
+  },
+  {
+   "office": "Orleans Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jeff Ryan",
+     "party": null
+    }
+   ],
+   "area": "Orleans"
+  },
+  {
+   "office": "Bloomfield Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Erik Bodensteiner",
+     "party": null
+    },
+    {
+     "name": "Timothy Bohr",
+     "party": null
+    }
+   ],
+   "area": "Bloomfield"
+  },
+  {
+   "office": "Bloomfield Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Glen Ohloff",
+     "party": null
+    }
+   ],
+   "area": "Bloomfield"
+  },
+  {
+   "office": "Frankville Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Byron Kent Schultz",
+     "party": null
+    },
+    {
+     "name": "Loren Broszeit",
+     "party": null
+    }
+   ],
+   "area": "Frankville"
+  },
+  {
+   "office": "Frankville Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Teresa Berg",
+     "party": null
+    }
+   ],
+   "area": "Frankville"
+  },
+  {
+   "office": "Military Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kevin Quass",
+     "party": null
+    },
+    {
+     "name": "Gary Lansing",
+     "party": null
+    }
+   ],
+   "area": "Military"
+  },
+  {
+   "office": "Military Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Melvin Elsbernd",
+     "party": null
+    }
+   ],
+   "area": "Military"
+  },
+  {
+   "office": "Board of Supervisors, District 5",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dennis Kleve",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Calmar Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Russell Lensing",
+     "party": null
+    },
+    {
+     "name": "Doug Groux",
+     "party": null
+    }
+   ],
+   "area": "Calmar"
+  },
+  {
+   "office": "Calmar Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tony Phillips",
+     "party": null
+    }
+   ],
+   "area": "Calmar"
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Garrett Hackman",
+     "party": null
+    },
+    {
+     "name": "Bruce Adams",
+     "party": null
+    }
+   ],
+   "area": "Jackson"
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jean Wiemann",
+     "party": null
+    }
+   ],
+   "area": "Jackson"
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Carl Schmitt",
+     "party": null
+    },
+    {
+     "name": "Daniel Dietzenbach",
+     "party": null
+    }
+   ],
+   "area": "Washington"
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Raymond Nienhaus",
+     "party": null
+    }
+   ],
+   "area": "Washington"
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kelvin Rue",
+     "party": null
+    },
+    {
+     "name": "Ted Frana",
+     "party": null
+    }
+   ],
+   "area": "Lincoln"
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Lincoln"
+  },
+  {
+   "office": "Sumner Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Gerry Shileny",
+     "party": null
+    },
+    {
+     "name": "Stacy Klimesh",
+     "party": null
+    }
+   ],
+   "area": "Sumner"
+  },
+  {
+   "office": "Sumner Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Ondrashek",
+     "party": null
+    }
+   ],
+   "area": "Sumner"
+  },
+  {
+   "office": "Canoe Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Birgitta Meade",
+     "party": null
+    },
+    {
+     "name": "J. Wayne Wicks",
+     "party": null
+    }
+   ],
+   "area": "Canoe"
+  },
+  {
+   "office": "Canoe Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Donald Stromseth",
+     "party": null
+    }
+   ],
+   "area": "Canoe"
+  },
+  {
+   "office": "Glenwood Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Gary Smorstad",
+     "party": null
+    },
+    {
+     "name": "James O. Ehrie",
+     "party": null
+    }
+   ],
+   "area": "Glenwood"
+  },
+  {
+   "office": "Glenwood Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Danny Leidahl",
+     "party": null
+    }
+   ],
+   "area": "Glenwood"
+  },
+  {
+   "office": "Hesper Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ethan Wise",
+     "party": null
+    },
+    {
+     "name": "Jeff Ode",
+     "party": null
+    }
+   ],
+   "area": "Hesper"
+  },
+  {
+   "office": "Hesper Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Davis Hanson",
+     "party": null
+    }
+   ],
+   "area": "Hesper"
+  },
+  {
+   "office": "Highland Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Thomas Hansen",
+     "party": null
+    },
+    {
+     "name": "Bruce Bergsgaard",
+     "party": null
+    }
+   ],
+   "area": "Highland"
+  },
+  {
+   "office": "Highland Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sawyer Wise",
+     "party": null
+    }
+   ],
+   "area": "Highland"
+  },
+  {
+   "office": "Pleasant Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kenneth Nordheim",
+     "party": null
+    }
+   ],
+   "area": "Pleasant"
+  },
+  {
+   "office": "Pleasant Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Thomas Otteson",
+     "party": null
+    }
+   ],
+   "area": "Pleasant"
+  },
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark Faldet",
+     "party": "democratic"
+    },
+    {
+     "name": "Daniel W. Kirkeby",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Decorah Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Theodore A. Kerndt",
+     "party": null
+    },
+    {
+     "name": "Tony Meyer",
+     "party": null
+    }
+   ],
+   "area": "Decorah"
+  },
+  {
+   "office": "Decorah Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James Sims",
+     "party": null
+    }
+   ],
+   "area": "Decorah"
+  },
+  {
+   "office": "Decorah Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kevin Barth",
+     "party": null
+    }
+   ],
+   "area": "Decorah"
+  },
+  {
+   "office": "Springfield Township Trustee",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kent Lensch",
+     "party": null
+    },
+    {
+     "name": "Randy Numedahl",
+     "party": null
+    }
+   ],
+   "area": "Springfield"
+  },
+  {
+   "office": "Springfield Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Springfield"
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure WD",
+   "jurisdiction": "City of Decorah",
+   "ballotLanguage": "\"Shall the City of Decorah, State of Iowa, issue its General Obligation Bonds or Capital Loan Notes in an amount not exceeding the amount of $20,900,000, in one or more series, for the purpose of paying costs of designing, constructing, reconstructing, enlarging, improving, equipping and furnishing municipal facilities including a new fire station and renovation of city hall, with related site improvements?\""
+  },
+  {
+   "name": "Public Measure WE",
+   "jurisdiction": "City of Spillville",
+   "ballotLanguage": "Summary: To authorize a change in the use of the one percent (1%) local sales and services tax in the City of Spillville effective July 1, 2027. The use of the one percent (1%) local option sales and services tax shall be changed in the City of Spillville, effective July 1, 2027. PROPOSED USES OF THE TAX: Revenues from the local option sales and services tax (LOSST) shall be allocated as follows: Zero percent (0%) for property tax relief, One Hundred percent (100%) will be allocated annually by the City Council, for any lawful purpose, including but not limited to the following purposes: Capital equipment purchases and repairs, street, water, sewer and other capital improvement and maintenance projects, and/or for assistance to the Bily Clocks Museum and Antonin Dvorak Exhibit. The City of Spillville LOSST fund was previously established in 1991.  At that time, its use was limited to street improvements. This amendment will broaden the permissible uses of the LOSST funds, allowing for flexible planning for the use of LOSST funds, with the annual LOSST funds to be as allocated by the City Council, based on its determination of the City\u2019s changing annual needs."
+  }
+ ],
+ "notes": "Source: 31 per-precinct/per-township official general-election sample ballot PDFs (text-extractable); found via the county site's WordPress media listing since the election page does not link them. PCT-*-DEM/REP files are June primary ballots and were excluded. Board of Supervisors elected by district; voters see only their own district: District 1 (precincts 1-2), District 2 (Decorah Twp Sup-2, Decorah Wards 1, 2, 3A), District 5 (precincts 11-12). Districts 3 and 4 are not on the 2026 ballot. County Treasurer, Recorder and Attorney candidates are printed with no party label. Township clerks with empty candidate lists are write-in only. Public Measure WD appears on Decorah ward ballots; WE on the City of Spillville ballot."
+}

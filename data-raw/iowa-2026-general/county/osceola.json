@@ -1,0 +1,17 @@
+{"county":"Osceola","found":true,"partial":false,
+ "sources":["https://osceolacountyia.gov/wp-content/uploads/2026/10/2026-General-Election-Notice.pdf","https://osceolacountyia.gov/wp-content/uploads/2026/09/Sample-GE26-Ballots.pdf","https://osceolacountyia.gov/supervisors/elections/"],
+ "asOf":"2026-10 (Notice of General Election)",
+ "races":[
+  {"office":"Board of Supervisors, District 1","scope":"county","area":"Osceola 1 Precinct only","seats":1,"candidates":[{"name":"Kevin Ommen","party":"republican"}]},
+  {"office":"Board of Supervisors, District 3","scope":"county","area":"Osceola 3 Precinct only","seats":1,"candidates":[{"name":"Dale Wolter","party":"republican"}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Becky S. Marco","party":"republican"}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Sheila M. Christians","party":"republican"}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[{"name":"Dawn Wilson","party":"republican"}]},
+  {"office":"Soil and Water Conservation District Commissioner","scope":"county","seats":2,"candidates":[{"name":"Dennis Monier","party":null},{"name":"Chris Slagter","party":null}]},
+  {"office":"County Agricultural Extension Council Member (To Fill Vacancy)","scope":"county","seats":1,"candidates":[{"name":"Tanya Dykstra","party":null}]},
+  {"office":"County Agricultural Extension Council","scope":"county","seats":5,"candidates":[{"name":"Sarah Loerts","party":null},{"name":"Peggi Thies","party":null},{"name":"Taylor Hibbing","party":null},{"name":"Becky Block","party":null},{"name":"Thomas Croatt","party":null}]}
+ ],
+ "measures":[
+  {"name":"Public Measure NV - George-Little Rock Community School District General Obligation Bonds","jurisdiction":"George-Little Rock Community School District (Osceola Precinct 3 voters residing in the district only)","ballotLanguage":"Shall the Board of Directors of the George-Little Rock Community School District in the Counties of Lyon, Osceola and Sioux, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $14,950,000 to provide funds to build, furnish and equip additions to its Elementary School and Middle School/ High School facilities, including related remodeling and improvements; to remodel, repair, and improve the Elementary School and Middle School/ High School facilities, including HVAC and bathroom improvements, and site improvements, exterior improvements to the Middle School / High School; to build, furnish, and equip a new bus barn; and to remodel, repair, and improve the Middle School / High School track?"}
+ ],
+ "notes":"Supervisors are elected by district: the notice states District 1 appears on the Osceola 1 Precinct ballot only and District 3 on the Osceola 3 Precinct ballot only. No township offices or Democratic county candidates listed. Source is the official Notice of General Election (text PDF); the sample ballot PDF is image-only."}

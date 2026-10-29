@@ -10,8 +10,8 @@ const PREVIEW = typeof window !== 'undefined' && /^(localhost|127\.0\.0\.1)$|\.v
 export const STATE_BALLOTS = {
   // Live since 2026-10-28. VITE_ENABLE_INDIANA=0 switches it off without a code change.
   IN: { code: 'IN', name: 'Indiana', dir: 'in', idPrefix: 'in-', live: import.meta.env?.VITE_ENABLE_INDIANA !== '0' },
-  // Preview only until approved for launch.
-  IA: { code: 'IA', name: 'Iowa', dir: 'ia', idPrefix: 'ia-', live: false },
+  // Live since 2026-10-29.
+  IA: { code: 'IA', name: 'Iowa', dir: 'ia', idPrefix: 'ia-', live: true },
   // Live since 2026-10-29.
   WI: { code: 'WI', name: 'Wisconsin', dir: 'wi', idPrefix: 'wi-', live: true },
 }
@@ -102,7 +102,9 @@ export function getStateBallot(data, geo, districts) {
 
   // Local questions: keep the ones whose name matches the voter's city, school district or county
   const mine = new Set([...target, ...schoolTokens(geo.place, county.county)])
-  const countyWide = q => new RegExp(`\\b${county.county}\\s+County\\b`, 'i').test(q.name) && !/school|city|town/i.test(q.name)
+  // County measures, and community-college (merged area) measures, which cover whole counties
+  const countyWide = q => /community college|merged area/i.test(q.name) ||
+    (new RegExp(`\\b${county.county}\\s+County\\b`, 'i').test(q.name) && !/school|city|town/i.test(q.name))
   // Questions tagged with the jurisdiction that votes on them (Wisconsin) match on it directly;
   // "Town of X" is only the town's voters, not residents of the city or village of X
   const areaMatch = q => q.scope === 'county' ||

@@ -1,0 +1,412 @@
+{
+ "county": "Jefferson",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://jeffersoncounty.iowa.gov/auditor/elections/",
+  "https://jeffersoncounty.iowa.gov/wp-content/uploads/notice-general-2026.pdf",
+  "https://jeffersoncounty.iowa.gov/wp-content/uploads/BH-TWP-FF-SCH.pdf (and ~38 other per-precinct/township sample ballot PDFs linked from the elections page)"
+ ],
+ "asOf": "2026 General Election Notice / sample ballots (no date printed)",
+ "races": [
+  {
+   "office": "Board of Supervisors",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lee Dimmitt",
+     "party": "republican"
+    },
+    {
+     "name": "Jerald Jerry Leonard",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark Myers",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kelly L. Spees",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Chauncey Moulding",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Public Hospital Trustee",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Alex Roth",
+     "party": null
+    },
+    {
+     "name": "Angela Atwood",
+     "party": null
+    },
+    {
+     "name": "Greg Hanshaw",
+     "party": null
+    },
+    {
+     "name": "Mike Stiemsma",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Joseph Arndt",
+     "party": null
+    },
+    {
+     "name": "Douglas Schultz",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Mark Yule",
+     "party": null
+    },
+    {
+     "name": "Michelle Moothart",
+     "party": null
+    },
+    {
+     "name": "Gregory Jansma",
+     "party": null
+    },
+    {
+     "name": "Susie Drish",
+     "party": null
+    },
+    {
+     "name": "Christy Conner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council (to fill vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brandon Taglauer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Blackhawk Township Trustee",
+   "scope": "township",
+   "area": "Blackhawk",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Blackhawk Township Clerk",
+   "scope": "township",
+   "area": "Blackhawk",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dennis Lock",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Buchanan Township Trustee",
+   "scope": "township",
+   "area": "Buchanan",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James T. Salts",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Buchanan Township Clerk",
+   "scope": "township",
+   "area": "Buchanan",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joseph McLarney",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Trustee",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Drew Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Clerk",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Center Township Trustee",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Philip R Gevock",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Clerk",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James C. Flinspach",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Des Moines Township Trustee",
+   "scope": "township",
+   "area": "Des Moines",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "R. Dean Adam",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Des Moines Township Clerk",
+   "scope": "township",
+   "area": "Des Moines",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ben Godwin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Trustee",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Liberty Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Liberty Township Clerk",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lockridge Township Trustee",
+   "scope": "township",
+   "area": "Lockridge",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lockridge Township Clerk",
+   "scope": "township",
+   "area": "Lockridge",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brian E Taglauer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Locust Grove Township Trustee",
+   "scope": "township",
+   "area": "Locust Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Randy Major",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Locust Grove Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Locust Grove",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Locust Grove Township Clerk",
+   "scope": "township",
+   "area": "Locust Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tony Webb",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Penn Township Trustee",
+   "scope": "township",
+   "area": "Penn",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Penn Township Clerk",
+   "scope": "township",
+   "area": "Penn",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Polk Township Trustee",
+   "scope": "township",
+   "area": "Polk",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mike Myers",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Polk Township Clerk",
+   "scope": "township",
+   "area": "Polk",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Hollingsworth",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Round Prairie Township Trustee",
+   "scope": "township",
+   "area": "Round Prairie",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Craig A. Fulton",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Round Prairie Township Clerk",
+   "scope": "township",
+   "area": "Round Prairie",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Walnut Township Trustee",
+   "scope": "township",
+   "area": "Walnut",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Walnut Township Clerk",
+   "scope": "township",
+   "area": "Walnut",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Diana L Carroll",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure LR (Fairfield Community School District GO Bond)",
+   "jurisdiction": "Fairfield Community School District (voters residing in the district)",
+   "ballotLanguage": "Shall the Board of Directors of the Fairfield Community School District in the Counties of Jefferson, Henry, Van Buren, Wapello and Washington, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $24,850,000 to provide funds to build furnish, and equip additions to and to remodel, repair, improve, and equip the middle school building, including fine arts, career and technical education, library, commons area, kitchen, and gymnasium spaces, including related site improvements?"
+  },
+  {
+   "name": "Public Measure MN (Pekin Community School District GO Bond)",
+   "jurisdiction": "Pekin Community School District (voters residing in the district)",
+   "ballotLanguage": "Shall the Board of Directors of the Pekin Community School District in the Counties of Jefferson, Keokuk, Wapello, and Washington, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $9,200,000 to provide funds to build, furnish, and equip additions to the school building, including classroom and commons area spaces; to remodel, repair, improve, and equip the school building, including a secure entrance, HVAC, mechanical, electrical, plumbing, parking, accessibility, and site improvements?"
+  },
+  {
+   "name": "Public Measure NC (Kirkwood Community College GO Bond)",
+   "jurisdiction": "Kirkwood Community College (Merged Area X) \u2014 voters residing in the Kirkwood district",
+   "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+  }
+ ],
+ "notes": "Sources are scanned image PDFs; text obtained by local OCR (macOS Vision) of the official Notice of Election candidate listing and cross-checked against the per-precinct sample ballots (consistent). Board of Supervisors is at-large: the notice lists it under 'All voters who reside in Jefferson County may vote for' and it appears without a district on every ballot. Jerald Jerry Leonard has no party label (non-party). Empty candidate lists = 'No Candidate' on the notice: Blackhawk/Liberty/Lockridge/Penn/Walnut Trustee, Liberty and Locust Grove Trustee vacancies, Cedar/Liberty/Penn/Round Prairie Clerk. Measure LR text is copied as printed ('build furnish, and equip' \u2014 no comma in source); 'lowa' OCR artifacts corrected to 'Iowa'."
+}

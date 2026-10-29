@@ -1,0 +1,21 @@
+{"county":"Plymouth","found":true,"partial":false,
+ "sources":["https://plymouthcountyiowa.gov/wp-content/uploads/2026/09/2026-General-Candidates-and-public-measures.pdf","https://plymouthcountyiowa.gov/wp-content/uploads/2026/10/Precinct-11.pdf","https://plymouthcountyiowa.gov/2026-primary-general-election/"],
+ "asOf":"2026-10 (sample ballots uploaded October 2026)",
+ "races":[
+  {"office":"Board of Supervisors, District 1","scope":"county","seats":1,"candidates":[{"name":"John Meis","party":"republican"}]},
+  {"office":"Board of Supervisors, District 3","scope":"county","seats":1,"candidates":[{"name":"Don Kass","party":"republican"}]},
+  {"office":"Board of Supervisors, District 4","scope":"county","seats":1,"candidates":[{"name":"Craig A. Anderson","party":"republican"},{"name":"Ryan Mitchell Weber","party":"no party"}]},
+  {"office":"County Treasurer","scope":"county","seats":1,"candidates":[{"name":"Shelly Sitzmann","party":"republican"}]},
+  {"office":"County Recorder","scope":"county","seats":1,"candidates":[{"name":"Jolynn Goodchild","party":"republican"}]},
+  {"office":"County Attorney","scope":"county","seats":1,"candidates":[{"name":"Darin J. Raymond","party":"republican"}]},
+  {"office":"Fredonia Township Clerk","scope":"township","area":"Fredonia","seats":1,"candidates":[{"name":"Wayne Pick","party":null}]},
+  {"office":"Fredonia Township Trustee","scope":"township","area":"Fredonia","seats":2,"candidates":[{"name":"Michael Schnepf","party":null},{"name":"Mike Detloff","party":null}]},
+  {"office":"Soil and Water Conservation District Commissioner","scope":"county","seats":2,"candidates":[{"name":"Robert Puetz","party":null},{"name":"Jeremy Homan","party":null}]},
+  {"office":"Soil and Water Conservation District Commissioner (To Fill Vacancy)","scope":"county","seats":1,"candidates":[{"name":"Scott Jones","party":null}]},
+  {"office":"County Agricultural Extension Council","scope":"county","seats":5,"candidates":[{"name":"Bret Udell","party":null},{"name":"Kevin Hodgson","party":null},{"name":"Thomas Lehner","party":null},{"name":"Amanda Breitbarth","party":null},{"name":"Scott Schroeder","party":null},{"name":"Lori Sheehan","party":null},{"name":"Janell Heimgartner","party":null}]}
+ ],
+ "measures":[
+  {"name":"Public Measure RC - City of Le Mars General Obligation Bonds (Emergency Services Building)","jurisdiction":"City of Le Mars","ballotLanguage":"Shall the City of Le Mars, in Plymouth County, State of Iowa, enter into a loan agreement and issue general obligation bonds in an amount not exceeding $8,000,000 for the purpose of paying the cost, to that extent, of constructing, furnishing and equipping a municipal emergency services building?"},
+  {"name":"Public Measure RD - Hinton Community School District General Obligation Bonds","jurisdiction":"Hinton Community School District","ballotLanguage":"Shall the Board of Directors of the Hinton Community School District in the County of Plymouth, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $8,600,000 to provide funds to remodel, repair, improve, furnish and equip its middle / high school facility, including site improvements?"}
+ ],
+ "notes":"Supervisor seats: the Precinct 11 sample ballot shows all three supervisor contests (Districts 1, 3 and 4), so supervisors are elected countywide (at-large with district residency) rather than by district-only voting. Fredonia Township offices appear only on the Fredonia Township ballot style. Measure text is from the auditor's candidates-and-public-measures list; Le Mars measure appears only in Le Mars precincts, Hinton measure only in Hinton CSD precincts. Ryan Mitchell Weber is listed as 'NO PARTY' (nominated by petition)."}

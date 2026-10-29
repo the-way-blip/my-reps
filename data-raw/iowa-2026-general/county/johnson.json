@@ -1,0 +1,775 @@
+{
+ "county": "Johnson",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.johnsoncountyiowa.gov/november-3-2026-general-election",
+  "https://www.johnsoncountyiowa.gov/supervisor-districts"
+ ],
+ "asOf": "retrieved 2026-10-28 (auditor web page; no publication date shown)",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "area": "District 1",
+   "seats": 1,
+   "term": "4 years",
+   "candidates": [
+    {
+     "name": "Lisa Green-Douglass",
+     "party": "democratic"
+    },
+    {
+     "name": "Greg Erceg",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "area": "District 2",
+   "seats": 1,
+   "term": "2 years",
+   "candidates": [
+    {
+     "name": "Jon Green",
+     "party": "democratic"
+    },
+    {
+     "name": "Phil Hemingway",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "area": "District 3",
+   "seats": 1,
+   "term": "2 years",
+   "candidates": [
+    {
+     "name": "Sue Dvorsky",
+     "party": "democratic"
+    },
+    {
+     "name": "Jennie Wunderlich",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 4",
+   "scope": "county",
+   "area": "District 4",
+   "seats": 1,
+   "term": "2 years",
+   "candidates": [
+    {
+     "name": "V Fixmer-Oraiz",
+     "party": "democratic"
+    },
+    {
+     "name": "Wanda Foster",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 5",
+   "scope": "county",
+   "area": "District 5",
+   "seats": 1,
+   "term": "4 years",
+   "candidates": [
+    {
+     "name": "Mandi Remington",
+     "party": "democratic"
+    },
+    {
+     "name": "Donna Dane",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Scott Finlayson",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kim Painter",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rachel Zimmermann Smith",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kristine Burns",
+     "party": null
+    },
+    {
+     "name": "Katherine Ciecior",
+     "party": null
+    },
+    {
+     "name": "Elsa Schmidt",
+     "party": null
+    },
+    {
+     "name": "Dylan Schrock",
+     "party": null
+    },
+    {
+     "name": "Tanner Stutsman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Corey Johnson",
+     "party": null
+    },
+    {
+     "name": "Alexander Schmidt",
+     "party": null
+    },
+    {
+     "name": "Travis Spevacek",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Big Grove Township Trustee",
+   "scope": "township",
+   "area": "Big Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "DeWayne Klouda",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Big Grove Township Clerk",
+   "scope": "township",
+   "area": "Big Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ryan Hajek",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Trustee",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jerry Serbousek",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Cedar Township Clerk",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dan Erenberger",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clear Creek Township Trustee",
+   "scope": "township",
+   "area": "Clear Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Clear Creek Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Clear Creek",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Adam Brandt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clear Creek Township Clerk",
+   "scope": "township",
+   "area": "Clear Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steve Branin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "East Lucas Township Trustee",
+   "scope": "township",
+   "area": "East Lucas",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Terry A Smothers",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "East Lucas Township Clerk",
+   "scope": "township",
+   "area": "East Lucas",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christopher Knapp",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Trustee",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joel Schillerstron",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Daniel Buser",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Clerk",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lois Dodson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Graham Township Trustee",
+   "scope": "township",
+   "area": "Graham",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Chuck Donohoe",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Graham Township Clerk",
+   "scope": "township",
+   "area": "Graham",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ben Hemingway",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Hardin Township Trustee",
+   "scope": "township",
+   "area": "Hardin",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lyle F. Crow",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Hardin Township Clerk",
+   "scope": "township",
+   "area": "Hardin",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 3,
+   "candidates": [
+    {
+     "name": "Larry Svec",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Greg Wagner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ginny Svec",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Trustee",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Liberty Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brady Olson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Liberty Township Clerk",
+   "scope": "township",
+   "area": "Liberty",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lynn Knight",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lincoln Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Madison Township Trustee",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ryan A. Hahn",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Madison Township Clerk",
+   "scope": "township",
+   "area": "Madison",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gary Swenka",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Monroe Township Trustee",
+   "scope": "township",
+   "area": "Monroe",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Donna Ruegsegger",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Monroe Township Clerk",
+   "scope": "township",
+   "area": "Monroe",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kimberly Bistricki",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Newport Township Trustee",
+   "scope": "township",
+   "area": "Newport",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "John Tiffany",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Newport Township Clerk",
+   "scope": "township",
+   "area": "Newport",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gerald A Fuhrmeister",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oxford Township Trustee",
+   "scope": "township",
+   "area": "Oxford",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bryan Cooling",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oxford Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Oxford",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "James R Tandy",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oxford Township Clerk",
+   "scope": "township",
+   "area": "Oxford",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Penn Township Trustee",
+   "scope": "township",
+   "area": "Penn",
+   "seats": 3,
+   "candidates": [
+    {
+     "name": "Curtis H Moore",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Penn Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Penn",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Daphne Patton",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Penn Township Clerk",
+   "scope": "township",
+   "area": "Penn",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Patti Edwards",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pleasant Valley Township Trustee",
+   "scope": "township",
+   "area": "Pleasant Valley",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Deanne Eden",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pleasant Valley Township Clerk",
+   "scope": "township",
+   "area": "Pleasant Valley",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Eldon Fouchek",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Scott Township Trustee",
+   "scope": "township",
+   "area": "Scott",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Theresa Arn",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Scott Township Clerk",
+   "scope": "township",
+   "area": "Scott",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Diane Schultes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sharon Township Trustee",
+   "scope": "township",
+   "area": "Sharon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bob A. Grout",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sharon Township Clerk",
+   "scope": "township",
+   "area": "Sharon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Becky Ihrig",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Roger Hurt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark Phillips",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Trustee",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Anthony D. Frederick",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Washington Township Clerk",
+   "scope": "township",
+   "area": "Washington",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gabrielle R. Frederick",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Lucas Township Trustee",
+   "scope": "township",
+   "area": "West Lucas",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Casey Williams",
+     "party": null
+    },
+    {
+     "name": "Wayne Barnes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Lucas Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "West Lucas",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "West Lucas Township Clerk",
+   "scope": "township",
+   "area": "West Lucas",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Thomas Fremont Isaacs",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure LY: County Jail Bond (60% required)",
+   "jurisdiction": "Johnson County (countywide)",
+   "ballotLanguage": "Shall the County of Johnson, State of Iowa, issue its general obligation bonds in an amount not exceeding the amount of $94,500,000 for the purpose of acquiring land and constructing, equipping and furnishing a new sheriff’s office and jail facility?"
+  },
+  {
+   "name": "Public Measure LZ: City of Hills Bond (60% required)",
+   "jurisdiction": "City of Hills",
+   "ballotLanguage": "Shall the City of Hills, in Johnson County, State of Iowa, enter into a loan agreement and issue general obligation bonds in an amount not exceeding $5,100,000 for the purpose of paying the cost, to that extent, of constructing furnishing and equipping a municipal building, including fire protection and city hall functionalities?"
+  },
+  {
+   "name": "Public Measure MA: Lone Tree Community School District Bond (60% required)",
+   "jurisdiction": "Lone Tree Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Lone Tree Community School District in the Counties of Johnson and Louisa, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $6,900,000 to provide funds to remodel, repair, and improve the school building for energy efficiency, including HVAC, mechanical, electrical, and site improvements?"
+  },
+  {
+   "name": "Public Measure VF: Mid-Prairie Community School District Bond (60% required)",
+   "jurisdiction": "Mid-Prairie Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Mid-Prairie Community School District in the Counties of Washington, Iowa, and Johnson, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $19,000,000 to provide funds to build, furnish, and equip an addition to the high school, including a new events entrance, auditorium, and fine arts classrooms, with related remodeling and improvements and related site improvements; and to renovate, improve, furnish and equip several existing special education and general education classrooms?"
+  },
+  {
+   "name": "Public Measure NC: Kirkwood Community College bond (60% required)",
+   "jurisdiction": "Kirkwood Community College (Merged Area X)",
+   "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+  }
+ ],
+ "notes": "Source is the Johnson County Auditor's official 2026 General Election page ('Offices and Issues To Appear On Ballot and Lists of Candidates'); per-precinct sample ballots are only available via an interactive lookup and were not used. Supervisor seats are BY DISTRICT (new under SF 75, 2025): all five districts are up; voters vote only in their own district. Districts 2, 3, 4 are two-year terms; Districts 1 and 5 four-year terms. Township offices: blank entries on the auditor list (empty candidate arrays) mean no candidate filed. Penn and Jefferson townships elect three trustees; Clear Creek trustee vacancy is two seats. West Lucas Trustee lists two candidates (Casey Williams, Wayne Barnes) for one seat as printed. SWCD: three candidates for two seats. Name 'Joel Schillerstron' (Fremont Trustee) copied as printed. No hospital trustee race listed."
+}

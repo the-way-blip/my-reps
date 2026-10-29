@@ -1,0 +1,613 @@
+{
+ "county": "Fayette",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+  "https://cap.gmdsolutions.com/viewfile.aspx?id=185D148769B2409CAEE0DFE600B5BF00&dir=Objects (Sample Ballots, 86-page scanned PDF, all precincts)"
+ ],
+ "asOf": "2026-11-03 (official sample ballots)",
+ "races": [
+  {
+   "office": "Board of Supervisors",
+   "scope": "county",
+   "district": "at-large",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jeff Bunn",
+     "party": "republican"
+    },
+    {
+     "name": "Bruce T. Lehmann",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kyle Jacobsen",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kristie Reierson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nathan Lein",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dan McElree",
+     "party": null
+    },
+    {
+     "name": "Ricky Matt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Neil Anthony Lansing",
+     "party": null
+    },
+    {
+     "name": "Scot Michelson",
+     "party": null
+    },
+    {
+     "name": "Amy Boehm",
+     "party": null
+    },
+    {
+     "name": "Brian Lyn Lantzky",
+     "party": null
+    },
+    {
+     "name": "Michael McFadden",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Auburn Township Trustee",
+   "scope": "township",
+   "area": "Auburn",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Collin Jensen",
+     "party": null
+    },
+    {
+     "name": "Kenneth Boyer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Auburn Township Clerk",
+   "scope": "township",
+   "area": "Auburn",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Eden Township Trustee",
+   "scope": "township",
+   "area": "Eden",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Scott Klemp",
+     "party": null
+    },
+    {
+     "name": "Michael Hoey",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Eden Township Clerk",
+   "scope": "township",
+   "area": "Eden",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Marlene Klemp",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Banks Township Trustee",
+   "scope": "township",
+   "area": "Banks",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Gary Stauffer",
+     "party": null
+    },
+    {
+     "name": "Robert Henn",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Banks Township Clerk",
+   "scope": "township",
+   "area": "Banks",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ronald J. Hartman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fremont Township Trustee",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Fremont Township Clerk",
+   "scope": "township",
+   "area": "Fremont",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Valerie Warnke",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Bethel Township Trustee",
+   "scope": "township",
+   "area": "Bethel",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Bethel Township Clerk",
+   "scope": "township",
+   "area": "Bethel",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gene Pleggenkuhle",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Windsor Township Trustee",
+   "scope": "township",
+   "area": "Windsor",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Marvin Duane Shippy",
+     "party": null
+    },
+    {
+     "name": "Kevin B. Boyer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Windsor Township Clerk",
+   "scope": "township",
+   "area": "Windsor",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Barbara Colvin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Trustee",
+   "scope": "township",
+   "area": "Center",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Tobey Weidemann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Clerk",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Richard D. Buhmann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Harlan Township Trustee",
+   "scope": "township",
+   "area": "Harlan",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Rick Fink",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Harlan Township Clerk",
+   "scope": "township",
+   "area": "Harlan",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joyce Gadow",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clermont Township Trustee",
+   "scope": "township",
+   "area": "Clermont",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Richard Kittelson",
+     "party": null
+    },
+    {
+     "name": "Damien Matt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Clermont Township Clerk",
+   "scope": "township",
+   "area": "Clermont",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mark Alan Nelson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pleasant Valley Township Trustee",
+   "scope": "township",
+   "area": "Pleasant Valley",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Randy Helgerson",
+     "party": null
+    },
+    {
+     "name": "Michael Friederich",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pleasant Valley Township Clerk",
+   "scope": "township",
+   "area": "Pleasant Valley",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Duane Patterson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dover Township Trustee",
+   "scope": "township",
+   "area": "Dover",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Alan J. Steffens",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dover Township Clerk",
+   "scope": "township",
+   "area": "Dover",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Michael J. Darnall",
+     "party": null
+    },
+    {
+     "name": "Dan McElree",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jim Grimes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fairfield Township Trustee",
+   "scope": "township",
+   "area": "Fairfield",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Fairfield Township Clerk",
+   "scope": "township",
+   "area": "Fairfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joyce Knickerbocker",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Putnam Township Trustee",
+   "scope": "township",
+   "area": "Putnam",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ryan Riechers",
+     "party": null
+    },
+    {
+     "name": "Bart D. DeLong",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Putnam Township Clerk",
+   "scope": "township",
+   "area": "Putnam",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Teresa Burrack",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Illyria Township Trustee",
+   "scope": "township",
+   "area": "Illyria",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Gary Lehmann",
+     "party": null
+    },
+    {
+     "name": "Russell Medberry",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Illyria Township Clerk",
+   "scope": "township",
+   "area": "Illyria",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Teri Block",
+     "party": null
+    },
+    {
+     "name": "Yvonne Gaudes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "area": "Jefferson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Eileen Koob",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Scott Township Trustee",
+   "scope": "township",
+   "area": "Scott",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Alan L. Schlumbohm",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Scott Township Clerk",
+   "scope": "township",
+   "area": "Scott",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tammy Brownell",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oran Township Trustee",
+   "scope": "township",
+   "area": "Oran",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Glenda Kane",
+     "party": null
+    },
+    {
+     "name": "Janice D. Martins",
+     "party": null
+    },
+    {
+     "name": "Jason Peterson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oran Township Clerk",
+   "scope": "township",
+   "area": "Oran",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sue A. Fette",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Smithfield Township Trustee",
+   "scope": "township",
+   "area": "Smithfield",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "William Martin",
+     "party": null
+    },
+    {
+     "name": "Jordan Reinking",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Smithfield Township Clerk",
+   "scope": "township",
+   "area": "Smithfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tyler L. Engel",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Westfield Township Trustee",
+   "scope": "township",
+   "area": "Westfield",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jim Mitchell",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Westfield Township Clerk",
+   "scope": "township",
+   "area": "Westfield",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure HK",
+   "jurisdiction": "Fayette County",
+   "ballotLanguage": "Shall the Fayette County Board of Supervisors, upon recommendation by the Fayette County EMS Advisory Council, be authorized to levy and impose an ad valorem, meaning according to value, property tax not to exceed seventy-five cents ($0.75) per one thousand dollars ($1,000) of assessed valuation on all taxable property within Fayette County for the purpose of funding Emergency Medical Services, for a period not to exceed fifteen (15) years?"
+  },
+  {
+   "name": "Public Measure BW",
+   "jurisdiction": "Sumner-Fredericksburg Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Sumner-Fredericksburg Community School District in the Counties of Bremer, Chickasaw, and Fayette, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $16,300,000 to provide funds to construct, build, furnish, and equip additions to the High School building; and to remodel, repair, improve, and equip the existing High School, Middle School, and Fredericksburg Elementary buildings, including playground, parking, and site improvements?"
+  }
+ ],
+ "notes": "Supervisors elected at-large ('Vote for no more than Two', identical on all 43 ballot styles). Sample ballots are scanned images; contests read via OCR with spot visual checks. Township trustee (vote for 2) and clerk (vote for 1) appear on township precinct ballots; empty candidate lists = office printed with write-in lines only. Fayette County EMS levy (HK) is countywide; Sumner-Fredericksburg CSD bond (BW) only on the 4 'Sumner Fred School' ballot styles. No hospital trustee contest."
+}

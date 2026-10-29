@@ -1,0 +1,482 @@
+{
+ "county": "Davis",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.daviscountyiowa.gov/election-voting-information/",
+  "https://www.daviscountyiowa.gov/wp-content/uploads/2026/08/2026-General-Candidate-List.pdf",
+  "https://www.daviscountyiowa.gov/wp-content/uploads/2026/09/Perry-Township.pdf",
+  "https://www.daviscountyiowa.gov/wp-content/uploads/2026/09/VB-Prairie-Township.pdf",
+  "https://www.daviscountyiowa.gov/wp-content/uploads/2026/09/ (all 24 precinct sample ballots on the election page)"
+ ],
+ "asOf": "2026-08 (candidate list); sample ballots posted 2026-09",
+ "races": [
+  {
+   "office": "Board of Supervisors",
+   "scope": "county",
+   "district": "at-large",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kimra Hines",
+     "party": "democratic"
+    },
+    {
+     "name": "David Henderson",
+     "party": "republican"
+    },
+    {
+     "name": "Cory Fleming",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mike Johnson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Megan Clyman",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rick Lynch",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Davis County Hospital Trustee",
+   "scope": "county",
+   "seats": 3,
+   "candidates": [
+    {
+     "name": "Bailey Westfall",
+     "party": null
+    },
+    {
+     "name": "Nathan Chaney",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Adam Smith",
+     "party": null
+    },
+    {
+     "name": "Kevin Prevo",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Ryan Heemsbergen",
+     "party": null
+    },
+    {
+     "name": "Jacqueline White",
+     "party": null
+    },
+    {
+     "name": "Tim Sprouse",
+     "party": null
+    },
+    {
+     "name": "Brandon Bish",
+     "party": null
+    },
+    {
+     "name": "Teri Hanna",
+     "party": null
+    },
+    {
+     "name": "Lincoln Lynch",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council (To Fill a Vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Cleveland Township Trustee",
+   "scope": "township",
+   "area": "Cleveland",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jeffrey Kincart",
+     "party": null
+    },
+    {
+     "name": "Roger Wuthrich",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cleveland Township Clerk",
+   "scope": "township",
+   "area": "Cleveland",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Prairie Township Trustee",
+   "scope": "township",
+   "area": "Prairie",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Kyle Payne",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Prairie Township Clerk",
+   "scope": "township",
+   "area": "Prairie",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jo Ann Altheide",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Roscoe Township Trustee",
+   "scope": "township",
+   "area": "Roscoe",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Richard Rickelman",
+     "party": null
+    },
+    {
+     "name": "Nicholas Prevo",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Roscoe Township Clerk",
+   "scope": "township",
+   "area": "Roscoe",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Emily Prevo",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Drakesville Township Trustee",
+   "scope": "township",
+   "area": "Drakesville",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dan Bodkins",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Drakesville Township Clerk",
+   "scope": "township",
+   "area": "Drakesville",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kevan Bogert",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fabius Township Trustee",
+   "scope": "township",
+   "area": "Fabius",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Larry Lawson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fabius Township Clerk",
+   "scope": "township",
+   "area": "Fabius",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Fox River Township Trustee",
+   "scope": "township",
+   "area": "Fox River",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Adam D Bridgman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Fox River Township Clerk",
+   "scope": "township",
+   "area": "Fox River",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Grove Township Trustee",
+   "scope": "township",
+   "area": "Grove",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "David Boas",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grove Township Clerk",
+   "scope": "township",
+   "area": "Grove",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lick Creek Township Trustee",
+   "scope": "township",
+   "area": "Lick Creek",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Brian Harrington",
+     "party": null
+    },
+    {
+     "name": "Heath Greiner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lick Creek Township Clerk",
+   "scope": "township",
+   "area": "Lick Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Marion Township Trustee",
+   "scope": "township",
+   "area": "Marion",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Lonnie J. Archer",
+     "party": null
+    },
+    {
+     "name": "Virgil D. Cassill",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Marion Township Clerk",
+   "scope": "township",
+   "area": "Marion",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joan Cassill",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Perry Township Trustee",
+   "scope": "township",
+   "area": "Perry",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Mike Petefish",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Perry Township Clerk",
+   "scope": "township",
+   "area": "Perry",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David E. Yahnke",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Salt Creek Township Trustee",
+   "scope": "township",
+   "area": "Salt Creek",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Dianna Swaim",
+     "party": null
+    },
+    {
+     "name": "Aaron Swaim",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Salt Creek Township Clerk",
+   "scope": "township",
+   "area": "Salt Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Marcie Benge",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soap Creek Township Trustee",
+   "scope": "township",
+   "area": "Soap Creek",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Danny Dunlavy",
+     "party": null
+    },
+    {
+     "name": "Lyle Spurgeon",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soap Creek Township Clerk",
+   "scope": "township",
+   "area": "Soap Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Karla Hill",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Grove Township Trustee",
+   "scope": "township",
+   "area": "West Grove",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ron Harris",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "West Grove Township Clerk",
+   "scope": "township",
+   "area": "West Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Fran Harris",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wyacondah Township Trustee",
+   "scope": "township",
+   "area": "Wyacondah",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Wyacondah Township Clerk",
+   "scope": "township",
+   "area": "Wyacondah",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure US",
+   "jurisdiction": "Van Buren County Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Van Buren County Community School District in the Counties of Van Buren, Davis, Henry and Lee, State of Iowa, be authorized to issue approximately $13,800,000 School Infrastructure Sales, Services and Use Tax Revenue and Refunding Bonds, which may be issued in one or more series over multiple fiscal years pursuant to Iowa Code Section 423F.2 and 423E.5, in the approximate amount of $13,800,000 for the purpose of providing funds to build, furnish, and equip an addition to the Keosauqua campus, including a secure entrance, classrooms, commons, and office space, and to improve the site; and to currently refund the outstanding School Infrastructure Sales, Services and Use Tax Revenue Bonds, Series 2022A, dated July 15, 2022, including costs of issuance and a debt service reserve fund if required by the purchaser; with any bond proceeds remaining after completion of this project used for other school infrastructure projects as authorized by the School District's Revenue Purpose Statement?"
+  }
+ ],
+ "notes": "Supervisors elected at-large (Vote for no more than Two on every ballot). Township trustee (vote for 2) and clerk (vote for 1) contests read from the scanned precinct sample ballots via OCR; empty candidate lists mean the ballot prints the office with write-in lines only. Hospital trustee: 2 candidates for 3 seats. Ag Extension vacancy seat has no candidate. Van Buren County CSD measure US appears only on VB-Prairie and VB-Roscoe ballot styles. City precincts (Bloomfield wards, Drakesville, Floris, Pulaski) carry no township offices."
+}

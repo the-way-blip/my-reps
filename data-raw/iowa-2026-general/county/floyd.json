@@ -1,0 +1,398 @@
+{
+  "county": "Floyd",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.floydco.iowa.gov/172/Election-Voter-Registration-Information",
+    "https://www.floydco.iowa.gov/DocumentCenter/View/4221/CC1---Courthouse-EOC",
+    "https://www.floydco.iowa.gov/DocumentCenter/View/4224/St-Charles-North-Township---Trinity-United-Methodist-Church",
+    "https://www.floydco.iowa.gov/DocumentCenter/View/4241/Riverton-Township---Floyd-County-Fairground-YEC"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Josh Mack",
+          "party": "democratic"
+        },
+        {
+          "name": "Tyler Robbins",
+          "party": "republican"
+        },
+        {
+          "name": "Aaron Hobert",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Boyd A. Campbell",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jessie Holm",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Amy M. Assink",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Todd Prichard",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Sharon Enabnit",
+          "party": null
+        },
+        {
+          "name": "Amanda McCarty",
+          "party": null
+        },
+        {
+          "name": "Bethany Bryant",
+          "party": null
+        },
+        {
+          "name": "Cheryl Erb",
+          "party": null
+        },
+        {
+          "name": "Sydney Franzen",
+          "party": null
+        },
+        {
+          "name": "Viva Boerschel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Kenneth Pecinovsky",
+          "party": null
+        },
+        {
+          "name": "Grant Stewart",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Jacie Peichel",
+          "party": null
+        },
+        {
+          "name": "Steve Shurtz",
+          "party": null
+        },
+        {
+          "name": "Alison M Frerichs",
+          "party": null
+        },
+        {
+          "name": "Whittney Franke",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "St. Charles Township Trustee",
+      "scope": "township",
+      "area": "St. Charles",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "David Holschlag",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "St. Charles Township Clerk",
+      "scope": "township",
+      "area": "St. Charles",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Diane Hobert",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Rudd Township Trustee",
+      "scope": "township",
+      "area": "Rudd",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Rudd Township Clerk",
+      "scope": "township",
+      "area": "Rudd",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Floyd Township Trustee",
+      "scope": "township",
+      "area": "Floyd",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Floyd Township Clerk",
+      "scope": "township",
+      "area": "Floyd",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Cedar Township Trustee",
+      "scope": "township",
+      "area": "Cedar",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Ben Kisch",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cedar Township Clerk",
+      "scope": "township",
+      "area": "Cedar",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Amy Johnson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Niles Township Trustee",
+      "scope": "township",
+      "area": "Niles",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Niles Township Clerk",
+      "scope": "township",
+      "area": "Niles",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Rock Grove Township Trustee",
+      "scope": "township",
+      "area": "Rock Grove",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Bruce A. Squier",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Rock Grove Township Clerk",
+      "scope": "township",
+      "area": "Rock Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Galen Montag",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Rockford Township Trustee",
+      "scope": "township",
+      "area": "Rockford",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Rockford Township Clerk",
+      "scope": "township",
+      "area": "Rockford",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Scott Township Trustee",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Paul Ott",
+          "party": null
+        },
+        {
+          "name": "Andrew Kruse",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scott Township Clerk",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brittany Marzen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Trustee",
+      "scope": "township",
+      "area": "Union",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Mark Schlader",
+          "party": null
+        },
+        {
+          "name": "Ricky Rex",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Clerk",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randall Eugene Schweizer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Grove Township Trustee",
+      "scope": "township",
+      "area": "Pleasant Grove",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Nathan Stauffer",
+          "party": null
+        },
+        {
+          "name": "Dennis Gabe",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Grove Township Clerk",
+      "scope": "township",
+      "area": "Pleasant Grove",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Ulster Township Trustee",
+      "scope": "township",
+      "area": "Ulster",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Gerald Schmitt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Ulster Township Clerk",
+      "scope": "township",
+      "area": "Ulster",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Riverton Township Trustee",
+      "scope": "township",
+      "area": "Riverton",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Charlie Westervelt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Riverton Township Clerk",
+      "scope": "township",
+      "area": "Riverton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Troy Stille",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Parsed from all 21 official per-precinct sample ballot PDFs (DocumentCenter/View/4221-4241) linked on the county election page. Supervisors are elected BY DISTRICT: District 2 appears on 3 precincts (CC2, CC3, St. Charles-North Twp) and District 3 on 9 precincts; the other precincts have no supervisor contest this cycle (no District 1 race). Aaron Hobert (Sup. D2) is printed with no party (nominated by petition). Township races with empty candidate lists appear on the ballot with write-in lines only. Rockford Township Trustee is printed 'Vote for no more than One'. No county or local public measures appear on any sample ballot."
+}

@@ -1,0 +1,789 @@
+{
+  "county": "Pottawattamie",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.pottcounty-ia.gov/elections/2026_general_election_2026_11_03/",
+    "https://www.pottcounty-ia.gov/files/sample_ballots/20261103_avoca_knox_township_26211.pdf (one of 66 precinct sample ballots at /files/sample_ballots/20261103_*.pdf)"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, At-Large",
+      "scope": "county",
+      "seats": 3,
+      "candidates": [
+        {
+          "name": "Shawna Anderson",
+          "party": "democratic"
+        },
+        {
+          "name": "Dennis Gunderson",
+          "party": "democratic"
+        },
+        {
+          "name": "Jeff Jorgensen",
+          "party": "republican"
+        },
+        {
+          "name": "Susan M. Miller",
+          "party": "republican"
+        },
+        {
+          "name": "Mark Shoemaker",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lea A. Voss",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Andrew Moats",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Matthew D. Wilber",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "East Pottawattamie Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "area": "East Pottawattamie SWCD",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Terry Gleaves",
+          "party": null
+        },
+        {
+          "name": "Kami Willett",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "West Pottawattamie Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "area": "West Pottawattamie SWCD",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Dolores Bristol",
+          "party": null
+        },
+        {
+          "name": "Don Dilts",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "East Pottawattamie Agricultural Extension Council Member",
+      "scope": "county",
+      "area": "East Pottawattamie Extension District",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Carrie Bane",
+          "party": null
+        },
+        {
+          "name": "Nick Bates",
+          "party": null
+        },
+        {
+          "name": "Connie Haines",
+          "party": null
+        },
+        {
+          "name": "Lori L. Nisley",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "West Pottawattamie Agricultural Extension Council Member",
+      "scope": "county",
+      "area": "West Pottawattamie Extension District",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Melissa Head",
+          "party": null
+        },
+        {
+          "name": "Austin Hively",
+          "party": null
+        },
+        {
+          "name": "Courtney Kay",
+          "party": null
+        },
+        {
+          "name": "Sarah Y. McGrath",
+          "party": null
+        },
+        {
+          "name": "Annie Peterson",
+          "party": null
+        },
+        {
+          "name": "Shane Schaaf",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Belknap Township Trustee",
+      "scope": "township",
+      "area": "Belknap",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bernie Bolton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Belknap Township Clerk",
+      "scope": "township",
+      "area": "Belknap",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brenda Windmuller",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Boomer Township Trustee",
+      "scope": "township",
+      "area": "Boomer",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Aaron George",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Boomer Township Clerk",
+      "scope": "township",
+      "area": "Boomer",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randall Witt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Carson Township Trustee",
+      "scope": "township",
+      "area": "Carson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Carson Township Clerk",
+      "scope": "township",
+      "area": "Carson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Larry William Plagman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Center Township Trustee",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mary Oltman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Center Township Clerk",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Center Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Perry Beedle IV",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Crescent Township Trustee",
+      "scope": "township",
+      "area": "Crescent",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Derek Brand",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Crescent Township Clerk",
+      "scope": "township",
+      "area": "Crescent",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Donovan Brand",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Garner Township Trustee",
+      "scope": "township",
+      "area": "Garner",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Garner Township Clerk",
+      "scope": "township",
+      "area": "Garner",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Garner Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Garner",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Grove Township Trustee",
+      "scope": "township",
+      "area": "Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Karen Hotze",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grove Township Clerk",
+      "scope": "township",
+      "area": "Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Marsha Houser",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hardin Township Trustee",
+      "scope": "township",
+      "area": "Hardin",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Hardin Township Clerk",
+      "scope": "township",
+      "area": "Hardin",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rex Grote",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hazel Dell Township Trustee",
+      "scope": "township",
+      "area": "Hazel Dell",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Quentin Carritt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hazel Dell Township Clerk",
+      "scope": "township",
+      "area": "Hazel Dell",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tiffany Carritt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "James Township Trustee",
+      "scope": "township",
+      "area": "James",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rodney Bane",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "James Township Clerk",
+      "scope": "township",
+      "area": "James",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Alex Beatty",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "James Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "James",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Keg Creek Township Trustee",
+      "scope": "township",
+      "area": "Keg Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Plumb",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Keg Creek Township Clerk",
+      "scope": "township",
+      "area": "Keg Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mark Nusser",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Keg Creek Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Keg Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mark Siebels",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Knox Township Trustee",
+      "scope": "township",
+      "area": "Knox",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Knox Township Clerk",
+      "scope": "township",
+      "area": "Knox",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Keith Holtz",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lake Township Trustee",
+      "scope": "township",
+      "area": "Lake",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jack B. Holder",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lake Township Clerk",
+      "scope": "township",
+      "area": "Lake",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Layton Township Trustee",
+      "scope": "township",
+      "area": "Layton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Layton Township Clerk",
+      "scope": "township",
+      "area": "Layton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lewis Township Trustee",
+      "scope": "township",
+      "area": "Lewis",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Diane Burroughs",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lewis Township Clerk",
+      "scope": "township",
+      "area": "Lewis",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Alan Wegman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Margrette Brix",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Macedonia Township Trustee",
+      "scope": "township",
+      "area": "Macedonia",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Darla Easton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Macedonia Township Clerk",
+      "scope": "township",
+      "area": "Macedonia",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Nancy J. Raney",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Minden Township Trustee",
+      "scope": "township",
+      "area": "Minden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dean Alfers",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Minden Township Clerk",
+      "scope": "township",
+      "area": "Minden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lori Lehan",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Neola Township Trustee",
+      "scope": "township",
+      "area": "Neola",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dean Schnitker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Neola Township Clerk",
+      "scope": "township",
+      "area": "Neola",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John J. Fischer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Norwalk Township Trustee",
+      "scope": "township",
+      "area": "Norwalk",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mary Bleth-Harris",
+          "party": null
+        },
+        {
+          "name": "Curtis Letner",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Norwalk Township Clerk",
+      "scope": "township",
+      "area": "Norwalk",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Pleasant Township Trustee",
+      "scope": "township",
+      "area": "Pleasant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Larry Ploen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Township Clerk",
+      "scope": "township",
+      "area": "Pleasant",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Rockford Township Trustee",
+      "scope": "township",
+      "area": "Rockford",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Rockford Township Clerk",
+      "scope": "township",
+      "area": "Rockford",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Silver Creek Township Trustee",
+      "scope": "township",
+      "area": "Silver Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Travis Gayer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Silver Creek Township Clerk",
+      "scope": "township",
+      "area": "Silver Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lisa Schnepel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Silver Creek Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Silver Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Coree Schnepel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Valley Township Trustee",
+      "scope": "township",
+      "area": "Valley",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Valley Township Clerk",
+      "scope": "township",
+      "area": "Valley",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dawn Harder",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Keith Bentley",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "LuAnn Potter",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Wright Township Trustee",
+      "scope": "township",
+      "area": "Wright",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bill Backhaus",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Wright Township Clerk",
+      "scope": "township",
+      "area": "Wright",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Susan Klindt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "York Township Trustee",
+      "scope": "township",
+      "area": "York",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Dau",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "York Township Clerk",
+      "scope": "township",
+      "area": "York",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brenda Dau",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "Read in a real browser. All 66 sample ballots are scanned image PDFs (no text layer); each was rendered and read visually. Supervisors elected at large, vote for three. The county is split into East and West Pottawattamie Soil & Water Conservation Districts and East and West Pottawattamie Agricultural Extension districts - voters get one of each based on location (East: Avoca/Carson/Hancock/Macedonia/Oakland/Walnut areas; West: Council Bluffs, Carter Lake, Crescent, Minden, Neola, Treynor, Underwood, Boomer/Neola Twp, etc.). East Ag Extension has 4 candidates for 5 seats. Township offices with no printed candidate (write-in only) are listed with empty candidate arrays (e.g., Garner, Layton, Rockford trustee and clerk; Garner and James trustee vacancies). Lewis Township trustee is vote-for-two. Council Bluffs (Kane Twp), Carter Lake, Waveland Township and city-only ballots show no township offices. No county hospital trustee race. Page 2 of every ballot checked: no county, city or school public measures (only Statewide Public Measure 1)."
+}

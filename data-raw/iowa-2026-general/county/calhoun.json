@@ -1,0 +1,479 @@
+{
+ "county": "Calhoun",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://calhouncounty.iowa.gov/residents/elections/2026_general_election_sample_ballots.php",
+  "https://calhouncounty.iowa.gov/2026%20General%20Election%20Sample%20Ballots/Butler%20Township%20%26%20Pocahontas%20Area%20CSD.pdf",
+  "https://calhouncounty.iowa.gov/2026%20General%20Election%20Sample%20Ballots/Calhoun%20Township.pdf",
+  "https://calhouncounty.iowa.gov/Lincoln%20Township.pdf"
+ ],
+ "asOf": "2026-09-16 (sample ballot upload timestamps)",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "district": "2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Scott Jacobs",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "M. Alan Ellis",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cathy Voith",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Benjamin Smith",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Auditor (To Fill Vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jena Patzner",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Darcy Maulsby",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kendra Davis",
+     "party": null
+    },
+    {
+     "name": "Andrew Miller",
+     "party": null
+    },
+    {
+     "name": "Michelle Dischler",
+     "party": null
+    },
+    {
+     "name": "Jacob Davis",
+     "party": null
+    },
+    {
+     "name": "Dennis Hammen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Butler Township Trustee",
+   "scope": "township",
+   "area": "Butler",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dan Erickson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Butler Township Clerk",
+   "scope": "township",
+   "area": "Butler",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Callie Hanlon",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Calhoun Township Trustee",
+   "scope": "township",
+   "area": "Calhoun",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Calhoun Township Clerk",
+   "scope": "township",
+   "area": "Calhoun",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Cedar Township Trustee",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jason McKenney",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cedar Township Clerk",
+   "scope": "township",
+   "area": "Cedar",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Center Township Trustee",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Michael Powers",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Clerk",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Connie Falk",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Elm Grove Township Trustee",
+   "scope": "township",
+   "area": "Elm Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jeffery L. Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Elm Grove Township Clerk",
+   "scope": "township",
+   "area": "Elm Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Darcy Maulsby",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Garfield Township Trustee",
+   "scope": "township",
+   "area": "Garfield",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Garfield Township Clerk",
+   "scope": "township",
+   "area": "Garfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ben Albright",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Greenfield Township Trustee",
+   "scope": "township",
+   "area": "Greenfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dean Black",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Greenfield Township Clerk",
+   "scope": "township",
+   "area": "Greenfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Candy Bilstad",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kenneth A. Steinkamp",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lake Creek Township Trustee",
+   "scope": "township",
+   "area": "Lake Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lake Creek Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Lake Creek",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Lake Creek Township Clerk",
+   "scope": "township",
+   "area": "Lake Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Craig Hiler",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Gwen Ewing",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Logan Township Trustee",
+   "scope": "township",
+   "area": "Logan",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Logan Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Logan",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Mat Dischler",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Logan Township Clerk",
+   "scope": "township",
+   "area": "Logan",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tim Nicholson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Reading Township Trustee",
+   "scope": "township",
+   "area": "Reading",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steve Gutshall",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Reading Township Clerk",
+   "scope": "township",
+   "area": "Reading",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Vicki Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sherman Township Trustee",
+   "scope": "township",
+   "area": "Sherman",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brad Gangestad",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sherman Township Clerk",
+   "scope": "township",
+   "area": "Sherman",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Anne Hyink",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Twin Lakes Township Trustee",
+   "scope": "township",
+   "area": "Twin Lakes",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ed Irwin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Twin Lakes Township Clerk",
+   "scope": "township",
+   "area": "Twin Lakes",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Shelly Hartwig",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kriss Lightner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Timothy J Woodward",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Williams Township Trustee",
+   "scope": "township",
+   "area": "Williams",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Evan Hecht",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Williams Township Clerk",
+   "scope": "township",
+   "area": "Williams",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "William Daniel",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Pocahontas Area Community School District Public Measure RQ",
+   "jurisdiction": "Pocahontas Area Community School District (Calhoun County portion: Pomeroy, Butler Twp, Sherman Twp, Williams Twp precinct ballot styles)",
+   "ballotLanguage": "Shall the Board of Directors of the Pocahontas Area Community School District in the Counties of Pocahontas, Calhoun and Palo Alto, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $20,000,000 to provide funds to remodel, repair, improve, and equip the middle/high school and elementary school, including career and technical education and classroom spaces; to build, furnish, and equip additions to the middle/high school and elementary school, including site improvements; for playground improvements at the elementary school; and to build, furnish, and equip a central office and regional learning center building and a transportation facility, including site improvements?"
+  }
+ ],
+ "notes": "Parsed from all 29 official precinct/ballot-style sample ballots posted by the Calhoun County Auditor. Supervisors are elected by district: only District 2 is on the ballot (appears on 9 ballot styles: Calhoun, Elm Grove, Jackson, S. Lake Creek, S. Logan, Reading, Union townships, Lake City & Yetter, Farnhamville & Lohrville); voters see only their district. County Treasurer candidate M. Alan Ellis has no party label on the ballot. A County Auditor vacancy race is on the ballot. Township races with empty candidate lists are on the ballot with write-in lines only. N./S. Greenfield, N./S. Lake Creek and N./S. Logan precincts share the same township races. No county hospital trustee race appears."
+}

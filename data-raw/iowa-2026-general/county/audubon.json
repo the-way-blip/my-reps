@@ -1,0 +1,270 @@
+{
+ "county": "Audubon",
+ "found": true,
+ "partial": true,
+ "sources": [
+  "https://www.auduboncountyia.gov/webres/File/Auditor/Election/Sample%20Ballot.pdf",
+  "https://www.auduboncountyia.gov/county-information/auditor.aspx",
+  "https://ballotpedia.org/Audubon_County,_Iowa,_elections,_2026",
+  "https://electionresults.iowa.gov/IA/Audubon/122327/354874/json/en/summary.json (2024 general contest list)",
+  "https://electionresults.iowa.gov/IA/Audubon/126087/ (2026 primary)"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, At-Large",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Paul R.N. Nielsen",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Debbie Campbell",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Miranda Bills",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Christopher R. Swensen",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Public Hospital Trustee",
+   "scope": "county",
+   "seats": 4,
+   "candidates": [
+    {
+     "name": "Sam Graeve",
+     "party": null
+    },
+    {
+     "name": "Genelle Deist",
+     "party": null
+    },
+    {
+     "name": "Marlene Ballou",
+     "party": null
+    },
+    {
+     "name": "Anne Bomstad Miller",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jonnie Meislahn",
+     "party": null
+    },
+    {
+     "name": "Lora L. Anthofer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Julie McVay",
+     "party": null
+    },
+    {
+     "name": "Tonya Vetter",
+     "party": null
+    },
+    {
+     "name": "Amanda Warnaca",
+     "party": null
+    },
+    {
+     "name": "Nathan Paulsen",
+     "party": null
+    },
+    {
+     "name": "Brooke Wegner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cameron Township Trustee",
+   "scope": "township",
+   "area": "Cameron",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Blane O. Kerkhoff",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Cameron Township Clerk",
+   "scope": "township",
+   "area": "Cameron",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kelly Mennenoh",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Douglas Township Trustee",
+   "scope": "township",
+   "area": "Douglas",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Rodney L. Hansen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Exira Township Trustee",
+   "scope": "township",
+   "area": "Exira",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Lonn Kilworth",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Exira Township Clerk",
+   "scope": "township",
+   "area": "Exira",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jane Jessen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Daniel Tibben",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Linda Kerkhoff",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oakfield Township Trustee",
+   "scope": "township",
+   "area": "Oakfield",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Joel Hoegh",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oakfield Township Clerk",
+   "scope": "township",
+   "area": "Oakfield",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Galen Sornson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sharon Township Clerk",
+   "scope": "township",
+   "area": "Sharon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kurt Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Viola Township Trustee",
+   "scope": "township",
+   "area": "Viola",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Scott Larsen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Viola Township Clerk",
+   "scope": "township",
+   "area": "Viola",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Abigail Larsen",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "PARTIAL. County contests from the official sample ballot (scanned image, one countywide style, no precinct name printed; transcribed via OCR). Supervisors are elected AT LARGE (no districts): the 2024 general had one countywide 'County Board of Supervisors' contest (vote for 2), the 2026 primary had a single countywide supervisor contest, and the 2026 sample ballot prints 'County Board of Supervisors, vote for no more than one' without a district. Township contests are from Ballotpedia's Audubon 2026 page (SECONDARY source; no official township list or other ballot styles are posted on auduboncountyia.gov, and the newspaper notice could not be opened - iowapublicnotices.com blocks viewing). Ballotpedia lists candidates only for Cameron, Douglas, Exira, Lincoln, Oakfield, Sharon and Viola townships. Trustee vote-for counts are unknown (seats null; clerks recorded as 1). In 2024 all 12 townships (Audubon, Cameron, Douglas, Exira, Greeley, Hamlin, Leroy, Lincoln, Melville, Oakfield, Sharon, Viola) elected trustees (vote for 2), so the other townships likely have 2026 trustee and/or clerk contests with no candidates - not confirmed. No county public measure on the sample ballot. STILL MISSING: official confirmation of township contests (incl. write-in-only ones), trustee vote-for counts, and any precinct-specific measures on other ballot styles."
+}

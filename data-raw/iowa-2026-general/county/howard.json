@@ -1,0 +1,530 @@
+{
+ "county": "Howard",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://howardcounty.iowa.gov/",
+  "https://cap.gmdsolutions.com/viewfile.aspx?id=310FD6720B7F485D9BFBB2DBE8C14F05&dir=Objects (General Election list of candidates 2026)",
+  "https://cap.gmdsolutions.com/viewfile.aspx?id=A23869C425F44F74B5912024CDCCB266&dir=Objects (2026 General Election Notice)",
+  "https://cap.gmdsolutions.com/viewfile.aspx?id=0CA61C6D37D5474A86BF9588B98F9400&dir=Objects (Official Ballot sample, Albion Township)"
+ ],
+ "asOf": "2026 General Election Notice (certified by Julie Chapman, Howard County Auditor; no date printed)",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "area": "District 2",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "JOE PISNEY",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "area": "District 3",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "DEAN EASTMAN",
+     "party": "republican"
+    },
+    {
+     "name": "TOM BILIDT",
+     "party": "democratic"
+    },
+    {
+     "name": "BRIAN FOSTER",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "CHRISTINE HRON",
+     "party": "republican"
+    },
+    {
+     "name": "SARA KLEVE",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "ROXANN VOKATY",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "KEVIN E. SCHOEBERL",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Regional Health Services of Howard County Board of Trustees",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "MICHAEL WALTER MAHR",
+     "party": null
+    },
+    {
+     "name": "DON RECKER",
+     "party": null
+    },
+    {
+     "name": "JAY JOHNSTON",
+     "party": null
+    },
+    {
+     "name": "JAN CARMAN",
+     "party": null
+    },
+    {
+     "name": "JOHN J. WACHA, III",
+     "party": null
+    },
+    {
+     "name": "CHUCK L. MALEK",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "TIMOTHY HUHE",
+     "party": null
+    },
+    {
+     "name": "HUNTER SLIFKA",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "SAMI SWESTKA",
+     "party": null
+    },
+    {
+     "name": "BRENT MEHMERT",
+     "party": null
+    },
+    {
+     "name": "AMBER VRIEZE",
+     "party": null
+    },
+    {
+     "name": "MADISON HRDLICKA",
+     "party": null
+    },
+    {
+     "name": "LORI KERIAN",
+     "party": null
+    },
+    {
+     "name": "DIANA HUHE",
+     "party": null
+    },
+    {
+     "name": "DAVID AHERN",
+     "party": null
+    },
+    {
+     "name": "HOLLY O’BRIEN",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Albion Township Trustee",
+   "scope": "township",
+   "area": "Albion",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "AJ FRIEDGES",
+     "party": null
+    },
+    {
+     "name": "GERALD KEUNE",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Albion Township Clerk",
+   "scope": "township",
+   "area": "Albion",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "CRAIG MEIRICK",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Forest City Township Trustee",
+   "scope": "township",
+   "area": "Forest City",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "JASON ULLOM",
+     "party": null
+    },
+    {
+     "name": "GENE PISNEY",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Forest City Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Forest City",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "JAN CRAY",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Forest City Township Clerk",
+   "scope": "township",
+   "area": "Forest City",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "ANDREW PISNEY",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Chester Township Trustee",
+   "scope": "township",
+   "area": "Chester",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "MELISSA ADAMS",
+     "party": null
+    },
+    {
+     "name": "BRIAN GOODMAN",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Chester Township Clerk",
+   "scope": "township",
+   "area": "Chester",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "KIMBERLY BRUNSVOLD",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oakdale Township Trustee",
+   "scope": "township",
+   "area": "Oakdale",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "LOREN RICKERL",
+     "party": null
+    },
+    {
+     "name": "KEITH KNODE",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Oakdale Township Clerk",
+   "scope": "township",
+   "area": "Oakdale",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "MONICA JENSEN",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jamestown Township Trustee",
+   "scope": "township",
+   "area": "Jamestown",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "STEVE CHRISTENSEN",
+     "party": null
+    },
+    {
+     "name": "JIM KRUEGER",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jamestown Township Clerk",
+   "scope": "township",
+   "area": "Jamestown",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "SANDRA GRONWOLDT",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Saratoga Township Trustee",
+   "scope": "township",
+   "area": "Saratoga",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "BARRY CHRISTENSEN",
+     "party": null
+    },
+    {
+     "name": "RICHARD BAETHKE",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Saratoga Township Clerk",
+   "scope": "township",
+   "area": "Saratoga",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "SUSAN NORMAN",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Howard Center Township Trustee",
+   "scope": "township",
+   "area": "Howard Center",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "JERRY REICKS",
+     "party": null
+    },
+    {
+     "name": "DAVID OLLENDICK",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Howard Center Township Clerk",
+   "scope": "township",
+   "area": "Howard Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "GARY L GASSETT",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Vernon Springs Township Trustee",
+   "scope": "township",
+   "area": "Vernon Springs",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "KEN HRUSKA",
+     "party": null
+    },
+    {
+     "name": "MARK O. REIS",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Vernon Springs Township Clerk",
+   "scope": "township",
+   "area": "Vernon Springs",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "ROGER L. KLEVE",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "New Oregon Township Trustee",
+   "scope": "township",
+   "area": "New Oregon",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "MIKE MRACHEK",
+     "party": null
+    },
+    {
+     "name": "DEAN D. HUBKA",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "New Oregon Township Clerk",
+   "scope": "township",
+   "area": "New Oregon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "BOB STIKA",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Paris Township Trustee",
+   "scope": "township",
+   "area": "Paris",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "LON F SCHEIDEL",
+     "party": null
+    },
+    {
+     "name": "BRAD SOVEREIGN",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Paris Township Clerk",
+   "scope": "township",
+   "area": "Paris",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "CHUCK STEVENSON",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Howard Township Trustee",
+   "scope": "township",
+   "area": "Howard",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "KURT GROVER",
+     "party": null
+    },
+    {
+     "name": "JASON LUDWIG",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Howard Township Trustee (to fill vacancy)",
+   "scope": "township",
+   "area": "Howard",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "DUANE BODERMANN",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Howard Township Clerk",
+   "scope": "township",
+   "area": "Howard",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "TRUDY O’DONNELL",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Afton Township Trustee",
+   "scope": "township",
+   "area": "Afton",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "MICHAEL MARR",
+     "party": null
+    },
+    {
+     "name": "CORWIN CHRISTENSEN",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Afton Township Clerk",
+   "scope": "township",
+   "area": "Afton",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "SARAH STICKLER",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "From the official candidate list / notice of election (names printed in ALL CAPS and copied as printed). Supervisor seats are by district: the posted Albion Township sample ballot (OCR of scanned image) shows only the District 2 supervisor race, so voters see only their district (Districts 2 and 3 up). BRIAN FOSTER (Supervisor D3) has no party label. Township trustees are 'Vote For No More Than Two' (four-year terms) in every township. Hospital board is 'Regional Health Services of Howard County Board of Trustees'. No county/local public measures listed."
+}

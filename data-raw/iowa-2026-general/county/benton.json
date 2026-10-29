@@ -1,0 +1,499 @@
+{
+  "county": "Benton",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.bentoncountyia.gov/files/auditor/county_candidate_list2026_18993.pdf",
+    "https://www.bentoncountyia.gov/files/auditor/ag_extension_candidate_list2026_23561.pdf",
+    "https://www.bentoncountyia.gov/files/auditor/soil_water_candidate_list2026_88555.pdf",
+    "https://www.bentoncountyia.gov/files/auditor/township_candidate_list2026_93884.pdf",
+    "https://elections.bentoncountyia.gov/files/public_notice/general_2026_election_98793.pdf",
+    "https://elections.bentoncountyia.gov/elections/info/general_election_2026_11_03/"
+  ],
+  "asOf": "2026-10-14",
+  "races": [
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Terry Hertle",
+          "party": "democratic"
+        },
+        {
+          "name": "Bethany Hantz",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Melinda Schoettmer",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Allison Hicks",
+          "party": "democratic"
+        },
+        {
+          "name": "Lexa S. Speidel",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ray Lough",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Cory Cronbaugh",
+          "party": null
+        },
+        {
+          "name": "Steven A. Thompson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner (To Fill Vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Scott Rathje",
+          "party": null
+        },
+        {
+          "name": "Kelsey Brecht",
+          "party": null
+        },
+        {
+          "name": "Jessica Melby",
+          "party": null
+        },
+        {
+          "name": "Tressa Walton",
+          "party": null
+        },
+        {
+          "name": "Emily LeGrand",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member (To Fill Vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dawn Edler",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Independence Community School District Director District 1 (To Fill Vacancy)",
+      "scope": "school",
+      "area": "Independence Community School District",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ranger Reed",
+          "party": null
+        },
+        {
+          "name": "Erika Schmitt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Benton Township Trustee",
+      "scope": "township",
+      "area": "Benton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sean Nix",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Benton Township Clerk",
+      "scope": "township",
+      "area": "Benton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Doug Sutton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Big Grove Township Trustee",
+      "scope": "township",
+      "area": "Big Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cory Van Deusen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Big Grove Township Trustee (To Fill a Vacancy)",
+      "scope": "township",
+      "area": "Big Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randy A. Janssen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Big Grove Township Clerk",
+      "scope": "township",
+      "area": "Big Grove",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Catherine Janssen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bruce Township Trustee",
+      "scope": "township",
+      "area": "Bruce",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Robert Zeien",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bruce Township Clerk",
+      "scope": "township",
+      "area": "Bruce",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lindsay B. Pipho",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Canton Township Trustee",
+      "scope": "township",
+      "area": "Canton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Canton Township Clerk",
+      "scope": "township",
+      "area": "Canton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael A. Jambois",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eden Township Trustee",
+      "scope": "township",
+      "area": "Eden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brian Happel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eden Township Clerk",
+      "scope": "township",
+      "area": "Eden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ben Vierling",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eldorado Township Trustee",
+      "scope": "township",
+      "area": "Eldorado",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jon Kaestner",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eldorado Township Clerk",
+      "scope": "township",
+      "area": "Eldorado",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rosemary Olson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Florence Township Trustee",
+      "scope": "township",
+      "area": "Florence",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Peter Drahos",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Florence Township Clerk",
+      "scope": "township",
+      "area": "Florence",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Stuart Towe",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Harrison Township Trustee",
+      "scope": "township",
+      "area": "Harrison",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Okee Walker Jr.",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Harrison Township Clerk",
+      "scope": "township",
+      "area": "Harrison",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kelly Rae Geater",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Iowa Township Trustee",
+      "scope": "township",
+      "area": "Iowa",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James Sayers",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Iowa Township Clerk",
+      "scope": "township",
+      "area": "Iowa",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Melody Lohf",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Paul M. Herger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John Lindahl",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Leroy Township Trustee",
+      "scope": "township",
+      "area": "Leroy",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John Roth",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Leroy Township Clerk",
+      "scope": "township",
+      "area": "Leroy",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Joseph Niebuhr",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Polk Township Trustee",
+      "scope": "township",
+      "area": "Polk",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steven Smith",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Polk Township Clerk",
+      "scope": "township",
+      "area": "Polk",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Benjamen Seiler",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "St Clair Township Trustee",
+      "scope": "township",
+      "area": "St Clair",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James Oberreuter",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "St Clair Township Clerk",
+      "scope": "township",
+      "area": "St Clair",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John Kuester",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Taylor Township Trustee",
+      "scope": "township",
+      "area": "Taylor",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Wayne W. Rhinehart",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Taylor Township Clerk",
+      "scope": "township",
+      "area": "Taylor",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Charles Yedlik",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure NC",
+      "jurisdiction": "Kirkwood Community College (Merged Area X)",
+      "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+    },
+    {
+      "name": "Public Measure CE",
+      "jurisdiction": "Independence Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the Independence Community School District in the Counties of Buchanan and Benton, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in the amount not to exceed $24,990,000 to provide funds to build, furnish, and equip additions to East and West Elementary Schools; and to remodel, repair, improve, and equip East and West Elementary Schools and to improve the sites, including related demolition at West Elementary?"
+    }
+  ],
+  "notes": "Supervisor seat is by district (only District 2 on the 2026 ballot; voters see only their district). No candidates filed for DEM Treasurer or DEM Attorney. SWCD To Fill Vacancy and Canton Township Trustee show 'No Candidate' (empty candidate arrays). Iowa Township Trustee is 'James Sayers' on the candidate list but 'Jim Sayers' in the official notice of election. Measures appear only on ballots in the respective districts. No county hospital trustee contest. Per-precinct sample ballots (36) are posted but were not parsed; data from official candidate lists and the 10/14/2026 notice of election."
+}

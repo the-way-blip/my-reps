@@ -1,0 +1,594 @@
+{
+  "county": "Tama",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.tamacounty.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+    "https://www.tamacounty.iowa.gov/files/candidate_list/2026_general_election_18326.pdf",
+    "https://www.tamacounty.iowa.gov/files/sample_ballots/1202_sample_ballot_57956.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David W Turner",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Heather Knebel",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kathy Holtz",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Amelia Kemper",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brent D. Heeren",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioners",
+      "scope": "county",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Donald Linnenbrink",
+          "party": null
+        },
+        {
+          "name": "Sandy Supianoski",
+          "party": null
+        },
+        {
+          "name": "Judith Morrison",
+          "party": null
+        },
+        {
+          "name": "Clinton Murty",
+          "party": null
+        },
+        {
+          "name": "Jackie Skala",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council - To Fill a Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Cathy Gethmann",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Buckingham Township Trustee",
+      "scope": "township",
+      "area": "Buckingham",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Richard Ruzicka",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Buckingham Township Clerk",
+      "scope": "township",
+      "area": "Buckingham",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Adam Clapp",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Carlton Township Trustee",
+      "scope": "township",
+      "area": "Carlton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Allen Aldrich",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Carlton Township Clerk",
+      "scope": "township",
+      "area": "Carlton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jill Aldrich",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Carroll Township Trustee",
+      "scope": "township",
+      "area": "Carroll",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mark Pokorny",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Carroll Township Clerk",
+      "scope": "township",
+      "area": "Carroll",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sheryl Jesina",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Clark Township Trustee",
+      "scope": "township",
+      "area": "Clark",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Clark Township Clerk",
+      "scope": "township",
+      "area": "Clark",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Phillip McKenna",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Columbia Township Trustee",
+      "scope": "township",
+      "area": "Columbia",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Corey Timm",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Columbia Township Clerk",
+      "scope": "township",
+      "area": "Columbia",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lloyd Chyma",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Crystal Township Trustee",
+      "scope": "township",
+      "area": "Crystal",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dave Mauderer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Crystal Township Clerk",
+      "scope": "township",
+      "area": "Crystal",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Penny Peters",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Geneseo Township Trustee",
+      "scope": "township",
+      "area": "Geneseo",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Geneseo Township Clerk",
+      "scope": "township",
+      "area": "Geneseo",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Angela Coverdale",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Trustee",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Vincent Moye",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Clerk",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Highland Township Trustee",
+      "scope": "township",
+      "area": "Highland",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Highland Township Clerk",
+      "scope": "township",
+      "area": "Highland",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Howard Township Trustee",
+      "scope": "township",
+      "area": "Howard",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Howard Township Clerk",
+      "scope": "township",
+      "area": "Howard",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Chizek",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Indian Village Township Trustee",
+      "scope": "township",
+      "area": "Indian Village",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James C. Lacina",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Indian Village Township Clerk",
+      "scope": "township",
+      "area": "Indian Village",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brian Hempy",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Darryl Widmayer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Debra Wentzien",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Oneida Township Trustee",
+      "scope": "township",
+      "area": "Oneida",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Marvin D. Dostal",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Oneida Township Clerk",
+      "scope": "township",
+      "area": "Oneida",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Chris Behrens",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Otter Creek Township Trustee",
+      "scope": "township",
+      "area": "Otter Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James H. Smith",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Otter Creek Township Clerk",
+      "scope": "township",
+      "area": "Otter Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brenda Doyle",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Perry Township Trustee",
+      "scope": "township",
+      "area": "Perry",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ryan McLean",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Perry Township Clerk",
+      "scope": "township",
+      "area": "Perry",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mike Reuman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Richland Township Trustee",
+      "scope": "township",
+      "area": "Richland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randy Upah",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Richland Township Clerk",
+      "scope": "township",
+      "area": "Richland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Patrick Henry",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Salt Creek Township Trustee",
+      "scope": "township",
+      "area": "Salt Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James Poduska",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Salt Creek Township Clerk",
+      "scope": "township",
+      "area": "Salt Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jamie Kupka",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Spring Creek Township Trustee",
+      "scope": "township",
+      "area": "Spring Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brett Thompson Miller",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Spring Creek Township Clerk",
+      "scope": "township",
+      "area": "Spring Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Logan Koester",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Tama Township Trustee",
+      "scope": "township",
+      "area": "Tama",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Tama Township Clerk",
+      "scope": "township",
+      "area": "Tama",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Judy Welch",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Toledo Township Trustee",
+      "scope": "township",
+      "area": "Toledo",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sam Ferriss",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Toledo Township Clerk",
+      "scope": "township",
+      "area": "Toledo",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brock Rohrs",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "York Township Trustee",
+      "scope": "township",
+      "area": "York",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Kesl",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "York Township Clerk",
+      "scope": "township",
+      "area": "York",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lorie Kesl",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure TX",
+      "jurisdiction": "Tama County",
+      "ballotLanguage": "Proposition by the eligible electors of Tama County to decrease the number of supervisors to three. Shall the Following Public Measure be adopted? Public Measure TX The number of Tama County Supervisors shall be decreased from five members to three members."
+    },
+    {
+      "name": "Kirkwood Community College Public Measure NC",
+      "jurisdiction": "Kirkwood Community College (Merged Area X) - Tama County portion",
+      "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+    }
+  ],
+  "notes": "Names copied from the official sample ballot (differ slightly from candidate list in some cases, e.g. Brett T. Miller vs Brett Thompson Miller). Supervisors elected BY DISTRICT: District 2 and District 3 seats on the 2026 ballot; each appears only on ballot styles in that district (combined 88-page sample ballot PDF: District 2 on 3 styles, District 3 on 7 styles; other styles have no supervisor race). Soil and Water Conservation District Commissioner (vote for two) has no printed candidates (write-in only). Township trustee/clerk are vote-for-one; Clark, Geneseo, Highland, Howard, Tama Twp trustee and Grant, Highland Twp clerk have no candidate. Public Measure TX (reduce supervisors from five to three) appears on all 44 styles; Kirkwood Community College Public Measure NC appears only on the 4 styles within Merged Area X."
+}

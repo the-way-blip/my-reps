@@ -1,0 +1,437 @@
+{
+  "county": "Bremer",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://bremercountyelections.iowa.gov/files/candidate_list/2026_general_election_81883.pdf",
+    "https://bremercountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Corey Cerwinske",
+          "party": "republican"
+        },
+        {
+          "name": "Mark A. Platte",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brian L. Poppe",
+          "party": "republican"
+        },
+        {
+          "name": "Chris Dix",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Adam Hoffman",
+          "party": "republican"
+        },
+        {
+          "name": "Kristin Happel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Missy Thurm",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Darius P. R. Robinson",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Verle Tom Manson",
+          "party": null
+        },
+        {
+          "name": "Sara Lockie",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Roger Lenius",
+          "party": null
+        },
+        {
+          "name": "Nancy Foelske",
+          "party": null
+        },
+        {
+          "name": "David Schildroth",
+          "party": null
+        },
+        {
+          "name": "David Lehman",
+          "party": null
+        },
+        {
+          "name": "Jason Lobeck",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Dayton Township Trustee",
+      "scope": "township",
+      "area": "Dayton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Douglas Township Trustee",
+      "scope": "township",
+      "area": "Douglas",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jerome R. Boeckmann",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Franklin Township Trustee",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Frederika Township Trustee",
+      "scope": "township",
+      "area": "Frederika",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Robert Schellhorn",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fremont Township Trustee",
+      "scope": "township",
+      "area": "Fremont",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lee Schweer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Jefferson Township Trustee",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Eric Foelske",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lafayette Township Trustee",
+      "scope": "township",
+      "area": "Lafayette",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brett Hart",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Leroy Township Trustee",
+      "scope": "township",
+      "area": "Leroy",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kenny Leuenberger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Maxfield Township Trustee",
+      "scope": "township",
+      "area": "Maxfield",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dennis Kuker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Polk Township Trustee",
+      "scope": "township",
+      "area": "Polk",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Leland Busching",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sumner No. 2 Township Trustee",
+      "scope": "township",
+      "area": "Sumner No. 2",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rodney Toussaint",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sumner No. 2 Township Trustee (To Fill A Vacancy)",
+      "scope": "township",
+      "area": "Sumner No. 2",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Warren Township Trustee",
+      "scope": "township",
+      "area": "Warren",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tim Dreesman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ronald Zelle",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Dayton Township Clerk",
+      "scope": "township",
+      "area": "Dayton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Douglas Township Clerk",
+      "scope": "township",
+      "area": "Douglas",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lowell Biermann",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Franklin Township Clerk",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Frederika Township Clerk",
+      "scope": "township",
+      "area": "Frederika",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bradley Bunce",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fremont Township Clerk",
+      "scope": "township",
+      "area": "Fremont",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Daniel Kalkbrenner",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brad Ruth",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jefferson Township Clerk",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Craig Schweer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lafayette Township Clerk",
+      "scope": "township",
+      "area": "Lafayette",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John W. White",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Leroy Township Clerk",
+      "scope": "township",
+      "area": "Leroy",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Maxfield Township Clerk",
+      "scope": "township",
+      "area": "Maxfield",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Megan Kuker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Polk Township Clerk",
+      "scope": "township",
+      "area": "Polk",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kreg Smith",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sumner No. 2 Township Clerk",
+      "scope": "township",
+      "area": "Sumner No. 2",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Warren Township Clerk",
+      "scope": "township",
+      "area": "Warren",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kyle Kueker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Joachim",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure BW",
+      "jurisdiction": "Sumner-Fredericksburg Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the Sumner-Fredericksburg Community School District in the Counties of Bremer, Chickasaw, and Fayette, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $16,300,000 to provide funds to construct, build, furnish, and equip additions to the High School building; and to remodel, repair, improve, and equip the existing High School, Middle School, and Fredericksburg Elementary buildings, including playground, parking, and site improvements?"
+    }
+  ],
+  "notes": "Supervisor seats are by district; Districts 2 and 3 are on the ballot and voters see only their own district. Candidates shown as 'No Party' are recorded with party null. Township contests marked 'No Candidate' in the official list are included with empty candidate arrays (write-in only). No county public hospital trustee contest is on the candidate list. Per-precinct sample-ballot PDFs are scanned images (no text layer); data is from the official candidate list PDF."
+}

@@ -1,0 +1,462 @@
+{
+  "county": "Greene",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://www.greenecounty.iowa.gov/documentlist.aspx?categoryid=13427",
+    "https://www.greenecounty.iowa.gov/docview.aspx?docid=50380 (Notice of Election November 3, 2026, .docx)",
+    "https://www.greenecounty.iowa.gov/docview.aspx?docid=50379 (Willow Township ballot; township/city ballots docids 50359-50379)"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dawn Rudolph",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James Hedges",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Katlynn Mechaelsen",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Deb McDonald",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Benjamin Smith",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 3,
+      "candidates": [
+        {
+          "name": "Katherine Neese",
+          "party": null
+        },
+        {
+          "name": "William D. Raney",
+          "party": null
+        },
+        {
+          "name": "Douglas Carman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Andy Krieger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner - To Fill Vacancy",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Scott Graham",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Tori Gettler",
+          "party": null
+        },
+        {
+          "name": "Kimberly K. Schiltz",
+          "party": null
+        },
+        {
+          "name": "Tracy Deal",
+          "party": null
+        },
+        {
+          "name": "Katie Towers",
+          "party": null
+        },
+        {
+          "name": "Brandon Hommer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Dawson Township Trustee",
+      "scope": "township",
+      "area": "Dawson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Scott Walker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Dawson Township Clerk",
+      "scope": "township",
+      "area": "Dawson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Becki Cunningham",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Franklin Township Trustee",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Douglas Lawton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Franklin Township Clerk",
+      "scope": "township",
+      "area": "Franklin",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Linda Tipton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Trustee",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Peg Heater",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Clerk",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Marvin Rasmussen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Greenbrier Township Trustee",
+      "scope": "township",
+      "area": "Greenbrier",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brent Badger",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Greenbrier Township Clerk",
+      "scope": "township",
+      "area": "Greenbrier",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jeri Hedges",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Highland Township Trustee",
+      "scope": "township",
+      "area": "Highland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "John McCormick",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Highland Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Highland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Perry Parker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Highland Township Clerk",
+      "scope": "township",
+      "area": "Highland",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Marsha Subbert",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Joshua Hedges",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tom Lawton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Junction Township Trustee",
+      "scope": "township",
+      "area": "Junction",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Wade Sohm",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Junction Township Clerk",
+      "scope": "township",
+      "area": "Junction",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Linda Hoffman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Kendrick Township Trustee",
+      "scope": "township",
+      "area": "Kendrick",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dennis C. Paup",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Kendrick Township Clerk",
+      "scope": "township",
+      "area": "Kendrick",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dawn Thielen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scranton Township Trustee",
+      "scope": "township",
+      "area": "Scranton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Glen Christensen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scranton Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Scranton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Anthony McDonald",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scranton Township Clerk",
+      "scope": "township",
+      "area": "Scranton",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Debra Fey",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mark Devilbiss",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mary Ann Hick",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Willow Township Trustee",
+      "scope": "township",
+      "area": "Willow",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael Carter",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Willow Township Clerk",
+      "scope": "township",
+      "area": "Willow",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kelsey Eischeid",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure IM - City of Churdan Local Option Sales and Services Tax",
+      "jurisdiction": "City of Churdan",
+      "ballotLanguage": "A local option sales and services tax shall be imposed in the City of Churdan at the Rate of 1% to be effective July 1, 2027, with no sunset. Revenues from the local option sales and services tax shall be allocated as follows: 25% for property tax relief and 75% for any lawful corporate purpose of the city as determined by the City Council."
+    },
+    {
+      "name": "Public Measure IN - City of Dana Local Option Sales and Services Tax",
+      "jurisdiction": "City of Dana",
+      "ballotLanguage": "A local option sales and services tax shall be imposed in the City of Dana at the Rate of 1% to be effective July 1, 2027, with no sunset. Revenues from the local option sales and services tax shall be allocated as follows: 100% for property tax relief."
+    },
+    {
+      "name": "Public Measure II - City of Grand Junction Local Option Sales and Services Tax",
+      "jurisdiction": "City of Grand Junction",
+      "ballotLanguage": "A local option sales and services tax shall be imposed in the City of Grand Junction at the Rate of 1% to be effective July 1, 2027, with no sunset. Revenues from the local option sales and services tax shall be allocated as follows: 100% of said local option sales and service tax to be allocated for any costs associated with property tax relief."
+    },
+    {
+      "name": "Public Measure IK - City of Paton Local Option Sales and Services Tax",
+      "jurisdiction": "City of Paton",
+      "ballotLanguage": "A local option sales and services tax shall be imposed in the City of Paton at the Rate of 1% to be effective July 1, 2027, with no sunset. Revenues from the local option sales and services tax shall be allocated as follows: 100% for the repair, maintenance, replacement and improvement of Paton's infrastructure."
+    },
+    {
+      "name": "Public Measure IL - City of Rippey Local Option Sales and Services Tax",
+      "jurisdiction": "City of Rippey",
+      "ballotLanguage": "A local option sales and services tax shall be imposed in the City of Rippey at the Rate of 1% to be effective July 1, 2027, with no sunset. Revenues from the local option sales and services tax shall be allocated as follows: 100% of said local options sales services tax to be allocated for any costs associated with property tax relief."
+    },
+    {
+      "name": "Public Measure GY - City of Scranton Local Option Sales and Services Tax",
+      "jurisdiction": "City of Scranton",
+      "ballotLanguage": "A local option sales and services tax shall be imposed in the City of Scranton at the Rate of 1% to be effective July 1, 2027, with no sunset. Revenues from the local option sales and services tax shall be allocated as follows: 20% of said local option sales and services tax shall be allocated for any costs associated with operating expenses of the Scranton Public Library. 30% of said local option sales and services tax shall be allocated for any costs associated with the general expenses of the City of Scranton. 30% of said local option sales and services tax shall be allocated for any costs associated with the public works department of the City of Scranton. 20% said local option sales and services tax shall be allocated for any costs associated with the water and sewer expenses of the City of Scranton."
+    },
+    {
+      "name": "Public Measure IJ - City of Jefferson Local Option Sales and Services Tax",
+      "jurisdiction": "City of Jefferson",
+      "ballotLanguage": "A local option sales and services tax shall be imposed in the City of Jefferson at the Rate of 1% to be effective July 1, 2027, with no sunset. Revenues from the local option sales and services tax shall be allocated as follows: 100% for the repair, maintenance, replacement and improvement of Jefferson's infrastructure."
+    }
+  ],
+  "notes": "Read in a real browser. Notice of Election (Auditor Billie Jo Hoskins, Oct 14, 2026) gives the LOSST measures; candidates come from the 21 township/city sample ballots (scanned image PDFs, rendered and read visually). Supervisor Districts 2 and 3 appear on every ballot, so they are voted countywide (residency districts), each vote for one. Hospital trustees vote for three. Soil and Water Commissioner is vote-for-two with one printed candidate. Township ballots for Bristol & Hardin, Cedar & Paton, and the Jefferson city precincts show no township offices, so no trustee/clerk races are listed for Bristol, Hardin, Cedar, Paton or Jefferson Townships. Measures: each city's 1% LOSST renewal (Churdan IM, Dana IN, Grand Junction II, Paton IK, Rippey IL, Scranton GY, Jefferson IJ); text copied as printed on the sample ballots (including the Rippey 'local options sales services tax' and Scranton '20% said' wording)."
+}

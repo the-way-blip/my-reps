@@ -1,0 +1,149 @@
+{
+ "county": "Iowa",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://iowacounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+  "https://iowacounty.iowa.gov/files/sample_ballots/1209_sample_ballot_87422.pdf"
+ ],
+ "asOf": "sample ballots (no date printed)",
+ "races": [
+  {
+   "office": "Board of Supervisors",
+   "scope": "county",
+   "seats": 3,
+   "candidates": [
+    {
+     "name": "Jonathan Degen",
+     "party": "republican"
+    },
+    {
+     "name": "Kevin Heitshusen",
+     "party": "republican"
+    },
+    {
+     "name": "Chris Montross",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Michelle Sims",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Lynn M. Gahring",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tim D. McMeen",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Sheriff (to fill a vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Todd Sauerbrei",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "David Volkens",
+     "party": null
+    },
+    {
+     "name": "Daniel Glandorf",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Chad Sickles",
+     "party": null
+    },
+    {
+     "name": "Meghan Hansen",
+     "party": null
+    },
+    {
+     "name": "Martha Meyer",
+     "party": null
+    },
+    {
+     "name": "Randy Osweiler",
+     "party": null
+    },
+    {
+     "name": "Erin Eichhorn",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Dayton Township Trustee",
+   "scope": "township",
+   "area": "Dayton",
+   "seats": 2,
+   "candidates": []
+  },
+  {
+   "office": "Dayton Township Clerk",
+   "scope": "township",
+   "area": "Dayton",
+   "seats": 1,
+   "candidates": []
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure KZ (Iowa County EMS - Levy)",
+   "jurisdiction": "Iowa County (countywide)",
+   "ballotLanguage": "Shall the Iowa County Board of Supervisors, upon recommendation of the Iowa County EMS Essential Services Advisory Council, be authorized to levy and impose an ad valorem property tax not to exceed One Dollar and Fifty Cents ($1.50) per One Thousand Dollars ($1,000.00) of assessed valuation on all taxable property within Iowa County for the purpose of funding Emergency Medical Services, including but not limited to ambulance services, first responder services, personnel, training, and equipment, for a period not to exceed fifteen (15) years?"
+  },
+  {
+   "name": "Public Measure VF (Mid-Prairie Community School District GO Bond)",
+   "jurisdiction": "Mid-Prairie Community School District (Fillmore/Greene/Mid-Prairie/Kirkwood CCD ballot style)",
+   "ballotLanguage": "Shall the Board of Directors of the Mid-Prairie Community School District in the Counties of Washington, Iowa, and Johnson, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $19,000,000 to provide funds to build, furnish, and equip an addition to the high school, including a new events entrance, auditorium, and fine arts classrooms, with related remodeling and improvements and related site improvements; and to renovate, improve, furnish and equip several existing special education and general education classrooms?"
+  },
+  {
+   "name": "Public Measure NC (Kirkwood Community College GO Bond)",
+   "jurisdiction": "Kirkwood Community College (Merged Area X) — all Iowa County ballot styles except the plain Dayton Township style",
+   "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+  }
+ ],
+ "notes": "Source is a single scanned 28-page PDF of 14 official sample ballot styles; text obtained by local OCR (macOS Vision), party labels visually verified. Board of Supervisors is at-large: 'Vote for no more than Three' appears on every ballot style countywide (order rotates). County Sheriff 'To Fill a Vacancy' is on the ballot. Only the Dayton Township styles show township races (Trustee vote-for-two and Clerk), both with no printed candidates (write-in only); no other township races appear on any posted Iowa County sample ballot. OCR 'lowa' corrected to 'Iowa' in measure text. No hospital trustee race."
+}

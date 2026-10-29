@@ -1,0 +1,525 @@
+{
+  "county": "Hancock",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://elections.hancockcountyia.gov/elections/info/2026_general_election_2026_11_03/",
+    "https://elections.hancockcountyia.gov/files/candidate_list/2026_general_election_10233.pdf",
+    "https://elections.hancockcountyia.gov/files/notice_of_general_election_november_3_2026_50057.pdf",
+    "https://elections.hancockcountyia.gov/files/sample_ballots/20261103_precinct_1_city_of_forest_city_34995.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors (at-large)",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Florence Sis Greiman",
+          "party": "republican"
+        },
+        {
+          "name": "Gary Rayhons",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Linda Juhl",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tracy L Marshall",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rachel Martinez",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Public Hospital Trustee",
+      "scope": "county",
+      "seats": 4,
+      "candidates": [
+        {
+          "name": "Mary Kopacek",
+          "party": null
+        },
+        {
+          "name": "David Fox",
+          "party": null
+        },
+        {
+          "name": "Ellen Tusha",
+          "party": null
+        },
+        {
+          "name": "Daniel Huinker",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner (to fill vacancy)",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Chase Ulven",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Shelby Legge",
+          "party": null
+        },
+        {
+          "name": "Nancy Jass",
+          "party": null
+        },
+        {
+          "name": "Laureen Burgardt",
+          "party": null
+        },
+        {
+          "name": "Benjamin K. Bergman",
+          "party": null
+        },
+        {
+          "name": "Brandon Beenken",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Amsterdam Township Trustee",
+      "scope": "township",
+      "area": "Amsterdam",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Amsterdam Township Trustee (to fill vacancy)",
+      "scope": "township",
+      "area": "Amsterdam",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Andrew Eekhoff",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Amsterdam Township Clerk",
+      "scope": "township",
+      "area": "Amsterdam",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kevin Steenblock",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Avery Township Trustee",
+      "scope": "township",
+      "area": "Avery",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Larry Treinen",
+          "party": null
+        },
+        {
+          "name": "Brad Carolus",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Avery Township Clerk",
+      "scope": "township",
+      "area": "Avery",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dean Avery",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bingham Township Trustee",
+      "scope": "township",
+      "area": "Bingham",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Gary Hayungs",
+          "party": null
+        },
+        {
+          "name": "Brandon Beenken",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bingham Township Clerk",
+      "scope": "township",
+      "area": "Bingham",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Phyllis Schutjer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Boone Township Trustee",
+      "scope": "township",
+      "area": "Boone",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Ivan L. Frey",
+          "party": null
+        },
+        {
+          "name": "Kitty Price",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Boone Township Trustee (to fill vacancy)",
+      "scope": "township",
+      "area": "Boone",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Boone Township Clerk",
+      "scope": "township",
+      "area": "Boone",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Connie Price",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Britt Township Trustee",
+      "scope": "township",
+      "area": "Britt",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Mark Eisenman",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Britt Township Clerk",
+      "scope": "township",
+      "area": "Britt",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Concord Township Trustee",
+      "scope": "township",
+      "area": "Concord",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Brody Boehnke",
+          "party": null
+        },
+        {
+          "name": "Spencer Klooster",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Concord Township Clerk",
+      "scope": "township",
+      "area": "Concord",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Elizabeth Waddingham",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Crystal Township Trustee",
+      "scope": "township",
+      "area": "Crystal",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "Crystal Township Clerk",
+      "scope": "township",
+      "area": "Crystal",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lois Sonius",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Ell Township Trustee",
+      "scope": "township",
+      "area": "Ell",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Shana Cash",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Ell Township Clerk",
+      "scope": "township",
+      "area": "Ell",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Ellington Township Trustee",
+      "scope": "township",
+      "area": "Ellington",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Eric Rust",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Ellington Township Clerk",
+      "scope": "township",
+      "area": "Ellington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Carol A. Juhl",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Erin Township Trustee",
+      "scope": "township",
+      "area": "Erin",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Douglas Verbrugge",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Erin Township Clerk",
+      "scope": "township",
+      "area": "Erin",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Garfield Township Trustee",
+      "scope": "township",
+      "area": "Garfield",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Marvin Ricke",
+          "party": null
+        },
+        {
+          "name": "Lewis A Nedved",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Garfield Township Clerk",
+      "scope": "township",
+      "area": "Garfield",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Thomas G Formanek",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Liberty Township Trustee",
+      "scope": "township",
+      "area": "Liberty",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Thomas Legge",
+          "party": null
+        },
+        {
+          "name": "Eldon Gast",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Liberty Township Clerk",
+      "scope": "township",
+      "area": "Liberty",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dean Bertilson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Madison Township Trustee",
+      "scope": "township",
+      "area": "Madison",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "David Reese",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Madison Township Clerk",
+      "scope": "township",
+      "area": "Madison",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Susan E Reese",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Magor Township Trustee",
+      "scope": "township",
+      "area": "Magor",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Eldon Meyers",
+          "party": null
+        },
+        {
+          "name": "Bruce Smidt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Magor Township Clerk",
+      "scope": "township",
+      "area": "Magor",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mervin G. Krauss",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Orthel Township Trustee",
+      "scope": "township",
+      "area": "Orthel",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Kenneth DeWaard",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Orthel Township Clerk",
+      "scope": "township",
+      "area": "Orthel",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Steve Kelly",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Twin Lake Township Clerk",
+      "scope": "township",
+      "area": "Twin Lake",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Timothy J. Landgraf",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [],
+  "notes": "From the official candidate list PDF and Notice of General Election on the county elections site (elections.hancockcountyia.gov), cross-checked against all 25 per-precinct sample ballot PDFs. Supervisors: single county-wide 'Vote for no more than Two' contest (at-large; same contest on all 25 ballot styles). Empty candidate lists = 'No candidate filed' (write-in only). Twin Lake Township has only a clerk contest on the ballot. No local public measures appear on the notice or any sample ballot."
+}

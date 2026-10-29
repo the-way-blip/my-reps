@@ -1,0 +1,323 @@
+{
+ "county": "Linn",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.linncountyiowa.gov/1794/November-3-2026-General-Election",
+  "https://gis.linncountyiowa.gov/web-data/elections/year/2026/20261103GE/candidates.pdf",
+  "https://gis.linncountyiowa.gov/web-data/elections/year/2026/20261103GE/all.pdf",
+  "https://gis.linncountyiowa.gov/web-data/elections/year/2026/20261103GE/sb/001.pdf ... /sb/122.pdf (all 122 ballot-style sample ballots)",
+  "https://www.linncountyelections.org/lookup/index.cfm?action=search",
+  "https://www.linncountyiowa.gov/DocumentCenter/View/546"
+ ],
+ "asOf": "2026-10-07",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kirsten Running-Marquardt",
+     "party": "democratic"
+    }
+   ],
+   "area": "District 1: Cedar Rapids precincts 19-23, 29-36 and 39-51 (incl. unincorporated CR48-2U, CR51-2U), City of Fairfax, Fairfax Township, Clinton Township, Putnam Township (incl. City of Ely)"
+  },
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rex W. Meyer",
+     "party": "republican"
+    },
+    {
+     "name": "Sami Scheetz",
+     "party": "democratic"
+    }
+   ],
+   "area": "District 2: Cedar Rapids precincts 01 (CR01-1 only), 02, 03, 04 (CR04-1 only), 05, 06, 07 (CR07-1, CR07-2U), 08-18, 24-28 (except CR27-4), 37, 38; Hiawatha 01, 02, 03 (HIA03-1/-2/-3U; not HIA03-4)"
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brent C. Oleson",
+     "party": "democratic"
+    },
+    {
+     "name": "Paul Talley",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Carolyn Siebrecht",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nicholas G. Maybanks",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Kim Bowen",
+     "party": null
+    },
+    {
+     "name": "Kevin Bruns",
+     "party": null
+    },
+    {
+     "name": "Jennifer Dunn",
+     "party": null
+    },
+    {
+     "name": "JaLea Horning",
+     "party": null
+    },
+    {
+     "name": "Kassandra Rice",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Member",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Joshua O'Connell",
+     "party": null
+    },
+    {
+     "name": "Emmaly Renshaw",
+     "party": null
+    },
+    {
+     "name": "Sean Stokes",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Boulder Township Trustee",
+   "scope": "township",
+   "area": "Boulder",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Boulder Township Clerk",
+   "scope": "township",
+   "area": "Boulder",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Brown Township Trustee",
+   "scope": "township",
+   "area": "Brown",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Brown Township Clerk",
+   "scope": "township",
+   "area": "Brown",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Buffalo Township Trustee",
+   "scope": "township",
+   "area": "Buffalo",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Buffalo Township Clerk",
+   "scope": "township",
+   "area": "Buffalo",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Grant Township Trustee",
+   "scope": "township",
+   "area": "Grant",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Larry D. Bridgewater",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Grant Township Clerk",
+   "scope": "township",
+   "area": "Grant",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Yvette Bridgewater",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Jackson Township Trustee (To Fill Vacancy)",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "area": "Jackson",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Maine Township Trustee",
+   "scope": "township",
+   "area": "Maine",
+   "seats": 1,
+   "candidates": []
+  },
+  {
+   "office": "Maine Township Clerk",
+   "scope": "township",
+   "area": "Maine",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Wesley Nelson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Otter Creek Township Trustee",
+   "scope": "township",
+   "area": "Otter Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ron Hoover",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Otter Creek Township Clerk",
+   "scope": "township",
+   "area": "Otter Creek",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ginny Maier",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Putnam Township Trustee",
+   "scope": "township",
+   "area": "Putnam",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Butch Wieneke",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Putnam Township Clerk",
+   "scope": "township",
+   "area": "Putnam",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Elli Netolicky",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Spring Grove Township Trustee",
+   "scope": "township",
+   "area": "Spring Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bert Aberle",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Spring Grove Township Clerk",
+   "scope": "township",
+   "area": "Spring Grove",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Dawn Aberle",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Kirkwood Community College (Merged Area X) Bond - Public Measure NC",
+   "jurisdiction": "Kirkwood Community College (Merged Area X) - all Linn County ballot styles",
+   "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+  },
+  {
+   "name": "Public Measure D - City of Cedar Rapids General Obligation Bonds (fire stations)",
+   "jurisdiction": "City of Cedar Rapids (all Cedar Rapids city ballot styles; not the unincorporated 'U' splits)",
+   "ballotLanguage": "Shall the City of Cedar Rapids, State of Iowa, issue its General Obligation Bonds or Capital Loan Notes in an amount not exceeding the amount of $60,000,000, in one or more series, for the purpose of paying costs of designing, constructing, reconstructing, enlarging, improving, equipping and furnishing fire stations and emergency response facilities, with related site improvements, consistent with the Cedar Rapids Fire Department Facility Plan, including but not limited to a new training facility, relocating Stations 2 and 8, remodeling Stations 4 and 9, rebuilding Stations 5 and 6, and the acquisition of real estate therefor, and acquiring new fire trucks and related emergency response equipment?"
+  },
+  {
+   "name": "Public Measure E - City of Ely General Obligation Bonds (library)",
+   "jurisdiction": "City of Ely (Putnam Township city splits TPUT-1C and TPUT-5C)",
+   "ballotLanguage": "Shall the City of Ely, in Linn County, State of Iowa, enter into a loan agreement and issue general obligation bonds in an amount not exceeding $2,250,000 for the purpose of paying the cost, to that extent, of constructing, furnishing and equipping an expanded municipal library?"
+  }
+ ],
+ "notes": "COMPLETE. Candidates from Linn County Election Services' Candidate Listing; all 122 ballot-style sample ballots (gis.linncountyiowa.gov .../20261103GE/sb/001-122.pdf, the files the county's address Lookup Tool links to; text PDFs) were downloaded and parsed, and the public-measure text is from the county's 'Public Measure Language - All' PDF (read in a real browser; the CivicPlus site blocks curl). Linn has three supervisor districts, elected by district; only Districts 1 and 2 are up. District 1: Cedar Rapids precincts 19-23, 29-36 and 39-51 (incl. unincorporated CR48-2U, CR51-2U), City of Fairfax, Fairfax Township, Clinton Township, Putnam Township (incl. City of Ely). District 2: Cedar Rapids precincts 01 (CR01-1 only), 02, 03, 04 (CR04-1 only), 05, 06, 07 (CR07-1, CR07-2U), 08-18, 24-28 (except CR27-4), 37, 38; Hiawatha 01, 02, 03 (HIA03-1/-2/-3U; not HIA03-4). All other styles (rest of Cedar Rapids splits CR01-3, CR04-2, CR07-3, CR27-4; Hiawatha HIA03-4; all of Marion, Robins, Mount Vernon; Bertram, Boulder-Buffalo, Brown-Linn, Fayette, Franklin, Grant, Jackson, Maine, Marion, Monroe, Otter Creek, Spring Grove, Washington townships) have no supervisor contest (District 3). Township contests on the ballots (all vote for one): Boulder, Buffalo, Brown, Grant, Jackson, Maine, Otter Creek, Putnam, Spring Grove trustee and clerk; plus Jackson Township Trustee To Fill Vacancy (no candidate, also on the Maine Twp TMAI-6 split). Contests with no printed candidate are write-in only (empty candidate arrays). No other townships have township contests. SWCD is vote for two, Ag Extension vote for five. Measures: NC (Kirkwood bond) on every style; D (Cedar Rapids fire bonds) on all Cedar Rapids city styles; E (Ely library bonds) on the Ely city splits of Putnam Township."
+}

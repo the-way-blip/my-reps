@@ -1,0 +1,678 @@
+{
+ "county": "Warren",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.warrencountyia.gov/services/resident-services/election-information/",
+  "https://www.warrencountyia.gov/wp-content/uploads/2026/09/Combined-Samples.pdf",
+  "https://www.warrencountyia.gov/wp-content/uploads/2026/10/Federal-State-County-Candidates-Public-Measures-General-Word-Doc.pdf-2.docx"
+ ],
+ "asOf": "2026-09-11 (candidate list last updated)",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 5",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Drew Merrifield",
+     "party": "republican"
+    },
+    {
+     "name": "Alfonso Valenzuela-Gumucio",
+     "party": "No Party"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Andrea Semple",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jordyn M. Hill",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Douglas A. Eichholz",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Emily McCauley",
+     "party": null
+    },
+    {
+     "name": "Dan Bailey",
+     "party": null
+    },
+    {
+     "name": "Michael Lee White",
+     "party": null
+    }
+   ],
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Jeff Chittenden",
+     "party": null
+    },
+    {
+     "name": "Carli Milby",
+     "party": null
+    },
+    {
+     "name": "Katherine Lea Dunn Hyde",
+     "party": null
+    },
+    {
+     "name": "Terry Pauling",
+     "party": null
+    }
+   ],
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "County Agricultural Extension Council Member, To Fill Vacancy",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Daniel Determan",
+     "party": null
+    }
+   ],
+   "term": "1-1-2025 thru 12-31-2028"
+  },
+  {
+   "office": "Allen Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Paula K. Sampson",
+     "party": null
+    }
+   ],
+   "area": "Allen",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Allen Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Peggy S. Fogle",
+     "party": null
+    }
+   ],
+   "area": "Allen",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Belmont Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Heather Anderson",
+     "party": null
+    }
+   ],
+   "area": "Belmont",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Belmont Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Janet Smith",
+     "party": null
+    }
+   ],
+   "area": "Belmont",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Linn Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Katie Weldon",
+     "party": null
+    }
+   ],
+   "area": "Linn",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Linn Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Donald G. Flinn",
+     "party": null
+    }
+   ],
+   "area": "Linn",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Aaron J. DeKock",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Greenfield Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Greenfield",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Greenfield Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Greenfield",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Greenfield Plaza Water District Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "Greenfield Plaza",
+   "term": "1-1-2028 thru 12-31-2030"
+  },
+  {
+   "office": "Greenfield Plaza Water District Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "Greenfield Plaza",
+   "term": "1-1-2027 thru 12-31-2029"
+  },
+  {
+   "office": "Greenfield Plaza Water District Trustee, To Fill Vacancy",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "Greenfield Plaza",
+   "term": "1-1-2026 thru 12-31-2028"
+  },
+  {
+   "office": "Greenfield Plaza/Hills of Coventry Sanitary District Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sandra Doerring",
+     "party": null
+    }
+   ],
+   "area": "Greenfield Plaza/Hills of Coventry",
+   "term": "1-1-2028 thru 12-31-2030"
+  },
+  {
+   "office": "Greenfield Plaza/Hills of Coventry Sanitary District Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joyce Hendrix",
+     "party": null
+    }
+   ],
+   "area": "Greenfield Plaza/Hills of Coventry",
+   "term": "1-1-2027 thru 12-31-2029"
+  },
+  {
+   "office": "Greenfield Plaza Benefit Light District Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "Greenfield Plaza",
+   "term": "1-1-2028 thru 12-31-2030"
+  },
+  {
+   "office": "Greenfield Plaza Benefit Light District Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "Greenfield Plaza",
+   "term": "1-1-2027 thru 12-31-2029"
+  },
+  {
+   "office": "Hills of Coventry Benefit Light District Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "Hills of Coventry",
+   "term": "1-1-2028 thru 12-31-2030"
+  },
+  {
+   "office": "Hills of Coventry Benefit Light District Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "Hills of Coventry",
+   "term": "1-1-2027 thru 12-31-2029"
+  },
+  {
+   "office": "Hills of Coventry Benefit Light District Trustee, To Fill Vacancy",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "Hills of Coventry",
+   "term": "1-1-2026 thru 12-31-2028"
+  },
+  {
+   "office": "Hills of Coventry Benefit Light District Trustee, To Fill Vacancy",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "Hills of Coventry",
+   "term": "1-1-2025 thru 12-31-2027"
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "David Alexander",
+     "party": null
+    }
+   ],
+   "area": "Lincoln",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rita Fromm",
+     "party": null
+    }
+   ],
+   "area": "Lincoln",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Jackson Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steve Gehringer",
+     "party": null
+    }
+   ],
+   "area": "Jackson",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Jackson Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Jackson",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Jefferson Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Richard L. Wheeldon",
+     "party": null
+    }
+   ],
+   "area": "Jefferson",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Jefferson Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Justin Sleeth",
+     "party": null
+    }
+   ],
+   "area": "Jefferson",
+   "term": "1-1-2025 thru 12-31-2028"
+  },
+  {
+   "office": "Jefferson Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Wyndham Sellers",
+     "party": null
+    }
+   ],
+   "area": "Jefferson",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Liberty Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Liberty",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Liberty Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Liberty",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Lakewood Recreational Lake Trustee",
+   "scope": "special-district",
+   "seats": 3,
+   "candidates": [],
+   "area": "Lakewood",
+   "term": "1-1-2027 thru 12-31-2029"
+  },
+  {
+   "office": "Otter Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jennifer Smith",
+     "party": null
+    }
+   ],
+   "area": "Otter",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Otter Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Sarah Wadle",
+     "party": null
+    }
+   ],
+   "area": "Otter",
+   "term": "1-1-2025 thru 12-31-2028"
+  },
+  {
+   "office": "Otter Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kurt Gocken",
+     "party": null
+    }
+   ],
+   "area": "Otter",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Palmyra Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Marilyn Halterman",
+     "party": null
+    }
+   ],
+   "area": "Palmyra",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Palmyra Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Aaron Miller",
+     "party": null
+    }
+   ],
+   "area": "Palmyra",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Richland Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Richland",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Richland Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steve Eckert",
+     "party": null
+    }
+   ],
+   "area": "Richland",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Squaw Creek Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steven Lawyer",
+     "party": null
+    }
+   ],
+   "area": "Squaw Creek",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Squaw Creek Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "Squaw Creek",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cathy E. Ball",
+     "party": null
+    }
+   ],
+   "area": "Union",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Joshua Good",
+     "party": null
+    }
+   ],
+   "area": "Union",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "New Virginia Sanitary Sewer Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [],
+   "area": "New Virginia",
+   "term": "1-1-2028 thru 12-31-2030"
+  },
+  {
+   "office": "New Virginia Sanitary Sewer Trustee",
+   "scope": "special-district",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steve Dunkin",
+     "party": null
+    }
+   ],
+   "area": "New Virginia",
+   "term": "1-1-2027 thru 12-31-2029"
+  },
+  {
+   "office": "Virginia Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Chad A. Daniels",
+     "party": null
+    }
+   ],
+   "area": "Virginia",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "Virginia Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Julie Brownlee",
+     "party": null
+    }
+   ],
+   "area": "Virginia",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "White Breast Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Paul L. Mead",
+     "party": null
+    }
+   ],
+   "area": "White Breast",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "White Breast Township Trustee, To Fill Vacancy",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "White Breast",
+   "term": "1-1-2025 thru 12-31-2028"
+  },
+  {
+   "office": "White Breast Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tabetha Hyde",
+     "party": null
+    }
+   ],
+   "area": "White Breast",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "White Oak Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cecil William Truman",
+     "party": null
+    }
+   ],
+   "area": "White Oak",
+   "term": "1-1-2027 thru 12-31-2030"
+  },
+  {
+   "office": "White Oak Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [],
+   "area": "White Oak",
+   "term": "1-1-2027 thru 12-31-2030"
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure A (Norwalk School GO Bond)",
+   "jurisdiction": "Norwalk Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Norwalk Community School District, in Warren County, State of Iowa, be authorized to contract indebtedness and issue general obligation bonds in an amount not exceeding $65,000,000 for the purpose of acquiring, furnishing, equipping, constructing, improving, repairing, and renovating school buildings and improving the sites of the School District's school buildings and athletic facilities located in Norwalk, Iowa, including without limitation: (a) a new elementary school building and site/land improvements; (b) HVAC system replacement and improvements, kitchen ventilation system improvements, and other mechanical or electrical upgrades to Oviatt Elementary School, Lakewood Elementary School, and Secondary Campus; (c) building improvements and upgrades to enhance security at all existing school buildings, including security systems and enhanced building safety measures; (d) a new transportation building, including maintenance bays, a wash bay, a custodial room, offices, common areas, and site/land improvements; and (e) improving athletic facilities and related parking areas, including construction of a new practice field and building improvements and expansions for additional practice areas, offices, storage space, common areas, and related site improvements?"
+  },
+  {
+   "name": "Public Measure Z (I-35 School GO Bond)",
+   "jurisdiction": "Interstate 35 Community School District",
+   "ballotLanguage": "Shall the Board of Directors of the Interstate 35 Community School District in the Counties of Clarke, Madison, and Warren, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $12,300,000 to provide funds to remodel, repair, improve, and equip the school building, including reconfiguration of academic spaces, HVAC, mechanical and exterior improvements; to build, furnish, and equip athletic facilities, including a new stadium and track, parking, and site improvements, and for related improvements to repurpose the existing track and field, bleachers, and press box; and for site and access improvements to the school campus?"
+  }
+ ],
+ "notes": "Source: combined official sample ballot PDF (65 ballot styles, text-extractable) plus county candidate list. Board of Supervisors elected by district: District 2 (14 styles) and District 5 (15 styles) are up in 2026; voters see only their own district. Alfonso Valenzuela-Gumucio is listed 'No Party' on the candidate list ('NP' on ballot). Township offices appear only in their township's styles; empty candidate lists are write-in only. Also on the ballot (scope 'special-district'): Greenfield Plaza Water District, Greenfield Plaza/Hills of Coventry Sanitary District, Greenfield Plaza and Hills of Coventry Benefit Light Districts, Lakewood Recreational Lake, and New Virginia Sanitary Sewer trustees. Terms printed on the ballot are kept in 'term'. Measure A appears in 16 styles, Measure Z in 6."
+}

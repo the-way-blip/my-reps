@@ -1,0 +1,315 @@
+{
+ "county": "Appanoose",
+ "found": true,
+ "partial": true,
+ "sources": [
+  "https://appanoosecounty.iowa.gov/wp-content/uploads/2026/10/Legal-Notice-2026.pdf",
+  "https://appanoosecounty.iowa.gov/news/legal-notice-notice-of-regular-general-election-november-3-2026/",
+  "https://appanoosecounty.iowa.gov/departments/auditor/",
+  "https://appanoosecounty.iowa.gov/wp-json/wp/v2/search?search=general%20election",
+  "https://ballotpedia.org/Appanoose_County,_Iowa,_elections,_2026",
+  "https://appanoosecounty.iowa.gov/wp-content/uploads/2026/06/2026-06-09_Canvass-Kelly-Howard.pdf",
+  "https://electionresults.iowa.gov/IA/Appanoose/126086/ (2026 primary results)",
+  "https://electionresults.iowa.gov/IA/Appanoose/122326/354582/json/en/summary.json (2024 general contest list)"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, At-Large",
+   "scope": "county",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Ryan Stober",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tara Micetich",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Maegan Messamaker",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Ty Stewart",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Charles Moore",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Natasha Joiner",
+     "party": null
+    },
+    {
+     "name": "Monte McCoy",
+     "party": null
+    },
+    {
+     "name": "Jessica Wells",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council (To Fill Vacancy)",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jay Torrey",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Franklin Township Trustee",
+   "scope": "township",
+   "area": "Franklin",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Craig Sebolt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Independence Township Clerk",
+   "scope": "township",
+   "area": "Independence",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sherry Murphy",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Johns Township Trustee",
+   "scope": "township",
+   "area": "Johns",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Mark McDanolds",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Trustee",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "John Sulser",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Lincoln Township Clerk",
+   "scope": "township",
+   "area": "Lincoln",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Martha Furlin",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Pleasant Township Trustee",
+   "scope": "township",
+   "area": "Pleasant",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "John Wright",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sharon Township Trustee",
+   "scope": "township",
+   "area": "Sharon",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Deb Tarbell",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sharon Township Clerk",
+   "scope": "township",
+   "area": "Sharon",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tanya Labertew",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Taylor Township Clerk",
+   "scope": "township",
+   "area": "Taylor",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Denise Hawk",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Udell Township Trustee",
+   "scope": "township",
+   "area": "Udell",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Jerry W. Hinote",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Udell Township Clerk",
+   "scope": "township",
+   "area": "Udell",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Richard Burger",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Trustee",
+   "scope": "township",
+   "area": "Union",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Nathan Proctor",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Union Township Clerk",
+   "scope": "township",
+   "area": "Union",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Floyd Proctor",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Vermillion Township Trustee",
+   "scope": "township",
+   "area": "Vermillion",
+   "seats": null,
+   "candidates": [
+    {
+     "name": "Bruce Frevert",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Vermillion Township Clerk",
+   "scope": "township",
+   "area": "Vermillion",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Jay R. Phillips",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Walnut Township Clerk",
+   "scope": "township",
+   "area": "Walnut",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sara Tait",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Wells Township Trustee",
+   "scope": "township",
+   "area": "Wells",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jerry Probasco",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure AM",
+   "jurisdiction": "Appanoose County (unincorporated areas)",
+   "ballotLanguage": "Shall the following Public Measure be adopted? Question: Shall Appanoose County, Iowa, repeal its existing seven percent (7%) local hotel and motel tax, said repeal being effective December 31, 2026, and impose a replacement seven percent (7%) local hotel and motel tax, beginning January 1, 2027, on the sales price from the renting of lodging in the unincorporated areas of Appanoose County, as authorized by Iowa Code chapter 423A, with the revenues expended in accordance with Iowa Code section 423A.7?"
+  }
+ ],
+ "notes": "PARTIAL. Official sources: the Notice of Regular General Election (township candidates + Public Measure AM; it says the published sample ballot is for Centerville Ward 1, but that ballot is not in the PDF and no sample ballots or candidate list are posted on appanoosecounty.iowa.gov; the newspaper notice could not be opened - iowapublicnotices.com blocks viewing). County-office contests are from Ballotpedia's Appanoose 2026 page (SECONDARY source, not an official ballot), consistent with official primary data: the 2026 primary results/canvass show Republican nominees Ryan Stober (Supervisor), Tara Micetich (Treasurer, beat Jennifer Salstrand 627-552), Maegan Messamaker (Recorder) and Ty Stewart (Attorney), and the canvass says Democrats made no nomination for these offices. Ballotpedia lists SWCD (vote for 2) with only Charles Moore, Ag Extension (vote for 5) with only Natasha Joiner, Monte McCoy and Jessica Wells, and an Ag Extension special/vacancy contest (vote for 2) with Jay Torrey. Supervisors are elected at large (the 2024 general had one countywide 'County Board of Supervisors' contest, vote for 2); the number of 2026 at-large seats is not confirmed (seats null). Appanoose has no county public hospital (no hospital trustee contest in 2024 or on any 2026 list). Township contests: only those with candidates are listed (per the official notice); Ballotpedia gives vote for 2 for Johns, Lincoln and Wells trustees; other trustee vote-for counts are unknown (seats null; clerks are 1). The notice says some townships have trustee/clerk openings with no candidates - those write-in-only contests are NOT listed because the notice doesn't name them. STILL MISSING: an official ballot/candidate list to confirm the county contests (and any no-party candidates), vote-for counts for the remaining trustee contests, and the township contests with no candidates."
+}

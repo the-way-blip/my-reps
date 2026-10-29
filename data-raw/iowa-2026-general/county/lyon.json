@@ -1,0 +1,135 @@
+{
+ "county": "Lyon",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://lyoncounty.iowa.gov/elections/info/2026_general_elections_2026_11_03/",
+  "https://lyoncounty.iowa.gov/files/sample_ballots/1095_doon_p5_95359.pdf",
+  "https://lyoncounty.iowa.gov/files/sample_ballots/1095_larchwood_p10_51611.pdf",
+  "https://lyoncounty.iowa.gov/files/sample_ballots/1095_rock_rapids_n_p3_15104.pdf",
+  "https://lyoncounty.iowa.gov/files/sample_ballots/1095_doon_p5_glr_school_dist_23807.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Douglas Vanden Bosch",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 4",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Cody Hoefert",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 5",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Steven J. Herman",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Stacy Knobloch",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Amie Griesse",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Nolan Michael McGowan",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Randy Warner",
+     "party": null
+    },
+    {
+     "name": "Dale Winkowitsch",
+     "party": null
+    },
+    {
+     "name": "Richard Reitsma",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Trixie Metzger",
+     "party": null
+    },
+    {
+     "name": "Cassie Radtke",
+     "party": null
+    },
+    {
+     "name": "Kevin Knapp",
+     "party": null
+    },
+    {
+     "name": "Trent Knoblock",
+     "party": null
+    },
+    {
+     "name": "Jordan Menning",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [
+  {
+   "name": "George-Little Rock Community School District Public Measure NV",
+   "jurisdiction": "George-Little Rock Community School District (Lyon, Osceola, Sioux counties)",
+   "ballotLanguage": "Shall the Board of Directors of the George-Little Rock Community School District in the Counties of Lyon, Osceola and Sioux, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $14,950,000 to provide funds to build, furnish and equip additions to its Elementary School and Middle School/High School facilities, including related remodeling and improvements; to remodel, repair, and improve the Elementary School and Middle School/High School facilities, including HVAC and bathroom improvements, and site improvements, exterior improvements to the Middle School/High School; to build, furnish, and equip a new bus barn; and to remodel, repair, and improve the Middle School/High School track?"
+  }
+ ],
+ "notes": "Source: 14 official precinct sample ballot PDFs (scanned images; read via OCR, spot-checked visually). Supervisors are elected by district - voters see only their district: District 1 (Larchwood P10, Lester P9), District 4 (Doon P5, Rock Rapids S P4), District 5 (Rock Rapids N P3); other precincts have no supervisor contest. No township offices appear on any Lyon ballot. Public Measure NV (GLR school bond) appears only on the 'GLR School Dist' ballot styles (Doon P5, George P1, Little Rock P2, Rock Rapids S P4)."
+}

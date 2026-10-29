@@ -1,0 +1,493 @@
+{
+  "county": "Poweshiek",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://poweshiekcounty.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+    "https://poweshiekcounty.iowa.gov/files/candidate_list/2026_general_election_november_3_2026_22207.pdf",
+    "https://poweshiekcounty.iowa.gov/files/sample_ballots/20261103_0213k_madison_township_kirkwood_cc_60635.pdf"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors (at-large)",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Jeff Tindle",
+          "party": "republican"
+        },
+        {
+          "name": "Jason Roudabush",
+          "party": "democratic"
+        },
+        {
+          "name": "Diana Dawley",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jennifer Anderson",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jodi L Meyer",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bart K. Klaver",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Bear Creek Township Trustee",
+      "scope": "township",
+      "area": "Bear Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Danny Brau",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bear Creek Township Clerk",
+      "scope": "township",
+      "area": "Bear Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Susie Brau",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "John Mann",
+          "party": null
+        },
+        {
+          "name": "Mike Phillips",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Bailey Asberry",
+          "party": null
+        },
+        {
+          "name": "Christina Sporer",
+          "party": null
+        },
+        {
+          "name": "Kristin Davidson",
+          "party": null
+        },
+        {
+          "name": "Gabrielle M. Axmear",
+          "party": null
+        },
+        {
+          "name": "Jennifer Bos",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jefferson Township Trustee",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dean Papesh",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jefferson Township Clerk",
+      "scope": "township",
+      "area": "Jefferson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Michael S. Fredericks",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Madison Township Trustee",
+      "scope": "township",
+      "area": "Madison",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Marvin Keller",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Madison Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Madison",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Wayne Ross",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Madison Township Clerk",
+      "scope": "township",
+      "area": "Madison",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Russ Schuck",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Warren Township Trustee",
+      "scope": "township",
+      "area": "Warren",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jim Clayton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Warren Township Clerk",
+      "scope": "township",
+      "area": "Warren",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tricia Kilmer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Deep River Township Trustee",
+      "scope": "township",
+      "area": "Deep River",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Matthew Ranfeld",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Deep River Township Clerk",
+      "scope": "township",
+      "area": "Deep River",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Donald Cranston",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Wayne King",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Laurie Grier",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Malcom Township Trustee",
+      "scope": "township",
+      "area": "Malcom",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rusty Massengale",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Malcom Township Clerk",
+      "scope": "township",
+      "area": "Malcom",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Faye Klenk",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sheridan Township Trustee",
+      "scope": "township",
+      "area": "Sheridan",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Sheridan Township Clerk",
+      "scope": "township",
+      "area": "Sheridan",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Chester Township Trustee",
+      "scope": "township",
+      "area": "Chester",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Randy Lidtka",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Chester Township Clerk",
+      "scope": "township",
+      "area": "Chester",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lance Veldboom",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Trustee",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Zach Van Arkel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Clerk",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Duane Roland",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sugar Creek Township Trustee",
+      "scope": "township",
+      "area": "Sugar Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Fritz James",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Sugar Creek Township Clerk",
+      "scope": "township",
+      "area": "Sugar Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Verlan Vos",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jordan Harms",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Peter Schalmo",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Trustee",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mike Phillips",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Jackson Township Clerk",
+      "scope": "township",
+      "area": "Jackson",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Donald J. Armstrong",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Pleasant Township Trustee",
+      "scope": "township",
+      "area": "Pleasant",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Pleasant Township Clerk",
+      "scope": "township",
+      "area": "Pleasant",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Scott Township Trustee",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Jessica Lacaeyse",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scott Township Trustee - To Fill Vacancy",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Joel Lacaeyse",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Scott Township Clerk",
+      "scope": "township",
+      "area": "Scott",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Stacy Helm",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Trustee",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Union Township Clerk",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": []
+    }
+  ],
+  "measures": [
+    {
+      "name": "Kirkwood Community College Public Measure NC",
+      "jurisdiction": "Kirkwood Community College (Merged Area X) - Poweshiek County portion",
+      "ballotLanguage": "Shall the following public measure be adopted? \"Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?\""
+    }
+  ],
+  "notes": "Supervisors elected AT-LARGE (Board of Supervisor, vote for no more than two, on every ballot style). All 33 official sample ballot styles parsed and cross-checked against the county candidate list. Township trustee/clerk races are vote-for-one; Sheridan, Pleasant and Union Twp trustee/clerk have no printed candidates (write-in). Kirkwood Community College (Merged Area X) bond measure appears only on precincts within Kirkwood (styles 0211K, 0213K, 0221K, 0304K, 0312K, 02VI/02HA, 03DR). No county hospital trustee race on ballot."
+}

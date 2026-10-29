@@ -1,0 +1,236 @@
+{
+ "county": "Monona",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://mononacountyiowa.gov/elections/2026_general_election_2026_11_03/",
+  "https://mononacountyiowa.gov/files/candidate_list/2026_general_election_31277.pdf",
+  "https://mononacountyiowa.gov/files/auditor/notice_of_election_11032026_50792.pdf",
+  "https://mononacountyiowa.gov/files/sample_ballots/1224_as102_arboretum_center_township_53369.pdf"
+ ],
+ "asOf": null,
+ "races": [
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Abby Riesberg",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kelly K. Parsley",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Haley Bryan",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Center Township Trustee",
+   "scope": "township",
+   "area": "Center",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jennifer Hanson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Center Township Clerk",
+   "scope": "township",
+   "area": "Center",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brenda Howland",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Wray J. Wright",
+     "party": null
+    },
+    {
+     "name": "T. Eric Brown",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Julie Miller",
+     "party": null
+    },
+    {
+     "name": "Rosa Lynch",
+     "party": null
+    },
+    {
+     "name": "Leland Hathaway",
+     "party": null
+    },
+    {
+     "name": "Cheryl Jensen",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council (To Fill Vacancy)",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Geri Johnson",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 2",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Sandra Lee Bubke",
+     "party": "republican"
+    },
+    {
+     "name": "Tom Brouillette",
+     "party": "democratic"
+    }
+   ]
+  },
+  {
+   "office": "Soldier Township Trustee",
+   "scope": "township",
+   "area": "Soldier",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ronald Amunson",
+     "party": null
+    },
+    {
+     "name": "Jared Mohr",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Soldier Township Clerk",
+   "scope": "township",
+   "area": "Soldier",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Judy Pohlman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Willow Township Trustee",
+   "scope": "township",
+   "area": "Willow",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Ronald Lee",
+     "party": null
+    },
+    {
+     "name": "Nick Behrendt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Willow Township Clerk",
+   "scope": "township",
+   "area": "Willow",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rozlynn Fundermann",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 3",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Vincent Phillips",
+     "party": "republican"
+    },
+    {
+     "name": "Heath E. Nelson",
+     "party": "not affiliated"
+    }
+   ]
+  },
+  {
+   "office": "Sioux Township Trustee",
+   "scope": "township",
+   "area": "Sioux",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Sam Johnson",
+     "party": null
+    },
+    {
+     "name": "Merle Losh",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Sioux Township Clerk",
+   "scope": "township",
+   "area": "Sioux",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Susan Johnson",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "measures": [],
+ "notes": "Parsed from the auditor's precinct sample ballots (13 of 14 styles; the AS001 Ashton-Belvidere-Kennebec-Castana-Turin file was empty on the server) and cross-checked against the Candidate List and Official Notice of General Election. Supervisors are elected by district (voters see only their own district): District 2 appears on the Cooper-Maple-Mapleton, Jordan-Moorhead-Soldier City-Spring Valley, Soldier Twp, Willow Twp and St. Clair-Ute styles; District 3 on the Onawa Ward 1-4 styles. Heath E. Nelson (Supervisor District 3) is listed as 'Not Affiliated' on the candidate list. Center Township Trustee is vote-for-two with one candidate. No county-level public measures appear in the notice or sample ballots."
+}

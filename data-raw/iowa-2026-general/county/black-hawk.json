@@ -1,0 +1,567 @@
+{
+  "county": "Black Hawk",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://blackhawkcountyelections.iowa.gov/files/candidate_list/2026_general_election_39589.pdf",
+    "https://blackhawkcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+    "https://blackhawkcountyelections.iowa.gov/files/sample_ballots/1304_style_8_22994.pdf"
+  ],
+  "asOf": "2026-09-01",
+  "races": [
+    {
+      "office": "Board of Supervisors, District 1",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Will Overstreet",
+          "party": "democratic"
+        },
+        {
+          "name": "Jeff Frost",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bill Dotzler",
+          "party": "democratic"
+        },
+        {
+          "name": "Steve Simon",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 3",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kamyar Enshayan",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 4",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tavis Hall",
+          "party": "democratic"
+        },
+        {
+          "name": "Corey Vincent Mosley",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 5",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Casey Schotter",
+          "party": "democratic"
+        },
+        {
+          "name": "Justin Brandt",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Brian John Williams",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Sandie L Smith",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lynda Hintzman",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Kristi Heffelmeier",
+          "party": null
+        },
+        {
+          "name": "Michael J Miller",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "DaQuan Campbell",
+          "party": null
+        },
+        {
+          "name": "Amber Greiman",
+          "party": null
+        },
+        {
+          "name": "Inamdar Anand Hanumant",
+          "party": null
+        },
+        {
+          "name": "Terrance J Hollingsworth",
+          "party": null
+        },
+        {
+          "name": "Donna Kitrick Kaspari",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Barclay Township Trustee",
+      "scope": "township",
+      "area": "Barclay",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Rick Rottinghaus",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Barclay Township Clerk",
+      "scope": "township",
+      "area": "Barclay",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Anthony Kajewski",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bennington Township Trustee",
+      "scope": "township",
+      "area": "Bennington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Maynard Murch",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bennington Township Clerk",
+      "scope": "township",
+      "area": "Bennington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dawn R Best",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Big Creek Township Trustee",
+      "scope": "township",
+      "area": "Big Creek",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Big Creek Township Clerk",
+      "scope": "township",
+      "area": "Big Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Wade Hammersley",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Black Hawk Township Trustee",
+      "scope": "township",
+      "area": "Black Hawk",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Daryl Taylor",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Black Hawk Township Clerk",
+      "scope": "township",
+      "area": "Black Hawk",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Darwin Janssen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cedar Township Trustee",
+      "scope": "township",
+      "area": "Cedar",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mark N Nagle",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cedar Township Clerk",
+      "scope": "township",
+      "area": "Cedar",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Darin Brincks",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cedar Falls Township Trustee",
+      "scope": "township",
+      "area": "Cedar Falls",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dale Doddema",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Cedar Falls Township Clerk",
+      "scope": "township",
+      "area": "Cedar Falls",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Gaylon Isley",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eagle Township Trustee",
+      "scope": "township",
+      "area": "Eagle",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dennis Blunt",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eagle Township Clerk",
+      "scope": "township",
+      "area": "Eagle",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Peter Beck",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "East Waterloo Township Trustee",
+      "scope": "township",
+      "area": "East Waterloo",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dale Gross",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "East Waterloo Township Clerk",
+      "scope": "township",
+      "area": "East Waterloo",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Peter Natvig",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fox Township Trustee",
+      "scope": "township",
+      "area": "Fox",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kara Backes",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Fox Township Clerk",
+      "scope": "township",
+      "area": "Fox",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bruce Wall",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lester Township Trustee",
+      "scope": "township",
+      "area": "Lester",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Earl F Canfield",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lester Township Trustee (To Fill Vacancy)",
+      "scope": "township",
+      "area": "Lester",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Lester Township Clerk",
+      "scope": "township",
+      "area": "Lester",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bruce W Jefferson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Trustee",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Curt Wilkes",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Lincoln Township Clerk",
+      "scope": "township",
+      "area": "Lincoln",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Deb Mumm",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Mt Vernon Township Trustee",
+      "scope": "township",
+      "area": "Mt Vernon",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "David Ulrich",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Mt Vernon Township Clerk",
+      "scope": "township",
+      "area": "Mt Vernon",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ron Henry",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Orange Township Trustee",
+      "scope": "township",
+      "area": "Orange",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Orange Township Clerk",
+      "scope": "township",
+      "area": "Orange",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Johnathan Lichty",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Poyner Township Trustee",
+      "scope": "township",
+      "area": "Poyner",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Poyner Township Clerk",
+      "scope": "township",
+      "area": "Poyner",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dustin Borseth",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Spring Creek Township Trustee",
+      "scope": "township",
+      "area": "Spring Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Scott Schroeder",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Spring Creek Township Clerk",
+      "scope": "township",
+      "area": "Spring Creek",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Susan M Davis",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Trustee",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Tammy L Stevenson-Wenzel",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Union Township Clerk",
+      "scope": "township",
+      "area": "Union",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Bonnie L Stevenson",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mark Dayton",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "William H Hesse",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure NC",
+      "jurisdiction": "Kirkwood Community College (Merged Area X)",
+      "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+    }
+  ],
+  "notes": "Supervisors elected by district beginning 2026 (all five districts on ballot; voters see only their own district, confirmed on sample ballots). Candidate list (as of 09/01/2026) shows no filed candidate for: REP Supervisor Dist 3, REP Attorney, REP Recorder, DEM Treasurer, Big Creek/Orange/Poyner Township Trustee, Lester Township Trustee TFV (included with empty candidates). Names copied as printed (asterisks marking incumbents removed). No county hospital trustee contest. Public Measure NC appears only on sample-ballot style 8 (Kirkwood portion of county); 75 sample-ballot styles checked."
+}

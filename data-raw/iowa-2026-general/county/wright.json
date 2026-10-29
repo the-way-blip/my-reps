@@ -1,0 +1,207 @@
+{
+ "county": "Wright",
+ "found": true,
+ "partial": false,
+ "sources": [
+  "https://www.wrightcounty.iowa.gov/departments/auditor/elections/sample_ballots.php",
+  "https://www.wrightcounty.iowa.gov/Belmond%20101%20Sample.pdf",
+  "https://www.wrightcounty.iowa.gov/Iowa%20Township%20102%20Sample.pdf",
+  "https://www.wrightcounty.iowa.gov/Wall%20Lake%20Township%20402%20Sample.pdf",
+  "https://www.wrightcounty.iowa.gov/Woolstock%20Township%20403%20Sample.pdf",
+  "(plus the other 9 precinct sample ballot PDFs on the sample ballots page)"
+ ],
+ "asOf": "2026-09-18 (sample ballot upload timestamp)",
+ "races": [
+  {
+   "office": "Board of Supervisors, District 1",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Rick Rasmussen",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Board of Supervisors, District 5",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Betty Ellis",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Treasurer",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Peggy Schluttenhofer",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Recorder",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Eric J Russell",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "County Attorney",
+   "scope": "county",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Eric R. Simonson",
+     "party": "republican"
+    }
+   ]
+  },
+  {
+   "office": "Soil and Water Conservation District Commissioner",
+   "scope": "county",
+   "seats": 2,
+   "candidates": [
+    {
+     "name": "Jay Pogge",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "County Agricultural Extension Council Member",
+   "scope": "county",
+   "seats": 5,
+   "candidates": [
+    {
+     "name": "Paige Grandgeorge",
+     "party": null
+    },
+    {
+     "name": "Staci Schnittjer",
+     "party": null
+    },
+    {
+     "name": "Kerri Tweeten",
+     "party": null
+    },
+    {
+     "name": "Wendy Brandt",
+     "party": null
+    }
+   ]
+  },
+  {
+   "office": "Iowa Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Alvin Bailey",
+     "party": null
+    }
+   ],
+   "area": "Iowa"
+  },
+  {
+   "office": "Iowa Township Trustee, To Fill Vacancy - 2 Year Term",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Kelly Leist",
+     "party": null
+    }
+   ],
+   "area": "Iowa"
+  },
+  {
+   "office": "Iowa Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Aimee Frohling",
+     "party": null
+    }
+   ],
+   "area": "Iowa"
+  },
+  {
+   "office": "Wall Lake Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Brittany Howieson",
+     "party": null
+    }
+   ],
+   "area": "Wall Lake"
+  },
+  {
+   "office": "Wall Lake Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Emily Cook",
+     "party": null
+    }
+   ],
+   "area": "Wall Lake"
+  },
+  {
+   "office": "Woolstock Township Trustee",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Bryan Claude",
+     "party": null
+    }
+   ],
+   "area": "Woolstock"
+  },
+  {
+   "office": "Woolstock Township Clerk",
+   "scope": "township",
+   "seats": 1,
+   "candidates": [
+    {
+     "name": "Tamie J Harrison",
+     "party": null
+    }
+   ],
+   "area": "Woolstock"
+  }
+ ],
+ "measures": [
+  {
+   "name": "Public Measure \"A\"",
+   "jurisdiction": "Iowa Township",
+   "ballotLanguage": "Shall the Wright County Board of Supervisors fill the offices of trustees and clerk of Iowa Township by appointment as the terms of office of the incumbent township officers expire?"
+  },
+  {
+   "name": "Public Measure \"B\"",
+   "jurisdiction": "Wall Lake Township",
+   "ballotLanguage": "Shall the Wright County Board of Supervisors fill the offices of trustees and clerk of Wall Lake Township by appointment as the terms of office of the incumbent township officers expire?"
+  },
+  {
+   "name": "Public Measure \"C\"",
+   "jurisdiction": "Woolstock Township",
+   "ballotLanguage": "Shall the Wright County Board of Supervisors fill the offices of trustees and clerk of Woolstock Township by appointment as the terms of office of the incumbent township officers expire?"
+  }
+ ],
+ "notes": "Source: 13 per-precinct official sample ballot PDFs (text-extractable). Board of Supervisors District 1 and District 5 contests appear on every precinct ballot countywide, i.e. elected at-large with district residency (all voters see both). Township offices appear only on the Iowa Township (102), Wall Lake Township (402) and Woolstock Township (403) ballots; the Rural Clarion (300) and Rural Eagle Grove (900) ballots carry no township offices. Each of those three townships also votes on a public measure to have the Board of Supervisors fill township trustee/clerk offices by appointment."
+}
