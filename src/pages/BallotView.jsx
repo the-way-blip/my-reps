@@ -30,7 +30,7 @@ import { trackEvent, trackAddressEntered, trackPartySelected, trackCandidateSele
 import AddressAutocomplete from '../components/ui/AddressAutocomplete'
 import AuthModal from '../components/auth/AuthModal'
 import useFocusTrap from '../hooks/useFocusTrap'
-import { getRatingsForCandidate, getRatingsForIssue, getEvidenceLevel } from '../data/externalRatings'
+import { getRatingsForCandidate, getRatingsForIssue, getEvidenceLevel, isPartyBasedGrade } from '../data/externalRatings'
 import { getSource, RATING_SOURCES, ISSUE_AREA_LABELS, RATING_TYPE_LABELS, RATING_TYPE_DESCRIPTIONS } from '../data/ratingSources'
 import { getVoterInfo } from '../services/googleCivicApi'
 import { geocodeToDistrict } from '../services/districtService'
@@ -327,6 +327,7 @@ function ExternalRatingBadge({ rating }) {
 
 function EvidenceIndicator({ candidate }) {
   const evidence = getEvidenceLevel(candidate.name, candidate)
+  if (isPartyBasedGrade(candidate)) evidence.level = 'minimal'
   const segments = 4
   const filled = evidence.level === 'extensive' ? 4
     : evidence.level === 'moderate' ? 3
@@ -427,6 +428,12 @@ function CandidateDetailModal({ candidate, onClose }) {
           )}
           {candidate.gradeNote && (
             <p className="candidate-modal-grade-note">{candidate.gradeNote}</p>
+          )}
+          {isPartyBasedGrade(candidate) && (
+            <p className="candidate-modal-party-based">
+              <strong>Based mostly on party.</strong> We found no public record for this candidate on most issues, so those
+              issues use the party default (marked “No specific position found” below). Treat this grade as a starting point.
+            </p>
           )}
           <div className="candidate-modal-tags">
             {candidate.status === 'incumbent' && (
@@ -1042,6 +1049,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                       {c.name}
                       <GradeBadge grade={c.grade} size="sm" showUnrated={!c.grade} />
                       {c.grade && <EvidenceBadge candidate={c} />}
+                      {isPartyBasedGrade(c) && <span className="ballot-party-based-tag" title="No public record found on most issues, so most of this grade comes from the candidate's party.">Mostly party-based</span>}
                       {c.party === 'republican' && <span className="ballot-party-tag ballot-party-tag-r">R</span>}
                       {c.party === 'democratic' && <span className="ballot-party-tag ballot-party-tag-d">D</span>}
                       {c.party === 'independent' && <span className="ballot-party-tag ballot-party-tag-i">I</span>}

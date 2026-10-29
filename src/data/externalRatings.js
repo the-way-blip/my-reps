@@ -501,6 +501,14 @@ export function hasExternalRatings(name) {
  *  - 'limited'    — Primarily editorial assessment with minimal external org data
  *  - 'minimal'    — No external org data; based on public statements and platform only
  */
+// Sub-grades with no candidate-specific evidence fall back to the party default; their justification says so
+// ("No specific position found; Republican; ..."). Four or more of six means the grade mostly reflects party.
+const DEFAULT_JUSTIFICATION = /default|no (public |voting |legislative )?record|no evidence|no specific|no known|absent|inferred from party|party baseline/i
+export function isPartyBasedGrade(candidate = {}) {
+  const just = Object.values(candidate.gradeJustifications || {})
+  return !!candidate.grade && just.filter(j => DEFAULT_JUSTIFICATION.test(j)).length >= 4
+}
+
 export function getEvidenceLevel(candidateName, candidate = {}) {
   const ratings = getRatingsForCandidate(candidateName)
 
