@@ -1,5 +1,5 @@
 // Ballot data for states beyond Michigan (public/data/<dir>/ballots/), one file per county plus
-// _statewide.json, all in the same schema (built by scripts/build-indiana.mjs, scripts/build-iowa.mjs, scripts/build-wisconsin.mjs, scripts/build-minnesota.mjs).
+// _statewide.json, all in the same schema (built by scripts/build-indiana.mjs, scripts/build-iowa.mjs, scripts/build-wisconsin.mjs, scripts/build-minnesota.mjs, scripts/build-ohio.mjs).
 // Adding a state = a data build + one entry here + its voting rules in stateVotingInfo.js.
 
 import { countySlug } from './officialBallot'
@@ -14,8 +14,10 @@ export const STATE_BALLOTS = {
   IA: { code: 'IA', name: 'Iowa', dir: 'ia', idPrefix: 'ia-', live: true },
   // Live since 2026-10-29.
   WI: { code: 'WI', name: 'Wisconsin', dir: 'wi', idPrefix: 'wi-', live: true },
-  // Preview only until approved for launch.
-  MN: { code: 'MN', name: 'Minnesota', dir: 'mn', idPrefix: 'mn-', live: false },
+  // Live since 2026-10-29.
+  MN: { code: 'MN', name: 'Minnesota', dir: 'mn', idPrefix: 'mn-', live: true },
+  // Live since 2026-10-29.
+  OH: { code: 'OH', name: 'Ohio', dir: 'oh', idPrefix: 'oh-', live: true },
 }
 
 // The state's config when its ballot is available on this host, else null (Michigan uses its own pipeline)

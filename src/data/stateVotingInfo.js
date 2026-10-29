@@ -120,6 +120,32 @@ export const STATE_VOTING_INFO = {
       polling: "Minnesota polls are open 7:00 AM – 8:00 PM. If you're in line by 8 PM, you will be allowed to vote. Absentee ballots must be received by Election Day — check the deadline with your county.",
     },
   },
+  OH: {
+    code: 'OH',
+    name: 'Ohio',
+    sourceName: 'Ohio Secretary of State',
+    voterSite: 'https://voterlookup.ohiosos.gov/',
+    voterSiteName: 'the Ohio Secretary of State voter lookup',
+    registerUrl: 'https://olvr.ohiosos.gov/',
+    absenteeUrl: 'https://www.ohiosos.gov/elections/voters/absentee-voting/',
+    sameDayRegistration: false,
+    electionDayText: 'Polls are open 6:30 a.m. – 7:30 p.m. Bring an unexpired photo ID.',
+    localNote: "County offices (commissioner, auditor, judges) and local levies aren't listed here yet — see your county board of elections' sample ballot.",
+    localNoteUrl: 'https://www.ohiosos.gov/elections/elections-officials/county-boards-of-elections-directory/',
+    localNoteLabel: 'Find your county board of elections',
+    deadlines: [
+      { date: '2026-10-05T12:00:00', label: 'Voter registration deadline', action: 'Check registration', href: 'https://voterlookup.ohiosos.gov/' },
+      { date: '2026-10-06T12:00:00', label: 'Early in-person voting begins', action: 'Find your county board', href: 'https://www.ohiosos.gov/elections/elections-officials/county-boards-of-elections-directory/' },
+      { date: '2026-10-27T12:00:00', label: 'Absentee ballot request deadline', action: 'Absentee info', href: 'https://www.ohiosos.gov/elections/voters/absentee-voting/' },
+      { date: '2026-11-01T12:00:00', label: 'Last day of early voting', action: 'Find your county board', href: 'https://www.ohiosos.gov/elections/elections-officials/county-boards-of-elections-directory/' },
+      { date: '2026-11-03T12:00:00', label: 'General Election Day', action: 'Find your polling place', href: 'https://voterlookup.ohiosos.gov/' },
+    ],
+    checklist: {
+      id: "Ohio requires an unexpired photo ID to vote in person: an Ohio driver's license or state ID card, U.S. passport or passport card, or a U.S. military, Ohio National Guard, or VA ID card. Without one you can vote a provisional ballot.",
+      registration: 'Ohio voter registration closed October 5. Confirm your registration and polling place with the Ohio Secretary of State voter lookup.',
+      polling: "Ohio polls are open 6:30 AM – 7:30 PM. If you're in line by 7:30 PM, you will be allowed to vote. Check your county board of elections for the absentee return deadline.",
+    },
+  },
 }
 
 export const getStateVotingInfo = code => STATE_VOTING_INFO[code] || STATE_VOTING_INFO.MI
