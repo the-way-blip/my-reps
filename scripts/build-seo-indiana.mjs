@@ -13,7 +13,7 @@
 import { readdirSync, readFileSync, writeFileSync, rmSync, mkdirSync } from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { SITE, ELECTION, esc, slug, PARTY, PARTY_LONG, ISSUES, makePageWriter, ctaBox, faq, gradeBadge } from './seo-shared.mjs'
+import { SITE, ELECTION, esc, slug, PARTY, PARTY_LONG, ISSUES, makePageWriter, ctaBox, faq, gradeBadge, otherStateLinks } from './seo-shared.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DATA = path.join(ROOT, 'public/data/in/ballots')
@@ -26,7 +26,7 @@ mkdirSync(OUT, { recursive: true })
 const { layout, write, pages } = makePageWriter({
   outDir: OUT,
   urlPrefix: 'indiana',
-  footerHtml: `Races and public questions are taken from the Indiana Election Division&#39;s official candidate list (<a href="${IN_SITE}">IndianaVoters.in.gov</a>). Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/indiana/">Indiana ballot by county</a> · <a href="${SITE}/indiana/races/">Statewide races</a> · <a href="${SITE}/indiana/key-dates/">Key dates</a> · <a href="${SITE}/indiana/how-to-vote/">How to vote</a> · <a href="${SITE}/michigan/">Michigan ballot</a> · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a>`,
+  footerHtml: `Races and public questions are taken from the Indiana Election Division&#39;s official candidate list (<a href="${IN_SITE}">IndianaVoters.in.gov</a>). Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/indiana/">Indiana ballot by county</a> · <a href="${SITE}/indiana/races/">Statewide races</a> · <a href="${SITE}/indiana/key-dates/">Key dates</a> · <a href="${SITE}/indiana/how-to-vote/">How to vote</a> · ${otherStateLinks('indiana')} · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a>`,
 })
 
 // ───────────────────────── load data ─────────────────────────

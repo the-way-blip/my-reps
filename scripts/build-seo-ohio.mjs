@@ -10,7 +10,7 @@
 import { readdirSync, readFileSync, writeFileSync, rmSync, mkdirSync } from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { SITE, ELECTION, esc, slug, PARTY, PARTY_LONG, ISSUES, makePageWriter, ctaBox, faq, gradeBadge } from './seo-shared.mjs'
+import { SITE, ELECTION, esc, slug, PARTY, PARTY_LONG, ISSUES, makePageWriter, ctaBox, faq, gradeBadge, otherStateLinks } from './seo-shared.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DATA = path.join(ROOT, 'public/data/oh/ballots')
@@ -23,7 +23,7 @@ mkdirSync(OUT, { recursive: true })
 const { layout, write, pages } = makePageWriter({
   outDir: OUT,
   urlPrefix: 'ohio',
-  footerHtml: `Races are taken from the Ohio Secretary of State&#39;s official candidate list. County offices and local issues are on your <a href="${BOARDS}">county board of elections</a>&#39; sample ballot. Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/ohio/">Ohio ballot by county</a> · <a href="${SITE}/ohio/races/">Statewide races</a> · <a href="${SITE}/ohio/key-dates/">Key dates</a> · <a href="${SITE}/ohio/how-to-vote/">How to vote</a> · <a href="${SITE}/michigan/">Michigan ballot</a> · <a href="${SITE}/indiana/">Indiana ballot</a> · <a href="${SITE}/iowa/">Iowa ballot</a> · <a href="${SITE}/wisconsin/">Wisconsin ballot</a> · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a>`,
+  footerHtml: `Races are taken from the Ohio Secretary of State&#39;s official candidate list. County offices and local issues are on your <a href="${BOARDS}">county board of elections</a>&#39; sample ballot. Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/ohio/">Ohio ballot by county</a> · <a href="${SITE}/ohio/races/">Statewide races</a> · <a href="${SITE}/ohio/key-dates/">Key dates</a> · <a href="${SITE}/ohio/how-to-vote/">How to vote</a> · ${otherStateLinks('ohio')} · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a>`,
 })
 
 // ───────────────────────── load data ─────────────────────────

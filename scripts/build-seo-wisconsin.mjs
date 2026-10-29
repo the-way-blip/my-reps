@@ -11,7 +11,7 @@
 import { readdirSync, readFileSync, writeFileSync, rmSync, mkdirSync } from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { SITE, ELECTION, esc, slug, PARTY, PARTY_LONG, ISSUES, makePageWriter, ctaBox, faq, gradeBadge } from './seo-shared.mjs'
+import { SITE, ELECTION, esc, slug, PARTY, PARTY_LONG, ISSUES, makePageWriter, ctaBox, faq, gradeBadge, otherStateLinks } from './seo-shared.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DATA = path.join(ROOT, 'public/data/wi/ballots')
@@ -24,7 +24,7 @@ mkdirSync(OUT, { recursive: true })
 const { layout, write, pages } = makePageWriter({
   outDir: OUT,
   urlPrefix: 'wisconsin',
-  footerHtml: `Races and referendums are taken from the Wisconsin Elections Commission&#39;s official candidate and referendum lists (<a href="${WI_SITE}">MyVote Wisconsin</a>). Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/wisconsin/">Wisconsin ballot by county</a> · <a href="${SITE}/wisconsin/races/">Statewide races</a> · <a href="${SITE}/wisconsin/key-dates/">Key dates</a> · <a href="${SITE}/wisconsin/how-to-vote/">How to vote</a> · <a href="${SITE}/michigan/">Michigan ballot</a> · <a href="${SITE}/indiana/">Indiana ballot</a> · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a>`,
+  footerHtml: `Races and referendums are taken from the Wisconsin Elections Commission&#39;s official candidate and referendum lists (<a href="${WI_SITE}">MyVote Wisconsin</a>). Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/wisconsin/">Wisconsin ballot by county</a> · <a href="${SITE}/wisconsin/races/">Statewide races</a> · <a href="${SITE}/wisconsin/key-dates/">Key dates</a> · <a href="${SITE}/wisconsin/how-to-vote/">How to vote</a> · ${otherStateLinks('wisconsin')} · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a>`,
 })
 
 // ───────────────────────── load data ─────────────────────────

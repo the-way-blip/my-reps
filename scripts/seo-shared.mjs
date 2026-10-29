@@ -7,6 +7,9 @@ export const SITE = 'https://www.offorandbythepeople.com'
 export const ELECTION = 'November 3, 2026'
 export const DEFAULT_OG = `${SITE}/og-image.jpg`
 export const GA = 'G-9XXQND8PR2'
+// Every state's pages cross-link the other live states' hubs (one place to add a state).
+export const STATES = { michigan: 'Michigan', indiana: 'Indiana', iowa: 'Iowa', wisconsin: 'Wisconsin', minnesota: 'Minnesota', ohio: 'Ohio' }
+export const otherStateLinks = current => Object.entries(STATES).filter(([k]) => k !== current).map(([k, n]) => `<a href="${SITE}/${k}/">${n} ballot</a>`).join(' · ')
 
 export const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 export const slug = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')

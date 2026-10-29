@@ -12,7 +12,7 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'fs'
 import path from 'path'
 import { fileURLToPath, pathToFileURL } from 'url'
-import { SITE, ELECTION, DEFAULT_OG, esc, slug, PARTY, PARTY_LONG, GRADE_COLOR, ISSUES, DISCLAIMER, makePageWriter, ctaBox, faq, displayName, gradeBadge } from './seo-shared.mjs'
+import { SITE, ELECTION, DEFAULT_OG, esc, slug, PARTY, PARTY_LONG, GRADE_COLOR, ISSUES, DISCLAIMER, makePageWriter, ctaBox, faq, displayName, gradeBadge, otherStateLinks } from './seo-shared.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DATA = path.join(ROOT, 'public/data/ballots')
@@ -26,7 +26,7 @@ mkdirSync(OUT, { recursive: true })
 const { layout, write, pages } = makePageWriter({
   outDir: OUT,
   urlPrefix: 'michigan',
-  footerHtml: `Local races and proposals are taken from the official Michigan Secretary of State sample ballots (<a href="https://mvic.sos.state.mi.us/PublicBallot/Index">Voter Information Center</a>). Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/michigan/">Michigan ballot by county</a> · <a href="${SITE}/michigan/races/">Statewide races</a> · <a href="${SITE}/michigan/key-dates/">Key dates</a> · <a href="${SITE}/michigan/how-to-vote/">How to vote</a> · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a>`,
+  footerHtml: `Local races and proposals are taken from the official Michigan Secretary of State sample ballots (<a href="https://mvic.sos.state.mi.us/PublicBallot/Index">Voter Information Center</a>). Always confirm with your own sample ballot.<br>&copy; 2026 Of For &amp; By The People · <a href="${SITE}/michigan/">Michigan ballot by county</a> · <a href="${SITE}/michigan/races/">Statewide races</a> · <a href="${SITE}/michigan/key-dates/">Key dates</a> · <a href="${SITE}/michigan/how-to-vote/">How to vote</a> · ${otherStateLinks('michigan')} · <a href="${SITE}/privacy">Privacy</a> · <a href="${SITE}/terms">Terms</a>`,
 })
 
 // ───────────────────────── load county data ─────────────────────────
