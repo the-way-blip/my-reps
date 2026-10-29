@@ -112,6 +112,7 @@ export function getStateBallot(data, geo, districts) {
   return {
     matched: true,
     maybeRaces,
+    localComplete: county.localComplete !== false,
     dataAsOf: statewide.sourceWriteTime || county.generatedAt,
     jurisdiction: [geo.place, geo.countySubdivision && `${geo.countySubdivision} Township`].filter(Boolean)[0] || `${county.county} County`,
     stateRaces,

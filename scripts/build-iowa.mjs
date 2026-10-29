@@ -90,11 +90,43 @@ mkdirSync(OUT, { recursive: true })
 const generatedAt = new Date().toISOString()
 writeFileSync(path.join(OUT, '_statewide.json'), JSON.stringify({ state: 'IA', source: cand.source, sourceVersion: cand.sourceVersion, sourceWriteTime: cand.fetchedAt, generatedAt, races }))
 const index = []
+// County-level contests collected from each county auditor (data-raw/iowa-2026-general/county/<slug>.json)
+const COUNTY_DIR = path.join(RAW, 'county')
+const BY_DISTRICT = /District|Dist\b/i
+function countyRaces(county) {
+  const f = path.join(COUNTY_DIR, `${slug(county).replace(/^o-brien$/, 'o-brien')}.json`)
+  if (!existsSync(f)) return { found: false, races: [], measures: [] }
+  const c = JSON.parse(readFileSync(f, 'utf8'))
+  const races = (c.races || []).filter(r => r.candidates?.length).map((r, i) => {
+    const scope = r.scope === 'township' ? 'township' : 'county'
+    const office = scope === 'county' && !/county/i.test(r.office) ? `${county} County ${r.office}` : r.office
+    // Supervisor (and similar) seats elected by district can't be pinned to an address
+    const maybe = scope === 'county' && /Supervisor/i.test(r.office) && BY_DISTRICT.test(r.office)
+    return {
+      id: `ia-${slug(county)}-${slug(r.office)}-${i}`, office, category: r.office, level: scope === 'township' ? 'Township' : 'County',
+      scope, ...(r.area ? { area: r.area } : {}), seats: r.seats || 1,
+      type: r.candidates.some(x => x.party) ? 'partisan' : 'nonpartisan',
+      description: [r.seats > 1 ? `Vote for up to ${r.seats}.` : '', maybe ? 'May be on your ballot: only voters in this supervisor district vote on this seat. Check your county auditor\'s sample ballot.' : ''].filter(Boolean).join(' '),
+      ...(maybe ? { maybe: true } : {}), ballotOrder: 500 + i,
+      candidates: r.candidates.map(x => ({ name: x.name, party: x.party || null, status: 'candidate' })),
+    }
+  })
+  const measures = (c.measures || []).map((m, i) => ({ id: `ia-${slug(county)}-q-${i}`, name: m.name, type: 'Local Public Question', statewide: false, ballotLanguage: m.ballotLanguage || '' }))
+  return { found: !!c.found, partial: !!c.partial, races, measures, sources: c.sources || [] }
+}
+
+let withLocal = 0
 for (const county of counties) {
   const js = judges.judges.filter(j => j.counties === 'all' || (Array.isArray(j.counties) && j.counties.includes(county)))
-  const referendums = [...questions, ...js.map(judgeQ)]
-  writeFileSync(path.join(OUT, `${slug(county)}.json`), JSON.stringify({ state: 'IA', county, source: 'Iowa Secretary of State; Iowa Judicial Branch', generatedAt, races: [], referendums }))
-  index.push({ county, slug: slug(county), races: 0, referendums: referendums.length })
+  const local = countyRaces(county)
+  if (local.found && local.races.length) withLocal++
+  const referendums = [...questions, ...js.map(judgeQ), ...local.measures]
+  writeFileSync(path.join(OUT, `${slug(county)}.json`), JSON.stringify({
+    state: 'IA', county, source: 'Iowa Secretary of State; Iowa Judicial Branch; county auditor', generatedAt,
+    localComplete: local.found && !local.partial, localSources: local.sources || [], races: local.races, referendums,
+  }))
+  index.push({ county, slug: slug(county), races: local.races.length, referendums: referendums.length, localFound: local.found })
 }
+console.log(`county races: ${withLocal} of ${counties.length} counties have county-level contests`)
 writeFileSync(path.join(OUT, '_index.json'), JSON.stringify({ sourceVersion: cand.sourceVersion, counties: index }, null, 1))
 console.log(`Iowa: ${races.length} statewide/district races, ${races.reduce((a, r) => a + r.candidates.length, 0)} candidates (${graded} graded), ${questions.length} amendment(s), ${judges.judges.length} judges across ${counties.length} counties`)
