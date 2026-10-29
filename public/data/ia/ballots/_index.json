@@ -95,9 +95,9 @@
   {
    "county": "Carroll",
    "slug": "carroll",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 6,
+   "referendums": 12,
+   "localFound": true
   },
   {
    "county": "Cass",
@@ -158,9 +158,9 @@
   {
    "county": "Clinton",
    "slug": "clinton",
-   "races": 0,
-   "referendums": 12,
-   "localFound": false
+   "races": 17,
+   "referendums": 15,
+   "localFound": true
   },
   {
    "county": "Crawford",
@@ -186,9 +186,9 @@
   {
    "county": "Decatur",
    "slug": "decatur",
-   "races": 0,
-   "referendums": 6,
-   "localFound": false
+   "races": 29,
+   "referendums": 8,
+   "localFound": true
   },
   {
    "county": "Delaware",
@@ -256,9 +256,9 @@
   {
    "county": "Greene",
    "slug": "greene",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 33,
+   "referendums": 18,
+   "localFound": true
   },
   {
    "county": "Grundy",
@@ -291,9 +291,9 @@
   {
    "county": "Hardin",
    "slug": "hardin",
-   "races": 0,
-   "referendums": 11,
-   "localFound": false
+   "races": 8,
+   "referendums": 13,
+   "localFound": true
   },
   {
    "county": "Harrison",
@@ -480,9 +480,9 @@
   {
    "county": "Montgomery",
    "slug": "montgomery",
-   "races": 0,
+   "races": 9,
    "referendums": 13,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Muscatine",
@@ -543,9 +543,9 @@
   {
    "county": "Pottawattamie",
    "slug": "pottawattamie",
-   "races": 0,
+   "races": 50,
    "referendums": 13,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Poweshiek",
@@ -585,9 +585,9 @@
   {
    "county": "Sioux",
    "slug": "sioux",
-   "races": 0,
-   "referendums": 10,
-   "localFound": false
+   "races": 7,
+   "referendums": 11,
+   "localFound": true
   },
   {
    "county": "Story",
@@ -655,9 +655,9 @@
   {
    "county": "Webster",
    "slug": "webster",
-   "races": 0,
+   "races": 48,
    "referendums": 11,
-   "localFound": false
+   "localFound": true
   },
   {
    "county": "Winnebago",

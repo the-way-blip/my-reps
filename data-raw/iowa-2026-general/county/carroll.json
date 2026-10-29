@@ -1,23 +1,108 @@
 {
- "county": "Carroll",
- "found": false,
- "partial": false,
- "sources": [],
- "triedUrls": [
-  "https://carrollcounty.iowa.gov/",
-  "https://carrollcounty.iowa.gov/elections/",
-  "https://carrollcounty.iowa.gov/wp-json/wp/v2/media",
-  "https://www.carrollcountyiowa.gov/",
-  "https://carrollcountyia.gov/",
-  "https://co.carroll.ia.us/",
-  "https://www.co.carroll.ia.us/",
-  "https://elections.carrollcounty.iowa.gov/",
-  "https://carrollcountyelections.iowa.gov/",
-  "https://auditor.carrollcounty.iowa.gov/",
-  "https://sos.iowa.gov/elections/auditors/auditorslist.html"
- ],
- "asOf": null,
- "races": [],
- "measures": [],
- "notes": "carrollcounty.iowa.gov (and www.carrollcountyiowa.gov) return HTTP 403 with a Cloudflare 'Just a moment...' JavaScript challenge to curl, so no candidate list or sample ballot could be read; other hostname guesses do not resolve; SOS auditor directory returned 403; Firecrawl fallback search failed (account out of credits). No contests recorded - needs manual retrieval from the Carroll County Auditor site in a browser."
+  "county": "Carroll",
+  "found": true,
+  "partial": true,
+  "sources": [
+    "https://www.carrollcountyiowa.gov/pview.aspx?catid=563&id=20988",
+    "https://www.carrollcountyiowa.gov/docview.aspx?docid=32022 (110326SampleBallot...pdf)"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors, District 2",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Mary Wittry",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Board of Supervisors, District 4",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kenneth E. Pingrey",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Lisa Wagner",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Ashten Wittrock",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Curt S. Steger",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Kristina Whitver Soyer",
+          "party": null
+        },
+        {
+          "name": "Brett Greve",
+          "party": null
+        },
+        {
+          "name": "David Slechta",
+          "party": null
+        },
+        {
+          "name": "Ashley Wilson",
+          "party": null
+        },
+        {
+          "name": "Julie A. Clancy",
+          "party": null
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure DA - Carroll Community School District General Obligation Bonds",
+      "jurisdiction": "Carroll Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the Carroll Community School District in the County of Carroll, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $51,000,000 to provide funds to build, furnish, and equip additions to the high school and to remodel, repair, improve, furnish, and equip the high school and middle school, including site improvements, to facilitate the closure of Adams Elementary School?"
+    }
+  ],
+  "notes": "Read in a real browser (the official site is www.carrollcountyiowa.gov; carrollcounty.iowa.gov gives Cloudflare error 1000). The county posts a single 2-page scanned sample ballot (rendered and read visually). Both Supervisor District 2 and District 4 appear on the same ballot, so they appear to be voted countywide (residency districts) - each vote for one. Soil and Water Conservation District Commissioner is vote-for-two with no printed candidates (write-in only). Only one ballot style is posted (it carries the Carroll CSD measure), so township trustee/clerk races and any other precinct-specific measures in other parts of the county are not shown - marked partial."
 }

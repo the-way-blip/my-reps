@@ -1,5 +1,431 @@
-{"county":"Clinton","found":false,"partial":false,
- "sources":[],
- "triedUrls":["https://clintoncounty.iowa.gov/ (403)","https://www.clintoncounty-ia.gov/ (200, county site)","https://www.clintoncounty-ia.gov/auditor/","https://elections.clintoncounty-ia.gov/ (403 Cloudflare challenge)","https://elections.clintoncounty-ia.gov/elections/info/2026_general_election_2026_11_03/ (403 Cloudflare challenge)","https://elections.clintoncounty-ia.gov/candidates/ (403)","https://www.clintoncounty-ia.gov/elections/info/2026_general_election_2026_11_03/ (404)","https://archive.org/wayback/available?url=elections.clintoncounty-ia.gov/elections/info/2026_general_election_2026_11_03/ (no snapshot)","https://sos.iowa.gov/elections/auditors/auditorslist.html (403)","Firecrawl search (account out of credits)"],
- "asOf":null,"races":[],"measures":[],
- "notes":"Clinton County's election content (candidate list, sample ballots) lives on elections.clintoncounty-ia.gov, which returns a Cloudflare JavaScript challenge to curl. The main county site links to the 2026 General Election page but hosts no ballot content itself. No archived copy found. Needs a real browser or manual download."}
+{
+  "county": "Clinton",
+  "found": true,
+  "partial": false,
+  "sources": [
+    "https://elections.clintoncounty-ia.gov/elections/info/2026_general_election_2026_11_03/",
+    "https://elections.clintoncounty-ia.gov/elections/ballots/"
+  ],
+  "asOf": null,
+  "races": [
+    {
+      "office": "Board of Supervisors",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Steve Cundiff",
+          "party": "republican"
+        },
+        {
+          "name": "Jim Irwin Jr.",
+          "party": "republican"
+        },
+        {
+          "name": "Charles Hunter",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Treasurer",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Dustin R. Johnson",
+          "party": "republican"
+        },
+        {
+          "name": "Joe Brown",
+          "party": "democratic"
+        }
+      ]
+    },
+    {
+      "office": "County Recorder",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Scott Judd",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "County Attorney",
+      "scope": "county",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "James McHugh",
+          "party": "republican"
+        }
+      ]
+    },
+    {
+      "office": "Soil and Water Conservation District Commissioner",
+      "scope": "county",
+      "seats": 2,
+      "candidates": [
+        {
+          "name": "Cindy Heilmann",
+          "party": null
+        },
+        {
+          "name": "John Tuthill",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "County Agricultural Extension Council Member",
+      "scope": "county",
+      "seats": 5,
+      "candidates": [
+        {
+          "name": "Sierra Seil",
+          "party": null
+        },
+        {
+          "name": "Brian Schmidt",
+          "party": null
+        },
+        {
+          "name": "Reid Walker",
+          "party": null
+        },
+        {
+          "name": "Hannah Garland",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bloomfield Township Trustee",
+      "scope": "township",
+      "area": "Bloomfield",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Paul M. Ruchotzke",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Bloomfield Township Clerk",
+      "scope": "township",
+      "area": "Bloomfield",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Kathy A. Seyfert",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Brookfield Township Trustee",
+      "scope": "township",
+      "area": "Brookfield",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Brookfield Township Clerk",
+      "scope": "township",
+      "area": "Brookfield",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Camanche Township Trustee",
+      "scope": "township",
+      "area": "Camanche",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Craig Lorenzen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Camanche Township Clerk",
+      "scope": "township",
+      "area": "Camanche",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Willard F. Larsen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Center Township Trustee",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Richard E. Smith",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Center Township Clerk",
+      "scope": "township",
+      "area": "Center",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Nancy A. Eggers",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Deep Creek Township Trustee",
+      "scope": "township",
+      "area": "Deep Creek",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Deep Creek Township Clerk",
+      "scope": "township",
+      "area": "Deep Creek",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "DeWitt Township Trustee",
+      "scope": "township",
+      "area": "DeWitt",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "DeWitt Township Clerk",
+      "scope": "township",
+      "area": "DeWitt",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Eden Township Trustee",
+      "scope": "township",
+      "area": "Eden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Danny Nielsen",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Eden Township Clerk",
+      "scope": "township",
+      "area": "Eden",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Connie S. Beer",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Elk River Township Trustee",
+      "scope": "township",
+      "area": "Elk River",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Elk River Township Clerk - To Fill Vacancy",
+      "scope": "township",
+      "area": "Elk River",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Grant Township Trustee",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Chris Green",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Grant Township Clerk",
+      "scope": "township",
+      "area": "Grant",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "William Clark",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Hampshire Township Trustee",
+      "scope": "township",
+      "area": "Hampshire",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Hampshire Township Clerk",
+      "scope": "township",
+      "area": "Hampshire",
+      "seats": 1,
+      "candidates": [
+        {
+          "name": "Charles Corr",
+          "party": null
+        }
+      ]
+    },
+    {
+      "office": "Liberty Township Trustee",
+      "scope": "township",
+      "area": "Liberty",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Liberty Township Clerk",
+      "scope": "township",
+      "area": "Liberty",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Olive Township Trustee",
+      "scope": "township",
+      "area": "Olive",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Olive Township Clerk",
+      "scope": "township",
+      "area": "Olive",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Orange Township Trustee",
+      "scope": "township",
+      "area": "Orange",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Orange Township Clerk",
+      "scope": "township",
+      "area": "Orange",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Sharon Township Trustee",
+      "scope": "township",
+      "area": "Sharon",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Sharon Township Clerk",
+      "scope": "township",
+      "area": "Sharon",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Spring Rock Township Trustee",
+      "scope": "township",
+      "area": "Spring Rock",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Spring Rock Township Clerk",
+      "scope": "township",
+      "area": "Spring Rock",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Washington Township Trustee",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Washington Township Clerk",
+      "scope": "township",
+      "area": "Washington",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Waterford Township Trustee",
+      "scope": "township",
+      "area": "Waterford",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Waterford Township Clerk",
+      "scope": "township",
+      "area": "Waterford",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Welton Township Trustee",
+      "scope": "township",
+      "area": "Welton",
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "office": "Welton Township Clerk",
+      "scope": "township",
+      "area": "Welton",
+      "seats": 1,
+      "candidates": []
+    }
+  ],
+  "measures": [
+    {
+      "name": "Public Measure FC - Central DeWitt Community School District General Obligation Bonds",
+      "jurisdiction": "Central DeWitt Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the Central DeWitt Community School District in the County of Clinton, State of Iowa, be authorized to contract indebtedness and issue General Obligation Bonds in an amount not to exceed $33,700,000 to provide funds to build, furnish, and equip an addition to the main campus building, including a secure entrance, high school academic wing, and site improvements; and to remodel, repair, improve, and equip the main campus building to serve all students, including educational and administrative spaces, and HVAC, plumbing, roofing, and accessibility improvements, including parking and site improvements?"
+    },
+    {
+      "name": "Public Measure NC - Kirkwood Community College General Obligation Bonds",
+      "jurisdiction": "Kirkwood Community College (Merged Area X)",
+      "ballotLanguage": "Shall Kirkwood Community College (Merged Area X) in the Counties of Benton, Black Hawk, Buchanan, Cedar, Clinton, Delaware, Dubuque, Iowa, Jackson, Jefferson, Johnson, Jones, Keokuk, Linn, Louisa, Poweshiek, Tama, and Washington, be authorized to renovate, improve, erect, and equip facilities to modernize learning spaces with an emphasis on health sciences, industrial technologies, agricultural sciences, and business and information technology, contract indebtedness therefor, and issue General Obligation Bonds in an amount not exceeding $88,000,000 for those purposes?"
+    },
+    {
+      "name": "Public Measure LJ - Easton Valley Community School District General Obligation Bonds",
+      "jurisdiction": "Easton Valley Community School District",
+      "ballotLanguage": "Shall the Board of Directors of the Easton Valley Community School District, in the Counties of Clinton and Jackson, State of Iowa, be authorized to contract indebtedness and issue general obligation bonds in an amount not exceeding $7,500,000 for the purposes of acquiring, furnishing, equipping, constructing, and improving the School District's school buildings to include a new gymnasium and new locker room facilities that include a FEMA-rated storm shelter, performing arts upgrades to the existing gym, ADA updates, and other related building, site and land improvements?"
+    }
+  ],
+  "notes": "Read in a real browser from the official Public Notice of General Election (signed by Auditor David Troester) on elections.clintoncounty-ia.gov; 55 precinct sample ballot PDFs are also posted. Supervisors elected at large, vote for two. Township trustee/clerk offices for Brookfield, Deep Creek, DeWitt, Elk River, Liberty, Olive, Orange, Sharon, Spring Rock, Washington, Waterford and Welton Townships, plus Hampshire Township Trustee, have no printed candidates (write-in only); the notice says vote for no more than one for each township office. Elk River Township Clerk is to fill a vacancy (the notice does not list a separate full-term Elk River clerk). Public measures: Central DeWitt CSD (FC), Kirkwood Community College (NC; Sharon Township - Kirkwood ballot style) and Easton Valley CSD (LJ)."
+}
