@@ -44,6 +44,7 @@ AdobeStock_*
 # generated at build time by scripts/build-seo-pages.mjs
 public/michigan/
 public/indiana/
+public/wisconsin/
 public/sitemap.xml
 
 .ghl-env
