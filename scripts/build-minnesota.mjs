@@ -70,7 +70,7 @@ const officeTitle = c => {
   if (/^U\.S\. Representative District/.test(c.name)) return `United States Representative, District ${c.district}`
   if (/^State Senator District/.test(c.name)) return `State Senator, District ${c.district}`
   if (/^State Representative District/.test(c.name)) return `State Representative, District ${c.district}`
-  return c.name.replace(/^U\.S\. Senator$/, 'United States Senator').replace(' & ', ' and ')
+  return c.name.replace(/^U\.S\. Senator$/, 'United States Senator').replace(' & ', ' and ').replace('Lt Governor', 'Lieutenant Governor')
 }
 function candidatesOf(c, office) {
   return c.candidates.map(x => {
