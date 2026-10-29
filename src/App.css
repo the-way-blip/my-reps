@@ -14171,3 +14171,4 @@ html[data-text] .ballot-incumbent-tag { font-size: 0.8rem !important; }
   /* Sit the ballot progress bar above the fixed bottom nav instead of on top of it */
   .ballot-sticky-bar { bottom: calc(59px + env(safe-area-inset-bottom, 0px)); }
 }
+.ballot-save-fields .ballot-save-secondary { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
