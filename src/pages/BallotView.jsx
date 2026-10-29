@@ -59,13 +59,13 @@ function SaveBallotCard({ address }) {
   return (
     <form className="ballot-save-card" onSubmit={submit}>
       <div className="ballot-save-text">
-        <strong>Keep this ballot &amp; get election-week reminders</strong>
-        <span>We&apos;ll email your plan link plus the early-voting and Election Day reminders. No account needed.</span>
+        <strong>Stay connected</strong>
+        <span>Add your email to stay connected with Of For &amp; By The People. No account needed.</span>
       </div>
       <div className="ballot-save-fields">
         <input type="text" placeholder="First name (optional)" value={name} onChange={e => setName(e.target.value)} aria-label="First name" />
         <input type="email" placeholder="you@example.com" value={email} onChange={e => setEmail(e.target.value)} aria-label="Email address" required />
-        <button type="submit" disabled={state === 'busy'}>{state === 'busy' ? 'Saving…' : 'Save my ballot'}</button>
+        <button type="submit" disabled={state === 'busy'}>{state === 'busy' ? 'Saving…' : 'Stay connected'}</button>
       </div>
       {state === 'error' && <p className="ballot-save-error">Please enter a valid email address.</p>}
       <p className="ballot-save-fine">Independent &amp; personally funded · no party or candidate ties · unsubscribe any time.</p>
@@ -103,7 +103,7 @@ function PdfGateModal({ address, onDone, onClose }) {
       <form ref={ref} className="pdf-gate" role="dialog" aria-modal="true" aria-labelledby="pdf-gate-title" onSubmit={submit} onClick={e => e.stopPropagation()}>
         <button type="button" className="pdf-gate-close" onClick={onClose} aria-label="Close">×</button>
         <h3 id="pdf-gate-title">Get your printable ballot</h3>
-        <p>Enter your email and your PDF downloads right away. We&apos;ll also send early-voting and Election Day reminders.</p>
+        <p>Enter your email and your PDF downloads right away.</p>
         <input type="email" placeholder="you@example.com" value={email} onChange={e => setEmail(e.target.value)} aria-label="Email address" autoFocus required />
         <input type="text" placeholder="First name (optional)" value={name} onChange={e => setName(e.target.value)} aria-label="First name" />
         {state === 'error' && <p className="ballot-save-error">Please enter a valid email address.</p>}
