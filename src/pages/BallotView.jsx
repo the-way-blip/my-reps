@@ -1754,7 +1754,9 @@ export default function BallotView() {
               </svg>
               <span>
                 {stateInfo.localNote}{' '}
-                <a href={stateInfo.localNoteUrl} target="_blank" rel="noopener noreferrer">{stateInfo.localNoteLabel || 'Find your county auditor'}</a>
+                {stateBallot.sampleBallotUrl
+                  ? <a href={stateBallot.sampleBallotUrl} target="_blank" rel="noopener noreferrer">{stateInfo.sampleBallotLabel || 'See your county\'s official sample ballot'}</a>
+                  : <a href={stateInfo.localNoteUrl} target="_blank" rel="noopener noreferrer">{stateInfo.localNoteLabel || 'Find your county auditor'}</a>}
               </span>
             </div>
           )}

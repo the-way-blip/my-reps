@@ -146,6 +146,33 @@ export const STATE_VOTING_INFO = {
       polling: "Ohio polls are open 6:30 AM – 7:30 PM. If you're in line by 7:30 PM, you will be allowed to vote. Check your county board of elections for the absentee return deadline.",
     },
   },
+  KY: {
+    code: 'KY',
+    name: 'Kentucky',
+    sourceName: 'Kentucky Secretary of State',
+    voterSite: 'https://vrsws.sos.ky.gov/ovrweb/govoteky',
+    voterSiteName: 'GoVoteKY',
+    registerUrl: 'https://vrsws.sos.ky.gov/ovrweb/govoteky',
+    absenteeUrl: 'https://elect.ky.gov/Voters/Pages/Absentee-Voting-By-Mail.aspx',
+    sameDayRegistration: false,
+    electionDayText: 'Polls are open 6 a.m. – 6 p.m. local time. Bring a photo ID.',
+    localNote: "County offices (judge/executive, clerk, sheriff, magistrate), city and school board races aren't listed here yet — see your county's official sample ballot.",
+    localNoteUrl: 'https://web.sos.ky.gov/electionballots/',
+    localNoteLabel: 'Find your county\'s sample ballot',
+    sampleBallotLabel: "See your county's official sample ballot",
+    deadlines: [
+      { date: '2026-10-05T12:00:00', label: 'Voter registration deadline', action: 'Check registration', href: 'https://vrsws.sos.ky.gov/ovrweb/govoteky' },
+      { date: '2026-10-20T12:00:00', label: 'Mail-in absentee ballot request deadline', action: 'Absentee info', href: 'https://elect.ky.gov/Voters/Pages/Absentee-Voting-By-Mail.aspx' },
+      { date: '2026-10-29T12:00:00', label: 'No-excuse early in-person voting begins (Oct 29–31)', action: 'Where to vote', href: 'https://vrsws.sos.ky.gov/vic/' },
+      { date: '2026-10-31T12:00:00', label: 'Last day of early in-person voting', action: 'Where to vote', href: 'https://vrsws.sos.ky.gov/vic/' },
+      { date: '2026-11-03T12:00:00', label: 'General Election Day', action: 'Find your polling place', href: 'https://vrsws.sos.ky.gov/vic/' },
+    ],
+    checklist: {
+      id: "Kentucky asks for a photo ID to vote, such as a Kentucky driver's license or state ID card, U.S. passport, or military ID. If you don't have one, ask your poll worker about the other ways to verify your identity.",
+      registration: 'Kentucky voter registration closed October 5. Confirm your registration and polling place on GoVoteKY.',
+      polling: "Kentucky polls are open 6:00 AM – 6:00 PM local time. If you're in line by 6 PM, you will be allowed to vote. Mail-in absentee ballots must arrive at your county clerk by 6 PM on Election Day.",
+    },
+  },
 }
 
 export const getStateVotingInfo = code => STATE_VOTING_INFO[code] || STATE_VOTING_INFO.MI

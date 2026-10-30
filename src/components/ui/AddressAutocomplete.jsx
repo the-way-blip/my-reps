@@ -5,7 +5,7 @@ import { enabledStateCodes } from '../../data/stateBallot'
  * Fetch address suggestions from Nominatim (OpenStreetMap) — free, no API key.
  * Limited to the states the app has ballots for on this host.
  */
-const STATE_NAMES = { MI: 'Michigan', IN: 'Indiana', IA: 'Iowa', WI: 'Wisconsin', MN: 'Minnesota', OH: 'Ohio' }
+const STATE_NAMES = { MI: 'Michigan', IN: 'Indiana', IA: 'Iowa', WI: 'Wisconsin', MN: 'Minnesota', OH: 'Ohio', KY: 'Kentucky' }
 const supportedIso = () => enabledStateCodes().map(c => `US-${c}`)
 
 async function fetchSuggestions(query) {
@@ -17,8 +17,8 @@ async function fetchSuggestions(query) {
       countrycodes: 'us',
       limit: '10',
       addressdetails: '1',
-      // Box around Michigan, Indiana, Iowa, Wisconsin, Minnesota and Ohio (lon/lat); results outside enabled states are filtered below
-      viewbox: '-97.3,49.4,-80.4,37.7',
+      // Box around Michigan, Indiana, Iowa, Wisconsin, Minnesota, Ohio and Kentucky (lon/lat); results outside enabled states are filtered below
+      viewbox: '-97.3,49.4,-80.4,36.4',
       bounded: '1',
     })
     const res = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, {

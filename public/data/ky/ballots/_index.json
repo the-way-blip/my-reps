@@ -1,0 +1,1204 @@
+{
+ "counties": [
+  {
+   "county": "Adair",
+   "slug": "adair",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 29,
+   "judicialDistrict": 29,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Allen",
+   "slug": "allen",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 49,
+   "judicialDistrict": 49,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Anderson",
+   "slug": "anderson",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 53,
+   "judicialDistrict": 53,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Ballard",
+   "slug": "ballard",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 1,
+   "judicialDistrict": 1,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Barren",
+   "slug": "barren",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 43,
+   "judicialDistrict": 43,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Bath",
+   "slug": "bath",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 21,
+   "judicialDistrict": 21,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Bell",
+   "slug": "bell",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 44,
+   "judicialDistrict": 44,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Boone",
+   "slug": "boone",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 54,
+   "judicialDistrict": 54,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Bourbon",
+   "slug": "bourbon",
+   "supremeDistrict": 5,
+   "appellateDistrict": 5,
+   "circuit": 14,
+   "judicialDistrict": 14,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Boyd",
+   "slug": "boyd",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 32,
+   "judicialDistrict": 32,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Boyle",
+   "slug": "boyle",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 50,
+   "judicialDistrict": 50,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Bracken",
+   "slug": "bracken",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 19,
+   "judicialDistrict": 19,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Breathitt",
+   "slug": "breathitt",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 39,
+   "judicialDistrict": 39,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Breckinridge",
+   "slug": "breckinridge",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 46,
+   "judicialDistrict": 46,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Bullitt",
+   "slug": "bullitt",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 55,
+   "judicialDistrict": 55,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Butler",
+   "slug": "butler",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 38,
+   "judicialDistrict": 38,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Caldwell",
+   "slug": "caldwell",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 56,
+   "judicialDistrict": 56,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Calloway",
+   "slug": "calloway",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 42,
+   "judicialDistrict": 42,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Campbell",
+   "slug": "campbell",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 17,
+   "judicialDistrict": 17,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Carlisle",
+   "slug": "carlisle",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 1,
+   "judicialDistrict": 1,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Carroll",
+   "slug": "carroll",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 15,
+   "judicialDistrict": 15,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Carter",
+   "slug": "carter",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 37,
+   "judicialDistrict": 37,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Casey",
+   "slug": "casey",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 29,
+   "judicialDistrict": 29,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Christian",
+   "slug": "christian",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 3,
+   "judicialDistrict": 3,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Clark",
+   "slug": "clark",
+   "supremeDistrict": 5,
+   "appellateDistrict": 5,
+   "circuit": 25,
+   "judicialDistrict": 25,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Clay",
+   "slug": "clay",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 41,
+   "judicialDistrict": 41,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Clinton",
+   "slug": "clinton",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 40,
+   "judicialDistrict": 40,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Crittenden",
+   "slug": "crittenden",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 5,
+   "judicialDistrict": 5,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Cumberland",
+   "slug": "cumberland",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 40,
+   "judicialDistrict": 59,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Daviess",
+   "slug": "daviess",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 6,
+   "judicialDistrict": 6,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Edmonson",
+   "slug": "edmonson",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 8,
+   "judicialDistrict": 38,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Elliott",
+   "slug": "elliott",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 37,
+   "judicialDistrict": 37,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Estill",
+   "slug": "estill",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 23,
+   "judicialDistrict": 23,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Fayette",
+   "slug": "fayette",
+   "supremeDistrict": 5,
+   "appellateDistrict": 5,
+   "circuit": 22,
+   "judicialDistrict": 22,
+   "races": 6,
+   "referendums": 1
+  },
+  {
+   "county": "Fleming",
+   "slug": "fleming",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 19,
+   "judicialDistrict": 19,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Floyd",
+   "slug": "floyd",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 31,
+   "judicialDistrict": 31,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Franklin",
+   "slug": "franklin",
+   "supremeDistrict": 5,
+   "appellateDistrict": 5,
+   "circuit": 48,
+   "judicialDistrict": 48,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Fulton",
+   "slug": "fulton",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 1,
+   "judicialDistrict": 1,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Gallatin",
+   "slug": "gallatin",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 54,
+   "judicialDistrict": 54,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Garrard",
+   "slug": "garrard",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 13,
+   "judicialDistrict": 13,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Grant",
+   "slug": "grant",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 15,
+   "judicialDistrict": 15,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Graves",
+   "slug": "graves",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 52,
+   "judicialDistrict": 52,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Grayson",
+   "slug": "grayson",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 46,
+   "judicialDistrict": 46,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Green",
+   "slug": "green",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 11,
+   "judicialDistrict": 11,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Greenup",
+   "slug": "greenup",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 20,
+   "judicialDistrict": 20,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Hancock",
+   "slug": "hancock",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 38,
+   "judicialDistrict": 38,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Hardin",
+   "slug": "hardin",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 9,
+   "judicialDistrict": 9,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Harlan",
+   "slug": "harlan",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 26,
+   "judicialDistrict": 26,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Harrison",
+   "slug": "harrison",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 18,
+   "judicialDistrict": 18,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Hart",
+   "slug": "hart",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 10,
+   "judicialDistrict": 10,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Henderson",
+   "slug": "henderson",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 51,
+   "judicialDistrict": 51,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Henry",
+   "slug": "henry",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 12,
+   "judicialDistrict": 12,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Hickman",
+   "slug": "hickman",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 1,
+   "judicialDistrict": 1,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Hopkins",
+   "slug": "hopkins",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 4,
+   "judicialDistrict": 4,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Jackson",
+   "slug": "jackson",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 41,
+   "judicialDistrict": 41,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Jefferson",
+   "slug": "jefferson",
+   "supremeDistrict": 4,
+   "appellateDistrict": 4,
+   "circuit": 30,
+   "judicialDistrict": 30,
+   "races": 15,
+   "referendums": 1
+  },
+  {
+   "county": "Jessamine",
+   "slug": "jessamine",
+   "supremeDistrict": 5,
+   "appellateDistrict": 5,
+   "circuit": 13,
+   "judicialDistrict": 13,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Johnson",
+   "slug": "johnson",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 24,
+   "judicialDistrict": 24,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Kenton",
+   "slug": "kenton",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 16,
+   "judicialDistrict": 16,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Knott",
+   "slug": "knott",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 36,
+   "judicialDistrict": 36,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Knox",
+   "slug": "knox",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 27,
+   "judicialDistrict": 27,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Larue",
+   "slug": "larue",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 10,
+   "judicialDistrict": 10,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Laurel",
+   "slug": "laurel",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 27,
+   "judicialDistrict": 27,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Lawrence",
+   "slug": "lawrence",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 24,
+   "judicialDistrict": 24,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Lee",
+   "slug": "lee",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 23,
+   "judicialDistrict": 23,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Leslie",
+   "slug": "leslie",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 41,
+   "judicialDistrict": 41,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Letcher",
+   "slug": "letcher",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 47,
+   "judicialDistrict": 47,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Lewis",
+   "slug": "lewis",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 20,
+   "judicialDistrict": 20,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Lincoln",
+   "slug": "lincoln",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 28,
+   "judicialDistrict": 13,
+   "races": 5,
+   "referendums": 1
+  },
+  {
+   "county": "Livingston",
+   "slug": "livingston",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 56,
+   "judicialDistrict": 56,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Logan",
+   "slug": "logan",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 7,
+   "judicialDistrict": 7,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Lyon",
+   "slug": "lyon",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 56,
+   "judicialDistrict": 56,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Madison",
+   "slug": "madison",
+   "supremeDistrict": 5,
+   "appellateDistrict": 5,
+   "circuit": 25,
+   "judicialDistrict": 25,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Magoffin",
+   "slug": "magoffin",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 36,
+   "judicialDistrict": 36,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Marion",
+   "slug": "marion",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 11,
+   "judicialDistrict": 11,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Marshall",
+   "slug": "marshall",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 42,
+   "judicialDistrict": 58,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Martin",
+   "slug": "martin",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 24,
+   "judicialDistrict": 24,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Mason",
+   "slug": "mason",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 19,
+   "judicialDistrict": 19,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "McCracken",
+   "slug": "mccracken",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 2,
+   "judicialDistrict": 2,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "McCreary",
+   "slug": "mccreary",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 34,
+   "judicialDistrict": 34,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "McLean",
+   "slug": "mclean",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 45,
+   "judicialDistrict": 45,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Meade",
+   "slug": "meade",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 46,
+   "judicialDistrict": 46,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Menifee",
+   "slug": "menifee",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 21,
+   "judicialDistrict": 21,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Mercer",
+   "slug": "mercer",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 50,
+   "judicialDistrict": 50,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Metcalfe",
+   "slug": "metcalfe",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 43,
+   "judicialDistrict": 43,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Monroe",
+   "slug": "monroe",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 40,
+   "judicialDistrict": 59,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Montgomery",
+   "slug": "montgomery",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 21,
+   "judicialDistrict": 21,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Morgan",
+   "slug": "morgan",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 37,
+   "judicialDistrict": 37,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Muhlenberg",
+   "slug": "muhlenberg",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 45,
+   "judicialDistrict": 45,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Nelson",
+   "slug": "nelson",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 10,
+   "judicialDistrict": 57,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Nicholas",
+   "slug": "nicholas",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 18,
+   "judicialDistrict": 18,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Ohio",
+   "slug": "ohio",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 38,
+   "judicialDistrict": 38,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Oldham",
+   "slug": "oldham",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 12,
+   "judicialDistrict": 12,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Owen",
+   "slug": "owen",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 15,
+   "judicialDistrict": 15,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Owsley",
+   "slug": "owsley",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 23,
+   "judicialDistrict": 23,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Pendleton",
+   "slug": "pendleton",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 18,
+   "judicialDistrict": 18,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Perry",
+   "slug": "perry",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 33,
+   "judicialDistrict": 33,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Pike",
+   "slug": "pike",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 35,
+   "judicialDistrict": 35,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Powell",
+   "slug": "powell",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 39,
+   "judicialDistrict": 39,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Pulaski",
+   "slug": "pulaski",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 28,
+   "judicialDistrict": 28,
+   "races": 5,
+   "referendums": 1
+  },
+  {
+   "county": "Robertson",
+   "slug": "robertson",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 18,
+   "judicialDistrict": 18,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Rockcastle",
+   "slug": "rockcastle",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 28,
+   "judicialDistrict": 28,
+   "races": 5,
+   "referendums": 1
+  },
+  {
+   "county": "Rowan",
+   "slug": "rowan",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 21,
+   "judicialDistrict": 21,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Russell",
+   "slug": "russell",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 57,
+   "judicialDistrict": 40,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Scott",
+   "slug": "scott",
+   "supremeDistrict": 5,
+   "appellateDistrict": 5,
+   "circuit": 14,
+   "judicialDistrict": 14,
+   "races": 3,
+   "referendums": 1
+  },
+  {
+   "county": "Shelby",
+   "slug": "shelby",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 53,
+   "judicialDistrict": 53,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Simpson",
+   "slug": "simpson",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 49,
+   "judicialDistrict": 49,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Spencer",
+   "slug": "spencer",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 53,
+   "judicialDistrict": 53,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Taylor",
+   "slug": "taylor",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 11,
+   "judicialDistrict": 11,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Todd",
+   "slug": "todd",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 7,
+   "judicialDistrict": 7,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Trigg",
+   "slug": "trigg",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 56,
+   "judicialDistrict": 56,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Trimble",
+   "slug": "trimble",
+   "supremeDistrict": 6,
+   "appellateDistrict": 6,
+   "circuit": 12,
+   "judicialDistrict": 12,
+   "races": 2,
+   "referendums": 1
+  },
+  {
+   "county": "Union",
+   "slug": "union",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 5,
+   "judicialDistrict": 5,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Warren",
+   "slug": "warren",
+   "supremeDistrict": 2,
+   "appellateDistrict": 2,
+   "circuit": 8,
+   "judicialDistrict": 8,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Washington",
+   "slug": "washington",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 11,
+   "judicialDistrict": 11,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Wayne",
+   "slug": "wayne",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 57,
+   "judicialDistrict": 40,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Webster",
+   "slug": "webster",
+   "supremeDistrict": 1,
+   "appellateDistrict": 1,
+   "circuit": 5,
+   "judicialDistrict": 5,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Whitley",
+   "slug": "whitley",
+   "supremeDistrict": 3,
+   "appellateDistrict": 3,
+   "circuit": 34,
+   "judicialDistrict": 34,
+   "races": 4,
+   "referendums": 1
+  },
+  {
+   "county": "Wolfe",
+   "slug": "wolfe",
+   "supremeDistrict": 7,
+   "appellateDistrict": 7,
+   "circuit": 39,
+   "judicialDistrict": 39,
+   "races": 1,
+   "referendums": 1
+  },
+  {
+   "county": "Woodford",
+   "slug": "woodford",
+   "supremeDistrict": 5,
+   "appellateDistrict": 5,
+   "circuit": 14,
+   "judicialDistrict": 14,
+   "races": 3,
+   "referendums": 1
+  }
+ ]
+}
