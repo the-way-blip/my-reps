@@ -1114,7 +1114,7 @@ const RaceCard = React.memo(function RaceCard({ race, choice, onSelect, onWriteI
                       </svg>
                     </button>
                     <a
-                      href={c.grade ? `https://ballotpedia.org/${c.name.replace(/\s+/g, '_')}` : `https://ballotpedia.org/wiki/index.php?search=${encodeURIComponent(c.name + ' Michigan')}`}
+                      href={c.grade ? `https://ballotpedia.org/${c.name.replace(/\s+/g, '_')}` : `https://ballotpedia.org/wiki/index.php?search=${encodeURIComponent(`${c.name} ${stateNameForRace(race.id)}`)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ballot-candidate-source-link"
