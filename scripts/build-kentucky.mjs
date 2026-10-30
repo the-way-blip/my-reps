@@ -9,9 +9,10 @@
 //   district-judge.tsv, judicial-map.tsv (county -> Supreme Court/appellate district, circuit, judicial district),
 //   amendment-1.json (SOS 2026 Constitutional Amendments page)
 // Write-in candidates aren't printed on the ballot and are left out, as for every other state.
+// Hand-researched grades: data-raw/grades-ky/*.json (same six-value format and rules as every state, see RULES.md there).
 //   node scripts/build-kentucky.mjs
 
-import { mkdirSync, writeFileSync, readFileSync, rmSync } from 'node:fs'
+import { mkdirSync, writeFileSync, readFileSync, rmSync, existsSync, readdirSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -31,8 +32,34 @@ const PARTY = { 'Republican Party': 'republican', 'Democratic Party': 'democrati
 const party = p => (p in PARTY ? PARTY[p] : p || null)
 const ord = n => { const v = n % 100; return n + (['th', 'st', 'nd', 'rd'][(v - 20) % 10] || ['th', 'st', 'nd', 'rd'][v] || 'th') }
 
+// ── grades (later files win) ──
+const GRADES_DIR = path.join(ROOT, 'data-raw/grades-ky')
+const nameKey = n => String(n).toLowerCase().replace(/\(.*?\)/g, ' ').replace(/[^a-z ]+/g, ' ').replace(/\b(jr|sr|ii|iii)\b/g, ' ').trim().split(/\s+/).filter(Boolean)
+const gradeMap = new Map()
+if (existsSync(GRADES_DIR)) {
+  for (const f of readdirSync(GRADES_DIR).filter(f => f.endsWith('.json') && !f.startsWith('_')).sort()) {
+    for (const g of JSON.parse(readFileSync(path.join(GRADES_DIR, f), 'utf8'))) {
+      const k = nameKey(g.name)
+      gradeMap.set(`${k[0]}|${k.at(-1)}|${String(g.office || '').toLowerCase()}`, g)
+    }
+  }
+}
+const valid = v => /^[A-F]$/.test(v || '')
+let graded = 0
+function gradeFor(name, office) {
+  const k = nameKey(name)
+  const g = gradeMap.get(`${k[0]}|${k.at(-1)}|${office.toLowerCase()}`)
+  if (!g) return {}
+  if (valid(g.grade)) graded++
+  return {
+    ...(valid(g.grade) ? { grade: g.grade } : {}), ...(g.gradeNote ? { gradeNote: g.gradeNote } : {}),
+    ...(g.positions && Object.values(g.positions).some(valid) ? { positions: g.positions, gradeJustifications: g.gradeJustifications || {} } : {}),
+    ...(g.description ? { description: g.description } : {}), ...(g.website ? { website: g.website } : {}), ...(g.sources?.length ? { sources: g.sources } : {}),
+  }
+}
+
 function race({ id, office, category, level, scope, district, type, order, rows }) {
-  const candidates = rows.map(r => ({ name: r.name, party: party(r.party), status: 'candidate' }))
+  const candidates = rows.map(r => ({ name: r.name, party: party(r.party), status: 'candidate', ...gradeFor(r.name, office) }))
   return {
     id, office, category, level, scope, ...(district != null ? { district } : {}), seats: 1, type,
     description: candidates.length === 1 ? 'Unopposed.' : '', ballotOrder: order, candidates,
@@ -106,4 +133,4 @@ for (const c of map) {
 }
 writeFileSync(path.join(OUT, '_index.json'), JSON.stringify({ counties: index }, null, 1))
 const n = races.reduce((a, r) => a + r.candidates.length, 0)
-console.log(`Kentucky: ${races.length} statewide/district races (${n} candidates), ${placed.length} judicial/prosecutor races placed by county (${placed.reduce((a, p) => a + p.candidates, 0)} candidates), Amendment 1, ${map.length} counties`)
+console.log(`Kentucky: ${races.length} statewide/district races (${n} candidates, ${graded} graded), ${placed.length} judicial/prosecutor races placed by county (${placed.reduce((a, p) => a + p.candidates, 0)} candidates), Amendment 1, ${map.length} counties`)

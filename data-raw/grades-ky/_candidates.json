@@ -1,0 +1,1202 @@
+[
+ {
+  "office": "United States Senator",
+  "name": "Andy Barr",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "United States Senator",
+  "name": "Charles Booker",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "United States Senator",
+  "name": "Christopher Campbell",
+  "party": "Kentucky Party",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 1",
+  "name": "John \"Drew\" Williams",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 1",
+  "name": "James R. Comer",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 2",
+  "name": "Megan Wingfield",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 2",
+  "name": "S. Brett Guthrie",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 2",
+  "name": "Thomas A. Loecken",
+  "party": "independent",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 3",
+  "name": "Morgan McGarvey",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 3",
+  "name": "Maria Teresa Rodriguez",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 4",
+  "name": "Melissa Claire Strange",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 4",
+  "name": "Ed Gallrein",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 4",
+  "name": "Jeremy Todd",
+  "party": "Libertarian",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 5",
+  "name": "Hal Rogers",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 5",
+  "name": "Ned Pillersdorf",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 5",
+  "name": "Gerardo Serrano",
+  "party": "independent",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 5",
+  "name": "Mikel Wein",
+  "party": "independent",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 6",
+  "name": "Ralph Alvarado",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 6",
+  "name": "Zach Dembo",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 6",
+  "name": "Jay J Bowman",
+  "party": "independent",
+  "unopposed": false
+ },
+ {
+  "office": "United States Representative, District 6",
+  "name": "Pete Lynch",
+  "party": "Kentucky Party",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 2",
+  "name": "Danny Carroll",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Senator, District 4",
+  "name": "Robert M. \"Robby\" Mills",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Senator, District 6",
+  "name": "Lindsey Tichenor",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 6",
+  "name": "Christian Furman",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 8",
+  "name": "Gary M. Boswell",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 8",
+  "name": "Vicki Quisenberry",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 10",
+  "name": "Matt Deneen",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 10",
+  "name": "Christopher Gatrost",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 12",
+  "name": "Amanda Mays Bledsoe",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Senator, District 14",
+  "name": "Ben Mudd",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 14",
+  "name": "Carrie Gribbins Truitt",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 16",
+  "name": "George Maxwell \"Max\" Wise",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Senator, District 18",
+  "name": "Robin L. Webb",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Senator, District 20",
+  "name": "Stella R. Pollard",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 20",
+  "name": "Gex \"jay\" Williams",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 22",
+  "name": "Donald R. Douglas",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Senator, District 24",
+  "name": "Shelley \"Funke\" Frommeyer",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 24",
+  "name": "Joshua Baker",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 26",
+  "name": "Karen A. Berg",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 26",
+  "name": "Everett C. Corley",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 28",
+  "name": "Greg Elkins",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Senator, District 30",
+  "name": "Brandon D. Smith",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Senator, District 32",
+  "name": "Mike Wilson",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Senator, District 34",
+  "name": "Jared K. Carpenter",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 34",
+  "name": "Jessica D. McIntosh",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 36",
+  "name": "Julie Raque Adams",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 36",
+  "name": "Sarah Cole McIntosh",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Senator, District 38",
+  "name": "Mike Nemes",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 1",
+  "name": "Steven Jack Rudy",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 2",
+  "name": "Kim Holloway",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 3",
+  "name": "Randy Bridges",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 3",
+  "name": "Michael McVicker",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 4",
+  "name": "D. Wade Williams",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 5",
+  "name": "Mary Beth Imes",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 6",
+  "name": "Chris Freeland",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 7",
+  "name": "Laurie C. Campbell",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 7",
+  "name": "Suzanne Miles",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 8",
+  "name": "Walker Wood Thomas",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 9",
+  "name": "Myron B. Dossett",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 10",
+  "name": "Josh Calloway",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 10",
+  "name": "John B. Whipple",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 11",
+  "name": "J. T. Payne",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 11",
+  "name": "Janelle Rowena Glass",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 12",
+  "name": "Jim Gooch Jr.",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 13",
+  "name": "D. J. Johnson",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 13",
+  "name": "Rhondalyn Randolph",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 14",
+  "name": "Wes Pate",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 14",
+  "name": "Donna Haynes",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 15",
+  "name": "Rebecca Raymer",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 15",
+  "name": "Chris Waddell",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 16",
+  "name": "Jason Petrie",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 17",
+  "name": "Robert B. Duvall",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 18",
+  "name": "Samara Heavrin",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 19",
+  "name": "Michael Lee Meredith",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 20",
+  "name": "Kevin Jackson",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 21",
+  "name": "Amy Neighbors",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 22",
+  "name": "Shawn McPherson",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 23",
+  "name": "Steve Riley",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 24",
+  "name": "Ryan Dale Bivens",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 24",
+  "name": "Johnny Pennington",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 25",
+  "name": "Cherlyn Evette Smith",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 25",
+  "name": "Steve Bratcher",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 26",
+  "name": "Peyton Griffee",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 27",
+  "name": "Joseph Redmon",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 27",
+  "name": "Susan C. Doman",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 28",
+  "name": "Almaria Baker",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 28",
+  "name": "Jared A. Bauman",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 29",
+  "name": "Chris Lewis",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 29",
+  "name": "Cassie Blausey",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 30",
+  "name": "Mitra Subedi",
+  "party": "democratic",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 31",
+  "name": "Susan Tyler Witten",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 31",
+  "name": "Tim Hall",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 32",
+  "name": "Tina Bojanowski",
+  "party": "democratic",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 33",
+  "name": "Jason Michael Nemes",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 33",
+  "name": "Jennifer Hardin",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 34",
+  "name": "Sarah Stalker",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 34",
+  "name": "Victoria Ligon",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 35",
+  "name": "Lisa Willner",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 35",
+  "name": "Bret Shultz",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 36",
+  "name": "John F. Hodgson",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 36",
+  "name": "William \"Woody\" Zorn",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 37",
+  "name": "Emily Myers Callaway",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 38",
+  "name": "Carrie Sanders McKeehan",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 38",
+  "name": "Rachel Roarx",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 39",
+  "name": "Matt Lockett",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 39",
+  "name": "Ryan Stanford",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 40",
+  "name": "Nima Kulkarni",
+  "party": "democratic",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 41",
+  "name": "Mary Lou Marzian",
+  "party": "democratic",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 42",
+  "name": "Joshua Watkins",
+  "party": "democratic",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 43",
+  "name": "Robert LeVertis Bell",
+  "party": "democratic",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 44",
+  "name": "Kenya Wade",
+  "party": "democratic",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 45",
+  "name": "Adam Moore",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 45",
+  "name": "Killian Timoney",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 46",
+  "name": "Al Gentry",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 46",
+  "name": "Brad Woolridge",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 47",
+  "name": "Felicia Rabourn",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 48",
+  "name": "Ken Fleming",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 48",
+  "name": "Suhas Kulkarni",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 49",
+  "name": "Thomas Huff",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 50",
+  "name": "J. D. Netherton",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 50",
+  "name": "Candy Massaroni",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 51",
+  "name": "Michael \"Sarge\" Pollock",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 52",
+  "name": "Kevin G. Jones",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 53",
+  "name": "James Allen Tipton",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 54",
+  "name": "Daniel B. Elliott",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 55",
+  "name": "Kim King",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 55",
+  "name": "Katrina A. Sexton",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 56",
+  "name": "Daniel A. Fister",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 56",
+  "name": "David Graves",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 57",
+  "name": "Erika Hancock",
+  "party": "democratic",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 58",
+  "name": "Andrew Thomas Monarch",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 58",
+  "name": "Jennifer Henson Decker",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 59",
+  "name": "David W. Osborne",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 59",
+  "name": "Stephanie White",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 60",
+  "name": "Marianne Proctor",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 60",
+  "name": "Tracey Reid",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 61",
+  "name": "Savannah Maddox",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 62",
+  "name": "Tony Hampton",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 62",
+  "name": "Randy Jackson Simpkins",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 63",
+  "name": "Cole Cuzick",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 64",
+  "name": "William Nick Whalen",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 64",
+  "name": "Kimberly Poore Moser",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 65",
+  "name": "Stephanie A. Dietz",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 65",
+  "name": "Aaron John Currin",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 66",
+  "name": "T. J. Roberts",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 66",
+  "name": "Jason Ellis",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 67",
+  "name": "Matthew Lehman",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 67",
+  "name": "Terry Hatton",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 68",
+  "name": "Mike Clines",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 68",
+  "name": "Amy Amin",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 69",
+  "name": "Wilanne Stangel",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 69",
+  "name": "Steven Doan",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 70",
+  "name": "Mike Fisher",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 70",
+  "name": "Charlotte Harris",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 71",
+  "name": "Josh Bray",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 72",
+  "name": "Matthew R. Koch",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 73",
+  "name": "Daniel Konstantopoulos",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 73",
+  "name": "Chelsea Kirk",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 74",
+  "name": "David F. Charles",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 75",
+  "name": "Jeff Forsyth",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 75",
+  "name": "Lindsey Burke",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 75",
+  "name": "Geoffrey M. \"Geoff\" Young",
+  "party": "Kentucky Party",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 76",
+  "name": "Avram Phoenix Hicks",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 76",
+  "name": "Anne Gay Donworth",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 77",
+  "name": "George A. Brown Jr.",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 77",
+  "name": "Jason Griffith",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 78",
+  "name": "Mark Hart",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 79",
+  "name": "Chad R. Aull",
+  "party": "democratic",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 80",
+  "name": "David Meade",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 80",
+  "name": "Mary Russell",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 81",
+  "name": "Anthony Looney",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 81",
+  "name": "Deanna Frazier Gordon",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 82",
+  "name": "Nick Wilson",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 83",
+  "name": "Joshua Branscum",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 84",
+  "name": "Chris Fugate",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 85",
+  "name": "R. Shane Baker",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 86",
+  "name": "Tom O'Dell Smith",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 87",
+  "name": "Adam Bowling",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 88",
+  "name": "Vanessa Grossl",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 88",
+  "name": "L. Scott Miller",
+  "party": "independent",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 89",
+  "name": "Timmy Truett",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 90",
+  "name": "Derek Lewis",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 91",
+  "name": "Darrell Billings",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 91",
+  "name": "David Johnson",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 92",
+  "name": "John Blanton",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 93",
+  "name": "Hannah Beth Rivera",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 93",
+  "name": "Adrielle Camuel",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 94",
+  "name": "Mitchum Addison Whitaker",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 95",
+  "name": "Tanner Hesterberg",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 95",
+  "name": "Johnny Ray Turner",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 96",
+  "name": "Patrick Flannery",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 96",
+  "name": "Pamela Lewis",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 97",
+  "name": "Rebekah D. Skaggs",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 97",
+  "name": "Bobby W. McCool",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 98",
+  "name": "Aaron Thompson",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "State Representative, District 99",
+  "name": "Richard Lee White",
+  "party": "republican",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 99",
+  "name": "Iva Markicevic Daley",
+  "party": "democratic",
+  "unopposed": false
+ },
+ {
+  "office": "State Representative, District 100",
+  "name": "Scott Sharp",
+  "party": "republican",
+  "unopposed": true
+ },
+ {
+  "office": "Justice of the Supreme Court, 3rd Supreme Court District",
+  "name": "Debra Hembree Lambert",
+  "party": null,
+  "unopposed": true
+ }
+]

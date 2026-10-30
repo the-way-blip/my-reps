@@ -1,0 +1,740 @@
+{
+  "Lindsey Tichenor": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes taxpayer funds for Planned Parenthood; would allow abortion only to protect the mother's life."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees marriage is one man and one woman; agrees gender transition of a child is child abuse."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says the Second Amendment should not be infringed and supports no added restrictions."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: calls free enterprise essential; opposes taxpayer-funded lobbying; supports zero-based budgeting."
+    }
+  },
+  "Gary M. Boswell": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports protecting life from conception to natural death; opposes taxpayer funds for Planned Parenthood; would allow abortion only to save the mother's life; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports very few gun restrictions, naming only examples such as handguns for minors and machine guns."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports reducing government employees through attrition."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: calls free enterprise and property rights essential; opposes a government-set minimum wage and taxpayer-funded lobbying."
+    }
+  },
+  "Matt Deneen": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports protecting life from conception; opposes taxpayer funds for Planned Parenthood; would allow abortion only in a medical emergency; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly supports the Second Amendment and Kentucky as a Second Amendment sanctuary state."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees with eliminating the U.S. Department of Education; supports more audits and oversight of government."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: calls free enterprise essential and opposes taxpayer-funded lobbying."
+    }
+  },
+  "Gex \"jay\" Williams": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes taxpayer funds for Planned Parenthood; would allow abortion only under Kentucky's medical-emergency law; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: would bar gun possession only for people who are incarcerated, institutionalized, or on probation for violent felonies or sex crimes."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports ending Certificate of Need rules."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says the free market should set wages; opposes taxpayer-funded lobbying; supports cutting fraud, waste and abuse."
+    }
+  },
+  "Shelley \"Funke\" Frommeyer": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports protecting life from conception; opposes elective abortion except in rare medical emergencies; opposes taxpayer funds for abortion providers; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; opposes males in women's sports and spaces; agrees gender transition of a child is child abuse."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says restrictions on law-abiding gun owners do not protect public safety."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports audits of high-cost programs and using surpluses to pay down debt and pensions; opposes minimum-wage mandates."
+    }
+  },
+  "Everett C. Corley": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports protecting life from conception; opposes taxpayer funds for Planned Parenthood; would allow abortion only to save the mother's life."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse. (The women's-sports answer is recorded as 'Strongly Disagree', which appears inconsistent and was not counted.)"
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: fully supports the Second Amendment with no restrictions."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports a commission to cut government waste and ending DEI programs at universities."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes a minimum wage increase and taxpayer-funded lobbying; calls free enterprise essential."
+    }
+  },
+  "Randy Bridges": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes taxpayer funds for Planned Parenthood; would allow abortion only if the mother's life is at risk; supports enforcing the Comstock Act."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "limitedGov": {
+      "grade": "B",
+      "justification": "Answered iVoterGuide questionnaire: lists a balanced budget requirement and cabinet transparency oversight boards as priorities; did not answer on eliminating the U.S. Department of Education."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says the market should set wages; opposes taxpayer-funded lobbying; calls free enterprise essential."
+    }
+  },
+  "Josh Calloway": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports protecting life from conception; opposes elective abortion and taxpayer funds for Planned Parenthood; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes requiring businesses to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says the Constitution guarantees the right to keep and bear arms."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports eliminating the U.S. Department of Education, zero-based budgeting and freezing bureaucratic growth."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes taxpayer-funded lobbying; says the market should set wages; supports limiting government healthcare programs."
+    }
+  },
+  "D. J. Johnson": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes taxpayer funds for abortion providers; would allow abortion only if the mother's life is at risk; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees marriage is one man and one woman and that gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "B",
+      "justification": "Answered iVoterGuide questionnaire: says gun restrictions should be decided case by case through the courts with due process; considers minimum age standards reasonable."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees with eliminating the U.S. Department of Education (elsewhere suggests making it advisory); supports reviewing every agency."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes taxpayer-funded lobbying; supports cutting Medicaid fraud, government size and foreign aid."
+    }
+  },
+  "Wes Pate": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes taxpayer funds for Planned Parenthood; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees gender transition of a child is child abuse; opposes males in women's sports and spaces; did not answer the marriage item."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees with eliminating the U.S. Department of Education."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: calls free enterprise essential; says a minimum wage should apply only to temporary or teen jobs."
+    }
+  },
+  "Joseph Redmon": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with no taxpayer funds for Planned Parenthood; opposes elective abortion, allowing it only if the baby has died in the womb."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees marriage is one man and one woman; agrees gender transition of a child is child abuse."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: generally opposes new gun restrictions, limiting them to people who show they will not follow the rules."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports smaller government each year; strongly agrees with eliminating the U.S. Department of Education."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports finishing the elimination of the state income tax; opposes taxpayer-funded lobbying and a government-set minimum wage."
+    }
+  },
+  "Chris Lewis": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with no taxpayer funds for Planned Parenthood; agrees the Comstock Act should be enforced; did not answer the other abortion items."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes males in women's sports and spaces; did not answer the marriage and child-transition items."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees free enterprise is essential; did not answer the other economic items."
+    }
+  },
+  "Bret Shultz": {
+    "proLife": {
+      "grade": "C",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception and opposes taxpayer funds for Planned Parenthood, but would allow elective abortion for rape, incest, fetal defects or the mother's life, and disagrees that embryos created through artificial methods should be protected."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; says gender transition of a child is child abuse and should be a felony; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "B",
+      "justification": "Answered iVoterGuide questionnaire: neutral on requiring businesses to provide services that violate their beliefs, while commenting that private owners cannot be told whom to serve."
+    },
+    "secondAmendment": {
+      "grade": "D",
+      "justification": "Answered iVoterGuide questionnaire: says background checks should be required to buy firearms at gun shows and flea markets."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports downsizing government; agrees with eliminating the U.S. Department of Education."
+    },
+    "fiscal": {
+      "grade": "C",
+      "justification": "Answered iVoterGuide questionnaire: agrees free enterprise is essential and opposes taxpayer-funded lobbying; supports raising the minimum wage with inflation and expanding gambling."
+    }
+  },
+  "John F. Hodgson": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes taxpayer funds for Planned Parenthood; would allow abortion only for the mother's life; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says only active criminals and the dangerously mentally ill should be barred from owning guns."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports eliminating needless regulations and boards."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports cutting taxes every year; opposes taxpayer-funded lobbying and a minimum wage."
+    }
+  },
+  "Carrie Sanders McKeehan": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees abortion providers, including Planned Parenthood, should not receive taxpayer funds; did not answer the other abortion items."
+    }
+  },
+  "Matt Lockett": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception to natural death; would allow abortion only to save the mother's life; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says the Constitution places no restrictions on gun ownership; opposes restrictions beyond age limits."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports cutting department baselines and ending no-bid contracts."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes taxpayer-funded lobbying; supports market-driven wages and Medicaid work requirements."
+    }
+  },
+  "Adam Moore": {
+    "secondAmendment": {
+      "grade": "D",
+      "justification": "Answered iVoterGuide questionnaire: names opposition to 3-D printed ghost guns and bump-stock configurations as the restrictions needed."
+    },
+    "fiscal": {
+      "grade": "D",
+      "justification": "Answered iVoterGuide questionnaire: supports raising Kentucky's minimum wage to a living wage and a Medicare-based public option; strongly agrees free enterprise is essential."
+    }
+  },
+  "Candy Massaroni": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes elective abortion and taxpayer funds for abortion providers; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says no gun restrictions are needed."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports reducing the size of state government."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: calls free enterprise essential; supports free-market wages and agency audits; opposes taxpayer-funded lobbying."
+    }
+  },
+  "Daniel A. Fister": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports protecting life from conception; opposes taxpayer funds for abortion providers; would allow abortion in no circumstances."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes gun restrictions for law-abiding adults who are not mentally ill."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports cutting Kentucky's income tax to zero and cutting duplicate programs and fraud; opposes taxpayer-funded lobbying."
+    }
+  },
+  "Jennifer Henson Decker": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes elective abortion; supports Kentucky's ban with only a life-of-the-mother exception; opposes taxpayer funds for Planned Parenthood."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: calls the Second Amendment an individual right subject only to historically rooted limits, such as for felons and the mentally ill."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports zero-based budgeting and sunsetting programs."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes taxpayer-funded lobbying and a government-set minimum wage; supports banning no-bid contracts."
+    }
+  },
+  "Marianne Proctor": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes taxpayer funds for Planned Parenthood; would allow abortion only for ectopic pregnancy or imminent danger to the mother; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports restrictions only for violent felons, domestic abusers and the dangerously severely mentally ill."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports cutting SNAP and Medicaid fraud."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes taxpayer-funded lobbying and a government-set minimum wage."
+    }
+  },
+  "William Nick Whalen": {
+    "secondAmendment": {
+      "grade": "D",
+      "justification": "Answered iVoterGuide questionnaire: says all guns should be legal, paired with red-flag laws and registration of non-hunting weapons."
+    },
+    "limitedGov": {
+      "grade": "F",
+      "justification": "Answered iVoterGuide questionnaire: opposes eliminating the U.S. Department of Education."
+    },
+    "fiscal": {
+      "grade": "C",
+      "justification": "Answered iVoterGuide questionnaire: supports a living wage; opposes taxpayer-funded lobbying; supports ending private-prison contracts described as 'buddy deals'."
+    }
+  },
+  "T. J. Roberts": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes abortion with no exceptions; opposes taxpayer funds for abortion providers; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman and says Obergefell was wrongly decided; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes all gun restrictions."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports eliminating the U.S. Department of Education and a government that governs least."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports a Taxpayer Bill of Rights sending tax increases to the ballot, a state efficiency review and cutting corporate handouts; opposes taxpayer-funded lobbying."
+    }
+  },
+  "Terry Hatton": {
+    "proLife": {
+      "grade": "B",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception and opposes taxpayer funds for Planned Parenthood; would allow abortion for rape, incest or the mother's life."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse. (The women's-sports answer is recorded as 'Strongly Disagree', which appears inconsistent and was not counted.)"
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: affirms the right to bear arms, with felons and the dangerously mentally ill losing it."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education."
+    },
+    "fiscal": {
+      "grade": "B",
+      "justification": "Answered iVoterGuide questionnaire: supports auditing spending and cutting bureaucracy; opposes taxpayer-funded lobbying; strongly agrees with expanding gambling for revenue."
+    }
+  },
+  "Steven Doan": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception to natural death; opposes elective abortion in any circumstance and taxpayer funds for Planned Parenthood."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes any added gun restrictions; supports expanding permitless carry."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports cutting agencies and programs."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes minimum wage laws and taxpayer-funded lobbying; supports eliminating subsidies."
+    }
+  },
+  "Mike Fisher": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports protecting life from conception; would allow abortion only to save the mother's life; opposes taxpayer funds for Planned Parenthood."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes requiring people to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: calls gun ownership a constitutional right and supports no restrictions beyond current felon and mental-illness laws."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports eliminating the U.S. Department of Education and term limits."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports lower tax rates with matching budget cuts; opposes taxpayer-funded lobbying and expanded gambling."
+    }
+  },
+  "Geoffrey M. \"Geoff\" Young": {
+    "proLife": {
+      "grade": "F",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that life should be protected from conception; opposes defunding Planned Parenthood; supports codifying Roe v. Wade."
+    },
+    "marriage": {
+      "grade": "B",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that marriage should be defined as one man and one woman, but agrees gender transition of a child is child abuse and opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "C",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs; supports ending religious tax exemptions."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says no restrictions on gun ownership are needed."
+    },
+    "limitedGov": {
+      "grade": "D",
+      "justification": "Answered iVoterGuide questionnaire: neutral on eliminating the U.S. Department of Education; supports a state bank and universal government-funded healthcare."
+    },
+    "fiscal": {
+      "grade": "C",
+      "justification": "Answered iVoterGuide questionnaire: supports a $15 federal minimum wage; opposes taxpayer-funded lobbying."
+    }
+  },
+  "Jason Griffith": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes taxpayer funds for abortion providers; states that abortion is something the candidate does not believe in."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says no gun restrictions should be imposed."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees with eliminating the U.S. Department of Education; supports cutting waste and bureaucracy."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: calls free enterprise essential; opposes taxpayer-funded lobbying."
+    }
+  },
+  "Deanna Frazier Gordon": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception to natural death; would allow abortion only to protect the mother's health; opposes taxpayer funds for Planned Parenthood."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: describes being a strong Second Amendment defender and opposes new restrictions."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees with eliminating the U.S. Department of Education; supports reducing government and red tape."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes raising the minimum wage and taxpayer-funded lobbying; supports a larger rainy day fund."
+    }
+  },
+  "Tanner Hesterberg": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes abortion except to protect the mother's life; supports Kentucky's current laws with no added exceptions; opposes taxpayer funds for abortion providers; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports marriage as one man and one woman; agrees gender transition of a child is child abuse."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes requiring businesses to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes added gun restrictions on law-abiding citizens."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports eliminating the U.S. Department of Education and cutting executive-branch waste."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: supports continuing to cut the income tax toward zero; opposes a minimum wage increase and taxpayer-funded lobbying."
+    }
+  },
+  "Richard Lee White": {
+    "proLife": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: strongly agrees life should be protected from conception; opposes elective abortion and taxpayer funds for Planned Parenthood; supports enforcing the Comstock Act."
+    },
+    "marriage": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees marriage is one man and one woman; agrees gender transition of a child is child abuse; opposes males in women's sports and spaces."
+    },
+    "religiousLiberty": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: disagrees that businesses should be required to provide services that violate their beliefs."
+    },
+    "secondAmendment": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: says current gun laws are sufficient and supports no new restrictions."
+    },
+    "limitedGov": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: agrees with eliminating the U.S. Department of Education; supports smaller government and fewer regulations."
+    },
+    "fiscal": {
+      "grade": "A",
+      "justification": "Answered iVoterGuide questionnaire: opposes taxpayer-funded lobbying and expanded gambling; says the market should set wages."
+    }
+  }
+}
