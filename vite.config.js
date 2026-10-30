@@ -39,8 +39,8 @@ export default defineConfig({
         importScripts: ['push-sw.js'],
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // 5 MiB
         // Static SEO pages, county ballot JSON and API routes must bypass the SPA shell
-        navigateFallbackDenylist: [/^\/michigan\//, /^\/indiana\//, /^\/wisconsin\//, /^\/iowa\//, /^\/minnesota\//, /^\/ohio\//, /^\/data\//, /^\/api\//, /^\/sitemap\.xml$/, /^\/robots\.txt$/],
-        globIgnores: ['**/michigan/**', '**/indiana/**', '**/wisconsin/**', '**/iowa/**', '**/minnesota/**', '**/ohio/**', '**/data/**', '**/data/ballots/**'],
+        navigateFallbackDenylist: [/^\/michigan\//, /^\/indiana\//, /^\/wisconsin\//, /^\/iowa\//, /^\/minnesota\//, /^\/ohio\//, /^\/kentucky\//, /^\/data\//, /^\/api\//, /^\/sitemap\.xml$/, /^\/robots\.txt$/],
+        globIgnores: ['**/michigan/**', '**/indiana/**', '**/wisconsin/**', '**/iowa/**', '**/minnesota/**', '**/ohio/**', '**/kentucky/**', '**/data/**', '**/data/ballots/**'],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
