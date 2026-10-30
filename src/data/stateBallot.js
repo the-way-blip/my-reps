@@ -18,8 +18,7 @@ export const STATE_BALLOTS = {
   MN: { code: 'MN', name: 'Minnesota', dir: 'mn', idPrefix: 'mn-', live: true },
   // Live since 2026-10-29.
   OH: { code: 'OH', name: 'Ohio', dir: 'oh', idPrefix: 'oh-', live: true },
-  // Preview only until approved for launch.
-  KY: { code: 'KY', name: 'Kentucky', dir: 'ky', idPrefix: 'ky-', live: false },
+  KY: { code: 'KY', name: 'Kentucky', dir: 'ky', idPrefix: 'ky-', live: true },
 }
 
 // The state's config when its ballot is available on this host, else null (Michigan uses its own pipeline)

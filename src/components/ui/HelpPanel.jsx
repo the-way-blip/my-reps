@@ -58,8 +58,8 @@ const FAQS = [
   {
     category: 'Build My Ballot',
     question: 'What elections are covered?',
-    answer: 'The November 3, 2026 general election in Michigan, Indiana, Iowa, Wisconsin, Minnesota and Ohio — every statewide, congressional and legislative race with graded candidates, from each state\'s official election source. Michigan, Indiana, Iowa, Wisconsin and Minnesota also include county, township, city and school board races and local proposals. Ohio includes county offices and local levies for its ten largest counties; other Ohio counties get the statewide races plus a link to their county board of elections.',
-    keywords: ['election', 'state', 'coverage', 'michigan', 'indiana', 'iowa', 'wisconsin', 'minnesota', 'ohio', 'which'],
+    answer: 'The November 3, 2026 general election in Michigan, Indiana, Iowa, Wisconsin, Minnesota, Ohio and Kentucky — every statewide, congressional and legislative race with graded candidates, from each state\'s official election source. Michigan, Indiana, Iowa, Wisconsin and Minnesota also include county, township, city and school board races and local proposals. Ohio includes county offices and local levies for its ten largest counties; other Ohio counties get the statewide races plus a link to their county board of elections. Kentucky includes every federal, legislative and judicial race and Amendment 1, plus a link to each county\'s official sample ballot for county, city and school races.',
+    keywords: ['election', 'state', 'coverage', 'michigan', 'indiana', 'iowa', 'wisconsin', 'minnesota', 'ohio', 'kentucky', 'which'],
   },
   {
     category: 'Build My Ballot',
@@ -70,8 +70,8 @@ const FAQS = [
   {
     category: 'Build My Ballot',
     question: 'Some of my local races are missing. Why?',
-    answer: 'Local races come from each state\'s official sample ballots or candidate lists. Where a county hasn\'t been added yet (most Ohio counties, and three Iowa counties), the page says so and links to your county board or auditor\'s sample ballot. Seats elected by a district we can\'t pin to your address are shown as "may be on your ballot."',
-    keywords: ['missing', 'local', 'county', 'township', 'school', 'levy', 'ohio', 'iowa'],
+    answer: 'Local races come from each state\'s official sample ballots or candidate lists. Where a county hasn\'t been added yet (most Ohio counties, all Kentucky counties, and three Iowa counties), the page says so and links to your county board or auditor\'s sample ballot. Seats elected by a district we can\'t pin to your address are shown as "may be on your ballot."',
+    keywords: ['missing', 'local', 'county', 'township', 'school', 'levy', 'ohio', 'iowa', 'kentucky'],
   },
   {
     category: 'Build My Ballot',
